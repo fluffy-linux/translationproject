@@ -1,4 +1,4 @@
-# Korean messages for GNU textutils
+# Korean messages for gnulib.
 # Copyright (C) 1996, 2001, 2002 Free Software Foundation, Inc.
 # Bang Jun-Young <bangjy@nownuri.nowcom.co.kr>, 1996-1997.
 # Changwoo Ryu <cwryu@debian.org>, 2001-2002.
