@@ -1,0 +1,222 @@
+# Translation of `gettext-runtime' messages to Japanese.
+# Copyright (C) 1999, 2002, 2003 Free Software Foundation, Inc.
+# Masahito Yamaga <ma@yama-ga.com>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU gettext-runtime 0.12-pre1\n"
+"POT-Creation-Date: 2003-05-12 19:47+0200\n"
+"PO-Revision-Date: 2003-02-22 20:53+0900\n"
+"Last-Translator: Masahito Yamaga <ma@yama-ga.com>\n"
+"Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=EUC-JP\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../gettext-tools/lib/error.c:137 ../gettext-tools/lib/error.c:165
+msgid "Unknown system error"
+msgstr "未知のシステムエラー"
+
+#: ../gettext-tools/lib/getopt.c:689 ../gettext-tools/lib/getopt.c:701
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: オプション `%s' は曖昧です\n"
+
+#: ../gettext-tools/lib/getopt.c:734 ../gettext-tools/lib/getopt.c:738
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: オプション `--%s' には引数はありません\n"
+
+#: ../gettext-tools/lib/getopt.c:747 ../gettext-tools/lib/getopt.c:752
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: オプション `%c%s' には引数はありません\n"
+
+#: ../gettext-tools/lib/getopt.c:788 ../gettext-tools/lib/getopt.c:801
+#: ../gettext-tools/lib/getopt.c:1090 ../gettext-tools/lib/getopt.c:1103
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: オプション `%s' には引数が必要です\n"
+
+#: ../gettext-tools/lib/getopt.c:839 ../gettext-tools/lib/getopt.c:842
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: オプション `--%s' は認識されません\n"
+
+#: ../gettext-tools/lib/getopt.c:850 ../gettext-tools/lib/getopt.c:853
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: オプション `%c%s' は認識されません\n"
+
+#: ../gettext-tools/lib/getopt.c:900 ../gettext-tools/lib/getopt.c:903
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: 不正なオプション -- %c\n"
+
+#: ../gettext-tools/lib/getopt.c:909 ../gettext-tools/lib/getopt.c:912
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: 無効なオプション -- %c\n"
+
+#: ../gettext-tools/lib/getopt.c:959 ../gettext-tools/lib/getopt.c:970
+#: ../gettext-tools/lib/getopt.c:1156 ../gettext-tools/lib/getopt.c:1169
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: 引数が必要なオプション -- %c\n"
+
+#: ../gettext-tools/lib/getopt.c:1022 ../gettext-tools/lib/getopt.c:1033
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: オプション `-W %s' は曖昧です\n"
+
+#: ../gettext-tools/lib/getopt.c:1057 ../gettext-tools/lib/getopt.c:1069
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: オプション `-W %s' には引数はありません\n"
+
+#: ../gettext-tools/lib/xmalloc.c:41
+msgid "memory exhausted"
+msgstr "メモリを使い果たしました"
+
+#: src/gettext.c:129 src/ngettext.c:120
+#, c-format, no-wrap
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+"\n"
+"[参考訳]\n"
+"これはフリー・ソフトウェアです. コピーの条件についてはソースをお読みください.\n"
+"市場性及び特定目的適合性の如何によらず, いかなる保証もありません.\n"
+"\n"
+
+#: src/gettext.c:134 src/ngettext.c:125
+#, c-format
+msgid "Written by %s.\n"
+msgstr "作者 %s.\n"
+
+#: src/gettext.c:152 src/ngettext.c:137
+msgid "too many arguments"
+msgstr "引数が多すぎます"
+
+#: src/gettext.c:162 src/ngettext.c:149
+msgid "missing arguments"
+msgstr "引数がありません"
+
+#: src/gettext.c:233 src/ngettext.c:203
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "より多くの情報を得るためには `%s --help' と入力してください.\n"
+
+#: src/gettext.c:238
+#, c-format, no-wrap
+msgid ""
+"Usage: %s [OPTION] [[TEXTDOMAIN] MSGID]\n"
+"or:    %s [OPTION] -s [MSGID]...\n"
+msgstr ""
+"使用法: %s [オプション] [[TEXTDOMAIN] MSGID]\n"
+"または: %s [オプション] -s [MSGID]...\n"
+
+#: src/gettext.c:244
+#, no-wrap
+msgid "Display native language translation of a textual message.\n"
+msgstr "原文のメッセージの自国語翻訳を表示.\n"
+
+#: src/gettext.c:248
+#, no-wrap
+msgid ""
+"  -d, --domain=TEXTDOMAIN   retrieve translated messages from TEXTDOMAIN\n"
+"  -e                        enable expansion of some escape sequences\n"
+"  -E                        (ignored for compatibility)\n"
+"  -h, --help                display this help and exit\n"
+"  -n                        suppress trailing newline\n"
+"  -V, --version             display version information and exit\n"
+"  [TEXTDOMAIN] MSGID        retrieve translated message corresponding\n"
+"                            to MSGID from TEXTDOMAIN\n"
+msgstr ""
+"  -d, --domain=TEXTDOMAIN   TEXTDOMAIN から翻訳されたメッセージを取り出す\n"
+"  -e                        エスケープシーケンスを展開する\n"
+"  -E                        (互換性のために無視される)\n"
+"  -h, --help                このヘルプを表示して終了\n"
+"  -n                        末尾の改行を出力しない\n"
+"  -V, --version             バージョン情報を表示して終了\n"
+"  [TEXTDOMAIN] MSGID        MSGID に応じた翻訳メッセージを TEXTDOMAIN から\n"
+"                            取り出す\n"
+
+#: src/gettext.c:259
+#, c-format, no-wrap
+msgid ""
+"If the TEXTDOMAIN parameter is not given, the domain is determined from the\n"
+"environment variable TEXTDOMAIN.  If the message catalog is not found in the\n"
+"regular directory, another location can be specified with the environment\n"
+"variable TEXTDOMAINDIR.\n"
+"When used with the -s option the program behaves like the `echo' command.\n"
+"But it does not simply copy its arguments to stdout.  Instead those messages\n"
+"found in the selected catalog are translated.\n"
+"Standard search directory: %s\n"
+msgstr ""
+"もし TEXTDOMAIN パラメータが指定されなければ, 環境変数 TEXTDOMAIN から\n"
+"ドメインが決まります. もし標準のディレクトリにメッセージカタログが\n"
+"見つからなければ, 環境変数 TEXTDOMAINDIR で指定された場所から探します.\n"
+"-s オプションをつけて使うとプログラムは `echo' コマンドのように動作します.\n"
+"しかしその引数を単にそのまま標準出力にコピーするわけではありません.\n"
+"選択されたカタログ中に指定されたメッセージがあれば, そのメッセージの代わりに\n"
+"翻訳されたものを表示します.\n"
+"標準の検索ディレクトリ: %s\n"
+
+#: src/gettext.c:270 src/ngettext.c:237
+msgid "Report bugs to <bug-gnu-gettext@gnu.org>.\n"
+msgstr "バグレポートは <bug-gnu-gettext@gnu.org> まで.\n"
+
+#: src/ngettext.c:208
+#, c-format, no-wrap
+msgid "Usage: %s [OPTION] [TEXTDOMAIN] MSGID MSGID-PLURAL COUNT\n"
+msgstr "使用法: %s [オプション] [TEXTDOMAIN] MSGID MSGID-PLURAL COUNT\n"
+
+#: src/ngettext.c:213
+#, no-wrap
+msgid ""
+"Display native language translation of a textual message whose grammatical\n"
+"form depends on a number.\n"
+msgstr "文法上, 形式が数によって異なっている原文メッセージの自国語翻訳を表示.\n"
+
+#: src/ngettext.c:218
+#, no-wrap
+msgid ""
+"  -d, --domain=TEXTDOMAIN   retrieve translated message from TEXTDOMAIN\n"
+"  -e                        enable expansion of some escape sequences\n"
+"  -E                        (ignored for compatibility)\n"
+"  -h, --help                display this help and exit\n"
+"  -V, --version             display version information and exit\n"
+"  [TEXTDOMAIN]              retrieve translated message from TEXTDOMAIN\n"
+"  MSGID MSGID-PLURAL        translate MSGID (singular) / MSGID-PLURAL (plural)\n"
+"  COUNT                     choose singular/plural form based on this value\n"
+msgstr ""
+"  -d, --domain=TEXTDOMAIN   TEXTDOMAIN から翻訳されたメッセージを取り出す\n"
+"  -e                        エスケープシーケンスを展開する\n"
+"  -E                        (互換性のために無視される)\n"
+"  -h, --help                このヘルプを表示して終了\n"
+"  -V, --version             バージョン情報を表示して終了\n"
+"  [TEXTDOMAIN]              翻訳メッセージを TEXTDOMAIN から取り出す\n"
+"  MSGID MSGID-PLURAL        MSGID (単数形) / MSGID-PLURAL (複数形) を翻訳\n"
+"  COUNT                     この値を基本にして単数/複数形を選択\n"
+
+#: src/ngettext.c:229
+#, c-format, no-wrap
+msgid ""
+"If the TEXTDOMAIN parameter is not given, the domain is determined from the\n"
+"environment variable TEXTDOMAIN.  If the message catalog is not found in the\n"
+"regular directory, another location can be specified with the environment\n"
+"variable TEXTDOMAINDIR.\n"
+"Standard search directory: %s\n"
+msgstr ""
+"もし TEXTDOMAIN パラメータが指定されなければ, 環境変数 TEXTDOMAIN から\n"
+"ドメインが決まります. もし標準のディレクトリにメッセージカタログが\n"
+"見つからなければ, 環境変数 TEXTDOMAINDIR で指定された場所から探します.\n"
+"標準の検索ディレクトリ: %s\n"
