@@ -1,4 +1,4 @@
-# coreutils-5.2.1.af.po.
+# Afrikaans translation for gnulib.
 # Copyright (C) 2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Petri Jooste <rkwjpj@puknet.puk.ac.za>, 2004.
