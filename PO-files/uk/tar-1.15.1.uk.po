@@ -1,0 +1,1778 @@
+# Ukrainian messages for GNU tar -*- mode: po; buffer-file-coding-system: utf-8; -*-
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Sergey Poznyakoff <gray@gnu.org>, 2005.
+#
+# Local Variables:
+# Local IspellDict: ukrainian
+# End:
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tar 1.15.1\n"
+"Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
+"POT-Creation-Date: 2004-12-21 17:11+0200\n"
+"PO-Revision-Date: 2005-02-20 14:10+0200\n"
+"Last-Translator: Sergey Poznyakoff <gray@gnu.org>\n"
+"Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: lib/argmatch.c:137
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "неправильний аргумент %s для %s"
+
+#: lib/argmatch.c:138
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "неоднозначний аргумент %s для %s"
+
+#: lib/argmatch.c:157
+#, c-format
+msgid "Valid arguments are:"
+msgstr "Дозволені аргументи такі:"
+
+#: lib/error.c:123 rmt/rmt.c:92
+msgid "Unknown system error"
+msgstr "Невідома системна помилка"
+
+#: lib/getopt.c:551 lib/getopt.c:570
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: опція `%s' неоднозначна\n"
+
+#: lib/getopt.c:603 lib/getopt.c:607
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: опція `--%s' не може мати аргументу\n"
+
+#: lib/getopt.c:616 lib/getopt.c:621
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: опція `%c%s' не може мати аргументу\n"
+
+#: lib/getopt.c:667 lib/getopt.c:689 lib/getopt.c:1020 lib/getopt.c:1042
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: опція `%s' вимагає аргумент\n"
+
+#: lib/getopt.c:727 lib/getopt.c:730
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: невідома опція `--%s'\n"
+
+#: lib/getopt.c:738 lib/getopt.c:741
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: невідома опція `%c%s'\n"
+
+#: lib/getopt.c:796 lib/getopt.c:799
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: недопустима опція -- %c\n"
+
+#: lib/getopt.c:805 lib/getopt.c:808
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: невірна опція -- %c\n"
+
+#: lib/getopt.c:863 lib/getopt.c:882 lib/getopt.c:1095 lib/getopt.c:1116
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: опція вимагає аргумент -- %c\n"
+
+#: lib/getopt.c:935 lib/getopt.c:954
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: опція `-W %s' неоднозначна\n"
+
+#: lib/getopt.c:978 lib/getopt.c:999
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: опція `-W %s' не може мати аргументу\n"
+
+#: lib/human.c:484
+msgid "block size"
+msgstr "розмір блока"
+
+#: lib/quotearg.c:240
+msgid "`"
+msgstr "`"
+
+#: lib/quotearg.c:241
+msgid "'"
+msgstr "'"
+
+#: lib/rtapelib.c:297
+msgid "exec/tcp: Service not available"
+msgstr "exec/tcp: сервіс відсутній"
+
+#: lib/rtapelib.c:301
+msgid "stdin"
+msgstr "stdin"
+
+#: lib/rtapelib.c:304
+msgid "stdout"
+msgstr "stdout"
+
+#: lib/rtapelib.c:512
+msgid "Cannot execute remote shell"
+msgstr "Не вдалося запустити віддалену оболонку"
+
+#: lib/argp-help.c:194
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
+msgstr "%.*s: параметр ARGP_HELP_FMT вимагає значення"
+
+#: lib/argp-help.c:203
+#, c-format
+msgid "%.*s: Unknown ARGP_HELP_FMT parameter"
+msgstr "%.*s: Невідомий параметр ARGP_HELP_FMT"
+
+#: lib/argp-help.c:215
+#, c-format
+msgid "Garbage in ARGP_HELP_FMT: %s"
+msgstr "Хибні дані в ARGP_HELP_FMT: %s"
+
+#: lib/argp-help.c:1188
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Аргументи, обов'язкові для довгих ключів, є обов'язковими й для коротких."
+
+#: lib/argp-help.c:1575
+msgid "Usage:"
+msgstr "Використання:"
+
+#: lib/argp-help.c:1579
+msgid "  or: "
+msgstr " чи: "
+
+#: lib/argp-help.c:1591
+msgid " [OPTION...]"
+msgstr " [ОПЦІЯ...]"
+
+#: lib/argp-help.c:1618
+#, c-format
+msgid "Try `%s --help' or `%s --usage' for more information.\n"
+msgstr "Спробуйте `%s --help' або `%s --usage' для отримання докладнішого опису.\n"
+
+#: lib/argp-help.c:1646 src/tar.c:1252
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr "Про помилки звітуйте на <%s>.\n"
+
+#: rmt/rmt.c:144
+msgid "rmtd: Cannot allocate buffer space\n"
+msgstr "rmtd: Не вдається виділити простір для буфера\n"
+
+#: rmt/rmt.c:146
+msgid "Cannot allocate buffer space"
+msgstr "Не вдається виділити простір для буфера"
+
+#: rmt/rmt.c:256
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Спробуйте `%s --help' для отримання докладнішого опису.\n"
+
+#: rmt/rmt.c:260
+#, c-format
+msgid ""
+"Usage: %s [OPTION]\n"
+"Manipulate a tape drive, accepting commands from a remote process.\n"
+"\n"
+"  --version  Output version info.\n"
+"  --help  Output this help.\n"
+msgstr ""
+"Використання: %s [ОПЦІЯ]\n"
+"Керує стрічковим пристроєм, отримуючи команди від віддаленого процесу.\n"
+"\n"
+"  --version  Вивести версію програми та вийти.\n"
+"  --help     Вивести цю довідку\n"
+
+#: rmt/rmt.c:267
+#, c-format
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+"\n"
+"Про помилки звітуйте на <%s>.\n"
+
+#: rmt/rmt.c:301
+msgid ""
+"This program comes with NO WARRANTY, to the extent permitted by law.\n"
+"You may redistribute it under the terms of the GNU General Public License;\n"
+"see the file named COPYING for details."
+msgstr ""
+"Ця програма постачається БЕЗ БУДЬ-ЯКОЇ ГАРАНТІЇ, у межах дозволених\n"
+"законом. Ви можете розповсюджувати її на умовах ліцензії GNU General\n"
+"Public License; Додаткову інформацію дивіться у файл з назвою COPYING."
+
+#: rmt/rmt.c:400 rmt/rmt.c:520 rmt/rmt.c:530
+msgid "Seek offset out of range"
+msgstr "Зміщення за межами діапазону"
+
+#: rmt/rmt.c:413
+msgid "Seek direction out of range"
+msgstr "Напрямок зміщення за межами діапазону"
+
+#: rmt/rmt.c:452
+msgid "rmtd: Premature eof\n"
+msgstr "rmtd: передчасне закінчення файла\n"
+
+#: rmt/rmt.c:454
+msgid "Premature end of file"
+msgstr "Передчасне закінчення файла"
+
+#: rmt/rmt.c:562
+#, c-format
+msgid "rmtd: Garbage command %c\n"
+msgstr "rmtd: Хибна команда %c\n"
+
+#: rmt/rmt.c:564
+msgid "Garbage command"
+msgstr "Хибна команда"
+
+#: src/buffer.c:263
+#, c-format
+msgid "Total bytes written: %s (%s, %s/s)\n"
+msgstr "Загальна кількість записаних байтів: %s (%s, %s/s)\n"
+
+#: src/buffer.c:340
+msgid "(pipe)"
+msgstr "(канал)"
+
+#: src/buffer.c:388
+msgid "Invalid value for record_size"
+msgstr "Недійсне значення record_size"
+
+#: src/buffer.c:391
+msgid "No archive name given"
+msgstr "Не вказано назви архіву"
+
+#: src/buffer.c:441
+msgid "Cannot verify stdin/stdout archive"
+msgstr "Неможливо перевіряти архів, записаний до stdout"
+
+#: src/buffer.c:454
+#, c-format
+msgid "Archive is compressed. Use %s option"
+msgstr "Архів стиснений. Використовуйте опцію %s"
+
+#: src/buffer.c:526
+#, c-format
+msgid "Archive not labeled to match %s"
+msgstr "Назви тому відсутня в архіві. Не можна порівняти з %s"
+
+#: src/buffer.c:529 src/buffer.c:896
+#, c-format
+msgid "Volume %s does not match %s"
+msgstr "Етикетка тому %s не співпадає з %s"
+
+#: src/buffer.c:567
+#, c-format
+msgid "Write checkpoint %d"
+msgstr "Контрольна відмітка запису %d"
+
+#: src/buffer.c:654
+#, c-format
+msgid "%s: file name too long to be stored in a GNU multivolume header"
+msgstr "%s: назва файлу надто довга щоб зберегти її у заголовку тому GNU"
+
+#: src/buffer.c:733
+msgid "At beginning of tape, quitting now"
+msgstr "На початку стрічки, закінчуємо"
+
+#: src/buffer.c:739
+msgid "Too many errors, quitting"
+msgstr "Надто багато помилок, виконання перервано"
+
+#: src/buffer.c:765
+#, c-format
+msgid "Read %s bytes from %s"
+msgstr "Прочитано %s байт з %s"
+
+#: src/buffer.c:777
+#, c-format
+msgid "Unaligned block (%lu byte) in archive"
+msgid_plural "Unaligned block (%lu bytes) in archive"
+msgstr[0] "Невірне вирівнювання блоку (%lu байт) в архіві"
+msgstr[1] "Невірне вирівнювання блоку (%lu байти) в архіві"
+msgstr[2] "Невірне вирівнювання блоку (%lu байтів) в архіві"
+
+#: src/buffer.c:797
+#, c-format
+msgid "Record size = %lu block"
+msgid_plural "Record size = %lu blocks"
+msgstr[0] "Розмір запису = %lu блок"
+msgstr[1] "Розмір запису = %lu блоки"
+msgstr[2] "Розмір запису = %lu блоків"
+
+#: src/buffer.c:814
+#, c-format
+msgid "Read checkpoint %d"
+msgstr "Контрольна відмітка читання %d"
+
+#: src/buffer.c:905 src/extract.c:1100
+#, c-format
+msgid "Reading %s\n"
+msgstr "Зчитування %s\n"
+
+#: src/buffer.c:909
+msgid "WARNING: No volume header"
+msgstr "ПОПЕРЕДЖЕННЯ: Заголовок тому відсутній"
+
+#: src/buffer.c:917
+#, c-format
+msgid "%s is not continued on this volume"
+msgstr "%s не продовжується у цьому томі"
+
+#: src/buffer.c:931
+#, c-format
+msgid "%s is the wrong size (%s != %s + %s)"
+msgstr "%s є неправильним розміром (%s != %s + %s)"
+
+#: src/buffer.c:943
+msgid "This volume is out of sequence"
+msgstr "Цей том є за межами послідовності"
+
+#: src/buffer.c:1025
+msgid "Cannot backspace archive file; it may be unreadable without -i"
+msgstr "Не вдалося переміститись назад у архіві; можливо архів не можна прочитати без опції -i"
+
+#: src/buffer.c:1057
+msgid "rmtlseek not stopped at a record boundary"
+msgstr "rmtlseek не зупинився на межі запису"
+
+#: src/buffer.c:1108
+#, c-format
+msgid "%s: contains invalid volume number"
+msgstr "%s: містить невірний номер тому"
+
+#: src/buffer.c:1160
+msgid "Volume number overflow"
+msgstr "Переповнення номера тому"
+
+#: src/buffer.c:1179
+#, c-format
+msgid "`%s' command failed"
+msgstr "Виконання `%s' завершилось помилкою"
+
+#: src/buffer.c:1188
+#, c-format
+msgid "Prepare volume #%d for %s and hit return: "
+msgstr "Підготуйте том #%d архіву %s ї натиснить return: "
+
+#: src/buffer.c:1194
+msgid "EOF where user reply was expected"
+msgstr "Кінець файлу, замість очікуваної відповіді"
+
+#: src/buffer.c:1199 src/buffer.c:1229
+msgid "WARNING: Archive is incomplete"
+msgstr "ПОПЕРЕДЖЕННЯ: Незавершений архів"
+
+#: src/buffer.c:1213
+#, c-format
+msgid ""
+" n [name]   Give a new file name for the next (and subsequent) volume(s)\n"
+" q          Abort tar\n"
+" !          Spawn a subshell\n"
+" ?          Print this list\n"
+msgstr ""
+" n [назва]  Вказати назву файла для наступного тому (і подальших томів)\n"
+" q          Перервати роботу\n"
+" !          Викликати оболонку\n"
+" ?          Вивести цю довідку\n"
+
+#: src/buffer.c:1224
+msgid "No new volume; exiting.\n"
+msgstr "Новий том відсутній. Завершення.\n"
+
+#: src/compare.c:105
+#, c-format
+msgid "Could only read %lu of %lu byte"
+msgid_plural "Could only read %lu of %lu bytes"
+msgstr[0] "Вдалося прочитати тільки %lu з %lu байта"
+msgstr[1] "Вдалося прочитати тільки %lu з %lu байтів"
+msgstr[2] "Вдалося прочитати тільки %lu з %lu байтів"
+
+#: src/compare.c:116 src/compare.c:132
+msgid "Contents differ"
+msgstr "Різниця у змісті"
+
+#: src/compare.c:158 src/extract.c:763 src/incremen.c:496 src/list.c:235
+#: src/list.c:412 src/list.c:1282
+msgid "Unexpected EOF in archive"
+msgstr "Неочікуваний кінець файла в архіві"
+
+#: src/compare.c:212
+#, c-format
+msgid "Verify "
+msgstr "Перевірка "
+
+#: src/compare.c:219
+#, c-format
+msgid "%s: Unknown file type '%c', diffed as normal file"
+msgstr "%s: Невідомий тип файлу '%c', перевірюється як звичайний файл"
+
+#: src/compare.c:242 src/compare.c:364 src/compare.c:416 src/compare.c:443
+msgid "File type differs"
+msgstr "Різниця у типі файлу"
+
+#: src/compare.c:249 src/compare.c:378 src/compare.c:422
+msgid "Mode differs"
+msgstr "Різниця у правах доступу"
+
+#: src/compare.c:252
+msgid "Uid differs"
+msgstr "Різниця у значенні UID"
+
+#: src/compare.c:254
+msgid "Gid differs"
+msgstr "Різниця у значенні GID"
+
+#: src/compare.c:257
+msgid "Mod time differs"
+msgstr "Різниця у часі модифікації"
+
+#: src/compare.c:261 src/compare.c:451
+msgid "Size differs"
+msgstr "Різниця у розмірі"
+
+#: src/compare.c:319
+#, c-format
+msgid "Not linked to %s"
+msgstr "Не є посиланням до %s"
+
+#: src/compare.c:342
+msgid "Symlink differs"
+msgstr "Різниця у символічному посиланні"
+
+#: src/compare.c:372
+msgid "Device number differs"
+msgstr "Різниця у номері пристрою"
+
+#: src/compare.c:500
+msgid "Archive contains file names with leading prefixes removed."
+msgstr "Архів містить назви файлів без попереджуючих префіксів."
+
+#: src/compare.c:502
+msgid "Verification may fail to locate original files."
+msgstr "Перевірка може не знайти первинних файлів."
+
+#: src/compare.c:572
+#, c-format
+msgid "VERIFY FAILURE: %d invalid header detected"
+msgid_plural "VERIFY FAILURE: %d invalid headers detected"
+msgstr[0] "ПОМИЛКА ПЕРЕВІРКИ: знайдено %d невірний заголовок"
+msgstr[1] "ПОМИЛКА ПЕРЕВІРКИ: знайдено %d невірних заголовки"
+msgstr[2] "ПОМИЛКА ПЕРЕВІРКИ: знайдено %d невірних заголовків"
+
+#: src/create.c:145
+msgid "Generating negative octal headers"
+msgstr "Створення від'ємних вісімкових заголовків"
+
+#: src/create.c:196
+#, c-format
+msgid "value %s out of %s range %s..%s; substituting %s"
+msgstr "Значення %s поза межами діапазону типа %s %s..%s; заміна на %s"
+
+#: src/create.c:202
+#, c-format
+msgid "value %s out of %s range %s..%s"
+msgstr "значення %s за межами діапазону типа %s %s..%s"
+
+#: src/create.c:481 src/create.c:544
+#, c-format
+msgid "%s: file name is too long (max %d); not dumped"
+msgstr "%s: назва файлу занадто довга (макс. %d); не архівується"
+
+#: src/create.c:491
+#, c-format
+msgid "%s: file name is too long (cannot be split); not dumped"
+msgstr "%s: назва файлу занадто довга (не вдається розділити); не архівується"
+
+#: src/create.c:518
+#, c-format
+msgid "%s: link name is too long; not dumped"
+msgstr "%s: назва посилання занадто довга; не архівується"
+
+#: src/create.c:884
+#, c-format
+msgid "%s: File shrank by %s byte; padding with zeros"
+msgid_plural "%s: File shrank by %s bytes; padding with zeros"
+msgstr[0] "%s: Файл скоротився на %s байт; заповнення нулями"
+msgstr[1] "%s: Файл скоротився на %s байти; заповнення нулями"
+msgstr[2] "%s: Файл скоротився на %s байтів; заповнення нулями"
+
+#: src/create.c:910
+#, c-format
+msgid "%s: file changed as we read it"
+msgstr "%s: файл змінився під час читання"
+
+#: src/create.c:1051
+#, c-format
+msgid "%s: file is on a different filesystem; not dumped"
+msgstr "%s: файл знаходиться в іншої файлової системі; не архівується"
+
+# Не подобається мені це "кешування"...
+#: src/create.c:1061
+#, c-format
+msgid "%s: contains a cache directory tag; not dumped"
+msgstr "%s: містить мітку каталогу кешування; не архівується"
+
+#: src/create.c:1221
+#, c-format
+msgid "%s: Unknown file type; file ignored"
+msgstr "%s: Невідомий тип файла; Файл проігноровано"
+
+#: src/create.c:1320
+#, c-format
+msgid "Missing links to '%s'.\n"
+msgstr "Відсутні деякі посилання до '%s'\n"
+
+#: src/create.c:1387
+#, c-format
+msgid "%s: file is unchanged; not dumped"
+msgstr "%s: файл не змінено; не архівується"
+
+#: src/create.c:1395
+#, c-format
+msgid "%s: file is the archive; not dumped"
+msgstr "%s: файл є архівом; не архівується"
+
+#: src/create.c:1430
+#, c-format
+msgid "%s: File removed before we read it"
+msgstr "%s: Файл було видалено перед тим як tar встиг його прочитати"
+
+#: src/create.c:1523
+#, c-format
+msgid "%s: socket ignored"
+msgstr "%s: гніздо ігнорується"
+
+# FIXME: door?
+#: src/create.c:1528
+#, c-format
+msgid "%s: door ignored"
+msgstr "%s: двері ігноруються"
+
+#: src/delete.c:209 src/list.c:171 src/update.c:163
+msgid "This does not look like a tar archive"
+msgstr "Це не схоже на архів tar"
+
+#: src/delete.c:215 src/list.c:185 src/update.c:168
+msgid "Skipping to next header"
+msgstr "Перехід до наступного заголовка"
+
+#: src/delete.c:280
+msgid "Deleting non-header from archive"
+msgstr "Видалення не-заголовка з архіву"
+
+#: src/extract.c:208
+#, c-format
+msgid "%s: implausibly old time stamp %s"
+msgstr "%s: неймовірно стара дата %s"
+
+#: src/extract.c:211
+#, c-format
+msgid "%s: time stamp %s is %lu s in the future"
+msgstr "%s: мітка часу %s зсунута на %lu сек. до майбутнього"
+
+#: src/extract.c:359
+#, c-format
+msgid "%s: Unexpected inconsistency when making directory"
+msgstr "%s: Неочікувана суперечність під час створення каталогу"
+
+#: src/extract.c:478
+#, c-format
+msgid "Current `%s' is newer"
+msgstr "Існуючий файл `%s' є новіший"
+
+#: src/extract.c:590
+#, c-format
+msgid "%s: Directory renamed before its status could be extracted"
+msgstr "%s: Каталог перейменовано перед тим, як tar встиг витягнути його стан"
+
+#: src/extract.c:655
+#, c-format
+msgid "%s: Was unable to backup this file"
+msgstr "%s: Не вдалося створити резервну копію цього файлу"
+
+#: src/extract.c:722
+msgid "Extracting contiguous files as regular files"
+msgstr "Витягування безперервних файлів у звичайні"
+
+#: src/extract.c:908
+msgid "Attempting extraction of symbolic links as hard links"
+msgstr "Спроба перетворити символічні посилання на жорсткі"
+
+#: src/extract.c:1109
+#, c-format
+msgid "%s: Cannot extract -- file is continued from another volume"
+msgstr "%s: Не вдається витягнути -- файл починається в іншому томі"
+
+#: src/extract.c:1118
+msgid "Visible long name error"
+msgstr "Помилка довгої назви"
+
+#: src/extract.c:1126
+#, c-format
+msgid "%s: Unknown file type '%c', extracted as normal file"
+msgstr "%s: Невідомий тип файлу '%c', спроба витягнути його як звичайний файл"
+
+#: src/extract.c:1211
+msgid "Error is not recoverable: exiting now"
+msgstr "Невиправна помилка: завершення роботи"
+
+#: src/extract.c:1218
+msgid "memory exhausted"
+msgstr "пам'ять вичерпана"
+
+#: src/incremen.c:193
+#, c-format
+msgid "%s: Directory has been renamed"
+msgstr "%s: Каталог перейменовано"
+
+#: src/incremen.c:205
+#, c-format
+msgid "%s: Directory is new"
+msgstr "%s: Новий каталог"
+
+#: src/incremen.c:354
+msgid "Invalid time stamp"
+msgstr "Невірний час файлу"
+
+#: src/incremen.c:357
+msgid "Time stamp out of range"
+msgstr "Значення часу поза допустимими межами"
+
+#: src/incremen.c:381
+msgid "Invalid device number"
+msgstr "Невірний номер пристрою"
+
+#: src/incremen.c:385
+msgid "Device number out of range"
+msgstr "Номер пристрою поза допустимими межами"
+
+#: src/incremen.c:393
+msgid "Invalid inode number"
+msgstr "Невірний номер і-вузла"
+
+#: src/incremen.c:397
+msgid "Inode number out of range"
+msgstr "Номер і-вузла поза допустимими межами"
+
+#: src/incremen.c:524
+#, c-format
+msgid "%s: Not purging directory: unable to stat"
+msgstr "%s: Каталог не очищується: не вдалося виконати stat"
+
+#: src/incremen.c:531
+#, c-format
+msgid "%s: directory is on a different device: not purging"
+msgstr "%s: Каталог знаходиться на іншому пристрої: не очищується"
+
+#: src/incremen.c:539
+#, c-format
+msgid "%s: Deleting %s\n"
+msgstr "%s: Стирання %s\n"
+
+#: src/incremen.c:544
+#, c-format
+msgid "%s: Cannot remove"
+msgstr "%s: Не вдається видалити"
+
+#: src/list.c:117
+#, c-format
+msgid "%s: Omitting"
+msgstr "%s: Пропускається"
+
+#: src/list.c:135
+#, c-format
+msgid "block %s: ** Block of NULs **\n"
+msgstr "блок %s: ** Містить нулі **\n"
+
+#: src/list.c:148
+#, c-format
+msgid "A lone zero block at %s"
+msgstr "Самотній блок нулів, зсув %s"
+
+#: src/list.c:159
+#, c-format
+msgid "block %s: ** End of File **\n"
+msgstr "блок %s: ** Кінець файлу **\n"
+
+#: src/list.c:182 src/list.c:1017 src/list.c:1244
+#, c-format
+msgid "block %s: "
+msgstr "блок %s: "
+
+#: src/list.c:644
+#, c-format
+msgid "Blanks in header where numeric %s value expected"
+msgstr "Пробіли у заголовку замість очікуваного числового значення типу %s"
+
+#: src/list.c:698
+#, c-format
+msgid "Archive octal value %.*s is out of %s range; assuming two's complement"
+msgstr "Вісімкове значення %.*s знаходиться поза межами діапазону типу %s; вважається, що це є двійкове доповнення"
+
+#: src/list.c:708
+#, c-format
+msgid "Archive octal value %.*s is out of %s range"
+msgstr "Вісімкове значення %.*s знаходиться поза межами діапазону типу %s"
+
+# FIXME: base=64?
+#: src/list.c:725
+msgid "Archive contains obsolescent base-64 headers"
+msgstr "Архів містить застарілі заголовки з основою 64"
+
+#: src/list.c:738
+#, c-format
+msgid "Archive signed base-64 string %s is out of %s range"
+msgstr "Архів містить знакову строку з основою 64 %s, що є поза допустимими межами типу %s"
+
+# FIXME: base-256
+#: src/list.c:769
+#, c-format
+msgid "Archive base-256 value is out of %s range"
+msgstr "Значення з основою 256 поза допустимими межами типу %s"
+
+#: src/list.c:797
+#, c-format
+msgid "Archive contains %.*s where numeric %s value expected"
+msgstr "Знайдено %.*s замість числового значення типу %s"
+
+#: src/list.c:818
+#, c-format
+msgid "Archive value %s is out of %s range %s.%s"
+msgstr "Значення %s поза допустимими межами типу %s %s.%s"
+
+#: src/list.c:1048
+msgid "Visible longname error"
+msgstr "Помилка довгої назви"
+
+#: src/list.c:1175
+#, c-format
+msgid " link to %s\n"
+msgstr "посилання до %s\n"
+
+#: src/list.c:1183
+#, c-format
+msgid " unknown file type %s\n"
+msgstr "невідомий тип файла %s\n"
+
+#: src/list.c:1201
+#, c-format
+msgid "--Long Link--\n"
+msgstr "--Довге посилання--\n"
+
+#: src/list.c:1205
+#, c-format
+msgid "--Long Name--\n"
+msgstr "--Довга назва--\n"
+
+#: src/list.c:1209
+#, c-format
+msgid "--Volume Header--\n"
+msgstr "--Заголовок тому--\n"
+
+#: src/list.c:1217
+#, c-format
+msgid "--Continued at byte %s--\n"
+msgstr "--Продовжується з байту %s--\n"
+
+#: src/list.c:1221
+#, c-format
+msgid "--Mangled file names--\n"
+msgstr "--Закодовані назви файлів--\n"
+
+#: src/list.c:1249
+msgid "Creating directory:"
+msgstr "Створення каталогу:"
+
+#: src/mangle.c:54
+msgid "Unexpected EOF in mangled names"
+msgstr "Неочікуваний кінець файла під час читання закодованих назв"
+
+#: src/mangle.c:90 src/misc.c:399 src/misc.c:417
+#, c-format
+msgid "%s: Cannot rename to %s"
+msgstr "%s: Не вдається перейменувати на %s"
+
+#: src/mangle.c:93
+#, c-format
+msgid "Renamed %s to %s"
+msgstr "Перейменовано %s на %s"
+
+#: src/mangle.c:110
+#, c-format
+msgid "%s: Cannot symlink to %s"
+msgstr "%s: Не вдається створити символічне посилання до %s"
+
+#: src/mangle.c:113
+#, c-format
+msgid "Symlinked %s to %s"
+msgstr "Створено символічне посилання %s до %s"
+
+#: src/mangle.c:117
+#, c-format
+msgid "Unknown demangling command %s"
+msgstr "Невідома команда розкодування назв %s"
+
+#: src/misc.c:390
+#, c-format
+msgid "Renaming %s to %s\n"
+msgstr "Перейменовано %s у %s\n"
+
+#: src/misc.c:422
+#, c-format
+msgid "Renaming %s back to %s\n"
+msgstr "Перейменовано %s назад у %s\n"
+
+#: src/misc.c:502
+msgid "Cannot save working directory"
+msgstr "Не вдається зберегти поточний каталог"
+
+#: src/misc.c:508
+msgid "Cannot change working directory"
+msgstr "Не вдається змінити поточний каталог"
+
+#: src/misc.c:552 src/misc.c:561
+#, c-format
+msgid "%s: Cannot %s"
+msgstr "%s: Помилка у функції %s"
+
+#: src/misc.c:570
+#, c-format
+msgid "%s: Warning: Cannot %s"
+msgstr "%s: Попередження: Помилка у функції %s"
+
+#: src/misc.c:585
+#, c-format
+msgid "%s: Cannot change mode to %s"
+msgstr "%s: Не вдається змінити права доступу на %s"
+
+#: src/misc.c:593
+#, c-format
+msgid "%s: Cannot change ownership to uid %lu, gid %lu"
+msgstr "%s: Не вдається змінити власника на uid %lu, gid %lu"
+
+#: src/misc.c:628
+#, c-format
+msgid "%s: Cannot hard link to %s"
+msgstr "%s: Не вдається створити жорстке посилання на %s"
+
+#: src/misc.c:689 src/misc.c:730
+#, c-format
+msgid "%s: Read error at byte %s, reading %lu byte"
+msgid_plural "%s: Read error at byte %s, reading %lu bytes"
+msgstr[0] "%s: Помилка в позиції %s, під час читання %lu байту"
+msgstr[1] "%s: Помилка в позиції %s, під час читання %lu байтів"
+msgstr[2] "%s: Помилка в позиції %s, під час читання %lu байтів"
+
+#: src/misc.c:702
+#, c-format
+msgid "%s: Warning: Read error at byte %s, reading %lu byte"
+msgid_plural "%s: Warning: Read error at byte %s, reading %lu bytes"
+msgstr[0] "%s: Попередження: Помилка в позиції %s, під час читання %lu байту"
+msgstr[1] "%s: Попередження: Помилка в позиції %s, під час читання %lu байтів"
+msgstr[2] "%s: Попередження: Помилка в позиції %s, під час читання %lu байтів"
+
+#: src/misc.c:790
+#, c-format
+msgid "%s: Cannot seek to %s"
+msgstr "%s: Не вдається виконати lseek до %s"
+
+#: src/misc.c:806
+#, c-format
+msgid "%s: Warning: Cannot seek to %s"
+msgstr "%s: Попередження: Не вдається виконати lseek до %s"
+
+#: src/misc.c:824
+#, c-format
+msgid "%s: Cannot create symlink to %s"
+msgstr "%s: Не вдається створити символічне посилання на %s"
+
+#: src/misc.c:892
+#, c-format
+msgid "%s: Wrote only %lu of %lu byte"
+msgid_plural "%s: Wrote only %lu of %lu bytes"
+msgstr[0] "%s: Вдалося записати тільки %lu з %lu байта"
+msgstr[1] "%s: Вдалося записати тільки %lu з %lu байтів"
+msgstr[2] "%s: Вдалося записати тільки %lu з %lu байтів"
+
+#: src/misc.c:918
+msgid "child process"
+msgstr "процес-нащадок"
+
+#: src/misc.c:927
+msgid "interprocess channel"
+msgstr "канал між процесами"
+
+#: src/names.c:372 src/names.c:421 src/names.c:465
+msgid "Missing file name after -C"
+msgstr "Відсутня назва файлу після -C"
+
+#: src/names.c:642 src/names.c:658
+#, c-format
+msgid "%s: Not found in archive"
+msgstr "%s: Не знайдено в архіві"
+
+#: src/names.c:645
+#, c-format
+msgid "%s: Required occurrence not found in archive"
+msgstr "%s: Потрібну копію у архіві не знайдено"
+
+#: src/names.c:1093
+#, c-format
+msgid "Removing leading `%s' from member names"
+msgstr "Видалення початкового префіксу `%s' з назв файлів"
+
+#: src/names.c:1094
+#, c-format
+msgid "Removing leading `%s' from hard link targets"
+msgstr "Видалення початкового префіксу `%s' з назви цілі жорсткого посилання"
+
+#: src/names.c:1107
+msgid "Substituting `.' for empty member name"
+msgstr "Підстановка `.' замість пустої назви файлу"
+
+#: src/names.c:1108
+msgid "Substituting `.' for empty hard link target"
+msgstr "Підстановка `.' замість пустої назви цілі жорсткого посилання"
+
+#: src/tar.c:71
+#, c-format
+msgid "Options `-%s' and `-%s' both want standard input"
+msgstr "Обидві опції -%s і -%s вимагають доступу до стандартного входу"
+
+#: src/tar.c:143
+#, c-format
+msgid "%s: Invalid archive format"
+msgstr "%s: Невірний формат архіву"
+
+#: src/tar.c:167
+msgid "GNU features wanted on incompatible archive format"
+msgstr "Формат архіву є несумісним з розширеними властивостями GNU"
+
+#: src/tar.c:241
+msgid ""
+"GNU `tar' saves many files together into a single tape or disk archive, and can restore individual files from the archive.\n"
+"\n"
+"Examples:\n"
+"  tar -cf archive.tar foo bar  # Create archive.tar from files foo and bar.\n"
+"  tar -tvf archive.tar         # List all files in archive.tar verbosely.\n"
+"  tar -xf archive.tar          # Extract all files from archive.tar.\n"
+"The backup suffix is `~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.\n"
+"The version control may be set with --backup or VERSION_CONTROL, values are:\n"
+"\n"
+"  t, numbered     make numbered backups\n"
+"  nil, existing   numbered if numbered backups exist, simple otherwise\n"
+"  never, simple   always make simple backups\n"
+msgstr ""
+"GNU `tar' записує будь-яку кількість файлів в архів на стрічці або диску а також може витягувати окремі файли з архіву.\n"
+"\n"
+"Приклади:\n"
+"  tar -cf archive.tar foo bar  # Створює archive.tar з файлів foo та bar.\n"
+"  tar -tvf archive.tar         # Виводить докладну інформацію про зміст\n"
+"                               # archive.tar\n"
+"  tar -xf archive.tar          # Витягує усі файли з archive.tar.\n"
+"Суфікс резервних копій встановлюється за допомогою опції --suffix або\n"
+"змінної середовища VERSION_CONTROL. Ось можливі значення:\n"
+"\n"
+"  t, numbered     робити резервні копії з номерами\n"
+"  nil, existing   нумеровані, якщо є нумеровані резервні копії,\n"
+"                  інакше - прості\n"
+"  never, simple   завжди використовувати прості резервні копії\n"
+
+#: src/tar.c:270
+msgid "Main operation mode:"
+msgstr "Режими роботи:"
+
+#: src/tar.c:273
+msgid "list the contents of an archive"
+msgstr "вивести вміст архіву"
+
+#: src/tar.c:275
+msgid "extract files from an archive"
+msgstr "витягнути файли з архіву"
+
+#: src/tar.c:278
+msgid "create a new archive"
+msgstr "створити новий архів"
+
+#: src/tar.c:280
+msgid "find differences between archive and file system"
+msgstr "порівняти файли в архіві з файлами у файлової системі"
+
+#: src/tar.c:283
+msgid "append files to the end of an archive"
+msgstr "додати файли до існуючого архіву"
+
+#: src/tar.c:285
+msgid "only append files newer than copy in archive"
+msgstr "додавати тільки такі файли, що є новішими за їх копії в архіві"
+
+#: src/tar.c:287
+msgid "append tar files to an archive"
+msgstr "додати архів до архіву"
+
+#: src/tar.c:290
+msgid "delete from the archive (not on mag tapes!)"
+msgstr "видалити файли з архіву (не на стрічці!)"
+
+#: src/tar.c:293
+msgid "Operation modifiers:"
+msgstr "Модифікатори режиму роботи:"
+
+#: src/tar.c:296
+msgid "attempt to verify the archive after writing it"
+msgstr "перевірити архів після запису в нього"
+
+#: src/tar.c:298
+msgid "remove files after adding them to the archive"
+msgstr "видаляти файли після додавання до архіву"
+
+#: src/tar.c:300
+msgid "don't replace existing files when extracting"
+msgstr "не заміняти існуючи файли під час витягування"
+
+#: src/tar.c:302
+msgid "don't replace existing files that are newer than their archive copies"
+msgstr "не заміняти існуючи файли що є новішими за їх копії у архіві"
+
+#: src/tar.c:304
+msgid "preserve metadata of existing directories"
+msgstr "зберігати мета-дані існуючих каталогів"
+
+#: src/tar.c:306
+msgid "overwrite existing files when extracting"
+msgstr "перезаписувати існуючі файли під час витягування"
+
+#: src/tar.c:308
+msgid "remove each file prior to extracting over it"
+msgstr "видаляти кожний файл перед витягуванням його копії"
+
+#: src/tar.c:310
+msgid "empty hierarchies prior to extracting directory"
+msgstr "спорожняти старий каталог перед витягуванням його копії з архіву"
+
+#: src/tar.c:312
+msgid "handle sparse files efficiently"
+msgstr "заощаджувати простір під час зберігання розсіяних файлів"
+
+#: src/tar.c:314
+msgid "extract files to standard output"
+msgstr "витягувати файли у стандартний вивід"
+
+# FIXME: incremental
+#: src/tar.c:316
+msgid "handle old GNU-format incremental backup"
+msgstr "обробка старого формату приростового архіву GNU"
+
+#: src/tar.c:317 src/tar.c:390 src/tar.c:455 src/tar.c:514
+msgid "FILE"
+msgstr "ФАЙЛ"
+
+#: src/tar.c:318
+msgid "handle new GNU-format incremental backup"
+msgstr "обробка нового формату приростового архіву GNU"
+
+# FIXME: хммм...
+#: src/tar.c:320
+msgid "do not exit with nonzero on unreadable files"
+msgstr "ігнорувати помилки читання файлів"
+
+#: src/tar.c:321 src/tar.c:385 src/tar.c:398 src/tar.c:484
+msgid "NUMBER"
+msgstr "ЧИСЛО"
+
+#: src/tar.c:322
+msgid "process only the NUMth occurrence of each file in the archive. This option is valid only in conjunction with one of the subcommands --delete, --diff, --extract or --list and when a list of files is given either on the command line or via -T option. NUMBER defaults to 1."
+msgstr "обробляти тільки вказане входження кожного файла в архіві. Ця опція є дійсною тільки разом з однією з опцій --delete, --diff, --extract, --list і з переліком файлів (у командному рядку або за допомогою опції -T). Типове ЧИСЛО: 1."
+
+#: src/tar.c:324
+msgid "Archive is seekable"
+msgstr "Архів підтримує операцію seek"
+
+#: src/tar.c:327
+msgid "Handling of file attributes:"
+msgstr "Обробка атрибутів файлу:"
+
+#: src/tar.c:329 src/tar.c:331 src/tar.c:387
+msgid "NAME"
+msgstr "НАЗВА"
+
+#: src/tar.c:330
+msgid "force NAME as owner for added files"
+msgstr "встановлення вказаного користувача власником доданих файлів"
+
+#: src/tar.c:332
+msgid "force NAME as group for added files"
+msgstr "встановлення групи з вказаною назвою групою власника доданих файлів"
+
+# Ну, і чому це CHANGES??
+#: src/tar.c:333
+msgid "CHANGES"
+msgstr "ПРАВА"
+
+#: src/tar.c:334
+msgid "force (symbolic) mode CHANGES for added files"
+msgstr "встановлення вказаних символічно прав доступу для доданих файлів"
+
+#: src/tar.c:336
+msgid "don't change access times on dumped files"
+msgstr "не відновлювати час доступу доданих файлів"
+
+#: src/tar.c:338
+msgid "don't extract file modified time"
+msgstr "не витягувати час модифікації файлів"
+
+#: src/tar.c:340
+msgid "try extracting files with the same ownership"
+msgstr "витягувати назву власника файлів"
+
+#: src/tar.c:342
+msgid "extract files as yourself"
+msgstr "стати власником витягнутих файлів"
+
+#: src/tar.c:344
+msgid "always use numbers for user/group names"
+msgstr "завжди використовувати числа замість назв власника/групи"
+
+#: src/tar.c:346
+msgid "extract permissions information"
+msgstr "встановлювати права доступу з архіву"
+
+#: src/tar.c:349
+msgid "do not extract permissions information"
+msgstr "не встановлювати права доступу з архіву"
+
+#: src/tar.c:351
+msgid "sort names to extract to match archive"
+msgstr "витягувати файли у порядку їх з'явлення в архіві"
+
+#: src/tar.c:354
+msgid "same as both -p and -s"
+msgstr "те ж, що -p -s разом"
+
+#: src/tar.c:357
+msgid "Device selection and switching:"
+msgstr "Вибір та зміна пристрою:"
+
+#: src/tar.c:359
+msgid "ARCHIVE"
+msgstr "АРХІВ"
+
+#: src/tar.c:360
+msgid "use archive file or device ARCHIVE"
+msgstr "використовувати вказаний файл або пристрій"
+
+#: src/tar.c:362
+msgid "archive file is local even if has a colon"
+msgstr "файл архіву є локальним, навіть якщо його назва містить двокрапку"
+
+#: src/tar.c:363 src/tar.c:365
+msgid "COMMAND"
+msgstr "КОМАНДА"
+
+#: src/tar.c:364
+msgid "use given rmt COMMAND instead of rmt"
+msgstr "використовувати вказану команду замість rmt"
+
+#: src/tar.c:366
+msgid "use remote COMMAND instead of rsh"
+msgstr "використовувати вказану команду замість rsh"
+
+#: src/tar.c:370
+msgid "specify drive and density"
+msgstr "визначає пристрой та густину"
+
+#: src/tar.c:384
+msgid "create/list/extract multi-volume archive"
+msgstr "створити, виводити зміст або витягувати файли з багатотомного архіву"
+
+#: src/tar.c:386
+msgid "change tape after writing NUMBER x 1024 bytes"
+msgstr "змінити стрічку після запису ЧИСЛА x 1024 байтів"
+
+#: src/tar.c:388
+msgid "run script at end of each tape (implies -M)"
+msgstr "запускати сценарій наприкінці кожної стрічки (вмикає -M)"
+
+#: src/tar.c:391
+msgid "use/update the volume number in FILE"
+msgstr "використовувати/обновляти номер тому у ФАЙЛІ"
+
+#: src/tar.c:394
+msgid "Device blocking:"
+msgstr "Блокування пристрою:"
+
+#: src/tar.c:396
+msgid "BLOCKS"
+msgstr "ЧИСЛО-БЛОКІВ"
+
+#: src/tar.c:397
+msgid "BLOCKS x 512 bytes per record"
+msgstr "розмір запису ЧИСЛО-БЛОКІВ x 512 байтів"
+
+#: src/tar.c:399
+msgid "SIZE bytes per record, multiple of 512"
+msgstr "встановити розмір запису у блоках по 512 байтів"
+
+#: src/tar.c:401
+msgid "ignore zeroed blocks in archive (means EOF)"
+msgstr "ігнорувати нульові блоки в архіві (звичайно вказують кінець файлу)"
+
+#: src/tar.c:403
+msgid "reblock as we read (for 4.2BSD pipes)"
+msgstr "розбивати на блоки під час читання (для каналів 4.2BSD)"
+
+#: src/tar.c:406
+msgid "Archive format selection:"
+msgstr "Вибір формату архіву:"
+
+#: src/tar.c:408
+msgid "FORMAT"
+msgstr "ФОРМАТ"
+
+#: src/tar.c:409
+msgid "create archive of the given format."
+msgstr "створити архів у вказаному форматі."
+
+#: src/tar.c:411
+msgid "FORMAT is one of the following:"
+msgstr "ФОРМАТ будь-який з наступних:"
+
+#: src/tar.c:412
+msgid "old V7 tar format"
+msgstr "старий формат V7"
+
+#: src/tar.c:414
+msgid "GNU format as per tar <= 1.12"
+msgstr "формат GNU, сумісний з версією tar <= 1.12"
+
+#: src/tar.c:416
+msgid "GNU tar 1.13.x format"
+msgstr "формат GNU, сумісний з версією tar 1.13.x"
+
+#: src/tar.c:418
+msgid "POSIX 1003.1-1988 (ustar) format"
+msgstr "формат POSIX 1003.1-1988 (ustar)"
+
+#: src/tar.c:420
+msgid "POSIX 1003.1-2001 (pax) format"
+msgstr "формат POSIX 1003.1-2001 (pax)"
+
+#: src/tar.c:421
+msgid "Same as pax"
+msgstr "те ж, що і pax"
+
+#: src/tar.c:424
+msgid "same as --format=v7"
+msgstr "те ж, що і --format=v7"
+
+#: src/tar.c:427
+msgid "same as --format=posix"
+msgstr "те ж, що і --format=posix"
+
+#: src/tar.c:428
+msgid "keyword[[:]=value][,keyword[[:]=value], ...]"
+msgstr "ключове_слово[[:]=значення][,ключове_слово[[:]=значення], ...]\""
+
+#: src/tar.c:429
+msgid "control pax keywords"
+msgstr "керування ключовими словами pax"
+
+#: src/tar.c:430
+msgid "TEXT"
+msgstr "ТЕКСТ"
+
+#: src/tar.c:431
+msgid "create archive with volume name NAME. At list/extract time, use TEXT as a globbing pattern"
+msgstr "створити архів з назвою тому \"ТЕКСТ\". Під час виводу змісту або витягування, використовувати ТЕКСТ як шаблон пошуку тому"
+
+#: src/tar.c:433
+msgid "filter the archive through bzip2"
+msgstr "використовувати bzip2 для стиснення/розтискання архіву"
+
+#: src/tar.c:435
+msgid "filter the archive through gzip"
+msgstr "використовувати gzip для стиснення/розтискання архіву"
+
+#: src/tar.c:439
+msgid "filter the archive through compress"
+msgstr "використовувати compress для стиснення/розтискання архіву"
+
+#: src/tar.c:441
+msgid "PROG"
+msgstr "ПРОГРАМА"
+
+#: src/tar.c:442
+msgid "filter through PROG (must accept -d)"
+msgstr "використовувати ПРОГРАМУ для стиснення/розтискання архіву"
+
+#: src/tar.c:445
+msgid "Local file selection:"
+msgstr "Вибір файлів:"
+
+#: src/tar.c:447
+msgid "DIR"
+msgstr "КАТАЛОГ"
+
+#: src/tar.c:448
+msgid "change to directory DIR"
+msgstr "перейти до вказаного каталогу"
+
+#: src/tar.c:449
+msgid "FILE-OF-NAMES"
+msgstr "ФАЙЛ-З-НАЗВАМИ"
+
+#: src/tar.c:450
+msgid "get names to extract or create from file NAME"
+msgstr "вказаний файл містить перелік назв файлів для додання/витягування"
+
+#: src/tar.c:452
+msgid "-T reads null-terminated names, disable -C"
+msgstr "файл, вказаний з опцією -T, містить назви, відокремлені нульовими символами. Ця опція вимикає -C"
+
+#: src/tar.c:453
+msgid "PATTERN"
+msgstr "ШАБЛОН"
+
+#: src/tar.c:454
+msgid "exclude files, given as a PATTERN"
+msgstr "не обробляти файли, назви яких відповідають вказаному шаблону"
+
+#: src/tar.c:456
+msgid "exclude patterns listed in FILE"
+msgstr "виключити назви що відповідають шаблонам, вказаним у файлі"
+
+#: src/tar.c:458
+msgid "exclude directories containing a cache tag"
+msgstr "виключити каталоги що містять помітку кешування"
+
+#: src/tar.c:460
+msgid "exclusion ignores case"
+msgstr "шаблонах виключення ігнорують відмінності у регістрі символів"
+
+#: src/tar.c:462
+msgid "exclude patterns match file name start"
+msgstr "порівнювати шаблон виключення з назвою файлу починаючи від початку назви"
+
+#: src/tar.c:464
+msgid "exclude patterns match after any / (default)"
+msgstr "порівнювати шаблон виключення з назвою файлу починаючи від будь-якого / (типово)"
+
+#: src/tar.c:466
+msgid "exclusion is case sensitive (default)"
+msgstr "шаблони виключення враховують регістр (типово)"
+
+#: src/tar.c:468
+msgid "exclude patterns are plain strings"
+msgstr "шаблони виключення є простими символьними рядками"
+
+#: src/tar.c:470
+msgid "exclude pattern wildcards do not match '/'"
+msgstr "шаблони виключення не стосуються до '/'"
+
+#: src/tar.c:472
+msgid "avoid descending automatically in directories"
+msgstr "не заходити автоматично у каталоги"
+
+#: src/tar.c:474
+msgid "stay in local file system when creating archive"
+msgstr "залишатися у локальної файлової системі під час створення архіву"
+
+#: src/tar.c:477
+msgid "recurse into directories (default)"
+msgstr "рекурсивно проходити каталоги (типово)"
+
+#: src/tar.c:479
+msgid "don't strip leading `/'s from file names"
+msgstr "не видаляти початкову косу риску `/' з назв файлів"
+
+#: src/tar.c:481
+msgid "dump instead the files symlinks point to"
+msgstr "додавати файли на яки вказують символічні посилання"
+
+#: src/tar.c:482
+msgid "MEMBER-NAME"
+msgstr "НАЗВА-ФАЙЛУ"
+
+#: src/tar.c:483
+msgid "begin at member MEMBER-NAME in the archive"
+msgstr "починати обслуговування архіву з вказаного файлу"
+
+#: src/tar.c:485
+msgid "strip NUMBER leading components from file names"
+msgstr "видаляти вказане ЧИСЛО компонентів з початку назв файлів"
+
+#: src/tar.c:486
+msgid "DATE-OR-FILE"
+msgstr "ДАТА-АБО-ФАЙЛ"
+
+#: src/tar.c:487
+msgid "only store files newer than DATE-OR-FILE"
+msgstr "додавати тільки такі файли, що є новіші за вказану дату або файл"
+
+#: src/tar.c:488 src/tar.c:490
+msgid "DATE"
+msgstr "ДАТА"
+
+#: src/tar.c:489
+msgid "compare date and time when data changed only"
+msgstr "порівнювати тільки дату і час зміни даних"
+
+#: src/tar.c:491
+msgid "same as -N"
+msgstr "Те ж, що і -N"
+
+#: src/tar.c:492
+msgid "CONTROL"
+msgstr "РЕЖИМ"
+
+#: src/tar.c:493
+msgid "backup before removal, choose version CONTROL"
+msgstr "перед видаленням створювати резервні файли у вказаному режимі"
+
+#: src/tar.c:494
+msgid "STRING"
+msgstr "РЯДОК"
+
+#: src/tar.c:495
+msgid "backup before removal, override usual suffix ('~' unless overridden by environment variable SIMPLE_BACKUP_SUFFIX"
+msgstr "перед видаленням створювати резервні файли з вказаним суфіксом (типово '~', якщо він не перевизначений змінною середовища SIMPLE_BACKUP_SUFFIX)"
+
+# FIXME
+#: src/tar.c:497
+msgid "exclude patterns use wildcards (default)"
+msgstr "шаблони виключення містять мета-символи '*' і '?' (типово)"
+
+#: src/tar.c:499
+msgid "exclude pattern wildcards match '/' (default)"
+msgstr "шаблони виключення стосуються до '/' (типово)"
+
+#: src/tar.c:502
+msgid "Informative output:"
+msgstr "Інформативний вивід:"
+
+#: src/tar.c:505
+msgid "verbosely list files processed"
+msgstr "виводити докладну інформацію про оброблені файли"
+
+#: src/tar.c:507
+msgid "display progress messages every 10th record"
+msgstr "виводити контрольне повідомлення через кожні 10 записів"
+
+#: src/tar.c:509
+msgid "print a message if not all links are dumped"
+msgstr "виводити повідомлення якщо до архіву було додано не всі посилання"
+
+#: src/tar.c:511
+msgid "print total bytes written while creating archive"
+msgstr "друкувати загальну кількість байтів, записаних під час створення архіву"
+
+#: src/tar.c:513
+msgid "print file modification dates in UTC"
+msgstr "друкувати час модифікації файлів у UTC"
+
+#: src/tar.c:515
+msgid "send verbose output to FILE"
+msgstr "виводити детальну інформацію у ФАЙЛ"
+
+#: src/tar.c:517
+msgid "show block number within archive with each message"
+msgstr "попереджувати кожне повідомлення номером блоку в архіві"
+
+#: src/tar.c:519
+msgid "ask for confirmation for every action"
+msgstr "Запитувати підтвердження кожної дії"
+
+#: src/tar.c:522
+msgid "Show tar defaults"
+msgstr "Вивести типові налаштування програми"
+
+#: src/tar.c:524
+msgid "When listing or extracting, list each directory that does not match search criteria"
+msgstr "Під час виведення змісту або витягування файлів друкувати назви каталогів що не відповідають критеріям пошуку"
+
+#: src/tar.c:527
+msgid "Compatibility options:"
+msgstr "Опції сумісності:"
+
+#: src/tar.c:530
+msgid "when creating, same as --old-archive. When extracting, same as --no-same-owner"
+msgstr "під час створення архіву, те ж саме, що --old-archive. Під час витягування, те ж саме, що --no-same-owner"
+
+#: src/tar.c:533
+msgid "Other options:"
+msgstr "Інші опції:"
+
+#: src/tar.c:535
+msgid "Give this help list"
+msgstr "Показати цю довідку"
+
+#: src/tar.c:536
+msgid "Give a short usage message"
+msgstr "Показати коротке повідомлення про використання"
+
+#: src/tar.c:537
+msgid "Print license and exit"
+msgstr "Вивести текст ліцензії та вийти"
+
+#: src/tar.c:538
+msgid "Print program version"
+msgstr "Вивести версію програми"
+
+#: src/tar.c:575
+msgid "You may not specify more than one `-Acdtrux' option"
+msgstr "Не можна вказувати більш ніж одну з опцій `-Acdtrux'"
+
+#: src/tar.c:585
+msgid "Conflicting compression options"
+msgstr "Опції стиснення конфліктують одна з другою"
+
+#: src/tar.c:595
+msgid ""
+"Based on the work of John Gilmore and Jay Fenlason. See AUTHORS\n"
+"for complete list of authors.\n"
+msgstr "На основі програми Джона Гілмора і Джея Фенласона. Повний перелік авторів див. у файлі AUTHORS.\n"
+
+#: src/tar.c:597
+#, c-format
+msgid ""
+"   GNU tar is free software; you can redistribute it and/or modify\n"
+"   it under the terms of the GNU General Public License as published by\n"
+"   the Free Software Foundation; either version 2 of the License, or\n"
+"   (at your option) any later version.\n"
+"\n"
+"   GNU tar is distributed in the hope that it will be useful,\n"
+"   but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"   GNU General Public License for more details.\n"
+"\n"
+"   You should have received a copy of the GNU General Public License\n"
+"   along with GNU tar; if not, write to the Free Software\n"
+"   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA\n"
+"\n"
+msgstr ""
+"   GNU tar є вільна програма; ви можете розповсюджувати його чи/та\n"
+"   змінювати його на умовах ліцензії GNU General Public License\n"
+"   опублікованої Free Software Foundation; версії 2 цієї ліцензії, або\n"
+"   (за вашим бажанням) будь-якої пізнішої версії.\n"
+"\n"
+"   GNU tar розповсюджується з надією, що він буде корисним, але\n"
+"   БЕЗ БУДЬ-ЯКОЇ ГАРАНТІЇ; навіть без неявної гарантії\n"
+"   КОМЕРЦІЙНОЇ ПРИДАТНОСТІ або ПРИДАТНОСТІ ДЛЯ ПЕВНОЇ МЕТИ. Докладніше\n"
+"   про це читайте у GNU General Public License.\n"
+"\n"
+"   Разом з програмою GNU tar ви повинні були отримати копію GNU General\n"
+"   Public License; якщо це не так, напишіть до Free Software\n"
+"   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
+
+#: src/tar.c:638
+msgid "Invalid blocking factor"
+msgstr "Неправильний фактор блокування"
+
+#: src/tar.c:713
+msgid "Warning: the -I option is not supported; perhaps you meant -j or -T?"
+msgstr "Попередження: опція -I не підтримується. Можливо ви маєте на увазі -j або -T?"
+
+#: src/tar.c:738
+msgid "Semantics of -l option will change in the future releases."
+msgstr "Значення опції -l зміниться у майбутніх версіях програми."
+
+#: src/tar.c:740
+msgid "Please use --one-file-system option instead."
+msgstr "Будь ласка використовуйте опцію --one-file-system."
+
+#: src/tar.c:753
+msgid "Invalid tape length"
+msgstr "Неправильна довжина стрічки"
+
+#: src/tar.c:781
+msgid "More than one threshold date"
+msgstr "Більш ніж одна гранична дата"
+
+#: src/tar.c:791
+msgid "Date file not found"
+msgstr "Файл дати не знайдено"
+
+#: src/tar.c:800
+#, c-format
+msgid "Substituting %s for unknown date format %s"
+msgstr "Використовується %s замість невідомого формату дати %s"
+
+#: src/tar.c:905
+msgid "Warning: the -y option is not supported; perhaps you meant -j?"
+msgstr "Попередження: опція -y не підтримується. Можливо ви маєте на увазі -j?"
+
+#: src/tar.c:981
+#, c-format
+msgid "%s: Invalid group"
+msgstr "%s: Невірна група"
+
+#: src/tar.c:990
+msgid "Invalid mode given on option"
+msgstr "Невірний формат прав доступу"
+
+#: src/tar.c:1033
+msgid "Invalid number"
+msgstr "Невірне число"
+
+#: src/tar.c:1051
+msgid "Invalid owner"
+msgstr "Невірний власник"
+
+#: src/tar.c:1075
+msgid "Invalid record size"
+msgstr "Невірний розмір запису"
+
+#: src/tar.c:1078
+#, c-format
+msgid "Record size must be a multiple of %d."
+msgstr "Розмір запису має ділитися на %d."
+
+#: src/tar.c:1110
+msgid "Invalid number of elements"
+msgstr "Невірна кількість елементів"
+
+#: src/tar.c:1185
+#, c-format
+msgid "Malformed density argument: '%s'"
+msgstr "Невірний аргумент вказання густини: `%s'"
+
+#: src/tar.c:1221
+#, c-format
+msgid "Unknown density: '%c'"
+msgstr "Невідома густина: '%c'"
+
+#: src/tar.c:1241
+msgid "Options `-[0-7][lmh]' not supported by *this* tar"
+msgstr "Опції `-[0-7][lmh]' не підтримуються *цією* версією tar"
+
+#: src/tar.c:1249
+#, c-format
+msgid ""
+"\n"
+"*This* tar defaults to:\n"
+msgstr ""
+"\n"
+"Типові налаштування *цієї* копії програми:\n"
+
+#: src/tar.c:1278
+msgid "[FILE]..."
+msgstr "[ФАЙЛ]..."
+
+#: src/tar.c:1375
+#, c-format
+msgid "Old option `%c' requires an argument."
+msgstr "Стара опція `%c' потребує аргументу"
+
+#: src/tar.c:1458
+msgid "--occurrence is meaningless without a file list"
+msgstr "вказання --occurrence не має сенсу без вказання переліку файлів"
+
+#: src/tar.c:1464
+msgid "--occurrence cannot be used in the requested operation mode"
+msgstr "опцію --occurrence не можна використовувати у зазначеному режимі роботи"
+
+#: src/tar.c:1494
+msgid "Multiple archive files require `-M' option"
+msgstr "Вказання декількох файлів потребує вказання опції `-M'"
+
+#: src/tar.c:1499
+msgid "Cannot combine --listed-incremental with --newer"
+msgstr "Не можна використовувати --listed-incremental разом з --newer"
+
+#: src/tar.c:1514
+#, c-format
+msgid "%s: Volume label is too long (limit is %lu byte)"
+msgid_plural "%s: Volume label is too long (limit is %lu bytes)"
+msgstr[0] "%s: Мітка тому є надто довга (обмеження в %lu байт)"
+msgstr[1] "%s: Мітка тому є надто довга (обмеження в %lu байти)"
+msgstr[2] "%s: Мітка тому є надто довга (обмеження в %lu байтів)"
+
+#: src/tar.c:1524
+msgid "Cannot verify multi-volume archives"
+msgstr "Не можна перевіряти багатотомні архіви"
+
+#: src/tar.c:1526
+msgid "Cannot verify compressed archives"
+msgstr "Не можна перевіряти стиснені архіви"
+
+#: src/tar.c:1532
+msgid "Cannot use multi-volume compressed archives"
+msgstr "Не можна використовувати стиснення багатотомних архівів"
+
+#: src/tar.c:1534
+msgid "Cannot update compressed archives"
+msgstr "Не можна оновлювати стиснені архіви"
+
+#: src/tar.c:1546
+msgid "--pax-option can be used only on POSIX archives"
+msgstr "Опція --pax-option використовується тільки з архівами у форматі POSIX"
+
+#: src/tar.c:1563
+msgid "Cowardly refusing to create an empty archive"
+msgstr "Полохливо відмовляюся створювати пустий архів"
+
+#: src/tar.c:1584
+msgid "Options `-Aru' are incompatible with `-f -'"
+msgstr "Опції `-Aru' не сумісні з `-f -'"
+
+#: src/tar.c:1607
+#, c-format
+msgid "Treating date `%s' as %s + %ld nanosecond"
+msgid_plural "Treating date `%s' as %s + %ld nanoseconds"
+msgstr[0] "Обробка дати `%s' як %s + %ld наносекунди"
+msgstr[1] "Обробка дати `%s' як %s + %ld наносекунд"
+msgstr[2] "Обробка дати `%s' як %s + %ld наносекунд"
+
+#: src/tar.c:1663
+msgid "You must specify one of the `-Acdtrux' options"
+msgstr "Необхідно вказати одну з опцій `-Acdtrux'"
+
+#: src/tar.c:1715
+msgid "Error in writing to standard output"
+msgstr "Помилка запису до стандартного виводу"
+
+#: src/tar.c:1717
+msgid "Error exit delayed from previous errors"
+msgstr "Вихід з помилкою є викликаний попередніми помилками"
+
+#: src/update.c:86
+#, c-format
+msgid "%s: File shrank by %s byte"
+msgid_plural "%s: File shrank by %s bytes"
+msgstr[0] "%s: Файл скоротився на %s байт"
+msgstr[1] "%s: Файл скоротився на %s байти"
+msgstr[2] "%s: Файл скоротився на %s байтів"
+
+#: src/xheader.c:140
+#, c-format
+msgid "Keyword %s is unknown or not yet imlemented"
+msgstr "Ключове слово %s не є відоме або ще не реалізовано"
+
+#: src/xheader.c:166
+#, c-format
+msgid "Pattern %s cannot be used"
+msgstr "Шаблон %s забороняється уживати"
+
+#: src/xheader.c:176
+#, c-format
+msgid "Keyword %s cannot be overridden"
+msgstr "Не можна перевизначити ключове слово %s"
+
+#: src/xheader.c:490
+msgid "Malformed extended header: missing whitespace after the length"
+msgstr "Невірно сформований розширений заголовок: відсутній пробіл після довжини"
+
+#: src/xheader.c:501
+msgid "Malformed extended header: missing equal sign"
+msgstr "Невірно сформований розширений заголовок: відсутній знак рівняння"
