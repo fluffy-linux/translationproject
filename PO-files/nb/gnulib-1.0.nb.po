@@ -1,4 +1,4 @@
-# Norwegian messages for GNU textutils (bokmål dialect)
+# Norwegian messages for gnulib.
 # Copyright (C) 1996 Free Software Foundation, Inc.
 # Eivind Tagseth <eivindt@multinet.no>, 1996, 1997, 1999.
 #
