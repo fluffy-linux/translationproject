@@ -1,5 +1,4 @@
-# translation of coreutils-5.2.1.po to Euskara
-# Basque translation of 5.2.1.
+# Euskara translation for gnulib.
 # Copyright (C) 2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the Coreutils-5.2.1 package.
 # Mikel Olasagasti <hey_neken@mundurat.net>, 2004.
