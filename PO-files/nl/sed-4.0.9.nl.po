@@ -1,0 +1,368 @@
+# Dutch translation of sed.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the sed package.
+# Elros Cyriatan <cyriatan@fastmail.fm>, 2004.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: sed 4.0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-10 08:46+0100\n"
+"PO-Revision-Date: 2004-04-09 21:39+0200\n"
+"Last-Translator: Elros Cyriatan <cyriatan@fastmail.fm>\n"
+"Language-Team: Dutch <vertaling@nl.linux.org>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: sed/compile.c:172
+msgid "Multiple `!'s"
+msgstr "Meerdere `!'s"
+
+#: sed/compile.c:173
+msgid "Unexpected `,'"
+msgstr "Onverwachte `,'"
+
+#: sed/compile.c:174
+msgid "Cannot use +N or ~N as first address"
+msgstr "Kan niet +N of ~N als eerste adres gebruiken"
+
+#: sed/compile.c:175
+msgid "Unmatched `{'"
+msgstr "Niet-overeenkomende `{'"
+
+#: sed/compile.c:176
+msgid "Unexpected `}'"
+msgstr "Onverwachte `}'"
+
+#: sed/compile.c:177
+msgid "Extra characters after command"
+msgstr "Extra tekens na opdracht"
+
+#: sed/compile.c:178
+msgid "Expected \\ after `a', `c' or `i'"
+msgstr "Verwachtte \\ na `a', `c' of `i'"
+
+#: sed/compile.c:179
+msgid "`}' doesn't want any addresses"
+msgstr "`}' wil geen adressen"
+
+#: sed/compile.c:180
+msgid ": doesn't want any addresses"
+msgstr ": wil geen adressen"
+
+#: sed/compile.c:181
+msgid "Comments don't accept any addresses"
+msgstr "Opmerkingen accepteren geen adres"
+
+#: sed/compile.c:182
+msgid "Missing command"
+msgstr "Ontbrekende opdracht"
+
+#: sed/compile.c:183
+msgid "Command only uses one address"
+msgstr "Opdracht gebruikt slechts één adres"
+
+#: sed/compile.c:184
+msgid "Unterminated address regex"
+msgstr "Niet-afgemaakt adres reguliere uitdrukking"
+
+#: sed/compile.c:185
+msgid "Unterminated `s' command"
+msgstr "Niet-afgemaakte `s'-opdracht"
+
+#: sed/compile.c:186
+msgid "Unterminated `y' command"
+msgstr "Niet-afgemaakte `y'-opdracht"
+
+#: sed/compile.c:187
+msgid "Unknown option to `s'"
+msgstr "Onbekende optie voor `s'"
+
+#: sed/compile.c:188
+msgid "multiple `p' options to `s' command"
+msgstr "meerdere `p'-opties voor `s'-opdracht"
+
+#: sed/compile.c:189
+msgid "multiple `g' options to `s' command"
+msgstr "meerdere `g'-opties voor `s'-opdracht"
+
+#: sed/compile.c:190
+msgid "multiple number options to `s' command"
+msgstr "meerdere getalopties voor `s'-opdracht"
+
+#: sed/compile.c:191
+msgid "number option to `s' command may not be zero"
+msgstr "getaloptie voor `s'-opdracht mag niet nul zijn"
+
+#: sed/compile.c:192
+msgid "strings for y command are different lengths"
+msgstr "tekenreeksen voor `y'-opdracht zijn van verschillende lengte"
+
+#: sed/compile.c:193
+msgid "expected newer version of sed"
+msgstr "verwachtte een nieuwere versie van sed"
+
+#: sed/compile.c:236
+#, c-format
+msgid "Called savchar() with unexpected pushback (%x)"
+msgstr "savchar() aangeroepen met onverwachte pushback (%x)"
+
+#: sed/compile.c:1331
+msgid "Unknown command:"
+msgstr "Onbekende opdracht:"
+
+#: sed/compile.c:1352
+#, c-format
+msgid "%s: file %s line %lu: %s\n"
+msgstr "%s: bestand %s regel %lu: %s\n"
+
+#: sed/compile.c:1355
+#, c-format
+msgid "%s: -e expression #%lu, char %lu: %s\n"
+msgstr "%s: -e uitdrukking #%lu, teken %lu: %s\n"
+
+#: sed/compile.c:1555
+#, c-format
+msgid "Can't find label for jump to `%s'"
+msgstr "Kan label voor sprong naar `%s' niet vinden"
+
+#: sed/execute.c:505
+#, c-format
+msgid "%s: can't read %s: %s\n"
+msgstr "%s: kan %s niet lezen: %s\n"
+
+#: sed/execute.c:530 sed/execute.c:542
+#, c-format
+msgid "Couldn't open temporary file %s: %s"
+msgstr "Kon tijdelijk bestand %s niet openen: %s"
+
+#: sed/execute.c:728
+msgid "INTERNAL ERROR: bad address type"
+msgstr "INTERNE FOUT: slechte adressoort"
+
+#: sed/execute.c:1022 sed/execute.c:1200
+msgid "error in subprocess"
+msgstr "fout in deelproces"
+
+#: sed/execute.c:1024
+msgid "option `e' not supported"
+msgstr "optie `e' niet ondersteund"
+
+#: sed/execute.c:1202
+msgid "`e' command not supported"
+msgstr "`e'-opdracht niet ondersteund"
+
+#: sed/execute.c:1438
+#, c-format
+msgid "INTERNAL ERROR: Bad cmd %c"
+msgstr "INTERNE FOUT: Slechte opdracht %c"
+
+#: sed/regexp.c:39 lib/regcomp.c:665
+msgid "No previous regular expression"
+msgstr "Geen eerdere reguliere uitdrukking"
+
+#: sed/regexp.c:40
+msgid "Cannot specify modifiers on empty regexp"
+msgstr "Kan geen veranderaars opgeven op lege reguliere uitdrukking"
+
+#: sed/regexp.c:134
+#, c-format
+msgid "Invalid reference \\%d on `s' command's RHS"
+msgstr "Ongeldige verwijzing \\%d op rechterhandzijde van `s'-opdracht"
+
+#: sed/sed.c:95
+msgid ""
+"  -R, --regexp-perl\n"
+"                 use Perl 5's regular expressions syntax in the script.\n"
+msgstr ""
+"  -R, --regexp-perl\n"
+"                 de syntaxis van Perl 5 voor reguliere uitdrukkingen gebruiken in het script.\n"
+
+#: sed/sed.c:100
+#, c-format
+msgid ""
+"Usage: %s [OPTION]... {script-only-if-no-other-script} [input-file]...\n"
+"\n"
+"  -n, --quiet, --silent\n"
+"                 suppress automatic printing of pattern space\n"
+"  -e script, --expression=script\n"
+"                 add the script to the commands to be executed\n"
+"  -f script-file, --file=script-file\n"
+"                 add the contents of script-file to the commands to be executed\n"
+"  -i[suffix], --in-place[=suffix]\n"
+"                 edit files in place (makes backup if extension supplied)\n"
+"  -l N, --line-length=N\n"
+"                 specify the desired line-wrap length for the `l' command\n"
+"  -r, --regexp-extended\n"
+"                 use extended regular expressions in the script.\n"
+"%s  -s, --separate\n"
+"                 consider files as separate rather than as a single continuous\n"
+"                 long stream.\n"
+"  -u, --unbuffered\n"
+"                 load minimal amounts of data from the input files and flush\n"
+"                 the output buffers more often\n"
+"      --help     display this help and exit\n"
+"  -V, --version  output version information and exit\n"
+"\n"
+"If no -e, --expression, -f, or --file option is given, then the first\n"
+"non-option argument is taken as the sed script to interpret.  All\n"
+"remaining arguments are names of input files; if no input files are\n"
+"specified, then the standard input is read.\n"
+"\n"
+msgstr ""
+"Gebruik: %s [OPTIE]... {script-alleen-als-geen-ander-script} [invoerbestand]...\n"
+"\n"
+"  -n, --quiet, --silent\n"
+"                 automatische weergave van patroonruimte onderdrukken\n"
+"  -e script, --expression=script\n"
+"                 het script toevoegen aan de uit te voeren opdrachten\n"
+"  -f scriptbestand, --file=scriptbestand\n"
+"                 de inhoud van scriptbestand toevoegen aan de uit te voeren opdrachten\n"
+"  -i[achtervoegsel], --in-place[=achtervoegsel]\n"
+"                 bestanden ter plekke bewerken (maakt reservekopie als achtervoegsel is opgegeven)\n"
+"  -l N, --line-length=N\n"
+"                 de gewenste afkaplengte voor regels opgeven voor de `l'-opdracht\n"
+"  -r, --regexp-extended\n"
+"                 uitgebreide reguliere uitdrukkingen gebruiken in het script.\n"
+"%s  -s, --separate\n"
+"                 bestanden afzonderlijk beschouwen in plaats van als één continue, lange stroom.\n"
+"  -u, --unbuffered\n"
+"                 minimale hoeveelheden gegevens van invoerbestanden laden en vaker de uitvoerbuffers legen\n"
+"      --help     deze hulp weergeven en afsluiten\n"
+"  -V, --version  versie-informatie weergeven en afsluiten\n"
+"\n"
+"Als geen -e, --expression, -f of --file optie gegeven is, wordt het eerste niet-optie\n"
+"argument gebruikt als sed script om te interpreteren.  Alle overblijvende argumenten\n"
+"zijn namen van invoerbestanden; als geen invoerbestanden zijn opgegeven, wordt gelezen\n"
+"vanaf standaard invoer.\n"
+"\n"
+
+#: sed/sed.c:129
+#, c-format
+msgid ""
+"E-mail bug reports to: %s .\n"
+"Be sure to include the word ``%s'' somewhere in the ``Subject:'' field.\n"
+msgstr ""
+"Stuur foutrapporten naar: %s .\n"
+"Zorg ervoor dat het woord ``%s'' ergens in het ``Onderwerp:''-veld staat.\n"
+"Rapporteer fouten in de vertalingen bij <vertaling@nl.linux.org>.\n"
+
+#: sed/sed.c:254
+#, c-format
+msgid "super-sed version %s\n"
+msgstr "super-sed versie %s\n"
+
+#: sed/sed.c:255
+msgid ""
+"based on GNU sed version 3.02.80\n"
+"\n"
+msgstr ""
+"gebaseerd op GNU sed versie 3.02.80\n"
+"\n"
+
+#: sed/sed.c:257
+#, c-format
+msgid "GNU sed version %s\n"
+msgstr "GNU sed versie %s\n"
+
+#: sed/sed.c:259
+#, c-format
+msgid ""
+"%s\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE,\n"
+"to the extent permitted by law.\n"
+msgstr ""
+"%s\n"
+"Dit is vrije software; zie de bron voor kopieervoorwaarden.  Er is GEEN\n"
+"garantie; zelfs niet voor VERHANDELBAARHEID of GESCHIKTHEID VOOR\n"
+"EEN BEPAALD DOEL, tot het uiterste dat door de wet wordt toegestaan.\n"
+
+#: lib/utils.c:126
+#, c-format
+msgid "Couldn't open file %s: %s"
+msgstr "Kon bestand %s niet openen: %s"
+
+#: lib/utils.c:160
+#, c-format
+msgid "couldn't write %d item to %s: %s"
+msgid_plural "couldn't write %d items to %s: %s"
+msgstr[0] "kon niet %d item naar %s schrijven: %s"
+msgstr[1] "kon niet %d item naar %s schrijven: %s"
+
+#: lib/utils.c:175
+#, c-format
+msgid "read error on %s: %s"
+msgstr "leesfout op %s: %s"
+
+#: lib/regcomp.c:149
+msgid "Success"
+msgstr "Succes"
+
+#: lib/regcomp.c:152
+msgid "No match"
+msgstr "Geen overeenkomst"
+
+#: lib/regcomp.c:155
+msgid "Invalid regular expression"
+msgstr "Ongeldige reguliere uitdrukking"
+
+#: lib/regcomp.c:158
+msgid "Invalid collation character"
+msgstr "Ongeldig sorteerteken"
+
+#: lib/regcomp.c:161
+msgid "Invalid character class name"
+msgstr "Ongeldige tekenklasse naam"
+
+#: lib/regcomp.c:164
+msgid "Trailing backslash"
+msgstr "Backslash aan het einde"
+
+#: lib/regcomp.c:167
+msgid "Invalid back reference"
+msgstr "Ongeldige terugverwijzing"
+
+#: lib/regcomp.c:170
+msgid "Unmatched [ or [^"
+msgstr "Niet-overeenkomende [ of [^"
+
+#: lib/regcomp.c:173
+msgid "Unmatched ( or \\("
+msgstr "Niet-overeenkomende ( of \\("
+
+#: lib/regcomp.c:176
+msgid "Unmatched \\{"
+msgstr "Niet-overeenkomende \\{"
+
+#: lib/regcomp.c:179
+msgid "Invalid content of \\{\\}"
+msgstr "Ongeldige inhoud van \\{\\}"
+
+#: lib/regcomp.c:182
+msgid "Invalid range end"
+msgstr "Ongeldig bereikeinde"
+
+#: lib/regcomp.c:185
+msgid "Memory exhausted"
+msgstr "Geheugen uitgeput"
+
+#: lib/regcomp.c:188
+msgid "Invalid preceding regular expression"
+msgstr "Ongeldige voorafgaande reguliere uitdrukking"
+
+#: lib/regcomp.c:191
+msgid "Premature end of regular expression"
+msgstr "Vroegtijdig einde van reguliere uitdrukking"
+
+#: lib/regcomp.c:194
+msgid "Regular expression too big"
+msgstr "Reguliere uitdrukking te groot"
+
+#: lib/regcomp.c:197
+msgid "Unmatched ) or \\)"
+msgstr "Niet-overeenkomende ) of \\)"
