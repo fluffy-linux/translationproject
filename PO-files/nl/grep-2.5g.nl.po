@@ -1,0 +1,401 @@
+# Dutch translation of grep.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Taco Witte <tcwitte@cs.uu.nl>, 2004.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: grep 2.5g\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2002-01-22 14:39+0100\n"
+"PO-Revision-Date: 2004-04-10 11:24+0200\n"
+"Last-Translator: Taco Witte <tcwitte@cs.uu.nl>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/dfa.c:136 src/dfa.c:147 src/dfa.c:158 src/search.c:689
+msgid "Memory exhausted"
+msgstr "Geheugen uitgeput"
+
+#: src/dfa.c:489 src/dfa.c:492 src/dfa.c:510 src/dfa.c:521 src/dfa.c:545
+#: src/dfa.c:604 src/dfa.c:609 src/dfa.c:622 src/dfa.c:623 src/dfa.c:1001
+#: src/dfa.c:1004 src/dfa.c:1028 src/dfa.c:1032 src/dfa.c:1033 src/dfa.c:1036
+#: src/dfa.c:1048 src/dfa.c:1049
+msgid "Unbalanced ["
+msgstr "Ongebalanceerde ["
+
+#: src/dfa.c:741
+msgid "Unfinished \\ escape"
+msgstr "Niet-afgemaakte \\ stuurcode"
+
+#. Cases:
+#. {M} - exact count
+#. {M,} - minimum count, maximum is infinity
+#. {M,N} - M through N
+#: src/dfa.c:874 src/dfa.c:880 src/dfa.c:890 src/dfa.c:898 src/dfa.c:913
+msgid "unfinished repeat count"
+msgstr "niet-afgemaakt herhalingsaantal"
+
+#: src/dfa.c:887 src/dfa.c:904 src/dfa.c:912 src/dfa.c:916
+msgid "malformed repeat count"
+msgstr "misvormd herhalingsaantal"
+
+#: src/dfa.c:1253
+msgid "Unbalanced ("
+msgstr "Ongebalanceerde ("
+
+#: src/dfa.c:1378
+msgid "No syntax specified"
+msgstr "Geen syntaxis opgegeven"
+
+#: src/dfa.c:1386
+msgid "Unbalanced )"
+msgstr "Ongebalanceerde )"
+
+#: src/dfa.c:2956
+msgid "out of memory"
+msgstr "geheugentekort"
+
+#: lib/obstack.c:471 src/kwset.c:171 src/kwset.c:177 src/search.c:103
+#: src/search.c:209 src/search.c:293
+msgid "memory exhausted"
+msgstr "geheugen uitgeput"
+
+#: src/grep.c:205
+msgid "invalid context length argument"
+msgstr "ongeldig contextlengte argument"
+
+#: src/grep.c:475
+msgid "input is too large to count"
+msgstr "invoer is te groot om te tellen"
+
+#: src/grep.c:597
+msgid "writing output"
+msgstr "bezig met schrijven uitvoer"
+
+#: src/grep.c:870
+#, c-format
+msgid "Binary file %s matches\n"
+msgstr "Binair bestand %s komt overeen\n"
+
+#: src/grep.c:884
+msgid "(standard input)"
+msgstr "(standaard invoer)"
+
+#: src/grep.c:989
+#, c-format
+msgid "warning: %s: %s\n"
+msgstr "waarschuwing: %s: %s\n"
+
+#: src/grep.c:990
+msgid "recursive directory loop"
+msgstr "recursieve lus door map"
+
+#: src/grep.c:1038
+#, c-format
+msgid "Usage: %s [OPTION]... PATTERN [FILE]...\n"
+msgstr "Gebruik: %s [OPTIE]... PATROON [BESTAND]...\n"
+
+#: src/grep.c:1040
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Probeer `%s --help' voor meer informatie.\n"
+
+#: src/grep.c:1045
+#, c-format
+msgid "Usage: %s [OPTION]... PATTERN [FILE] ...\n"
+msgstr "Gebruik: %s [OPTIE]... PATROON [BESTAND] ...\n"
+
+#: src/grep.c:1046
+#, c-format
+msgid ""
+"Search for PATTERN in each FILE or standard input.\n"
+"Example: %s -i 'hello world' menu.h main.c\n"
+"\n"
+"Regexp selection and interpretation:\n"
+msgstr ""
+"Zoeken naar PATROON in elk BESTAND of in standaard invoer.\n"
+"Voorbeeld: %s -i 'hallo wereld' menu.h main.c\n"
+"\n"
+"Reguliere uitdrukking selectie en interpretatie:\n"
+
+#: src/grep.c:1051
+msgid ""
+"  -E, --extended-regexp     PATTERN is an extended regular expression\n"
+"  -F, --fixed-strings       PATTERN is a set of newline-separated strings\n"
+"  -G, --basic-regexp        PATTERN is a basic regular expression\n"
+"  -P, --perl-regexp         PATTERN is a Perl regular expression\n"
+msgstr ""
+"  -E, --extended-regexp     PATROON is een uitgebreide reguliere uitdrukking\n"
+"  -F, --fixed-strings       PATROON is een verzameling met enter gescheide tekenreeksen\n"
+"  -G, --basic-regexp        PATROON is een standaard reguliere uitdrukking\n"
+"  -P, --perl-regexp         PATROON is een Perl reguliere uitdrukking\n"
+
+#: src/grep.c:1056
+msgid ""
+"  -e, --regexp=PATTERN      use PATTERN as a regular expression\n"
+"  -f, --file=FILE           obtain PATTERN from FILE\n"
+"  -i, --ignore-case         ignore case distinctions\n"
+"  -w, --word-regexp         force PATTERN to match only whole words\n"
+"  -x, --line-regexp         force PATTERN to match only whole lines\n"
+"  -z, --null-data           a data line ends in 0 byte, not newline\n"
+msgstr ""
+"  -e, --regexp=PATROON      PATROON gebruiken als een reguliere uitdrukking\n"
+"  -f, --file=BESTAND        PATROON verkrijgen uit BESTAND\n"
+"  -i, --ignore-case         verschil in hoofdletter/kleine letter negeren\n"
+"  -w, --word-regexp         PATROON dwingen alleen met gehele woorden overeen te komen\n"
+"  -x, --line-regexp         PATROON dwingen alleen met gehele regels overeen te komen\n"
+"  -z, --null-data           een gegevensregel eindigt met een 0-byte, niet een enter\n"
+
+#: src/grep.c:1063
+msgid ""
+"\n"
+"Miscellaneous:\n"
+"  -s, --no-messages         suppress error messages\n"
+"  -v, --invert-match        select non-matching lines\n"
+"  -V, --version             print version information and exit\n"
+"      --help                display this help and exit\n"
+"      --mmap                use memory-mapped input if possible\n"
+msgstr ""
+"\n"
+"Overige:\n"
+"  -s, --no-messages         foutmeldingen onderdrukken\n"
+"  -v, --invert-match        niet-overeenkomende regels selecteren\n"
+"  -V, --version             versie-informatie weergeven en afsluiten\n"
+"      --help                deze hulp weergeven en afsluiten\n"
+"      --mmap                gebruik in het geheugen afgebeelde invoer als mogelijk\n"
+
+#: src/grep.c:1071
+msgid ""
+"\n"
+"Output control:\n"
+"  -m, --max-count=NUM       stop after NUM matches\n"
+"  -b, --byte-offset         print the byte offset with output lines\n"
+"  -n, --line-number         print line number with output lines\n"
+"      --line-buffered       flush output on every line\n"
+"  -H, --with-filename       print the filename for each match\n"
+"  -h, --no-filename         suppress the prefixing filename on output\n"
+"      --label=LABEL         print LABEL as filename for standard input\n"
+"  -o, --only-matching       show only the part of a line matching PATTERN\n"
+"  -q, --quiet, --silent     suppress all normal output\n"
+"      --binary-files=TYPE   assume that binary files are TYPE\n"
+"                            TYPE is 'binary', 'text', or 'without-match'\n"
+"  -a, --text                equivalent to --binary-files=text\n"
+"  -I                        equivalent to --binary-files=without-match\n"
+"  -d, --directories=ACTION  how to handle directories\n"
+"                            ACTION is 'read', 'recurse', or 'skip'\n"
+"  -D, --devices=ACTION      how to handle devices, FIFOs and sockets\n"
+"                            ACTION is 'read' or 'skip'\n"
+"  -R, -r, --recursive       equivalent to --directories=recurse\n"
+"      --include=PATTERN     files that match PATTERN will be examined\n"
+"      --exclude=PATTERN     files that match PATTERN will be skipped.\n"
+"      --exclude-from=FILE   files that match PATTERN in FILE will be skipped.\n"
+"  -L, --files-without-match only print FILE names containing no match\n"
+"  -l, --files-with-matches  only print FILE names containing matches\n"
+"  -c, --count               only print a count of matching lines per FILE\n"
+"  -Z, --null                print 0 byte after FILE name\n"
+msgstr ""
+"\n"
+"Uitvoercontrole:\n"
+"  -m, --max-count=AANTAL    ophouden na AANTAL overeenkomsten\n"
+"  -b, --byte-offset         de byte-positie weergeven bij uitvoerregels\n"
+"  -n, --line-number         regelnummers weergeven bij uitvoerregels\n"
+"      --line-buffered       uitvoer op elke regels leegspoelen\n"
+"  -H, --with-filename       de bestandsnaam weergeven bij elke overeenkomst\n"
+"  -h, --no-filename         de voorgevoegde bestandsnaam onderdrukken bij uitvoer\n"
+"      --label=LABEL         LABEL weergeven als bestandsnaam voor standaard invoer\n"
+"  -o, --only-matching       alleen het deel van een regel weergeven dat overeenkomt met PATROON\n"
+"  -q, --quiet, --silent     alle normale uitvoer onderdrukken\n"
+"      --binary-files=SOORT  aannemen dat binaire bestanden SOORT zijn\n"
+"                            SOORT is 'binary' (binair), 'text' (tekst) of 'without-match' (zonder overeenkomst)\n"
+"  -a, --text                equivalent aan --binary-files=text\n"
+"  -I                        equivalent aan --binary-files=without-match\n"
+"  -d, --directories=ACTIE   hoe met mappen om te gaan\n"
+"                            ACTIE is 'read' (lezen), 'recurse' (recursief doorlopen) of 'skip' (overslaan)\n"
+"  -D, --devices=ACTIE       hoe om te gaan met apparaten, FIFOs en sockets\n"
+"                            ACTIE is 'read' (lezen) of 'skip' (overslaan)\n"
+"  -R, -r, --recursive       equivalent aan --directories=recurse\n"
+"      --include=PATROON     bestanden die overeenkomen met PATROON worden bekeken\n"
+"      --exclude=PATROON     bestanden die overeenkomen met PATROON worden overgeslagen.\n"
+"      --exclude-from=BESTAND bestanden die overeenkomen met PATROON in BESTAND worden overgeslagen.\n"
+"  -L, --files-without-match alleen BESTANDsnamen weergeven zonder overeenkomst\n"
+"  -l, --files-with-matches  alleen BESTANDsnamen weergeven met overeenkomsten\n"
+"  -c, --count               slechts het aantal overeenkomsten per BESTAND weergeven\n"
+"  -Z, --null                0-byte weergeven na BESTANDsnaam\n"
+
+#: src/grep.c:1099
+msgid ""
+"\n"
+"Context control:\n"
+"  -B, --before-context=NUM  print NUM lines of leading context\n"
+"  -A, --after-context=NUM   print NUM lines of trailing context\n"
+"  -C, --context=NUM         print NUM lines of output context\n"
+"  -NUM                      same as --context=NUM\n"
+"      --color[=WHEN],\n"
+"      --colour[=WHEN]       use markers to distinguish the matching string\n"
+"                            WHEN may be `always', `never' or `auto'.\n"
+"  -U, --binary              do not strip CR characters at EOL (MSDOS)\n"
+"  -u, --unix-byte-offsets   report offsets as if CRs were not there (MSDOS)\n"
+"\n"
+"`egrep' means `grep -E'.  `fgrep' means `grep -F'.\n"
+"With no FILE, or when FILE is -, read standard input.  If less than\n"
+"two FILEs given, assume -h.  Exit status is 0 if match, 1 if no match,\n"
+"and 2 if trouble.\n"
+msgstr ""
+"\n"
+"Contextcontrole:\n"
+"  -B, --before-context=AANTAL AANTAL regels weergeven na voorafgaande context\n"
+"  -A, --after-context=AANTAL AANTAL regels weergeven van volgende context\n"
+"  -C, --context=AANTAL      AANTAL regels van uitvoercontext weergeven\n"
+"  -AANTAL                   zelfde als --context=AANTAL\n"
+"      --color[=WANNEER],\n"
+"      --colour[=WANNEER]    markeringen gebruiken om de overeenkomende tekenreeks te onderscheiden\n"
+"                            WANNEER kan zijn: `always' (altijd), `never' (nooit) of `auto'.\n"
+"  -U, --binary              niet CR-tekens schrappen aan einde regel (MSDOS)\n"
+"  -u, --unix-byte-offsets   posities weergeven alsof CRs er niet waren (MSDOS)\n"
+"\n"
+"`egrep' betekent `grep -E'.  `fgrep' betekent `grep -F'.\n"
+"Zonder BESTAND, of als BESTAND - is, wordt gelezen vanaf standaard invoer.\n"
+"Als minder dan twee BESTANDen gegeven zijn, wordt -h aangenomen.  Afsluitstatus\n"
+"is 0 als overeenkomst, 1 als geen overeenkomst, en 2 als iets fout ging.\n"
+
+#: src/grep.c:1116
+msgid ""
+"\n"
+"Report bugs to <bug-gnu-utils@gnu.org>.\n"
+msgstr ""
+"\n"
+"Rapporteer softwarefouten aan <bug-gnu-utils@gnu.org>.\n"
+"Neem voor fouten in de vertaling contact op met <vertaling@nl.linux.org>.\n"
+
+#: src/grep.c:1126
+msgid "conflicting matchers specified"
+msgstr "conflicterende overeenkomers opgegeven"
+
+#: src/grep.c:1363
+msgid "unknown devices method"
+msgstr "onbekende apparaten methode"
+
+#: src/grep.c:1430
+msgid "unknown directories method"
+msgstr "onbekende mappen methode"
+
+#: src/grep.c:1497
+msgid "invalid max count"
+msgstr "ongeldig maximaal aantal"
+
+#: src/grep.c:1551
+msgid "unknown binary-files type"
+msgstr "onbekend soort binair bestand"
+
+#: src/grep.c:1646
+#, c-format
+msgid "%s (GNU grep) %s\n"
+msgstr "%s (GNU grep) %s\n"
+
+#: src/grep.c:1648
+msgid "Copyright 1988, 1992-1999, 2000, 2001 Free Software Foundation, Inc.\n"
+msgstr "Copyright 1988, 1992-1999, 2000, 2001 Free Software Foundation, Inc.\n"
+
+#: src/grep.c:1650
+msgid ""
+"This is free software; see the source for copying conditions. There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+"Dit is vrije software; zie de bron voor kopieervoorwaarden. Er is GEEN GARANTIE;\n"
+"zelfs niet voor VERHANDELBAARHEID of GESCHIKTHEID VOOR EEN BEPAALD DOEL.\n"
+
+#: src/search.c:606
+msgid "The -P option is not supported"
+msgstr "De -P optie wordt niet ondersteund"
+
+#: src/search.c:619
+msgid "The -P and -z options cannot be combined"
+msgstr "De -P en -z opties kunnen niet worden gecombineerd"
+
+#: lib/error.c:117
+msgid "Unknown system error"
+msgstr "Onbekende systeemfout"
+
+#: lib/getopt.c:675
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: optie `%s' is dubbelzinnig\n"
+
+#: lib/getopt.c:700
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: optie `--%s' staat geen argument toe\n"
+
+#: lib/getopt.c:705
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: optie `%c%s' staat geen argument toe\n"
+
+#: lib/getopt.c:723 lib/getopt.c:896
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: optie `%s' vereist een argument\n"
+
+#. --option
+#: lib/getopt.c:752
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: niet-herkende optie `--%s'\n"
+
+#. +option or -option
+#: lib/getopt.c:756
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: niet-herkende optie `%c%s'\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:782
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: onjuiste optie -- %c\n"
+
+#: lib/getopt.c:785
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: ongeldige optie -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:815 lib/getopt.c:945
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: optie vereist een argument -- %c\n"
+
+#: lib/getopt.c:862
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: optie `-W %s' is dubbelzinnig\n"
+
+#: lib/getopt.c:880
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: optie `-W %s' staat geen argument toe\n"
+
+#. Get translations for open and closing quotation marks.
+#.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  If the catalog has no translation,
+#. locale_quoting_style quotes `like this', and
+#. clocale_quoting_style quotes "like this".
+#.
+#. For example, an American English Unicode locale should
+#. translate "`" to U+201C (LEFT DOUBLE QUOTATION MARK), and
+#. should translate "'" to U+201D (RIGHT DOUBLE QUOTATION
+#. MARK).  A British English Unicode locale should instead
+#. translate these to U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. U+2019 (RIGHT SINGLE QUOTATION MARK), respectively.
+#: lib/quotearg.c:259
+msgid "`"
+msgstr "“"
+
+#: lib/quotearg.c:260
+msgid "'"
+msgstr "”"
