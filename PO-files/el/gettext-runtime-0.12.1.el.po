@@ -1,0 +1,900 @@
+# Greek messages for GNU gettext.
+# Copyright © 1998 Free Software Foundation, Inc.
+# Simos KSenitellis <simos@teiath.gr>, 1998.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU gettext 0.10.34\n"
+"POT-Creation-Date: 2003-05-12 19:47+0200\n"
+"PO-Revision-Date: 1998-05-17 13:12+0200\n"
+"Last-Translator: Simos KSenitellis <simos@teiath.gr>\n"
+"Language-Team: Greek <simos@teiath.gr>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-7\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+# 
+#: ../gettext-tools/lib/error.c:137 ../gettext-tools/lib/error.c:165
+msgid "Unknown system error"
+msgstr "Άγνωστο σφάλμα συστήματος"
+
+# 
+#: ../gettext-tools/lib/getopt.c:689 ../gettext-tools/lib/getopt.c:701
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: η επιλογή `%s' είναι διφορούμενη\n"
+
+# 
+#: ../gettext-tools/lib/getopt.c:734 ../gettext-tools/lib/getopt.c:738
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: η επιλογή `--%s' δεν επιτρέπει παράμετρο\n"
+
+# 
+#: ../gettext-tools/lib/getopt.c:747 ../gettext-tools/lib/getopt.c:752
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: η επιλογή `%c%s' δεν επιτρέπει παράμετρο\n"
+
+# 
+#: ../gettext-tools/lib/getopt.c:788 ../gettext-tools/lib/getopt.c:801
+#: ../gettext-tools/lib/getopt.c:1090 ../gettext-tools/lib/getopt.c:1103
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: η επιλογή `%s' απαιτεί παράμετρο\n"
+
+# 
+#: ../gettext-tools/lib/getopt.c:839 ../gettext-tools/lib/getopt.c:842
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: μη αναγνωρίσιμη επιλογή `--%s'\n"
+
+# 
+#: ../gettext-tools/lib/getopt.c:850 ../gettext-tools/lib/getopt.c:853
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: μη αναγνωρίσιμη επιλογή `%c%s'\n"
+
+# 
+#: ../gettext-tools/lib/getopt.c:900 ../gettext-tools/lib/getopt.c:903
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: μη αποδεκτή επιλογή -- %c\n"
+
+# 
+#: ../gettext-tools/lib/getopt.c:909 ../gettext-tools/lib/getopt.c:912
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: μη έγκυρη επιλογή -- %c\n"
+
+# 
+#: ../gettext-tools/lib/getopt.c:959 ../gettext-tools/lib/getopt.c:970
+#: ../gettext-tools/lib/getopt.c:1156 ../gettext-tools/lib/getopt.c:1169
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: η επιλογή απαιτεί παράμετρο -- %c\n"
+
+# 
+#: ../gettext-tools/lib/getopt.c:1022 ../gettext-tools/lib/getopt.c:1033
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: η επιλογή `-W %s' είναι διφορούμενη\n"
+
+# 
+#: ../gettext-tools/lib/getopt.c:1057 ../gettext-tools/lib/getopt.c:1069
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: η επιλογή `-W %s' δεν επιτρέπει παράμετρο\n"
+
+# 
+#: ../gettext-tools/lib/xmalloc.c:41
+#, fuzzy
+msgid "memory exhausted"
+msgstr "H μνήμη εξαντλήθηκε"
+
+# 
+#: src/gettext.c:129 src/ngettext.c:120
+#, c-format, no-wrap
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+"Πνευματικά Δικαιώματα (C) %s Free Software Foundation, Inc.\n"
+"Αυτό το πρόγραμμα είναι ελεύθερο λογισμικό· δείτε το πηγαίο κώδικα για τους\n"
+"κανονισμούς αντιγραφής. Δεν υπάρχει ΚΑΜΙΑ ΕΓΓΥΗΣΗ· ούτε ακόμα για\n"
+"ΛΕΙΤΟΥΡΓΙΚΟΤΗΤΑ ή ΚΑΤΑΛΛΗΛΟΤΗΤΑ ΓΙΑ ΕΝΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ.\n"
+
+# 
+#: src/gettext.c:134 src/ngettext.c:125
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Γραμμένο από τον/την %s.\n"
+
+# 
+#: src/gettext.c:152 src/ngettext.c:137
+msgid "too many arguments"
+msgstr "πάρα πολλά ορίσματα"
+
+# 
+#: src/gettext.c:162 src/ngettext.c:149
+msgid "missing arguments"
+msgstr "υπολείπονται ορίσματα"
+
+# 
+#: src/gettext.c:233 src/ngettext.c:203
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Δοκιμάστε `%s --help' για περισσότερες πληροφορίες.\n"
+
+#: src/gettext.c:238
+#, c-format, no-wrap
+msgid ""
+"Usage: %s [OPTION] [[TEXTDOMAIN] MSGID]\n"
+"or:    %s [OPTION] -s [MSGID]...\n"
+msgstr ""
+
+#: src/gettext.c:244
+#, no-wrap
+msgid "Display native language translation of a textual message.\n"
+msgstr ""
+
+# 
+#: src/gettext.c:248
+#, fuzzy, no-wrap
+msgid ""
+"  -d, --domain=TEXTDOMAIN   retrieve translated messages from TEXTDOMAIN\n"
+"  -e                        enable expansion of some escape sequences\n"
+"  -E                        (ignored for compatibility)\n"
+"  -h, --help                display this help and exit\n"
+"  -n                        suppress trailing newline\n"
+"  -V, --version             display version information and exit\n"
+"  [TEXTDOMAIN] MSGID        retrieve translated message corresponding\n"
+"                            to MSGID from TEXTDOMAIN\n"
+msgstr ""
+"Χρήση: %s [ΕΠΙΛΟΓΗ] [[[TEXTDOMAIN] MSGID] | [-s [MSGID]...]]\n"
+"  -d, --domain=TEXTDOMAIN   ανάκτηση μεταφρασμένων μηνυμάτων από το TEXTDOMAIN\n"
+"  -e                        ενεργοποίηση της αναδίπλωσης ορισμένων σειρών\n"
+"                              χαρακτήρων διαφυγής\n"
+"  -E                        (αγνοείται για λόγους συμβατότητας)\n"
+"  -h, --help                εμφάνιση αυτής της βοήθειας και έξοδος\n"
+"  -n                        αποβολή χαρακτήρα αλλαγής γραμμής στο τέλος της σειράς\n"
+"  -v, --version             εμφάνιση πληροφοριών έκδοσης και έξοδος\n"
+"  [TEXTDOMAIN] MSGID        ανάκτηση αντίστοιχου μεταφρασμένου μηνύματος που αντιστοιχεί\n"
+"                            στο MSGID από το TEXTDOMAIN\n"
+
+# 
+#: src/gettext.c:259
+#, fuzzy, c-format, no-wrap
+msgid ""
+"If the TEXTDOMAIN parameter is not given, the domain is determined from the\n"
+"environment variable TEXTDOMAIN.  If the message catalog is not found in the\n"
+"regular directory, another location can be specified with the environment\n"
+"variable TEXTDOMAINDIR.\n"
+"When used with the -s option the program behaves like the `echo' command.\n"
+"But it does not simply copy its arguments to stdout.  Instead those messages\n"
+"found in the selected catalog are translated.\n"
+"Standard search directory: %s\n"
+msgstr ""
+"\n"
+"Αν η παράμετρος TEXTDOMAIN δε δίνεται, τότε περιοχή ανακτάται από τη\n"
+"μεταβλητή περιβάλλοντος TEXTDOMAIN. Αν ο κατάλογος μηνυμάτων δε βρεθεί στο\n"
+"καθιερωμένο κατάλογο, ελέγχεται η τιμή της μεταβλητής περιβάλλοντος TEXTDOMAINDIR.\n"
+"Όταν γίνεται χρήση της επιλογής -s, το πρόγραμμα συμπεριφέρεται σαν\n"
+"την εντολή `echo'. Αλλά δεν αντιγράφει απλά τα ορίσματα στην κανονική έξοδο.\n"
+"Αντίθετα, τα μηνύματα που βρίσκονται στο επιλεγμένο κατάλογο, μεταφράζονται.\n"
+"Καθιερωμένος κατάλογος αναζήτησης: %s\n"
+
+# 
+#: src/gettext.c:270 src/ngettext.c:237
+#, fuzzy
+msgid "Report bugs to <bug-gnu-gettext@gnu.org>.\n"
+msgstr "Στείλτε αναφορές σφαλμάτων στο <bug-gnu-utils@gnu.org>.\n"
+
+#: src/ngettext.c:208
+#, c-format, no-wrap
+msgid "Usage: %s [OPTION] [TEXTDOMAIN] MSGID MSGID-PLURAL COUNT\n"
+msgstr ""
+
+#: src/ngettext.c:213
+#, no-wrap
+msgid ""
+"Display native language translation of a textual message whose grammatical\n"
+"form depends on a number.\n"
+msgstr ""
+
+# 
+#: src/ngettext.c:218
+#, fuzzy, no-wrap
+msgid ""
+"  -d, --domain=TEXTDOMAIN   retrieve translated message from TEXTDOMAIN\n"
+"  -e                        enable expansion of some escape sequences\n"
+"  -E                        (ignored for compatibility)\n"
+"  -h, --help                display this help and exit\n"
+"  -V, --version             display version information and exit\n"
+"  [TEXTDOMAIN]              retrieve translated message from TEXTDOMAIN\n"
+"  MSGID MSGID-PLURAL        translate MSGID (singular) / MSGID-PLURAL (plural)\n"
+"  COUNT                     choose singular/plural form based on this value\n"
+msgstr ""
+"Χρήση: %s [ΕΠΙΛΟΓΗ] [[[TEXTDOMAIN] MSGID] | [-s [MSGID]...]]\n"
+"  -d, --domain=TEXTDOMAIN   ανάκτηση μεταφρασμένων μηνυμάτων από το TEXTDOMAIN\n"
+"  -e                        ενεργοποίηση της αναδίπλωσης ορισμένων σειρών\n"
+"                              χαρακτήρων διαφυγής\n"
+"  -E                        (αγνοείται για λόγους συμβατότητας)\n"
+"  -h, --help                εμφάνιση αυτής της βοήθειας και έξοδος\n"
+"  -n                        αποβολή χαρακτήρα αλλαγής γραμμής στο τέλος της σειράς\n"
+"  -v, --version             εμφάνιση πληροφοριών έκδοσης και έξοδος\n"
+"  [TEXTDOMAIN] MSGID        ανάκτηση αντίστοιχου μεταφρασμένου μηνύματος που αντιστοιχεί\n"
+"                            στο MSGID από το TEXTDOMAIN\n"
+
+# 
+#: src/ngettext.c:229
+#, fuzzy, c-format, no-wrap
+msgid ""
+"If the TEXTDOMAIN parameter is not given, the domain is determined from the\n"
+"environment variable TEXTDOMAIN.  If the message catalog is not found in the\n"
+"regular directory, another location can be specified with the environment\n"
+"variable TEXTDOMAINDIR.\n"
+"Standard search directory: %s\n"
+msgstr ""
+"\n"
+"Αν η παράμετρος TEXTDOMAIN δε δίνεται, τότε περιοχή ανακτάται από τη\n"
+"μεταβλητή περιβάλλοντος TEXTDOMAIN. Αν ο κατάλογος μηνυμάτων δε βρεθεί στο\n"
+"καθιερωμένο κατάλογο, ελέγχεται η τιμή της μεταβλητής περιβάλλοντος TEXTDOMAINDIR.\n"
+"Όταν γίνεται χρήση της επιλογής -s, το πρόγραμμα συμπεριφέρεται σαν\n"
+"την εντολή `echo'. Αλλά δεν αντιγράφει απλά τα ορίσματα στην κανονική έξοδο.\n"
+"Αντίθετα, τα μηνύματα που βρίσκονται στο επιλεγμένο κατάλογο, μεταφράζονται.\n"
+"Καθιερωμένος κατάλογος αναζήτησης: %s\n"
+
+# 
+#~ msgid "internationalized messages should not contain the `\\%c' escape sequence"
+#~ msgstr "τα μηνύματα προς μετάφραση δεν πρέπει να περιέχουν το χαρακτήρα διαφυγής `\\%c'"
+
+# 
+#~ msgid "cannot create output file \"%s\""
+#~ msgstr "αδυναμία δημιουργίας αρχείου εξόδου \"%s\""
+
+# 
+#~ msgid "standard output"
+#~ msgstr "κανονική έξοδος"
+
+# 
+#~ msgid "error while writing \"%s\" file"
+#~ msgstr "σφάλμα στην εγγραφή του αρχείου \"%s\""
+
+# 
+#~ msgid "no input files given"
+#~ msgstr "δεν καθορίστηκαν αρχεία εισόδου"
+
+# 
+#~ msgid "exactly 2 input files required"
+#~ msgstr "απαιτούνται ακριβώς δύο αρχεία εισόδου"
+
+# 
+#~ msgid ""
+#~ "Usage: %s [OPTION] def.po ref.po\n"
+#~ "Mandatory arguments to long options are mandatory for short options too.\n"
+#~ "  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search\n"
+#~ "  -h, --help                  display this help and exit\n"
+#~ "  -V, --version               output version information and exit\n"
+#~ "\n"
+#~ "Compare two Uniforum style .po files to check that both contain the same\n"
+#~ "set of msgid strings.  The def.po file is an existing PO file with the\n"
+#~ "old translations.  The ref.po file is the last created PO file\n"
+#~ "(generally by xgettext).  This is useful for checking that you have\n"
+#~ "translated each and every message in your program.  Where an exact match\n"
+#~ "cannot be found, fuzzy matching is used to produce better diagnostics.\n"
+#~ msgstr ""
+#~ "Χρήση: %s [ΕΠΙΛΟΓΗ] def.po ref.po\n"
+#~ "Οι υποχρεωτικοί παράμετροι στα περιφραστικά ορίσματα είναι υποχρεωτικοί\n"
+#~ "και για τα σύντομα ορίσματα.\n"
+#~ "  -D, --directory=ΚΑΤΑΛΟΓΟΣ  πρόσθεσε τον ΚΑΤΑΛΟΓΟ στη λίστα\n"
+#~ "                           για αναζήτηση αρχείων εισόδου.\n"
+#~ "  -h, --help               εμφάνιση αυτής της βοήθειας και έξοδος\n"
+#~ "  -V, --version            εμφάνιση πληροφοριών έκδοσης προγράμματος και έξοδος\n"
+#~ "\n"
+#~ "Σύγκριση δύο αρχείων .po της μορφής Uniforum για τον έλεγχο αν και τα δύο\n"
+#~ "περιέχουν το ίδιο σύνολο από msgid αλφαριθμιτικά. Το αρχείο def.po είναι\n"
+#~ "ένα προϋπάρχον αρχείο PO με τις παλιές μεταφράσεις. Το αρχείο ref.po file\n"
+#~ "είναι το πιο πρόσφατο αρχείο PO (γενικά δημιουργημένο από το πρόγραμμα\n"
+#~ "xgettext). Είναι χρήσιμο για το έλεγχο ότι όλα τα μηνύματα τους προγράμματος\n"
+#~ "έχουν μεταφραστεί. Εκεί που δεν εντοπίζεται ακριβής αντιστoιχία,\n"
+#~ "γίνεται ελαστικό ταίριασμα για καλύτερα αποτελέσματα.\n"
+
+# 
+#~ msgid "this message is used but not defined..."
+#~ msgstr "αυτό το μήνυμα χρησιμοποείται, αλλά δεν ορίζεται..."
+
+# 
+#~ msgid "...but this definition is similar"
+#~ msgstr "...αλλά αυτός ο ορισμός είναι παρόμοιος"
+
+# 
+#~ msgid "this message is used but not defined in %s"
+#~ msgstr "αυτό το μήνυμα χρησιμοποείται, αλλά δεν ορίζεται στο %s"
+
+# 
+#~ msgid "warning: this message is not used"
+#~ msgstr "προειδοποίηση: αυτό το μήνυμα δεν χρησιμοποείται"
+
+# 
+#~ msgid "duplicate message definition"
+#~ msgstr "επαναλαμβανόμενος ορισμός μηνύματος"
+
+# 
+#~ msgid "...this is the location of the first definition"
+#~ msgstr "...αυτή είναι η θέση του πρώτου ορισμού"
+
+# 
+#~ msgid "this message has no definition in the \"%s\" domain"
+#~ msgstr "αυτό το μήνυμα δεν έχει ορισμό στη περιοχή \"%s\""
+
+# 
+#~ msgid "while preparing output"
+#~ msgstr "καθώς προετοιμαζόταν η έξοδος"
+
+# 
+#~ msgid "%s and %s are mutually exclusive"
+#~ msgstr "τα %s και %s είναι αμοιβαία αποκλειώμενα"
+
+# 
+#~ msgid "at least two files must be specified"
+#~ msgstr "πρέπει να οριστούν τουλάχιστον δύο αρχεία"
+
+# 
+#~ msgid "impossible selection criteria specified (%d < n < %d)"
+#~ msgstr "έχει επιλεχθεί αδύνατο κριτήριο επιλογής (%d < n < %d)"
+
+# 
+#~ msgid ""
+#~ "Usage: %s [OPTION] INPUTFILE ...\n"
+#~ "Mandatory arguments to long options are mandatory for short options too.\n"
+#~ "  -d, --default-domain=NAME      use NAME.po for output (instead of messages.po)\n"
+#~ "  -D, --directory=DIRECTORY      add DIRECTORY to list for input files search\n"
+#~ "  -e, --no-escape                do not use C escapes in output (default)\n"
+#~ "  -E, --escape                   use C escapes in output, no extended chars\n"
+#~ "  -f, --files-from=FILE          get list of input files from FILE\n"
+#~ "      --force-po                 write PO file even if empty\n"
+#~ "  -F, --sort-by-file             sort output by file location\n"
+#~ "  -h, --help                     display this help and exit\n"
+#~ msgstr ""
+#~ "Χρήση: %s [ΕΠΙΛΟΓΗ] ΑΡΧΕΙΟΕΙΣΟΔΟΥ ...\n"
+#~ "Οι υποχρεωτικοί παράμετροι στα περιφραστικά ορίσματα είναι υποχρεωτικοί\n"
+#~ "και για τα σύντομα ορίσματα.\n"
+#~ "  -d, --default-domain=ΟΝΟΜΑ     χρήση του ΟΝΟΜΑ.po για έξοδο (αντί του messages.po)\n"
+#~ "  -D, --directory=ΚΑΤΑΛΟΓΟΣ      προσθήκη του ΚΑΤΑΛΟΓΟΣ στην αναζήτηση αρχείων εισόδου\n"
+#~ "  -e, --no-escape                αποφυγή χρήσης κωδικών διαφυγής αλά C στην έξοδο\n"
+#~ "                                   (εξ ορισμού)\n"
+#~ "  -E, --escape                   χρήση κωδικών διαφυγής αλά C στην έξοδο, όχι όμως\n"
+#~ "                                 και εκτεταμένους χαρακτήρες.\n"
+#~ "  -f, --files-from=ΑΡΧΕΙΟ        λήψη λίστας αρχείων εισόδου από ΑΡΧΕΙΟ\n"
+#~ "      --force-po                 δημιουργία αρχείου PO ακόμα και αν είναι άδειο\n"
+#~ "  -F, --sort-by-file             ταξινόμηση εξόδου βάση της θέσης αρχείου\n"
+#~ "  -h, --help                     εμφάνιση αυτής της βοήθειας και έξοδος\n"
+
+# 
+#~ msgid ""
+#~ "  -i, --indent                   write the .po file using indented style\n"
+#~ "      --no-location              do not write '#: filename:line' lines\n"
+#~ "  -n, --add-location             generate '#: filename:line' lines (default)\n"
+#~ "      --omit-header              don't write header with `msgid \"\"' entry\n"
+#~ "  -o, --output=FILE              write output to specified file\n"
+#~ "  -p, --output-dir=DIR           output files will be placed in directory DIR\n"
+#~ "  -s, --sort-output              generate sorted output and remove duplicates\n"
+#~ "      --strict                   write out strict Uniforum conforming .po file\n"
+#~ "  -T, --trigraphs                understand ANSI C trigraphs for input\n"
+#~ "  -u, --unique                   shorthand for --less-than=2, requests\n"
+#~ "                                 that only unique messages be printed\n"
+#~ msgstr ""
+#~ "  -i, --indent                   δημιουργία .po αρχείου με μορφοποιημένη έξοδο\n"
+#~ "      --no-location              αποφυγή εμφάνισης γραμμών '#: filename:line'\n"
+#~ "  -n, --add-location             δημιουργία γραμμών '#: filename:line' (εξ ορισμού)\n"
+#~ "      --omit-header              να μη γραφτεί κεφαλίδα με εγγραφή `msgid \"\"'\n"
+#~ "  -o, --output=ΑΡΧΕΙΟ            εγγραφή εξόδου στο επιλεγμένο αρχείο\n"
+#~ "  -p, --output-dir=ΚΑΤΑΛΟΓΟΣ     τα αρχεία εξόδου θα τοποθετηθούν στοκατάλογο ΚΑΤΑΛΟΓΟΣ\n"
+#~ "  -s, --sort-output              δημιουργία ταξινομημένης εξόδου και απαλοιφή επαναλήψεων\n"
+#~ "      --strict                   δημιουργία αρχείο .po που συμφωνούν απόλυτα με το πρότυπο Uniforum\n"
+#~ "  -T, --trigraphs                αποδοχή ANSI C τριγραμμάτων στην είσοδο\n"
+#~ "  -u, --unique                   συντομογραφία του --less-than=2, αίτηση για\n"
+#~ "                                 εμφάνιση μόνο των μοναδικών μηνυμάτων\n"
+
+# 
+#~ msgid ""
+#~ "  -V, --version                  output version information and exit\n"
+#~ "  -w, --width=NUMBER             set output page width\n"
+#~ "  -<, --less-than=NUMBER         print messages with less than this many\n"
+#~ "                                 definitions, defaults to infinite if not\n"
+#~ "                                 set\n"
+#~ "  ->, --more-than=NUMBER         print messages with more than this many\n"
+#~ "                                 definitions, defaults to 1 if not set\n"
+#~ "\n"
+#~ "Find messages which are common to two or more of the specified PO files.\n"
+#~ "By using the --more-than option, greater commonality may be requested\n"
+#~ "before messages are printed.  Conversely, the --less-than option may be\n"
+#~ "used to specify less commonality before messages are printed (i.e.\n"
+#~ "--less-than=2 will only print the unique messages).  Translations,\n"
+#~ "comments and extract comments will be preserved, but only from the first\n"
+#~ "PO file to define them.  File positions from all PO files will be\n"
+#~ "preserved.\n"
+#~ msgstr ""
+#~ "  -V, --version                  εμφάνιση πληροφοριών έκδοσης προγράμματος\n"
+#~ "                                   και έξοδος\n"
+#~ "  -w, --width=ΑΡΙΘΜΟΣ            ορισμός πλάτους σελίδας εξόδου\n"
+#~ "  -<, --less-than=ΑΡΙΘΜΟΣ        εμφάνιση μηνυμάτων με λιγότερα από ΑΡΙΘΜΟΣ\n"
+#~ "                                   ορισμούς, εξ ορισμού σε άπειρο αν δεν τεθεί\n"
+#~ "  ->, --more-than=ΑΡΙΘΜΟΣ        εμφάνιση μηνυμάτων με περισσότερα από ΑΡΙΘΜΟΣ\n"
+#~ "                                   ορισμούς, εξ ορισμού σε ένα αν δεν τεθεί\n"
+#~ "\n"
+#~ "Εύρεση μηνυμάτων που είναι κοινά σε δύο ή περισσότερα ορισμένα αρχεία PO.\n"
+#~ "Με τη χρήση της επιλογής --more-than option, μπορεί να ζητηθεί μεγαλύτερη\n"
+#~ "συγγένεια πριν εμφανιστούν τα μηνύματα.  Αντίθετα, με την επιλογή --less-than\n"
+#~ "μπορεί να οριστεί μικρότερη συγγένεια πριν εμφανιστούν τα μηνύματα (π.χ.\n"
+#~ "το --less-than=2 θα εμφανίσει μόνο τα μοναδικά μηνύματα).  Οι μεταφράσεις,\n"
+#~ "τα σχόλια και τα μηνύματα σε μορφή σχολίων θα διατηρηθούν, αλλά μόνο από το\n"
+#~ "πρώτο αρχείο PO που τα έχει ορίσει. Οι θέσεις αρχείου από όλα τα αρχεία PO\n"
+#~ "θα διατηρηθούν.\n"
+
+# 
+#~ msgid "error while opening \"%s\" for reading"
+#~ msgstr "σφάλμα στο άνοιγμα του \"%s\" για ανάγνωση"
+
+# 
+#~ msgid "this file may not contain domain directives"
+#~ msgstr "αυτό το αρχείο δεν μπορεί να περιέχει οδηγίες για τη περιοχή"
+
+# 
+#~ msgid "no input file given"
+#~ msgstr "δεν δόθηκε αρχείο εισόδου"
+
+# 
+#~ msgid "error while opening \"%s\" for writing"
+#~ msgstr "σφάλμα κατά το άνοιγμα του αρχείου \"%s\" για εγγραφή"
+
+# 
+#~ msgid "%d translated messages"
+#~ msgstr "%d μεταφρασμένα μυνήματα"
+
+# 
+#~ msgid ", %d fuzzy translations"
+#~ msgstr ", %d προσεγγιστικές μεταφράσεις"
+
+# 
+#~ msgid ", %d untranslated messages"
+#~ msgstr ", %d μη μεταφρασμένα μηνύματα"
+
+# 
+#~ msgid ""
+#~ "Usage: %s [OPTION] filename.po ...\n"
+#~ "Generate binary message catalog from textual translation description.\n"
+#~ "\n"
+#~ "Mandatory arguments to long options are mandatory for short options too.\n"
+#~ "  -a, --alignment=NUMBER      align strings to NUMBER bytes (default: %d)\n"
+#~ "  -c, --check                 perform language dependent checks on strings\n"
+#~ "  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search\n"
+#~ "  -f, --use-fuzzy             use fuzzy entries in output\n"
+#~ "  -h, --help                  display this help and exit\n"
+#~ "      --no-hash               binary file will not include the hash table\n"
+#~ "  -o, --output-file=FILE      specify output file name as FILE\n"
+#~ "      --statistics            print statistics about translations\n"
+#~ "      --strict                enable strict Uniforum mode\n"
+#~ "  -v, --verbose               list input file anomalies\n"
+#~ "  -V, --version               output version information and exit\n"
+#~ "\n"
+#~ "Giving the -v option more than once increases the verbosity level.\n"
+#~ "\n"
+#~ "If input file is -, standard input is read.  If output file is -,\n"
+#~ "output is written to standard output.\n"
+#~ msgstr ""
+#~ "Χρήση: %s [ΕΠΙΛΟΓΗ] filename.po ...\n"
+#~ "Δημιουργία δυαδικού καταλόγου μηνυμάτων από λεκτική μετάφραση περιγραφών.\n"
+#~ "\n"
+#~ "Οι υποχρεωτικοί παράμετροι στα περιφραστικά ορίσματα είναι υποχρεωτικοί\n"
+#~ "και για τα σύντομα ορίσματα.\n"
+#~ "  -a, --alignment=ΑΡΙΘΜΟΣ  στοίχηση αλφαριθμητικών σε ΑΡΙΘΜΟΣ από bytes\n"
+#~ "                           (εξ ορισμού τιμή: %d)\n"
+#~ "  -c, --check              εκτέλεση ελέγχων εξαρτημένων από τη γλώσσα\n"
+#~ "                           στα αλφαριθμητικά\n"
+#~ "  -D, --directory=ΚΑΤΑΛΟΓΟΣ  πρόσθεσε τον ΚΑΤΑΛΟΓΟ στη λίστα για αναζήτηση\n"
+#~ "                           αρχείων εισόδου.\n"
+#~ "  -f, --use-fuzzy          χρήση προσεγγιστικών εγγραφών στην έξοδο\n"
+#~ "  -h, --help               εμφάνιση αυτής της βοήθειας και έξοδος\n"
+#~ "      --no-hash            δυαδικά αρχεία δεν συμπεριλαμβάνονται στο\n"
+#~ "                             hash table\n"
+#~ "  -o, --output-file=ΑΡΧΕΙΟ καθορισμός του ΑΡΧΕΙΟ σαν αρχείο εξόδου\n"
+#~ "      --statistics         εμφάνιση στατιστικών για τις μεταφράσεις\n"
+#~ "      --strict             ενεργοποίηση κατάστασης αυστηρού Uniforum\n"
+#~ "  -v, --verbose            εμφάνιση σφαλμάτων αρχείου εισόδου\n"
+#~ "  -V, --version            εμφάνιση πληροφοριών έκδοσης και έξοδος\n"
+#~ "\n"
+#~ "Δίνοντας την παράμετρο -v περισσότερες από μια φορές, αυξάνει το βαθμό\n"
+#~ "περιφραστικότητας των μηνυμάτων\n"
+#~ "\n"
+#~ "Αν το αρχείο εισόδου είναι το -, γίνεται ανάγνωση της κανονικής εισόδου.\n"
+#~ "Αν το αρχείο εξόδου είναι -, τότε η έξοδος γράφεται στην κανονική έξοδο.\n"
+
+# 
+#~ msgid "while creating hash table"
+#~ msgstr "κατά τη δημιουργία του hash table"
+
+# 
+#~ msgid "%s: warning: no header entry found"
+#~ msgstr "%s: προειδοποίηση: δε βρέθηκε αρχή κεφαλίδας"
+
+# 
+#~ msgid "domain name \"%s\" not suitable as file name"
+#~ msgstr "το όνομα για τη περιοχή \"%s\" δεν είναι κατάλληλο για όνομα αρχείου"
+
+# 
+#~ msgid "domain name \"%s\" not suitable as file name: will use prefix"
+#~ msgstr "το όνομα για τη περιοχή \"%s\" δεν είναι κατάλληλο για όνομα αρχείου· θα γίνει χρήση προθέματος"
+
+# 
+#~ msgid "`domain %s' directive ignored"
+#~ msgstr "η οδηγία `domain %s' αγνοείται"
+
+# 
+#~ msgid "empty `msgstr' entry ignored"
+#~ msgstr "η κενή εγγραφή `msgstr' αγνοείται"
+
+# 
+#~ msgid "fuzzy `msgstr' entry ignored"
+#~ msgstr "η προσεγγιστική εγγραφή `msgstr' αγνοείται"
+
+# 
+#~ msgid "headerfield `%s' missing in header"
+#~ msgstr "το πεδίο `%s' έχει παραληφθεί από τη κεφαλίδα"
+
+# 
+#~ msgid "header field `%s' should start at beginning of line"
+#~ msgstr "το πεδία κεφαλίδας `%s' θα έπρεπε να ξεκινά στην αρχή της γραμμής"
+
+# 
+#~ msgid "some header fields still have the initial default value"
+#~ msgstr "μερικά πεδία της κεφαλίδας έχουν ακόμα την αρχική εξ ορισμού τιμή"
+
+# 
+#~ msgid "field `%s' still has initial default value"
+#~ msgstr "το πεδίο `%s' έχει ακόμα την αρχική εξ ορισμού τιμή"
+
+# 
+#~ msgid "%s: warning: source file contains fuzzy translation"
+#~ msgstr "%s: προειδοποίηση: το αρχείο εισόδου περιέχει προσεγγιστικές μεταφράσεις"
+
+# 
+#~ msgid "`msgid' and `msgstr' entries do not both begin with '\\n'"
+#~ msgstr "Οι εγγραφές `msgid' και `msgstr' δεν ξεκινούν και οι δύο με '\\n'"
+
+# 
+#~ msgid "`msgid' and `msgstr' entries do not both end with '\\n'"
+#~ msgstr "Οι εγγραφές `msgid' και `msgstr' δεν τελειώνουν και οι δύο με '\\n'"
+
+# 
+#~ msgid "number of format specifications in `msgid' and `msgstr' does not match"
+#~ msgstr "ο αριθμός των αναφορών σε μορφοποιήσεις των `msgid' και `msgstr' δε συμπίπτει"
+
+# 
+#~ msgid "format specifications for argument %u are not the same"
+#~ msgstr "οι μορφοποιήσεις για τη παράμετρο %u δεν είναι ίδιες"
+
+# 
+#~ msgid ""
+#~ "Usage: %s [OPTION] def.po ref.po\n"
+#~ "Mandatory arguments to long options are mandatory for short options too.\n"
+#~ "  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search\n"
+#~ "  -e, --no-escape             do not use C escapes in output (default)\n"
+#~ "  -E, --escape                use C escapes in output, no extended chars\n"
+#~ "      --force-po              write PO file even if empty\n"
+#~ "  -h, --help                  display this help and exit\n"
+#~ "  -i, --indent                indented output style\n"
+#~ "  -o, --output-file=FILE      result will be written to FILE\n"
+#~ "      --no-location           suppress '#: filename:line' lines\n"
+#~ "      --add-location          preserve '#: filename:line' lines (default)\n"
+#~ "      --strict                strict Uniforum output style\n"
+#~ "  -v, --verbose               increase verbosity level\n"
+#~ "  -V, --version               output version information and exit\n"
+#~ "  -w, --width=NUMBER          set output page width\n"
+#~ msgstr ""
+#~ "Χρήση: %s [ΕΠΙΛΟΓΗ] def.po ref.po\n"
+#~ "Οι υποχρεωτικοί παράμετροι στα περιφραστικά ορίσματα είναι υποχρεωτικοί\n"
+#~ "και για τα σύντομα ορίσματα.\n"
+#~ "  -D, --directory=ΚΑΤΑΛΟΓΟΣ   πρόσθεσε τον ΚΑΤΑΛΟΓΟ στη λίστα για αναζήτηση\n"
+#~ "                                αρχείων εισόδου.\n"
+#~ "  -e, --no-escape             αποφυγή χρήσης κωδικών διαφυγής αλά C στην έξοδο\n"
+#~ "                                (εξ ορισμού)\n"
+#~ "  -E, --escape                χρήση κωδικών διαφυγής αλά C στην έξοδο,\n"
+#~ "                                όχι όμως και εκτεταμένους χαρακτήρες.\n"
+#~ "      --force-po              δημιουργία αρχείου PO ακόμα και αν είναι άδειο\n"
+#~ "  -h, --help                  εμφάνιση αυτής της βοήθειας και έξοδος\n"
+#~ "  -i, --indent                μορφοποιημένη έξοδος\n"
+#~ "  -o, --output-file=ΑΡΧΕΙΟ    το αρχείο εξόδου θα είναι το ΑΡΧΕΙΟ\n"
+#~ "      --no-location           αποφυγή εμφάνισης γραμμών '#: filename:line'\n"
+#~ "      --add-location          διατήρηση γραμμών '#: filename:line' (εξ ορισμού)\n"
+#~ "      --strict                αυστηρή μορφή εξόδου Uniforum\n"
+#~ "  -v, --verbose               περιφραστική εμφάνιση προειδοποιήσεων\n"
+#~ "  -V, --version               εμφάνιση πληροφοριών έκδοσης και έξοδος\n"
+#~ "  -w, --width=ΑΡΙΘΜΟΣ         ορισμός μεγέθους πλάτους σελίδας εξόδου\n"
+
+# 
+#~ msgid ""
+#~ "\n"
+#~ "Merges two Uniforum style .po files together.  The def.po file is an\n"
+#~ "existing PO file with the old translations which will be taken over to\n"
+#~ "the newly created file as long as they still match; comments will be\n"
+#~ "preserved, but extract comments and file positions will be discarded.\n"
+#~ "The ref.po file is the last created PO file (generally by xgettext), any\n"
+#~ "translations or comments in the file will be discarded, however dot\n"
+#~ "comments and file positions will be preserved.  Where an exact match\n"
+#~ "cannot be found, fuzzy matching is used to produce better results.  The\n"
+#~ "results are written to stdout unless an output file is specified.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Συνένωση δύο αρχείων .po μορφής Uniforum. Το αρχείο def.po είναι το\n"
+#~ "προϋπάρχον αρχείο PO με τις παλιές μεταφράσεις που θα μεταφερθούν στο\n"
+#~ "νέο αρχείο, όσα φυσικά δεν έχουν αλλάξει· τα σχόλια θα διατηρηθούν\n"
+#~ "αλλά τα εξαγώμενα σχόλια και οι θέσεις αρχείων θα αφαιρεθούν.\n"
+#~ "Το αρχείο ref.po είναι το τελευταία δημιουργημένο αρχείο PO \n"
+#~ "(γενικά κατασκευάζεται από το xgettext) και ο,τι μεταφράσεις ή σχόλια \n"
+#~ "υπάρχουν στο αρχείο θα αγνοηθούν, ωστόσο σχόλια που ξεκινούν με τελεία \n"
+#~ "και θέσεις αρχείων θα διατηρηθούν. Εκεί που δεν εμφανίζεται απόλυτο\n"
+#~ "ταίριασμα, γίνεται χρήση ελαστικού ταιριάσματος για καλύτερα αποτελέσματα.\n"
+#~ "Τα αποτελέσματα γράφονται στην κανονική έξοδο εκτός και αν ορίζεται\n"
+#~ "κάποιο αρχείο εξόδου.\n"
+
+# 
+#~ msgid "%sRead %d old + %d reference, merged %d, fuzzied %d, missing %d, obsolete %d.\n"
+#~ msgstr "%sΑναγνώστηκαν %d παλαιά + %d αναφορές, συγχωνευμένα %d, προσεγγιστικά %d,έχουν παραληφθεί %d, αχρησιμοποίητα %d.\n"
+
+# 
+#~ msgid " done.\n"
+#~ msgstr " έγινε.\n"
+
+# 
+#~ msgid ""
+#~ "Usage: %s [OPTION] [FILE]...\n"
+#~ "Mandatory arguments to long options are mandatory for short options too.\n"
+#~ "  -e, --no-escape          do not use C escapes in output (default)\n"
+#~ "  -E, --escape             use C escapes in output, no extended chars\n"
+#~ "      --force-po           write PO file even if empty\n"
+#~ "  -h, --help               display this help and exit\n"
+#~ "  -i, --indent             write indented output style\n"
+#~ "  -o, --output-file=FILE   write output into FILE instead of standard output\n"
+#~ "      --strict             write strict uniforum style\n"
+#~ "  -V, --version            output version information and exit\n"
+#~ "  -w, --width=NUMBER       set output page width\n"
+#~ msgstr ""
+#~ "Χρήση: %s [ΕΠΙΛΟΓΗ] def.po ref.po\n"
+#~ "Οι υποχρεωτικοί παράμετροι στα περιφραστικά ορίσματα είναι υποχρεωτικοί\n"
+#~ "και για τα σύντομα ορίσματα.\n"
+#~ "  -e, --no-escape          αποφυγή χρήσης κωδικών διαφυγής αλά C στην έξοδο\n"
+#~ "                           (εξ ορισμού)\n"
+#~ "  -E, --escape             χρήση κωδικών διαφυγής αλά C στην έξοδο,\n"
+#~ "                             όχι όμως και εκτεταμένους χαρακτήρες.\n"
+#~ "      --force-po           δημιουργία αρχείου PO ακόμα και αν είναι άδειο\n"
+#~ "  -h, --help               εμφάνιση αυτής της βοήθειας και έξοδος\n"
+#~ "  -i, --indent             μορφοποιημένη έξοδος\n"
+#~ "  -o, --output-file=ΑΡΧΕΙΟ  το αρχείο εξόδου θα είναι το ΑΡΧΕΙΟ\n"
+#~ "      --strict             μορφή εξόδου το αυστηρό Uniforum\n"
+#~ "  -V, --version            εμφάνιση πληροφοριών έκδοσης και έξοδος\n"
+#~ "  -w, --width=ΑΡΙΘΜΟΣ      ορισμός μεγέθους πλάτους σελίδας εξόδου\n"
+
+# 
+#~ msgid ""
+#~ "\n"
+#~ "Convert binary .mo files to Uniforum style .po files.\n"
+#~ "Both little-endian and big-endian .mo files are handled.\n"
+#~ "If no input file is given or it is -, standard input is read.\n"
+#~ "By default the output is written to standard output.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Μετατροπή δυαδικών αρχείων .mo σε Uniforum .po αρχεία.\n"
+#~ "Και τα little-endian και τα big-endian αρχεία .mo μπορούν\n"
+#~ "να χρησιμοποιηθούν. Αν το αρχείο εισόδου δίνεται ή είναι -,\n"
+#~ "τότε αναγιγνώσκεται η κανονική είσοδος. Εξ ορισμού, η έξοδος\n"
+#~ "γράφεται στην κανονική έξοδο.\n"
+
+# 
+#~ msgid "error while reading \"%s\""
+#~ msgstr "σφάλμα στην ανάγνωση του \"%s\""
+
+# 
+#~ msgid "file \"%s\" truncated"
+#~ msgstr "το αρχείο \"%s\" μηδενίστηκε και θα γραφούν δεδομένα σε αυτό"
+
+# 
+#~ msgid "seek \"%s\" offset %ld failed"
+#~ msgstr "η πρόσβαση στο αρχείο \"%s\", θέση %ld, απέτυχε"
+
+# 
+#~ msgid "file \"%s\" is not in GNU .mo format"
+#~ msgstr "το αρχείο \"%s\" δεν είναι στη μορφή GNU .mo"
+
+# 
+#~ msgid "missing `msgstr' section"
+#~ msgstr "λείπει ενότητα `msgstr'"
+
+# 
+#~ msgid "found %d fatal errors"
+#~ msgstr "βρέθηκαν %d σοβαρά σφάλματα"
+
+# 
+#~ msgid "too many errors, aborting"
+#~ msgstr "πάρα πολλά σφάλματα, εγκαταλείπω"
+
+# 
+#~ msgid "keyword \"%s\" unknown"
+#~ msgstr "άγνωστη εντολή \"%s\""
+
+# 
+#~ msgid "illegal control sequence"
+#~ msgstr "μη αποδεκτή σειρά χαρακτήρων διαφυγής"
+
+# 
+#~ msgid "end-of-line within string"
+#~ msgstr "τέρμα-γραμμής (eol) στο αλφαριθμητικό"
+
+# 
+#~ msgid "end-of-file within string"
+#~ msgstr "τέλος αρχείου (EOF) στο αλφαριθμητικό"
+
+# 
+#~ msgid "standard input"
+#~ msgstr "κανονική είσοδος"
+
+# 
+#~ msgid "%s:%d: warning: unterminated character constant"
+#~ msgstr "%s:%d: προειδοποίηση: μη τερματισμένη σταθερά χαρακτήρων"
+
+# 
+#~ msgid "%s:%d: warning: unterminated string literal"
+#~ msgstr "%s:%d: προειδοποίηση: μη τερματισμένο αλφαριθμητικό"
+
+# 
+#~ msgid "--join-existing cannot be used when output is written to stdout"
+#~ msgstr "το --join-existing δε μπορεί να χρησιμοποιηθεί όταν η έξοδος γράφεται στην κανονική έξοδο"
+
+# 
+#~ msgid "warning: file `%s' extension `%s' is unknown; will try C"
+#~ msgstr "προειδοποίηση: το αρχείο `%s' με κατάληξη `%s' είναι άγνωστο· θα δοκιμαστεί C"
+
+# 
+#~ msgid ""
+#~ "Usage: %s [OPTION] INPUTFILE ...\n"
+#~ "Extract translatable string from given input files.\n"
+#~ "\n"
+#~ "Mandatory arguments to long options are mandatory for short options too.\n"
+#~ "  -a, --extract-all              extract all strings\n"
+#~ "  -c, --add-comments[=TAG]       place comment block with TAG (or those\n"
+#~ "                                 preceding keyword lines) in output file\n"
+#~ "  -C, --c++                      shorthand for --language=C++\n"
+#~ "      --debug                    more detailed formatstring recognision result\n"
+#~ "  -d, --default-domain=NAME      use NAME.po for output (instead of messages.po)\n"
+#~ "  -D, --directory=DIRECTORY      add DIRECTORY to list for input files search\n"
+#~ "  -e, --no-escape                do not use C escapes in output (default)\n"
+#~ "  -E, --escape                   use C escapes in output, no extended chars\n"
+#~ "  -f, --files-from=FILE          get list of input files from FILE\n"
+#~ "      --force-po                 write PO file even if empty\n"
+#~ "      --foreign-user             omit FSF copyright in output for foreign user\n"
+#~ "  -F, --sort-by-file             sort output by file location\n"
+#~ msgstr ""
+#~ "Χρήση: %s [ΕΠΙΛΟΓΗ] ΑΡΧΕΙΟΕΙΣΟΔΟΥ ...\n"
+#~ "Εξαγωγή αλφαριθμητικών που μπορούν να μεταφραστούν από δοσμένα αρχεία εισόδου.\n"
+#~ "\n"
+#~ "Οι υποχρεωτικοί παράμετροι στα περιφραστικά ορίσματα είναι υποχρεωτικοί\n"
+#~ "και για τα σύντομα ορίσματα.\n"
+#~ "  -a, --extract-all              εξαγωγή όλων των αλφαριθμητικών\n"
+#~ "  -c, --add-comments[=TAG]       τοποθέτηση τμήμα σχολίων με TAG (ή αυτά που\n"
+#~ "                                 ακολουθούν γραμμές με εντολές) στο αρχείο εξόδου\n"
+#~ "  -C, --c++                      συντομογραφία για --language=C++\n"
+#~ "      --debug                    περισσότερο λεπτομερής εμφάνιση μηνυμάτων\n"
+#~ "  -d, --default-domain=ΟΝΟΜΑ     χρήση του ΟΝΟΜΑ.po για έξοδο (αντί του messages.po)\n"
+#~ "  -D, --directory=ΚΑΤΑΛΟΓΟΣ      αλλαγή στο ΚΑΤΑΛΟΓΟΣ πριν την έναρξη της επεξεργασίας\n"
+#~ "  -e, --no-escape                αποφυγή χρήσης κωδικών διαφυγής αλά C στην έξοδο\n"
+#~ "                                   (εξ ορισμού)\n"
+#~ "  -E, --escape                   χρήση κωδικών διαφυγής αλά C στην έξοδο, όχι όμως\n"
+#~ "                                 και εκτεταμένους χαρακτήρες.\n"
+#~ "  -f, --files-from=ΑΡΧΕΙΟ        λήψη λίστας αρχείων εισόδου από ΑΡΧΕΙΟ\n"
+#~ "      --force-po                 δημιουργία αρχείου PO ακόμα και αν είναι άδειο\n"
+#~ "      --foreign-user             παράλειψη εμφάνισης πνευματικών δικαιωμάτων της FSF\n"
+#~ "                                 στην έξοδο για ξένο χρήστη\n"
+#~ "  -F, --sort-by-file             ταξινόμηση εξόδου βάση της θέσης αρχείου\n"
+
+# 
+#~ msgid ""
+#~ "  -h, --help                     display this help and exit\n"
+#~ "  -i, --indent                   write the .po file using indented style\n"
+#~ "  -j, --join-existing            join messages with existing file\n"
+#~ "  -k, --keyword[=WORD]           additonal keyword to be looked for (without\n"
+#~ "                                 WORD means not to use default keywords)\n"
+#~ "  -l, --string-limit=NUMBER      set string length limit to NUMBER instead %u\n"
+#~ "  -L, --language=NAME            recognise the specified language (C, C++, PO),\n"
+#~ "                                 otherwise is guessed from file extension\n"
+#~ "  -m, --msgstr-prefix[=STRING]   use STRING or \"\" as prefix for msgstr entries\n"
+#~ "  -M, --msgstr-suffix[=STRING]   use STRING or \"\" as suffix for msgstr entries\n"
+#~ "      --no-location              do not write '#: filename:line' lines\n"
+#~ msgstr ""
+#~ "  -h, --help                     εμφάνιση αυτής της βοήθειας και έξοδος\n"
+#~ "  -i, --indent                   δημιουργία .po αρχείου με μορφοποιημένη έξοδο\n"
+#~ "  -j, --join-existing            πρόσθεση μηνυμάτων με το υπάρχον αρχείο\n"
+#~ "  -k, --keyword[=ΛΕΞΗ]           επιπλέον λεκτικό για αναζήτηση (χωρίς ΛΕΞΗ σημαίνει\n"
+#~ "                                 αναζήτηση για εξ ορισμού λεκτικά).\n"
+#~ "  -l, --string-limit=ΑΡΙΘΜΟΣ     ορισμός μεγέθους αλφαριθμητικού σε ΑΡΙΘΜΟΣ αντί του %u\n"
+#~ "  -m, --msgstr-prefix[=ΑΛΦΑΡΙΘΜΗΤΙΚΟ] χρήση του ΑΛΦΑΡΙΘΜΗΤΙΚΟ ή \"\" για πρόθεμα\n"
+#~ "                                 σε εγγραφές msgstr\n"
+#~ "  -M, --msgstr-suffix[=ΑΛΦΑΡΙΘΜΗΤΙΚΟ] χρήση του ΑΛΦΑΡΙΘΜΗΤΙΚΟ ή \"\" για κατάληξη\n"
+#~ "                                 σε εγγραφές msgstr\n"
+#~ "      --no-location              να μην γραφούν γραμμές '#: filename:line'\n"
+
+# 
+#~ msgid ""
+#~ "  -n, --add-location             generate '#: filename:line' lines (default)\n"
+#~ "      --omit-header              don't write header with `msgid \"\"' entry\n"
+#~ "  -o, --output=FILE              write output to specified file\n"
+#~ "  -p, --output-dir=DIR           output files will be placed in directory DIR\n"
+#~ "  -s, --sort-output              generate sorted output and remove duplicates\n"
+#~ "      --strict                   write out strict Uniforum conforming .po file\n"
+#~ "  -T, --trigraphs                understand ANSI C trigraphs for input\n"
+#~ "  -V, --version                  output version information and exit\n"
+#~ "  -w, --width=NUMBER             set output page width\n"
+#~ "  -x, --exclude-file=FILE        entries from FILE are not extracted\n"
+#~ "\n"
+#~ "If INPUTFILE is -, standard input is read.\n"
+#~ msgstr ""
+#~ "  -n, --add-location             δημιουργία γραμμών '#: filename:line' (εξ ορισμού)\n"
+#~ "      --omit-header              να μη γραφεί κεφαλίδα με εγγραφή `msgid \"\"'\n"
+#~ "  -o, --output=ΑΡΧΕΙΟ            εγγραφή εξόδου στο επιλεγμένο αρχείο\n"
+#~ "  -p, --output-dir=ΚΑΤΑΛΟΓΟΣ     τα αρχεία εξόδου θα τοποθετηθούν\n"
+#~ "                                   στο κατάλογο ΚΑΤΑΛΟΓΟΣ\n"
+#~ "  -s, --sort-output              δημιουργία ταξινομημένης εξόδου και\n"
+#~ "                                   απαλοιφή επαναλήψεων\n"
+#~ "      --strict                   δημιουργία αρχείο .po που συμφωνούν απόλυτα\n"
+#~ "                                   με το πρότυπο Uniforum\n"
+#~ "  -T, --trigraphs                αποδοχή ANSI C τριγραμμάτων στην είσοδο\n"
+#~ "  -V, --version                  εμφάνιση πληροφοριών έκδοσης και έξοδος\n"
+#~ "  -x, --exclude-file=ΑΡΧΕΙΟ      εγγραφές από το ΑΡΧΕΙΟ δεν αφαιρούνται\n"
+#~ "\n"
+#~ "Αν το ΑΡΧΕΙΟΕΙΣΟΔΟΥ είναι -, γίνεται ανάγνωση της κανονικής εισόδου.\n"
+
+# 
+#~ msgid "language `%s' unknown"
+#~ msgstr "η γλώσσα `%s' είναι άγνωστη"
+
+# 
+#~ msgid "Report bugs to <bug-gnu-utils@prep.ai.mit.edu>.\n"
+#~ msgstr "Στείλτε αναφορές σφαλμάτων στο <bug-gnu-utils@gnu.ai.mit.edu>.\n"
+
+# 
+#~ msgid "this is the location of the first definition"
+#~ msgstr "αυτή είναι η θέση του πρώτου ορισμού"
+
+# 
+#~ msgid "found %d errors"
+#~ msgstr "βρέθηκαν %d σφάλματα"
+
+# 
+#~ msgid ""
+#~ "Usage: %s [OPTION] filename.mo filename.po\n"
+#~ "Mandatory arguments to long options are mandatory for short options too.\n"
+#~ "  -e, --no-escape          do not use C escapes in output (default)\n"
+#~ "  -E, --escape             use C escapes in output, no extended chars\n"
+#~ "  -h, --help               display this help and exit\n"
+#~ "  -i, --indent             write indented output style\n"
+#~ "  -S, --strict             write strict uniforum style\n"
+#~ "  -V, --version            output version information and exit\n"
+#~ msgstr ""
+#~ "Χρήση: %s [ΕΠΙΛΟΓΗ] filename.mo filename.po\n"
+#~ "Οι υποχρεωτικοί παράμετροι στα περιφραστικά ορίσματα είναι υποχρεωτικοί και για τα σύντομα ορίσματα.\n"
+#~ "  -e, --no-escape          αποφυγή χρήσης κωδικών διαφυγής αλά C στην έξοδο (εξ ορισμού)\n"
+#~ "  -E, --escape             χρήση κωδικών διαφυγής αλά C στην έξοδο, όχι όμως και εκτεταμένους χαρακτήρες.\n"
+#~ "  -h, --help               εμφάνιση αυτής της βοήθειας και έξοδος\n"
+#~ "  -i, --indent             μορφοποιημένη έξοδος\n"
+#~ "  -S, --strict             μορφή εξόδου το αυστηρό Uniforum\n"
+#~ "  -V, --version            εμφάνιση πληροφοριών έκδοσης και έξοδος\n"
+
+# 
+#~ msgid "cannot change to directory \"%s\""
+#~ msgstr "αδυναμία αλλαγής στο κατάλογο \"%s\""
+
+# 
+#~ msgid "cannot change back to directory \"%s\""
+#~ msgstr "αδυναμία επιστροφής στο κατάλογο \"%s\""
