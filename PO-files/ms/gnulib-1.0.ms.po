@@ -1,4 +1,4 @@
-# Terjemahan coreutils untuk Bahasa Melayu.
+# Terjemahan gnulib untuk Bahasa Melayu.
 # Copyright (C) 2001 Free Software Foundation, Inc.
 # Hasbullah Bin Pit <sebol@ikhlas.com>, 2003.
 #
