@@ -1,0 +1,243 @@
+# Czech translations for GNU sed package.
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Jaroslav Fojtik <fojtik@cmp.felk.cvut.cz>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sed 3.02.80\n"
+"POT-Creation-Date: 1999-09-06 17:44-0700\n"
+"PO-Revision-Date: 2001-08-05 19:52+02:00\n"
+"Last-Translator: Vladimir Michl <Vladimir.Michl@seznam.cz>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Various error messages we may want to print
+#: sed/compile.c:140
+#, c-format
+msgid "bad regexp: %s\n"
+msgstr "¹patný regulární výraz: %s\n"
+
+#: sed/compile.c:141
+msgid "Invalid use of address modifier"
+msgstr "Chybné pou¾ití adresy modifikátoru"
+
+#: sed/compile.c:142
+msgid "Multiple `!'s"
+msgstr "Vícenásobný `!'"
+
+#: sed/compile.c:143
+msgid "Unexpected `,'"
+msgstr "Neoèekáváná `,'"
+
+#: sed/compile.c:144
+msgid "Unexpected End-of-file"
+msgstr "Neoèekávaný konec souboru (EOF)"
+
+#: sed/compile.c:145
+msgid "Cannot use +N or ~N as first address"
+msgstr "+N nebo ~N nelze pou¾ít jako první adresu"
+
+#: sed/compile.c:146
+msgid "Unmatched `{'"
+msgstr "Neodpovídající `{'"
+
+#: sed/compile.c:147
+msgid "Unexpected `}'"
+msgstr "Neoèekávaná `}'"
+
+#: sed/compile.c:148
+msgid "Extra characters after command"
+msgstr "Nadbyteèné znaky po pøíkazu"
+
+#: sed/compile.c:149
+msgid "`}' doesn't want any addresses"
+msgstr "`}' nevy¾aduje jakoukoliv adresu"
+
+#: sed/compile.c:150
+msgid ": doesn't want any addresses"
+msgstr ": nechce jakoukoliv adresu"
+
+#: sed/compile.c:151
+msgid "Comments don't accept any addresses"
+msgstr "V komentáøi není pøípustná jakákoliv adresa"
+
+#: sed/compile.c:152
+msgid "Missing command"
+msgstr "Chybìjící pøíkaz"
+
+#: sed/compile.c:153
+msgid "Command only uses one address"
+msgstr "Pøíkaz pou¾ívá pouze jedinou adresu"
+
+#: sed/compile.c:154
+msgid "Unterminated address regex"
+msgstr "Neukonèená adresa regulárního výrazu"
+
+#: sed/compile.c:155
+msgid "Unterminated `s' command"
+msgstr "Neukonèený pøíkaz `s'"
+
+#: sed/compile.c:156
+msgid "Unterminated `y' command"
+msgstr "Neukonèený pøíkaz `y'"
+
+#: sed/compile.c:157
+msgid "Unknown option to `s'"
+msgstr "Neznámý pøepínaè pro `s'"
+
+#: sed/compile.c:158
+msgid "multiple `p' options to `s' command"
+msgstr "vícenásobné pou¾ití pøepínaèe `p' s pøíkazem `s'"
+
+#: sed/compile.c:159
+msgid "multiple `g' options to `s' command"
+msgstr "vícenásobné pou¾ití pøepínaèe `g' s pøíkazem `s'"
+
+#: sed/compile.c:161
+msgid "multiple number options to `s' command"
+msgstr "pøíkaz `s' mù¾e mít maximálnì jednu èíselnou volbu"
+
+#: sed/compile.c:163
+msgid "number option to `s' command may not be zero"
+msgstr "èíselná volba pøíkazu `s' nemù¾e být nula"
+
+#: sed/compile.c:165
+msgid "strings for y command are different lengths"
+msgstr "øetìzce pro pøíkaz `y' musí být stejnì dlouhé"
+
+#: sed/compile.c:207
+#, c-format
+msgid "Called savchar() with unexpected pushback (%x)"
+msgstr "Voláno savchar() s neèekaným pushback (%x)"
+
+#: sed/compile.c:1049
+msgid "Unknown command:"
+msgstr "Neznámý pøíkaz:"
+
+#: sed/compile.c:1070
+#, c-format
+msgid "%s: file %s line %lu: %s\n"
+msgstr "%s: soubor %s, øádek %lu: %s\n"
+
+#: sed/compile.c:1073
+#, c-format
+msgid "%s: -e expression #%lu, char %lu: %s\n"
+msgstr "%s: -e výraz #%lu, znak %lu: %s\n"
+
+#: sed/compile.c:1251
+#, c-format
+msgid "Can't find label for jump to `%s'"
+msgstr "Návì¹tí pro skok na `%s' nelze najít"
+
+#: sed/execute.c:331
+#, c-format
+msgid "input read error: %s"
+msgstr "chyba pøi ètení: %s"
+
+#: sed/execute.c:480
+#, c-format
+msgid "%s: can't read %s: %s\n"
+msgstr "%s: %s nelze èíst: %s\n"
+
+#: sed/execute.c:641
+msgid "INTERNAL ERROR: bad address type"
+msgstr "INTERNÍ CHYBA: ¹patný typ adresy"
+
+#: sed/execute.c:1071
+#, c-format
+msgid "INTERNAL ERROR: Bad cmd %c"
+msgstr "INTERNÍ CHYBA: ¹patný pøíkaz %c"
+
+#: sed/sed.c:97
+#, c-format
+msgid ""
+"Usage: %s [OPTION]... {script-only-if-no-other-script} [input-file]...\n"
+"\n"
+"  -n, --quiet, --silent\n"
+"                 suppress automatic printing of pattern space\n"
+"  -e script, --expression=script\n"
+"                 add the script to the commands to be executed\n"
+"  -f script-file, --file=script-file\n"
+"                 add the contents of script-file to the commands to be executed\n"
+"  -l N, --line-length=N\n"
+"                 specify the desired line-wrap length for the `l' command\n"
+"  -u, --unbuffered\n"
+"\n"
+"      --help     display this help and exit\n"
+"  -V, --version  output version information and exit\n"
+"\n"
+"If no -e, --expression, -f, or --file option is given, then the first\n"
+"non-option argument is taken as the sed script to interpret.  All\n"
+"remaining arguments are names of input files; if no input files are\n"
+"specified, then the standard input is read.\n"
+"\n"
+msgstr ""
+"Pou¾ití: %s [PØEPÍNAÈ]... {skript-pouze-není-li-jiný-skript} [vst.-soubor]...\n"
+"\n"
+"  -n, --quiet, --silent\n"
+"                 potlaèí automatické vypisování vzorového úlo¾i¹tì (pattern\n"
+"                 space)\n"
+"  -e script, --expression=SKRIPT\n"
+"                 pøidá seznam pøíkazù z øetìzce SKRIPT k seznamu pøíkazù,\n"
+"                 které mají být vykonány\n"
+"  -f script-file, --file=SKRIPT-SOUBOR\n"
+"                 pøidá obsah SKRIPT-SOUBORu k seznamu pøíkazù, které mají\n"
+"                 být vykonány\n"
+"  -l N, --line-length=N\n"
+"                 zadání pozice, na které má být øádek zalamován, pro pøíkaz `l'\n"
+"  -u, --unbuffered\n"
+"                 nebufferovaný výstup\n"
+"      --help     vypí¹e tuto nápovìdu a skonèí\n"
+"  -V, --version  vypí¹e oznaèení verze a skonèí\n"
+"\n"
+"  Nebude-li ¾ádný z pøepínaèù -e, --expression, -f, nebo --file zadán, pak\n"
+"první argument, který není pøepínaèem, bude pova¾ován za sed skript, který má\n"
+"být interpretován. V¹echny zbylé argumenty pøedstavují jména vstupních souborù.\n"
+"Nebudou-li vstupní soubory zadány, bude èten standardní vstup.\n"
+"\n"
+
+#: sed/sed.c:118
+#, c-format
+msgid ""
+"E-mail bug reports to: %s .\n"
+"Be sure to include the word ``%s'' somewhere in the ``Subject:'' field.\n"
+msgstr ""
+"Chyby v programu oznamujte na adrese: %s (anglicky).\n"
+"Kamkoliv do polo¾ky ``Subject:'' vlo¾te ``%s''.\n"
+"Pøipomínky k pøekladu zasílejte na adresu <cs@li.org> (èesky).\n"
+
+#: sed/sed.c:202
+#, c-format
+msgid ""
+"%s\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE,\n"
+"to the extent permitted by law.\n"
+msgstr ""
+"  %s\n"
+"  Toto je volné programové vybavení; podmínky pro kopírování a roz¹iøování\n"
+"naleznete ve zdrojových textech. Toto programové vybavení je zcela BEZ ZÁRUKY,\n"
+"a to i bez záruky PRODEJNOSTI nebo VHODNOSTI PRO NÌJAKÝ KONKRÉTNÍ ÚÈEL.\n"
+
+#: sed/utils.c:145
+#, c-format
+msgid "Couldn't open file %s"
+msgstr "Soubor %s nelze otevøít"
+
+#: sed/utils.c:176
+#, c-format
+msgid "couldn't write an item to %s: %s"
+msgstr "polo¾ku nelze do %s zapsat: %s"
+
+#: sed/utils.c:179
+#, c-format
+msgid "couldn't write %d items to %s: %s"
+msgstr "%d polo¾ek nelze do %s zapsat: %s"
+
+#: sed/utils.c:193
+#, c-format
+msgid "read error on %s: %s"
+msgstr "chyba pøi ètení z %s: %s"
