@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Wang Li <charles@linux.net.cn>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sed 3.02.80\n"
+"POT-Creation-Date: 1999-09-06 17:44-0700\n"
+"PO-Revision-Date: 2002-08-18 11:11+0800\n"
+"Last-Translator: Wang Li <charles@linux.net.cn>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=gb2312\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Various error messages we may want to print
+#: sed/compile.c:140
+#, c-format
+msgid "bad regexp: %s\n"
+msgstr "错误的常规表达式：%s\n"
+
+#: sed/compile.c:141
+msgid "Invalid use of address modifier"
+msgstr "非法使用地址修饰符"
+
+#: sed/compile.c:142
+msgid "Multiple `!'s"
+msgstr "多个“!”"
+
+#: sed/compile.c:143
+msgid "Unexpected `,'"
+msgstr "意外的“,”"
+
+#: sed/compile.c:144
+msgid "Unexpected End-of-file"
+msgstr "文件意外结束"
+
+#: sed/compile.c:145
+msgid "Cannot use +N or ~N as first address"
+msgstr "无法将 +N 或 ~N 作为第一个地址"
+
+#: sed/compile.c:146
+msgid "Unmatched `{'"
+msgstr "未匹配的“{”"
+
+#: sed/compile.c:147
+msgid "Unexpected `}'"
+msgstr "未匹配的“}”"
+
+#: sed/compile.c:148
+msgid "Extra characters after command"
+msgstr "命令后含有多余的字符"
+
+#: sed/compile.c:149
+msgid "`}' doesn't want any addresses"
+msgstr "“}”不需要任何地址"
+
+#: sed/compile.c:150
+msgid ": doesn't want any addresses"
+msgstr ": 不需要任何地址"
+
+#: sed/compile.c:151
+msgid "Comments don't accept any addresses"
+msgstr "注释不接受任何地址"
+
+#: sed/compile.c:152
+msgid "Missing command"
+msgstr "遗漏命令"
+
+#: sed/compile.c:153
+msgid "Command only uses one address"
+msgstr "命令只使用一个地址"
+
+#: sed/compile.c:154
+msgid "Unterminated address regex"
+msgstr "未终止的地址常规表达式"
+
+#: sed/compile.c:155
+msgid "Unterminated `s' command"
+msgstr "未终止的“s”命令"
+
+#: sed/compile.c:156
+msgid "Unterminated `y' command"
+msgstr "未终止的“y”命令"
+
+#: sed/compile.c:157
+msgid "Unknown option to `s'"
+msgstr "“s”的未知选项"
+
+#: sed/compile.c:158
+msgid "multiple `p' options to `s' command"
+msgstr "多个“s”命令的选项“p”"
+
+#: sed/compile.c:159
+msgid "multiple `g' options to `s' command"
+msgstr "多个“s”命令的选项“g”"
+
+#: sed/compile.c:161
+msgid "multiple number options to `s' command"
+msgstr "多个“s”命令的数值选项"
+
+#: sed/compile.c:163
+msgid "number option to `s' command may not be zero"
+msgstr "“s”命令的数值选项不能为零"
+
+#: sed/compile.c:165
+msgid "strings for y command are different lengths"
+msgstr "y 命令的字符串长度不同"
+
+#: sed/compile.c:207
+#, c-format
+msgid "Called savchar() with unexpected pushback (%x)"
+msgstr ""
+
+#: sed/compile.c:1049
+msgid "Unknown command:"
+msgstr "未知的命令："
+
+#: sed/compile.c:1070
+#, c-format
+msgid "%s: file %s line %lu: %s\n"
+msgstr "%s：文件 %s 行号：%lu：%s\n"
+
+#: sed/compile.c:1073
+#, c-format
+msgid "%s: -e expression #%lu, char %lu: %s\n"
+msgstr "%s：-e 表达式 #%lu，字符 %lu：%s\n"
+
+#: sed/compile.c:1251
+#, c-format
+msgid "Can't find label for jump to `%s'"
+msgstr "无法为目的为“%s”的跳转找到标签"
+
+#: sed/execute.c:331
+#, c-format
+msgid "input read error: %s"
+msgstr "读取输入错误：%s"
+
+#: sed/execute.c:480
+#, c-format
+msgid "%s: can't read %s: %s\n"
+msgstr "%s：无法读取 %s：%s\n"
+
+#: sed/execute.c:641
+msgid "INTERNAL ERROR: bad address type"
+msgstr "内部错误：错误的地址类型"
+
+#: sed/execute.c:1071
+#, c-format
+msgid "INTERNAL ERROR: Bad cmd %c"
+msgstr "内部错误：错误的命令 %c"
+
+#: sed/sed.c:97
+#, c-format
+msgid ""
+"Usage: %s [OPTION]... {script-only-if-no-other-script} [input-file]...\n"
+"\n"
+"  -n, --quiet, --silent\n"
+"                 suppress automatic printing of pattern space\n"
+"  -e script, --expression=script\n"
+"                 add the script to the commands to be executed\n"
+"  -f script-file, --file=script-file\n"
+"                 add the contents of script-file to the commands to be executed\n"
+"  -l N, --line-length=N\n"
+"                 specify the desired line-wrap length for the `l' command\n"
+"  -u, --unbuffered\n"
+"\n"
+"      --help     display this help and exit\n"
+"  -V, --version  output version information and exit\n"
+"\n"
+"If no -e, --expression, -f, or --file option is given, then the first\n"
+"non-option argument is taken as the sed script to interpret.  All\n"
+"remaining arguments are names of input files; if no input files are\n"
+"specified, then the standard input is read.\n"
+"\n"
+msgstr ""
+"用法：%s [选项]... {如果未给出其它脚本则将它作为脚本} [输入文件]...\n"
+"\n"
+"  -n, --quiet, --silent\n"
+"                 关闭对模式空间的自动打印\n"
+"  -e script, --expression=script\n"
+"                 将 script 添加到需执行的命令中\n"
+"  -f script-file, --file=script-file\n"
+"                 将 script-file 的内容添加到需执行的命令中\n"
+"  -l N, --line-length=N\n"
+"                 指定“l”命令需要的行卷绕长度\n"
+"  -u, --unbuffered\n"
+"\n"
+"      --help     显示该求助并退出\n"
+"  -V, --version  输出版本信息并退出\n"
+"\n"
+"如果未给出 -e、--expression、-f 或 --file 选项，\n"
+"那么第一个非选项参数就会作为 sed 脚本并进行解释。\n"
+"所有剩余的参数都作为输入文件的名称；如果未给出输入\n"
+"文件，就读入标准输入。\n"
+"\n"
+
+#: sed/sed.c:118
+#, c-format
+msgid ""
+"E-mail bug reports to: %s .\n"
+"Be sure to include the word ``%s'' somewhere in the ``Subject:'' field.\n"
+msgstr ""
+"将错误报告通过电子邮件发送到：%s .\n"
+"请务必将单词“%s”放在“Subject:”域的某处。\n"
+
+#: sed/sed.c:202
+#, c-format
+msgid ""
+"%s\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE,\n"
+"to the extent permitted by law.\n"
+msgstr ""
+
+#: sed/utils.c:145
+#, c-format
+msgid "Couldn't open file %s"
+msgstr "无法打开文件 %s"
+
+#: sed/utils.c:176
+#, c-format
+msgid "couldn't write an item to %s: %s"
+msgstr "无法将一个项目写入 %s：%s"
+
+#: sed/utils.c:179
+#, c-format
+msgid "couldn't write %d items to %s: %s"
+msgstr "无法将 %d 个项目写入 %s：%s"
+
+#: sed/utils.c:193
+#, c-format
+msgid "read error on %s: %s"
+msgstr "读取 %s 出错：%s"
