@@ -1,0 +1,222 @@
+# Polish translations for the GNU gettext messages
+# Copyright (C) 1995, 1996, 1997, 1998, 1999, 2001, 2003 Free Software Foundation, Inc.
+# Rafa³ Maszkowski <rzm@icm.edu.pl>, 1995-1999, 2001, 2003
+# Piotr Pogorzelski <ppogorze@ippt.gov.pl>, 1995
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU gettext-runtime 0.12-pre1\n"
+"POT-Creation-Date: 2003-05-12 19:47+0200\n"
+"PO-Revision-Date: 2003-02-20 19:10+0100\n"
+"Last-Translator: Rafa³ Maszkowski <rzm@icm.edu.pl>\n"
+"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: ../gettext-tools/lib/error.c:137 ../gettext-tools/lib/error.c:165
+msgid "Unknown system error"
+msgstr "Nieznany b³±d systemu"
+
+#: ../gettext-tools/lib/getopt.c:689 ../gettext-tools/lib/getopt.c:701
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: opcja: `%s' jest niejednoznaczna\n"
+
+#: ../gettext-tools/lib/getopt.c:734 ../gettext-tools/lib/getopt.c:738
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: opcja `--%s' nie mo¿e mieæ argumentu\n"
+
+#: ../gettext-tools/lib/getopt.c:747 ../gettext-tools/lib/getopt.c:752
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: opcja `%c%s' nie mo¿e mieæ argumentu\n"
+
+#: ../gettext-tools/lib/getopt.c:788 ../gettext-tools/lib/getopt.c:801
+#: ../gettext-tools/lib/getopt.c:1090 ../gettext-tools/lib/getopt.c:1103
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: opcja `%s' wymaga argumentu\n"
+
+#: ../gettext-tools/lib/getopt.c:839 ../gettext-tools/lib/getopt.c:842
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: nierozpoznana opcja `--%s'\n"
+
+#: ../gettext-tools/lib/getopt.c:850 ../gettext-tools/lib/getopt.c:853
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: nierozpoznana opcja `%c%s'\n"
+
+#: ../gettext-tools/lib/getopt.c:900 ../gettext-tools/lib/getopt.c:903
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: niedozwolona opcja -- %c\n"
+
+#: ../gettext-tools/lib/getopt.c:909 ../gettext-tools/lib/getopt.c:912
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: b³êdna opcja -- %c\n"
+
+#: ../gettext-tools/lib/getopt.c:959 ../gettext-tools/lib/getopt.c:970
+#: ../gettext-tools/lib/getopt.c:1156 ../gettext-tools/lib/getopt.c:1169
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: opcja wymaga argumentu -- %c\n"
+
+#: ../gettext-tools/lib/getopt.c:1022 ../gettext-tools/lib/getopt.c:1033
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: opcja `-W %s' jest niejednoznaczna\n"
+
+#: ../gettext-tools/lib/getopt.c:1057 ../gettext-tools/lib/getopt.c:1069
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: opcja `-W %s' nie mo¿e mieæ argumentu\n"
+
+#: ../gettext-tools/lib/xmalloc.c:41
+msgid "memory exhausted"
+msgstr "pamiêæ wyczerpana"
+
+#: src/gettext.c:129 src/ngettext.c:120
+#, c-format, no-wrap
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"Ten program jest darmowy; warunki kopiowania s± opisane w ¼ród³ach.\n"
+"Autorzy nie daj± ¯ADNYCH gwarancji, w tym równie¿ gwarancji MO¯LIWO¦CI\n"
+"SPRZEDA¯Y lub PRZYDATNO¦CI DO KONKRETNYCH ZASTOSOWAÑ.\n"
+
+#: src/gettext.c:134 src/ngettext.c:125
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Autor programu: %s.\n"
+
+#: src/gettext.c:152 src/ngettext.c:137
+msgid "too many arguments"
+msgstr "za du¿o argumentów"
+
+#: src/gettext.c:162 src/ngettext.c:149
+msgid "missing arguments"
+msgstr "brakuj±ce argumenty"
+
+#: src/gettext.c:233 src/ngettext.c:203
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Spróbuj `%s --help' ¿eby otrzymaæ wiêcej informacji.\n"
+
+#: src/gettext.c:238
+#, c-format, no-wrap
+msgid ""
+"Usage: %s [OPTION] [[TEXTDOMAIN] MSGID]\n"
+"or:    %s [OPTION] -s [MSGID]...\n"
+msgstr ""
+"Sk³adnia: %s [OPCJA] [[DOMENA] MSGID]\n"
+"    albo: %s [OPCJA] -s [MSGID]...\n"
+
+#: src/gettext.c:244
+#, no-wrap
+msgid "Display native language translation of a textual message.\n"
+msgstr "Wy¶wietla t³umaczenie komunikatu.\n"
+
+#: src/gettext.c:248
+#, no-wrap
+msgid ""
+"  -d, --domain=TEXTDOMAIN   retrieve translated messages from TEXTDOMAIN\n"
+"  -e                        enable expansion of some escape sequences\n"
+"  -E                        (ignored for compatibility)\n"
+"  -h, --help                display this help and exit\n"
+"  -n                        suppress trailing newline\n"
+"  -V, --version             display version information and exit\n"
+"  [TEXTDOMAIN] MSGID        retrieve translated message corresponding\n"
+"                            to MSGID from TEXTDOMAIN\n"
+msgstr ""
+"Sk³adnia: %s [OPCJA] [[DOMENA] MSGID | [-s [MSGID]...]]\n"
+"  -d, --domain=DOMENA       wydobycie przet³umaczonych komunikatów z DOMENA\n"
+"  -e                        rozwijanie niektórych sekwencji escape\n"
+"  -E                        (ignorowane, dla kompatybilno¶ci)\n"
+"  -h, --help                wy¶wietlenie tego opisu i zakoñczenie\n"
+"  -n                        wy³±czenie koñcowego znaku nowej linii\n"
+"  -V, --version             wy¶wietlenie informacji o wersji i zakoñczenie\n"
+"  [DOMENA] MSGID            wydobycie z DOMENA przet³umaczonego komunikatu\n"
+"                            odpowiadaj±cego MSGID\n"
+
+#: src/gettext.c:259
+#, c-format, no-wrap
+msgid ""
+"If the TEXTDOMAIN parameter is not given, the domain is determined from the\n"
+"environment variable TEXTDOMAIN.  If the message catalog is not found in the\n"
+"regular directory, another location can be specified with the environment\n"
+"variable TEXTDOMAINDIR.\n"
+"When used with the -s option the program behaves like the `echo' command.\n"
+"But it does not simply copy its arguments to stdout.  Instead those messages\n"
+"found in the selected catalog are translated.\n"
+"Standard search directory: %s\n"
+msgstr ""
+"Je¿eli parametr DOMENA nie jest podany, domena (nazwa pakietu) jest wyznaczana\n"
+"ze zmiennej ¶rodowiskowej TEXTDOMAIN. Je¿eli katalog komunikatów nie zostanie\n"
+"znaleziony w domy¶lnym katalogu, inna lokalizacja mo¿e byæ podana przez\n"
+"zmienn± ¶rodowiskow± TEXTDOMAINDIR.\n"
+"Je¿eli u¿yty z opcj± -s, program zachowuje siê jak komenda `echo', ale zamiast\n"
+"kopiowaæ argumenty na standardowe wyj¶cie t³umaczy komunikaty znalezione w\n"
+"wybranym katalogu.\n"
+"Domy¶lnie przeszukiwany katalog: %s\n"
+
+#: src/gettext.c:270 src/ngettext.c:237
+msgid "Report bugs to <bug-gnu-gettext@gnu.org>.\n"
+msgstr "Raporty o b³êdach wysy³aj do bug-gnu-gettext@gnu.org\n"
+
+#: src/ngettext.c:208
+#, c-format, no-wrap
+msgid "Usage: %s [OPTION] [TEXTDOMAIN] MSGID MSGID-PLURAL COUNT\n"
+msgstr "Sk³adnia: %s [OPCJA] [DOMENA] MSGID MSGID-MNOGA ILO¦Æ\n"
+
+#: src/ngettext.c:213
+#, no-wrap
+msgid ""
+"Display native language translation of a textual message whose grammatical\n"
+"form depends on a number.\n"
+msgstr "Wy¶wietlenie t³umaczenia komunikatu, którego forma gramatyczna zale¿y od liczby\n"
+
+#: src/ngettext.c:218
+#, no-wrap
+msgid ""
+"  -d, --domain=TEXTDOMAIN   retrieve translated message from TEXTDOMAIN\n"
+"  -e                        enable expansion of some escape sequences\n"
+"  -E                        (ignored for compatibility)\n"
+"  -h, --help                display this help and exit\n"
+"  -V, --version             display version information and exit\n"
+"  [TEXTDOMAIN]              retrieve translated message from TEXTDOMAIN\n"
+"  MSGID MSGID-PLURAL        translate MSGID (singular) / MSGID-PLURAL (plural)\n"
+"  COUNT                     choose singular/plural form based on this value\n"
+msgstr ""
+"Sk³adnia: %s [OPCJA] [[TEXTDOMAIN] MSGID | [-s [MSGID]...]]\n"
+"  -d, --domain=DOMENA       wydobycie przet³umaczonych komunikatów z DOMENA\n"
+"  -e                        w³±czenie rozwijania niektórych sekwencji escape\n"
+"  -E                        (ignorowane, dla kompatybilno¶ci)\n"
+"  -h, --help                wy¶wietlenie tego opisu i zakoñczenie\n"
+"  -n                        wy³±czenie koñcowego znaku nowej linii\n"
+"  -V, --version             wy¶wietlenie informacji o wersji i zakoñczenie\n"
+"  [DOMENA]                  wydobycie z DOMENA przet³umaczonego komunikatu\n"
+"  MSGID MSGID-MNOGA         przet³umaczenie MSGID (pojed.) / MSGID-MNOGA (mn.)\n"
+"  LICZBA                    wybranie formy pojed./mn. w oparciu o LICZBÊ\n"
+
+#: src/ngettext.c:229
+#, c-format, no-wrap
+msgid ""
+"If the TEXTDOMAIN parameter is not given, the domain is determined from the\n"
+"environment variable TEXTDOMAIN.  If the message catalog is not found in the\n"
+"regular directory, another location can be specified with the environment\n"
+"variable TEXTDOMAINDIR.\n"
+"Standard search directory: %s\n"
+msgstr ""
+"Je¿eli parametr DOMENA nie jest podany, domena (nazwa pakietu) jest wyznaczana\n"
+"ze zmiennej ¶rodowiskowej TEXTDOMAIN. Je¿eli katalog komunikatów nie zostanie\n"
+"znaleziony w domy¶lnym katalogu, inna lokalizacja mo¿e byæ podana przez\n"
+"zmienn± ¶rodowiskow± TEXTDOMAINDIR.\n"
+"Domy¶lnie przeszukiwany katalog: %s\n"
