@@ -1,0 +1,3243 @@
+# Turkish translations for Gnu Gettext Package.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Nilgün Belma Bugüner <nilgun@superonline.com>, 2001,..., 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU gettext-tools 0.12\n"
+"POT-Creation-Date: 2003-05-22 16:06+0200\n"
+"PO-Revision-Date: 2003-05-22 22:58+0300\n"
+"Last-Translator: Nilgün Belma Bugüner <nilgun@superonline.com>\n"
+"Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: lib/argmatch.c:120
+#, c-format
+msgid "invalid argument `%s' for `%s'"
+msgstr "argüman `%s' `%s' için geçersiz"
+
+#: lib/argmatch.c:121
+#, c-format
+msgid "ambiguous argument `%s' for `%s'"
+msgstr "argüman `%s' `%s' için belirsiz"
+
+#: lib/argmatch.c:139
+msgid "Valid arguments are:"
+msgstr "Geçerli argümanlar:"
+
+#: lib/copy-file.c:64 src/file-list.c:56 src/open-po.c:118 src/read-mo.c:241
+#: src/read-tcl.c:121 src/urlget.c:195 src/xgettext.c:935 src/xgettext.c:948
+#: src/xgettext.c:958
+#, c-format
+msgid "error while opening \"%s\" for reading"
+msgstr "\"%s\" okunmak için açılırken hata"
+
+#: lib/copy-file.c:71
+#, c-format
+msgid "cannot open backup file \"%s\" for writing"
+msgstr "\"%s\" yedek dosyası yazılmak için açılırken hata"
+
+#: lib/copy-file.c:79 src/urlget.c:207
+#, c-format
+msgid "error reading \"%s\""
+msgstr "\"%s\" okunurken hata"
+
+#: lib/copy-file.c:84 lib/copy-file.c:88
+#, c-format
+msgid "error writing \"%s\""
+msgstr "\"%s\" yazılırken hata"
+
+#: lib/copy-file.c:90 src/urlget.c:217
+#, c-format
+msgid "error after reading \"%s\""
+msgstr "\"%s\" okunduktan sonra hata"
+
+#: lib/error.c:137 lib/error.c:165
+msgid "Unknown system error"
+msgstr "Bilinmeyen sistem hatası"
+
+#: lib/execute.c:176 lib/execute.c:229 lib/execute.c:264 lib/pipe-bidi.c:174
+#: lib/pipe-bidi.c:239 lib/pipe-bidi.c:274 lib/pipe-in.c:190 lib/pipe-in.c:248
+#: lib/pipe-in.c:284 lib/pipe-out.c:190 lib/pipe-out.c:248 lib/pipe-out.c:284
+#: lib/wait-process.c:147
+#, c-format
+msgid "%s subprocess failed"
+msgstr "%s alt süreci başarısız"
+
+#: lib/getopt.c:689 lib/getopt.c:701
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: `%s' seçeneği belirsiz\n"
+
+#: lib/getopt.c:734 lib/getopt.c:738
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: `--%s' seçeneği argümansız kullanılır\n"
+
+#: lib/getopt.c:747 lib/getopt.c:752
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: `%c%s' seçeneği argümansız kullanılır\n"
+
+#: lib/getopt.c:788 lib/getopt.c:801 lib/getopt.c:1090 lib/getopt.c:1103
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: `%s' seçeneği bir argümanla kullanılır\n"
+
+#: lib/getopt.c:839 lib/getopt.c:842
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: `--%s' seçeneği bilinmiyor\n"
+
+#: lib/getopt.c:850 lib/getopt.c:853
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: `%c%s' seçeneği bilinmiyor\n"
+
+#: lib/getopt.c:900 lib/getopt.c:903
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: kuraldışı seçenek -- %c\n"
+
+#: lib/getopt.c:909 lib/getopt.c:912
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: geçersiz seçenek -- %c\n"
+
+#: lib/getopt.c:959 lib/getopt.c:970 lib/getopt.c:1156 lib/getopt.c:1169
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: seçenek için bir argüman gerekli -- %c\n"
+
+#: lib/getopt.c:1022 lib/getopt.c:1033
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: `-W %s' seçeneği belirsiz\n"
+
+#: lib/getopt.c:1057 lib/getopt.c:1069
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: `-W %s' seçeneği bir argümanla kullanılmaz\n"
+
+#: lib/javacomp.c:455
+msgid "Java compiler not found, try installing gcj or set $JAVAC"
+msgstr "Java derleyici bulunamadı, ya gcj kurun ya da $JAVAC değişkenini belirleyin"
+
+#: lib/javaexec.c:404
+msgid "Java virtual machine not found, try installing gij or set $JAVA"
+msgstr ""
+"Java sanal makinası bulunamadı,\n"
+"ya gij kurun ya da $JAVA değişkenini belirleyin"
+
+#: lib/obstack.c:491 lib/obstack.c:494 lib/xerror.c:50 lib/xmalloc.c:41
+#: lib/xsetenv.c:40 src/po-lex.c:87 src/po-lex.c:116 src/x-glade.c:348
+msgid "memory exhausted"
+msgstr "bellek tükendi"
+
+#: lib/pipe-bidi.c:126 lib/pipe-bidi.c:128 lib/pipe-bidi.c:202
+#: lib/pipe-bidi.c:204 lib/pipe-in.c:139 lib/pipe-in.c:215 lib/pipe-out.c:139
+#: lib/pipe-out.c:215
+msgid "cannot create pipe"
+msgstr "veriyolu oluşturulamıyor"
+
+#: lib/wait-process.c:125
+#, c-format
+msgid "%s subprocess"
+msgstr "%s alt süreci"
+
+#: lib/wait-process.c:139
+#, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "%s alt süreci ölümcül sinyal %d aldı"
+
+#: src/format-awk.c:493 src/format-elisp.c:341 src/format-librep.c:305
+#: src/format-pascal.c:394 src/format-php.c:341 src/format-tcl.c:380
+#: src/format-ycp.c:137
+#, c-format
+msgid "a format specification for argument %u, as in '%s', doesn't exist in 'msgid'"
+msgstr "'%2$s' içindeki %1$u.argüman için bir biçem belirteci 'msgid' içinde yok"
+
+#: src/format-awk.c:508 src/format-elisp.c:356 src/format-librep.c:320
+#: src/format-pascal.c:409 src/format-php.c:356 src/format-tcl.c:395
+#: src/format-ycp.c:136
+#, c-format
+msgid "a format specification for argument %u doesn't exist in '%s'"
+msgstr "%u. argüman için '%s' içinde bir biçem belirteci yok"
+
+#: src/format-awk.c:533 src/format-c.c:825 src/format-elisp.c:381
+#: src/format-librep.c:345 src/format-pascal.c:434 src/format-php.c:381
+#: src/format-python.c:530 src/format-tcl.c:420
+#, c-format
+msgid "format specifications in 'msgid' and '%s' for argument %u are not the same"
+msgstr "`msgid' ve '%s' girdilerindeki biçem belirteçleri %u için aynı değil"
+
+#: src/format-c.c:176
+#, c-format
+msgid "In the directive number %u, the token after '<' is not the name of a format specifier macro. The valid macro names are listed in ISO C 99 section 7.8.1."
+msgstr "%u numaralı yönergede, '<' işaretinden sonraki dizgecik biçem belirteci makronun ismi ile aynı değil. Geçerli makro isimleri ISO C 99 bölüm 7.8.1'de listelenmiştir."
+
+#: src/format-c.c:545
+#, c-format
+msgid "In the directive number %u, the token after '<' is not followed by '>'."
+msgstr "%u numaralı yönergede, '<' işaretinden sonraki dizgecikten sonra '>' gelmiyor."
+
+#: src/format-c.c:744
+#, c-format
+msgid "The string refers to argument number %u but ignores argument number %u."
+msgstr "Dizge %u numaralı argümana karşılık değil, %u numaralı argüman yok sayılıyor."
+
+#: src/format-c.c:811 src/format-python.c:516
+#, c-format
+msgid "number of format specifications in 'msgid' and '%s' does not match"
+msgstr "`msgid' ve '%s' girdilerindeki biçem belirteçleri farklı sayıda"
+
+#: src/format-invalid.h:23
+msgid "The string ends in the middle of a directive."
+msgstr "Dizge yönergenin ortasında bitiyor."
+
+#: src/format-invalid.h:26
+msgid "The string refers to arguments both through absolute argument numbers and through unnumbered argument specifications."
+msgstr "Dizge hem mutlak argüman numaralarına hem de numarasız argüman belirtimlerine karşılık geliyor."
+
+#: src/format-invalid.h:29
+#, c-format
+msgid "In the directive number %u, the argument number 0 is not a positive integer."
+msgstr "%u numaralı yönergede, 0 numaralı argüman bir pozitif tamsayı değil."
+
+#: src/format-invalid.h:31
+#, c-format
+msgid "In the directive number %u, the width's argument number 0 is not a positive integer."
+msgstr "%u numaralı yönergede, width'in 0 numaralı argümanı bir pozitif tamsayı değil."
+
+#: src/format-invalid.h:33
+#, c-format
+msgid "In the directive number %u, the precision's argument number 0 is not a positive integer."
+msgstr "%u numaralı yönergede, precision'ın 0 numaralı argümanı bir pozitif tamsayı değil."
+
+#: src/format-invalid.h:37
+#, c-format
+msgid "In the directive number %u, the character '%c' is not a valid conversion specifier."
+msgstr "%u numaralı yönergede, '%c' karakteri geçerli bir dönüşüm belirteci değil."
+
+#: src/format-invalid.h:38
+#, c-format
+msgid "The character that terminates the directive number %u is not a valid conversion specifier."
+msgstr "%u numaralı yönergeyi sonlandıran karakter geçerli bir dönüşüm belirteci değil."
+
+#: src/format-invalid.h:41
+#, c-format
+msgid "The string refers to argument number %u in incompatible ways."
+msgstr "Dizge, %u numaralı argümana uygun olmayan bir yolla karşılık geliyor."
+
+#: src/format-java.c:190
+msgid "The string ends in the middle of a directive: found '{' without matching '}'."
+msgstr "Dizge yönergenin ortasında bitiyor: Eşleşmeyen '{' ve '}' ayraçları bulundu."
+
+#: src/format-java.c:203
+#, c-format
+msgid "In the directive number %u, '{' is not followed by an argument number."
+msgstr "%u numaralı yönergede, '{' ayracından sonra bir argüman numarası gelmiyor."
+
+#: src/format-java.c:236
+#, c-format
+msgid "In the directive number %u, the substring \"%s\" is not a valid date/time style."
+msgstr "%u numaralı yönergede, \"%s\" altdizgesi geçerli bir tarih/zaman biçemi değil."
+
+#: src/format-java.c:245 src/format-java.c:275 src/format-java.c:298
+#, c-format
+msgid "In the directive number %u, \"%s\" is not followed by a comma."
+msgstr "%u numaralı yönergede, \"%s\" den sonra virgül gelmiyor."
+
+#: src/format-java.c:266
+#, c-format
+msgid "In the directive number %u, the substring \"%s\" is not a valid number style."
+msgstr "%u numaralı yönergede, \"%s\" altdizgesi geçerli bir sayı biçemi değil."
+
+#: src/format-java.c:305
+#, c-format
+msgid "In the directive number %u, the argument number is not followed by a comma and one of \"%s\", \"%s\", \"%s\", \"%s\"."
+msgstr "%u numaralı yönergede, argüman numarasından sonra bir virgül ve \"%s\" veya \"%s\" veya \"%s\" veya \"%s\" gelmeliydi."
+
+#: src/format-java.c:322
+msgid "The string starts in the middle of a directive: found '}' without matching '{'."
+msgstr "Dizge yönergenin ortasında başlıyor: eşleşmeyen '}' ve '{' ayraçları bulundu."
+
+#: src/format-java.c:546
+#, c-format
+msgid "In the directive number %u, a choice contains no number."
+msgstr "%u numaralı yönergede, bir seçim numara içermiyor."
+
+#: src/format-java.c:557
+#, c-format
+msgid "In the directive number %u, a choice contains a number that is not followed by '<', '#' or '%s'."
+msgstr "%u numaralı yönergede, bir seçim kendisinden sonra '<', '#' veya '%s' gelmeyen bir numara içeriyor."
+
+#: src/format-java.c:715
+#, c-format
+msgid "a format specification for argument {%u}, as in '%s', doesn't exist in 'msgid'"
+msgstr "'%2$s' içindeki {%1$u}. argüman için bir biçem belirteci 'msgid' içinde yok"
+
+#: src/format-java.c:730
+#, c-format
+msgid "a format specification for argument {%u} doesn't exist in '%s'"
+msgstr "{%u}.argüman için '%s' içinde bir biçem belirteci yok"
+
+#: src/format-java.c:755
+#, c-format
+msgid "format specifications in 'msgid' and '%s' for argument {%u} are not the same"
+msgstr "`msgid' ve '%s' girdilerindeki biçem belirteçleri {%u} için aynı değil"
+
+#: src/format-lisp.c:2354 src/format-lisp.c:2366
+#, c-format
+msgid "In the directive number %u, parameter %u is of type '%s' but a parameter of type '%s' is expected."
+msgstr "%u numaralı yönergede, %u parametresi '%s' türünde, '%s' türünde bir parametre bekleniyordu."
+
+#: src/format-lisp.c:2389
+#, c-format
+msgid "In the directive number %u, too many parameters are given; expected at most %u parameters."
+msgstr "%u numaralı yönergede, çok fazla parametre verilmiş; en fazla %u parametre umuluyordu."
+
+#: src/format-lisp.c:2501
+#, c-format
+msgid "In the directive number %u, '%c' is not followed by a digit."
+msgstr "%u numaralı yönergede, '%c' den sonra bir rakam gelmiyor."
+
+#: src/format-lisp.c:2699
+#, c-format
+msgid "In the directive number %u, the argument %d is negative."
+msgstr "%u numaralı yönergede, %d. argüman negatif."
+
+#: src/format-lisp.c:2761
+msgid "The string ends in the middle of a ~/.../ directive."
+msgstr "Dizge, bir ~/.../ yönergesinin ortasında bitiyor."
+
+#: src/format-lisp.c:2791 src/format-lisp.c:3014 src/format-lisp.c:3120
+#: src/format-lisp.c:3169 src/format-lisp.c:3255
+#, c-format
+msgid "Found '~%c' without matching '~%c'."
+msgstr "'~%2$c' ile eşleşmeyen '~%1$c' bulundu."
+
+#: src/format-lisp.c:2807
+#, c-format
+msgid "In the directive number %u, both the @ and the : modifiers are given."
+msgstr "%u numaralı yönergede, hem @ hem de : değiştiricileri verilmiş."
+
+#: src/format-lisp.c:2905
+#, c-format
+msgid "In the directive number %u, '~:[' is not followed by two clauses, separated by '~;'."
+msgstr "%u numaralı yönergede, '~:[' yönergesinden sonra  '~;' ile ayrılmış iki cümle gelmiyor."
+
+#: src/format-lisp.c:3203
+#, c-format
+msgid "In the directive number %u, '~;' is used in an invalid position."
+msgstr "%u numaralı yönergede, '~;' geçersiz bir konumda kullanılmış."
+
+#: src/format-lisp.c:3289
+msgid "The string refers to some argument in incompatible ways."
+msgstr "Dizge bazı argümanlara uyumsuz bir yolla karşılık getirilmiş."
+
+#: src/format-lisp.c:3333
+#, c-format
+msgid "format specifications in 'msgid' and '%s' are not equivalent"
+msgstr "`msgid' ve '%s' girdilerindeki biçem belirteçleri aynı değil"
+
+#: src/format-lisp.c:3354
+#, c-format
+msgid "format specifications in '%s' are not a subset of those in 'msgid'"
+msgstr "'%s' içindeki biçem belirteçleri 'msgid' içindekilerin bir alt kümesi değil"
+
+#: src/format-python.c:115
+msgid "The string refers to arguments both through argument names and through unnamed argument specifications."
+msgstr "Dizge hem argüman isimlerine hem de numarasız argüman belirtimlerine karşılık geliyor."
+
+#: src/format-python.c:329
+#, c-format
+msgid "The string refers to the argument named '%s' in incompatible ways."
+msgstr "Dizge '%s' isimli argümana uyumsuz bir yolla karşılık getirilmiş."
+
+#: src/format-python.c:407
+#, c-format
+msgid "format specifications in 'msgid' expect a mapping, those in '%s' expect a tuple"
+msgstr "`msgid' içindeki biçem belirteçleri ile bir eşlem umulurken '%s' içindekilerle bir işlem umuluyor"
+
+#: src/format-python.c:419
+#, c-format
+msgid "format specifications in 'msgid' expect a tuple, those in '%s' expect a mapping"
+msgstr "`msgid' içindeki biçem belirteçleri ile bir işlem umulurken '%s' içindekilerle bir eşlem umuluyor"
+
+#: src/format-python.c:447
+#, c-format
+msgid "a format specification for argument '%s', as in '%s', doesn't exist in 'msgid'"
+msgstr "'%2$s' içinde '%1$s' için 'msgid' içinde bir biçem belirteci yok"
+
+#: src/format-python.c:462
+#, c-format
+msgid "a format specification for argument '%s' doesn't exist in '%s'"
+msgstr "'%s' için '%s' içinde bir biçem belirteci yok"
+
+#: src/format-python.c:488
+#, c-format
+msgid "format specifications in 'msgid' and '%s' for argument '%s' are not the same"
+msgstr "'%2$s' için biçem belirteci 'msgid' ve '%1$s' içinde aynı değil"
+
+#: src/format-ycp.c:85
+#, c-format
+msgid "In the directive number %u, the character '%c' is not a digit between 1 and 9."
+msgstr "%u numaralı yönergede, '%c' karakteri 1 ile 9 arasında bir rakam değil."
+
+#: src/format-ycp.c:86
+#, c-format
+msgid "The character that terminates the directive number %u is not a digit between 1 and 9."
+msgstr "%u numaralı yönergeyi sonlandıran karakter 1 ile 9 arasında bir rakam değil."
+
+#: src/hostname.c:172 src/msgattrib.c:296 src/msgcat.c:248 src/msgcmp.c:130
+#: src/msgcomm.c:245 src/msgconv.c:202 src/msgen.c:188 src/msgexec.c:166
+#: src/msgfilter.c:253 src/msgfmt.c:321 src/msggrep.c:296 src/msginit.c:250
+#: src/msgmerge.c:278 src/msgunfmt.c:211 src/msguniq.c:224 src/urlget.c:129
+#: src/xgettext.c:415
+#, c-format, no-wrap
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+"Telif Hakkı (C) %s Free Software Foundation, Inc.\n"
+"Bu bir serbest yazılımdır; kopyalama koşulları için kaynak koduna bakınız.\n"
+"Hiçbir garantisi yoktur; hatta SATILABİLİRLİĞİ veya ŞAHSİ KULLANIMINIZA\n"
+"UYGUNLUĞU için bile garanti verilmez.\n"
+
+#: src/hostname.c:177 src/msgattrib.c:301 src/msgcat.c:253 src/msgcmp.c:135
+#: src/msgcomm.c:250 src/msgconv.c:207 src/msgen.c:193 src/msgexec.c:171
+#: src/msgfilter.c:258 src/msgfmt.c:326 src/msggrep.c:301 src/msginit.c:255
+#: src/msgmerge.c:283 src/msgunfmt.c:216 src/msguniq.c:229 src/urlget.c:134
+#: src/xgettext.c:420
+#, c-format
+msgid "Written by %s.\n"
+msgstr "%s tarafından yazıldı.\n"
+
+#: src/hostname.c:187 src/msginit.c:265
+msgid "too many arguments"
+msgstr "çok fazla argüman"
+
+#: src/hostname.c:200 src/msgattrib.c:357 src/msgcat.c:311 src/msgcmp.c:166
+#: src/msgcomm.c:318 src/msgconv.c:264 src/msgen.c:243 src/msgexec.c:223
+#: src/msgfilter.c:350 src/msgfmt.c:496 src/msggrep.c:415 src/msginit.c:340
+#: src/msgmerge.c:399 src/msgunfmt.c:320 src/msguniq.c:285 src/urlget.c:157
+#: src/xgettext.c:611
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Daha fazla bilgilendirilmek için `%s --help' yazınız.\n"
+
+#: src/hostname.c:204 src/msginit.c:344
+#, c-format
+msgid "Usage: %s [OPTION]\n"
+msgstr "Kullanımı: %s [SEÇENEK]\n"
+
+#: src/hostname.c:208
+msgid "Print the machine's hostname.\n"
+msgstr "Makina ismini gösterir.\n"
+
+#: src/hostname.c:211
+msgid "Output format:\n"
+msgstr "Çıktı biçemi:\n"
+
+#: src/hostname.c:213
+msgid "  -s, --short                 short host name\n"
+msgstr "  -s, --short                 kısa konak ismi\n"
+
+#: src/hostname.c:215
+msgid ""
+"  -f, --fqdn, --long          long host name, includes fully qualified domain\n"
+"                                name, and aliases\n"
+msgstr ""
+"  -f, --fqdn, --long          uzun konak ismi; alan ismini ve rümuzları da\n"
+"                              içerir\n"
+
+#: src/hostname.c:218
+msgid "  -i, --ip-address            addresses for the hostname\n"
+msgstr "  -i, --ip-address            konak adresleri\n"
+
+#: src/hostname.c:221 src/msgattrib.c:457 src/msgcat.c:404 src/msgcmp.c:206
+#: src/msgcomm.c:407 src/msgconv.c:336 src/msgen.c:312 src/msgexec.c:263
+#: src/msgfilter.c:432 src/msgfmt.c:597 src/msggrep.c:513 src/msginit.c:392
+#: src/msgmerge.c:509 src/msgunfmt.c:400 src/msguniq.c:370 src/urlget.c:171
+#: src/xgettext.c:733
+msgid "Informative output:\n"
+msgstr "Bilgilendirme çıktısı:\n"
+
+#: src/hostname.c:223 src/msgattrib.c:459 src/msgcat.c:406 src/msgcmp.c:208
+#: src/msgcomm.c:409 src/msgconv.c:338 src/msgen.c:314 src/msgexec.c:265
+#: src/msgfilter.c:434 src/msgfmt.c:599 src/msggrep.c:515 src/msginit.c:394
+#: src/msgmerge.c:511 src/msgunfmt.c:402 src/msguniq.c:372 src/urlget.c:173
+#: src/xgettext.c:735
+msgid "  -h, --help                  display this help and exit\n"
+msgstr "  -h, --help                  bu yardım iletisini gösterir ve çıkar\n"
+
+#: src/hostname.c:225 src/msgattrib.c:461 src/msgcat.c:408 src/msgcmp.c:210
+#: src/msgcomm.c:411 src/msgconv.c:340 src/msgen.c:316 src/msgexec.c:267
+#: src/msgfilter.c:436 src/msgfmt.c:601 src/msggrep.c:517 src/msginit.c:396
+#: src/msgmerge.c:513 src/msgunfmt.c:404 src/msguniq.c:374 src/urlget.c:175
+#: src/xgettext.c:737
+msgid "  -V, --version               output version information and exit\n"
+msgstr "  -V, --version               Sürüm bilgilerini gösterir ve çıkar\n"
+
+#: src/hostname.c:228 src/msgattrib.c:464 src/msgcat.c:411 src/msgcmp.c:213
+#: src/msgcomm.c:414 src/msgconv.c:343 src/msgen.c:319 src/msgexec.c:270
+#: src/msgfilter.c:439 src/msgfmt.c:608 src/msggrep.c:520 src/msginit.c:399
+#: src/msgmerge.c:520 src/msgunfmt.c:409 src/msguniq.c:377 src/urlget.c:178
+#: src/xgettext.c:740
+msgid "Report bugs to <bug-gnu-gettext@gnu.org>.\n"
+msgstr ""
+"Yazılım hatalarını <bug-gnu-utils@gnu.org> adresine,\n"
+"Çeviri hatalarını <gnu-tr-u12a@lists.sourceforge.net> adresine bildiriniz.\n"
+
+#: src/hostname.c:243 src/hostname.c:250
+msgid "could not get host name"
+msgstr "makina ismi alınamadı"
+
+#: src/msgattrib.c:316 src/msgconv.c:222 src/msgexec.c:142 src/msgfilter.c:191
+#: src/msggrep.c:316 src/msginit.c:196 src/msguniq.c:244
+msgid "at most one input file allowed"
+msgstr "en fazla bir girdi dosyasına izin var"
+
+#: src/msgattrib.c:322 src/msgattrib.c:326 src/msgcat.c:263 src/msgcat.c:267
+#: src/msgcomm.c:260 src/msgcomm.c:264 src/msgconv.c:228 src/msgconv.c:232
+#: src/msgen.c:215 src/msgen.c:219 src/msgfilter.c:273 src/msgfilter.c:277
+#: src/msgfmt.c:343 src/msgfmt.c:349 src/msgfmt.c:364 src/msggrep.c:322
+#: src/msggrep.c:326 src/msgmerge.c:308 src/msgmerge.c:329 src/msgmerge.c:333
+#: src/msgunfmt.c:226 src/msguniq.c:250 src/msguniq.c:254 src/xgettext.c:430
+#: src/xgettext.c:434
+#, c-format
+msgid "%s and %s are mutually exclusive"
+msgstr "%s ile %s bağdaşmıyor"
+
+#: src/msgattrib.c:361 src/msgconv.c:268 src/msggrep.c:419 src/msguniq.c:289
+#, c-format
+msgid "Usage: %s [OPTION] [INPUTFILE]\n"
+msgstr "Kullanımı: %s [SEÇENEK] [GİRDİDOSYASI]\n"
+
+#: src/msgattrib.c:366
+#, no-wrap
+msgid ""
+"Filters the messages of a translation catalog according to their attributes,\n"
+"and manipulates the attributes.\n"
+msgstr ""
+"Çeviri kataloğundaki iletileri belirtilen özelliklere göre süzer,\n"
+"ve özellikleri uygular.\n"
+
+#: src/msgattrib.c:370 src/msgcat.c:332 src/msgcmp.c:184 src/msgcomm.c:338
+#: src/msgconv.c:276 src/msgen.c:259 src/msgexec.c:246 src/msgfilter.c:362
+#: src/msggrep.c:429 src/msginit.c:354 src/msgmerge.c:420 src/msgunfmt.c:332
+#: src/msguniq.c:305
+msgid "Mandatory arguments to long options are mandatory for short options too.\n"
+msgstr "Uzun seçeneklerdeki zorunlu argümanlar kısa seçenekler için de zorunludur.\n"
+
+#: src/msgattrib.c:373 src/msgcat.c:335 src/msgcmp.c:187 src/msgcomm.c:341
+#: src/msgconv.c:279 src/msgen.c:262 src/msgexec.c:249 src/msgfilter.c:365
+#: src/msgfmt.c:514 src/msggrep.c:432 src/msginit.c:357 src/msgmerge.c:423
+#: src/msgunfmt.c:342 src/msguniq.c:308 src/xgettext.c:629
+msgid "Input file location:\n"
+msgstr "Girdi dosyasının yeri:\n"
+
+#: src/msgattrib.c:375 src/msgconv.c:281 src/msggrep.c:434 src/msguniq.c:310
+msgid "  INPUTFILE                   input PO file\n"
+msgstr "  GİRDİDOSYASI                girdi olan PO dosyası\n"
+
+#: src/msgattrib.c:377 src/msgcat.c:341 src/msgcmp.c:193 src/msgcomm.c:347
+#: src/msgconv.c:283 src/msgen.c:266 src/msgexec.c:253 src/msgfilter.c:369
+#: src/msgfmt.c:518 src/msggrep.c:436 src/msgmerge.c:429 src/msguniq.c:312
+#: src/xgettext.c:635
+msgid "  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search\n"
+msgstr "  -D, --directory=DİZİN       girdi dosyasının arandığı listeye DİZİNi ekler\n"
+
+#: src/msgattrib.c:379 src/msgconv.c:285 src/msgexec.c:255 src/msgfilter.c:371
+#: src/msggrep.c:438 src/msgunfmt.c:346 src/msguniq.c:314
+msgid "If no input file is given or if it is -, standard input is read.\n"
+msgstr "Bir DOSYA verilmemişse ya da - verilmişse standart girdi okunur.\n"
+
+#: src/msgattrib.c:382 src/msgcat.c:346 src/msgcomm.c:352 src/msgconv.c:288
+#: src/msgen.c:271 src/msgfilter.c:374 src/msgfmt.c:532 src/msggrep.c:441
+#: src/msginit.c:365 src/msgmerge.c:441 src/msgunfmt.c:370 src/msguniq.c:317
+#: src/xgettext.c:640
+msgid "Output file location:\n"
+msgstr "Çıktı dosyasının yeri:\n"
+
+#: src/msgattrib.c:384 src/msgcat.c:348 src/msgcomm.c:354 src/msgconv.c:290
+#: src/msgen.c:273 src/msgfilter.c:376 src/msgfmt.c:534 src/msggrep.c:443
+#: src/msgmerge.c:443 src/msgunfmt.c:372 src/msguniq.c:319
+msgid "  -o, --output-file=FILE      write output to specified file\n"
+msgstr "  -o, --output-file=DOSYA     çıktıyı DOSYAya yazar\n"
+
+#: src/msgattrib.c:386 src/msgcat.c:350 src/msgcomm.c:356 src/msgconv.c:292
+#: src/msgen.c:275 src/msgfilter.c:378 src/msggrep.c:445 src/msgmerge.c:445
+#: src/msgunfmt.c:374 src/msguniq.c:321
+msgid ""
+"The results are written to standard output if no output file is specified\n"
+"or if it is -.\n"
+msgstr "Sonuçlar DOSYA verilmezse ya da - verilirse standart çıktıya yazılır.\n"
+
+#: src/msgattrib.c:390 src/msgcat.c:354 src/msgcomm.c:360 src/msguniq.c:325
+msgid "Message selection:\n"
+msgstr "İleti seçimi:\n"
+
+#: src/msgattrib.c:392
+msgid "      --translated            keep translated, remove untranslated messages\n"
+msgstr "      --translated            çevrilmiş iletileri tutar çevrilmemişleri siler\n"
+
+#: src/msgattrib.c:394
+msgid "      --untranslated          keep untranslated, remove translated messages\n"
+msgstr "      --untranslated          çevrilmemiş iletileri tutar çevrilmişleri siler\n"
+
+#: src/msgattrib.c:396
+msgid "      --no-fuzzy              remove 'fuzzy' marked messages\n"
+msgstr "      --no-fuzzy              'fuzzy' imli iletileri siler\n"
+
+#: src/msgattrib.c:398
+msgid "      --only-fuzzy            keep 'fuzzy' marked messages\n"
+msgstr "      --only-fuzzy            'fuzzy' imli iletileri tutar\n"
+
+#: src/msgattrib.c:400
+msgid "      --no-obsolete           remove obsolete #~ messages\n"
+msgstr "      --no-obsolete           kullanımdışı olan #~ iletilerini siler\n"
+
+#: src/msgattrib.c:402
+msgid "      --only-obsolete         keep obsolete #~ messages\n"
+msgstr "      --only-obsolete         kullanımdışı olan #~ iletilerini tutar\n"
+
+#: src/msgattrib.c:405
+msgid "Attribute manipulation:\n"
+msgstr "Nitelik değiştirme:\n"
+
+#: src/msgattrib.c:407
+msgid "      --set-fuzzy             set all messages 'fuzzy'\n"
+msgstr "      --set-fuzzy             tüm iletileri 'fuzzy' olarak imler\n"
+
+#: src/msgattrib.c:409
+msgid "      --clear-fuzzy           set all messages non-'fuzzy'\n"
+msgstr "      --clear-fuzzy           tüm 'fuzzy' imlerini kaldırır\n"
+
+#: src/msgattrib.c:411
+msgid "      --set-obsolete          set all messages obsolete\n"
+msgstr "      --set-obsolete          tüm iletileri kullanımdışı yapar\n"
+
+#: src/msgattrib.c:413
+msgid "      --clear-obsolete        set all messages non-obsolete\n"
+msgstr "      --clear-obsolete        kullanımdışı iletilerin tümünü kullanıma sokar\n"
+
+#: src/msgattrib.c:415
+msgid "      --only-file=FILE.po     manipulate only entries listed in FILE.po\n"
+msgstr "      --only-file=DOSYA.po    sadece DOSYA.po içindeki girdileri değiştirir\n"
+
+#: src/msgattrib.c:417
+msgid "      --ignore-file=FILE.po   manipulate only entries not listed in FILE.po\n"
+msgstr ""
+"      --ignore-file=DOSYA.po  sadece DOSYA.po içinde bulunmayan girdileri\n"
+"                              değiştirir\n"
+
+#: src/msgattrib.c:419
+msgid "      --fuzzy                 synonym for --only-fuzzy --clear-fuzzy\n"
+msgstr "      --fuzzy                 --only-fuzzy --clear-fuzzy ile eşanlamlı\n"
+
+#: src/msgattrib.c:421
+msgid "      --obsolete              synonym for --only-obsolete --clear-obsolete\n"
+msgstr "      --obsolete             --only-obsolete --clear-obsolete ile eşanlamlı\n"
+
+#: src/msgattrib.c:424 src/msgcat.c:366 src/msgcmp.c:201 src/msgcomm.c:372
+#: src/msgconv.c:303 src/msgen.c:279 src/msgexec.c:258 src/msgfilter.c:397
+#: src/msgfmt.c:565 src/msggrep.c:480 src/msginit.c:373 src/msgmerge.c:476
+#: src/msguniq.c:332
+msgid "Input file syntax:\n"
+msgstr "Girdi dosyası sözdizimi:\n"
+
+#: src/msgattrib.c:426 src/msgconv.c:305 src/msgen.c:281 src/msgexec.c:260
+#: src/msgfilter.c:399 src/msggrep.c:482 src/msginit.c:375 src/msguniq.c:334
+msgid "  -P, --properties-input      input file is in Java .properties syntax\n"
+msgstr "  -P, --properties-input      girdi dosyası Java .properties sözdizimindedir\n"
+
+#: src/msgattrib.c:429 src/msgcat.c:371 src/msgcomm.c:377 src/msgconv.c:308
+#: src/msgen.c:284 src/msgfilter.c:402 src/msgfmt.c:590 src/msggrep.c:485
+#: src/msginit.c:378 src/msgmerge.c:481 src/msgunfmt.c:378 src/msguniq.c:337
+#: src/xgettext.c:693
+msgid "Output details:\n"
+msgstr "Çıktı ayrıntıları:\n"
+
+#: src/msgattrib.c:431 src/msgcat.c:378 src/msgcomm.c:379 src/msgconv.c:310
+#: src/msgen.c:286 src/msgmerge.c:483 src/msgunfmt.c:380 src/msguniq.c:344
+#: src/xgettext.c:695
+msgid "  -e, --no-escape             do not use C escapes in output (default)\n"
+msgstr "  -e, --no-escape             çıktıda C öncelemeleri kullanılmaz (öntanımlı)\n"
+
+#: src/msgattrib.c:433 src/msgcat.c:380 src/msgcomm.c:381 src/msgconv.c:312
+#: src/msgen.c:288 src/msgfilter.c:406 src/msgmerge.c:485 src/msgunfmt.c:382
+#: src/msguniq.c:346 src/xgettext.c:697
+msgid "  -E, --escape                use C escapes in output, no extended chars\n"
+msgstr ""
+"  -E, --escape                çıktıda C öncelemeleri kullanılır, karakterler\n"
+"                              yorumlanmaz\n"
+
+#: src/msgattrib.c:435 src/msgcat.c:382 src/msgcomm.c:383 src/msgconv.c:314
+#: src/msgen.c:290 src/msgfilter.c:408 src/msggrep.c:491 src/msgmerge.c:487
+#: src/msgunfmt.c:384 src/msguniq.c:348 src/xgettext.c:699
+msgid "      --force-po              write PO file even if empty\n"
+msgstr "      --force-po              boş bile olsa PO dosyasını yazar\n"
+
+#: src/msgattrib.c:437 src/msgcat.c:384 src/msgcomm.c:385 src/msguniq.c:350
+#: src/xgettext.c:701
+msgid "  -i, --indent                write the .po file using indented style\n"
+msgstr "  -i, --indent                .po dosyasını girintili tarzda yazar\n"
+
+#: src/msgattrib.c:439 src/msgcat.c:386 src/msgcomm.c:387 src/msguniq.c:352
+#: src/xgettext.c:703
+msgid "      --no-location           do not write '#: filename:line' lines\n"
+msgstr "      --no-location           '#: dosyaismi:satır' satırları yazılmaz\n"
+
+#: src/msgattrib.c:441 src/msgcat.c:388 src/msgcomm.c:389 src/msguniq.c:354
+#: src/xgettext.c:705
+msgid "  -n, --add-location          generate '#: filename:line' lines (default)\n"
+msgstr ""
+"  -n, --add-location          '#: dosyaismi:satır' satırları üretilir\n"
+"                              (öntanımlı\n"
+
+#: src/msgattrib.c:443 src/msgcat.c:390 src/msgcomm.c:391 src/msguniq.c:356
+#: src/xgettext.c:707
+msgid "      --strict                write out strict Uniforum conforming .po file\n"
+msgstr "      --strict                .po dosyasının bilinen biçeminde yazar.\n"
+
+#: src/msgattrib.c:445 src/msgcat.c:392 src/msgcomm.c:393 src/msgconv.c:324
+#: src/msgen.c:300 src/msgfilter.c:420 src/msggrep.c:501 src/msginit.c:384
+#: src/msgmerge.c:497 src/msgunfmt.c:390 src/msguniq.c:358
+msgid "  -p, --properties-output     write out a Java .properties file\n"
+msgstr "  -p, --properties-output     çıktıyı bir Java .properties dosyasına yazar\n"
+
+#: src/msgattrib.c:447 src/msgcat.c:394 src/msgcomm.c:395 src/msgconv.c:326
+#: src/msgen.c:302 src/msgfilter.c:422 src/msggrep.c:503 src/msginit.c:386
+#: src/msgmerge.c:499 src/msgunfmt.c:392 src/msguniq.c:360 src/xgettext.c:711
+msgid "  -w, --width=NUMBER          set output page width\n"
+msgstr "  -w, --width=SAYI            sayfa genişliğini SAYIya ayarlar\n"
+
+#: src/msgattrib.c:449 src/msgcat.c:396 src/msgcomm.c:397 src/msgconv.c:328
+#: src/msgen.c:304 src/msgfilter.c:424 src/msggrep.c:505 src/msginit.c:388
+#: src/msgmerge.c:501 src/msgunfmt.c:394 src/msguniq.c:362 src/xgettext.c:713
+msgid ""
+"      --no-wrap               do not break long message lines, longer than\n"
+"                              the output page width, into several lines\n"
+msgstr ""
+"      --no-wrap               sayfa genişliğine sığmayan satırların taşan\n"
+"                              kısmı bir alt satıra indirilmez\n"
+
+#: src/msgattrib.c:452 src/msgcat.c:399 src/msgcomm.c:400 src/msgconv.c:331
+#: src/msgen.c:307 src/msgfilter.c:427 src/msgmerge.c:504 src/msgunfmt.c:397
+#: src/msguniq.c:365 src/xgettext.c:716
+msgid "  -s, --sort-output           generate sorted output\n"
+msgstr "  -s, --sort-output           sıralı çıktı üretir\n"
+
+#: src/msgattrib.c:454 src/msgcat.c:401 src/msgcomm.c:402 src/msgconv.c:333
+#: src/msgen.c:309 src/msgfilter.c:429 src/msgmerge.c:506 src/msguniq.c:367
+#: src/xgettext.c:718
+msgid "  -F, --sort-by-file          sort output by file location\n"
+msgstr "  -F, --sort-by-file          çıktıyı dosyadaki yerine göre sıralar\n"
+
+#: src/msgcat.c:273 src/msgcomm.c:290
+#, c-format
+msgid "impossible selection criteria specified (%d < n < %d)"
+msgstr "belirtilen seçim kriteri mümkün değil (%d < n < %d)"
+
+#: src/msgcat.c:315 src/msgcomm.c:322 src/xgettext.c:615
+#, c-format
+msgid "Usage: %s [OPTION] [INPUTFILE]...\n"
+msgstr "Kullanımı: %s [SEÇENEK] [GİRDİDOSYASI]...\n"
+
+#: src/msgcat.c:320
+#, no-wrap
+msgid ""
+"Concatenates and merges the specified PO files.\n"
+"Find messages which are common to two or more of the specified PO files.\n"
+"By using the --more-than option, greater commonality may be requested\n"
+"before messages are printed.  Conversely, the --less-than option may be\n"
+"used to specify less commonality before messages are printed (i.e.\n"
+"--less-than=2 will only print the unique messages).  Translations,\n"
+"comments and extract comments will be cumulated, except that if --use-first\n"
+"is specified, they will be taken from the first PO file to define them.\n"
+"File positions from all PO files will be cumulated.\n"
+msgstr ""
+"Belirtilen PO dosyalarını birleştirir ve katıştırır.\n"
+"Belirtilen PO dosyalarının iki veya daha fazlasında ortak olan iletileri\n"
+"bulur. --more-than seçeneği kullanılarak, iletiler yazılmadan önce,\n"
+"dosyalarda ortak olan iletilerin belirtilen miktardan fazla olanları seçilir.\n"
+"Tersine olarak --less-than seçeneği kullanılarak, iletiler yazılmadan önce,\n"
+"dosyalarda ortak olan iletilerin belirtilen miktardan az olanları seçilir.\n"
+"(Örneğin --less-than=2 ile tek başına-ortak olmayan iletiler basılır.)\n"
+"--use-first seçeneği belirtilmediği takdirde, yorumlar ve çıkarma yorumları\n"
+"korunur, belirtildiğinde bunlar ilk PO dosyasında belirtildiği şekliyle\n"
+"alınır.\n"
+
+#: src/msgcat.c:337 src/msgcomm.c:343 src/xgettext.c:631
+msgid "  INPUTFILE ...               input files\n"
+msgstr "  GİRDİDOSYASI ...            girdi dosyaları\n"
+
+#: src/msgcat.c:339 src/msgcomm.c:345 src/xgettext.c:633
+msgid "  -f, --files-from=FILE       get list of input files from FILE\n"
+msgstr "  -f, --files-from=DOSYA      girdi dosyalarının listesi DOSYAdan alınır\n"
+
+#: src/msgcat.c:343 src/msgcomm.c:349 src/msgen.c:268 src/msgfmt.c:520
+#: src/xgettext.c:637
+msgid "If input file is -, standard input is read.\n"
+msgstr "Girdi dosyası - ise, standart girdi okunur.\n"
+
+#: src/msgcat.c:356 src/msgcomm.c:362
+msgid ""
+"  -<, --less-than=NUMBER      print messages with less than this many\n"
+"                              definitions, defaults to infinite if not set\n"
+msgstr ""
+"  -<, --less-than=SAYI        bu SAYIdan daha fazla olan iletileri basmaz,\n"
+"                              belirtilmezse öntanımlı sonsuzdur.\n"
+
+#: src/msgcat.c:359
+msgid ""
+"  ->, --more-than=NUMBER      print messages with more than this many\n"
+"                              definitions, defaults to 0 if not set\n"
+msgstr ""
+"  ->, --more-than=NUMBER      bu SAYIdan daha az olan iletileri basmaz,\n"
+"                              belirtilmezse öntanımlı 0 dır.\n"
+
+#: src/msgcat.c:362 src/msgcomm.c:368
+msgid ""
+"  -u, --unique                shorthand for --less-than=2, requests\n"
+"                              that only unique messages be printed\n"
+msgstr ""
+"  -u, --unique                --less-than=2 için kısaltmadır, sadece\n"
+"                              eşi olmayan iletiler basılır\n"
+
+#: src/msgcat.c:368 src/msgcmp.c:203 src/msgcomm.c:374 src/msgfmt.c:567
+#: src/msgmerge.c:478
+msgid "  -P, --properties-input      input files are in Java .properties syntax\n"
+msgstr "  -P, --properties-input      girdi dosyaları Java .properties sözdizimlidir\n"
+
+#: src/msgcat.c:373 src/msgconv.c:298 src/msguniq.c:339
+msgid "  -t, --to-code=NAME          encoding for output\n"
+msgstr "  -t, --to-code=İSİM          çıktı için kodlama\n"
+
+#: src/msgcat.c:375 src/msguniq.c:341
+msgid ""
+"      --use-first             use first available translation for each\n"
+"                              message, don't merge several translations\n"
+msgstr ""
+"      --use-first             her ileti için mevcut olan ilk kullanılır,\n"
+"                              çok sayıda çeviri varsa bile alınmaz.\n"
+
+#: src/msgcmp.c:146 src/msgmerge.c:294
+msgid "no input files given"
+msgstr "hiçbir girdi dosyası verilmemiş"
+
+#: src/msgcmp.c:151 src/msgmerge.c:299
+msgid "exactly 2 input files required"
+msgstr "tam olarak 2 girdi dosyası gerekli"
+
+#: src/msgcmp.c:170 src/msgmerge.c:403
+#, c-format
+msgid "Usage: %s [OPTION] def.po ref.pot\n"
+msgstr "Kullanımı: %s [SEÇENEK] def.po ref.pot\n"
+
+#: src/msgcmp.c:175
+#, no-wrap
+msgid ""
+"Compare two Uniforum style .po files to check that both contain the same\n"
+"set of msgid strings.  The def.po file is an existing PO file with the\n"
+"translations.  The ref.pot file is the last created PO file, or a PO Template\n"
+"file (generally created by xgettext).  This is useful for checking that\n"
+"you have translated each and every message in your program.  Where an exact\n"
+"match cannot be found, fuzzy matching is used to produce better diagnostics.\n"
+msgstr ""
+"Aynı msgid dizgelerini içeren iki .po dosyasını karşılaştırır.\n"
+"def.po dosyası eski çevirileri içeren mevcut PO dosyasıdır.\n"
+"ref.pot dosyası ise yeni POT dosyasıdır. Bu, programınızdaki her iletiyi\n"
+"ve çevirisini kontrol etmek için kullanışlıdır. Zorunlu eşleşme bulunamazsa,\n"
+"belirsiz (fuzzy) eşleştirme yapılır.\n"
+
+#: src/msgcmp.c:189
+msgid "  def.po                      translations\n"
+msgstr "  def.po                      çeviriler\n"
+
+#: src/msgcmp.c:191
+msgid "  ref.pot                     references to the sources\n"
+msgstr "  ref.pot                     kaynaklara bağlantılar\n"
+
+#: src/msgcmp.c:196 src/msgmerge.c:469
+msgid "Operation modifiers:\n"
+msgstr "İşlem değiştiriciler:\n"
+
+#: src/msgcmp.c:198 src/msgmerge.c:471
+msgid "  -m, --multi-domain          apply ref.pot to each of the domains in def.po\n"
+msgstr "  -m, --multi-domain          ref.pot'u tüm def.po dosyalarına uygular\n"
+
+#: src/msgcmp.c:272 src/msgmerge.c:922
+msgid "this message is used but not defined..."
+msgstr "bu ileti kullanıldı ama tanımlı değil..."
+
+#: src/msgcmp.c:274 src/msgmerge.c:924
+msgid "...but this definition is similar"
+msgstr "...ama bu tanımlama benzer"
+
+#: src/msgcmp.c:279 src/msgmerge.c:951
+#, c-format
+msgid "this message is used but not defined in %s"
+msgstr "bu ileti kullanıldı ama %s'de tanımlı değil"
+
+#: src/msgcmp.c:383
+msgid "warning: this message is not used"
+msgstr "uyarı: bu ileti kullanılmamış"
+
+#: src/msgcmp.c:390
+#, c-format
+msgid "found %d fatal error"
+msgid_plural "found %d fatal errors"
+msgstr[0] "%d ölümcül hata bulundu"
+msgstr[1] "%d ölümcül hata bulundu"
+
+#: src/msgcomm.c:279
+msgid "at least two files must be specified"
+msgstr "en az iki dosya belirtilmelidir"
+
+#: src/msgcomm.c:327
+#, no-wrap
+msgid ""
+"Find messages which are common to two or more of the specified PO files.\n"
+"By using the --more-than option, greater commonality may be requested\n"
+"before messages are printed.  Conversely, the --less-than option may be\n"
+"used to specify less commonality before messages are printed (i.e.\n"
+"--less-than=2 will only print the unique messages).  Translations,\n"
+"comments and extract comments will be preserved, but only from the first\n"
+"PO file to define them.  File positions from all PO files will be\n"
+"cumulated.\n"
+msgstr ""
+"Belirtilen PO dosyalarının iki veya daha fazlasında ortak olan iletileri\n"
+"bulur. --more-than seçeneği kullanılarak, iletiler yazılmadan önce,\n"
+"dosyalarda ortak olan iletilerin belirtilen miktardan fazla olanları seçilir.\n"
+"Tersine olarak --less-than seçeneği kullanılarak, iletiler yazılmadan önce,\n"
+"dosyalarda ortak olan iletilerin belirtilen miktardan az olanları seçilir.\n"
+"(Örneğin --less-than=2 ile tek başına-ortak olmayan iletiler basılır.)\n"
+"Sadece ilk PO dosyasında tanımlandığı şekliyle çeviriler, yorumlar ve \n"
+"çıkarma yorumları korunmuş olacaktır. Tüm PO dosyalarındaki dosya konumları\n"
+"korunmuş olacaktır.\n"
+
+#: src/msgcomm.c:365
+msgid ""
+"  ->, --more-than=NUMBER      print messages with more than this many\n"
+"                              definitions, defaults to 1 if not set\n"
+msgstr ""
+"  ->, --more-than=SAYI        SAYIdan daha fazla olan iletileri basar,\n"
+"                              verilmezse öntanımlı 1 dir\n"
+
+#: src/msgcomm.c:404 src/xgettext.c:720
+msgid "      --omit-header           don't write header with `msgid \"\"' entry\n"
+msgstr "      --omit-header           başlıktaki `msgid \"\"' girdisini yazmaz\n"
+
+#: src/msgconv.c:272
+msgid "Converts a translation catalog to a different character encoding.\n"
+msgstr "Bir çeviri kataloğunu başka bir karakter kodlamasına dönüştürür.\n"
+
+#: src/msgconv.c:296
+msgid "Conversion target:\n"
+msgstr "Dönüşüm hedefi:\n"
+
+#: src/msgconv.c:300
+msgid "The default encoding is the current locale's encoding.\n"
+msgstr "Öntanımlı kodlama mevcut yerelin kodlamasıdır.\n"
+
+#: src/msgconv.c:316 src/msgen.c:292 src/msgmerge.c:489
+msgid "  -i, --indent                indented output style\n"
+msgstr "  -i, --indent                girintili çıktı tarzı\n"
+
+#: src/msgconv.c:318 src/msgen.c:294 src/msgfilter.c:414 src/msggrep.c:495
+#: src/msgmerge.c:491
+msgid "      --no-location           suppress '#: filename:line' lines\n"
+msgstr "      --no-location           '#: dosyaismi:satır' satırlarını engeller\n"
+
+#: src/msgconv.c:320 src/msgen.c:296 src/msgfilter.c:416 src/msggrep.c:497
+#: src/msgmerge.c:493
+msgid "      --add-location          preserve '#: filename:line' lines (default)\n"
+msgstr ""
+"      --add-location          '#: dosyaismi:satır' satırları korunur\n"
+"                              (öntanımlı)\n"
+
+#: src/msgconv.c:322 src/msgen.c:298 src/msgfilter.c:418 src/msggrep.c:499
+#: src/msgmerge.c:495
+msgid "      --strict                strict Uniforum output style\n"
+msgstr "      --strict                çıktı bilinen biçemde yazılır\n"
+
+#: src/msgen.c:204 src/msgfmt.c:337 src/xgettext.c:451
+msgid "no input file given"
+msgstr "hiç girdi dosyası verilmemiş"
+
+#: src/msgen.c:209
+msgid "exactly one input file required"
+msgstr "tam olarak 1 girdi dosyası gerekli"
+
+#: src/msgen.c:247
+#, c-format
+msgid "Usage: %s [OPTION] INPUTFILE\n"
+msgstr "Kullanımı: %s [SEÇENEK] GİRDİDOSYASI\n"
+
+#: src/msgen.c:252
+#, no-wrap
+msgid ""
+"Creates an English translation catalog.  The input file is the last\n"
+"created English PO file, or a PO Template file (generally created by\n"
+"xgettext).  Untranslated entries are assigned a translation that is\n"
+"identical to the msgid.\n"
+msgstr ""
+"Bir İngilizce çeviri kataloğu oluşturur. Girdi dosyası ya son oluşturulan\n"
+"İngilizce PO dosyasıdır ya da genellikle xgettext tarafından oluşturulan\n"
+"PO Şablon dosyasıdır. Çevirisiz girdilere msgid ile uyuşan bir çeviri\n"
+"yerleştirilir ve fuzzy olarak imlenir.\n"
+
+#: src/msgen.c:264
+msgid "  INPUTFILE                   input PO or POT file\n"
+msgstr "  GİRDİDOSYASI                PO ya da POT dosyası\n"
+
+#: src/msgexec.c:181
+msgid "missing command name"
+msgstr "komut ismi eksik"
+
+#: src/msgexec.c:227
+#, c-format
+msgid "Usage: %s [OPTION] COMMAND [COMMAND-OPTION]\n"
+msgstr "Kullanımı: %s [SEÇENEK] KOMUT [KOMUT-SEÇENEĞİ]\n"
+
+#: src/msgexec.c:232
+#, no-wrap
+msgid ""
+"Applies a command to all translations of a translation catalog.\n"
+"The COMMAND can be any program that reads a translation from standard\n"
+"input.  It is invoked once for each translation.  Its output becomes\n"
+"msgexec's output.  msgexec's return code is the maximum return code\n"
+"across all invocations.\n"
+msgstr ""
+"Bir çeviri kataloğunun tüm çevirilerine bir komut uygular.\n"
+"KOMUT çeviriyi standart girdiden okuyabilen herhangi bir uygulama\n"
+"olabilir.Her çeviri için bir kere çağrılır. Çıktısı msgexec'in\n"
+"çıktısı olarak görünür. msgexec dönüş kodu olarak tüm çağrılardan\n"
+"elde edilen en yüksek dönüş kodunu verir.\n"
+
+#: src/msgexec.c:241
+#, no-wrap
+msgid ""
+"A special builtin command called '0' outputs the translation, followed by a\n"
+"null byte.  The output of \"msgexec 0\" is suitable as input for \"xargs -0\".\n"
+msgstr ""
+"'0' özel bir yerleşik komuttur ve bir null bayt ile sonlanan çeviri\n"
+"çıktılar.  \"msgexec 0\"ın çıktısı \"xargs -0\"a girdi olarak elverişlidir.\n"
+
+#: src/msgexec.c:251 src/msgfilter.c:367
+msgid "  -i, --input=INPUTFILE       input PO file\n"
+msgstr "  -i, --input=GİRDİDOSYASI    PO dosyası\n"
+
+#: src/msgexec.c:309
+msgid "write to stdout failed"
+msgstr "standart çıktıya yazılamadı"
+
+#: src/msgexec.c:332 src/msgfilter.c:615
+#, c-format
+msgid "write to %s subprocess failed"
+msgstr "%s alt sürecine yazılamadı"
+
+#: src/msgfilter.c:268
+msgid "missing filter name"
+msgstr "süzgeç ismi eksik"
+
+#: src/msgfilter.c:292
+msgid "at least one sed script must be specified"
+msgstr "en az bir sed betiği belirtilmelidir"
+
+#: src/msgfilter.c:354
+#, c-format
+msgid "Usage: %s [OPTION] FILTER [FILTER-OPTION]\n"
+msgstr "Kullanımı: %s [SEÇENEK] SÜZGEÇ [SÜZGEÇ-SEÇENEĞİ]\n"
+
+#: src/msgfilter.c:358
+msgid "Applies a filter to all translations of a translation catalog.\n"
+msgstr "Bir çeviri kataloğunun tüm çevirilerine bir süzgeç uygular.\n"
+
+#: src/msgfilter.c:382
+msgid ""
+"The FILTER can be any program that reads a translation from standard input\n"
+"and writes a modified translation to standard output.\n"
+msgstr ""
+"SÜZGEÇ çeviriyi standart girdiden okuyabilen ve değiştirilmiş çeviriyi\n"
+"standart çıktıya yazabilen herhangi bir programdır.\n"
+
+#: src/msgfilter.c:387
+msgid "Useful FILTER-OPTIONs when the FILTER is 'sed':\n"
+msgstr "SÜZGEÇ 'sed' iken kullanılan SÜZGEÇ-SEÇENEKleri:\n"
+
+#: src/msgfilter.c:389
+msgid "  -e, --expression=SCRIPT     add SCRIPT to the commands to be executed\n"
+msgstr "  -e, --expression=BETİK      BETİK çalıştırılacak komutlara eklenir\n"
+
+#: src/msgfilter.c:391
+msgid ""
+"  -f, --file=SCRIPTFILE       add the contents of SCRIPTFILE to the commands\n"
+"                                to be executed\n"
+msgstr ""
+"  -f, --file=BETİK            BETİK dosyasının içeriğini çalıştırılacak\n"
+"                              komutlara ekler\n"
+
+#: src/msgfilter.c:394
+msgid "  -n, --quiet, --silent       suppress automatic printing of pattern space\n"
+msgstr "  -n, --quiet, --silent       kalıp alanının otomatik basılmasını engeller\n"
+
+#: src/msgfilter.c:404 src/msggrep.c:487
+msgid "      --no-escape             do not use C escapes in output (default)\n"
+msgstr "      --no-escape             çıktıda C öncelemeleri kullanılmaz (öntanımlı)\n"
+
+#: src/msgfilter.c:410 src/msggrep.c:493
+msgid "      --indent                indented output style\n"
+msgstr "      --indent                girintili çıktı tarzı\n"
+
+#: src/msgfilter.c:412
+msgid "      --keep-header           keep header entry unmodified, don't filter it\n"
+msgstr "      --keep-header           başlık değiştirilmeden korunur\n"
+
+#: src/msgfilter.c:539
+msgid "Not yet implemented."
+msgstr "Henüz çalışmıyor."
+
+#: src/msgfilter.c:567
+#, c-format
+msgid "cannot set up nonblocking I/O to %s subprocess"
+msgstr "%s alt sürecine bloklanmayan G/Ç belirtilemez"
+
+#: src/msgfilter.c:595
+#, c-format
+msgid "communication with %s subprocess failed"
+msgstr "%s alt süreci ile haberleşilemedi"
+
+#: src/msgfilter.c:646
+#, c-format
+msgid "read from %s subprocess failed"
+msgstr "%s alt sürecinden okunamadı"
+
+#: src/msgfilter.c:662
+#, c-format
+msgid "%s subprocess terminated with exit code %d"
+msgstr "%s alt süreci %d çıkış kodu ile sonlandırıldı"
+
+#: src/msgfmt.c:288
+#, c-format
+msgid "the argument to %s should be a single punctuation character"
+msgstr "%s argümanı bir noktalama işareti olmalıydı"
+
+#: src/msgfmt.c:355 src/msgfmt.c:377 src/msgunfmt.c:255
+#, c-format
+msgid "%s requires a \"-d directory\" specification"
+msgstr "%s bir \"-d dizin\" uygulanmasını gerektiriyor"
+
+#: src/msgfmt.c:370 src/msgunfmt.c:248
+#, c-format
+msgid "%s requires a \"-l locale\" specification"
+msgstr "%s bir \"-l yerel\" belirtilmesini gerektiriyor"
+
+#: src/msgfmt.c:386 src/msgmerge.c:316 src/msgmerge.c:322 src/msgunfmt.c:264
+#: src/msgunfmt.c:270
+#, c-format
+msgid "%s is only valid with %s"
+msgstr "%s sadece %s ile geçerlidir"
+
+#: src/msgfmt.c:392 src/msgfmt.c:398
+#, c-format
+msgid "%s is only valid with %s or %s"
+msgstr "%s sadece %s ya da %s ile geçerlidir"
+
+#: src/msgfmt.c:470
+#, c-format
+msgid "%d translated message"
+msgid_plural "%d translated messages"
+msgstr[0] "%d çevrilmiş ileti"
+msgstr[1] "%d çevrilmiş ileti"
+
+#: src/msgfmt.c:475
+#, c-format
+msgid ", %d fuzzy translation"
+msgid_plural ", %d fuzzy translations"
+msgstr[0] ", %d belirsiz çeviri"
+msgstr[1] ", %d belirsiz çeviri"
+
+#: src/msgfmt.c:480
+#, c-format
+msgid ", %d untranslated message"
+msgid_plural ", %d untranslated messages"
+msgstr[0] ", %d çevrilmemiş ileti"
+msgstr[1] ", %d çevrilmemiş ileti"
+
+#: src/msgfmt.c:500
+#, c-format
+msgid "Usage: %s [OPTION] filename.po ...\n"
+msgstr "Kullanımı: %s [SEÇENEK] dosyaismi.po ...\n"
+
+#: src/msgfmt.c:504
+msgid "Generate binary message catalog from textual translation description.\n"
+msgstr "Çevirilerin bulunduğu dosyadan ikilik ileti kataloğunu üretir.\n"
+
+#: src/msgfmt.c:509 src/xgettext.c:624
+#, no-wrap
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too.\n"
+"Similarly for optional arguments.\n"
+msgstr ""
+"Uzun seçeneklerdeki zorunlu argümanlar kısa seçeneklerde de zorunludur.\n"
+"Benzer durum seçimlik argümanlar içinde geçerlidir.\n"
+
+#: src/msgfmt.c:516
+msgid "  filename.po ...             input files\n"
+msgstr "  DOSYAİSMİ.po ...            girdi dosyaları\n"
+
+#: src/msgfmt.c:523 src/msgmerge.c:435 src/msgunfmt.c:335 src/xgettext.c:671
+msgid "Operation mode:\n"
+msgstr "İşlem kipi:\n"
+
+#: src/msgfmt.c:525
+msgid "  -j, --java                  Java mode: generate a Java ResourceBundle class\n"
+msgstr "  -j, --java                  Java kipi: bir Java ResourceBundle sınıfı üretir\n"
+
+#: src/msgfmt.c:527
+msgid "      --java2                 like --java, and assume Java2 (JDK 1.2 or higher)\n"
+msgstr ""
+"      --java2                 --java gibi, Java2' de (JDK 1.2 ve daha yüksek)\n"
+"                              kabul edilir\n"
+
+#: src/msgfmt.c:529
+msgid "      --tcl                   Tcl mode: generate a tcl/msgcat .msg file\n"
+msgstr "      --tcl                   Tcl kipi:bir tcl/msgcat .msg dosyası üretilir\n"
+
+#: src/msgfmt.c:536
+msgid "      --strict                enable strict Uniforum mode\n"
+msgstr "      --strict                bilinen kip etkinleştirilir\n"
+
+#: src/msgfmt.c:538 src/xgettext.c:648
+msgid "If output file is -, output is written to standard output.\n"
+msgstr "Çıktı dosyası - verilmişse, standard çıktı kullanılır.\n"
+
+#: src/msgfmt.c:541
+msgid "Output file location in Java mode:\n"
+msgstr "Java kipinde çıktı dosyasının yeri:\n"
+
+#: src/msgfmt.c:543 src/msgunfmt.c:351
+msgid "  -r, --resource=RESOURCE     resource name\n"
+msgstr "  -r, --resource=ÖZKAYNAK     özkaynak ismi\n"
+
+#: src/msgfmt.c:545 src/msgfmt.c:557 src/msgunfmt.c:353 src/msgunfmt.c:362
+msgid "  -l, --locale=LOCALE         locale name, either language or language_COUNTRY\n"
+msgstr "  -l, --locale=YEREL          yerel ismi, \"tr\" ya da \"tr_TR\"\n"
+
+#: src/msgfmt.c:547
+msgid "  -d DIRECTORY                base directory of classes directory hierarchy\n"
+msgstr "  -d DİZİN                    sınıf ana dizini\n"
+
+#: src/msgfmt.c:549
+msgid ""
+"The class name is determined by appending the locale name to the resource name,\n"
+"separated with an underscore.  The -d option is mandatory.  The class is\n"
+"written under the specified directory.\n"
+msgstr ""
+"Sınıf ismi, özkaynak ismine yerel isminin bir altçizgi ile eklenmesiyle\n"
+"saptanır. Sınıf DİZİNe yazılacağından -d seçeneği zorunludur.\n"
+
+#: src/msgfmt.c:555
+msgid "Output file location in Tcl mode:\n"
+msgstr "Tcl kipte çıktı dosyasının yeri:\n"
+
+#: src/msgfmt.c:559 src/msgunfmt.c:364
+msgid "  -d DIRECTORY                base directory of .msg message catalogs\n"
+msgstr "  -d DİZİN                   .msg ileti kataloglarının ana dizini\n"
+
+#: src/msgfmt.c:561
+msgid ""
+"The -l and -d options are mandatory.  The .msg file is written in the\n"
+"specified directory.\n"
+msgstr "-l ve -d seçenekleri zorunludur. .msg dosyası belirtilen dizine yazılır.\n"
+
+#: src/msgfmt.c:570 src/xgettext.c:663
+msgid "Input file interpretation:\n"
+msgstr "Girdi dosyası yorumlaması:\n"
+
+#: src/msgfmt.c:572
+msgid ""
+"  -c, --check                 perform all the checks implied by\n"
+"                                --check-format, --check-header, --check-domain\n"
+msgstr ""
+"  -c, --check                 --check-format, --check-header, --check-domain\n"
+"                              için kısaltma\n"
+
+#: src/msgfmt.c:575
+msgid "      --check-format          check language dependent format strings\n"
+msgstr "      --check-format          dile bağlı biçem dizgeleri kontrol edilir\n"
+
+#: src/msgfmt.c:577
+msgid "      --check-header          verify presence and contents of the header entry\n"
+msgstr ""
+"      --check-header          başlık girdilerilerinin varlığı ve içeriği\n"
+"                              kontrol edilir\n"
+
+#: src/msgfmt.c:579
+msgid ""
+"      --check-domain          check for conflicts between domain directives\n"
+"                                and the --output-file option\n"
+msgstr ""
+"      --check-domain          --output-file seçeneği ile paket yönergeleri\n"
+"                              arasındaki çelişkiler kontrol edilir\n"
+
+#: src/msgfmt.c:582
+msgid "  -C, --check-compatibility   check that GNU msgfmt behaves like X/Open msgfmt\n"
+msgstr "  -C, --check-compatibility   GNU msgfmt, X/Open msgfmt gibi mi davranıyor\n"
+
+#: src/msgfmt.c:584
+msgid ""
+"      --check-accelerators[=CHAR]  check presence of keyboard accelerators for\n"
+"                                menu items\n"
+msgstr ""
+"      --check-accelerators[=KRKT]  menü öğeleri için tuş belirticiler\n"
+"                                   kontrol edilir\n"
+
+#: src/msgfmt.c:587
+msgid "  -f, --use-fuzzy             use fuzzy entries in output\n"
+msgstr "  -f, --use-fuzzy             çıktıda fuzzy girdiler kullanılır\n"
+
+#: src/msgfmt.c:592
+#, c-format
+msgid "  -a, --alignment=NUMBER      align strings to NUMBER bytes (default: %d)\n"
+msgstr "  -a, --alignment=SAYI        dizgeleri SAYI bayta ayarlar (öntanımlı: %d)\n"
+
+#: src/msgfmt.c:594
+msgid "      --no-hash               binary file will not include the hash table\n"
+msgstr "      --no-hash               ikilik dosya saçılma tablosunu içermeyecek\n"
+
+#: src/msgfmt.c:603
+msgid "      --statistics            print statistics about translations\n"
+msgstr "      --statistics            çeviriler hakkındaki istatistikleri basar\n"
+
+#: src/msgfmt.c:605 src/msgmerge.c:515 src/msgunfmt.c:406
+msgid "  -v, --verbose               increase verbosity level\n"
+msgstr "  -v, --verbose               daha ayrıntılı çıktı verilir\n"
+
+#: src/msgfmt.c:743
+msgid "plural expression can produce negative values"
+msgstr "çoğul ifadeler negatif değerler üretebilir"
+
+#: src/msgfmt.c:756
+#, c-format
+msgid "nplurals = %lu but plural expression can produce values as large as %lu"
+msgstr "nplurals = %lu ama çoğul ifadeler en çok %lu değer üretebilir"
+
+#: src/msgfmt.c:782
+msgid "plural expression can produce division by zero"
+msgstr "çoğul ifade sıfırla bölme hatası üretebilir"
+
+#: src/msgfmt.c:787
+msgid "plural expression can produce integer overflow"
+msgstr "çoğul ifade tamsayı taşması üretebilir"
+
+#: src/msgfmt.c:792
+msgid "plural expression can produce arithmetic exceptions, possibly division by zero"
+msgstr "çoğul ifade aritmetik hatalar, özellikle de sıfırla bölme hatası üretebilir"
+
+#: src/msgfmt.c:870 src/msgfmt.c:882
+msgid "message catalog has plural form translations..."
+msgstr "ileti kataloğu çoğul çeviriler içeriyor"
+
+#: src/msgfmt.c:873
+msgid "...but header entry lacks a \"plural=EXPRESSION\" attribute"
+msgstr "...ama başlıkta \"plural=İFADE\" gibi bir şey yok"
+
+#: src/msgfmt.c:885
+msgid "...but header entry lacks a \"nplurals=INTEGER\" attribute"
+msgstr "...ama başlıkta \"nplurals=TAMSAYI\" gibi bir şey yok"
+
+#: src/msgfmt.c:910
+msgid "invalid nplurals value"
+msgstr "nplurals değeri geçersiz"
+
+#: src/msgfmt.c:924
+msgid "invalid plural expression"
+msgstr "plural= ile verilen ifade geçersiz"
+
+#: src/msgfmt.c:943 src/msgfmt.c:958
+#, c-format
+msgid "nplurals = %lu..."
+msgstr "nplurals = %lu..."
+
+#: src/msgfmt.c:946
+#, c-format
+msgid "...but some messages have only one plural form"
+msgid_plural "...but some messages have only %lu plural forms"
+msgstr[0] "...ama bazı iletiler tek çoğul biçem içeriyor"
+msgstr[1] "...ama bazı iletiler sadece %lu çoğul biçem içeriyor"
+
+#: src/msgfmt.c:961
+#, c-format
+msgid "...but some messages have one plural form"
+msgid_plural "...but some messages have %lu plural forms"
+msgstr[0] "...ama bazı iletiler tek çoğul biçem içeriyor"
+msgstr[1] "...ama bazı iletiler %lu çoğul biçem içeriyor"
+
+#: src/msgfmt.c:991
+#, c-format
+msgid "Try using the following, valid for %s:\n"
+msgstr "Aşağıdakiler %s için geçerli mi bakılacak:\n"
+
+#: src/msgfmt.c:1004
+msgid "message catalog has plural form translations, but lacks a header entry with \"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\""
+msgstr ""
+"ileti kataloğu çoğul çeviriler içermesine rağmen başlıkta\n"
+"\"Plural-Forms: nplurals=TAMSAYI; plural=İFADE;\" gibi bir şey yok."
+
+#: src/msgfmt.c:1038
+msgid "`msgid' and `msgid_plural' entries do not both begin with '\\n'"
+msgstr "`msgid' ve `msgid_plural' girdilerinin her ikisi de '\\n' ile başlamıyor"
+
+#: src/msgfmt.c:1048
+#, c-format
+msgid "`msgid' and `msgstr[%u]' entries do not both begin with '\\n'"
+msgstr "`msgid' ve `msgstr[%u]' girdilerinin her ikisi de '\\n' ile başlamıyor"
+
+#: src/msgfmt.c:1060
+msgid "`msgid' and `msgstr' entries do not both begin with '\\n'"
+msgstr "`msgid' ve `msgstr' girdilerinin her ikisi de '\\n' ile başlamıyor"
+
+#: src/msgfmt.c:1077
+msgid "`msgid' and `msgid_plural' entries do not both end with '\\n'"
+msgstr "`msgid' ve `msgid_plural' girdilerinin her ikisi de '\\n' ile bitmiyor"
+
+#: src/msgfmt.c:1087
+#, c-format
+msgid "`msgid' and `msgstr[%u]' entries do not both end with '\\n'"
+msgstr "`msgid' ve `msgstr[%u]' girdilerinin her ikisi de '\\n' ile bitmiyor"
+
+#: src/msgfmt.c:1099
+msgid "`msgid' and `msgstr' entries do not both end with '\\n'"
+msgstr "`msgid' ve `msgstr' girdilerinin her ikisi de '\\n' ile bitmiyor"
+
+#: src/msgfmt.c:1111
+msgid "plural handling is a GNU gettext extension"
+msgstr "çoğul biçemler bir GNU gettext özelliğidir"
+
+#: src/msgfmt.c:1178
+#, c-format
+msgid "'%s' is not a valid %s format string, unlike 'msgid'. Reason: %s"
+msgstr "'%s', 'msgid' gibi geçerli bir %s biçem dizgesi değil. Sebebi: %s"
+
+#: src/msgfmt.c:1220
+#, c-format
+msgid "msgstr lacks the keyboard accelerator mark '%c'"
+msgstr "içinde '%c' tuş kısayolu eksik"
+
+#: src/msgfmt.c:1228
+#, c-format
+msgid "msgstr has too many keyboard accelerator marks '%c'"
+msgstr "çok fazla '%c' tuş kısayolu içeriyor"
+
+#: src/msgfmt.c:1262
+#, c-format
+msgid "headerfield `%s' missing in header\n"
+msgstr "başlıkta `%s' başlık alanı yok\n"
+
+#: src/msgfmt.c:1266
+#, c-format
+msgid "header field `%s' should start at beginning of line\n"
+msgstr "`%s' başlık alanı satırın başında olmalıydı\n"
+
+#: src/msgfmt.c:1277
+msgid "some header fields still have the initial default value\n"
+msgstr "bazı başlık alanları hala öntanımlı ilk değere sahip\n"
+
+#: src/msgfmt.c:1289
+#, c-format
+msgid "field `%s' still has initial default value\n"
+msgstr "`%s' başlık alanı hala öntanımlı ilk değere sahip\n"
+
+#: src/msgfmt.c:1347
+msgid "warning: PO file header missing or invalid\n"
+msgstr "uyarı: PO dosya başlığı ya yok ya da geçersiz\n"
+
+#: src/msgfmt.c:1350
+msgid "warning: charset conversion will not work\n"
+msgstr "uyarı: Kullanıcının karakter kümesinde ileti dönüşümü yapılamayacak.\n"
+
+#: src/msgfmt.c:1360
+msgid "warning: PO file header fuzzy\n"
+msgstr "uyarı: PO dosya başlığı fuzzy\n"
+
+#: src/msgfmt.c:1362
+msgid "warning: older versions of msgfmt will give an error on this\n"
+msgstr "uyarı: msgfmt'ın eski sürümleri bu dosyada hata verecektir.\n"
+
+#: src/msgfmt.c:1385
+#, c-format
+msgid "domain name \"%s\" not suitable as file name"
+msgstr "dosya ismi olarak paket ismi \"%s\" uygun değil"
+
+#: src/msgfmt.c:1390
+#, c-format
+msgid "domain name \"%s\" not suitable as file name: will use prefix"
+msgstr "dosya ismi olarak paket ismi \"%s\" uygun değil: önek kullanılacak"
+
+#: src/msgfmt.c:1404
+#, c-format
+msgid "`domain %s' directive ignored"
+msgstr "`domain %s' yönergesi yoksayıldı"
+
+#: src/msgfmt.c:1458
+msgid "empty `msgstr' entry ignored"
+msgstr "boş `msgstr' girdisi yoksayıldı"
+
+#: src/msgfmt.c:1459
+msgid "fuzzy `msgstr' entry ignored"
+msgstr "fuzzy `msgstr' girdisi yoksayıldı"
+
+#: src/msgfmt.c:1517
+#, c-format
+msgid "%s: warning: source file contains fuzzy translation"
+msgstr "%s: uyarı: kaynak dosya fuzzy çeviriler içeriyor"
+
+#: src/msggrep.c:404
+#, c-format
+msgid "option '%c' cannot be used before 'K' or 'T' or 'C' has been specified"
+msgstr "'%c' seçeneği 'K' veya 'T' ya da 'C' belirtilmeden önce kullanılamaz"
+
+#: src/msggrep.c:424
+#, no-wrap
+msgid ""
+"Extracts all messages of a translation catalog that match a given pattern\n"
+"or belong to some given source files.\n"
+msgstr ""
+"Verilen bir kalıp ile uyuşan ya da verilen kaynak dosyalarına ait olan\n"
+"bir çeviri kataloğunun tüm iletilerini çıkarır.\n"
+
+#: src/msggrep.c:450
+#, no-wrap
+msgid ""
+"Message selection:\n"
+"  [-N SOURCEFILE]... [-M DOMAINNAME]...\n"
+"  [-K MSGID-PATTERN] [-T MSGSTR-PATTERN] [-C COMMENT-PATTERN]\n"
+"A message is selected if it comes from one of the specified source files,\n"
+"or if it comes from one of the specified domains,\n"
+"or if -K is given and its key (msgid or msgid_plural) matches MSGID-PATTERN,\n"
+"or if -T is given and its translation (msgstr) matches MSGSTR-PATTERN,\n"
+"or if -C is given and the translator's comment matches COMMENT-PATTERN.\n"
+"\n"
+"When more than one selection criterion is specified, the set of selected\n"
+"messages is the union of the selected messages of each criterion.\n"
+"\n"
+"MSGID-PATTERN or MSGSTR-PATTERN syntax:\n"
+"  [-E | -F] [-e PATTERN | -f FILE]...\n"
+"PATTERNs are basic regular expressions by default, or extended regular\n"
+"expressions if -E is given, or fixed strings if -F is given.\n"
+"\n"
+"  -N, --location=SOURCEFILE   select messages extracted from SOURCEFILE\n"
+"  -M, --domain=DOMAINNAME     select messages belonging to domain DOMAINNAME\n"
+"  -K, --msgid                 start of patterns for the msgid\n"
+"  -T, --msgstr                start of patterns for the msgstr\n"
+"  -C, --comment               start of patterns for the translator's comment\n"
+"  -E, --extended-regexp       PATTERN is an extended regular expression\n"
+"  -F, --fixed-strings         PATTERN is a set of newline-separated strings\n"
+"  -e, --regexp=PATTERN        use PATTERN as a regular expression\n"
+"  -f, --file=FILE             obtain PATTERN from FILE\n"
+"  -i, --ignore-case           ignore case distinctions\n"
+msgstr ""
+"İleti seçimi:\n"
+"  [-N KAYNAKDOSYA]... [-M PAKETİSMİ]...\n"
+"  [-K MSGID-KALIBI] [-T MSGSTR-KALIBI] [-C AÇIKLAMA-KALIBI]\n"
+"İletiler, -N ile belirtilen kaynak dosyalarının birinden,\n"
+"-M ile belirtilen bir paketten,\n"
+"-K ile belirtilen MSGID-KALIBI ile eşleşen msgid veya\n"
+"msgid_plural iletilerinden,\n"
+"-T ile belirtilen MSGSTR-KALIBI ile eşleşen msgstr çevirilerine göre ya da\n"
+"-C ile belirtilen AÇIKLAMA-KALIBI ile eşleşen çevirmenin açıklamalarına\n"
+"göre seçilebilir.\n"
+"\n"
+"Birden fazla seçim kriteri belirtilmişse seçilen ileti kümesi, her\n"
+"kriterden seçilmiş iletilerin birleşimidir.\n"
+"\n"
+"MSGID-KALIBI ve MSGSTR-KALIBI sözdizimi:\n"
+"  [-E | -F] [-e KALIP | -f DOSYA]...\n"
+"KALIPlar öntanımlı olarak düzenli ifadelerdir. -E ile belirtilmişlerse\n"
+"gelişmiş düzenli ifadeler, -F ile belirtilmişlerse sabit dizgelerdir.\n"
+"\n"
+"  -N, --location=KDOSYASI     Kaynak DOSYAsından çıkartılan dosyalar seçilir\n"
+"  -M, --domain=PAKET          PAKETe ait iletiler seçilir\n"
+"  -K, --msgid                 msgid için kalıpların başlangıcı\n"
+"  -T, --msgstr                msgstr için kalıpların başlangıcı\n"
+"  -C, --comment               çevirmenin açıklamaları için için kalıpların\n"
+"                              başlangıcı\n"
+"  -E, --extended-regexp       KALIP bir genişletilmiş düzenli ifadedir\n"
+"  -F, --fixed-strings         KALIP satırsonu ayraçlı dizgeler kümesidir\n"
+"  -e, --regexp=KALIP          KALIP bir düzenli ifade olarak kullanılır\n"
+"  -f, --file=DOSYA            KALIP, DOSYAdan sağlanır\n"
+"  -i, --ignore-case           harf büyüklükleri fark olarak algılanmaz\n"
+
+#: src/msggrep.c:489
+msgid "      --escape                use C escapes in output, no extended chars\n"
+msgstr ""
+"      --escape                çıktıda C öncelemeleri kullanılır, karakterler\n"
+"                              yorumlanmaz\n"
+
+#: src/msggrep.c:508
+msgid "      --sort-output           generate sorted output\n"
+msgstr "      --sort-output           sıralı çıktı üretir\n"
+
+#: src/msggrep.c:510
+msgid "      --sort-by-file          sort output by file location\n"
+msgstr "      --sort-by-file          sıralama dosyanın yerine göre yapılır\n"
+
+#: src/msggrep.c:581
+msgid "write to grep subprocess failed"
+msgstr "grep alt sürecine yazılamadı"
+
+#: src/msginit.c:278
+msgid ""
+"You are in a language indifferent environment.  Please set\n"
+"your LANG environment variable, as described in the ABOUT-NLS\n"
+"file.  This is necessary so you can test your translations.\n"
+msgstr ""
+"Siz dil farkları bulunmayan bir ülkedesiniz. Lütfen LANG sistem\n"
+"değişkenini ABOUT-NLS dosyasında açıklandığı gibi belirtin.\n"
+"Bu çevirinizi test edebilmeniz için gereklidir.\n"
+
+#: src/msginit.c:306
+#, c-format
+msgid ""
+"Output file %s already exists.\n"
+"Please specify the locale through the --locale option or\n"
+"the output .po file through the --output-file option.\n"
+msgstr ""
+"%s çıktı dosyası zaten var.\n"
+"Lütfen --locale seçeneğinden bir yerel ya da\n"
+"--output-file seçeneğinden .po çıktı dosyası belirtin.\n"
+
+#: src/msginit.c:329
+#, c-format
+msgid "Created %s.\n"
+msgstr "%s oluşturuldu.\n"
+
+#: src/msginit.c:349
+#, no-wrap
+msgid ""
+"Creates a new PO file, initializing the meta information with values from the\n"
+"user's environment.\n"
+msgstr "Kullanıcının ortam değişkenlerindeki bilgilerle bir yeni PO dosyası oluşturur.\n"
+
+#: src/msginit.c:359
+msgid "  -i, --input=INPUTFILE       input POT file\n"
+msgstr "  -i, --input=GİRDİDOSYASI    POT dosyası\n"
+
+#: src/msginit.c:361
+msgid ""
+"If no input file is given, the current directory is searched for the POT file.\n"
+"If it is -, standard input is read.\n"
+msgstr ""
+"Girdi dosyası verilmemişse, POT dosyası içinde bulunulan dizinde aranır,\n"
+"- verilmişse standart girdi okunur.\n"
+
+#: src/msginit.c:367
+msgid "  -o, --output-file=FILE      write output to specified PO file\n"
+msgstr "  -o, --output-file=DOSYA     çıktı belirtilen PO dosyasına yazılır\n"
+
+#: src/msginit.c:369
+msgid ""
+"If no output file is given, it depends on the --locale option or the user's\n"
+"locale setting.  If it is -, the results are written to standard output.\n"
+msgstr ""
+"Çıktı dosyası verilmemişse, --locale seçeneği ya da kullanıcının yerel\n"
+"ayarları kullanılır, - verilmişse sonuçlar standart çıktıya yazılır.\n"
+
+#: src/msginit.c:380
+msgid "  -l, --locale=LL_CC          set target locale\n"
+msgstr "  -l, --locale=tr_TR          hedef yerel belirtilir\n"
+
+#: src/msginit.c:382
+msgid "      --no-translator         assume the PO file is automatically generated\n"
+msgstr "      --no-translator         PO dosyasının otomatik üretildiği varsayılır\n"
+
+#: src/msginit.c:436
+msgid ""
+"Found more than one .pot file.\n"
+"Please specify the input .pot file through the --input option.\n"
+msgstr ""
+"Birden fazla .pot dosyası bulundu.\n"
+"Lütfen girdi olarak kullanılacak .pot dosyasını --input seçeneği ile belirtin.\n"
+
+#: src/msginit.c:444 src/msginit.c:449
+msgid "error reading current directory"
+msgstr "dizin okunurken hata"
+
+#: src/msginit.c:457
+msgid ""
+"Found no .pot file in the current directory.\n"
+"Please specify the input .pot file through the --input option.\n"
+msgstr ""
+"Bulunduğunuz dizinde .pot dosyası yok.\n"
+"Lütfen girdi olarak kullanılacak .pot dosyasını --input seçeneği ile belirtin.\n"
+
+#: src/msginit.c:905 src/msginit.c:957 src/msginit.c:1100 src/msginit.c:1167
+#: src/read-java.c:71 src/read-tcl.c:107
+msgid "fdopen() failed"
+msgstr "fdopen() başarısız"
+
+#: src/msginit.c:910 src/msginit.c:962 src/msginit.c:1105
+#, c-format
+msgid "%s subprocess I/O error"
+msgstr "%s alt süreci G/Ç hatası"
+
+#: src/msginit.c:919 src/msginit.c:971 src/msginit.c:1114 src/msginit.c:1181
+#: src/read-java.c:81 src/read-tcl.c:123
+#, c-format
+msgid "%s subprocess failed with exit code %d"
+msgstr "%s alt süreci çıkış kodu %d ile başarısız"
+
+#: src/msginit.c:1090
+msgid ""
+"The new message catalog should contain your email address, so that users can\n"
+"give you feedback about the translations, and so that maintainers can contact\n"
+"you in case of unexpected technical problems.\n"
+msgstr ""
+"Kullanıcıların çevirileriniz hakkında geribesleme sağlayabilmesi ve\n"
+"uygulama yazarlarının bazı teknik sorunlarda sizinle yazışabilmesi için\n"
+"yeni ileti kataloğu e-posta adresinizi içermelidir.\n"
+
+#. TRANSLATORS: "English" needs to be replaced by your language.
+#. For example in it.po write "Traduzioni italiani ...",
+#. *not* "Traduzioni inglesi ...".
+#: src/msginit.c:1449
+#, c-format
+msgid "English translations for %s package"
+msgstr "%s paketi için Türkçe çeviriler"
+
+#: src/msgl-cat.c:175 src/msgl-charset.c:85 src/msgl-iconv.c:304
+#, c-format
+msgid "present charset \"%s\" is not a portable encoding name"
+msgstr "mevcut karakter kümesi \"%s\" kabul görmüş bir kodlama ismi değil"
+
+#: src/msgl-cat.c:184 src/msgl-iconv.c:315
+#, c-format
+msgid "two different charsets \"%s\" and \"%s\" in input file"
+msgstr "girdi dosyasında iki farklı karakter kümesi: \"%s\" ve \"%s\""
+
+#: src/msgl-cat.c:199
+#, c-format
+msgid "input file `%s' doesn't contain a header entry with a charset specification"
+msgstr "girdi dosyası `%s' başlığında bir karakter kümesi belirtilmemiş."
+
+#: src/msgl-cat.c:203
+#, c-format
+msgid "domain \"%s\" in input file `%s' doesn't contain a header entry with a charset specification"
+msgstr ""
+"\"%s\" paketi girdi dosyası `%s' başlığındaki charset alanında bir karakter\n"
+"kümesi belirtilmemiş"
+
+#: src/msgl-cat.c:380 src/msgl-iconv.c:392
+#, c-format
+msgid "target charset \"%s\" is not a portable encoding name."
+msgstr "hedef karakter kümesi \"%s\" kabul görmüş bir kodlama ismi değil."
+
+#: src/msgl-cat.c:430 src/msgl-cat.c:436 src/msgl-charset.c:90
+#: src/msgl-charset.c:125 src/write-po.c:837 src/write-po.c:903
+#: src/xgettext.c:1306
+msgid "warning: "
+msgstr "uyarı: "
+
+#: src/msgl-cat.c:431
+msgid ""
+"Input files contain messages in different encodings, UTF-8 among others.\n"
+"Converting the output to UTF-8.\n"
+msgstr ""
+"Girdi dosyası UTF-8 ile karışık farklı kodlamalar içeriyor.\n"
+"Çıktı UTF-8'e dönüştürülüyor.\n"
+
+#: src/msgl-cat.c:437
+#, c-format
+msgid ""
+"Input files contain messages in different encodings, %s and %s among others.\n"
+"Converting the output to UTF-8.\n"
+"To select a different output encoding, use the --to-code option.\n"
+msgstr ""
+"Girdi dosyasında hem %s hem de %s kodlaması kullanılmış.\n"
+"Çıktı UTF-8'e çevriliyor.\n"
+"--to-code seçeneğini kullanarak başka bir kodlama da seçebilirsiniz.\n"
+
+#: src/msgl-charset.c:91
+#, c-format
+msgid ""
+"Locale charset \"%s\" is different from\n"
+"input file charset \"%s\".\n"
+"Output of '%s' might be incorrect.\n"
+"Possible workarounds are:\n"
+msgstr ""
+"Yerelin karakter kümesi \"%s\",\n"
+"girdi dosyasının karakter kümesi \"%s\".\n"
+"'%s' çıktısı yanlış olabilir.\n"
+"Yapılabilecekler:\n"
+
+#: src/msgl-charset.c:98
+#, c-format
+msgid "- Set LC_ALL to a locale with encoding %s.\n"
+msgstr "- LC_ALL değişkenini %s kodlamasını kullanan bir yerele ayarlayın.\n"
+
+#: src/msgl-charset.c:103
+#, c-format
+msgid ""
+"- Convert the translation catalog to %s using 'msgconv',\n"
+"  then apply '%s',\n"
+"  then convert back to %s using 'msgconv'.\n"
+msgstr ""
+"- 'msgconv' kullanarak çeviri kataloğunu %s e dönüştürüp,\n"
+"  '%s' uyguladıktan sonra,\n"
+"  'msgconv' kullanarak tekrar %s a dönün.\n"
+
+#: src/msgl-charset.c:112
+#, c-format
+msgid ""
+"- Set LC_ALL to a locale with encoding %s,\n"
+"  convert the translation catalog to %s using 'msgconv',\n"
+"  then apply '%s',\n"
+"  then convert back to %s using 'msgconv'.\n"
+msgstr ""
+"- LC_ALL değişkenini %s kodlamasını kullanan bir yerele ayarlayın.\n"
+"  'msgconv' kullanarak çeviri kataloğunu %s e dönüştürüp,\n"
+"  '%s' uyguladıktan sonra,\n"
+"  'msgconv' kullanarak tekrar %s a dönün.\n"
+
+#: src/msgl-charset.c:126
+#, c-format
+msgid ""
+"Locale charset \"%s\" is not a portable encoding name.\n"
+"Output of '%s' might be incorrect.\n"
+"A possible workaround is to set LC_ALL=C.\n"
+msgstr ""
+"Yerelin karakter kümesi \"%s\" kabul görmüş bir kodlama ismi değil.\n"
+"'%s' çıktısı yanlış olabilir.\n"
+"Tek yapılabilecek LC_ALL=C ayarlamaktır.\n"
+
+#: src/msgl-iconv.c:186 src/msgl-iconv.c:244
+msgid "conversion failure"
+msgstr "dönüşüm başarısız"
+
+#: src/msgl-iconv.c:337
+msgid "input file doesn't contain a header entry with a charset specification"
+msgstr "girdi dosyasının başlığında bir karakter kümesi belirtilmemiş"
+
+#: src/msgl-iconv.c:355 src/xgettext.c:505
+#, c-format
+msgid "Cannot convert from \"%s\" to \"%s\". %s relies on iconv(), and iconv() does not support this conversion."
+msgstr ""
+"\"%s\" \"%s\" e dönüştürülemiyor. %s iconv()ye bağlı,\n"
+"ve iconv() bu dönüşümü desteklemiyor."
+
+#: src/msgl-iconv.c:372 src/xgettext.c:512
+#, c-format
+msgid "Cannot convert from \"%s\" to \"%s\". %s relies on iconv(). This version was built without iconv()."
+msgstr ""
+"\"%s\" \"%s\" e dönüştürülemiyor. %s iconv()ye bağlı.\n"
+"Bu sürüm iconv() olmaksızın kurgulanmış."
+
+#: src/msgmerge.c:373
+msgid "backup type"
+msgstr "yedekleme türü"
+
+#: src/msgmerge.c:408
+#, no-wrap
+msgid ""
+"Merges two Uniforum style .po files together.  The def.po file is an\n"
+"existing PO file with translations which will be taken over to the newly\n"
+"created file as long as they still match; comments will be preserved,\n"
+"but extracted comments and file positions will be discarded.  The ref.pot\n"
+"file is the last created PO file with up-to-date source references but\n"
+"old translations, or a PO Template file (generally created by xgettext);\n"
+"any translations or comments in the file will be discarded, however dot\n"
+"comments and file positions will be preserved.  Where an exact match\n"
+"cannot be found, fuzzy matching is used to produce better results.\n"
+msgstr ""
+"İki Uniforum biçemli .po dosyasını katıştırır. def.po dosyası, eski\n"
+"çevirilerin bulunduğu ve hala birçok bakımdan onunla eşleşen (yorumlar\n"
+"korunmuş, fakat çıkarma yorumları ve dosya konumları iptal edilmiş olan)\n"
+"yeni oluşturulmuş bir dosyaya çevirileri aktarılacak mevcut bir PO\n"
+"dosyasıdır. ref.pot dosyası ise tüm çevirileri ve yorumları iptal edilmiş\n"
+"ama nokta yorumları ve dosya konumları korunmuş olan son\n"
+"(genellikle xgettext tarafından) oluşturulan POT dosyasıdır.\n"
+"Daha iyi sonuçlar elde edebilmek için zorunlu eşleşmeler bulunamadığında\n"
+"belirsiz eşleşmeler kullanılmıştır.\n"
+
+#: src/msgmerge.c:425
+msgid "  def.po                      translations referring to old sources\n"
+msgstr "  def.po                      eski kaynaklara bağlı çeviriler\n"
+
+#: src/msgmerge.c:427
+msgid "  ref.pot                     references to new sources\n"
+msgstr "  ref.pot                     yeni kaynaklara bağlar\n"
+
+#: src/msgmerge.c:431
+msgid ""
+"  -C, --compendium=FILE       additional library of message translations,\n"
+"                              may be specified more than once\n"
+msgstr ""
+"  -C, --compendium=DOSYA      ileti çevirileri için ek veritabanı, birden\n"
+"                              fazla belirtilebilir\n"
+
+#: src/msgmerge.c:437
+msgid ""
+"  -U, --update                update def.po,\n"
+"                              do nothing if def.po already up to date\n"
+msgstr ""
+"  -U, --update                def.po dosyasını günceller,\n"
+"                              def.po zaten güncelse bir şey yapmaz\n"
+
+#: src/msgmerge.c:449
+msgid "Output file location in update mode:\n"
+msgstr "Güncelleme kipinde çıktı dosyasının yeri:\n"
+
+#: src/msgmerge.c:451
+msgid "The result is written back to def.po.\n"
+msgstr "Sonuç gerisin geri def.po'ya yazılır.\n"
+
+#: src/msgmerge.c:453
+msgid "      --backup=CONTROL        make a backup of def.po\n"
+msgstr "      --backup=KONTROL        def.po'nun yedeklemesini yapar\n"
+
+#: src/msgmerge.c:455
+msgid "      --suffix=SUFFIX         override the usual backup suffix\n"
+msgstr "      --suffix=SONEK          yedekleme sonek kullanarak yapılır\n"
+
+#: src/msgmerge.c:457
+msgid ""
+"The version control method may be selected via the --backup option or through\n"
+"the VERSION_CONTROL environment variable.  Here are the values:\n"
+"  none, off       never make backups (even if --backup is given)\n"
+"  numbered, t     make numbered backups\n"
+"  existing, nil   numbered if numbered backups exist, simple otherwise\n"
+"  simple, never   always make simple backups\n"
+msgstr ""
+"Sürüm kontrol yöntemi --backup seçeneği ile ya da VERSION_CONTROL ortam\n"
+"değişkeni ile belirtilebilir. Bu değerler:\n"
+"  none, off                   yedekleme yapılmaz (--backup verilse bile)\n"
+"  numbered, t                 numaralı yedekleme yapılır\n"
+"  existing, nil               numaralı yedekler varsa numaralı yoksa basit\n"
+"                              yedekleme yapılır\n"
+"  simple, never               daima basit yedekleme yapılır\n"
+
+#: src/msgmerge.c:464
+msgid ""
+"The backup suffix is `~', unless set with --suffix or the SIMPLE_BACKUP_SUFFIX\n"
+"environment variable.\n"
+msgstr ""
+"--suffix seçeneği ile ya da SIMPLE_BACKUP_SUFFIX ortam değişkeni ile\n"
+"belrtilmedikçe yedeklenen dosyanın soneki `~' dir.\n"
+
+#: src/msgmerge.c:473
+msgid "  -N, --no-fuzzy-matching     do not use fuzzy matching\n"
+msgstr "  -N, --no-fuzzy-matching     fuzzy eşleşmeler kullanılmaz\n"
+
+#: src/msgmerge.c:517
+msgid "  -q, --quiet, --silent       suppress progress indicators\n"
+msgstr "  -q, --quiet, --silent       işlemin ilerleyişi gösterilmez\n"
+
+#: src/msgmerge.c:1004
+msgid "this message should define plural forms"
+msgstr ".bu ileti çoğul biçem olmalıydı"
+
+#: src/msgmerge.c:1027
+msgid "this message should not define plural forms"
+msgstr "bu ileti çoğul biçem olmamalıydı"
+
+#: src/msgmerge.c:1193
+#, c-format
+msgid "%sRead %ld old + %ld reference, merged %ld, fuzzied %ld, missing %ld, obsolete %ld.\n"
+msgstr "%s%ld eski + %ld referans, %ld katışık, %ld fuzzy, %ld eksik, %ld artık kullanılmayan ileti okundu.\n"
+
+#: src/msgmerge.c:1201
+msgid " done.\n"
+msgstr " bitti.\n"
+
+#: src/msgunfmt.c:233 src/msgunfmt.c:242
+#, c-format
+msgid "%s and explicit file names are mutually exclusive"
+msgstr "%s ile diğer dosya isimleri bağdaşmıyor"
+
+#: src/msgunfmt.c:324
+#, c-format
+msgid "Usage: %s [OPTION] [FILE]...\n"
+msgstr "Kullanımı: %s [SEÇENEK] [DOSYA]...\n"
+
+#: src/msgunfmt.c:328
+msgid "Convert binary message catalog to Uniforum style .po file.\n"
+msgstr "İkilik ileti kataloğunu Uniforum tarzı .po dosyasına dönüştürür.\n"
+
+#: src/msgunfmt.c:337
+msgid "  -j, --java                  Java mode: input is a Java ResourceBundle class\n"
+msgstr "  -j, --java              Java kipi: girdi bir  Java ÖzkaynakPaketi sınıfıdır\n"
+
+#: src/msgunfmt.c:339
+msgid "      --tcl                   Tcl mode: input is a tcl/msgcat .msg file\n"
+msgstr "      --tcl               Tcl kipi: girdi bir tcl/msgcat .msg dosyasıdır\n"
+
+#: src/msgunfmt.c:344
+msgid "  FILE ...                    input .mo files\n"
+msgstr "  DOSYA ...                   girdi .mo dosyaları\n"
+
+#: src/msgunfmt.c:349
+msgid "Input file location in Java mode:\n"
+msgstr "Java kipinde girdi dosyasının yeri:\n"
+
+#: src/msgunfmt.c:355
+msgid ""
+"The class name is determined by appending the locale name to the resource name,\n"
+"separated with an underscore.  The class is located using the CLASSPATH.\n"
+msgstr ""
+"Sınıf ismi, özkaynak ismine yerel isminin bir altçizgi ile eklenmesiyle\n"
+"saptanır. Sınıf, CLASSPATH ortam değişkeni ile konumlanır.\n"
+
+#: src/msgunfmt.c:360
+msgid "Input file location in Tcl mode:\n"
+msgstr "Tcl kipinde girdi dosyasının yeri:\n"
+
+#: src/msgunfmt.c:366
+msgid ""
+"The -l and -d options are mandatory.  The .msg file is located in the\n"
+"specified directory.\n"
+msgstr "-l ve -d seçenekleri zorunludur. .msg dosyası belirtilen dizine yazılır.\n"
+
+#: src/msgunfmt.c:386
+msgid "  -i, --indent                write indented output style\n"
+msgstr "  -i, --indent                girintili çıktı tarzı kullanılır\n"
+
+#: src/msgunfmt.c:388
+msgid "      --strict                write strict uniforum style\n"
+msgstr "      --strict                bilinen biçemde yazılır\n"
+
+#: src/msguniq.c:294
+#, no-wrap
+msgid ""
+"Unifies duplicate translations in a translation catalog.\n"
+"Finds duplicate translations of the same message ID.  Such duplicates are\n"
+"invalid input for other programs like msgfmt, msgmerge or msgcat.  By\n"
+"default, duplicates are merged together.  When using the --repeated option,\n"
+"only duplicates are output, and all other messages are discarded.  Comments\n"
+"and extracted comments will be cumulated, except that if --use-first is\n"
+"specified, they will be taken from the first translation.  File positions\n"
+"will be cumulated.  When using the --unique option, duplicates are discarded.\n"
+msgstr ""
+"Bir çeviri kataloğundaki tekrarlanmış çevirileri teke indirir.\n"
+"Aynı ileti kimlikli tekrarlanmış çeviriler bulunur. Bunlar msgfmt, msgmerge\n"
+"ve msgcat gibi uygulamalar için geçersiz girdilerdir. Öntanımlı olarak,\n"
+"tekrarlananlar bir araya getirilir. --repeated seçeneği kullanılırsa, sadece\n"
+"tekrarlananlar çıktıya yazılır, diğer iletiler iptal edilir. --use first\n"
+"seçeneği belirtilmedikçe yorumlar ve çıkarma yorumları tutulur. Belirtilirse,\n"
+"onlar ilk çeviriden alınır. Dosya konumları korunur. --unique seçeneği\n"
+"kullanıldığında tekrarlananlar iptal edilir.\n"
+
+#: src/msguniq.c:327
+msgid "  -d, --repeated              print only duplicates\n"
+msgstr "  -d, --repeated              sadece yinelenenler yazılır\n"
+
+#: src/msguniq.c:329
+msgid "  -u, --unique                print only unique messages, discard duplicates\n"
+msgstr ""
+"  -u, --unique                sadece tek iletiler gösterilir,\n"
+"                              tekrarlananlar iptal edilir\n"
+
+#: src/open-po.c:55
+msgid "<stdin>"
+msgstr "<stdÇ>"
+
+#: src/po-charset.c:224 src/po-charset.c:294 src/po-charset.c:322
+#: src/po-charset.c:348
+#, c-format
+msgid "%s: warning: "
+msgstr "%s: uyarı: "
+
+#: src/po-charset.c:225
+#, c-format
+msgid ""
+"Charset \"%s\" is not a portable encoding name.\n"
+"Message conversion to user's charset might not work.\n"
+msgstr ""
+"\"%s\" karakter kümesi kabul görmüş bir isim değil.\n"
+"Kullanıcının karakter kümesine dönüşüm yapılamıyabilir.\n"
+
+#: src/po-charset.c:290 src/po-charset.c:320
+msgid "Continuing anyway, expect parse errors."
+msgstr "Çözümleme hatalarına rağmen devam ediliyor."
+
+#: src/po-charset.c:292
+msgid "Continuing anyway."
+msgstr "Yine de devam ediliyor."
+
+#: src/po-charset.c:295
+#, c-format
+msgid ""
+"Charset \"%s\" is not supported. %s relies on iconv(),\n"
+"and iconv() does not support \"%s\".\n"
+msgstr ""
+"\"%s\" karakter kümesi desteklenmiyor. %s iconv()ye bağlı.\n"
+"ve iconv() \"%s\" desteği vermiyor.\n"
+
+#: src/po-charset.c:304 src/po-charset.c:330
+msgid ""
+"Installing GNU libiconv and then reinstalling GNU gettext\n"
+"would fix this problem.\n"
+msgstr ""
+"GNU libiconv paketini kurduktan sonra GNU gettext paketini\n"
+"yeniden kurarak bu sorunun üstesinden gelmelisiniz.\n"
+
+#: src/po-charset.c:309 src/po-charset.c:334
+#, c-format
+msgid "%s\n"
+msgstr "%s\n"
+
+#: src/po-charset.c:323
+#, c-format
+msgid ""
+"Charset \"%s\" is not supported. %s relies on iconv().\n"
+"This version was built without iconv().\n"
+msgstr ""
+"\"%s\" karakter kümesi desteklenmiyor. %s iconv()ye bağlı.\n"
+"Bu sürüm iconv() olmaksızın kurgulanmış.\n"
+
+#: src/po-charset.c:349
+msgid ""
+"Charset missing in header.\n"
+"Message conversion to user's charset will not work.\n"
+msgstr ""
+"Başlıkta karakter kümesi yok.\n"
+"Kullanıcının karakter kümesinde ileti dönüşümü yapılamayacak.\n"
+
+#: src/po-gram-gen.y:94
+msgid "inconsistent use of #~"
+msgstr "#~ kullanımı aykırı"
+
+#: src/po-gram-gen.y:198
+msgid "missing `msgstr[]' section"
+msgstr "`msgstr[]' bölümü yok"
+
+#: src/po-gram-gen.y:206
+msgid "missing `msgid_plural' section"
+msgstr "`msgid_plural' bölümü yok"
+
+#: src/po-gram-gen.y:213
+msgid "missing `msgstr' section"
+msgstr "`msgstr' bölümü yok"
+
+#: src/po-gram-gen.y:258
+msgid "first plural form has nonzero index"
+msgstr "ilk çoğul biçemin indeksi sıfır değil"
+
+#: src/po-gram-gen.y:260
+msgid "plural form has wrong index"
+msgstr "çoğul biçemin indeksi hatalı"
+
+#: src/po-lex.h:86 src/po-lex.h:101 src/po-lex.h:121 src/po-lex.h:136
+#: src/po-lex.c:101 src/po-lex.c:130
+msgid "too many errors, aborting"
+msgstr "hatalar çok fazla, bunları düzeltince programı tekrar çalıştırın"
+
+#: src/po-lex.c:454 src/write-po.c:541 src/write-po.c:647
+msgid "invalid multibyte sequence"
+msgstr "çoklu bayt dizisi geçersiz"
+
+#: src/po-lex.c:480
+msgid "incomplete multibyte sequence at end of file"
+msgstr "dosya sonunda çoklu bayt dizisi tamamlanmadı"
+
+#: src/po-lex.c:490
+msgid "incomplete multibyte sequence at end of line"
+msgstr "satır sonunda çoklu bayt dizisi tamamlanmadı"
+
+#: src/po-lex.c:498
+msgid "iconv failure"
+msgstr "iconv başarısızlığı"
+
+#: src/po-lex.c:643 src/read-mo.c:79 src/x-awk.c:155 src/x-c.c:260
+#: src/x-elisp.c:142 src/x-glade.c:362 src/x-librep.c:144 src/x-lisp.c:204
+#: src/x-php.c:160 src/x-python.c:178 src/x-rst.c:225 src/x-smalltalk.c:106
+#: src/x-tcl.c:145 src/x-ycp.c:94
+#, c-format
+msgid "error while reading \"%s\""
+msgstr "\"%s\" okunurken hata"
+
+#: src/po-lex.c:707
+#, c-format
+msgid "keyword \"%s\" unknown"
+msgstr "anahtar-sözcük \"%s\" bilinmiyor"
+
+#: src/po-lex.c:817
+msgid "invalid control sequence"
+msgstr "denetim dizisi geçersiz"
+
+#: src/po-lex.c:925
+msgid "end-of-file within string"
+msgstr "dizge içinde dosya sonu"
+
+#: src/po-lex.c:931
+msgid "end-of-line within string"
+msgstr "dizge içinde satır sonu"
+
+#: src/read-mo.c:98 src/read-mo.c:119 src/read-mo.c:164 src/read-mo.c:190
+#, c-format
+msgid "file \"%s\" is truncated"
+msgstr "\"%s\" dosyası kırpılmış"
+
+#: src/read-mo.c:122
+#, c-format
+msgid "file \"%s\" contains a not NUL terminated string"
+msgstr "\"%s\" dosyası NUL sonlandırmalı olmayan bir dizge içeriyor"
+
+#: src/read-mo.c:157 src/read-mo.c:263
+#, c-format
+msgid "file \"%s\" is not in GNU .mo format"
+msgstr "\"%s\" dosyası bir GNU .mo dosyas değil"
+
+#: src/read-mo.c:170
+#, c-format
+msgid "file \"%s\" contains a not NUL terminated string, at %s"
+msgstr "\"%s\" dosyası %s. satırda NUL sonlandırmalı olmayan bir dizge içeriyor"
+
+#: src/read-po.c:318 src/xgettext.c:752
+msgid "this file may not contain domain directives"
+msgstr "bu dosya paket yönergelerini içermeyebilir"
+
+#: src/read-po.c:357
+msgid "duplicate message definition"
+msgstr "ileti iki defa tanımlanmış"
+
+#: src/read-po.c:358
+msgid "...this is the location of the first definition"
+msgstr "...bu ilk tanımlamanın konumu"
+
+#: src/urlget.c:144
+msgid "expected two arguments"
+msgstr "iki argüman gerekiyor"
+
+#: src/urlget.c:161
+#, c-format
+msgid "Usage: %s [OPTION] URL FILE\n"
+msgstr "Kullanımı: %s [SEÇENEK] URL DOSYA\n"
+
+#: src/urlget.c:166
+#, no-wrap
+msgid ""
+"Fetches and outputs the contents of an URL.  If the URL cannot be accessed,\n"
+"the locally accessible FILE is used instead.\n"
+msgstr ""
+"Bir URL'nin içeriğini alır ve çıktılar.  URL erişilebilir değilse,\n"
+"yerel DOSYA dosya kullanılır.\n"
+
+#: src/urlget.c:213
+msgid "error writing stdout"
+msgstr "standart çıktıya yazılırken hata"
+
+#: src/write-java.c:1055
+msgid "cannot find a temporary directory, try setting $TMPDIR"
+msgstr "geçici dizin bulunamadı, $TMPDIR ortam değişkeniyle belirtmeyi deneyin"
+
+#: src/write-java.c:1065
+#, c-format
+msgid "cannot create a temporary directory using template \"%s\""
+msgstr "\"%s\" şablonu kullanılarak bir geçici dizin oluşturulamaz"
+
+#: src/write-java.c:1078
+#, c-format
+msgid "not a valid Java class name: %s"
+msgstr "Geçerli bir Java sınıfı ismi değil: %s"
+
+#: src/write-java.c:1135 src/write-java.c:1148
+#, c-format
+msgid "failed to create \"%s\""
+msgstr "\"%s\" oluşturulamadı"
+
+#: src/write-java.c:1156 src/write-mo.c:705 src/write-po.c:1095
+#: src/write-tcl.c:201
+#, c-format
+msgid "error while writing \"%s\" file"
+msgstr "\"%s\" dosyasına yazarken hata"
+
+#: src/write-java.c:1170
+msgid "compilation of Java class failed, please try --verbose or set $JAVAC"
+msgstr ""
+"Java sınıfı derlenemedi, lütfen --verbose seçeneğini kullanın ya da\n"
+"$JAVAC ortam değişkenine uygun değeri atayın."
+
+#: src/write-mo.c:693 src/write-tcl.c:192
+#, c-format
+msgid "error while opening \"%s\" for writing"
+msgstr "\"%s\" yazılmak için açılırken hata"
+
+#: src/write-po.c:592
+#, c-format
+msgid "internationalized messages should not contain the `\\%c' escape sequence"
+msgstr "i18n iletileri `\\%c' öncelem dizilerini içeremez"
+
+#: src/write-po.c:838 src/write-po.c:904
+#, c-format
+msgid ""
+"The following msgid contains non-ASCII characters.\n"
+"This will cause problems to translators who use a character encoding\n"
+"different from yours. Consider using a pure ASCII msgid instead.\n"
+"%s\n"
+msgstr ""
+"Aşağıdaki msgid ASCII olmayan karakterler içeriyor.\n"
+"Sizinkinden farklı dil kodlaması kullanan çevirmenler için bu bir sorun\n"
+"olabilir. Salt ASCII msgid kullanmanız önerilir.\n"
+"%s\n"
+
+#: src/write-po.c:1042
+msgid "Cannot output multiple translation domains into a single file with Java .properties syntax. Try using PO file syntax instead."
+msgstr "Java .properties sözdizimi ile çok sayıda çeviri dosyası aynı dosyaya yazılamaz. PO dosyası sözdizimini kullanmayı deneyin."
+
+#: src/write-po.c:1066
+msgid "message catalog has plural form translations, but the output format does not support them. Try generating a Java class using \"msgfmt --java\", instead of a properties file."
+msgstr "ileti kataloğu çoğul biçemli çeviriler içeriyor ama çıktı biçemi bunları desteklemiyor. Bir Java sınıfını .properties dosyası yerine \"msgfmt --java\" kullanarak üretmeyi deneyin."
+
+#: src/write-po.c:1078
+#, c-format
+msgid "cannot create output file \"%s\""
+msgstr "\"%s\" çıktı dosyası oluşturulamıyor"
+
+#: src/write-po.c:1085
+#, no-c-format
+msgid "standard output"
+msgstr "standart çıktı"
+
+#: src/write-tcl.c:156
+msgid ""
+"message catalog has plural form translations\n"
+"but the Tcl message catalog format doesn't support plural handling\n"
+msgstr ""
+"ileti kataloğu çoğul çeviriler içermesine rağmen Tcl ileti kataloğu\n"
+"biçemi çoğul çevirileri desteklemiyor\n"
+
+#: src/x-awk.c:325 src/x-python.c:369
+#, c-format
+msgid "%s:%d: warning: unterminated string"
+msgstr "%s:%d: uyarı: sonlandırılmamış dizge"
+
+#: src/x-awk.c:569
+#, c-format
+msgid "%s:%d: warning: unterminated regular expression"
+msgstr "%s:%d: uyarı: sonlandırılmamış düzenli ifade"
+
+#: src/x-c.c:906
+#, c-format
+msgid "%s:%d: warning: unterminated character constant"
+msgstr "%s:%d: uyarı: sonlandırılmamış karakter sabiti"
+
+#: src/x-c.c:930
+#, c-format
+msgid "%s:%d: warning: unterminated string literal"
+msgstr "%s:%d: uyarı: sonlandırılmamış dizge sabiti"
+
+#: src/x-glade.c:369 src/x-glade.c:376
+#, c-format
+msgid "%s:%d:%d: %s"
+msgstr "%s:%d:%d: %s"
+
+#: src/x-glade.c:402
+#, c-format
+msgid ""
+"Language \"glade\" is not supported. %s relies on expat.\n"
+"This version was built without expat.\n"
+msgstr ""
+"\"glade\" dili desteklenmiyor. %s expat'a bağlı.\n"
+"Bu sürüm expat olmaksızın kurgulanmış.\n"
+
+#: src/x-python.c:569
+#, c-format
+msgid "%s:%d: warning: invalid Unicode character"
+msgstr "%s:%d: uyarı: Unicode karakter geçersiz"
+
+#: src/x-rst.c:106
+#, c-format
+msgid "%s:%d: invalid string definition"
+msgstr "%s:%d: dizge ataması geçersiz"
+
+#: src/x-rst.c:166
+#, c-format
+msgid "%s:%d: missing number after #"
+msgstr "%s:%d:  # dan sonra sayı yok"
+
+#: src/x-rst.c:201
+#, c-format
+msgid "%s:%d: invalid string expression"
+msgstr "%s:%d: dizge ifade geçersiz"
+
+#: src/xgettext.c:438
+msgid "--join-existing cannot be used when output is written to stdout"
+msgstr "standart çıktıya yazılırken --join-existing kullanılamaz"
+
+#: src/xgettext.c:443
+msgid "xgettext cannot work without keywords to look for"
+msgstr "xgettext anahtar sözcükler olmaksızın bulamaz"
+
+#: src/xgettext.c:570
+#, c-format
+msgid "warning: file `%s' extension `%s' is unknown; will try C"
+msgstr "uyarı: `%s' dosyası `%s' uzantısı bilinmiyor; C denenecek"
+
+#: src/xgettext.c:619
+msgid "Extract translatable strings from given input files.\n"
+msgstr "Belirtilen girdi dosyalarından çevrilebilir dizgeleri çıkartır.\n"
+
+#: src/xgettext.c:642
+msgid "  -d, --default-domain=NAME   use NAME.po for output (instead of messages.po)\n"
+msgstr "  -d, --default-domain=İSİM   çıktıda messages.po yerine İSİM.po kullanılır\n"
+
+#: src/xgettext.c:644
+msgid "  -o, --output=FILE           write output to specified file\n"
+msgstr "  -o, --output=DOSYA          çıktı belirtilen dosyaya yazılır\n"
+
+#: src/xgettext.c:646
+msgid "  -p, --output-dir=DIR        output files will be placed in directory DIR\n"
+msgstr "  -p, --output-dir=DİZİN      çıktı dosyaları DİZİNe yazılır\n"
+
+#: src/xgettext.c:651
+msgid "Choice of input file language:\n"
+msgstr "Girdi dosyası dilinin seçimi:\n"
+
+#: src/xgettext.c:653
+msgid ""
+"  -L, --language=NAME         recognise the specified language\n"
+"                                (C, C++, ObjectiveC, PO, Python, Lisp,\n"
+"                                EmacsLisp, librep, Smalltalk, Java,\n"
+"                                JavaProperties, awk, YCP, Tcl, PHP, RST, Glade)\n"
+msgstr ""
+"  -L, --language=İSİM         belirtilen dil tanınır:\n"
+"                              C, C++, ObjectiveC, PO, Python, Lisp, RST,\n"
+"                              EmacsLisp, librep, Smalltalk, Java, PHP, awk,\n"
+"                              JavaProperties,YCP, Tcl, Glade\n"
+
+#: src/xgettext.c:658
+msgid "  -C, --c++                   shorthand for --language=C++\n"
+msgstr "  -C, --c++                   --language=C++ ile aynı\n"
+
+#: src/xgettext.c:660
+msgid "By default the language is guessed depending on the input file name extension.\n"
+msgstr "Öntanımlı olarak dil, girdi dosyasının uzantısına bakarak saptanır.\n"
+
+#: src/xgettext.c:665
+msgid ""
+"      --from-code=NAME        encoding of input files\n"
+"                                (except for Python, Tcl, Glade)\n"
+msgstr ""
+"      --from-code=İSİM        girdi dosyası için yerel kodlaması\n"
+"                              (Python, Tcl, Glade dışında)\n"
+
+#: src/xgettext.c:668
+msgid "By default the input files are assumed to be in ASCII.\n"
+msgstr "Öntanımlı olarak, girdi dosyalarının yerel kodlaması ASCII kabul edilir.\n"
+
+#: src/xgettext.c:673
+msgid "  -j, --join-existing         join messages with existing file\n"
+msgstr "  -j, --join-existing         iletiler mevcut dosyaya bağlanır\n"
+
+#: src/xgettext.c:675
+msgid "  -x, --exclude-file=FILE.po  entries from FILE.po are not extracted\n"
+msgstr "  -x, --exclude-file=DOSYA.po girdiler DOSYA.po dosyasından elde edilir\n"
+
+#: src/xgettext.c:677
+msgid ""
+"  -c, --add-comments[=TAG]    place comment block with TAG (or those\n"
+"                              preceding keyword lines) in output file\n"
+msgstr "  -c, --add-comments[=ETİTET] ETİKETli yorum bloğunu çıktı dosyasına yazar\n"
+
+#: src/xgettext.c:681
+msgid "Language=C/C++ specific options:\n"
+msgstr "Language=C/C++ seçenekleri:\n"
+
+#: src/xgettext.c:683
+msgid "  -a, --extract-all           extract all strings\n"
+msgstr "  -a, --extract-all           tüm dizgeler çıkarılır\n"
+
+#: src/xgettext.c:685
+msgid ""
+"  -k, --keyword[=WORD]        additional keyword to be looked for (without\n"
+"                              WORD means not to use default keywords)\n"
+msgstr ""
+"  -k, --keyword[=SÖZCÜK]      aranan ek anahtar sözcük (SÖZCÜK için öntanımlı\n"
+"                              anahtar sözcükler kullanılmamalıdır)\n"
+
+#: src/xgettext.c:688
+msgid "  -T, --trigraphs             understand ANSI C trigraphs for input\n"
+msgstr "  -T, --trigraphs             ANSI C üçlü harfleri kabul edilir\n"
+
+#: src/xgettext.c:690
+msgid "      --debug                 more detailed formatstring recognition result\n"
+msgstr "      --debug                 biçemdizgesi tanıma sonuçları ayrıntılı olur\n"
+
+#: src/xgettext.c:709
+msgid "      --properties-output     write out a Java .properties file\n"
+msgstr "      --properties-output     çıktı bir Java .properties dosyasına yazılır\n"
+
+#: src/xgettext.c:722
+msgid "      --copyright-holder=STRING  set copyright holder in output\n"
+msgstr "      --copyright-holder=DİZGE    çıktı için telif hakkı bilgisi\n"
+
+#: src/xgettext.c:724
+msgid "      --foreign-user          omit FSF copyright in output for foreign user\n"
+msgstr ""
+"      --foreign-user          yabancı kullanıcılar için FSF telif hakkı\n"
+"                              çıktıda atlanır\n"
+
+#: src/xgettext.c:726
+msgid "      --msgid-bugs-address=EMAIL@ADDRESS  set report address for msgid bugs\n"
+msgstr ""
+"      --msgid-bugs-address=EPOSTA@ADRESİ\n"
+"                              msgid hatalarının bildirileceği adres\n"
+
+#: src/xgettext.c:728
+msgid "  -m, --msgstr-prefix[=STRING]  use STRING or \"\" as prefix for msgstr entries\n"
+msgstr ""
+"  -m, --msgstr-prefix[=DİZGE]  msgstr girdilerinde önek olarak \"\" yerine\n"
+"                               DİZGE kullanılır\n"
+
+#: src/xgettext.c:730
+msgid "  -M, --msgstr-suffix[=STRING]  use STRING or \"\" as suffix for msgstr entries\n"
+msgstr ""
+"  -M, --msgstr-suffix[=DİZGE]  msgstr girdilerinde sonek olarak \"\" yerine\n"
+"                               DİZGE kullanılır\n"
+
+#: src/xgettext.c:926
+msgid "standard input"
+msgstr "standart girdi"
+
+#: src/xgettext.c:1019
+#, c-format
+msgid ""
+"Non-ASCII string at %s%s.\n"
+"Please specify the source encoding through --from-code."
+msgstr ""
+"%s%s de ASCII olmayan dizge.\n"
+"Lütfen, kaynak kodlamasını --from-code seçeneği ile belirtiniz."
+
+#: src/xgettext.c:1074
+#, c-format
+msgid "%s%s: warning: "
+msgstr "%s%s: uyarı: "
+
+#: src/xgettext.c:1076
+msgid ""
+"Empty msgid.  It is reserved by GNU gettext:\n"
+"gettext(\"\") returns the header entry with\n"
+"meta information, not the empty string.\n"
+msgstr ""
+"Boş msgid, GNU gettext tarafından kullanılır:\n"
+"gettext(\"\") ile başlık girdilerindeki bilgileri\n"
+"döndürür. Boş dizge değildir.\n"
+
+#: src/xgettext.c:1307
+msgid ""
+"The option --msgid-bugs-address was not specified.\n"
+"If you are using a `Makevars' file, please specify\n"
+"the MSGID_BUGS_ADDRESS variable there; otherwise please\n"
+"specify an --msgid-bugs-address command line option.\n"
+msgstr ""
+"--msgid-bugs-address seçeneği belirtilmemiş.\n"
+"Bir `Makevars' dosyası kullanıyorsanız, burada\n"
+"MSGID_BUGS_ADDRESS değişkenini belirtin; ya da\n"
+"bir --msgid-bugs-address seçeneği kullanın.\n"
+
+#: src/xgettext.c:1479
+#, c-format
+msgid "language `%s' unknown"
+msgstr "dil `%s' bilinmiyor"
+
+#~ msgid "missing arguments"
+#~ msgstr "argümanlar eksik"
+
+#~ msgid ""
+#~ "Usage: %s [OPTION] [[TEXTDOMAIN] MSGID]\n"
+#~ "or:    %s [OPTION] -s [MSGID]...\n"
+#~ msgstr ""
+#~ "Kullanımı: %s [SEÇENEK] [[PAKET] MSGID]\n"
+#~ "ya da:     %s [SEÇENEK] -s [MSGID]...\n"
+
+#~ msgid "Display native language translation of a textual message.\n"
+#~ msgstr "Bir iletinin anadile çevirisini gösterir.\n"
+
+#~ msgid ""
+#~ "  -d, --domain=TEXTDOMAIN   retrieve translated messages from TEXTDOMAIN\n"
+#~ "  -e                        enable expansion of some escape sequences\n"
+#~ "  -E                        (ignored for compatibility)\n"
+#~ "  -h, --help                display this help and exit\n"
+#~ "  -n                        suppress trailing newline\n"
+#~ "  -V, --version             display version information and exit\n"
+#~ "  [TEXTDOMAIN] MSGID        retrieve translated message corresponding\n"
+#~ "                            to MSGID from TEXTDOMAIN\n"
+#~ msgstr ""
+#~ "  -d, --domain=PAKET    ileti çevirisini PAKET.mo dosyasından alır.\n"
+#~ "  -e                    önceleme dizilerinin kullanımını etkinleştirir\n"
+#~ "  -E                    (uyumluluk için yoksayıldı)\n"
+#~ "  -h, --help            bu yardım iletisini gösterir ve çıkar\n"
+#~ "  -n                    izleyen satır sonu karakterini yoksayar\n"
+#~ "  -V, --version         sürüm bilgilerini gösterir ve çıkar\n"
+#~ "  [PAKET] MSGID         PAKET.mo dosyasından MSGID ile ilişkili çeviriyi alır\n"
+
+#~ msgid ""
+#~ "If the TEXTDOMAIN parameter is not given, the domain is determined from the\n"
+#~ "environment variable TEXTDOMAIN.  If the message catalog is not found in the\n"
+#~ "regular directory, another location can be specified with the environment\n"
+#~ "variable TEXTDOMAINDIR.\n"
+#~ "When used with the -s option the program behaves like the `echo' command.\n"
+#~ "But it does not simply copy its arguments to stdout.  Instead those messages\n"
+#~ "found in the selected catalog are translated.\n"
+#~ "Standard search directory: %s\n"
+#~ msgstr ""
+#~ "PAKET parametresi verilmemişse .mo dosyasının adı TEXTDOMAIN çevre\n"
+#~ "değişkeninden saptanır. İleti kataloğu olması gereken dizinde değilse\n"
+#~ "bulunduğu dizin TEXTDOMAINDIR çevre değişkeni ile belirtilebilir.\n"
+#~ "Program -s seçeneği ile kullanıldığında `echo' komutu verilmiş gibi davranır.\n"
+#~ "Ancak iletiyi standart çıktıya basitçe kopyalamak yerine çevirisini verir.\n"
+#~ "Standart arama dizini: %s\n"
+
+#~ msgid ""
+#~ "Input file location:\n"
+#~ "  INPUTFILE                   input PO file\n"
+#~ "  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search\n"
+#~ "If no input file is given or if it is -, standard input is read.\n"
+#~ msgstr ""
+#~ "Girdi dosyası konumu:\n"
+#~ "  GİRDİDOSYASI                PO girdi dosyası\n"
+#~ "  -D, --directory=DİZİN       Girdi dosyalarının arama yoluna DİZİNi ekler\n"
+#~ "Girdi dosyası verilmemişse ya da yerine - verilmişse standart girdi okunur.\n"
+
+#~ msgid ""
+#~ "Output file location:\n"
+#~ "  -o, --output-file=FILE      write output to specified file\n"
+#~ "The results are written to standard output if no output file is specified\n"
+#~ "or if it is -.\n"
+#~ msgstr ""
+#~ "Çıktı dosyası konumu:\n"
+#~ "  -o, --output-file=DOSYA     Çıktıyı DOSYAya yazar\n"
+#~ "Çıktı dosyası verilmemişse ya da yerine - verilmişse sonuçlar standart\n"
+#~ "çıktıya yazılır.\n"
+
+#~ msgid ""
+#~ "Message selection:\n"
+#~ "      --translated            keep translated, remove untranslated messages\n"
+#~ "      --untranslated          keep untranslated, remove translated messages\n"
+#~ "      --no-fuzzy              remove 'fuzzy' marked messages\n"
+#~ "      --only-fuzzy            keep 'fuzzy' marked messages\n"
+#~ "      --no-obsolete           remove obsolete #~ messages\n"
+#~ "      --only-obsolete         keep obsolete #~ messages\n"
+#~ msgstr ""
+#~ "İleti seçimi:\n"
+#~ "      --translated            çevrilenler tutulur, çevrilmeyenler silinir.\n"
+#~ "      --untranslated          çevrilmeyenler tutulur, çevrilenler silinir.\n"
+#~ "      --no-fuzzy              'fuzzy' imli iletiler silinir.\n"
+#~ "      --only-fuzzy            'fuzzy' imli iletiler tutulur.\n"
+#~ "      --no-obsolete           eski #~ iletileri silinir.\n"
+#~ "      --only-obsolete         eski #~ iletileri tutulur.\n"
+
+#~ msgid ""
+#~ "Attribute manipulation:\n"
+#~ "      --set-fuzzy             set all messages 'fuzzy'\n"
+#~ "      --clear-fuzzy           set all messages non-'fuzzy'\n"
+#~ "      --set-obsolete          set all messages obsolete\n"
+#~ "      --clear-obsolete        set all messages non-obsolete\n"
+#~ "      --fuzzy                 synonym for --only-fuzzy --clear-fuzzy\n"
+#~ "      --obsolete              synonym for --only-obsolete --clear-obsolete\n"
+#~ msgstr ""
+#~ "Özellik uygulaması:\n"
+#~ "      --set-fuzzy             tüm iletilere 'fuzzy' uygular\n"
+#~ "      --clear-fuzzy           tüm fuzzy imlilerden 'fuzzy' imini kaldırır\n"
+#~ "      --set-obsolete          tüm iletileri eski olarak imler\n"
+#~ "      --clear-obsolete        tüm eski imli iletilerden eski imini kaldırır\n"
+#~ "      --fuzzy                 --only-fuzzy --clear-fuzzy için kısaltma\n"
+#~ "      --obsolete              --only-obsolete --clear-obsolete için kısaltma\n"
+
+#~ msgid ""
+#~ "Output details:\n"
+#~ "  -e, --no-escape             do not use C escapes in output (default)\n"
+#~ "  -E, --escape                use C escapes in output, no extended chars\n"
+#~ "      --force-po              write PO file even if empty\n"
+#~ "  -i, --indent                write the .po file using indented style\n"
+#~ "      --no-location           do not write '#: filename:line' lines\n"
+#~ "  -n, --add-location          generate '#: filename:line' lines (default)\n"
+#~ "      --strict                write out strict Uniforum conforming .po file\n"
+#~ "  -w, --width=NUMBER          set output page width\n"
+#~ "      --no-wrap               do not break long message lines, longer than\n"
+#~ "                              the output page width, into several lines\n"
+#~ "  -s, --sort-output           generate sorted output\n"
+#~ "  -F, --sort-by-file          sort output by file location\n"
+#~ msgstr ""
+#~ "Çıktı ayrıntıları:\n"
+#~ "  -e, --no-escape             C öncelemleri çıktıda kullanılmaz (öntanımlı)\n"
+#~ "  -E, --escape                C öncelemleri çıktıda kullanılır\n"
+#~ "      --force-po              boş olsa bile PO dosyasını yazar\n"
+#~ "  -i, --indent                satırbaşı girintili çıktı biçemi\n"
+#~ "      --no-location           '#: dosyaismi:satır' başlıkları yazılmaz\n"
+#~ "      --add-location          '#: dosyaismi:satır' başlıkları yazılır\n"
+#~ "                              (öntanımlı)\n"
+#~ "      --strict                Uniforum kipini etkinleştirir\n"
+#~ "  -w, --width=SAYI            sayfa genişliği SAYIya ayarlanır\n"
+#~ "      --no-wrap               sayfa genişliğine sığmayan satırların taşan\n"
+#~ "                              kısmı bir alt satıra indirilmez\n"
+#~ "  -s, --sort-output           çıktıyı sıralı üretir\n"
+#~ "  -F, --sort-by-file          çıktıyı dosya konumuna göre sıralar\n"
+
+#~ msgid ""
+#~ "Input file location:\n"
+#~ "  INPUTFILE ...                  input files\n"
+#~ "  -f, --files-from=FILE          get list of input files from FILE\n"
+#~ "  -D, --directory=DIRECTORY      add DIRECTORY to list for input files search\n"
+#~ "If input file is -, standard input is read.\n"
+#~ msgstr ""
+#~ "Girdi dosyası konumu:\n"
+#~ "  GİRDİDOSYASI ...            girdi dosyaları\n"
+#~ "  -f, --files-from=DOSYA      girdi dosyalarının listesi DOSYAdan alınır\n"
+#~ "  -D, --directory=DİZİN       girdi dosyalarının arama yoluna DİZİN eklenir\n"
+#~ "Girdi dosyası - ise standart girdi okunur.\n"
+
+#~ msgid ""
+#~ "Output file location:\n"
+#~ "  -o, --output-file=FILE         write output to specified file\n"
+#~ "The results are written to standard output if no output file is specified\n"
+#~ "or if it is -.\n"
+#~ msgstr ""
+#~ "Çıktı dosyası konumu:\n"
+#~ "  -o, --output-file=DOSYA     çıktı DOSYAya yazılır\n"
+#~ "Çıktı dosyası verilmezse ya da - verilirse sonuçlar standart çıktıya yazılır.\n"
+
+#~ msgid ""
+#~ "Message selection:\n"
+#~ "  -<, --less-than=NUMBER         print messages with less than this many\n"
+#~ "                                 definitions, defaults to infinite if not\n"
+#~ "                                 set\n"
+#~ "  ->, --more-than=NUMBER         print messages with more than this many\n"
+#~ "                                 definitions, defaults to 0 if not set\n"
+#~ "  -u, --unique                   shorthand for --less-than=2, requests\n"
+#~ "                                 that only unique messages be printed\n"
+#~ msgstr ""
+#~ "İleti seçimi:\n"
+#~ "  -<, --less-than=SAYI        çok sayıda tanımlanmış iletiler arasında\n"
+#~ "                              SAYI dan az tanımlanmış iletileri gösterir,\n"
+#~ "                              belirtilmezse öntanımlı değer sonsuz kullanılır\n"
+#~ "  ->, --more-than=SAYI        çok sayıda tanımlanmış iletiler arasında\n"
+#~ "                              SAYI dan fazla tanımlanmış iletileri gösterir,\n"
+#~ "                              belirtilmezse öntanımlı değer 1 kullanılır\n"
+#~ "  -u, --unique                --less-than=2 için kısaltma, sadece tek olan\n"
+#~ "                              iletiler gösterilir\n"
+
+#~ msgid ""
+#~ "Output details:\n"
+#~ "  -t, --to-code=NAME             encoding for output\n"
+#~ "      --use-first                use first available translation for each\n"
+#~ "                                 message, don't merge several translations\n"
+#~ "  -e, --no-escape                do not use C escapes in output (default)\n"
+#~ "  -E, --escape                   use C escapes in output, no extended chars\n"
+#~ "      --force-po                 write PO file even if empty\n"
+#~ "  -i, --indent                   write the .po file using indented style\n"
+#~ "      --no-location              do not write '#: filename:line' lines\n"
+#~ "  -n, --add-location             generate '#: filename:line' lines (default)\n"
+#~ "      --strict                   write out strict Uniforum conforming .po file\n"
+#~ "  -w, --width=NUMBER             set output page width\n"
+#~ "      --no-wrap                  do not break long message lines, longer than\n"
+#~ "                                 the output page width, into several lines\n"
+#~ "  -s, --sort-output              generate sorted output\n"
+#~ "  -F, --sort-by-file             sort output by file location\n"
+#~ msgstr ""
+#~ "Çıktı ayrıntıları:\n"
+#~ "  -t, --to-code=İSİM          çıktı için kodlama belirtilir\n"
+#~ "      --use-first             çok sayıda çeviri arasından sadece ilk çeviriyi\n"
+#~ "                              kullanır\n"
+#~ "  -e, --no-escape             C öncelemleri çıktıda kullanılmaz (öntanımlı)\n"
+#~ "  -E, --escape                C öncelemleri çıktıda kullanılır\n"
+#~ "      --force-po              boş olsa bile PO dosyasını yazar\n"
+#~ "  -i, --indent                satırbaşı girintili çıktı biçemi\n"
+#~ "      --no-location           '#: dosyaismi:satır' başlıkları yazılmaz\n"
+#~ "      --add-location          '#: dosyaismi:satır' başlıkları yazılır\n"
+#~ "                              (öntanımlı)\n"
+#~ "      --strict                Uniforum kipini etkinleştirir\n"
+#~ "  -w, --width=SAYI            sayfa genişliği SAYIya ayarlanır\n"
+#~ "      --no-wrap               sayfa genişliğine sığmayan satırların taşan\n"
+#~ "                              kısmı bir alt satıra indirilmez\n"
+#~ "  -s, --sort-output           çıktıyı sıralı üretir\n"
+#~ "  -F, --sort-by-file          çıktıyı dosya konumuna göre sıralar\n"
+
+#~ msgid ""
+#~ "Informative output:\n"
+#~ "  -h, --help                     display this help and exit\n"
+#~ "  -V, --version                  output version information and exit\n"
+#~ msgstr ""
+#~ "Bilgilendirme seçenekleri:\n"
+#~ "  -h, --help                  Bu yardımı gösterir ve çıkar\n"
+#~ "  -V, --version               Sürüm bilgilerini gösterir ve çıkar\n"
+
+#~ msgid ""
+#~ "Input file location:\n"
+#~ "  def.po                      translations\n"
+#~ "  ref.pot                     references to the sources\n"
+#~ "  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search\n"
+#~ msgstr ""
+#~ "Girdi dosyası konumu:\n"
+#~ "  def.po                      çevirilerin bulunduğu dosya\n"
+#~ "  ref.pot                     çeviri dosyasına eklenecek girdilerin bulunduğu\n"
+#~ "                              dosya\n"
+#~ "  -D, --directory=DİZİN       girdi dosyaları arama yoluna eklenecek DİZİN\n"
+
+#~ msgid ""
+#~ "Message selection:\n"
+#~ "  -<, --less-than=NUMBER         print messages with less than this many\n"
+#~ "                                 definitions, defaults to infinite if not\n"
+#~ "                                 set\n"
+#~ "  ->, --more-than=NUMBER         print messages with more than this many\n"
+#~ "                                 definitions, defaults to 1 if not set\n"
+#~ "  -u, --unique                   shorthand for --less-than=2, requests\n"
+#~ "                                 that only unique messages be printed\n"
+#~ msgstr ""
+#~ "İleti seçimi:\n"
+#~ "  -<, --less-than=SAYI        çok sayıda tanımlanmış iletiler arasında\n"
+#~ "                              SAYI dan az tanımlanmış iletileri gösterir,\n"
+#~ "                              belirtilmezse öntanımlı değer sonsuz kullanılır\n"
+#~ "  ->, --more-than=SAYI        çok sayıda tanımlanmış iletiler arasında\n"
+#~ "                              SAYI dan fazla tanımlanmış iletileri gösterir,\n"
+#~ "                              belirtilmezse öntanımlı değer 1 kullanılır\n"
+#~ "  -u, --unique                --less-than=2 için kısaltma, sadece tek olan\n"
+#~ "                              iletiler gösterilir\n"
+
+#~ msgid ""
+#~ "Output details:\n"
+#~ "  -e, --no-escape                do not use C escapes in output (default)\n"
+#~ "  -E, --escape                   use C escapes in output, no extended chars\n"
+#~ "      --force-po                 write PO file even if empty\n"
+#~ "  -i, --indent                   write the .po file using indented style\n"
+#~ "      --no-location              do not write '#: filename:line' lines\n"
+#~ "  -n, --add-location             generate '#: filename:line' lines (default)\n"
+#~ "      --strict                   write out strict Uniforum conforming .po file\n"
+#~ "  -w, --width=NUMBER             set output page width\n"
+#~ "      --no-wrap                  do not break long message lines, longer than\n"
+#~ "                                 the output page width, into several lines\n"
+#~ "  -s, --sort-output              generate sorted output\n"
+#~ "  -F, --sort-by-file             sort output by file location\n"
+#~ "      --omit-header              don't write header with `msgid \"\"' entry\n"
+#~ msgstr ""
+#~ "Çıktı ayrıntıları:\n"
+#~ "  -e, --no-escape             C öncelemleri çıktıda kullanılmaz (öntanımlı)\n"
+#~ "  -E, --escape                C öncelemleri çıktıda kullanılır\n"
+#~ "      --force-po              boş olsa bile PO dosyasını yazar\n"
+#~ "  -i, --indent                satırbaşı girintili çıktı biçemi\n"
+#~ "      --no-location           '#: dosyaismi:satır' başlıkları yazılmaz\n"
+#~ "      --add-location          '#: dosyaismi:satır' başlıkları yazılır\n"
+#~ "                              (öntanımlı)\n"
+#~ "      --strict                Uniforum kipini etkinleştirir\n"
+#~ "  -w, --width=SAYI            sayfa genişliği SAYIya ayarlanır\n"
+#~ "      --no-wrap               sayfa genişliğine sığmayan satırların taşan\n"
+#~ "                              kısmı bir alt satıra indirilmez\n"
+#~ "  -s, --sort-output           çıktıyı sıralı üretir\n"
+#~ "  -F, --sort-by-file          çıktıyı dosya konumuna göre sıralar\n"
+#~ "      --omit-header           `msgid \"\"' şeklindeki başlığı yazmaz\n"
+
+#~ msgid ""
+#~ "Output details:\n"
+#~ "  -e, --no-escape             do not use C escapes in output (default)\n"
+#~ "  -E, --escape                use C escapes in output, no extended chars\n"
+#~ "      --force-po              write PO file even if empty\n"
+#~ "  -i, --indent                indented output style\n"
+#~ "      --no-location           suppress '#: filename:line' lines\n"
+#~ "      --add-location          preserve '#: filename:line' lines (default)\n"
+#~ "      --strict                strict Uniforum output style\n"
+#~ "  -w, --width=NUMBER          set output page width\n"
+#~ "      --no-wrap               do not break long message lines, longer than\n"
+#~ "                              the output page width, into several lines\n"
+#~ "  -s, --sort-output           generate sorted output\n"
+#~ "  -F, --sort-by-file          sort output by file location\n"
+#~ msgstr ""
+#~ "Çıktı ayrıntıları:\n"
+#~ "  -e, --no-escape             C öncelemleri çıktıda kullanılmaz (öntanımlı)\n"
+#~ "  -E, --escape                C öncelemleri çıktıda kullanılır\n"
+#~ "      --force-po              boş olsa bile PO dosyasını yazar\n"
+#~ "  -i, --indent                satırbaşı girintili çıktı biçemi\n"
+#~ "      --no-location           '#: dosyaismi:satır' başlıkları yazılmaz\n"
+#~ "      --add-location          '#: dosyaismi:satır' başlıkları yazılır\n"
+#~ "                              (öntanımlı)\n"
+#~ "      --strict                Uniforum kipini etkinleştirir\n"
+#~ "  -w, --width=SAYI            sayfa genişliği SAYIya ayarlanır\n"
+#~ "      --no-wrap               sayfa genişliğine sığmayan satırların taşan\n"
+#~ "                              kısmı bir alt satıra indirilmez\n"
+#~ "  -s, --sort-output           çıktıyı sıralı üretir\n"
+#~ "  -F, --sort-by-file          çıktıyı dosya konumuna göre sıralar\n"
+
+#~ msgid ""
+#~ "Input file location:\n"
+#~ "  INPUTFILE                   input PO or POT file\n"
+#~ "  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search\n"
+#~ "If input file is -, standard input is read.\n"
+#~ msgstr ""
+#~ "Girdi dosyası konumu:\n"
+#~ "  GİRDİDOSYASI                PO ya da POT girdi dosyası\n"
+#~ "  -D, --directory=DİZİN       Girdi dosyalarının arama yoluna DİZİNi ekler\n"
+#~ "Girdi dosyası verilmemişse ya da yerine - verilmişse standart girdi okunur.\n"
+
+#~ msgid ""
+#~ "Input file location:\n"
+#~ "  -i, --input=INPUTFILE       input PO file\n"
+#~ "  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search\n"
+#~ "If no input file is given or if it is -, standard input is read.\n"
+#~ msgstr ""
+#~ "Girdi dosyası konumu:\n"
+#~ "  -i, --input=GİRDİDOSYASI    PO girdi dosyası\n"
+#~ "  -D, --directory=DİZİN       Girdi dosyalarının arama yoluna DİZİNi ekler\n"
+#~ "Girdi dosyası verilmemişse ya da yerine - verilmişse standart girdi okunur.\n"
+
+#~ msgid ""
+#~ "Useful FILTER-OPTIONs when the FILTER is 'sed':\n"
+#~ "  -e, --expression=SCRIPT     add SCRIPT to the commands to be executed\n"
+#~ "  -f, --file=SCRIPTFILE       add the contents of SCRIPTFILE to the commands\n"
+#~ "                                to be executed\n"
+#~ "  -n, --quiet, --silent       suppress automatic printing of pattern space\n"
+#~ msgstr ""
+#~ "SÜZGEÇ olarak 'sed' kullanıldığında faydalı SÜZGEÇ-SEÇENEKLERİ:\n"
+#~ "  -e, --expression=BETİK      çalıştırılacak komutlara BETİĞi ekler\n"
+#~ "  -f, --file=BETİKDOSYASI     çalıştırılacak komutlara BETİKDOSYASInın\n"
+#~ "                              içeriğini ekler\n"
+#~ "  -n, --quiet, --silent       standart çıktı iletilerini engeller\n"
+
+#~ msgid ""
+#~ "Output details:\n"
+#~ "      --no-escape             do not use C escapes in output (default)\n"
+#~ "  -E, --escape                use C escapes in output, no extended chars\n"
+#~ "      --force-po              write PO file even if empty\n"
+#~ "      --indent                indented output style\n"
+#~ "      --keep-header           keep header entry unmodified, don't filter it\n"
+#~ "      --no-location           suppress '#: filename:line' lines\n"
+#~ "      --add-location          preserve '#: filename:line' lines (default)\n"
+#~ "      --strict                strict Uniforum output style\n"
+#~ "  -w, --width=NUMBER          set output page width\n"
+#~ "      --no-wrap               do not break long message lines, longer than\n"
+#~ "                              the output page width, into several lines\n"
+#~ "  -s, --sort-output           generate sorted output\n"
+#~ "  -F, --sort-by-file          sort output by file location\n"
+#~ msgstr ""
+#~ "Çıktı ayrıntıları:\n"
+#~ "  -e, --no-escape             C öncelemleri çıktıda kullanılmaz (öntanımlı)\n"
+#~ "  -E, --escape                C öncelemleri çıktıda kullanılır\n"
+#~ "      --force-po              boş olsa bile PO dosyasını yazar\n"
+#~ "  -i, --indent                satırbaşı girintili çıktı biçemi\n"
+#~ "      --keep-header           başlık değiştirilmez, süzülmez\n"
+#~ "      --no-location           '#: dosyaismi:satır' başlıkları yazılmaz\n"
+#~ "      --add-location          '#: dosyaismi:satır' başlıkları yazılır\n"
+#~ "                              (öntanımlı)\n"
+#~ "      --strict                Uniforum kipini etkinleştirir\n"
+#~ "  -w, --width=SAYI            sayfa genişliği SAYIya ayarlanır\n"
+#~ "      --no-wrap               sayfa genişliğine sığmayan satırların taşan\n"
+#~ "                              kısmı bir alt satıra indirilmez\n"
+#~ "  -s, --sort-output           çıktıyı sıralı üretir\n"
+#~ "  -F, --sort-by-file          çıktıyı dosya konumuna göre sıralar\n"
+
+#~ msgid ""
+#~ "Input file location:\n"
+#~ "  filename.po ...             input files\n"
+#~ "  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search\n"
+#~ "If input file is -, standard input is read.\n"
+#~ msgstr ""
+#~ "Girdi dosyası konumu:\n"
+#~ "  dosyaismi.po ...            girdi dosyası\n"
+#~ "  -D, --directory=DİZİN       Girdi dosyalarının arama yoluna DİZİNi ekler\n"
+#~ "Girdi dosyası verilmemişse ya da yerine - verilmişse standart girdi okunur.\n"
+
+#~ msgid ""
+#~ "Operation mode:\n"
+#~ "  -j, --java                  Java mode: generate a Java ResourceBundle class\n"
+#~ "      --java2                 like --java, and assume Java2 (JDK 1.2 or higher)\n"
+#~ "      --tcl                   Tcl mode: generate a tcl/msgcat .msg file\n"
+#~ msgstr ""
+#~ "İşlem kipi:\n"
+#~ "  -j, --java              Java kipi: bir Java ÖzkaynakPaketi sınıfı üretir\n"
+#~ "      --java2             --java gibi, ama Java2 (JDK 1.2 ve üstü) kabul eder\n"
+#~ "      --tcl               Tcl kipi: bir tcl/msgcat .msg dosyası üretir\n"
+
+#~ msgid ""
+#~ "Output file location:\n"
+#~ "  -o, --output-file=FILE      write output to specified file\n"
+#~ "      --strict                enable strict Uniforum mode\n"
+#~ "If output file is -, output is written to standard output.\n"
+#~ msgstr ""
+#~ "Çıktı dosyası konumu:\n"
+#~ "  -o, --output-file=DOSYA     çıktı DOSYAya yazılır\n"
+#~ "      --strict                Uniforum kipini etkinleştirir\n"
+#~ "Çıktı dosyası verilmemişse ya da yerine - verilmişse standart çıktıya yazılır.\n"
+
+#~ msgid ""
+#~ "Output file location in Tcl mode:\n"
+#~ "  -l, --locale=LOCALE         locale name, either language or language_COUNTRY\n"
+#~ "  -d DIRECTORY                base directory of .msg message catalogs\n"
+#~ "The -l and -d options are mandatory.  The .msg file is written in the\n"
+#~ "specified directory.\n"
+#~ msgstr ""
+#~ "Tcl kipinde çıktı dosyası konumu:\n"
+#~ "  -l, --locale=YEREL          YEREL ismi, dil ya da dil_ÜLKE\n"
+#~ "  -d DİZİN                    .msg ileti kataloglarının ana dizini\n"
+#~ ".msg dosyası DİZİNde olacağından -l ve -d seçenekleri zorunludur.\n"
+
+#~ msgid ""
+#~ "Input file interpretation:\n"
+#~ "  -c, --check                 perform all the checks implied by\n"
+#~ "                                --check-format, --check-header, --check-domain\n"
+#~ "      --check-format          check language dependent format strings\n"
+#~ "      --check-header          verify presence and contents of the header entry\n"
+#~ "      --check-domain          check for conflicts between domain directives\n"
+#~ "                                and the --output-file option\n"
+#~ "  -C, --check-compatibility   check that GNU msgfmt behaves like X/Open msgfmt\n"
+#~ "      --check-accelerators[=CHAR]  check presence of keyboard accelerators for\n"
+#~ "                                menu items\n"
+#~ "  -f, --use-fuzzy             use fuzzy entries in output\n"
+#~ msgstr ""
+#~ "Girdi dosyası yorumlama:\n"
+#~ "  -c, --check                 tüm denetimleri uygular:\n"
+#~ "                              --check-format, --check-header, --check-domain\n"
+#~ "      --check-format          dile bağımlı biçem dizgelerini denetler\n"
+#~ "      --check-header          başlık girdilerinin içeriğini ve uygunluğunu\n"
+#~ "                              denetler\n"
+#~ "      --check-domain          paket yönergeleri ile --output-file seçeneği\n"
+#~ "                              arasındaki çelişkileri denetler\n"
+#~ "  -C, --check-compatibility   GNU msgfmt'ın X/Open msgfmt gibi davranmasını\n"
+#~ "                              denetler\n"
+#~ "      --check-accelerators[=HARF]  menu öğelerindeki tuş kısayollarını\n"
+#~ "                                   denetler\n"
+#~ "  -f, --use-fuzzy             çıktıda fuzzy girdileri kullanır\n"
+
+#~ msgid ""
+#~ "Informative output:\n"
+#~ "  -h, --help                  display this help and exit\n"
+#~ "  -V, --version               output version information and exit\n"
+#~ "      --statistics            print statistics about translations\n"
+#~ "  -v, --verbose               increase verbosity level\n"
+#~ msgstr ""
+#~ "Bilgilendirme seçenekleri:\n"
+#~ "  -h, --help                  Bu yardımı gösterir ve çıkar\n"
+#~ "  -V, --version               Sürüm bilgilerini gösterir ve çıkar\n"
+#~ "      --statistics            çeviri istatistiklerini gösterir\n"
+#~ "  -v, --verbose               sonuçlar daha ayrıntılı verilir\n"
+
+#~ msgid ""
+#~ "Output details:\n"
+#~ "      --no-escape             do not use C escapes in output (default)\n"
+#~ "      --escape                use C escapes in output, no extended chars\n"
+#~ "      --force-po              write PO file even if empty\n"
+#~ "      --indent                indented output style\n"
+#~ "      --no-location           suppress '#: filename:line' lines\n"
+#~ "      --add-location          preserve '#: filename:line' lines (default)\n"
+#~ "      --strict                strict Uniforum output style\n"
+#~ "  -w, --width=NUMBER          set output page width\n"
+#~ "      --no-wrap               do not break long message lines, longer than\n"
+#~ "                              the output page width, into several lines\n"
+#~ "      --sort-output           generate sorted output\n"
+#~ "      --sort-by-file          sort output by file location\n"
+#~ msgstr ""
+#~ "Çıktı ayrıntıları:\n"
+#~ "  -e, --no-escape             C öncelemleri çıktıda kullanılmaz (öntanımlı)\n"
+#~ "  -E, --escape                C öncelemleri çıktıda kullanılır\n"
+#~ "      --force-po              boş olsa bile PO dosyasını yazar\n"
+#~ "  -i, --indent                satırbaşı girintili çıktı biçemi\n"
+#~ "      --no-location           '#: dosyaismi:satır' başlıkları yazılmaz\n"
+#~ "      --add-location          '#: dosyaismi:satır' başlıkları yazılır\n"
+#~ "                              (öntanımlı)\n"
+#~ "      --strict                Uniforum kipini etkinleştirir\n"
+#~ "  -w, --width=SAYI            sayfa genişliği SAYIya ayarlanır\n"
+#~ "      --no-wrap               sayfa genişliğine sığmayan satırların taşan\n"
+#~ "                              kısmı bir alt satıra indirilmez\n"
+#~ "  -s, --sort-output           çıktıyı sıralı üretir\n"
+#~ "  -F, --sort-by-file          çıktıyı dosya konumuna göre sıralar\n"
+
+#~ msgid ""
+#~ "Input file location:\n"
+#~ "  def.po                      translations referring to old sources\n"
+#~ "  ref.pot                     references to new sources\n"
+#~ "  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search\n"
+#~ "  -C, --compendium=FILE       additional library of message translations,\n"
+#~ "                              may be specified more than once\n"
+#~ msgstr ""
+#~ "Girdi dosyası konumu:\n"
+#~ "  def.po                      eski çevirilerin dosyası\n"
+#~ "  ref.pot                     yeni iletileri de içeren dosya\n"
+#~ "  -D, --directory=DİZİN       girdi dosyalarının arama yoluna eklenecek DİZİN\n"
+#~ "  -C, --compendium=DOSYA      ileti çevirilerinin birden fazlasını içerebilen\n"
+#~ "                              ek veritabanı\n"
+
+#~ msgid ""
+#~ "Informative output:\n"
+#~ "  -h, --help                  display this help and exit\n"
+#~ "  -V, --version               output version information and exit\n"
+#~ "  -v, --verbose               increase verbosity level\n"
+#~ "  -q, --quiet, --silent       suppress progress indicators\n"
+#~ msgstr ""
+#~ "Bilgilendirme seçenekleri:\n"
+#~ "  -h, --help                  Bu yardımı gösterir ve çıkar\n"
+#~ "  -V, --version               Sürüm bilgilerini gösterir ve çıkar\n"
+#~ "  -v, --verbose               sonuçlar daha ayrıntılı verilir\n"
+#~ "  -q, --quiet, --silent       bilgi verilmez\n"
+
+#~ msgid ""
+#~ "Input file location in Tcl mode:\n"
+#~ "  -l, --locale=LOCALE      locale name, either language or language_COUNTRY\n"
+#~ "  -d DIRECTORY             base directory of .msg message catalogs\n"
+#~ "The -l and -d options are mandatory.  The .msg file is located in the\n"
+#~ "specified directory.\n"
+#~ msgstr ""
+#~ "Tcl kipinde çıktı dosyası konumu:\n"
+#~ "  -l, --locale=YEREL          yerel ismi, dil ya da dil_ÜLKE\n"
+#~ "  -d DİZİN                    .msg ileti kataloglarının bulunduğu ana dizin\n"
+#~ ".msg dosyası DİZİNde bulunduğundan -d  ve -l seçenekleri zorunludur.\n"
+
+#~ msgid ""
+#~ "Output details:\n"
+#~ "  -e, --no-escape          do not use C escapes in output (default)\n"
+#~ "  -E, --escape             use C escapes in output, no extended chars\n"
+#~ "      --force-po           write PO file even if empty\n"
+#~ "  -i, --indent             write indented output style\n"
+#~ "      --strict             write strict uniforum style\n"
+#~ "  -w, --width=NUMBER       set output page width\n"
+#~ "      --no-wrap            do not break long message lines, longer than\n"
+#~ "                           the output page width, into several lines\n"
+#~ "  -s, --sort-output        generate sorted output\n"
+#~ msgstr ""
+#~ "Çıktı ayrıntıları:\n"
+#~ "  -e, --no-escape             C öncelemleri çıktıda kullanılmaz (öntanımlı)\n"
+#~ "  -E, --escape                C öncelemleri çıktıda kullanılır\n"
+#~ "      --force-po              boş olsa bile PO dosyasını yazar\n"
+#~ "  -i, --indent                satırbaşı girintili çıktı biçemi\n"
+#~ "      --strict                Uniforum kipini etkinleştirir\n"
+#~ "  -w, --width=SAYI            sayfa genişliği SAYIya ayarlanır\n"
+#~ "      --no-wrap               sayfa genişliğine sığmayan satırların taşan\n"
+#~ "                              kısmı bir alt satıra indirilmez\n"
+#~ "  -s, --sort-output           çıktıyı sıralı üretir\n"
+
+#~ msgid ""
+#~ "Informative output:\n"
+#~ "  -h, --help               display this help and exit\n"
+#~ "  -V, --version            output version information and exit\n"
+#~ "  -v, --verbose            increase verbosity level\n"
+#~ msgstr ""
+#~ "Bilgilendirme seçenekleri:\n"
+#~ "  -h, --help                  Bu yardımı gösterir ve çıkar\n"
+#~ "  -V, --version               Sürüm bilgilerini gösterir ve çıkar\n"
+#~ "  -v, --verbose               sonuçlar daha ayrıntılı verilir\n"
+
+#~ msgid "Usage: %s [OPTION] [TEXTDOMAIN] MSGID MSGID-PLURAL COUNT\n"
+#~ msgstr "Kullanımı: %s [SEÇENEK] [PAKET] MSGID MSGID-PLURAL SAYI\n"
+
+#~ msgid ""
+#~ "Display native language translation of a textual message whose grammatical\n"
+#~ "form depends on a number.\n"
+#~ msgstr "Bir sayıya bağlı olarak ilgili tekil/çoğul ileti çevirisini gösterir.\n"
+
+#~ msgid ""
+#~ "  -d, --domain=TEXTDOMAIN   retrieve translated message from TEXTDOMAIN\n"
+#~ "  -e                        enable expansion of some escape sequences\n"
+#~ "  -E                        (ignored for compatibility)\n"
+#~ "  -h, --help                display this help and exit\n"
+#~ "  -V, --version             display version information and exit\n"
+#~ "  [TEXTDOMAIN]              retrieve translated message from TEXTDOMAIN\n"
+#~ "  MSGID MSGID-PLURAL        translate MSGID (singular) / MSGID-PLURAL (plural)\n"
+#~ "  COUNT                     choose singular/plural form based on this value\n"
+#~ msgstr ""
+#~ "  -d, --domain=PAKET   ileti çevirileri yazılım PAKETinden alınır.\n"
+#~ "  -e                   öncelem dizilerinin kullanımı etkinleştirilir\n"
+#~ "  -E                   (uyumluluk için yoksayıldı)\n"
+#~ "  -h, --help           bu yardım iletisini gösterir ve çıkar\n"
+#~ "  -V, --version        sürüm bilgilerini gösterir ve çıkar\n"
+#~ "  [PAKET]              ileti çevirileri yazılım PAKETinden alınır.\n"
+#~ "  MSGID MSGID-PLURAL   MSGID (tekil) / MSGID-PLURAL (çoğul) çevrilir\n"
+#~ "  SAYI               SAYIya bağlı olarak tekil/çoğul iletilerden biri seçilir\n"
+
+#~ msgid ""
+#~ "If the TEXTDOMAIN parameter is not given, the domain is determined from the\n"
+#~ "environment variable TEXTDOMAIN.  If the message catalog is not found in the\n"
+#~ "regular directory, another location can be specified with the environment\n"
+#~ "variable TEXTDOMAINDIR.\n"
+#~ "Standard search directory: %s\n"
+#~ msgstr ""
+#~ "PAKET parametresi verilmemişse paket ismi TEXTDOMAIN çevre değişkeninden\n"
+#~ "saptanır. İleti kataloğu olması gereken dizinde değilse bulunduğu dizin\n"
+#~ "TEXTDOMAINDIR çevre değişkeni ile belirtilebilir.\n"
+#~ "Standart arama dizini: %s\n"
+
+#~ msgid ""
+#~ "Output file location:\n"
+#~ "  -d, --default-domain=NAME      use NAME.po for output (instead of messages.po)\n"
+#~ "  -o, --output=FILE              write output to specified file\n"
+#~ "  -p, --output-dir=DIR           output files will be placed in directory DIR\n"
+#~ "If output file is -, output is written to standard output.\n"
+#~ msgstr ""
+#~ "Çıktı dosyası konumu:\n"
+#~ "  -d, --default-domain=İSİM   çıktı messages.po yerine İSİM.po dosyasına\n"
+#~ "                              yazılır\n"
+#~ "  -o, --output=DOSYA          çıktı belirtilen DOSYAya yazılır\n"
+#~ "  -p, --output-dir=DİZİN      çıktı dosyaları DİZİNe konulacaktır.\n"
+#~ "Çıktı dosyası olarak - verilmişse çıktı standart çıktıya yazılır.\n"
+
+#~ msgid ""
+#~ "Language=C/C++ specific options:\n"
+#~ "  -a, --extract-all              extract all strings\n"
+#~ "  -k, --keyword[=WORD]           additional keyword to be looked for (without\n"
+#~ "                                 WORD means not to use default keywords)\n"
+#~ "  -T, --trigraphs                understand ANSI C trigraphs for input\n"
+#~ "      --debug                    more detailed formatstring recognition result\n"
+#~ msgstr ""
+#~ "Language=C/C++ ile belirtilebilecek seçenekler:\n"
+#~ "  -a, --extract-all           tüm dizgeleri çıkartır\n"
+#~ "  -k, --keyword[=SÖZCÜK]      aranacak ek anahtar sözcük (SÖZCÜK\n"
+#~ "                              verilmediğinde kullanılacak öntanımlı bir\n"
+#~ "                              sözcük yoktur.)\n"
+#~ "  -T, --trigraphs             girdideki ANSI C trigrafları anlar\n"
+#~ "      --debug                 biçem dizgesi tanıması ile ilgili daha fazla\n"
+#~ "                              ayrıntı verilir.\n"
+
+#~ msgid ""
+#~ "Output details:\n"
+#~ "  -e, --no-escape                do not use C escapes in output (default)\n"
+#~ "  -E, --escape                   use C escapes in output, no extended chars\n"
+#~ "      --force-po                 write PO file even if empty\n"
+#~ "  -i, --indent                   write the .po file using indented style\n"
+#~ "      --no-location              do not write '#: filename:line' lines\n"
+#~ "  -n, --add-location             generate '#: filename:line' lines (default)\n"
+#~ "      --strict                   write out strict Uniforum conforming .po file\n"
+#~ "  -w, --width=NUMBER             set output page width\n"
+#~ "      --no-wrap                  do not break long message lines, longer than\n"
+#~ "                                 the output page width, into several lines\n"
+#~ "  -s, --sort-output              generate sorted output\n"
+#~ "  -F, --sort-by-file             sort output by file location\n"
+#~ "      --omit-header              don't write header with `msgid \"\"' entry\n"
+#~ "      --copyright-holder=STRING  set copyright holder in output\n"
+#~ "      --foreign-user             omit FSF copyright in output for foreign user\n"
+#~ "  -m, --msgstr-prefix[=STRING]   use STRING or \"\" as prefix for msgstr entries\n"
+#~ "  -M, --msgstr-suffix[=STRING]   use STRING or \"\" as suffix for msgstr entries\n"
+#~ msgstr ""
+#~ "Çıktı ayrıntıları:\n"
+#~ "  -e, --no-escape             C öncelemleri çıktıda kullanılmaz (öntanımlı)\n"
+#~ "  -E, --escape                C öncelemleri çıktıda kullanılır\n"
+#~ "      --force-po              boş olsa bile PO dosyasını yazar\n"
+#~ "  -i, --indent                satırbaşı girintili çıktı biçemi\n"
+#~ "      --no-location           '#: dosyaismi:satır' başlıkları yazılmaz\n"
+#~ "      --add-location          '#: dosyaismi:satır' başlıkları yazılır\n"
+#~ "                              (öntanımlı)\n"
+#~ "      --strict                Uniforum kipini etkinleştirir\n"
+#~ "  -w, --width=SAYI            sayfa genişliği SAYIya ayarlanır\n"
+#~ "      --no-wrap               sayfa genişliğine sığmayan satırların taşan\n"
+#~ "                              kısmı bir alt satıra indirilmez\n"
+#~ "  -s, --sort-output           çıktıyı sıralı üretir\n"
+#~ "  -F, --sort-by-file          çıktıyı dosya konumuna göre sıralar\n"
+#~ "      --omit-header           başlığa `msgid \"\"' girdisini yazmaz\n"
+#~ "      --copyright-holder=DİZGE  Çıktıya telif hakkı DİZGEsi yazılır\n"
+#~ "      --foreign-user          yabancı kullanıcılar için FSF telif hakkı\n"
+#~ "                              çıktıda bulunmaz\n"
+#~ "  -m, --msgstr-prefix[=DİZGE] msgstr girdileri için önek olarak DİZGE ya da\n"
+#~ "                              \"\" kullanılır\n"
+#~ "  -M, --msgstr-suffix[=DİZGE] msgstr girdileri için sonek olarak DİZGE ya da\n"
+#~ "                              \"\" kullanılır\n"
+
+#~ msgid "file \"%s\" contains a not NUL terminated sysdep segment"
+#~ msgstr "\"%s\" dosyası NUL sonlandırmalı olmayan bir sysdep parçası içeriyor"
+
+#~ msgid "seek \"%s\" offset %ld failed"
+#~ msgstr "\"%s\" erişimi %ld göreli konumundan başarısız oldu"
