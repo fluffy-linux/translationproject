@@ -1,0 +1,377 @@
+# sed german translation
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Walter Koch <koch@hsp.de>, 2001
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sed 3.02.80\n"
+"POT-Creation-Date: 2002-10-23 11:30+0200\n"
+"PO-Revision-Date: 2001-07-02 12:41+0200\n"
+"Last-Translator: Walter Koch <koch@hsp.de>\n"
+"Language-Team: German <de@li.org>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Various error messages we may want to print
+#: sed/compile.c:165
+msgid "Invalid use of address modifier"
+msgstr "Ungültige Verwendung von \"address modifier\""
+
+#: sed/compile.c:166
+msgid "Multiple `!'s"
+msgstr "Mehrfache `!'"
+
+#: sed/compile.c:167
+msgid "Unexpected `,'"
+msgstr "Unerwartetes `,'"
+
+#: sed/compile.c:168
+msgid "Unexpected End-of-file"
+msgstr "Unerwartetes Dateiende"
+
+#: sed/compile.c:169
+msgid "Cannot use +N or ~N as first address"
+msgstr "+N oder ~N können nicht als erste Adresse benutzt werden"
+
+#: sed/compile.c:170
+msgid "Unmatched `{'"
+msgstr "Nicht paarweises `{'"
+
+#: sed/compile.c:171
+msgid "Unexpected `}'"
+msgstr "Unerwartetes `}'"
+
+#: sed/compile.c:172
+msgid "Extra characters after command"
+msgstr "Zusätzliche Zeichen nach dem Befehl"
+
+#: sed/compile.c:173
+msgid "Expected \\ after `a', `c' or `i'"
+msgstr ""
+
+#: sed/compile.c:174
+msgid "`}' doesn't want any addresses"
+msgstr "`}' erwartet keine Adressen"
+
+#: sed/compile.c:175
+msgid ": doesn't want any addresses"
+msgstr "`:' erwartet keine Adressen"
+
+#: sed/compile.c:176
+msgid "Comments don't accept any addresses"
+msgstr "Kommentare erlauben keine Adressen"
+
+#: sed/compile.c:177
+msgid "Missing command"
+msgstr "Fehlender Befehl"
+
+#: sed/compile.c:178
+msgid "Command only uses one address"
+msgstr "Befehl verwendet nur eine Adresse"
+
+#: sed/compile.c:179
+msgid "Unterminated address regex"
+msgstr "Nicht beendeter regulärer Adressausdruck"
+
+#: sed/compile.c:180
+msgid "Unterminated `s' command"
+msgstr "Nicht beendeter `s'-Befehl"
+
+#: sed/compile.c:181
+msgid "Unterminated `y' command"
+msgstr "Nicht beendeter `y'-Befehl"
+
+#: sed/compile.c:182
+msgid "Unknown option to `s'"
+msgstr "Unbekannte Option betreffs `s'"
+
+#: sed/compile.c:183
+msgid "multiple `p' options to `s' command"
+msgstr "Mehrere 'p'-Optionen am `s'-Befehl"
+
+#: sed/compile.c:184
+msgid "multiple `g' options to `s' command"
+msgstr "Mehrere 'g'-Optionen am `s'-Befehl"
+
+#: sed/compile.c:186
+msgid "multiple number options to `s' command"
+msgstr "Mehrere numerische Optionen am `s'-Befehl"
+
+#: sed/compile.c:188
+msgid "number option to `s' command may not be zero"
+msgstr "Numerisch Option am `s'-Befehl darf nicht Null sein"
+
+#: sed/compile.c:190
+msgid "strings for y command are different lengths"
+msgstr "Unterschiedliche Länge der Zeichenketten am `y'-Befehl"
+
+#: sed/compile.c:233
+#, c-format
+msgid "Called savchar() with unexpected pushback (%x)"
+msgstr "Aufruf von savchar() mit unerwartetem \"pushback\" (%x)"
+
+#: sed/compile.c:1319
+msgid "Unknown command:"
+msgstr "Unbekannter Befehl:"
+
+#: sed/compile.c:1340
+#, c-format
+msgid "%s: file %s line %lu: %s\n"
+msgstr "%s: Datei %s Zeile %lu: %s\n"
+
+#: sed/compile.c:1343
+#, c-format
+msgid "%s: -e expression #%lu, char %lu: %s\n"
+msgstr "%s: -e Ausdruck #%lu, Zeichen %lu: %s\n"
+
+#: sed/compile.c:1543
+#, c-format
+msgid "Can't find label for jump to `%s'"
+msgstr "Kann das Ziel für den Sprung nach `%s' nicht finden"
+
+#: sed/execute.c:516
+#, c-format
+msgid "%s: can't read %s: %s\n"
+msgstr "%s: kann %s nicht lesen: %s\n"
+
+#: sed/execute.c:722
+msgid "INTERNAL ERROR: bad address type"
+msgstr "INTERNER FEHLER: Falsche Adressenart"
+
+#: sed/execute.c:1003 sed/execute.c:1183
+msgid "error in subprocess"
+msgstr ""
+
+#: sed/execute.c:1005
+msgid "option `e' not supported"
+msgstr ""
+
+#: sed/execute.c:1185
+msgid "`e' command not supported"
+msgstr ""
+
+#: sed/execute.c:1415
+#, c-format
+msgid "INTERNAL ERROR: Bad cmd %c"
+msgstr "INTERNER FEHLER: Falscher Befehl %c"
+
+#. XXX shouldn't this be (UCHAR_MAX+1)?
+#: lib/regcomp.c:658 sed/regex.c:47
+msgid "No previous regular expression"
+msgstr "Kein vorheriger regulärer Ausdruck"
+
+#: sed/regex.c:48
+msgid "Cannot specify modifiers on empty regexp"
+msgstr ""
+
+#: sed/regex.c:146
+#, c-format
+msgid "Invalid reference \\%d on `s' command's RHS"
+msgstr ""
+
+#: sed/sed.c:95
+msgid ""
+"  -R, --regexp-perl\n"
+"                 use Perl 5's regular expressions syntax in the script.\n"
+msgstr ""
+
+#: sed/sed.c:100
+#, fuzzy, c-format
+msgid ""
+"Usage: %s [OPTION]... {script-only-if-no-other-script} [input-file]...\n"
+"\n"
+"  -n, --quiet, --silent\n"
+"                 suppress automatic printing of pattern space\n"
+"  -e script, --expression=script\n"
+"                 add the script to the commands to be executed\n"
+"  -f script-file, --file=script-file\n"
+"                 add the contents of script-file to the commands to be executed\n"
+"  -i[suffix], --in-place[=suffix]\n"
+"                 edit files in place (makes backup if extension supplied)\n"
+"  -l N, --line-length=N\n"
+"                 specify the desired line-wrap length for the `l' command\n"
+"  -r, --regexp-extended\n"
+"                 use extended regular expressions in the script.\n"
+"%s  -s, --separate\n"
+"                 consider files as separate rather than as a single continuous\n"
+"                 long stream.\n"
+"  -u, --unbuffered\n"
+"                 load minimal amounts of data from the input files and flush\n"
+"                 the output buffers more often\n"
+"      --help     display this help and exit\n"
+"  -V, --version  output version information and exit\n"
+"\n"
+"If no -e, --expression, -f, or --file option is given, then the first\n"
+"non-option argument is taken as the sed script to interpret.  All\n"
+"remaining arguments are names of input files; if no input files are\n"
+"specified, then the standard input is read.\n"
+"\n"
+msgstr ""
+"Aufruf: %s [OPTION]... {script-nur-wenn-kein-anderes} [Eingabedatei]...\n"
+"\n"
+"  -n, --quiet, --silent\n"
+"                 verhindert die automatische Ausgabe des Arbeitspuffers\n"
+"  -e script, --expression=script\n"
+"                 hängt script an die auszuführenden Befehle an\n"
+"  -f script-file, --file=script-Datei\n"
+"                 hängt den Inhalt von script-Datei an die\n"
+"                 auszuführenden Befehle\n"
+"  -l N, --line-length=N\n"
+"                 gibt die gewünschte Zeilenumbruchlänge für den `l'-Befehl an\n"
+"  -u, --unbuffered\n"
+"\n"
+"      --help     nur diese Hilfe anzeigen\n"
+"  -V, --version  nur die Version ausgeben\n"
+"\n"
+"Falls kein -e, --expression, -f, oder --file Option angegeben ist, wird das\n"
+"erste Argument, das keine Option ist als sed-Skript verwendet.\n"
+"Alle restlichen Argumente sind Namen von Eingabedateien. Falls keine\n"
+"Eingabedateien angegeben sind, wird von der Standardeingabe gelesen.\n"
+"\n"
+
+#: sed/sed.c:129
+#, c-format
+msgid ""
+"E-mail bug reports to: %s .\n"
+"Be sure to include the word ``%s'' somewhere in the ``Subject:'' field.\n"
+msgstr ""
+"Fehlerberichte (in Englisch!) per E-Mail an: %s .\n"
+"Verwenden Sie dabei den Begriff ``%s'' irgendwo in der ``Subject:''-Zeile.\n"
+
+#: sed/sed.c:254
+#, c-format
+msgid "super-sed version %s\n"
+msgstr ""
+
+#: sed/sed.c:255
+msgid ""
+"based on GNU sed version 3.02.80\n"
+"\n"
+msgstr ""
+
+#: sed/sed.c:257
+#, c-format
+msgid "GNU sed version %s\n"
+msgstr ""
+
+#: sed/sed.c:259
+#, c-format
+msgid ""
+"%s\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE,\n"
+"to the extent permitted by law.\n"
+msgstr ""
+"%s\n"
+"(Der folgende Text ist eine nicht überprüfte Übersetzung, die zur\n"
+" Information dient;  in rechtlichen Fragen ist immer das englische\n"
+" Original ausschlaggebend)\n"
+"\n"
+"Dieses Program ist freie Software; In den Quelldateien können Sie die\n"
+"Bedingungen für die Weitergabe nachlesen.\n"
+"Es gibt KEINE GARANTIE; nicht einmal die implizite Garantie der\n"
+"MARKTFÄHIGKEIT oder der ERFÜLLUNG EINES BESTIMMTEN ZWECKES.\n"
+
+#: lib/utils.c:131
+#, fuzzy, c-format
+msgid "Couldn't open file %s: %s"
+msgstr "Datei %s kann nicht geöffnet werden"
+
+#: lib/utils.c:161
+#, fuzzy, c-format
+msgid "couldn't write %d item to %s: %s"
+msgid_plural "couldn't write %d items to %s: %s"
+msgstr[0] "Kann %d Felder nicht auf %s schreiben: %s"
+msgstr[1] "Kann %d Felder nicht auf %s schreiben: %s"
+
+#: lib/utils.c:179
+#, c-format
+msgid "read error on %s: %s"
+msgstr "Lesefehler in %s: %s"
+
+#: lib/regcomp.c:179
+msgid "Success"
+msgstr ""
+
+#: lib/regcomp.c:182
+msgid "No match"
+msgstr ""
+
+#: lib/regcomp.c:185
+#, fuzzy
+msgid "Invalid regular expression"
+msgstr "Kein vorheriger regulärer Ausdruck"
+
+#: lib/regcomp.c:188
+msgid "Invalid collation character"
+msgstr ""
+
+#: lib/regcomp.c:191
+msgid "Invalid character class name"
+msgstr ""
+
+#: lib/regcomp.c:194
+msgid "Trailing backslash"
+msgstr ""
+
+#: lib/regcomp.c:197
+msgid "Invalid back reference"
+msgstr ""
+
+#: lib/regcomp.c:200
+#, fuzzy
+msgid "Unmatched [ or [^"
+msgstr "Nicht paarweises `{'"
+
+#: lib/regcomp.c:203
+#, fuzzy
+msgid "Unmatched ( or \\("
+msgstr "Nicht paarweises `{'"
+
+#: lib/regcomp.c:206
+#, fuzzy
+msgid "Unmatched \\{"
+msgstr "Nicht paarweises `{'"
+
+#: lib/regcomp.c:209
+msgid "Invalid content of \\{\\}"
+msgstr ""
+
+#: lib/regcomp.c:212
+msgid "Invalid range end"
+msgstr ""
+
+#: lib/regcomp.c:215
+msgid "Memory exhausted"
+msgstr ""
+
+#: lib/regcomp.c:218
+#, fuzzy
+msgid "Invalid preceding regular expression"
+msgstr "Kein vorheriger regulärer Ausdruck"
+
+#: lib/regcomp.c:221
+#, fuzzy
+msgid "Premature end of regular expression"
+msgstr "Kein vorheriger regulärer Ausdruck"
+
+#: lib/regcomp.c:224
+#, fuzzy
+msgid "Regular expression too big"
+msgstr "Kein vorheriger regulärer Ausdruck"
+
+#: lib/regcomp.c:227
+#, fuzzy
+msgid "Unmatched ) or \\)"
+msgstr "Nicht paarweises `{'"
+
+#~ msgid "bad regexp: %s\n"
+#~ msgstr "Falscher regulärer Ausdruck: %s\n"
+
+#~ msgid "input read error: %s"
+#~ msgstr "Eingabe-Lesefehler: %s"
+
+#~ msgid "couldn't write an item to %s: %s"
+#~ msgstr "Kann ein Feld nicht auf %s schreiben: %s"
