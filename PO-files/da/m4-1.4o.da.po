@@ -1,0 +1,654 @@
+# Danish version of GNU m4 strings.
+# Copyright (C) 2000, 2001 Free Software Foundation, Inc.
+# Ole Laursen <olau@hardworking.dk>, 2000, 2001.
+#
+# Diversion er ikke oversat fordi det endnu ikke er lykkedes
+# at finde et passende dansk ord (hjælp modtages gerne :-).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: m4 1.4o\n"
+"POT-Creation-Date: 2000-01-10 05:27+0100\n"
+"PO-Revision-Date: 2001-06-14 23:09+02:00\n"
+"Last-Translator: Ole Laursen <olau@hardworking.dk>\n"
+"Language-Team: Danish <dansk@klid.dk>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/getopt.c:677
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: tilvalget '%s' is flertydigt\n"
+
+#: lib/getopt.c:702
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: tilvalget '--%s' tager ikke en parameter\n"
+
+#: lib/getopt.c:707
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: tilvalget '%c%s' tager ikke en parameter\n"
+
+#: lib/getopt.c:725 lib/getopt.c:898
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: tilvalget '%s' skal have en parameter\n"
+
+#. --option
+#: lib/getopt.c:754
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: ukendt tilvalg '--%s'\n"
+
+#. +option or -option
+#: lib/getopt.c:758
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: ukendt tilvalg '%c%s'\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:784
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: ulovligt tilvalg - %c\n"
+
+#: lib/getopt.c:787
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: ugyldigt tilvalg - %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:817 lib/getopt.c:947
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: tilvalg skal have en parameter - %c\n"
+
+#: lib/getopt.c:864
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: tilvalget '-W %s' er flertydigt\n"
+
+#: lib/getopt.c:882
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: tilvalget '-W %s' tager ikke en parameter\n"
+
+#: lib/obstack.c:471
+msgid "memory exhausted"
+msgstr "løbet tør for hukommelse"
+
+#: lib/regex.c:1019
+msgid "Success"
+msgstr "Succes"
+
+#: lib/regex.c:1022
+msgid "No match"
+msgstr "Intet fundet"
+
+#: lib/regex.c:1025
+msgid "Invalid regular expression"
+msgstr "Ugyldigt regulært udtryk"
+
+#: lib/regex.c:1028
+msgid "Invalid collation character"
+msgstr "Ugyldigt sorteringstegn"
+
+#: lib/regex.c:1031
+msgid "Invalid character class name"
+msgstr "Ugyldig tegnklassenavn"
+
+#: lib/regex.c:1034
+msgid "Trailing backslash"
+msgstr "Afsluttende omvendt skråstreg"
+
+#: lib/regex.c:1037
+msgid "Invalid back reference"
+msgstr "Ugyldig tilbagereference"
+
+#: lib/regex.c:1040
+msgid "Unmatched [ or [^"
+msgstr "Uafbalanceret [ eller [^"
+
+#: lib/regex.c:1043
+msgid "Unmatched ( or \\("
+msgstr "Uafbalanceret ( eller \\("
+
+#: lib/regex.c:1046
+msgid "Unmatched \\{"
+msgstr "Uafbalanceret \\{"
+
+#: lib/regex.c:1049
+msgid "Invalid content of \\{\\}"
+msgstr "Ugyldigt indhold af \\{\\}"
+
+#: lib/regex.c:1052
+msgid "Invalid range end"
+msgstr "Ugyldig intervalslutning"
+
+#: lib/regex.c:1055 lib/xmalloc.c:82
+msgid "Memory exhausted"
+msgstr "Løbet tør for hukommelse"
+
+#: lib/regex.c:1058
+msgid "Invalid preceding regular expression"
+msgstr "Ugyldigt forudgående regulært udtryk"
+
+#: lib/regex.c:1061
+msgid "Premature end of regular expression"
+msgstr "For tidlig afslutning på regulært udtryk"
+
+#: lib/regex.c:1064
+msgid "Regular expression too big"
+msgstr "Regulært udtryk for stort"
+
+#: lib/regex.c:1067
+msgid "Unmatched ) or \\)"
+msgstr "Uafbalanceret ) eller \\)"
+
+#: lib/regex.c:5564
+msgid "No previous regular expression"
+msgstr "Intet tidligere regulært udtryk"
+
+#: src/builtin.c:349
+#, c-format
+msgid "Warning: Too few arguments to built-in `%s'"
+msgstr "Advarsel: For få parametre til indbygget `%s'"
+
+#: src/builtin.c:355
+#, c-format
+msgid "Warning: Excess arguments to built-in `%s' ignored"
+msgstr "Advarsel: Ekstra parametre til indbygget `%s' ignoreret"
+
+#: src/builtin.c:383
+#, c-format
+msgid "Non-numeric argument to built-in `%s'"
+msgstr "Parameteren til indbygget `%s' er ikke et tal"
+
+#: src/builtin.c:494
+msgid "INTERNAL ERROR: Bad token data type in define_macro ()"
+msgstr "INTERN FEJL: Ugyldig datatype i define_macro ()"
+
+#: src/builtin.c:681 src/builtin.c:780 src/builtin.c:1423 src/builtin.c:1447
+#, c-format
+msgid "Undefined name %s"
+msgstr "Navnet '%s' ikke defineret"
+
+#: src/builtin.c:721
+msgid "INTERNAL ERROR: Builtin not found in builtin table!"
+msgstr "INTERN FEJL: Indbygget ikke fundet i tabellen over indbyggede"
+
+#: src/builtin.c:729
+msgid "INTERNAL ERROR: Bad token data type in m4_dumpdef ()"
+msgstr "INTERN FEJL: Ugyldig datatype i m4_dumpdef ()"
+
+#: src/builtin.c:804
+#, c-format
+msgid "Undefined name `%s'"
+msgstr "Ikke-defineret navn '%s'"
+
+#: src/builtin.c:842
+msgid "INTERNAL ERROR: Bad symbol type in m4_defn ()"
+msgstr "INTERN FEJL: Ugyldig symboltype i m4_defn ()"
+
+#: src/builtin.c:908
+#, c-format
+msgid "Cannot open pipe to command `%s'"
+msgstr "Kan ikke åbne overførselsledning til kommando `%s'"
+
+#: src/builtin.c:948
+#, c-format
+msgid "Radix in eval out of range (radix = %d)"
+msgstr "Grundtallet i eval ligger ikke i det gyldige interval (grundtal = %d)"
+
+#: src/builtin.c:957
+msgid "Negative width to eval"
+msgstr "Negativ bredde i eval"
+
+#: src/builtin.c:1063
+#, c-format
+msgid "Non-numeric argument to %s"
+msgstr "Parameteren til %s er ikke et tal"
+
+#: src/builtin.c:1075
+#, c-format
+msgid "Cannot undivert %s"
+msgstr "Kan ikke undivert %s"
+
+#: src/builtin.c:1223
+#, c-format
+msgid "Undefined syntax code %c"
+msgstr "Syntakskode %c ikke defineret"
+
+#: src/builtin.c:1274 src/freeze.c:211
+#, c-format
+msgid "Cannot open %s"
+msgstr "Kan ikke åbne %s"
+
+#: src/builtin.c:1483
+#, c-format
+msgid "Debugmode: bad debug flags: `%s'"
+msgstr "Fejlretningstilstand: ugyldige fejlfindingsflag: `%s'"
+
+#: src/builtin.c:1519
+#, c-format
+msgid "Cannot set error file: %s"
+msgstr "Kan ikke sætte fil %s til brug for fejl"
+
+#: src/builtin.c:1740
+msgid "WARNING: \\0 will disappear, use \\& instead in replacements"
+msgstr "ADVARSEL: \\0 vil forsvinde, brug \\& i stedet for i erstatninger"
+
+#: src/builtin.c:1801 src/builtin.c:1861 src/input.c:1014
+#, c-format
+msgid "Bad regular expression `%s': %s"
+msgstr "Ugyldigt regulært udtryk `%s': %s"
+
+#: src/builtin.c:1812 src/builtin.c:1885
+#, c-format
+msgid "Error matching regular expression `%s'"
+msgstr "Fejl under søgning af regulært udtryk `%s'"
+
+#: src/debug.c:380
+msgid "INTERNAL ERROR: Builtin not found in builtin table! (trace_pre ())"
+msgstr "INTERN FEJL: Indbygget ikke fundet i tabellen over indbyggede! (trace_pre ())"
+
+#: src/debug.c:388
+msgid "INTERNAL ERROR: Bad token data type (trace_pre ())"
+msgstr "INTERN FEJL: Ugyldig datatype (trace_pre ())"
+
+#: src/eval.c:309
+#, c-format
+msgid "Bad expression in eval (missing right parenthesis): %s"
+msgstr "Ugyldigt udtryk i eval (manglende højreparantes): %s"
+
+#: src/eval.c:315
+#, c-format
+msgid "Bad expression in eval: %s"
+msgstr "Ugyldigt udtryk i eval: %s"
+
+#: src/eval.c:320
+#, c-format
+msgid "Bad expression in eval (bad input): %s"
+msgstr "Ugyldigt udtryk i eval (ugyldigt inddata): %s"
+
+#: src/eval.c:325
+#, c-format
+msgid "Bad expression in eval (excess input): %s"
+msgstr "Ugyldigt udtryk i eval (for stor mængde inddata): %s"
+
+#: src/eval.c:330
+#, c-format
+msgid "Divide by zero in eval: %s"
+msgstr "Division med nul i eval: %s"
+
+#: src/eval.c:335
+#, c-format
+msgid "Modulo by zero in eval: %s"
+msgstr "Modulo med nul i eval: %s"
+
+#: src/eval.c:340
+msgid "INTERNAL ERROR: Bad error code in evaluate ()"
+msgstr "INTERN FEJL: Ugyldig fejlkode i evaluate ()"
+
+#: src/eval.c:594
+msgid "INTERNAL ERROR: Bad comparison operator in cmp_term ()"
+msgstr "INTERN FEJL: Ugyldig sammenligningsoperator i cmp_term ()"
+
+#: src/eval.c:639
+msgid "INTERNAL ERROR: Bad shift operator in shift_term ()"
+msgstr "INTERN FEJL: Ugyldig skifteoperator i shift_term ()"
+
+#: src/eval.c:738
+msgid "INTERNAL ERROR: Bad operator in mult_term ()"
+msgstr "INTERN FEJL: Ugyldig operator i mult_term ()"
+
+#: src/freeze.c:119
+msgid "INTERNAL ERROR: Built-in not found in builtin table!"
+msgstr "INTERN FEJL: Indbygget ikke fundet i tabellen over indbyggede"
+
+#: src/freeze.c:132
+msgid "INTERNAL ERROR: Bad token data type in freeze_one_symbol ()"
+msgstr "INTERN FEJL: Ugyldig datatype i freeze_one_symbol ()"
+
+#: src/freeze.c:163
+msgid "Expecting line feed in frozen file"
+msgstr "Forventede linieskift i fryst fil"
+
+#: src/freeze.c:165
+#, c-format
+msgid "Expecting character `%c' in frozen file"
+msgstr "Forventede tegnet `%c' i fryst fil"
+
+#: src/freeze.c:222
+msgid "Ill-formated frozen file"
+msgstr "Ugyldigt formatteret fryst fil"
+
+#: src/freeze.c:277 src/freeze.c:293
+msgid "Premature end of frozen file"
+msgstr "For tidlig afslutning på fryst fil"
+
+#: src/freeze.c:327
+#, c-format
+msgid "`%s' from frozen file not found in builtin table!"
+msgstr "`%s' fra fryst fil ikke fundet i tabellen over indbyggede"
+
+#: src/input.c:318
+#, c-format
+msgid "Input reverted to %s, line %d"
+msgstr "Inddata sendt tilbage til %s, linje %d"
+
+#: src/input.c:346
+#, c-format
+msgid "Input read from %s"
+msgstr "Inddata læst fra %s"
+
+#: src/input.c:506
+msgid "INTERNAL ERROR: Recursive push_string!"
+msgstr "INTERN FEJL: Rekursiv push_string!"
+
+#: src/input.c:623
+msgid "INTERNAL ERROR: Bad call to init_macro_token ()"
+msgstr "INTERN FEJL: Ugyldigt kald til init_macro_token ()"
+
+#: src/input.c:663
+msgid "INTERNAL ERROR: Input stack botch in next_char ()"
+msgstr "INTERN FEJL: Inddatastakken forkludret i next_char ()"
+
+#: src/input.c:700
+msgid "INTERNAL ERROR: Input stack botch in peek_input ()"
+msgstr "INTERN FEJL: Inddatastakken forkludret i peek_input ()"
+
+#: src/input.c:805
+msgid "NONE"
+msgstr "INTET"
+
+#: src/input.c:1199 src/input.c:1226
+msgid "ERROR: EOF in string"
+msgstr "FEJL: EOF i tekststreng"
+
+#: src/m4.c:119
+msgid "ERROR: Stack overflow.  (Infinite define recursion?)"
+msgstr "FEJL: Overfyldt stak. (Uendelig define rekursion?)"
+
+#: src/m4.c:146
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Prøv `%s --help' for mere information.\n"
+
+#: src/m4.c:150
+#, c-format
+msgid "Usage: %s [OPTION]... [FILE]...\n"
+msgstr "Brug: %s [TILVALG]... [FIL]...\n"
+
+#: src/m4.c:151
+msgid ""
+"Mandatory or optional arguments to long options are mandatory or optional\n"
+"for short options too.\n"
+"\n"
+"Operation modes:\n"
+"      --help                   display this help and exit\n"
+"      --version                output version information and exit\n"
+"  -e, --interactive            unbuffer output, ignore interrupts\n"
+"  -E, --fatal-warnings         stop execution after first warning\n"
+"  -Q, --quiet, --silent        suppress some warnings for builtins\n"
+"  -P, --prefix-builtins        force a `m4_' prefix to all builtins\n"
+msgstr ""
+"Obligatoriske eller valgfri parametre til lange tilvalg er også\n"
+"obligatoriske eller valgfri for de korte tilvalg\n"
+"\n"
+"Arbejdstilstande:\n"
+"      --help                   vis denne hjælp og afslut\n"
+"      --version                udskriv versionsinformation og afslut\n"
+"  -e, --interactive            uddata ikke i buffer, ignorér afbrydelser\n"
+"  -E, --fatal-warnings         stop efter den første advarsel\n"
+"  -Q, --quiet, --silent        undertryk nogle advarsler for indbyggede\n"
+"  -P, --prefix-builtins        sæt et `m4_'-præfix på alle indbyggede\n"
+
+#: src/m4.c:164
+msgid "  -W, --word-regexp=REGEXP     use REGEXP for macro name syntax\n"
+msgstr "  -W, --word-regexp=REGEXP     benyt REGEXP som makronavnssyntaks\n"
+
+#: src/m4.c:169
+msgid ""
+"\n"
+"Dynamic loading features:\n"
+"  -m, --module-directory=DIRECTORY  add DIRECTORY to the module search path\n"
+"  -M, --load-module=MODULE          load dynamic MODULE from M4MODPATH\n"
+msgstr ""
+"\n"
+"Dynamiske indlæsningsfaciliteter:\n"
+"  -m, --module-directory=KATALOG    tilføj KATALOG til modulsøgningsstien\n"
+"  -M, --load-module=MODUL           indlæs dynamisk MODUL fra M4MODPATH\n"
+
+#: src/m4.c:176
+msgid ""
+"\n"
+"Preprocessor features:\n"
+"  -I, --include=DIRECTORY      search this directory second for includes\n"
+"  -D, --define=NAME[=VALUE]    enter NAME has having VALUE, or empty\n"
+"  -U, --undefine=NAME          delete builtin NAME\n"
+"  -s, --synclines              generate `#line NO \"FILE\"' lines\n"
+msgstr ""
+"\n"
+"Forbehandlerfaciliteter:\n"
+"  -I, --include=MAPPE          led sekundært i denne mappe efter inkluderinger\n"
+"  -D, --define=NAVN[=VÆRDI]    indsæt NAVN med værdien tom eller VÆRDI\n"
+"  -U, --undefine=NAVN          slet indbygget NAVN\n"
+"  -s, --synclines              generér `#line NR \"FIL\"' linjer\n"
+
+#: src/m4.c:184
+msgid ""
+"\n"
+"Limits control:\n"
+"  -G, --traditional            suppress all GNU extensions\n"
+"  -H, --hashsize=PRIME         set symbol lookup hash table size\n"
+"  -L, --nesting-limit=NUMBER   change artificial nesting limit\n"
+msgstr ""
+"\n"
+"Regulering af grænser:\n"
+"  -G, --traditional            undertryk alle GNU-udvidelser\n"
+"  -H, --hashsize=PRIMTAL       sæt størrelsen på hashtabellen til symbolopslag\n"
+"  -L, --nesting-limit=NUMMER   sæt grænsen på strukturer inde i hinanden\n"
+
+#: src/m4.c:191
+msgid ""
+"\n"
+"Frozen state files:\n"
+"  -F, --freeze-state=FILE      produce a frozen state on FILE at end\n"
+"  -R, --reload-state=FILE      reload a frozen state from FILE at start\n"
+msgstr ""
+"\n"
+"Fryste tilstandsfiler:\n"
+"  -F, --freeze-state=FIL       gem en fryst tilstand i FIL til slut\n"
+"  -R, --reload-state=FIL       hent en fryst tilstand fra FIL ved start\n"
+
+#: src/m4.c:197
+msgid ""
+"\n"
+"Debugging:\n"
+"  -d, --debug=[FLAGS]          set debug level (no FLAGS implies `aeq')\n"
+"  -t, --trace=NAME             trace NAME when it will be defined\n"
+"  -l, --arglength=NUM          restrict macro tracing size\n"
+"  -o, --error-output=FILE      redirect debug and trace output\n"
+msgstr ""
+"\n"
+"Fejlretning:\n"
+"  -d, --debug=[FLAG]           sæt fejlretningsniveau (ingen flag medfører `aeq')\n"
+"  -t, --trace=NAVN             følg navn når det bliver defineret\n"
+"  -l, --arglength=NR           afgræns størrelsen af makrosporingens uddata\n"
+"  -o, --error-output=FIL       omdirigér fejlretnings- og sporingsuddata\n"
+
+#: src/m4.c:205
+msgid ""
+"\n"
+"FLAGS is any of:\n"
+"  t   trace for all macro calls, not only traceon'ed\n"
+"  a   show actual arguments\n"
+"  e   show expansion\n"
+"  q   quote values as necessary, with a or e flag\n"
+"  c   show before collect, after collect and after call\n"
+"  x   add a unique macro call id, useful with c flag\n"
+"  f   say current input file name\n"
+"  l   say current input line number\n"
+"  p   show results of path searches\n"
+"  i   show changes in input files\n"
+"  V   shorthand for all of the above flags\n"
+msgstr ""
+"\n"
+"FLAG er hvilken som helst af:\n"
+"  t   følg alle makrokald, ikke kun dem med traceon\n"
+"  a   vis aktuelle parametre\n"
+"  e   vis makroudfoldelse\n"
+"  q   anbring aktuelle parametre og udfoldelser mellem citationstegn\n"
+"  c   vis før indsamling af parametre, efter indsamling og efter kald\n"
+"  x   tilføj et unikt makrokald-id, nyttig med `c'-flaget\n"
+"  f   vis nuværende inddatafilnavn\n"
+"  l   vis nuværende inddatalinjenummer\n"
+"  p   vis resultat af stisøgninger\n"
+"  i   vis ændringer i inddatafiler\n"
+"  V   forkortelse for alle ovenstående flag\n"
+
+#: src/m4.c:220
+msgid "\nIf no FILE or if FILE is `-', standard input is read.\n"
+msgstr "\nStandardinddata læses hvis FIL ikke specificeres eller hvis FIL er `-'.\n"
+
+#: src/m4.c:225
+msgid "\nReport bugs to <bug-m4@gnu.org>.\n"
+msgstr "\nRapportér fejl (på engelsk) til <bug-m4@gnu.org> (oversættelsesfejl til <olau@hardworking.dk>).\n"
+
+#: src/m4.c:414
+#, c-format
+msgid "Bad debug flags: `%s'"
+msgstr "Ugyldige fejlretningsflag: `%s'"
+
+#: src/m4.c:436
+#, c-format
+msgid "ERROR: failed to add search directory `%s'"
+msgstr "FEJL: tilføjelse af søgningskataloget '%s' mislykkedes"
+
+#: src/m4.c:440
+#, c-format
+msgid "ERROR: failed to add search directory `%s': %s"
+msgstr "FEJL: tilføjelse af søgningskataloget '%s' mislykkedes: %s"
+
+#: src/m4.c:460
+msgid " (options:"
+msgstr " (tilvalg:"
+
+#: src/m4.c:542
+msgid "INTERNAL ERROR: Bad code in deferred arguments"
+msgstr "INTERN FEJL: Ugyldig kode i opsatte parametre"
+
+#: src/macro.c:97
+msgid "INTERNAL ERROR: Bad token type in expand_token ()"
+msgstr "INTERN FEJL: Ugyldig type i expand_token ()"
+
+#: src/macro.c:163
+msgid "ERROR: EOF in argument list"
+msgstr "FEJL: EOF i parameterliste"
+
+#: src/macro.c:182
+msgid "INTERNAL ERROR: Bad token type in expand_argument ()"
+msgstr "INTERN FEJL: Ugyldig type i expand_argument ()"
+
+#: src/macro.c:259
+msgid "INTERNAL ERROR: Bad symbol type in call_macro ()"
+msgstr "INTERN FEJL: Ugyldig symboltype i call_macro ()"
+
+#: src/macro.c:288
+#, c-format
+msgid "ERROR: Recursion limit of %d exceeded, use -L<N> to change it"
+msgstr "FEJL: Rekursionsgrænse på %d overskredet, -L<N> kan bruges til at ændre den"
+
+#: src/module.c:123
+#, c-format
+msgid "ERROR: failed to initialise modules: %s"
+msgstr "FEJL: klargøring af moduler mislykkedes: %s"
+
+#: src/module.c:221
+#, c-format
+msgid "ERROR: cannot find module: `%s'"
+msgstr "FEJL: Kan ikke finde modul: '%s'"
+
+#: src/module.c:224
+#, c-format
+msgid "ERROR: cannot find module: `%s': %s"
+msgstr "FEJL: kan ikke finde modul: '%s': %s"
+
+#: src/module.c:274
+msgid "ERROR: cannot close modules"
+msgstr "FEJL: Kan ikke lukke moduler"
+
+#: src/module.c:277
+#, c-format
+msgid "ERROR: cannot cannot close modules: %s"
+msgstr "FEJL: kan ikke lukke moduler: %s"
+
+#: src/module.c:284
+#, c-format
+msgid "ERROR: cannot close module: `%s'"
+msgstr "FEJL: Kan ikke lukke modul: '%s'"
+
+#: src/module.c:288
+#, c-format
+msgid "ERROR: cannot cannot close module: `%s': %s"
+msgstr "FEJL: kan ikke lukke modul: '%s': %s"
+
+#: src/output.c:262
+msgid "ERROR: Cannot create temporary file for diversion"
+msgstr "FEJL: Kan ikke oprette midlertidig fil til diversion"
+
+#: src/output.c:272
+msgid "ERROR: Cannot flush diversion to temporary file"
+msgstr "FEJL: Kan ikke hælde diversion ud i midlertidig fil"
+
+#: src/output.c:356
+msgid "ERROR: Copying inserted file"
+msgstr "FEJL: Kopierer indsat fil"
+
+#: src/output.c:537
+msgid "ERROR: Reading inserted file"
+msgstr "FEJL: Læser indsat fil"
+
+#: src/output.c:636
+msgid "Cannot stat diversion"
+msgstr "Kan ikke finde filoplysninger om diversion"
+
+#: src/output.c:639
+msgid "Diversion too large"
+msgstr "Diversion for stor"
+
+#: src/path.c:157
+#, c-format
+msgid "Path search for `%s' found `%s'"
+msgstr "Stisøgning efter '%s' fandt '%s'"
+
+#. sbrk failed.  Assume the RLIMIT_VMEM prevents expansion even
+#. if the stack limit has not been reached.
+#: src/stackovf.c:175
+msgid "VMEM limit exceeded?\n"
+msgstr "VMEM-grænsen overskredet?\n"
+
+#: src/stackovf.c:197
+msgid ""
+"Memory bounds violation detected (SIGSEGV).  Either a stack overflow\n"
+"occurred, or there is a bug in "
+msgstr ""
+"Overskridelse af hukommelsesgrænserne opdaget (SIGSEGV). Enten er stakken\n"
+"blevet overfyldt, eller der er en fejl i "
+
+#: src/stackovf.c:202
+msgid ".  Check for possible infinite recursion.\n"
+msgstr ". Se efter om der skulle være uendelige rekursioner.\n"
+
+#: src/symtab.c:190
+msgid "INTERNAL ERROR: Illegal mode to symbol_lookup ()"
+msgstr "INTERN FEJL: Ulovlig tilstand til symbol_lookup ()"
+
+#: src/symtab.c:243
+#, c-format
+msgid "Name `%s' is unknown\n"
+msgstr "Navnet '%s' er ukendt\n"
