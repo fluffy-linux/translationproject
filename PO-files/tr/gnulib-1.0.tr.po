@@ -1,4 +1,4 @@
-# translation of coreutils-5.3.0.tr.po to Turkish
+# Turkish translation for gnulib.
 # Copyright (C) 2003, 2005 Free Software Foundation, Inc.
 # Ali Devin Sezer <Ali_Sezer@brown.edu>, 2002.
 # Nilgün Belma Bugüner <nilgun@superonline.com>, 2001, 2002.
