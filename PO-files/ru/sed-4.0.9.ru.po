@@ -1,0 +1,383 @@
+# Translation sed-4.0.9.po to Russian
+# Copyright (C) 1998, 2004 Free Software Foundation, Inc.
+# Const Kaplinsky <const@ce.cctpu.edu.ru>, 1998.
+# Pavel Maryanov <acid_jack@ukr.net>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sed-4.0.9\n"
+"POT-Creation-Date: 2004-01-10 08:46+0100\n"
+"PO-Revision-Date: 2004-05-18 17:27+0300\n"
+"Last-Translator: Pavel Maryanov <acid_jack@ukr.net>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=KOI8-R\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: KBabel 1.3\n"
+
+#: sed/compile.c:172
+msgid "Multiple `!'s"
+msgstr "Несколько символов `!'"
+
+#: sed/compile.c:173
+msgid "Unexpected `,'"
+msgstr "Непредвиденный символ `,'"
+
+#: sed/compile.c:174
+msgid "Cannot use +N or ~N as first address"
+msgstr "Использование +N или ~N в качестве первого адреса недопустимо"
+
+#: sed/compile.c:175
+msgid "Unmatched `{'"
+msgstr "Непарный символ `{'"
+
+#: sed/compile.c:176
+msgid "Unexpected `}'"
+msgstr "Лишний символ `}'"
+
+#: sed/compile.c:177
+msgid "Extra characters after command"
+msgstr "Излишние символы после команды"
+
+#: sed/compile.c:178
+msgid "Expected \\ after `a', `c' or `i'"
+msgstr "Ожидалась \\ после `a', `c' или `i'"
+
+#: sed/compile.c:179
+msgid "`}' doesn't want any addresses"
+msgstr "`}' не допускает указания каких-либо адресов"
+
+#: sed/compile.c:180
+msgid ": doesn't want any addresses"
+msgstr "`:' не допускает указания каких-либо адресов"
+
+#: sed/compile.c:181
+msgid "Comments don't accept any addresses"
+msgstr "Комментарии не допускают указания каких-либо адресов"
+
+#: sed/compile.c:182
+msgid "Missing command"
+msgstr "Отсутствует команда"
+
+#: sed/compile.c:183
+msgid "Command only uses one address"
+msgstr "Команда использует только один адрес"
+
+#: sed/compile.c:184
+msgid "Unterminated address regex"
+msgstr "Незавершенное адресное регулярное выражение"
+
+#: sed/compile.c:185
+msgid "Unterminated `s' command"
+msgstr "Незавершенная команда `s'"
+
+#: sed/compile.c:186
+msgid "Unterminated `y' command"
+msgstr "Незавершенная команда `y'"
+
+#: sed/compile.c:187
+msgid "Unknown option to `s'"
+msgstr "Неизвестный модификатор к `s'"
+
+#: sed/compile.c:188
+msgid "multiple `p' options to `s' command"
+msgstr "несколько модификаторов `p' с командой `s'"
+
+#: sed/compile.c:189
+msgid "multiple `g' options to `s' command"
+msgstr "несколько модификаторов `g' с командой `s'"
+
+#: sed/compile.c:190
+msgid "multiple number options to `s' command"
+msgstr "несколько числовых модификаторов с командой `s'"
+
+#: sed/compile.c:191
+msgid "number option to `s' command may not be zero"
+msgstr "числовой модификатор для команды `s' не может быть нулевым"
+
+#: sed/compile.c:192
+msgid "strings for y command are different lengths"
+msgstr "длины строк для команды `y' не совпадают"
+
+#: sed/compile.c:193
+msgid "expected newer version of sed"
+msgstr "ожидалась более новая версия sed"
+
+#: sed/compile.c:236
+#, c-format
+msgid "Called savchar() with unexpected pushback (%x)"
+msgstr "Функции savchar() не удалось возвратить символ (%x) во входной поток"
+
+#: sed/compile.c:1331
+msgid "Unknown command:"
+msgstr "Неизвестная команда:"
+
+#: sed/compile.c:1352
+#, c-format
+msgid "%s: file %s line %lu: %s\n"
+msgstr "%s: файл %s строка %lu: %s\n"
+
+#: sed/compile.c:1355
+#, c-format
+msgid "%s: -e expression #%lu, char %lu: %s\n"
+msgstr "%s: -e выражение #%lu, символ %lu: %s\n"
+
+#: sed/compile.c:1555
+#, c-format
+msgid "Can't find label for jump to `%s'"
+msgstr "Не найдена метка для перехода к `%s'"
+
+#: sed/execute.c:505
+#, c-format
+msgid "%s: can't read %s: %s\n"
+msgstr "%s: ошибка чтения %s: %s\n"
+
+#: sed/execute.c:530 sed/execute.c:542
+#, c-format
+msgid "Couldn't open temporary file %s: %s"
+msgstr "Невозможно открыть временный файл %s: %s"
+
+#: sed/execute.c:728
+msgid "INTERNAL ERROR: bad address type"
+msgstr "ВНУТРЕННЯЯ ОШИБКА: недопустимый тип адреса"
+
+#: sed/execute.c:1022 sed/execute.c:1200
+msgid "error in subprocess"
+msgstr "ошибка в подпроцессе"
+
+#: sed/execute.c:1024
+msgid "option `e' not supported"
+msgstr "опция `e' не поддерживается"
+
+#: sed/execute.c:1202
+msgid "`e' command not supported"
+msgstr "команда `e' не поддерживается"
+
+#: sed/execute.c:1438
+#, c-format
+msgid "INTERNAL ERROR: Bad cmd %c"
+msgstr "ВНУТРЕННЯЯ ОШИБКА: недопустимая команда `%c'"
+
+#: sed/regexp.c:39 lib/regcomp.c:665
+msgid "No previous regular expression"
+msgstr "Нет предыдущего регулярного выражения"
+
+#: sed/regexp.c:40
+msgid "Cannot specify modifiers on empty regexp"
+msgstr "Невозможно указать модификаторы в пустом регулярном выражении"
+
+#: sed/regexp.c:134
+#, c-format
+msgid "Invalid reference \\%d on `s' command's RHS"
+msgstr "Недопустимая ссылка \\%d на RHS команды `s'"
+
+#: sed/sed.c:95
+msgid ""
+"  -R, --regexp-perl\n"
+"                 use Perl 5's regular expressions syntax in the script.\n"
+msgstr ""
+"  -R, --regexp-perl\n"
+"                 использование в скрипте синтаксиса регулярных выражений Perl 5.\n"
+
+#: sed/sed.c:100
+#, c-format
+msgid ""
+"Usage: %s [OPTION]... {script-only-if-no-other-script} [input-file]...\n"
+"\n"
+"  -n, --quiet, --silent\n"
+"                 suppress automatic printing of pattern space\n"
+"  -e script, --expression=script\n"
+"                 add the script to the commands to be executed\n"
+"  -f script-file, --file=script-file\n"
+"                 add the contents of script-file to the commands to be executed\n"
+"  -i[suffix], --in-place[=suffix]\n"
+"                 edit files in place (makes backup if extension supplied)\n"
+"  -l N, --line-length=N\n"
+"                 specify the desired line-wrap length for the `l' command\n"
+"  -r, --regexp-extended\n"
+"                 use extended regular expressions in the script.\n"
+"%s  -s, --separate\n"
+"                 consider files as separate rather than as a single continuous\n"
+"                 long stream.\n"
+"  -u, --unbuffered\n"
+"                 load minimal amounts of data from the input files and flush\n"
+"                 the output buffers more often\n"
+"      --help     display this help and exit\n"
+"  -V, --version  output version information and exit\n"
+"\n"
+"If no -e, --expression, -f, or --file option is given, then the first\n"
+"non-option argument is taken as the sed script to interpret.  All\n"
+"remaining arguments are names of input files; if no input files are\n"
+"specified, then the standard input is read.\n"
+"\n"
+msgstr ""
+"Использование: %s [ОПЦИЯ]... {скрипт_если_другого_нет} [входной_файл]...\n"
+"\n"
+"  -n, --quiet, --silent\n"
+"                 подавление автоматического вывода пространства шаблонов\n"
+"  -e скрипт,   --expression=скрипт\n"
+"                 добавление скрипта к выполняемым командам\n"
+"  -f файл_скрипта, --file=файл_скрипта\n"
+"                 добавление содержимое файла скрипта к выполняемым командам\n"
+"  -i[суффикс], --in-place[=суффикс]\n"
+"                 редактирование копий вместо файлов (создает резервную копию,\n"
+"                 если указано расширение)\n"
+"  -l N, --line-length=N\n"
+"                 указание желаемой длины переноса строки для команды `l'\n"
+"  -r, --regexp-extended\n"
+"                 использование в скрипте расширенного регулярного выражения.\n"
+"%s  -s, --separate\n"
+"                 подразумевание под файлами отдельных объектов, а не одного\n"
+"                 непрерывного длинного потока.\n"
+"  -u, --unbuffered\n"
+"                 загрузка минимального объема данных из входных файлов и\n"
+"                 более частый сброс на диск выходных буферов\n"
+"      --help     вывод этой справки и выход\n"
+"  -V, --version  вывод информации о версии и выход\n"
+"\n"
+"Если не указана ни одна из опций -e, --expression, -f или --file,\n"
+"то первый аргумент, не являющийся опцией, будет использован как\n"
+"интерпретируемый скрипт sed. Все оставшиеся аргументы являются именами\n"
+"входных файлов; если входные файлы не указаны, выполняется чтение со\n"
+"стандартного ввода.\n"
+"\n"
+
+#: sed/sed.c:129
+#, c-format
+msgid ""
+"E-mail bug reports to: %s .\n"
+"Be sure to include the word ``%s'' somewhere in the ``Subject:'' field.\n"
+msgstr ""
+"Отчеты об ошибках отправляйте по адресу: %s .\n"
+"Убедитесь, что включили где-либо в поле ``Тема:'' слово ``%s''.\n"
+
+#: sed/sed.c:254
+#, c-format
+msgid "super-sed version %s\n"
+msgstr "super-sed версия %s\n"
+
+#: sed/sed.c:255
+msgid ""
+"based on GNU sed version 3.02.80\n"
+"\n"
+msgstr ""
+"основан на GNU sed версии 3.02.80\n"
+"\n"
+
+#: sed/sed.c:257
+#, c-format
+msgid "GNU sed version %s\n"
+msgstr "GNU sed версия %s\n"
+
+#: sed/sed.c:259
+#, c-format
+msgid ""
+"%s\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE,\n"
+"to the extent permitted by law.\n"
+msgstr ""
+"%s\n"
+"Это свободное программное обеспечение; условия его копирования смотрите в\n"
+"исходных текстах. Не предоставляется НИКАКОЙ гарантии; даже гарантии\n"
+"ПРИГОДНОСТИ ДЛЯ ПРОДАЖИ или ПРИМЕНИМОСТИ ДЛЯ КОНКРЕТНОЙ ЦЕЛИ, в той мере,\n"
+"в которой это может быть допущено законодательством.\n"
+
+#: lib/utils.c:126
+#, c-format
+msgid "Couldn't open file %s: %s"
+msgstr "Невозможно открыть файл %s: %s"
+
+#: lib/utils.c:160
+#, c-format
+msgid "couldn't write %d item to %s: %s"
+msgid_plural "couldn't write %d items to %s: %s"
+msgstr[0] "невозможно записать %d элемент в %s: %s"
+msgstr[1] "невозможно записать %d элементов в %s: %s"
+
+#: lib/utils.c:175
+#, c-format
+msgid "read error on %s: %s"
+msgstr "ошибка чтения %s: %s"
+
+#: lib/regcomp.c:149
+msgid "Success"
+msgstr "Успешно"
+
+#: lib/regcomp.c:152
+msgid "No match"
+msgstr "Нет соотвествия"
+
+#: lib/regcomp.c:155
+msgid "Invalid regular expression"
+msgstr "Недопустимое регулярное выражение"
+
+#: lib/regcomp.c:158
+msgid "Invalid collation character"
+msgstr "Недопустимый символ сравнения"
+
+#: lib/regcomp.c:161
+msgid "Invalid character class name"
+msgstr "Недопустимое имя для класса символа"
+
+#: lib/regcomp.c:164
+msgid "Trailing backslash"
+msgstr "Завершающая обратная косая черта"
+
+#: lib/regcomp.c:167
+msgid "Invalid back reference"
+msgstr "Недопустимая обратная ссылка"
+
+#: lib/regcomp.c:170
+msgid "Unmatched [ or [^"
+msgstr "Непарный символ [ или [^"
+
+#: lib/regcomp.c:173
+msgid "Unmatched ( or \\("
+msgstr "Непарный символ ( or \\("
+
+#: lib/regcomp.c:176
+msgid "Unmatched \\{"
+msgstr "Непарный символ \\{"
+
+#: lib/regcomp.c:179
+msgid "Invalid content of \\{\\}"
+msgstr "Недопустимое содержимое в \\{\\}"
+
+#: lib/regcomp.c:182
+msgid "Invalid range end"
+msgstr "Недопустимое окончание диапазона"
+
+#: lib/regcomp.c:185
+msgid "Memory exhausted"
+msgstr "Память исчерпана"
+
+#: lib/regcomp.c:188
+msgid "Invalid preceding regular expression"
+msgstr "Недопустимое предшествующее регулярное выражение"
+
+#: lib/regcomp.c:191
+msgid "Premature end of regular expression"
+msgstr "Преждевременное окончание регулярного выражения"
+
+#: lib/regcomp.c:194
+msgid "Regular expression too big"
+msgstr "Регулярное выражение слишком большое"
+
+#: lib/regcomp.c:197
+msgid "Unmatched ) or \\)"
+msgstr "Непарный символ ) или \\)"
+
+#~ msgid "bad regexp: %s\n"
+#~ msgstr "неверное регулярное выражение: %s\n"
+
+#~ msgid "Invalid use of address modifier"
+#~ msgstr "Недопустимое использование адресного модификатора"
+
+#~ msgid "Unexpected End-of-file"
+#~ msgstr "Непредвиденный конец файла"
+
+#~ msgid "input read error: %s"
+#~ msgstr "ошибка чтения входных данных: %s"
