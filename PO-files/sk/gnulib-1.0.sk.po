@@ -1,4 +1,4 @@
-# Slovak translations for GNU textutils
+# Slovak translations for gnulib.
 # Copyright (C) 1996 Free Software Foundation, Inc.
 # Miroslav Vasko <vasko@debian.cz>, 1999
 #
