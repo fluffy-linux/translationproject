@@ -986,9 +986,8 @@ msgid "%s -> %s (unbackup)\n"
 msgstr "%s -> %s (restaurado da copia de seguridade)\n"
 
 #: src/cp.c:53
-#, fuzzy
 msgid "Torbjorn Granlund, David MacKenzie, and Jim Meyering"
-msgstr "David Ihnat, David MacKenzie e Jim Meyering"
+msgstr ""
 
 #: src/cp.c:164 src/mv.c:314
 #, fuzzy, c-format
