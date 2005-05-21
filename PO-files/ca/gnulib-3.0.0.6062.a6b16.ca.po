@@ -1,0 +1,1184 @@
+# GNU Mailutils Catalan translation.
+# Copyright © 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mailutils package.
+# Jordi Mallach <jordi@gnu.org>, 2002, 2003, 2004, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mailutils 0.6.90\n"
+"Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
+"POT-Creation-Date: 2011-08-19 13:43+0300\n"
+"PO-Revision-Date: 2005-05-21 04:10+0200\n"
+"Last-Translator: Jordi Mallach <jordi@gnu.org>\n"
+"Language-Team: Catalan <ca@dodds.net>\n"
+"Language: ca\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+
+# Usa quote() en els 2 args.  ivb
+#: lib/argmatch.c:133
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "l'argument %s no és vàlid per %s"
+
+# Usa quote() en els 2 args.  ivb
+#: lib/argmatch.c:134
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "l'argument %s és ambigu per %s"
+
+#: lib/argmatch.c:153
+#, c-format
+msgid "Valid arguments are:"
+msgstr "Els arguments vàlids són:"
+
+#: lib/argp-help.c:147
+#, c-format
+msgid "ARGP_HELP_FMT: %s value is less than or equal to %s"
+msgstr ""
+
+#: lib/argp-help.c:220
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
+msgstr "%.*s: El paràmetre ARGP_HELP_FMT requereix un valor"
+
+#: lib/argp-help.c:226
+#, fuzzy, c-format
+#| msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
+msgid "%.*s: ARGP_HELP_FMT parameter must be positive"
+msgstr "%.*s: El paràmetre ARGP_HELP_FMT requereix un valor"
+
+#: lib/argp-help.c:235
+#, c-format
+msgid "%.*s: Unknown ARGP_HELP_FMT parameter"
+msgstr "%.*s: El paràmetre d'ARGP_HELP_FMT és desconegut"
+
+# pfft, escombraries... jm
+#: lib/argp-help.c:247
+#, c-format
+msgid "Garbage in ARGP_HELP_FMT: %s"
+msgstr "Hi ha escombraries en ARGP_HELP_FMT: %s"
+
+#: lib/argp-help.c:1246
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Els arguments necessaris o opcionals per a les opcions llargues també són necessaris o opcionals per a qualsevol opció curta corresponent."
+
+#: lib/argp-help.c:1639
+msgid "Usage:"
+msgstr "Forma d'ús:"
+
+#: lib/argp-help.c:1643
+msgid "  or: "
+msgstr "  ó: "
+
+#: lib/argp-help.c:1655
+msgid " [OPTION...]"
+msgstr " [OPCIÓ...]"
+
+#: lib/argp-help.c:1682
+#, c-format
+msgid "Try `%s --help' or `%s --usage' for more information.\n"
+msgstr "Proveu «%s --help» o «%s --usage» per a obtindre més informació.\n"
+
+#: lib/argp-help.c:1710
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr "Informeu dels errors a %s.\n"
+
+#: lib/argp-help.c:1929 lib/error.c:185
+msgid "Unknown system error"
+msgstr "S'ha produït un error desconegut del sistema"
+
+#: lib/argp-parse.c:81
+#, fuzzy
+#| msgid "Give this help list"
+msgid "give this help list"
+msgstr "Mostra aquesta llista d'ajuda"
+
+#: lib/argp-parse.c:82
+#, fuzzy
+#| msgid "Give a short usage message"
+msgid "give a short usage message"
+msgstr "Mostra un curt missatge sobre l'ús"
+
+#: lib/argp-parse.c:83
+msgid "NAME"
+msgstr "NOM"
+
+#: lib/argp-parse.c:83
+#, fuzzy
+#| msgid "Set the program name"
+msgid "set the program name"
+msgstr "Estableix el nom del programa"
+
+#: lib/argp-parse.c:84
+#, fuzzy
+msgid "SECS"
+msgstr "SEGONS"
+
+#: lib/argp-parse.c:85
+#, fuzzy
+#| msgid "Hang for SECS seconds (default 3600)"
+msgid "hang for SECS seconds (default 3600)"
+msgstr "Penja durant SEGS segons (per defecte 3600)"
+
+#: lib/argp-parse.c:142
+#, fuzzy
+#| msgid "Print program version"
+msgid "print program version"
+msgstr "Mostra la versió del programa"
+
+#: lib/argp-parse.c:158
+msgid "(PROGRAM ERROR) No version known!?"
+msgstr "(ERROR DEL PROGRAMA) Cap versió coneguda!?"
+
+#: lib/argp-parse.c:611
+#, c-format
+msgid "%s: Too many arguments\n"
+msgstr "%s: Massa arguments\n"
+
+#: lib/argp-parse.c:754
+msgid "(PROGRAM ERROR) Option should have been recognized!?"
+msgstr "(ERROR DEL PROGRAMA) L'opció s'hauria d'haver reconegut!?"
+
+#: lib/c-stack.c:204 lib/c-stack.c:297
+#, fuzzy
+msgid "program error"
+msgstr "error de lectura"
+
+# "underflow", bonico el paraulo.. jm
+#: lib/c-stack.c:205 lib/c-stack.c:298
+#, fuzzy
+msgid "stack overflow"
+msgstr "pila buida"
+
+#: lib/clean-temp.c:332
+#, c-format
+msgid "cannot find a temporary directory, try setting $TMPDIR"
+msgstr ""
+
+# Els 3 usen quote().  ivb
+#: lib/clean-temp.c:346
+#, fuzzy, c-format
+#| msgid "cannot create directory %s"
+msgid "cannot create a temporary directory using template \"%s\""
+msgstr "no s'ha pogut crear el directori %s"
+
+# Els 3 usen quote().  ivb
+#: lib/clean-temp.c:442
+#, fuzzy, c-format
+#| msgid "cannot create directory %s"
+msgid "cannot remove temporary file %s"
+msgstr "no s'ha pogut crear el directori %s"
+
+# Els 3 usen quote().  ivb
+#: lib/clean-temp.c:457
+#, fuzzy, c-format
+#| msgid "cannot create directory %s"
+msgid "cannot remove temporary directory %s"
+msgstr "no s'ha pogut crear el directori %s"
+
+#: lib/closein.c:100
+msgid "error closing file"
+msgstr ""
+
+#: lib/closeout.c:112
+msgid "write error"
+msgstr "error d'escriptura"
+
+# Els 2 usen quote().  ivb
+#: lib/copy-acl.c:681
+#, fuzzy, c-format
+#| msgid "cannot change permissions of %s"
+msgid "preserving permissions for %s"
+msgstr "no s'han pogut canviar els permisos de %s"
+
+# Usa quote().  ivb
+#: lib/copy-file.c:67
+#, fuzzy, c-format
+msgid "error while opening \"%s\" for reading"
+msgstr "no s'ha pogut obrir %s per llegir"
+
+# Usa quote().  ivb
+#: lib/copy-file.c:74
+#, fuzzy, c-format
+msgid "cannot open backup file \"%s\" for writing"
+msgstr "no s'ha pogut obrir %s per a escriure"
+
+# uniq no usa quote().  ivb
+#: lib/copy-file.c:82
+#, fuzzy, c-format
+msgid "error reading \"%s\""
+msgstr "error en llegir %s"
+
+# uniq no usa quote().  ivb
+#: lib/copy-file.c:87 lib/copy-file.c:94 lib/copy-file.c:133
+#, fuzzy, c-format
+msgid "error writing \"%s\""
+msgstr "error en escriure %s"
+
+# uniq no usa quote().  ivb
+#: lib/copy-file.c:96 lib/copy-file.c:135
+#, fuzzy, c-format
+msgid "error after reading \"%s\""
+msgstr "error en llegir %s"
+
+#: lib/csharpcomp.c:310 lib/javaversion.c:76
+#, fuzzy, c-format
+msgid "fdopen() failed"
+msgstr "no s'ha pogut obrir"
+
+#: lib/csharpcomp.c:571
+#, c-format
+msgid "C# compiler not found, try installing pnet"
+msgstr ""
+
+#: lib/csharpexec.c:343
+#, c-format
+msgid "C# virtual machine not found, try installing pnet"
+msgstr ""
+
+#: lib/execute.c:189 lib/execute.c:262 lib/spawn-pipe.c:232
+#: lib/spawn-pipe.c:346 lib/wait-process.c:282 lib/wait-process.c:356
+#, fuzzy, c-format
+msgid "%s subprocess failed"
+msgstr "%s: ha fallat el desplaçament"
+
+#: lib/file-type.c:38
+msgid "regular empty file"
+msgstr "fitxer ordinari buit"
+
+#: lib/file-type.c:38
+msgid "regular file"
+msgstr "fitxer ordinari"
+
+#: lib/file-type.c:41
+msgid "directory"
+msgstr "directori"
+
+#: lib/file-type.c:44
+msgid "block special file"
+msgstr "fitxer especial de blocs"
+
+#: lib/file-type.c:47
+msgid "character special file"
+msgstr "fitxer especial de caràcters"
+
+#: lib/file-type.c:50
+msgid "fifo"
+msgstr "cua FIFO"
+
+#: lib/file-type.c:53
+msgid "symbolic link"
+msgstr "enllaç simbòlic"
+
+#: lib/file-type.c:56
+msgid "socket"
+msgstr "connector"
+
+#: lib/file-type.c:59
+msgid "message queue"
+msgstr "cua de missatges"
+
+#: lib/file-type.c:62
+msgid "semaphore"
+msgstr "semàfor"
+
+#: lib/file-type.c:65
+msgid "shared memory object"
+msgstr "objecte de memòria compartida"
+
+#: lib/file-type.c:68
+msgid "typed memory object"
+msgstr "objecte de memòria amb tipus"
+
+#: lib/file-type.c:70
+msgid "weird file"
+msgstr "fitxer estrany"
+
+#: lib/gai_strerror.c:58
+#, fuzzy
+msgid "Address family for hostname not supported"
+msgstr "els fitxers FIFO no són suportats"
+
+#: lib/gai_strerror.c:59
+msgid "Temporary failure in name resolution"
+msgstr ""
+
+#: lib/gai_strerror.c:60
+msgid "Bad value for ai_flags"
+msgstr ""
+
+#: lib/gai_strerror.c:61
+msgid "Non-recoverable failure in name resolution"
+msgstr ""
+
+#: lib/gai_strerror.c:62
+#, fuzzy
+msgid "ai_family not supported"
+msgstr "els fitxers FIFO no són suportats"
+
+#: lib/gai_strerror.c:63
+#, fuzzy
+msgid "Memory allocation failure"
+msgstr "L'operació ha fallat"
+
+#: lib/gai_strerror.c:64
+msgid "No address associated with hostname"
+msgstr ""
+
+#: lib/gai_strerror.c:65
+msgid "Name or service not known"
+msgstr ""
+
+#: lib/gai_strerror.c:66
+msgid "Servname not supported for ai_socktype"
+msgstr ""
+
+#: lib/gai_strerror.c:67
+#, fuzzy
+msgid "ai_socktype not supported"
+msgstr "els fitxers FIFO no són suportats"
+
+#: lib/gai_strerror.c:68
+#, fuzzy
+msgid "System error"
+msgstr "error d'escriptura"
+
+#: lib/gai_strerror.c:69
+msgid "Argument buffer too small"
+msgstr ""
+
+#: lib/gai_strerror.c:71
+msgid "Processing request in progress"
+msgstr ""
+
+#: lib/gai_strerror.c:72
+#, fuzzy
+msgid "Request canceled"
+msgstr "No es troba l'element sol·licitat"
+
+#: lib/gai_strerror.c:73
+#, fuzzy
+msgid "Request not canceled"
+msgstr "No es troba l'element sol·licitat"
+
+#: lib/gai_strerror.c:74
+msgid "All requests done"
+msgstr ""
+
+#: lib/gai_strerror.c:75
+msgid "Interrupted by a signal"
+msgstr ""
+
+#: lib/gai_strerror.c:76
+msgid "Parameter string not correctly encoded"
+msgstr ""
+
+#: lib/gai_strerror.c:88
+#, fuzzy
+msgid "Unknown error"
+msgstr "S'ha produït un error desconegut del sistema"
+
+#: lib/getopt.c:547 lib/getopt.c:576
+#, fuzzy, c-format
+#| msgid "%s: option `%s' is ambiguous\n"
+msgid "%s: option '%s' is ambiguous; possibilities:"
+msgstr "%s: l'opció «%s» és ambigua\n"
+
+#: lib/getopt.c:624 lib/getopt.c:628
+#, fuzzy, c-format
+#| msgid "%s: option `--%s' doesn't allow an argument\n"
+msgid "%s: option '--%s' doesn't allow an argument\n"
+msgstr "%s: l'opció «--%s» no accepta arguments\n"
+
+#: lib/getopt.c:637 lib/getopt.c:642
+#, fuzzy, c-format
+#| msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgid "%s: option '%c%s' doesn't allow an argument\n"
+msgstr "%s: l'opció «%c%s» no accepta arguments\n"
+
+#: lib/getopt.c:685 lib/getopt.c:704
+#, fuzzy, c-format
+#| msgid "%s: option `%s' requires an argument\n"
+msgid "%s: option '--%s' requires an argument\n"
+msgstr "%s: l'opció «%s» requereix un argument\n"
+
+#: lib/getopt.c:742 lib/getopt.c:745
+#, fuzzy, c-format
+#| msgid "%s: unrecognized option `--%s'\n"
+msgid "%s: unrecognized option '--%s'\n"
+msgstr "%s: l'opció «--%s» no es reconeix\n"
+
+#: lib/getopt.c:753 lib/getopt.c:756
+#, fuzzy, c-format
+#| msgid "%s: unrecognized option `%c%s'\n"
+msgid "%s: unrecognized option '%c%s'\n"
+msgstr "%s: l'opció «%c%s» no es reconeix\n"
+
+#: lib/getopt.c:805 lib/getopt.c:808
+#, fuzzy, c-format
+#| msgid "%s: invalid option -- %c\n"
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: l'opció no és vàlida -- %c\n"
+
+#: lib/getopt.c:861 lib/getopt.c:878 lib/getopt.c:1088 lib/getopt.c:1106
+#, fuzzy, c-format
+#| msgid "%s: option requires an argument -- %c\n"
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: l'opció requereix un argument -- %c\n"
+
+#: lib/getopt.c:934 lib/getopt.c:950
+#, fuzzy, c-format
+#| msgid "%s: option `-W %s' is ambiguous\n"
+msgid "%s: option '-W %s' is ambiguous\n"
+msgstr "%s: l'opció «-W %s» és ambigua\n"
+
+#: lib/getopt.c:974 lib/getopt.c:992
+#, fuzzy, c-format
+#| msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgid "%s: option '-W %s' doesn't allow an argument\n"
+msgstr "%s: l'opció «-W %s» no accepta arguments\n"
+
+#: lib/getopt.c:1013 lib/getopt.c:1031
+#, fuzzy, c-format
+#| msgid "%s: option `%s' requires an argument\n"
+msgid "%s: option '-W %s' requires an argument\n"
+msgstr "%s: l'opció «%s» requereix un argument\n"
+
+#: lib/javacomp.c:126 lib/javacomp.c:140 lib/javacomp.c:156
+#, c-format
+msgid "invalid source_version argument to compile_java_class"
+msgstr ""
+
+#: lib/javacomp.c:171 lib/javacomp.c:192
+#, c-format
+msgid "invalid target_version argument to compile_java_class"
+msgstr ""
+
+#: lib/javacomp.c:503
+#, c-format
+msgid "failed to create \"%s\""
+msgstr ""
+
+# uniq no usa quote().  ivb
+#: lib/javacomp.c:510
+#, fuzzy, c-format
+msgid "error while writing \"%s\" file"
+msgstr "error en escriure %s"
+
+#: lib/javacomp.c:2343
+#, c-format
+msgid "Java compiler not found, try installing gcj or set $JAVAC"
+msgstr ""
+
+#: lib/javaexec.c:417
+#, c-format
+msgid "Java virtual machine not found, try installing gij or set $JAVA"
+msgstr ""
+
+#: lib/javaversion.c:84
+#, fuzzy, c-format
+msgid "%s subprocess I/O error"
+msgstr "%s: ha fallat el desplaçament"
+
+# Els 2 usen quote().  ivb
+#: lib/mkdir-p.c:196
+#, c-format
+msgid "cannot change permissions of %s"
+msgstr "no s'han pogut canviar els permisos de %s"
+
+# Els 3 usen quote().  ivb
+#: lib/mkdir-p.c:206
+#, c-format
+msgid "cannot create directory %s"
+msgstr "no s'ha pogut crear el directori %s"
+
+#: lib/obstack.c:413 lib/obstack.c:415 lib/xalloc-die.c:34 lib/xsetenv.c:37
+#, c-format
+msgid "memory exhausted"
+msgstr "la memòria s'ha exhaurit"
+
+#: lib/openat-die.c:38
+#, fuzzy, c-format
+msgid "unable to record current working directory"
+msgstr "openat: no s'ha pogut registrar el directori de treball actual"
+
+#: lib/openat-die.c:57
+#, c-format
+msgid "failed to return to initial working directory"
+msgstr "no s'ha pogut tornar al directori inicial de treball"
+
+#: lib/pagealign_alloc.c:139
+#, fuzzy, c-format
+msgid "Failed to open /dev/zero for read"
+msgstr "%s: no s'ha pogut obrir per a escriure"
+
+#: lib/pipe-filter-gi.c:152
+#, c-format
+msgid "creation of reading thread failed"
+msgstr ""
+
+#: lib/pipe-filter-gi.c:257 lib/pipe-filter-ii.c:298
+#, c-format
+msgid "cannot set up nonblocking I/O to %s subprocess"
+msgstr ""
+
+#: lib/pipe-filter-gi.c:329 lib/pipe-filter-ii.c:329
+#, fuzzy, c-format
+msgid "communication with %s subprocess failed"
+msgstr "%s: ha fallat el desplaçament"
+
+#: lib/pipe-filter-gi.c:359 lib/pipe-filter-ii.c:224 lib/pipe-filter-ii.c:374
+#, fuzzy, c-format
+msgid "write to %s subprocess failed"
+msgstr "%s: ha fallat el desplaçament"
+
+#: lib/pipe-filter-gi.c:399 lib/pipe-filter-ii.c:245 lib/pipe-filter-ii.c:417
+#, fuzzy, c-format
+msgid "read from %s subprocess failed"
+msgstr "%s: ha fallat el desplaçament"
+
+#: lib/pipe-filter-gi.c:452
+#, c-format
+msgid "subprocess %s terminated with exit code %d"
+msgstr ""
+
+#: lib/pipe-filter-ii.c:192
+#, c-format
+msgid "creation of threads failed"
+msgstr ""
+
+#: lib/pipe-filter-ii.c:449
+#, c-format
+msgid "%s subprocess terminated with exit code %d"
+msgstr ""
+
+#. This is a proper name. See the gettext manual, section Names.
+#: lib/propername.c:309
+msgid "Franc,ois Pinard"
+msgstr ""
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  If the catalog has no translation,
+#. locale_quoting_style quotes `like this', and
+#. clocale_quoting_style quotes "like this".
+#.
+#. For example, an American English Unicode locale should
+#. translate "`" to U+201C (LEFT DOUBLE QUOTATION MARK), and
+#. should translate "'" to U+201D (RIGHT DOUBLE QUOTATION
+#. MARK).  A British English Unicode locale should instead
+#. translate these to U+2018 (LEFT SINGLE QUOTATION MARK)
+#. and U+2019 (RIGHT SINGLE QUOTATION MARK), respectively.
+#.
+#. If you don't know what to put here, please see
+#. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:271
+msgid "`"
+msgstr "«"
+
+#: lib/quotearg.c:272
+msgid "'"
+msgstr "»"
+
+#: lib/regcomp.c:131
+msgid "Success"
+msgstr ""
+
+#: lib/regcomp.c:134
+msgid "No match"
+msgstr ""
+
+#: lib/regcomp.c:137
+#, fuzzy
+msgid "Invalid regular expression"
+msgstr "%s: l'expressió regular no és vàlida: %s"
+
+#: lib/regcomp.c:140
+#, fuzzy
+msgid "Invalid collation character"
+msgstr "la classe de caràcters «%s» no és vàlida"
+
+#: lib/regcomp.c:143
+#, fuzzy
+msgid "Invalid character class name"
+msgstr "la classe de caràcters «%s» no és vàlida"
+
+#: lib/regcomp.c:146
+msgid "Trailing backslash"
+msgstr ""
+
+#: lib/regcomp.c:149
+#, fuzzy
+msgid "Invalid back reference"
+msgstr "El número no és vàlid"
+
+#: lib/regcomp.c:152
+msgid "Unmatched [ or [^"
+msgstr ""
+
+#: lib/regcomp.c:155
+msgid "Unmatched ( or \\("
+msgstr ""
+
+#: lib/regcomp.c:158
+msgid "Unmatched \\{"
+msgstr ""
+
+#: lib/regcomp.c:161
+#, fuzzy
+msgid "Invalid content of \\{\\}"
+msgstr "L'opció no és vàlida -- %s"
+
+#: lib/regcomp.c:164
+#, fuzzy
+msgid "Invalid range end"
+msgstr "el rang de pàgines no és vàlid: «%s»"
+
+#: lib/regcomp.c:167
+#, fuzzy
+msgid "Memory exhausted"
+msgstr "la memòria s'ha exhaurit"
+
+#: lib/regcomp.c:170
+#, fuzzy
+msgid "Invalid preceding regular expression"
+msgstr "%s: l'expressió regular no és vàlida: %s"
+
+#: lib/regcomp.c:173
+#, fuzzy
+msgid "Premature end of regular expression"
+msgstr "error en la recerca de l'expressió regular"
+
+#: lib/regcomp.c:176
+#, fuzzy
+msgid "Regular expression too big"
+msgstr "%s: l'expressió regular no és vàlida: %s"
+
+#: lib/regcomp.c:179
+msgid "Unmatched ) or \\)"
+msgstr ""
+
+#: lib/regcomp.c:700
+#, fuzzy
+msgid "No previous regular expression"
+msgstr "error en la recerca de l'expressió regular"
+
+#. TRANSLATORS: A regular expression testing for an affirmative answer
+#. (english: "yes").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^yesexpr='
+#: lib/rpmatch.c:147
+msgid "^[yY]"
+msgstr "^[sS]"
+
+#. TRANSLATORS: A regular expression testing for a negative answer
+#. (english: "no").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^noexpr='
+#: lib/rpmatch.c:160
+msgid "^[nN]"
+msgstr "^[nN]"
+
+# Els 2 usen quote().  ivb
+#: lib/set-mode-acl.c:678
+#, fuzzy, c-format
+#| msgid "cannot change permissions of %s"
+msgid "setting permissions for %s"
+msgstr "no s'han pogut canviar els permisos de %s"
+
+#: lib/siglist.h:31
+msgid "Hangup"
+msgstr ""
+
+#: lib/siglist.h:34
+msgid "Interrupt"
+msgstr ""
+
+#: lib/siglist.h:37
+msgid "Quit"
+msgstr ""
+
+#: lib/siglist.h:40
+msgid "Illegal instruction"
+msgstr ""
+
+#: lib/siglist.h:43
+msgid "Trace/breakpoint trap"
+msgstr ""
+
+#: lib/siglist.h:46
+msgid "Aborted"
+msgstr ""
+
+#: lib/siglist.h:49
+msgid "Floating point exception"
+msgstr ""
+
+#: lib/siglist.h:52
+msgid "Killed"
+msgstr ""
+
+#: lib/siglist.h:55
+#, fuzzy
+msgid "Bus error"
+msgstr "error d'escriptura"
+
+#: lib/siglist.h:58
+msgid "Segmentation fault"
+msgstr ""
+
+#: lib/siglist.h:61
+msgid "Broken pipe"
+msgstr ""
+
+#: lib/siglist.h:64
+msgid "Alarm clock"
+msgstr ""
+
+#: lib/siglist.h:67
+msgid "Terminated"
+msgstr ""
+
+#: lib/siglist.h:70
+msgid "Urgent I/O condition"
+msgstr ""
+
+#: lib/siglist.h:73
+msgid "Stopped (signal)"
+msgstr ""
+
+#: lib/siglist.h:76
+msgid "Stopped"
+msgstr ""
+
+#: lib/siglist.h:79
+msgid "Continued"
+msgstr ""
+
+#: lib/siglist.h:82
+msgid "Child exited"
+msgstr ""
+
+#: lib/siglist.h:85
+msgid "Stopped (tty input)"
+msgstr ""
+
+#: lib/siglist.h:88
+msgid "Stopped (tty output)"
+msgstr ""
+
+#: lib/siglist.h:91
+msgid "I/O possible"
+msgstr ""
+
+#: lib/siglist.h:94
+msgid "CPU time limit exceeded"
+msgstr ""
+
+#: lib/siglist.h:97
+msgid "File size limit exceeded"
+msgstr ""
+
+#: lib/siglist.h:100
+msgid "Virtual timer expired"
+msgstr ""
+
+#: lib/siglist.h:103
+msgid "Profiling timer expired"
+msgstr ""
+
+#: lib/siglist.h:106
+msgid "Window changed"
+msgstr ""
+
+#: lib/siglist.h:109
+msgid "User defined signal 1"
+msgstr ""
+
+#: lib/siglist.h:112
+msgid "User defined signal 2"
+msgstr ""
+
+#: lib/siglist.h:117
+msgid "EMT trap"
+msgstr ""
+
+#: lib/siglist.h:120
+msgid "Bad system call"
+msgstr ""
+
+#: lib/siglist.h:123
+msgid "Stack fault"
+msgstr ""
+
+#: lib/siglist.h:126
+msgid "Information request"
+msgstr ""
+
+#: lib/siglist.h:128
+msgid "Power failure"
+msgstr ""
+
+#: lib/siglist.h:131
+msgid "Resource lost"
+msgstr ""
+
+#: lib/sigpipe-die.c:37
+msgid "error writing to a closed pipe or socket"
+msgstr ""
+
+#: lib/spawn-pipe.c:138 lib/spawn-pipe.c:141 lib/spawn-pipe.c:262
+#: lib/spawn-pipe.c:265
+#, fuzzy, c-format
+msgid "cannot create pipe"
+msgstr "No es pot crear la llista"
+
+#: lib/strsignal.c:110
+#, c-format
+msgid "Real-time signal %d"
+msgstr ""
+
+#: lib/strsignal.c:114
+#, c-format
+msgid "Unknown signal %d"
+msgstr ""
+
+#: lib/unicodeio.c:103
+msgid "iconv function not usable"
+msgstr "la funció iconv() no és útil"
+
+#: lib/unicodeio.c:105
+msgid "iconv function not available"
+msgstr "la funció iconv() no es troba disponible"
+
+#: lib/unicodeio.c:112
+msgid "character out of range"
+msgstr "el caràcter es troba fora del rang"
+
+#: lib/unicodeio.c:182
+#, c-format
+msgid "cannot convert U+%04X to local character set"
+msgstr "no s'ha pogut convertir U+%04X al joc de caràcters local"
+
+#: lib/unicodeio.c:184
+#, c-format
+msgid "cannot convert U+%04X to local character set: %s"
+msgstr "no s'ha pogut convertir U+%04X al joc de caràcters local: %s"
+
+#: lib/userspec.c:106
+msgid "invalid user"
+msgstr "l'usuari no és vàlid"
+
+#: lib/userspec.c:107
+msgid "invalid group"
+msgstr "el grup no és vàlid"
+
+#: lib/userspec.c:108
+#, fuzzy
+#| msgid "invalid user"
+msgid "invalid spec"
+msgstr "l'usuari no és vàlid"
+
+#: lib/verror.c:73
+#, c-format
+msgid "unable to display error message"
+msgstr ""
+
+#: lib/version-etc.c:74
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr ""
+
+#: lib/version-etc.c:77
+#, c-format
+msgid "Packaged by %s\n"
+msgstr ""
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:84
+msgid "(C)"
+msgstr ""
+
+#: lib/version-etc.c:86
+msgid ""
+"\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:102
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Escrit per %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:106
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Escrit per %s i %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:110
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Escrit per %s, %s i %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:117
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Escrit per %s, %s, %s\n"
+"i %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:124
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Escrit per %s, %s, %s,\n"
+"%s i %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:131
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Escrit per %s, %s, %s,\n"
+"%s, %s i %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:139
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Escrit per %s, %s, %s,\n"
+"%s, %s, %s i %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:147
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Escrit per %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"i %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:156
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Escrit per %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s i %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:167
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Escrit per %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s i d'altres.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:245
+#, fuzzy, c-format
+#| msgid "Report bugs to %s.\n"
+msgid ""
+"\n"
+"Report bugs to: %s\n"
+msgstr "Informeu dels errors a %s.\n"
+
+#: lib/version-etc.c:247
+#, fuzzy, c-format
+#| msgid "Report bugs to %s.\n"
+msgid "Report %s bugs to: %s\n"
+msgstr "Informeu dels errors a %s.\n"
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+#: lib/version-etc.c:253
+#, c-format
+msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+msgstr ""
+
+#: lib/version-etc.c:256
+msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+
+#: lib/w32spawn.h:40
+#, c-format
+msgid "_open_osfhandle failed"
+msgstr ""
+
+#: lib/w32spawn.h:81
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr ""
+
+#: lib/wait-process.c:223 lib/wait-process.c:255 lib/wait-process.c:317
+#, fuzzy, c-format
+msgid "%s subprocess"
+msgstr "%s: ha fallat el desplaçament"
+
+#: lib/wait-process.c:274 lib/wait-process.c:346
+#, fuzzy, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "%s: ha fallat el desplaçament"
+
+#: lib/xfreopen.c:35
+msgid "stdin"
+msgstr ""
+
+#: lib/xfreopen.c:36
+msgid "stdout"
+msgstr ""
+
+#: lib/xfreopen.c:37
+msgid "stderr"
+msgstr ""
+
+#: lib/xfreopen.c:38
+#, fuzzy
+#| msgid "Unknown system error"
+msgid "unknown stream"
+msgstr "S'ha produït un error desconegut del sistema"
+
+#: lib/xfreopen.c:39
+#, c-format
+msgid "failed to reopen %s with mode %s"
+msgstr ""
+
+#: lib/xmemcoll.c:39
+#, c-format
+msgid "string comparison failed"
+msgstr "ha fallat la comparació de cadenes"
+
+#: lib/xmemcoll.c:40
+#, c-format
+msgid "Set LC_ALL='C' to work around the problem."
+msgstr "Establiu la variable LC_ALL a «C» per evitar el problema."
+
+# Usa quote() en les 2.  ivb
+#: lib/xmemcoll.c:42
+#, c-format
+msgid "The strings compared were %s and %s."
+msgstr "Les cadenes comparades eren %s i %s."
+
+#: lib/xprintf.c:50 lib/xprintf.c:76
+#, c-format
+msgid "cannot perform formatted output"
+msgstr ""
+
+# Usa quote() en els 2 args.  ivb
+#: lib/xstrtol-error.c:63
+#, fuzzy, c-format
+#| msgid "invalid argument %s for %s"
+msgid "invalid %s%s argument `%s'"
+msgstr "l'argument %s no és vàlid per %s"
+
+# Usa quote() en els 2 args.  ivb
+#: lib/xstrtol-error.c:68
+#, fuzzy, c-format
+#| msgid "invalid argument %s for %s"
+msgid "invalid suffix in %s%s argument `%s'"
+msgstr "l'argument %s no és vàlid per %s"
+
+#: lib/xstrtol-error.c:72
+#, c-format
+msgid "%s%s argument `%s' too large"
+msgstr ""
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: l'opció és il·legal -- %c\n"
+
+# FIXME: xmalloc.h: _STRTOL_ERROR lacks i18n.  ivb
+# Açò quedarà com «invalid mida de bloc `MIDA'» mentre no ho facen.  ivb
+#~ msgid "block size"
+#~ msgstr "mida de bloc"
+
+# Els 4 usen quote().  ivb
+#~ msgid "%s exists but is not a directory"
+#~ msgstr "%s existeix però no és un directori"
+
+# Els 3 usen quote().  ivb
+#~ msgid "cannot change owner and/or group of %s"
+#~ msgstr "no s'ha pogut canviar el propietari o grup de %s"
+
+# Usa quote().  ivb
+#~ msgid "cannot chdir to directory %s"
+#~ msgstr "no s'ha pogut canviar al directori %s"
+
+#~ msgid "cannot get the login group of a numeric UID"
+#~ msgstr "no s'ha pogut obtenir el grup d'entrada d'un UID numèric"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "This is free software.  You may redistribute copies of it under the terms of\n"
+#~ "the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.\n"
+#~ "There is NO WARRANTY, to the extent permitted by law.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Aquest és programari lliure; podeu redistribuir-lo i/o modificar-lo sota els\n"
+#~ "termes de la Llicència Pública General GNU tal i com ha estat publicada per la\n"
+#~ "Free Software Foundation; bé sota la versió 2 de la Llicència o bé (si ho\n"
+#~ "preferiu) sota qualsevol versió posterior.\n"
+#~ "\n"
