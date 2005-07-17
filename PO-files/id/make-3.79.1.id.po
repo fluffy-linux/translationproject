@@ -1,0 +1,1789 @@
+# Pesan Bahasa Indonesia untuk GNU make
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the GNU make package.
+# Arif E. Nugroho <arif_endro@yahoo.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU make 3.79.1\n"
+"POT-Creation-Date: 2000-06-23 12:21-0400\n"
+"PO-Revision-Date: 2005-07-17 20:35+0700\n"
+"Last-Translator: Arif E. Nugroho <arif_endro@yahoo.com>\n"
+"Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ar.c:50
+#, c-format
+msgid "attempt to use unsupported feature: `%s'"
+msgstr "usaha untuk menggunakan feature yang tidak disupport: `%s'"
+
+#: ar.c:141
+msgid "touch archive member is not available on VMS"
+msgstr "tidak dapat memodifikasi tanggal pada anggota archive pada VMS"
+
+#: ar.c:173
+#, c-format
+msgid "touch: Archive `%s' does not exist"
+msgstr "touch: Archive `%s' tidak ada"
+
+#: ar.c:176
+#, c-format
+msgid "touch: `%s' is not a valid archive"
+msgstr "touch: `%s' bukan archive yang valid"
+
+#: ar.c:183
+#, c-format
+msgid "touch: Member `%s' does not exist in `%s'"
+msgstr "touch: Anggota `%s' tidak terdapat dalam `%s'"
+
+#: ar.c:190
+#, c-format
+msgid "touch: Bad return code from ar_member_touch on `%s'"
+msgstr "touch: Kode balik tidak baik dari ar_member_touch pada `%s'"
+
+#: arscan.c:71
+#, c-format
+msgid "lbr$set_module failed to extract module info, status = %d"
+msgstr "lbr$set_module gagal untuk mengekstrak info module, status = %d"
+
+#: arscan.c:155
+#, c-format
+msgid "lbr$ini_control failed with status = %d"
+msgstr "lbr$ini_control gagal dengan status = %d"
+
+#: arscan.c:166
+#, c-format
+msgid "unable to open library `%s' to lookup member `%s'"
+msgstr "tidak dapat membuka library `%s' untuk melihat anggota `%s'"
+
+#: arscan.c:838
+#, c-format
+msgid "Member `%s'%s: %ld bytes at %ld (%ld).\n"
+msgstr "Anggota `%s'%s: %ld bytes pada %ld (%ld).\n"
+
+#: arscan.c:839
+msgid " (name might be truncated)"
+msgstr " (nama mungkin akan di potong)"
+
+#: arscan.c:841
+#, c-format
+msgid "  Date %s"
+msgstr " Tanggal %s"
+
+#: arscan.c:842
+#, c-format
+msgid "  uid = %d, gid = %d, mode = 0%o.\n"
+msgstr " uid = %d, gid = %d, mode = 0%o.\n"
+
+#: commands.c:391
+msgid "*** Break.\n"
+msgstr "*** Berhenti.\n"
+
+#: commands.c:486
+#, c-format
+msgid "*** [%s] Archive member `%s' may be bogus; not deleted"
+msgstr "*** [%s] Anggota archive `%s' mungkin berupa bogus: tidak dihapus"
+
+#: commands.c:489
+#, c-format
+msgid "*** Archive member `%s' may be bogus; not deleted"
+msgstr "*** Anggota archive `%s' mungkin berupa bogus; tidak dihapus"
+
+#: commands.c:501
+#, c-format
+msgid "*** [%s] Deleting file `%s'"
+msgstr "*** [%s] Menghapus file `%s'"
+
+#: commands.c:503
+#, c-format
+msgid "*** Deleting file `%s'"
+msgstr "*** Menghapus file `%s'"
+
+#: commands.c:541
+msgid "#  commands to execute"
+msgstr "# perintah dijalankan"
+
+#: commands.c:544
+msgid " (built-in):"
+msgstr " (built-in):"
+
+#: commands.c:546
+#, c-format
+msgid " (from `%s', line %lu):\n"
+msgstr " (dari `%s', baris %lu):\n"
+
+#: dir.c:912
+msgid ""
+"\n"
+"# Directories\n"
+msgstr ""
+"\n"
+"# Direktori\n"
+
+#: dir.c:920
+#, c-format
+msgid "# %s: could not be stat'd.\n"
+msgstr "# %s: tidak dapat melihat statistik.\n"
+
+#: dir.c:923
+#, c-format
+msgid "# %s (key %s, mtime %d): could not be opened.\n"
+msgstr "# %s (key %s, mtime %d): tidak dapat dibuka.\n"
+
+#: dir.c:927
+#, c-format
+msgid "# %s (device %d, inode [%d,%d,%d]): could not be opened.\n"
+msgstr "# %s (device %d, inode [%d,%d,%d]): tidak dapat dibuka.\n"
+
+#: dir.c:932
+#, c-format
+msgid "# %s (device %ld, inode %ld): could not be opened.\n"
+msgstr "# %s (device %ld, inode %ld): tidak dapat dibuka.\n"
+
+#: dir.c:949
+#, c-format
+msgid "# %s (key %s, mtime %d): "
+msgstr "# %s (key %s, mtime %d): "
+
+#: dir.c:953
+#, c-format
+msgid "# %s (device %d, inode [%d,%d,%d]): "
+msgstr "# %s (device %d, inode [%d,%d,%d]): "
+
+#: dir.c:958
+#, c-format
+msgid "# %s (device %ld, inode %ld): "
+msgstr "# %s (device %ld, inode %ld): "
+
+#: dir.c:964 dir.c:984
+msgid "No"
+msgstr "Tidak"
+
+#: dir.c:967 dir.c:987
+msgid " files, "
+msgstr " files, "
+
+#: dir.c:969 dir.c:989
+msgid "no"
+msgstr "tidak"
+
+#: dir.c:972
+msgid " impossibilities"
+msgstr " tidak mungkin"
+
+#: dir.c:976
+msgid " so far."
+msgstr " sejauh ini."
+
+#: dir.c:992
+#, c-format
+msgid " impossibilities in %u directories.\n"
+msgstr " tidak mungkin dalam direktori %u.\n"
+
+#: expand.c:106
+#, c-format
+msgid "Recursive variable `%s' references itself (eventually)"
+msgstr "Variabel rekursif `%s' menunjuk pada dirinya sendiri"
+
+#: expand.c:131
+#, c-format
+msgid "warning: undefined variable `%.*s'"
+msgstr "peringatan: variabel `%.*s' tidak terdefinisi"
+
+#. Unterminated variable reference.
+#: expand.c:248
+msgid "unterminated variable reference"
+msgstr "referensi variabel tidak diselesaikan"
+
+#: file.c:303
+#, c-format
+msgid "Commands were specified for file `%s' at %s:%lu,"
+msgstr "Perintah di spesifikasikan untuk file `%s' pada %s:%lu,"
+
+#: file.c:309
+#, c-format
+msgid "Commands for file `%s' were found by implicit rule search,"
+msgstr "Perintah untuk file `%s' ditemukan dalam pencarian aturan implisit,"
+
+#: file.c:313
+#, c-format
+msgid "but `%s' is now considered the same file as `%s'."
+msgstr "tetapi `%s' sekarang dipertimbangkan sebagai file yang sama dengan `%s'."
+
+#: file.c:317
+#, c-format
+msgid "Commands for `%s' will be ignored in favor of those for `%s'."
+msgstr "Perintah untuk `%s' akan diabaikan untuk menghargai `%s'."
+
+#: file.c:338
+#, c-format
+msgid "can't rename single-colon `%s' to double-colon `%s'"
+msgstr "tidak dapat mengubah nama dari satu-colon `%s' ke double-colon `%s'"
+
+#: file.c:343
+#, c-format
+msgid "can't rename double-colon `%s' to single-colon `%s'"
+msgstr "tidak dapat mengubah nama dua-colon `%s' menjadi satu-colon `%s'"
+
+#: file.c:412
+#, c-format
+msgid "*** Deleting intermediate file `%s'"
+msgstr "*** Menghapus file intermediate `%s'"
+
+#: file.c:576
+#, c-format
+msgid "%s: Timestamp out of range; substituting %s"
+msgstr "%s: Timestamp diluar jangkauan; digantikan dengan %s"
+
+#: file.c:577
+msgid "Current time"
+msgstr "Waktu saat ini"
+
+#: file.c:669
+msgid "# Not a target:"
+msgstr "# Bukan sebuah target:"
+
+#: file.c:677
+msgid "#  Precious file (prerequisite of .PRECIOUS)."
+msgstr "#  File sebelumnya (dibutuhkan oleh .PRECIOUS)."
+
+#: file.c:679
+msgid "#  Phony target (prerequisite of .PHONY)."
+msgstr "#  Phony target (dibutuhkan oleh .PHONY)."
+
+#: file.c:681
+msgid "#  Command-line target."
+msgstr "#  Command-line target."
+
+#: file.c:683
+msgid "#  A default or MAKEFILES makefile."
+msgstr "# merupakan sebuah default atau MAKEFILES makefile."
+
+#: file.c:685
+msgid "#  Implicit rule search has been done."
+msgstr "#  Pencarian aturan implisit sudah selesai."
+
+#: file.c:686
+msgid "#  Implicit rule search has not been done."
+msgstr "#  Pencarian aturan implisit belum selesai."
+
+#: file.c:688
+#, c-format
+msgid "#  Implicit/static pattern stem: `%s'\n"
+msgstr "#  Pola implisit atau statis stem: `%s'\n"
+
+#: file.c:690
+msgid "#  File is an intermediate prerequisite."
+msgstr "#  File merupakan persyaratan perantara (intermediate)."
+
+#: file.c:693
+msgid "#  Also makes:"
+msgstr "#  Juga membuat:"
+
+#: file.c:699
+msgid "#  Modification time never checked."
+msgstr "#  Waktu ubah sudah di check."
+
+#: file.c:701
+msgid "#  File does not exist."
+msgstr "#  File tidak ada."
+
+#: file.c:703
+msgid "#  File is very old."
+msgstr "#  File sangat tua."
+
+#: file.c:708
+#, c-format
+msgid "#  Last modified %s\n"
+msgstr "#  Terakhir dimodifikasi pada %s\n"
+
+#: file.c:711
+msgid "#  File has been updated."
+msgstr "#  File sudah diupdate."
+
+#: file.c:711
+msgid "#  File has not been updated."
+msgstr "#  File belum di-update."
+
+#: file.c:715
+msgid "#  Commands currently running (THIS IS A BUG)."
+msgstr "#  Perintah sedang berjalan (INI MERUPAKAN SEBUAH BUG)."
+
+#: file.c:718
+msgid "#  Dependencies commands running (THIS IS A BUG)."
+msgstr "#  Perintah dependensi sedang berjalan (INI MERUPAKAN SEBUAH BUG)."
+
+#: file.c:727
+msgid "#  Successfully updated."
+msgstr "#  Sukses mengupdate."
+
+#: file.c:731
+msgid "#  Needs to be updated (-q is set)."
+msgstr "#  Perlu untuk diupdate (-q diset)."
+
+#: file.c:734
+msgid "#  Failed to be updated."
+msgstr "#  Gagal untuk mengupdate."
+
+#: file.c:737
+msgid "#  Invalid value in `update_status' member!"
+msgstr "#  Nilai yang salah dalam anggota `update_status' !"
+
+#: file.c:744
+msgid "#  Invalid value in `command_state' member!"
+msgstr "#  Nilai yang salah dalam anggota `command_state' !"
+
+#: file.c:763
+msgid ""
+"\n"
+"# Files"
+msgstr ""
+"\n"
+"# Files"
+
+#: file.c:786
+msgid ""
+"\n"
+"# No files."
+msgstr ""
+"\n"
+"# Tidak terdapat files."
+
+#: file.c:789
+#, c-format
+msgid ""
+"\n"
+"# %u files in %u hash buckets.\n"
+msgstr ""
+"\n"
+"# %u files dalam %u hash buckets.\n"
+
+#: file.c:791
+#, c-format
+msgid "# average %.3f files per bucket, max %u files in one bucket.\n"
+msgstr "# rata - rata %.3f files per bucket, maksimal %u files dalam satu bucket.\n"
+
+#. Check the first argument.
+#: function.c:737
+msgid "non-numeric first argument to `word' function"
+msgstr "argumen pertama untuk fungsi `word' bukan numerik"
+
+#: function.c:741
+msgid "first argument to `word' function must be greater than 0"
+msgstr "argument pertama untuk fungsi `word' harus lebih besar dari 0"
+
+#: function.c:765
+msgid "non-numeric first argument to `wordlist' function"
+msgstr "argumen pertama untuk fungsi `wordlist' bukan numerik"
+
+#: function.c:767
+msgid "non-numeric second argument to `wordlist' function"
+msgstr "argumen kedua dari fungsi `wordlist' bukan numerik"
+
+#: function.c:1208
+#, c-format
+msgid "create_child_process: DuplicateHandle(In) failed (e=%d)\n"
+msgstr "create_child_process: DuplicateHandle(In) gagal (e=%d)\n"
+
+#: function.c:1219
+#, c-format
+msgid "create_child_process: DuplicateHandle(Err) failed (e=%d)\n"
+msgstr "create_child_process: DuplicateHandle(Err) gagal (e=%d)\n"
+
+#: function.c:1224
+#, c-format
+msgid "CreatePipe() failed (e=%d)\n"
+msgstr "CreatePipe() gagal (e=%d)\n"
+
+#: function.c:1229
+msgid "windows32_openpipe (): process_init_fd() failed\n"
+msgstr "windows32_openpipe (): process_init_fd() gagal\n"
+
+#: function.c:1468
+#, c-format
+msgid "Cleaning up temporary batch file %s\n"
+msgstr "Membersihkan file batch sementara %s\n"
+
+#: function.c:1688
+#, c-format
+msgid "Insufficient number of arguments (%d) to function `%s'"
+msgstr "Argumen kurang (%d) untuk fungsi `%s'"
+
+#: function.c:1699
+#, c-format
+msgid "Unimplemented on this platform: function `%s'"
+msgstr "Tidak terimplementasi dalam platform ini: fungsi `%s'"
+
+#: function.c:1752
+#, c-format
+msgid "unterminated call to function `%s': missing `%c'"
+msgstr "fungsi `%s' tidak diselesaikan: hilang `%c'"
+
+#: getopt.c:675
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: opsi `%s' merupakan ambigu\n"
+
+#: getopt.c:699
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: opsi `--%s' tidak memperbolehkan argumen\n"
+
+#: getopt.c:704
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: opsi `%c%s' tidak memperbolehkan argumen\n"
+
+#: getopt.c:721 getopt.c:894
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: opsi `%s' membutuhkan sebuah argumen\n"
+
+#. --option
+#: getopt.c:750
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: opsi tidak dikenali `--%s'\n"
+
+#. +option or -option
+#: getopt.c:754
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: opsi tidak dikenali `%c%s'\n"
+
+#. 1003.2 specifies the format of this message.
+#: getopt.c:780
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: opsi illegal -- %c\n"
+
+#: getopt.c:783
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: opsi tidak valid -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: getopt.c:813 getopt.c:943
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: opsi membutuhkan sebuah argumen -- %c\n"
+
+#: getopt.c:860
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: opsi `-W %s' merupakan opsi ambigu\n"
+
+#: getopt.c:878
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: opsi `-W %s' tidak memperbolehkan sebuah argumen\n"
+
+#: implicit.c:40
+#, c-format
+msgid "Looking for an implicit rule for `%s'.\n"
+msgstr "Mencari aturan implisit untuk `%s'.\n"
+
+#: implicit.c:56
+#, c-format
+msgid "Looking for archive-member implicit rule for `%s'.\n"
+msgstr "Mencari aturan implisit untuk anggota-archive pada `%s'.\n"
+
+#: implicit.c:202
+msgid "Avoiding implicit rule recursion.\n"
+msgstr "Menghindari aturan implisit rekursi.\n"
+
+#: implicit.c:340
+#, c-format
+msgid "Trying pattern rule with stem `%.*s'.\n"
+msgstr "Mencoba aturan pola dengan stem `%.*s'.\n"
+
+#: implicit.c:381
+#, c-format
+msgid "Rejecting impossible implicit prerequisite `%s'.\n"
+msgstr "Menolak persyaratan implisit yang tidak mungkin `%s'.\n"
+
+#: implicit.c:382
+#, c-format
+msgid "Rejecting impossible rule prerequisite `%s'.\n"
+msgstr "Menolak persyaratan aturan yang tidak mungkin `%s'.\n"
+
+#: implicit.c:392
+#, c-format
+msgid "Trying implicit prerequisite `%s'.\n"
+msgstr "Mencoba persyaratan implisit `%s'.\n"
+
+#: implicit.c:393
+#, c-format
+msgid "Trying rule prerequisite `%s'.\n"
+msgstr "Mencoba persyaratan dari aturan `%s'.\n"
+
+#: implicit.c:414
+#, c-format
+msgid "Found prerequisite `%s' as VPATH `%s'\n"
+msgstr "Menemukan persyaratan `%s' sebagai VPATH `%s'\n"
+
+#: implicit.c:431
+#, c-format
+msgid "Looking for a rule with intermediate file `%s'.\n"
+msgstr "Mencari aturan dengan file antara `%s'.\n"
+
+#: job.c:253
+#, c-format
+msgid "*** [%s] Error 0x%x (ignored)"
+msgstr "*** [%s] Error 0x%x (diabaikan)"
+
+#: job.c:254
+#, c-format
+msgid "*** [%s] Error 0x%x"
+msgstr "*** [%s] Error 0x%x"
+
+#: job.c:258
+#, c-format
+msgid "[%s] Error %d (ignored)"
+msgstr "[%s] Error %d (diabaikan)"
+
+#: job.c:259
+#, c-format
+msgid "*** [%s] Error %d"
+msgstr "*** [%s] Error %d"
+
+#: job.c:264
+msgid " (core dumped)"
+msgstr " (core di-dump)"
+
+#: job.c:316
+msgid "Warning: Empty redirection\n"
+msgstr "Peringatan: redirection kosong\n"
+
+#: job.c:352
+msgid "Syntax error, still inside '\"'\n"
+msgstr "Sintak error, masih didalam '\"'\n"
+
+#: job.c:404
+#, c-format
+msgid "Got a SIGCHLD; %u unreaped children.\n"
+msgstr "Mendapat sinyal SIGCHLD; %u unreaped childern.\n"
+
+#: job.c:453
+msgid "*** Waiting for unfinished jobs...."
+msgstr "*** Menunggu jobs yang belum selesai...."
+
+#: job.c:482
+#, c-format
+msgid "Live child 0x%08lx (%s) PID %ld %s\n"
+msgstr "Proses anak yang masih berjalan 0x%08lx (%s) PID %ld %s\n"
+
+#: job.c:484 job.c:644 job.c:742 job.c:1302
+msgid " (remote)"
+msgstr " (remote)"
+
+#: job.c:641
+#, c-format
+msgid "Reaping losing child 0x%08lx PID %ld %s\n"
+msgstr "Reaping losing child 0x%08lx PID %ld %s\n"
+
+#: job.c:642
+#, c-format
+msgid "Reaping winning child 0x%08lx PID %ld %s\n"
+msgstr "Reaping winning child 0x%08lx PID %ld %s\n"
+
+#: job.c:647
+#, c-format
+msgid "Cleaning up temp batch file %s\n"
+msgstr "Membersihkan file batch sementara %s\n"
+
+#: job.c:740
+#, c-format
+msgid "Removing child 0x%08lx PID %ld %s from chain.\n"
+msgstr "Menghilangkan proses anak 0x%08lx PID %ld%s dari rantai.\n"
+
+#: job.c:797
+msgid "write jobserver"
+msgstr "menulis jobserver"
+
+#: job.c:799
+#, c-format
+msgid "Released token for child 0x%08lx (%s).\n"
+msgstr "Melepaskan token dari proses anak 0x%08lx (%s).\n"
+
+#: job.c:1236 job.c:2226
+#, c-format
+msgid "process_easy() failed failed to launch process (e=%d)\n"
+msgstr "process_easy() gagal untuk menjalankan proses (e=%d)\n"
+
+#: job.c:1240 job.c:2230
+#, c-format
+msgid ""
+"\n"
+"Counted %d args in failed launch\n"
+msgstr ""
+"\n"
+"Terhitung %d argumen gagal untuk dijalankan\n"
+
+#: job.c:1300
+#, c-format
+msgid "Putting child 0x%08lx (%s) PID %ld%s on the chain.\n"
+msgstr "Meletakkan proses anak 0x%08lx (%s) PID %ld%s pada rantai proses.\n"
+
+#: job.c:1498
+#, c-format
+msgid "Obtained token for child 0x%08lx (%s).\n"
+msgstr "Memperoleh token untuk proses anak 0x%08lx (%s).\n"
+
+#: job.c:1504
+msgid "read jobs pipe"
+msgstr "membaca jobs pipe"
+
+#: job.c:1574
+msgid "cannot enforce load limits on this operating system"
+msgstr "tidak dapat memaksa mencapai batas beban pada sistem operasi ini"
+
+#: job.c:1576
+msgid "cannot enforce load limit: "
+msgstr "tidak dapat memaksa mencapai batas beban: "
+
+#: job.c:1679
+#, c-format
+msgid "internal error: `%s' command_state"
+msgstr "kesalahan internal: `%s' command_state"
+
+#: job.c:1764
+msgid "-warning, CTRL-Y will leave sub-process(es) around.\n"
+msgstr "-warning, CTRL-Y akan meninggalkan sub-process(es).\n"
+
+#: job.c:1781
+msgid "-warning, you may have to re-enable CTRL-Y handling from DCL.\n"
+msgstr "-warning, kamu mungkin telah mengaktifkan pengontrolan CTRL-Y dari DCL.\n"
+
+#: job.c:1894
+#, c-format
+msgid "BUILTIN [%s][%s]\n"
+msgstr "BUILTIN [%s][%s]\n"
+
+#: job.c:1905
+#, c-format
+msgid "BUILTIN CD %s\n"
+msgstr "BUILTIN CD %s\n"
+
+#: job.c:1923
+#, c-format
+msgid "BUILTIN RM %s\n"
+msgstr "BUILTIN RM %s\n"
+
+#: job.c:1944
+#, c-format
+msgid "Unknown builtin command '%s'\n"
+msgstr "Perintah builtin '%s' tidak diketahui\n"
+
+#: job.c:1966
+msgid "Error, empty command\n"
+msgstr "Error, tidak ada perintah\n"
+
+#: job.c:1973 main.c:1307
+msgid "fopen (temporary file)"
+msgstr "fopen (file sementara)"
+
+#: job.c:1978
+#, c-format
+msgid "Redirected input from %s\n"
+msgstr "Meneruskan input dari %s\n"
+
+#: job.c:1985
+#, c-format
+msgid "Redirected error to %s\n"
+msgstr "Meneruskan error menuju %s\n"
+
+#: job.c:1992
+#, c-format
+msgid "Redirected output to %s\n"
+msgstr "Meneruskan output menuju %s\n"
+
+#: job.c:2055
+#, c-format
+msgid "Executing %s instead\n"
+msgstr "Menjalankan perintah %s\n"
+
+#: job.c:2152
+#, c-format
+msgid "Error spawning, %d\n"
+msgstr "Gagal spawning, %d\n"
+
+#: job.c:2255
+#, c-format
+msgid "make reaped child pid %d, still waiting for pid %d\n"
+msgstr "make reaped child pid %d, tetap menunggu untuk pid %d\n"
+
+#: job.c:2274
+#, c-format
+msgid "%s: Command not found"
+msgstr "%s: Perintah tidak ada"
+
+#: job.c:2303
+#, c-format
+msgid "%s: Shell program not found"
+msgstr "%s: Shell program tidak ditemukan"
+
+#: job.c:2484
+#, c-format
+msgid "$SHELL changed (was `%s', now `%s')"
+msgstr "$SHELL berubah (sebelumnya `%s', sekarang `%s')"
+
+#: job.c:2890
+#, c-format
+msgid "Creating temporary batch file %s\n"
+msgstr "Membuat file batch sementara %s\n"
+
+#: job.c:2932
+#, c-format
+msgid "%s (line %d) Bad shell context (!unixy && !batch_mode_shell)\n"
+msgstr "%s (baris %d) shell context tidak baik (!unixy && !batch_mode_shell)\n"
+
+#: main.c:259
+msgid "Ignored for compatibility"
+msgstr "Diabaikan untuk kompatibilitas."
+
+#: main.c:261 main.c:288
+msgid "DIRECTORY"
+msgstr "DIREKTORI"
+
+#: main.c:262
+msgid "Change to DIRECTORY before doing anything"
+msgstr "Pindah ke DIRECTORY sebelum melakukan sesuatu."
+
+#: main.c:265
+msgid "Print lots of debugging information"
+msgstr "Menampilkan banyak informasi debug"
+
+#: main.c:268
+msgid "FLAGS"
+msgstr "FLAGS"
+
+#: main.c:269
+msgid "Print various types of debugging information"
+msgstr "Menampilkan berbagai tipe informasi debug."
+
+#: main.c:273
+msgid "Suspend process to allow a debugger to attach"
+msgstr "Proses dihentikan untuk memberikan kesempatan debugger"
+
+#: main.c:277
+msgid "Environment variables override makefiles"
+msgstr "Variabel environment digunakan dalam makefiles"
+
+#: main.c:279 main.c:320 main.c:354
+msgid "FILE"
+msgstr "FILE"
+
+#: main.c:280
+msgid "Read FILE as a makefile"
+msgstr "Baca FILE sebagai sebuah makefile"
+
+#: main.c:283
+msgid "Print this message and exit"
+msgstr "Tampilkan pesan ini dan keluar"
+
+#: main.c:286
+msgid "Ignore errors from commands"
+msgstr "Abaikan kesalahan dari perintah yang dijalankan"
+
+#: main.c:289
+msgid "Search DIRECTORY for included makefiles"
+msgstr "Cari DIREKTORI untuk makefiles yang dibutuhkan"
+
+#: main.c:294
+msgid "Allow N jobs at once; infinite jobs with no arg"
+msgstr "Melakukan N jobs secara bersamaan. Jobs tidak terhingga jika tidak diberikan argumen."
+
+#: main.c:301
+msgid "Keep going when some targets can't be made"
+msgstr "Tetap jalan ketika target tidak dapat dibuat."
+
+#: main.c:306 main.c:311
+msgid "Don't start multiple jobs unless load is below N"
+msgstr "Tidak melakukan banyak jobs jika beban lebih dari N."
+
+#: main.c:318
+msgid "Don't actually run any commands; just print them"
+msgstr "Jangan menjalankan perintah apapun. Hanya tampilkan saja apa yang akan dilakukan"
+
+#: main.c:321
+msgid "Consider FILE to be very old and don't remake it"
+msgstr "Anggap FILE sudah sangat tua dan jangan dibuat kembali file tersebut"
+
+#: main.c:324
+msgid "Print make's internal database"
+msgstr "Tampilkan make's internal database"
+
+#: main.c:327
+msgid "Run no commands; exit status says if up to date"
+msgstr "Tidak menjalankan perintah. Mengeluarkan status saja dan mengatakan up to date"
+
+#: main.c:330
+msgid "Disable the built-in implicit rules"
+msgstr "Aturan implisit builtin tidak digunakan."
+
+#: main.c:333
+msgid "Disable the built-in variable settings"
+msgstr "Builtin variabel seting tidak digunakan"
+
+#: main.c:336
+msgid "Don't echo commands"
+msgstr "Jangan menampilkan perintah yang dijalankan"
+
+#: main.c:340
+msgid "Turns off -k"
+msgstr "Matikan opsi -k"
+
+#: main.c:343
+msgid "Touch targets instead of remaking them"
+msgstr "Touch target dari pada membuat kembali"
+
+#: main.c:346
+msgid "Print the version number of make and exit"
+msgstr "Tampilkan versi dari make dan keluar"
+
+#: main.c:349
+msgid "Print the current directory"
+msgstr "Tampilkan directory saat ini"
+
+#: main.c:352
+msgid "Turn off -w, even if it was turned on implicitly"
+msgstr "Matikan opsi -w, walaupun opsi ini diaktifkan secara implisit"
+
+#: main.c:355
+msgid "Consider FILE to be infinitely new"
+msgstr "Pertimbangkan FILE sebagai file yang baru."
+
+#: main.c:358
+msgid "Warn when an undefined variable is referenced"
+msgstr "Peringatkan akan adanya variabel yang tidak terdefinisi."
+
+#: main.c:456
+msgid "empty string invalid as file name"
+msgstr "`string' kosong tidak valid sebagai nama file"
+
+#: main.c:536
+#, c-format
+msgid "unknown debug level specification `%s'"
+msgstr "spesifikasi level debug tidak diketahui `%s'"
+
+#: main.c:576
+#, c-format
+msgid "%s: Interrupt/Exception caught (code = 0x%x, addr = 0x%x)\n"
+msgstr "%s: Interupsi/Exception diterima (kode = 0x%x, alamat = 0x%x)\n"
+
+#: main.c:583
+#, c-format
+msgid ""
+"\n"
+"Unhandled exception filter called from program %s\n"
+"ExceptionCode = %x\n"
+"ExceptionFlags = %x\n"
+"ExceptionAddress = %x\n"
+msgstr ""
+"\n"
+"Exception filter tidak dapat diatasi dari program %s\n"
+"ExceptionCode = %x\n"
+"ExceptionFlags = %x\n"
+"ExceptionAddress = %x\n"
+
+#: main.c:591
+#, c-format
+msgid "Access violation: write operation at address %x\n"
+msgstr "Akses dilanggar: operasi tulis pada alamat %x\n"
+
+#: main.c:592
+#, c-format
+msgid "Access violation: read operation at address %x\n"
+msgstr "Akses dilanggar: operasi baca pada alamat %x\n"
+
+#: main.c:657
+#, c-format
+msgid "find_and_set_shell setting default_shell = %s\n"
+msgstr "find_and_set_shell diset pada default_shell = %s\n"
+
+#: main.c:700
+#, c-format
+msgid "find_and_set_shell path search set default_shell = %s\n"
+msgstr "find_and_set_shell jalur pencarian di set pada default_shell = %s\n"
+
+#: main.c:1058
+#, c-format
+msgid "%s is suspending for 30 seconds..."
+msgstr "%s dihentikan selama 30 detik..."
+
+#: main.c:1060
+msgid "done sleep(30). Continuing.\n"
+msgstr "selesai tidur(30). Melanjutkan.\n"
+
+#: main.c:1268
+msgid "Makefile from standard input specified twice."
+msgstr "Makefile dari standard input dispesifikasikan dua kali."
+
+#: main.c:1313
+msgid "fwrite (temporary file)"
+msgstr "fwrite (file sementara)"
+
+#: main.c:1415
+msgid "Do not specify -j or --jobs if sh.exe is not available."
+msgstr "Jangan menspesifikasi -j atau --jobs jika sh.exe tidak ada."
+
+#: main.c:1416
+msgid "Resetting make for single job mode."
+msgstr "Mereset kembali make pada mode job tunggal."
+
+#: main.c:1453
+msgid "Parallel jobs (-j) are not supported on this platform."
+msgstr "Parallel jobs (-j) tidak disupport dalam platform ini."
+
+#: main.c:1454
+msgid "Resetting to single job (-j1) mode."
+msgstr "Mereset kembali ke mode satu job (-j1)."
+
+#: main.c:1468
+msgid "internal error: multiple --jobserver-fds options"
+msgstr "internal error: opsi --jobserver-fds lebih dari satu"
+
+#: main.c:1476
+#, c-format
+msgid "internal error: invalid --jobserver-fds string `%s'"
+msgstr "internal error: invalid --jobserver-fds string `%s'"
+
+#: main.c:1486
+msgid "warning: -jN forced in submake: disabling jobserver mode."
+msgstr "Peringatan: -jN dipaksakan dalam submake: disabling jobserver mode."
+
+#: main.c:1496
+msgid "dup jobserver"
+msgstr "dup jobserver"
+
+#: main.c:1499
+msgid "warning: jobserver unavailable: using -j1.  Add `+' to parent make rule."
+msgstr "Peringatan: jobserver tidak ada: menggunakan -j1. Tambahkan `+' pada aturan make paling atas."
+
+#: main.c:1522
+msgid "creating jobs pipe"
+msgstr "membuat jobs pipe"
+
+#: main.c:1532
+msgid "init jobserver pipe"
+msgstr "inisiasi jobserver pipe"
+
+#: main.c:1617
+msgid "Updating makefiles....\n"
+msgstr "Meng-update makefiles....\n"
+
+#: main.c:1642
+#, c-format
+msgid "Makefile `%s' might loop; not remaking it.\n"
+msgstr "Makefile `%s' mungkin berupa loop; tidak membuat lagi.\n"
+
+#. The update failed and this makefile was not
+#. from the MAKEFILES variable, so we care.
+#: main.c:1716
+#, c-format
+msgid "Failed to remake makefile `%s'."
+msgstr "Gagal membuat lagi target file `%s'."
+
+#: main.c:1732
+#, c-format
+msgid "Included makefile `%s' was not found."
+msgstr "Included makefile `%s' tidak ditemukan."
+
+#. A normal makefile.  We must die later.
+#: main.c:1737
+#, c-format
+msgid "Makefile `%s' was not found"
+msgstr "Makefile `%s' tidak ditemukan"
+
+#: main.c:1805
+msgid "Couldn't change back to original directory."
+msgstr "Tidak dapat kembali ke direktori asal."
+
+#: main.c:1839
+msgid "Re-executing:"
+msgstr "Menjalankan kembali:"
+
+#: main.c:1870
+msgid "unlink (temporary file): "
+msgstr "unlink (file sementara): "
+
+#: main.c:1892
+msgid "No targets specified and no makefile found"
+msgstr "Tidak diberikan target dan tidak ditemukan makefile"
+
+#: main.c:1894
+msgid "No targets"
+msgstr "Tidak terdapat targets"
+
+#. Update the goals.
+#: main.c:1899
+msgid "Updating goal targets....\n"
+msgstr "Men-update target akhir....\n"
+
+#: main.c:1925
+msgid "warning:  Clock skew detected.  Your build may be incomplete."
+msgstr "Peringatan: Clock skew terdeteksi. Pembuatan anda mungkin tidak sempurna"
+
+#: main.c:2080
+#, c-format
+msgid "Usage: %s [options] [target] ...\n"
+msgstr "Penggunaan: %s [opsi] [target] ...\n"
+
+#: main.c:2082
+msgid "Options:\n"
+msgstr "Opsi:\n"
+
+#: main.c:2163
+msgid ""
+"\n"
+"Report bugs to <bug-make@gnu.org>.\n"
+msgstr ""
+"\n"
+"Laporkan bugs kepada <bug-make@gnu.org>\n"
+
+#: main.c:2284
+#, c-format
+msgid "the `-%c' option requires a positive integral argument"
+msgstr "opsi `-%c' membutuhkan sebuah argument `string' yang tidak kosong"
+
+#: main.c:2708
+#, c-format
+msgid ""
+", by Richard Stallman and Roland McGrath.\n"
+"%sBuilt for %s\n"
+"%sCopyright (C) 1988, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 2000\n"
+"%s\tFree Software Foundation, Inc.\n"
+"%sThis is free software; see the source for copying conditions.\n"
+"%sThere is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+"%sPARTICULAR PURPOSE.\n"
+"\n"
+"%sReport bugs to <bug-make@gnu.org>.\n"
+"\n"
+msgstr ""
+", oleh Richard Stallman dan Roland McGrath.\n"
+"%sDibuat untuk %s\n"
+"%sCopyright (C) 1988, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 2000\n"
+"%s\tFree Software Foundation, Inc.\n"
+"%sIni adalah free software; lihat kode program untuk syarat mengkopinya.\n"
+"%sTIDAK TERDAPAT GARANSI; bahkan untuk PENJUALAN atau \n"
+"%sKESESUAIAN UNTUK TUJUAN TERTENTU.\n"
+"\n"
+"%sLaporkan bugs kepada <bug-make@gnu.org>\n"
+"\n"
+
+#: main.c:2734
+#, c-format
+msgid ""
+"\n"
+"# Make data base, printed on %s"
+msgstr ""
+"\n"
+"# Make data base, di tampilkan pada %s"
+
+#: main.c:2743
+#, c-format
+msgid ""
+"\n"
+"# Finished Make data base on %s\n"
+msgstr ""
+"\n"
+"# Selesai membuat Make data base pada %s\n"
+
+#: main.c:2798
+msgid "Entering"
+msgstr "Memasuki"
+
+#: main.c:2798
+msgid "Leaving"
+msgstr "Meninggalkan"
+
+#: main.c:2817
+msgid "an unknown directory"
+msgstr "sebuah direktori yang tidak diketahui"
+
+#: main.c:2819
+#, c-format
+msgid "directory `%s'\n"
+msgstr "direktori `%s'\n"
+
+#: misc.c:308
+msgid ".  Stop.\n"
+msgstr ". Berhenti.\n"
+
+#: misc.c:330
+#, c-format
+msgid "Unknown error %d"
+msgstr "Tidak diketahui kesalahan %d"
+
+#: misc.c:370 misc.c:385 misc.c:403 read.c:2717
+msgid "virtual memory exhausted"
+msgstr "Kehabisan memori virtual"
+
+#. All the other debugging messages go to stdout,
+#. but we write this one to stderr because it might be
+#. run in a child fork whose stdout is piped.
+#: misc.c:655
+#, c-format
+msgid "%s access: user %lu (real %lu), group %lu (real %lu)\n"
+msgstr "%s: pengguna %lu (nyata %lu), grup %lu (nyata %lu)\n"
+
+#: misc.c:676
+msgid "Initialized"
+msgstr "Terinisialisasi"
+
+#: read.c:153
+msgid "Reading makefiles...\n"
+msgstr "Membaca makefiles...\n"
+
+#: read.c:335
+#, c-format
+msgid "Reading makefile `%s'"
+msgstr "Membaca makefile `%s'"
+
+#: read.c:337
+msgid " (no default goal)"
+msgstr " (tidak terdapat goal default)"
+
+#: read.c:339
+msgid " (search path)"
+msgstr " (jalur pencarian)"
+
+#: read.c:341
+msgid " (don't care)"
+msgstr " (tidak peduli)"
+
+#: read.c:343
+msgid " (no ~ expansion)"
+msgstr " (tidak terdapat ekspansi tilde ~)"
+
+#: read.c:523
+msgid "invalid syntax in conditional"
+msgstr "sintak salah dalam kondisional"
+
+#: read.c:532
+msgid "extraneous `endef'"
+msgstr "kelebihan `endef'"
+
+#: read.c:544 read.c:572 variable.c:873
+msgid "empty variable name"
+msgstr "nama variabel kosong"
+
+#: read.c:562
+msgid "empty `override' directive"
+msgstr "directive `override' kosong"
+
+#: read.c:586
+msgid "invalid `override' directive"
+msgstr "directive `override' tidak valid"
+
+#: read.c:670
+#, c-format
+msgid "no file name for `%sinclude'"
+msgstr "tidak terdapat nama file untuk `%s include'"
+
+#. This line starts with a tab but was not caught above
+#. because there was no preceding target, and the line
+#. might have been usable as a variable definition.
+#. But now it is definitely lossage.
+#: read.c:738
+msgid "commands commence before first target"
+msgstr "perintah dijalankan sebelum target pertama"
+
+#: read.c:788
+msgid "missing rule before commands"
+msgstr "hilang aturan sebelum menjalankan perintah"
+
+#. There's no need to be ivory-tower about this: check for
+#. one of the most common bugs found in makefiles...
+#: read.c:874
+#, c-format
+msgid "missing separator%s"
+msgstr "pemisah %s hilang"
+
+#: read.c:876
+msgid " (did you mean TAB instead of 8 spaces?)"
+msgstr " (apakah yang anda maksud TAB dari pada 8 buah spasi?)"
+
+#: read.c:1020
+msgid "missing target pattern"
+msgstr "pola target hilang"
+
+#: read.c:1022
+msgid "multiple target patterns"
+msgstr "pola target banyak"
+
+#: read.c:1026
+msgid "target pattern contains no `%%'"
+msgstr "pola target tidak memiliki `%%'"
+
+#: read.c:1067
+msgid "missing `endif'"
+msgstr "hilang `endif'"
+
+#: read.c:1126
+msgid "Extraneous text after `endef' directive"
+msgstr "Kelebihan text sesudah `endef' directive"
+
+#. No `endef'!!
+#: read.c:1156
+msgid "missing `endef', unterminated `define'"
+msgstr "hilang syntak `endef', tidak diselesaikan `define'"
+
+#: read.c:1210 read.c:1366
+#, c-format
+msgid "Extraneous text after `%s' directive"
+msgstr "Kelebihan text sesudah `%s' directive"
+
+#: read.c:1213
+#, c-format
+msgid "extraneous `%s'"
+msgstr "kelebihan `%s'"
+
+#: read.c:1218
+msgid "only one `else' per conditional"
+msgstr "hanya satu `else' dalam setiap kondisi"
+
+#: read.c:1480
+msgid "Malformed per-target variable definition"
+msgstr "Definisi variable target-specific memiliki format salah"
+
+#: read.c:1562
+msgid "mixed implicit and static pattern rules"
+msgstr "aturan pola implisit dan static tercampur"
+
+#: read.c:1565
+msgid "mixed implicit and normal rules"
+msgstr "aturan implisit dan aturan normal tercampur"
+
+#: read.c:1606
+#, c-format
+msgid "target `%s' doesn't match the target pattern"
+msgstr "target `%s' tidak cocok dengan pola target"
+
+#: read.c:1628
+#, c-format
+msgid "target `%s' leaves prerequisite pattern empty"
+msgstr "target `%s' meninggalkan persyaratan pola kosong"
+
+#: read.c:1644 read.c:1744
+#, c-format
+msgid "target file `%s' has both : and :: entries"
+msgstr "target file `%s' keduanya memiliki : dan :: entries"
+
+#: read.c:1650
+#, c-format
+msgid "target `%s' given more than once in the same rule."
+msgstr "target `%s' diberikan lebih dari sekali dalam satu aturan."
+
+#: read.c:1659
+#, c-format
+msgid "warning: overriding commands for target `%s'"
+msgstr "Peringatan: overriding perintah untuk target `%s'"
+
+#: read.c:1662
+#, c-format
+msgid "warning: ignoring old commands for target `%s'"
+msgstr "Peringatan: menghiraukan perintah lama untuk target `%s'"
+
+#. This only happens when the first thing on the line is a '\0'.
+#. It is a pretty hopeless case, but (wonder of wonders) Athena
+#. lossage strikes again!  (xmkmf puts NULs in its makefiles.)
+#. There is nothing really to be done; we synthesize a newline so
+#. the following line doesn't appear to be part of this line.
+#: read.c:2162
+msgid "warning: NUL character seen; rest of line ignored"
+msgstr "Peringatan: karakter NUL terlihat; baris selanjutnya dihiraukan"
+
+#: remake.c:230
+#, c-format
+msgid "Nothing to be done for `%s'."
+msgstr "Tidak ada yang harus dilakukan untuk membuat `%s'."
+
+#: remake.c:231
+#, c-format
+msgid "`%s' is up to date."
+msgstr "`%s' sudah up to date."
+
+#: remake.c:299
+#, c-format
+msgid "Pruning file `%s'.\n"
+msgstr "Pruning file `%s'.\n"
+
+#: remake.c:353
+#, c-format
+msgid "Considering target file `%s'.\n"
+msgstr "Mempertimbangkan target file `%s'.\n"
+
+#: remake.c:360
+#, c-format
+msgid "Recently tried and failed to update file `%s'.\n"
+msgstr "Baru saja dicoba dan gagal untuk meng-update file `%s'.\n"
+
+#: remake.c:364
+#, c-format
+msgid "File `%s' was considered already.\n"
+msgstr "File `%s' baru saja dipertimbangkan.\n"
+
+#: remake.c:374
+#, c-format
+msgid "Still updating file `%s'.\n"
+msgstr "Sedang meng-update file `%s'.\n"
+
+#: remake.c:377
+#, c-format
+msgid "Finished updating file `%s'.\n"
+msgstr "Selesai meng-update file `%s'.\n"
+
+#: remake.c:398
+#, c-format
+msgid "File `%s' does not exist.\n"
+msgstr "File `%s' tidak ada.\n"
+
+#: remake.c:408 remake.c:828
+#, c-format
+msgid "Found an implicit rule for `%s'.\n"
+msgstr "Ditemukan sebuah aturan implisit untuk `%s'.\n"
+
+#: remake.c:410 remake.c:830
+#, c-format
+msgid "No implicit rule found for `%s'.\n"
+msgstr "Tidak terdapat aturan implisit untuk membuat `%s'.\n"
+
+#: remake.c:416 remake.c:836
+#, c-format
+msgid "Using default commands for `%s'.\n"
+msgstr "Menggunakan perintah default untuk `%s'.\n"
+
+#: remake.c:436 remake.c:860
+#, c-format
+msgid "Circular %s <- %s dependency dropped."
+msgstr "Circular %s <- %s ketergantungan dijatuhkan."
+
+#: remake.c:514
+#, c-format
+msgid "Finished prerequisites of target file `%s'.\n"
+msgstr "Selesai melakukan semua persyaratan dari target file `%s'.\n"
+
+#: remake.c:520
+#, c-format
+msgid "The prerequisites of `%s' are being made.\n"
+msgstr "Persyaratan untuk membuat `%s' sedang dibuat.\n"
+
+#: remake.c:533
+#, c-format
+msgid "Giving up on target file `%s'.\n"
+msgstr "Menyerah untuk membuat target file `%s'.\n"
+
+#: remake.c:538
+#, c-format
+msgid "Target `%s' not remade because of errors."
+msgstr "Target `%s' tidak dibuat lagi karena ada kesalahan (errors)."
+
+#: remake.c:586
+#, c-format
+msgid "Prerequisite `%s' of target `%s' does not exist.\n"
+msgstr "Persyaratan untuk `%s' untuk target `%s' tidak ada.\n"
+
+#: remake.c:591
+#, c-format
+msgid "Prerequisite `%s' is newer than target `%s'.\n"
+msgstr "Persyaratan untuk `%s' lebih baru dari pada target `%s'.\n"
+
+#: remake.c:594
+#, c-format
+msgid "Prerequisite `%s' is older than target `%s'.\n"
+msgstr "Persyaratan untuk `%s' lebih tua dari pada target `%s'.\n"
+
+#: remake.c:612
+#, c-format
+msgid "Target `%s' is double-colon and has no prerequisites.\n"
+msgstr "Target `%s' merupakan double-colon dan tidak memiliki syarat.\n"
+
+#: remake.c:618
+#, c-format
+msgid "No commands for `%s' and no prerequisites actually changed.\n"
+msgstr "Tidak ada perintah untuk `%s' dan persyaratan tidak berubah.\n"
+
+#: remake.c:626
+#, c-format
+msgid "No need to remake target `%s'"
+msgstr "Tidak perlu membuat lagi target `%s'"
+
+#: remake.c:628
+#, c-format
+msgid "; using VPATH name `%s'"
+msgstr "; menggunakan nama VPATH `%s'"
+
+#: remake.c:648
+#, c-format
+msgid "Must remake target `%s'.\n"
+msgstr "Harus membuat lagi target `%s'.\n"
+
+#: remake.c:654
+#, c-format
+msgid "  Ignoring VPATH name `%s'.\n"
+msgstr " Mengabaikan nama VPATH `%s'.\n"
+
+#: remake.c:663
+#, c-format
+msgid "Commands of `%s' are being run.\n"
+msgstr "Perintah dari `%s' sedang dijalankan.\n"
+
+#: remake.c:670
+#, c-format
+msgid "Failed to remake target file `%s'.\n"
+msgstr "Gagal membuat lagi target file `%s'.\n"
+
+#: remake.c:673
+#, c-format
+msgid "Successfully remade target file `%s'.\n"
+msgstr "Sukses membuat kembali target file `%s'.\n"
+
+#: remake.c:676
+#, c-format
+msgid "Target file `%s' needs remade under -q.\n"
+msgstr "Target file `%s' dibutuhkan untuk membuat kembali dengan opsi -q.\n"
+
+#: remake.c:977
+#, c-format
+msgid "%sNo rule to make target `%s'%s"
+msgstr "%sTidak terdapat aturan untuk membuat target `%s'%s"
+
+#: remake.c:979
+#, c-format
+msgid "%sNo rule to make target `%s', needed by `%s'%s"
+msgstr "%sTidak terdapat aturan untuk membuat target `%s', dibutuhkan oleh `%s'%s"
+
+#: remake.c:1191
+#, c-format
+msgid "*** Warning: File `%s' has modification time in the future (%s > %s)"
+msgstr "*** Peringatan: File `%s' memiliki waktu modifikasi lebih baru (%s > %s)"
+
+#. Give a warning if there is no pattern, then remove the
+#. pattern so it's ignored next time.
+#: remake.c:1311
+#, c-format
+msgid ".LIBPATTERNS element `%s' is not a pattern"
+msgstr ".LIBPATTERNS elemen `%s' bukan merupakan sebuah pattern"
+
+#: rule.c:671
+msgid ""
+"\n"
+"# No implicit rules."
+msgstr ""
+"\n"
+"# Tidak ada aturan implisit."
+
+#: rule.c:674
+#, c-format
+msgid ""
+"\n"
+"# %u implicit rules, %u"
+msgstr ""
+"\n"
+"# %u aturan implisit, %u"
+
+#: rule.c:683
+msgid " terminal."
+msgstr " terminal."
+
+#: rule.c:691
+#, c-format
+msgid "BUG: num_pattern_rules wrong!  %u != %u"
+msgstr "BUG: num_pattern_rules salah! %u != %u"
+
+#: rule.c:695
+msgid ""
+"\n"
+"# Pattern-specific variable values"
+msgstr ""
+"\n"
+"# Nilai Variabel Pattern-specific"
+
+#: rule.c:710
+msgid ""
+"\n"
+"# No pattern-specific variable values."
+msgstr ""
+"\n"
+"# Tidak terdapat nilai variabel pattern-specific"
+
+#: rule.c:713
+#, c-format
+msgid ""
+"\n"
+"# %u pattern-specific variable values"
+msgstr ""
+"\n"
+"# %u Nilai Variabel Pattern-specific"
+
+#: signame.c:97
+msgid "unknown signal"
+msgstr "sinyal tidak diketahui"
+
+#: signame.c:108
+msgid "Hangup"
+msgstr "Hangup"
+
+#: signame.c:111
+msgid "Interrupt"
+msgstr "Interupsi"
+
+#: signame.c:114
+msgid "Quit"
+msgstr "Berhenti"
+
+#: signame.c:117
+msgid "Illegal Instruction"
+msgstr "Instruksi Ilegal"
+
+#: signame.c:120
+msgid "Trace/breakpoint trap"
+msgstr "Trace/breakpoint trap"
+
+#: signame.c:125
+msgid "Aborted"
+msgstr "Dibatalkan"
+
+#: signame.c:128
+msgid "IOT trap"
+msgstr "IOT trap"
+
+#: signame.c:131
+msgid "EMT trap"
+msgstr "EMT trap"
+
+#: signame.c:134
+msgid "Floating point exception"
+msgstr "Floating point exception"
+
+#: signame.c:137
+msgid "Killed"
+msgstr "Dimatikan"
+
+#: signame.c:140
+msgid "Bus error"
+msgstr "Bus error"
+
+#: signame.c:143
+msgid "Segmentation fault"
+msgstr "Kesalahan segmentasi memory"
+
+#: signame.c:146
+msgid "Bad system call"
+msgstr "system call jelek"
+
+#: signame.c:149
+msgid "Broken pipe"
+msgstr "`pipe' rusak"
+
+#: signame.c:152
+msgid "Alarm clock"
+msgstr "Jam alarm"
+
+#: signame.c:155
+msgid "Terminated"
+msgstr "Dimatikan"
+
+#: signame.c:158
+msgid "User defined signal 1"
+msgstr "Sinyal definisi pengguna 1"
+
+#: signame.c:161
+msgid "User defined signal 2"
+msgstr "Sinyal definisi pengguna 2"
+
+#: signame.c:166 signame.c:169
+msgid "Child exited"
+msgstr "Proses anak berakhir"
+
+#: signame.c:172
+msgid "Power failure"
+msgstr "Listrik mati"
+
+#: signame.c:175
+msgid "Stopped"
+msgstr "Dihentikkan"
+
+#: signame.c:178
+msgid "Stopped (tty input)"
+msgstr "Dihentikan (masukkan tty)"
+
+#: signame.c:181
+msgid "Stopped (tty output)"
+msgstr "Dihentikan (keluaran tty)"
+
+#: signame.c:184
+msgid "Stopped (signal)"
+msgstr "Dihentikan oleh sinyal"
+
+#: signame.c:187
+msgid "CPU time limit exceeded"
+msgstr "Batas waktu CPU telah terlampaui"
+
+#: signame.c:190
+msgid "File size limit exceeded"
+msgstr "Batas maksimal ukuran file sudah dilampaui"
+
+#: signame.c:193
+msgid "Virtual timer expired"
+msgstr "Virtual timer sudah lewat"
+
+#: signame.c:196
+msgid "Profiling timer expired"
+msgstr "Profiling timer sudah lewat"
+
+#. "Window size changed" might be more accurate, but even if that
+#. is all that it means now, perhaps in the future it will be
+#. extended to cover other kinds of window changes.
+#: signame.c:202
+msgid "Window changed"
+msgstr "Window berubah"
+
+#: signame.c:205
+msgid "Continued"
+msgstr "Dilanjutkan"
+
+#: signame.c:208
+msgid "Urgent I/O condition"
+msgstr "Kondisi I/O penting"
+
+#. "I/O pending" has also been suggested.  A disadvantage is
+#. that signal only happens when the process has
+#. asked for it, not everytime I/O is pending.  Another disadvantage
+#. is the confusion from giving it a different name than under Unix.
+#: signame.c:215 signame.c:224
+msgid "I/O possible"
+msgstr "I/O mungkin"
+
+#: signame.c:218
+msgid "SIGWIND"
+msgstr "SIGWIND"
+
+#: signame.c:221
+msgid "SIGPHONE"
+msgstr "SIGPHONE"
+
+#: signame.c:227
+msgid "Resource lost"
+msgstr "Resource hilang"
+
+#: signame.c:230
+msgid "Danger signal"
+msgstr "Sinyal bahaya"
+
+#: signame.c:233
+msgid "Information request"
+msgstr "Permintaan informasi"
+
+#: signame.c:236
+msgid "Floating point co-processor not available"
+msgstr "Floating point co-processor tidak ada"
+
+#: variable.c:1079
+msgid "default"
+msgstr "default"
+
+#: variable.c:1082
+msgid "environment"
+msgstr "environment"
+
+#: variable.c:1085
+msgid "makefile"
+msgstr "makefile"
+
+#: variable.c:1088
+msgid "environment under -e"
+msgstr "envirenment dibawah opsi -e"
+
+#: variable.c:1091
+msgid "command line"
+msgstr "command line"
+
+#: variable.c:1094
+msgid "`override' directive"
+msgstr "`override' directive"
+
+#: variable.c:1097
+msgid "automatic"
+msgstr "otomatis"
+
+#: variable.c:1167
+msgid "# No variables."
+msgstr "# Tidak ada variabel."
+
+#: variable.c:1170
+#, c-format
+msgid "# %u variables in %u hash buckets.\n"
+msgstr "# %u variabel dalam %u hash buckets.\n"
+
+#: variable.c:1173
+#, c-format
+msgid "# average of %.1f variables per bucket, max %u in one bucket.\n"
+msgstr "# rata - rata dari %.1f variabel per bucket, maksimal %u dalam satu bucket.\n"
+
+#: variable.c:1180
+#, c-format
+msgid "# average of %d.%d variables per bucket, max %u in one bucket.\n"
+msgstr "# rata - rata dari %d.%d variabel per bucket, maksimal %u dalam satu bucket.\n"
+
+#: variable.c:1195
+msgid ""
+"\n"
+"# Variables\n"
+msgstr ""
+"\n"
+"# Variabel\n"
+
+#: vpath.c:553
+msgid ""
+"\n"
+"# VPATH Search Paths\n"
+msgstr ""
+"\n"
+"# VPATH Jalur Pencarian\n"
+
+#: vpath.c:570
+msgid "# No `vpath' search paths."
+msgstr "# Tidak ada `vpath' dalam jalur pencarian."
+
+#: vpath.c:572
+#, c-format
+msgid ""
+"\n"
+"# %u `vpath' search paths.\n"
+msgstr ""
+"\n"
+"# %u `vpath' jalur pencarian.\n"
+
+#: vpath.c:575
+msgid ""
+"\n"
+"# No general (`VPATH' variable) search path."
+msgstr ""
+"\n"
+"# Tidak ada (`VPATH' variabel) yang umum dalam jalur pencarian."
+
+#: vpath.c:581
+msgid ""
+"\n"
+"# General (`VPATH' variable) search path:\n"
+"# "
+msgstr ""
+"\n"
+"# Jalur pencarian yang umum untuk variabel `VPATH':\n"
+"# "
+
+#: remote-cstms.c:127
+#, c-format
+msgid "Customs won't export: %s\n"
+msgstr "Custom tidak akan men-export: %s\n"
+
+#: vmsfunctions.c:80
+#, c-format
+msgid "sys$search failed with %d\n"
+msgstr "sys$search gagal dengan kode %d\n"
