@@ -1,0 +1,58 @@
+# Traditional Chinese Messages for bison-runtime
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Wei-Lun Chao <chaoweilun@pcmail.com.tw>, 2005
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bison-runtime 2.0b\n"
+"Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
+"POT-Creation-Date: 2005-07-24 23:51-0700\n"
+"PO-Revision-Date: 2005-08-25 13:46+0800\n"
+"Last-Translator: Wei-Lun Chao <chaoweilun@pcmail.com.tw>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/glr.c:840 data/yacc.c:533
+msgid "syntax error: cannot back up"
+msgstr "語法錯誤：無法備份"
+
+#: data/glr.c:1598
+msgid "syntax is ambiguous"
+msgstr "語法不明確"
+
+#: data/glr.c:1878 data/glr.c:1884 data/glr.c:2130 data/lalr1.cc:954
+#: data/yacc.c:1258 data/yacc.c:1264
+msgid "syntax error"
+msgstr "語法錯誤"
+
+#: data/glr.c:2160 data/yacc.c:967 data/yacc.c:1379
+msgid "memory exhausted"
+msgstr "記憶體耗盡"
+
+#: data/yacc.c:1179
+#, c-format
+msgid "syntax error, unexpected %s"
+msgstr "語法錯誤，預期之外的 %s"
+
+#: data/yacc.c:1180
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s"
+msgstr "語法錯誤，預期之外的 %s，預期為 %s"
+
+#: data/yacc.c:1181
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s"
+msgstr "語法錯誤，預期之外的 %s，預期為 %s 或 %s"
+
+#: data/yacc.c:1182
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s"
+msgstr "語法錯誤，預期之外的 %s，預期為 %s、%s 或 %s"
+
+#: data/yacc.c:1183
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
+msgstr "語法錯誤，預期之外的 %s，預期為 %s、%s、%s 或 %s"
