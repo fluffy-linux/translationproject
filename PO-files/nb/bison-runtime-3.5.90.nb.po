@@ -1,0 +1,86 @@
+# Norwegian bokmål translation of GNU bison.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Trond Endrestøl <Trond.Endrestol@gtf.ol.no>, 2004.
+#
+# Send this file as an gzipped attachment to:
+# translation@iro.umontreal.ca
+# with the subject:
+# TP-Robot PACKAGE-VERSION.TEAM.po
+#
+# The subject for the Norwegian bokmål translation of GNU bison-runtime 2.1
+# would then be:
+# TP-Robot bison-runtime-2.1.nb.po
+#
+# Here's the URL for the Norwegian bokmål translation team:
+# http://www.iro.umontreal.ca/translation/registry.cgi?team=nb
+#
+# Here's the URL for the current translations of GNU bison-runtime:
+# http://www.iro.umontreal.ca/translation/registry.cgi?domain=bison-runtime
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bison-runtime 2.1\n"
+"Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
+"POT-Creation-Date: 2020-04-18 10:42+0200\n"
+"PO-Revision-Date: 2005-09-21 09:35+0200\n"
+"Last-Translator: Trond Endrestøl <Trond.Endrestol@gtf.ol.no>\n"
+"Language-Team: Norwegian Bokmaal <i18n-nb@lister.ping.uio.no>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/skeletons/glr.c:893 data/skeletons/yacc.c:739
+msgid "syntax error: cannot back up"
+msgstr "syntaksfeil: kan ikke gå tilbake"
+
+#: data/skeletons/glr.c:1802
+msgid "syntax is ambiguous"
+msgstr "syntaksen er flertydig"
+
+#: data/skeletons/glr.c:2213 data/skeletons/glr.c:2239
+#: data/skeletons/glr.c:2292 data/skeletons/glr.c:2530
+#: data/skeletons/lalr1.cc:1073 data/skeletons/lalr1.cc:1490
+#: data/skeletons/yacc.c:1408 data/skeletons/yacc.c:1915
+#: data/skeletons/yacc.c:1919
+msgid "syntax error"
+msgstr "syntaksfeil"
+
+#: data/skeletons/glr.c:2240 data/skeletons/lalr1.cc:1491
+#: data/skeletons/yacc.c:1409
+#, c-format
+msgid "syntax error, unexpected %s"
+msgstr "syntaksfeil, uforventet %s"
+
+#: data/skeletons/glr.c:2241 data/skeletons/lalr1.cc:1492
+#: data/skeletons/yacc.c:1410
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s"
+msgstr "syntaksfeil, uforventet %s, forventet %s"
+
+#: data/skeletons/glr.c:2242 data/skeletons/lalr1.cc:1493
+#: data/skeletons/yacc.c:1411
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s"
+msgstr "syntaksfeil, uforventet %s, forventet %s eller %s"
+
+#: data/skeletons/glr.c:2243 data/skeletons/lalr1.cc:1494
+#: data/skeletons/yacc.c:1412
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s"
+msgstr "syntaksfeil, uforventet %s, forventet %s eller %s eller %s"
+
+#: data/skeletons/glr.c:2244 data/skeletons/lalr1.cc:1495
+#: data/skeletons/yacc.c:1413
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
+msgstr "syntaksfeil, uforventet %s, forventet %s eller %s eller %s eller %s"
+
+#: data/skeletons/glr.c:2589 data/skeletons/yacc.c:1492
+#: data/skeletons/yacc.c:1494 data/skeletons/yacc.c:1669
+#: data/skeletons/yacc.c:2070
+msgid "memory exhausted"
+msgstr "minne er uttømt"
