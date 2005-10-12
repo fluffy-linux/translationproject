@@ -1,0 +1,1147 @@
+# translation of coreutils.bg.po to Bulgarian
+# Message catalog for coreutils
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the coreutils package.
+# Anton Zinoviev <zinoviev@debian.org>, 2003,2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: coreutils 5.90\n"
+"Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
+"POT-Creation-Date: 2011-08-19 13:43+0300\n"
+"PO-Revision-Date: 2005-10-12 21:41+0300\n"
+"Last-Translator: Anton Zinoviev <zinoviev@debian.org>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/argmatch.c:133
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "недопустим аргумент %s за %s"
+
+#: lib/argmatch.c:134
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "двусмислен аргумент %s за %s"
+
+#: lib/argmatch.c:153
+#, c-format
+msgid "Valid arguments are:"
+msgstr "Допустими аргументи са:"
+
+#: lib/argp-help.c:147
+#, c-format
+msgid "ARGP_HELP_FMT: %s value is less than or equal to %s"
+msgstr ""
+
+#: lib/argp-help.c:220
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
+msgstr ""
+
+#: lib/argp-help.c:226
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter must be positive"
+msgstr ""
+
+#: lib/argp-help.c:235
+#, c-format
+msgid "%.*s: Unknown ARGP_HELP_FMT parameter"
+msgstr ""
+
+#: lib/argp-help.c:247
+#, c-format
+msgid "Garbage in ARGP_HELP_FMT: %s"
+msgstr ""
+
+#: lib/argp-help.c:1246
+#, fuzzy
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Аргументите, задължителни за дългите опции, са задължителни и за късите.\n"
+
+#: lib/argp-help.c:1639
+msgid "Usage:"
+msgstr ""
+
+#: lib/argp-help.c:1643
+msgid "  or: "
+msgstr ""
+
+#: lib/argp-help.c:1655
+#, fuzzy
+msgid " [OPTION...]"
+msgstr "Използване: %s [ОПЦИЯ]...\n"
+
+#: lib/argp-help.c:1682
+#, fuzzy, c-format
+msgid "Try `%s --help' or `%s --usage' for more information.\n"
+msgstr "Използвайте \"%s --help\" за повече информация.\n"
+
+#: lib/argp-help.c:1710
+#, fuzzy, c-format
+msgid "Report bugs to %s.\n"
+msgstr ""
+"\n"
+"Съобщавайте за програмни грешки на <%s>.\n"
+
+#: lib/argp-help.c:1929 lib/error.c:185
+msgid "Unknown system error"
+msgstr "Непозната системна грешка"
+
+#: lib/argp-parse.c:81
+msgid "give this help list"
+msgstr ""
+
+#: lib/argp-parse.c:82
+msgid "give a short usage message"
+msgstr ""
+
+#: lib/argp-parse.c:83
+msgid "NAME"
+msgstr "ИМЕ"
+
+#: lib/argp-parse.c:83
+msgid "set the program name"
+msgstr ""
+
+#: lib/argp-parse.c:84
+msgid "SECS"
+msgstr ""
+
+#: lib/argp-parse.c:85
+msgid "hang for SECS seconds (default 3600)"
+msgstr ""
+
+#: lib/argp-parse.c:142
+#, fuzzy
+msgid "print program version"
+msgstr "грешка при четене"
+
+#: lib/argp-parse.c:158
+msgid "(PROGRAM ERROR) No version known!?"
+msgstr ""
+
+#: lib/argp-parse.c:611
+#, fuzzy, c-format
+msgid "%s: Too many arguments\n"
+msgstr "%s: твърде много редове с контролни суми"
+
+#: lib/argp-parse.c:754
+msgid "(PROGRAM ERROR) Option should have been recognized!?"
+msgstr ""
+
+#: lib/c-stack.c:204 lib/c-stack.c:297
+#, fuzzy
+msgid "program error"
+msgstr "грешка при четене"
+
+#: lib/c-stack.c:205 lib/c-stack.c:298
+msgid "stack overflow"
+msgstr ""
+
+#: lib/clean-temp.c:332
+#, c-format
+msgid "cannot find a temporary directory, try setting $TMPDIR"
+msgstr ""
+
+#: lib/clean-temp.c:346
+#, fuzzy, c-format
+#| msgid "cannot create directory %s"
+msgid "cannot create a temporary directory using template \"%s\""
+msgstr "не може да се създаде каталог %s"
+
+#: lib/clean-temp.c:442
+#, fuzzy, c-format
+#| msgid "cannot create directory %s"
+msgid "cannot remove temporary file %s"
+msgstr "не може да се създаде каталог %s"
+
+#: lib/clean-temp.c:457
+#, fuzzy, c-format
+#| msgid "cannot create directory %s"
+msgid "cannot remove temporary directory %s"
+msgstr "не може да се създаде каталог %s"
+
+#: lib/closein.c:100
+msgid "error closing file"
+msgstr ""
+
+#: lib/closeout.c:112
+msgid "write error"
+msgstr "грешка при запис"
+
+#: lib/copy-acl.c:681
+#, fuzzy, c-format
+#| msgid "cannot change permissions of %s"
+msgid "preserving permissions for %s"
+msgstr "не може да се сменят правата за достъп до %s"
+
+#: lib/copy-file.c:67
+#, fuzzy, c-format
+msgid "error while opening \"%s\" for reading"
+msgstr "не може да се отвори %s за четене"
+
+#: lib/copy-file.c:74
+#, fuzzy, c-format
+msgid "cannot open backup file \"%s\" for writing"
+msgstr "не може да се отвори %s за запис"
+
+#: lib/copy-file.c:82
+#, fuzzy, c-format
+msgid "error reading \"%s\""
+msgstr "грешка при четене на %s"
+
+#: lib/copy-file.c:87 lib/copy-file.c:94 lib/copy-file.c:133
+#, fuzzy, c-format
+msgid "error writing \"%s\""
+msgstr "грешка при запис в %s"
+
+#: lib/copy-file.c:96 lib/copy-file.c:135
+#, fuzzy, c-format
+msgid "error after reading \"%s\""
+msgstr "грешка при четене на %s"
+
+#: lib/csharpcomp.c:310 lib/javaversion.c:76
+#, fuzzy, c-format
+msgid "fdopen() failed"
+msgstr "неуспешно отваряне на файл"
+
+#: lib/csharpcomp.c:571
+#, c-format
+msgid "C# compiler not found, try installing pnet"
+msgstr ""
+
+#: lib/csharpexec.c:343
+#, c-format
+msgid "C# virtual machine not found, try installing pnet"
+msgstr ""
+
+#: lib/execute.c:189 lib/execute.c:262 lib/spawn-pipe.c:232
+#: lib/spawn-pipe.c:346 lib/wait-process.c:282 lib/wait-process.c:356
+#, fuzzy, c-format
+msgid "%s subprocess failed"
+msgstr "%s: неуспешно позициониране (seek) във файл"
+
+#: lib/file-type.c:38
+msgid "regular empty file"
+msgstr "обикновеният празен файл"
+
+#: lib/file-type.c:38
+msgid "regular file"
+msgstr "обикновеният файл"
+
+#: lib/file-type.c:41
+msgid "directory"
+msgstr "каталогът"
+
+#: lib/file-type.c:44
+msgid "block special file"
+msgstr "специалният блоков файл"
+
+#: lib/file-type.c:47
+msgid "character special file"
+msgstr "специалният символен файл"
+
+#: lib/file-type.c:50
+msgid "fifo"
+msgstr "именуваният канал"
+
+#: lib/file-type.c:53
+msgid "symbolic link"
+msgstr "символната връзка"
+
+#: lib/file-type.c:56
+msgid "socket"
+msgstr "гнездото"
+
+#: lib/file-type.c:59
+msgid "message queue"
+msgstr "опашката със съобщения"
+
+#: lib/file-type.c:62
+msgid "semaphore"
+msgstr "семафорът"
+
+#: lib/file-type.c:65
+msgid "shared memory object"
+msgstr "споделеният обект в паметта"
+
+#: lib/file-type.c:68
+msgid "typed memory object"
+msgstr "типизираният обект в паметта"
+
+#: lib/file-type.c:70
+msgid "weird file"
+msgstr "странният файл"
+
+#: lib/gai_strerror.c:58
+msgid "Address family for hostname not supported"
+msgstr "Този тип адреси не се поддържа за името на хоста"
+
+#: lib/gai_strerror.c:59
+msgid "Temporary failure in name resolution"
+msgstr "Временен проблем при намиране IP-адреса на хост"
+
+#: lib/gai_strerror.c:60
+msgid "Bad value for ai_flags"
+msgstr "Неправил на стойност за ai_flags"
+
+#: lib/gai_strerror.c:61
+msgid "Non-recoverable failure in name resolution"
+msgstr "Окончателен неуспех при намиране IP-адреса на хост"
+
+#: lib/gai_strerror.c:62
+msgid "ai_family not supported"
+msgstr "не се поддържа посочването на тип адреси (ai_family)"
+
+#: lib/gai_strerror.c:63
+msgid "Memory allocation failure"
+msgstr "Неуспешно заделяне на памет"
+
+#: lib/gai_strerror.c:64
+msgid "No address associated with hostname"
+msgstr "Няма IP-адрес с посоченото име на хост"
+
+#: lib/gai_strerror.c:65
+msgid "Name or service not known"
+msgstr "Името или услугата са непознати"
+
+#: lib/gai_strerror.c:66
+msgid "Servname not supported for ai_socktype"
+msgstr "Името на услугата не се поддържа за използваното тип гнездо (ai_socktype)"
+
+#: lib/gai_strerror.c:67
+msgid "ai_socktype not supported"
+msgstr "не се поддържа посочването на тип гнездо (ai_socktype)"
+
+#: lib/gai_strerror.c:68
+msgid "System error"
+msgstr "грешка в системата"
+
+#: lib/gai_strerror.c:69
+msgid "Argument buffer too small"
+msgstr ""
+
+#: lib/gai_strerror.c:71
+msgid "Processing request in progress"
+msgstr "Заявката е в процес на изпълнение"
+
+#: lib/gai_strerror.c:72
+msgid "Request canceled"
+msgstr "Заявката е отменена"
+
+#: lib/gai_strerror.c:73
+msgid "Request not canceled"
+msgstr "Заявката не е отменена"
+
+#: lib/gai_strerror.c:74
+msgid "All requests done"
+msgstr "Изпълнени са всички заявки"
+
+#: lib/gai_strerror.c:75
+msgid "Interrupted by a signal"
+msgstr "Прекъснат със сигнал"
+
+#: lib/gai_strerror.c:76
+msgid "Parameter string not correctly encoded"
+msgstr "Неправилно кодиран низ на аргумент"
+
+#: lib/gai_strerror.c:88
+msgid "Unknown error"
+msgstr "Непозната грешка"
+
+#: lib/getopt.c:547 lib/getopt.c:576
+#, fuzzy, c-format
+#| msgid "%s: option `%s' is ambiguous\n"
+msgid "%s: option '%s' is ambiguous; possibilities:"
+msgstr "%s: опцията \"%s\" е двусмислена\n"
+
+#: lib/getopt.c:624 lib/getopt.c:628
+#, fuzzy, c-format
+#| msgid "%s: option `--%s' doesn't allow an argument\n"
+msgid "%s: option '--%s' doesn't allow an argument\n"
+msgstr "%s: опцията \"--%s\" не допуска аргумент\n"
+
+#: lib/getopt.c:637 lib/getopt.c:642
+#, fuzzy, c-format
+#| msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgid "%s: option '%c%s' doesn't allow an argument\n"
+msgstr "%s: опцията \"%c%s\" не допуска аргумент\n"
+
+#: lib/getopt.c:685 lib/getopt.c:704
+#, fuzzy, c-format
+#| msgid "%s: option `%s' requires an argument\n"
+msgid "%s: option '--%s' requires an argument\n"
+msgstr "%s: опцията \"%s\" изисква аргумент\n"
+
+#: lib/getopt.c:742 lib/getopt.c:745
+#, fuzzy, c-format
+#| msgid "%s: unrecognized option `--%s'\n"
+msgid "%s: unrecognized option '--%s'\n"
+msgstr "%s: непозната опция \"--%s\"\n"
+
+#: lib/getopt.c:753 lib/getopt.c:756
+#, fuzzy, c-format
+#| msgid "%s: unrecognized option `%c%s'\n"
+msgid "%s: unrecognized option '%c%s'\n"
+msgstr "%s: непозната опция \"%c%s\"\n"
+
+#: lib/getopt.c:805 lib/getopt.c:808
+#, fuzzy, c-format
+#| msgid "%s: invalid option -- %c\n"
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: неправилна опция -- %c\n"
+
+#: lib/getopt.c:861 lib/getopt.c:878 lib/getopt.c:1088 lib/getopt.c:1106
+#, fuzzy, c-format
+#| msgid "%s: option requires an argument -- %c\n"
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: опция изисква аргумент -- %c\n"
+
+#: lib/getopt.c:934 lib/getopt.c:950
+#, fuzzy, c-format
+#| msgid "%s: option `-W %s' is ambiguous\n"
+msgid "%s: option '-W %s' is ambiguous\n"
+msgstr "%s: опцията \"-W %s\" е двусмислена\n"
+
+#: lib/getopt.c:974 lib/getopt.c:992
+#, fuzzy, c-format
+#| msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgid "%s: option '-W %s' doesn't allow an argument\n"
+msgstr "%s: опцията \"-W %s\" не допуска аргумент\n"
+
+#: lib/getopt.c:1013 lib/getopt.c:1031
+#, fuzzy, c-format
+#| msgid "%s: option `%s' requires an argument\n"
+msgid "%s: option '-W %s' requires an argument\n"
+msgstr "%s: опцията \"%s\" изисква аргумент\n"
+
+#: lib/javacomp.c:126 lib/javacomp.c:140 lib/javacomp.c:156
+#, c-format
+msgid "invalid source_version argument to compile_java_class"
+msgstr ""
+
+#: lib/javacomp.c:171 lib/javacomp.c:192
+#, c-format
+msgid "invalid target_version argument to compile_java_class"
+msgstr ""
+
+#: lib/javacomp.c:503
+#, c-format
+msgid "failed to create \"%s\""
+msgstr ""
+
+#: lib/javacomp.c:510
+#, fuzzy, c-format
+msgid "error while writing \"%s\" file"
+msgstr "грешка при запис в %s"
+
+#: lib/javacomp.c:2343
+#, c-format
+msgid "Java compiler not found, try installing gcj or set $JAVAC"
+msgstr ""
+
+#: lib/javaexec.c:417
+#, c-format
+msgid "Java virtual machine not found, try installing gij or set $JAVA"
+msgstr ""
+
+#: lib/javaversion.c:84
+#, fuzzy, c-format
+msgid "%s subprocess I/O error"
+msgstr "%s: неуспешно позициониране (seek) във файл"
+
+#: lib/mkdir-p.c:196
+#, c-format
+msgid "cannot change permissions of %s"
+msgstr "не може да се сменят правата за достъп до %s"
+
+#: lib/mkdir-p.c:206
+#, c-format
+msgid "cannot create directory %s"
+msgstr "не може да се създаде каталог %s"
+
+#: lib/obstack.c:413 lib/obstack.c:415 lib/xalloc-die.c:34 lib/xsetenv.c:37
+#, c-format
+msgid "memory exhausted"
+msgstr "паметта е изчерпана"
+
+#: lib/openat-die.c:38
+#, c-format
+msgid "unable to record current working directory"
+msgstr "не може да се запомни текущият работен каталог"
+
+#: lib/openat-die.c:57
+#, c-format
+msgid "failed to return to initial working directory"
+msgstr "невъзможно връщане в първоначалния работен каталог"
+
+#: lib/pagealign_alloc.c:139
+#, fuzzy, c-format
+msgid "Failed to open /dev/zero for read"
+msgstr "%s: не може да се отвори в режим за писане"
+
+#: lib/pipe-filter-gi.c:152
+#, c-format
+msgid "creation of reading thread failed"
+msgstr ""
+
+#: lib/pipe-filter-gi.c:257 lib/pipe-filter-ii.c:298
+#, c-format
+msgid "cannot set up nonblocking I/O to %s subprocess"
+msgstr ""
+
+#: lib/pipe-filter-gi.c:329 lib/pipe-filter-ii.c:329
+#, fuzzy, c-format
+msgid "communication with %s subprocess failed"
+msgstr "%s: неуспешно позициониране (seek) във файл"
+
+#: lib/pipe-filter-gi.c:359 lib/pipe-filter-ii.c:224 lib/pipe-filter-ii.c:374
+#, fuzzy, c-format
+msgid "write to %s subprocess failed"
+msgstr "%s: неуспешно позициониране (seek) във файл"
+
+#: lib/pipe-filter-gi.c:399 lib/pipe-filter-ii.c:245 lib/pipe-filter-ii.c:417
+#, fuzzy, c-format
+msgid "read from %s subprocess failed"
+msgstr "%s: неуспешно позициониране (seek) във файл"
+
+#: lib/pipe-filter-gi.c:452
+#, c-format
+msgid "subprocess %s terminated with exit code %d"
+msgstr ""
+
+#: lib/pipe-filter-ii.c:192
+#, c-format
+msgid "creation of threads failed"
+msgstr ""
+
+#: lib/pipe-filter-ii.c:449
+#, c-format
+msgid "%s subprocess terminated with exit code %d"
+msgstr ""
+
+#. This is a proper name. See the gettext manual, section Names.
+#: lib/propername.c:309
+msgid "Franc,ois Pinard"
+msgstr ""
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  If the catalog has no translation,
+#. locale_quoting_style quotes `like this', and
+#. clocale_quoting_style quotes "like this".
+#.
+#. For example, an American English Unicode locale should
+#. translate "`" to U+201C (LEFT DOUBLE QUOTATION MARK), and
+#. should translate "'" to U+201D (RIGHT DOUBLE QUOTATION
+#. MARK).  A British English Unicode locale should instead
+#. translate these to U+2018 (LEFT SINGLE QUOTATION MARK)
+#. and U+2019 (RIGHT SINGLE QUOTATION MARK), respectively.
+#.
+#. If you don't know what to put here, please see
+#. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:271
+msgid "`"
+msgstr "\""
+
+#: lib/quotearg.c:272
+msgid "'"
+msgstr "\""
+
+#: lib/regcomp.c:131
+msgid "Success"
+msgstr ""
+
+#: lib/regcomp.c:134
+msgid "No match"
+msgstr ""
+
+#: lib/regcomp.c:137
+#, fuzzy
+msgid "Invalid regular expression"
+msgstr "%s: неправилен регулярен израз: %s"
+
+#: lib/regcomp.c:140
+#, fuzzy
+msgid "Invalid collation character"
+msgstr "неправилен клас от символи %s"
+
+#: lib/regcomp.c:143
+#, fuzzy
+msgid "Invalid character class name"
+msgstr "неправилен клас от символи %s"
+
+#: lib/regcomp.c:146
+msgid "Trailing backslash"
+msgstr ""
+
+#: lib/regcomp.c:149
+#, fuzzy
+msgid "Invalid back reference"
+msgstr "Неправилен диапазон от страници %s"
+
+#: lib/regcomp.c:152
+msgid "Unmatched [ or [^"
+msgstr ""
+
+#: lib/regcomp.c:155
+msgid "Unmatched ( or \\("
+msgstr ""
+
+#: lib/regcomp.c:158
+msgid "Unmatched \\{"
+msgstr ""
+
+#: lib/regcomp.c:161
+msgid "Invalid content of \\{\\}"
+msgstr ""
+
+#: lib/regcomp.c:164
+#, fuzzy
+msgid "Invalid range end"
+msgstr "Неправилен диапазон от страници %s"
+
+#: lib/regcomp.c:167
+#, fuzzy
+msgid "Memory exhausted"
+msgstr "паметта е изчерпана"
+
+#: lib/regcomp.c:170
+#, fuzzy
+msgid "Invalid preceding regular expression"
+msgstr "%s: неправилен регулярен израз: %s"
+
+#: lib/regcomp.c:173
+#, fuzzy
+msgid "Premature end of regular expression"
+msgstr "грешка при търсене на регулярен израз"
+
+#: lib/regcomp.c:176
+#, fuzzy
+msgid "Regular expression too big"
+msgstr "грешка при пасването на регулярния израз"
+
+#: lib/regcomp.c:179
+msgid "Unmatched ) or \\)"
+msgstr ""
+
+#: lib/regcomp.c:700
+#, fuzzy
+msgid "No previous regular expression"
+msgstr "грешка при търсене на регулярен израз"
+
+# Клавишът О (латинско) генерира "Д" според подредбата по БДС
+#. TRANSLATORS: A regular expression testing for an affirmative answer
+#. (english: "yes").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^yesexpr='
+#: lib/rpmatch.c:147
+msgid "^[yY]"
+msgstr "^[дДoOyY]"
+
+# Клавишът K (латинско) генерира "Н" според подредбата по БДС
+#. TRANSLATORS: A regular expression testing for a negative answer
+#. (english: "no").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^noexpr='
+#: lib/rpmatch.c:160
+msgid "^[nN]"
+msgstr "^[нНkKnN]"
+
+#: lib/set-mode-acl.c:678
+#, fuzzy, c-format
+#| msgid "cannot change permissions of %s"
+msgid "setting permissions for %s"
+msgstr "не може да се сменят правата за достъп до %s"
+
+#: lib/siglist.h:31
+msgid "Hangup"
+msgstr ""
+
+#: lib/siglist.h:34
+msgid "Interrupt"
+msgstr ""
+
+#: lib/siglist.h:37
+msgid "Quit"
+msgstr ""
+
+#: lib/siglist.h:40
+msgid "Illegal instruction"
+msgstr ""
+
+#: lib/siglist.h:43
+msgid "Trace/breakpoint trap"
+msgstr ""
+
+#: lib/siglist.h:46
+msgid "Aborted"
+msgstr ""
+
+#: lib/siglist.h:49
+msgid "Floating point exception"
+msgstr ""
+
+#: lib/siglist.h:52
+msgid "Killed"
+msgstr ""
+
+#: lib/siglist.h:55
+#, fuzzy
+#| msgid "System error"
+msgid "Bus error"
+msgstr "грешка в системата"
+
+#: lib/siglist.h:58
+msgid "Segmentation fault"
+msgstr ""
+
+#: lib/siglist.h:61
+msgid "Broken pipe"
+msgstr ""
+
+#: lib/siglist.h:64
+msgid "Alarm clock"
+msgstr ""
+
+#: lib/siglist.h:67
+msgid "Terminated"
+msgstr ""
+
+#: lib/siglist.h:70
+msgid "Urgent I/O condition"
+msgstr ""
+
+#: lib/siglist.h:73
+msgid "Stopped (signal)"
+msgstr ""
+
+#: lib/siglist.h:76
+msgid "Stopped"
+msgstr ""
+
+#: lib/siglist.h:79
+msgid "Continued"
+msgstr ""
+
+#: lib/siglist.h:82
+msgid "Child exited"
+msgstr ""
+
+#: lib/siglist.h:85
+msgid "Stopped (tty input)"
+msgstr ""
+
+#: lib/siglist.h:88
+msgid "Stopped (tty output)"
+msgstr ""
+
+#: lib/siglist.h:91
+msgid "I/O possible"
+msgstr ""
+
+#: lib/siglist.h:94
+msgid "CPU time limit exceeded"
+msgstr ""
+
+#: lib/siglist.h:97
+msgid "File size limit exceeded"
+msgstr ""
+
+#: lib/siglist.h:100
+msgid "Virtual timer expired"
+msgstr ""
+
+#: lib/siglist.h:103
+msgid "Profiling timer expired"
+msgstr ""
+
+#: lib/siglist.h:106
+msgid "Window changed"
+msgstr ""
+
+#: lib/siglist.h:109
+msgid "User defined signal 1"
+msgstr ""
+
+#: lib/siglist.h:112
+msgid "User defined signal 2"
+msgstr ""
+
+#: lib/siglist.h:117
+msgid "EMT trap"
+msgstr ""
+
+#: lib/siglist.h:120
+msgid "Bad system call"
+msgstr ""
+
+#: lib/siglist.h:123
+msgid "Stack fault"
+msgstr ""
+
+#: lib/siglist.h:126
+msgid "Information request"
+msgstr ""
+
+#: lib/siglist.h:128
+msgid "Power failure"
+msgstr ""
+
+#: lib/siglist.h:131
+msgid "Resource lost"
+msgstr ""
+
+#: lib/sigpipe-die.c:37
+msgid "error writing to a closed pipe or socket"
+msgstr ""
+
+#: lib/spawn-pipe.c:138 lib/spawn-pipe.c:141 lib/spawn-pipe.c:262
+#: lib/spawn-pipe.c:265
+#, fuzzy, c-format
+msgid "cannot create pipe"
+msgstr "не може да се създаде връзка %s"
+
+#: lib/strsignal.c:110
+#, c-format
+msgid "Real-time signal %d"
+msgstr ""
+
+#: lib/strsignal.c:114
+#, c-format
+msgid "Unknown signal %d"
+msgstr ""
+
+#: lib/unicodeio.c:103
+msgid "iconv function not usable"
+msgstr "функцията iconv не е използваема"
+
+#: lib/unicodeio.c:105
+msgid "iconv function not available"
+msgstr "функцията iconv е недостъпна"
+
+#: lib/unicodeio.c:112
+msgid "character out of range"
+msgstr "знак извън диапазона"
+
+#: lib/unicodeio.c:182
+#, c-format
+msgid "cannot convert U+%04X to local character set"
+msgstr "не може да се конвертира U+%04X в локалното кодиране"
+
+#: lib/unicodeio.c:184
+#, c-format
+msgid "cannot convert U+%04X to local character set: %s"
+msgstr "не може да се конвертира U+%04X в локалното кодиране: %s"
+
+#: lib/userspec.c:106
+msgid "invalid user"
+msgstr "несъществуващ потребител"
+
+#: lib/userspec.c:107
+msgid "invalid group"
+msgstr "несъществуваща група"
+
+#: lib/userspec.c:108
+#, fuzzy
+#| msgid "invalid user"
+msgid "invalid spec"
+msgstr "несъществуващ потребител"
+
+#: lib/verror.c:73
+#, c-format
+msgid "unable to display error message"
+msgstr ""
+
+#: lib/version-etc.c:74
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr ""
+
+#: lib/version-etc.c:77
+#, c-format
+msgid "Packaged by %s\n"
+msgstr ""
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:84
+msgid "(C)"
+msgstr "©"
+
+#: lib/version-etc.c:86
+msgid ""
+"\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:102
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Написан от %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:106
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Написан от %s и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:110
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Написан от %s, %s и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:117
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Написан от %s, %s, %s\n"
+"и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:124
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Написан от %s, %s, %s,\n"
+"%s и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:131
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Написан от %s, %s, %s,\n"
+"%s, %s и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:139
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Написан от %s, %s, %s,\n"
+"%s, %s, %s и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:147
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Написан от %s, %s, %s,\n"
+"%s, %s, %s, %s\n"
+"и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:156
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Написан от %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:167
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Написан от %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s и други.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:245
+#, fuzzy, c-format
+msgid ""
+"\n"
+"Report bugs to: %s\n"
+msgstr ""
+"\n"
+"Съобщавайте за програмни грешки на <%s>.\n"
+
+#: lib/version-etc.c:247
+#, fuzzy, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr ""
+"\n"
+"Съобщавайте за програмни грешки на <%s>.\n"
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+#: lib/version-etc.c:253
+#, c-format
+msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+msgstr ""
+
+#: lib/version-etc.c:256
+msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+
+#: lib/w32spawn.h:40
+#, c-format
+msgid "_open_osfhandle failed"
+msgstr ""
+
+#: lib/w32spawn.h:81
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr ""
+
+#: lib/wait-process.c:223 lib/wait-process.c:255 lib/wait-process.c:317
+#, fuzzy, c-format
+msgid "%s subprocess"
+msgstr "%s: неуспешно позициониране (seek) във файл"
+
+#: lib/wait-process.c:274 lib/wait-process.c:346
+#, fuzzy, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "%s: неуспешно позициониране (seek) във файл"
+
+#: lib/xfreopen.c:35
+msgid "stdin"
+msgstr ""
+
+#: lib/xfreopen.c:36
+msgid "stdout"
+msgstr ""
+
+#: lib/xfreopen.c:37
+msgid "stderr"
+msgstr ""
+
+#: lib/xfreopen.c:38
+#, fuzzy
+#| msgid "Unknown system error"
+msgid "unknown stream"
+msgstr "Непозната системна грешка"
+
+#: lib/xfreopen.c:39
+#, c-format
+msgid "failed to reopen %s with mode %s"
+msgstr ""
+
+#: lib/xmemcoll.c:39
+#, c-format
+msgid "string comparison failed"
+msgstr "сравнението на низове не успя"
+
+#: lib/xmemcoll.c:40
+#, c-format
+msgid "Set LC_ALL='C' to work around the problem."
+msgstr "Използвайте LC_ALL='C', за да заобиколите този проблем."
+
+#: lib/xmemcoll.c:42
+#, c-format
+msgid "The strings compared were %s and %s."
+msgstr "Сравняваните низове бяха %s и %s."
+
+#: lib/xprintf.c:50 lib/xprintf.c:76
+#, c-format
+msgid "cannot perform formatted output"
+msgstr ""
+
+#: lib/xstrtol-error.c:63
+#, fuzzy, c-format
+#| msgid "invalid argument %s for %s"
+msgid "invalid %s%s argument `%s'"
+msgstr "недопустим аргумент %s за %s"
+
+#: lib/xstrtol-error.c:68
+#, fuzzy, c-format
+#| msgid "invalid argument %s for %s"
+msgid "invalid suffix in %s%s argument `%s'"
+msgstr "недопустим аргумент %s за %s"
+
+#: lib/xstrtol-error.c:72
+#, c-format
+msgid "%s%s argument `%s' too large"
+msgstr ""
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: неправилна опция -- %c\n"
+
+#~ msgid "block size"
+#~ msgstr "блоковият размер"
+
+#~ msgid "%s exists but is not a directory"
+#~ msgstr "%s съществува, но не е каталог"
+
+#~ msgid "cannot change owner and/or group of %s"
+#~ msgstr "не може да се смени собственика и/или групата на %s"
+
+#~ msgid "cannot chdir to directory %s"
+#~ msgstr "не може да се влезе в каталога %s"
+
+#~ msgid "cannot get the login group of a numeric UID"
+#~ msgstr "не може да се получи входящата група по потребителски номер"
+
+#~ msgid ""
+#~ "\n"
+#~ "This is free software.  You may redistribute copies of it under the terms of\n"
+#~ "the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.\n"
+#~ "There is NO WARRANTY, to the extent permitted by law.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Това е свободен софтуер.  Можете да разпространявате негови копия съгласно\n"
+#~ "условията на Основната общодостъпна лицензия на ГНУ\n"
+#~ "      <http://www.gnu.org/licenses/gpl.html>.\n"
+#~ "Не се дават НИКАКВИ ГАРАНЦИИ до степента, позволявана от закона.\n"
