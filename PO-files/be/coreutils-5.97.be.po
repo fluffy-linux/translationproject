@@ -13,6 +13,7 @@ msgstr ""
 "PO-Revision-Date: 2006-08-16 03:27+0300\n"
 "Last-Translator: Alexander Nyakhaychyk <nyakhaychyk@gmail.com>\n"
 "Language-Team: Belarusian <i18n@mova.org>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2186,8 +2187,7 @@ msgstr ""
 "Кожнае ключавое слова можа быць:\n"
 "\n"
 
-#: src/dd.c:434
-#, fuzzy
+#: src/dd.c:509
 msgid ""
 "  ascii     from EBCDIC to ASCII\n"
 "  ebcdic    from ASCII to EBCDIC\n"
@@ -2195,6 +2195,10 @@ msgid ""
 "  block     pad newline-terminated records with spaces to cbs-size\n"
 "  unblock   replace trailing spaces in cbs-size records with newline\n"
 "  lcase     change upper case to lower case\n"
+"  ucase     change lower case to upper case\n"
+"  swab      swap every pair of input bytes\n"
+"  sync      pad every input block with NULs to ibs-size; when used\n"
+"            with block or unblock, pad with spaces rather than NULs\n"
 msgstr ""
 "  ascii     З EBCDIC у ASCII.\n"
 "  ebcdic    З ASCII ў EBCDIC.\n"
@@ -2202,28 +2206,27 @@ msgstr ""
 "  block     Замяняць запісы з канцавымі знакамі новага радка на прагалы.\n"
 "  unblock   Замяняць канцавыя прагалы на новыя радкі.\n"
 "  lcase     Зьмяняць вялікія літары на маленькія.\n"
-
-#: src/dd.c:442
-#, fuzzy
-msgid ""
-"  nocreat   do not create the output file\n"
-"  excl      fail if the output file already exists\n"
-"  notrunc   do not truncate the output file\n"
-"  ucase     change lower case to upper case\n"
-"  swab      swap every pair of input bytes\n"
-"  noerror   continue after read errors\n"
-"  sync      pad every input block with NULs to ibs-size; when used\n"
-"              with block or unblock, pad with spaces rather than NULs\n"
-"  fdatasync physically write output file data before finishing\n"
-"  fsync     likewise, but also write metadata\n"
-msgstr ""
-"  notrunc   Не абразаць файл вываду.\n"
 "  ucase     Зьмяніць маленькія літары на вялікія.\n"
 "  swab      Мяняць месцамі кожную пару байтаў уводу.\n"
-"  noerror   Працягваць працу пасьля памылак чытаньня.\n"
 "  sync      Дадаваць да кожнага блёку ўводу нулі да памеру ibs; калі\n"
 "              выкарыстоўваецца разам з block ці unblock, дадаваць прагалы,\n"
 "              замест нулёў.\n"
+
+#: src/dd.c:521
+msgid ""
+"  excl      fail if the output file already exists\n"
+"  nocreat   do not create the output file\n"
+"  notrunc   do not truncate the output file\n"
+"  noerror   continue after read errors\n"
+"  fdatasync  physically write output file data before finishing\n"
+"  fsync     likewise, but also write metadata\n"
+msgstr ""
+"  excl      fail if the output file already exists\n"
+"  nocreat   do not create the output file\n"
+"  notrunc   Не абразаць файл вываду.\n"
+"  noerror   Працягваць працу пасьля памылак чытаньня.\n"
+"  fdatasync  physically write output file data before finishing\n"
+"  fsync     likewise, but also write metadata\n"
 
 #: src/dd.c:454
 msgid ""
@@ -2442,43 +2445,61 @@ msgstr ""
 msgid "truncating at %<PRIuMAX> bytes in output file %s"
 msgstr "дасягнуты %s байтаў у файле вываду %s"
 
-#: src/df.c:150
-msgid "Filesystem    Type"
-msgstr "Ф-я сыстэма   Тып"
+#: src/df.c:139
+msgid "Filesystem"
+msgstr "Ф-я сыстэма"
 
-#: src/df.c:152
-msgid "Filesystem        "
-msgstr "Файлавая сыстэма  "
+#: src/df.c:140
+msgid "Type"
+msgstr "Тып"
 
-#: src/df.c:155
-#, c-format
-msgid "    Inodes   IUsed   IFree IUse%%"
+#: src/df.c:141
+msgid "blocks"
+msgstr "блёкаў"
+
+#: src/df.c:141
+msgid "Inodes"
 msgstr ""
 
-#: src/df.c:159
-#, c-format
-msgid "    Size  Used Avail Use%%"
-msgstr "   Памер Ужыта  В-на У-а%%"
+#: src/df.c:141
+msgid "Size"
+msgstr "Памер"
 
-#: src/df.c:161
-#, c-format
-msgid "     Size   Used  Avail Use%%"
-msgstr "     Памер Ужыта   В-на У-а%%"
+#: src/df.c:142
+msgid "Used"
+msgstr "Ужыта"
 
-#: src/df.c:164
-#, c-format
-msgid " %4s-blocks      Used Available Capacity"
-msgstr " %4s-блёкаў     Ужыта    Вольна   Ёміст."
+#: src/df.c:142
+msgid "IUsed"
+msgstr ""
 
-#: src/df.c:195
-#, c-format
-msgid " %4s-blocks      Used Available Use%%"
-msgstr " %4s-блёкаў    Ужыта     Вольна У-а%%"
+#: src/df.c:143
+msgid "Available"
+msgstr "Вольна"
 
-#: src/df.c:199
-#, c-format
-msgid " Mounted on\n"
-msgstr " Пункт мантаваньня\n"
+#: src/df.c:143
+msgid "IFree"
+msgstr ""
+
+#: src/df.c:143
+msgid "Avail"
+msgstr "Вольна"
+
+#: src/df.c:144
+msgid "Use%"
+msgstr "У-а%"
+
+#: src/df.c:144
+msgid "IUse%"
+msgstr ""
+
+#: src/df.c:144
+msgid "Capacity"
+msgstr "Ёміст."
+
+#: src/df.c:145
+msgid "Mounted on"
+msgstr "Пункт мантаваньня"
 
 #: src/df.c:449
 msgid "cannot get current directory"
