@@ -1,0 +1,415 @@
+# Translation of grep-2.5g messages to Kirghiz/Kyrgyz
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the GREP package.
+# Azilet Beishenaliev <aziletb@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grep 2.5g\n"
+"Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
+"POT-Creation-Date: 2002-01-22 14:39+0100\n"
+"PO-Revision-Date: 2006-08-31 18:15+0200\n"
+"Last-Translator: Azilet Beishenaliev <aziletb@gmail.com>\n"
+"Language-Team: Kirghiz <translation-team-ky@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# Памятты эмне дейбиз яя? ;)
+#: src/dfa.c:136 src/dfa.c:147 src/dfa.c:158 src/search.c:689
+msgid "Memory exhausted"
+msgstr "Память жетпей калды"
+
+#: src/dfa.c:489 src/dfa.c:492 src/dfa.c:510 src/dfa.c:521 src/dfa.c:545
+#: src/dfa.c:604 src/dfa.c:609 src/dfa.c:622 src/dfa.c:623 src/dfa.c:1001
+#: src/dfa.c:1004 src/dfa.c:1028 src/dfa.c:1032 src/dfa.c:1033 src/dfa.c:1036
+#: src/dfa.c:1048 src/dfa.c:1049
+msgid "Unbalanced ["
+msgstr "[ - мунун уйкашы жок"
+
+# escape - кыргызча???
+#: src/dfa.c:741
+msgid "Unfinished \\ escape"
+msgstr "Бүтпөй калган эскейп \\"
+
+#. Cases:
+#. {M} - exact count
+#. {M,} - minimum count, maximum is infinity
+#. {M,N} - M through N
+#: src/dfa.c:874 src/dfa.c:880 src/dfa.c:890 src/dfa.c:898 src/dfa.c:913
+msgid "unfinished repeat count"
+msgstr "кайталоо саны толук эмес жазылды"
+
+#: src/dfa.c:887 src/dfa.c:904 src/dfa.c:912 src/dfa.c:916
+msgid "malformed repeat count"
+msgstr "кайталоо саны туура эмес жазылды"
+
+#: src/dfa.c:1253
+msgid "Unbalanced ("
+msgstr "( - мунун уйкашы жок"
+
+# кайсы синтаксис? грептин шаблонубу?
+#: src/dfa.c:1378
+msgid "No syntax specified"
+msgstr "Синтаксис аталган жок"
+
+#: src/dfa.c:1386
+msgid "Unbalanced )"
+msgstr ") - мунун уйкашы жок"
+
+#: src/dfa.c:2956
+msgid "out of memory"
+msgstr "памятта жер түгөндү"
+
+# Памятты эмне дейбиз яя? ;)
+#: lib/obstack.c:471 src/kwset.c:171 src/kwset.c:177 src/search.c:103
+#: src/search.c:209 src/search.c:293
+msgid "memory exhausted"
+msgstr "память жетпей калды"
+
+#: src/grep.c:205
+msgid "invalid context length argument"
+msgstr "контекст узундугу жарабайт"
+
+#: src/grep.c:475
+msgid "input is too large to count"
+msgstr "берилген данныйлардын саны саналбай турганча көп"
+
+#: src/grep.c:597
+msgid "writing output"
+msgstr "жооп жазыбатат"
+
+#: src/grep.c:870
+#, c-format
+msgid "Binary file %s matches\n"
+msgstr "Экилик форматтагы %s файлы уйкашат\n"
+
+#: src/grep.c:884
+msgid "(standard input)"
+msgstr "(стандарт кирүү)"
+
+#: src/grep.c:989
+#, c-format
+msgid "warning: %s: %s\n"
+msgstr "эскертүү: %s: %s\n"
+
+#: src/grep.c:990
+msgid "recursive directory loop"
+msgstr "бирибирине кирген папка айлампасы бар"
+
+#: src/grep.c:1038
+#, c-format
+msgid "Usage: %s [OPTION]... PATTERN [FILE]...\n"
+msgstr "Колдонулушу: %s [ОПЦИЯ]... ШАБЛОН [ФАЙЛ]...\n"
+
+#: src/grep.c:1040
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Толук маалымат үчүн `%s --help' деп жазгыла.\n"
+
+#: src/grep.c:1045
+#, c-format
+msgid "Usage: %s [OPTION]... PATTERN [FILE] ...\n"
+msgstr "Колдонулушу: %s [ОПЦИЯ]... ШАБЛОН [ФАЙЛ] ...\n"
+
+# выражение дегендин кыргызчасын жазыш керек
+#: src/grep.c:1046
+#, c-format
+msgid ""
+"Search for PATTERN in each FILE or standard input.\n"
+"Example: %s -i 'hello world' menu.h main.c\n"
+"\n"
+"Regexp selection and interpretation:\n"
+msgstr ""
+"ШАБЛОН түрүндө берилген сөздөрдү арбир ФАЙЛда\n"
+"же стандарт кирүүдөн издейт.\n"
+"Мисалы: %s -i 'салам дүйнө' menu.h main.c\n"
+"\n"
+"Регулярдуу выражениени тандоо жана мааниси:\n"
+
+# выражение - кыргызчасын жаз!!!!
+#: src/grep.c:1051
+msgid ""
+"  -E, --extended-regexp     PATTERN is an extended regular expression\n"
+"  -F, --fixed-strings       PATTERN is a set of newline-separated strings\n"
+"  -G, --basic-regexp        PATTERN is a basic regular expression\n"
+"  -P, --perl-regexp         PATTERN is a Perl regular expression\n"
+msgstr ""
+"  -E, --extended-regexp     ШАБЛОН кеңейтилген түрдөгү регулярдуу выражение\n"
+"  -F, --fixed-strings       ШАБЛОН ар параграфта сөз болгон жыйын\n"
+"  -G, --basic-regexp        ШАБЛОН негизги түрдөгү регулярдуу выражение\n"
+"  -P, --perl-regexp         ШАБЛОН Perl түрүндөгү регулярдуу выражение\n"
+
+# выражение!!!!
+#: src/grep.c:1056
+msgid ""
+"  -e, --regexp=PATTERN      use PATTERN as a regular expression\n"
+"  -f, --file=FILE           obtain PATTERN from FILE\n"
+"  -i, --ignore-case         ignore case distinctions\n"
+"  -w, --word-regexp         force PATTERN to match only whole words\n"
+"  -x, --line-regexp         force PATTERN to match only whole lines\n"
+"  -z, --null-data           a data line ends in 0 byte, not newline\n"
+msgstr ""
+"  -e, --regexp=ШАБЛОН       ШАБЛОНду регулярдуу выражение катары колдон\n"
+"  -f, --file=ФАЙЛ           ШАБЛОН ФАЙЛдан алынат\n"
+"  -i, --ignore-case         тамгалардын чоң-кичинеси айырмаланбайт\n"
+"  -w, --word-regexp         ШАБЛОН толук сөздөр менен гана уйкаштырылат\n"
+"  -x, --line-regexp         ШАБЛОН толук катар менен гана уйкаштырылат\n"
+"  -z, --null-data           дата(данный) катардары 0 байты менен бүтөт\n"
+
+#: src/grep.c:1063
+msgid ""
+"\n"
+"Miscellaneous:\n"
+"  -s, --no-messages         suppress error messages\n"
+"  -v, --invert-match        select non-matching lines\n"
+"  -V, --version             print version information and exit\n"
+"      --help                display this help and exit\n"
+"      --mmap                use memory-mapped input if possible\n"
+msgstr ""
+"\n"
+"Түрдүү:\n"
+"  -s, --no-messages         каталарды көрсөтпөйт\n"
+"  -v, --invert-match        уйкашы болбогон катардар тандалат\n"
+"  -V, --version             версия маалыматын көрсөтүп бүтүрөт\n"
+"      --help                бул жардам маалыматын көрсөтүп бүтүрөт\n"
+"      --mmap                мүмкүнчүлүк болсо mmap кирүүсү колдонулат\n"
+
+# line - катар деп колдоном
+# line-bufferd опциясын билбейм!!!
+#: src/grep.c:1071
+msgid ""
+"\n"
+"Output control:\n"
+"  -m, --max-count=NUM       stop after NUM matches\n"
+"  -b, --byte-offset         print the byte offset with output lines\n"
+"  -n, --line-number         print line number with output lines\n"
+"      --line-buffered       flush output on every line\n"
+"  -H, --with-filename       print the filename for each match\n"
+"  -h, --no-filename         suppress the prefixing filename on output\n"
+"      --label=LABEL         print LABEL as filename for standard input\n"
+"  -o, --only-matching       show only the part of a line matching PATTERN\n"
+"  -q, --quiet, --silent     suppress all normal output\n"
+"      --binary-files=TYPE   assume that binary files are TYPE\n"
+"                            TYPE is 'binary', 'text', or 'without-match'\n"
+"  -a, --text                equivalent to --binary-files=text\n"
+"  -I                        equivalent to --binary-files=without-match\n"
+"  -d, --directories=ACTION  how to handle directories\n"
+"                            ACTION is 'read', 'recurse', or 'skip'\n"
+"  -D, --devices=ACTION      how to handle devices, FIFOs and sockets\n"
+"                            ACTION is 'read' or 'skip'\n"
+"  -R, -r, --recursive       equivalent to --directories=recurse\n"
+"      --include=PATTERN     files that match PATTERN will be examined\n"
+"      --exclude=PATTERN     files that match PATTERN will be skipped.\n"
+"      --exclude-from=FILE   files that match PATTERN in FILE will be skipped.\n"
+"  -L, --files-without-match only print FILE names containing no match\n"
+"  -l, --files-with-matches  only print FILE names containing matches\n"
+"  -c, --count               only print a count of matching lines per FILE\n"
+"  -Z, --null                print 0 byte after FILE name\n"
+msgstr ""
+"\n"
+"Жыйынтыкты жаздыруу опциялары:\n"
+"  -m, --max-count=N         N жолу уйкаш табылгандан кийин токтойт\n"
+"  -b, --byte-offset         жыйынтыкта байт жайгашуусу көрсөтүлөт\n"
+"  -n, --line-number         жыйынтыкта катардын номери көрсөтүлөт\n"
+"      --line-buffered       жыйынтыкта ар катар көрсөтүлөт\n"
+"  -H, --with-filename       ар уйкаш үчүн файлдын аты көрсөтүлөт\n"
+"  -h, --no-filename         жыйынтыкта файлдын аты көрсөтүлбөйт\n"
+"      --label=ТАМГА         стандарт кирүүдөн келгендерди ТАМГА файлынан деп жазат\n"
+"  -o, --only-matching       катардын ШАБЛОН менен уйкаш болгон жери эле көрсөтүлөт\n"
+"  -q, --quiet, --silent     жазылатурган бардык жыйынтыкт көрсөтүлбөйт\n"
+"      --binary-files=ТҮРҮ   бинариктердин түрүн ТҮРҮ катары алат\n"
+"                            ТҮРҮ - 'binary', 'text', же 'without-match' боло алат\n"
+"  -a, --text                --binary-files=text менен бирдей\n"
+"  -I                        --binary-files=without-match менен бирдей\n"
+"  -d, --directories=ACTION  папкаларды кандай иштетерин билдирет\n"
+"                            ACTION - 'read', 'recurse', же 'skip' боло алат\n"
+"  -D, --devices=ACTION      аспаптарды, FIFO жана сокеттерди кандай иштетерин билдирет\n"
+"                            ACTION - 'read' же 'skip' боло алат\n"
+"  -R, -r, --recursive       --directories=recurse менен бирдей\n"
+"      --include=ШАБЛОН      ШАБЛОН менен уйкашкан файлдарды каралат\n"
+"      --exclude=ШАБЛОН      ШАБЛОН менен уйкашкан файлдар каралбайт.\n"
+"      --exclude-from=ФАЙЛ   ФАЙЛдагы ШАБЛОН менен уйкашкан файлдар каралбайт.\n"
+"  -L, --files-without-match эч уйкаш табылбаган файлдардын аты гана жазылат\n"
+"  -l, --files-with-matches  уйкаш табылган файлдардын аты гана жазылат\n"
+"  -c, --count               ар файлда табылган уйкаш саны гана жазылат\n"
+"  -Z, --null                файлдын атынан кийин 0 байты жазылат\n"
+
+#: src/grep.c:1099
+msgid ""
+"\n"
+"Context control:\n"
+"  -B, --before-context=NUM  print NUM lines of leading context\n"
+"  -A, --after-context=NUM   print NUM lines of trailing context\n"
+"  -C, --context=NUM         print NUM lines of output context\n"
+"  -NUM                      same as --context=NUM\n"
+"      --color[=WHEN],\n"
+"      --colour[=WHEN]       use markers to distinguish the matching string\n"
+"                            WHEN may be `always', `never' or `auto'.\n"
+"  -U, --binary              do not strip CR characters at EOL (MSDOS)\n"
+"  -u, --unix-byte-offsets   report offsets as if CRs were not there (MSDOS)\n"
+"\n"
+"`egrep' means `grep -E'.  `fgrep' means `grep -F'.\n"
+"With no FILE, or when FILE is -, read standard input.  If less than\n"
+"two FILEs given, assume -h.  Exit status is 0 if match, 1 if no match,\n"
+"and 2 if trouble.\n"
+msgstr ""
+"\n"
+"Контексти менен жыйымтык чыгаруу:\n"
+"  -B, --before-context=N    уйкаш болгон катардын мурунку N катарды да көрсөтүлөт\n"
+"  -A, --after-context=N     уйкаш болгон катардын кийинки N катары да көрсөтүлөт\n"
+"  -C, --context=N           уйкаш болгон катардын N катардуу контексти көрсөтүлөт\n"
+"  -N                        --context=NUM менен бирдей\n"
+"      --color[=УЧУР],\n"
+"      --colour[=УЧУР]       уйкаш сөз кайсы учурда айырмалаарын билдирет \n"
+"                            УЧУР - `always'(ардайым), `never'(эч качан) же `auto'(авто) боло алат.\n"
+"  -U, --binary              катар соңунда (EOL) CR тамгасы алынбайт (MSDOS)\n"
+"  -u, --unix-byte-offsets   жайгашууларды CR жок болгондой кылып көрсөтөт (MSDOS)\n"
+"\n"
+"`egrep' деген `grep -E'.  `fgrep' деген `grep -F'.\n"
+"ФАЙЛ жазылбаса же ФАЙЛдын ордуна - болсо, стандарт кирүү колдонулат.\n"
+"Экиден аз ФАЙЛ берилген болсо -h опциясы бар болот. Бүтүрүү статус уйкаш\n"
+"болсо 0, болбосо 1, ката чыкса 2 болот.\n"
+
+#: src/grep.c:1116
+msgid ""
+"\n"
+"Report bugs to <bug-gnu-utils@gnu.org>.\n"
+msgstr ""
+"\n"
+"Каталарды бул жерге билдиргиле <bug-gnu-utils@gnu.org>.\n"
+
+#: src/grep.c:1126
+msgid "conflicting matchers specified"
+msgstr "уйкаштыруучуларда конфликттер табылды"
+
+# темасын түшүнбөдүм!
+#: src/grep.c:1363
+msgid "unknown devices method"
+msgstr "аспап методу белгисиз"
+
+# темасын түшүнбөдүм!
+#: src/grep.c:1430
+msgid "unknown directories method"
+msgstr "папка методу белгисиз"
+
+#: src/grep.c:1497
+msgid "invalid max count"
+msgstr "максимум сан жарабайт"
+
+#: src/grep.c:1551
+msgid "unknown binary-files type"
+msgstr "белгисиз файл түрү"
+
+#: src/grep.c:1646
+#, c-format
+msgid "%s (GNU grep) %s\n"
+msgstr "%s (ГНУ grep) %s\n"
+
+# FSF котормосу ;)
+#: src/grep.c:1648
+msgid "Copyright 1988, 1992-1999, 2000, 2001 Free Software Foundation, Inc.\n"
+msgstr "Укуктары сакталган 1988, 1992-1999, 2000, 2001 Эркин Программа Фонду (FSF)\n"
+
+#: src/grep.c:1650
+msgid ""
+"This is free software; see the source for copying conditions. There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+"Бул эркин колдонулуучу программа; копиясын алуу үчүн коддордо жазылган\n"
+"шарттарды караңыз. Бул программанын эч убадасы ЖОК; керек болсо СООДА же\n"
+"БИР МАКСАТКА ЫҢГАЙЛУУ болуусуна да убада жок.\n"
+
+#: src/search.c:606
+msgid "The -P option is not supported"
+msgstr "-P опциясы иштебейт"
+
+#: src/search.c:619
+msgid "The -P and -z options cannot be combined"
+msgstr "-P жана -z опциялары чогуу колдонулбайт"
+
+#: lib/error.c:117
+msgid "Unknown system error"
+msgstr "Белгисиз система катасы"
+
+#: lib/getopt.c:675
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: `%s' опциясы так эмес\n"
+
+#: lib/getopt.c:700
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: `--%s' опциясы менен аргумент колдонулбайт\n"
+
+#: lib/getopt.c:705
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: `%c%s' опциясы менен аргумент колдонулбайт\n"
+
+#: lib/getopt.c:723 lib/getopt.c:896
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: `%s' опциясы менен аргумент болуш керек\n"
+
+#. --option
+#: lib/getopt.c:752
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: бул опция түшүнүксүз `--%s'\n"
+
+#. +option or -option
+#: lib/getopt.c:756
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: бул опция түшүнүксүз `%c%s'\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:782
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: мындай опция колдонулбайт -- %c\n"
+
+#: lib/getopt.c:785
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: жараксыз опция -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:815 lib/getopt.c:945
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: бул опциянын аргументи болуш керек -- %c\n"
+
+#: lib/getopt.c:862
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: `-W %s' опциясы так эмес\n"
+
+#: lib/getopt.c:880
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: `-W %s' опциясы менен аргумент колдонулбайт\n"
+
+#. Get translations for open and closing quotation marks.
+#.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  If the catalog has no translation,
+#. locale_quoting_style quotes `like this', and
+#. clocale_quoting_style quotes "like this".
+#.
+#. For example, an American English Unicode locale should
+#. translate "`" to U+201C (LEFT DOUBLE QUOTATION MARK), and
+#. should translate "'" to U+201D (RIGHT DOUBLE QUOTATION
+#. MARK).  A British English Unicode locale should instead
+#. translate these to U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. U+2019 (RIGHT SINGLE QUOTATION MARK), respectively.
+#: lib/quotearg.c:259
+msgid "`"
+msgstr "\""
+
+#: lib/quotearg.c:260
+msgid "'"
+msgstr "\""
