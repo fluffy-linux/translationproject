@@ -1,0 +1,60 @@
+# Translation bison-runtime to Thai.
+# Copyright (C) 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the bison package.
+# Seksan Poltree <seksan.poltree@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bison-runtime 2.3a\n"
+"Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
+"POT-Creation-Date: 2006-09-13 12:44-0700\n"
+"PO-Revision-Date: 2007-12-13 01:56+0700\n"
+"Last-Translator: Seksan Poltree <seksan.poltree@gmail.com>\n"
+"Language-Team: Thai <translation-team-th@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Thai\n"
+"X-Poedit-Country: THAILAND\n"
+
+#: data/glr.c:920 data/yacc.c:585
+msgid "syntax error: cannot back up"
+msgstr "ผิดวากยสัมพันธ์: ไม่สามารถสำรองข้อมูล"
+
+#: data/glr.c:1803
+msgid "syntax is ambiguous"
+msgstr "วากยสัมพันธ์คลุมเครือไม่ชัดเจน"
+
+#: data/glr.c:2170 data/glr.c:2176 data/glr.c:2428 data/lalr1.cc:875
+#: data/yacc.c:1305 data/yacc.c:1333
+msgid "syntax error"
+msgstr "ผิดวากยสัมพันธ์"
+
+#: data/glr.c:2488 data/yacc.c:1118 data/yacc.c:1454
+msgid "memory exhausted"
+msgstr "หน่วยความจำถูกใช้จนหมดสิ้น"
+
+#: data/yacc.c:873
+#, c-format
+msgid "syntax error, unexpected %s"
+msgstr "ผิดวากยสัมพันธ์, ไม่คาดคิดกับ %s"
+
+#: data/yacc.c:874
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s"
+msgstr "ผิดวากยสัมพันธ์, ไม่คาดคิดกับ %s, คาดหวัง %s"
+
+#: data/yacc.c:875
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s"
+msgstr "ผิดวากยสัมพันธ์, ไม่คาดคิดกับ %s, คาดหวัง %s หรือ %s"
+
+#: data/yacc.c:876
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s"
+msgstr "ผิดวากยสัมพันธ์, ไม่คาดคิดกับ %s, คาดหวัง %s หรือ %s หรือ %s"
+
+#: data/yacc.c:877
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
+msgstr "ผิดวากยสัมพันธ์, ไม่คาดคิดกับ %s, คาดหวัง %s หรือ %s หรือ %s หรือ %s"
