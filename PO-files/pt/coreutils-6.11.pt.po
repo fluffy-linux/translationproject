@@ -12,6 +12,7 @@ msgstr ""
 "PO-Revision-Date: 2008-04-23 00:02+0100\n"
 "Last-Translator: Helder Correia <helder.pereira.correia@gmail.com>\n"
 "Language-Team: Portuguese <translation-team-pt@lists.sourceforge.net>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
@@ -2603,7 +2604,7 @@ msgstr ""
 "Cadda símbolo CONV pode ser:\n"
 "\n"
 
-#: src/dd.c:455
+#: src/dd.c:509
 msgid ""
 "  ascii     from EBCDIC to ASCII\n"
 "  ebcdic    from ASCII to EBCDIC\n"
@@ -2611,40 +2612,39 @@ msgid ""
 "  block     pad newline-terminated records with spaces to cbs-size\n"
 "  unblock   replace trailing spaces in cbs-size records with newline\n"
 "  lcase     change upper case to lower case\n"
+"  ucase     change lower case to upper case\n"
+"  swab      swap every pair of input bytes\n"
+"  sync      pad every input block with NULs to ibs-size; when used\n"
+"            with block or unblock, pad with spaces rather than NULs\n"
 msgstr ""
 "  ascii     de EBCDIC para ASCII\n"
 "  ebcdic    de ASCII para EBCDIC\n"
 "  ibm       de ASCII para EBCDIC alternativo\n"
-"  block     encher campos terminados por nova linha com espaço de tamanho cbs\n"
-"  unblock   substituir espaços finais em campos de tamanho cbs com nova linha\n"
+"  block     encher campos terminados por nova linha com espaço de tamanho "
+"cbs\n"
+"  unblock   substituir espaços finais em campos de tamanho cbs com nova "
+"linha\n"
 "  lcase     alterar maiúsculas para minúsculas\n"
-
-#: src/dd.c:463
-msgid ""
-"  nocreat   do not create the output file\n"
-"  excl      fail if the output file already exists\n"
-"  notrunc   do not truncate the output file\n"
-"  ucase     change lower case to upper case\n"
-"  swab      swap every pair of input bytes\n"
-msgstr ""
-"  nocreat   não criar o ficheiro de saída\n"
-"  excl      falhar se o ficheiro de saída já existir\n"
-"  notrunc   não truncar o ficheiro de saída\n"
 "  ucase     alterar minúsculas para maiúsculas\n"
 "  swab      trocar cada par de bytes de entrada\n"
+"  sync      encher cada bloco de entrada com ibs NULs; quando usado\n"
+"            com block ou unblock, encher com espaços em vez de NULs\n"
 
-#: src/dd.c:470
+#: src/dd.c:521
 msgid ""
+"  excl      fail if the output file already exists\n"
+"  nocreat   do not create the output file\n"
+"  notrunc   do not truncate the output file\n"
 "  noerror   continue after read errors\n"
-"  sync      pad every input block with NULs to ibs-size; when used\n"
-"            with block or unblock, pad with spaces rather than NULs\n"
 "  fdatasync  physically write output file data before finishing\n"
 "  fsync     likewise, but also write metadata\n"
 msgstr ""
+"  excl      falhar se o ficheiro de saída já existir\n"
+"  nocreat   não criar o ficheiro de saída\n"
+"  notrunc   não truncar o ficheiro de saída\n"
 "  noerror   continuar após erros de leitura\n"
-"  sync      encher cada bloco de entrada com ibs NULs; quando usado\n"
-"            com block ou unblock, encher com espaços em vez de NULs\n"
-"  fdatasync  escrever fisicamente dados no ficheiro de saída antes de terminar\n"
+"  fdatasync  escrever fisicamente dados no ficheiro de saída antes de "
+"terminar\n"
 "  fsync     da mesma forma, mas escrever igualmente os meta-dados\n"
 
 #: src/dd.c:477
@@ -2894,43 +2894,61 @@ msgstr "índice muito alto: erro ao truncar para seek=%<PRIuMAX> blocos (de %lu 
 msgid "truncating at %<PRIuMAX> bytes in output file %s"
 msgstr "a truncar aos %<PRIuMAX> bytes no ficheiro de saída %s"
 
-#: src/df.c:147
-msgid "Filesystem    Type"
-msgstr "Sist.fichs    Tipo"
+#: src/df.c:139
+msgid "Filesystem"
+msgstr "Sist.fichs"
 
-#: src/df.c:149
-msgid "Filesystem        "
-msgstr "Sist.fichs        "
+#: src/df.c:140
+msgid "Type"
+msgstr "Tipo"
 
-#: src/df.c:152
-#, c-format
-msgid "    Inodes   IUsed   IFree IUse%%"
-msgstr "    Inodes   IOcup   ILivr UsoI%%"
+#: src/df.c:141
+msgid "blocks"
+msgstr "blocos"
 
-#: src/df.c:156
-#, c-format
-msgid "    Size  Used Avail Use%%"
-msgstr "    Tama  Ocup Livre Uso%%"
+#: src/df.c:141
+msgid "Inodes"
+msgstr "Inodes"
 
-#: src/df.c:158
-#, c-format
-msgid "     Size   Used  Avail Use%%"
-msgstr "     Tama   Ocup  Livre Uso%%"
+#: src/df.c:141
+msgid "Size"
+msgstr "Tama"
 
-#: src/df.c:161
-#, c-format
-msgid " %s-blocks      Used Available Capacity"
-msgstr " blocos %s      Ocup Livres    Capacida"
+#: src/df.c:142
+msgid "Used"
+msgstr "Ocup"
 
-#: src/df.c:192
-#, c-format
-msgid " %4s-blocks      Used Available Use%%"
-msgstr " blocos %4s      Ocup Livres    Uso%%"
+#: src/df.c:142
+msgid "IUsed"
+msgstr "IOcup"
 
-#: src/df.c:196
-#, c-format
-msgid " Mounted on\n"
-msgstr " Montado em\n"
+#: src/df.c:143
+msgid "Available"
+msgstr "Livres"
+
+#: src/df.c:143
+msgid "IFree"
+msgstr "ILivr"
+
+#: src/df.c:143
+msgid "Avail"
+msgstr "Livre"
+
+#: src/df.c:144
+msgid "Use%"
+msgstr "Uso%"
+
+#: src/df.c:144
+msgid "IUse%"
+msgstr "UsoI%"
+
+#: src/df.c:144
+msgid "Capacity"
+msgstr "Capacida"
+
+#: src/df.c:145
+msgid "Mounted on"
+msgstr "Montado em"
 
 #: src/df.c:464
 #, c-format
