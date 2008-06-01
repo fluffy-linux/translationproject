@@ -806,7 +806,7 @@ msgstr "oibreann ar iarraidh"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:47 src/cp.c:56 src/df.c:41 src/du.c:53 src/split.c:44
 msgid "Torbjorn Granlund"
-msgstr "Torbjorn Granlund"
+msgstr "Torbjörn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:48 src/split.c:45 src/tee.c:33
