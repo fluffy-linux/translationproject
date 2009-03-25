@@ -846,7 +846,7 @@ msgstr "trūksta operando"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:48 src/cp.c:56 src/df.c:40 src/du.c:52 src/split.c:44
 msgid "Torbjorn Granlund"
-msgstr "Torbjorn Granlund"
+msgstr "Torbjörn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:49 src/comm.c:34 src/ls.c:114 src/rm.c:65 src/split.c:45
