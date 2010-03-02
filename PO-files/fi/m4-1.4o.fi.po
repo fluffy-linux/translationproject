@@ -1,0 +1,665 @@
+# Finnish messages for m4.
+# Copyright © 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the m4 package.
+# Jorma Karvonen <karvonen.jorma@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: m4 1.4o\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2000-01-10 05:27+0100\n"
+"PO-Revision-Date: 2010-03-02 22:05+0200\n"
+"Last-Translator: Jorma Karvonen <karvonen.jorma@gmail.com>\n"
+"Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/getopt.c:677
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: valitsin ”%s” ei ole yksiselitteinen\n"
+
+#: lib/getopt.c:702
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: valitsin ”--%s” ei salli argumenttia\n"
+
+#: lib/getopt.c:707
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: valitsin ”%c%s” ei salli argumenttia\n"
+
+#: lib/getopt.c:725 lib/getopt.c:898
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: valitsin ”%s” vaatii argumentin\n"
+
+#. --option
+#: lib/getopt.c:754
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: tunnistamaton valitsin ”--%s”\n"
+
+#. +option or -option
+#: lib/getopt.c:758
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: tunnistamaton valitsin ”%c%s”\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:784
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: virheellinen valitsin -- %c\n"
+
+#: lib/getopt.c:787
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: virheellinen valitsin -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:817 lib/getopt.c:947
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: valitsin vaatii argumentin -- %c\n"
+
+#: lib/getopt.c:864
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: valitsin ”-W %s” ei ole yksiselitteinen\n"
+
+#: lib/getopt.c:882
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: valitsin ”-W %s” ei salli argumenttia\n"
+
+#: lib/obstack.c:471
+msgid "memory exhausted"
+msgstr "muisti loppui"
+
+#: lib/regex.c:1019
+msgid "Success"
+msgstr "Onnistui"
+
+#: lib/regex.c:1022
+msgid "No match"
+msgstr "Ei täsmäystä"
+
+#: lib/regex.c:1025
+msgid "Invalid regular expression"
+msgstr "Virheellinen säännöllinen lauseke"
+
+#: lib/regex.c:1028
+msgid "Invalid collation character"
+msgstr "Virheellinen tietojenkeräysmerkki"
+
+#: lib/regex.c:1031
+msgid "Invalid character class name"
+msgstr "Virheellinen merkkiluokkanimi"
+
+#: lib/regex.c:1034
+msgid "Trailing backslash"
+msgstr "Jälkikenoviiva"
+
+#: lib/regex.c:1037
+msgid "Invalid back reference"
+msgstr "Virheellinen paluuviite"
+
+#: lib/regex.c:1040
+msgid "Unmatched [ or [^"
+msgstr "Pariton [ tai [^"
+
+#: lib/regex.c:1043
+msgid "Unmatched ( or \\("
+msgstr "Pariton ( tai \\("
+
+#: lib/regex.c:1046
+msgid "Unmatched \\{"
+msgstr "Pariton \\{"
+
+#: lib/regex.c:1049
+msgid "Invalid content of \\{\\}"
+msgstr "Virheellinen \\{\\}-sisältö"
+
+#: lib/regex.c:1052
+msgid "Invalid range end"
+msgstr "Virheellinen alueen loppu"
+
+#: lib/regex.c:1055 lib/xmalloc.c:82
+msgid "Memory exhausted"
+msgstr "Muisti loppui"
+
+#: lib/regex.c:1058
+msgid "Invalid preceding regular expression"
+msgstr "Virheellinen edeltävä säännöllinen lauseke"
+
+#: lib/regex.c:1061
+msgid "Premature end of regular expression"
+msgstr "Säännöllisen lausekkeen ennenaikainen loppu"
+
+#: lib/regex.c:1064
+msgid "Regular expression too big"
+msgstr "Säännöllinen lauseke on liian suuri"
+
+#: lib/regex.c:1067
+msgid "Unmatched ) or \\)"
+msgstr "Pariton ) tai \\)"
+
+#: lib/regex.c:5564
+msgid "No previous regular expression"
+msgstr "Ei edellistä säännöllistä lauseketta"
+
+#: src/builtin.c:349
+#, c-format
+msgid "Warning: Too few arguments to built-in `%s'"
+msgstr "Varoitus: Liian harvoja argumenttia sisäänrakennetulle ”%s”"
+
+#: src/builtin.c:355
+#, c-format
+msgid "Warning: Excess arguments to built-in `%s' ignored"
+msgstr "Varoitus: Ei välitetä lisäargumenteista sisäänrakennetulle ”%s”"
+
+#: src/builtin.c:383
+#, c-format
+msgid "Non-numeric argument to built-in `%s'"
+msgstr "Ei-numeerinen argumentti sisäänrakennettuun ”%s”"
+
+#: src/builtin.c:494
+msgid "INTERNAL ERROR: Bad token data type in define_macro ()"
+msgstr "SISÄINEN VIRHE: Väärä merkkijonodatatyyppi makrossa define_macro ()"
+
+#: src/builtin.c:681 src/builtin.c:780 src/builtin.c:1423 src/builtin.c:1447
+#, c-format
+msgid "Undefined name %s"
+msgstr "Määrittelemätön nimi %s"
+
+#: src/builtin.c:721
+msgid "INTERNAL ERROR: Builtin not found in builtin table!"
+msgstr "SISÄINEN VIRHE: Builtin ei löytynyt builtin-taulussa!"
+
+#: src/builtin.c:729
+msgid "INTERNAL ERROR: Bad token data type in m4_dumpdef ()"
+msgstr "SISÄINEN VIRHE: Väärä merkkijonodatatyyppi funktiossa m4_dumpdef ()"
+
+#: src/builtin.c:804
+#, c-format
+msgid "Undefined name `%s'"
+msgstr "Määrittelemätön nimi ”%s”"
+
+#: src/builtin.c:842
+msgid "INTERNAL ERROR: Bad symbol type in m4_defn ()"
+msgstr "SISÄINEN VIRHE: Väärä symbolityyppi funktiossa m4_defn ()"
+
+#: src/builtin.c:908
+#, c-format
+msgid "Cannot open pipe to command `%s'"
+msgstr "Ei voi avata putkea komentoon ”%s”"
+
+#: src/builtin.c:948
+#, c-format
+msgid "Radix in eval out of range (radix = %d)"
+msgstr "Kantaluku kohteessa eval alueen ulkopuolella (kantaluku = %d)"
+
+#: src/builtin.c:957
+msgid "Negative width to eval"
+msgstr "Negatiivinen leveys kohteeseen eval"
+
+#: src/builtin.c:1063
+#, c-format
+msgid "Non-numeric argument to %s"
+msgstr "Ei-numeerinen argumentti kohteeseen %s"
+
+#: src/builtin.c:1075
+#, c-format
+msgid "Cannot undivert %s"
+msgstr "Ei voida kääntää takaisin %s"
+
+#: src/builtin.c:1223
+#, c-format
+msgid "Undefined syntax code %c"
+msgstr "Määrittelemätön syntaksikoodi %c"
+
+#: src/builtin.c:1274 src/freeze.c:211
+#, c-format
+msgid "Cannot open %s"
+msgstr "Ei voi avata %s"
+
+#: src/builtin.c:1483
+#, c-format
+msgid "Debugmode: bad debug flags: `%s'"
+msgstr "Vianjäljitystila: väärät vianjäljitysliput: ”%s”"
+
+#: src/builtin.c:1519
+#, c-format
+msgid "Cannot set error file: %s"
+msgstr "Ei voi asettaa virhetiedostoa: %s"
+
+#: src/builtin.c:1740
+msgid "WARNING: \\0 will disappear, use \\& instead in replacements"
+msgstr "VAROITUS: \\0 häviää, käytä sen sijaan merkintää \\& korvauksissa"
+
+#: src/builtin.c:1801 src/builtin.c:1861 src/input.c:1014
+#, c-format
+msgid "Bad regular expression `%s': %s"
+msgstr "Virheellinen säännöllinen lauseke ”%s”: %s"
+
+#: src/builtin.c:1812 src/builtin.c:1885
+#, c-format
+msgid "Error matching regular expression `%s'"
+msgstr "Virhe täsmättäessä säännöllistä lauseketta ”%s”"
+
+#: src/debug.c:380
+msgid "INTERNAL ERROR: Builtin not found in builtin table! (trace_pre ())"
+msgstr "SISÄINEN VIRHE: Builtin ei löytynyt builtin-taulussa! (trace_pre ())"
+
+#: src/debug.c:388
+msgid "INTERNAL ERROR: Bad token data type (trace_pre ())"
+msgstr "SISÄINEN VIRHE: Väärä merkkijonodatatyyppi (trace_pre ())"
+
+#: src/eval.c:309
+#, c-format
+msgid "Bad expression in eval (missing right parenthesis): %s"
+msgstr "Virheellinen lauseke kohteessa eval (oikea sulje puuttuu): %s"
+
+#: src/eval.c:315
+#, c-format
+msgid "Bad expression in eval: %s"
+msgstr "Virheellinen lauseke kohteessa eval: %s"
+
+#: src/eval.c:320
+#, c-format
+msgid "Bad expression in eval (bad input): %s"
+msgstr "Virheellinen lauseke kohteessa eval (virheellinen syöte): %s"
+
+#: src/eval.c:325
+#, c-format
+msgid "Bad expression in eval (excess input): %s"
+msgstr "Virheellinen lauseke kohteessa eval (lisäsyöte): %s"
+
+#: src/eval.c:330
+#, c-format
+msgid "Divide by zero in eval: %s"
+msgstr "Jaa nollalla kohteessa eval: %s"
+
+#: src/eval.c:335
+#, c-format
+msgid "Modulo by zero in eval: %s"
+msgstr "Modulo nollalla kohteessa eval: %s"
+
+#: src/eval.c:340
+msgid "INTERNAL ERROR: Bad error code in evaluate ()"
+msgstr "SISÄINEN VIRHE: Virheellinen koodi funktiossa evaluate ()"
+
+#: src/eval.c:594
+msgid "INTERNAL ERROR: Bad comparison operator in cmp_term ()"
+msgstr "SISÄINEN VIRHE: Virheellinen vertailuoperaattori funktiossa cmp_term ()"
+
+#: src/eval.c:639
+msgid "INTERNAL ERROR: Bad shift operator in shift_term ()"
+msgstr "SISÄINEN VIRHE: Virheellinen siirto-operaattori funktiossa shift_term ()"
+
+#: src/eval.c:738
+msgid "INTERNAL ERROR: Bad operator in mult_term ()"
+msgstr "SISÄINEN VIRHE: Virheellinen operaattori funktiossa mult_term ()"
+
+#: src/freeze.c:119
+msgid "INTERNAL ERROR: Built-in not found in builtin table!"
+msgstr "SISÄINEN VIRHE: Built-in ei löytynyt builtin-taulussa!"
+
+#: src/freeze.c:132
+msgid "INTERNAL ERROR: Bad token data type in freeze_one_symbol ()"
+msgstr "SISÄINEN VIRHE: Virheellinen merkkijonodatatyyppi funktiossa freeze_one_symbol ()"
+
+#: src/freeze.c:163
+msgid "Expecting line feed in frozen file"
+msgstr "Odotetaan rivinvaihtoa jäätyneessä tiedostossa"
+
+#: src/freeze.c:165
+#, c-format
+msgid "Expecting character `%c' in frozen file"
+msgstr "Odotetaan merkkiä ”%c” jäätyneessä tiedostossa"
+
+#: src/freeze.c:222
+msgid "Ill-formated frozen file"
+msgstr "Vääränmuotoinen jäätynyt tiedosto"
+
+#: src/freeze.c:277 src/freeze.c:293
+msgid "Premature end of frozen file"
+msgstr "Jäätyneen tiedoston ennenaikainen loppu"
+
+#: src/freeze.c:327
+#, c-format
+msgid "`%s' from frozen file not found in builtin table!"
+msgstr "”%s” jäätyneestä tiedostosta ei löytynyt builtin-taulua!"
+
+#: src/input.c:318
+#, c-format
+msgid "Input reverted to %s, line %d"
+msgstr "Syöte käänteisesti kohteeseen %s, rivi %d"
+
+#: src/input.c:346
+#, c-format
+msgid "Input read from %s"
+msgstr "Syöte luettiin kohteesta %s"
+
+#: src/input.c:506
+msgid "INTERNAL ERROR: Recursive push_string!"
+msgstr "SISÄINEN VIRHE: Rekursiivinen push_string!"
+
+#: src/input.c:623
+msgid "INTERNAL ERROR: Bad call to init_macro_token ()"
+msgstr "SISÄINEN VIRHE: Virheellinen kutsu funktioon init_macro_token ()"
+
+#: src/input.c:663
+msgid "INTERNAL ERROR: Input stack botch in next_char ()"
+msgstr "SISÄINEN VIRHE: Syötepino botch funktiossa next_char ()"
+
+#: src/input.c:700
+msgid "INTERNAL ERROR: Input stack botch in peek_input ()"
+msgstr "SISÄINEN VIRHE: Syötepino botch funktiossa peek_input ()"
+
+#: src/input.c:805
+msgid "NONE"
+msgstr "EI MITÄÄN"
+
+#: src/input.c:1199 src/input.c:1226
+msgid "ERROR: EOF in string"
+msgstr "VIRHE: tiedoston loppumerkki EOF merkkijonossa"
+
+#: src/m4.c:119
+msgid "ERROR: Stack overflow.  (Infinite define recursion?)"
+msgstr "VIRHE: Pinon ylivuoto.  (Päättymätön define-rekursio?)"
+
+#: src/m4.c:146
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Lisätietoja komennolla ”%s --help”.\n"
+
+#: src/m4.c:150
+#, c-format
+msgid "Usage: %s [OPTION]... [FILE]...\n"
+msgstr "Käyttö: %s [VALITSIN]... [TIEDOSTO]...\n"
+
+#: src/m4.c:151
+msgid ""
+"Mandatory or optional arguments to long options are mandatory or optional\n"
+"for short options too.\n"
+"\n"
+"Operation modes:\n"
+"      --help                   display this help and exit\n"
+"      --version                output version information and exit\n"
+"  -e, --interactive            unbuffer output, ignore interrupts\n"
+"  -E, --fatal-warnings         stop execution after first warning\n"
+"  -Q, --quiet, --silent        suppress some warnings for builtins\n"
+"  -P, --prefix-builtins        force a `m4_' prefix to all builtins\n"
+msgstr ""
+"Pakolliset tai valinnaiset argumentit pitkille valitsimille ovat pakollisia\n"
+"tai valinnaisia myös lyhyille valitsimille.\n"
+"\n"
+"Toimintotilat:\n"
+"      --help                   näytä tämä ohje ja poistu\n"
+"      --version                tulosta versiotiedot ja poistu\n"
+"  -e, --interactive            puskuroimaton tuloste, älä välitä keskeytyksistä\n"
+"  -E, --fatal-warnings         pysäytä suoritus ensimmäisen varoituksen jälkeen\n"
+"  -Q, --quiet, --silent        estä jotkut varoitukset kohteelle builtins\n"
+"  -P, --prefix-builtins        pakota ”m4_”-etuliite kaikkiin builtins-kohteisiin\n"
+
+#: src/m4.c:164
+msgid "  -W, --word-regexp=REGEXP     use REGEXP for macro name syntax\n"
+msgstr "  -W, --word-regexp=REGEXP     käytä REGEXP makronimisyntaksille\n"
+
+#: src/m4.c:169
+msgid ""
+"\n"
+"Dynamic loading features:\n"
+"  -m, --module-directory=DIRECTORY  add DIRECTORY to the module search path\n"
+"  -M, --load-module=MODULE          load dynamic MODULE from M4MODPATH\n"
+msgstr ""
+"\n"
+"Dynaamiset latausominaisuudet:\n"
+"  -m, --module-directory=DIRECTORY  lisää DIRECTORY-hakemisto moduulin etsintäpolkuun\n"
+"  -M, --load-module=MODULE          lataa dynaaminen MODULE-moduuli kohteesta M4MODPATH\n"
+
+#: src/m4.c:176
+msgid ""
+"\n"
+"Preprocessor features:\n"
+"  -I, --include=DIRECTORY      search this directory second for includes\n"
+"  -D, --define=NAME[=VALUE]    enter NAME has having VALUE, or empty\n"
+"  -U, --undefine=NAME          delete builtin NAME\n"
+"  -s, --synclines              generate `#line NO \"FILE\"' lines\n"
+msgstr ""
+"\n"
+"Esiprosessoriominaisuudet:\n"
+"  -I, --include=DIRECTORY      hae tämä hakemisto toisen kerran include-määrittelyjä varten\n"
+"  -D, --define=NIMI[=ARVO]     kirjoita NIMI, jolla on ARVO tai tyhjä\n"
+"  -U, --undefine=NIMI          poista builtin-NIMI\n"
+"  -s, --synclines              tuota ”#line NO \"FILE\"” rivit\n"
+
+#: src/m4.c:184
+msgid ""
+"\n"
+"Limits control:\n"
+"  -G, --traditional            suppress all GNU extensions\n"
+"  -H, --hashsize=PRIME         set symbol lookup hash table size\n"
+"  -L, --nesting-limit=NUMBER   change artificial nesting limit\n"
+msgstr ""
+"\n"
+"Rajoitusten valvonta:\n"
+"  -G, --traditional            estä kaikki GNU-laajennukset\n"
+"  -H, --hashsize=PRIME         aseta symbolin lookup hash-taulun koko\n"
+"  -L, --nesting-limit=NUMERO   vaihda keinotekoinen sisennysraja\n"
+
+#: src/m4.c:191
+msgid ""
+"\n"
+"Frozen state files:\n"
+"  -F, --freeze-state=FILE      produce a frozen state on FILE at end\n"
+"  -R, --reload-state=FILE      reload a frozen state from FILE at start\n"
+msgstr ""
+"\n"
+"Jäädytetyn tilan tiedostot:\n"
+"  -F, --freeze-state=TIEDOSTO  tuota jäädytetty tila TIEDOSTOon lopussa\n"
+"  -R, --reload-state=TIEDOSTO  hae uudelleen jäädytetty tila TIEDOSTOsta alussa\n"
+
+#: src/m4.c:197
+#, fuzzy
+msgid ""
+"\n"
+"Debugging:\n"
+"  -d, --debug=[FLAGS]          set debug level (no FLAGS implies `aeq')\n"
+"  -t, --trace=NAME             trace NAME when it will be defined\n"
+"  -l, --arglength=NUM          restrict macro tracing size\n"
+"  -o, --error-output=FILE      redirect debug and trace output\n"
+msgstr ""
+"\n"
+"Vianjäljitys:\n"
+"  -d, --debug=[LIPUT]          aseta vianjäljitystaso (ilman LIPUT-määritystä\n"
+"                               sisältää ”aeq”)\n"
+"  -t, --trace=NIMI             jäljitä NIMI kun se määritellään\n"
+"  -l, --arglength=NUM          rajoita makrojäljityksen kokoa\n"
+"  -o, --error-output=TIEDOSTO  ohjaa edelleen vianjäljitys- ja jäljitystuloste\n"
+
+#: src/m4.c:205
+msgid ""
+"\n"
+"FLAGS is any of:\n"
+"  t   trace for all macro calls, not only traceon'ed\n"
+"  a   show actual arguments\n"
+"  e   show expansion\n"
+"  q   quote values as necessary, with a or e flag\n"
+"  c   show before collect, after collect and after call\n"
+"  x   add a unique macro call id, useful with c flag\n"
+"  f   say current input file name\n"
+"  l   say current input line number\n"
+"  p   show results of path searches\n"
+"  i   show changes in input files\n"
+"  V   shorthand for all of the above flags\n"
+msgstr ""
+"\n"
+"LIPUT on mikä tahansa seuraavista:\n"
+"  t   jäljitä kaikki makrokutsut, ei vain silloin kun jäljitys on päällä\n"
+"  a   näytä todelliset argumentit\n"
+"  e   näytä laajennus\n"
+"  q   lainaa arvot milloin välttämätöntä, ”a”- tai ”e”-lipulla\n"
+"  c   näytä ennen collect-toimintoa, sen jälkeen ja kutsun jälkeenl\n"
+"  x   lisää uniikki makrokutsutunniste, hyödyllinen c-lipun kanssa\n"
+"  f   sano nykyinen syötetiedostonimi\n"
+"  l   sano nykyinen syöterivinumero\n"
+"  p   näytä polkuetsinnän tulokset\n"
+"  i   näytä muutokset syötetiedostoissa\n"
+"  V   lyhenne kaikille yllä oleville lipuille\n"
+
+#: src/m4.c:220
+msgid ""
+"\n"
+"If no FILE or if FILE is `-', standard input is read.\n"
+msgstr ""
+"\n"
+"Jos ei ole TIEDOSTOa tai TIEDOSTO on ”-”, luetaan vakiosyötteestä.\n"
+
+#: src/m4.c:225
+msgid ""
+"\n"
+"Report bugs to <bug-m4@gnu.org>.\n"
+msgstr ""
+"\n"
+"Ilmoita virheistä (englanniksi) osoitteeseen <bug-m4@gnu.org>.\n"
+"Ilmoita suomennoksen virheistä osoitteeseen <translation-team-fi@lists.sourceforge.net>.\n"
+
+#: src/m4.c:414
+#, c-format
+msgid "Bad debug flags: `%s'"
+msgstr "Virheelliset vianjäljitysliput: ”%s”"
+
+#: src/m4.c:436
+#, c-format
+msgid "ERROR: failed to add search directory `%s'"
+msgstr "VIRHE: etsintähakemiston ”%s” lisäys epäonnistui"
+
+#: src/m4.c:440
+#, c-format
+msgid "ERROR: failed to add search directory `%s': %s"
+msgstr "VIRHE: etsintähakemiston lisäys epäonnistui ”%s”: %s"
+
+#: src/m4.c:460
+msgid " (options:"
+msgstr " (valitsimet:"
+
+#: src/m4.c:542
+msgid "INTERNAL ERROR: Bad code in deferred arguments"
+msgstr "SISÄINEN VIRHE: Virheellinen koodi uudelleenviitatuissa argumenteissa"
+
+#: src/macro.c:97
+msgid "INTERNAL ERROR: Bad token type in expand_token ()"
+msgstr "SISÄINEN VIRHE: Virheellinen merkkijonotyyppi funktiossa expand_token ()"
+
+#: src/macro.c:163
+msgid "ERROR: EOF in argument list"
+msgstr "VIRHE: Tiedostonloppumerkki EOF argumenttiluettelossa"
+
+#: src/macro.c:182
+msgid "INTERNAL ERROR: Bad token type in expand_argument ()"
+msgstr "SISÄINEN VIRHE: Virheellinen merkkijonotyyppi funktiossa expand_argument ()"
+
+#: src/macro.c:259
+msgid "INTERNAL ERROR: Bad symbol type in call_macro ()"
+msgstr "SISÄINEN VIRHE: Virheellinen symbolityyppi funktiossa call_macro ()"
+
+#: src/macro.c:288
+#, c-format
+msgid "ERROR: Recursion limit of %d exceeded, use -L<N> to change it"
+msgstr "VIRHE: Ylitettiin rekursioraja %d, käytä -L<N> sen muuttamiseen"
+
+#: src/module.c:123
+#, c-format
+msgid "ERROR: failed to initialise modules: %s"
+msgstr "VIRHE: moduulien alustus epäonnistui: %s"
+
+#: src/module.c:221
+#, c-format
+msgid "ERROR: cannot find module: `%s'"
+msgstr "VIRHE: ei löydy moduulia: ”%s”"
+
+#: src/module.c:224
+#, c-format
+msgid "ERROR: cannot find module: `%s': %s"
+msgstr "VIRHE: ei löydy moduuleja: ”%s”: %s"
+
+#: src/module.c:274
+msgid "ERROR: cannot close modules"
+msgstr "VIRHE: ei voi sulkea moduuleja"
+
+#: src/module.c:277
+#, c-format
+msgid "ERROR: cannot cannot close modules: %s"
+msgstr "VIRHE: ei voida sulkea moduuleja: %s"
+
+#: src/module.c:284
+#, c-format
+msgid "ERROR: cannot close module: `%s'"
+msgstr "VIRHE: ei voida sulkea moduulia: ”%s”"
+
+#: src/module.c:288
+#, c-format
+msgid "ERROR: cannot cannot close module: `%s': %s"
+msgstr "VIRHE: ei voida sulkea moduulia: ”%s”: %s"
+
+#: src/output.c:262
+msgid "ERROR: Cannot create temporary file for diversion"
+msgstr "VIRHE: Ei voida luoda tilapäistä tiedostoa diversiota varten"
+
+#: src/output.c:272
+msgid "ERROR: Cannot flush diversion to temporary file"
+msgstr "VIRHE: Ei voida flush diversion tilapäiseen tiedostoon"
+
+#: src/output.c:356
+msgid "ERROR: Copying inserted file"
+msgstr "VIRHE: Kopioidaan lisättyä tiedostoa"
+
+#: src/output.c:537
+msgid "ERROR: Reading inserted file"
+msgstr "VIRHE: Luetaan lisättyä tiedostoa"
+
+#: src/output.c:636
+msgid "Cannot stat diversion"
+msgstr "Ei voi suorittaa stat-diversiota"
+
+#: src/output.c:639
+msgid "Diversion too large"
+msgstr "Diversio on liian suuri"
+
+#: src/path.c:157
+#, c-format
+msgid "Path search for `%s' found `%s'"
+msgstr "Polkuetsintä kohteelle ”%s” löysi ”%s”"
+
+#. sbrk failed.  Assume the RLIMIT_VMEM prevents expansion even
+#. if the stack limit has not been reached.
+#: src/stackovf.c:175
+msgid "VMEM limit exceeded?\n"
+msgstr "VMEM-raja ylitetty?\n"
+
+#: src/stackovf.c:197
+msgid ""
+"Memory bounds violation detected (SIGSEGV).  Either a stack overflow\n"
+"occurred, or there is a bug in "
+msgstr ""
+"Muistirajojen ylittäminen havaittu (SIGSEGV).  Tapahtui joko pinon ylivuoto\n"
+"tai sitten on virhe kohteessa "
+
+#: src/stackovf.c:202
+msgid ".  Check for possible infinite recursion.\n"
+msgstr ".  Tarkista mahdollinen päättymätön rekursiivisuus.\n"
+
+#: src/symtab.c:190
+msgid "INTERNAL ERROR: Illegal mode to symbol_lookup ()"
+msgstr "SISÄINEN VIRHE: Virheellinen tila funktiolle symbol_lookup ()"
+
+#: src/symtab.c:243
+#, c-format
+msgid "Name `%s' is unknown\n"
+msgstr "Nimi ”%s” on tuntematon\n"
