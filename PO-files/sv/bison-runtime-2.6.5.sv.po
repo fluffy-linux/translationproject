@@ -1,0 +1,65 @@
+# Swedish messages for bison.
+# Copyright © 2001-2006, 2008, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the bison package.
+# Göran Uddeborg <goeran@uddeborg.se>, 2001-2006, 2008, 2010.
+#
+# $Revision: 1.26 $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bison-runtime 2.4.3\n"
+"Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
+"POT-Creation-Date: 2012-11-07 18:23+0100\n"
+"PO-Revision-Date: 2010-08-08 14:06+0200\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/glr.c:865 data/yacc.c:765
+msgid "syntax error: cannot back up"
+msgstr "syntaxfel: kan inte backa"
+
+#: data/glr.c:1739
+msgid "syntax is ambiguous"
+msgstr "tvetydig syntax"
+
+#: data/glr.c:2024 data/glr.c:2102 data/glr.c:2140 data/glr.c:2404
+#: data/lalr1.cc:912 data/lalr1.cc:932 data/yacc.c:1339 data/yacc.c:1842
+#: data/yacc.c:1848
+msgid "syntax error"
+msgstr "syntaxfel"
+
+#: data/glr.c:2103 data/lalr1.cc:913 data/yacc.c:1340
+#, c-format
+msgid "syntax error, unexpected %s"
+msgstr "syntaxfel, oväntad %s"
+
+#: data/glr.c:2104 data/lalr1.cc:914 data/yacc.c:1341
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s"
+msgstr "syntaxfel, oväntad %s, förväntade %s"
+
+#: data/glr.c:2105 data/lalr1.cc:915 data/yacc.c:1342
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s"
+msgstr "syntaxfel, oväntad %s, förväntade %s eller %s"
+
+#: data/glr.c:2106 data/lalr1.cc:916 data/yacc.c:1343
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s"
+msgstr "syntaxfel, oväntad %s, förväntade %s eller %s eller %s"
+
+#: data/glr.c:2107 data/lalr1.cc:917 data/yacc.c:1344
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
+msgstr "syntaxfel, oväntad %s, förväntade %s eller %s eller %s eller %s"
+
+#: data/glr.c:2464 data/yacc.c:1421 data/yacc.c:1423 data/yacc.c:1602
+#: data/yacc.c:1999
+msgid "memory exhausted"
+msgstr "minnet slut"
