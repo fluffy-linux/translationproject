@@ -969,7 +969,7 @@ msgstr ""
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:47 src/cp.c:56 src/df.c:38 src/du.c:52 src/split.c:43
 msgid "Torbjorn Granlund"
-msgstr ""
+msgstr "Torbjörn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:48 src/comm.c:38 src/ls.c:117 src/rm.c:43 src/split.c:44
