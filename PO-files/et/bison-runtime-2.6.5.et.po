@@ -1,0 +1,62 @@
+# This file is distributed under the same license as the bison package.
+# Estonian translations for bison.
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Toomas Soome <Toomas.Soome@microlink.ee>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: bison-runtime 2.5-rc1\n"
+"Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
+"POT-Creation-Date: 2012-11-07 18:23+0100\n"
+"PO-Revision-Date: 2011-05-03 22:19+0300\n"
+"Last-Translator: Toomas Soome <Toomas.Soome@microlink.ee>\n"
+"Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
+"Language: et\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/glr.c:865 data/yacc.c:765
+msgid "syntax error: cannot back up"
+msgstr "süntaksi viga: ei saa toetada"
+
+#: data/glr.c:1739
+msgid "syntax is ambiguous"
+msgstr "süntaks on segane"
+
+#: data/glr.c:2024 data/glr.c:2102 data/glr.c:2140 data/glr.c:2404
+#: data/lalr1.cc:912 data/lalr1.cc:932 data/yacc.c:1339 data/yacc.c:1842
+#: data/yacc.c:1848
+msgid "syntax error"
+msgstr "süntaksi viga"
+
+#: data/glr.c:2103 data/lalr1.cc:913 data/yacc.c:1340
+#, c-format
+msgid "syntax error, unexpected %s"
+msgstr "süntaksi viga, ootamatu %s"
+
+#: data/glr.c:2104 data/lalr1.cc:914 data/yacc.c:1341
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s"
+msgstr "süntaksi viga, ootamatu %s, ootasin %s"
+
+#: data/glr.c:2105 data/lalr1.cc:915 data/yacc.c:1342
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s"
+msgstr "süntaksi viga, ootamatu %s, ootasin %s või %s"
+
+#: data/glr.c:2106 data/lalr1.cc:916 data/yacc.c:1343
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s"
+msgstr "süntaksi viga, ootamatu %s, ootasin %s või %s või %s"
+
+#: data/glr.c:2107 data/lalr1.cc:917 data/yacc.c:1344
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
+msgstr "süntaksi viga, ootamatu %s, ootasin %s või %s või %s või %s"
+
+#: data/glr.c:2464 data/yacc.c:1421 data/yacc.c:1423 data/yacc.c:1602
+#: data/yacc.c:1999
+msgid "memory exhausted"
+msgstr "mälu on otsas"
