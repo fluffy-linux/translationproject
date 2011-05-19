@@ -1,6 +1,6 @@
-# This file is distributed under the same license as the gnulib package.
 # Estonian translations for gnulib
 # Copyright (C) 2000 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnulib package.
 # Toomas Soome <Toomas.Soome@microlink.ee>, 2011.
 #
 msgid ""
