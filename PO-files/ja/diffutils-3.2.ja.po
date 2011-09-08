@@ -470,7 +470,7 @@ msgstr "ファイル末尾に改行がありません"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:43
 msgid "Torbjorn Granlund"
-msgstr "Torbjorn Granlund"
+msgstr "Torbjörn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:44
