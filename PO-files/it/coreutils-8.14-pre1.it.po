@@ -1057,7 +1057,7 @@ msgstr "operando mancante"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:48 src/cp.c:56 src/df.c:41 src/du.c:52 src/split.c:49
 msgid "Torbjorn Granlund"
-msgstr "Torbjorn Granlund"
+msgstr "Torbjörn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:49 src/comm.c:38 src/ls.c:124 src/rm.c:43 src/split.c:50
