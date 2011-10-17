@@ -465,7 +465,7 @@ msgstr "Non hai un salto de liña na fin da liña"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:43
 msgid "Torbjorn Granlund"
-msgstr "Torbjorn Granlund"
+msgstr "Torbjörn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:44
@@ -1428,9 +1428,6 @@ msgstr ""
 #~ "ír copias deste programa baixo os termos\n"
 #~ "ública Xeral de GNU.\n"
 #~ "áis información sobre estas materias, vexa o ficheiro chamado COPYING."
-
-#~ msgid "Written by Torbjorn Granlund and David MacKenzie."
-#~ msgstr "örn Granlund e David MacKenzie."
 
 #~ msgid "Report bugs to <bug-gnu-utils@gnu.org>."
 #~ msgstr ""
