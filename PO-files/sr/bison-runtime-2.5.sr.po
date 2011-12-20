@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
+# Serbian translation of bison-runtime.
 # Copyright (C) 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the bison package.
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011.
