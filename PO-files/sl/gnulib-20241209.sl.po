@@ -1,0 +1,1759 @@
+# -*- mode: po; coding: utf-8; -*- Slovenian message catalog for GNUlib.
+# Copyright (C) 2005, 2007, 2009, 2012 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnulib package.
+# Primož Peterlin <primozz.peterlin@gmail.com>, 2005, 2007, 2009, 2012.
+# $Id: gnulib-3.0.0.6062.a6b16.sl.po,v 1.5 2012/05/20 11:08:36 peterlin Exp $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnulib 3.0.0.6062.a6b16\n"
+"Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
+"POT-Creation-Date: 2024-12-09 10:23-0800\n"
+"PO-Revision-Date: 2012-05-20 13:08+0200\n"
+"Last-Translator: Primož Peterlin <primozz.peterlin@gmail.com>\n"
+"Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+
+#: lib/argmatch.c:145
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "neveljavni argument %s za %s"
+
+#: lib/argmatch.c:146
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "dvoumni argument %s za %s"
+
+#: lib/argmatch.c:165 lib/argmatch.h:242
+msgid "Valid arguments are:"
+msgstr "Veljavni argumenti so:"
+
+#: lib/argp-help.c:151
+#, c-format
+msgid "ARGP_HELP_FMT: %s value is less than or equal to %s"
+msgstr "ARGP_HELP_FMT: vrednost %s je manjša ali enaka %s"
+
+#: lib/argp-help.c:227
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
+msgstr "%.*s: ARGP_HELP_FMT parameter zahteva vrednost"
+
+#: lib/argp-help.c:237
+#, c-format
+msgid "%.*s: Unknown ARGP_HELP_FMT parameter"
+msgstr "%.*s: Neznan parameter ARGP_HELP_FMT"
+
+#: lib/argp-help.c:250
+#, c-format
+msgid "Garbage in ARGP_HELP_FMT: %s"
+msgstr "Smetje v ARGP_HELP_FMT: %s"
+
+#: lib/argp-help.c:1368
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Argumenti, navedeni kot obvezni ali neobvezni pri dolgi obliki izbire, so obvezni ali neobvezni tudi pri vseh odgovarjajočih kratkih oblikah."
+
+#: lib/argp-help.c:1734
+msgid "Usage:"
+msgstr "Uporaba:"
+
+#: lib/argp-help.c:1738
+msgid "  or: "
+msgstr " ali: "
+
+#: lib/argp-help.c:1750
+msgid " [OPTION...]"
+msgstr " [IZBIRA...]"
+
+#: lib/argp-help.c:1777
+#, fuzzy, c-format
+#| msgid "Try `%s --help' or `%s --usage' for more information.\n"
+msgid "Try '%s --help' or '%s --usage' for more information.\n"
+msgstr "Poskusite »%s --help« ali »%s --usage« za izčrpnejša navodila.\n"
+
+#: lib/argp-help.c:1805
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr "Poročila o napakah: %s\n"
+
+#: lib/argp-help.c:2006 lib/error.c:208 lib/xstrerror.c:46
+msgid "Unknown system error"
+msgstr "Neznana sistemska napaka"
+
+#: lib/argp-parse.c:80
+msgid "give this help list"
+msgstr "poda ta seznam pomoči"
+
+#: lib/argp-parse.c:81
+msgid "give a short usage message"
+msgstr "poda kratka navodila"
+
+#: lib/argp-parse.c:82
+msgid "NAME"
+msgstr "IME"
+
+#: lib/argp-parse.c:83
+msgid "set the program name"
+msgstr "nastavi ime programa"
+
+#: lib/argp-parse.c:84
+msgid "SECS"
+msgstr "SEK"
+
+#: lib/argp-parse.c:85
+msgid "hang for SECS seconds (default 3600)"
+msgstr "zastane za SEK sekund (privzeto 3600)"
+
+#: lib/argp-parse.c:142
+msgid "print program version"
+msgstr "izpiše različico programa"
+
+#: lib/argp-parse.c:159
+msgid "(PROGRAM ERROR) No version known!?"
+msgstr "(PROGRAMSKA NAPAKA) Različice ni moč ugotoviti?!"
+
+#: lib/argp-parse.c:612
+#, c-format
+msgid "%s: Too many arguments\n"
+msgstr "%s: Preveč argumentov\n"
+
+#: lib/argp-parse.c:758
+msgid "(PROGRAM ERROR) Option should have been recognized!?"
+msgstr "(PROGRAMSKA NAPAKA) Izbire bi morali prepoznati?!"
+
+#: lib/bitset/stats.c:183
+#, c-format
+msgid "%u bitset_allocs, %u freed (%.2f%%).\n"
+msgstr ""
+
+#: lib/bitset/stats.c:186
+#, c-format
+msgid "%u bitset_sets, %u cached (%.2f%%)\n"
+msgstr ""
+
+#: lib/bitset/stats.c:189
+#, c-format
+msgid "%u bitset_resets, %u cached (%.2f%%)\n"
+msgstr ""
+
+#: lib/bitset/stats.c:192
+#, c-format
+msgid "%u bitset_tests, %u cached (%.2f%%)\n"
+msgstr ""
+
+#: lib/bitset/stats.c:196
+#, c-format
+msgid "%u bitset_lists\n"
+msgstr ""
+
+#: lib/bitset/stats.c:198
+msgid "count log histogram"
+msgstr ""
+
+#: lib/bitset/stats.c:201
+msgid "size log histogram"
+msgstr ""
+
+#: lib/bitset/stats.c:204
+msgid "density histogram"
+msgstr ""
+
+#: lib/bitset/stats.c:216
+msgid "Bitset statistics:"
+msgstr ""
+
+#: lib/bitset/stats.c:220
+#, c-format
+msgid "Accumulated runs = %u"
+msgstr ""
+
+#: lib/bitset/stats.c:264 lib/bitset/stats.c:271 lib/bitset/stats.c:274
+#, fuzzy
+#| msgid "cannot create pipe"
+msgid "cannot read stats file"
+msgstr "ni mogoče ustvariti cevovoda"
+
+#: lib/bitset/stats.c:266
+msgid "bad stats file size"
+msgstr ""
+
+#: lib/bitset/stats.c:297 lib/bitset/stats.c:299
+#, fuzzy
+#| msgid "cannot create pipe"
+msgid "cannot write stats file"
+msgstr "ni mogoče ustvariti cevovoda"
+
+#: lib/bitset/stats.c:302
+#, fuzzy
+#| msgid "cannot open backup file \"%s\" for writing"
+msgid "cannot open stats file for writing"
+msgstr "varnostne kopije \"%s\" ni mogoče odpreti za pisanje"
+
+#: lib/c-file-type.c:40
+msgid "regular empty file"
+msgstr "navadna prazna datoteka"
+
+#: lib/c-file-type.c:40
+msgid "regular file"
+msgstr "navadna datoteka"
+
+#: lib/c-file-type.c:43
+msgid "directory"
+msgstr "imenik"
+
+# ! INEXACT
+#: lib/c-file-type.c:46
+msgid "symbolic link"
+msgstr "simbolna povezava"
+
+#: lib/c-file-type.c:52
+msgid "message queue"
+msgstr "vrsta sporočil"
+
+#: lib/c-file-type.c:55
+msgid "semaphore"
+msgstr "semafor"
+
+#: lib/c-file-type.c:58
+msgid "shared memory object"
+msgstr "deljen pomnilniški predmet"
+
+#: lib/c-file-type.c:61
+msgid "typed memory object"
+msgstr "tipiziran pomnilniški predmet"
+
+#: lib/c-file-type.c:66
+msgid "block special file"
+msgstr "bločna enota"
+
+#: lib/c-file-type.c:69
+msgid "character special file"
+msgstr "znakovna enota"
+
+#: lib/c-file-type.c:72
+msgid "contiguous data"
+msgstr ""
+
+#: lib/c-file-type.c:75
+msgid "fifo"
+msgstr "FIFO"
+
+#: lib/c-file-type.c:78
+msgid "door"
+msgstr ""
+
+#: lib/c-file-type.c:81
+#, fuzzy
+#| msgid "block special file"
+msgid "multiplexed block special file"
+msgstr "bločna enota"
+
+#: lib/c-file-type.c:84
+#, fuzzy
+#| msgid "character special file"
+msgid "multiplexed character special file"
+msgstr "znakovna enota"
+
+#: lib/c-file-type.c:87
+msgid "multiplexed file"
+msgstr ""
+
+#: lib/c-file-type.c:90
+#, fuzzy
+#| msgid "weird file"
+msgid "named file"
+msgstr "čudna datoteka"
+
+#: lib/c-file-type.c:93
+#, fuzzy
+#| msgid "block special file"
+msgid "network special file"
+msgstr "bločna enota"
+
+#: lib/c-file-type.c:96
+msgid "migrated file with data"
+msgstr ""
+
+#: lib/c-file-type.c:99
+msgid "migrated file without data"
+msgstr ""
+
+#: lib/c-file-type.c:102
+msgid "port"
+msgstr ""
+
+#: lib/c-file-type.c:105
+msgid "socket"
+msgstr "vtičnica"
+
+#: lib/c-file-type.c:108
+msgid "whiteout"
+msgstr ""
+
+#: lib/c-file-type.c:110
+msgid "weird file"
+msgstr "čudna datoteka"
+
+#: lib/c-stack.c:190
+msgid "program error"
+msgstr "napaka v programu"
+
+#: lib/c-stack.c:191
+msgid "stack overflow"
+msgstr "prekoračitev sklada"
+
+#: lib/clean-temp-simple.c:297
+#, c-format
+msgid "cannot remove temporary file %s"
+msgstr "začasne datoteke v %s ni mogoče odstraniti"
+
+#: lib/clean-temp.c:234
+#, c-format
+msgid "cannot find a temporary directory, try setting $TMPDIR"
+msgstr "začasnega imenika ni moč najti, poskusite nastaviti $TMPDIR"
+
+#: lib/clean-temp.c:249
+#, c-format
+msgid "cannot create a temporary directory using template \"%s\""
+msgstr "začasnega imenika z uporabo šablone \"%s\" ni mogoče ustvariti"
+
+#: lib/clean-temp.c:370
+#, c-format
+msgid "cannot remove temporary directory %s"
+msgstr "začasnega imenika %s ni mogoče odstraniti"
+
+#: lib/closein.c:99
+msgid "error closing file"
+msgstr "napaka pri zapiranju datoteke"
+
+#: lib/closeout.c:121
+msgid "write error"
+msgstr "napaka pri pisanju"
+
+#: lib/copy-acl.c:54 lib/copy-file.c:235
+#, c-format
+msgid "preserving permissions for %s"
+msgstr "ohranjena dovoljenja za %s"
+
+#: lib/copy-file.c:212
+#, fuzzy, c-format
+#| msgid "error while opening \"%s\" for reading"
+msgid "error while opening %s for reading"
+msgstr "napaka pri odpiranju datoteke \"%s\" za branje"
+
+#: lib/copy-file.c:216
+#, fuzzy, c-format
+#| msgid "cannot open backup file \"%s\" for writing"
+msgid "cannot open backup file %s for writing"
+msgstr "varnostne kopije \"%s\" ni mogoče odpreti za pisanje"
+
+#: lib/copy-file.c:220
+#, fuzzy, c-format
+#| msgid "error reading \"%s\""
+msgid "error reading %s"
+msgstr "napaka pri branju \"%s\""
+
+#: lib/copy-file.c:224
+#, fuzzy, c-format
+#| msgid "error writing \"%s\""
+msgid "error writing %s"
+msgstr "napaka pri pisanju na \"%s\""
+
+#: lib/copy-file.c:228
+#, fuzzy, c-format
+#| msgid "error after reading \"%s\""
+msgid "error after reading %s"
+msgstr "napaka po branju \"%s\""
+
+#: lib/csharpcomp.c:225 lib/csharpcomp.c:368 lib/csharpcomp.c:460
+#: lib/csharpexec.c:397 lib/cygpath.c:104 lib/javacomp.c:355
+#: lib/javaversion.c:75
+#, c-format
+msgid "fdopen() failed"
+msgstr "klic fdopen() ni uspel"
+
+#: lib/csharpcomp.c:360 lib/csharpcomp.c:378 lib/csharpcomp.c:452
+#: lib/csharpcomp.c:470 lib/csharpexec.c:389 lib/csharpexec.c:407
+#: lib/cygpath.c:110 lib/javacomp.c:361 lib/javaversion.c:81
+#, c-format
+msgid "%s subprocess I/O error"
+msgstr "V/I napaka podprocesa %s"
+
+#: lib/csharpcomp.c:430 lib/csharpcomp.c:517 lib/csharpexec.c:453
+#: lib/execute.c:377 lib/spawn-pipe.c:599 lib/wait-process.c:326
+#: lib/wait-process.c:400
+#, c-format
+msgid "%s subprocess failed"
+msgstr "podproces %s ni uspel"
+
+#: lib/csharpcomp.c:1082
+#, fuzzy, c-format
+#| msgid "C# compiler not found, try installing pnet"
+msgid "C# compiler not found, try installing mono or dotnet"
+msgstr "prevajalnika za C# ni najti, namestite pnet"
+
+#: lib/csharpexec.c:291
+#, fuzzy, c-format
+#| msgid "failed to reopen %s with mode %s"
+msgid "failed to copy '%s' to '%s'"
+msgstr "ponovno odpiranje %s v načinu %s ni uspelo"
+
+#: lib/csharpexec.c:463
+#, c-format
+msgid "could not determine %s version"
+msgstr ""
+
+#: lib/csharpexec.c:483 lib/javacomp.c:456
+#, c-format
+msgid "failed to create \"%s\""
+msgstr "ni mogoče ustvariti \"%s\""
+
+#: lib/csharpexec.c:498 lib/javacomp.c:463
+#, c-format
+msgid "error while writing \"%s\" file"
+msgstr "napaka pri pisanju na datoteko \"%s\""
+
+#: lib/csharpexec.c:681
+#, fuzzy, c-format
+#| msgid "C# virtual machine not found, try installing pnet"
+msgid "C# virtual machine not found, try installing mono or dotnet"
+msgstr "virtualnega stroja C# ni najti, namestite pnet"
+
+#: lib/cygpath.c:59
+#, c-format
+msgid "cannot convert file name '%s' to Windows syntax"
+msgstr ""
+
+#: lib/cygpath.c:65
+#, c-format
+msgid "cygwin_conv_path failed"
+msgstr ""
+
+#: lib/cygpath.c:149
+#, fuzzy, c-format
+#| msgid "string comparison failed"
+msgid "%s invocation failed"
+msgstr "primerjanje nizov ni uspelo"
+
+#: lib/dfa.c:910
+msgid "unbalanced ["
+msgstr ""
+
+#: lib/dfa.c:1031
+#, fuzzy
+#| msgid "Invalid character class name"
+msgid "invalid character class"
+msgstr "Neveljavno ime razreda znakov"
+
+#: lib/dfa.c:1159
+msgid "character class syntax is [[:space:]], not [:space:]"
+msgstr ""
+
+#: lib/dfa.c:1234
+msgid "unfinished \\ escape"
+msgstr ""
+
+#: lib/dfa.c:1344
+#, fuzzy
+#| msgid "Invalid regular expression"
+msgid "? at start of expression"
+msgstr "Neveljaven regularni izraz"
+
+#: lib/dfa.c:1356
+#, fuzzy
+#| msgid "Invalid regular expression"
+msgid "* at start of expression"
+msgstr "Neveljaven regularni izraz"
+
+#: lib/dfa.c:1370
+#, fuzzy
+#| msgid "Invalid regular expression"
+msgid "+ at start of expression"
+msgstr "Neveljaven regularni izraz"
+
+#: lib/dfa.c:1425
+msgid "{...} at start of expression"
+msgstr ""
+
+#: lib/dfa.c:1428
+#, fuzzy
+#| msgid "Invalid content of \\{\\}"
+msgid "invalid content of \\{\\}"
+msgstr "Neveljavna vsebina \\{\\}"
+
+#: lib/dfa.c:1430
+#, fuzzy
+#| msgid "Regular expression too big"
+msgid "regular expression too big"
+msgstr "Regularni izraz je preobsežen"
+
+#: lib/dfa.c:1580
+msgid "stray \\ before unprintable character"
+msgstr ""
+
+#: lib/dfa.c:1582
+msgid "stray \\ before white space"
+msgstr ""
+
+#: lib/dfa.c:1593
+#, c-format
+msgid "stray \\ before %s"
+msgstr ""
+
+#: lib/dfa.c:1594 lib/dfa.c:1597
+msgid "stray \\"
+msgstr ""
+
+#: lib/dfa.c:1948
+msgid "unbalanced ("
+msgstr ""
+
+#: lib/dfa.c:2065
+msgid "no syntax specified"
+msgstr ""
+
+#: lib/dfa.c:2076
+msgid "unbalanced )"
+msgstr ""
+
+#: lib/gai_strerror.c:57
+msgid "Address family for hostname not supported"
+msgstr "Družina naslovov za ime gostitelja ni podprta"
+
+#: lib/gai_strerror.c:58
+msgid "Temporary failure in name resolution"
+msgstr "Razreševanje imena začasno ni uspelo"
+
+#: lib/gai_strerror.c:59
+msgid "Bad value for ai_flags"
+msgstr "Slaba vrednost ai_flags"
+
+#: lib/gai_strerror.c:60
+msgid "Non-recoverable failure in name resolution"
+msgstr "Nepopravljiv neuspeh pri razreševanju imena"
+
+#: lib/gai_strerror.c:61
+msgid "ai_family not supported"
+msgstr "ai_family ni podprt"
+
+#: lib/gai_strerror.c:62
+msgid "Memory allocation failure"
+msgstr "Dodelitev pomnilnika ni uspela"
+
+#: lib/gai_strerror.c:63
+msgid "No address associated with hostname"
+msgstr "Z imenom gostitelja ni povezan noben naslov"
+
+#: lib/gai_strerror.c:64
+msgid "Name or service not known"
+msgstr "Ime ali storitev ni poznana"
+
+#: lib/gai_strerror.c:65
+msgid "Servname not supported for ai_socktype"
+msgstr "Servname ni podprt za ai_socktype"
+
+#: lib/gai_strerror.c:66
+msgid "ai_socktype not supported"
+msgstr "ai_socktype ni podprt"
+
+#: lib/gai_strerror.c:67
+msgid "System error"
+msgstr "Sistemska napaka"
+
+#: lib/gai_strerror.c:68
+msgid "Argument buffer too small"
+msgstr "Medpomnilnik za argumente premajhen"
+
+#: lib/gai_strerror.c:70
+msgid "Processing request in progress"
+msgstr "Obdelava zahtevka v teku"
+
+#: lib/gai_strerror.c:71
+msgid "Request canceled"
+msgstr "Zahtevek preklican"
+
+#: lib/gai_strerror.c:72
+msgid "Request not canceled"
+msgstr "Zahtevek ni preklican"
+
+#: lib/gai_strerror.c:73
+msgid "All requests done"
+msgstr "Vsi zahtevki obdelani"
+
+#: lib/gai_strerror.c:74
+msgid "Interrupted by a signal"
+msgstr "Prekinjeno s signalom"
+
+#: lib/gai_strerror.c:75
+msgid "Parameter string not correctly encoded"
+msgstr "Parametrični niz nepravilno kodiran"
+
+#: lib/gai_strerror.c:87
+msgid "Unknown error"
+msgstr "Neznana napaka"
+
+#: lib/getopt.c:282
+#, fuzzy, c-format
+#| msgid "%s: option '-W %s' is ambiguous\n"
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s: izbira »-W %s« je dvoumna\n"
+
+#: lib/getopt.c:288
+#, fuzzy, c-format
+#| msgid "%s: option '%s' is ambiguous; possibilities:"
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s: izbira »%s« je dvoumna; možnosti:"
+
+#: lib/getopt.c:322
+#, fuzzy, c-format
+#| msgid "%s: unrecognized option '%c%s'\n"
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s: neprepoznana izbira »%c%s«\n"
+
+#: lib/getopt.c:348
+#, fuzzy, c-format
+#| msgid "%s: option '%c%s' doesn't allow an argument\n"
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s: izbira »%c%s« ne dovoljuje argumenta\n"
+
+#: lib/getopt.c:363
+#, fuzzy, c-format
+#| msgid "%s: option '--%s' requires an argument\n"
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s: izbira »--%s« zahteva argument\n"
+
+#: lib/getopt.c:624
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: neveljavna izbira -- '%c'\n"
+
+#: lib/getopt.c:639 lib/getopt.c:685
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: izbira zahteva argument -- '%c'\n"
+
+#: lib/javacomp.c:103
+#, c-format
+msgid "The java program is too old. Cannot compile Java code for this old version any more."
+msgstr ""
+
+#: lib/javacomp.c:147
+#, c-format
+msgid "invalid source_version argument to compile_java_class"
+msgstr "neveljaven argument source_version za compile_java_class"
+
+#: lib/javacomp.c:168
+#, c-format
+msgid "invalid target_version argument to compile_java_class"
+msgstr "neveljaven argument target_version za compile_java_class"
+
+#: lib/javacomp.c:1131
+#, fuzzy, c-format
+#| msgid "Java compiler not found, try installing gcj or set $JAVAC"
+msgid "Java compiler not found, try setting $JAVAC"
+msgstr "prevajalnika za Javo ni najti, nastavite $JAVAC ali namestite gcj"
+
+#: lib/javaexec.c:309
+#, fuzzy, c-format
+#| msgid "Java virtual machine not found, try installing gij or set $JAVA"
+msgid "Java virtual machine not found, try setting $JAVA"
+msgstr "virtualnega stroja za Javo ni najti, nastavite $JAVA ali namestite gij"
+
+#: lib/mkdir-p.c:162
+#, fuzzy, c-format
+#| msgid "cannot create pipe"
+msgid "cannot stat %s"
+msgstr "ni mogoče ustvariti cevovoda"
+
+#: lib/mkdir-p.c:190
+#, c-format
+msgid "cannot change permissions of %s"
+msgstr "dovoljenj %s ni mogoče spremeniti"
+
+#: lib/mkdir-p.c:200
+#, c-format
+msgid "cannot create directory %s"
+msgstr "imenika %s ni mogoče ustvariti"
+
+# ! INEXACT
+#: lib/obstack.c:320 lib/obstack.c:322 lib/xalloc-die.c:34 lib/xsetenv.c:37
+#, c-format
+msgid "memory exhausted"
+msgstr "zmanjkalo pomnilnika"
+
+#: lib/openat-die.c:38
+#, c-format
+msgid "unable to record current working directory"
+msgstr "ni mogoče zabeležiti trenutnega delovnega imenika"
+
+#: lib/openat-die.c:57
+#, c-format
+msgid "failed to return to initial working directory"
+msgstr "vrnitev v začetni delovni imenik ni uspela"
+
+#: lib/os2-spawn.c:51
+#, c-format
+msgid "_open_osfhandle failed"
+msgstr "klic _open_osfhandle ni uspel"
+
+#: lib/os2-spawn.c:88
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr "ni mogoče obnoviti fd %d: klic dup2 ni uspel"
+
+#: lib/pagealign_alloc.c:137
+#, c-format
+msgid "Failed to open /dev/zero for read"
+msgstr "Datoteke /dev/null ni uspelo odpreti za branje"
+
+#: lib/parse-datetime.y:434 lib/parse-datetime.y:534
+#, c-format
+msgid "parsed %s part: "
+msgstr ""
+
+#: lib/parse-datetime.y:449
+#, c-format
+msgid "year: %04<PRIdMAX>"
+msgstr ""
+
+#: lib/parse-datetime.y:477
+#, c-format
+msgid "%s (day ordinal=%<PRIdMAX> number=%d)"
+msgstr ""
+
+#: lib/parse-datetime.y:508
+#, c-format
+msgid "number of seconds: %<PRIdMAX>"
+msgstr ""
+
+#: lib/parse-datetime.y:541
+msgid "today/this/now\n"
+msgstr ""
+
+#: lib/parse-datetime.y:606
+msgid "number of seconds"
+msgstr ""
+
+#: lib/parse-datetime.y:619
+msgid "datetime"
+msgstr ""
+
+#: lib/parse-datetime.y:624
+msgid "time"
+msgstr ""
+
+#: lib/parse-datetime.y:629
+msgid "local_zone"
+msgstr ""
+
+#: lib/parse-datetime.y:639
+msgid "zone"
+msgstr ""
+
+#: lib/parse-datetime.y:644
+msgid "date"
+msgstr ""
+
+#: lib/parse-datetime.y:649
+msgid "day"
+msgstr ""
+
+#: lib/parse-datetime.y:653 lib/parse-datetime.y:760 lib/parse-datetime.y:765
+msgid "relative"
+msgstr ""
+
+#: lib/parse-datetime.y:657
+msgid "number"
+msgstr ""
+
+#: lib/parse-datetime.y:661
+msgid "hybrid"
+msgstr ""
+
+#: lib/parse-datetime.y:819
+#, c-format
+msgid "warning: value %<PRIdMAX> has %<PRIdMAX> digits. Assuming YYYY/MM/DD\n"
+msgstr ""
+
+#: lib/parse-datetime.y:831
+#, c-format
+msgid "warning: value %<PRIdMAX> has less than 4 digits. Assuming MM/DD/YY[YY]\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1280
+#, c-format
+msgid "warning: adjusting year value %<PRIdMAX> to %<PRIdMAX>\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1290
+#, c-format
+msgid "error: out-of-range year %<PRIdMAX>\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1521
+#, c-format
+msgid "error: unknown word '%s'\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1693
+msgid "error: invalid date/time value:\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1694
+#, c-format
+msgid "    user provided time: '%s'\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1696
+#, c-format
+msgid "       normalized time: '%s'\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1719
+msgid "     possible reasons:\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1721
+msgid "       nonexistent due to daylight-saving time;\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1723
+msgid "       invalid day/month combination;\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1724
+msgid "       numeric values overflow;\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1725
+msgid "incorrect timezone"
+msgstr ""
+
+#: lib/parse-datetime.y:1726
+msgid "missing timezone"
+msgstr ""
+
+#: lib/parse-datetime.y:1834
+#, fuzzy
+#| msgid "character out of range"
+msgid "error: initial year out of range\n"
+msgstr "koda znaka izven obsega"
+
+#: lib/parse-datetime.y:1902
+#, fuzzy
+#| msgid "error closing file"
+msgid "error: parsing failed\n"
+msgstr "napaka pri zapiranju datoteke"
+
+#: lib/parse-datetime.y:1903
+#, c-format
+msgid "error: parsing failed, stopped at '%s'\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1913
+msgid "input timezone: "
+msgstr ""
+
+#: lib/parse-datetime.y:1916
+#, c-format
+msgid "'@timespec' - always UTC"
+msgstr ""
+
+#: lib/parse-datetime.y:1918
+#, c-format
+msgid "parsed date/time string"
+msgstr ""
+
+#: lib/parse-datetime.y:1922
+#, c-format
+msgid "TZ=\"%s\" in date string"
+msgstr ""
+
+#: lib/parse-datetime.y:1926
+#, c-format
+msgid "TZ=\"UTC0\" environment value or -u"
+msgstr ""
+
+#: lib/parse-datetime.y:1929
+#, c-format
+msgid "TZ=\"%s\" environment value"
+msgstr ""
+
+#: lib/parse-datetime.y:1932
+#, fuzzy, c-format
+#| msgid "Bad system call"
+msgid "system default"
+msgstr "Slab sistemski klic"
+
+#: lib/parse-datetime.y:1974
+msgid "error: year, month, or day overflow\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1985
+#, c-format
+msgid "error: invalid hour %<PRIdMAX>%s\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1993
+#, c-format
+msgid "using specified time as starting value: '%s'\n"
+msgstr ""
+
+#: lib/parse-datetime.y:1994
+#, c-format
+msgid "using current time as starting value: '%s'\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2048
+#, c-format
+msgid "error: tzalloc (\"%s\") failed\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2092
+#, c-format
+msgid "error: day '%s' (day ordinal=%<PRIdMAX> number=%d) resulted in an invalid date: '%s'\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2103
+#, c-format
+msgid "new start date: '%s' is '%s'\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2112
+#, c-format
+msgid "using current date as starting value: '%s'\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2116
+#, c-format
+msgid "warning: day (%s) ignored when explicit dates are given\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2120
+#, c-format
+msgid "starting date/time: '%s'\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2130
+msgid "warning: when adding relative months/years, it is recommended to specify the 15th of the months\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2135
+msgid "warning: when adding relative days, it is recommended to specify noon\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2145
+#, c-format
+msgid "error: %s:%d\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2160
+#, c-format
+msgid "error: adding relative date resulted in an invalid date: '%s'\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2169
+#, c-format
+msgid "after date adjustment (%+<PRIdMAX> years, %+<PRIdMAX> months, %+<PRIdMAX> days),\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2173
+#, c-format
+msgid "    new date/time = '%s'\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2192
+msgid "warning: daylight saving time changed after date adjustment\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2211
+msgid "warning: month/year adjustment resulted in shifted dates:\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2214
+#, c-format
+msgid "     adjusted Y M D: %s %02d %02d\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2216
+#, c-format
+msgid "   normalized Y M D: %s %02d %02d\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2245
+#, c-format
+msgid "error: timezone %d caused time_t overflow\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2255
+#, c-format
+msgid "'%s' = %<PRIdMAX> epoch-seconds\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2283
+msgid "error: adding relative time caused an overflow\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2294
+#, c-format
+msgid "after time adjustment (%+<PRIdMAX> hours, %+<PRIdMAX> minutes, %+<PRIdMAX> seconds, %+d ns),\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2300
+#, c-format
+msgid "    new time = %<PRIdMAX> epoch-seconds\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2316
+msgid "warning: daylight saving time changed after time adjustment\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2326
+msgid "timezone: system default\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2328
+msgid "timezone: Universal Time\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2330
+#, c-format
+msgid "timezone: TZ=\"%s\" environment value\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2334
+#, c-format
+msgid "final: %<PRIdMAX>.%09d (epoch-seconds)\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2340
+#, c-format
+msgid "final: %s (UTC)\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2355
+#, c-format
+msgid "final: %s (UTC%s)\n"
+msgstr ""
+
+#: lib/parse-datetime.y:2359
+#, c-format
+msgid "final: %s (unknown time zone offset)\n"
+msgstr ""
+
+#: lib/pipe-filter-gi.c:152
+#, c-format
+msgid "creation of reading thread failed"
+msgstr "niti za pisanje ni bilo mogoče ustvariti"
+
+#: lib/pipe-filter-gi.c:257 lib/pipe-filter-ii.c:419
+#, c-format
+msgid "cannot set up nonblocking I/O to %s subprocess"
+msgstr "neblokiranega V/I za podproces %s ni mogoče nastaviti"
+
+#: lib/pipe-filter-gi.c:335 lib/pipe-filter-ii.c:457
+#, c-format
+msgid "communication with %s subprocess failed"
+msgstr "komunikacija s podprocesom %s ni uspela"
+
+#: lib/pipe-filter-gi.c:365 lib/pipe-filter-ii.c:345 lib/pipe-filter-ii.c:502
+#, c-format
+msgid "write to %s subprocess failed"
+msgstr "pisanje na podproces %s ni uspelo"
+
+#: lib/pipe-filter-gi.c:405 lib/pipe-filter-ii.c:366 lib/pipe-filter-ii.c:545
+#, c-format
+msgid "read from %s subprocess failed"
+msgstr "branje s podprocesa %s ni uspelo"
+
+#: lib/pipe-filter-gi.c:458
+#, c-format
+msgid "subprocess %s terminated with exit code %d"
+msgstr "podproces %s se je zaključil z izhodno kodo %d"
+
+#: lib/pipe-filter-ii.c:313
+#, c-format
+msgid "creation of threads failed"
+msgstr "ustvarjanje niti ni uspelo"
+
+#: lib/pipe-filter-ii.c:577
+#, c-format
+msgid "%s subprocess terminated with exit code %d"
+msgstr "%s podproces se je zaključil z izhodno kodo %d"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:354
+msgid "`"
+msgstr "»"
+
+#: lib/quotearg.c:355
+msgid "'"
+msgstr "«"
+
+#: lib/regcomp.c:122
+msgid "Success"
+msgstr "Uspešno"
+
+#: lib/regcomp.c:125
+msgid "No match"
+msgstr "Brez zadetkov"
+
+#: lib/regcomp.c:128
+msgid "Invalid regular expression"
+msgstr "Neveljaven regularni izraz"
+
+#: lib/regcomp.c:131
+msgid "Invalid collation character"
+msgstr "Neveljaven razvrščevalni znak"
+
+#: lib/regcomp.c:134
+msgid "Invalid character class name"
+msgstr "Neveljavno ime razreda znakov"
+
+#: lib/regcomp.c:137
+msgid "Trailing backslash"
+msgstr "Zaključna obratna poševnica"
+
+#: lib/regcomp.c:140
+msgid "Invalid back reference"
+msgstr "Neveljaven povratni sklic"
+
+#: lib/regcomp.c:143
+#, fuzzy
+#| msgid "Unmatched [ or [^"
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "Uklepaj [ ali [^ brez para"
+
+#: lib/regcomp.c:146
+msgid "Unmatched ( or \\("
+msgstr "Uklepaj ( ali \\( brez para"
+
+#: lib/regcomp.c:149
+msgid "Unmatched \\{"
+msgstr "Uklepaj \\{ brez para"
+
+#: lib/regcomp.c:152
+msgid "Invalid content of \\{\\}"
+msgstr "Neveljavna vsebina \\{\\}"
+
+#: lib/regcomp.c:155
+msgid "Invalid range end"
+msgstr "Neveljaven konec razpona"
+
+# ! INEXACT
+#: lib/regcomp.c:158
+msgid "Memory exhausted"
+msgstr "Pomnilnik izčrpan"
+
+#: lib/regcomp.c:161
+msgid "Invalid preceding regular expression"
+msgstr "Neveljaven predhodni regularni izraz"
+
+#: lib/regcomp.c:164
+msgid "Premature end of regular expression"
+msgstr "Predčasen zaključek regularnega izraza"
+
+#: lib/regcomp.c:167
+msgid "Regular expression too big"
+msgstr "Regularni izraz je preobsežen"
+
+#: lib/regcomp.c:170
+msgid "Unmatched ) or \\)"
+msgstr "Zaklepaj ) ali \\) brez para"
+
+#: lib/regcomp.c:650
+msgid "No previous regular expression"
+msgstr "Prejšnjega regularnega izraza ni"
+
+#. TRANSLATORS: A regular expression testing for an affirmative answer
+#. (english: "yes").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^yesexpr='
+#: lib/rpmatch.c:149
+msgid "^[yY]"
+msgstr "^[jJdD]"
+
+#. TRANSLATORS: A regular expression testing for a negative answer
+#. (english: "no").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^noexpr='
+#: lib/rpmatch.c:162
+msgid "^[nN]"
+msgstr "^[nN]"
+
+#: lib/set-acl.c:46
+#, c-format
+msgid "setting permissions for %s"
+msgstr "nastavljena dovoljenja za %s"
+
+#: lib/siglist.h:31
+msgid "Hangup"
+msgstr "Odklop"
+
+#: lib/siglist.h:34
+msgid "Interrupt"
+msgstr "Prekinitev"
+
+#: lib/siglist.h:37
+msgid "Quit"
+msgstr "Končanje"
+
+#: lib/siglist.h:40
+msgid "Illegal instruction"
+msgstr "Nedovoljen ukaz"
+
+#: lib/siglist.h:43
+msgid "Trace/breakpoint trap"
+msgstr "Past"
+
+#: lib/siglist.h:46
+msgid "Aborted"
+msgstr "Prekinjen"
+
+#: lib/siglist.h:49
+msgid "Floating point exception"
+msgstr "Prekoračitev plavajoče vejice"
+
+#: lib/siglist.h:52
+msgid "Killed"
+msgstr "Pobit"
+
+#: lib/siglist.h:55
+msgid "Bus error"
+msgstr "Napaka vodila"
+
+#: lib/siglist.h:58
+msgid "Segmentation fault"
+msgstr "Napaka segmentacije"
+
+#: lib/siglist.h:61
+msgid "Broken pipe"
+msgstr "Prekinjen cevovod"
+
+#: lib/siglist.h:64
+msgid "Alarm clock"
+msgstr "Budilka"
+
+#: lib/siglist.h:67
+msgid "Terminated"
+msgstr "Zaključen"
+
+#: lib/siglist.h:70
+msgid "Urgent I/O condition"
+msgstr "Nujno V/I stanje"
+
+#: lib/siglist.h:73
+msgid "Stopped (signal)"
+msgstr "Ustavljen (signal)"
+
+#: lib/siglist.h:76
+msgid "Stopped"
+msgstr "Ustavljen"
+
+#: lib/siglist.h:79
+msgid "Continued"
+msgstr "Nadaljevan"
+
+#: lib/siglist.h:82
+msgid "Child exited"
+msgstr "Izhod nasledniškega procesa"
+
+#: lib/siglist.h:85
+msgid "Stopped (tty input)"
+msgstr "Ustavljen (vhod TTY)"
+
+#: lib/siglist.h:88
+msgid "Stopped (tty output)"
+msgstr "Ustavljen (izhod TTY)"
+
+#: lib/siglist.h:91
+msgid "I/O possible"
+msgstr "Mogoč V/I"
+
+#: lib/siglist.h:94
+msgid "CPU time limit exceeded"
+msgstr "Presežena omejitev procesorskega časa"
+
+#: lib/siglist.h:97
+msgid "File size limit exceeded"
+msgstr "Presežena omejitev dolžine datoteke"
+
+#: lib/siglist.h:100
+msgid "Virtual timer expired"
+msgstr "Iztek virtualne štoparice"
+
+#: lib/siglist.h:103
+msgid "Profiling timer expired"
+msgstr "Iztek profilirne štoparice"
+
+#: lib/siglist.h:106
+msgid "Window changed"
+msgstr "Zamenjano okno"
+
+#: lib/siglist.h:109
+msgid "User defined signal 1"
+msgstr "Uporabniški signal 1"
+
+#: lib/siglist.h:112
+msgid "User defined signal 2"
+msgstr "Uporabniški signal 2"
+
+#: lib/siglist.h:117
+msgid "EMT trap"
+msgstr "Past EMT"
+
+#: lib/siglist.h:120
+msgid "Bad system call"
+msgstr "Slab sistemski klic"
+
+#: lib/siglist.h:123
+msgid "Stack fault"
+msgstr "Napaka sklada"
+
+#: lib/siglist.h:126
+msgid "Information request"
+msgstr "Informacijski zahtevek"
+
+#: lib/siglist.h:128
+msgid "Power failure"
+msgstr "Izpad toka"
+
+#: lib/siglist.h:131
+msgid "Resource lost"
+msgstr "Vir izgubljen"
+
+#: lib/sigpipe-die.c:37
+msgid "error writing to a closed pipe or socket"
+msgstr "napaka pri pisanju na zaprt cevovod ali vtič"
+
+#: lib/spawn-pipe.c:218 lib/spawn-pipe.c:221
+#, c-format
+msgid "cannot create pipe"
+msgstr "ni mogoče ustvariti cevovoda"
+
+#: lib/strsignal.c:114
+#, c-format
+msgid "Real-time signal %d"
+msgstr "Realnočasovni signal %d"
+
+#: lib/strsignal.c:118
+#, c-format
+msgid "Unknown signal %d"
+msgstr "Neznani signal %d"
+
+#: lib/timevar.c:316
+msgid "Execution times (seconds)"
+msgstr ""
+
+#: lib/timevar.c:318
+msgid "CPU user"
+msgstr ""
+
+#: lib/timevar.c:318
+msgid "CPU system"
+msgstr ""
+
+#: lib/timevar.c:318
+#, fuzzy
+#| msgid "Alarm clock"
+msgid "wall clock"
+msgstr "Budilka"
+
+#: lib/unicodeio.c:102
+msgid "iconv function not usable"
+msgstr "funkcija iconv ne deluje"
+
+#: lib/unicodeio.c:104
+msgid "iconv function not available"
+msgstr "funkcija iconv ni na voljo"
+
+#: lib/unicodeio.c:111
+msgid "character out of range"
+msgstr "koda znaka izven obsega"
+
+#: lib/unicodeio.c:191
+#, c-format
+msgid "cannot convert U+%04X to local character set"
+msgstr "znaka s kodo U+%04X ni mogoče pretvoriti v lokalni nabor znakov"
+
+#: lib/unicodeio.c:193
+#, c-format
+msgid "cannot convert U+%04X to local character set: %s"
+msgstr "znaka s kodo U+%04X ni moč pretvoriti v lokalni nabor znakov: %s"
+
+#: lib/userspec.c:165
+msgid "invalid spec"
+msgstr "neveljavna specifikacija"
+
+#: lib/userspec.c:174
+msgid "invalid user"
+msgstr "neveljavno uporabniško ime"
+
+#: lib/userspec.c:207
+msgid "invalid group"
+msgstr "neveljavno ime skupine"
+
+#: lib/userspec.c:279
+msgid "warning: '.' should be ':'"
+msgstr ""
+
+#: lib/version-etc.c:73
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "Priprava paketa: %s (%s)\n"
+
+#: lib/version-etc.c:76
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "Priprava paketa: %s\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:83
+msgid "(C)"
+msgstr "©"
+
+#. TRANSLATORS: The %s placeholder is the web address of the GPL license.
+#: lib/version-etc.c:88
+#, fuzzy, c-format
+#| msgid ""
+#| "\n"
+#| "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\n"
+#| "This is free software: you are free to change and redistribute it.\n"
+#| "There is NO WARRANTY, to the extent permitted by law.\n"
+#| "\n"
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <%s>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"\n"
+"GPLv3+: GNU GPL, 3. izdaja ali poznejša <http://www.gnu.org/licenses/gpl.html>\n"
+"To je prosto programje; lahko ga redistribuirate in/ali spreminjate.\n"
+"Za izdelek ni NOBENEGA JAMSTVA, do z zakonom dovoljene meje.\n"
+"\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:105
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Avtor(ica): %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:109
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Avtorja: %s in %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:113
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Avtorji: %s, %s in %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:120
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Avtorji: %s, %s, %s\n"
+"in %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:127
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Avtorji: %s, %s, %s,\n"
+"%s in %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:134
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Avtorji: %s, %s, %s,\n"
+"%s, %s in %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:142
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Avtorji: %s, %s, %s,\n"
+"%s, %s, %s in %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:150
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Avtorji: %s, %s, %s,\n"
+"%s, %s, %s, %s\n"
+"in %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:159
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Avtorji: %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s in %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:170
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Avtorji: %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s in drugi.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:249
+#, fuzzy, c-format
+#| msgid ""
+#| "\n"
+#| "Report bugs to: %s\n"
+msgid "Report bugs to: %s\n"
+msgstr ""
+"\n"
+"Poročila o napakah: %s\n"
+"Napake v prevodu sporočite na <translation-team-sl@lists.sourceforge.net>.\n"
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr ""
+"Napake v programu %s sporočite na: %s\n"
+"Napake v prevodu sporočite na <translation-team-sl@lists.sourceforge.net>.\n"
+
+#: lib/version-etc.c:255 lib/version-etc.c:257
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "Domača stran %s: <%s>\n"
+
+#: lib/version-etc.c:260
+#, fuzzy, c-format
+#| msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+msgid "General help using GNU software: <%s>\n"
+msgstr "Splošna pomoč za rabo programja GNU: <http://www.gnu.org/gethelp/>.\n"
+
+#: lib/wait-process.c:267 lib/wait-process.c:299 lib/wait-process.c:361
+#, c-format
+msgid "%s subprocess"
+msgstr "podproces %s"
+
+#: lib/wait-process.c:318 lib/wait-process.c:390
+#, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "podproces %s je prejel terminalni signal %d"
+
+#: lib/xbinary-io.c:36
+#, c-format
+msgid "failed to set file descriptor text/binary mode"
+msgstr ""
+
+#: lib/xfreopen.c:34
+msgid "stdin"
+msgstr "standardni vhod"
+
+#: lib/xfreopen.c:35
+msgid "stdout"
+msgstr "standardni izhod"
+
+#: lib/xfreopen.c:36
+msgid "stderr"
+msgstr "standardna izhod za napake"
+
+#: lib/xfreopen.c:37
+msgid "unknown stream"
+msgstr "neznani tok"
+
+#: lib/xfreopen.c:38
+#, c-format
+msgid "failed to reopen %s with mode %s"
+msgstr "ponovno odpiranje %s v načinu %s ni uspelo"
+
+#: lib/xmemcoll.c:39
+#, c-format
+msgid "string comparison failed"
+msgstr "primerjanje nizov ni uspelo"
+
+#: lib/xmemcoll.c:40
+#, c-format
+msgid "Set LC_ALL='C' to work around the problem."
+msgstr "Nastavite LC_ALL='C', da bi odpravili težavo."
+
+#: lib/xmemcoll.c:42
+#, c-format
+msgid "The strings compared were %s and %s."
+msgstr "Primerjana niza sta bila %s in %s."
+
+#: lib/xprintf.c:52 lib/xprintf.c:78
+#, c-format
+msgid "cannot perform formatted output"
+msgstr "oblikovanega izpisa ni mogoče izvesti"
+
+#: lib/xstdopen.c:34
+#, c-format
+msgid "standard file descriptors"
+msgstr ""
+
+#: lib/xstrerror.c:51
+#, c-format
+msgid "%s: %s"
+msgstr ""
+
+#: lib/xstrtol-error.c:64
+#, fuzzy, c-format
+#| msgid "invalid %s%s argument `%s'"
+msgid "invalid %s%s argument '%s'"
+msgstr "neveljavni %s%s argument  »%s«"
+
+#: lib/xstrtol-error.c:69
+#, fuzzy, c-format
+#| msgid "invalid suffix in %s%s argument `%s'"
+msgid "invalid suffix in %s%s argument '%s'"
+msgstr "neveljavna pripona pri %s%s argumentu »%s«"
+
+#: lib/xstrtol-error.c:73
+#, fuzzy, c-format
+#| msgid "%s%s argument `%s' too large"
+msgid "%s%s argument '%s' too large"
+msgstr "%s%s: argument »%s« je prevelik"
+
+#, c-format
+#~ msgid "%.*s: ARGP_HELP_FMT parameter must be positive"
+#~ msgstr "%.*s: ARGP_HELP_FMT parameter mora biti pozitiven"
+
+#, c-format
+#~ msgid "%s: option '--%s' doesn't allow an argument\n"
+#~ msgstr "%s: izbira »--%s« ne dovoljuje argumenta\n"
+
+#, c-format
+#~ msgid "%s: unrecognized option '--%s'\n"
+#~ msgstr "%s: neprepoznana izbira »--%s«\n"
+
+#, c-format
+#~ msgid "%s: option '-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: izbira »-W %s« ne dovoljuje argumenta\n"
+
+#, c-format
+#~ msgid "%s: option '-W %s' requires an argument\n"
+#~ msgstr "%s: izbira »-W %s« zahteva argument\n"
+
+#~ msgid "Franc,ois Pinard"
+#~ msgstr "François Pinard"
+
+#, c-format
+#~ msgid "unable to display error message"
+#~ msgstr "sporočila o napaki ni mogoče prikazati"
+
+#, c-format
+#~ msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+#~ msgstr "Spletna stran %s: <http://www.gnu.org/software/%s/>.\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: nedovoljena izbira -- %c\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Report bugs to <%s>.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Napake v programu sporočite na %s.\n"
+#~ "Napake v prevodu sporočite na <translation-team-sl@lists.sourceforge.net>.\n"
+
+#~ msgid "block size"
+#~ msgstr "velikost bloka"
+
+#~ msgid "%s exists but is not a directory"
+#~ msgstr "%s obstaja, vendar ni imenik"
+
+# ! INEXACT
+#~ msgid "cannot change owner and/or group of %s"
+#~ msgstr "lastnika in/ali skupine %s ni mogoče spremeniti"
+
+#~ msgid "cannot chdir to directory %s"
+#~ msgstr "dostop do imenika %s ni mogoč"
+
+#~ msgid "cannot get the login group of a numeric UID"
+#~ msgstr "imena skupine, ki pripada številčnemu UID, ni mogoče ugotoviti"
+
+#~ msgid ""
+#~ "\n"
+#~ "This is free software.  You may redistribute copies of it under the terms of\n"
+#~ "the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.\n"
+#~ "There is NO WARRANTY, to the extent permitted by law.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Ta program je prosta programska oprema; lahko ga redistribuirate in/ali\n"
+#~ "spreminjate po pogojih, določenih v »GNU General Public License«, \n"
+#~ "<http://www.gnu.org/licenses/gpl.html>. Za izdelek ni NOBENEGA JAMSTVA, do\n"
+#~ "z zakonom dovoljene meje.\n"
