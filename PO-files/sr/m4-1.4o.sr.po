@@ -1,0 +1,661 @@
+# Serbian translation of m4.
+# Copyright (C) 2012 Free Software Foundation, Inc.
+# This file is distributed under the same license as the m4 package.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: m4-1.4o\n"
+"POT-Creation-Date: 2000-01-10 05:27+0100\n"
+"PO-Revision-Date: 2012-05-23 09:15+0200\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian <gnu@prevod.org>\n"
+"Language: sr\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: lib/getopt.c:677
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: опција „%s“ је нејасна\n"
+
+#: lib/getopt.c:702
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: опција „--%s“ не дозвољава аргумент\n"
+
+#: lib/getopt.c:707
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: опција „%c%s“ не дозвољава аргумент\n"
+
+#: lib/getopt.c:725 lib/getopt.c:898
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: опција „%s“ захтева аргумент\n"
+
+#. --option
+#: lib/getopt.c:754
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: непозната опција „--%s“\n"
+
+#. +option or -option
+#: lib/getopt.c:758
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: непозната опција „%c%s“\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:784
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: недозвољена опција -- %c\n"
+
+#: lib/getopt.c:787
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: погрешна опција -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:817 lib/getopt.c:947
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: опција захтева аргумент -- %c\n"
+
+#: lib/getopt.c:864
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: опција „-W %s“ је нејасна\n"
+
+#: lib/getopt.c:882
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: опција „-W %s“ не дозвољава аргумент\n"
+
+#: lib/obstack.c:471
+msgid "memory exhausted"
+msgstr "меморија је потрошена"
+
+#: lib/regex.c:1019
+msgid "Success"
+msgstr "Успешно"
+
+#: lib/regex.c:1022
+msgid "No match"
+msgstr "Нема подударања"
+
+#: lib/regex.c:1025
+msgid "Invalid regular expression"
+msgstr "Неисправан регуларан израз"
+
+#: lib/regex.c:1028
+msgid "Invalid collation character"
+msgstr "Неисправан знак поретка"
+
+#: lib/regex.c:1031
+msgid "Invalid character class name"
+msgstr "Неисправан назив класе знака"
+
+#: lib/regex.c:1034
+msgid "Trailing backslash"
+msgstr "Водећа контра коса црта"
+
+#: lib/regex.c:1037
+msgid "Invalid back reference"
+msgstr "Неисправна повратна референца"
+
+#: lib/regex.c:1040
+msgid "Unmatched [ or [^"
+msgstr "Не одговара [ или [^"
+
+#: lib/regex.c:1043
+msgid "Unmatched ( or \\("
+msgstr "Не одговара ( или \\("
+
+#: lib/regex.c:1046
+msgid "Unmatched \\{"
+msgstr "Не одговара \\{"
+
+#: lib/regex.c:1049
+msgid "Invalid content of \\{\\}"
+msgstr "Неисправан садржај \\{\\}"
+
+#: lib/regex.c:1052
+msgid "Invalid range end"
+msgstr "Неисправан крај опсега"
+
+#: lib/regex.c:1055 lib/xmalloc.c:82
+msgid "Memory exhausted"
+msgstr "Меморија је потрошена"
+
+#: lib/regex.c:1058
+msgid "Invalid preceding regular expression"
+msgstr "Неисправан регуларан израз који претходи"
+
+#: lib/regex.c:1061
+msgid "Premature end of regular expression"
+msgstr "Прерани крај регуларног израза"
+
+#: lib/regex.c:1064
+msgid "Regular expression too big"
+msgstr "Регуларни израз је превелик"
+
+#: lib/regex.c:1067
+msgid "Unmatched ) or \\)"
+msgstr "Не одговара ) или \\)"
+
+#: lib/regex.c:5564
+msgid "No previous regular expression"
+msgstr "Нема претходног регуларног израза"
+
+#: src/builtin.c:349
+#, c-format
+msgid "Warning: Too few arguments to built-in `%s'"
+msgstr "Упозорење: Премало аргумената за угради-у „%s“"
+
+#: src/builtin.c:355
+#, c-format
+msgid "Warning: Excess arguments to built-in `%s' ignored"
+msgstr "Упозорење: Премашење аргумената за угради-у „%s“ је занемарено"
+
+#: src/builtin.c:383
+#, c-format
+msgid "Non-numeric argument to built-in `%s'"
+msgstr "Не бројевни аргумент за угради-у „%s“"
+
+#: src/builtin.c:494
+msgid "INTERNAL ERROR: Bad token data type in define_macro ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лоша врста података уметка у „define_macro ()“"
+
+#: src/builtin.c:681 src/builtin.c:780 src/builtin.c:1423 src/builtin.c:1447
+#, c-format
+msgid "Undefined name %s"
+msgstr "Неодређени назив %s"
+
+#: src/builtin.c:721
+msgid "INTERNAL ERROR: Builtin not found in builtin table!"
+msgstr "УНУТРАШЊА ГРЕШКА: Уграђивање није пронађено у табели уграђивања!"
+
+#: src/builtin.c:729
+msgid "INTERNAL ERROR: Bad token data type in m4_dumpdef ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лоша врста података уметка у „m4_dumpdef ()“"
+
+#: src/builtin.c:804
+#, c-format
+msgid "Undefined name `%s'"
+msgstr "Неодређени назив „%s“"
+
+#: src/builtin.c:842
+msgid "INTERNAL ERROR: Bad symbol type in m4_defn ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лоша врста симбола у „m4_defn ()“"
+
+#: src/builtin.c:908
+#, c-format
+msgid "Cannot open pipe to command `%s'"
+msgstr "Не могу да отворим спојку за наредбу „%s“"
+
+#: src/builtin.c:948
+#, c-format
+msgid "Radix in eval out of range (radix = %d)"
+msgstr "Бројна основа у процени је изван опсега (основа = %d)"
+
+#: src/builtin.c:957
+msgid "Negative width to eval"
+msgstr "Негативна ширина у процени"
+
+#: src/builtin.c:1063
+#, c-format
+msgid "Non-numeric argument to %s"
+msgstr "Не бројевни аргумент за „%s“"
+
+#: src/builtin.c:1075
+#, c-format
+msgid "Cannot undivert %s"
+msgstr "Не могу да поништим скретање %s"
+
+#: src/builtin.c:1223
+#, c-format
+msgid "Undefined syntax code %c"
+msgstr "Неодређени код садржаја %c"
+
+#: src/builtin.c:1274 src/freeze.c:211
+#, c-format
+msgid "Cannot open %s"
+msgstr "Не могу да отворим „%s“"
+
+#: src/builtin.c:1483
+#, c-format
+msgid "Debugmode: bad debug flags: `%s'"
+msgstr "Режим уклањања грешака: лоша опција уклањања грешака: „%s“"
+
+#: src/builtin.c:1519
+#, c-format
+msgid "Cannot set error file: %s"
+msgstr "Не могу да подесим датотеку грешке: %s"
+
+#: src/builtin.c:1740
+msgid "WARNING: \\0 will disappear, use \\& instead in replacements"
+msgstr "УПОЗОРЕЊЕ: \\0 ће нестати, уместо тога користите \\& у заменама"
+
+#: src/builtin.c:1801 src/builtin.c:1861 src/input.c:1014
+#, c-format
+msgid "Bad regular expression `%s': %s"
+msgstr "Лош регуларни израз „%s“: %s"
+
+#: src/builtin.c:1812 src/builtin.c:1885
+#, c-format
+msgid "Error matching regular expression `%s'"
+msgstr "Грешка упоређивања регуларног израза „%s“"
+
+#: src/debug.c:380
+msgid "INTERNAL ERROR: Builtin not found in builtin table! (trace_pre ())"
+msgstr "УНУТРАШЊА ГРЕШКА: Уграђивање није пронађено у табели уграђивања! (trace_pre ())"
+
+#: src/debug.c:388
+msgid "INTERNAL ERROR: Bad token data type (trace_pre ())"
+msgstr "УНУТРАШЊА ГРЕШКА: Лоша врста података уметка (trace_pre ())"
+
+#: src/eval.c:309
+#, c-format
+msgid "Bad expression in eval (missing right parenthesis): %s"
+msgstr "Лош израз у процени (недостаје десна мала заграда): %s"
+
+#: src/eval.c:315
+#, c-format
+msgid "Bad expression in eval: %s"
+msgstr "Лош израз у процени: %s"
+
+#: src/eval.c:320
+#, c-format
+msgid "Bad expression in eval (bad input): %s"
+msgstr "Лош израз у процени (лош улаз): %s"
+
+#: src/eval.c:325
+#, c-format
+msgid "Bad expression in eval (excess input): %s"
+msgstr "Лош израз у процени (превише улаза): %s"
+
+#: src/eval.c:330
+#, c-format
+msgid "Divide by zero in eval: %s"
+msgstr "Дељење нулом у процени: %s"
+
+#: src/eval.c:335
+#, c-format
+msgid "Modulo by zero in eval: %s"
+msgstr "Основа нулом у процени: %s"
+
+#: src/eval.c:340
+msgid "INTERNAL ERROR: Bad error code in evaluate ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лош код грешке у „evaluate ()“"
+
+#: src/eval.c:594
+msgid "INTERNAL ERROR: Bad comparison operator in cmp_term ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лош оператор поређења у „cmp_term ()“"
+
+#: src/eval.c:639
+msgid "INTERNAL ERROR: Bad shift operator in shift_term ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лош оператор промене у „shift_term ()“"
+
+#: src/eval.c:738
+msgid "INTERNAL ERROR: Bad operator in mult_term ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лош оператор у „mult_term ()“"
+
+#: src/freeze.c:119
+msgid "INTERNAL ERROR: Built-in not found in builtin table!"
+msgstr "УНУТРАШЊА ГРЕШКА: Угради-у није пронађено у табели уграђивања!"
+
+#: src/freeze.c:132
+msgid "INTERNAL ERROR: Bad token data type in freeze_one_symbol ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лоша врста података уметка у „freeze_one_symbol ()“"
+
+#: src/freeze.c:163
+msgid "Expecting line feed in frozen file"
+msgstr "Ишчекујем приток реда у замрзнутој датотеци"
+
+#: src/freeze.c:165
+#, c-format
+msgid "Expecting character `%c' in frozen file"
+msgstr "Ишчекујем знак „%c“ у замрзнутој датотеци"
+
+#: src/freeze.c:222
+msgid "Ill-formated frozen file"
+msgstr "Рђаво форматирана замрзнута датотека"
+
+#: src/freeze.c:277 src/freeze.c:293
+msgid "Premature end of frozen file"
+msgstr "Превремен крај замрзнуте датотеке"
+
+#: src/freeze.c:327
+#, c-format
+msgid "`%s' from frozen file not found in builtin table!"
+msgstr "„%s“ из замрзнуте датотеке није пронађено у табели уграђивања"
+
+#: src/input.c:318
+#, c-format
+msgid "Input reverted to %s, line %d"
+msgstr "Улаз је повраћен на %s, ред %d"
+
+#: src/input.c:346
+#, c-format
+msgid "Input read from %s"
+msgstr "Читање улаза од %s"
+
+#: src/input.c:506
+msgid "INTERNAL ERROR: Recursive push_string!"
+msgstr "УНУТРАШЊА ГРЕШКА: Дубинско „push_string“!"
+
+#: src/input.c:623
+msgid "INTERNAL ERROR: Bad call to init_macro_token ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лош позив за „init_macro_token ()“"
+
+#: src/input.c:663
+msgid "INTERNAL ERROR: Input stack botch in next_char ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лоше одрађен улазни стек у „next_char ()“"
+
+#: src/input.c:700
+msgid "INTERNAL ERROR: Input stack botch in peek_input ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лоше одрађен улазни стек у „peek_input ()“"
+
+#: src/input.c:805
+msgid "NONE"
+msgstr "НИШТА"
+
+#: src/input.c:1199 src/input.c:1226
+msgid "ERROR: EOF in string"
+msgstr "ГРЕШКА: крај датотеке у ниски"
+
+#: src/m4.c:119
+msgid "ERROR: Stack overflow.  (Infinite define recursion?)"
+msgstr "ГРЕШКА: Прекорачење стека.  (Бескрајно одређено дубачење?)"
+
+#: src/m4.c:146
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Покушајте „%s --help“ за више података.\n"
+
+#: src/m4.c:150
+#, c-format
+msgid "Usage: %s [OPTION]... [FILE]...\n"
+msgstr "Употреба: %s [ОПЦИЈА]... [ДАТОТЕКА]...\n"
+
+#: src/m4.c:151
+msgid ""
+"Mandatory or optional arguments to long options are mandatory or optional\n"
+"for short options too.\n"
+"\n"
+"Operation modes:\n"
+"      --help                   display this help and exit\n"
+"      --version                output version information and exit\n"
+"  -e, --interactive            unbuffer output, ignore interrupts\n"
+"  -E, --fatal-warnings         stop execution after first warning\n"
+"  -Q, --quiet, --silent        suppress some warnings for builtins\n"
+"  -P, --prefix-builtins        force a `m4_' prefix to all builtins\n"
+msgstr ""
+"Обавезни или опционални аргументи за дуге опције су такође обавезни или\n"
+"опционални и за кратке опције.\n"
+"\n"
+"Режими деловања:\n"
+"      --help                           приказује ову помоћ и излази\n"
+"      --version                        исписује податке о издању и излази\n"
+"  -e, --interactive                    вади излаз међумеморије, занемарује прекиде\n"
+"  -E, --fatal-warnings                 зауставља извршавање након првог упозорења\n"
+"  -Q, --quiet, --silent                потискује нека упозорења за уграђивања\n"
+"  -P, --prefix-builtins                приморава „m4_“ префикс свим уграђивањима\n"
+
+#: src/m4.c:164
+msgid "  -W, --word-regexp=REGEXP     use REGEXP for macro name syntax\n"
+msgstr "  -W, --word-regexp=РЕГ. ИЗРАЗ         користи РЕГУЛАРНИ ИЗРАЗ за садржај назива макроа\n"
+
+#: src/m4.c:169
+msgid ""
+"\n"
+"Dynamic loading features:\n"
+"  -m, --module-directory=DIRECTORY  add DIRECTORY to the module search path\n"
+"  -M, --load-module=MODULE          load dynamic MODULE from M4MODPATH\n"
+msgstr ""
+"\n"
+"Функције динамичког учитавања:\n"
+"  -m, --module-directory=ДИРЕКТОРИЈУМ  додаје ДИРЕКТОРИЈУМ у путању претраге модула\n"
+"  -M, --load-module=МОДУЛ              учитава динамички МОДУЛ из М4ПУТАЊЕМОДУЛА\n"
+
+#: src/m4.c:176
+msgid ""
+"\n"
+"Preprocessor features:\n"
+"  -I, --include=DIRECTORY      search this directory second for includes\n"
+"  -D, --define=NAME[=VALUE]    enter NAME has having VALUE, or empty\n"
+"  -U, --undefine=NAME          delete builtin NAME\n"
+"  -s, --synclines              generate `#line NO \"FILE\"' lines\n"
+msgstr ""
+"\n"
+"Функције претпроцесора:\n"
+"  -I, --include=ДИРЕКТОРИЈУМ           претражује овај директоријум за укључивањима\n"
+"  -D, --define=НАЗИВ[=ВРЕДНОСТ]        НАЗИВ уноса има имајућу ВРЕДНОСТ, или празно\n"
+"  -U, --undefine=НАЗИВ                 брише НАЗИВ уграђивања\n"
+"  -s, --synclines                      ствара редове „#line НЕМА 'ДАТОТЕКА'“\n"
+
+#: src/m4.c:184
+msgid ""
+"\n"
+"Limits control:\n"
+"  -G, --traditional            suppress all GNU extensions\n"
+"  -H, --hashsize=PRIME         set symbol lookup hash table size\n"
+"  -L, --nesting-limit=NUMBER   change artificial nesting limit\n"
+msgstr ""
+"\n"
+"Управљање ограничењем:\n"
+"  -G, --traditional                    потискује сва ГНУ проширења\n"
+"  -H, --hashsize=PRIME                 подешава величину хеш табеле потраге симбола\n"
+"  -L, --nesting-limit=БРОЈ             мења ограничење вештачког угнежђавања\n"
+
+#: src/m4.c:191
+msgid ""
+"\n"
+"Frozen state files:\n"
+"  -F, --freeze-state=FILE      produce a frozen state on FILE at end\n"
+"  -R, --reload-state=FILE      reload a frozen state from FILE at start\n"
+msgstr ""
+"\n"
+"Датотеке замрзнутог стања:\n"
+"  -F, --freeze-state=ДАТОТЕКА          производи замрзнуто стање на ДАТОТЕЦИ на крају\n"
+"  -R, --reload-state=ДАТОТЕКА          поново учитава замрзнуто стање из ДАТОТЕКЕ на почетку\n"
+
+#: src/m4.c:197
+msgid ""
+"\n"
+"Debugging:\n"
+"  -d, --debug=[FLAGS]          set debug level (no FLAGS implies `aeq')\n"
+"  -t, --trace=NAME             trace NAME when it will be defined\n"
+"  -l, --arglength=NUM          restrict macro tracing size\n"
+"  -o, --error-output=FILE      redirect debug and trace output\n"
+msgstr ""
+"\n"
+"Уклањање грешака:\n"
+"  -d, --debug=[ОПЦИЈЕ]                 подешава ниво уклањања грешака (ниједна ОПЦИЈА не подразумева „aeq“)\n"
+"  -t, --trace=НАЗИВ                    прати НАЗИВ када ће бити одређен\n"
+"  -l, --arglength=БРОЈ                 ограничава величину праћења макроа\n"
+"  -o, --error-output=ДАТОТЕКА          преусмерава уклањање грешака и прати излаз\n"
+
+#: src/m4.c:205
+msgid ""
+"\n"
+"FLAGS is any of:\n"
+"  t   trace for all macro calls, not only traceon'ed\n"
+"  a   show actual arguments\n"
+"  e   show expansion\n"
+"  q   quote values as necessary, with a or e flag\n"
+"  c   show before collect, after collect and after call\n"
+"  x   add a unique macro call id, useful with c flag\n"
+"  f   say current input file name\n"
+"  l   say current input line number\n"
+"  p   show results of path searches\n"
+"  i   show changes in input files\n"
+"  V   shorthand for all of the above flags\n"
+msgstr ""
+"\n"
+"ОПЦИЈЕ is any of:\n"
+"  t   прати све позиве макроа, не само испраћене\n"
+"  a   приказује радне аргументе\n"
+"  e   приказује ширење\n"
+"  q   наводи вредности као што је потребно, уз опцију „a“ или „e“\n"
+"  c   приказује пре прикупљања, након прикупљања и након позива\n"
+"  x   додаје јединствени иб позива макроа, корисно уз опцију „c“\n"
+"  f   даје назив текуће улазне датотеке\n"
+"  l   даје број текућег улазног реда\n"
+"  p   приказује резултате претрага путање\n"
+"  i   приказује измене у улазним датотекама\n"
+"  V   стенографија за све горње опције\n"
+
+#: src/m4.c:220
+msgid ""
+"\n"
+"If no FILE or if FILE is `-', standard input is read.\n"
+msgstr ""
+"\n"
+"Ако нема ДАТОТЕКЕ или ако је ДАТОТЕКА „-“, чита се стандардни улаз.\n"
+
+#: src/m4.c:225
+msgid ""
+"\n"
+"Report bugs to <bug-m4@gnu.org>.\n"
+msgstr ""
+"\n"
+"Грешке пријавите на <bug-m4@gnu.org>.\n"
+
+#: src/m4.c:414
+#, c-format
+msgid "Bad debug flags: `%s'"
+msgstr "Лоше опције прочишћавања: „%s“"
+
+#: src/m4.c:436
+#, c-format
+msgid "ERROR: failed to add search directory `%s'"
+msgstr "ГРЕШКА: нисам успео да додам директоријум претраге „%s“"
+
+#: src/m4.c:440
+#, c-format
+msgid "ERROR: failed to add search directory `%s': %s"
+msgstr "ГРЕШКА: нисам успео да додам директоријум претраге „%s“: %s"
+
+#: src/m4.c:460
+msgid " (options:"
+msgstr " (опције:"
+
+#: src/m4.c:542
+msgid "INTERNAL ERROR: Bad code in deferred arguments"
+msgstr "УНУТРАШЊА ГРЕШКА: Лош код у одложеним аргументима"
+
+#: src/macro.c:97
+msgid "INTERNAL ERROR: Bad token type in expand_token ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лоша врста уметка у „expand_token ()“"
+
+#: src/macro.c:163
+msgid "ERROR: EOF in argument list"
+msgstr "ГРЕШКА: Крај датотеке у списку аргумента"
+
+#: src/macro.c:182
+msgid "INTERNAL ERROR: Bad token type in expand_argument ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лоша врста уметка у „expand_argument ()“"
+
+#: src/macro.c:259
+msgid "INTERNAL ERROR: Bad symbol type in call_macro ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Лоша врста симбола у „call_macro ()“"
+
+#: src/macro.c:288
+#, c-format
+msgid "ERROR: Recursion limit of %d exceeded, use -L<N> to change it"
+msgstr "ГРЕШКА: Ограничење дубачења од %d је премашено, употребите -L<N> да га измените"
+
+#: src/module.c:123
+#, c-format
+msgid "ERROR: failed to initialise modules: %s"
+msgstr "ГРЕШКА: нисам успео да покренем модуле: %s"
+
+#: src/module.c:221
+#, c-format
+msgid "ERROR: cannot find module: `%s'"
+msgstr "ГРЕШКА: не могу да пронађем модул: „%s“"
+
+#: src/module.c:224
+#, c-format
+msgid "ERROR: cannot find module: `%s': %s"
+msgstr "ГРЕШКА: не могу да пронађем модул: „%s“: %s"
+
+#: src/module.c:274
+msgid "ERROR: cannot close modules"
+msgstr "ГРЕШКА: не могу да затворим модуле"
+
+#: src/module.c:277
+#, c-format
+msgid "ERROR: cannot cannot close modules: %s"
+msgstr "ГРЕШКА: не могу да затворим модуле: %s"
+
+#: src/module.c:284
+#, c-format
+msgid "ERROR: cannot close module: `%s'"
+msgstr "ГРЕШКА: не могу да затворим модул: „%s“"
+
+#: src/module.c:288
+#, c-format
+msgid "ERROR: cannot cannot close module: `%s': %s"
+msgstr "ГРЕШКА: не могу да затворим модул: „%s“: %s"
+
+#: src/output.c:262
+msgid "ERROR: Cannot create temporary file for diversion"
+msgstr "ГРЕШКА: Не могу да направим привремену датотеку за размимоилажење"
+
+#: src/output.c:272
+msgid "ERROR: Cannot flush diversion to temporary file"
+msgstr "ГРЕШКА: Не могу да преточим размимоилажење у привремену датотеку"
+
+#: src/output.c:356
+msgid "ERROR: Copying inserted file"
+msgstr "ГРЕШКА: Умножавам уметнуту датотеку"
+
+#: src/output.c:537
+msgid "ERROR: Reading inserted file"
+msgstr "ГРЕШКА: Читам уметнуту датотеку"
+
+#: src/output.c:636
+msgid "Cannot stat diversion"
+msgstr "Не могу да добавим податке размимоилажења"
+
+#: src/output.c:639
+msgid "Diversion too large"
+msgstr "Размимоилажење је превелико"
+
+#: src/path.c:157
+#, c-format
+msgid "Path search for `%s' found `%s'"
+msgstr "Претрага путање за „%s“ је пронашла „%s“"
+
+#. sbrk failed.  Assume the RLIMIT_VMEM prevents expansion even
+#. if the stack limit has not been reached.
+#: src/stackovf.c:175
+msgid "VMEM limit exceeded?\n"
+msgstr "ВМЕМ ограничење је премашено?\n"
+
+#: src/stackovf.c:197
+msgid ""
+"Memory bounds violation detected (SIGSEGV).  Either a stack overflow\n"
+"occurred, or there is a bug in "
+msgstr ""
+"Откривено је кршење граница меморије (СИГСЕГВ).  Или је дошло до преливања\n"
+"стека, или постоји грешка у њему "
+
+#: src/stackovf.c:202
+msgid ".  Check for possible infinite recursion.\n"
+msgstr ".  Проверава за могућим бесконачним дубачењем.\n"
+
+#: src/symtab.c:190
+msgid "INTERNAL ERROR: Illegal mode to symbol_lookup ()"
+msgstr "УНУТРАШЊА ГРЕШКА: Неисправан режим за „symbol_lookup ()“"
+
+#: src/symtab.c:243
+#, c-format
+msgid "Name `%s' is unknown\n"
+msgstr "Назив „%s“ је непознат\n"
