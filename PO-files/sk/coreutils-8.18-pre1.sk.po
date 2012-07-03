@@ -6695,8 +6695,8 @@ msgstr "%s: chybne zadaná položka `%s'"
 msgid "warning: ignoring excess arguments, starting with %s"
 msgstr "upozornenie: nadbytočné argumenty boli ignorované, začína sa s %s"
 
-#. TRANSLATORS: Please translate "F. Pinard" to "Fran�ois Pinard"
-#. if "�" (c-with-cedilla) is available in the translation's character
+#. TRANSLATORS: Please translate "F. Pinard" to "François Pinard"
+#. if "ç" (c-with-cedilla) is available in the translation's character
 #. set and encoding.
 #. This is a proper name. See the gettext manual, section Names.
 #: src/ptx.c:42
