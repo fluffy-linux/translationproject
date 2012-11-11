@@ -1,7 +1,7 @@
 # Galician translation of gnulib.
-# This file is distributed under the same license as the gnulib package.
 # Copyright (C) 2000, 2001, 2002 Free Software Foundation, Inc.
 # Copyright (C) 2012 Leandro Regueiro.
+# This file is distributed under the same license as the gnulib package.
 #
 # Jacobo Tarrio <jtarrio@trasno.net>, 2000, 2001, 2002.
 # Leandro Regueiro <leandro.regueiro@gmail.com>, 2012.
