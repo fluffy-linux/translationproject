@@ -1,0 +1,696 @@
+# Esperanto translation of gdbm.
+# Copyright (C) 2013 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gdbm package.
+# Felipe Castro <fefcas@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gdbm 1.10\n"
+"Report-Msgid-Bugs-To: bug-gdbm@gnu.org\n"
+"POT-Creation-Date: 2011-11-13 11:47+0200\n"
+"PO-Revision-Date: 2013-01-30 16:06-0300\n"
+"Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
+"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"Language: Esperanto\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: src/gdbmerrno.c:31
+msgid "No error"
+msgstr "Neniu eraro"
+
+#: src/gdbmerrno.c:32
+msgid "Malloc error"
+msgstr "Eraro de malloc"
+
+#: src/gdbmerrno.c:33
+msgid "Block size error"
+msgstr "Eraro de blok-grando"
+
+#: src/gdbmerrno.c:34
+msgid "File open error"
+msgstr "Eraro de malfermo de dosiero"
+
+#: src/gdbmerrno.c:35
+msgid "File write error"
+msgstr "Eraro de dosier-skribo"
+
+#: src/gdbmerrno.c:36
+msgid "File seek error"
+msgstr "Eraro de serĉo en dosiero"
+
+#: src/gdbmerrno.c:37
+msgid "File read error"
+msgstr "Eraro de dosier-lego"
+
+#: src/gdbmerrno.c:38
+msgid "Bad magic number"
+msgstr "Malĝusta maginumero"
+
+#: src/gdbmerrno.c:39
+msgid "Empty database"
+msgstr "Malplena datumbazo"
+
+#: src/gdbmerrno.c:40
+msgid "Can't be reader"
+msgstr "Ne eblas esti leganto"
+
+#: src/gdbmerrno.c:41
+msgid "Can't be writer"
+msgstr "Ne eblas esti skribanto"
+
+#: src/gdbmerrno.c:42
+msgid "Reader can't delete"
+msgstr "Leganto ne povas forviŝi"
+
+#: src/gdbmerrno.c:43
+msgid "Reader can't store"
+msgstr "Leganto ne povas konservi"
+
+#: src/gdbmerrno.c:44
+msgid "Reader can't reorganize"
+msgstr "Legando ne povas reordigi"
+
+#: src/gdbmerrno.c:45
+msgid "Unknown update"
+msgstr "Nekonata ĝisdatigo"
+
+#: src/gdbmerrno.c:46 src/testgdbm.c:395
+#, c-format
+msgid "Item not found"
+msgstr "Ero ne estis trovata"
+
+#: src/gdbmerrno.c:47
+msgid "Reorganize failed"
+msgstr "Reorganizo fiaskis"
+
+#: src/gdbmerrno.c:48
+msgid "Cannot replace"
+msgstr "Ne eblas anstataŭigi"
+
+#: src/gdbmerrno.c:49
+msgid "Illegal data"
+msgstr "Malvalida datumaro"
+
+#: src/gdbmerrno.c:50
+msgid "Option already set"
+msgstr "Modifilo jam estas aktiva"
+
+#: src/gdbmerrno.c:51
+msgid "Illegal option"
+msgstr "Malvalida modifilo"
+
+#: src/gdbmerrno.c:52
+msgid "Byte-swapped file"
+msgstr "Bajt-permutita dosiero"
+
+#: src/gdbmerrno.c:53
+msgid "Wrong file offset"
+msgstr "Malkorekta dosier-deŝovo"
+
+#: src/gdbmerrno.c:54
+msgid "Bad file flags"
+msgstr "Malĝusta dosier-flagoj"
+
+#: src/gdbmerrno.c:55
+msgid "Cannot stat file"
+msgstr "Ne eblas apliki stat al dosiero"
+
+#: src/gdbmerrno.c:56
+msgid "Unexpected end of file"
+msgstr "Neatendita dosierfino"
+
+#: src/gdbmerrno.c:64
+msgid "Unknown error"
+msgstr "Nekonata eraro"
+
+#: src/bucket.c:67 src/bucket.c:148
+msgid "couldn't init cache"
+msgstr "ne eblis ekigi kaŝmemoron"
+
+#: src/bucket.c:97 src/bucket.c:311 src/falloc.c:185 src/falloc.c:282
+#: src/findkey.c:64 src/update.c:36 src/update.c:82
+msgid "lseek error"
+msgstr "eraro de lseek"
+
+#: src/bucket.c:188 src/falloc.c:259 src/findkey.c:57 src/gdbmseq.c:73
+msgid "malloc error"
+msgstr "eraro de malloc"
+
+#: src/falloc.c:181
+msgid "malloc failed"
+msgstr "malloc fiaskis"
+
+#: src/testgdbm.c:82
+#, c-format
+msgid ""
+"******* %s **********\n"
+"\n"
+"bits = %d\n"
+"count= %d\n"
+"Hash Table:\n"
+msgstr ""
+"******* %s **********\n"
+"\n"
+"bitoj = %d\n"
+"nombro= %d\n"
+"Haket-tabelo:\n"
+
+#: src/testgdbm.c:85
+#, c-format
+msgid "     #    hash value     key size    data size     data adr  home\n"
+msgstr "     #    haketvaloro    ŝlosgrando  datumgrando   datumadr  hejmo\n"
+
+#: src/testgdbm.c:95
+#, c-format
+msgid ""
+"\n"
+"Avail count = %1d\n"
+msgstr ""
+"\n"
+"Disp nombro = %1d\n"
+
+#: src/testgdbm.c:96
+#, c-format
+msgid "Avail  adr     size\n"
+msgstr "Disp   adr     grando\n"
+
+#: src/testgdbm.c:121 src/testgdbm.c:175
+#, c-format
+msgid "Out of memory"
+msgstr "Memoro plenpleniĝis"
+
+#: src/testgdbm.c:160
+#, c-format
+msgid ""
+"\n"
+"header block\n"
+"size  = %d\n"
+"count = %d\n"
+msgstr ""
+"\n"
+"kapa bloko\n"
+"grando = %d\n"
+"nombro = %d\n"
+
+#: src/testgdbm.c:196
+#, c-format
+msgid ""
+"\n"
+"block = %d\n"
+"size  = %d\n"
+"count = %d\n"
+msgstr ""
+"\n"
+"bloko  = %d\n"
+"grando = %d\n"
+"nombro = %d\n"
+
+#: src/testgdbm.c:217
+#, c-format
+msgid ""
+"Bucket Cache (size %d):\n"
+"  Index:  Address  Changed  Data_Hash \n"
+msgstr ""
+"Datumuja Kaŝmemoro (grando %d):\n"
+" Indekso:  Adreso  Modifite  Data_Hash \n"
+
+#: src/testgdbm.c:225
+msgid "True"
+msgstr "Vere"
+
+#: src/testgdbm.c:225
+msgid "False"
+msgstr "False"
+
+#: src/testgdbm.c:230
+#, c-format
+msgid "Bucket cache has not been initialized.\n"
+msgstr "Datumuja kaŝmemoro ne estis ekigata.\n"
+
+#: src/testgdbm.c:236
+#, c-format
+msgid "Usage: %s OPTIONS\n"
+msgstr "Uzmaniero: %s [MODIFILOJ]\n"
+
+#: src/testgdbm.c:237
+#, c-format
+msgid "Test and modify a GDBM database.\n"
+msgstr "Testi kaj modifi datumbazon GDBM.\n"
+
+#: src/testgdbm.c:239
+#, c-format
+msgid ""
+"OPTIONS are:\n"
+"\n"
+msgstr ""
+"MODIFILOJ estas:\n"
+"\n"
+
+#: src/testgdbm.c:240
+#, c-format
+msgid "  -b SIZE            set block size\n"
+msgstr "  -b GRANDO          difini blokan grandon\n"
+
+#: src/testgdbm.c:241
+#, c-format
+msgid "  -c SIZE            set cache size\n"
+msgstr "  -c GRANDO          difini kaŝmemoran grandon\n"
+
+#: src/testgdbm.c:242
+#, c-format
+msgid "  -g FILE            operate on FILE instead of `junk.gdbm'\n"
+msgstr "  -g FILE            operacii sur DOSIERO anstataŭ sur 'juntk.gdbm'\n"
+
+#: src/testgdbm.c:243
+#, c-format
+msgid "  -h                 print this help summary\n"
+msgstr "  -h                 montri tiun ĉi help-resumon\n"
+
+#: src/testgdbm.c:244
+#, c-format
+msgid "  -l                 disable file locking\n"
+msgstr "  -l                 malebligi dosier-ŝloson\n"
+
+#: src/testgdbm.c:245
+#, c-format
+msgid "  -m                 disable file mmap\n"
+msgstr "  -m                 malebligi dosieran mmap\n"
+
+#: src/testgdbm.c:246
+#, c-format
+msgid "  -n                 create database\n"
+msgstr "  -n                 krei datumbazon\n"
+
+#: src/testgdbm.c:247
+#, c-format
+msgid "  -r                 open database in read-only mode\n"
+msgstr "  -r                 malfermi datumbazon laŭ nurlegebla reĝimo\n"
+
+#: src/testgdbm.c:248
+#, c-format
+msgid "  -s                 synchronize to the disk after each write\n"
+msgstr "  -s                 sinkronigi kun la disko post ĉiu skribo\n"
+
+#: src/testgdbm.c:249
+#, c-format
+msgid "  -v                 print program version\n"
+msgstr "  -v                 montri la program-version\n"
+
+#: src/testgdbm.c:251
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr "Raportu programajn misojn al <%s>.\n"
+
+#: src/testgdbm.c:290
+#, c-format
+msgid "cannot open file `%s' for reading: %s"
+msgstr "ne eblas malfermi la dosieron '%s' por legi: %s"
+
+#: src/testgdbm.c:301
+#, c-format
+msgid "%s:%d: line too long"
+msgstr "%s:%d: linio tro longas"
+
+#: src/testgdbm.c:309
+#, c-format
+msgid "%s:%d: malformed line"
+msgstr "%s:%d: misformita linio"
+
+#: src/testgdbm.c:320
+#, c-format
+msgid "%d: item not inserted: %s"
+msgstr "%d: ero ne enmetita: %s"
+
+#: src/testgdbm.c:379
+#, c-format
+msgid "There is %d item in the database.\n"
+msgid_plural "There are %d items in the database.\n"
+msgstr[0] "Estas %d ero en la datumbazo.\n"
+msgstr[1] "Estas %d eroj en la datumbazo.\n"
+
+#: src/testgdbm.c:397
+#, c-format
+msgid "Can't delete: %s"
+msgstr "Ne eblas forviŝi: %s"
+
+#: src/testgdbm.c:416 src/testgdbm.c:450 src/testgdbm.c:475
+#, c-format
+msgid "No such item found.\n"
+msgstr "Neniu tia ero estis trovata.\n"
+
+#: src/testgdbm.c:431
+#, c-format
+msgid "Item not inserted.\n"
+msgstr "Ero ne estas enmetita.\n"
+
+#: src/testgdbm.c:487
+#, c-format
+msgid "Reorganization failed.\n"
+msgstr "Reordigo fiaskis.\n"
+
+#: src/testgdbm.c:489
+#, c-format
+msgid "Reorganization succeeded.\n"
+msgstr "Reordigo sukcesis.\n"
+
+#: src/testgdbm.c:521
+msgid "Current bucket"
+msgstr "Nuna datumujo"
+
+#: src/testgdbm.c:522
+#, c-format
+msgid ""
+"\n"
+" current directory entry = %d.\n"
+msgstr ""
+"\n"
+" nuna dosieruja enigo = %d.\n"
+
+#: src/testgdbm.c:524
+#, c-format
+msgid " current bucket address  = %lu.\n"
+msgstr " nuna datumuja adreso  = %lu.\n"
+
+#: src/testgdbm.c:535 src/testgdbm.c:544
+#, c-format
+msgid "not a number (stopped near %s)\n"
+msgstr "ne estas numero (haltis proksime de %s)\n"
+
+#: src/testgdbm.c:563
+#, c-format
+msgid "Not a bucket.\n"
+msgstr "Ne estas datumujo.\n"
+
+#: src/testgdbm.c:588
+#, c-format
+msgid "Hash table directory.\n"
+msgstr "Haket-tabela dosierujo.\n"
+
+#: src/testgdbm.c:589
+#, c-format
+msgid ""
+"  Size =  %d.  Bits = %d. \n"
+"\n"
+msgstr ""
+"  Grando =  %d.  Bitoj = %d. \n"
+"\n"
+
+#: src/testgdbm.c:608
+#, c-format
+msgid ""
+"\n"
+"File Header: \n"
+"\n"
+msgstr ""
+"\n"
+"Dosierkapo: \n"
+"\n"
+
+#: src/testgdbm.c:609
+#, c-format
+msgid "  table        = %lu\n"
+msgstr "  tabelo       = %lu\n"
+
+#: src/testgdbm.c:611
+#, c-format
+msgid "  table size   = %d\n"
+msgstr "  tabelgrando  = %d\n"
+
+#: src/testgdbm.c:612
+#, c-format
+msgid "  table bits   = %d\n"
+msgstr "  tabel-bitoj  = %d\n"
+
+#: src/testgdbm.c:613
+#, c-format
+msgid "  block size   = %d\n"
+msgstr "  bloko-grando = %d\n"
+
+#: src/testgdbm.c:614
+#, c-format
+msgid "  bucket elems = %d\n"
+msgstr "  datumujeroj = %d\n"
+
+#: src/testgdbm.c:615
+#, c-format
+msgid "  bucket size  = %d\n"
+msgstr "  datumujgrando= %d\n"
+
+#: src/testgdbm.c:616
+#, c-format
+msgid "  header magic = %x\n"
+msgstr "  kapa magio   = %x\n"
+
+#: src/testgdbm.c:617
+#, c-format
+msgid "  next block   = %lu\n"
+msgstr "  sekva bloko  = %lu\n"
+
+#: src/testgdbm.c:619
+#, c-format
+msgid "  avail size   = %d\n"
+msgstr "  disp grando  = %d\n"
+
+#: src/testgdbm.c:620
+#, c-format
+msgid "  avail count  = %d\n"
+msgstr "  disp nombro  = %d\n"
+
+#: src/testgdbm.c:621
+#, c-format
+msgid "  avail nx blk = %lu\n"
+msgstr "  disp nx blk  = %lu\n"
+
+#: src/testgdbm.c:633
+#, c-format
+msgid "hash value = %x. \n"
+msgstr "haketvaloro = %x. \n"
+
+#: src/testgdbm.c:689
+#, c-format
+msgid "cannot fetch data (key %.*s)"
+msgstr "ne eblas havigi datumaron (ŝlosilo %.*s)"
+
+#: src/testgdbm.c:722
+#, c-format
+msgid "gdbm_export failed, %s"
+msgstr "gdbm_export fiaskis, %s"
+
+#: src/testgdbm.c:735
+#, c-format
+msgid "gdbm_import failed, %s"
+msgstr "gdbm_import fiaskis, %s"
+
+#: src/testgdbm.c:741
+msgid "yes"
+msgstr "jes"
+
+#: src/testgdbm.c:741
+msgid "no"
+msgstr "ne"
+
+#: src/testgdbm.c:749
+#, c-format
+msgid "Database file: %s\n"
+msgstr "Datumbaza dosiero: %s\n"
+
+#: src/testgdbm.c:750 src/testgdbm.c:760
+#, c-format
+msgid "Zero terminated keys: %s\n"
+msgstr "Nul-finaj ŝlosiloj: %s\n"
+
+#: src/testgdbm.c:751
+#, c-format
+msgid "Zero terminated data: %s\n"
+msgstr "Nul-fina datumaro: %s\n"
+
+#: src/testgdbm.c:792
+msgid "count (number of entries)"
+msgstr "nombro (da enigoj)"
+
+#: src/testgdbm.c:795 src/testgdbm.c:801 src/testgdbm.c:813 src/testgdbm.c:845
+msgid "key"
+msgstr "ŝlosilo"
+
+#: src/testgdbm.c:795
+msgid "delete"
+msgstr "forigi"
+
+#: src/testgdbm.c:798 src/testgdbm.c:804 src/testgdbm.c:819
+msgid "file"
+msgstr "dosiero"
+
+#: src/testgdbm.c:798
+msgid "export"
+msgstr "eksporti"
+
+#: src/testgdbm.c:801
+msgid "fetch"
+msgstr "havigi"
+
+#: src/testgdbm.c:804
+msgid "import"
+msgstr "importu"
+
+#: src/testgdbm.c:807
+msgid "list"
+msgstr "listo"
+
+#: src/testgdbm.c:810
+msgid "[key]"
+msgstr "[ŝlosilo]"
+
+#: src/testgdbm.c:810
+msgid "nextkey"
+msgstr "sekvŝlosilo"
+
+#: src/testgdbm.c:813
+msgid "data"
+msgstr "datumaro"
+
+#: src/testgdbm.c:813
+msgid "store"
+msgstr "konservi"
+
+#: src/testgdbm.c:816
+msgid "firstkey"
+msgstr "unuaŝlosilo"
+
+#: src/testgdbm.c:820
+msgid "read entries from file and store"
+msgstr "legi enigoj el dosiero kaj konservi"
+
+#: src/testgdbm.c:823
+msgid "reorganize"
+msgstr "reordigi"
+
+#: src/testgdbm.c:826
+msgid "toggle key nul-termination"
+msgstr "alterni ŝlosilan nul-finon"
+
+#: src/testgdbm.c:829
+msgid "print avail list"
+msgstr "montri disponeblan liston"
+
+#: src/testgdbm.c:832
+msgid "bucket-number"
+msgstr "datumuj-numero"
+
+#: src/testgdbm.c:832
+msgid "print a bucket"
+msgstr "montri datumujon"
+
+#: src/testgdbm.c:836
+msgid "print current bucket"
+msgstr "montri nunan datumujon"
+
+#: src/testgdbm.c:839
+msgid "print hash directory"
+msgstr "montri haketan dosierujon"
+
+#: src/testgdbm.c:842
+msgid "print file header"
+msgstr "montri dosierkapon"
+
+#: src/testgdbm.c:845
+msgid "hash value of key"
+msgstr "haketa valoro de ŝlosilo"
+
+#: src/testgdbm.c:848
+msgid "print the bucket cache"
+msgstr "montri la datumujan kaŝmemoron"
+
+#: src/testgdbm.c:851
+msgid "print current program status"
+msgstr "montri na nunan program-staton"
+
+#: src/testgdbm.c:854
+msgid "print version of gdbm"
+msgstr "montri la version de gdbm"
+
+#: src/testgdbm.c:857
+msgid "toggle data nul-termination"
+msgstr "alterni datumaran nul-finon"
+
+#: src/testgdbm.c:860
+msgid "print this help list"
+msgstr "montri tiun ĉi help-liston"
+
+#: src/testgdbm.c:863
+msgid "quit the program"
+msgstr "eliri la programon"
+
+#: src/testgdbm.c:1063
+#, c-format
+msgid "-s is incompatible with -r"
+msgstr "-s ne interakordas kun -r"
+
+#: src/testgdbm.c:1070
+#, c-format
+msgid "-r is incompatible with -n"
+msgstr "-r ne interakordas kun -n"
+
+#: src/testgdbm.c:1077
+#, c-format
+msgid "-n is incompatible with -r"
+msgstr "-n ne interakordas kun -r"
+
+#: src/testgdbm.c:1099
+#, c-format
+msgid "unknown option; try `%s -h' for more info\n"
+msgstr "nekonata modifilo; provu '%s -h' por pli da informo\n"
+
+#: src/testgdbm.c:1123
+#, c-format
+msgid "gdbm_open failed: %s"
+msgstr "gdbm_open fiaskis: %s"
+
+#: src/testgdbm.c:1127
+#, c-format
+msgid "gdbm_setopt failed: %s"
+msgstr "gdbm_setopt fiaskis: %s"
+
+#: src/testgdbm.c:1133
+#, c-format
+msgid ""
+"\n"
+"Welcome to the gdbm test program.  Type ? for help.\n"
+"\n"
+msgstr ""
+"\n"
+"Bonvenon al la testprogramo de gdbm.  Tajpu ? por helpo.\n"
+"\n"
+
+#: src/testgdbm.c:1166
+#, c-format
+msgid "Invalid command. Try ? for help."
+msgstr "Malvalida komando. Provu ? por helpo."
+
+#: src/testgdbm.c:1167
+#, c-format
+msgid "Unknown command"
+msgstr "Nekonata komando"
+
+#: src/testgdbm.c:1182
+#, c-format
+msgid "%s: not enough arguments"
+msgstr "%s: ne sufiĉaj argumentoj"
+
+#: src/testgdbm.c:1187
+#, c-format
+msgid "unexpected eof"
+msgstr "neatendita eof"
+
+#: src/testgdbm.c:1208
+#, c-format
+msgid "cannot run pager `%s': %s"
+msgstr "ne eblas lanĉi paĝigilon '%s': %s"
+
+#: src/update.c:110
+#, c-format
+msgid "gdbm fatal: %s\n"
+msgstr "gdbm neripareble: %s\n"
