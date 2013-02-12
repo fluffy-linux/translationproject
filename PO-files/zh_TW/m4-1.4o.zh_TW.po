@@ -1,0 +1,660 @@
+# Traditional Chinese Messages for m4.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the m4 package.
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2005, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: m4 1.4o\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2000-01-10 05:27+0100\n"
+"PO-Revision-Date: 2013-02-12 23:05+0800\n"
+"Last-Translator: Wei-Lun Chao <bluebat@member.fsf.org>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lib/getopt.c:677
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s：選項‘%s’不明確\n"
+
+#: lib/getopt.c:702
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s：選項‘--%s’不可配合引數使用\n"
+
+#: lib/getopt.c:707
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s：選項‘%c%s’不可配合引數使用\n"
+
+#: lib/getopt.c:725 lib/getopt.c:898
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s：選項‘%s’需要引數\n"
+
+#. --option
+#: lib/getopt.c:754
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s：無法識別的選項‘--%s’\n"
+
+#. +option or -option
+#: lib/getopt.c:758
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s：無法識別的選項‘%c%s’\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:784
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s：不合法的選項 ─ %c\n"
+
+#: lib/getopt.c:787
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s：無效的選項 ─ %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:817 lib/getopt.c:947
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s：選項需要引數 ─ %c\n"
+
+#: lib/getopt.c:864
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s：選項‘-W %s’不明確\n"
+
+#: lib/getopt.c:882
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s：選項‘-W %s’不可配合引數使用\n"
+
+#: lib/obstack.c:471
+msgid "memory exhausted"
+msgstr "記憶體耗盡"
+
+#: lib/regex.c:1019
+msgid "Success"
+msgstr "成功"
+
+#: lib/regex.c:1022
+msgid "No match"
+msgstr "沒有符合的字串"
+
+#: lib/regex.c:1025
+msgid "Invalid regular expression"
+msgstr "無效的正規表示式"
+
+#: lib/regex.c:1028
+msgid "Invalid collation character"
+msgstr "無效的 collation 字元"
+
+#: lib/regex.c:1031
+msgid "Invalid character class name"
+msgstr "無效的字元種類名稱"
+
+#: lib/regex.c:1034
+msgid "Trailing backslash"
+msgstr "末端有多餘的反斜號"
+
+#: lib/regex.c:1037
+msgid "Invalid back reference"
+msgstr "無效的 back reference"
+
+#: lib/regex.c:1040
+msgid "Unmatched [ or [^"
+msgstr "沒有對應的 [ 或 [^"
+
+#: lib/regex.c:1043
+msgid "Unmatched ( or \\("
+msgstr "沒有對應的 ( 或 \\("
+
+#: lib/regex.c:1046
+msgid "Unmatched \\{"
+msgstr "沒有對應的 \\{"
+
+#: lib/regex.c:1049
+msgid "Invalid content of \\{\\}"
+msgstr "\\{\\} 中的內容無效"
+
+#: lib/regex.c:1052
+msgid "Invalid range end"
+msgstr "範圍末端字元無效"
+
+#: lib/regex.c:1055 lib/xmalloc.c:82
+msgid "Memory exhausted"
+msgstr "記憶體耗盡"
+
+#: lib/regex.c:1058
+msgid "Invalid preceding regular expression"
+msgstr "之前的正規表示式無效"
+
+#: lib/regex.c:1061
+msgid "Premature end of regular expression"
+msgstr "正規表示式過早結束"
+
+#: lib/regex.c:1064
+msgid "Regular expression too big"
+msgstr "正規表示式過長"
+
+#: lib/regex.c:1067
+msgid "Unmatched ) or \\)"
+msgstr "沒有對應的 ) 或 \\)"
+
+#: lib/regex.c:5564
+msgid "No previous regular expression"
+msgstr "之前沒有任何正規表示式"
+
+#: src/builtin.c:349
+#, c-format
+msgid "Warning: Too few arguments to built-in `%s'"
+msgstr "警告：內建「%s」的引數太少"
+
+#: src/builtin.c:355
+#, c-format
+msgid "Warning: Excess arguments to built-in `%s' ignored"
+msgstr "警告：內建「%s」的超額引數被忽略"
+
+#: src/builtin.c:383
+#, c-format
+msgid "Non-numeric argument to built-in `%s'"
+msgstr "提供了非數值引數給內建「%s」"
+
+#: src/builtin.c:494
+msgid "INTERNAL ERROR: Bad token data type in define_macro ()"
+msgstr "內部錯誤：define_macro() 中不當的字組資料型態"
+
+#: src/builtin.c:681 src/builtin.c:780 src/builtin.c:1423 src/builtin.c:1447
+#, c-format
+msgid "Undefined name %s"
+msgstr "未定義的名稱 %s"
+
+#: src/builtin.c:721
+msgid "INTERNAL ERROR: Builtin not found in builtin table!"
+msgstr "內部錯誤：無法在內建表格中找到內建指令！"
+
+#: src/builtin.c:729
+msgid "INTERNAL ERROR: Bad token data type in m4_dumpdef ()"
+msgstr "內部錯誤：m4_dumpdef() 中不當的字組資料型態"
+
+#: src/builtin.c:804
+#, c-format
+msgid "Undefined name `%s'"
+msgstr "未定義的名稱「%s」"
+
+#: src/builtin.c:842
+msgid "INTERNAL ERROR: Bad symbol type in m4_defn ()"
+msgstr "內部錯誤：m4_defn() 中不當的符號型態"
+
+#: src/builtin.c:908
+#, c-format
+msgid "Cannot open pipe to command `%s'"
+msgstr "無法開啟至命令「%s」 的管道."
+
+#: src/builtin.c:948
+#, c-format
+msgid "Radix in eval out of range (radix = %d)"
+msgstr "求值時基數超出範圍 (基數 = %d)"
+
+#: src/builtin.c:957
+msgid "Negative width to eval"
+msgstr "求值寬度為負"
+
+#: src/builtin.c:1063
+#, c-format
+msgid "Non-numeric argument to %s"
+msgstr "%s 的引數非數值"
+
+#: src/builtin.c:1075
+#, c-format
+msgid "Cannot undivert %s"
+msgstr "無法反向轉移「%s」"
+
+#: src/builtin.c:1223
+#, c-format
+msgid "Undefined syntax code %c"
+msgstr "未定義的語法碼 %c"
+
+#: src/builtin.c:1274 src/freeze.c:211
+#, c-format
+msgid "Cannot open %s"
+msgstr "無法開啟 %s"
+
+#: src/builtin.c:1483
+#, c-format
+msgid "Debugmode: bad debug flags: `%s'"
+msgstr "除錯模式：不當的除錯旗標：「%s」"
+
+#: src/builtin.c:1519
+#, c-format
+msgid "Cannot set error file: %s"
+msgstr "無法設置錯誤檔案：%s"
+
+#: src/builtin.c:1740
+msgid "WARNING: \\0 will disappear, use \\& instead in replacements"
+msgstr "警告：\\0 將會消失，請於置換時使用 \\& 代替"
+
+#: src/builtin.c:1801 src/builtin.c:1861 src/input.c:1014
+#, c-format
+msgid "Bad regular expression `%s': %s"
+msgstr "不當的正規表示式「%s」：%s"
+
+#: src/builtin.c:1812 src/builtin.c:1885
+#, c-format
+msgid "Error matching regular expression `%s'"
+msgstr "對應正規表示式「%s」時出現錯誤"
+
+#: src/debug.c:380
+msgid "INTERNAL ERROR: Builtin not found in builtin table! (trace_pre ())"
+msgstr "內部錯誤：無法在內建表格中找到內建指令！(trace_pre ())"
+
+#: src/debug.c:388
+msgid "INTERNAL ERROR: Bad token data type (trace_pre ())"
+msgstr "內部錯誤：不當的字組資料型態 (trace_pre ())"
+
+#: src/eval.c:309
+#, c-format
+msgid "Bad expression in eval (missing right parenthesis): %s"
+msgstr "求值時不當的表示式 (缺少右側括號)：%s"
+
+#: src/eval.c:315
+#, c-format
+msgid "Bad expression in eval: %s"
+msgstr "求值時不當的表示式：%s"
+
+#: src/eval.c:320
+#, c-format
+msgid "Bad expression in eval (bad input): %s"
+msgstr "求值時不當的表示式 (不當的輸入)：%s"
+
+#: src/eval.c:325
+#, c-format
+msgid "Bad expression in eval (excess input): %s"
+msgstr "求值時不當的表示式 (超額的輸入)：%s"
+
+#: src/eval.c:330
+#, c-format
+msgid "Divide by zero in eval: %s"
+msgstr "求值時被零除：%s"
+
+#: src/eval.c:335
+#, c-format
+msgid "Modulo by zero in eval: %s"
+msgstr "求值時計算除以零的餘數：%s"
+
+#: src/eval.c:340
+msgid "INTERNAL ERROR: Bad error code in evaluate ()"
+msgstr "內部錯誤：evaluate () 中不當的錯誤碼"
+
+#: src/eval.c:594
+msgid "INTERNAL ERROR: Bad comparison operator in cmp_term ()"
+msgstr "內部錯誤：cmp_term () 中不當的比較運算子"
+
+#: src/eval.c:639
+msgid "INTERNAL ERROR: Bad shift operator in shift_term ()"
+msgstr "內部錯誤：shift_term () 中不當的位移運算子"
+
+#: src/eval.c:738
+msgid "INTERNAL ERROR: Bad operator in mult_term ()"
+msgstr "內部錯誤：mult_term () 中不當的運算子"
+
+#: src/freeze.c:119
+msgid "INTERNAL ERROR: Built-in not found in builtin table!"
+msgstr "內部錯誤：內建表格中無法找到內建指令"
+
+#: src/freeze.c:132
+msgid "INTERNAL ERROR: Bad token data type in freeze_one_symbol ()"
+msgstr "內部錯誤：freeze_one_symbol () 中不當的字組資料型態"
+
+#: src/freeze.c:163
+msgid "Expecting line feed in frozen file"
+msgstr "在凍結的檔案中期待有換列字元"
+
+#: src/freeze.c:165
+#, c-format
+msgid "Expecting character `%c' in frozen file"
+msgstr "在凍結的檔案中期待有「%c」字元"
+
+#: src/freeze.c:222
+msgid "Ill-formated frozen file"
+msgstr "不良格式的凍結檔案"
+
+#: src/freeze.c:277 src/freeze.c:293
+msgid "Premature end of frozen file"
+msgstr "凍結檔案突然結束"
+
+#: src/freeze.c:327
+#, c-format
+msgid "`%s' from frozen file not found in builtin table!"
+msgstr "來自凍結檔案的「%s」無法在內建表格中找到！"
+
+#: src/input.c:318
+#, c-format
+msgid "Input reverted to %s, line %d"
+msgstr "輸入還原到 %s，第 %d 列"
+
+#: src/input.c:346
+#, c-format
+msgid "Input read from %s"
+msgstr "輸入從 %s 讀取"
+
+#: src/input.c:506
+msgid "INTERNAL ERROR: Recursive push_string!"
+msgstr "內部錯誤：遞迴的 push_string！"
+
+#: src/input.c:623
+msgid "INTERNAL ERROR: Bad call to init_macro_token ()"
+msgstr "內部錯誤：不當呼叫 init_macro_token ()"
+
+#: src/input.c:663
+msgid "INTERNAL ERROR: Input stack botch in next_char ()"
+msgstr "內部錯誤：next_char () 中難看的輸入堆疊"
+
+#: src/input.c:700
+msgid "INTERNAL ERROR: Input stack botch in peek_input ()"
+msgstr "內部錯誤：peek_input () 中難看的輸入堆疊"
+
+#: src/input.c:805
+msgid "NONE"
+msgstr "NONE"
+
+#: src/input.c:1199 src/input.c:1226
+msgid "ERROR: EOF in string"
+msgstr "錯誤：字串中有檔尾字元 (EOF)"
+
+#: src/m4.c:119
+msgid "ERROR: Stack overflow.  (Infinite define recursion?)"
+msgstr "錯誤：堆疊溢位。(無限的定義迴圈？)"
+
+#: src/m4.c:146
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "請嘗試執行「%s --help」來獲取更多資訊。\n"
+
+#: src/m4.c:150
+#, c-format
+msgid "Usage: %s [OPTION]... [FILE]...\n"
+msgstr "用法：%s [選項]… [檔案]…\n"
+
+#: src/m4.c:151
+msgid ""
+"Mandatory or optional arguments to long options are mandatory or optional\n"
+"for short options too.\n"
+"\n"
+"Operation modes:\n"
+"      --help                   display this help and exit\n"
+"      --version                output version information and exit\n"
+"  -e, --interactive            unbuffer output, ignore interrupts\n"
+"  -E, --fatal-warnings         stop execution after first warning\n"
+"  -Q, --quiet, --silent        suppress some warnings for builtins\n"
+"  -P, --prefix-builtins        force a `m4_' prefix to all builtins\n"
+msgstr ""
+"對於長選項是必要的或是選擇性的引數，也同樣對於短選項是必要的或是選擇性的。\n"
+"\n"
+"作業模式:\n"
+"      --help                   顯示此輔助訊息並離開\n"
+"      --version                輸出版本資訊並離開\n"
+"  -e, --interactive            輸出不使用緩衝區，忽略插斷訊號\n"
+"  -E, --fatal-warnings         在首次警告之後停止執行\n"
+"  -Q, --quiet, --silent        抑制某些關於內建指令的警告\n"
+"  -P, --prefix-builtins        強迫所有內建指令加上「m4_」前置文字\n"
+
+#: src/m4.c:164
+msgid "  -W, --word-regexp=REGEXP     use REGEXP for macro name syntax\n"
+msgstr "  -W, --word-regexp=REGEXP     使用 REGEXP 做為巨集名稱語法\n"
+
+#: src/m4.c:169
+msgid ""
+"\n"
+"Dynamic loading features:\n"
+"  -m, --module-directory=DIRECTORY  add DIRECTORY to the module search path\n"
+"  -M, --load-module=MODULE          load dynamic MODULE from M4MODPATH\n"
+msgstr ""
+"\n"
+"動態載入特殊功能:\n"
+"  -m, --module-directory=DIRECTORY  加入 DIRECTORY 至模組搜尋路徑\n"
+"  -M, --load-module=MODULE          從 M4MODPATH 載入動態 MODULE\n"
+
+#: src/m4.c:176
+msgid ""
+"\n"
+"Preprocessor features:\n"
+"  -I, --include=DIRECTORY      search this directory second for includes\n"
+"  -D, --define=NAME[=VALUE]    enter NAME has having VALUE, or empty\n"
+"  -U, --undefine=NAME          delete builtin NAME\n"
+"  -s, --synclines              generate `#line NO \"FILE\"' lines\n"
+msgstr ""
+"\n"
+"前置處理器特殊功能:\n"
+"  -I, --include=DIRECTORY      搜尋此目錄做為含入的輔助\n"
+"  -D, --define=NAME[=VALUE]    輸入的 NAME 具有 VALUE，或是空值\n"
+"  -U, --undefine=NAME          刪除內建的 NAME\n"
+"  -s, --synclines              產生「#line NO \"FILE\"」的列\n"
+
+#: src/m4.c:184
+msgid ""
+"\n"
+"Limits control:\n"
+"  -G, --traditional            suppress all GNU extensions\n"
+"  -H, --hashsize=PRIME         set symbol lookup hash table size\n"
+"  -L, --nesting-limit=NUMBER   change artificial nesting limit\n"
+msgstr ""
+"\n"
+"限制控制:\n"
+"  -G, --traditional            抑制所有 GNU 擴充功能\n"
+"  -H, --hashsize=PRIME         設定符號查找雜湊表大小\n"
+"  -L, --nesting-limit=NUMBER   改變人造巢狀迴圈限制\n"
+
+#: src/m4.c:191
+msgid ""
+"\n"
+"Frozen state files:\n"
+"  -F, --freeze-state=FILE      produce a frozen state on FILE at end\n"
+"  -R, --reload-state=FILE      reload a frozen state from FILE at start\n"
+msgstr ""
+"\n"
+"凍結狀態檔案:\n"
+"  -F, --freeze-state=FILE      結束時於 FILE 產生凍結狀態\n"
+"  -R, --reload-state=FILE      開始時從 FILE 重新載入凍結狀態\n"
+
+#: src/m4.c:197
+msgid ""
+"\n"
+"Debugging:\n"
+"  -d, --debug=[FLAGS]          set debug level (no FLAGS implies `aeq')\n"
+"  -t, --trace=NAME             trace NAME when it will be defined\n"
+"  -l, --arglength=NUM          restrict macro tracing size\n"
+"  -o, --error-output=FILE      redirect debug and trace output\n"
+msgstr ""
+"\n"
+"除錯:\n"
+"  -d, --debug=[FLAGS]          設定除錯層級 (無 FLAGS 則表示「aeq」)\n"
+"  -t, --trace=NAME             當 NAME 將會被定義時追蹤它\n"
+"  -l, --arglength=NUM          限定巨集追蹤大小\n"
+"  -o, --error-output=FILE      重新導向除錯與追蹤的輸出\n"
+
+#: src/m4.c:205
+msgid ""
+"\n"
+"FLAGS is any of:\n"
+"  t   trace for all macro calls, not only traceon'ed\n"
+"  a   show actual arguments\n"
+"  e   show expansion\n"
+"  q   quote values as necessary, with a or e flag\n"
+"  c   show before collect, after collect and after call\n"
+"  x   add a unique macro call id, useful with c flag\n"
+"  f   say current input file name\n"
+"  l   say current input line number\n"
+"  p   show results of path searches\n"
+"  i   show changes in input files\n"
+"  V   shorthand for all of the above flags\n"
+msgstr ""
+"\n"
+"FLAGS 是下列任何組合:\n"
+"  t   追蹤所有巨集呼叫，而非只有被標示追蹤者\n"
+"  a   顯示實際引數\n"
+"  e   顯示展開狀況\n"
+"  q   必要時標示引數值，並加上旗標 a 或 e\n"
+"  c   於收集之前、收集之後與呼叫之後顯示\n"
+"  x   加上獨一的巨集呼叫識別號，常與旗標 c 同時使用\n"
+"  f   指明目前輸入檔案名稱\n"
+"  l   指明目前輸入列號\n"
+"  p   顯示路徑搜尋結果\n"
+"  i   顯示輸入檔案中的變更\n"
+"  V   代表以上所有旗標的簡稱\n"
+
+#: src/m4.c:220
+msgid ""
+"\n"
+"If no FILE or if FILE is `-', standard input is read.\n"
+msgstr ""
+"\n"
+"如果沒有指定 FILE 或 FILE 是 -，則由標準輸入讀取資料。\n"
+
+#: src/m4.c:225
+msgid ""
+"\n"
+"Report bugs to <bug-m4@gnu.org>.\n"
+msgstr ""
+"\n"
+"請向 <bug-m4@gnu.org> 回報錯誤。\n"
+
+#: src/m4.c:414
+#, c-format
+msgid "Bad debug flags: `%s'"
+msgstr "不當的除錯旗標：「%s」"
+
+#: src/m4.c:436
+#, c-format
+msgid "ERROR: failed to add search directory `%s'"
+msgstr "錯誤：無法加入搜尋目錄「%s」"
+
+#: src/m4.c:440
+#, c-format
+msgid "ERROR: failed to add search directory `%s': %s"
+msgstr "錯誤：無法加入搜尋目錄「%s」：%s"
+
+#: src/m4.c:460
+msgid " (options:"
+msgstr "(選項:"
+
+#: src/m4.c:542
+msgid "INTERNAL ERROR: Bad code in deferred arguments"
+msgstr "內部錯誤：延遲的引數中有不當的碼"
+
+#: src/macro.c:97
+msgid "INTERNAL ERROR: Bad token type in expand_token ()"
+msgstr "內部錯誤：expand_token () 中有不當的字組型態"
+
+#: src/macro.c:163
+msgid "ERROR: EOF in argument list"
+msgstr "錯誤：引數串列中出現檔案結尾(EOF)"
+
+#: src/macro.c:182
+msgid "INTERNAL ERROR: Bad token type in expand_argument ()"
+msgstr "內部錯誤：expand_argument () 中有不當的字組型態"
+
+#: src/macro.c:259
+msgid "INTERNAL ERROR: Bad symbol type in call_macro ()"
+msgstr "內部錯誤：call_macro () 中有不當的符號型態"
+
+#: src/macro.c:288
+#, c-format
+msgid "ERROR: Recursion limit of %d exceeded, use -L<N> to change it"
+msgstr "錯誤：超出 %d 的遞迴限制，使用 -L<N> 來修正它"
+
+#: src/module.c:123
+#, c-format
+msgid "ERROR: failed to initialise modules: %s"
+msgstr "錯誤：模組啟始失敗：%s"
+
+#: src/module.c:221
+#, c-format
+msgid "ERROR: cannot find module: `%s'"
+msgstr "錯誤：無法找到模組：「%s」"
+
+#: src/module.c:224
+#, c-format
+msgid "ERROR: cannot find module: `%s': %s"
+msgstr "錯誤：無法找到模組：「%s」：%s"
+
+#: src/module.c:274
+msgid "ERROR: cannot close modules"
+msgstr "錯誤：無法關閉模組"
+
+#: src/module.c:277
+#, c-format
+msgid "ERROR: cannot cannot close modules: %s"
+msgstr "錯誤：無法關閉模組：%s"
+
+#: src/module.c:284
+#, c-format
+msgid "ERROR: cannot close module: `%s'"
+msgstr "錯誤：無法關閉模組：「%s」"
+
+#: src/module.c:288
+#, c-format
+msgid "ERROR: cannot cannot close module: `%s': %s"
+msgstr "錯誤：無法關閉模組：「%s」：%s"
+
+#: src/output.c:262
+msgid "ERROR: Cannot create temporary file for diversion"
+msgstr "錯誤：無法建立轉移用的暫時檔案"
+
+#: src/output.c:272
+msgid "ERROR: Cannot flush diversion to temporary file"
+msgstr "錯誤：無法清空轉移資料至暫時檔案"
+
+#: src/output.c:356
+msgid "ERROR: Copying inserted file"
+msgstr "錯誤：複製已插入的檔案"
+
+#: src/output.c:537
+msgid "ERROR: Reading inserted file"
+msgstr "錯誤：讀取已插入的檔案"
+
+#: src/output.c:636
+msgid "Cannot stat diversion"
+msgstr "無法顯示轉移狀態"
+
+#: src/output.c:639
+msgid "Diversion too large"
+msgstr "轉移資料太大"
+
+#: src/path.c:157
+#, c-format
+msgid "Path search for `%s' found `%s'"
+msgstr "對於「%s」的路徑搜尋找到「%s」"
+
+#. sbrk failed.  Assume the RLIMIT_VMEM prevents expansion even
+#. if the stack limit has not been reached.
+#: src/stackovf.c:175
+msgid "VMEM limit exceeded?\n"
+msgstr "超過 VMEM 限制？\n"
+
+#: src/stackovf.c:197
+msgid ""
+"Memory bounds violation detected (SIGSEGV).  Either a stack overflow\n"
+"occurred, or there is a bug in "
+msgstr "偵測到違反記憶體邊界 (SIGSEGV)。可能是發生堆疊溢出，或是有程式錯誤於 "
+
+#: src/stackovf.c:202
+msgid ".  Check for possible infinite recursion.\n"
+msgstr "。檢查是否有可能的無限迴圈。\n"
+
+#: src/symtab.c:190
+msgid "INTERNAL ERROR: Illegal mode to symbol_lookup ()"
+msgstr "內部錯誤：symbol_lookup () 的不正確模式"
+
+#: src/symtab.c:243
+#, c-format
+msgid "Name `%s' is unknown\n"
+msgstr "未知的名稱「%s」\n"
