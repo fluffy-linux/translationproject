@@ -1004,7 +1004,7 @@ msgstr "operand hilang"
 #: src/cat.c:48 src/cp.c:56 src/df.c:42 src/du.c:53 src/factor.c:110
 #: src/split.c:49
 msgid "Torbjorn Granlund"
-msgstr "Torbjorn Granlund"
+msgstr "Torbjörn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:49 src/comm.c:37 src/ls.c:123 src/rm.c:43 src/split.c:50
