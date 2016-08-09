@@ -1,20 +1,20 @@
 # Brazilian Portuguese translation for gdbm.
 # Copyright (C) 2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gdbm package.
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2013, 2016.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: gdbm 1.12.90\n"
 "Report-Msgid-Bugs-To: bug-gdbm@gnu.org\n"
 "POT-Creation-Date: 2016-08-08 15:45+0300\n"
 "PO-Revision-Date: 2016-08-09 13:55-0200\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Virtaal 0.7.1\n"
 
