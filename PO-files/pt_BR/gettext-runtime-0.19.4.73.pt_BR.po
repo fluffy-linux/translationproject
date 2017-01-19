@@ -5,7 +5,7 @@
 # Sandro Nunes Henrique <sandro@conectiva.com.br>, 1998
 # Rodrigo Stulzer Lopes <rodrigo@conectiva.com.br>, 2000
 # Flávio Bruno Leitner <flavio@conectiva.com.br>, 2001.
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2013, 2015, 2017.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2015, 2017.
 #
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: bug-gnu-gettext@gnu.org\n"
 "POT-Creation-Date: 2015-06-23 15:18+0900\n"
 "PO-Revision-Date: 2017-01-19 06:30-0200\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
