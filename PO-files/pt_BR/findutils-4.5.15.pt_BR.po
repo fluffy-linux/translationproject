@@ -4,7 +4,7 @@
 # This file is distributed under the same license as the findutils package.
 # Rodrigo Parra Novo <rodrigo.novo@corp.terralycos.com>, 1999, 2000.
 # Alexandre Folle de Menezes <afmenez@terra.com.br>, 2002, 2004.
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2013, 2014, 2015, 2017.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2014, 2015, 2017.
 #
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2015-12-18 14:45+0000\n"
 "PO-Revision-Date: 2017-01-19 17:51-0200\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
