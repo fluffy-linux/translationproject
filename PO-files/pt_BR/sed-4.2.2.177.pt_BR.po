@@ -5,14 +5,14 @@
 # Tradução original da versão 4.01:
 #   Juan Carlos Castro y Castro <jcastro@vialink.com.br>, 2002.
 # Aurelio Jargas <verde@aurelio.net>, 1999-2010.
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2016, 2017.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: sed 4.2.2.177\n"
 "Report-Msgid-Bugs-To: bug-gnu-utils@gnu.org\n"
 "POT-Creation-Date: 2016-12-05 15:25-0800\n"
 "PO-Revision-Date: 2017-01-20 10:44-0200\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
