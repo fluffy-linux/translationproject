@@ -530,7 +530,7 @@ msgstr "Manca newline alla fine del file"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:44
 msgid "Torbjorn Granlund"
-msgstr "Torbjorn Granlund"
+msgstr "Torbjörn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:45
