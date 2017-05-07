@@ -3,14 +3,14 @@
 # Copyright (C) 2017 Free Software Foundation, Inc.
 # This file is distributed under the same license as the diffutils package.
 # Halley Pacheco de Oliveira <halleypo@ig.com.br>, 2002.
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2016, 2017.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: diffutils 3.5.25\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2017-05-06 15:41-0700\n"
 "PO-Revision-Date: 2017-05-07 15:53-0200\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
