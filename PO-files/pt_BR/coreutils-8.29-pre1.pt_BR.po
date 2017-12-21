@@ -6,14 +6,14 @@
 # Rodrigo Stulzer Lopes <rodrigo@conectiva.com.br>, 2001.
 # Juan Carlos Castro y Castro <jcastro@vialink.com.br>, 2003.
 # Rodolfo Ribeiro Gomes <rodolforg@gmail.com>, 2008, 2010, 2012.
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2016, 2017.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2016, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: coreutils-8.29-pre1\n"
+"Project-Id-Version: coreutils 8.29-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2017-12-21 12:18+0000\n"
 "PO-Revision-Date: 2017-12-21 20:35-0200\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
