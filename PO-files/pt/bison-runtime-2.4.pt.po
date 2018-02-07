@@ -46,19 +46,19 @@ msgstr "erro de sintaxe, %s inesperado"
 #: data/yacc.c:919
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s"
-msgstr "erro de sintaxe, %s inesperado, esperava %s"
+msgstr "erro de sintaxe, %s inesperado, esperado %s"
 
 #: data/yacc.c:920
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s or %s"
-msgstr "erro de sintaxe, %s inesperado, esperava %s ou %s"
+msgstr "erro de sintaxe, %s inesperado, esperado %s ou %s"
 
 #: data/yacc.c:921
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s or %s or %s"
-msgstr "erro de sintaxe, %s inesperado, esperava %s ou %s ou %s"
+msgstr "erro de sintaxe, %s inesperado, esperado %s ou %s ou %s"
 
 #: data/yacc.c:922
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
-msgstr "erro de sintaxe, %s inesperado, esperava %s ou %s ou %s ou %s"
+msgstr "erro de sintaxe, %s inesperado, esperado %s ou %s ou %s ou %s"
