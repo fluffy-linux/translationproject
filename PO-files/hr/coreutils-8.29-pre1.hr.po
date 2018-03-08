@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: coreutils-8.29-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2017-12-21 12:18+0000\n"
-"PO-Revision-Date: 2018-02-25 18:16-0800\n"
+"PO-Revision-Date: 2018-03-07 18:51-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -19,7 +19,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 2.0\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -806,7 +805,7 @@ msgstr "Općenita pomoć za korištenje GNU softvera: <https://www.gnu.org/gethe
 #: lib/xbinary-io.c:37
 #, c-format
 msgid "failed to set file descriptor text/binary mode"
-msgstr "nije uspjelo postaviti tekst/binarni mȏd deskriptora datoteke"
+msgstr "nije uspjelo postaviti tekst/binarni mod deskriptora datoteke"
 
 #: lib/xmemcoll.c:39 src/expr.c:1026
 #, c-format
@@ -855,8 +854,7 @@ msgid ""
 "Base%d encode or decode FILE, or standard input, to standard output.\n"
 msgstr ""
 "Uporaba: %s [OPCIJA]... [DATOTEKA]\n"
-"Ispiše DATOTEKU (ili standardni ullaz) kodiranu ili dekodiranu\n"
-"s pomoću Base%d na standardni izlaz.\n"
+"Kodira/dekodira DATOTEKU ili standardni ulaz na standardni izlaz u/iz base%d.\n"
 
 #: src/base64.c:73
 msgid ""
@@ -869,7 +867,7 @@ msgstr ""
 "  -d, --decode          dekodira podatke\n"
 "  -i, --ignore-garbage  dekodiranje ignorira znakove koji nisu slova\n"
 "  -w, --wrap=KOLONA     dekodirane retke prelomi na KOLONA stupcu (zadano 76)\n"
-"                          KOLONA=0 onemogući prelamanje (no wrapping)\n"
+"                          rabite 0 ako ne želite prelamanje\n"
 "\n"
 
 #: src/base64.c:82
@@ -956,10 +954,10 @@ msgid ""
 "  -s, --suffix=SUFFIX  remove a trailing SUFFIX; implies -a\n"
 "  -z, --zero           end each output line with NUL, not newline\n"
 msgstr ""
-"  -a, --multiple       podrška za više argumenata i tretira ih kao i IME\n"
+"  -a, --multiple       podržava nekoliko argumenata i tretira ih kao i IME\n"
 "  -s, --suffix=SUFIKS  ukloni i zaostale SUFIKSE; implicira -a\n"
-"  -z, --zero           svaki redak izlaza završi s NUL, a ne s newline (znakom\n"
-"                         novog retka)\n"
+"  -z, --zero           svaki redak završi s NUL bajtom,\n"
+"                         a ne s novim retkom\n"
 
 #: src/basename.c:67
 #, c-format
@@ -1010,7 +1008,7 @@ msgstr "Uporaba: %s [OPCIJA]... [DATOTEKA]...\n"
 
 #: src/cat.c:92
 msgid "Concatenate FILE(s) to standard output.\n"
-msgstr "Kopira i ispiše sadržaj DATOTEKE (ili spojenih DATOTEKA) na standardni izlaz.\n"
+msgstr "Ulanči i ispiše sadržaj DATOTEKE/ulančenih DATOTEKA na standardni izlaz.\n"
 
 #: src/cat.c:98
 msgid ""
@@ -1026,9 +1024,9 @@ msgstr ""
 "  -A, --show-all           isto kao -vET\n"
 "  -b, --number-nonblank    broj ne-praznih izlaznih redaka, poništava -n\n"
 "  -e                       isto kao -vE\n"
-"  -E, --show-ends          doda $ na kraj svakog izlaznog retka\n"
+"  -E, --show-ends          pripoji $ na kraj svakog izlaznog retka\n"
 "  -n, --number             numerira svaki redak na izlazu\n"
-"  -s, --squeeze-blank      izostavi višestruke prazne retke na izlazu\n"
+"  -s, --squeeze-blank      izostavi uzastopne prazne izlazne retke\n"
 
 #: src/cat.c:107
 msgid ""
@@ -1040,7 +1038,7 @@ msgstr ""
 "  -t                       isto kao -vT\n"
 "  -T, --show-tabs          TAB (tabulator) znak prikaže kao ^I\n"
 "  -u                       (ignorira se)\n"
-"  -v, --show-nonprinting   rabi ^ i M- notaciju osim za LFD s(line feed) i TAB\n"
+"  -v, --show-nonprinting   rabi ^ i M- notaciju osim za LF i TAB\n"
 
 #: src/cat.c:115
 #, c-format
@@ -1052,7 +1050,7 @@ msgid ""
 msgstr ""
 "\n"
 "Primjeri:\n"
-"  %s f - g   Ispiše sadržaj od f, zatim standardni izlaz, te sadržaj od g.\n"
+"  %s f - g   Ispiše sadržaj od f, zatim standardni ulaz, te sadržaj od g.\n"
 "  %s         Kopira standardni ulaz na standardni izlaz.\n"
 
 #: src/cat.c:327
@@ -1149,7 +1147,7 @@ msgid ""
 msgstr ""
 "Uporaba: %s [OPCIJA]... KONTEKST DATOTEKA...\n"
 "    ili: %s [OPCIJA]... [-u KORISNIK] [-r ULOGA] [-l RASPON]\n"
-"            [-t TIP] DATOTEKA...\n"
+"                 [-t TIP] DATOTEKA...\n"
 "    ili: %s [OPCIJA]... --reference=REFDATOTEKA DATOTEKA...\n"
 
 #: src/chcon.c:358
@@ -1158,8 +1156,8 @@ msgid ""
 "With --reference, change the security context of each FILE to that of RFILE.\n"
 msgstr ""
 "Promijeni SELinux sigurnosni kontekst svake DATOTEKE na KONTEKST.\n"
-"Opcija --reference promijeni sigurnosni kontekst svake DATOTEKE na isti kao\n"
-"od REFDATOTEKE.\n"
+"S opcijom --reference promijeni sigurnosni kontekst svake DATOTEKE\n"
+"na kontekst REFDATOTEKE.\n"
 
 #: src/chcon.c:365 src/chgrp.c:125 src/chown.c:95
 msgid ""
@@ -1193,7 +1191,7 @@ msgid ""
 "      --no-preserve-root  do not treat '/' specially (the default)\n"
 "      --preserve-root    fail to operate recursively on '/'\n"
 msgstr ""
-"      --no-preserve-root „/“ ne tretira posebno (zadano stanje)\n"
+"      --no-preserve-root ne tretira „/“ na posebni način (zadano)\n"
 "      --preserve-root    odbija rekurzivnu obradu „/“\n"
 
 #: src/chcon.c:380
@@ -1201,8 +1199,8 @@ msgid ""
 "      --reference=RFILE  use RFILE's security context rather than specifying\n"
 "                         a CONTEXT value\n"
 msgstr ""
-"      --reference=REFDATOTEKA  rabi se sigurnosni kontekst REFDATOTEKE umjesto\n"
-"                           vrijednosti KONTEKSTA\n"
+"      --reference=REFDATOTEKA  rabi sigurnosni kontekst REFDATOTEKE\n"
+"                                 umjesto vrijednosti KONTEKSTA\n"
 
 #: src/chcon.c:384 src/chgrp.c:142 src/chown.c:119
 msgid "  -R, --recursive        operate on files and directories recursively\n"
@@ -1210,7 +1208,7 @@ msgstr "  -R, --recursive        rekurzivno obradi datoteke i direktorije\n"
 
 #: src/chcon.c:387
 msgid "  -v, --verbose          output a diagnostic for every file processed\n"
-msgstr "  -v, --verbose          ispis dijagnostike za svaku procesiranu datoteku\n"
+msgstr "  -v, --verbose          ispiše dijagnostiku za svaku procesiranu datoteku\n"
 
 #: src/chcon.c:390 src/chgrp.c:145 src/chown.c:122
 msgid ""
@@ -1228,14 +1226,13 @@ msgid ""
 msgstr ""
 "\n"
 "Opcije koje slijede modificiraju prolaz kroz hijerarhiju ako je istovremeno\n"
-"navedena i -R opcija. Ako je navedeno više od jedne od ovih opcija, onda\n"
-"samo zadnja ima učinak a ostale su zanemarene.\n"
+"navedena i -R opcija. Ako je navedeno nekoliko ovih opcija, onda samo zadnja\n"
+"ima učinak a ostale su zanemarene.\n"
 "\n"
 "  -H                     ako je argument na naredbenom retku simbolička veza\n"
-"                           na direktorij, onda proputuje kroz taj direktorij\n"
-"  -L                     proputuje kroz svaku simboličku vezu na direktorije na\n"
-"                           na koju naiđe\n"
-"  -P                     ne prolazi kroz simboličke veze (zadano)\n"
+"                           na direktorij, onda prođe kroz taj direktorij\n"
+"  -L                     slijedi svaku simboličku vezu na direktorije\n"
+"  -P                     ne slijedi simboličke veze (zadano)\n"
 "\n"
 
 #: src/chcon.c:517 src/chgrp.c:266 src/chown.c:267
@@ -1291,9 +1288,8 @@ msgid ""
 "With --reference, change the group of each FILE to that of RFILE.\n"
 "\n"
 msgstr ""
-"Promjeni grupu svake DATOTEKE u GRUPU\n"
-"Opcija --reference promijeni grupu svake DATOTEKE na istu vrijednost\n"
-"kao u REFDATOTECI.\n"
+"Promijeni grupu svake DATOTEKE u GRUPU\n"
+"S opcijom --reference promijeni grupu svake DATOTEKE na grupu REFDATOTEKE.\n"
 "\n"
 
 #: src/chgrp.c:120 src/chmod.c:385 src/chown.c:90
@@ -1303,7 +1299,7 @@ msgid ""
 "  -v, --verbose          output a diagnostic for every file processed\n"
 msgstr ""
 "  -c, --changes          kao --verbose, ali samo ako ima izmjena\n"
-"  -f, --silent, --quiet  izostavlja većinu poruka o greškama\n"
+"  -f, --silent, --quiet  izostavi većinu poruka o greškama\n"
 "  -v, --verbose          ispiše dijagnostike za svaku procesiranu datoteku\n"
 
 #: src/chgrp.c:130 src/chown.c:100
@@ -1392,15 +1388,15 @@ msgid ""
 "With --reference, change the mode of each FILE to that of RFILE.\n"
 "\n"
 msgstr ""
-"Promijeni mȏd (prava pristupa) svake DATOTEKE u MOD.\n"
-"S opcijom --reference promijeni mȏmȏdke DATOTEKE na onaj u REFDATOTECI.\n"
+"Promijeni prava pristupa svake DATOTEKE u MOD.\n"
+"S opcijom --reference promijeni mod DATOTEKE na mod REFDATOTEKE.\n"
 "\n"
 
 #: src/chmod.c:394
 msgid "      --reference=RFILE  use RFILE's mode instead of MODE values\n"
 msgstr ""
-"      --reference=REFDATOTEKA  primijeni prava pristupa (mȏd) REFDATOTEKE\n"
-"                                 umjesto specificiranja MODA\n"
+"      --reference=REFDATOTEKA  rabi prava pristupa REFDATOTEKE umjesto\n"
+"                                 izričitog specificiranja MODA\n"
 
 #: src/chmod.c:397
 msgid "  -R, --recursive        change files and directories recursively\n"
@@ -1417,12 +1413,12 @@ msgstr ""
 #: src/chmod.c:516
 #, c-format
 msgid "cannot combine mode and --reference options"
-msgstr "opcije --reference i mȏd se ne smiju kombinirati"
+msgstr "opcije --reference i mod se ne smiju kombinirati"
 
 #: src/chmod.c:547
 #, c-format
 msgid "invalid mode: %s"
-msgstr "nevaljani mȏd: %s"
+msgstr "nevaljani mod: %s"
 
 #: src/chown-core.c:157
 #, c-format
@@ -1510,8 +1506,8 @@ msgid ""
 "\n"
 msgstr ""
 "Promijeni vlasnika i/ili grupu svake DATOTEKE na VLASNIKA i/ili GRUPU.\n"
-"Opcija --reference promijeni vlasnika ili grupu svake DATOTEKE na istu\n"
-"vrijednosti kao u REFDATOTECI.\n"
+"S opcijom --reference promijeni vlasnika ili grupu svake DATOTEKE\n"
+"na vlasnika ili grupu REFDATOTEKE.\n"
 "\n"
 
 #: src/chown.c:104
@@ -1523,7 +1519,7 @@ msgid ""
 "                         is not required for the omitted attribute\n"
 msgstr ""
 "      --from=TRENUTAČNI_VLASNIK:TRENUTAČNA_GRUPA  vlasnik i/ili grupa se\n"
-"                          promijeni samo onim datotekama čiji trenutačni vlasnik\n"
+"                          promijeni samo datotekama čiji trenutačni vlasnik\n"
 "                          i/ili grupa se točno podudara s ovdje navedenima.\n"
 "                          Vlasnik ili grupa se može ispustiti; u tom slučaju\n"
 "                          ne traži se podudaranje sa ispuštenim atributom.\n"
@@ -1699,7 +1695,7 @@ msgid ""
 "When FILE1 or FILE2 (not both) is -, read standard input.\n"
 msgstr ""
 "\n"
-"Ako je DATOTEKA1 ili DATOTEKA2 (ali ne obje) „-“, čita se standardni ulaz.\n"
+"Ako je DATOTEKA1 ili DATOTEKA2 (ali ne obje) „-“, čita standardni ulaz.\n"
 
 #: src/comm.c:123
 msgid ""
@@ -1709,7 +1705,7 @@ msgid ""
 "and column three contains lines common to both files.\n"
 msgstr ""
 "\n"
-"Bez opcija izlaz se ispiše u tri stupca. U prvom stupcu su jedinstveni\n"
+"Bez opcija generira tri izlazna stupca. U prvom stupcu su jedinstveni\n"
 "redci DATOTEKE1, u drugom stupcu su jedinstveni redci DATOTEKE2,\n"
 "a u trećem stupcu su redci zajednički objema datotekama.\n"
 
@@ -1742,7 +1738,7 @@ msgstr "  --output-delimiter=STR  stupce razdvojiti sa STR\n"
 
 #: src/comm.c:144
 msgid "  --total           output a summary\n"
-msgstr "  --total         ispis sažetka\n"
+msgstr "  --total         ispiše sažetak\n"
 
 #: src/comm.c:147 src/cut.c:178 src/head.c:134 src/numfmt.c:945
 #: src/paste.c:452 src/tail.c:308
@@ -1781,7 +1777,7 @@ msgstr "sveukupno"
 
 #: src/comm.c:458
 msgid "multiple output delimiters specified"
-msgstr "navedeno je nekoliko graničnika za ispis"
+msgstr "navedeno je nekoliko izlaznih graničnika"
 
 #: src/copy.c:193 src/copy.c:464
 #, c-format
@@ -1930,7 +1926,7 @@ msgstr "%s: %s nije moguće prepisati (prava pristupa %04lo, %s); ipak pokušati
 #: src/copy.c:1691
 #, c-format
 msgid "%s: overwrite %s? "
-msgstr "%s: prekopisati %s? "
+msgstr "%s: prepisati %s? "
 
 #: src/copy.c:1761
 #, c-format
@@ -1951,7 +1947,7 @@ msgstr "nije moguće stvoriti čvrstu vezu %s na %s"
 #: src/stat.c:1389 src/truncate.c:338
 #, c-format
 msgid "cannot stat %s"
-msgstr "status od %s nije moguće dobiti sa stat"
+msgstr "nije moguće dobiti status od %s"
 
 #: src/copy.c:1884
 #, c-format
@@ -1966,7 +1962,7 @@ msgstr "propuštam direktorij %s"
 #: src/copy.c:1900
 #, c-format
 msgid "warning: source file %s specified more than once"
-msgstr "upozorenje: izvornik (datoteka) %s navedena je više od jedamput"
+msgstr "upozorenje: izvornik (datoteka) %s naveden je više od jedanput"
 
 #: src/copy.c:1949 src/ln.c:263
 #, c-format
@@ -1976,12 +1972,12 @@ msgstr "%s i %s su jedna te ista datoteka"
 #: src/copy.c:2039
 #, c-format
 msgid "cannot overwrite non-directory %s with directory %s"
-msgstr "nije moguće prekopisati %s (nije direktorij) s direktorijem %s"
+msgstr "nije moguće prepisati %s (nije direktorij) s direktorijem %s"
 
 #: src/copy.c:2057 src/ln.c:231
 #, c-format
 msgid "will not overwrite just-created %s with %s"
-msgstr "upravo stvorena datoteka %s neće biti prekopisana s %s"
+msgstr "upravo stvorena datoteka %s neće biti prepisana s %s"
 
 #: src/copy.c:2075
 #, c-format
@@ -2042,7 +2038,7 @@ msgstr "nije moguće premjestiti %s u vlastiti poddirektorij, %s"
 #: src/copy.c:2407
 #, c-format
 msgid "cannot move %s to %s"
-msgstr "nije moguće premjestiti %s u %s"
+msgstr "nije moguće preimenovati %s u %s"
 
 #: src/copy.c:2423
 #, c-format
@@ -2152,9 +2148,7 @@ msgstr ""
 
 #: src/cp.c:164
 msgid "Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.\n"
-msgstr ""
-"Kopira IZVORNIK (datoteka) u ODREDIŠTE (datoteka, direktorij), ili jedan ili\n"
-"više IZVORNIKA u DIREKTORIJ.\n"
+msgstr "Kopira IZVORNIK u ODREDIŠTE ili IZVORNIK(E) u DIREKTORIJ.\n"
 
 #: src/cp.c:170
 msgid ""
@@ -2186,7 +2180,7 @@ msgstr ""
 "  -f, --force                  ako ne može otvoriti postojeću datoteku na\n"
 "                                 odredištu, izbriše ju i ponovno pokuša\n"
 "                                 (opcija ne djeluje ako je zadana i -n opcija)\n"
-"  -i, --interactive            pita prije pisanja preko postojeće datoteke\n"
+"  -i, --interactive            pita prije nego prepiše postojeće datoteke\n"
 "                                 (poništi prethodnu -n opciju)\n"
 "  -H                           slijedi na naredbenom retku navedene simboličke\n"
 "                                 veze u IZVORNIKU\n"
@@ -2206,7 +2200,7 @@ msgid ""
 "                                 a previous -i option)\n"
 "  -P, --no-dereference         never follow symbolic links in SOURCE\n"
 msgstr ""
-"  -n, --no-clobber             ne piše preko postojeće datoteku (poništi\n"
+"  -n, --no-clobber             ne prepiše postojeće datoteku (poništi\n"
 "                                 prethodnu -i opciju)\n"
 "  -P, --no-dereference         nikada ne slijedi simboličke veze u IZVORNIKU\n"
 "                                 (v. niže)\n"
@@ -2281,7 +2275,7 @@ msgid ""
 msgstr ""
 "  -u, --update                 kopira samo ako je IZVORNIK datoteka novija\n"
 "                                 od datoteke u odredištu ili ako je tamo nema\n"
-"  -v, --verbose                objašnjava što se vrši\n"
+"  -v, --verbose                objašnjava što se radi\n"
 "  -x, --one-file-system        djeluje samo po ovom datotečnom sustavu\n"
 
 #: src/cp.c:233
@@ -2321,13 +2315,14 @@ msgstr ""
 "Raspršene (sparse) IZVORNIK datoteke detektiraju se primitivnom heuristikom\n"
 "i korespondentna datoteka na ODREDIŠTU je također raspršena. Takvo ponašanje\n"
 "odabire se s opcijom --sparse=auto. Sa --sparse=always, datoteka na\n"
-"ODREDIŠTU će biti raspršena, ako IZVORNIK datoteka sadrži dovoljno dugi\n"
+"ODREDIŠTU će biti raspršena ako IZVORNIK datoteka sadrži dovoljno dugi\n"
 "slijed nula bajtova (rupa, praznina). Rabite --sparse=never da spriječite\n"
-"stvaranje raspršenih (sparse) datoteka.\n"
+"stvaranje raspršenih datoteka.\n"
 "\n"
-"Opcija --reflink[=always] (Copy-on-write, CoW) ćini da se kopiraju (data)\n"
+"Opcija --reflink[=always] (Copy-on-write, CoW) čini da se kopiraju (data)\n"
 "blokovi, ali samo ako su modificirani. To je i zadano ponašanje. Ako to\n"
-"nije moguće (podržano), kopiranje doživi neuspjeh, ili ako je --reflink=auto vrši se standardno kopiranje.\n"
+"nije moguće, kopiranje doživi neuspjeh, ili ako je --reflink=auto\n"
+"izvrši se standardno kopiranje.\n"
 
 #: src/cp.c:254
 msgid ""
@@ -2338,7 +2333,8 @@ msgid ""
 msgstr ""
 "\n"
 "Kao poseban slučaj cp pravi sigurnosne kopije IZVORNIKA onda kad su\n"
-"zadane opcije force (-f) i backup (-b), i IZVORNIK i ODREDIŠTE imaju istoime za postojeću regularnu datoteku.\n"
+"zadane opcije force (-f) i backup (-b), i IZVORNIK i ODREDIŠTE imaju isto\n"
+"ime za postojeću regularnu datoteku.\n"
 
 #: src/cp.c:313
 #, c-format
@@ -2358,7 +2354,7 @@ msgstr "nije moguće stvoriti direktorij %s"
 #: src/cp.c:529 src/cp.c:560
 #, c-format
 msgid "%s exists but is not a directory"
-msgstr "%s postoji ali to nije direktorij"
+msgstr "%s postoji ali nije direktorij"
 
 #: src/cp.c:587 src/cp.c:1086 src/install.c:407 src/install.c:942 src/ln.c:134
 #: src/ln.c:198 src/ln.c:219 src/ln.c:503 src/mv.c:157 src/mv.c:390
@@ -2395,7 +2391,7 @@ msgstr "uz --parents, odredište mora biti direktorij"
 
 #: src/cp.c:1081 src/install.c:882 src/ln.c:498 src/mv.c:385
 msgid "multiple target directories specified"
-msgstr "navedeno je više od jednog direktorija za cilj"
+msgstr "navedeno je nekoliko direktorija za cilj"
 
 #: src/cp.c:1123 src/install.c:918
 #, c-format
@@ -2569,7 +2565,7 @@ msgid ""
 "Read standard input if FILE is -\n"
 msgstr ""
 "\n"
-"Ako je DATOTEKA „-“, čita se standardni ulaz\n"
+"Ako je DATOTEKA „-“, čita standardni ulaz\n"
 
 #: src/csplit.c:1497
 #, c-format
@@ -2649,8 +2645,8 @@ msgid ""
 "                            the -s option is specified\n"
 "  -n                      (ignored)\n"
 msgstr ""
-"  -f, --fields=POPIS      odabere samo polja iz POPISA; ako nije navedena opcija\n"
-"                            -s, ispiše svaki redak koji ne sadrži znak međe\n"
+"  -f, --fields=POPIS      odabere samo polja iz POPISA; ako nema opcije -s,\n"
+"                            ispiše svaki redak koji ne sadrži znak međe\n"
 "  -n                      (ignorira se)\n"
 
 #: src/cut.c:169
@@ -2677,9 +2673,9 @@ msgid ""
 "in the same order that it is read, and is written exactly once.\n"
 msgstr ""
 "\n"
-"Rabi jedan, i samo jednu od -b, -c ili -f opcija. Svaki POPIS se sastoji od\n"
+"Rabi jednu i samo jednu od -b, -c ili -f opcija. Svaki POPIS se sastoji od\n"
 "raspona ili nekoliko raspona odvojenih zarezima. Odabrani ulaz je zapisan\n"
-"u istom poretku u kojem je učitan, i samo je jedamputa zapisan.\n"
+"u istom poretku u kojem je učitan, i samo je jedanput zapisan.\n"
 
 #: src/cut.c:189
 msgid ""
@@ -2732,12 +2728,12 @@ msgstr ""
 
 #: src/date.c:135
 msgid "Display the current time in the given FORMAT, or set the system date.\n"
-msgstr "Ispiše trenutačno vrijeme u navedenom FORMATU ili izmijeni vrijeme sustava.\n"
+msgstr "Ispiše trenutačno vrijeme u danom FORMATU ili izmijeni vrijeme sustava.\n"
 
 #: src/date.c:141
 msgid "  -d, --date=STRING          display time described by STRING, not 'now'\n"
 msgstr ""
-"  -d, --date=STRING          ispiše vrijeme opisano STRINGOM, a ne\n"
+"  -d, --date=STRING          prikaže vrijeme opisano STRINGOM, a ne\n"
 "                               trenutačno vrijeme\n"
 
 #: src/date.c:144
@@ -2814,7 +2810,7 @@ msgid ""
 "  %a   locale's abbreviated weekday name (e.g., Sun)\n"
 msgstr ""
 "\n"
-"FORMAT određuje izlaz. Interpretiraju se slijedeće sekvencije:\n"
+"FORMAT određuje izlaz. Interpretiraju se sljedeće sekvencije:\n"
 "\n"
 "  %%   znak (doslovno) %\n"
 "  %a   lokalizirano skraćeno ime dana u tjednu (npr. ned.)\n"
@@ -2962,7 +2958,7 @@ msgid ""
 "  ^  use upper case if possible\n"
 "  #  use opposite case if possible\n"
 msgstr ""
-"Slijedeće opcijske zastavice mogu se dopisati nakon '%':\n"
+"Sljedeće neobvezne zastavice mogu se dopisati nakon '%':\n"
 "\n"
 "  -  (spojnica) ne dopunjava polja\n"
 "  _  (podvlaka, donja crta) dopunjavanje s razmacima\n"
@@ -2979,8 +2975,8 @@ msgid ""
 "O to use the locale's alternate numeric symbols if available.\n"
 msgstr ""
 "\n"
-"Iza bilo koje zastavice dolazi opcionalni decimalni broj za širinu polja;\n"
-"zatim opcionalni modifikator, „E“ ili „O“\n"
+"Iza bilo koje zastavice dolazi neobvezni decimalni broj za širinu polja;\n"
+"zatim neobvezni modifikator, „E“ ili „O“\n"
 "E: rabiti lokaliziranu alternativu ako postoji, ili\n"
 "O: rabiti lokalizirane numeričke simbole ako postoje.\n"
 
@@ -3005,7 +3001,7 @@ msgstr ""
 "Pokaži vrijeme na zapadnoj obali SAD-a (rabite tzselect(1) da odredite TZ)\n"
 "  $ TZ='America/Los_Angeles' date\n"
 "\n"
-"Pokaži lokalno vrijeme za 9:00 ujutro slijedeći petak u Zagrebu\n"
+"Pokaži lokalno vrijeme za 9:00 ujutro sljedeći petak u Zagrebu\n"
 "  $ date --date='TZ=\"Europe/Zagreb\" 09:00 next Fri'\n"
 
 #: src/date.c:300 src/dd.c:2416 src/head.c:880 src/md5sum.c:664
@@ -3083,12 +3079,12 @@ msgid ""
 msgstr ""
 "Kopira datoteku, konverzija i formatiranje u skladu s operandima.\n"
 "\n"
-"  bs=BYTES        učita i zapiše po BYTES bajtova odjednom (zadano: 512;\n"
+"  bs=BAJT         učita i zapiše po BAJT bajtova odjednom (zadano: 512;\n"
 "                    bs poništava opcije ibs i obs\n"
-"  cbs=BYTES       konvertira po BYTES bajtova odjednom\n"
-"  conv=CONVS      datoteku konvertira kao zarezima odvojenu listu simbola\n"
+"  cbs=BAJT        konvertira po BAJT bajtova odjednom\n"
+"  conv=KONV       datoteku konvertira kao zarezima odvojenu listu simbola\n"
 "  count=N         kopira samo N ulaznih blokova\n"
-"  ibs=BYTES       učita po BYTES bajtova odjedmom (zadano: 512)\n"
+"  ibs=BAJT        učita po BAJT bajtova odjednom (zadano: 512)\n"
 
 #: src/dd.c:579
 msgid ""
@@ -3105,10 +3101,10 @@ msgid ""
 "                  'progress' shows periodic transfer statistics\n"
 msgstr ""
 "  if=DATOTEKA     čita iz DATOTEKE umjesto iz standardnog ulaza (stdin)\n"
-"  iflag=FLAGS     čita kao zarezima odvojenu listu simbola\n"
-"  obs=BYTES       piše BYTES bajtova po bloku (zadano: 512)\n"
+"  iflag=ZASTAVA   čita kao zarezima odvojenu listu simbola\n"
+"  obs=BAJT        piše BAJT bajtova po bloku (zadano: 512)\n"
 "  of=DATOTEKA     piše u DATOTEKU umjesto na standardni izlaz (stdout)\n"
-"  oflag=FLAGS     piše kao zarezima odvojenu listu simbola\n"
+"  oflag=ZASTAVA   piše kao zarezima odvojenu listu simbola\n"
 "  seek=N          preskoči N obs-velikih blokova na početku izlaza\n"
 "  skip=N          preskoči N ibs-velikih blokova na početku ulaza\n"
 "  status=KOLIKO   KOLIKO informacija ispisati na stderr;\n"
@@ -3128,11 +3124,11 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Iza N i BYTES mogu se rabiti sljedeći multiplikatori:\n"
+"Iza N i BAJT mogu se rabiti sljedeći množitelji:\n"
 "c =1, w =2, b =512, kB =1000, K =1024, MB =1000×1000, M =1024×1024, xM =M,\n"
 "GB =1000×1000×1000, G =1024×1024×1024, i tako dalje za T, P, E, Z, Y.\n"
 "\n"
-"Svaki CONV simbol može biti:\n"
+"Svaki KONV simbol može biti:\n"
 "\n"
 
 #: src/dd.c:601
@@ -3158,7 +3154,7 @@ msgstr ""
 "  ucase     promjeni mala u velika slova\n"
 "  sparse    pokuša tražiti umjesto pisati izlaz za NUL ulazne blokove\n"
 "  swab      razmjeni (swap) svaki par ulaznih bajtova\n"
-"  sync      popuni svaki ulazni blok s NUL do ibs-size; ako se koriste\n"
+"  sync      popuni svaki ulazni blok s NULama do ibs-size; ako se koriste\n"
 "            s block or unblock, popuni sa „spaces“ umjesto s NUL\n"
 
 #: src/dd.c:614
@@ -3185,7 +3181,7 @@ msgid ""
 "  append    append mode (makes sense only for output; conv=notrunc suggested)\n"
 msgstr ""
 "\n"
-"Svaka ZASTAVICA (FLAG) simbol može biti:\n"
+"Svaki ZASTAVA simbol može biti:\n"
 "\n"
 "  append    append mode (ima smisla samo za izlaz; sugerira se conv=notrunc)\n"
 
@@ -3235,7 +3231,7 @@ msgstr "  nofollow  ne slijedi simboličke veze\n"
 
 #: src/dd.c:655
 msgid "  nolinks   fail if multiply-linked\n"
-msgstr "  nolinks   završi s greškom ako datoteka ima višestruke čvrste veze\n"
+msgstr "  nolinks   završi s greškom ako datoteka ima nekoliko čvrstih veza\n"
 
 #: src/dd.c:657
 msgid "  binary    use binary I/O for data\n"
@@ -3268,8 +3264,8 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-" Slanje %s signala živom dd procesu čini da se statistika U/I\n"
-" ispisuje na standardnom izlazu za greške a potom se nastavi kopiranje.\n"
+"Slanje %s signala živom dd procesu čini da se statistika U/I\n"
+"ispisuje na standardnom izlazu za greške a potom se nastavi kopiranje.\n"
 "\n"
 "Opcije su:\n"
 "\n"
@@ -3578,9 +3574,10 @@ msgid ""
 "  -H, --si              print sizes in powers of 1000 (e.g., 1.1G)\n"
 msgstr ""
 "  -a, --all             uključivo i sve moguće neregularne datoteke\n"
-"  -B, --block-size=MJERA rabi blokove MJERA kao jedinicu za ispis; npr. „-BM“\n"
-"                           ispisuje veličine u jedinicama od 1.048.576 bajtova;\n"
-"                           v. niže za format MJERE\n"
+"  -B, --block-size=VELIČINA  rabi blokove VELIČINA kao jedinicu za ispis;\n"
+"                          npr. „-BM“ ispisuje veličine u jedinicama\n"
+"                          od 1.048.576 bajtova;\n"
+"                          v. niže za format VELIČINE\n"
 "  -h, --human-readable  lako čitljiv ispis (npr. 1K, 234M, 2G)\n"
 "  -H, --si              kao -h ali s bazom 1000 umjesto 1024 (npr. 3.6M, 1.1G)\n"
 
@@ -3605,7 +3602,7 @@ msgid ""
 "  -P, --portability     use the POSIX output format\n"
 "      --sync            invoke sync before getting usage info\n"
 msgstr ""
-"      --output[=LISTA_POLJA] za izlaz se rabi format definiran u LISTA_POLJA,\n"
+"      --output[=LISTA_POLJA] za izlaz rabi format definiran u LISTA_POLJA\n"
 "                               ili ispiše sva polja ako je LISTA_POLJA prazna\n"
 "  -P, --portability     za izlaz se rabi POSIX format\n"
 "      --sync            pozove sync prije dobivanja informacija o uporabi\n"
@@ -3623,9 +3620,9 @@ msgid ""
 "  -x, --exclude-type=TYPE   limit listing to file systems not of type TYPE\n"
 "  -v                    (ignored)\n"
 msgstr ""
-"  -t, --type=VRSTA      ograniči ispis samo na datotečni sustav VRSTA\n"
+"  -t, --type=VRSTA      ograniči popis samo na datotečni sustav VRSTA\n"
 "  -T, --print-type      ispiše vrstu datotečnog sustava\n"
-"  -x, --exclude-type=VRSTA  iz ispisa izostavi datotečni sustav VRSTA\n"
+"  -x, --exclude-type=VRSTA  iz popisa izostavi datotečni sustav VRSTA\n"
 "  -v                     (ignorira se)\n"
 
 #: src/df.c:1503
@@ -3636,9 +3633,9 @@ msgid ""
 "'size', 'used', 'avail', 'pcent', 'file' and 'target' (see info page).\n"
 msgstr ""
 "\n"
-" LISTA_POLJA je zarezom odvojena lista imena stupaca za ispis. Važeća imena\n"
-" za polja su: „source“, „fstype“, „itotal“, „iused“, „iavail“, „ipcent“,\n"
-" „size“, „used“, „avail“, „pcent“, „file“ i „target“ (više u „info df“).\n"
+"LISTA_POLJA je zarezom odvojena lista imena stupaca za ispis. Valjana imena\n"
+"za polja su: „source“, „fstype“, „itotal“, „iused“, „iavail“, „ipcent“,\n"
+"„size“, „used“, „avail“, „pcent“, „file“ i „target“ (više u „info df“).\n"
 
 #: src/df.c:1540
 #, c-format
@@ -3681,12 +3678,12 @@ msgid ""
 "  -c, --csh, --c-shell        output C shell code to set LS_COLORS\n"
 "  -p, --print-database        output defaults\n"
 msgstr ""
-"Ispiše naredbe za postavljanje varijable okoline LS_COLORS.\n"
+"Predoči naredbe za postavljanje varijable okoline LS_COLORS.\n"
 "\n"
 "Određivanje formata izlaza:\n"
 "  -b, --sh, --bourne-shell    Bourne shell kodovi za LS_COLORS\n"
 "  -c, --csh, --c-shell        C shell kodovi za LS_COLORS\n"
-"  -p, --print-database        ispis zadanih vrijednosti\n"
+"  -p, --print-database        popis zadanih vrijednosti\n"
 
 #: src/dircolors.c:110
 msgid ""
@@ -3743,14 +3740,14 @@ msgid ""
 "removed; if NAME contains no /'s, output '.' (meaning the current directory).\n"
 "\n"
 msgstr ""
-"Ispiše svako IME ali bez zadnje, s kosom crtom (/) omeđene komponente. Kose crte\n"
-"sa svake strane zadnje komponente se uklone; Ako IME ne sadrži ni jednu kosu\n"
-"crtu (/), ispiše „.“, to jest trenutačni direktorij.\n"
+"Prikaže svako IME ali bez zadnje, s kosom crtom (/) omeđene komponente. Kose\n"
+"crte sa svake strane zadnje komponente se uklone; Ako IME ne sadrži ni jednu\n"
+"kosu crtu (/), ispiše „.“, to jest trenutačni direktorij.\n"
 "\n"
 
 #: src/dirname.c:59
 msgid "  -z, --zero     end each output line with NUL, not newline\n"
-msgstr "  -z, --zero     završi svaki redak s NUL a ne s novim retkom\n"
+msgstr "  -z, --zero     svaki redak završi s NUL a ne s novim retkom\n"
 
 #: src/dirname.c:64
 #, c-format
@@ -3789,8 +3786,7 @@ msgid ""
 "                          larger due to holes in ('sparse') files, internal\n"
 "                          fragmentation, indirect blocks, and the like\n"
 msgstr ""
-"  -0, --null            završi svaku izlaznu liniju s NUL, a ne s newline\n"
-"                          (znakom za novi redak)\n"
+"  -0, --null            svaki redak završi s NUL a ne s novim retkom\n"
 "  -a, --all             ispiše podatke za sve datoteke, a ne samo za direktorije\n"
 "      --apparent-size   ispiše realne veličine umjesto zauzeća diska; premda\n"
 "                          je realna veličina obično manja, ponekad može biti\n"
@@ -3811,9 +3807,10 @@ msgid ""
 "                          line argument;  --max-depth=0 is the same as\n"
 "                          --summarize\n"
 msgstr ""
-"  -B, --block-size=MJERA rabi blokove MJERA kao jedinicu za ispis; npr. „-BM“\n"
-"                           ispisuje veličine u jedinicama od 1.048.576 bajtova;\n"
-"                           v. niže za format MJERE\n"
+"  -B, --block-size=VELIČINA  rabi blokove VELIČINA kao jedinicu za ispis;\n"
+"                            npr. „-BM“ ispisuje veličine u jedinicama\n"
+"                            od 1.048.576 bajtova;\n"
+"                            v. niže za format VELIČINE\n"
 "  -b, --bytes           isto kao „--apparent-size --block-size=1“\n"
 "  -c, --total           samo sveukupne vrijednosti bez detalja\n"
 "  -D, --dereference-args  slijedi samo simboličke veze navedene\n"
@@ -3834,7 +3831,7 @@ msgid ""
 msgstr ""
 "      --files0-from=D   sumira zauzeće diska datotekama čija imena datoteka\n"
 "                          (završena NUL-om) su navedena u datoteci D;\n"
-"                          Ako je D - (spojnica) čita imena iz standardnog ulaza\n"
+"                          Ako je D „-“, čita imena iz standardnog ulaza\n"
 "  -H                    isto kao --dereference-args (-D)\n"
 "  -h, --human-readable  lako čitljiv ispis (npr. 1K, 234M, 2G)\n"
 "      --inodes          informacija o uporabi inodova umjesto blokova\n"
@@ -3848,7 +3845,8 @@ msgid ""
 msgstr ""
 "  -k                    isto kao --block-size=1K\n"
 "  -L, --dereference     slijedi sve simboličke veze\n"
-"  -l, --count-links     ako su čvrsto vezane, veličine višekratno zbrajati\n"
+"  -l, --count-links     broji veličinu svih datoteka, čak i ako se pojave\n"
+"                          kao čvrste veze (zbraja svaku pojavu)\n"
 "  -m                    isto kao --block-size=1M\n"
 
 #: src/du.c:331
@@ -3968,9 +3966,9 @@ msgid ""
 "\n"
 "  -n             do not output the trailing newline\n"
 msgstr ""
-"Odjekne uneseni STRING (unesene STRINGOVE) na standardni izlaz.\n"
+"Odjekne (pošalje) uneseni STRING (unesene STRINGOVE) na standardni izlaz.\n"
 "\n"
-"  -n             ispiše izlaz bez zaostaloga znaka novog retka\n"
+"  -n             ne završi s novim retkom\n"
 
 #: src/echo.c:51
 msgid ""
@@ -3998,7 +3996,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Ako je -e aktivan, slijedeće sekvencije su prepoznate:\n"
+"Ako je -e aktivan, sljedeće sekvencije su prepoznate:\n"
 "\n"
 
 #: src/echo.c:65 src/printf.c:110
@@ -4054,7 +4052,7 @@ msgid ""
 "  -u, --unset=NAME     remove variable from the environment\n"
 msgstr ""
 "  -i, --ignore-environment  započne s praznom okolinom\n"
-"  -0, --null           svaki redak završi s NUL, a ne sa znakom novog retka\n"
+"  -0, --null           svaki redak završi s NUL a ne s novim retkom\n"
 "  -u, --unset=IME      uklanja varijablu IME iz okoline\n"
 
 #: src/env.c:68
@@ -4067,8 +4065,8 @@ msgid ""
 "A mere - implies -i.  If no COMMAND, print the resulting environment.\n"
 msgstr ""
 "\n"
-"Znak - (spojnica) je sinonim za -i. Ako nije navedena NAREDBA ispiše se\n"
-"rezultirajuća okolina.\n"
+"Znak - (spojnica) je sinonim za -i. Ako nije navedena NAREDBA, ispiše\n"
+"rezultirajuću okolinu.\n"
 
 #: src/env.c:133
 #, c-format
@@ -4097,7 +4095,7 @@ msgstr "nije moguće promijeniti direktorij u %s"
 
 #: src/expand-common.c:90
 msgid "tabs are too far apart"
-msgstr "tabulatori su previše razmaknuti"
+msgstr "pozicije tabulacije su previše razmaknute"
 
 #: src/expand-common.c:103
 #, c-format
@@ -4144,7 +4142,7 @@ msgstr "specifikatori „/“ i „+“ se međusobno isključuju"
 #: src/expand-common.c:390
 msgid "  -t, --tabs=LIST  use comma separated list of tab positions\n"
 msgstr ""
-"  -t, --tabs=LISTA     rabi zarezima odvojenu LISTU eksplicitnih pozicija\n"
+"  -t, --tabs=LISTA     zarezima odvojena LISTA eksplicitnih pozicija\n"
 "                         tabulatora\n"
 
 #: src/expand-common.c:393
@@ -4156,13 +4154,14 @@ msgid ""
 "                     the last specified tab stop instead of the first column\n"
 msgstr ""
 "                     Zadnja navedena pozicija može imati prefiks „/“ da se\n"
-"                     naznači veličina pomaka tabulatora koja će se koristiti za\n"
-"                     preostale pozicije. Na primjer, --tabs=2,4,/8 će postaviti\n"
-"                     pozicije tabulatora na 2,4,8,16,24,...stupac, itd.\n"
-"                     Također prefiks „+“ može se koristiti za poravnavanje\n"
-"                     preostalih pozicija tabulatora u odnosu na zadnju navedenu\n"
-"                     poziciju umjesto na prvi stupac. Na primjer, --tabs=1,+8, će\n"
-"                     postaviti pozicije tabulatora na 1,9,17,…stupac, itd.\n"
+"                     naznači veličina pomaka tabulatora koja će se koristiti\n"
+"                     za preostale pozicije. Na primjer, --tabs=2,4,/8 će\n"
+"                     postaviti tabulaciju na\n"
+"                     2., 4., 8., 16., 24.,… itd. stupac. Također, prefiks „+“\n"
+"                     može se koristiti za poravnavanje preostalih pozicija\n"
+"                     tabulatora u odnosu na zadnju navedenu poziciju umjesto\n"
+"                     na prvi stupac. Na primjer --tabs=1,+8 postaviti postavi\n"
+"                     tabulaciju na 1.,9.,17.,… itd. stupac.\n"
 
 #: src/expand.c:73
 msgid "Convert tabs in each FILE to spaces, writing to standard output.\n"
@@ -4210,7 +4209,7 @@ msgid ""
 "  ARG1 & ARG2       ARG1 if neither argument is null or 0, otherwise 0\n"
 msgstr ""
 "\n"
-"Ispiše vrijednost IZRAZA na standardni izlaz. Prazni redak separira grupe\n"
+"Ispiše vrijednost IZRAZA na standardni izlaz. Prazni redak odvaja grupe\n"
 "s rastućim prioritetom. IZRAZ može biti:\n"
 "\n"
 "  ARG1 | ARG2       ARG1 ako je on različit od null ili 0, inače ARG2\n"
@@ -4298,11 +4297,11 @@ msgid ""
 "\\( and \\) are not used, they return the number of characters matched or 0.\n"
 msgstr ""
 "\n"
-"Imajte na umu da za ljuske (shells) puno operatora treba biti „escaped“ s \\\n"
-"ili u navodnicima. Komparacija je aritmetička ako su oba ARG brojevi, inače je\n"
-"alfabetska. Podudaranje s uzorkom vrati pronađeni string između \\( i \\) ili\n"
-"null; ako se \\( i \\) ne rabe, vrati se broj znakova podudarni s uzorkom\n"
-"ili 0.\n"
+"Imajte na umu da za ljuske puno operatora treba biti citirano ili maskirano\n"
+"(escaped). Komparacija je aritmetička ako su oba ARG brojevi, inače je\n"
+"alfabetska. Podudaranje s uzorkom vrati pronađeni string između \\( i \\)\n"
+"ili null; ako se \\( i \\) ne rabe, vrati se broj znakova podudarnih\n"
+"s uzorkom ili 0.\n"
 
 #: src/expr.c:406
 msgid ""
@@ -4399,8 +4398,8 @@ msgid ""
 "are specified on the command line, read them from standard input.\n"
 "\n"
 msgstr ""
-"Ispiše sve proste djelitelje svakog navedenoga cijelog BROJA. Ako nijedan BROJ\n"
-"nije naveden na naredbenom retku čita se standardni ulaz.\n"
+"Ispiše sve proste djelitelje svakog navedenoga cijelog BROJA.\n"
+"Ako nijedan BROJ nije naveden na naredbenom retku, čita standardni ulaz.\n"
 "\n"
 
 #: src/find-mount-point.c:40
@@ -4434,7 +4433,7 @@ msgid ""
 "Reformat each paragraph in the FILE(s), writing to standard output.\n"
 "The option -WIDTH is an abbreviated form of --width=DIGITS.\n"
 msgstr ""
-"Preformatira svaki paragraf u DATOTECI (DATOTEKAMA) i ispiše ih na standardni\n"
+"Preformatira svaki paragraf u DATOTEKAMA i ispiše ih na standardni\n"
 "izlaz. Opcija -ŠIRINA je skraćena forma od --width=ŠIRINA.\n"
 
 #: src/fmt.c:278
@@ -4444,7 +4443,7 @@ msgid ""
 "                              reattaching the prefix to reformatted lines\n"
 "  -s, --split-only          split long lines, but do not refill\n"
 msgstr ""
-"  -c, --crown-margin        prva dva retka zadrže uvlaku a svaki slijedeći\n"
+"  -c, --crown-margin        prva dva retka zadrže uvlaku a svaki sljedeći\n"
 "                              redak poravna se na uvlaku drugog retka\n"
 "  -p, --prefix=STRING       djeluje samo na retke koji započinju sa STRINGOM,\n"
 "                              ali nakon formiranja prikvači STRING tim redcima\n"
@@ -4510,7 +4509,7 @@ msgid ""
 "Output platform dependent limits in a format useful for shell scripts.\n"
 "\n"
 msgstr ""
-"Ispiše ograničenja, ovisno o platformi, u formatu korisnom za skriptiranje i\n"
+"Ispiše ograničenja, ovisno o platformi, u formatu korisnom za skriptiranje\n"
 "i obradu na naredbenom retku.\n"
 
 #: src/group-list.c:68 src/id.c:414
@@ -4539,8 +4538,8 @@ msgid ""
 "the current process (which may differ if the groups database has changed).\n"
 msgstr ""
 "Ispiše podatke o članstvu u grupi za svakog KORISNIKA ili, ako KORISNIK nije\n"
-"naveden, onda za trenutačni proces (može biti različit ako se baza podataka\n"
-"grupa promijenila).\n"
+"naveden, za trenutačni proces (može se razlikovati ako se grupna baza podataka\n"
+"promijenila).\n"
 
 #: src/groups.c:106 src/id.c:277
 msgid "cannot get real UID"
@@ -4565,8 +4564,8 @@ msgid ""
 "Print the first %d lines of each FILE to standard output.\n"
 "With more than one FILE, precede each with a header giving the file name.\n"
 msgstr ""
-"Ispisuje prvih %d redaka svake DATOTEKE na standardni izlaz.\n"
-"S više od jedne DATOTEKE započni svaku s imenom te datoteke u zaglavlju.\n"
+"Ispiše prvih %d redaka svake DATOTEKE na standardni izlaz. Ako je navedeno\n"
+"nekoliko DATOTEKA, prvo ispiše zaglavlje s imenom datoteke.\n"
 
 #: src/head.c:122
 #, c-format
@@ -4590,7 +4589,7 @@ msgid ""
 "  -q, --quiet, --silent    never print headers giving file names\n"
 "  -v, --verbose            always print headers giving file names\n"
 msgstr ""
-"  -q, --quiet, --silent    ispis bez zaglavlja s imenom datoteke\n"
+"  -q, --quiet, --silent    ispis bez zaglavlja s imenima datoteka\n"
 "  -v, --verbose            ispis zaglavlja s imenom datoteke\n"
 
 #: src/head.c:139
@@ -4608,7 +4607,7 @@ msgstr ""
 #: src/head.c:159
 #, c-format
 msgid "%s: file has shrunk too much"
-msgstr "%s: datoteka se je previše skratila"
+msgstr "%s: datoteka se previše skratila"
 
 #: src/head.c:231 src/tail.c:484
 #, c-format
@@ -4647,7 +4646,7 @@ msgid ""
 "\n"
 msgstr ""
 "Uporaba: %s [OPCIJA]\n"
-"Ispiše numerički identifikator (heksadecimalni) trenutačnog računala.\n"
+"Ispiše numerički (heksadecimalni) identifikator trenutačnog računala.\n"
 "\n"
 
 #: src/hostname.c:62
@@ -4715,7 +4714,7 @@ msgstr ""
 "  -n, --name     ispiše ime umjesto broja, za -ugG\n"
 "  -r, --real     ispiše realni ID umjesto efektivnog ID, s -ugG\n"
 "  -u, --user     ispiše samo ID efektivnog korisnika\n"
-"  -z, --zero     odjeli zapise s NUL znacima a ne s bjelinom;\n"
+"  -z, --zero     odvoji zapise s NUL znacima, a ne s bjelinom;\n"
 "                   to nije dopušteno u normalnom (zadanom) formatu\n"
 
 #: src/id.c:104
@@ -4761,7 +4760,7 @@ msgstr "nije moguće dobiti efektivni UID"
 #: src/id.c:357
 #, c-format
 msgid "cannot find name for user ID %s"
-msgstr "nije moguće pronaći ime za korisnikov ID %s"
+msgstr "nije moguće pronaći ime korisnika s ID %s"
 
 #: src/id.c:375
 #, c-format
@@ -4932,9 +4931,9 @@ msgstr ""
 "      --strip-program=PROGRAM  program za uklanjanje tablica simbola\n"
 "  -S, --suffix=SUFIKS  umjesto uobičajenog sufiksa za osiguranje\n"
 "                         (sigurnosne kopije) rabi se SUFIKS\n"
-"                                  -t, --target-directory=DIREKTORIJ  kopira sve argumente IZVORNIKA u DIREKTORIJ\n"
+"  -t, --target-directory=DIREKTORIJ  kopira sve argumente IZVORNIKA u DIREKTORIJ\n"
 "  -T, --no-target-directory  ODREDIŠTE tretira kao regularnu datoteku\n"
-"  -v, --verbose       ispiše ime svakog kreiranog direktorija\n"
+"  -v, --verbose       ispiše ime svakog stvorenoga direktorija\n"
 
 #: src/install.c:675
 msgid ""
@@ -4972,7 +4971,7 @@ msgstr "ciljani direktorij nije dopušten prilikom instalacije direktorija"
 #: src/install.c:1002 src/mkdir.c:284 src/stdbuf.c:351
 #, c-format
 msgid "invalid mode %s"
-msgstr "nevaljani mȏd %s"
+msgstr "nevaljani mod %s"
 
 #: src/install.c:1009
 #, c-format
@@ -4992,7 +4991,7 @@ msgstr "opcije --compare (-C) and --strip se međusobno isključuju"
 #: src/install.c:1027
 #, c-format
 msgid "the --compare (-C) option is ignored when you specify a mode with non-permission bits"
-msgstr "--compare (-C) se ignorira ako specificirate mȏd bez bitova za prava pristupa"
+msgstr "--compare (-C) se ignorira ako specificirate mod bez bitova za prava pristupa"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/join.c:41 src/sort.c:66
@@ -5082,22 +5081,22 @@ msgstr ""
 "b 2                   e Y                     e 5 Y\n"
 "e 5                   f Z\n"
 "\n"
-"U zadanom stanju polja razdvajaju vodeće bjeline i ignoriraju se. Ako se navede\n"
-"opcija -t ZNAK, onda polja razdvaja ZNAK. Bilo koje POLJE je broj polja koje se\n"
-"se broje se od 1.\n"
-"FORMAT je jedna ili više zarezom/bjelinom odvojenih specifikacija u obliku\n"
-"„DATOTEKA_BROJ.POLJE“ ili „0“ (DATOTEKA_BROJ je broj datoteke a POLJE je broj\n"
-"polja). U zadanom stanju FORMAT ispiše spojno polje, zatim preostala polja\n"
-"DATOTEKE1 i preostala polja DATOTEKE2, a sva polja su odijeljena sa ZNAKOM. Ako\n"
-"je FORMAT ključna riječ „auto“, onda prvi redak svake datoteke određuje koliko\n"
+"U zadanom stanju polja razdvajaju vodeće bjeline i ignoriraju se. Ako se\n"
+"navede opcija -t ZNAK, onda polja razdvaja ZNAK. Bilo koje POLJE je broj\n"
+"polja koje se se broje se od 1. FORMAT je jedna ili nekoliko zarezom ili\n"
+"bjelinom odvojenih specifikacija u obliku „DATOTEKA_BROJ.POLJE“ ili „0“.\n"
+"(DATOTEKA_BROJ je broj datoteke a POLJE je broj polja). U zadanom stanju\n"
+"FORMAT ispiše spojno polje, zatim preostala polja DATOTEKE1 i preostala\n"
+"polja DATOTEKE2, a sva polja su odijeljena sa ZNAKOM. Ako je FORMAT\n"
+"ključna riječ „auto“, onda prvi redak svake datoteke određuje koliko\n"
 "se polja ispisuje za svaki redak.\n"
 "\n"
 "Važno: DATOTEKA1 i DATOTEKA2 moraju biti sortirane na spojnim poljima\n"
 "Npr. rabite „sort -k 1b,1“ ako je join bez opcija, ili\n"
 "rabite „join -t ''“ ako je sort bez opcija.\n"
 "Naravno, usporedba poštuje pravila specificirana u „LC_COLLATE“.\n"
-"Ako ulaz nije sortiran i neki od redaka se mogu spojiti, ispisati će se poruka\n"
-"upozorenja\n"
+"Ako ulaz nije sortiran i neki od redaka se mogu spojiti,\n"
+"ispisati će se poruka upozorenja\n"
 
 #: src/join.c:417
 #, c-format
@@ -5131,7 +5130,7 @@ msgstr "konfliktni zamjenski stringovi za prazno polje"
 #: src/join.c:1110 src/sort.c:4534
 #, c-format
 msgid "multi-character tab %s"
-msgstr "previše znakova (multi-character) za tabulator %s"
+msgstr "nekoliko znakova u tabulator %s"
 
 #: src/join.c:1114 src/sort.c:4539
 msgid "incompatible tabs"
@@ -5154,7 +5153,7 @@ msgstr ""
 
 #: src/kill.c:83
 msgid "Send signals to processes, or list signals.\n"
-msgstr "Pošalje signale procesima ili ih ispiše.\n"
+msgstr "Pošalje signale procesima ili pokaže popis signala.\n"
 
 #: src/kill.c:89
 msgid ""
@@ -5199,7 +5198,7 @@ msgstr "%s: navedeno je nekoliko signala"
 #: src/kill.c:284
 #, c-format
 msgid "multiple -l or -t options specified"
-msgstr "navedene su višestruke -l or -t opcije"
+msgstr "navedeno je nekoliko -l ili -t opcija"
 
 #: src/kill.c:301
 #, c-format
@@ -5219,13 +5218,13 @@ msgstr "nije uspjelo dodijeliti %<PRIuMAX> bajtova međuspremniku standardnog U/
 #: src/libstdbuf.c:119
 #, c-format
 msgid "invalid buffering mode %s for %s\n"
-msgstr "nevaljani mȏd predmemoriranja %s for %s\n"
+msgstr "nevaljani mod predmemoriranja %s for %s\n"
 
 # buffering > u ovom slučaju nema veze s ikakvom memorijom
 #: src/libstdbuf.c:127
 #, c-format
 msgid "could not set buffering of %s to mode %s\n"
-msgstr "predmemoriranje %s nije moguće postaviti u mȏd %s\n"
+msgstr "predmemoriranje %s nije moguće postaviti u mod %s\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/link.c:37 src/unlink.c:37 src/who.c:52
@@ -5260,7 +5259,7 @@ msgstr "%s: čvrsta veza na direktorij nije dopuštena"
 #: src/ln.c:272
 #, c-format
 msgid "%s: cannot overwrite directory"
-msgstr "%s: direktorij nije moguće prekopisati"
+msgstr "%s: direktorij nije moguće prepisati"
 
 #: src/ln.c:277
 #, c-format
@@ -5533,7 +5532,7 @@ msgid ""
 "  -b, --escape               print C-style escapes for nongraphic characters\n"
 msgstr ""
 "  -a, --all                  ispiše i imena koja započinju s . (točkom)\n"
-"  -A, --almost-all           skrije implicirane . i ..\n"
+"  -A, --almost-all           sakrije implicirane . i ..\n"
 "      --author               zajedno s -l, ispiše ime autora svake datoteke\n"
 "  -b, --escape               ne-grafičke znakove ispiše u C stilu\n"
 
@@ -5542,8 +5541,9 @@ msgid ""
 "      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;\n"
 "                               e.g., '--block-size=M'; see SIZE format below\n"
 msgstr ""
-"      --block-size=MJERA     zajedno -s l, rabi MJERU za ispis veličina;\n"
-"                               npr. „--block-size=M“; v. niže za format MJERE\n"
+"      --block-size=VELIČINA  zajedno -s l, rabi VELIČINU za ispis veličina;\n"
+"                               npr. „--block-size=M“;\n"
+"                               v. niže za format VELIČINE\n"
 
 #: src/ls.c:5146
 msgid ""
@@ -5570,7 +5570,7 @@ msgstr ""
 "  -C                         ispiše imena u stupcima\n"
 "      --color[=KAD]          kolorira ispis; neobvezni KAD može biti jedan od:\n"
 "                               always (zadano), auto, ili never;\n"
-"                               v. niže za više informacija\n"
+"                               v. niže za detalje\n"
 "  -d, --directory            ispiše samo direktorije bez njihova sadržaja\n"
 "  -D, --dired                generira ispis u skladu s „Emacs dired mod“\n"
 
@@ -5584,8 +5584,8 @@ msgid ""
 "      --full-time            like -l --time-style=full-iso\n"
 msgstr ""
 "  -f                         isto kao -a -U bez -l -s --color\n"
-"  -F, --classify             prikvači na imena znak (jedan od */=>@|)\n"
-"      --file-type            isto kao -F, ali bez „*“\n"
+"  -F, --classify             pripoji na imena znak (jedan od */=>@|)\n"
+"      --file-type            isto kao -F, ali ne pripoji „*“\n"
 "      --format=RIJEČ         RIJEČ je jedna od: „commas“ (-m), „accross“ ili\n"
 "                               „horizontal“ (-x), „vertical“ (-C), „long“ ili\n"
 "                               „verbose“ (-l), „single-column“ (-1)\n"
@@ -5644,9 +5644,8 @@ msgid ""
 "      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'\n"
 "                               (default if omitted), 'auto', or 'never'\n"
 msgstr ""
-"      --hyperlink[=KADA]     imena datoteka transformira u hyperlink; neobvezni\n"
-"                               KADA može biti „always“ (zadano),\n"
-"                                 „auto“ ili „never“\n"
+"      --hyperlink[=KADA]     hyperlink iz imena datoteke; KADA može biti\n"
+"                               „always“ (zadano), „auto“ ili „never“\n"
 
 #: src/ls.c:5200
 msgid ""
@@ -5656,11 +5655,11 @@ msgid ""
 "  -i, --inode                print the index number of each file\n"
 "  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN\n"
 msgstr ""
-"      --indicator-style=RIJEČ  s RIJEČI iza svake stavke označi vrstu (stavke):\n"
+"      --indicator-style=RIJEČ  pripoji RIJEČ kao pokazatelj vrste stavki:\n"
 "                                 RIJEČ može biti: none (zadano), slash (-p),\n"
 "                                 file-type (--file-type), classify (-F)\n"
 "  -i, --inode                ispiše broj indeksa svake datoteke\n"
-"  -I, --ignore=UZORAK        ne ispisuje imena podudarna s UZORKOM\n"
+"  -I, --ignore=UZORAK        ne ispisuje imena stavki podudarnih s UZORKOM\n"
 
 #: src/ls.c:5209
 msgid ""
@@ -5696,7 +5695,7 @@ msgstr ""
 "  -N, --literal              ispiše imena doslovno\n"
 "  -o                         kao -l, ali bez podataka o GID-u\n"
 "  -p, --indicator-style=slash\n"
-"                             prikvači znak / direktorijima\n"
+"                             pripoji znak / direktorijima\n"
 
 #: src/ls.c:5228
 msgid ""
@@ -5714,10 +5713,10 @@ msgstr ""
 "                               (zadano, osim ako je program „ls“ i izlaz je\n"
 "                               na terminal)\n"
 "  -Q, --quote-name           imena ispiše u navodnicima\n"
-"      --quoting-style=RIJEČ  stil citiranja za imena stavki opisan je s RIJEČI\n"
+"      --quoting-style=RIJEČ  stil citiranja za imena stavki dan je s RIJEČI\n"
 "                               RIJEČ može biti: literal, locale, shell,\n"
-"                               shell-always, shell-escape, shell-escape-always,\n"
-"                               c, escape\n"
+"                               shell-always, shell-escape,\n"
+"                               shell-escape-always, c, escape\n"
 "                               (poništi varijablu okoline QUOTING_STYLE)\n"
 
 #: src/ls.c:5239
@@ -5740,15 +5739,16 @@ msgid ""
 "                               ctime or status (-c); also use specified time\n"
 "                               as sort key if --sort=time (newest first)\n"
 msgstr ""
-"  -S                         razvrsta datoteka po veličini, prvo najveće\n"
+"  -S                         razvrsta datoteke po veličini, prvo najveće\n"
 "      --sort=RIJEČ           razvrsta po RIJEČI umjesto po imenu.\n"
 "                               RIJEČ može biti: none (-U), size (-S),\n"
 "                               time (-t), version (-v), extension (-X)\n"
 "      --time=RIJEČ           zajedno s -l, umjesto vremena promjene,\n"
 "                               pokaže vrijeme kao RIJEČ, koja može biti:\n"
 "                               atime, access, use (-u), ctime, status (-c);\n"
-"                               RIJEČ se rabi kao kriterij za razvrstavanje ako\n"
-"                               je aktivna --sort=time opcija (prvo najnovije)\n"
+"                               RIJEČ se rabi kao kriterij za\n"
+"                               razvrstavanje ako je aktivna opcija\n"
+"                               --sort=time (prvo najnovije)\n"
 
 #: src/ls.c:5255
 msgid "      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below\n"
@@ -5791,7 +5791,7 @@ msgstr ""
 "  -w, --width=STUPCI         širina zaslona je STUPCI.\n"
 "                               0 znači da širina nema ograničenje\n"
 "  -x                         ispis u redcima umjesto u stupcima\n"
-"  -X                         abecedno razvrstavanje po datotečnim sufiksima\n"
+"  -X                         alfabetski razvrsta po datotečnim sufiksima\n"
 "  -Z, --context              ispiše ikoji sigurnosni kontekst svake datoteke\n"
 "  -1                         po jedna datoteka po retku; izbjegavati uz\n"
 "                               „\\n“ s -q ili -b\n"
@@ -5807,7 +5807,7 @@ msgid ""
 msgstr ""
 "\n"
 "TIME_STYLE argumenti mogu biti full-iso, long-iso, iso, locale, ili +FORMAT.\n"
-"FORMAT se interpretira kao u date(1).  Ako je FORMAT: FORMAT1<newline>FORMAT2,\n"
+"FORMAT se interpretira kao u date(1). Ako je FORMAT: FORMAT1<newline>FORMAT2,\n"
 "onda se FORMAT1 primijeni na starije, a FORMAT2 na novije datoteke.\n"
 "TIME_STYLE s prefiksom „posix-“ ima efekta samo izvan POSIX locale.\n"
 "Također, TIME_STYLE varijabla okoline postavlja zadani stil za upotrebu.\n"
@@ -5875,7 +5875,7 @@ msgid ""
 "  -b, --binary         read in binary mode (default unless reading tty stdin)\n"
 msgstr ""
 "\n"
-"  -b, --binary         čita u binarnom mȏdu (zadano ako se ne čita tty stdin)\n"
+"  -b, --binary         čita u binarnom modu (zadano ako se ne čita tty stdin)\n"
 
 #: src/md5sum.c:240
 msgid ""
@@ -5883,7 +5883,7 @@ msgid ""
 "  -b, --binary         read in binary mode\n"
 msgstr ""
 "\n"
-"  -b, --binary         čita u binarnom mȏdu\n"
+"  -b, --binary         čita u binarnom modu\n"
 
 #: src/md5sum.c:245
 #, c-format
@@ -5904,11 +5904,11 @@ msgstr "      --tag            kreira kontrolni zbroj u BSD stilu\n"
 
 #: src/md5sum.c:258
 msgid "  -t, --text           read in text mode (default if reading tty stdin)\n"
-msgstr "  -t, --text           čita u tekstualnom mȏdu (zadano ako se čita tty stdin)\n"
+msgstr "  -t, --text           čita u tekstualnom modu (zadano ako se čita tty stdin)\n"
 
 #: src/md5sum.c:262
 msgid "  -t, --text           read in text mode (default)\n"
-msgstr "  -t, --text           čita u tekstualnom mȏdu (zadano)\n"
+msgstr "  -t, --text           čita u tekstualnom modu (zadano)\n"
 
 #: src/md5sum.c:265
 msgid ""
@@ -5925,7 +5925,7 @@ msgstr ""
 "Sljedećih pet opcija su korisne samo za verifikaciju kontrolnih zbrojeva:\n"
 "      --ignore-missing  ne javlja greške ili status ako nema nekih datoteka\n"
 "      --quiet          tiho preskoči datoteke kojih nema\n"
-"      --status         uspjeh se pokazuje samo kȏdom statusa (bez ispisa)\n"
+"      --status         uspjeh se pokazuje samo kodom statusa (bez ispisa)\n"
 "      --strict         nepravilno formirani redci kontrolnih zbrojeva vrate\n"
 "                         status ≠ 0 (greška)\n"
 "  -w, --warn           upozori na nepravilno formirane retke kontrolnih\n"
@@ -5945,7 +5945,7 @@ msgstr ""
 "Zbrojevi se izračunaju kako je opisano u %s. Kod provjere, ulaz bi trebao\n"
 "biti prethodni izlaz ovog programa. U zadanom stanju ispiše se redak s\n"
 "kontrolnim zbrojem, razmak, znak '*' za binarni, ili ' ' za tekstualni ulazni\n"
-"mȏd (znak ' ' ako je binarni ulaz beznačajan), te ime svake DATOTEKE.\n"
+"mod (znak ' ' ako je binarni ulaz beznačajan), te ime svake DATOTEKE.\n"
 
 #: src/md5sum.c:689
 #, c-format
@@ -6111,7 +6111,7 @@ msgstr "Uporaba: %s [OPCIJA]... IME...\n"
 
 #: src/mkfifo.c:55
 msgid "Create named pipes (FIFOs) with the given NAMEs.\n"
-msgstr "Stvara imenovane cijevi (FIFO-ve) navedenoga IMEna.\n"
+msgstr "Stvara imenovane cijevi (FIFO-ve) navedenoga IMENA.\n"
 
 #: src/mkfifo.c:61 src/mknod.c:63
 msgid "  -m, --mode=MODE    set file permission bits to MODE, not a=rw - umask\n"
@@ -6136,7 +6136,7 @@ msgstr "nevaljana prava pristupa"
 
 #: src/mkfifo.c:161 src/mknod.c:158
 msgid "mode must specify only file permission bits"
-msgstr "mȏd smije sadržavati samo bitove koji određuju prava pristupa datoteci"
+msgstr "mod smije sadržavati samo bitove koji određuju prava pristupa datoteci"
 
 #: src/mkfifo.c:175 src/mknod.c:271
 #, c-format
@@ -6150,7 +6150,7 @@ msgstr "Uporaba: %s [OPCIJA]... IME TIP [MAJOR MINOR]\n"
 
 #: src/mknod.c:57
 msgid "Create the special file NAME of the given TYPE.\n"
-msgstr "Stvori specijalnu datoteku IME navedenoga TIPa.\n"
+msgstr "Stvori specijalnu datoteku IME navedenoga TIPA.\n"
 
 #: src/mknod.c:73
 msgid ""
@@ -6254,8 +6254,9 @@ msgid ""
 "      --suffix=SUFF   append SUFF to TEMPLATE; SUFF must not contain a slash.\n"
 "                        This option is implied if TEMPLATE does not end in X\n"
 msgstr ""
-"      --suffix=SUF    doda SUF na kraj PREDLOŠKA; SUF ne smije imati kosu crtu.\n"
-"                        opcija je implicirana ako PREDLOŽAK ne završava s X\n"
+"      --suffix=SUF    pripoji SUF na kraj PREDLOŠKA;\n"
+"                        SUF ne smije imati kosu crtu.\n"
+"                        ako PREDLOŽAK ne završava s X, opcija je implicirana\n"
 
 #: src/mktemp.c:86
 msgid ""
@@ -6323,9 +6324,7 @@ msgstr "nije uspjelo stvoriti datoteku po predlošku %s"
 
 #: src/mv.c:295
 msgid "Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.\n"
-msgstr ""
-"Preimenuje IZVORNIK (datoteka) u ODREDIŠTE (datoteka), ili premjesti jedan ili\n"
-"više IZVORNIKA u DIREKTORIJ.\n"
+msgstr "Preimenuje IZVORNIK u ODREDIŠTE ili premjesti IZVORNIK(E) u DIREKTORIJ.\n"
 
 #: src/mv.c:301
 msgid ""
@@ -6339,8 +6338,8 @@ msgstr ""
 "      --backup[=METODA]      napravi kopije svih postojećih datoteka\n"
 "                                 na odredištu; za parametre METODE v. niže\n"
 "  -b                           isto kao --backup, ali ne prihvaća argument\n"
-"  -f, --force                  piše preko postojećih datoteka bez pitanja\n"
-"  -i, --interactive            pita prije pisanja preko postojećih datoteka\n"
+"  -f, --force                  prepiše postojeće datoteke bez pitanja\n"
+"  -i, --interactive            pita prije prepisivanja postojećih datoteka\n"
 "  -n, --no-clobber             ne piše preko postojećih datoteka\n"
 " Ako navedete neke od ovih opcija -i, -f, -n opcija, izvrši se samo zadnja navedena\n"
 
@@ -6371,7 +6370,7 @@ msgstr ""
 "  -T, --no-target-directory    tretira ODREDIŠTE kao regularnu datoteku\n"
 "  -u, --update                 premjesti samo ako je IZVORNIK datoteka novija\n"
 "                                 od datoteke u odredištu, ili ako je tamo nema\n"
-"  -v, --verbose                objašnjava što se vrši\n"
+"  -v, --verbose                objašnjava što se izvršava\n"
 "  -Z, --context                postavi SELinux sigurnosni kontekst datoteke\n"
 "                                 na odredištu na zadanu (default) vrstu\n"
 
@@ -6570,8 +6569,8 @@ msgid ""
 msgstr ""
 "\n"
 "Ako je standardni ulaz terminal, preusmjeri ga na „/dev/null“.\n"
-"Ako je standardni izlaz terminal, pridoda izlaz na „nohup.out“ ako je moguće,\n"
-"a ako nije moguće pridoda izlaz na „$HOME/nohup.out“.\n"
+"Ako je standardni izlaz terminal, pripoji izlaz na „nohup.out“ ako je moguće,\n"
+"a ako nije moguće pripoji izlaz na „$HOME/nohup.out“.\n"
 "Ako je standardni izlaz greški terminal, preusmjeri ih na standardni izlaz.\n"
 "Za spremanje izlaza u DATOTEKU rabite „%s NAREDBA > DATOTEKA“.\n"
 
@@ -6588,12 +6587,12 @@ msgstr "ulaz se ignorira"
 #: src/nohup.c:176
 #, c-format
 msgid "ignoring input and appending output to %s"
-msgstr "ulaz se ignorira a izlaz se pridodaje na %s"
+msgstr "ulaz se ignorira a izlaz se pripaja na %s"
 
 #: src/nohup.c:177
 #, c-format
 msgid "appending output to %s"
-msgstr "izlaz se pridodaje na %s"
+msgstr "izlaz se pripaja na %s"
 
 #: src/nohup.c:195
 #, c-format
@@ -6626,7 +6625,7 @@ msgid ""
 "which may be less than the number of online processors\n"
 "\n"
 msgstr ""
-"Ispiše broj procesorskih jedinica na raspolaganju trenutačnom procesu,\n"
+"Ispiše broj jedinica procesora na raspolaganju trenutačnom procesu,\n"
 "a koji može biti manji od broja aktivnih procesora\n"
 "\n"
 
@@ -6744,7 +6743,7 @@ msgid ""
 "      --invalid=MODE   failure mode for invalid numbers: MODE can be:\n"
 "                         abort (default), fail, warn, ignore\n"
 msgstr ""
-"      --invalid=MOD    mȏd za slučajeve nevaljanih brojeva: MOD može biti:\n"
+"      --invalid=MOD    mod za slučajeve nevaljanih brojeva: MOD može biti:\n"
 "                         abort (zadano), fail, warn, ignore\n"
 
 #: src/numfmt.c:924
@@ -6775,7 +6774,7 @@ msgid ""
 "                         SUFFIX in input numbers\n"
 msgstr ""
 "      --suffix=SUFIKS  doda SUFIKS izlaznim brojevima i prihvaća\n"
-"                         opcionalni SUFIKS u ulaznim brojevima\n"
+"                         neobvezni SUFIKS u ulaznim brojevima\n"
 
 #: src/numfmt.c:939
 msgid "      --to=UNIT        auto-scale output numbers to UNITs; see UNIT below\n"
@@ -6805,7 +6804,7 @@ msgid ""
 "               1M = 1000000,\n"
 "               1Mi = 1048576,\n"
 msgstr ""
-"  auto       prihvaća opcionalni jednoslovni ili dvoslovni sufiks:\n"
+"  auto       prihvaća neobvezni jednoslovni ili dvoslovni sufiks:\n"
 "               1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576, ...\n"
 
 #: src/numfmt.c:963
@@ -6815,7 +6814,7 @@ msgid ""
 "               1M = 1000000,\n"
 "               ...\n"
 msgstr ""
-"  si         prihvaća opcionalni jednoslovni sufiks:\n"
+"  si         prihvaća neobvezni jednoslovni sufiks:\n"
 "               1K = 1000, 1M = 1000000, ...\n"
 
 #: src/numfmt.c:968
@@ -6825,7 +6824,7 @@ msgid ""
 "               1M = 1048576,\n"
 "               ...\n"
 msgstr ""
-"  iec        prihvaća opcionalni jednoslovni sufiks:\n"
+"  iec        prihvaća neobvezni jednoslovni sufiks:\n"
 "               1K = 1024, 1M = 1048576,  ...\n"
 
 #: src/numfmt.c:973
@@ -6835,7 +6834,7 @@ msgid ""
 "               1Mi = 1048576,\n"
 "               ...\n"
 msgstr ""
-"  iec-i      prihvaća opcionalni dvoslovni sufiks:\n"
+"  iec-i      prihvaća neobvezni dvoslovni sufiks:\n"
 "               1Ki = 1024, 1Mi = 1048576,  ...\n"
 
 #: src/numfmt.c:979
@@ -6870,11 +6869,11 @@ msgid ""
 msgstr ""
 "\n"
 "FORMAT mora biti prikladan za ispis jednog argumenta s pomičnim zarezom „%f“.\n"
-"Opcionalno citiranje (%'f) omogućuje --grouping (ako to podržava trenutačni\n"
+"Neobvezno citiranje (%'f) omogućuje --grouping (ako to podržava trenutačni\n"
 "locale).\n"
-"Opcionalna vrijednost širine (%10f) će dopuniti izlaz. Opcionalna nula (%010f)\n"
-"širina će dopuniti broj s nulama. Opcionalna negativna vrijednost (%-10f) će\n"
-"poravnati lijevo. Opcionalna preciznost (%.1f) će nadjačati preciznost\n"
+"Neobvezna vrijednost širine (%10f) će dopuniti izlaz. Neobvezna nula (%010f)\n"
+"širina će dopuniti broj s nulama. Neobvezna negativna vrijednost (%-10f) će\n"
+"poravnati lijevo. Neobvezna preciznost (%.1f) će nadjačati preciznost\n"
 "određenu ulazom.\n"
 
 #: src/numfmt.c:997
@@ -7096,7 +7095,7 @@ msgstr ""
 "  -A, --address-radix=BAZA    BAZA za ispis adresa; BAZA je jedna od [doxn];\n"
 "                               d za Decimal, o za Oktal, x za Hex ili n za None\n"
 "      --endian={big|little}   preuredi ulazne bajtove prema --type i --endian\n"
-"  -j, --skip-bytes=BYTES      preskoči prvih BYTES ulaznih bajtova\n"
+"  -j, --skip-bytes=BAJT       preskoči prvih BAJT ulaznih bajtova\n"
 
 #: src/od.c:354
 msgid ""
@@ -7109,13 +7108,13 @@ msgid ""
 "                                32 is implied when BYTES is not specified\n"
 "      --traditional           accept arguments in third form above\n"
 msgstr ""
-"  -N, --read-bytes=BYTES      ograniči ispis na BYTES ulaznih bajtova\n"
-"  -S, --strings[=BYTES]       ispiše samo string konstante ne kraće od BYTES\n"
-"                                grafičkih znakova; 3 ako se BYTES izostavi\n"
+"  -N, --read-bytes=BAJT       ograniči ispis na BAJT ulaznih bajtova\n"
+"  -S, --strings[=BAJT]        ispiše samo string konstante ne kraće od BAJT\n"
+"                                grafičkih znakova; 3 ako se BAJT izostavi\n"
 "  -t, --format=TIP            TIP/TIPOVI za izlazni format/izlazne formate\n"
 "  -v, --output-duplicates     ne koristi * za indiciranje izostavljenih redaka\n"
-"  -w, --width[=BYTES]         ispiše BYTES izlaznih bajtova po retku;\n"
-"                                32 ako se izostavi BYTES\n"
+"  -w, --width[=BAJT]          ispiše BAJT izlaznih bajtova po retku;\n"
+"                                32 ako se izostavi BAJT\n"
 "      --traditional           prihvaća argumente u trećem obliku uporabe\n"
 
 #: src/od.c:367
@@ -7130,7 +7129,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"U trećem --traditional obliku naredbe, specifikacije za izbor formata za ispis\n"
+"U tradicionalnom obliku uporabe specifikacije za izbor formata za ispis\n"
 "smiju se izmiješati i nakupljaju se:\n"
 "  -a   isto kao -t a,  imenovani znakovi, ignorira se najznačajniji bit\n"
 "  -b   isto kao -t o1, oktalni bajtovi\n"
@@ -7176,11 +7175,11 @@ msgid ""
 "  u[SIZE]    unsigned decimal, SIZE bytes per integer\n"
 "  x[SIZE]    hexadecimal, SIZE bytes per integer\n"
 msgstr ""
-"  d[BAJT]    decimalni broj s predznakom, BAJT bajtova po cijelom broju\n"
-"  f[BAJT]    broj s pomičnim zarezom (float), BAJT bajtova po broju\n"
-"  o[BAJT]    oktalni broj, BAJT bajtova po cijelom broju\n"
-"  u[BAJT]    decimalni broj bez predznaka, BAJT bajtova po cijelom broju\n"
-"  x[BAJT]    heksadecimalni broj, BAJT bajtova po cijelom broju\n"
+"  d[VELIČINA]   decimalni broj s predznakom, VELIČINA bajtova po cijelom broju\n"
+"  f[VELIČINA]   broj s pomičnim zarezom (float), VELIČINA bajtova po broju\n"
+"  o[VELIČINA]   oktalni broj, VELIČINA bajtova po cijelom broju\n"
+"  u[VELIČINA]   decimalni broj bez predznaka, VELIČINA bajtova po cijelom broju\n"
+"  x[VELIČINA]   heksadecimalni broj, VELIČINA bajtova po cijelom broju\n"
 
 #: src/od.c:398
 msgid ""
@@ -7191,10 +7190,10 @@ msgid ""
 "for sizeof(double) or L for sizeof(long double).\n"
 msgstr ""
 "\n"
-"BAJT je broj. Za TIP u [doux], BAJT može također biti C za sizeof(char),\n"
-"S za sizeof(short), I za sizeof(int) ili L za sizeof(long). Ako je TIP f,\n"
-"BAJT može također biti F za sizeof(float), D za sizeof(double) ili\n"
-"L za sizeof(long double).\n"
+"VELIČINA je broj. Za TIP u [doux], VELIČINA može također biti C za\n"
+"sizeof(char), S za sizeof(short), I za sizeof(int) ili L za sizeof(long).\n"
+"Ako je TIP f, VELIČINA može također biti F za sizeof(float),\n"
+"D za sizeof(double) ili L za sizeof(long double).\n"
 
 #: src/od.c:405
 msgid ""
@@ -7220,7 +7219,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"BYTES je heksadecimalni s prefiksom 0x ili 0X,\n"
+"BAJT je heksadecimalni s prefiksom 0x ili 0X,\n"
 "a može imati sufiks koji služi kao množitelj:\n"
 "  b = 512, KB = 1000, K = 1024, MB = 1000*1000, M = 1024*1024,\n"
 "  GB = 1000*1000*1000, G = 1024*1024*1024\n"
@@ -7269,7 +7268,7 @@ msgstr "za ispis stringova ne smije se specificirati TIP"
 
 #: src/od.c:1867
 msgid "compatibility mode supports at most one file"
-msgstr "mȏd kompatibilnosti podržava samo jednu datoteku"
+msgstr "mod kompatibilnosti podržava samo jednu datoteku"
 
 #: src/od.c:1888
 msgid "skip-bytes + read-bytes is too large"
@@ -7283,28 +7282,32 @@ msgstr "upozorenje: nevaljana širina %lu; umjesto toga koristiti će se %d"
 #: src/operand2sig.c:88
 #, c-format
 msgid "%s: invalid signal"
-msgstr ""
+msgstr "%s: nevaljani signal"
 
 #: src/paste.c:222
 msgid "standard input is closed"
-msgstr ""
+msgstr "standardni ulaz je zatvoren"
 
 #: src/paste.c:440
 msgid ""
 "Write lines consisting of the sequentially corresponding lines from\n"
 "each FILE, separated by TABs, to standard output.\n"
 msgstr ""
+"Odjeli korespondentne retke iz svake DATOTEKE s TAB-ovima i ispiše ih\n"
+"na standardni izlaz -- to jest spaja navedene DATOTEKE u stupcima.\n"
 
 #: src/paste.c:448
 msgid ""
 "  -d, --delimiters=LIST   reuse characters from LIST instead of TABs\n"
 "  -s, --serial            paste one file at a time instead of in parallel\n"
 msgstr ""
+"  -d, --delimiters=POPIS   umjesto TAB-ova koristi znakove iz POPISA za međe\n"
+"  -s, --serial             spaja datoteke kao retke umjesto kao stupce\n"
 
 #: src/paste.c:518
 #, c-format
 msgid "delimiter list ends with an unescaped backslash: %s"
-msgstr ""
+msgstr "popis međa (delimiter) završava s nemaskiranom obratnom kosom crtom: %s"
 
 #: src/pathchk.c:89
 msgid ""
@@ -7314,120 +7317,125 @@ msgid ""
 "  -P                  check for empty names and leading \"-\"\n"
 "      --portability   check for all POSIX systems (equivalent to -p -P)\n"
 msgstr ""
+"Dijagnosticira nevaljana ili neprenosive konstrukcije imena datoteka.\n"
+"\n"
+"  -p                  provjera za većinu POSIX sustava\n"
+"  -P                  provjera za prazna imena i početnu „-“\n"
+"      --portability   provjera za sve POSIX sustave (isto kao -p -P)\n"
 
 #: src/pathchk.c:169
 #, c-format
 msgid "leading '-' in a component of file name %s"
-msgstr ""
+msgstr "komponenta imena datoteke %s započinje s „-“"
 
 #: src/pathchk.c:195
 #, c-format
 msgid "nonportable character %s in file name %s"
-msgstr ""
+msgstr "neprenosivi znak %s u imenu datoteke %s"
 
 #: src/pathchk.c:271
 #, c-format
 msgid "empty file name"
-msgstr ""
+msgstr "ime datoteke je prazno"
 
 #: src/pathchk.c:313
 #, c-format
 msgid "%s: unable to determine maximum file name length"
-msgstr ""
+msgstr "%s: nije moguće odrediti maksimalnu dužinu imena datoteke"
 
 #: src/pathchk.c:324
 #, c-format
 msgid "limit %lu exceeded by length %lu of file name %s"
-msgstr ""
+msgstr "ograničenje %lu je prekoračeno s dužinom %lu imena datoteke %s"
 
 #: src/pathchk.c:410
 #, c-format
 msgid "limit %lu exceeded by length %lu of file name component %s"
-msgstr ""
+msgstr "ograničenje %lu je prekoračeno s dužinom %lu komponente imena datoteke %s"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/pinky.c:37 src/uptime.c:46 src/users.c:36 src/who.c:50
 msgid "Joseph Arceneaux"
-msgstr ""
+msgstr "Joseph Arceneaux"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/pinky.c:39 src/uptime.c:48
 msgid "Kaveh Ghazi"
-msgstr ""
+msgstr "Kaveh Ghazi"
 
 #. TRANSLATORS: Real name is unknown; at most 19 characters.
 #: src/pinky.c:241
 msgid "        ???"
-msgstr ""
+msgstr "        ???"
 
 #. TRANSLATORS: Idle time is unknown; at most 5 characters.
 #: src/pinky.c:265
 msgid "?????"
-msgstr ""
+msgstr "(nepoznato)"
 
 #: src/pinky.c:313
 #, c-format
 msgid "Login name: "
-msgstr ""
+msgstr "Ime korisnika: "
 
 #: src/pinky.c:316
 #, c-format
 msgid "In real life: "
-msgstr ""
+msgstr "Stvarno ime: "
 
 #. TRANSLATORS: Real name is unknown; no hard limit.
 #: src/pinky.c:320
 msgid "???\n"
-msgstr ""
+msgstr "(nepoznato)\n"
 
 #: src/pinky.c:340
 #, c-format
 msgid "Directory: "
-msgstr ""
+msgstr "Direktorij: "
 
 #: src/pinky.c:342
 #, c-format
 msgid "Shell: "
-msgstr ""
+msgstr "Ljuska: "
 
 #: src/pinky.c:361
 #, c-format
 msgid "Project: "
-msgstr ""
+msgstr "Projekt: "
 
 #: src/pinky.c:385
 #, c-format
 msgid "Plan:\n"
-msgstr ""
+msgstr "Plan:\n"
 
 #: src/pinky.c:404
 msgid "Login"
-msgstr ""
+msgstr "Korisnik"
 
 #: src/pinky.c:406
 msgid "Name"
-msgstr ""
+msgstr "Ime"
 
 #: src/pinky.c:407
 msgid " TTY"
-msgstr ""
+msgstr " TTY"
 
 #: src/pinky.c:409
 msgid "Idle"
-msgstr ""
+msgstr "Neaktivan"
 
 #: src/pinky.c:410
 msgid "When"
-msgstr ""
+msgstr "Kada"
 
 #: src/pinky.c:413
 msgid "Where"
-msgstr ""
+msgstr "Gdje"
 
 #: src/pinky.c:489
 #, c-format
 msgid "Usage: %s [OPTION]... [USER]...\n"
-msgstr ""
+msgstr "Uporaba: %s [OPCIJA]... [KORISNIK]...\n"
 
 #: src/pinky.c:490
 msgid ""
@@ -7438,6 +7446,12 @@ msgid ""
 "  -p              omit the user's plan file in long format\n"
 "  -s              do short format output, this is the default\n"
 msgstr ""
+"\n"
+"  -l              podrobni ispis za specificirane KORISNIKE\n"
+"  -b              kao -l, ali bez direktorija i ljuske korisnika\n"
+"  -h              kao -l, ali bez datoteke projekta korisnika\n"
+"  -p              kao -l, ali bez datoteke plana korisnika\n"
+"  -s              kratki ispis, a to je zadano stanje\n"
 
 #: src/pinky.c:498
 msgid ""
@@ -7447,6 +7461,11 @@ msgid ""
 "  -q              omit the user's full name, remote host and idle time\n"
 "                  in short format\n"
 msgstr ""
+"  -f              kao -s, ali bez naslova stupaca\n"
+"  -w              kao -s, ali bez punog imena korisnika\n"
+"  -i              kao -s, ali bez punog imena korisnika i udaljenog računala\n"
+"  -q              kao -s, ali bez punog imena korisnika, udaljenog računala\n"
+"                    i neaktivnog vremena\n"
 
 #: src/pinky.c:507
 #, c-format
@@ -7455,89 +7474,92 @@ msgid ""
 "A lightweight 'finger' program;  print user information.\n"
 "The utmp file will be %s.\n"
 msgstr ""
+"\n"
+"Pojednostavljeni „finger“ program; ispiše informacije o korisniku.\n"
+"Kao utmp datoteka rabi se %s.\n"
 
 #: src/pinky.c:591
 #, c-format
 msgid "no username specified; at least one must be specified when using -l"
-msgstr ""
+msgstr "nije navedeno ime korisnika; barem jedan mora bit naveden ako se rabi -l"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/pr.c:331
 msgid "Pete TerMaat"
-msgstr ""
+msgstr "Pete TerMaat"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/pr.c:332
 msgid "Roland Huebner"
-msgstr ""
+msgstr "Roland Huebner"
 
 #: src/pr.c:777
 msgid "integer overflow"
-msgstr ""
+msgstr "preljev cijelog broja"
 
 #: src/pr.c:916
 msgid "'--pages=FIRST_PAGE[:LAST_PAGE]' missing argument"
-msgstr ""
+msgstr "nema argumenta u „--pages=PRVA_STRANICA[:ZADNJA_STRANICA]“"
 
 #: src/pr.c:918
 #, c-format
 msgid "invalid page range %s"
-msgstr ""
+msgstr "nevaljani raspon stranica %s"
 
 #: src/pr.c:978
 msgid "'-l PAGE_LENGTH' invalid number of lines"
-msgstr ""
+msgstr "nevaljani broj redaka u „-l DUŽINA_STRANICE“"
 
 #: src/pr.c:993
 msgid "'-N NUMBER' invalid starting line number"
-msgstr ""
+msgstr "nevaljani početni broj retka u „-N BROJ“"
 
 #: src/pr.c:997
 msgid "'-o MARGIN' invalid line offset"
-msgstr ""
+msgstr "nevaljani odmak retka u „-o MARGINA“"
 
 #: src/pr.c:1034
 msgid "'-w PAGE_WIDTH' invalid number of characters"
-msgstr ""
+msgstr "nevaljani broj znakova u „-w ŠIRINA_STRANICE“"
 
 #: src/pr.c:1043
 msgid "'-W PAGE_WIDTH' invalid number of characters"
-msgstr ""
+msgstr "nevaljani broj znakova u „-W ŠIRINA_STRANICE“"
 
 #: src/pr.c:1072
 msgid "cannot specify number of columns when printing in parallel"
-msgstr ""
+msgstr "ne smije se specificirati broj stupaca za vodoravno ispisivanje"
 
 #: src/pr.c:1076
 msgid "cannot specify both printing across and printing in parallel"
-msgstr ""
+msgstr "nije moguće istovremeno ispisivati vertikalno i horizontalno"
 
 #: src/pr.c:1179
 #, c-format
 msgid "'-%c' extra characters or invalid number in the argument: %s"
-msgstr ""
+msgstr "„%c“, suvišni znak ili nevaljani broj u argumentu: %s"
 
 #: src/pr.c:1281
 msgid "page width too narrow"
-msgstr ""
+msgstr "širina stranice je premala"
 
 #: src/pr.c:2337
 #, c-format
 msgid "starting page number %<PRIuMAX> exceeds page count %<PRIuMAX>"
-msgstr ""
+msgstr "početna stranica broj %<PRIuMAX> je veća od broja stranica %<PRIuMAX>"
 
 #: src/pr.c:2364
 msgid "page number overflow"
-msgstr ""
+msgstr "preljev broja stranica"
 
 #: src/pr.c:2369
 #, c-format
 msgid "Page %<PRIuMAX>"
-msgstr ""
+msgstr "Stranica %<PRIuMAX>"
 
 #: src/pr.c:2741
 msgid "Paginate or columnate FILE(s) for printing.\n"
-msgstr ""
+msgstr "DATOTEKU ili DATOTEKE formira u stranice ili stupce za ispis na pisaču.\n"
 
 #: src/pr.c:2748
 msgid ""
@@ -7548,6 +7570,12 @@ msgid ""
 "                    unless -a is used. Balance number of lines in the\n"
 "                    columns on each page\n"
 msgstr ""
+"  +PRVA_STRANICA[:ZADNJA_STRANICA], --pages=PRVA_STRANICA[:ZADNJA_STRANICA]\n"
+"                    počne [završi] ispis sa stranicom PRVA_[:ZADNJA_]STRANICA\n"
+"  -BROJ, --columns=BROJ\n"
+"                    proizvede BROJ stupac/stupca/stupaca i ispiše ih okomito,\n"
+"                      osim ako je aktivna opcija -a. Ispiše podjednak broj\n"
+"                      redaka u stupcima na svakoj stranici\n"
 
 #: src/pr.c:2756
 msgid ""
@@ -7558,6 +7586,13 @@ msgid ""
 "  -d, --double-space\n"
 "                    double space the output\n"
 msgstr ""
+"  -a, --across      ispiše stupce vodoravno umjesto okomito, rabi se zajedno\n"
+"                      s -BROJ\n"
+"  -c, --show-control-chars\n"
+"                    kontrolni znakovi rabe „^“, a ostali neispisivi znakovi\n"
+"                      rabe obratnu kosu crtu (i oktalni kod) za ispis\n"
+"  -d, --double-space\n"
+"                    jedan prazni redak nakon svakog izlaznog retka\n"
 
 #: src/pr.c:2764
 msgid ""
@@ -7570,6 +7605,15 @@ msgid ""
 "                    (by a 3-line page header with -F or a 5-line header\n"
 "                    and trailer without -F)\n"
 msgstr ""
+"  -D, --date-format=FORMAT\n"
+"                    rabi FORMAT za datum zaglavlja\n"
+"  -e[ZNAK[ŠIRINA]], --expand-tabs[=ZNAK[ŠIRINA]]\n"
+"                    zamijeni svaki ulazni ZNAK (zadano TAB)\n"
+"                      u ŠIRINU (zadano 8) razmaka\n"
+"  -F, -f, --form-feed\n"
+"                    za razdvajanje stranica koristi znak za novu stranicu (FF)\n"
+"                      umjesto znaka za novi redak (za zaglavlje od 3 retka s -F\n"
+"                      ili od 5 redaka i podnožja bez -F)\n"
 
 #: src/pr.c:2774
 msgid ""
@@ -7581,6 +7625,14 @@ msgid ""
 "  -J, --join-lines  merge full lines, turns off -W line truncation, no column\n"
 "                    alignment, --sep-string[=STRING] sets separators\n"
 msgstr ""
+"  -h, --header=ZAGLAVLJE\n"
+"                    centrira ZAGLAVLJE umjesto imena datoteke u zaglavlju,\n"
+"                      -h \"\" ispiše prazni redak; nemojte rabiti -h\"\"\n"
+"  -i[ZNAK[ŠIRINA]], --output-tabs[=ZNAK[ŠIRINA]]\n"
+"                    na izlazu zamijeni razmake sa ZNAKOM (zadano TAB)\n"
+"                      u tab ŠIRINE (zadano 8)\n"
+"  -J, --join-lines  spaja pune retke, deaktivira -W kraćenje redaka,\n"
+"                      ne poravna stupce, --sep-string[=STRING] zadaje separator\n"
 
 #: src/pr.c:2783
 msgid ""
@@ -7589,6 +7641,10 @@ msgid ""
 "                    (default number of lines of text 56, and with -F 63).\n"
 "                    implies -t if PAGE_LENGTH <= 10\n"
 msgstr ""
+"  -l, --length=DUŽINA_STRANICE\n"
+"                    postavi dužinu stranice na DUŽINA_STRANICE (66) redaka\n"
+"                      (zadano je 56 redaka za tekst, a s -F 63 redaka).\n"
+"                      implicira -t ako je DUŽINA_STRANICE <= 10\n"
 
 #: src/pr.c:2789
 msgid ""
@@ -7596,7 +7652,7 @@ msgid ""
 "                    truncate lines, but join lines of full length with -J\n"
 msgstr ""
 "  -m, --merge       ispiše sve datoteke paralelno, po jednu u svakom stupcu,\n"
-"                    skrati retke, ali spoji retke pune dužine s -J\n"
+"                      skrati retke, ali spoji retke pune dužine s -J\n"
 
 #: src/pr.c:2793
 msgid ""
@@ -7607,6 +7663,13 @@ msgid ""
 "                    start counting with NUMBER at 1st line of first\n"
 "                    page printed (see +FIRST_PAGE)\n"
 msgstr ""
+"  -n[MEĐA[BROJKA]], --number-lines[=MEĐA[BROJKA]]\n"
+"                    numerira retke, rabi BROJKA (zadano 5) znamenki za\n"
+"                      numeraciju, zatim znak za odvajanje MEĐA (zadano TAB),\n"
+"                      zadano, numeracija počinje od 1. retka ulazne datoteke\n"
+"  -N, --first-line-number=BROJ\n"
+"                    brojanje počinje od BROJA u 1. retku prve ispisane\n"
+"                      stranice (v. +PRVA_STRANICA)\n"
 
 #: src/pr.c:2801
 msgid ""
@@ -7616,6 +7679,11 @@ msgid ""
 "  -r, --no-file-warnings\n"
 "                    omit warning when a file cannot be opened\n"
 msgstr ""
+"  -o, --indent=MARGINA\n"
+"                    odmak svakog retka je MARGINA (nula) razmaka, ne utječe\n"
+"                    na -w or -W, MARGINA se dodaje ŠIRINA_STRANICE\n"
+"  -r, --no-file-warnings\n"
+"                    bez upozoravanja ako se datoteka ne može otvoriti\n"
 
 #: src/pr.c:2808
 msgid ""
@@ -7625,6 +7693,11 @@ msgid ""
 "                    -s[CHAR] turns off line truncation of all 3 column\n"
 "                    options (-COLUMN|-a -COLUMN|-m) except -w is set\n"
 msgstr ""
+"  -s[ZNAK], --separator[=ZNAK]\n"
+"                    odvaja stupce samo s jednim znakom; zadani ZNAK je TAB\n"
+"                      (bez -w) i „nijedan znak“ (s -w).\n"
+"                      -s[ZNAK] deaktivira sve tri opcije za stupce\n"
+"                      (-BROJ|-a -BROJ|-m) osim ako je -w naveden\n"
 
 #: src/pr.c:2816
 msgid ""
@@ -7633,12 +7706,18 @@ msgid ""
 "                    without -S: Default separator <TAB> with -J and <space>\n"
 "                    otherwise (same as -S\" \"), no effect on column options\n"
 msgstr ""
+"  -S[STRING], --sep-string[=STRING]\n"
+"                    odvaja stupce sa STRINGOM,\n"
+"                     bez -S: zadana međa je TAB s -J i razmak\n"
+"                     inače (isto kao -S\" \") nema efekta na opcija za stupce\n"
 
 #: src/pr.c:2822
 msgid ""
 "  -t, --omit-header  omit page headers and trailers;\n"
 "                     implied if PAGE_LENGTH <= 10\n"
 msgstr ""
+"  -t, --omit-header  izostavi zaglavlja i podnožja;\n"
+"                       zadano ako je DUŽINA_STRANICE <= 10\n"
 
 #: src/pr.c:2826
 msgid ""
@@ -7651,6 +7730,15 @@ msgid ""
 "                    set page width to PAGE_WIDTH (72) characters for\n"
 "                    multiple text-column output only, -s[char] turns off (72)\n"
 msgstr ""
+"  -T, --omit-pagination\n"
+"                    izostavi zaglavlja i podnožja, eliminira svaku numeraciju\n"
+"                      stranica s FF (nova stranica) postavkom\n"
+"                      u ulaznim datotekama\n"
+"  -v, --show-nonprinting\n"
+"                    koristi oktalnu notaciju s obratnom kosom crtom\n"
+"  -w, --width=ŠIRINA_STRANICE\n"
+"                    postavi širinu stranice na ŠIRINA_STRANICE (72) znaka\n"
+"                      samo za izlazni višestupčani tekst, -s[znak] deaktivira\n"
 
 #: src/pr.c:2836
 msgid ""
@@ -7660,9 +7748,9 @@ msgid ""
 "                    with -S or -s\n"
 msgstr ""
 "  -W, --page-width=ŠIRINA_STRANICE\n"
-"                    širinu stranice postavi uvijek na ŠIRINA_STRANICE\n"
-"                    znakova (72), skrati retke, osim ako je opcija -J aktivna,\n"
-"                    ne ometa -S or -s\n"
+"                    postavi uvijek širinu stranice na ŠIRINA_STRANICE\n"
+"                      znakova (72), skrati retke, osim ako je opcija -J aktivna,\n"
+"                      nema konflikta sa -S ili -s\n"
 
 #: src/printenv.c:62
 #, c-format
@@ -7672,15 +7760,19 @@ msgid ""
 "If no VARIABLE is specified, print name and value pairs for them all.\n"
 "\n"
 msgstr ""
+"Uporaba: %s [OPCIJA]... [VARIJABLA]...\n"
+"Ispiše vrijednosti navedenih VARIJABLI okoline.\n"
+"Ako nijedna VARIJABLA nije navedena, ispiše sve parove ime=vrijednost.\n"
+"\n"
 
 #: src/printenv.c:69
 msgid "  -0, --null     end each output line with NUL, not newline\n"
-msgstr ""
+msgstr "  -0, --null     svaki redak završi s NUL a ne s novim retkom\n"
 
 #: src/printf.c:84
 #, c-format
 msgid "warning: %s: character(s) following character constant have been ignored"
-msgstr ""
+msgstr "upozorenje: %s: znak(ovi) koji slijede znakovne konstante se ignoriraju"
 
 #: src/printf.c:93
 #, c-format
@@ -7688,12 +7780,16 @@ msgid ""
 "Usage: %s FORMAT [ARGUMENT]...\n"
 "  or:  %s OPTION\n"
 msgstr ""
+"Uporava: %s FORMAT [ARGUMENT]...\n"
+"  ili:   %s OPCIJA\n"
 
 #: src/printf.c:98
 msgid ""
 "Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:\n"
 "\n"
 msgstr ""
+"Ispiše ARGUMENT(E) u skladu s FORMATOM, ili ih izvrši u skladu s OPCIJOM:\n"
+"\n"
 
 #: src/printf.c:104
 msgid ""
@@ -7702,6 +7798,10 @@ msgid ""
 "\n"
 "  \\\"      double quote\n"
 msgstr ""
+"\n"
+"FORMAT upravlja s izlazom kao printf() u C.  Interpretirane sekvencije su:\n"
+"\n"
+"  \\\"      navodnici (dvostruki)\n"
 
 #: src/printf.c:122
 msgid ""
@@ -7710,6 +7810,10 @@ msgid ""
 "  \\uHHHH  Unicode (ISO/IEC 10646) character with hex value HHHH (4 digits)\n"
 "  \\UHHHHHHHH  Unicode character with hex value HHHHHHHH (8 digits)\n"
 msgstr ""
+"  \\NNN    bajt s oktalnom vrijednošću NNN (1 do 3 brojke)\n"
+"  \\xHH    bajt s heksadecimalnom vrijednošću HH (1 do 2 brojke)\n"
+"  \\uHHHH  Unikodni (ISO/IEC 10646) znak s HHHH hex vrijednošću (4 brojke)\n"
+"  \\UHHHHHHHH  Unikodni znak s hex vrijednošću HHHHHHHH (8 brojki)\n"
 
 #: src/printf.c:128
 msgid ""
@@ -7722,45 +7826,55 @@ msgid ""
 "and all C format specifications ending with one of diouxXfeEgGcs, with\n"
 "ARGUMENTs converted to proper type first.  Variable widths are handled.\n"
 msgstr ""
+"  %%      samo jedan %\n"
+"  %b      interpretira ARGUMENT kao string s '\\' maskom (escape),\n"
+"          osim oktalnih maski (escapes) \\0 or \\0NNN\n"
+"  %q      ispiše ARGUMENT u formatu korisnim za upotrebu u ljuski,\n"
+"          maskiranjem neispisivih znakova prema sintaksi\n"
+"            predloženoj u POSIX $''\n"
+"\n"
+"i sve specifikacije iz C formata koje završavaju s jednim od diouxXfeEgGcs,\n"
+"i s ARGUMENTIMA prvo pretvorenim u propisne tipove.\n"
+"Varijabilne širine su obrađene.\n"
 
 #: src/printf.c:155
 #, c-format
 msgid "%s: expected a numeric value"
-msgstr ""
+msgstr "%s: očekivala se numerička vrijednost"
 
 #: src/printf.c:157
 #, c-format
 msgid "%s: value not completely converted"
-msgstr ""
+msgstr "%s: vrijednost nije u potpunosti pretvorena"
 
 #: src/printf.c:254 src/printf.c:281
 msgid "missing hexadecimal number in escape"
-msgstr ""
+msgstr "nema heksadecimalnoga broja u maski (escape)"
 
 #: src/printf.c:293
 #, c-format
 msgid "invalid universal character name \\%c%0*x"
-msgstr ""
+msgstr "nevaljano ime univerzalnoga znaka  \\%c%0*x"
 
 #: src/printf.c:566
 #, c-format
 msgid "invalid field width: %s"
-msgstr ""
+msgstr "nevaljana širina polja: %s"
 
 #: src/printf.c:601
 #, c-format
 msgid "invalid precision: %s"
-msgstr ""
+msgstr "nevaljana preciznost: %s"
 
 #: src/printf.c:628
 #, c-format
 msgid "%.*s: invalid conversion specification"
-msgstr ""
+msgstr "%.*s: nevaljana specifikacija za konverziju"
 
 #: src/printf.c:711
 #, c-format
 msgid "warning: ignoring excess arguments, starting with %s"
-msgstr ""
+msgstr "upozorenje: ignoriraju se suvišni argumenti počevši s %s"
 
 #. TRANSLATORS: Please translate "F. Pinard" to "François Pinard"
 #. if "ç" (c-with-cedilla) is available in the translation's character
@@ -7768,17 +7882,17 @@ msgstr ""
 #. This is a proper name. See the gettext manual, section Names.
 #: src/ptx.c:42
 msgid "F. Pinard"
-msgstr ""
+msgstr "F. Pinard"
 
 #: src/ptx.c:424
 #, c-format
 msgid "%s (for regexp %s)"
-msgstr ""
+msgstr "%s (za regularni izraz %s)"
 
 #: src/ptx.c:823
 #, c-format
 msgid "error: regular expression has a match of length zero: %s"
-msgstr "greška: regularni izraz ima zero-length-match (ne pronađe nijedan znak): %s"
+msgstr "greška: regularni izraz ima zero-length-match (ne pronalazi ni jedan znak): %s"
 
 #: src/ptx.c:1814
 #, c-format
@@ -7786,22 +7900,30 @@ msgid ""
 "Usage: %s [OPTION]... [INPUT]...   (without -G)\n"
 "  or:  %s -G [OPTION]... [INPUT [OUTPUT]]\n"
 msgstr ""
+"Uporaba: %s [OPCIJA]... [ULAZ]...   (bez -G)\n"
+"   ili:  %s -G [OPCIJA]... [ULAZ [IZLAZ]]\n"
 
 #: src/ptx.c:1818
 msgid "Output a permuted index, including context, of the words in the input files.\n"
 msgstr ""
+"Pročita tekstualne datoteke i ispiše permutirani indeks, sa svim\n"
+"ključnim riječima u svom kontekstu, od riječi u ulaznim datotekama.\n"
 
 #: src/ptx.c:1825
 msgid ""
 "  -A, --auto-reference           output automatically generated references\n"
 "  -G, --traditional              behave more like System V 'ptx'\n"
 msgstr ""
+"  -A, --auto-reference           automatski generira referencije\n"
+"  -G, --traditional              ponašanje sličnije „ptx“ u System V\n"
 
 #: src/ptx.c:1829
 msgid ""
 "  -F, --flag-truncation=STRING   use STRING for flagging line truncations.\n"
 "                                 The default is '/'\n"
 msgstr ""
+"  -F, --flag-truncation=STRING   STRINGOM označi kraćenje redaka.\n"
+"                                   Zadano se koristi „/“\n"
 
 #: src/ptx.c:1833
 msgid ""
@@ -7811,6 +7933,11 @@ msgid ""
 "  -S, --sentence-regexp=REGEXP   for end of lines or end of sentences\n"
 "  -T, --format=tex               generate output as TeX directives\n"
 msgstr ""
+"  -M, --macro-name=STRING        ime za makro je STRING, umjesto „xx“\n"
+"  -O, --format=roff              generira izlaz prema roff direktivi\n"
+"  -R, --right-side-refs          referencije na desno, ne broje se s -w\n"
+"  -S, --sentence-regexp=REGEXP   za kraj retka ili kraj rečenice\n"
+"  -T, --format=tex               generira izlaz prema TeX direktivi\n"
 
 #: src/ptx.c:1840
 msgid ""
@@ -7821,6 +7948,13 @@ msgid ""
 "  -i, --ignore-file=FILE         read ignore word list from FILE\n"
 "  -o, --only-file=FILE           read only word list from this FILE\n"
 msgstr ""
+"  -W, --word-regexp=REGEXP       REGEXP koji podudara sve ključne riječi\n"
+"  -b, --break-file=DATOTEKA      DATOTEKA s popisom znakova koji nisu dio riječi\n"
+"  -f, --ignore-case              sortira kao da su sva slova velika\n"
+"  -g, --gap-size=BROJ            razmak između izlaznih polja je BROJ stupaca\n"
+"  -i, --ignore-file=DATOTEKA     čitanje ignorira popisane riječi u DATOTECI\n"
+"  -o, --only-file=DATOTEKA       čitanje priznaje samo popisane\n"
+"                                   riječi u DATOTECI\n"
 
 #: src/ptx.c:1848
 msgid ""
@@ -7828,22 +7962,25 @@ msgid ""
 "  -t, --typeset-mode               - not implemented -\n"
 "  -w, --width=NUMBER             output width in columns, reference excluded\n"
 msgstr ""
+"  -r, --references               prvo polje svakog retka je referencija\n"
+"  -t, --typeset-mode               (nije implementirano)\n"
+"  -w, --width=BROJ               izlaz je širok BROJ stupaca, bez referencije\n"
 
 #: src/ptx.c:1945
 #, c-format
 msgid "invalid gap width: %s"
-msgstr ""
+msgstr "nevaljani razmak između polja: %s"
 
 #: src/ptx.c:1972
 #, c-format
 msgid "invalid line width: %s"
-msgstr ""
+msgstr "nevaljana širina retka: %s"
 
 #: src/pwd.c:58
 msgid ""
 "Print the full filename of the current working directory.\n"
 "\n"
-msgstr "Ispisuje puno ime trenutačnog radnog direktorija.\n"
+msgstr "Ispiše puno ime trenutačnog radnog direktorija.\n"
 
 #: src/pwd.c:62
 msgid ""
@@ -7897,6 +8034,8 @@ msgid ""
 "Print value of a symbolic link or canonical file name\n"
 "\n"
 msgstr ""
+"Ispiše vrijednost simboličke veze ili kanonizirano ime datoteke\n"
+"\n"
 
 #: src/readlink.c:65
 msgid ""
@@ -7907,6 +8046,12 @@ msgid ""
 "                                every component of the given name recursively,\n"
 "                                all components must exist\n"
 msgstr ""
+"  -f, --canonicalize            kanonizira tako da rekurzivno slijedi svaku\n"
+"                                  komponentu u imenu dane simboličke veze;\n"
+"                                  sve komponente, osim zadnje, moraju postojati\n"
+"  -e, --canonicalize-existing   kanonizira tako da rekurzivno slijedi svaku\n"
+"                                  komponentu u imenu dane simboličke veze;\n"
+"                                  sve komponente moraju postojati\n"
 
 #: src/readlink.c:75
 msgid ""
@@ -7919,11 +8064,19 @@ msgid ""
 "  -v, --verbose                 report error messages\n"
 "  -z, --zero                    end each output line with NUL, not newline\n"
 msgstr ""
+"  -m, --canonicalize-missing    kanonizira tako da rekurzivno slijedi svaku\n"
+"                                  komponentu u imenu dane simboličke veze\n"
+"                                  bez potrebe da komponente postoje\n"
+"  -n, --no-newline              ne završi s novim retkom\n"
+"  -q, --quiet,\n"
+"  -s, --silent                  izostavi većinu poruka o greškama (zadano)\n"
+"  -v, --verbose                 prijavi sve greške\n"
+"  -z, --zero                    svaki redak završi s NUL a ne s novim retkom\n"
 
 #: src/readlink.c:152
 #, c-format
 msgid "ignoring --no-newline with multiple arguments"
-msgstr ""
+msgstr "ignorira se --no-newline s nekoliko argumenata"
 
 #: src/realpath.c:72
 msgid ""
@@ -7931,6 +8084,9 @@ msgid ""
 "all but the last component must exist\n"
 "\n"
 msgstr ""
+"Razriješi i ispiše apsolutno ime datoteke;\n"
+"sve komponente, osim zadnje, moraju postojati\n"
+"\n"
 
 #: src/realpath.c:77
 msgid ""
@@ -7945,20 +8101,30 @@ msgid ""
 "  -z, --zero                   end each output line with NUL, not newline\n"
 "\n"
 msgstr ""
+"  -e, --canonicalize-existing  sve komponente staze moraju postojati\n"
+"  -m, --canonicalize-missing   ni komponente ni direktorij ne treba postojati\n"
+"  -L, --logical                razriješi „..“ prije simboličkih veza\n"
+"  -P, --physical               simboličke veze rješava kako nailaze (zadano)\n"
+"  -q, --quiet                  izostavi većinu poruka o greškama\n"
+"      --relative-to=DIR        ispiše razriješenu stazu relativno s DIR\n"
+"      --relative-base=DIR      ispiše apsolutnu stazu ako nije ispod DIR\n"
+"  -s, --strip, --no-symlinks   ne proširuje simboličke veze\n"
+"  -z, --zero                   svaki redak završi s NUL a ne s novim retkom\n"
+"\n"
 
 #: src/relpath.c:130
 msgid "generating relative path"
-msgstr ""
+msgstr "generiranje relativne staze"
 
 #: src/remove.c:272
 #, c-format
 msgid "%s: descend into write-protected directory %s? "
-msgstr ""
+msgstr "%s: spustiti se u od pisanja zaštićeni direktorij %s? "
 
 #: src/remove.c:273
 #, c-format
 msgid "%s: descend into directory %s? "
-msgstr ""
+msgstr "%s: spustiti se u direktorij %s? "
 
 #. TRANSLATORS: In the next two strings the second %s is
 #. replaced by the type of the file.  To avoid grammatical
@@ -7968,12 +8134,12 @@ msgstr ""
 #: src/remove.c:290
 #, c-format
 msgid "%s: remove write-protected %s %s? "
-msgstr ""
+msgstr "%s: ukloniti zaštitu od pisanja %s %s? "
 
 #: src/remove.c:291
 #, c-format
 msgid "%s: remove %s %s? "
-msgstr ""
+msgstr "%s: ukloniti %s %s? "
 
 #: src/remove.c:374
 #, c-format
@@ -7983,17 +8149,17 @@ msgstr "uklonjeni direktorij %s\n"
 #: src/remove.c:446
 #, c-format
 msgid "refusing to remove %s or %s directory: skipping %s"
-msgstr ""
+msgstr "uklanjanje %s ili direktorija %s se odbija: preskače se %s"
 
 #: src/remove.c:504
 #, c-format
 msgid "skipping %s, since it's on a different device"
-msgstr ""
+msgstr "%s se preskače jer je na drugom uređaju"
 
 #: src/remove.c:524
 #, c-format
 msgid "traversal failed: %s"
-msgstr "nije uspjelo proputovati: %s"
+msgstr "neuspješno prolaženje: %s"
 
 #: src/remove.c:530
 #, c-format
@@ -8001,6 +8167,8 @@ msgid ""
 "unexpected failure: fts_info=%d: %s\n"
 "please report to %s"
 msgstr ""
+"neočekivani neuspjeh: fts_info=%d: %s\n"
+"prijavite na %s"
 
 #: src/rm.c:117
 #, c-format
@@ -8014,10 +8182,10 @@ msgid ""
 "  -f, --force           ignore nonexistent files and arguments, never prompt\n"
 "  -i                    prompt before every removal\n"
 msgstr ""
-"Briše DATOTEKU ili više DATOTEKA.\n"
+"Briše (unlink) DATOTEKU ili nekoliko DATOTEKA.\n"
 "\n"
-"  -f, --force           ignorira nepostojeće datoteke i argumente,\n"
-"                          i bez ikakvih naknadnih pitanja\n"
+"  -f, --force           ignorira nepostojeće datoteke i argumente\n"
+"                          i nikada ne postavlja pitanja\n"
 "  -i                    pita prije svakog brisanja\n"
 
 #: src/rm.c:140
@@ -8028,11 +8196,11 @@ msgid ""
 "      --interactive[=WHEN]  prompt according to WHEN: never, once (-I), or\n"
 "                          always (-i); without WHEN, prompt always\n"
 msgstr ""
-"  -I                    pita jedanput prije brisanja više od tri datoteke ili\n"
-"                          ako se briše rekurzivno; manje je nametljivo nego -i\n"
-"                          a ipak štiti od većine pogrešaka\n"
+"  -I                    pita jedanput prije brisanja više od tri datoteke\n"
+"                          ili ako se briše rekurzivno; to je manje\n"
+"                          nametljivo nego -i, a štiti od većine pogrešaka\n"
 "      --interactive[=KAD]  pita prema argumentu KAD: never, once (-I), or\n"
-"                          always (-i); bez KAD, uvijek pita\n"
+"                          always (-i); bez KAD uvijek pita\n"
 
 #: src/rm.c:147
 msgid ""
@@ -8052,11 +8220,11 @@ msgid ""
 "  -d, --dir             remove empty directories\n"
 "  -v, --verbose         explain what is being done\n"
 msgstr ""
-"      --no-preserve-root  ne tretira „/“ posebno\n"
+"      --no-preserve-root  ne tretira „/“ na posebni način\n"
 "      --preserve-root   ne briše „/“ (zadano)\n"
 "  -r, -R, --recursive   briše direktorije i njihov sadržaj rekurzivno\n"
 "  -d, --dir             briše prazne direktorije\n"
-"  -v, --verbose         objašnjava što se vrši\n"
+"  -v, --verbose         objašnjava što se izvršava\n"
 
 #: src/rm.c:161
 msgid ""
@@ -8135,11 +8303,11 @@ msgid ""
 "                  ignore each failure that is solely because a directory\n"
 "                    is non-empty\n"
 msgstr ""
-"Briše DIREKTORIJ ili više DIREKTORIJA ako su prazni.\n"
+"Briše DIREKTORIJ(E) ako su prazni.\n"
 "\n"
 "      --ignore-fail-on-non-empty\n"
-"                 ignorira svaki neuspjeh uzrokovan isključivo zbog direktorija\n"
-"                   koji nije prazan\n"
+"                 ignorira svaki neuspjeh uzrokovan samo zbog\n"
+"                   direktorija koji nije prazan\n"
 
 #: src/rmdir.c:171
 msgid ""
@@ -8164,7 +8332,7 @@ msgid ""
 msgstr ""
 "Uporaba: %s KONTEKST NAREDBA [argumenti]\n"
 "   ili:  %s [ -c ] [-u KORISNIK] [-r ULOGA] [-t TIP] [-l RASPON]\n"
-"              NAREDBA [argumenti]\n"
+"                NAREDBA [argumenti]\n"
 
 #: src/runcon.c:82
 msgid ""
@@ -8187,26 +8355,26 @@ msgstr ""
 "  KONTEKST            Potpuni sigurnosni kontekts\n"
 " -c, --compute        prije promijene izračunaj prethodni kontekst procesa\n"
 "  -t, --type=TIP      vrsta (za istu ulogu kao predak (roditelj)\n"
-"  -u, --user=KORISNIK korisnikov identitet\n"
+"  -u, --user=KORISNIK identitet korisnika\n"
 "  -r, --role=ULOGA    uloga\n"
 "  -l, --range=RASPON  raspon (nivoa, razina, „levelrange“)\n"
 "\n"
 
 #: src/runcon.c:139
 msgid "multiple roles"
-msgstr "višestruke uloge"
+msgstr "nekoliko uloga"
 
 #: src/runcon.c:144
 msgid "multiple types"
-msgstr "višestruke vrste"
+msgstr "nekoliko vrsta"
 
 #: src/runcon.c:149
 msgid "multiple users"
-msgstr "višestruki korisnici"
+msgstr "nekoliko korisnika"
 
 #: src/runcon.c:154
 msgid "multiple levelranges"
-msgstr "višestruki rasponi razine (levelranges)"
+msgstr "nekoliko raspona razine (levelranges)"
 
 #: src/runcon.c:172 src/runcon.c:208
 msgid "failed to get current context"
@@ -8263,10 +8431,13 @@ msgid ""
 "  or:  %s [OPTION]... FIRST LAST\n"
 "  or:  %s [OPTION]... FIRST INCREMENT LAST\n"
 msgstr ""
+"Uporaba: %s [OPCIJA]... ZADNJI\n"
+"   ili:  %s [OPCIJA]... PRVI ZADNJI\n"
+"   ili:  %s [OPCIJA]... PRVI PRIRAST ZADNJI\n"
 
 #: src/seq.c:77
 msgid "Print numbers from FIRST to LAST, in steps of INCREMENT.\n"
-msgstr ""
+msgstr "Ispiše aritmetički niz brojeva od PRVOG do ZADNJEG s porastom PRIRAST.\n"
 
 #: src/seq.c:83
 msgid ""
@@ -8274,6 +8445,9 @@ msgid ""
 "  -s, --separator=STRING   use STRING to separate numbers (default: \\n)\n"
 "  -w, --equal-width        equalize width by padding with leading zeroes\n"
 msgstr ""
+"  -f, --format=FORMAT      rabi printf FORMAT za brojeve s pomičnim zarezom\n"
+"  -s, --separator=STRING   rabi STRING za odvajanje brojeva (zadano: \\n)\n"
+"  -w, --equal-width        poravna po širini dopunom s vodećim nulama\n"
 
 #: src/seq.c:90
 msgid ""
@@ -8287,6 +8461,14 @@ msgid ""
 "INCREMENT is usually negative if FIRST is greater than LAST.\n"
 "INCREMENT must not be 0; none of FIRST, INCREMENT and LAST may be NaN.\n"
 msgstr ""
+"\n"
+"Ako se ispuste, PRVI i/ili PRIRAST jednaki su 1 (zadano). Ispušteni PRIRAST\n"
+"jednak je 1 čak i kad je ZADNJI manji od PRVOG. Ispis niza se završi kad\n"
+"bi zbroj trenutačnog broja i PRIRASTA postao veći od ZADNJEG.\n"
+"PRVI, PRIRAST, i ZADNJI se interpretiraju kao brojevi s pomičnim zarezom.\n"
+"PRIRAST je obično pozitivni ako je PRVI manji od ZADNJEG, a negativni kad je\n"
+"PRVI veći od ZADNJEG. PRIRAST ne smije biti 0; PRVI, PRIRAST i ZADNJI\n"
+"moraju biti broj (ne smiju biti NaN -- Not a Number)\n"
 
 #: src/seq.c:101
 msgid ""
@@ -8294,11 +8476,15 @@ msgid ""
 "it defaults to %.PRECf if FIRST, INCREMENT, and LAST are all fixed point\n"
 "decimal numbers with maximum precision PREC, and to %g otherwise.\n"
 msgstr ""
+"FORMAT mora biti prikladan za ispisivanje jednoga argumenta tipa „double“;\n"
+"zadani format je %.PRECf ako su i PRVI, i PRIRAST, i ZADNJI decimalni brojevi\n"
+"s fiksiranim brojem decimala maksimalne preciznosti PREC, u protivnom\n"
+"format je %g.\n"
 
 #: src/seq.c:147
 #, c-format
 msgid "invalid floating point argument: %s"
-msgstr ""
+msgstr "nevaljani argument za pomični zarez: %s"
 
 #: src/seq.c:153
 #, c-format
@@ -8308,21 +8494,21 @@ msgstr "nevaljani %s argument: %s"
 #: src/seq.c:260
 #, c-format
 msgid "format %s has unknown %%%c directive"
-msgstr ""
+msgstr "format %s sadrži nepoznatu %%%c direktivu"
 
 #: src/seq.c:628
 #, c-format
 msgid "format string may not be specified when printing equal width strings"
-msgstr ""
+msgstr "uz opciju --equal-width ne smije se specificirati --format=STRING"
 
 #: src/seq.c:665
 #, c-format
 msgid "invalid Zero increment value: %s"
-msgstr "nevaljana Zero (nula) vrijednost inkrementa: %s"
+msgstr "nevaljana vrijednost inkrementa: %s"
 
 #: src/set-fields.c:167
 msgid "invalid byte or character range"
-msgstr "nevaljani bajt (byte) ili raspon znakova"
+msgstr "nevaljani bajt ili raspon znakova"
 
 #: src/set-fields.c:168
 msgid "invalid field range"
@@ -8330,58 +8516,60 @@ msgstr "nevaljani raspon polja"
 
 #: src/set-fields.c:175 src/set-fields.c:221
 msgid "byte/character positions are numbered from 1"
-msgstr ""
+msgstr "pozicije bajta/znaka numerirane su od 1"
 
 #: src/set-fields.c:176 src/set-fields.c:222
 msgid "fields are numbered from 1"
-msgstr ""
+msgstr "polja su numerirana od 1"
 
 #: src/set-fields.c:196
 msgid "invalid range with no endpoint: -"
-msgstr ""
+msgstr "nevaljani raspon bez gornje granice: -"
 
 #: src/set-fields.c:210
 msgid "invalid decreasing range"
-msgstr ""
+msgstr "nevaljani opadajući raspon"
 
 #: src/set-fields.c:259
 #, c-format
 msgid "byte/character offset %s is too large"
-msgstr "bajt/znak (byte/character) odmak (offset) %s je prevelik"
+msgstr "bajt/znak odmak (offset) %s je prevelik"
 
 #: src/set-fields.c:260
 #, c-format
 msgid "field number %s is too large"
-msgstr ""
+msgstr "broj polja %s jer preveliki"
 
 #: src/set-fields.c:271
 #, c-format
 msgid "invalid byte/character position %s"
-msgstr "nevaljana pozicija bajt/znak (byte/character) %s"
+msgstr "nevaljana pozicija bajt/znak %s"
 
 #: src/set-fields.c:272
 #, c-format
 msgid "invalid field value %s"
-msgstr "nevaljana vrijednost polja (field) %s"
+msgstr "nevaljana vrijednost polja %s"
 
 #: src/set-fields.c:280
 msgid "missing list of byte/character positions"
-msgstr ""
+msgstr "nema popisa za bajt/znak pozicije"
 
 #: src/set-fields.c:281
 msgid "missing list of fields"
-msgstr ""
+msgstr "nema popisa polja"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/shred.c:74
 msgid "Colin Plumb"
-msgstr ""
+msgstr "Colin Plumb"
 
 #: src/shred.c:171
 msgid ""
 "Overwrite the specified FILE(s) repeatedly, in order to make it harder\n"
 "for even very expensive hardware probing to recover the data.\n"
 msgstr ""
+"Piše preko DATOTEKA nekoliko puta uzastopno tako da je\n"
+"gotovo nemoguće ponovno vratiti/obnoviti njihov sadržaj.\n"
 
 #: src/shred.c:175
 msgid ""
@@ -8389,7 +8577,7 @@ msgid ""
 "If FILE is -, shred standard output.\n"
 msgstr ""
 "\n"
-"Ako je DATOTEKA „-“, izrezucka standardni izlaz.\n"
+"Ako je DATOTEKA „-“, samelje standardni izlaz.\n"
 
 #: src/shred.c:182
 #, c-format
@@ -8399,6 +8587,10 @@ msgid ""
 "      --random-source=FILE  get random bytes from FILE\n"
 "  -s, --size=N   shred this many bytes (suffixes like K, M, G accepted)\n"
 msgstr ""
+"  -f, --force    ako je potrebno, promijeni prava i dopusti pisanje\n"
+"  -n, --iterations=N  prepiše N puta (umjesto zadano %d puta)\n"
+"      --random-source=DATOTEKA  čita i rabi slučajne bajtove iz DATOTEKE\n"
+"  -s, --size=N   samelje N prvih bajtova (dopušteni sufiksi su: K, M, ili G)\n"
 
 #: src/shred.c:188
 msgid ""
@@ -8409,6 +8601,13 @@ msgid ""
 "                   this is the default for non-regular files\n"
 "  -z, --zero     add a final overwrite with zeros to hide shredding\n"
 msgstr ""
+"  -u             oslobodi prostor na disku i ukloni datoteku\n"
+"                   nakon prepisivanja\n"
+"      --remove[=KAKO]  kao -u, ali s opcijom KAKO izbrisati; v. niže\n"
+"  -v, --verbose  prikazuje napredak mljevenja\n"
+"  -x, --exact    ne zaokruži veličinu datoteke do sljedećeg cijelog bloka;\n"
+"                   to je zadano za neregularne datoteke\n"
+"  -z, --zero     dodatno prepiše s nulama da sakrije mljevenje\n"
 
 #: src/shred.c:198
 msgid ""
@@ -8423,6 +8622,17 @@ msgid ""
 "The default mode is 'wipesync', but note it can be expensive.\n"
 "\n"
 msgstr ""
+"\n"
+"Izbriše DATOTEKE ako je navedena opcija --remove (-u). Zadano, ne uklanja\n"
+"datoteke jer često radi s datotekama uređaja kao npr. /dev/hda, a takve\n"
+"datoteke se obično ne uklanjaju.\n"
+"Neobvezni parametar KAKO naznači način kako ukloniti direktorij:\n"
+"„unlink“ => pozove standardni unlink.\n"
+"„wipe“ => kao unlink, ali prvo zamuti bajtove u imenu.\n"
+"„wipesync“ => kao wipe, ali sinkronizira svaki zamućeni bajt na disku.\n"
+"Ako je ispušteni parametar KAKO, aktivan je „wipesync“ (ali znajte da taj\n"
+"proces može duže potrajati.)\n"
+"\n"
 
 #: src/shred.c:210
 msgid ""
@@ -8433,6 +8643,12 @@ msgid ""
 "not effective, or is not guaranteed to be effective in all file system modes:\n"
 "\n"
 msgstr ""
+"OPREZ: Imajte na umu, shred se temelji na vrlo važnoj pretpostavci da\n"
+"datotečni sustav piše preko lokalnih podataka, a to je tradicionalni način.\n"
+"Većina modernih datotečnih sustava ne zadovoljava tu pretpostavku. Ovo su\n"
+"primjeri datotečnih sustava na kojima shred nije učinkovit ili nije sigurno\n"
+"da će biti učinkovit u svim načinima rada:\n"
+"\n"
 
 #: src/shred.c:218
 msgid ""
@@ -8445,6 +8661,15 @@ msgid ""
 "* file systems that make snapshots, such as Network Appliance's NFS server\n"
 "\n"
 msgstr ""
+"* log-structured ili journaled postrojeni datotečni sustavi, na primjer\n"
+"AIX i Solaris (i JFS, ReiserFS, XFS, Ext3, itd.)\n"
+"\n"
+"* datotečni sustavi koji zapisuju redundantne podatke i rade čak ako neki\n"
+"zapisi ne uspiju, na primjer sustavi bazirani na RAID\n"
+"\n"
+"* datotečni sustavi koji prave snimke stanja, na primjer\n"
+"NFS poslužitelj od Network Appliance \n"
+"\n"
 
 #: src/shred.c:228
 msgid ""
@@ -8454,6 +8679,11 @@ msgid ""
 "* compressed file systems\n"
 "\n"
 msgstr ""
+"* datotečni sustav koji „cache“ u privremene lokacije, na primjer NFS\n"
+"version 3 clients\n"
+"\n"
+"* komprimirani datotečni sustavi\n"
+"\n"
 
 #: src/shred.c:235
 msgid ""
@@ -8466,6 +8696,14 @@ msgid ""
 "as documented in the mount man page (man mount).\n"
 "\n"
 msgstr ""
+"U slučaju ext3 datotečnog sustava navedena odricanja primjenjuju se\n"
+"(i shred je zato manje učinkovit) samo u modu podaci=journal u kojem\n"
+"journal sprema podatke, a ne samo metapodatke. U oba moda data=ordered\n"
+"(zadano) i data=writeback shred radi normalno. ext3 journal mod može se\n"
+"promijeniti dodavanjem data=„nešto“ opcijama za montiranje određenog\n"
+"datotečnog sustava u /etc/fstab datoteci kako je to dokumentirano u\n"
+"man mount uputama.\n"
+"\n"
 
 #: src/shred.c:245
 msgid ""
@@ -8473,6 +8711,9 @@ msgid ""
 "of the file that cannot be removed, and that will allow a shredded file\n"
 "to be recovered later.\n"
 msgstr ""
+"Osim toga, lokalno osiguranje (sigurnosne kopije) datotečnog sustava i\n"
+"daljinska zrcala mogu sadržavati kopije datoteke koje je nemoguće ukloniti,\n"
+"a to može omogućiti da se kasnije rekonstruira samljevena datoteka.\n"
 
 #: src/shred.c:344
 #, c-format
@@ -8487,37 +8728,37 @@ msgstr "%s: sinkronizacija podataka memorija <-> disk (fsync) nije uspjela"
 #: src/shred.c:472
 #, c-format
 msgid "%s: cannot rewind"
-msgstr ""
+msgstr "%s: premotavanje nije moguće"
 
 #: src/shred.c:492
 #, c-format
 msgid "%s: pass %lu/%lu (%s)..."
-msgstr ""
+msgstr "%s: prolaz %lu/%lu (%s)..."
 
 #: src/shred.c:543
 #, c-format
 msgid "%s: error writing at offset %s"
-msgstr ""
+msgstr "%s: greška pri pisanju na odmaku %s"
 
 #: src/shred.c:564
 #, c-format
 msgid "%s: lseek failed"
-msgstr "%s: lseek je neuspješan"
+msgstr "%s: lseek nije bio neuspješan"
 
 #: src/shred.c:576
 #, c-format
 msgid "%s: file too large"
-msgstr ""
+msgstr "%s: datoteka je prevelika"
 
 #: src/shred.c:600
 #, c-format
 msgid "%s: pass %lu/%lu (%s)...%s"
-msgstr ""
+msgstr "%s: prolaz %lu/%lu (%s)...%s"
 
 #: src/shred.c:616
 #, c-format
 msgid "%s: pass %lu/%lu (%s)...%s/%s %d%%"
-msgstr ""
+msgstr "%s: prolaz %lu/%lu (%s)...%s/%s %d%%"
 
 #: src/shred.c:874
 #, c-format
@@ -8527,17 +8768,17 @@ msgstr "%s: nije uspjelo (fstat) doznati status datoteke"
 #: src/shred.c:885
 #, c-format
 msgid "%s: invalid file type"
-msgstr ""
+msgstr "%s: nevaljani tip datoteke"
 
 #: src/shred.c:890
 #, c-format
 msgid "%s: file has negative size"
-msgstr ""
+msgstr "%s: datoteka ima negativnu veličinu"
 
 #: src/shred.c:984 src/sort.c:967 src/split.c:474
 #, c-format
 msgid "%s: error truncating"
-msgstr ""
+msgstr "%s: greška pri skraćivanju"
 
 #: src/shred.c:1003
 #, c-format
@@ -8547,17 +8788,17 @@ msgstr "%s: fcntl() je neuspješan; manipulacija s deskriptorom datoteke nije us
 #: src/shred.c:1008
 #, c-format
 msgid "%s: cannot shred append-only file descriptor"
-msgstr ""
+msgstr "%s: nije moguće samljeti datotečni deskriptor s pravom append-only"
 
 #: src/shred.c:1091
 #, c-format
 msgid "%s: removing"
-msgstr ""
+msgstr "%s: ukljanja se"
 
 #: src/shred.c:1116
 #, c-format
 msgid "%s: renamed to %s"
-msgstr ""
+msgstr "%s: preimenovana na %s"
 
 #: src/shred.c:1125
 #, c-format
@@ -8567,7 +8808,7 @@ msgstr "%s: nije uspjelo ukloniti"
 #: src/shred.c:1129
 #, c-format
 msgid "%s: removed"
-msgstr ""
+msgstr "%s: uklonjeno"
 
 #: src/shred.c:1136 src/shred.c:1179
 #, c-format
@@ -8581,11 +8822,11 @@ msgstr "%s: nije uspjelo otvoriti za pisanje"
 
 #: src/shred.c:1235
 msgid "invalid number of passes"
-msgstr "nevaljani broj prolaza, passes"
+msgstr "nevaljani broj prolaza"
 
 #: src/shred.c:1240 src/shuf.c:462 src/sort.c:4507
 msgid "multiple random sources specified"
-msgstr ""
+msgstr "navedeno je nekoliko izvora slučajnih brojeva"
 
 #: src/shred.c:1254
 msgid "invalid file size"
@@ -8598,10 +8839,13 @@ msgid ""
 "  or:  %s -e [OPTION]... [ARG]...\n"
 "  or:  %s -i LO-HI [OPTION]...\n"
 msgstr ""
+"Uporaba: %s [OPCIJA]... [DATOTEKA]\n"
+"   ili:  %s -e [OPCIJA]... [ARG]...\n"
+"   ili:  %s -i OD-DO [OPCIJA]...\n"
 
 #: src/shuf.c:68
 msgid "Write a random permutation of the input lines to standard output.\n"
-msgstr ""
+msgstr "Ispiše slučajnu permutaciju ulaznih redaka na standardni izlaz.\n"
 
 #: src/shuf.c:75
 msgid ""
@@ -8612,14 +8856,20 @@ msgid ""
 "      --random-source=FILE  get random bytes from FILE\n"
 "  -r, --repeat              output lines can be repeated\n"
 msgstr ""
+"  -e, --echo                tretira svaki ARG kao ulazni redak\n"
+"  -i, --input-range=OD-DO   brojeve od OD do DO tretira kao ulazne retke\n"
+"  -n, --head-count=BROJ     generira ne više od BROJ redaka\n"
+"  -o, --output=DATOTEKA     rezultat zapiše u DATOTEKU, ne na standardni izlaz\n"
+"      --random-source=FILE  čita i rabi slučajne bajtove iz DATOTEKE\n"
+"  -r, --repeat              izlazni redci se mogu ponavljati\n"
 
 #: src/shuf.c:226
 msgid "too many input lines"
-msgstr ""
+msgstr "previše ulaznih redaka"
 
 #: src/shuf.c:418
 msgid "multiple -i options specified"
-msgstr ""
+msgstr "navedeno je nekoliko -i opcija"
 
 #: src/shuf.c:425 src/shuf.c:431 src/shuf.c:436
 msgid "invalid input range"
@@ -8632,16 +8882,16 @@ msgstr "nevaljani broj redaka: %s"
 
 #: src/shuf.c:456 src/sort.c:4501
 msgid "multiple output files specified"
-msgstr ""
+msgstr "navedeno je nekoliko izlaznih datoteka"
 
 #: src/shuf.c:486
 #, c-format
 msgid "cannot combine -e and -i options"
-msgstr ""
+msgstr "opcije -e i -i se ne smiju kombinirati"
 
 #: src/shuf.c:570
 msgid "no lines to repeat"
-msgstr ""
+msgstr "nema redaka za ponoviti"
 
 #: src/sleep.c:50
 #, c-format
@@ -8655,25 +8905,34 @@ msgid ""
 "specified by the sum of their values.\n"
 "\n"
 msgstr ""
+"Uporaba: %s BROJ[SUFIKS]...\n"
+"   ili:  %s OPCIJA\n"
+"Pauzira BROJ sekundi. SUFIKS može biti „s“ za sekunde (zadano),\n"
+"„m“ za minute, „h“ za sate ili „d“ za dane. BROJ može biti bilo koji broj,\n"
+"uključivo brojeve s pomičnim zarezom. Ako su navedena dva argumenta,\n"
+"dužina pauze je određena zbrojem njihovih vrijednosti.\n"
+"\n"
 
 #: src/sleep.c:140 src/timeout.c:332
 #, c-format
 msgid "invalid time interval %s"
-msgstr ""
+msgstr "nevaljani vremenski interval %s"
 
 #: src/sleep.c:151 src/tail.c:1287
 msgid "cannot read realtime clock"
-msgstr ""
+msgstr "nije moguće pročitati stvarno vrijeme"
 
 #: src/sort.c:432
 msgid "Write sorted concatenation of all FILE(s) to standard output.\n"
-msgstr ""
+msgstr "Sortira lanac od svih DATOTEKA i ispiše rezultat na standardni izlaz.\n"
 
 #: src/sort.c:439
 msgid ""
 "Ordering options:\n"
 "\n"
 msgstr ""
+"Opcije za sortiranje:\n"
+"\n"
 
 #: src/sort.c:443
 msgid ""
@@ -8681,6 +8940,10 @@ msgid ""
 "  -d, --dictionary-order      consider only blanks and alphanumeric characters\n"
 "  -f, --ignore-case           fold lower case to upper case characters\n"
 msgstr ""
+"  -b, --ignore-leading-blanks  ignorira vodeće bjeline\n"
+"  -d, --dictionary-order      uzima u obzir samo bjeline i\n"
+"                                alfanumeričke znakove\n"
+"  -f, --ignore-case           sortira kao da su sva slova velika\n"
 
 #: src/sort.c:449
 msgid ""
@@ -8688,10 +8951,14 @@ msgid ""
 "  -i, --ignore-nonprinting    consider only printable characters\n"
 "  -M, --month-sort            compare (unknown) < 'JAN' < ... < 'DEC'\n"
 msgstr ""
+"  -g, --general-numeric-sort  usporedba u skladu s općenitim\n"
+"                                numeričkim vrijednostima\n"
+"  -i, --ignore-nonprinting    uzima u obzir samo ispisive znakove\n"
+"  -M, --month-sort            poredak: (nepoznato) < „JAN“ < ... < „DEC“;\n"
 
 #: src/sort.c:454
 msgid "  -h, --human-numeric-sort    compare human readable numbers (e.g., 2K 1G)\n"
-msgstr ""
+msgstr "  -h, --human-numeric-sort     usporedi i čitljive brojeve (npr. 2K 1G)\n"
 
 #: src/sort.c:457
 msgid ""
@@ -8700,6 +8967,12 @@ msgid ""
 "      --random-source=FILE    get random bytes from FILE\n"
 "  -r, --reverse               reverse the result of comparisons\n"
 msgstr ""
+"  -n, --numeric-sort          usporedi u skladu s numeričkom\n"
+"                                vrijednošću stringa\n"
+"  -R, --random-sort           izmiješa, ali grupira identične ključeve;\n"
+"                                v. shuf(1)\n"
+"      --random-source=DATOTEKA  čita i rabi slučajne bajtove iz DATOTEKE\n"
+"  -r, --reverse               obrne rezultat usporedbi\n"
 
 #: src/sort.c:463
 msgid ""
@@ -8709,18 +8982,27 @@ msgid ""
 "  -V, --version-sort          natural sort of (version) numbers within text\n"
 "\n"
 msgstr ""
+"      --sort=RIJEČ            sortira u skladu s RIJEČI koja je jedna od:\n"
+"                                general-numeric -g, human-numeric -h, month -M,\n"
+"                                numeric -n, random -R, version -V\n"
+"  -V, --version-sort          prirodan poredak brojeva (inačica) unutar teksta\n"
+"\n"
 
 #: src/sort.c:471
 msgid ""
 "Other options:\n"
 "\n"
 msgstr ""
+"Ostale opcije:\n"
+"\n"
 
 #: src/sort.c:475
 msgid ""
 "      --batch-size=NMERGE   merge at most NMERGE inputs at once;\n"
 "                            for more use temp files\n"
 msgstr ""
+"      --batch-size=NMERGE   spoji (ulanči) ne više od NMERGE ulaza najednom;\n"
+"                              za više od NMERGE koristi privremene datoteke\n"
 
 #: src/sort.c:479
 msgid ""
@@ -8729,6 +9011,10 @@ msgid ""
 "      --compress-program=PROG  compress temporaries with PROG;\n"
 "                              decompress them with PROG -d\n"
 msgstr ""
+"  -c, --check, --check=diagnose-first  provjera sortiranja ulaza; ne sortira\n"
+"  -C, --check=quiet, --check=silent  kao -c, ali ne prijavljuje loše retke\n"
+"      --compress-program=PROG  rabi PROG za kompresiju;\n"
+"                              dekomprimira ih s PROG -d\n"
 
 #: src/sort.c:486
 msgid ""
@@ -8738,12 +9024,20 @@ msgid ""
 "                            NUL-terminated names in file F;\n"
 "                            If F is - then read names from standard input\n"
 msgstr ""
+"      --debug               označi dio svakog retka koji se sortira i\n"
+"                              upozori na upitnu upotrebu na stderr\n"
+"      --files0-from=D       čita ulaz iz datoteka specificiranih s\n"
+"                              NUL završenim imenima u datoteci D;\n"
+"                              Ako je D - onda čita iz standardnog ulaza\n"
 
 #: src/sort.c:493
 msgid ""
 "  -k, --key=KEYDEF          sort via a key; KEYDEF gives location and type\n"
 "  -m, --merge               merge already sorted files; do not sort\n"
 msgstr ""
+"  -k, --key=KLJUČ_POZ       sortira po ključu; pozicija i tip\n"
+"                              određeni su s KLJUČ_POZ\n"
+"  -m, --merge               spoji već sortirane datoteke; ne sortira ih\n"
 
 #: src/sort.c:497
 msgid ""
@@ -8751,6 +9045,10 @@ msgid ""
 "  -s, --stable              stabilize sort by disabling last-resort comparison\n"
 "  -S, --buffer-size=SIZE    use SIZE for main memory buffer\n"
 msgstr ""
+"  -o, --output=DATOTEKA     rezultat zapiše u DATOTEKU, ne na standardni izlaz\n"
+"  -s, --stable              stabilizira sort onemogućavanjem\n"
+"                              „last-resort“ usporedbe\n"
+"  -S, --buffer-size=VELIČINA  rabi VELIČINA za međuspremnik u glavnoj memoriji\n"
 
 #: src/sort.c:503
 #, c-format
@@ -8762,6 +9060,15 @@ msgid ""
 "  -u, --unique              with -c, check for strict ordering;\n"
 "                              without -c, output only the first of an equal run\n"
 msgstr ""
+"  -t, --field-separator=SEP  rabi SEP kao separator polja umjesto\n"
+"                               „ne-prazno“ na „prazno“ prijelaz\n"
+"  -T, --temporary-directory=DIR  rabi DIR za privremeni direktorij, a ne\n"
+"                                   $TMPDIR ili %s; nekoliko opcija\n"
+"                                   specificira nekoliko direktorija\n"
+"      --parallel=N          promijeni broj istovremenih sort procesa na N\n"
+"  -u, --unique              s -c, striktna provjera redoslijeda;\n"
+"                              bez -c, ispiše samo prvi od sekvencije redaka\n"
+"                              koji su uspoređeni kao jednaki\n"
 
 #: src/sort.c:517
 msgid ""
@@ -8776,6 +9083,17 @@ msgid ""
 "\n"
 "SIZE may be followed by the following multiplicative suffixes:\n"
 msgstr ""
+"\n"
+"KLJUČ_POZ je: F[.C][OPCIJE][,F[.C][OPCIJE]] za početnu i završnu poziciju,\n"
+"a gdje je F broj polja i C pozicija znaka u polju; oba se broje od 1,\n"
+"a zadana završna pozicija je kraj retka. Ako ni -t ni -b opcija nisu aktivne,\n"
+"pozicija znakova u polju broji se od početka prethodne bjeline.\n"
+"OPCIJE su jedna ili  više jednoslovnih opcija razvrstavanja [bdfgiMhnRrV]\n"
+"koje nadvladaju globalne opcije razvrstavanja za taj ključ. Ako ključ nije\n"
+"naveden, cijeli redak je ključ.\n"
+"Koristite --debug za dijagnosticiranje pogrešne upotrebe ključa.\n"
+"\n"
+"Uz VELIČINU možete koristiti sljedeće sufikse kao množitelje:\n"
 
 #: src/sort.c:530
 msgid ""
@@ -8786,21 +9104,27 @@ msgid ""
 "Set LC_ALL=C to get the traditional sort order that uses\n"
 "native byte values.\n"
 msgstr ""
+"% 1% memorije, b 1, K 1024 (zadano), itd. za M, G, T, P, E, Z, Y.\n"
+"\n"
+"*** UPOZORENJE ***\n"
+"Lokalizacija okoline utječe na redoslijed sortiranja.\n"
+"Postavite LC_ALL=C da dobijete tradicionalni redoslijed sortiranja koji rabi\n"
+"izvorne vrijednosti za bajtove.\n"
 
 #: src/sort.c:728
 #, c-format
 msgid "waiting for %s [-d]"
-msgstr ""
+msgstr "čeka se na %s [-d]"
 
 #: src/sort.c:733
 #, c-format
 msgid "%s [-d] terminated abnormally"
-msgstr ""
+msgstr "%s [-d] završeno abnormalno"
 
 #: src/sort.c:888
 #, c-format
 msgid "cannot create temporary file in %s"
-msgstr ""
+msgstr "nije moguće stvoriti privremeni direktorij u %s"
 
 #: src/sort.c:985 src/sort.c:2094 src/sort.c:3131 src/sort.c:3779
 #: src/sort.c:3870 src/sort.c:3873
@@ -8827,35 +9151,35 @@ msgstr "nije moguće stvoriti proces za %s -d"
 #: src/sort.c:1261
 #, c-format
 msgid "warning: cannot remove: %s"
-msgstr ""
+msgstr "upozorenje: nije moguće ukloniti: %s"
 
 #: src/sort.c:1347
 #, c-format
 msgid "invalid --%s argument %s"
-msgstr ""
+msgstr "nevaljani --%s argument %s"
 
 #: src/sort.c:1350
 #, c-format
 msgid "minimum --%s argument is %s"
-msgstr ""
+msgstr "minimum argumenta --%s je %s"
 
 #: src/sort.c:1365
 #, c-format
 msgid "--%s argument %s too large"
-msgstr ""
+msgstr "argument %2$s od --%1$s je prevelik"
 
 #: src/sort.c:1368
 #, c-format
 msgid "maximum --%s argument with current rlimit is %s"
-msgstr ""
+msgstr "maksimum za --%s s aktualnim rlimit je: %s"
 
 #: src/sort.c:1450
 msgid "number in parallel must be nonzero"
-msgstr ""
+msgstr "broj paralelnih procesa mora biti različiti od nule (0)"
 
 #: src/sort.c:1533
 msgid "stat failed"
-msgstr "nije uspjelo doznati (stat) status datoteke"
+msgstr "nije uspjelo doznati status datoteke"
 
 #: src/sort.c:1795
 msgid "read failed"
@@ -8869,45 +9193,45 @@ msgstr "nije uspjelo transformirati string"
 #: src/sort.c:2115
 #, c-format
 msgid "the untransformed string was %s"
-msgstr ""
+msgstr "neprevedeni string je bio %s"
 
 #: src/sort.c:2278
 #, c-format
 msgid "^ no match for key\n"
-msgstr ""
+msgstr "^ nema podudaranja s ključem\n"
 
 #: src/sort.c:2450
 #, c-format
 msgid "obsolescent key %s used; consider %s instead"
-msgstr ""
+msgstr "navedeni je zastarjeli ključ %s; razmotrite upotrebu %s"
 
 #: src/sort.c:2457
 #, c-format
 msgid "key %lu has zero width and will be ignored"
-msgstr ""
+msgstr "ključ %lu ima širinu nula i ignorira se"
 
 #: src/sort.c:2466
 #, c-format
 msgid "leading blanks are significant in key %lu; consider also specifying 'b'"
-msgstr ""
+msgstr "vodeće bjeline su značajne u ključu %lu; možda trebate navesti i „b“"
 
 #: src/sort.c:2479
 #, c-format
 msgid "key %lu is numeric and spans multiple fields"
-msgstr ""
+msgstr "ključ %lu je numerički i obuhvaća nekoliko polja"
 
 #: src/sort.c:2511
 #, c-format
 msgid "option '-%s' is ignored"
 msgid_plural "options '-%s' are ignored"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "opcija „-%s“ je ignorirana"
+msgstr[1] "opcije „-%s“ su ignorirane"
+msgstr[2] "opcije „-%s“ su ignorirane"
 
 #: src/sort.c:2517
 #, c-format
 msgid "option '-r' only applies to last-resort comparison"
-msgstr ""
+msgstr "opcija „-r“ vrijedi samo za „last-resort“ usporedbu"
 
 #: src/sort.c:2791 src/sort.c:2800
 msgid "write failed"
@@ -8916,95 +9240,95 @@ msgstr "pisanje nije uspjelo"
 #: src/sort.c:2843
 #, c-format
 msgid "%s: %s:%s: disorder: "
-msgstr ""
+msgstr "%s: %s:%s: nevaljani redoslijed: "
 
 #: src/sort.c:2846
 msgid "standard error"
-msgstr ""
+msgstr "standardna greška"
 
 #: src/sort.c:3763
 msgid "cannot read"
-msgstr ""
+msgstr "čitanje nije moguće"
 
 #: src/sort.c:4042
 #, c-format
 msgid "%s: invalid field specification %s"
-msgstr ""
+msgstr "%s: nevaljana specifikacija polja %s"
 
 #: src/sort.c:4052
 #, c-format
 msgid "options '-%s' are incompatible"
-msgstr ""
+msgstr "opcije „-%s“ nisu kompatibilne"
 
 #: src/sort.c:4102
 #, c-format
 msgid "%s: invalid count at start of %s"
-msgstr ""
+msgstr "%s: nevaljani broj na početku %s"
 
 #: src/sort.c:4361
 msgid "invalid number after '-'"
-msgstr ""
+msgstr "nevaljani broj iza „-“"
 
 #: src/sort.c:4368 src/sort.c:4454 src/sort.c:4482
 msgid "invalid number after '.'"
-msgstr ""
+msgstr "nevaljani broj iza „.“"
 
 #: src/sort.c:4381 src/sort.c:4487
 msgid "stray character in field spec"
-msgstr ""
+msgstr "zalutali, suvišni znak u specifikaciji polja"
 
 #: src/sort.c:4428
 msgid "multiple compress programs specified"
-msgstr ""
+msgstr "navedeno je nekoliko programa za kompresiju"
 
 #: src/sort.c:4445
 msgid "invalid number at field start"
-msgstr ""
+msgstr "nevaljani broj na početku polja"
 
 #: src/sort.c:4449 src/sort.c:4477
 msgid "field number is zero"
-msgstr ""
+msgstr "broj polja je nula"
 
 #: src/sort.c:4458
 msgid "character offset is zero"
-msgstr ""
+msgstr "odmak znaka je nula"
 
 #: src/sort.c:4473
 msgid "invalid number after ','"
-msgstr ""
+msgstr "nevaljani broj iza „,“"
 
 #: src/sort.c:4523
 msgid "empty tab"
-msgstr ""
+msgstr "prazni tab(ulator)"
 
 #: src/sort.c:4606 src/wc.c:747
 #, c-format
 msgid "cannot read file names from %s"
-msgstr ""
+msgstr "nije moguće pročitati imena datoteka iz %s"
 
 #: src/sort.c:4628
 #, c-format
 msgid "%s:%lu: invalid zero-length file name"
-msgstr ""
+msgstr "%s:%lu: nevaljano ime datoteke (dužina nula)"
 
 #: src/sort.c:4634
 #, c-format
 msgid "no input from %s"
-msgstr ""
+msgstr "nema ulaza iz %s"
 
 #: src/sort.c:4687
 #, c-format
 msgid "using %s sorting rules"
-msgstr ""
+msgstr "koriste se %s pravila za sortiranje"
 
 #: src/sort.c:4690
 msgid "using simple byte comparison"
-msgstr ""
+msgstr "koristi se jednostavna usporedba bajtova"
 
 #: src/sort.c:4722
 #, c-format
 msgid "extra operand %s not allowed with -%c"
-msgstr ""
+msgstr "dodatni operator %s nije dopušten s -%c"
 
 #: src/split.c:209
 #, c-format
@@ -9014,13 +9338,16 @@ msgstr "dužina sufiksa mora biti najmanje %<PRIuMAX>"
 #: src/split.c:226
 #, c-format
 msgid "Usage: %s [OPTION]... [FILE [PREFIX]]\n"
-msgstr "Uporaba: %s [OPCIJA]... [DATOTEKA [PREFIKS]]\n"
+msgstr "Uporaba: %s [OPCIJA]... [ULAZ [PREFIKS]]\n"
 
 #: src/split.c:230
 msgid ""
 "Output pieces of FILE to PREFIXaa, PREFIXab, ...;\n"
 "default size is 1000 lines, and default PREFIX is 'x'.\n"
 msgstr ""
+"Iz ULAZA (datoteka) napravi izlazne datoteke fiksne veličine\n"
+"s imenima PREFIKSaa, PREFIKSab, ...;\n"
+"zadana veličina izlaznih datoteka je 1000 redaka, a zadani PREFIKS je „x“.\n"
 
 #: src/split.c:238
 #, c-format
@@ -9041,12 +9368,31 @@ msgid ""
 "                            '\\0' (zero) specifies the NUL character\n"
 "  -u, --unbuffered        immediately copy input to output with '-n r/...'\n"
 msgstr ""
+"  -a, --suffix-length=N   generira sufikse dužine N (zadano %d)\n"
+"      --additional-suffix=SUFIKS  pripoji dodatni SUFIKS imenima datoteka\n"
+"  -b, --bytes=VELIČINA    smjesti u svaku izlaznu datoteku VELIČINA bajtova\n"
+"  -C, --line-bytes=VELIČINA  smjesti u svaku izlaznu datoteku što više\n"
+"                            kompletnih redaka, ali ne više od VELIČINA bajtova\n"
+"  -d                      umjesto slova rabi numeričke sufikse počevši od 0\n"
+"      --numeric-suffixes[=OD]  isto kao -d, ali počevši od broja OD\n"
+"  -x                      umjesto slova rabi hex sufikse počevši od 0\n"
+"      --hex-suffixes[=OD]  isto kao -x, ali počevši od broja OD\n"
+"  -e, --elide-empty-files  ne generira prazne izlazne datoteke s „-n“\n"
+"      --filter=NAREDBA    piše izlaz kroz ljuskinu NAREDBU;\n"
+"                            ime datoteke je $FILE\n"
+"  -l, --lines=BROJ        smjesti BROJ redaka u svaku izlaznu datoteku\n"
+"  -n, --number=BLOKOVI    generira izlazne datoteke u BLOKOVIMA; v. niže\n"
+"  -t, --separator=SEP     umjesto novog retka za odvajanje rabi separator SEP;\n"
+"                            „\\0“ (nula) je NUL znak\n"
+"  -u, --unbuffered        s „-n r/...“ ulaz se odmah kopira na izlaz\n"
 
 #: src/split.c:256
 msgid ""
 "      --verbose           print a diagnostic just before each\n"
 "                            output file is opened\n"
 msgstr ""
+"      --verbose           ispiše dijagnostiku neposredno prije\n"
+"                            otvaranja svake izlazne datoteke\n"
 
 #: src/split.c:263
 msgid ""
@@ -9059,20 +9405,28 @@ msgid ""
 "  r/N     like 'l' but use round robin distribution\n"
 "  r/K/N   likewise but only output Kth of N to stdout\n"
 msgstr ""
+"\n"
+"BLOKOVI mogu biti:\n"
+"  N       podijeli u N datoteka na temelju veličine ulaza\n"
+"  K/N     ispiše samo K-ati od N na standardni izlaz\n"
+"  l/N     podijeli u N datoteka i ne lomi retke/zapise\n"
+"  l/K/N   ispiše samo K-ati od N na standardni izlaz i ne lomi retke/zapise\n"
+"  r/N     kao „l“ ali se rabi distribucija kružnim dodjeljivanjem\n"
+"  r/K/N   kao gore, ali ispiše samo K-ati od N na standardni izlaz\n"
 
 #: src/split.c:450
 msgid "output file suffixes exhausted"
-msgstr ""
+msgstr "sufiksi za izlazne datoteke su potrošeni"
 
 #: src/split.c:462
 #, c-format
 msgid "creating file %s\n"
-msgstr ""
+msgstr "kreiranje datoteke %s\n"
 
 #: src/split.c:471
 #, c-format
 msgid "%s would overwrite input; aborting"
-msgstr ""
+msgstr "%s bi prepisao ulaz -- operacija se prekida"
 
 #: src/split.c:487
 msgid "failed to set FILE environment variable"
@@ -9081,7 +9435,7 @@ msgstr "postavljanje varijable okoline FILE nije uspjelo"
 #: src/split.c:489
 #, c-format
 msgid "executing with FILE=%s\n"
-msgstr ""
+msgstr "izvršavanje s FILE=%s\n"
 
 #: src/split.c:491
 msgid "failed to create pipe"
@@ -9089,19 +9443,19 @@ msgstr "stvaranje cijevi nije uspjelo"
 
 #: src/split.c:505
 msgid "closing prior pipe"
-msgstr ""
+msgstr "zatvara se prethodna cijev"
 
 #: src/split.c:507
 msgid "closing output pipe"
-msgstr ""
+msgstr "zatvara se izlazna cijev"
 
 #: src/split.c:511
 msgid "moving input pipe"
-msgstr ""
+msgstr "premješta se ulazna cijev"
 
 #: src/split.c:513
 msgid "closing input pipe"
-msgstr ""
+msgstr "zatvara se ulazna cijev"
 
 #: src/split.c:518
 #, c-format
@@ -9114,35 +9468,35 @@ msgstr "zatvaranje ulazne cijevi nije uspjelo"
 
 #: src/split.c:560
 msgid "waiting for child process"
-msgstr ""
+msgstr "čeka se na proces potomka (child process)"
 
 #: src/split.c:570
 #, c-format
 msgid "with FILE=%s, signal %s from command: %s"
-msgstr ""
+msgstr "s FILE=%s, signal %s iz naredbe: %s"
 
 #: src/split.c:578
 #, c-format
 msgid "with FILE=%s, exit %d from command: %s"
-msgstr ""
+msgstr "s FILE=%s, završava s kodom %d iz naredbe: %s"
 
 #: src/split.c:585
 #, c-format
 msgid "unknown status from command (0x%X)"
-msgstr ""
+msgstr "nepoznati povratni kod naredbe (0x%X)"
 
 #: src/split.c:1273
 #, c-format
 msgid "cannot split in more than one way"
-msgstr ""
+msgstr "datoteku nije moguće razdijeliti na nekoliko načina"
 
 #: src/split.c:1285 src/split.c:1400 src/split.c:1601
 msgid "invalid number of chunks"
-msgstr "nevaljani broj komada, chunks"
+msgstr "nevaljani broj blokova"
 
 #: src/split.c:1290
 msgid "invalid chunk number"
-msgstr "nevaljani komad(ni) broj, chunk number"
+msgstr "nevaljani broj bloka"
 
 #: src/split.c:1337
 msgid "invalid suffix length"
@@ -9150,55 +9504,55 @@ msgstr "nevaljana dužina sufiksa"
 
 #: src/split.c:1411
 msgid "empty record separator"
-msgstr ""
+msgstr "prazni separator za odvajanje zapisa"
 
 #: src/split.c:1422
 #, c-format
 msgid "multi-character separator %s"
-msgstr ""
+msgstr "nekoliko znakova u separatoru %s"
 
 #: src/split.c:1430
 msgid "multiple separator characters specified"
-msgstr ""
+msgstr "navedeno je nekoliko znakova za separator"
 
 #: src/split.c:1461
 #, c-format
 msgid "line count option -%s%c... is too large"
-msgstr ""
+msgstr "opcija za broj retka -%s%c... je prevelika"
 
 #: src/split.c:1478
 #, c-format
 msgid "%s: invalid start value for numerical suffix"
-msgstr ""
+msgstr "%s: nevaljana početna vrijednost za numerički sufiks"
 
 #: src/split.c:1479
 #, c-format
 msgid "%s: invalid start value for hexadecimal suffix"
-msgstr ""
+msgstr "%s: nevaljana početna vrijednost za heksadecimalni sufiks"
 
 #: src/split.c:1503
 msgid "invalid IO block size"
-msgstr "nevaljana UI (IO) veličina bloka"
+msgstr "nevaljana U/I veličina bloka"
 
 #: src/split.c:1521
 #, c-format
 msgid "--filter does not process a chunk extracted to stdout"
-msgstr ""
+msgstr "opcija --filter ne obrađuje blok na standardnom izlazu"
 
 #: src/split.c:1561
 #, c-format
 msgid "numerical suffix start value is too large for the suffix length"
-msgstr ""
+msgstr "početna vrijednost numeričkog sufiksa je prevelika za dužinu sufiksa"
 
 #: src/split.c:1593
 #, c-format
 msgid "%s: cannot determine file size"
-msgstr ""
+msgstr "%s: nije moguće odrediti veličinu datoteke"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/stat.c:190
 msgid "Michael Meskes"
-msgstr ""
+msgstr "Michael Meskes"
 
 #: src/stat.c:949
 #, c-format
@@ -9208,32 +9562,32 @@ msgstr "nije uspjelo kanonizirati %s"
 #: src/stat.c:1217
 #, c-format
 msgid "warning: unrecognized escape '\\%c'"
-msgstr ""
+msgstr "upozorenje: neprepoznata kontrolna sekvencija „\\%c“"
 
 #: src/stat.c:1272
 #, c-format
 msgid "%s: invalid directive"
-msgstr ""
+msgstr "%s: nevaljana direktiva"
 
 #: src/stat.c:1319
 #, c-format
 msgid "warning: backslash at end of format"
-msgstr ""
+msgstr "upozorenje: obratna kosa crta na kraju formata"
 
 #: src/stat.c:1350
 #, c-format
 msgid "using %s to denote standard input does not work in file system mode"
-msgstr ""
+msgstr "korištenje %s za označiti standardni ulaz ne radi u modu datotečnog sustava"
 
 #: src/stat.c:1357
 #, c-format
 msgid "cannot read file system information for %s"
-msgstr ""
+msgstr "nije moguće pročitati informaciju datotečnog sustava za %s"
 
 #: src/stat.c:1378
 #, c-format
 msgid "cannot stat standard input"
-msgstr ""
+msgstr "nije uspjelo primijeniti stat na standardni ulaz"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' with --file-system, and NOT from printf.
@@ -9258,6 +9612,8 @@ msgid ""
 "  File: %N\n"
 "  Size: %-10s\tBlocks: %-10b IO Block: %-6o %F\n"
 msgstr ""
+"   Datoteka: %N\n"
+"   Veličina: %-10s\tBlokova: %-10b U/I Blok: %-6o %F\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
@@ -9269,20 +9625,20 @@ msgstr "Uređaj: %Dh/%dd\tInode: %-10i  Veze: %-5h Vrsta uređaja: %t,%T\n"
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1453
 msgid "Device: %Dh/%dd\tInode: %-10i  Links: %h\n"
-msgstr "Uređaj: %Dh/%dd\tInode: %-10i  Veze: %h\n"
+msgstr "     Uređaj: %Dh/%dd\tInode: %-10i  Veze: %h\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1462
 msgid "Access: (%04a/%10.10A)  Uid: (%5u/%8U)   Gid: (%5g/%8G)\n"
-msgstr "Pristup: (%04a/%10.10A)  UID: (%5u/%8U)   GID: (%5g/%8G)\n"
+msgstr "      Prava: (%04a/%10.10A)  UID: (%5u/%8U)   GID: (%5g/%8G)\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1472
 #, c-format
 msgid "Context: %C\n"
-msgstr ""
+msgstr "     Kontekst: %C\n"
 
 #: src/stat.c:1480
 msgid ""
@@ -9291,16 +9647,22 @@ msgid ""
 "Change: %z\n"
 " Birth: %w\n"
 msgstr ""
+"    Pristup: %x\n"
+" Izmijenjen: %y\n"
+"Meta mijena: %z\n"
+"    Stvoren: %w\n"
 
 #: src/stat.c:1498
 msgid "Display file or file system status.\n"
-msgstr ""
+msgstr "Prikaže status datoteke ili datotečnog sustava.\n"
 
 #: src/stat.c:1504
 msgid ""
 "  -L, --dereference     follow links\n"
 "  -f, --file-system     display file system status instead of file status\n"
 msgstr ""
+"  -L, --dereference     slijedi simboličke veze\n"
+"  -f, --file-system     status datotečnog sustava umjesto datoteke\n"
 
 #: src/stat.c:1508
 msgid ""
@@ -9311,6 +9673,12 @@ msgid ""
 "                          if you want a newline, include \\n in FORMAT\n"
 "  -t, --terse           print the information in terse form\n"
 msgstr ""
+"  -c  --format=FORMAT   rabi ovaj FORMAT umjesto zadanog formata;\n"
+"                          doda novi redak nakon svake upotrebe FORMATA\n"
+"      --printf=FORMAT   kao --format, ali interpretira kontrolne sekvencije\n"
+"                          i ne dodaje novi redak nakon FORMATA;\n"
+"                          ako želite novi redak, navedite \\n u FORMATU\n"
+"  -t, --terse           daje informacije u sažetom obliku\n"
 
 #: src/stat.c:1519
 msgid ""
@@ -9323,6 +9691,14 @@ msgid ""
 "  %B   the size in bytes of each block reported by %b\n"
 "  %C   SELinux security context string\n"
 msgstr ""
+"\n"
+"Dopuštene sekvencije formata za datoteke (bez --file-system):\n"
+"\n"
+"  %a   prava pristupa u oktalnom obliku; pazite na '#' i '0' printf zastavice\n"
+"  %A   prava pristupa u čitljivom obliku\n"
+"  %b   broj dodijeljenih blokova (vidite niže %B)\n"
+"  %B   veličina blokova od %b u bajtovima\n"
+"  %C   string SELinux sigurnosnog konteksta\n"
 
 #: src/stat.c:1528
 msgid ""
@@ -9333,6 +9709,12 @@ msgid ""
 "  %g   group ID of owner\n"
 "  %G   group name of owner\n"
 msgstr ""
+"  %d   broj uređaja, decimalni\n"
+"  %D   broj uređaja, heksadecimalni\n"
+"  %f   „sirovi“ kod (st_mode; prava i vrsta), heksadecimalni\n"
+"  %F   vrsta datoteke\n"
+"  %g   ID grupe vlasnika\n"
+"  %G   ime grupe vlasnika\n"
 
 #: src/stat.c:1536
 msgid ""
@@ -9370,6 +9752,17 @@ msgid ""
 "  %Z   time of last status change, seconds since Epoch\n"
 "\n"
 msgstr ""
+"  %u   korisnički ID vlasnika\n"
+"  %U   korisničko ime vlasnika\n"
+"  %w   vrijeme stvaranja datoteke; - ako je nepoznato\n"
+"  %W   vrijeme stvaranja datoteke, u sekundama od Epohe; 0 ako je nepoznato\n"
+"  %x   vrijeme posljednjeg pristupa\n"
+"  %X   vrijeme posljednjeg pristupa u sekundama od Epohe\n"
+"  %y   vrijeme posljednje izmjene\n"
+"  %Y   vrijeme posljednje izmjene u sekundama od Epohe\n"
+"  %z   vrijeme posljednje izmjene statusa\n"
+"  %Z   vrijeme posljednje izmjene statusa u sekundama od Epohe\n"
+"\n"
 
 #: src/stat.c:1561
 msgid ""
@@ -9381,6 +9774,13 @@ msgid ""
 "  %d   free file nodes in file system\n"
 "  %f   free blocks in file system\n"
 msgstr ""
+"Dopuštene sekvencije formata za datotečne sustave:\n"
+"\n"
+"  %a   slobodni blokovi dostupni običnom korisniku (non-superuser)\n"
+"  %b   sveukupni broj blokova u datotečnom sustavu\n"
+"  %c   sveukupni broj inodeova u datotečnom sustavu\n"
+"  %d   slobodni inodeovi u datotečnom sustavu\n"
+"  %f   slobodni blokovi u datotečnom sustavu\n"
 
 #: src/stat.c:1570
 msgid ""
@@ -9392,6 +9792,13 @@ msgid ""
 "  %t   file system type in hex\n"
 "  %T   file system type in human readable form\n"
 msgstr ""
+"  %i   ID datotečnog sustava, heksadecimalni\n"
+"  %l   maksimalna dužina imena datoteka\n"
+"  %n   ime datoteke\n"
+"  %s   optimalna veličina bloka (za brži prijenos)\n"
+"  %S   veličina osnovnoga bloka (za brojenje blokova)\n"
+"  %t   vrsta datotečnog sustava, heksadecimalni\n"
+"  %T   vrsta datotečnog sustava u čitljivom obliku\n"
 
 #: src/stat.c:1580
 #, c-format
@@ -9400,6 +9807,9 @@ msgid ""
 "--terse is equivalent to the following FORMAT:\n"
 "    %s"
 msgstr ""
+"\n"
+"--terse je isto kao FORMAT:\n"
+"    %s"
 
 #: src/stat.c:1591
 #, c-format
@@ -9407,15 +9817,19 @@ msgid ""
 "--terse --file-system is equivalent to the following FORMAT:\n"
 "    %s"
 msgstr ""
+"--terse --file-system je isto kao FORMAT:\n"
+"    %s"
 
 #: src/stdbuf.c:91
 #, c-format
 msgid "Usage: %s OPTION... COMMAND\n"
-msgstr ""
+msgstr "Uporaba: %s OPCIJA... NAREDBA\n"
 
 #: src/stdbuf.c:92
 msgid "Run COMMAND, with modified buffering operations for its standard streams.\n"
 msgstr ""
+"Pokrene NAREDBU s prilagođenim međuspremnikom za operacije sa\n"
+"standardnim potocima (U/I operacije).\n"
 
 #: src/stdbuf.c:98
 msgid ""
@@ -9423,6 +9837,9 @@ msgid ""
 "  -o, --output=MODE  adjust standard output stream buffering\n"
 "  -e, --error=MODE   adjust standard error stream buffering\n"
 msgstr ""
+"  -i, --input=MOD   prilagodi međuspremnik standardnog ulaza\n"
+"  -o, --output=MOD  prilagodi međuspremnik standardnog izlaza\n"
+"  -e, --error=MOD   prilagodi međuspremnik standardne greške\n"
 
 #: src/stdbuf.c:105
 msgid ""
@@ -9430,12 +9847,17 @@ msgid ""
 "If MODE is 'L' the corresponding stream will be line buffered.\n"
 "This option is invalid with standard input.\n"
 msgstr ""
+"\n"
+"Ako je MOD „L“, međuspremanje za korespondentni potok je po redcima\n"
+"Ova opcija nije valjana za standardni ulaz.\n"
 
 #: src/stdbuf.c:108
 msgid ""
 "\n"
 "If MODE is '0' the corresponding stream will be unbuffered.\n"
 msgstr ""
+"\n"
+"Ako je MOD „0“, korespondentni potok nema međuspremnik.\n"
 
 #: src/stdbuf.c:111
 msgid ""
@@ -9445,6 +9867,11 @@ msgid ""
 "In this case the corresponding stream will be fully buffered with the buffer\n"
 "size set to MODE bytes.\n"
 msgstr ""
+"\n"
+"Inače, MOD je broj iza kojega možete dopisati jedan od sljedećih sufiksa:\n"
+"KB = 1000, K = 1024, MB = 1000*1000, M = 1024*1024, itd. za G, T, P, E, Z, Y.\n"
+"U tom slučaju korespondentni potok će imati na raspolaganju međuspremnik\n"
+"veličine MOD bajtova.\n"
 
 #: src/stdbuf.c:117
 msgid ""
@@ -9454,6 +9881,11 @@ msgid ""
 "Also some filters (like 'dd' and 'cat' etc.) don't use streams for I/O,\n"
 "and are thus unaffected by 'stdbuf' settings.\n"
 msgstr ""
+"\n"
+"NAPOMENA: Ako sama NAREDBA prilagođuje svoje potoke (kao npr. „tee“), onda\n"
+"korespondentne postavke „stdbuf“ nemaju učinka. Osim toga, neki filtri\n"
+"(kao „dd“, „cat“, itd.) uopće ne koristi potoke za svoje U/I operacije, pa\n"
+"prema tome postavke „stdbuf“ nemaju utjecaja na njih.\n"
 
 #: src/stdbuf.c:242
 #, c-format
@@ -9468,12 +9900,12 @@ msgstr "nije uspjelo ažurirati okolinu s %s"
 #: src/stdbuf.c:345
 #, c-format
 msgid "line buffering stdin is meaningless"
-msgstr ""
+msgstr "međuspremanje po redcima nema smisla za standardni ulaz"
 
 #: src/stdbuf.c:376
 #, c-format
 msgid "you must specify a buffering mode option"
-msgstr ""
+msgstr "morate navesti opciju za mod međuspremanja"
 
 #: src/stty.c:531
 #, c-format
@@ -9482,10 +9914,13 @@ msgid ""
 "  or:  %s [-F DEVICE | --file=DEVICE] [-a|--all]\n"
 "  or:  %s [-F DEVICE | --file=DEVICE] [-g|--save]\n"
 msgstr ""
+"Uporaba: %s [-F UREĐAJ | --file=UREĐAJ] [POSTAVKE]...\n"
+"   ili:  %s [-F UREĐAJ | --file=UREĐAJ] [-a|--all]\n"
+"   ili:  %s [-F UREĐAJ | --file=UREĐAJ] [-g|--save]\n"
 
 #: src/stty.c:537
 msgid "Print or change terminal characteristics.\n"
-msgstr ""
+msgstr "Ispiše ili promijeni svojstva terminala.\n"
 
 #: src/stty.c:543
 msgid ""
@@ -9493,6 +9928,9 @@ msgid ""
 "  -g, --save         print all current settings in a stty-readable form\n"
 "  -F, --file=DEVICE  open and use the specified DEVICE instead of stdin\n"
 msgstr ""
+"  -a, --all          sve trenutačne postavke u čitljivom obliku\n"
+"  -g, --save         sve trenutačne postavke u stty obliku\n"
+"  -F, --file=UREĐAJ  otvori i rabi specificirani UREĐAJ umjesto stdin\n"
 
 #: src/stty.c:550
 msgid ""
@@ -9500,30 +9938,37 @@ msgid ""
 "Optional - before SETTING indicates negation.  An * marks non-POSIX\n"
 "settings.  The underlying system defines which settings are available.\n"
 msgstr ""
+"\n"
+"Neobvezni „-“ ispred POSTAVKE znači negaciju. Znak „*“ naznačuje postavke\n"
+"kojih nema u POSIX-u. Sustavom koji se koristi određene su dostupne postavke.\n"
 
 #: src/stty.c:555
 msgid ""
 "\n"
 "Special characters:\n"
 msgstr ""
+"\n"
+"Specijalni znakovi:\n"
 
 #: src/stty.c:559
 msgid " * discard CHAR  CHAR will toggle discarding of output\n"
-msgstr ""
+msgstr " * discard ZNAK  ZNAK će aktivirati odbacivanje izlaza\n"
 
 #: src/stty.c:564
 msgid " * dsusp CHAR    CHAR will send a terminal stop signal once input flushed\n"
-msgstr ""
+msgstr " * dsusp ZNAK  ZNAK će poslati stop signal terminala kad se ulaz isprazni \n"
 
 #: src/stty.c:568
 msgid ""
 "   eof CHAR      CHAR will send an end of file (terminate the input)\n"
 "   eol CHAR      CHAR will end the line\n"
 msgstr ""
+"   eof ZNAK      ZNAK će označiti kraj datoteke (zaustavi ulaz)\n"
+"   eol ZNAK      ZNAK će označiti kraj retka\n"
 
 #: src/stty.c:573
 msgid " * eol2 CHAR     alternate CHAR for ending the line\n"
-msgstr ""
+msgstr " * eol2 ZNAK     alternativni ZNAK za označavanje kraja retka\n"
 
 #: src/stty.c:577
 msgid ""
@@ -9531,22 +9976,25 @@ msgid ""
 "   intr CHAR     CHAR will send an interrupt signal\n"
 "   kill CHAR     CHAR will erase the current line\n"
 msgstr ""
+"   erase ZNAK    ZNAK će izbrisati posljednji utipkani znak\n"
+"   intr ZNAK     ZNAK će poslati prekidni signal\n"
+"   kill ZNAK     ZNAK će izbrisati trenutačni redak\n"
 
 #: src/stty.c:583
 msgid " * lnext CHAR    CHAR will enter the next character quoted\n"
-msgstr ""
+msgstr " * lnext ZNAK    ZNAK će citirati sljedeći znak\n"
 
 #: src/stty.c:588
 msgid " * status CHAR   CHAR will send an info signal\n"
-msgstr ""
+msgstr " * status ZNAK   ZNAK će poslati info signal\n"
 
 #: src/stty.c:592
 msgid "   quit CHAR     CHAR will send a quit signal\n"
-msgstr ""
+msgstr "   quit ZNAK     ZNAK će poslati quit signal\n"
 
 #: src/stty.c:596
 msgid " * rprnt CHAR    CHAR will redraw the current line\n"
-msgstr ""
+msgstr " * rprnt ZNAK    ZNAK će osvježiti trenutačni redak\n"
 
 #: src/stty.c:600
 msgid ""
@@ -9554,14 +10002,17 @@ msgid ""
 "   stop CHAR     CHAR will stop the output\n"
 "   susp CHAR     CHAR will send a terminal stop signal\n"
 msgstr ""
+"   start ZNAK    ZNAK će ponovno pokrene izlaz nakon što ga je zaustavio\n"
+"   stop ZNAK     ZNAK će zaustaviti izlaz\n"
+"   susp ZNAK     ZNAK će poslati stop signal terminala\n"
 
 #: src/stty.c:606
 msgid " * swtch CHAR    CHAR will switch to a different shell layer\n"
-msgstr ""
+msgstr " * swtch ZNAK    ZNAK će se prebaciti na drugačiju razinu ljuske\n"
 
 #: src/stty.c:611
 msgid " * werase CHAR   CHAR will erase the last word typed\n"
-msgstr ""
+msgstr " * werase ZNAK   ZNAK će izbrisati posljednju utipkanu riječ\n"
 
 #: src/stty.c:615
 msgid ""
@@ -9569,51 +10020,65 @@ msgid ""
 "Special settings:\n"
 "   N             set the input and output speeds to N bauds\n"
 msgstr ""
+"\n"
+"Specijalne postavke:\n"
+"   N             postavi ulaznu i izlaznu brzinu na N boda (bita u sekundi)\n"
 
 #: src/stty.c:621
 msgid ""
 " * cols N        tell the kernel that the terminal has N columns\n"
 " * columns N     same as cols N\n"
 msgstr ""
+" * cols N        objavi jezgri da terminal ima N stupaca\n"
+" * columns N     isto kao cols N\n"
 
 #: src/stty.c:626
 #, c-format
 msgid " * [-]drain      wait for transmission before applying settings (%s by default)\n"
 msgstr ""
+" * [-]drain      čeka na prijenos prije nego primijeni postavke\n"
+"                   (zadano: %s)\n"
 
 #: src/stty.c:628
 msgid "on"
-msgstr ""
+msgstr "uključeno"
 
 #: src/stty.c:628
 msgid "off"
-msgstr ""
+msgstr "isključeno"
 
 #: src/stty.c:629
 msgid "   ispeed N      set the input speed to N\n"
-msgstr ""
+msgstr "   ispeed N      postavi ulaznu brzinu na N\n"
 
 #: src/stty.c:633
 msgid " * line N        use line discipline N\n"
-msgstr ""
+msgstr " * line N        rabi „line discipline“ N \n"
 
 #: src/stty.c:637
 msgid ""
 "   min N         with -icanon, set N characters minimum for a completed read\n"
 "   ospeed N      set the output speed to N\n"
 msgstr ""
+"   min N         s -icanon, N je minimalni broj znakova za\n"
+"                   kompletiranje čitanja\n"
+"   ospeed N      postavi izlaznu brzinu na N\n"
 
 #: src/stty.c:642
 msgid ""
 " * rows N        tell the kernel that the terminal has N rows\n"
 " * size          print the number of rows and columns according to the kernel\n"
 msgstr ""
+" * rows N        objavi jezgri da terminal ima N redaka\n"
+" * size          ispiše broj redaka i stupaca prema jezgri\n"
 
 #: src/stty.c:647
 msgid ""
 "   speed         print the terminal speed\n"
 "   time N        with -icanon, set read timeout of N tenths of a second\n"
 msgstr ""
+"   speed         ispiše brzinu terminala\n"
+"   time N        s -icanon, postavi tajmaut za čitanje na N desetinka\n"
 
 #: src/stty.c:651
 msgid ""
@@ -9622,18 +10087,22 @@ msgid ""
 "   [-]clocal     disable modem control signals\n"
 "   [-]cread      allow input to be received\n"
 msgstr ""
+"\n"
+"Kontrolne postavke:\n"
+"   [-]clocal     onemogući kontrolne signale modema (ignorira ih)\n"
+"   [-]cread      dopusti prijem ulaza\n"
 
 #: src/stty.c:658
 msgid " * [-]crtscts    enable RTS/CTS handshaking\n"
-msgstr ""
+msgstr " * [-]crtscts    omogući RTS/CTS handshaking\n"
 
 #: src/stty.c:663
 msgid " * [-]cdtrdsr    enable DTR/DSR handshaking\n"
-msgstr ""
+msgstr " * [-]cdtrdsr    omogući DTR/DSR handshaking\n"
 
 #: src/stty.c:667
 msgid "   csN           set character size to N bits, N in [5..8]\n"
-msgstr ""
+msgstr "   csN           postavi veličinu znaka na N bita, N u [5..8]\n"
 
 #: src/stty.c:670
 msgid ""
@@ -9643,10 +10112,16 @@ msgid ""
 "   [-]parenb     generate parity bit in output and expect parity bit in input\n"
 "   [-]parodd     set odd parity (or even parity with '-')\n"
 msgstr ""
+"   [-]cstopb     rabi dva stop bita po znaku (jedan s „-“)\n"
+"   [-]hup        pošalje hangup signal kad zadnji proces zatvori tty\n"
+"   [-]hupcl      isto kao [-]hup\n"
+"   [-]parenb     generira paritetni bit na izlazu i očekuje\n"
+"                   paritetni bit na ulazu\n"
+"   [-]parodd     postavi neparni paritet (ili parni s „-“)\n"
 
 #: src/stty.c:678
 msgid " * [-]cmspar     use \"stick\" (mark/space) parity\n"
-msgstr ""
+msgstr " * [-]cmspar     rabi \"stick\" paritet (mark/space)\n"
 
 #: src/stty.c:682
 msgid ""
@@ -9658,10 +10133,17 @@ msgid ""
 "   [-]igncr      ignore carriage return\n"
 "   [-]ignpar     ignore characters with parity errors\n"
 msgstr ""
+"\n"
+"Postavke ulaza:\n"
+"   [-]brkint     break uzrokuje prekidni signal\n"
+"   [-]icrnl      CR znak (početak retka) prevede u LF (novi redak)\n"
+"   [-]ignbrk     ignorira break signal\n"
+"   [-]igncr      ignorira CR znak (početak retka)\n"
+"   [-]ignpar     ignorira znakove s greškama pariteta\n"
 
 #: src/stty.c:692
 msgid " * [-]imaxbel    beep and do not flush a full input buffer on a character\n"
-msgstr ""
+msgstr " * [-]imaxbel    zvučni signal i ne prazni puni ulazni međuspremnik na znak\n"
 
 #: src/stty.c:696
 msgid ""
@@ -9669,18 +10151,21 @@ msgid ""
 "   [-]inpck      enable input parity checking\n"
 "   [-]istrip     clear high (8th) bit of input characters\n"
 msgstr ""
+"   [-]inlcr      prevede LF (novi redak) u CR (na početak retka)\n"
+"   [-]inpck      omogući provjeru ulaznog pariteta\n"
+"   [-]istrip     očisti visoki (8.) bit iz ulaznih znakova\n"
 
 #: src/stty.c:702
 msgid " * [-]iutf8      assume input characters are UTF-8 encoded\n"
-msgstr ""
+msgstr " * [-]iutf8      pretpostavi da su ulazni znakovi UTF-8 kodirani\n"
 
 #: src/stty.c:707
 msgid " * [-]iuclc      translate uppercase characters to lowercase\n"
-msgstr ""
+msgstr " * [-]iuclc      pretvori velika slova u mala\n"
 
 #: src/stty.c:712
 msgid " * [-]ixany      let any character restart output, not only start character\n"
-msgstr ""
+msgstr " * [-]ixany      dopusti bilo kojem znaku ponovno pokrenuti izlaz\n"
 
 #: src/stty.c:716
 msgid ""
@@ -9689,60 +10174,66 @@ msgid ""
 "   [-]parmrk     mark parity errors (with a 255-0-character sequence)\n"
 "   [-]tandem     same as [-]ixoff\n"
 msgstr ""
+"   [-]ixoff      omogući slanje start/stop znakova\n"
+"   [-]ixon       omogući XON/XOFF kontrolu toka\n"
+"   [-]parmrk     označi greške u paritetu (255-0-znak sekvencija)\n"
+"   [-]tandem     isto kao [-]ixoff\n"
 
 #: src/stty.c:722
 msgid ""
 "\n"
 "Output settings:\n"
 msgstr ""
+"\n"
+"Postavke izlaza:\n"
 
 #: src/stty.c:727
 msgid " * bsN           backspace delay style, N in [0..1]\n"
-msgstr ""
+msgstr " * bsN           način čekanja na backspace, N u [0..1]\n"
 
 #: src/stty.c:732
 msgid " * crN           carriage return delay style, N in [0..3]\n"
-msgstr ""
+msgstr " * crN           način čekanja na CR (početak retka), N u [0..3]\n"
 
 #: src/stty.c:737
 msgid " * ffN           form feed delay style, N in [0..1]\n"
-msgstr ""
+msgstr " * ffN           način čekanja na FF (nova stranica), N u [0..1]\n"
 
 #: src/stty.c:742
 msgid " * nlN           newline delay style, N in [0..1]\n"
-msgstr ""
+msgstr " * nlN           način čekanja na LF (novi redak), N u [0..1]\n"
 
 #: src/stty.c:747
 msgid " * [-]ocrnl      translate carriage return to newline\n"
-msgstr ""
+msgstr " * [-]ocrnl      prevede CR (početak retka) u LF (novi redak)\n"
 
 #: src/stty.c:752
 msgid " * [-]ofdel      use delete characters for fill instead of NUL characters\n"
-msgstr ""
+msgstr " * [-]ofdel      za popunu koristi DEL znak, umjesto NUL znaka\n"
 
 #: src/stty.c:757
 msgid " * [-]ofill      use fill (padding) characters instead of timing for delays\n"
-msgstr ""
+msgstr " * [-]ofill      rabi znakove za dopunu umjesto čekanja\n"
 
 #: src/stty.c:762
 msgid " * [-]olcuc      translate lowercase characters to uppercase\n"
-msgstr ""
+msgstr " * [-]olcuc      pretvori mala slova u velika\n"
 
 #: src/stty.c:767
 msgid " * [-]onlcr      translate newline to carriage return-newline\n"
-msgstr ""
+msgstr " * [-]onlcr      prevede LF (novi redak) u CR-LF\n"
 
 #: src/stty.c:772
 msgid " * [-]onlret     newline performs a carriage return\n"
-msgstr ""
+msgstr " * [-]onlret     LF (novi redak) funkcionira kao CR (početak retka)\n"
 
 #: src/stty.c:777
 msgid " * [-]onocr      do not print carriage returns in the first column\n"
-msgstr ""
+msgstr " * [-]onocr      bez CR u prvom stupcu\n"
 
 #: src/stty.c:781
 msgid "   [-]opost      postprocess output\n"
-msgstr ""
+msgstr "   [-]opost      završni izlaz\n"
 
 #: src/stty.c:785
 msgid ""
@@ -9750,10 +10241,13 @@ msgid ""
 " * tabs          same as tab0\n"
 " * -tabs         same as tab3\n"
 msgstr ""
+" * tabN          način čekanja na horizontalni tab, N u [0..3]\n"
+" * tabs          isto kao tab0\n"
+" * -tabs         isto kao tab3\n"
 
 #: src/stty.c:792
 msgid " * vtN           vertical tab delay style, N in [0..1]\n"
-msgstr ""
+msgstr " * vtN           način čekanja na vertikalni tab, N u [0..1]\n"
 
 #: src/stty.c:796
 msgid ""
@@ -9761,50 +10255,57 @@ msgid ""
 "Local settings:\n"
 "   [-]crterase   echo erase characters as backspace-space-backspace\n"
 msgstr ""
+"\n"
+"Lokalne postavke:\n"
+"   [-]crterase   odjekne erase znak kao backspace-space-backspace\n"
 
 #: src/stty.c:802
 msgid ""
 " * crtkill       kill all line by obeying the echoprt and echoe settings\n"
 " * -crtkill      kill all line by obeying the echoctl and echok settings\n"
 msgstr ""
+" * crtkill       izbriše sve retke prema echoprt i echoe postavkama\n"
+" * -crtkill      izbriše sve retke prema echoctl i echok postavkama\n"
 
 #: src/stty.c:808
 msgid " * [-]ctlecho    echo control characters in hat notation ('^c')\n"
-msgstr ""
+msgstr " * [-]ctlecho    odjekne kontrolne znakove u ovakvoj notaciji „^c“\n"
 
 #: src/stty.c:812
 msgid "   [-]echo       echo input characters\n"
-msgstr ""
+msgstr "   [-]echo       odjekne sve ulazne znakove\n"
 
 #: src/stty.c:816
 msgid " * [-]echoctl    same as [-]ctlecho\n"
-msgstr ""
+msgstr " * [-]echoctl    isto kao [-]ctlecho\n"
 
 #: src/stty.c:820
 msgid ""
 "   [-]echoe      same as [-]crterase\n"
 "   [-]echok      echo a newline after a kill character\n"
 msgstr ""
+"   [-]echoe      isto kao [-]crterase\n"
+"   [-]echok      odjekne novi redak nakon kill znaka\n"
 
 #: src/stty.c:825
 msgid " * [-]echoke     same as [-]crtkill\n"
-msgstr ""
+msgstr " * [-]echoke     isto kao [-]crtkill\n"
 
 #: src/stty.c:829
 msgid "   [-]echonl     echo newline even if not echoing other characters\n"
-msgstr ""
+msgstr "   [-]echonl     odjekne novi redak čak ako ne odjekne ostale znakove\n"
 
 #: src/stty.c:833
 msgid " * [-]echoprt    echo erased characters backward, between '\\' and '/'\n"
-msgstr ""
+msgstr " * [-]echoprt    odjekne izbrisani znak unatrag, između „\\“ i „/“\n"
 
 #: src/stty.c:838
 msgid " * [-]extproc    enable \"LINEMODE\"; useful with high latency links\n"
-msgstr ""
+msgstr " * [-]extproc    omogući „LINEMODE“; korisno za veze s velikim zadrškom\n"
 
 #: src/stty.c:843
 msgid " * [-]flusho     discard output\n"
-msgstr ""
+msgstr " * [-]flusho     odbaci izlaz\n"
 
 #: src/stty.c:847
 #, c-format
@@ -9812,40 +10313,49 @@ msgid ""
 "   [-]icanon     enable special characters: %s\n"
 "   [-]iexten     enable non-POSIX special characters\n"
 msgstr ""
+"   [-]icanon     omogući specijalne znakove: %s\n"
+"   [-]iexten     omogući non-POSIX specijalne znakove\n"
 
 #: src/stty.c:858
 msgid ""
 "   [-]isig       enable interrupt, quit, and suspend special characters\n"
 "   [-]noflsh     disable flushing after interrupt and quit special characters\n"
 msgstr ""
+"   [-]isig       omogući specijalne znakove za prekid, završetak, i obustavu\n"
+"   [-]noflsh     onemogući prazniti nakon prekida i specijalnog znaka\n"
+"                    završetka\n"
 
 #: src/stty.c:863
 msgid " * [-]prterase   same as [-]echoprt\n"
-msgstr ""
+msgstr " * [-]prterase   isto kao [-]echoprt\n"
 
 #: src/stty.c:868
 msgid " * [-]tostop     stop background jobs that try to write to the terminal\n"
-msgstr ""
+msgstr " * [-]tostop     zaustavi pozadinske procese koji pokušavaju pisati u terminal\n"
 
 #: src/stty.c:873
 msgid " * [-]xcase      with icanon, escape with '\\' for uppercase characters\n"
-msgstr ""
+msgstr " * [-]xcase      s icanon, escape s „\\“ za velika slova\n"
 
 #: src/stty.c:877
 msgid ""
 "\n"
 "Combination settings:\n"
 msgstr ""
+"\n"
+"Kombinirane postavke:\n"
 
 #: src/stty.c:882
 msgid " * [-]LCASE      same as [-]lcase\n"
-msgstr ""
+msgstr " * [-]LCASE      isto kao [-]lcase\n"
 
 #: src/stty.c:886
 msgid ""
 "   cbreak        same as -icanon\n"
 "   -cbreak       same as icanon\n"
 msgstr ""
+"   cbreak        isto kao -icanon\n"
+"   -cbreak       isto kao icanon\n"
 
 #: src/stty.c:890
 msgid ""
@@ -9853,11 +10363,14 @@ msgid ""
 "                 icanon, eof and eol characters to their default values\n"
 "   -cooked       same as raw\n"
 msgstr ""
+"   cooked        isto kao brkint ignpar istrip icrnl ixon opost isig\n"
+"                 icanon, s eof i eol znakovima vrati na zadane vrijednosti\n"
+"   -cooked       isto kao raw\n"
 
 #: src/stty.c:895
 #, c-format
 msgid "   crt           same as %s\n"
-msgstr ""
+msgstr "   crt           isto kao %s\n"
 
 #: src/stty.c:905
 #, c-format
@@ -9865,10 +10378,12 @@ msgid ""
 "   dec           same as %s intr ^c erase 0177\n"
 "                 kill ^u\n"
 msgstr ""
+"   dec           isto kao %s intr ^c erase 0177\n"
+"                 kill ^u\n"
 
 #: src/stty.c:920
 msgid " * [-]decctlq    same as [-]ixany\n"
-msgstr ""
+msgstr " * [-]decctlq    isto kao [-]ixany\n"
 
 #: src/stty.c:924
 msgid ""
@@ -9876,16 +10391,21 @@ msgid ""
 "   evenp         same as parenb -parodd cs7\n"
 "   -evenp        same as -parenb cs8\n"
 msgstr ""
+"   ek            erase i kill znakove vrati na njihove zadane vrijednosti\n"
+"   evenp         isto kao parenb -parodd cs7\n"
+"   -evenp        isto kao -parenb cs8\n"
 
 #: src/stty.c:930
 msgid " * [-]lcase      same as xcase iuclc olcuc\n"
-msgstr ""
+msgstr " * [-]lcase      isto kao xcase iuclc olcuc\n"
 
 #: src/stty.c:934
 msgid ""
 "   litout        same as -parenb -istrip -opost cs8\n"
 "   -litout       same as parenb istrip opost cs7\n"
 msgstr ""
+"   litout        isto kao -parenb -istrip -opost cs8\n"
+"   -litout       isto kao parenb istrip opost cs7\n"
 
 #: src/stty.c:938
 #, c-format
@@ -9893,6 +10413,8 @@ msgid ""
 "   nl            same as %s\n"
 "   -nl           same as %s\n"
 msgstr ""
+"   nl            isto kao %s\n"
+"   -nl           isto kao %s\n"
 
 #: src/stty.c:956
 msgid ""
@@ -9902,6 +10424,11 @@ msgid ""
 "   pass8         same as -parenb -istrip cs8\n"
 "   -pass8        same as parenb istrip cs7\n"
 msgstr ""
+"   oddp          same as parenb parodd cs7\n"
+"   -oddp         isto kao -parenb cs8\n"
+"   [-]parity     isto kao [-]evenp\n"
+"   pass8         isto kao -parenb -istrip cs8\n"
+"   -pass8        isto kao parenb istrip cs7\n"
 
 #: src/stty.c:963
 #, c-format
@@ -9911,6 +10438,10 @@ msgid ""
 "                 -isig%s min 1 time 0\n"
 "   -raw          same as cooked\n"
 msgstr ""
+"   raw           isto kao -ignbrk -brkint -ignpar -parmrk -inpck -istrip\n"
+"                 -inlcr -igncr -icrnl -ixon -ixoff -icanon -opost\n"
+"                 -isig%s min 1 time 0\n"
+"   -raw          isto kao cooked\n"
 
 #: src/stty.c:982
 #, c-format
@@ -9922,6 +10453,12 @@ msgid ""
 "                 %s,\n"
 "                 all special characters to their default values\n"
 msgstr ""
+"   sane          isto kao cread -ignbrk brkint -inlcr -igncr icrnl\n"
+"                 icanon iexten echo echoe echok -echonl -noflsh\n"
+"                 %s\n"
+"                 %s\n"
+"                 %s,\n"
+"                 sve specijalne znakove vrati na njihove zadane vrijednosti\n"
 
 #: src/stty.c:1068
 msgid ""
@@ -9931,55 +10468,63 @@ msgid ""
 "settings, CHAR is taken literally, or coded as in ^c, 0x37, 0177 or\n"
 "127; special values ^- or undef used to disable special characters.\n"
 msgstr ""
+"\n"
+"Upravlja s tty linijom spojenom na standardni ulaz. Bez argumenata,\n"
+"ispiše brzinu u bodovima, „line discipline“ i devijaciju od stty sane.\n"
+"U postavkama ZNAK se tretira doslovno ili kodirani kao u ^c, 0x37, 0177\n"
+"ili 127; specijalne vrijednosti ^- ili undef koriste se za deaktiviranje\n"
+"specijalnih znakova.\n"
 
 #: src/stty.c:1097
 #, c-format
 msgid "missing argument to %s"
-msgstr ""
+msgstr "nema argumenta za %s"
 
 #: src/stty.c:1140 src/stty.c:1258
 #, c-format
 msgid "invalid argument %s"
-msgstr ""
+msgstr "nevaljani argument %s"
 
 #: src/stty.c:1192
 #, c-format
 msgid "%s: error setting %s"
-msgstr ""
+msgstr "%s: greška pri postavljanju %s"
 
 #: src/stty.c:1234
 #, c-format
 msgid "invalid line discipline %s"
-msgstr ""
+msgstr "nevaljani „line discipline“ %s"
 
 #: src/stty.c:1326
 msgid "only one device may be specified"
-msgstr ""
+msgstr "samo se jedan uređaj smije specificirati"
 
 #: src/stty.c:1360
 msgid ""
 "the options for verbose and stty-readable output styles are\n"
 "mutually exclusive"
 msgstr ""
+"opcije za čitljivi i stty oblik izlaza se\n"
+"međusobno isključuju"
 
 #: src/stty.c:1366
 msgid "when specifying an output style, modes may not be set"
-msgstr ""
+msgstr "Ako se specificira izlazni stil, modovi se ne smiju postavljati"
 
 #: src/stty.c:1384
 #, c-format
 msgid "%s: couldn't reset non-blocking mode"
-msgstr "%s: nije  moguće ponovno uspostaviti ne-blokirajući mȏd"
+msgstr "%s: nije moguće ponovno uspostaviti neblokirajući mod"
 
 #: src/stty.c:1447
 #, c-format
 msgid "%s: unable to perform all requested operations"
-msgstr ""
+msgstr "%s: nije moguće izvršiti sve zatražene operacije"
 
 #: src/stty.c:1792
 #, c-format
 msgid "%s: no size information for this device"
-msgstr ""
+msgstr "%s: nema informacije o veličini ovog uređaja"
 
 #: src/stty.c:2321
 msgid "invalid integer argument"
@@ -9988,11 +10533,11 @@ msgstr "nevaljani cijeli broj (integer) za argument"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/sum.c:38
 msgid "Kayvan Aghaiepour"
-msgstr ""
+msgstr "Kayvan Aghaiepour"
 
 #: src/sum.c:63
 msgid "Print checksum and block counts for each FILE.\n"
-msgstr ""
+msgstr "Ispiše kontrolni zbroj i broj blokova svake DATOTEKE.\n"
 
 #: src/sum.c:69
 msgid ""
@@ -10000,6 +10545,9 @@ msgid ""
 "  -r              use BSD sum algorithm, use 1K blocks\n"
 "  -s, --sysv      use System V sum algorithm, use 512 bytes blocks\n"
 msgstr ""
+"\n"
+"  -r              rabi BSD algoritam i 1K blokove\n"
+"  -s, --sysv      rabi System V i 512 bytes blokove\n"
 
 #: src/sync.c:64
 #, c-format
@@ -10016,8 +10564,8 @@ msgid ""
 msgstr ""
 "Sinkronizira (sync) stanje u predmemoriji s trajnom pohranom.\n"
 "\n"
-"Ako je kao argument navedena jedna ili više datoteka, sinkronizira samo njih\n"
-"(ili u njima sadržane datotečne sustave).\n"
+"Ako je kao argument navedena jedna ili više datoteka, sinkronizira\n"
+"samo njih (ili u njima sadržane datotečne sustave).\n"
 "\n"
 
 #: src/sync.c:73
@@ -10040,7 +10588,7 @@ msgstr "greška pri otvaranju datoteke %s"
 #: src/sync.c:124
 #, c-format
 msgid "couldn't reset non-blocking mode %s"
-msgstr "nije  moguće ponovno uspostaviti ne-blokirajući mȏd %s"
+msgstr "nije  moguće ponovno uspostaviti ne-blokirajući mod %s"
 
 #: src/sync.c:155
 #, c-format
@@ -10082,7 +10630,7 @@ msgid ""
 "With no FILE, or when FILE is -, read standard input.\n"
 msgstr ""
 "\n"
-"Ako DATOTEKA nije navedena ili je „-“ (spojnica), čita se standardni ulaz.\n"
+"Ako DATOTEKA nije navedena ili je „-“, čita se standardni ulaz.\n"
 
 #: src/system.h:587
 msgid ""
@@ -10099,9 +10647,9 @@ msgid ""
 "Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).\n"
 msgstr ""
 "\n"
-"Argument MJERA za --block-size je cijeli broj s neobveznim prefiksom\n"
-"(npr.: 10M je 10×1024×1024). Prefiksi su K,M,G,T,P,E,Z,Y (baza 1024), ili\n"
-"KB, MB, GB, TB... (baza 1000).\n"
+"Argument VELIČINA je cijeli broj s neobveznim prefiksom\n"
+"(npr.: 10M je 10×1024×1024). Prefiksi su K,M,G,T,P,E,Z,Y (baza je 1024),\n"
+"ili KB, MB, GB, TB... (baza je 1000).\n"
 
 #: src/system.h:604
 #, c-format
@@ -10112,7 +10660,7 @@ msgid ""
 "Otherwise, units default to 1024 bytes (or 512 if POSIXLY_CORRECT is set).\n"
 msgstr ""
 "\n"
-"Veličine se ispisuju u jedinicama prve raspoložive MJERE u --block-size, i\n"
+"Veličine se ispisuju u jedinicama prve raspoložive VELIČINE u --block-size, i\n"
 "varijabla okoline %s_BLOCK_SIZE, BLOCK_SIZE i BLOCKSIZE.\n"
 "Inače, jedinice su (zadano stanje) 1024 bajta (ili 512 ako je aktivna\n"
 "postavka POSIXLY_CORRECT).\n"
@@ -10211,7 +10759,7 @@ msgid ""
 msgstr ""
 "  -b, --before             separator ispred umjesto iza retka\n"
 "  -r, --regex              interpretira separator kao regularni izraz\n"
-"  -s, --separator=STRING   separator je STRING umjesto znaka a novi redak\n"
+"  -s, --separator=STRING   separator je STRING umjesto znaka za novi redak\n"
 
 #: src/tac.c:223 src/tac.c:233 src/tac.c:343
 #, c-format
@@ -10280,7 +10828,7 @@ msgid ""
 "                             an absent option argument means 'descriptor'\n"
 "  -F                       same as --follow=name --retry\n"
 msgstr ""
-"  -f, --follow[={name|descriptor}]  neprestano dopisuje nove podatke\n"
+"  -f, --follow[={name|descriptor}]  neprestano pripaja nove podatke\n"
 "                             istovremeno s porastom datoteke;\n"
 "                             -f, --follow je isto kao --follow=descriptor\n"
 "  -F                       isto kao --follow=name --retry\n"
@@ -10418,7 +10966,7 @@ msgstr "%s je bio zamijenjen;  prati se nova datoteka"
 #: src/tail.c:1182
 #, c-format
 msgid "%s: cannot change nonblocking mode"
-msgstr "%s: nije moguće promijeniti neblokirajući mȏd"
+msgstr "%s: nije moguće promijeniti neblokirajući mod"
 
 #: src/tail.c:1228 src/tail.c:1403
 #, c-format
@@ -10530,7 +11078,7 @@ msgid ""
 msgstr ""
 "Kopira standardni ulaz u svaku navedenu DATOTEKU i na na standardni izlaz.\n"
 "\n"
-"  -a, --append              pridodaje u navedenu datoteku (ne prekopiše ih)\n"
+"  -a, --append              pripaja navedenim datotekama (ne prepiše ih)\n"
 "  -i, --ignore-interrupts   ignorira signale za prekid\n"
 
 #: src/tee.c:94
@@ -10728,7 +11276,7 @@ msgstr ""
 "  -f DATOTEKA     DATOTEKA exists and is a regular file\n"
 "  -g DATOTEKA     DATOTEKA exists and is set-group-ID\n"
 "  -G DATOTEKA     DATOTEKA exists and is owned by the effective group ID\n"
-"  -h DATOTEKA     DATOTEKA exists and is a symbolic link (same as -L)\n"
+"  -h DATOTEKA     DATOTEKA exists and is a symbolic link (isto kao -L)\n"
 "  -k DATOTEKA     DATOTEKA exists and has its sticky bit set\n"
 
 #: src/test.c:771
@@ -10970,11 +11518,11 @@ msgstr ""
 "Ažurira vremenske oznake pristupa i promijene svake datoteke na trenutačno\n"
 "vrijeme sustava\n"
 "\n"
-" Ako DATOTEKA ne postoji stvori se prazna DATOTEKA, osim ako nije navedena\n"
-" jedna od -c ili -h opcija\n"
+"Ako DATOTEKA ne postoji stvori se prazna DATOTEKA, osim ako nije navedena\n"
+"jedna od -c ili -h opcija\n"
 "\n"
-" Ako je string argument od DATOTEKE jednak - (znaku spojnice), onda touch\n"
-" promijeni vremenske oznake DATOTEKE asocirane sa standardnim izlazom.\n"
+"Ako je string argument od DATOTEKE jednak - (znaku spojnice), onda touch\n"
+"promijeni vremenske oznake DATOTEKE asocirane sa standardnim izlazom.\n"
 
 #: src/touch.c:226
 msgid ""
@@ -11056,7 +11604,7 @@ msgstr ""
 "\n"
 "  -c, -C, --complement    napravi i koristi komplement od SKUPA1\n"
 "  -d, --delete            briše znakove u SKUPU1, ne mijenja ih\n"
-"  -s, --squeeze-repeats   promijeni svaki niz ponavljajućih istih znakova u\n"
+"  -s, --squeeze-repeats   promijeni svaki niz ponovljenih istih znakova u\n"
 "                            zadnjem navedenom SKUPU s jednim tim znakom\n"
 "  -t, --truncate-set1     prvo skrati SKUP1 na dužinu SKUPA2\n"
 
@@ -11156,7 +11704,7 @@ msgid ""
 "warning: the ambiguous octal escape \\%c%c%c is being\n"
 "\tinterpreted as the 2-byte sequence \\0%c%c, %c"
 msgstr ""
-"upozorenje: dvosmisleni oktalni kontrolni kȏd \\%c%c%c se\n"
+"upozorenje: dvosmisleni oktalni kontrolni kod \\%c%c%c se\n"
 "\tinterpretira kao sekvencija od dva bajta \\0%c%c, %c"
 
 #: src/tr.c:516
@@ -11290,7 +11838,7 @@ msgid ""
 "If a FILE is shorter, it is extended and the extended part (hole)\n"
 "reads as zero bytes.\n"
 msgstr ""
-"Smanji ili poveća veličinu svake DATOTEKE na specificiranu veličinu\n"
+"Smanji ili poveća veličinu svake DATOTEKE na specificiranu veličinu.\n"
 "\n"
 "Ako DATOTEKA kao argument ne postoji, stvoriti ti će se.\n"
 "\n"
@@ -11303,7 +11851,7 @@ msgstr "  -c, --no-create        ne stvara nove datoteke\n"
 
 #: src/truncate.c:86
 msgid "  -o, --io-blocks        treat SIZE as number of IO blocks instead of bytes\n"
-msgstr "  -o, --io-blocks        tretira veličinu kao broj IO blokova umjesto bajtova\n"
+msgstr "  -o, --io-blocks        tretira VELIČINU kao broj U/I blokova umjesto bajtova\n"
 
 #: src/truncate.c:89
 msgid ""
@@ -11311,7 +11859,7 @@ msgid ""
 "  -s, --size=SIZE        set or adjust the file size by SIZE bytes\n"
 msgstr ""
 "  -r, --reference=REFDATOTEKA  veličina se bazira na REFDATOTECI\n"
-"  -s, --size=MJERA    rabi ovu MJERU za veličinu\n"
+"  -s, --size=VELIČINA    rabi ovu VELIČINU\n"
 
 #: src/truncate.c:95
 msgid ""
@@ -11321,7 +11869,7 @@ msgid ""
 "'/' round down to multiple of, '%' round up to multiple of.\n"
 msgstr ""
 "\n"
-"MJERA može imati jedan of ovih prefiksa sa značenjem:\n"
+"VELIČINA može imati jedan of ovih prefiksa sa značenjem:\n"
 "„+“ poveća za, „-“ smanji za, „<“ ne više, „>“ ne manje,\n"
 "„/“ zaokruži nadolje na višekratnik od, „%“ zaokruži nagore na višekratnik od.\n"
 
@@ -11396,8 +11944,8 @@ msgid ""
 "Write totally ordered list consistent with the partial ordering in FILE.\n"
 msgstr ""
 "Upotreba: %s [OPCIJA] [DATOTEKA]\n"
-"Ispiše potpuni, topološki poredani popis u skladu s\n"
-"parcijalnim redoslijedom u DATOTECI.\n"
+"Ispiše potpuni, topološki poredani popis u skladu s parcijalnim\n"
+"redoslijedom u DATOTECI.\n"
 
 #: src/tsort.c:95 src/uptime.c:218
 #, c-format
@@ -11474,7 +12022,7 @@ msgstr "nije moguće doznati ime sustava"
 
 #: src/unexpand.c:82
 msgid "Convert blanks in each FILE to tabs, writing to standard output.\n"
-msgstr "Ispiše sve datoteke na standardni izlaz s bjelinama pretvorenim u tabulatore.\n"
+msgstr "Ispiše sve datoteke na standardni izlaz s bjelinama pretvorenim u tab-ove.\n"
 
 #: src/unexpand.c:89
 msgid ""
@@ -11482,8 +12030,8 @@ msgid ""
 "      --first-only  convert only leading sequences of blanks (overrides -a)\n"
 "  -t, --tabs=N     have tabs N characters apart instead of 8 (enables -a)\n"
 msgstr ""
-"  -a, --all        pretvori sve bjeline, umjesto samo početne\n"
-"      --first-only  pretvori samo početni niz bjelina (nadjača -a)\n"
+"  -a, --all        pretvori sve bjeline umjesto samo početne\n"
+"      --first-only  pretvori samo početni niz bjelina (prevagne nad -a)\n"
 "  -t, --tabs=N     pomak tabulatora je N umjesto 8 (omogući -a)\n"
 
 #: src/unexpand.c:306
@@ -11504,7 +12052,8 @@ msgid ""
 msgstr ""
 "Filtrira susjedne identične retke iz ULAZA (ili standardnog ulaza) i zapiše\n"
 "jedinstvene retke u IZLAZ (ili ih ispiše na standardni izlaz).\n"
-"Bez opcija identični susjedni redci sliju se u jedan jedinstveni izlazni redak.\n"
+"Bez opcija identični susjedni redci sliju se u jedan\n"
+"jedinstveni izlazni redak.\n"
 
 #: src/uniq.c:184
 msgid ""
@@ -11741,7 +12290,7 @@ msgid ""
 "  -L, --max-line-length  print the maximum display width\n"
 "  -w, --words            print the word counts\n"
 msgstr ""
-"      --files0-from=D    čita ulaz iz datoteke specificirane s\n"
+"      --files0-from=D    čita ulaz iz datoteka specificiranih s\n"
 "                           NUL-završenim imenima u datoteci D;\n"
 "                           Ako je D - onda čita iz standardnog ulaza\n"
 "  -L, --max-line-length  ispiše dužinu najdužeg retka\n"
@@ -11876,7 +12425,7 @@ msgid ""
 "      --message     same as -T\n"
 "      --writable    same as -T\n"
 msgstr ""
-"  -T, -w, --mesg    doda korisnikov status obavijesti kao +, - ili ?\n"
+"  -T, -w, --mesg    doda status korisnika obavijesti kao +, - ili ?\n"
 "  -u, --users       ispiše prijavljene korisnike\n"
 "      --message     isto kao -T\n"
 "      --writable    isto kao -T\n"
