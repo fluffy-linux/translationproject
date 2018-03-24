@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.0.4\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2015-01-23 13:55+0100\n"
-"PO-Revision-Date: 2018-01-06 13:17+1100\n"
+"PO-Revision-Date: 2018-03-24 16:45+1100\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: src/complain.c:322
 msgid "fatal error"
@@ -700,7 +700,7 @@ msgstr "`$' lilau"
 #: src/scan-code.l:339
 #, fuzzy, c-format
 msgid "refers to: %c%s at %s"
-msgstr "%s: pilihan tidak sah -- %c\n"
+msgstr "%s: pilihan tidak sah -- '%c'\n"
 
 #: src/scan-code.l:362
 #, fuzzy, c-format
@@ -760,7 +760,7 @@ msgstr "Rujukan belakang tidak sah"
 #, fuzzy, c-format
 #| msgid "ambiguous argument %s for %s"
 msgid "ambiguous reference: %s"
-msgstr "%s: pilihan `-W %s' adalah kabur\n"
+msgstr "%s: pilihan '%s' adalah kabur; kemungkinan:"
 
 #: src/scan-code.l:616
 #, c-format
@@ -834,7 +834,7 @@ msgstr[0] "aksara tidak sah: %s"
 #: src/scan-gram.l:544
 #, fuzzy, c-format
 msgid "empty character literal"
-msgstr "pemisah tak boleh kosong"
+msgstr "aksara tambahan dalam kesalahan ejaan"
 
 #: src/scan-gram.l:550
 #, c-format
@@ -944,16 +944,14 @@ msgid "symbol %s given more than one literal string"
 msgstr "simbol `%s' diberikan lebih daripada satu rentetan perkataan"
 
 #: src/symtab.c:629
-#, fuzzy, c-format
-#| msgid "%s redeclaration for %s"
+#, c-format
 msgid "user token number %d redeclaration for %s"
-msgstr "mentakrif semula nombor token pengguna %s"
+msgstr "nombor token pengguna %d ditakrif semula untuk %s"
 
 #: src/symtab.c:633
-#, fuzzy, c-format
-#| msgid "previous declaration"
+#, c-format
 msgid "previous declaration for %s"
-msgstr "pengisytiharan terdahulu"
+msgstr "pengisytiharan terdahulu untuk %s"
 
 #: src/symtab.c:1014
 #, c-format
@@ -966,14 +964,14 @@ msgid "the start symbol %s is a token"
 msgstr "simbol permulaan %s adalah token"
 
 #: src/symtab.c:1193
-#, fuzzy, c-format
+#, c-format
 msgid "useless precedence and associativity for %s"
-msgstr "bukan terminal tidak berguna dalam tatabahasa: %s"
+msgstr "keutamaan dan pengumpulan tidak berguna untuk %s"
 
 #: src/symtab.c:1196
-#, fuzzy, c-format
+#, c-format
 msgid "useless precedence for %s"
-msgstr "bukan terminal tidak berguna dalam tatabahasa: %s"
+msgstr "keutamaan tidak berguna untuk %s"
 
 #: src/symtab.c:1200
 #, c-format
@@ -981,9 +979,9 @@ msgid "useless associativity for %s, use %%precedence"
 msgstr ""
 
 #: djgpp/subpipe.c:63 djgpp/subpipe.c:286 djgpp/subpipe.c:288
-#, fuzzy, c-format
+#, c-format
 msgid "removing of '%s' failed"
-msgstr "membuang direktori, %s"
+msgstr "gagal membuang '%s'"
 
 #: djgpp/subpipe.c:85 djgpp/subpipe.c:92
 #, c-format
