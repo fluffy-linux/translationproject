@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.29-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2017-12-21 12:18+0000\n"
-"PO-Revision-Date: 2018-03-21 17:43+0800\n"
+"PO-Revision-Date: 2018-05-06 22:34+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -1003,14 +1003,8 @@ msgid "Usage: %s [OPTION]... [FILE]...\n"
 msgstr "用法：%s [选项]... [文件]...\n"
 
 #: src/cat.c:92
-#, fuzzy
-#| msgid ""
-#| "Write sorted concatenation of all FILE(s) to standard output.\n"
-#| "\n"
 msgid "Concatenate FILE(s) to standard output.\n"
-msgstr ""
-"串联排序所有指定文件并将结果写到标准输出。\n"
-"\n"
+msgstr "连接所有指定文件并将结果写到标准输出。\n"
 
 #: src/cat.c:98
 #, fuzzy
@@ -1429,41 +1423,30 @@ msgstr ""
 "　或：%s [选项]... --reference=参考文件 文件...\n"
 
 #: src/chmod.c:380
-#, fuzzy
-#| msgid ""
-#| "Change the security context of each FILE to CONTEXT.\n"
-#| "With --reference, change the security context of each FILE to that of RFILE.\n"
-#| "\n"
-#| "  -h, --no-dereference   affect symbolic links instead of any referenced file\n"
 msgid ""
 "Change the mode of each FILE to MODE.\n"
 "With --reference, change the mode of each FILE to that of RFILE.\n"
 "\n"
 msgstr ""
-"将每个文件的安全环境变更至指定环境。\n"
-"使用 --reference 选项时，把指定文件的安全环境设置为与参考文件相同。\n"
+"将每个文件的权限模式变更至指定模式。\n"
+"使用 --reference 选项时，把指定文件的模式设置为与参考文件相同。\n"
 "\n"
-"  -h, --no-dereference\t\t影响符号连接而非引用的文件。\n"
 
 #: src/chmod.c:394
 msgid "      --reference=RFILE  use RFILE's mode instead of MODE values\n"
-msgstr ""
+msgstr "      --reference=参考文件  使用参考文件的模式而非给定模式的值\n"
 
 #: src/chmod.c:397
 msgid "  -R, --recursive        change files and directories recursively\n"
-msgstr ""
+msgstr "  -R, --recursive        递归修改文件和目录\n"
 
 #: src/chmod.c:402
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Each MODE is of the form `[ugoa]*([-+=]([rwxXst]*|[ugo]))+'.\n"
 msgid ""
 "\n"
 "Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.\n"
 msgstr ""
 "\n"
-"每种 MODE 都应属于这类形式\"[ugoa]*([-+=]([rwxXst]*|[ugo]))+\"。\n"
+"每个模式字符串都应该匹配如下格式：\"[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+\"。\n"
 
 #: src/chmod.c:516
 #, c-format
@@ -1491,26 +1474,24 @@ msgid "no change to ownership of %s\n"
 msgstr "%s 的归属关系未更改\n"
 
 #: src/chown-core.c:164
-#, fuzzy, c-format
-#| msgid "failed to change ownership of %s to %s\n"
+#, c-format
 msgid "failed to change ownership of %s from %s to %s\n"
-msgstr "无法更改%s 的所有者为%s\n"
+msgstr "无法将 %s 的所有者从 %s 更改为 %s\n"
 
 #: src/chown-core.c:165
-#, fuzzy, c-format
-#| msgid "failed to change group of %s to %s\n"
+#, c-format
 msgid "failed to change group of %s from %s to %s\n"
-msgstr "无法更改%s 的所属组为%s\n"
+msgstr "无法将 %s 的所属组从 %s 更改为 %s\n"
 
 #: src/chown-core.c:166 src/chown-core.c:172
 #, c-format
 msgid "failed to change ownership of %s\n"
-msgstr "更改%s 的所有者失败\n"
+msgstr "更改 %s 的所有者失败\n"
 
 #: src/chown-core.c:170
 #, c-format
 msgid "failed to change ownership of %s to %s\n"
-msgstr "无法更改%s 的所有者为%s\n"
+msgstr "无法更改 %s 的所有者为 %s\n"
 
 #: src/chown-core.c:171
 #, c-format
@@ -1818,10 +1799,8 @@ msgstr ""
 
 #: src/comm.c:147 src/cut.c:178 src/head.c:134 src/numfmt.c:945
 #: src/paste.c:452 src/tail.c:308
-#, fuzzy
-#| msgid "  -z, --zero-terminated     end lines with 0 byte, not newline\n"
 msgid "  -z, --zero-terminated    line delimiter is NUL, not newline\n"
-msgstr "  -z, --zero-terminated\t以0 字节而非新行作为行尾标志\n"
+msgstr "  -z, --zero-terminated    以 NUL 字符而非换行符作为行尾分隔符\n"
 
 #: src/comm.c:152
 #, fuzzy
@@ -2625,10 +2604,8 @@ msgid "missing %% conversion specification in suffix"
 msgstr "下标中丢失了%% 转换规格字符"
 
 #: src/csplit.c:1375 src/dd.c:1499 src/nproc.c:105 src/tail.c:2140
-#, fuzzy
-#| msgid "invalid number %s"
 msgid "invalid number"
-msgstr "无效的数字%s"
+msgstr "无效的数字"
 
 #: src/csplit.c:1482
 #, c-format
@@ -5298,7 +5275,7 @@ msgstr "无法清除%s 的链接"
 #: src/install.c:892
 #, c-format
 msgid "WARNING: ignoring --preserve-context; this kernel is not SELinux-enabled"
-msgstr "警告：忽略--preserve-context 参数，当前运行的内核没有启用SELinux 支持"
+msgstr "警告：忽略 --preserve-context 参数；当前运行的内核没有启用 SELinux 支持"
 
 #: src/install.c:932
 msgid "the strip option may not be used when installing a directory"
@@ -5316,7 +5293,7 @@ msgstr "无效模式%s"
 #: src/install.c:1009
 #, c-format
 msgid "WARNING: ignoring --strip-program option as -s option was not specified"
-msgstr "警告：忽略--strip-program 选项，因为-s 选项没有指明"
+msgstr "警告：忽略 --strip-program 选项，因为 -s 选项没有指明"
 
 #: src/install.c:1014
 #, c-format
@@ -6337,36 +6314,29 @@ msgid "David Madore"
 msgstr "David Madore"
 
 #: src/md5sum.c:225
-#, fuzzy, c-format
-#| msgid ""
-#| "Usage: %s [OPTION]... [FILE]...\n"
-#| "Print or check %s (%d-bit) checksums.\n"
-#| "With no FILE, or when FILE is -, read standard input.\n"
-#| "\n"
+#, c-format
 msgid ""
 "Usage: %s [OPTION]... [FILE]...\n"
 "Print or check %s (%d-bit) checksums.\n"
 msgstr ""
 "用法：%s [选项]... [文件]...\n"
-"显示或检查 %s(%d-bit) 校验和。\n"
-"若没有文件选项，或者文件处为\"-\"，则从标准输入读取。\n"
-"\n"
+"显示或检查 %s（%d位）校验和。\n"
 
 #: src/md5sum.c:235
-#, fuzzy
-#| msgid "  -b, --binary         read in binary mode (default unless reading tty stdin)\n"
 msgid ""
 "\n"
 "  -b, --binary         read in binary mode (default unless reading tty stdin)\n"
-msgstr "  -b, --binary\t\t以二进制模式读取(除非从tty 标准输入读取否则为默认)\n"
+msgstr ""
+"\n"
+"  -b, --binary         以二进制模式读取（除非从 tty 标准输入读取，否则为默认）\n"
 
 #: src/md5sum.c:240
-#, fuzzy
-#| msgid "  -b, --binary         read in binary mode\n"
 msgid ""
 "\n"
 "  -b, --binary         read in binary mode\n"
-msgstr "  -b, --binary\t\t以二进制模式读取\n"
+msgstr ""
+"\n"
+"  -b, --binary         以二进制模式读取\n"
 
 #: src/md5sum.c:245
 #, c-format
@@ -6381,7 +6351,7 @@ msgstr ""
 
 #: src/md5sum.c:254
 msgid "      --tag            create a BSD-style checksum\n"
-msgstr ""
+msgstr "      --tag            创建一个 BSD 风格的校验和\n"
 
 #: src/md5sum.c:258
 msgid "  -t, --text           read in text mode (default if reading tty stdin)\n"
@@ -8005,7 +7975,7 @@ msgstr "登录名： "
 #: src/pinky.c:316
 #, c-format
 msgid "In real life: "
-msgstr "实名： "
+msgstr "真名： "
 
 #. TRANSLATORS: Real name is unknown; no hard limit.
 #: src/pinky.c:320
@@ -8034,7 +8004,7 @@ msgstr "计划：\n"
 
 #: src/pinky.c:404
 msgid "Login"
-msgstr "登录"
+msgstr "登录名"
 
 #: src/pinky.c:406
 msgid "Name"
@@ -8046,11 +8016,11 @@ msgstr " TTY"
 
 #: src/pinky.c:409
 msgid "Idle"
-msgstr "空闲"
+msgstr "空闲时间"
 
 #: src/pinky.c:410
 msgid "When"
-msgstr "从"
+msgstr "起始时间"
 
 #: src/pinky.c:413
 msgid "Where"
@@ -8091,11 +8061,7 @@ msgstr ""
 "  -q\t在短格式中省略用户全名、远程主机以及空闲时间\n"
 
 #: src/pinky.c:507
-#, fuzzy, c-format
-#| msgid ""
-#| "\n"
-#| "A lightweight `finger' program;  print user information.\n"
-#| "The utmp file will be %s.\n"
+#, c-format
 msgid ""
 "\n"
 "A lightweight 'finger' program;  print user information.\n"
@@ -8103,12 +8069,12 @@ msgid ""
 msgstr ""
 "\n"
 "一个轻量级的\"finger\"程序，用于显示用户信息。\n"
-"用到的utmp 文件为%s。\n"
+"用到的 utmp 文件为 %s。\n"
 
 #: src/pinky.c:591
 #, c-format
 msgid "no username specified; at least one must be specified when using -l"
-msgstr "没有指定用户名，当使用-l 选项时至少需要指定一个"
+msgstr "没有指定用户名，当使用 -l 选项时至少需要指定一个"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/pr.c:331
@@ -8121,10 +8087,8 @@ msgid "Roland Huebner"
 msgstr "Roland Huebner"
 
 #: src/pr.c:777
-#, fuzzy
-#| msgid "line number overflow"
 msgid "integer overflow"
-msgstr "行号溢出"
+msgstr "整数溢出"
 
 #: src/pr.c:916
 #, fuzzy
@@ -9908,16 +9872,6 @@ msgstr ""
 "指定的大小可以使用以下单位之一：\n"
 
 #: src/sort.c:530
-#, fuzzy
-#| msgid ""
-#| "% 1% of memory, b 1, K 1024 (default), and so on for M, G, T, P, E, Z, Y.\n"
-#| "\n"
-#| "With no FILE, or when FILE is -, read standard input.\n"
-#| "\n"
-#| "*** WARNING ***\n"
-#| "The locale specified by the environment affects sort order.\n"
-#| "Set LC_ALL=C to get the traditional sort order that uses\n"
-#| "native byte values.\n"
 msgid ""
 "% 1% of memory, b 1, K 1024 (default), and so on for M, G, T, P, E, Z, Y.\n"
 "\n"
@@ -9926,13 +9880,12 @@ msgid ""
 "Set LC_ALL=C to get the traditional sort order that uses\n"
 "native byte values.\n"
 msgstr ""
-"内存使用率% 1%，b 1、K 1024 (默认)，M、G、T、P、E、Z、Y 等依此类推。\n"
-"\n"
-"如果不指定文件，或者文件为\"-\"，则从标准输入读取数据。\n"
+"内存使用率% 1%，b 1、K 1024（默认），M、G、T、P、E、Z、Y 等依此类推。\n"
 "\n"
 "*** 警告 ***\n"
-"本地环境变量会影响排序结果。\n"
-"如果希望以字节的自然值获得最传统的排序结果，请设置LC_ALL=C。\n"
+"地区与语言环境变量（locale）会影响排序结果。\n"
+"如果希望以字节的自然值获得最传统的排序结果，\n"
+"请设置环境变量 LC_ALL=C。\n"
 
 #: src/sort.c:728
 #, c-format
@@ -10073,10 +10026,8 @@ msgid "standard error"
 msgstr "标准错误"
 
 #: src/sort.c:3763
-#, fuzzy
-#| msgid "%s: cannot rewind"
 msgid "cannot read"
-msgstr "%s：无法反绕操作"
+msgstr "无法读取"
 
 #: src/sort.c:4042
 #, c-format
@@ -10273,7 +10224,7 @@ msgstr "已排除输出文件后缀"
 #: src/split.c:462
 #, c-format
 msgid "creating file %s\n"
-msgstr "正在创建文件%s\n"
+msgstr "正在创建文件 %s\n"
 
 #: src/split.c:471
 #, c-format
@@ -10536,23 +10487,15 @@ msgstr ""
 
 #: src/stat.c:1498
 msgid "Display file or file system status.\n"
-msgstr ""
+msgstr "显示文件或文件系统的状态。\n"
 
 #: src/stat.c:1504
-#, fuzzy
-#| msgid ""
-#| "Display file or file system status.\n"
-#| "\n"
-#| "  -L, --dereference     follow links\n"
-#| "  -f, --file-system     display file system status instead of file status\n"
 msgid ""
 "  -L, --dereference     follow links\n"
 "  -f, --file-system     display file system status instead of file status\n"
 msgstr ""
-"显示文件或文件系统的状态。\n"
-"\n"
-"  -L, --dereference\t跟随链接\n"
-"  -f, --file-system\t显示文件系统状态而非文件状态\n"
+"  -L, --dereference     跟随链接\n"
+"  -f, --file-system     显示文件系统状态而非文件状态\n"
 
 #: src/stat.c:1508
 #, fuzzy
@@ -10778,14 +10721,8 @@ msgid "Usage: %s OPTION... COMMAND\n"
 msgstr "用法：%s [选项]... 命令\n"
 
 #: src/stdbuf.c:92
-#, fuzzy
-#| msgid ""
-#| "Run COMMAND, with modified buffering operations for its standard streams.\n"
-#| "\n"
 msgid "Run COMMAND, with modified buffering operations for its standard streams.\n"
-msgstr ""
-"运行标准流缓冲区操作已改变的 COMMAND。\n"
-"\n"
+msgstr "运行给定的命令，同时改变该命令对应标准输入输出流的缓冲操作配置。\n"
 
 #: src/stdbuf.c:98
 msgid ""
@@ -10798,31 +10735,22 @@ msgstr ""
 "  -e, --error=MODE   调整标准错误流缓冲区\n"
 
 #: src/stdbuf.c:105
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "If MODE is `L' the corresponding stream will be line buffered.\n"
-#| "This option is invalid with standard input.\n"
 msgid ""
 "\n"
 "If MODE is 'L' the corresponding stream will be line buffered.\n"
 "This option is invalid with standard input.\n"
 msgstr ""
 "\n"
-"若 MODE 是 L，则相应的流将是行缓冲模式。\n"
+"若 MODE 是 \"L\"，则相应的流将是行缓冲模式。\n"
 "标准输入流下此选项无效。\n"
 
 #: src/stdbuf.c:108
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "If MODE is `0' the corresponding stream will be unbuffered.\n"
 msgid ""
 "\n"
 "If MODE is '0' the corresponding stream will be unbuffered.\n"
 msgstr ""
 "\n"
-"若 MODE 是 0，则相应的流将不缓冲。\n"
+"若 MODE 是 \"0\"，则相应的流将不缓冲。\n"
 
 #: src/stdbuf.c:111
 msgid ""
@@ -10839,13 +10767,6 @@ msgstr ""
 "\n"
 
 #: src/stdbuf.c:117
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "NOTE: If COMMAND adjusts the buffering of its standard streams (`tee' does\n"
-#| "for e.g.) then that will override corresponding settings changed by `stdbuf'.\n"
-#| "Also some filters (like `dd' and `cat' etc.) don't use streams for I/O,\n"
-#| "and are thus unaffected by `stdbuf' settings.\n"
 msgid ""
 "\n"
 "NOTE: If COMMAND adjusts the buffering of its standard streams ('tee' does\n"
@@ -10854,20 +10775,20 @@ msgid ""
 "and are thus unaffected by 'stdbuf' settings.\n"
 msgstr ""
 "\n"
-"注意：若 COMMAND 调整其自身的标准流缓冲区(如 tee 就是)，\n"
-"则此操作会覆盖由stdbuf 所做出的相应设置。\n"
-"还有某些滤件程序(如dd 和cat 之类)，它们不使用输入输出流，\n"
-"因此不受stdbuf 设置的影响。\n"
+"注意：若指定的命令调整了其自身的标准流缓冲区（例如 tee 命令），\n"
+"则此操作会覆盖由 \"stdbuf\" 工具所做出的相应设置。\n"
+"还有某些过滤器程序（如 \"dd\" 和 \"cat\" 之类）不使用输入输出流，\n"
+"因此不受 \"stdbuf\" 设置的影响。\n"
 
 #: src/stdbuf.c:242
 #, c-format
 msgid "failed to find %s"
-msgstr "查找%s 失败"
+msgstr "查找 %s 失败"
 
 #: src/stdbuf.c:266 src/stdbuf.c:299
 #, c-format
 msgid "failed to update the environment with %s"
-msgstr "更新%s 的环境失败"
+msgstr "更新 %s 的环境失败"
 
 #: src/stdbuf.c:345
 #, c-format
@@ -10875,10 +10796,9 @@ msgid "line buffering stdin is meaningless"
 msgstr "对标准输入进行行缓冲无意义"
 
 #: src/stdbuf.c:376
-#, fuzzy, c-format
-#| msgid "you must specify a relative %s with %s"
+#, c-format
 msgid "you must specify a buffering mode option"
-msgstr "您必须为%2$s 中指定一个相关的%1$s"
+msgstr "您必须指定一个缓冲模式选项"
 
 #: src/stty.c:531
 #, c-format
@@ -11585,10 +11505,9 @@ msgid "invalid argument %s"
 msgstr "无效的参数 %s"
 
 #: src/stty.c:1192
-#, fuzzy, c-format
-#| msgid "%s: error truncating"
+#, c-format
 msgid "%s: error setting %s"
-msgstr "%s：截断文件时出错"
+msgstr "%s：设置 %s 时出错"
 
 #: src/stty.c:1234
 #, c-format
@@ -11625,10 +11544,8 @@ msgid "%s: no size information for this device"
 msgstr "%s：此设备没有大小信息"
 
 #: src/stty.c:2321
-#, fuzzy
-#| msgid "invalid integer argument %s"
 msgid "invalid integer argument"
-msgstr "无效的整数参数%s"
+msgstr "无效的整数参数"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/sum.c:38
@@ -11800,38 +11717,37 @@ msgstr ""
 "  simple, never   永远使用普通方式备份\n"
 
 #: src/system.h:651
-#, fuzzy, c-format
-#| msgid "%s home page: <%s>\n"
+#, c-format
 msgid ""
 "\n"
 "%s online help: <%s>\n"
-msgstr "%s 的主页：<%s>\n"
+msgstr ""
+"\n"
+"%s 在线帮助：<%s>\n"
 
 #. TRANSLATORS: Replace LANG_CODE in this URL with your language code
 #. <https://translationproject.org/team/LANG_CODE.html> to form one of
 #. the URLs at https://translationproject.org/team/.  Otherwise, replace
 #. the entire URL with your translation team's email address.
 #: src/system.h:662
-#, fuzzy, c-format
-#| msgid "Report %s translation bugs to <http://translationproject.org/team/>\n"
+#, c-format
 msgid "Report %s translation bugs to <https://translationproject.org/team/>\n"
-msgstr "请向<http://translationproject.org/team/zh_CN.html> 报告%s 的翻译错误\n"
+msgstr "请向 <http://translationproject.org/team/zh_CN.html> 报告 %s 的翻译错误\n"
 
 #: src/system.h:665
 #, c-format
 msgid "Full documentation at: <%s%s>\n"
-msgstr ""
+msgstr "完整文档请见：<%s%s>\n"
 
 #: src/system.h:667
 #, c-format
 msgid "or available locally via: info '(coreutils) %s%s'\n"
-msgstr ""
+msgstr "或者在本地使用：info '(coreutils) %s%s'\n"
 
 #: src/system.h:678
-#, fuzzy, c-format
-#| msgid "Try `%s --help' for more information.\n"
+#, c-format
 msgid "Try '%s --help' for more information.\n"
-msgstr "请尝试执行\"%s --help\"来获取更多信息。\n"
+msgstr "请尝试执行 \"%s --help\" 来获取更多信息。\n"
 
 #: src/system.h:722
 #, c-format
@@ -11885,22 +11801,19 @@ msgid "record too large"
 msgstr "记录数据过大"
 
 #: src/tac.c:458
-#, fuzzy, c-format
-#| msgid "cannot create temporary file in %s"
+#, c-format
 msgid "failed to create temporary file in %s"
-msgstr "无法在%s 创建临时文件"
+msgstr "在 %s 创建临时文件失败"
 
 #: src/tac.c:466
-#, fuzzy, c-format
-#| msgid "%s: failed to open for writing"
+#, c-format
 msgid "failed to open %s for writing"
-msgstr "%s：无法以写模式打开"
+msgstr "以写模式打开 %s 时失败"
 
 #: src/tac.c:484
-#, fuzzy, c-format
-#| msgid "failed to preserve times for %s"
+#, c-format
 msgid "failed to rewind stream for %s"
-msgstr "无法保留%s 的时间"
+msgstr ""
 
 #: src/tac.c:521 src/tac.c:533
 #, c-format
@@ -11908,10 +11821,9 @@ msgid "%s: write error"
 msgstr "%s：写入出错"
 
 #: src/tac.c:582
-#, fuzzy, c-format
-#| msgid "cannot open %s for reading"
+#, c-format
 msgid "failed to open %s for reading"
-msgstr "无法打开%s 读取数据"
+msgstr "以读模式打开 %s 时失败"
 
 #: src/tac.c:650
 msgid "separator cannot be empty"
@@ -12152,13 +12064,12 @@ msgstr "inotify 资源耗尽"
 #: src/tail.c:1522 src/tail.c:1736
 #, c-format
 msgid "cannot watch %s"
-msgstr "无法监视%s"
+msgstr "无法监视 %s"
 
 #: src/tail.c:1571
-#, fuzzy, c-format
-#| msgid "%s: replace %s? "
+#, c-format
 msgid "%s was replaced"
-msgstr "%s：是否替换%s？ "
+msgstr "%s 已被替换"
 
 #: src/tail.c:1643
 #, fuzzy
@@ -12188,16 +12099,13 @@ msgid "invalid maximum number of unchanged stats between opens"
 msgstr "%s：两次打开的间隔因过大而无效"
 
 #: src/tail.c:2211
-#, fuzzy
-#| msgid "%s: invalid PID"
 msgid "invalid PID"
-msgstr "%s：无效的进程号"
+msgstr "无效的进程号（PID）"
 
 #: src/tail.c:2227
-#, fuzzy, c-format
-#| msgid "invalid number of columns: %s"
+#, c-format
 msgid "invalid number of seconds: %s"
-msgstr "无效的列数：%s"
+msgstr "无效的秒数：%s"
 
 #: src/tail.c:2246
 #, c-format
@@ -12205,10 +12113,9 @@ msgid "option used in invalid context -- %c"
 msgstr "在未定义环境中的无效选项 -- %c"
 
 #: src/tail.c:2258
-#, fuzzy, c-format
-#| msgid "warning: PID ignored; --pid=PID is useful only when following"
+#, c-format
 msgid "warning: --retry ignored; --retry is useful only when following"
-msgstr "警告：已忽略进程号，只有在跟随模式下--pid=PID 选项才是有用的"
+msgstr "警告：已忽略 --retry；只有在跟随模式下 --retry 选项才是有用的"
 
 #: src/tail.c:2262
 #, c-format
@@ -12238,7 +12145,7 @@ msgstr "警告：无限期跟随标准输入是无用的"
 #: src/tail.c:2488
 #, c-format
 msgid "inotify cannot be used, reverting to polling"
-msgstr "无法使用 inotify 机制，回归为 polling 机制"
+msgstr "无法使用 inotify 机制，回退为轮询（polling）机制"
 
 #: src/tee.c:88
 msgid ""
@@ -12257,6 +12164,8 @@ msgid ""
 "  -p                        diagnose errors writing to non pipes\n"
 "      --output-error[=MODE]   set behavior on write error.  See MODE below\n"
 msgstr ""
+"  -p                        对写入非管道的行为排查错误\n"
+"      --output-error[=模式]   设置写入出错时的行为。见下面“模式”部分\n"
 
 #: src/tee.c:100
 msgid ""
@@ -12271,6 +12180,15 @@ msgid ""
 "exit immediately on error writing to a pipe, and diagnose errors\n"
 "writing to non pipe outputs.\n"
 msgstr ""
+"\n"
+"模式确定向输出写入出错时的行为：\n"
+"  'warn'         对向任何文件输出出错的情况进行诊断\n"
+"  'warn-nopipe'  对向除了管道以外的任何文件输出出错的情况进行诊断\n"
+"  'exit'         一旦输出出错，则退出程序\n"
+"  'exit-nopipe'  一旦输出出错且非管道，则退出程序\n"
+"-p 选项的默认模式是“warn-nopipe”。\n"
+"当 --output-error 没有给出时，默认的操作是在向管道写入出错时立刻退出，\n"
+"且在向非管道写入出错时对问题进行诊断。\n"
 
 #: src/test.c:127
 #, c-format
@@ -12280,19 +12198,17 @@ msgstr "%s 后缺少参数"
 #: src/test.c:163
 #, c-format
 msgid "invalid integer %s"
-msgstr "无效的整数%s"
+msgstr "无效的整数 %s"
 
 #: src/test.c:245
-#, fuzzy, c-format
-#| msgid "')' expected"
+#, c-format
 msgid "%s expected"
-msgstr "预期为')'"
+msgstr "预期得到 %s"
 
 #: src/test.c:248
-#, fuzzy, c-format
-#| msgid "')' expected, found %s"
+#, c-format
 msgid "%s expected, found %s"
-msgstr "预期为 ')'，实际为%s"
+msgstr "预期得到 %s，实际得到 %s"
 
 #: src/test.c:265 src/test.c:623
 #, c-format
@@ -12312,10 +12228,9 @@ msgid "-ot does not accept -l"
 msgstr "-ot 不能于-l 同时使用"
 
 #: src/test.c:372
-#, fuzzy, c-format
-#| msgid "unknown binary operator"
+#, c-format
 msgid "%s: unknown binary operator"
-msgstr "未知双目运算符"
+msgstr "%s：未知双目运算符"
 
 #: src/test.c:651
 #, c-format
@@ -12514,30 +12429,29 @@ msgid "Matthew Bradburn"
 msgstr "Matthew Bradburn"
 
 #: src/test.c:868
-#, fuzzy, c-format
-#| msgid "missing `]'"
+#, c-format
 msgid "missing %s"
-msgstr "缺少\"]\""
+msgstr "缺少 %s"
 
 #: src/test.c:882
 #, c-format
 msgid "extra argument %s"
-msgstr "多余的参数%s"
+msgstr "多余的参数 %s"
 
 #: src/timeout.c:135
 #, c-format
 msgid "warning: timer_settime"
-msgstr ""
+msgstr "警告：timer_settime"
 
 #: src/timeout.c:140
 #, c-format
 msgid "warning: timer_create"
-msgstr ""
+msgstr "警告：timer_create"
 
 #: src/timeout.c:207
 #, c-format
 msgid "sending signal %s to command %s"
-msgstr ""
+msgstr "正在发送信号 %s 至命令 %s"
 
 #: src/timeout.c:235
 #, c-format
@@ -12629,7 +12543,7 @@ msgstr ""
 #: src/timeout.c:346 src/timeout.c:403
 #, c-format
 msgid "warning: sigprocmask"
-msgstr ""
+msgstr "警告：sigprocmask"
 
 #: src/timeout.c:425
 #, c-format
@@ -12644,13 +12558,12 @@ msgstr "等待命令出错"
 #: src/timeout.c:555
 #, c-format
 msgid "the monitored command dumped core"
-msgstr ""
+msgstr "监视的命令已核心转储"
 
 #: src/timeout.c:568
-#, fuzzy, c-format
-#| msgid "unknown status from command (0x%X)"
+#, c-format
 msgid "unknown status from command (%d)"
-msgstr "来自命令的未知状态 (0x%X)"
+msgstr "来自命令的未知状态（%d）"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/touch.c:44
@@ -12665,17 +12578,17 @@ msgstr "Randy Smith"
 #: src/touch.c:116 src/touch.c:310
 #, c-format
 msgid "invalid date format %s"
-msgstr "日期格式%s 无效"
+msgstr "日期格式 %s 无效"
 
 #: src/touch.c:192
 #, c-format
 msgid "cannot touch %s"
-msgstr "无法创建%s"
+msgstr "无法创建 %s"
 
 #: src/touch.c:198
 #, c-format
 msgid "setting times of %s"
-msgstr "正在设置%s 的时间"
+msgstr "正在设置 %s 的时间"
 
 #: src/touch.c:214
 #, fuzzy
@@ -13135,30 +13048,28 @@ msgid "multiple relative modifiers specified"
 msgstr "指定了多个相关修饰符"
 
 #: src/truncate.c:286
-#, fuzzy
-#| msgid "invalid number %s"
 msgid "Invalid number"
-msgstr "无效的数字%s"
+msgstr "无效的数字"
 
 #: src/truncate.c:308
 #, c-format
 msgid "you must specify either %s or %s"
-msgstr "您必须在%s 或%s 中指定一个"
+msgstr "您必须在 %s 或 %s 中指定一个"
 
 #: src/truncate.c:315
 #, c-format
 msgid "you must specify a relative %s with %s"
-msgstr "您必须为%2$s 中指定一个相关的%1$s"
+msgstr "您必须为 %2$s 中指定一个相关的 %1$s"
 
 #: src/truncate.c:322
 #, c-format
 msgid "%s was specified but %s was not"
-msgstr "已指定%s 但未指定%s"
+msgstr "已指定 %s 但未指定 %s"
 
 #: src/truncate.c:379
 #, c-format
 msgid "cannot open %s for writing"
-msgstr "无法打开%s 读取数据"
+msgstr "无法打开 %s 以写入数据"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/tsort.c:41
@@ -13220,22 +13131,15 @@ msgid ""
 "  -n, --nodename           print the network node hostname\n"
 "  -r, --kernel-release     print the kernel release\n"
 msgstr ""
-"输出一组系统信息。如果不跟随选项，则视为只附加-s 选项。\n"
+"输出一组系统信息。如果不跟随选项，则视为只附加 -s 选项。\n"
 "\n"
-"  -a, --all\t\t\t以如下次序输出所有信息。其中若-p 和\n"
-"\t\t\t\t-i 的探测结果不可知则被省略：\n"
-"  -s, --kernel-name\t\t输出内核名称\n"
-"  -n, --nodename\t\t输出网络节点上的主机名\n"
-"  -r, --kernel-release\t\t输出内核发行号\n"
+"  -a, --all                以如下次序输出所有信息。其中若 -p 和\n"
+"                             -i 的探测结果不可知则被省略：\n"
+"  -s, --kernel-name        输出内核名称\n"
+"  -n, --nodename           输出网络节点上的主机名\n"
+"  -r, --kernel-release     输出内核发行号\n"
 
 #: src/uname.c:134
-#, fuzzy
-#| msgid ""
-#| "  -v, --kernel-version     print the kernel version\n"
-#| "  -m, --machine            print the machine hardware name\n"
-#| "  -p, --processor          print the processor type or \"unknown\"\n"
-#| "  -i, --hardware-platform  print the hardware platform or \"unknown\"\n"
-#| "  -o, --operating-system   print the operating system\n"
 msgid ""
 "  -v, --kernel-version     print the kernel version\n"
 "  -m, --machine            print the machine hardware name\n"
@@ -13243,11 +13147,11 @@ msgid ""
 "  -i, --hardware-platform  print the hardware platform (non-portable)\n"
 "  -o, --operating-system   print the operating system\n"
 msgstr ""
-"  -v, --kernel-version\t\t输出内核版本\n"
-"  -m, --machine\t\t输出主机的硬件架构名称\n"
-"  -p, --processor\t\t输出处理器类型或\"unknown\"\n"
-"  -i, --hardware-platform\t输出硬件平台或\"unknown\"\n"
-"  -o, --operating-system\t输出操作系统名称\n"
+"  -v, --kernel-version     输出内核版本\n"
+"  -m, --machine            输出主机的硬件架构名称\n"
+"  -p, --processor          输出处理器类型（不可移植）\n"
+"  -i, --hardware-platform  输出硬件平台或（不可移植）\n"
+"  -o, --operating-system   输出操作系统名称\n"
 
 #: src/uname.c:144
 msgid ""
@@ -13262,33 +13166,18 @@ msgid "cannot get system name"
 msgstr "无法获取系统名"
 
 #: src/unexpand.c:82
-#, fuzzy
-#| msgid ""
-#| "Convert blanks in each FILE to tabs, writing to standard output.\n"
-#| "With no FILE, or when FILE is -, read standard input.\n"
-#| "\n"
 msgid "Convert blanks in each FILE to tabs, writing to standard output.\n"
-msgstr ""
-"将每个指定文件中的空白字符转换为制表符并写到标准输出。\n"
-"如果不指定文件，或者文件为\"-\"，则从标准输入读取数据。\n"
-"\n"
+msgstr "将每个指定文件中的空白字符转换为制表符并写到标准输出。\n"
 
 #: src/unexpand.c:89
-#, fuzzy
-#| msgid ""
-#| "  -a, --all        convert all blanks, instead of just initial blanks\n"
-#| "      --first-only  convert only leading sequences of blanks (overrides -a)\n"
-#| "  -t, --tabs=N     have tabs N characters apart instead of 8 (enables -a)\n"
-#| "  -t, --tabs=LIST  use comma separated LIST of tab positions (enables -a)\n"
 msgid ""
 "  -a, --all        convert all blanks, instead of just initial blanks\n"
 "      --first-only  convert only leading sequences of blanks (overrides -a)\n"
 "  -t, --tabs=N     have tabs N characters apart instead of 8 (enables -a)\n"
 msgstr ""
-"  -a, --all\t\t转换所有空格，包括但不只起始空格\n"
-"      --first-only\t仅转换起始空格(覆盖-a 选项)\n"
-"  -t, --tabs=N\t\t设置制表符宽度为N 而非默认的8(启用-a 选项)\n"
-"  -t, --tabs=列表\t使用逗号分隔的列表列出制表符位置(启用-a 选项)\n"
+"  -a, --all        转换所有空格，包括但不只是起始空格\n"
+"      --first-only  仅转换起始空格（覆盖-a 选项）\n"
+"  -t, --tabs=N     设置制表符宽度为 N 字符而非默认的 8（启用 -a 选项）\n"
 
 #: src/unexpand.c:306
 msgid "tab stop value is too large"
@@ -13369,12 +13258,6 @@ msgstr ""
 "若域中为先空字符(通常包括空格以及制表符)，然后非空字符，域中字符前的空字符将被跳过。\n"
 
 #: src/uniq.c:219
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Note: 'uniq' does not detect repeated lines unless they are adjacent.\n"
-#| "You may want to sort the input first, or use `sort -u' without `uniq'.\n"
-#| "Also, comparisons honor the rules specified by `LC_COLLATE'.\n"
 msgid ""
 "\n"
 "Note: 'uniq' does not detect repeated lines unless they are adjacent.\n"
@@ -13382,9 +13265,9 @@ msgid ""
 "Also, comparisons honor the rules specified by 'LC_COLLATE'.\n"
 msgstr ""
 "\n"
-"提示：uniq 不会检查重复的行，除非它们是相邻的行。\n"
-"如果您想先对输入排序，使用没有uniq 的\"sort -u\"。\n"
-"同时，比较服从\"LC_COLLATE\" 变量所指定的规则。\n"
+"提示：\"uniq\" 不会检查重复的行，除非它们是相邻的行。\n"
+"您也许需要事先对输入排序，或使用 \"sort -u\" 而非 \"uniq\"。\n"
+"另外，比较操作将服从 \"LC_COLLATE\" 环境变量所指定的规则。\n"
 
 #: src/uniq.c:437
 msgid "too many repeated lines"
@@ -13441,10 +13324,8 @@ msgstr "无法获取启动时间"
 
 #. TRANSLATORS: This prints the current clock time.
 #: src/uptime.c:142
-#, fuzzy
-#| msgid " %H:%M%P  "
 msgid " %H:%M:%S  "
-msgstr " %H:%M "
+msgstr " %H:%M:%S  "
 
 #: src/uptime.c:144
 #, c-format
@@ -13454,20 +13335,18 @@ msgstr " ??:????  "
 #: src/uptime.c:146
 #, c-format
 msgid "up ???? days ??:??,  "
-msgstr "已启动???? 天 ??:??，"
+msgstr "已启动 ???? 天 ??:??，"
 
 #: src/uptime.c:150
 #, c-format
 msgid "up %ld day %2d:%02d,  "
 msgid_plural "up %ld days %2d:%02d,  "
-msgstr[0] "已启动%ld 天%2d:%02d，"
+msgstr[0] "已启动 %ld 天%2d:%02d，"
 
 #: src/uptime.c:155
-#, fuzzy, c-format
-#| msgid "up %ld day %2d:%02d,  "
-#| msgid_plural "up %ld days %2d:%02d,  "
+#, c-format
 msgid "up  %2d:%02d,  "
-msgstr "已启动%ld 天%2d:%02d，"
+msgstr "已启动 %2d:%02d，"
 
 #: src/uptime.c:157
 #, c-format
@@ -13729,10 +13608,9 @@ msgstr ""
 "\n"
 
 #: src/whoami.c:93
-#, fuzzy, c-format
-#| msgid "cannot find name for user ID %lu"
+#, c-format
 msgid "cannot find name for user ID %lu"
-msgstr "无法找到ID 为%lu 的用户的名称"
+msgstr "无法找到 ID 为 %lu 的用户的名称"
 
 #: src/yes.c:47
 #, c-format
