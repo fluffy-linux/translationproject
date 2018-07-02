@@ -4,13 +4,13 @@
 # This file is distributed under the same license as the grep package.
 #
 # Denis Perchine <dyp@perchine.com>, 1998-2000.
-# Yuri Kozlov <yuray@komyakino.ru>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017.
+# Yuri Kozlov <yuray@komyakino.ru>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: grep 3.0.23-b00\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2017-06-24 20:05-0700\n"
-"PO-Revision-Date: 2017-06-26 19:47+0300\n"
+"PO-Revision-Date: 2018-07-02 18:53+0300\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <gnu@d07.ru>\n"
 "Language: ru\n"
@@ -552,7 +552,7 @@ msgstr ""
 "\n"
 "Управление выводом:\n"
 "  -m, --max-count=ЧИСЛО     остановиться после указанного\n"
-"                            ЧИСЛА выбранных строк\n"
+"                            ЧИСЛА совпавших строк\n"
 "  -b, --byte-offset         печатать вместе с выходными строками смещение в\n"
 "                            байтах\n"
 "  -n, --line-number         печатать номер строки вместе с выходными строками\n"
@@ -571,11 +571,12 @@ msgid ""
 "                            TYPE is 'binary', 'text', or 'without-match'\n"
 "  -a, --text                equivalent to --binary-files=text\n"
 msgstr ""
-"  -o, --only-matching       показывать только часть строки, совпадающей с ШАБЛОНОМ\n"
+"  -o, --only-matching       показывать только часть строки, совпадающей\n"
+"                            с ШАБЛОНОМ\n"
 "  -q, --quiet, --silent     подавлять весь обычный вывод\n"
 "      --binary-files=ТИП    считать, что двоичный файл имеет ТИП:\n"
 "                            «binary», «text» или «without-match».\n"
-"  -a, --text                то же что и --binary-files=text\n"
+"  -a, --text                тоже, что и --binary-files=text\n"
 
 #: src/grep.c:1958
 #, c-format
@@ -595,7 +596,8 @@ msgstr ""
 "  -D, --devices=ДЕЙСТВ      как обрабатывать устройства, FIFO и сокеты\n"
 "                            ДЕЙСТВИЕ может быть «read» или «skip»\n"
 "  -r, --recursive           то же, что и --directories=recurse\n"
-"  -R, --dereference-recursive                             тоже, но с переходом по всем символьным ссылкам\n"
+"  -R, --dereference-recursive                             тоже, но с переходом\n"
+"                            по всем символьным ссылкам\n"
 
 #: src/grep.c:1967
 #, c-format
@@ -699,7 +701,7 @@ msgstr "неизвестный метод для устройств"
 
 #: src/grep.c:2629
 msgid "invalid max count"
-msgstr "неверное максимальное количество совпадений"
+msgstr "неверно задано число максимального количества совпадений"
 
 #: src/grep.c:2687
 msgid "unknown binary-files type"
