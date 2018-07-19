@@ -6,14 +6,14 @@
 # Daniel Resare <daniel@resare.com> 1999, 2000.
 # Göran Uddeborg <goeran@uddeborg.se>, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
 #
-# $Revision: 1.206 $
+# $Revision: 1.207 $
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 8.30-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2018-06-24 21:56-0700\n"
-"PO-Revision-Date: 2018-06-26 22:24+0200\n"
+"PO-Revision-Date: 2018-07-19 19:27+0200\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -4040,7 +4040,7 @@ msgid ""
 "  -v, --debug          print verbose information for each processing step\n"
 msgstr ""
 "  -S, --split-string=S  bearbeta och dela S i separata argument; används för\n"
-"                        för att skicka flera argument på shebang-rader\n"
+"                        att skicka flera argument på shebang-rader\n"
 "  -v, --debug          skriv utförlig information för varje bearbetningssteg\n"
 
 #: src/env.c:97
@@ -5907,7 +5907,7 @@ msgid ""
 "                       and disable file name escaping\n"
 msgstr ""
 "  -z, --zero           avsluta varje utmatad rad med NOLL, inte nyrad,\n"
-"                       och avaktivera styrsekvenser i filnamn\n"
+"                       och avaktivera kontrollsekvenser i filnamn\n"
 
 #: src/md5sum.c:273
 msgid ""
@@ -6025,7 +6025,7 @@ msgstr "--tag stödjer inte läget --text"
 #: src/md5sum.c:980
 #, c-format
 msgid "the --zero option is not supported when verifying checksums"
-msgstr "flaggan --zero är stödjs inte kontrollsummor verifieras"
+msgstr "flaggan --zero stödjs inte när kontrollsummor verifieras"
 
 #: src/md5sum.c:987
 #, c-format
