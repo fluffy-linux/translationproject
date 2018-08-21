@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.5.25\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2017-05-06 15:41-0700\n"
-"PO-Revision-Date: 2018-02-28 01:36+1100\n"
+"PO-Revision-Date: 2018-08-21 21:39+1000\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -87,33 +87,32 @@ msgstr "fail khas aksara"
 #: lib/file-type.c:72
 #, fuzzy
 msgid "contiguous data"
-msgstr "Data yang diminta tiada."
+msgstr "IDENT: data tidak betul."
 
 #: lib/file-type.c:75
 msgid "fifo"
 msgstr "fifo"
 
 #: lib/file-type.c:78
-#, fuzzy
 msgid "door"
-msgstr "%s: pintu diabaikan"
+msgstr "pintu"
 
 #: lib/file-type.c:81
 #, fuzzy
 #| msgid "block special file"
 msgid "multiplexed block special file"
-msgstr "fail istimewa blok"
+msgstr "fail khas blok"
 
 #: lib/file-type.c:84
 #, fuzzy
 #| msgid "character special file"
 msgid "multiplexed character special file"
-msgstr "fail istimewa aksara"
+msgstr "fail khas aksara"
 
 #: lib/file-type.c:87
 #, fuzzy
 msgid "multiplexed file"
-msgstr "*** Fail %s:\n"
+msgstr "Fail Baru"
 
 #: lib/file-type.c:90
 #, fuzzy
@@ -125,7 +124,7 @@ msgstr "FAIL"
 #, fuzzy
 #| msgid "block special file"
 msgid "network special file"
-msgstr "fail istimewa aksara"
+msgstr "fail khas aksara"
 
 #: lib/file-type.c:96
 msgid "migrated file with data"
@@ -136,9 +135,8 @@ msgid "migrated file without data"
 msgstr ""
 
 #: lib/file-type.c:102
-#, fuzzy
 msgid "port"
-msgstr "Nombor port tidak sah: %s"
+msgstr "port"
 
 #: lib/file-type.c:105
 msgid "socket"
@@ -153,34 +151,29 @@ msgid "weird file"
 msgstr "fail pelik"
 
 #: lib/getopt.c:277
-#, fuzzy, c-format
-#| msgid "%s: option `-W %s' is ambiguous\n"
+#, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: pilihan `%s' adalah kabur\n"
+msgstr "%s: pilihan '%s%s' adalah kabur\n"
 
 #: lib/getopt.c:283
-#, fuzzy, c-format
-#| msgid "%s: option `%s' is ambiguous\n"
+#, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: pilihan '%s' adalah kabur; kemungkinan:"
+msgstr "%s: pilihan '%s%s' adalah kabur; kemungkinan:"
 
 #: lib/getopt.c:318
-#, fuzzy, c-format
-#| msgid "%s: unrecognized option `%c%s'\n"
+#, c-format
 msgid "%s: unrecognized option '%s%s'\n"
-msgstr "%s: pilihan tidak dikenali `--%s'\n"
+msgstr "%s: pilihan '%s%s' tidak dikenali\n"
 
 #: lib/getopt.c:344
-#, fuzzy, c-format
-#| msgid "%s: option `%c%s' doesn't allow an argument\n"
+#, c-format
 msgid "%s: option '%s%s' doesn't allow an argument\n"
-msgstr "%s: pilihan %c%s'  tidak mengizinkan hujah\n"
+msgstr "%s: pilihan '%s%s' tidak membenarkan hujah\n"
 
 #: lib/getopt.c:359
-#, fuzzy, c-format
-#| msgid "%s: option `%s' requires an argument\n"
+#, c-format
 msgid "%s: option '%s%s' requires an argument\n"
-msgstr "%s: pilihan `%s' memerlukan hujah\n"
+msgstr "%s: pilihan '%s%s' memerlukan hujah\n"
 
 #: lib/getopt.c:620
 #, c-format
@@ -315,23 +308,23 @@ msgstr "stderr"
 #, fuzzy
 #| msgid "Unknown system error"
 msgid "unknown stream"
-msgstr "tidak diketahui"
+msgstr "<tidak diketahui>"
 
 #: lib/xfreopen.c:39
 #, fuzzy, c-format
 msgid "failed to reopen %s with mode %s"
-msgstr "%s: Tak dapat menukar mod ke %s"
+msgstr "mod %s kekal sebagai %04lo (%s)\n"
 
 #: lib/xstrtol-error.c:63
 #, fuzzy, c-format
 #| msgid "invalid --bytes value `%s'"
 msgid "invalid %s%s argument '%s'"
-msgstr "hujah tidak sah %s bagi %s"
+msgstr "hujah tidak sah %s untuk %s"
 
 #: lib/xstrtol-error.c:68
 #, fuzzy, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "hujah tidak sah `%s' untuk `%s'"
+msgstr "hujah tidak sah %s untuk %s"
 
 #: lib/xstrtol-error.c:72
 #, fuzzy, c-format
@@ -604,9 +597,7 @@ msgstr "-s, --quiet, --silent      sekat semua keluaran normal"
 #: src/cmp.c:168
 #, fuzzy
 msgid "    --help                 display this help and exit"
-msgstr ""
-"  -h, --help        paparkan bantuan dan keluar\n"
-"  -v, --version   paparkan maklumat versi dan keluar\n"
+msgstr "  -h, --help                 paparkan bantuan ini kemudian keluar\n"
 
 #: src/cmp.c:169
 #, fuzzy
@@ -1177,9 +1168,7 @@ msgstr ""
 #: src/diff.c:979
 #, fuzzy
 msgid "    --help               display this help and exit"
-msgstr ""
-"  -h, --help        paparkan bantuan dan keluar\n"
-"  -v, --version   paparkan maklumat versi dan keluar\n"
+msgstr "  -h, --help                 paparkan bantuan ini kemudian keluar\n"
 
 #: src/diff.c:980
 #, fuzzy
@@ -1244,7 +1233,7 @@ msgstr "Hanya dalam %s: %s\n"
 #, fuzzy
 #| msgid "cannot compare `-' to a directory"
 msgid "cannot compare '-' to a directory"
-msgstr "tak dapat mencipta direktori %s"
+msgstr "tidak dapat menutup direktori `%s'"
 
 #: src/diff.c:1283
 msgid "-D option not supported with directories"
@@ -1373,9 +1362,7 @@ msgstr ""
 #: src/diff3.c:495
 #, fuzzy
 msgid "    --help                  display this help and exit"
-msgstr ""
-"  -h, --help        paparkan bantuan dan keluar\n"
-"  -v, --version   paparkan maklumat versi dan keluar\n"
+msgstr "  -h, --help                 paparkan bantuan ini kemudian keluar\n"
 
 #: src/diff3.c:496
 #, fuzzy
@@ -1435,7 +1422,7 @@ msgstr "format diff tidak sah; baris akhir tidak lengkap"
 #, fuzzy, c-format
 #| msgid "subsidiary program `%s' could not be invoked"
 msgid "subsidiary program '%s' could not be invoked"
-msgstr "program subsidiari '%s' tidak dijumpai"
+msgstr "program subsidiari '%s' terganggu"
 
 #: src/diff3.c:1349
 msgid "invalid diff format; incorrect leading line chars"
@@ -1629,18 +1616,3 @@ msgstr "prefix tidak dikenali: %s"
 #, c-format
 msgid "unparsable value for --palette"
 msgstr ""
-
-#, fuzzy
-#~| msgid "%s: option `--%s' doesn't allow an argument\n"
-#~ msgid "%s: option '--%s' doesn't allow an argument\n"
-#~ msgstr "%s: pilihan `-W %s' tidak mengizinkan hujah\n"
-
-#, fuzzy
-#~| msgid "%s: option `-W %s' doesn't allow an argument\n"
-#~ msgid "%s: option '-W %s' doesn't allow an argument\n"
-#~ msgstr "%s: pilihan `-W %s' tidak mengizinkan hujah\n"
-
-#, fuzzy
-#~| msgid "%s: option `%s' requires an argument\n"
-#~ msgid "%s: option '-W %s' requires an argument\n"
-#~ msgstr "Pilihan \"%s\" memerlukan hujah"
