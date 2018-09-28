@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: findutils 4.5.15\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2015-12-18 14:45+0000\n"
-"PO-Revision-Date: 2016-07-06 23:13+0300\n"
+"PO-Revision-Date: 2018-09-28 09:01+0200\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -654,16 +654,16 @@ msgstr "Променливата на средата „FIND_BLOCK_SIZE“ не 
 #: gl/lib/argmatch.c:133
 #, c-format
 msgid "invalid argument %s for %s"
-msgstr "неправилен аргумент „%s“ за „%s“"
+msgstr "аргументът „%s“ на опцията „%s“ е неправилен"
 
 #: gl/lib/argmatch.c:134
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "двусмислен аргумент „%s“ за „%s“"
+msgstr "аргументът „%s“ на опцията „%s“ не е еднозначен"
 
 #: gl/lib/argmatch.c:153
 msgid "Valid arguments are:"
-msgstr "Допустими аргументи са:"
+msgstr "Възможните аргументи са:"
 
 #: gl/lib/closein.c:100
 msgid "error closing file"
@@ -676,7 +676,7 @@ msgstr "грешка при запис"
 
 #: gl/lib/error.c:188
 msgid "Unknown system error"
-msgstr "Непозната системна грешка"
+msgstr "Неизвестна системна грешка"
 
 #: gl/lib/getopt.c:547 gl/lib/getopt.c:576
 #, c-format
@@ -711,13 +711,13 @@ msgstr "%s: непозната опция „%c%s“\n"
 #: gl/lib/getopt.c:805 gl/lib/getopt.c:808
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: неправилна опция „%c“\n"
+msgstr "%s: неправилна опция — „%c“\n"
 
 #: gl/lib/getopt.c:861 gl/lib/getopt.c:878 gl/lib/getopt.c:1088
 #: gl/lib/getopt.c:1106
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: опцията изисква аргумент: „%c“\n"
+msgstr "%s: опцията изисква аргумент — „%c“\n"
 
 #: gl/lib/getopt.c:934 gl/lib/getopt.c:950
 #, c-format
@@ -737,12 +737,12 @@ msgstr "%s: опцията „-W %s“ изисква аргумент\n"
 #: gl/lib/openat-die.c:38
 #, c-format
 msgid "unable to record current working directory"
-msgstr "Първоначалната работна директория не може да се запази"
+msgstr "не може да се запише коя е текущата работна директория"
 
 #: gl/lib/openat-die.c:57
 #, c-format
 msgid "failed to return to initial working directory"
-msgstr "Първоначалната работна директория не може да се възстанови"
+msgstr "не може да се върне към първоначалната работна директория"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -950,9 +950,7 @@ msgstr ""
 #: gl/lib/version-etc.c:247
 #, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr ""
-"Докладвайте грешки в „%s“ на адрес: %s\n"
-"Докладвайте грешки в превода на адрес: <dict@ludost.net>\n"
+msgstr "Докладвайте грешки в „%s“ на адрес: %s\n"
 
 #: gl/lib/version-etc.c:251
 #, c-format
@@ -970,22 +968,22 @@ msgstr "Обща помощ за програмите на GNU: <http://www.gnu.
 
 #: gl/lib/xalloc-die.c:34
 msgid "memory exhausted"
-msgstr "паметта свърши"
+msgstr "паметта е изчерпана"
 
 #: gl/lib/xstrtol-error.c:63
 #, c-format
 msgid "invalid %s%s argument '%s'"
-msgstr "неправилен аргумент за „%s%s“: %s"
+msgstr "неправилен аргумент „%3$s“ за опцията „%1$s%2$s“"
 
 #: gl/lib/xstrtol-error.c:68
 #, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "неправилен суфикс в аргумента на „%s%s“: %s"
+msgstr "неправилен суфикс в аргумента „%3$s“ за опцията „%1$s%2$s“"
 
 #: gl/lib/xstrtol-error.c:72
 #, c-format
 msgid "%s%s argument '%s' too large"
-msgstr "списъкът с аргументи на „%s%s“ е твърде дълъг: %s"
+msgstr "прекалено дълъг аргумент „%3$s“ за опцията „%1$s%2$s“"
 
 #: lib/buildcmd.c:161
 #, c-format
