@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: grep-3.0.23-b00\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2017-06-24 20:05-0700\n"
-"PO-Revision-Date: 2017-06-26 13:30+0300\n"
+"PO-Revision-Date: 2018-09-28 08:59+0200\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -468,7 +468,7 @@ msgstr "Употреба: %s [ОПЦИЯ]… ШАБЛОН [ФАЙЛ]…\n"
 #: src/grep.c:1909
 #, c-format
 msgid "Try '%s --help' for more information.\n"
-msgstr "Вижте „%s --help“ за повече информация.\n"
+msgstr "За повече информация изпълнете „%s --help“.\n"
 
 #: src/grep.c:1915
 #, c-format
