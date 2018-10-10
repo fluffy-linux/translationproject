@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.30-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2018-06-24 21:56-0700\n"
-"PO-Revision-Date: 2018-09-25 17:14-0400\n"
+"PO-Revision-Date: 2018-10-09 21:57-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1572,7 +1572,7 @@ msgid ""
 "Run COMMAND with root directory set to NEWROOT.\n"
 "\n"
 msgstr ""
-"以指定的新根为运行指定命令时的的根目录。\n"
+"以指定的<新根>作为运行指定<命令>时的的根目录。\n"
 "\n"
 
 #: src/chroot.c:196
@@ -1598,7 +1598,7 @@ msgstr ""
 #: src/chroot.c:202
 #, c-format
 msgid "  --skip-chdir           do not change working directory to %s\n"
-msgstr ""
+msgstr "  --skip-chdir           不要将工作目录变更为 %s\n"
 
 #: src/chroot.c:208
 msgid ""
@@ -1611,7 +1611,7 @@ msgstr ""
 #: src/chroot.c:287
 #, c-format
 msgid "option --skip-chdir only permitted if NEWROOT is old %s"
-msgstr ""
+msgstr "选项 --skip-chdir 只能在指定<新根>为旧有的 %s 时使用"
 
 #: src/chroot.c:330
 #, c-format
@@ -1646,7 +1646,7 @@ msgstr "设置用户ID 失败"
 #: src/chroot.c:428 src/nohup.c:229 src/stdbuf.c:391 src/timeout.c:519
 #, c-format
 msgid "failed to run command %s"
-msgstr "无法运行命令%s"
+msgstr "无法运行命令 %s"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cksum.c:40
@@ -2482,10 +2482,9 @@ msgid "%s}: integer required between '{' and '}'"
 msgstr "%s}：在\"{\"和\"}\"之间需要一个整数声明"
 
 #: src/csplit.c:1144
-#, fuzzy, c-format
-#| msgid "%s: closing delimiter `%c' missing"
+#, c-format
 msgid "%s: closing delimiter '%c' missing"
-msgstr "%s：闭合定义符\"%c\"缺失"
+msgstr "%s：闭合分界符“%c”缺失"
 
 #: src/csplit.c:1161
 #, c-format
@@ -2762,25 +2761,24 @@ msgstr ""
 
 #: src/date.c:135
 msgid "Display the current time in the given FORMAT, or set the system date.\n"
-msgstr ""
+msgstr "以给定<格式>字符串的形式显示当前时间，或者设置系统日期。\n"
 
 #: src/date.c:141
 msgid "  -d, --date=STRING          display time described by STRING, not 'now'\n"
-msgstr ""
+msgstr "  -d, --date=字符串          显示给定<字符串>描述的时间，而非“当前时间”\n"
 
 #: src/date.c:144
-#, fuzzy
-#| msgid ""
-#| "      --verbose           print a diagnostic just before each\n"
-#| "                            output file is opened\n"
 msgid ""
 "      --debug                annotate the parsed date,\n"
 "                              and warn about questionable usage to stderr\n"
-msgstr "      --verbose\t\t在每个输出文件打开前输出文件特征\n"
+msgstr ""
+"      --debug                对解析的日期添加注释，\n"
+"                              对不规范的使用方式进行警告，并输出警告信息到\n"
+"                              标准错误\n"
 
 #: src/date.c:148
 msgid "  -f, --file=DATEFILE        like --date; once for each line of DATEFILE\n"
-msgstr ""
+msgstr "  -f, --file=日期文件        类似 --date；使用给定<日期文件>，一次处理一行\n"
 
 #: src/date.c:151
 msgid ""
@@ -2790,54 +2788,43 @@ msgid ""
 "                               for date and time to the indicated precision.\n"
 "                               Example: 2006-08-14T02:34:56-06:00\n"
 msgstr ""
+"  -I[FMT], --iso-8601[=FMT]  以 ISO 8601 格式输出日期/时间。\n"
+"                               FMT='date' 时只输出日期（默认行为），\n"
+"                               当其为 'hours'、'minutes'、'seconds' 或 'ns' 时\n"
+"                               则按照所指示的精确度显示日期和时间。\n"
+"                               示例：2006-08-14T02:34:56-06:00\n"
 
 #: src/date.c:158
-#, fuzzy
-#| msgid ""
-#| "  -r, --reference=FILE      display the last modification time of FILE\n"
-#| "  -R, --rfc-2822            output date and time in RFC 2822 format.\n"
-#| "                            Example: Mon, 07 Aug 2006 12:34:56 -0600\n"
 msgid ""
 "  -R, --rfc-email            output date and time in RFC 5322 format.\n"
 "                               Example: Mon, 14 Aug 2006 02:34:56 -0600\n"
 msgstr ""
-"  -r, --reference=文件\t\t显示文件指定文件的最后修改时间\n"
-"  -R, --rfc-2822\t\t以RFC 2822格式输出日期和时间\n"
-"\t\t\t\t例如：2006年8月7日，星期一 12:34:56 -0600\n"
+"  -R, --rfc-email            以 RFC 5322 格式输出日期和时间。\n"
+"                               例如：Mon, 14 Aug 2006 02:34:56 -0600\n"
 
 #: src/date.c:162
-#, fuzzy
-#| msgid ""
-#| "      --rfc-3339=TIMESPEC   output date and time in RFC 3339 format.\n"
-#| "                            TIMESPEC=`date', `seconds', or `ns' for\n"
-#| "                            date and time to the indicated precision.\n"
-#| "                            Date and time components are separated by\n"
-#| "                            a single space: 2006-08-07 12:34:56-06:00\n"
-#| "  -s, --set=STRING          set time described by STRING\n"
-#| "  -u, --utc, --universal    print or set Coordinated Universal Time\n"
 msgid ""
 "      --rfc-3339=FMT         output date/time in RFC 3339 format.\n"
 "                               FMT='date', 'seconds', or 'ns'\n"
 "                               for date and time to the indicated precision.\n"
 "                               Example: 2006-08-14 02:34:56-06:00\n"
 msgstr ""
-"      --rfc-3339=TIMESPEC\t以RFC 3339 格式输出日期和时间。\n"
-"\t\t\t\tTIMESPEC=`date'，`seconds'，或 `ns' \n"
-"\t\t\t\t表示日期和时间的显示精度。\n"
-"\t\t\t\t日期和时间单元由单个的空格分开：\n"
-"\t\t\t\t2006-08-07 12:34:56-06:00\n"
-"  -s, --set=字符串         \t设置指定字符串来分开时间\n"
-"  -u, --utc, --universal\t输出或者设置协调的通用时间\n"
+"      --rfc-3339=格式        以 RFC 3339 格式输出日期/时间。\n"
+"                               <格式>字符串可以是'date'、'seconds' 或 'ns'，\n"
+"                               用于指定日期和时间显示的精确度。\n"
+"                               例如：2006-08-14 02:34:56-06:00\n"
 
 #: src/date.c:168
 msgid "  -r, --reference=FILE       display the last modification time of FILE\n"
-msgstr ""
+msgstr "  -r, --reference=文件       显示指定<文件>的最后修改时间\n"
 
 #: src/date.c:171
 msgid ""
 "  -s, --set=STRING           set time described by STRING\n"
 "  -u, --utc, --universal     print or set Coordinated Universal Time (UTC)\n"
 msgstr ""
+"  -s, --set=字符串           按照给定<字符串>描述的时间来设置时间\n"
+"  -u, --utc, --universal     按照协调世界时（UTC）显示或设置时间\n"
 
 #: src/date.c:177
 msgid ""
@@ -2900,33 +2887,18 @@ msgstr ""
 "  %j\t按年计的日期(001-366)\n"
 
 #: src/date.c:207
-#, fuzzy
-#| msgid ""
-#| "  %k   hour ( 0..23)\n"
-#| "  %l   hour ( 1..12)\n"
-#| "  %m   month (01..12)\n"
-#| "  %M   minute (00..59)\n"
 msgid ""
 "  %k   hour, space padded ( 0..23); same as %_H\n"
 "  %l   hour, space padded ( 1..12); same as %_I\n"
 "  %m   month (01..12)\n"
 "  %M   minute (00..59)\n"
 msgstr ""
-"  %k\t时(0-23)\n"
-"  %l\t时(1-12)\n"
-"  %m\t月份(01-12)\n"
-"  %M\t分(00-59)\n"
+"  %k   小时，空格补充空白位（ 0..23）；与 %_H 相同\n"
+"  %l   小时，空格补充空白位（ 1..12）；与 %_I 相同\n"
+"  %m   月份（01..12）\n"
+"  %M   分钟（00..59）\n"
 
 #: src/date.c:213
-#, fuzzy
-#| msgid ""
-#| "  %n   a newline\n"
-#| "  %N   nanoseconds (000000000..999999999)\n"
-#| "  %p   locale's equivalent of either AM or PM; blank if not known\n"
-#| "  %P   like %p, but lower case\n"
-#| "  %r   locale's 12-hour clock time (e.g., 11:11:04 PM)\n"
-#| "  %R   24-hour hour and minute; same as %H:%M\n"
-#| "  %s   seconds since 1970-01-01 00:00:00 UTC\n"
 msgid ""
 "  %n   a newline\n"
 "  %N   nanoseconds (000000000..999999999)\n"
@@ -2937,13 +2909,14 @@ msgid ""
 "  %R   24-hour hour and minute; same as %H:%M\n"
 "  %s   seconds since 1970-01-01 00:00:00 UTC\n"
 msgstr ""
-"  %n\t换行\n"
-"  %N\t纳秒(000000000-999999999)\n"
-"  %p\t当前locale 下的\"上午\"或者\"下午\"，未知时输出为空\n"
-"  %P\t与%p 类似，但是输出小写字母\n"
-"  %r\t当前locale 下的 12 小时时钟时间 (如：11:11:04 下午)\n"
-"  %R\t24 小时时间的时和分，等价于 %H:%M\n"
-"  %s\t自UTC 时间 1970-01-01 00:00:00 以来所经过的秒数\n"
+"  %n   换行\n"
+"  %N   纳秒（000000000..999999999）\n"
+"  %p   当前地区时间设置中 AM 或 PM 的等效值（“上午”或“下午”），未知则为空\n"
+"  %P   类似 %p，但使用小写\n"
+"  %q   一年中的季度（1..4）\n"
+"  %r   当前地区时间中十二小时制钟表时间（例如，下午 11时11分04秒）\n"
+"  %R   24 小时制的时间和分钟；和 %H:%M 相同\n"
+"  %s   1970-01-01 00:00:00 UTC 以来的秒数\n"
 
 #: src/date.c:223
 msgid ""
@@ -3073,7 +3046,7 @@ msgstr "标准输入"
 #: src/date.c:329 src/date.c:557
 #, c-format
 msgid "invalid date %s"
-msgstr "无效的日期%s"
+msgstr "无效的日期 %s"
 
 #: src/date.c:443 src/date.c:477
 msgid "multiple output formats specified"
@@ -4283,7 +4256,7 @@ msgstr "-S 中的无效序列 '\\%c'"
 #: src/env.c:277
 #, c-format
 msgid "only ${VARNAME} expansion is supported, error at: %s"
-msgstr ""
+msgstr "只支持 ${VARNAME} 扩展，错误位于：%s"
 
 #: src/env.c:288
 msgid "no terminating quote in -S string"
@@ -5556,12 +5529,12 @@ msgstr "%s：是否替换%s？ "
 #: src/ln.c:349
 #, c-format
 msgid "failed to create symbolic link %s"
-msgstr "无法创建符号链接%s"
+msgstr "无法创建符号链接 %s"
 
 #: src/ln.c:350
 #, c-format
 msgid "failed to create symbolic link %s -> %s"
-msgstr "无法创建符号链接%s -> %s"
+msgstr "无法创建符号链接 %s -> %s"
 
 #: src/ln.c:352
 #, c-format
@@ -5571,42 +5544,27 @@ msgstr "无法创建硬链接%.0s%s"
 #: src/ln.c:355
 #, c-format
 msgid "failed to create hard link %s"
-msgstr "无法创建硬链接%s"
+msgstr "无法创建硬链接 %s"
 
 #: src/ln.c:356
 #, c-format
 msgid "failed to create hard link %s => %s"
-msgstr "无法创建硬链接%s => %s"
+msgstr "无法创建硬链接 %s => %s"
 
 #: src/ln.c:378
-#, fuzzy, c-format
-#| msgid ""
-#| "Usage: %s [OPTION]... [-T] TARGET LINK_NAME   (1st form)\n"
-#| "  or:  %s [OPTION]... TARGET                  (2nd form)\n"
-#| "  or:  %s [OPTION]... TARGET... DIRECTORY     (3rd form)\n"
-#| "  or:  %s [OPTION]... -t DIRECTORY TARGET...  (4th form)\n"
+#, c-format
 msgid ""
 "Usage: %s [OPTION]... [-T] TARGET LINK_NAME\n"
 "  or:  %s [OPTION]... TARGET\n"
 "  or:  %s [OPTION]... TARGET... DIRECTORY\n"
 "  or:  %s [OPTION]... -t DIRECTORY TARGET...\n"
 msgstr ""
-"用法：%s [选项]... [-T] 目标 链接名\t(第一种格式)\n"
-"　或：%s [选项]... 目标\t\t(第二种格式)\n"
-"　或：%s [选项]... 目标... 目录\t(第三种格式)\n"
-"　或：%s [选项]... -t 目录 目标...\t(第四种格式)\n"
+"用法：%s [选项]... [-T] 目标 链接名\n"
+"　或：%s [选项]... 目标\n"
+"　或：%s [选项]... 目标... 目录\n"
+"　或：%s [选项]... -t 目录 目标...\n"
 
 #: src/ln.c:385
-#, fuzzy
-#| msgid ""
-#| "In the 1st form, create a link to TARGET with the name LINK_NAME.\n"
-#| "In the 2nd form, create a link to TARGET in the current directory.\n"
-#| "In the 3rd and 4th forms, create links to each TARGET in DIRECTORY.\n"
-#| "Create hard links by default, symbolic links with --symbolic.\n"
-#| "When creating hard links, each TARGET must exist.  Symbolic links\n"
-#| "can hold arbitrary text; if later resolved, a relative link is\n"
-#| "interpreted in relation to its parent directory.\n"
-#| "\n"
 msgid ""
 "In the 1st form, create a link to TARGET with the name LINK_NAME.\n"
 "In the 2nd form, create a link to TARGET in the current directory.\n"
@@ -5617,13 +5575,13 @@ msgid ""
 "can hold arbitrary text; if later resolved, a relative link is\n"
 "interpreted in relation to its parent directory.\n"
 msgstr ""
-"在第一种格式中，创建指定名称且指向指定目标链接。\n"
-"在第二种格式中，在当前目录创建指向目标位置的链接。\n"
-"在第三、四种格式中，在指定目录中创建指向指定目标的链接。\n"
+"在第一种格式中，创建具有指定<链接名>且指向指定<目标>的链接。\n"
+"在第二种格式中，在当前目录创建指向<目标>位置的链接。\n"
+"在第三、四种格式中，在指定<目录>中创建指向指定<目标>的链接。\n"
 "默认创建硬链接，当使用--symbolic 时创建符号链接。\n"
-"当创建硬链接时每个指定的目标都必须存在。符号链接可以指向任意的位置，\n"
-"当链接解析正常时，将其解析为一个与其父目录关联的链接。\n"
-"\n"
+"默认情况下，创建每个目标时不应存在与新链接的名称相同的文件。\n"
+"创建硬链接时，每个指定的<目标>都必须存在。符号链接可以指向任意的位置；\n"
+"当链接解析正常时，将其解析为一个相对于其父目录的相对链接。\n"
 
 #: src/ln.c:398
 msgid ""
@@ -5634,10 +5592,11 @@ msgid ""
 "                                system restrictions, even for the superuser)\n"
 "  -f, --force                 remove existing destination files\n"
 msgstr ""
-"      --backup[=CONTROL]\t为每个已存在的目标文件创建备份文件\n"
-"  -b\t\t\t\t类似--backup，但不接受任何参数\n"
-"  -d, -F, --directory\t\t创建指向目录的硬链接(只适用于超级用户)\n"
-"  -f, --force\t\t\t强行删除任何已存在的目标文件\n"
+"      --backup[=CONTROL]      为每个已存在的目标文件创建备份文件\n"
+"  -b                          类似--backup，但不接受任何参数\n"
+"  -d, -F, --directory         允许超级用户尝试创建指向目录的硬链接\n"
+"                              （注意：此操作可能因系统限制而失败)\n"
+"  -f, --force                 强行删除任何已存在的目标文件\n"
 
 #: src/ln.c:406
 #, fuzzy
@@ -5685,29 +5644,23 @@ msgstr ""
 "  -v, --verbose\t\t链接前先列出每个文件的名称\n"
 
 #: src/ln.c:425
-#, fuzzy, c-format
-#| msgid ""
-#| "Using -s ignores -L and -P.  Otherwise, the last option specified controls\n"
-#| "behavior when the source is a symbolic link, defaulting to %s.\n"
-#| "\n"
+#, c-format
 msgid ""
 "\n"
 "Using -s ignores -L and -P.  Otherwise, the last option specified controls\n"
 "behavior when a TARGET is a symbolic link, defaulting to %s.\n"
 msgstr ""
-"使用 -s 选项会忽略 -L 和 -P。\n"
-"否则当源为一个符号链接(默认%s)时，会由最后指定的一个选项来控制行为。\n"
 "\n"
+"使用 -s 选项会忽略 -L 和 -P。\n"
+"否则当<目标>为一个符号链接（默认为 %s）时，会由最后一个指定的选项来控制行为。\n"
 
 #: src/ln.c:542
 msgid "cannot combine --target-directory and --no-target-directory"
 msgstr "无法同时使用 --target-directory 和 --no-target-directory"
 
 #: src/ln.c:574
-#, fuzzy
-#| msgid "cannot create symbolic link %s"
 msgid "cannot do --relative without --symbolic"
-msgstr "无法创建符号链接%s"
+msgstr "无 --symbolic 选项时无法启用 --relative"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/logname.c:31
@@ -6415,7 +6368,7 @@ msgstr "长度不是 8 的倍数"
 #: src/md5sum.c:956
 #, c-format
 msgid "maximum digest length for %s is %<PRIuMAX> bits"
-msgstr ""
+msgstr "%s 最大摘要长度为 %<PRIuMAX> 比特"
 
 #: src/md5sum.c:974
 #, c-format
@@ -6507,14 +6460,8 @@ msgid "Usage: %s [OPTION]... NAME...\n"
 msgstr "用法：%s [选项]... 名称...\n"
 
 #: src/mkfifo.c:55
-#, fuzzy
-#| msgid ""
-#| "Create named pipes (FIFOs) with the given NAMEs.\n"
-#| "\n"
 msgid "Create named pipes (FIFOs) with the given NAMEs.\n"
-msgstr ""
-"以指定的名称创建先进先出文件(FIFO)。\n"
-"\n"
+msgstr "以指定的<名称>创建命名管道（FIFO）。\n"
 
 #: src/mkfifo.c:61 src/mknod.c:63
 msgid "  -m, --mode=MODE    set file permission bits to MODE, not a=rw - umask\n"
@@ -6715,7 +6662,7 @@ msgstr "无效后缀 %s，含有目录分隔符"
 #: src/mktemp.c:261
 #, c-format
 msgid "too few X's in template %s"
-msgstr "模板%s 中X 太少"
+msgstr "模板 %s 中的 X 太少"
 
 #: src/mktemp.c:277
 #, c-format
@@ -7174,11 +7121,11 @@ msgstr ""
 
 #: src/numfmt.c:891
 msgid "      --debug          print warnings about invalid input\n"
-msgstr ""
+msgstr "      --debug          对无效输入内容打印警告信息\n"
 
 #: src/numfmt.c:894
 msgid "  -d, --delimiter=X    use X instead of whitespace for field delimiter\n"
-msgstr ""
+msgstr "  -d, --delimiter=X    使用 X 替代空白作为域定界符\n"
 
 #: src/numfmt.c:897
 msgid ""
@@ -7487,10 +7434,9 @@ msgid "error reading input"
 msgstr "读取输入时出错"
 
 #: src/numfmt.c:1643
-#, fuzzy, c-format
-#| msgid "failed to render standard input unusable"
+#, c-format
 msgid "failed to convert some of the input numbers"
-msgstr "标准输入不可用，无法重定向"
+msgstr "转换某些输入数字时失败"
 
 #: src/od.c:322
 #, c-format
@@ -8855,7 +8801,7 @@ msgstr ""
 
 #: src/rm.c:297
 msgid "you may not abbreviate the --no-preserve-root option"
-msgstr ""
+msgstr "您不能使用缩写的 --no-preserve-root 选项"
 
 #: src/rm.c:309
 #, c-format
@@ -8984,7 +8930,7 @@ msgstr "没有指定命令"
 #: src/runcon.c:195
 #, c-format
 msgid "%s may be used only on a SELinux kernel"
-msgstr "%s 只能用于启用了SELinux 支持的内核"
+msgstr "%s 只能用于启用了 SELinux 支持的内核"
 
 #: src/runcon.c:222
 msgid "failed to compute a new context"
@@ -9001,16 +8947,14 @@ msgid "failed to set new type: %s"
 msgstr "设置新类型失败：%s"
 
 #: src/runcon.c:242
-#, fuzzy, c-format
-#| msgid "failed to set new range %s"
+#, c-format
 msgid "failed to set new range: %s"
-msgstr "设置新范围%s 失败"
+msgstr "设置新范围失败：%s"
 
 #: src/runcon.c:245
-#, fuzzy, c-format
-#| msgid "failed to set new role %s"
+#, c-format
 msgid "failed to set new role: %s"
-msgstr "设置新角色%s 失败"
+msgstr "设置新角色失败：%s"
 
 #: src/runcon.c:254
 #, c-format
@@ -9188,16 +9132,10 @@ msgstr "Colin Plumb"
 
 #: src/shred.c:171
 #, fuzzy
-#| msgid ""
-#| "Overwrite the specified FILE(s) repeatedly, in order to make it harder\n"
-#| "for even very expensive hardware probing to recover the data.\n"
-#| "\n"
 msgid ""
 "Overwrite the specified FILE(s) repeatedly, in order to make it harder\n"
 "for even very expensive hardware probing to recover the data.\n"
-msgstr ""
-"多次覆盖文件，使得即使是昂贵的硬件探测仪器也难以将数据复原。\n"
-"\n"
+msgstr "多次覆盖文件，使得即使是昂贵的硬件探测仪器也难以将数据复原。\n"
 
 #: src/shred.c:175
 msgid ""
@@ -9527,10 +9465,9 @@ msgid "invalid input range"
 msgstr "无效的输入范围"
 
 #: src/shuf.c:449
-#, fuzzy, c-format
-#| msgid "invalid line count %s"
+#, c-format
 msgid "invalid line count: %s"
-msgstr "无效的行数%s"
+msgstr "无效的行数：%s"
 
 #: src/shuf.c:456 src/sort.c:4501
 msgid "multiple output files specified"
@@ -10121,7 +10058,7 @@ msgstr "正在创建文件 %s\n"
 #: src/split.c:471
 #, c-format
 msgid "%s would overwrite input; aborting"
-msgstr ""
+msgstr "%s 将会覆写输入；中止"
 
 #: src/split.c:487
 msgid "failed to set FILE environment variable"
@@ -10681,7 +10618,7 @@ msgstr ""
 
 #: src/stty.c:537
 msgid "Print or change terminal characteristics.\n"
-msgstr ""
+msgstr "输出或变更终端特性。\n"
 
 #: src/stty.c:543
 #, fuzzy
@@ -10717,6 +10654,8 @@ msgid ""
 "\n"
 "Special characters:\n"
 msgstr ""
+"\n"
+"特殊字符：\n"
 
 #: src/stty.c:559
 msgid " * discard CHAR  CHAR will toggle discarding of output\n"
@@ -11255,7 +11194,7 @@ msgstr ""
 #: src/stty.c:895
 #, c-format
 msgid "   crt           same as %s\n"
-msgstr ""
+msgstr "   crt           与 %s 相同\n"
 
 #: src/stty.c:905
 #, c-format
@@ -11911,10 +11850,8 @@ msgid "%s: cannot follow end of this type of file%s"
 msgstr "%s：无法跟随此类型文件的末尾 %s"
 
 #: src/tail.c:2203
-#, fuzzy
-#| msgid "%s: invalid maximum number of unchanged stats between opens"
 msgid "invalid maximum number of unchanged stats between opens"
-msgstr "%s：两次打开的间隔因过大而无效"
+msgstr ""
 
 #: src/tail.c:2211
 msgid "invalid PID"
@@ -11938,27 +11875,27 @@ msgstr "警告：已忽略 --retry；只有在跟随模式下 --retry 选项才�
 #: src/tail.c:2262
 #, c-format
 msgid "warning: --retry only effective for the initial open"
-msgstr ""
+msgstr "警告：--retry 仅对初次打开文件有效"
 
 #: src/tail.c:2267
 #, c-format
 msgid "warning: PID ignored; --pid=PID is useful only when following"
-msgstr "警告：已忽略进程号，只有在跟随模式下--pid=PID 选项才是有用的"
+msgstr "警告：已忽略进程号，只有在跟随模式下 --pid=PID 选项才是有用的"
 
 #: src/tail.c:2270
 #, c-format
 msgid "warning: --pid=PID is not supported on this system"
-msgstr "警告：此系统不支持--pid=PID"
+msgstr "警告：此系统不支持 --pid=PID"
 
 #: src/tail.c:2376
 #, c-format
 msgid "cannot follow %s by name"
-msgstr "无法按名称跟随%s"
+msgstr "无法按名称跟随 %s"
 
 #: src/tail.c:2391
 #, c-format
 msgid "warning: following standard input indefinitely is ineffective"
-msgstr "警告：无限期跟随标准输入是无用的"
+msgstr "警告：无限期跟随标准输入是"
 
 #: src/tail.c:2488
 #, c-format
@@ -12367,7 +12304,7 @@ msgstr "警告：sigprocmask"
 #: src/timeout.c:425
 #, c-format
 msgid "warning: disabling core dumps failed"
-msgstr ""
+msgstr "警告：禁用核心转储失败"
 
 #: src/timeout.c:544
 #, c-format
@@ -13040,7 +12977,7 @@ msgstr ""
 
 #: src/uniq.c:194
 msgid "  -f, --skip-fields=N   avoid comparing the first N fields\n"
-msgstr ""
+msgstr "  -f, --skip-fields=N   不要比较前 N 个域\n"
 
 #: src/uniq.c:197
 msgid ""
@@ -13054,6 +12991,9 @@ msgid ""
 "  -s, --skip-chars=N    avoid comparing the first N characters\n"
 "  -u, --unique          only print unique lines\n"
 msgstr ""
+"  -i, --ignore-case     比较时忽略大小写差异\n"
+"  -s, --skip-chars=N    不要比较起始 N 个字符\n"
+"  -u, --unique          只输出不重复（内容唯一）的行\n"
 
 #: src/uniq.c:209
 msgid "  -w, --check-chars=N   compare no more than N characters in lines\n"
@@ -13099,7 +13039,7 @@ msgstr "要对照的字节数量无效"
 #: src/uniq.c:654
 #, c-format
 msgid "--group is mutually exclusive with -c/-d/-D/-u"
-msgstr ""
+msgstr "--group 和 -c/-d/-D/-u 不兼容"
 
 #: src/uniq.c:661
 #, fuzzy, c-format
