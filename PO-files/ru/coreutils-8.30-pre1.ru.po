@@ -7,12 +7,13 @@
 # Oleg Tihonov <ost@tatnipi.ru>, 1999-2007.
 # Yuri Kozlov <yuray@komyakino.ru>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
 # Pavel Maryanov <acid@jack.kiev.ua>, 2011.
+# Galina Anikina <merilaga@yandex.ru, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 8.30-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2018-06-24 21:56-0700\n"
-"PO-Revision-Date: 2018-06-27 18:50+0300\n"
+"PO-Revision-Date: 2018-11-01 21:59+0300\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <gnu@d07.ru>\n"
 "Language: ru\n"
@@ -31,7 +32,7 @@ msgstr "недопустимый аргумент %s для %s"
 #: lib/argmatch.c:135
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "неоднозначный аргумент %s для %s"
+msgstr "двусмысленный аргумент %s для %s"
 
 #: lib/argmatch.c:154
 msgid "Valid arguments are:"
@@ -183,7 +184,7 @@ msgstr "Ошибка выделения памяти"
 
 #: lib/gai_strerror.c:63
 msgid "No address associated with hostname"
-msgstr "С данным именем узла не ассоциирован адрес"
+msgstr "Нет адреса, связанного с именем узла"
 
 #: lib/gai_strerror.c:64
 msgid "Name or service not known"
@@ -246,7 +247,7 @@ msgstr "%s: двусмысленный параметр «%s%s»; возможн
 #: lib/getopt.c:319
 #, c-format
 msgid "%s: unrecognized option '%s%s'\n"
-msgstr "%s: нераспознанный параметр «%s%s»\n"
+msgstr "%s: параметр «%s%s» не распознан\n"
 
 #: lib/getopt.c:345
 #, c-format
@@ -261,12 +262,12 @@ msgstr "%s: для параметра «%s%s» требуется аргумен
 #: lib/getopt.c:621
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: неверный ключ -- %c\n"
+msgstr "%s: недопустимый параметр -- «%c»\n"
 
 #: lib/getopt.c:636 lib/getopt.c:682
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: ключ должен использоваться с аргументом -- %c\n"
+msgstr "%s: параметр должен использоваться с аргументом -- %c\n"
 
 #: lib/mkdir-p.c:179 src/install.c:512
 #, c-format
@@ -500,7 +501,7 @@ msgstr "Завершение"
 
 #: lib/siglist.h:70
 msgid "Urgent I/O condition"
-msgstr "Срочная операция в/вывода"
+msgstr "Ситуация срочного ввода/вывода"
 
 #: lib/siglist.h:73
 msgid "Stopped (signal)"
@@ -528,7 +529,7 @@ msgstr "Останов (вывод с терминала)"
 
 #: lib/siglist.h:91
 msgid "I/O possible"
-msgstr "Возможен в/вывод"
+msgstr "Возможен ввод/вывод"
 
 #: lib/siglist.h:94
 msgid "CPU time limit exceeded"
@@ -659,26 +660,26 @@ msgstr ""
 "\n"
 "Лицензия GPLv3+: GNU GPL версии 3 или новее <https://gnu.org/licenses/gpl.html>\n"
 "Это свободное ПО: вы можете изменять и распространять его.\n"
-"Нет НИКАКИХ ГАРАНТИЙ до степени, разрешённой законом.\n"
+"Нет НИКАКИХ ГАРАНТИЙ в пределах действующего законодательства.\n"
 "\n"
 
 #. TRANSLATORS: %s denotes an author name.
 #: lib/version-etc.c:102
 #, c-format
 msgid "Written by %s.\n"
-msgstr "Автор программы -- %s.\n"
+msgstr "Автор программы — %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: lib/version-etc.c:106
 #, c-format
 msgid "Written by %s and %s.\n"
-msgstr "Авторы программы -- %s и %s.\n"
+msgstr "Авторы программы — %s и %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: lib/version-etc.c:110
 #, c-format
 msgid "Written by %s, %s, and %s.\n"
-msgstr "Авторы программы -- %s, %s и %s.\n"
+msgstr "Авторы программы — %s, %s и %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -689,7 +690,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"Авторы программы -- %s, %s, %s\n"
+"Авторы программы — %s, %s, %s\n"
 "и %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -701,7 +702,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
-"Авторы программы -- %s, %s, %s,\n"
+"Авторы программы — %s, %s, %s,\n"
 "%s и %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -713,7 +714,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, and %s.\n"
 msgstr ""
-"Авторы программы -- %s, %s, %s,\n"
+"Авторы программы — %s, %s, %s,\n"
 "%s, %s и %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -725,7 +726,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, %s, and %s.\n"
 msgstr ""
-"Авторы программы -- %s, %s, %s,\n"
+"Авторы программы — %s, %s, %s,\n"
 "%s, %s, %s и %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -738,7 +739,7 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"Авторы программы -- %s, %s, %s,\n"
+"Авторы программы — %s, %s, %s,\n"
 "%s, %s, %s, %s\n"
 "и %s.\n"
 
@@ -752,7 +753,7 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
-"Авторы программы -- %s, %s, %s,\n"
+"Авторы программы — %s, %s, %s,\n"
 "%s, %s, %s, %s,\n"
 "%s и %s.\n"
 
@@ -766,7 +767,7 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, %s, and others.\n"
 msgstr ""
-"Авторы программы -- %s, %s, %s,\n"
+"Авторы программы — %s, %s, %s,\n"
 "%s, %s, %s, %s,\n"
 "%s, %s и другие.\n"
 
@@ -854,7 +855,7 @@ msgid ""
 "Usage: %s [OPTION]... [FILE]\n"
 "Base%d encode or decode FILE, or standard input, to standard output.\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… [ФАЙЛ]\n"
+"Использование: %s [ПАРАМЕТР]… [ФАЙЛ]\n"
 "Кодирует или декодирует ФАЙЛ или стандартный ввод на стандартный\n"
 "вывод в/из base%d.\n"
 
@@ -885,7 +886,7 @@ msgstr ""
 "\n"
 "Данные кодируются как описано для алфавита %s в RFC 4648. При\n"
 "декодировании ввод может содержать также переводы строк помимо байтов\n"
-"формального алфавита %s. Используйте ключ --ignore-garbage, чтобы\n"
+"формального алфавита %s. Используйте параметр --ignore-garbage, чтобы\n"
 "попытаться проигнорировать неалфавитные символы в закодированном потоке.\n"
 
 #: src/base64.c:201 src/base64.c:239 src/csplit.c:277 src/csplit.c:1468
@@ -941,7 +942,7 @@ msgid ""
 "  or:  %s OPTION... NAME...\n"
 msgstr ""
 "Использование: %s ИМЯ [СУФФИКС]\n"
-"       или:    %s КЛЮЧ… ИМЯ…\n"
+"       или:    %s ПАРАМЕТР… ИМЯ…\n"
 
 #: src/basename.c:53
 msgid ""
@@ -1007,7 +1008,7 @@ msgstr "Ричард М. Столлман (Richard M. Stallman)"
 #: src/sum.c:59 src/tac.c:132 src/tail.c:261 src/tee.c:87 src/unexpand.c:78
 #, c-format
 msgid "Usage: %s [OPTION]... [FILE]...\n"
-msgstr "Использование: %s [КЛЮЧ]… [ФАЙЛ]…\n"
+msgstr "Использование: %s [ПАРАМЕТР]… [ФАЙЛ]…\n"
 
 #: src/cat.c:92
 msgid "Concatenate FILE(s) to standard output.\n"
@@ -1148,9 +1149,9 @@ msgid ""
 "  or:  %s [OPTION]... [-u USER] [-r ROLE] [-l RANGE] [-t TYPE] FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… КОНТЕКСТ ФАЙЛ…\n"
-"  или:  %s [КЛЮЧ]… [-u ПОЛЬЗ-ЛЬ] [-r РОЛЬ] [-l ДИАПАЗОН] [-t ТИП] ФАЙЛ…\n"
-"  или:  %s [КЛЮЧ]… --reference=ЭФАЙЛ ФАЙЛ…\n"
+"Использование: %s [ПАРАМЕТР]… КОНТЕКСТ ФАЙЛ…\n"
+"  или:  %s [ПАРАМЕТР]… [-u ПОЛЬЗ-ЛЬ] [-r РОЛЬ] [-l ДИАПАЗОН] [-t ТИП] ФАЙЛ…\n"
+"  или:  %s [ПАРАМЕТР]… --reference=ЭФАЙЛ ФАЙЛ…\n"
 
 #: src/chcon.c:358
 msgid ""
@@ -1167,8 +1168,8 @@ msgid ""
 "                         the default), rather than the symbolic link itself\n"
 "  -h, --no-dereference   affect symbolic links instead of any referenced file\n"
 msgstr ""
-"      --dereference      применять к файлу по символьной ссылке, а не к самой\n"
-"                         ссылке (по умолчанию)\n"
+"      --dereference      применять к файлу по символьной ссылке, а не к\n"
+"                         самой ссылке (по умолчанию)\n"
 "  -h, --no-dereference   применять к символьной ссылке, а не к самому файлу\n"
 
 #: src/chcon.c:370
@@ -1178,7 +1179,8 @@ msgid ""
 "  -t, --type=TYPE        set type TYPE in the target security context\n"
 "  -l, --range=RANGE      set range RANGE in the target security context\n"
 msgstr ""
-"  -u, --user=ПОЛЬЗ       задать ПОЛЬЗОВАТЕЛЯ в наз-мом контексте безопасности\n"
+"  -u, --user=ПОЛЬЗ       задать ПОЛЬЗОВАТЕЛЯ в назначаемом контексте\n"
+"                         безопасности\n"
 "  -r, --role=РОЛЬ        задать РОЛЬ в назначаемом контексте безопасности\n"
 "  -t, --type=ТИП         задать ТИП в назначаемом контексте безопасности\n"
 "  -l, --range=ДИАПАЗОН   задать ДИАПАЗОН в назначаемом контексте безопасности\n"
@@ -1222,7 +1224,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Следующие параметры влияют на способ обхода иерархии каталогов при\n"
+"Следующие параметры влияют на способ обхода дерева каталогов при\n"
 "заданном параметре -R. Если указано несколько этих параметров, действует\n"
 "только последний.\n"
 "\n"
@@ -1235,11 +1237,11 @@ msgstr ""
 
 #: src/chcon.c:517 src/chgrp.c:266 src/chown.c:267
 msgid "-R --dereference requires either -H or -L"
-msgstr "Комбинация ключей -R --dereference требует указать -H либо -L"
+msgstr "Для комбинации -R --dereference требуется -H или -L"
 
 #: src/chcon.c:523
 msgid "-R -h requires -P"
-msgstr "-R -h требуют -P"
+msgstr "Для комбинации -R -h требуется -P"
 
 #: src/chcon.c:538 src/chgrp.c:281 src/chmod.c:531 src/chown.c:282
 #: src/comm.c:483 src/csplit.c:1404 src/join.c:1162 src/link.c:85
@@ -1276,8 +1278,8 @@ msgid ""
 "Usage: %s [OPTION]... GROUP FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… ГРУППА ФАЙЛ…\n"
-"       или:    %s [КЛЮЧ]… --reference=ОФАЙЛ ФАЙЛ…\n"
+"Использование: %s [ПАРАМЕТР]… ГРУППА ФАЙЛ…\n"
+"       или:    %s [ПАРАМЕТР]… --reference=ОФАЙЛ ФАЙЛ…\n"
 
 #: src/chgrp.c:115
 msgid ""
@@ -1338,7 +1340,7 @@ msgstr "получение новых атрибутов %s"
 #: src/chmod.c:151 src/chown-core.c:146
 #, c-format
 msgid "neither symbolic link %s nor referent has been changed\n"
-msgstr "ни символьная ссылка %s, ни то но что она указывает не были изменены\n"
+msgstr "символьная ссылка %s и то, на что она указывает, не были изменены\n"
 
 #: src/chmod.c:165
 #, c-format
@@ -1377,9 +1379,9 @@ msgid ""
 "  or:  %s [OPTION]... OCTAL-MODE FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]... РЕЖИМ[,РЕЖИМ]… ФАЙЛ\n"
-"       или:    %s [КЛЮЧ]… ВОСЬМ-РЕЖИМ ФАЙЛ…\n"
-"       или:    %s [КЛЮЧ]… --reference=ОФАЙЛ ФАЙЛ…\n"
+"Использование: %s [ПАРАМЕТР]... РЕЖИМ[,РЕЖИМ]… ФАЙЛ\n"
+"       или:    %s [ПАРАМЕТР]… ВОСЬМЕРИЧНЫЙ-РЕЖИМ ФАЙЛ…\n"
+"       или:    %s [ПАРАМЕТР]… --reference=ОФАЙЛ ФАЙЛ…\n"
 
 #: src/chmod.c:380
 msgid ""
@@ -1408,12 +1410,12 @@ msgid ""
 "Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.\n"
 msgstr ""
 "\n"
-"Каждый РЕЖИМ задается в форме «[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+».\n"
+"Каждый РЕЖИМ задаётся в форме «[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+».\n"
 
 #: src/chmod.c:516
 #, c-format
 msgid "cannot combine mode and --reference options"
-msgstr "нельзя сочетать ключи режима и --reference"
+msgstr "нельзя совместно использовать параметры «режим» и --reference"
 
 #: src/chmod.c:547
 #, c-format
@@ -1433,7 +1435,7 @@ msgstr "изменена группа %s с %s на %s\n"
 #: src/chown-core.c:159
 #, c-format
 msgid "no change to ownership of %s\n"
-msgstr "не изменён владелец %s\n"
+msgstr "владелец %s не изменён\n"
 
 #: src/chown-core.c:164
 #, c-format
@@ -1496,8 +1498,8 @@ msgid ""
 "Usage: %s [OPTION]... [OWNER][:[GROUP]] FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… [ВЛАДЕЛЕЦ][:[ГРУППА]] ФАЙЛ…\n"
-"       или:    %s [КЛЮЧ]… --reference=ОФАЙЛ ФАЙЛ…\n"
+"Использование: %s [ПАРАМЕТР]… [ВЛАДЕЛЕЦ][:[ГРУППА]] ФАЙЛ…\n"
+"       или:    %s [ПАРАМЕТР]… --reference=ОФАЙЛ ФАЙЛ…\n"
 
 #: src/chown.c:85
 msgid ""
@@ -1519,12 +1521,12 @@ msgid ""
 "                         is not required for the omitted attribute\n"
 msgstr ""
 "      --from=ТЕКУЩИЙ_ВЛАДЕЛЕЦ:ТЕКУЩАЯ_ГРУППА\n"
-"                          Изменяет владельца и/или группу каждого файла\n"
-"                          только если текущий владелец и/или группа\n"
-"                          совпадают с указанными.\n"
-"                          Как группа, так и владелец могут быть опущены;\n"
-"                          в этом случае совпадение для данного атрибута\n"
-"                          не обязательно.\n"
+"                         Изменяет владельца и/или группу каждого файла\n"
+"                         только если текущий владелец и/или группа\n"
+"                         совпадают с указанными.\n"
+"                         Как группа, так и владелец могут быть опущены;\n"
+"                         в этом случае совпадение для данного атрибута\n"
+"                         не обязательно.\n"
 
 #: src/chown.c:115
 msgid ""
@@ -1584,15 +1586,15 @@ msgid ""
 "Usage: %s [OPTION] NEWROOT [COMMAND [ARG]...]\n"
 "  or:  %s OPTION\n"
 msgstr ""
-"Использование: %s [КЛЮЧ] НОВЫЙКОРЕНЬ [КОМАНДА [АРГ]…]\n"
-"       или:    %s КЛЮЧ\n"
+"Использование: %s [ПАРАМЕТР] НОВЫЙ_КОРЕНЬ [КОМАНДА [АРГ]…]\n"
+"       или:    %s ПАРАМЕТР\n"
 
 #: src/chroot.c:191
 msgid ""
 "Run COMMAND with root directory set to NEWROOT.\n"
 "\n"
 msgstr ""
-"Выполняет КОМАНДУ с указанным корневым каталогом.\n"
+"Выполняет КОМАНДУ с указанным НОВЫМ_КОРНЕМ.\n"
 "\n"
 
 #: src/chroot.c:196
@@ -1619,7 +1621,7 @@ msgstr ""
 #: src/chroot.c:287
 #, c-format
 msgid "option --skip-chdir only permitted if NEWROOT is old %s"
-msgstr "параметр --skip-chdir допустим только, если NEWROOT старый %s"
+msgstr "параметр --skip-chdir допустим только, если НОВЫЙ_КОРЕНЬ старый %s"
 
 #: src/chroot.c:330
 #, c-format
@@ -1673,7 +1675,7 @@ msgid ""
 "  or:  %s [OPTION]\n"
 msgstr ""
 "Использование: %s [ФАЙЛ]…\n"
-"       или:    %s КЛЮЧ\n"
+"       или:    %s ПАРАМЕТР\n"
 
 #: src/cksum.c:268
 msgid ""
@@ -1686,11 +1688,11 @@ msgstr ""
 #: src/comm.c:112 src/join.c:192
 #, c-format
 msgid "Usage: %s [OPTION]... FILE1 FILE2\n"
-msgstr "Использование: %s [КЛЮЧ]… ФАЙЛ1 ФАЙЛ2\n"
+msgstr "Использование: %s [ПАРАМЕТР]… ФАЙЛ1 ФАЙЛ2\n"
 
 #: src/comm.c:116
 msgid "Compare sorted files FILE1 and FILE2 line by line.\n"
-msgstr "Сравнивает сортированные файлы ФАЙЛ1 и ФАЙЛ2 построчно.\n"
+msgstr "Сравнивает отсортированные файлы ФАЙЛ1 и ФАЙЛ2 построчно.\n"
 
 #: src/comm.c:119 src/join.c:201
 msgid ""
@@ -1708,7 +1710,7 @@ msgid ""
 "and column three contains lines common to both files.\n"
 msgstr ""
 "\n"
-"При запуске без ключей выдает результат в три столбца. Первый столбец\n"
+"При запуске без параметров выдает результат в три столбца. Первый столбец\n"
 "содержит строки, уникальные для ФАЙЛА1, второй — уникальные для\n"
 "ФАЙЛА2, а третий — общие для обоих файлов строки.\n"
 
@@ -1751,8 +1753,8 @@ msgstr "  --total                 показывать сводку\n"
 #: src/paste.c:452 src/tail.c:308
 msgid "  -z, --zero-terminated    line delimiter is NUL, not newline\n"
 msgstr ""
-"  -z, --zero-terminated        разделитель строк NUL, а не символ\n"
-"                               новой строки\n"
+"  -z, --zero-terminated    разделитель строк NUL, а не символ\n"
+"                           новой строки\n"
 
 #: src/comm.c:152
 msgid ""
@@ -2152,9 +2154,9 @@ msgid ""
 "  or:  %s [OPTION]... SOURCE... DIRECTORY\n"
 "  or:  %s [OPTION]... -t DIRECTORY SOURCE...\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… [-T] ИСТОЧНИК НАЗНАЧЕНИЕ\n"
-"       или:    %s [КЛЮЧ]… ИСТОЧНИК… КАТАЛОГ\n"
-"       или:    %s [КЛЮЧ]… -t КАТАЛОГ ИСТОЧНИК…\n"
+"Использование: %s [ПАРАМЕТР]… [-T] ИСТОЧНИК НАЗНАЧЕНИЕ\n"
+"       или:    %s [ПАРАМЕТР]… ИСТОЧНИК… КАТАЛОГ\n"
+"       или:    %s [ПАРАМЕТР]… -t КАТАЛОГ ИСТОЧНИК…\n"
 
 #: src/cp.c:154
 msgid "Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.\n"
@@ -2189,9 +2191,9 @@ msgid ""
 msgstr ""
 "  -f, --force                  если невозможно открыть существующий файл, то\n"
 "                               удалить его и попробовать ещё раз (этот параметр\n"
-"                               игнорируется, если также указан ключ -n)\n"
-"  -i, --interactive            спрашивать перед тем как переписывать (отменяет\n"
-"                               ранее указанный ключ -n)\n"
+"                               игнорируется, если также указан параметр -n)\n"
+"  -i, --interactive            спрашивать перед тем как переписывать\n"
+"                               (отменяет ранее указанный параметр -n)\n"
 "  -H                           следовать по символьным ссылкам в ИСТОЧНИКЕ\n"
 
 #: src/cp.c:178
@@ -2310,10 +2312,10 @@ msgstr ""
 "\n"
 "По умолчанию, разреженные файлы ИСТОЧНИКА распознаются при помощи грубой\n"
 "эвристической процедуры и соответственно создаются разреженные НАЗНАЧЕНИЯ.\n"
-"Такое поведение задаётся при помощи ключа --sparse=auto.\n"
-"С ключом --sparse=always всегда создаётся разреженный файл НАЗНАЧЕНИЯ, вне\n"
+"Такое поведение задаётся при помощи параметр --sparse=auto.\n"
+"С параметром --sparse=always всегда создаётся разреженный файл НАЗНАЧЕНИЯ, вне\n"
 "зависимости от того, содержит ли ИСТОЧНИК достаточно длинные\n"
-"последовательности нулевых байтов. Используйте ключ --sparse=never для\n"
+"последовательности нулевых байтов. Используйте параметр --sparse=never для\n"
 "запрещения создания разреженных файлов.\n"
 
 #: src/cp.c:239
@@ -2325,9 +2327,9 @@ msgid ""
 "Use --reflink=never to ensure a standard copy is performed.\n"
 msgstr ""
 "\n"
-"Если указано --reflink[=always], выполняется облегчённое копирование, при котором\n"
-"блоки данных копируются только при изменении. Если это невозможно, или если\n"
-"указано --reflink=auto, то используется обычное копирование.\n"
+"Если указано --reflink[=always], выполняется облегчённое копирование, при\n"
+"котором блоки данных копируются только при изменении. Если это невозможно,\n"
+"или если указано --reflink=auto, то используется обычное копирование.\n"
 "При указании --reflink=never всегда выполняется обычное копирование.\n"
 
 #: src/cp.c:247
@@ -2339,7 +2341,7 @@ msgid ""
 msgstr ""
 "\n"
 "Как исключение, cp создает резервную копию ИСТОЧНИКА, если заданы\n"
-"ключи -f и -b, а если ИСТОЧНИК совпадает с НАЗНАЧЕНИЕМ, то cp создает\n"
+"параметры -f и -b, а если ИСТОЧНИК совпадает с НАЗНАЧЕНИЕМ, то cp создает\n"
 "резервную копию НАЗНАЧЕНИЯ.\n"
 
 #: src/cp.c:306
@@ -2402,7 +2404,7 @@ msgstr "задано несколько целевых каталогов"
 #: src/cp.c:1124 src/install.c:918
 #, c-format
 msgid "warning: ignoring --context; it requires an SELinux-enabled kernel"
-msgstr "предупреждение: игнорируется ключ --context; он требуется для ядра с включённым SELinux"
+msgstr "предупреждение: игнорируется параметр --context; он требуется для ядра с включённым SELinux"
 
 #: src/cp.c:1145
 #, c-format
@@ -2412,12 +2414,12 @@ msgstr "невозможно создать жёсткую и символьну
 #: src/cp.c:1155 src/mv.c:478
 #, c-format
 msgid "options --backup and --no-clobber are mutually exclusive"
-msgstr "ключи --backup и --no-clobber взаимно исключают друг друга"
+msgstr "параметры --backup и --no-clobber взаимно исключают друг друга"
 
 #: src/cp.c:1161
 #, c-format
 msgid "--reflink can be used only with --sparse=auto"
-msgstr "ключ --reflink можно использовать только с --sparse=auto"
+msgstr "параметр --reflink можно использовать только с --sparse=auto"
 
 #: src/cp.c:1166 src/install.c:950 src/ln.c:567 src/mv.c:483
 msgid "backup type"
@@ -2536,17 +2538,17 @@ msgstr "неверный описатель преобразования в су
 #: src/csplit.c:1298
 #, c-format
 msgid "invalid flags in conversion specification: %%%c%c"
-msgstr "некорректные флаги в спецификации преобразования: %%%c%c"
+msgstr "некорректные флаги в описателе преобразования: %%%c%c"
 
 #: src/csplit.c:1315
 #, c-format
 msgid "too many %% conversion specifications in suffix"
-msgstr "слишком много описаний преобразования (%%) в суффиксе"
+msgstr "слишком много описателей преобразования (%%) в суффиксе"
 
 #: src/csplit.c:1329
 #, c-format
 msgid "missing %% conversion specification in suffix"
-msgstr "пропущено описание преобразования (%%) в суффиксе"
+msgstr "пропущен описатель преобразования (%%) в суффиксе"
 
 #: src/csplit.c:1375 src/dd.c:1499 src/nproc.c:105 src/tail.c:2140
 msgid "invalid number"
@@ -2555,7 +2557,7 @@ msgstr "неверный номер"
 #: src/csplit.c:1482
 #, c-format
 msgid "Usage: %s [OPTION]... FILE PATTERN...\n"
-msgstr "Использование: %s [КЛЮЧ]… ФАЙЛ ОБРАЗЕЦ…\n"
+msgstr "Использование: %s [ПАРАМЕТР]… ФАЙЛ ОБРАЗЕЦ…\n"
 
 #: src/csplit.c:1486
 msgid ""
@@ -2631,7 +2633,7 @@ msgstr "Дэвид М. Инат (David M. Ihnat)"
 #: src/cut.c:147
 #, c-format
 msgid "Usage: %s OPTION... [FILE]...\n"
-msgstr "Использование: %s КЛЮЧ… [ФАЙЛ]…\n"
+msgstr "Использование: %s ПАРАМЕТР… [ФАЙЛ]…\n"
 
 #: src/cut.c:151
 msgid "Print selected parts of lines from each FILE to standard output.\n"
@@ -2657,7 +2659,7 @@ msgid ""
 msgstr ""
 "  -f, --fields=СПИСОК            выбрать только заданные поля; также печатать\n"
 "                                 все строки, не содержащие разделителей, если\n"
-"                                 только не задан ключ -s\n"
+"                                 только не задан параметр -s\n"
 "  -n                             (игнорируется)\n"
 
 #: src/cut.c:169
@@ -2688,7 +2690,7 @@ msgid ""
 "in the same order that it is read, and is written exactly once.\n"
 msgstr ""
 "\n"
-"Используйте один и только один из ключей -b, -c или -f.  СПИСКИ\n"
+"Используйте один и только один из параметров: -b, -c или -f.  СПИСКИ\n"
 "состоят из диапазона или нескольких диапазонов, разделенных запятыми.\n"
 "Выбранные части входного файла печатаются в том порядке, в котором они\n"
 "появляются на входе, и печатаются ровно один раз.\n"
@@ -2739,7 +2741,7 @@ msgid ""
 "Usage: %s [OPTION]... [+FORMAT]\n"
 "  or:  %s [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… [+ФОРМАТ]\n"
+"Использование: %s [ПАРАМЕТР]… [+ФОРМАТ]\n"
 "       или:    %s [-u|--utc|--universal] [ММДДччмм[[ВВ]ГГ][.сс]]\n"
 
 #: src/date.c:135
@@ -2775,7 +2777,7 @@ msgstr ""
 "  -I[ФОРМ_ВРЕМЕНИ], --iso-8601[=ФОРМ_ВРЕМЕНИ]\n"
 "                            Вывод даты/времени в формате ISO 8601.\n"
 "                            Только дату, если ФОРМ_ВРЕМЕНИ=«date»\n"
-"                             (по умолчанию), «hours», «minutes», «seconds»\n"
+"                            (по умолчанию), «hours», «minutes», «seconds»\n"
 "                            или «ns» для получения даты и времени\n"
 "                            с нужной точностью.\n"
 "                            Пример: 2006-08-14T02:34:56-06:00\n"
@@ -2846,7 +2848,7 @@ msgid ""
 "  %D   date; same as %m/%d/%y\n"
 "  %e   day of month, space padded; same as %_d\n"
 msgstr ""
-"  %C   век; как %Y, но опускаются две последние цифры (напр., 20)\n"
+"  %C   век; как %Y, но не указываются две последние цифры (напр., 20)\n"
 "  %d   день месяца (напр., 01)\n"
 "  %D   дата; аналогично %m/%d/%y\n"
 "  %e   день месяца, дополненный пробелами; аналогично %_d\n"
@@ -3034,12 +3036,12 @@ msgstr "задано несколько выходных форматов"
 #: src/date.c:455
 #, c-format
 msgid "the options to specify dates for printing are mutually exclusive"
-msgstr "ключи для вывода даты взаимно исключают друг друга"
+msgstr "параметры для вывода даты взаимно исключают друг друга"
 
 #: src/date.c:462
 #, c-format
 msgid "the options to print and set the time may not be used together"
-msgstr "ключи для установки и для отображения времени не могут применяться вместе"
+msgstr "параметры для установки и для отображения времени не могут применяться вместе"
 
 #: src/date.c:483
 #, c-format
@@ -3049,7 +3051,7 @@ msgid ""
 "argument must be a format string beginning with '+'"
 msgstr ""
 "аргумент %s не начинается со знака «+»;\n"
-"при задании даты, каждый аргумент, не являющийся ключом, должен быть строкой\n"
+"при задании даты, каждый аргумент, не являющийся параметром, должен быть строкой\n"
 "формата, начинающейся знаком «+»"
 
 #: src/date.c:565
@@ -3285,7 +3287,7 @@ msgstr ""
 "стандартный поток ошибок статистику ввода/вывода и продолжит\n"
 "копирование.\n"
 "\n"
-"Ключи:\n"
+"Параметры:\n"
 "\n"
 
 #: src/dd.c:707
@@ -3539,12 +3541,12 @@ msgstr "Файл"
 #: src/df.c:391
 #, c-format
 msgid "option --output: field %s unknown"
-msgstr "ключ --output: неизвестное поле %s"
+msgstr "параметр --output: неизвестное поле %s"
 
 #: src/df.c:398
 #, c-format
 msgid "option --output: field %s used more than once"
-msgstr "ключ --output: поле %s используется более одного раза"
+msgstr "параметр --output: поле %s используется более одного раза"
 
 #: src/df.c:419 src/df.c:458
 msgid "Size"
@@ -3656,7 +3658,7 @@ msgid ""
 "'size', 'used', 'avail', 'pcent', 'file' and 'target' (see info page).\n"
 msgstr ""
 "\n"
-"Значение FIELD_LIST предоставляет собой список включаемых колонок,\n"
+"Значение FIELD_LIST представляет собой список включаемых колонок,\n"
 "перечисляемых через запятую. Возможные имена полей:\n"
 "«source», «fstype», «itotal», «iused», «iavail», «ipcent»,\n"
 "«size», «used», «avail», «pcent», «file» и «target» (см. также страницу info).\n"
@@ -3664,7 +3666,7 @@ msgstr ""
 #: src/df.c:1540
 #, c-format
 msgid "options %s and %s are mutually exclusive"
-msgstr "ключи %s и %s взаимно исключают друг друга"
+msgstr "параметры %s и %s взаимно исключают друг друга"
 
 #: src/df.c:1690
 #, c-format
@@ -3691,7 +3693,7 @@ msgstr "Х. Питер Энвин (H. Peter Anvin)"
 #: src/dircolors.c:99 src/uptime.c:204 src/users.c:111
 #, c-format
 msgid "Usage: %s [OPTION]... [FILE]\n"
-msgstr "Использование: %s [КЛЮЧ]… [ФАЙЛ]\n"
+msgstr "Использование: %s [ПАРАМЕТР]… [ФАЙЛ]\n"
 
 #: src/dircolors.c:100
 msgid ""
@@ -3744,7 +3746,7 @@ msgid ""
 "the options to output dircolors' internal database and\n"
 "to select a shell syntax are mutually exclusive"
 msgstr ""
-"ключи для вывода внутренней базы данных dircolors и ключи для выбора\n"
+"параметры вывода внутренней базы данных dircolors и параметры выбора\n"
 "синтаксиса оболочки взаимно исключают друг друга"
 
 #: src/dircolors.c:452
@@ -3753,12 +3755,12 @@ msgstr "операнды-файлы нельзя сочетать с --print-dat
 
 #: src/dircolors.c:475
 msgid "no SHELL environment variable, and no shell type option given"
-msgstr "либо переменная окружения SHELL отсутствует, либо не задан тип интерпретатора"
+msgstr "переменная окружения SHELL отсутствует и не задан параметр типа интерпретатора"
 
 #: src/dirname.c:50
 #, c-format
 msgid "Usage: %s [OPTION] NAME...\n"
-msgstr "Использование: %s [КЛЮЧ] ИМЯ…\n"
+msgstr "Использование: %s [ПАРАМЕТР] ИМЯ…\n"
 
 #: src/dirname.c:54
 msgid ""
@@ -3797,8 +3799,8 @@ msgid ""
 "Usage: %s [OPTION]... [FILE]...\n"
 "  or:  %s [OPTION]... --files0-from=F\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… [ФАЙЛ]…\n"
-"       или:    %s [КЛЮЧ]… --files0-from=Ф\n"
+"Использование: %s [ПАРАМЕТР]… [ФАЙЛ]…\n"
+"       или:    %s [ПАРАМЕТР]… --files0-from=Ф\n"
 
 #: src/du.c:288
 msgid "Summarize disk usage of the set of FILEs, recursively for directories.\n"
@@ -3845,12 +3847,12 @@ msgstr ""
 "  -b, --bytes              эквивалентно «--apparent-size --block-size=1»\n"
 "  -c, --total              выводить общий итог\n"
 "  -D, --dereference-args   следовать только по символьным ссылкам,\n"
-"                          которые перечислены в командной строке\n"
-"  -d, --max-depth=N       выводить общий размер каталога (или файла,\n"
-"                          если --all) только для N-го или меньшего уровня\n"
-"                          чем указанный аргумент командной строки;\n"
-"                          значение --max-depth=0 аналогично\n"
-"                          указанию --summarize\n"
+"                           которые перечислены в командной строке\n"
+"  -d, --max-depth=N        выводить общий размер каталога (или файла,\n"
+"                           если --all) только для N-го или меньшего уровня\n"
+"                           чем указанный аргумент командной строки;\n"
+"                           значение --max-depth=0 аналогично\n"
+"                           указанию --summarize\n"
 
 #: src/du.c:316
 msgid ""
@@ -3865,9 +3867,11 @@ msgstr ""
 "                           файлов (завершённые нулем) перечислены в файле Ф;\n"
 "                           если Ф равно -, то читать имена файлов из\n"
 "                           стандартного ввода\n"
-"  -H                       эквивалентен ключу --dereference-args (-D)\n"
+"  -H                       эквивалентен параметру --dereference-args (-D)\n"
 "  -h, --human-readable     печатать размеры в удобном для человека виде\n"
 "                           (например, 1K 234M 2G)\n"
+"      --inodes             вывести информацию об использованных инодах,\n"
+"                           а не о блоках\n"
 
 #: src/du.c:325
 msgid ""
@@ -3960,7 +3964,7 @@ msgstr "предупреждение: подведение итога конфл
 #: src/du.c:955
 #, c-format
 msgid "warning: options --apparent-size and -b are ineffective with --inodes"
-msgstr "предупреждение: ключи --apparent-size и -b не работают вместе с --inodes"
+msgstr "предупреждение: параметры --apparent-size и -b не работают вместе с --inodes"
 
 #: src/du.c:1020 src/sort.c:4597 src/wc.c:739
 msgid "file operands cannot be combined with --files0-from"
@@ -3991,8 +3995,8 @@ msgid ""
 "Usage: %s [SHORT-OPTION]... [STRING]...\n"
 "  or:  %s LONG-OPTION\n"
 msgstr ""
-"Использование: %s [КОРОТКИЙ-КЛЮЧ]… [СТРОКА]…\n"
-"  или:  %s ДЛИННЫЙ-КЛЮЧ\n"
+"Использование: %s [КОРОТКИЙ-ПАРАМЕТР]… [СТРОКА]…\n"
+"  или:  %s ДЛИННЫЙ-ПАРАМЕТР\n"
 
 #: src/echo.c:45
 msgid ""
@@ -4029,7 +4033,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Если действует ключ -e, распознаются следующие последовательности:\n"
+"Если задействован параметр -e, то распознаются следующие последовательности:\n"
 "\n"
 
 #: src/echo.c:65 src/printf.c:110
@@ -4077,7 +4081,7 @@ msgstr "Ассаф Гордон (Assaf Gordon)"
 #: src/env.c:73
 #, c-format
 msgid "Usage: %s [OPTION]... [-] [NAME=VALUE]... [COMMAND [ARG]...]\n"
-msgstr "Использование: %s [КЛЮЧ]… [-] [ИМЯ=ЗНАЧЕНИЕ]… [КОМАНДА [АРГ]…]\n"
+msgstr "Использование: %s [ПАРАМЕТР]… [-] [ИМЯ=ЗНАЧЕНИЕ]… [КОМАНДА [АРГ]…]\n"
 
 #: src/env.c:76
 msgid "Set each NAME to VALUE in the environment and run COMMAND.\n"
@@ -4115,8 +4119,8 @@ msgid ""
 "A mere - implies -i.  If no COMMAND, print the resulting environment.\n"
 msgstr ""
 "\n"
-"Просто «-» — синоним для «-i». Если не задана КОМАНДА, печатает получившееся\n"
-"окружение.\n"
+"Просто «-» — синоним для «-i». Если не задана КОМАНДА, то печатает\n"
+"получившееся (имеющееся в наличии) окружение.\n"
 
 #: src/env.c:122
 #, c-format
@@ -4219,7 +4223,7 @@ msgstr "номера позиций табуляции должны возрас
 
 #: src/expand-common.c:251
 msgid "'/' specifier is mutually exclusive with '+'"
-msgstr "описатель «/» и «+» взаимоисключаемы"
+msgstr "описатели «/» и «+» взаимоисключаемы"
 
 #: src/expand-common.c:390
 msgid "  -t, --tabs=LIST  use comma separated list of tab positions\n"
@@ -4278,7 +4282,7 @@ msgid ""
 "  or:  %s OPTION\n"
 msgstr ""
 "Использование: %s ВЫРАЖЕНИЕ\n"
-"       или:    %s КЛЮЧ\n"
+"       или:    %s ПАРАМЕТР\n"
 
 #: src/expr.c:353
 msgid ""
@@ -4474,7 +4478,7 @@ msgid ""
 "  or:  %s OPTION\n"
 msgstr ""
 "Использование: %s [ЧИСЛО]…\n"
-"       или:    %s КЛЮЧ\n"
+"       или:    %s ПАРАМЕТР\n"
 
 #: src/factor.c:2566
 msgid ""
@@ -4510,7 +4514,7 @@ msgstr "Росс Патерсон (Ross Paterson)"
 #: src/fmt.c:269
 #, c-format
 msgid "Usage: %s [-WIDTH] [OPTION]... [FILE]...\n"
-msgstr "Использование: %s [-ЦИФРЫ] [КЛЮЧ]… [ФАЙЛ]…\n"
+msgstr "Использование: %s [-ЦИФРЫ] [ПАРАМЕТР]… [ФАЙЛ]…\n"
 
 #: src/fmt.c:270
 msgid ""
@@ -4518,7 +4522,7 @@ msgid ""
 "The option -WIDTH is an abbreviated form of --width=DIGITS.\n"
 msgstr ""
 "Переформатирует каждый абзац в ФАЙЛЕ(ах) и печатает на стандартный вывод.\n"
-"Ключ -ЦИФРЫ -- сокращённая форма --width=ЦИФРЫ.\n"
+"Параметр -ЦИФРЫ — сокращённая форма --width=ЦИФРЫ.\n"
 
 #: src/fmt.c:278
 msgid ""
@@ -4553,7 +4557,7 @@ msgid ""
 "invalid option -- %c; -WIDTH is recognized only when it is the first\n"
 "option; use -w N instead"
 msgstr ""
-"неверный ключ -- %c; -ЦИФРЫ распознается, только если это первый\n"
+"неверный параметр — %c; -ЦИФРЫ распознается, только если это первый\n"
 "аргумент, в противном случае пишите -w N"
 
 #: src/fmt.c:399 src/fmt.c:406
@@ -4594,7 +4598,7 @@ msgid ""
 "Output platform dependent limits in a format useful for shell scripts.\n"
 "\n"
 msgstr ""
-"Вывести ограничения платформы в форме, пригодной для обработки с\n"
+"Вывести ограничения платформы в форме, пригодной для обработки в\n"
 "сценариях командной строки.\n"
 "\n"
 
@@ -4616,7 +4620,7 @@ msgstr "невозможно определить имя группы для ID 
 #: src/groups.c:54
 #, c-format
 msgid "Usage: %s [OPTION]... [USERNAME]...\n"
-msgstr "Использование: %s [КЛЮЧ]… [ПОЛЬЗОВАТЕЛЬ]…\n"
+msgstr "Использование: %s [ПАРАМЕТР]… [ПОЛЬЗОВАТЕЛЬ]…\n"
 
 #: src/groups.c:55
 msgid ""
@@ -4722,7 +4726,7 @@ msgstr "неверный число байт"
 #: src/head.c:1003 src/head.c:1065
 #, c-format
 msgid "invalid trailing option -- %c"
-msgstr "неверный завершающий ключ -- %c"
+msgstr "неверный завершающий параметр — %c"
 
 #: src/hostid.c:47
 #, c-format
@@ -4731,7 +4735,7 @@ msgid ""
 "Print the numeric identifier (in hexadecimal) for the current host.\n"
 "\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]\n"
+"Использование: %s [ПАРАМЕТР]\n"
 "Печатает числовой идентификатор (шестнадцатеричный) текущей машины.\n"
 "\n"
 
@@ -4744,7 +4748,7 @@ msgid ""
 "\n"
 msgstr ""
 "Использование: %s [ИМЯ]\n"
-"       или:    %s КЛЮЧ\n"
+"       или:    %s ПАРАМЕТР\n"
 "Печатает или устанавливает имя данной системы.\n"
 "\n"
 
@@ -4755,7 +4759,7 @@ msgstr "невозможно установить имя в значение %s"
 
 #: src/hostname.c:104
 msgid "cannot set hostname; this system lacks the functionality"
-msgstr "невозможно установить основное имя -- эта система не обладает такой способностью"
+msgstr "невозможно установить основное имя; эта система не обладает такой способностью"
 
 #: src/hostname.c:112
 msgid "cannot determine hostname"
@@ -4769,7 +4773,7 @@ msgstr "Арнольд Роббинс (Arnold Robbins)"
 #: src/id.c:85
 #, c-format
 msgid "Usage: %s [OPTION]... [USER]\n"
-msgstr "Использование: %s [КЛЮЧ]… [ПОЛЬЗОВАТЕЛЬ]\n"
+msgstr "Использование: %s [ПАРАМЕТР]… [ПОЛЬЗОВАТЕЛЬ]\n"
 
 #: src/id.c:86
 msgid ""
@@ -4795,11 +4799,11 @@ msgid ""
 msgstr ""
 "  -a              игнорируется, для совместимости с другими версиями\n"
 "  -Z, --context   вывести только контекст безопасности процесса\n"
-"  -g, --group     вывести только эффективный ID группы\n"
+"  -g, --group     вывести только действующий ID группы\n"
 "  -G, --groups    вывести все ID групп\n"
-"  -n, --name      вывести имя вместо номера, для ключей -ugG\n"
-"  -r, --real      вывести действительные, а не эффективные ID, для -ugG\n"
-"  -u, --user      вывести только эффективный ID пользователя\n"
+"  -n, --name      вывести имя вместо номера, для параметров -ugG\n"
+"  -r, --real      вывести действительные, а не действующие ID, для -ugG\n"
+"  -u, --user      вывести только действующий ID пользователя\n"
 "  -z, --zero      разделять записи символами NUL, а не пробельными;\n"
 "                  не допускается для формата по умолчанию\n"
 
@@ -4809,7 +4813,7 @@ msgid ""
 "Without any OPTION, print some useful set of identified information.\n"
 msgstr ""
 "\n"
-"Если КЛЮЧИ не заданы, печатает некоторый стандартный набор полезных сведений.\n"
+"Если ПАРАМЕТРЫ не заданы, печатает некоторый стандартный набор полезных сведений.\n"
 
 #: src/id.c:152
 msgid "--context (-Z) works only on an SELinux/SMACK-enabled kernel"
@@ -4833,7 +4837,7 @@ msgstr "невозможно напечатать только имена или
 
 #: src/id.c:212
 msgid "option --zero not permitted in default format"
-msgstr "ключ --zero запрещён для формата по умолчанию"
+msgstr "параметр --zero запрещён для формата по умолчанию"
 
 #: src/id.c:228
 msgid "can't get process context"
@@ -4940,10 +4944,10 @@ msgid ""
 "  or:  %s [OPTION]... -t DIRECTORY SOURCE...\n"
 "  or:  %s [OPTION]... -d DIRECTORY...\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… [-T] ИСТОЧНИК НАЗНАЧЕНИЕ\n"
-"       или:    %s [КЛЮЧ]… ИСТОЧНИК… КАТАЛОГ\n"
-"       или:    %s [КЛЮЧ]… -t КАТАЛОГ ИСТОЧНИК…\n"
-"       или:    %s [КЛЮЧ]… -d КАТАЛОГ…\n"
+"Использование: %s [ПАРАМЕТР]… [-T] ИСТОЧНИК НАЗНАЧЕНИЕ\n"
+"       или:    %s [ПАРАМЕТР]… ИСТОЧНИК… КАТАЛОГ\n"
+"       или:    %s [ПАРАМЕТР]… -t КАТАЛОГ ИСТОЧНИК…\n"
+"       или:    %s [ПАРАМЕТР]… -d КАТАЛОГ…\n"
 
 #: src/install.c:634
 msgid ""
@@ -4978,14 +4982,14 @@ msgid ""
 "  -d, --directory     treat all arguments as directory names; create all\n"
 "                        components of the specified directories\n"
 msgstr ""
-"      --backup[=КОНТРОЛЬ]  создавать резервные копии целевых файлов\n"
-"  -b                       то же, что и --backup, но без аргумента\n"
-"  -c                       (игнорируется)\n"
-"  -C, --compare            сравнивать каждую пару файл источника и назначения,\n"
-"                           и, в некоторых случаях, вообще не изменять файл\n"
-"                           назначения\n"
-"  -d, --directory          рассматривать все аргументы как каталоги; создавать\n"
-"                           все компоненты указанных каталогов\n"
+"      --backup[=КОНТРОЛЬ]   создавать резервные копии целевых файлов\n"
+"  -b                        то же, что и --backup, но без аргумента\n"
+"  -c                        (игнорируется)\n"
+"  -C, --compare             сравнивать каждую пару файл источника и\n"
+"                            назначения и, в некоторых случаях, вообще не\n"
+"                            изменять файл назначения\n"
+"  -d, --directory           рассматривать все аргументы как каталоги;\n"
+"                            создавать все компоненты указанных каталогов\n"
 
 #: src/install.c:657
 msgid ""
@@ -4996,14 +5000,14 @@ msgid ""
 "  -m, --mode=MODE     set permission mode (as in chmod), instead of rwxr-xr-x\n"
 "  -o, --owner=OWNER   set ownership (super-user only)\n"
 msgstr ""
-"  -D                       создавать все начальные составляющие НАЗНАЧЕНИЯ\n"
-"                           кроме последнего или все компоненты\n"
-"                           --target-directory, затем копировать ИСТОЧНИК в\n"
-"                           НАЗНАЧЕНИЕ\n"
-"  -g, --group=ГРУППА       устанавливать ГРУППУ, а не группу текущего процесса\n"
-"  -m, --mode=РЕЖИМ         устанавливать РЕЖИМ (как chmod), а не rwxr-xr-x\n"
-"  -o, --owner=ВЛАДЕЛЕЦ     устанавливать ВЛАДЕЛЬЦА (только для\n"
-"                           суперпользователя)\n"
+"  -D                        создавать все начальные составляющие НАЗНАЧЕНИЯ\n"
+"                            кроме последнего или все компоненты\n"
+"                            --target-directory, затем копировать ИСТОЧНИК в\n"
+"                            НАЗНАЧЕНИЕ\n"
+"  -g, --group=ГРУППА        устанавливать ГРУППУ, а не группу текущего процесса\n"
+"  -m, --mode=РЕЖИМ          устанавливать РЕЖИМ (как chmod), а не rwxr-xr-x\n"
+"  -o, --owner=ВЛАДЕЛЕЦ      устанавливать ВЛАДЕЛЬЦА (только для\n"
+"                            суперпользователя)\n"
 
 #: src/install.c:665
 msgid ""
@@ -5016,15 +5020,15 @@ msgid ""
 "  -T, --no-target-directory  treat DEST as a normal file\n"
 "  -v, --verbose       print the name of each directory as it is created\n"
 msgstr ""
-"  -p, --preserve-timestamps устанавливать целевым файлам времена\n"
+"  -p, --preserve-timestamps устанавливать целевым файлам время\n"
 "                            доступа/изменения как у их файлов-ИСТОЧНИКОВ\n"
-"  -s, --strip              удалять таблицы символов\n"
+"  -s, --strip               удалять таблицы символов\n"
 "      --strip-program=ПРОГРАММА  задать программу для удаления\n"
 "                                 таблицы символов\n"
-"  -S, --suffix=СУФФИКС     использовать для резервных копий заданный СУФФИКС\n"
+"  -S, --suffix=СУФФИКС      использовать для резервных копий заданный СУФФИКС\n"
 "  -t, --target-directory=КАТАЛОГ копировать все аргументы-ИСТОЧНИКИ в КАТАЛОГ\n"
 "  -T, --no-target-directory считать НАЗНАЧЕНИЕ обычным файлом\n"
-"  -v, --verbose            выводить название каждого создаваемого каталога\n"
+"  -v, --verbose             выводить название каждого создаваемого каталога\n"
 
 #: src/install.c:675
 msgid ""
@@ -5034,13 +5038,13 @@ msgid ""
 "      --context[=CTX]     like -Z, or if CTX is specified then set the\n"
 "                            SELinux or SMACK security context to CTX\n"
 msgstr ""
-"      --preserve-context   сохранять контекст безопасности SELinux\n"
-"  -Z                       установить контекст безопасности SELinux\n"
-"                           файла назначения и каждого создаваемого каталога\n"
-"                           равным типу по умолчанию\n"
-"      --context[=CTX]      подобно -Z, или если указан CTX, то установить\n"
-"                           контекст безопасности SELinux\n"
-"                           или SMACK равным CTX\n"
+"      --preserve-context    сохранять контекст безопасности SELinux\n"
+"  -Z                        установить контекст безопасности SELinux\n"
+"                            файла назначения и каждого создаваемого каталога\n"
+"                            равным типу по умолчанию\n"
+"      --context[=CTX]       подобно -Z, или если указан CTX, то установить\n"
+"                            контекст безопасности SELinux\n"
+"                            или SMACK равным CTX\n"
 
 #: src/install.c:711 src/unlink.c:92
 #, c-format
@@ -5050,11 +5054,11 @@ msgstr "невозможно удалить ссылку %s"
 #: src/install.c:892
 #, c-format
 msgid "WARNING: ignoring --preserve-context; this kernel is not SELinux-enabled"
-msgstr "ПРЕДУПРЕЖДЕНИЕ: игнорируется ключ --preserve-context; ядро без поддержки SELinux"
+msgstr "ПРЕДУПРЕЖДЕНИЕ: игнорируется параметр --preserve-context; ядро без поддержки SELinux"
 
 #: src/install.c:932
 msgid "the strip option may not be used when installing a directory"
-msgstr "при установке каталога нельзя применять ключ strip"
+msgstr "при установке каталога нельзя применять параметр strip"
 
 #: src/install.c:935
 msgid "target directory not allowed when installing a directory"
@@ -5068,22 +5072,22 @@ msgstr "неверный режим %s"
 #: src/install.c:1009
 #, c-format
 msgid "WARNING: ignoring --strip-program option as -s option was not specified"
-msgstr "ПРЕДУПРЕЖДЕНИЕ: игнорируется ключ --strip-program, так как не указан ключ -s"
+msgstr "ПРЕДУПРЕЖДЕНИЕ: игнорируется параметр --strip-program, так как не указан параметр -s"
 
 #: src/install.c:1014
 #, c-format
 msgid "options --compare (-C) and --preserve-timestamps are mutually exclusive"
-msgstr "ключи --compare (-C) и --preserve-timestamps взаимно исключают друг друга"
+msgstr "параметры --compare (-C) и --preserve-timestamps взаимно исключают друг друга"
 
 #: src/install.c:1021
 #, c-format
 msgid "options --compare (-C) and --strip are mutually exclusive"
-msgstr "ключи --compare (-C) и --strip взаимно исключают друг друга"
+msgstr "параметры --compare (-C) и --strip взаимно исключают друг друга"
 
 #: src/install.c:1027
 #, c-format
 msgid "the --compare (-C) option is ignored when you specify a mode with non-permission bits"
-msgstr "ключ --compare (-C) игнорируется, если вы указываете режим с неразрешёнными битами"
+msgstr "параметр --compare (-C) игнорируется, если вы указываете режим с неразрешёнными битами"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/join.c:41 src/sort.c:66
@@ -5180,10 +5184,10 @@ msgstr ""
 "каждого файла определяет количество полей в каждой строке результата.\n"
 "\n"
 "Важно: ФАЙЛ1 и ФАЙЛ2 должны быть отсортированы по общим полям.\n"
-"Например, используйте «sort -k 1b,1», если у «join» нет ключей или\n"
-"«join -t ''», если у «sort» нет ключей. Заметим, что при сравнении действуют\n"
-"правила, задаваемые «LC_COLLATE». Если ввод не отсортирован и одинаковые\n"
-"строки не объединены, то будет выдано предупреждающее сообщение.\n"
+"Например, используйте «sort -k 1b,1», если у «join» нет параметров или\n"
+"«join -t ''», если у «sort» нет параметров. Заметим, что при сравнении\n"
+"действуют правила, задаваемые «LC_COLLATE». Если ввод не отсортирован и\n"
+"одинаковые строки не объединены, то будет выдано предупреждающее сообщение.\n"
 
 #: src/join.c:417
 #, c-format
@@ -5276,7 +5280,7 @@ msgstr "%s: неверный идентификатор процесса"
 #: src/kill.c:260
 #, c-format
 msgid "invalid option -- %c"
-msgstr "неверный ключ -- %c"
+msgstr "неверный параметр — %c"
 
 #: src/kill.c:269
 #, c-format
@@ -5286,7 +5290,7 @@ msgstr "%s: задано несколько сигналов"
 #: src/kill.c:284
 #, c-format
 msgid "multiple -l or -t options specified"
-msgstr "задано несколько ключей -l или -t"
+msgstr "задано несколько параметр -l или -t"
 
 #: src/kill.c:301
 #, c-format
@@ -5325,7 +5329,7 @@ msgid ""
 "  or:  %s OPTION\n"
 msgstr ""
 "Использование: %s ФАЙЛ1 ФАЙЛ2\n"
-"       или:    %s КЛЮЧ\n"
+"       или:    %s ПАРАМЕТР\n"
 
 #: src/link.c:54
 msgid ""
@@ -5388,10 +5392,10 @@ msgid ""
 "  or:  %s [OPTION]... TARGET... DIRECTORY\n"
 "  or:  %s [OPTION]... -t DIRECTORY TARGET...\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… [-T] ЦЕЛЬ ИМЯ_ССЫЛКИ\n"
-"  или:  %s [КЛЮЧ]… ЦЕЛЬ\n"
-"  или:  %s [КЛЮЧ]… ЦЕЛЬ... КАТАЛОГ\n"
-"  или:  %s [КЛЮЧ]… -t КАТАЛОГ ЦЕЛЬ…\n"
+"Использование: %s [ПАРАМЕТР]… [-T] ЦЕЛЬ ИМЯ_ССЫЛКИ\n"
+"  или:  %s [ПАРАМЕТР]… ЦЕЛЬ\n"
+"  или:  %s [ПАРАМЕТР]… ЦЕЛЬ... КАТАЛОГ\n"
+"  или:  %s [ПАРАМЕТР]… -t КАТАЛОГ ЦЕЛЬ…\n"
 
 #: src/ln.c:385
 msgid ""
@@ -5407,7 +5411,7 @@ msgstr ""
 "В первой форме создаётся ссылка на ЦЕЛЬ с указанным ИМЕНЕМ_ССЫЛКИ.\n"
 "Во второй форме создаётся ссылка на ЦЕЛЬ в текущем каталоге.\n"
 "В третьей и четвёртой формах создаются ссылки на каждую ЦЕЛЬ в КАТАЛОГЕ.\n"
-"По умолчанию создаются жёсткие ссылки, а с ключом --symbolic — символьные.\n"
+"По умолчанию создаются жёсткие ссылки, а с параметром --symbolic — символьные.\n"
 "По умолчанию, каждая цель (имя новой ссылки) не должна существовать.\n"
 "При создании жёстких ссылок каждая ЦЕЛЬ должна существовать.\n"
 "Символьные ссылки могут содержать произвольный текст; при разыменовании\n"
@@ -5424,9 +5428,9 @@ msgid ""
 msgstr ""
 "      --backup[=КОНТРОЛЬ]  создать резервную копию для каждого целевого файла\n"
 "  -b                       то же, что и --backup, но не принимает аргумент\n"
-"  -d, -F, --directory      позволить суперпользователю создавать жесткие ссылки\n"
-"                           на каталоги (замечание: вероятно, это не получится\n"
-"                           из-за системных ограничений, даже для\n"
+"  -d, -F, --directory      позволить суперпользователю создавать жесткие\n"
+"                           ссылки на каталоги (замечание: вероятно, это не\n"
+"                           получится из-за системных ограничений, даже для\n"
 "                           суперпользователя)\n"
 "  -f, --force              удалять существующие целевые файлы\n"
 
@@ -5472,7 +5476,7 @@ msgid ""
 "behavior when a TARGET is a symbolic link, defaulting to %s.\n"
 msgstr ""
 "\n"
-"При использовании параметра -s игнорируются -L и -P. Иначе, последний ключ\n"
+"При использовании параметра -s игнорируются -L и -P. Иначе, последний параметр\n"
 "определяет поведение, когда ЦЕЛЬЮ является символьная ссылка,\n"
 "по умолчанию %s.\n"
 
@@ -5492,7 +5496,7 @@ msgstr "FIXME: неизвестен"
 #: src/logname.c:45
 #, c-format
 msgid "Usage: %s [OPTION]\n"
-msgstr "Использование: %s [КЛЮЧ]\n"
+msgstr "Использование: %s [ПАРАМЕТР]\n"
 
 #: src/logname.c:46
 msgid ""
@@ -5612,7 +5616,7 @@ msgid ""
 msgstr ""
 "Выдаёт информацию о ФАЙЛАХ (по умолчанию о текущем каталоге).\n"
 "Сортирует в алфавитном порядке, если не задан ни --sort, ни один из\n"
-"ключей -cftuvSUX.\n"
+"параметров -cftuvSUX.\n"
 
 #: src/ls.c:5139
 msgid ""
@@ -5659,8 +5663,9 @@ msgid ""
 msgstr ""
 "  -C                         выдавать список в несколько колонок\n"
 "      --color[=КОГДА]        расцвечивать вывод;\n"
-"                             КОГДА может быть «always» (по умолчанию, если не\n"
-"                             указано), «auto» или «never». Подробней см. ниже\n"
+"                             КОГДА может быть «always» («всегда»,\n"
+"                             по умолчанию, если не указано), «auto» или\n"
+"                             «never». Подробней см. ниже\n"
 "  -d, --directory            выдавать имена каталогов, а не их содержимое\n"
 "  -D, --dired                генерировать вывод для режима Emacs dired\n"
 
@@ -5694,7 +5699,7 @@ msgid ""
 msgstr ""
 "      --group-directories-first\n"
 "                             группировать каталоги раньше файлов;\n"
-"                             может дополняться ключом --sort,\n"
+"                             может дополняться параметром --sort,\n"
 "                             но любое использование\n"
 "                             --sort=none (-U) выключает группировку\n"
 
@@ -5728,7 +5733,7 @@ msgstr ""
 "                             следовать по всем символьным ссылкам в командной\n"
 "                             строке, которые указывают на каталог\n"
 "      --hide=ШАБЛОН          не показывать записи, соответствующие ШАБЛОНУ\n"
-"                             оболочки (отменяется ключами -a или -A)\n"
+"                             оболочки (отменяется параметрами -a или -A)\n"
 
 #: src/ls.c:5199
 msgid ""
@@ -5750,7 +5755,7 @@ msgstr ""
 "      --indicator-style=СТИЛЬ добавлять к именам элементов индикатор с\n"
 "                             указанным СТИЛЕМ: none (по умолчанию),\n"
 "                             slash (-p), file-type (--file-type), classify (-F)\n"
-"  -i, --inode                показывать индекс каждого файла\n"
+"  -i, --inode                показывать иноду каждого файла\n"
 "  -I, --ignore=ШАБЛОН        не показывать записи, соответствующие ШАБЛОНУ\n"
 "                             оболочки\n"
 
@@ -5837,12 +5842,12 @@ msgstr ""
 "                             time (время) -t, version (версия) -v,\n"
 "                             extension (расширение) -X\n"
 "                             \n"
-"      --time=СЛОВО           с ключом -l, показывать вместо времени\n"
+"      --time=СЛОВО           с параметром -l, показывать вместо времени\n"
 "                             изменения время, заданное СЛОВОМ: \n"
 "                             atime, access, use (-u),\n"
 "                             ctime, status (-c);\n"
 "                             если --sort=time, использовать указанное\n"
-"                             время в качестве ключа сортировки\n"
+"                             время в качестве параметра сортировки\n"
 
 #: src/ls.c:5258
 msgid "      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below\n"
@@ -5905,7 +5910,7 @@ msgstr ""
 "\n"
 "Значением TIME_STYLE могут быть: full-iso, long-iso, iso, locale или +ФОРМАТ.\n"
 "Значение ФОРМАТа как в date(1). Если значение ФОРМАТа равно\n"
-"ФОРМАТ1<новая строка>ФОРМАТ2, то ФОРМАТ1 применяется к не новым файлам,\n"
+"ФОРМАТ1<новая строка>ФОРМАТ2, то ФОРМАТ1 применяется не к последним файлам,\n"
 "а ФОРМАТ2 к новым. Если TIME_STYLE начинается с «posix-», то он применяется\n"
 "только для локалей отличных от POSIX. Также, используемый стиль по умолчанию\n"
 "задаёт переменная окружения TIME_STYLE.\n"
@@ -5919,10 +5924,11 @@ msgid ""
 "variable can change the settings.  Use the dircolors command to set it.\n"
 msgstr ""
 "\n"
-"Использование цветов для различения типов файла по умолчанию выключено и\n"
-"с помощью --color=never. С --color=auto, ls выдаёт цветовые коды только когда\n"
-"стандартный вывод подключён к терминалу. Переменная окружения LS_COLORS\n"
-"служит для изменения значений. Для её установки используйте команду dircolors.\n"
+"Использование цветов для различения типов файла по умолчанию выключено,\n"
+"это же можно сделать и с помощью --color=never. С параметром --color=auto,\n"
+"ls выдаёт цветовые коды только когда стандартный вывод подключён к терминалу.\n"
+"Переменная окружения LS_COLORS служит для изменения значений.\n"
+"Для её установки используйте команду dircolors.\n"
 
 #: src/ls.c:5298
 msgid ""
@@ -5964,7 +5970,7 @@ msgid ""
 "Usage: %s [OPTION]... [FILE]...\n"
 "Print or check %s (%d-bit) checksums.\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… [ФАЙЛ]…\n"
+"Использование: %s [ПАРАМЕТР]… [ФАЙЛ]…\n"
 "Печатает или проверяет контрольные суммы %s (%d-битные).\n"
 
 #: src/md5sum.c:239
@@ -6032,7 +6038,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Пять следующих ключей полезны только при проверке контрольных сумм:\n"
+"Пять следующих параметров полезны только при проверке контрольных сумм:\n"
 "      --ignore-missing    не сообщать или прерываться при отсутствии файлов\n"
 "      --quiet             не выводить OK для каждого успешно проверенного файла\n"
 "      --status            не производить вывод, выходное значение показывает\n"
@@ -6141,51 +6147,51 @@ msgstr "--tag не поддерживает режим --text"
 #: src/md5sum.c:980
 #, c-format
 msgid "the --zero option is not supported when verifying checksums"
-msgstr "ключ --zero не поддерживается при проверке контрольных сумм"
+msgstr "параметр --zero не поддерживается при проверке контрольных сумм"
 
 #: src/md5sum.c:987
 #, c-format
 msgid "the --tag option is meaningless when verifying checksums"
-msgstr "ключ --tag имеет смысл только при проверке контрольных сумм"
+msgstr "параметр --tag имеет смысл только при проверке контрольных сумм"
 
 #: src/md5sum.c:994
 #, c-format
 msgid "the --binary and --text options are meaningless when verifying checksums"
-msgstr "ключи --binary и --text бессмысленны при проверке контрольных сумм"
+msgstr "параметры --binary и --text бессмысленны при проверке контрольных сумм"
 
 #: src/md5sum.c:1002
 #, c-format
 msgid "the --ignore-missing option is meaningful only when verifying checksums"
-msgstr "ключ --ignore-missing имеет смысл только при проверке контрольных сумм"
+msgstr "параметр --ignore-missing имеет смысл только при проверке контрольных сумм"
 
 #: src/md5sum.c:1010
 #, c-format
 msgid "the --status option is meaningful only when verifying checksums"
-msgstr "ключ --status имеет смысл только при проверке контрольных сумм"
+msgstr "параметр --status имеет смысл только при проверке контрольных сумм"
 
 #: src/md5sum.c:1017
 #, c-format
 msgid "the --warn option is meaningful only when verifying checksums"
-msgstr "ключ --warn имеет смысл только при проверке контрольных сумм"
+msgstr "параметр --warn имеет смысл только при проверке контрольных сумм"
 
 #: src/md5sum.c:1024
 #, c-format
 msgid "the --quiet option is meaningful only when verifying checksums"
-msgstr "ключ --quiet имеет смысл только при проверке контрольных сумм"
+msgstr "параметр --quiet имеет смысл только при проверке контрольных сумм"
 
 #: src/md5sum.c:1031
 #, c-format
 msgid "the --strict option is meaningful only when verifying checksums"
-msgstr "ключ --strict имеет смысл только при проверке контрольных сумм"
+msgstr "параметр --strict имеет смысл только при проверке контрольных сумм"
 
 #: src/mkdir.c:59 src/rmdir.c:163
 #, c-format
 msgid "Usage: %s [OPTION]... DIRECTORY...\n"
-msgstr "Использование: %s [КЛЮЧ]… КАТАЛОГ…\n"
+msgstr "Использование: %s [ПАРАМЕТР]… КАТАЛОГ…\n"
 
 #: src/mkdir.c:60
 msgid "Create the DIRECTORY(ies), if they do not already exist.\n"
-msgstr "Создает КАТАЛОГ(и), если он ещё не существует.\n"
+msgstr "Создаёт КАТАЛОГ(и), если он ещё не существует.\n"
 
 # not a=rwx - umask ??? что за бред
 #: src/mkdir.c:66
@@ -6196,8 +6202,8 @@ msgid ""
 msgstr ""
 "  -m, --mode=РЕЖИМ   установить права доступа к файлу (как в chmod),\n"
 "                     а не a=rwx - umask\n"
-"  -p, --parents      не выдавать ошибку, если существует, создавать\n"
-"                     родительские каталоги, если необходимо\n"
+"  -p, --parents      не выдавать ошибку, если существует; создавать\n"
+"                     родительские каталоги при необходимости\n"
 "  -v, --verbose      печатать сообщение о каждом созданном каталоге\n"
 
 #: src/mkdir.c:71
@@ -6221,12 +6227,12 @@ msgstr "создан каталог %s"
 #: src/mkdir.c:239 src/mkfifo.c:117 src/mknod.c:134
 #, c-format
 msgid "warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel"
-msgstr "предупреждение: игнорируется ключ --context; ядро без поддержки SELinux/SMACK"
+msgstr "предупреждение: параметр --context игнорируется; ядро без поддержки SELinux/SMACK"
 
 #: src/mkfifo.c:54 src/pathchk.c:88
 #, c-format
 msgid "Usage: %s [OPTION]... NAME...\n"
-msgstr "Использование: %s [КЛЮЧ]… ИМЯ…\n"
+msgstr "Использование: %s [ПАРАМЕТР]… ИМЯ…\n"
 
 #: src/mkfifo.c:55
 msgid "Create named pipes (FIFOs) with the given NAMEs.\n"
@@ -6265,7 +6271,7 @@ msgstr "невозможно задать права доступа %s"
 #: src/mknod.c:55
 #, c-format
 msgid "Usage: %s [OPTION]... NAME TYPE [MAJOR MINOR]\n"
-msgstr "Использование: %s [КЛЮЧ]… ИМЯ ТИП [ОСНОВНОЙ ВТОРОСТЕПЕННЫЙ]\n"
+msgstr "Использование: %s [ПАРАМЕТР]… ИМЯ ТИП [ОСНОВНОЙ ВТОРОСТЕПЕННЫЙ]\n"
 
 #: src/mknod.c:57
 msgid "Create the special file NAME of the given TYPE.\n"
@@ -6342,7 +6348,7 @@ msgstr "Эрик Блэйк (Eric Blake)"
 #: src/mktemp.c:67
 #, c-format
 msgid "Usage: %s [OPTION]... [TEMPLATE]\n"
-msgstr "Использование: %s [КЛЮЧ]… [ШАБЛОН]\n"
+msgstr "Использование: %s [ПАРАМЕТР]… [ШАБЛОН]\n"
 
 #: src/mktemp.c:68
 msgid ""
@@ -6368,17 +6374,19 @@ msgid ""
 "  -q, --quiet         suppress diagnostics about file/dir-creation failure\n"
 msgstr ""
 "  -d, --directory    создать каталог, а не файл\n"
-"  -u, --dry-run      ничего не создавать; просто напечатать имя (небезопасно)\n"
-"  -q, --quiet        не выдавать диагностику об ошибках создания файл/каталога\n"
+"  -u, --dry-run      ничего не создавать; просто напечатать имя\n"
+"                     (небезопасно)\n"
+"  -q, --quiet        не выдавать диагностику об ошибках создания\n"
+"                     файла/каталога\n"
 
 #: src/mktemp.c:82
 msgid ""
 "      --suffix=SUFF   append SUFF to TEMPLATE; SUFF must not contain a slash.\n"
 "                        This option is implied if TEMPLATE does not end in X\n"
 msgstr ""
-"      --suffix=СУФФ  добавлять СУФФикс к ШАБЛОНУ; СУФФикс не должен содержать\n"
-"                     символов косой черты. Подразумевается, что этот ключ\n"
-"                     установлен, если ШАБЛОН не заканчивается X\n"
+"      --suffix=СУФФ  добавлять СУФФикс к ШАБЛОНУ; СУФФикс не должен\n"
+"                     содержать символов косой черты. Подразумевается, что\n"
+"                     этот параметр установлен, если ШАБЛОН не заканчивается X\n"
 
 #: src/mktemp.c:86
 msgid ""
@@ -6391,10 +6399,10 @@ msgstr ""
 "  -p КАТ, --tmpdir[=КАТ]\n"
 "                     рассматривать ШАБЛОН относительно КАТ; если КАТ не\n"
 "                     указан, использовать $TMPDIR если задана, иначе /tmp.\n"
-"                     С этим ключом ШАБЛОН не должен быть абсолютным именем;\n"
-"                     в отличие от -t, ШАБЛОН может содержать косые черты, но\n"
-"                     даже в этом случае, mktemp создаст только\n"
-"                     последний компонент\n"
+"                     С этим параметром ШАБЛОН не должен быть абсолютным\n"
+"                     именем; в отличие от -t, ШАБЛОН может содержать\n"
+"                     косые черты, но даже в этом случае, mktemp создаст\n"
+"                     только последний компонент\n"
 
 #: src/mktemp.c:93
 msgid ""
@@ -6414,7 +6422,7 @@ msgstr "слишком много шаблонов"
 #: src/mktemp.c:231
 #, c-format
 msgid "with --suffix, template %s must end in X"
-msgstr "При задании --suffix, шаблон %s должен оканчиваться на X"
+msgstr "при задании --suffix, шаблон %s должен оканчиваться на X"
 
 #: src/mktemp.c:256 src/split.c:1344
 #, c-format
@@ -6464,7 +6472,7 @@ msgstr ""
 "  -f, --force                  переписывать существующие файлы не спрашивая\n"
 "  -i, --interactive            спрашивать перед тем как переписывать\n"
 "  -n, --no-clobber             не переписывать существующий файл\n"
-"Если указано более одного ключа -i, -f, -n, то используется последний.\n"
+"Если указано более одного параметра -i, -f, -n, то используется последний.\n"
 
 #: src/mv.c:313
 msgid ""
@@ -6499,7 +6507,7 @@ msgstr ""
 #: src/nice.c:73
 #, c-format
 msgid "Usage: %s [OPTION] [COMMAND [ARG]...]\n"
-msgstr "Использование: %s [КЛЮЧ] [КОМАНДА [АРГ]…]\n"
+msgstr "Использование: %s [ПАРАМЕТР] [КОМАНДА [АРГ]…]\n"
 
 #: src/nice.c:74
 #, c-format
@@ -6595,7 +6603,7 @@ msgstr ""
 "\n"
 "Параметры по умолчанию: -bt -d'\\:' -fn -hn -i1 -l1 -n'rn' -s<TAB> -v1 -w6\n"
 "\n"
-"СС — это два символа, используемых для создания логического разделителя\n"
+"СС — это два символа, используемые для создания логического разделителя\n"
 "страниц; при отсутствии второго используется «:».\n"
 
 #: src/nl.c:213
@@ -6683,7 +6691,7 @@ msgid ""
 "  or:  %s OPTION\n"
 msgstr ""
 "Использование: %s КОМАНДА [АРГУМЕНТ]…\n"
-"       или:    %s КЛЮЧ\n"
+"       или:    %s ПАРАМЕТР\n"
 
 #: src/nohup.c:62
 msgid ""
@@ -6706,7 +6714,7 @@ msgstr ""
 "\n"
 "Если стандартный ввод является терминалом, то он берётся из нечитаемого файла.\n"
 "Если стандартный вывод является терминалом, то вывод добавляется в «nohup.out»,\n"
-"если возможно, иначе в «$HOME/nohup.out».\n"
+"при наличии возможности, в противном случае в «$HOME/nohup.out».\n"
 "Если стандартный поток ошибок является терминалом, то он перенаправляет в\n"
 "в стандартный вывод. Чтобы записать вывод в ФАЙЛ,\n"
 "используйте «%s КОМАНДА > ФАЙЛ».\n"
@@ -6734,12 +6742,12 @@ msgstr "вывод добавляется в %s"
 #: src/nohup.c:195
 #, c-format
 msgid "ignoring input and redirecting stderr to stdout"
-msgstr "ввод игнорируется, поток ошибок перенаправляются на стандартный вывод"
+msgstr "ввод игнорируется и поток ошибок перенаправляется на стандартный вывод"
 
 #: src/nohup.c:196
 #, c-format
 msgid "redirecting stderr to stdout"
-msgstr "поток ошибок перенаправляются на стандартный вывод"
+msgstr "поток ошибок перенаправляется на стандартный вывод"
 
 #: src/nohup.c:200
 #, c-format
@@ -6754,7 +6762,7 @@ msgstr "Джузеппе Скривано (Giuseppe Scrivano)"
 #: src/nproc.c:57 src/pwd.c:57 src/tty.c:65 src/uname.c:121 src/whoami.c:50
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
-msgstr "Использование: %s [КЛЮЧ]…\n"
+msgstr "Использование: %s [ПАРАМЕТР]…\n"
 
 #: src/nproc.c:58
 msgid ""
@@ -6762,7 +6770,7 @@ msgid ""
 "which may be less than the number of online processors\n"
 "\n"
 msgstr ""
-"Печатает число обрабатывающий элементов, доступных текущему процессу,\n"
+"Печатает количество обрабатывающих элементов, доступных текущему процессу,\n"
 "которое может быть меньше числа работающих процессоров\n"
 "\n"
 
@@ -6771,7 +6779,7 @@ msgid ""
 "      --all      print the number of installed processors\n"
 "      --ignore=N  if possible, exclude N processing units\n"
 msgstr ""
-"     --all       вывести число установленных процессоров\n"
+"     --all       вывести количество установленных процессоров\n"
 "     --ignore=N  если возможно, исключить N обрабатывающих элементов\n"
 
 #: src/numfmt.c:694
@@ -6787,17 +6795,17 @@ msgstr "неверный номер: %s"
 #: src/numfmt.c:702
 #, c-format
 msgid "rejecting suffix in input: %s (consider using --from)"
-msgstr "отбрасывается суффикс в входных данных: %s (попробуйте указать --from)"
+msgstr "отбрасывается суффикс во входных данных: %s (попробуйте указать --from)"
 
 #: src/numfmt.c:706
 #, c-format
 msgid "invalid suffix in input: %s"
-msgstr "неверный суффикс в входных данных: %s"
+msgstr "неверный суффикс во входных данных: %s"
 
 #: src/numfmt.c:710
 #, c-format
 msgid "missing 'i' suffix in input: %s (e.g Ki/Mi/Gi)"
-msgstr "отсутствующий суффикс «i» в входных данных: %s (например Ki/Mi/Gi)"
+msgstr "отсутствует суффикс «i» во входных данных: %s (например Ki/Mi/Gi)"
 
 #: src/numfmt.c:757 src/numfmt.c:809
 #, c-format
@@ -6812,11 +6820,13 @@ msgstr "неверный размер единицы счёта: %s"
 #: src/numfmt.c:884
 #, c-format
 msgid "Usage: %s [OPTION]... [NUMBER]...\n"
-msgstr "Использование: %s [КЛЮЧ]… [ЧИСЛО]…\n"
+msgstr "Использование: %s [ПАРАМЕТР]… [ЧИСЛО]…\n"
 
 #: src/numfmt.c:887
 msgid "Reformat NUMBER(s), or the numbers from standard input if none are specified.\n"
-msgstr "Переформатирует ЧИСЛО(а), читаемое из стандартного ввода, если оно не указано в командной строке.\n"
+msgstr ""
+"Переформатирует ЧИСЛО(а), читаемое из стандартного ввода, если\n"
+"оно не указано в командной строке.\n"
 
 #: src/numfmt.c:891
 msgid "      --debug          print warnings about invalid input\n"
@@ -6849,8 +6859,8 @@ msgid ""
 "      --from=UNIT      auto-scale input numbers to UNITs; default is 'none';\n"
 "                         see UNIT below\n"
 msgstr ""
-"      --from=ЕДИНИЦА   автоматически масштабировать входные число к ЕДИНИЦАМ\n"
-"                       изменения; по умолчанию «none»; смотрите ЕДИНИЦЫ далее\n"
+"      --from=ЕДИНИЦА   автоматически масштабировать входные числа к ЕДИНИЦАМ\n"
+"                       измерения; по умолчанию «none»; смотрите ЕДИНИЦЫ далее\n"
 
 #: src/numfmt.c:909
 msgid "      --from-unit=N    specify the input unit size (instead of the default 1)\n"
@@ -6903,7 +6913,7 @@ msgid ""
 "                         up, down, from-zero (default), towards-zero, nearest\n"
 msgstr ""
 "      --round=МЕТОД    метод округления, используемый при масштабировании;\n"
-"                       значение МЕТОДА: up, down, from-zero (по умолчанию),\n"
+"                       значения МЕТОДА: up, down, from-zero (по умолчанию),\n"
 "                       towards-zero, nearest\n"
 
 #: src/numfmt.c:935
@@ -6917,8 +6927,8 @@ msgstr ""
 #: src/numfmt.c:939
 msgid "      --to=UNIT        auto-scale output numbers to UNITs; see UNIT below\n"
 msgstr ""
-"      --to=ЕДИНИЦА     автомасштабирование выходные значения к ЕДИНИЦЕ\n"
-"                       изменения; смотрите ЕДИНИЦА далее\n"
+"      --to=ЕДИНИЦА     автомасштабировать выходные значения к ЕДИНИЦЕ\n"
+"                       измерения; смотрите ЕДИНИЦА далее\n"
 
 #: src/numfmt.c:942
 msgid "      --to-unit=N      the output unit size (instead of the default 1)\n"
@@ -6932,7 +6942,7 @@ msgid ""
 "UNIT options:\n"
 msgstr ""
 "\n"
-"ЕДИНИЦЫ:\n"
+"Возможные ЕДИНИЦЫ:\n"
 
 #: src/numfmt.c:954
 msgid "  none       no auto-scaling is done; suffixes will trigger an error\n"
@@ -7040,7 +7050,7 @@ msgid ""
 msgstr ""
 "\n"
 "Код завершения равен 0, если все входные числа были успешно преобразованы.\n"
-"По умолчанию, %s прервётся при первой ошибке преобразования с кодом\n"
+"По умолчанию, %s будет прервано при первой ошибке преобразования с кодом\n"
 "завершения 2. Если указано --invalid=«fail», то выводится предупреждение\n"
 "при каждой ошибке преобразования и код завершения равен 2.\n"
 "Если указано --invalid=«warn», то описывается каждая ошибка преобразования,\n"
@@ -7122,7 +7132,7 @@ msgstr "в формате %s содержится слишком много ди
 #: src/numfmt.c:1183
 #, c-format
 msgid "invalid suffix in input %s: %s"
-msgstr "неверный суффикс в входных данных %s: %s"
+msgstr "неверный суффикс во входных данных %s: %s"
 
 #: src/numfmt.c:1212
 #, c-format
@@ -7170,7 +7180,7 @@ msgstr "ошибка при задании локали"
 #: src/numfmt.c:1582
 #, c-format
 msgid "no conversion option specified"
-msgstr "ключи преобразования не заданы"
+msgstr "параметры преобразования не заданы"
 
 #: src/numfmt.c:1590
 msgid "grouping cannot be combined with --to"
@@ -7203,9 +7213,9 @@ msgid ""
 "  or:  %s [-abcdfilosx]... [FILE] [[+]OFFSET[.][b]]\n"
 "  or:  %s --traditional [OPTION]... [FILE] [[+]OFFSET[.][b] [+][LABEL][.][b]]\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… [ФАЙЛ]…\n"
+"Использование: %s [ПАРАМЕТР]… [ФАЙЛ]…\n"
 "       или:    %s [-abcdfilosx]… [ФАЙЛ] [[+]СМЕЩЕНИЕ[.][b]]\n"
-"       или:    %s --traditional [КЛЮЧ]… [ФАЙЛ] [[+]СМЕЩЕНИЕ[.][b] [+][МЕТКА][.][b]]\n"
+"       или:    %s --traditional [ПАРАМЕТР]… [ФАЙЛ] [[+]СМЕЩЕНИЕ[.][b] [+][МЕТКА][.][b]]\n"
 
 #: src/od.c:328
 msgid ""
@@ -7345,10 +7355,10 @@ msgid ""
 "for sizeof(double) or L for sizeof(long double).\n"
 msgstr ""
 "\n"
-"Если ФОРМАТ — одно из [doux], ЧИСЛО может задаваться как C sizeof(char),\n"
-"S sizeof(short), I sizeof(int) или L sizeof(long). Если ФОРМАТ равен f, то\n"
-"ЧИСЛО также может быть F sizeof(float), D sizeof(double) или\n"
-"L sizeof(long double).\n"
+"Если ФОРМАТ — одно из [doux], ЧИСЛО может задаваться как C для sizeof(char),\n"
+"S для sizeof(short), I для sizeof(int) или L для sizeof(long). Если ФОРМАТ равен f, то\n"
+"ЧИСЛО также может быть F для sizeof(float), D для sizeof(double) или\n"
+"L для sizeof(long double).\n"
 
 #: src/od.c:405
 msgid ""
@@ -7413,14 +7423,14 @@ msgstr "неверный символ «%c» в строке типа %s"
 
 #: src/od.c:1104
 msgid "cannot skip past end of combined input"
-msgstr "невозможно сместиться за предел последнего входного файла"
+msgstr "невозможно сместиться за конец объединённых входных данных"
 
 #: src/od.c:1654
 #, c-format
 msgid "invalid output address radix '%c'; it must be one character from [doxn]"
 msgstr ""
 "неверно задано основание системы счисления «%c»,\n"
-"должно быть одним из символов [doxn]"
+"значение должно быть одним из символов [doxn]"
 
 #: src/od.c:1792
 msgid "no type may be specified when dumping strings"
@@ -7570,7 +7580,7 @@ msgstr "План:\n"
 
 #: src/pinky.c:404
 msgid "Login"
-msgstr "Имя"
+msgstr "Учётная запись"
 
 #: src/pinky.c:406
 msgid "Name"
@@ -7595,7 +7605,7 @@ msgstr "Где"
 #: src/pinky.c:489
 #, c-format
 msgid "Usage: %s [OPTION]... [USER]...\n"
-msgstr "Использование: %s [КЛЮЧ]… [ПОЛЬЗОВАТЕЛЬ]…\n"
+msgstr "Использование: %s [ПАРАМЕТР]… [ПОЛЬЗОВАТЕЛЬ]…\n"
 
 #: src/pinky.c:490
 msgid ""
@@ -7625,9 +7635,9 @@ msgstr ""
 "  -f              опустить в кратком формате строку с заголовками колонок\n"
 "  -w              опустить в кратком формате полное имя пользователя\n"
 "  -i              опустить в кратком формате полное имя пользователя и имя\n"
-"                  удаленной машины\n"
+"                  удалённой машины\n"
 "  -q              опустить в кратком формате полное имя пользователя, имя\n"
-"                  удаленной машины и время неактивности\n"
+"                  удалённой машины и время неактивности\n"
 
 #: src/pinky.c:507
 #, c-format
@@ -7643,7 +7653,7 @@ msgstr ""
 #: src/pinky.c:591
 #, c-format
 msgid "no username specified; at least one must be specified when using -l"
-msgstr "не задано имя пользователя; при использовании ключа -l нужно задать хотя бы одно"
+msgstr "не задано имя пользователя; при использовании параметра -l нужно задать хотя бы одно"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/pr.c:331
@@ -7737,7 +7747,7 @@ msgstr ""
 "                    начать [завершить] печать на ПЕРВОЙ_[ПОСЛЕДНЕЙ_]СТРАНИЦЕ\n"
 "  -ЧИСЛО, --columns=ЧИСЛО\n"
 "                    выводить заданное ЧИСЛО колонок и печатать их вниз, если\n"
-"                    только не указан ключ -a. Балансировать число строк в\n"
+"                    только не указан параметр -a. Балансировать число строк в\n"
 "                    колонке на каждой странице.\n"
 
 #: src/pr.c:2756
@@ -7750,7 +7760,7 @@ msgid ""
 "                    double space the output\n"
 msgstr ""
 "  -a, --across      выводить колонки вдоль, а не вниз; используется вместе с\n"
-"                    ключом -ЧИСЛО\n"
+"                    параметром -ЧИСЛО\n"
 "  -c, --show-control-chars\n"
 "                    использовать запись с шапочкой (^G) или обратной косой\n"
 "                    чертой (и восьмеричным кодом)\n"
@@ -7776,8 +7786,8 @@ msgstr ""
 "  -F, -f, --form-feed\n"
 "                    использовать для разделения страниц символ перевода\n"
 "                    страницы, а не новой строки (с трёхстрочным заголовком,\n"
-"                    если есть ключ -F, и пятистрочным заголовком и\n"
-"                    завершителем, если ключ -F не задан)\n"
+"                    если есть параметр -F, и пятистрочным заголовком и\n"
+"                    завершителем, если параметр -F не задан)\n"
 
 #: src/pr.c:2774
 msgid ""
@@ -7818,7 +7828,8 @@ msgid ""
 "                    truncate lines, but join lines of full length with -J\n"
 msgstr ""
 "  -m, --merge       печатать все файлы параллельно, по одному в колонке,\n"
-"                    усекать строки, но соединять полные строки при -J\n"
+"                    усекать строки, а с использованием параметра -J\n"
+"                    соединять полные строки\n"
 
 #: src/pr.c:2793
 msgid ""
@@ -7861,11 +7872,11 @@ msgid ""
 msgstr ""
 "  -s[СИМВОЛ],--separator[=СИМВОЛ]\n"
 "                    разделять колонки одним символом, по умолчанию СИМВОЛ\n"
-"                    равен <TAB>, если нет ключа -w, и пуст, если есть ключ\n"
+"                    равен <TAB>, если нет параметра -w, и пуст, если есть параметр\n"
 "                    -w.\n"
 "                    -s[СИМВОЛ] выключает усечение строк для всех трёх\n"
-"                    колонок ключей (-КОЛОНКА|-a -КОЛОНКА|-m), если только\n"
-"                    нет ключа -w\n"
+"                    колонок параметров (-КОЛОНКА|-a -КОЛОНКА|-m), если только\n"
+"                    нет параметра -w\n"
 
 #: src/pr.c:2816
 msgid ""
@@ -7876,17 +7887,18 @@ msgid ""
 msgstr ""
 "  -S[СТРОКА], --sep-string[=СТРОКА]\n"
 "                    разделять колонки СТРОКОЙ,\n"
-"                    если -S не задан: разделитель по умолчанию — <TAB>,\n"
-"                    если использован ключ -J, иначе пробел (то же,\n"
-"                    что -S\" \"); не влияет на ключи для колонок\n"
+"                    с параметром -J (если -S не задан) будет использоваться\n"
+"                    по умолчанию разделитель <TAB>, в остальных случаях\n"
+"                    используется пробел (то же, что -S\" \"); не влияет\n"
+"                    на параметры для колонок\n"
 
 #: src/pr.c:2822
 msgid ""
 "  -t, --omit-header  omit page headers and trailers;\n"
 "                     implied if PAGE_LENGTH <= 10\n"
 msgstr ""
-"  -t, --omit-header не выводить заголовки и концевики страниц;\n"
-"                    подразумевается, если  ДЛИНА_СТРАНИЦЫ <= 10\n"
+"  -t, --omit-header не выводить заголовки и окончания страниц;\n"
+"                    подразумевается, если ДЛИНА_СТРАНИЦЫ <= 10\n"
 
 #: src/pr.c:2826
 msgid ""
@@ -7918,7 +7930,7 @@ msgid ""
 msgstr ""
 "  -W, --page-width=ШИРИНА_СТРАНИЦЫ\n"
 "                    установить ШИРИНУ_СТРАНИЦЫ (72), усекать строки,\n"
-"                    если нет ключа -J; не затрагивается ключами -S или -s\n"
+"                    если нет параметра -J; не затрагивается параметрами -S или -s\n"
 
 #: src/printenv.c:62
 #, c-format
@@ -7928,7 +7940,7 @@ msgid ""
 "If no VARIABLE is specified, print name and value pairs for them all.\n"
 "\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… [ПЕРЕМЕННАЯ]…\n"
+"Использование: %s [ПАРАМЕТР]… [ПЕРЕМЕННАЯ]…\n"
 "Печатает значения указанных ПЕРЕМЕННЫХ окружения.\n"
 "Если ПЕРЕМЕННАЯ не задана, то печатаются все пары\n"
 "переменная — значение.\n"
@@ -7952,7 +7964,7 @@ msgid ""
 "  or:  %s OPTION\n"
 msgstr ""
 "Использование: %s ФОРМАТ [АРГУМЕНТ]…\n"
-"       или:    %s КЛЮЧ\n"
+"       или:    %s ПАРАМЕТР\n"
 
 #: src/printf.c:98
 msgid ""
@@ -7960,7 +7972,7 @@ msgid ""
 "\n"
 msgstr ""
 "Печатает АРГУМЕНТ(ы) в заданном ФОРМАТЕ, или выполняет действие\n"
-"согласно ключу:\n"
+"согласно ПАРАМЕТРУ:\n"
 "\n"
 
 #: src/printf.c:104
@@ -7983,7 +7995,7 @@ msgid ""
 "  \\uHHHH  Unicode (ISO/IEC 10646) character with hex value HHHH (4 digits)\n"
 "  \\UHHHHHHHH  Unicode character with hex value HHHHHHHH (8 digits)\n"
 msgstr ""
-"  \\NNN    байт с восьмеричным кодом NNN(от 1 до 3 цифр)\n"
+"  \\NNN    байт с восьмеричным кодом NNN (от 1 до 3 цифр)\n"
 "  \\xНН    байт с шестнадцатеричным кодом НН (от 1 до 2 цифр)\n"
 "  \\uНННН  символ Unicode (ISO/IEC 10646) с шестнадцатеричным\n"
 "            кодом НННН (4 цифры)\n"
@@ -8002,7 +8014,7 @@ msgid ""
 msgstr ""
 "  %%     один %\n"
 "  %b     АРГУМЕНТ в виде строки с интерпретированными\n"
-"         экранирующими-последовательностями, начинающимися с «\\»;\n"
+"         экранирующими последовательностями, начинающимися с «\\»;\n"
 "         восьмеричные последовательности в форме \\0 или \\0ННН\n"
 "  %q     АРГУМЕНТ выводится в формате, который можно использовать и для ввода\n"
 "         через оболочку, непечатные символы экранируются в соответствии\n"
@@ -8075,8 +8087,8 @@ msgid ""
 "Usage: %s [OPTION]... [INPUT]...   (without -G)\n"
 "  or:  %s -G [OPTION]... [INPUT [OUTPUT]]\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… [ВХОД]… (без -G)\n"
-"       или:    %s -G [КЛЮЧ]… [ВХОД [ВЫХОД]]\n"
+"Использование: %s [ПАРАМЕТР]… [ВХОД]… (без -G)\n"
+"       или:    %s -G [ПАРАМЕТР]… [ВХОД [ВЫХОД]]\n"
 
 #: src/ptx.c:1818
 msgid "Output a permuted index, including context, of the words in the input files.\n"
@@ -8109,10 +8121,10 @@ msgid ""
 msgstr ""
 "  -M, --macro-name=СТРОКА        имя макро, которое следует использовать\n"
 "                                 вместо «xx»\n"
-"  -O, --format=roff              генерировать вывод в виде директив roff\n"
+"  -O, --format=roff              сформировать вывод в виде директив roff\n"
 "  -R, --right-side-refs          помещать ссылки справа, не учитывается при -w\n"
 "  -S, --sentence-regexp=РЕГВЫР   для конца строк или конца предложений\n"
-"  -T, --format=tex               генерировать вывод в виде директив TeX\n"
+"  -T, --format=tex               сформировать вывод в виде директив TeX\n"
 
 #: src/ptx.c:1840
 msgid ""
@@ -8145,7 +8157,7 @@ msgstr ""
 #: src/ptx.c:1945
 #, c-format
 msgid "invalid gap width: %s"
-msgstr "неверная ширина дырки: %s"
+msgstr "неверная ширина промежутка: %s"
 
 #: src/ptx.c:1972
 #, c-format
@@ -8190,12 +8202,12 @@ msgstr "ошибка получения атрибутов %s"
 #: src/pwd.c:238
 #, c-format
 msgid "couldn't find directory entry in %s with matching i-node"
-msgstr "в %s не найдена запись каталога с соответствующим i-node"
+msgstr "в %s не найдена запись каталога с соответствующей инодой"
 
 #: src/pwd.c:367
 #, c-format
 msgid "ignoring non-option arguments"
-msgstr "не являющиеся ключами аргументы проигнорированы"
+msgstr "аргументы, которые не являются параметрами, игнорируются"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/readlink.c:32
@@ -8206,7 +8218,7 @@ msgstr "Дмитрий В. Левин (Dmitry V. Levin)"
 #: src/touch.c:213
 #, c-format
 msgid "Usage: %s [OPTION]... FILE...\n"
-msgstr "Использование: %s [КЛЮЧ]… ФАЙЛ…\n"
+msgstr "Использование: %s [ПАРАМЕТР]… ФАЙЛ…\n"
 
 #: src/readlink.c:63
 msgid ""
@@ -8301,7 +8313,7 @@ msgstr ""
 
 #: src/relpath.c:130
 msgid "generating relative path"
-msgstr "генерируется относительный путь"
+msgstr "формируется относительный путь"
 
 #: src/remove.c:273
 #, c-format
@@ -8321,7 +8333,7 @@ msgstr "%s: спуститься в каталог %s? "
 #: src/remove.c:291
 #, c-format
 msgid "%s: remove write-protected %s %s? "
-msgstr "%s: удалить защищенный от записи %s %s? "
+msgstr "%s: удалить защищённый от записи %s %s? "
 
 #: src/remove.c:292
 #, c-format
@@ -8331,7 +8343,7 @@ msgstr "%s: удалить %s %s? "
 #: src/remove.c:375
 #, c-format
 msgid "removed directory %s\n"
-msgstr "удален каталог %s\n"
+msgstr "удалён каталог %s\n"
 
 #: src/remove.c:447
 #, c-format
@@ -8381,8 +8393,8 @@ msgid ""
 msgstr ""
 "Удаляет (ссылки на) ФАЙЛ(ы).\n"
 "\n"
-"  -f, --force         игнорировать несуществующие файлы и аргументы, ни о чем\n"
-"                      не спрашивать\n"
+"  -f, --force         игнорировать несуществующие файлы и аргументы,\n"
+"                      ни о чём не спрашивать\n"
 "  -i                  запрашивать подтверждение перед каждым удалением\n"
 
 #: src/rm.c:140
@@ -8408,7 +8420,7 @@ msgid ""
 "                          directory that is on a file system different from\n"
 "                          that of the corresponding command line argument\n"
 msgstr ""
-"      --one-file-system  при рекурсивном удалении иерархии, пропускать все\n"
+"      --one-file-system  при рекурсивном удалении дерева, пропускать все\n"
 "                      каталоги, находящиеся не на той же файловой системе,\n"
 "                      что и соответствующий аргумент командной строки\n"
 
@@ -8442,7 +8454,7 @@ msgid ""
 "option to remove each listed directory, too, along with all of its contents.\n"
 msgstr ""
 "\n"
-"По умолчанию rm не удаляет каталоги.  Используйте ключ --recursive (-r\n"
+"По умолчанию rm не удаляет каталоги. Используйте параметр --recursive (-r\n"
 "или -R), чтобы удалить все перечисленные каталоги вместе с их\n"
 "содержимым.\n"
 
@@ -8471,8 +8483,8 @@ msgid ""
 "assurance that the contents are truly unrecoverable, consider using shred.\n"
 msgstr ""
 "\n"
-"Заметим, что при использовании rm для удаления файла его содержимое\n"
-"обычно можно восстановить, имея соответствующий опыт и время.\n"
+"Заметим, что при использовании rm для удаления файла, обычно, его\n"
+"содержимое можно восстановить, имея соответствующий опыт и время.\n"
 "Используйте shred, если вам необходима большая\n"
 "уверенность в невозможности восстановления содержимого.\n"
 
@@ -8570,7 +8582,7 @@ msgid ""
 msgstr ""
 "  КОНТЕКСТ                 Полный контекст безопасности\n"
 "  -c, --compute            вычислить переходный контекст перед изменением\n"
-"  -t, --type=ТИП           тип (с ролью что и у родителя)\n"
+"  -t, --type=ТИП           тип (с той же ролью что и у родителя)\n"
 "  -u, --user=ПОЛЬЗОВАТЕЛЬ  обозначение пользователя\n"
 "  -r, --role=РОЛЬ          роль\n"
 "  -l, --range=ДИАПАЗОН     диапазон\n"
@@ -8647,9 +8659,9 @@ msgid ""
 "  or:  %s [OPTION]... FIRST LAST\n"
 "  or:  %s [OPTION]... FIRST INCREMENT LAST\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… ПОСЛЕДНИЙ\n"
-"       или:    %s [КЛЮЧ]… ПЕРВЫЙ ПОСЛЕДНИЙ\n"
-"       или:    %s [КЛЮЧ]… ПЕРВЫЙ ПРИРОСТ ПОСЛЕДНИЙ\n"
+"Использование: %s [ПАРАМЕТР]… ПОСЛЕДНИЙ\n"
+"       или:    %s [ПАРАМЕТР]… ПЕРВЫЙ ПОСЛЕДНИЙ\n"
+"       или:    %s [ПАРАМЕТР]… ПЕРВЫЙ ПРИРОСТ ПОСЛЕДНИЙ\n"
 
 #: src/seq.c:77
 msgid "Print numbers from FIRST to LAST, in steps of INCREMENT.\n"
@@ -8787,8 +8799,8 @@ msgid ""
 "Overwrite the specified FILE(s) repeatedly, in order to make it harder\n"
 "for even very expensive hardware probing to recover the data.\n"
 msgstr ""
-"Переписывает несколько раз указанные файлы для того, чтобы сделать более\n"
-"сложным восстановление даже с использованием очень дорогого оборудования.\n"
+"Переписывает несколько раз указанный ФАЙЛ(Ы) для того, чтобы сделать более\n"
+"сложным его восстановление даже с использованием очень дорогого оборудования.\n"
 
 #: src/shred.c:175
 msgid ""
@@ -8825,7 +8837,7 @@ msgstr ""
 "     --remove[=КАК]   подобно -u, но задаётся КАК удалять; смотрите далее\n"
 "  -v, --verbose       показывать ход выполнения\n"
 "  -x, --exact         не округлять размеры файлов до следующего целого\n"
-"                      блока; по умолчанию для не простых файлов\n"
+"                      блока; по умолчанию не для простых файлов\n"
 "  -z, --zero          перезаписать в конце нулями, чтобы скрыть измельчение\n"
 
 #: src/shred.c:198
@@ -8918,13 +8930,13 @@ msgid ""
 "\n"
 msgstr ""
 "В случае файловых систем ext3 упомянутое выше ограничение верно (и\n"
-"shred, следовательно, не так эффективен), только в режиме\n"
+"shred, следовательно, не так эффективен) только в режиме\n"
 "data=journal, когда кроме метаданных журналируются также и сами данные\n"
 "файлов.  В режимах data=ordered (по умолчанию) и data=writeback\n"
 "программа shred работает как обычно.  Режимы журналирования ext3 можно\n"
-"изменить, добавив ключ data=что-то к параметрам монтирования для\n"
+"изменить, добавив параметр data=что-то к параметрам монтирования для\n"
 "конкретной файловой системы в файле /etc/fstab, как документировано в\n"
-"странице man для mount (man mount).\n"
+"справочной странице mount (man mount).\n"
 "\n"
 
 #: src/shred.c:245
@@ -8933,7 +8945,7 @@ msgid ""
 "of the file that cannot be removed, and that will allow a shredded file\n"
 "to be recovered later.\n"
 msgstr ""
-"Кроме того, резервные копии и удаленные зеркала файловой системы могут\n"
+"Кроме того, резервные копии и удалённые зеркала файловой системы могут\n"
 "содержать копии файла, которые нельзя удалить, и которые позволят\n"
 "впоследствии восстановить уничтоженный файл.\n"
 
@@ -9061,9 +9073,9 @@ msgid ""
 "  or:  %s -e [OPTION]... [ARG]...\n"
 "  or:  %s -i LO-HI [OPTION]...\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]… [ФАЙЛ]\n"
-"       или:    %s -e [КЛЮЧ]… [АРГ]…\n"
-"       или:    %s -l ОТ-ДО [КЛЮЧ]…\n"
+"Использование: %s [ПАРАМЕТР]… [ФАЙЛ]\n"
+"       или:    %s -e [ПАРАМЕТР]… [АРГ]…\n"
+"       или:    %s -l ОТ-ДО [ПАРАМЕТР]…\n"
 
 #: src/shuf.c:68
 msgid "Write a random permutation of the input lines to standard output.\n"
@@ -9092,7 +9104,7 @@ msgstr "слишком много входных строк"
 
 #: src/shuf.c:418
 msgid "multiple -i options specified"
-msgstr "задано несколько ключей -i"
+msgstr "задано несколько параметров -i"
 
 #: src/shuf.c:425 src/shuf.c:431 src/shuf.c:436
 msgid "invalid input range"
@@ -9110,7 +9122,7 @@ msgstr "задано несколько выходных файлов"
 #: src/shuf.c:486
 #, c-format
 msgid "cannot combine -e and -i options"
-msgstr "нельзя сочетать ключи -e и -i"
+msgstr "нельзя одновременно использовать параметры -e и -i"
 
 #: src/shuf.c:570
 msgid "no lines to repeat"
@@ -9129,7 +9141,7 @@ msgid ""
 "\n"
 msgstr ""
 "Использование: %s ЧИСЛО[СУФФИКС]…\n"
-"       или:    %s КЛЮЧ\n"
+"       или:    %s ПАРАМЕТР\n"
 "Приостанавливает выполнение на заданное ЧИСЛО секунд. СУФФИКС может\n"
 "принимать значение «s», что означает секунды (применяется по\n"
 "умолчанию), «m» — минуты, «h» — часы и «d» — дни.  В отличие от\n"
@@ -9156,7 +9168,7 @@ msgid ""
 "Ordering options:\n"
 "\n"
 msgstr ""
-"Ключи, задающие порядок:\n"
+"Параметры, задающие порядок:\n"
 "\n"
 
 #: src/sort.c:443
@@ -9194,10 +9206,10 @@ msgid ""
 "  -r, --reverse               reverse the result of comparisons\n"
 msgstr ""
 "  -n, --numeric-sort          сравнивать по числовым значениям строк\n"
-"  -R, --random-sort           перетасовать, но группировать одинаковые ключи.\n"
-"                              Смотрите shuf(1)\n"
+"  -R, --random-sort           перетасовать, но группировать одинаковые\n"
+"                              параметры, смотрите shuf(1)\n"
 "      --random-source=ФАЙЛ    брать случайные байты из ФАЙЛА\n"
-"  -r, --reverse               обратить результаты сравнения\n"
+"  -r, --reverse               изменить результаты сравнения на противоположные\n"
 
 #: src/sort.c:463
 msgid ""
@@ -9218,7 +9230,7 @@ msgid ""
 "Other options:\n"
 "\n"
 msgstr ""
-"Другие ключи:\n"
+"Другие параметры:\n"
 "\n"
 
 #: src/sort.c:475
@@ -9227,7 +9239,7 @@ msgid ""
 "                            for more use temp files\n"
 msgstr ""
 "      --batch-size=NMERGE     объединять не более чем NMERGE ввода за раз;\n"
-"                              для большего использовать временные файлы\n"
+"                              для большего — использовать временные файлы\n"
 
 #: src/sort.c:479
 msgid ""
@@ -9238,7 +9250,7 @@ msgid ""
 msgstr ""
 "  -c, --check, --check=diagnose-first\n"
 "                               проверять, сортированы ли входные файлы;\n"
-"                               не сортировать\n"
+"                               сортировка не выполняется\n"
 "  -C, --check=quiet, --check=silent\n"
 "                               как -c, но не сообщать о первой плохой строке\n"
 "      --compress-program=ПРОГ  сжимать временные файлы командой ПРОГ;\n"
@@ -9267,8 +9279,8 @@ msgid ""
 msgstr ""
 "  -k, --key=ОПР_КЛЮЧА          сортировать по ключу; в ОПР_КЛЮЧА\n"
 "                               задано расположение и тип\n"
-"  -m, --merge                  объединить уже сортированные файлы,\n"
-"                               не сортировать\n"
+"  -m, --merge                  объединить уже отсортированные файлы,\n"
+"                               сортировку не выполнять\n"
 
 #: src/sort.c:497
 msgid ""
@@ -9299,13 +9311,13 @@ msgstr ""
 "                               символов к пробельным\n"
 "  -T, --temporary-directory=КАТАЛОГ\n"
 "                               использовать для временных файлов КАТАЛОГ, а\n"
-"                               не $TMPDIR или %s; несколько таких ключей\n"
+"                               не $TMPDIR или %s; несколько таких параметров\n"
 "                               задают несколько каталогов\n"
 "      --parallel=N             изменить количество одновременно запущенных\n"
 "                               сортировок до N\n"
 "  -u, --unique                 с -c, проверять порядок строго;\n"
-"                               без -c, выводить только первое среди нескольких\n"
-"                               равных\n"
+"                               без -c, выводить только первое среди\n"
+"                               нескольких равных\n"
 
 #: src/sort.c:517
 msgid ""
@@ -9328,10 +9340,10 @@ msgstr ""
 "предшествующего пробельного символа. OPTS составляется из одной или\n"
 "нескольких букв, задающих порядок сортировки [bdfgiMhnRrV]; он переопределяет\n"
 "соответствующие глобальные параметры сортировки для данного ключевого поля.\n"
-"Если ключ не задан, то в качестве ключа используется строка целиком.\n"
+"Если параметр не задан, то в качестве ключа используется строка целиком.\n"
 "Для обнаружения использования некорректного ключа укажите --debug.\n"
 "\n"
-"После РАЗМЕРА можно писать следующие суффиксы-мультипликаторы:\n"
+"После РАЗМЕРА можно указывать следующие суффиксы-мультипликаторы:\n"
 
 #: src/sort.c:530
 msgid ""
@@ -9389,7 +9401,7 @@ msgstr "невозможно создать процесс для %s -d"
 #: src/sort.c:1261
 #, c-format
 msgid "warning: cannot remove: %s"
-msgstr "предупреждение, невозможно удалить: %s"
+msgstr "предупреждение: невозможно удалить: %s"
 
 #: src/sort.c:1347
 #, c-format
@@ -9431,7 +9443,7 @@ msgstr "не удалось выполнить преобразование ст
 #: src/sort.c:2115
 #, c-format
 msgid "the untransformed string was %s"
-msgstr "исходная строка была %s"
+msgstr "неизменённая строка была %s"
 
 #: src/sort.c:2278
 #, c-format
@@ -9462,14 +9474,14 @@ msgstr "ключ %lu является числовым и охватывает �
 #, c-format
 msgid "option '-%s' is ignored"
 msgid_plural "options '-%s' are ignored"
-msgstr[0] "ключ «-%s» игнорируется"
-msgstr[1] "ключа «-%s» игнорируется"
-msgstr[2] "ключей «-%s» игнорируется"
+msgstr[0] "параметр «-%s» игнорируется"
+msgstr[1] "параметра «-%s» игнорируется"
+msgstr[2] "параметров «-%s» игнорируется"
 
 #: src/sort.c:2517
 #, c-format
 msgid "option '-r' only applies to last-resort comparison"
-msgstr "ключ «-r» применяется только если ничего не совпало"
+msgstr "параметр «-r» применяется только в случае, если ничего не совпало"
 
 #: src/sort.c:2791 src/sort.c:2800
 msgid "write failed"
@@ -9496,12 +9508,12 @@ msgstr "%s: неверная спецификация поля %s"
 #: src/sort.c:4052
 #, c-format
 msgid "options '-%s' are incompatible"
-msgstr "ключи «-%s» несовместимы"
+msgstr "параметров «-%s» несовместимо"
 
 #: src/sort.c:4102
 #, c-format
 msgid "%s: invalid count at start of %s"
-msgstr "%s: неверный счетчик в начале %s"
+msgstr "%s: неверный счётчик в начале %s"
 
 #: src/sort.c:4361
 msgid "invalid number after '-'"
@@ -9576,7 +9588,7 @@ msgstr "длина суффикса должна быть не менее %<PRIu
 #: src/split.c:226
 #, c-format
 msgid "Usage: %s [OPTION]... [FILE [PREFIX]]\n"
-msgstr "Использование: %s [КЛЮЧ]… [ФАЙЛ [ПРЕФИКС]]\n"
+msgstr "Использование: %s [ПАРАМЕТР]… [ФАЙЛ [ПРЕФИКС]]\n"
 
 #: src/split.c:230
 msgid ""
@@ -9668,7 +9680,7 @@ msgstr "создаётся файл %s\n"
 #: src/split.c:471
 #, c-format
 msgid "%s would overwrite input; aborting"
-msgstr "%s перезаписал был начальные данные; прекращение выполнения"
+msgstr "%s перезаписал бы входные данные; прекращение выполнения"
 
 #: src/split.c:487
 msgid "failed to set FILE environment variable"
@@ -9681,7 +9693,7 @@ msgstr "выполняется с FILE=%s\n"
 
 #: src/split.c:491
 msgid "failed to create pipe"
-msgstr "не удалось создать канал"
+msgstr "ошибка при создании канала"
 
 #: src/split.c:505
 msgid "closing prior pipe"
@@ -9760,7 +9772,7 @@ msgstr "указано несколько разделителей символ�
 #: src/split.c:1461
 #, c-format
 msgid "line count option -%s%c... is too large"
-msgstr "ключ числа строк -%s%c… слишком велик"
+msgstr "значение параметра счётчика строк -%s%c… слишком велико"
 
 #: src/split.c:1478
 #, c-format
@@ -9824,7 +9836,7 @@ msgstr "используемое значение %s для обозначени
 #: src/stat.c:1357
 #, c-format
 msgid "cannot read file system information for %s"
-msgstr "невозможно считать информацию файловой системы для %s"
+msgstr "невозможно считать информацию из файловой системы про %s"
 
 #: src/stat.c:1378
 #, c-format
@@ -9845,7 +9857,7 @@ msgstr ""
 "    ID: %-8i Длина имени: %-7l Тип: %T\n"
 "Размер блока: %-10s Базисный размер блока: %S\n"
 "Блоки: Всего: %-10b Свободно: %-10f Доступно: %a\n"
-"Inodes: Всего: %-10c Свободно: %d\n"
+"Иноды: Всего: %-10c Свободно: %d\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
@@ -9861,13 +9873,13 @@ msgstr ""
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1445
 msgid "Device: %Dh/%dd\tInode: %-10i  Links: %-5h Device type: %t,%T\n"
-msgstr "Устройство: %Dh/%dd\tInode: %-10i  Ссылки: %-5h Тип устройства: %t,%T\n"
+msgstr "Устройство: %Dh/%dd\tИнода: %-10i  Ссылки: %-5h Тип устройства: %t,%T\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1453
 msgid "Device: %Dh/%dd\tInode: %-10i  Links: %h\n"
-msgstr "Устройство: %Dh/%dd\tInode: %-10i  Ссылки: %h\n"
+msgstr "Устройство: %Dh/%dd\tИнода: %-10i  Ссылки: %h\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
@@ -9889,10 +9901,10 @@ msgid ""
 "Change: %z\n"
 " Birth: %w\n"
 msgstr ""
-"Доступ: %x\n"
+"Доступ:        %x\n"
 "Модифицирован: %y\n"
-"Изменён: %z\n"
-" Создан: %w\n"
+"Изменён:       %z\n"
+"Создан:        %w\n"
 
 #: src/stat.c:1498
 msgid "Display file or file system status.\n"
@@ -9973,7 +9985,7 @@ msgid ""
 "  %T   minor device type in hex, for character/block device special files\n"
 msgstr ""
 "  %h   количество жёстких ссылок\n"
-"  %i   количество inode\n"
+"  %i   количество инод\n"
 "  %m   точка монтирования\n"
 "  %n   имя файла\n"
 "  %N   экранированное имя файла, символьная ссылка разыменовывается\n"
@@ -10024,8 +10036,8 @@ msgstr ""
 "\n"
 "  %a   количество свободных блоков, доступных для обычного пользователя\n"
 "  %b   общее количество блоков данных в файловой системе\n"
-"  %c   общее количество файловых нод в файловой системе\n"
-"  %d   количество свободных файловых нод в файловой системе\n"
+"  %c   общее количество файловых инод в файловой системе\n"
+"  %d   количество свободных файловых инод в файловой системе\n"
 "  %f   количество свободных блоков в файловой системе\n"
 
 #: src/stat.c:1570
@@ -10069,7 +10081,7 @@ msgstr ""
 #: src/stdbuf.c:91
 #, c-format
 msgid "Usage: %s OPTION... COMMAND\n"
-msgstr "Использование: %s КЛЮЧ… КОМАНДА\n"
+msgstr "Использование: %s ПАРАМЕТР… КОМАНДА\n"
 
 #: src/stdbuf.c:92
 msgid "Run COMMAND, with modified buffering operations for its standard streams.\n"
@@ -10093,7 +10105,7 @@ msgid ""
 msgstr ""
 "\n"
 "Если значение РЕЖИМА равно «L», то соответствующий поток будет\n"
-"буферизироваться построчно. Этот ключ некорректен при использовании\n"
+"буферизироваться построчно. Этот параметр некорректен при использовании\n"
 "стандартного ввода.\n"
 
 #: src/stdbuf.c:108
@@ -10128,10 +10140,10 @@ msgid ""
 "and are thus unaffected by 'stdbuf' settings.\n"
 msgstr ""
 "\n"
-"ЗАМЕЧАНИЕ: Если КОМАНДА сама подгоняет буферы своих потоков (например «tee»),\n"
-"то это изменить соответствующие настройки, изменённые «stdbuf».\n"
+"ЗАМЕЧАНИЕ: Если КОМАНДА сама подгоняет буферы своих потоков (например, \n"
+"«tee»), то это изменит соответствующие настройки, изменённые «stdbuf».\n"
 "Также некоторые фильтры (например «dd», «cat» и т.д.) не используют потоки\n"
-"ввода/вывода, и поэтому «stdbuf» не укажет на них никакого влияния.\n"
+"ввода/вывода, и поэтому «stdbuf» не окажет на них никакого влияния.\n"
 
 #: src/stdbuf.c:242
 #, c-format
@@ -10151,7 +10163,7 @@ msgstr "строковая буферизация stdin бессмысленна
 #: src/stdbuf.c:376
 #, c-format
 msgid "you must specify a buffering mode option"
-msgstr "вы должны задать ключ режима буферизации"
+msgstr "вы должны задать параметр режима буферизации"
 
 #: src/stty.c:531
 #, c-format
@@ -10255,7 +10267,7 @@ msgid ""
 "   susp CHAR     CHAR will send a terminal stop signal\n"
 msgstr ""
 "  start СИМВОЛ    СИМВОЛ будет перезапускать вывод после остановки\n"
-"  stop СИМВОЛ     СИМВОЛ будет приостанавливать ввод\n"
+"  stop СИМВОЛ     СИМВОЛ будет останавливать вывод\n"
 "  susp СИМВОЛ     СИМВОЛ будет посылать терминалу сигнал останова\n"
 
 #: src/stty.c:606
@@ -10299,7 +10311,7 @@ msgstr "выкл"
 
 #: src/stty.c:629
 msgid "   ispeed N      set the input speed to N\n"
-msgstr "  ispeed Н      установить скорость ввода\n"
+msgstr "  ispeed Н      установить скорость ввода равной Н\n"
 
 #: src/stty.c:633
 msgid " * line N        use line discipline N\n"
@@ -10310,9 +10322,9 @@ msgid ""
 "   min N         with -icanon, set N characters minimum for a completed read\n"
 "   ospeed N      set the output speed to N\n"
 msgstr ""
-"  min Н         используется с -icanon, установить Н минимальным числом\n"
-"                символов для завершения операции чтения\n"
-"  ospeed Н      установить скорость вывода\n"
+"  min Н         установить Н как минимальным число символов для завершения\n"
+"                операции чтения (используется с параметром -icanon)\n"
+"  ospeed Н      установить скорость вывода равной Н\n"
 
 #: src/stty.c:642
 msgid ""
@@ -10328,8 +10340,8 @@ msgid ""
 "   time N        with -icanon, set read timeout of N tenths of a second\n"
 msgstr ""
 "  speed         напечатать скорость терминала\n"
-"  time Н        используется с -icanon, установить временной предел для\n"
-"                операции чтения равным Н десятым секунды\n"
+"  time Н        установить временной предел для операции чтения равным\n"
+"                Н десятым секунды (используется с параметром -icanon)\n"
 
 #: src/stty.c:651
 msgid ""
@@ -10406,7 +10418,7 @@ msgid ""
 "   [-]istrip     clear high (8th) bit of input characters\n"
 msgstr ""
 "  [-]inlcr      преобразовывать перевод строки в возврат каретки\n"
-"  [-]inpck      использовать проверку четности ввода\n"
+"  [-]inpck      использовать проверку чётности ввода\n"
 "  [-]istrip     очищать старший (восьмой) бит вводимых символов\n"
 
 #: src/stty.c:702
@@ -10571,7 +10583,7 @@ msgid ""
 "   [-]iexten     enable non-POSIX special characters\n"
 msgstr ""
 "   [-]icanon     использовать специальные символы: %s\n"
-"   [-]iexten     использовать специальные символы, не описанные в стандарте\n"
+"   [-]iexten     использовать специальные символы, отсутствующие в стандарте\n"
 "                 POSIX\n"
 
 #: src/stty.c:858
@@ -10590,7 +10602,7 @@ msgstr " * [-]prterase   синоним [-]echoprt\n"
 #: src/stty.c:868
 msgid " * [-]tostop     stop background jobs that try to write to the terminal\n"
 msgstr ""
-" * [-]tostop     приостанавливать фоновые программе, пытающиеся произвести\n"
+" * [-]tostop     приостанавливать фоновые программы, пытающиеся произвести\n"
 "                 запись на терминал\n"
 
 #: src/stty.c:873
@@ -10651,7 +10663,7 @@ msgid ""
 "   evenp         same as parenb -parodd cs7\n"
 "   -evenp        same as -parenb cs8\n"
 msgstr ""
-"  ek            установить для символов erase and kill значения по умолчанию\n"
+"  ek            установить для символов erase и kill значения по умолчанию\n"
 "  evenp         синоним parenb -parodd cs7\n"
 "  -evenp        синоним -parenb cs8\n"
 
@@ -10729,8 +10741,8 @@ msgid ""
 "127; special values ^- or undef used to disable special characters.\n"
 msgstr ""
 "\n"
-"Управляет терминальной линией, подключенной к стандартному вводу. Запущенная\n"
-"без аргументов, печатает скорость передачи информации, line discipline и\n"
+"Управляет терминальной линией, подключённой к стандартному вводу. Запущенная\n"
+"без аргументов, печатает скорость передачи информации, протокол линии и\n"
 "отличия от обычных установок. При установке, СИМВОЛЫ трактуются буквально\n"
 "или задаются в как ^c, 0x37, 0177 или 127; для отмены специальных символов\n"
 "служат значения ^- и undef.\n"
@@ -10764,7 +10776,7 @@ msgid ""
 "the options for verbose and stty-readable output styles are\n"
 "mutually exclusive"
 msgstr ""
-"ключи для вывода в виде, читаемом человеком и читаемом программой stty,\n"
+"параметры для вывода в виде, читаемом человеком и читаемом программой stty,\n"
 "взаимоисключающие"
 
 #: src/stty.c:1366
@@ -10824,7 +10836,7 @@ msgid ""
 "or their containing file systems.\n"
 "\n"
 msgstr ""
-"Синхронизирует кэшированные операции записи с постоянных хранилищем.\n"
+"Синхронизирует кэшированные операции записи с постоянным хранилищем.\n"
 "\n"
 "Если указан один и более файлов, то синхронизирует только их,\n"
 "или файловую систему, в которой они находятся.\n"
@@ -10859,7 +10871,7 @@ msgstr "ошибка синхронизации %s"
 
 #: src/sync.c:213
 msgid "cannot specify both --data and --file-system"
-msgstr "не допускается задание одновременно --data и --file-system"
+msgstr "не допускается одновременное использование --data и --file-system"
 
 #: src/sync.c:217
 msgid "--data needs at least one argument"
@@ -10874,9 +10886,9 @@ msgid ""
 "for details about the options it supports.\n"
 msgstr ""
 "\n"
-"ЗАМЕЧАНИЕ: ваша оболочка может предоставлять свою версию %s, которая\n"
-"обычно перекрывает версию, описанную здесь.  Пожалуйста, обращайтесь к\n"
-"документации по вашей оболочке, чтобы узнать, какие ключи она\n"
+"ЗАМЕЧАНИЕ: ваша оболочка может включать свою версию %s, которая,\n"
+"обычно, заменяет версию, описанную здесь. Пожалуйста, обратитесь к\n"
+"документации по оболочке, чтобы узнать, какие параметры она\n"
 "поддерживает.\n"
 
 #: src/system.h:350
@@ -10903,7 +10915,7 @@ msgid ""
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
 "\n"
-"Аргументы, обязательные для длинных ключей, обязательны и для коротких.\n"
+"Аргументы, обязательные для длинных параметров, обязательны и для коротких.\n"
 
 #: src/system.h:595
 msgid ""
@@ -10940,9 +10952,9 @@ msgid ""
 msgstr ""
 "\n"
 "По умолчанию суффикс для запасных копий «~», если только не установлена\n"
-"переменная окружения SIMPLE_BACKUP_SUFFIX или ключ --suffix. Способ контроля\n"
-"версий может быть установлен при помощи ключа --backup или переменной\n"
-"окружения VERSION_CONTROL. Допустимые значения:\n"
+"переменная окружения SIMPLE_BACKUP_SUFFIX или не задан параметр --suffix.\n"
+"Способ контроля версий может быть установлен при помощи ключа --backup\n"
+"или переменной окружения VERSION_CONTROL. Допустимые значения:\n"
 "\n"
 
 #: src/system.h:621
@@ -10953,10 +10965,10 @@ msgid ""
 "  simple, never   always make simple backups\n"
 msgstr ""
 "  none, off       никогда не создавать резервных копий (даже если\n"
-"                  указан ключ --backup)\n"
+"                  указан параметр --backup)\n"
 "  numbered, t     создавать нумерованные копии\n"
-"  existing, nil   если существуют нумерованные копии, то создавать\n"
-"                  нумерованные иначе создавать простые\n"
+"  existing, nil   пронумеровать, если уже существуют пронумерованные\n"
+"                  резервные копии, иначе создавать простые\n"
 "  simple. never   всегда создавать простые копии\n"
 
 #: src/system.h:651
@@ -10966,7 +10978,7 @@ msgid ""
 "%s online help: <%s>\n"
 msgstr ""
 "\n"
-"Оперативная справка %s: <%s>\n"
+"Страница справки по %s: <%s>\n"
 
 #. TRANSLATORS: Replace LANG_CODE in this URL with your language code
 #. <https://translationproject.org/team/LANG_CODE.html> to form one of
@@ -10975,7 +10987,7 @@ msgstr ""
 #: src/system.h:662
 #, c-format
 msgid "Report %s translation bugs to <https://translationproject.org/team/>\n"
-msgstr "Об ошибках в переводе сообщений «%s» сообщайте по адресу <gnu@d07.ru>\n"
+msgstr "Об ошибках в переводе сообщений «%s» обращайтесь по адресу <gnu@d07.ru>\n"
 
 #: src/system.h:665
 #, c-format
@@ -11001,10 +11013,10 @@ msgid ""
 "The following directory is part of the cycle:\n"
 "  %s\n"
 msgstr ""
-"ПРЕДУПРЕЖДЕНИЕ: Циклическая структура каталога.\n"
-"Скорее всего, это означает, что ваша файловая система повреждена.\n"
+"ПРЕДУПРЕЖДЕНИЕ: Структура каталога закольцована.\n"
+"Скорее всего это означает, что файловая система повреждена.\n"
 "УВЕДОМИТЕ ВАШЕГО СИСТЕМНОГО АДМИНИСТРАТОРА.\n"
-"Следующий каталог является частью цикла:\n"
+"Следующий каталог является частью кольца:\n"
 " %s\n"
 
 #. This is a proper name. See the gettext manual, section Names.
@@ -11096,7 +11108,7 @@ msgid ""
 msgstr ""
 "  -f, --follow[={name|descriptor}]\n"
 "                           выводить поступающие данные по мере роста файла;\n"
-"                           при отсутствии ключа используется «descriptor»\n"
+"                           при отсутствии параметра используется «descriptor»\n"
 "  -F                       эквивалент --follow=name --retry\n"
 
 #: src/tail.c:283
@@ -11114,7 +11126,7 @@ msgstr ""
 "  -n, --lines=Н            выводить последние Н строк, а не последние %d;\n"
 "                           или используйте -n +Н для вывода, начиная с Н-ной\n"
 "      --max-unchanged-stats=Н\n"
-"                           c ключом --follow=name, повторно открывать ФАЙЛ,\n"
+"                           c параметром --follow=name, повторно открывать ФАЙЛ,\n"
 "                           который не изменялся последние Н (по умолчанию %d)\n"
 "                           итераций, чтобы проверить, не был ли он удалён или\n"
 "                           переименован (такое обычно бывает при ротации\n"
@@ -11127,7 +11139,7 @@ msgid ""
 "  -q, --quiet, --silent    never output headers giving file names\n"
 "      --retry              keep trying to open a file if it is inaccessible\n"
 msgstr ""
-"      --pid=PID            с ключом -f, прерваться, когда процесс PID\n"
+"      --pid=PID            с параметром -f, прерваться, когда процесс PID\n"
 "                           завершает работу\n"
 "  -q, --quiet, --silent    не выводить заголовки с именами файлов\n"
 "      --retry              продолжать пытаться открыть файл даже когда он\n"
@@ -11141,10 +11153,11 @@ msgid ""
 "                             least once every N seconds\n"
 "  -v, --verbose            always output headers giving file names\n"
 msgstr ""
-"  -s, --sleep-interval=С   с ключом -f, спать между итерациями примерно\n"
-"                           С секунд (по умолчанию 1.0); при использовании\n"
-"                           механизма inotify и --pid=P, проверять процесс P\n"
-"                           не менее чем раз в С секунд\n"
+"  -s, --sleep-interval=С   с параметром -f, бездействовать между повторениями\n"
+"                           примерно С секунд (по умолчанию 1.0); при\n"
+"                           использовании механизма inotify и --pid=P,\n"
+"                           проверять процесс P, по крайней мере,\n"
+"                           каждые С секунд\n"
 "  -v, --verbose            всегда выводить заголовки с именами файлов\n"
 
 #: src/tail.c:313
@@ -11169,11 +11182,11 @@ msgid ""
 "rotation).  Use --follow=name in that case.  That causes tail to track the\n"
 "named file in a way that accommodates renaming, removal and creation.\n"
 msgstr ""
-"С ключом --follow (-f), tail по умолчанию следует за дескриптором файла, что\n"
+"С параметром --follow (-f), tail по умолчанию следует за дескриптором файла, что\n"
 "означает, что даже если файл переименован, tail будет и далее следить за его\n"
 "концом. Это поведение, принимаемое по умолчанию, нежелательно, если вы на\n"
 "самом деле хотите следить за именем файла, а не за дескриптором\n"
-"(например, сдвиг протокольных файлов). В таком случае используйте\n"
+"(например, при ротации файлов системных журналов). В таком случае используйте\n"
 "--follow=name. Это заставит tail следовать за указанным файлом, повторно\n"
 "открывая его периодически, чтобы узнать, не был ли он удален и заново создан\n"
 "какой-то другой программой.\n"
@@ -11278,7 +11291,7 @@ msgstr "ошибка чтения события inotify"
 #: src/tail.c:1690
 #, c-format
 msgid "directory containing watched file was removed"
-msgstr "каталог, содержащий файл наблюдаемый файл, был удалён"
+msgstr "каталог, содержащий наблюдаемый файл, был удалён"
 
 #: src/tail.c:2022
 #, c-format
@@ -11301,12 +11314,12 @@ msgstr "неверное количество секунд: %s"
 #: src/tail.c:2246
 #, c-format
 msgid "option used in invalid context -- %c"
-msgstr "ключ использован в неверном контексте -- %c"
+msgstr "параметр использован в неверном контексте — %c"
 
 #: src/tail.c:2258
 #, c-format
 msgid "warning: --retry ignored; --retry is useful only when following"
-msgstr "предупреждение: --retry игнорируется; ключ --retry полезен только при следовании"
+msgstr "предупреждение: --retry игнорируется; параметр --retry полезен только при следовании"
 
 #: src/tail.c:2262
 #, c-format
@@ -11316,7 +11329,7 @@ msgstr "предупреждение: --retry полезен только при
 #: src/tail.c:2267
 #, c-format
 msgid "warning: PID ignored; --pid=PID is useful only when following"
-msgstr "предупреждение: PID игнорируется; ключ --pid=PID полезен только при следовании"
+msgstr "предупреждение: PID игнорируется; параметр --pid=PID полезен только при следовании"
 
 #: src/tail.c:2270
 #, c-format
@@ -11347,7 +11360,7 @@ msgid ""
 msgstr ""
 "Копирует стандартный ввод в каждый ФАЙЛ, а также в стандартный вывод.\n"
 "\n"
-"  -a, --append              дописать в заданные ФАЙЛЫ\n"
+"  -a, --append              дописать в заданные ФАЙЛЫ, не перезаписывать\n"
 "  -i, --ignore-interrupts   игнорировать сигналы прерывания\n"
 
 #: src/tee.c:94
@@ -11355,8 +11368,9 @@ msgid ""
 "  -p                        diagnose errors writing to non pipes\n"
 "      --output-error[=MODE]   set behavior on write error.  See MODE below\n"
 msgstr ""
-"  -p                          обнаруживать ошибки записи в не каналы\n"
-"     --output-error[=РЕЖИМ]   поведение при ошибке. Описание РЕЖИМов далее\n"
+"  -p                          обнаруживать ошибки записи не в каналы\n"
+"     --output-error[=РЕЖИМ]   задать поведение при ошибке\n"
+"                              Описание РЕЖИМов далее\n"
 
 #: src/tee.c:100
 msgid ""
@@ -11372,7 +11386,7 @@ msgid ""
 "writing to non pipe outputs.\n"
 msgstr ""
 "\n"
-"В РЕЖИМе задаётся поведение при ошибках записи в вывод:\n"
+"В РЕЖИМе задаётся поведение при ошибках записи в выводы:\n"
 "  «warn»         диагностические ошибки записи в любой вывод\n"
 "  «warn-nopipe»  диагностические ошибки записи в любой вывод кроме канала\n"
 "  «exit»         завершать работу при ошибках записи в любой вывод\n"
@@ -11395,17 +11409,17 @@ msgstr "неверное целое число %s"
 #: src/test.c:245
 #, c-format
 msgid "%s expected"
-msgstr "ожидается %s"
+msgstr "ожидалось %s"
 
 #: src/test.c:248
 #, c-format
 msgid "%s expected, found %s"
-msgstr "ожидается %s, найдено %s"
+msgstr "ожидалось %s, найдено %s"
 
 #: src/test.c:265 src/test.c:623
 #, c-format
 msgid "%s: unary operator expected"
-msgstr "%s: ожидается унарный оператор"
+msgstr "%s: ожидался унарный оператор"
 
 #: src/test.c:334
 msgid "-nt does not accept -l"
@@ -11427,7 +11441,7 @@ msgstr "%s: неизвестный двоичный оператор"
 #: src/test.c:651
 #, c-format
 msgid "%s: binary operator expected"
-msgstr "%s: ожидается двоичный оператор"
+msgstr "%s: ожидался двоичный оператор"
 
 #: src/test.c:709
 msgid ""
@@ -11441,13 +11455,13 @@ msgstr ""
 "  или:  test\n"
 "  или:  [ ВЫРАЖЕНИЕ ]\n"
 "  или:  [ ]\n"
-"  или:  [ КЛЮЧ\n"
+"  или:  [ ПАРАМЕТР\n"
 
 #: src/test.c:716
 msgid ""
 "Exit with the status determined by EXPRESSION.\n"
 "\n"
-msgstr "Выходной статус определяется ВЫРАЖЕНИЕМ.\n"
+msgstr "Выходной статус определён ВЫРАЖЕНИЕМ.\n"
 
 #: src/test.c:722
 msgid ""
@@ -11516,9 +11530,10 @@ msgid ""
 "  FILE1 -ot FILE2   FILE1 is older than FILE2\n"
 msgstr ""
 "\n"
-"  ФАЙЛ1 -ef ФАЙЛ2   ФАЙЛ1 и ФАЙЛ2 имеют одинаковые устройства и номера inode\n"
-"  ФАЙЛ1 -nt ФАЙЛ2   ФАЙЛ1 изменялся позже, чем ФАЙЛ2\n"
-"  ФАЙЛ1 -ot ФАЙЛ2   ФАЙЛ1 был создан позже, чем ФАЙЛ2\n"
+"  ФАЙЛ1 -ef ФАЙЛ2   ФАЙЛ1 и ФАЙЛ2 расположены на одном устройстве и имеют\n"
+"                    одинаковые номера инод\n"
+"  ФАЙЛ1 -nt ФАЙЛ2   ФАЙЛ1 новее (дата изменения), чем ФАЙЛ2\n"
+"  ФАЙЛ1 -ot ФАЙЛ2   ФАЙЛ1 старее, чем ФАЙЛ2\n"
 
 #: src/test.c:757
 msgid ""
@@ -11529,8 +11544,10 @@ msgid ""
 "  -e FILE     FILE exists\n"
 msgstr ""
 "\n"
-"  -b ФАЙЛ     ФАЙЛ существует и является специальным с поблочным доступом\n"
-"  -c ФАЙЛ     ФАЙЛ существует и является специальным с посимвольным доступом\n"
+"  -b ФАЙЛ     ФАЙЛ существует и является специальным файлом\n"
+"              с поблочным доступом\n"
+"  -c ФАЙЛ     ФАЙЛ существует и является специальным файлом\n"
+"              с посимвольным доступом\n"
 "  -d ФАЙЛ     ФАЙЛ существует и является каталогом\n"
 "  -e ФАЙЛ     ФАЙЛ существует\n"
 
@@ -11544,7 +11561,7 @@ msgid ""
 msgstr ""
 "  -f ФАЙЛ     ФАЙЛ существует и является обычным файлом\n"
 "  -g ФАЙЛ     ФАЙЛ существует и имеет флаг set-group-ID\n"
-"  -G ФАЙЛ     ФАЙЛ существует и принадлежит текущей эффективной группе\n"
+"  -G ФАЙЛ     ФАЙЛ существует и принадлежит текущей действующей группе\n"
 "  -h ФАЙЛ     ФАЙЛ существует и является символьной ссылкой (эквивалент -L)\n"
 "  -k ФАЙЛ     ФАЙЛ существует и имеет флаг sticky\n"
 
@@ -11557,9 +11574,9 @@ msgid ""
 "  -s FILE     FILE exists and has a size greater than zero\n"
 msgstr ""
 "  -L ФАЙЛ     ФАЙЛ существует и является символьной ссылкой (эквивалент -h)\n"
-"  -O ФАЙЛ     ФАЙЛ существует и принадлежит текущему эффективному пользователю\n"
+"  -O ФАЙЛ     ФАЙЛ существует и принадлежит текущему действующему пользователю\n"
 "  -p ФАЙЛ     ФАЙЛ существует и является именованным каналом\n"
-"  -r ФАЙЛ     ФАЙЛ существует доступен для чтения\n"
+"  -r ФАЙЛ     ФАЙЛ существует и доступен для чтения\n"
 "  -s ФАЙЛ     ФАЙЛ существует и имеет ненулевой размер\n"
 
 #: src/test.c:778
@@ -11587,7 +11604,7 @@ msgstr ""
 "Все тесты, относящиеся к ФАЙЛУ, кроме -h и -L разыменовывают\n"
 "символьные ссылки. Помните, что вы должны отменить специальное\n"
 "значение скобок для командного интерпретатора (например, с помощью\n"
-"символа «\\»).  ЦЕЛОЕ может также быть задано как «-l СТРОКА», при этом\n"
+"символа «\\»). ЦЕЛОЕ может также быть задано как «-l СТРОКА», при этом\n"
 "оно принимает значение длины СТРОКИ.\n"
 
 #: src/test.c:791
@@ -11607,8 +11624,8 @@ msgid ""
 "test treats each of those as it treats any other nonempty STRING.\n"
 msgstr ""
 "\n"
-"ЗАМЕЧАНИЕ: [ все имеют ключи --help и --version, но test нет.\n"
-"test считает каждый из них обычной не пустой СТРОКОЙ.\n"
+"ЗАМЕЧАНИЕ: [ все имеют параметры --help и --version, но test нет.\n"
+"test считает каждый из них обычной непустой СТРОКОЙ.\n"
 
 #: src/test.c:801
 msgid "test and/or ["
@@ -11726,7 +11743,7 @@ msgid ""
 "case the exit status is 128+9 rather than 124.\n"
 msgstr ""
 "\n"
-"Если команда завершилась по таймауту и не указан ключ --preserve-status,\n"
+"Если команда завершилась по таймауту и не указан параметр --preserve-status,\n"
 "то код завершения равен 124. Иначе возвращается полученный код завершения\n"
 "КОМАНДЫ. Если сигнал не задан, то по таймауту посылается сигнал TERM.\n"
 "Сигнал TERM завершает любой процесс, который не блокирует или перехватывает\n"
@@ -11742,7 +11759,7 @@ msgstr "предупреждение: sigprocmask"
 #: src/timeout.c:425
 #, c-format
 msgid "warning: disabling core dumps failed"
-msgstr "предупреждение: не удалось отключить создание core"
+msgstr "предупреждение: не удалось отключить создание дампов"
 
 #: src/timeout.c:544
 #, c-format
@@ -11797,7 +11814,8 @@ msgstr ""
 "Устанавливает временные метки доступа и изменения каждого ФАЙЛА в текущее\n"
 "время.\n"
 "\n"
-"Если ФАЙЛ не существует, то создаётся пустой, если не указаны ключи -c или -h.\n"
+"Если ФАЙЛ не существует, то создаётся пустой, если не указаны\n"
+"параметры -c или -h.\n"
 "\n"
 "Если строка аргумента ФАЙЛ равна -, то это обрабатывается специальным образом\n"
 "и вызывает изменение временных меток файла, связанного со стандартным выводом.\n"
@@ -11810,8 +11828,8 @@ msgid ""
 "  -f                     (ignored)\n"
 msgstr ""
 "  -a                     изменить только время доступа\n"
-"  -c, --no-create        не создавать файлов\n"
-"  -d, --date=СТРОКА      проанализировать СТРОКУ и использовать вместо\n"
+"  -c, --no-create        не создавать файлы\n"
+"  -d, --date=СТРОКА      проанализировать СТРОКУ и использовать её вместо\n"
 "                         текущего времени\n"
 "  -f                     (игнорируется)\n"
 
@@ -11838,7 +11856,7 @@ msgstr ""
 "  -r, --reference=ФАЙЛ   использовать время ФАЙЛА вместо текущего времени\n"
 "  -t ВРЕМЯ               использовать [[ВВ]ГГ]ММДДччмм[.сс] вместо\n"
 "                         текущего времени\n"
-"  --time=СЛОВО           изменить указанное время:\n"
+"  --time=СЛОВО           изменить время, указанное СЛОВОм:\n"
 "                         значения access, atime, use эквивалентны -a\n"
 "                         значения modify, mtime эквивалентны -m\n"
 
@@ -11848,7 +11866,7 @@ msgid ""
 "Note that the -d and -t options accept different time-date formats.\n"
 msgstr ""
 "\n"
-"Заметьте, что ключи -d и -t используют разные форматы даты и времени.\n"
+"Заметьте, что параметры -d и -t используют разные форматы даты и времени.\n"
 
 #: src/touch.c:336
 #, c-format
@@ -11863,7 +11881,7 @@ msgstr "предупреждение: вызов «touch %s» устарел; и
 #: src/tr.c:287
 #, c-format
 msgid "Usage: %s [OPTION]... SET1 [SET2]\n"
-msgstr "Использование: %s [КЛЮЧ]… ТАБЛИЦА1 [ТАБЛИЦА2]\n"
+msgstr "Использование: %s [ПАРАМЕТР]… ТАБЛИЦА1 [ТАБЛИЦА2]\n"
 
 #: src/tr.c:291
 msgid ""
@@ -11952,8 +11970,8 @@ msgstr ""
 "  [:graph:]        все печатные символы, исключая пробел\n"
 "  [:lower:]        все строчные буквы\n"
 "  [:print:]        все печатные символы, включая пробел\n"
-"  [:punct:]        все знаки препинания\n"
-"  [:space:]        все вертикальные или горизонтальные пробельные символы\n"
+"  [:punct:]        все знаки пунктуации\n"
+"  [:space:]        все горизонтальные или вертикальные пробельные символы\n"
 "  [:upper:]        все заглавные буквы\n"
 "  [:xdigit:]       все шестнадцатеричные цифры\n"
 "  [=СИМ=]          все символы, эквивалентные СИМВОЛУ\n"
@@ -11970,11 +11988,11 @@ msgid ""
 "specified SET, and occurs after translation or deletion.\n"
 msgstr ""
 "\n"
-"Преобразование происходит, если заданы обе ТАБЛИЦы и не указан -d. Ключ -t\n"
+"Преобразование происходит, если заданы обе ТАБЛИЦы и не указан -d. Параметр -t\n"
 "может быть использован только при преобразовании. ТАБЛИЦА2 при необходимости\n"
 "расширяется до размера ТАБЛИЦЫ1 путём повторения последнего символа.\n"
 "Избыточные символы ТАБЛИЦЫ2 игнорируются. Только [:lower:] и [:upper:]\n"
-"гарантировано сортированы в порядке возрастания; используя ТАБЛИЦА2\n"
+"гарантировано сортируются в порядке возрастания; используя ТАБЛИЦА2\n"
 "при трансляции  их можно использовать только парно, для обозначения\n"
 "смены регистра. Для -s используется последняя указанная ТАБЛИЦА.\n"
 "Уплотнение производится после преобразования или удаления.\n"
@@ -11985,8 +12003,8 @@ msgid ""
 "warning: the ambiguous octal escape \\%c%c%c is being\n"
 "\tinterpreted as the 2-byte sequence \\0%c%c, %c"
 msgstr ""
-"предупреждение: неоднозначная восьмеричная последовательность \\%c%c%c трактуется\n"
-"как двухбайтовая последовательность \\0%c%c, %c"
+"предупреждение: неоднозначная восьмеричная последовательность \\%c%c%c\n"
+"будет интерпретирована как двухбайтовая последовательность \\0%c%c, %c"
 
 #: src/tr.c:516
 #, c-format
@@ -12041,39 +12059,39 @@ msgstr ""
 
 #: src/tr.c:1449
 msgid "the [c*] repeat construct may not appear in string1"
-msgstr "конструкция [c*] не может быть использована в ТАБЛИЦЕ1"
+msgstr "конструкция [c*] не может быть использована в строке1"
 
 #: src/tr.c:1459
 msgid "only one [c*] repeat construct may appear in string2"
-msgstr "в ТАБЛИЦЕ2 может быть использована только одна конструкция [c*]"
+msgstr "в строке2 может быть использована только одна конструкция [c*]"
 
 #: src/tr.c:1467
 msgid "[=c=] expressions may not appear in string2 when translating"
-msgstr "выражение [=c=] не может быть использовано в ТАБЛИЦЕ2 при преобразовании"
+msgstr "выражение [=c=] не может быть использовано в строке2 при преобразовании"
 
 #: src/tr.c:1474
 msgid ""
 "when translating, the only character classes that may appear in\n"
 "string2 are 'upper' and 'lower'"
 msgstr ""
-"при преобразовании, в ТАБЛИЦЕ2 могут быть использованы только\n"
+"при преобразовании, в строке2 могут быть использованы только\n"
 "классы «upper» и «lower»"
 
 #: src/tr.c:1489
 msgid "when not truncating set1, string2 must be non-empty"
-msgstr "если часть таблицы1 не отбрасывается, таблица2 должна быть непустой"
+msgstr "если часть набора1 не отбрасывается, строка2 должна быть непустой"
 
 #: src/tr.c:1498
 msgid ""
 "when translating with complemented character classes,\n"
 "string2 must map all characters in the domain to one"
 msgstr ""
-"при преобразовании с дополнением классов символов, ТАБЛИЦА2 должна\n"
+"при преобразовании с дополнением классов символов, строка2 должна\n"
 "ставить в соответствие всем символам дополнения ровно один символ"
 
 #: src/tr.c:1507
 msgid "the [c*] construct may appear in string2 only when translating"
-msgstr "конструкция [c*] может быть использована в ТАБЛИЦЕ2 только при преобразовании"
+msgstr "конструкция [c*] может быть использована в строке2 только при преобразовании"
 
 #: src/tr.c:1759
 msgid "Two strings must be given when both deleting and squeezing repeats."
@@ -12094,20 +12112,20 @@ msgid ""
 "  or:  %s OPTION\n"
 msgstr ""
 "Использование: %s [ игнорируемые аргументы командной строки ]\n"
-"       или:    %s КЛЮЧ\n"
+"       или:    %s ПАРАМЕТР\n"
 
 #: src/true.c:45
 msgid "Exit with a status code indicating success."
-msgstr "Выходит с успешным статусом."
+msgstr "Завершает работу с кодом состояния, означающем успешное выполнение."
 
 #: src/true.c:46
 msgid "Exit with a status code indicating failure."
-msgstr "Выходит с кодом, указывающим на неудачное завершение."
+msgstr "Завершает работу с кодом состояния, означающем, что возникла ошибка при выполнении."
 
 #: src/truncate.c:70
 #, c-format
 msgid "Usage: %s OPTION... FILE...\n"
-msgstr "Использование: %s КЛЮЧ… ФАЙЛ…\n"
+msgstr "Использование: %s ПАРАМЕТР… ФАЙЛ…\n"
 
 #: src/truncate.c:71
 msgid ""
@@ -12119,9 +12137,9 @@ msgid ""
 "If a FILE is shorter, it is extended and the extended part (hole)\n"
 "reads as zero bytes.\n"
 msgstr ""
-"Урезает или увеличивает размер каждого ФАЙЛА до заданного размера\n"
+"Сокращает или увеличивает размер каждого ФАЙЛА до заданного размера\n"
 "\n"
-"Если ФАЙЛ не существует, то он создаётся.\n"
+"Если ФАЙЛ не существует, то он будет создан.\n"
 "\n"
 "Если ФАЙЛ больше заданного размера, все лишние данные будут потеряны.\n"
 "Если ФАЙЛ короче, то он расширяется, и это место\n"
@@ -12129,11 +12147,13 @@ msgstr ""
 
 #: src/truncate.c:83
 msgid "  -c, --no-create        do not create any files\n"
-msgstr "  -c, --no-create        не создавать файлов\n"
+msgstr "  -c, --no-create        не создавать файлы\n"
 
 #: src/truncate.c:86
 msgid "  -o, --io-blocks        treat SIZE as number of IO blocks instead of bytes\n"
-msgstr "  -o, --io-blocks        считать РАЗМЕР числом блоков вв/вывода, а не байтов\n"
+msgstr ""
+"  -o, --io-blocks        считать РАЗМЕР как количество блоков ввода/вывода,\n"
+"                         а не байтов\n"
 
 #: src/truncate.c:89
 msgid ""
@@ -12165,7 +12185,7 @@ msgstr "переполнение в %<PRIdMAX> * %<PRIdMAX> байтовых б�
 #: src/truncate.c:147
 #, c-format
 msgid "%s has unusable, apparently negative size"
-msgstr "%s имеет нерабочий, вероятно, отрицательный размер"
+msgstr "%s имеет нерабочий, вероятно отрицательный размер"
 
 #: src/truncate.c:157 src/truncate.c:359
 #, c-format
@@ -12209,7 +12229,7 @@ msgstr "вы должны задать относительный %s с %s"
 #: src/truncate.c:322
 #, c-format
 msgid "%s was specified but %s was not"
-msgstr "указан %s, но без %s"
+msgstr "задан %s, но без %s"
 
 #: src/truncate.c:379
 #, c-format
@@ -12227,9 +12247,8 @@ msgid ""
 "Usage: %s [OPTION] [FILE]\n"
 "Write totally ordered list consistent with the partial ordering in FILE.\n"
 msgstr ""
-"Использование: %s [КЛЮЧ] [ФАЙЛ]\n"
-"Печатает полностью сортированный список, соответствующий частичной\n"
-"сортировке в заданном ФАЙЛЕ.\n"
+"Использование: %s [ПАРАМЕТР] [ФАЙЛ]\n"
+"Печатает полностью сортированный список с частичной сортировкой в ФАЙЛЕ.\n"
 
 #: src/tsort.c:95 src/uptime.c:218
 #, c-format
@@ -12254,7 +12273,7 @@ msgid ""
 msgstr ""
 "Печатает имя файла для терминала, присоединенного к стандартному вводу.\n"
 "\n"
-"  -s, --silent, --quiet   не печатать, только вернуть выходное значение\n"
+"  -s, --silent, --quiet   не печатать, только выдать код выхода\n"
 
 #: src/tty.c:127
 msgid "not a tty"
@@ -12270,14 +12289,14 @@ msgid ""
 "  -n, --nodename           print the network node hostname\n"
 "  -r, --kernel-release     print the kernel release\n"
 msgstr ""
-"Печатает определенные сведения о системе.  Если КЛЮЧ не задан,\n"
+"Печатает определенные сведения о системе. Если ПАРАМЕТР не задан, то\n"
 "подразумевается -s.\n"
 "\n"
-"  -a, --all          напечатать всю информацию, в следующем порядке,\n"
-"                       кроме -p и -i, если они неизвестны:\n"
-"  -s, --kernel-name  напечатать имя ядра\n"
-"  -n, --nodename     напечатать имя машины в сети\n"
-"  -r, --release      напечатать номер выпуска операционной системы\n"
+"  -a, --all              напечатать всю информацию, в следующем порядке,\n"
+"                         кроме -p и -i, если они неизвестны:\n"
+"  -s, --kernel-name      напечатать имя ядра\n"
+"  -n, --nodename         напечатать имя машины в сети\n"
+"  -r, --kernel-release   напечатать информацию о выпуске ядра\n"
 
 #: src/uname.c:134
 msgid ""
@@ -12308,7 +12327,7 @@ msgstr "невозможно узнать название системы"
 #: src/unexpand.c:82
 msgid "Convert blanks in each FILE to tabs, writing to standard output.\n"
 msgstr ""
-"Преобразует пробелы в ФАЙЛАХ в символы табуляции и печатает на\n"
+"Преобразует пробелы в каждом ФАЙЛе в символы табуляции и печатает на\n"
 "стандартный вывод.\n"
 
 #: src/unexpand.c:89
@@ -12320,8 +12339,8 @@ msgstr ""
 "  -a, --all         преобразовывать все пробельные символы, а не только\n"
 "                    начальные\n"
 "      --first-only  преобразовывать только начальные последовательности\n"
-"                      пробельных символы (заменяет -a)\n"
-"  -t, --tabs=ЧИСЛО  использовать табуляцию заданной ширины,\n"
+"                      пробельных символов (заменяет -a)\n"
+"  -t, --tabs=Н        использовать табуляцию заданной ширины Н,\n"
 "                      а не 8 (включает -a)\n"
 
 #: src/unexpand.c:306
@@ -12331,7 +12350,7 @@ msgstr "размер табуляции слишком велик"
 #: src/uniq.c:171
 #, c-format
 msgid "Usage: %s [OPTION]... [INPUT [OUTPUT]]\n"
-msgstr "Использование: %s [КЛЮЧ]… [ВХОД [ВЫХОД]]\n"
+msgstr "Использование: %s [ПАРАМЕТР]… [ВХОД [ВЫХОД]]\n"
 
 #: src/uniq.c:175
 msgid ""
@@ -12340,10 +12359,10 @@ msgid ""
 "\n"
 "With no options, matching lines are merged to the first occurrence.\n"
 msgstr ""
-"Фильтрует совпавшие строки из ВХОДА (или стандартного ввода),\n"
+"Фильтрует соседние совпавшие строки из ВХОДА (или стандартного ввода),\n"
 "записывая их в ВЫХОД (или стандартный вывод).\n"
 "\n"
-"Без ключей совпавшие строки объединяются с первым появлением.\n"
+"Без параметров совпавшие строки объединяются с первым появлением.\n"
 
 #: src/uniq.c:184
 msgid ""
@@ -12434,7 +12453,7 @@ msgstr "неверное число сравниваемых байт"
 #: src/uniq.c:654
 #, c-format
 msgid "--group is mutually exclusive with -c/-d/-D/-u"
-msgstr "ключ --group взаимоисключаем с -c/-d/-D/-u"
+msgstr "параметр --group взаимоисключаем с -c/-d/-D/-u"
 
 #: src/uniq.c:661
 #, c-format
@@ -12444,7 +12463,7 @@ msgstr "группировка и вывод всех повторов не им
 #: src/uniq.c:668
 #, c-format
 msgid "printing all duplicated lines and repeat counts is meaningless"
-msgstr "вывод всех повторяющихся сток и числа повторений не имеет смысла"
+msgstr "вывод всех повторяющихся строк и числа повторений не имеет смысла"
 
 #: src/unlink.c:51
 #, c-format
@@ -12453,7 +12472,7 @@ msgid ""
 "  or:  %s OPTION\n"
 msgstr ""
 "Использование: %s ФАЙЛ\n"
-"       или:    %s КЛЮЧ\n"
+"       или:    %s ПАРАМЕТР\n"
 
 #: src/unlink.c:54
 msgid ""
@@ -12545,8 +12564,8 @@ msgid ""
 "If FILE is not specified, use %s.  %s as FILE is common.\n"
 "\n"
 msgstr ""
-"Выводит список подключенных пользователей в соответствии с ФАЙЛОМ.\n"
-"Если ФАЙЛ не задан, используется %s.  Часто в качестве ФАЙЛА\n"
+"Выводит список подключённых пользователей в соответствии с ФАЙЛОМ.\n"
+"Если ФАЙЛ не задан, используется %s. Часто в качестве ФАЙЛА\n"
 "задают %s.\n"
 "\n"
 
@@ -12589,7 +12608,7 @@ msgstr ""
 "                         (завершённые нулем) перечислены в файле Ф;\n"
 "                         Если Ф равно -, то читать имена файлов из\n"
 "                         стандартного ввода\n"
-"  -L, --max-line-length  напечатать максимальной число строк по ширине экрана\n"
+"  -L, --max-line-length  напечатать максимальную выводимую ширину\n"
 "  -w, --words            напечатать количество слов\n"
 
 #: src/who.c:213
@@ -12668,7 +12687,7 @@ msgstr "ВЫХОД"
 #: src/who.c:644
 #, c-format
 msgid "Usage: %s [OPTION]... [ FILE | ARG1 ARG2 ]\n"
-msgstr "Использование: %s [КЛЮЧ]… [ ФАЙЛ | АРГ1 АРГ2]\n"
+msgstr "Использование: %s [ПАРАМЕТР]… [ ФАЙЛ | АРГ1 АРГ2]\n"
 
 #: src/who.c:645
 msgid "Print information about users who are currently logged in.\n"
@@ -12710,9 +12729,10 @@ msgid ""
 "  -s, --short       print only name, line, and time (default)\n"
 "  -t, --time        print last system clock change\n"
 msgstr ""
-"  -q, --count       все имена и число подключенных пользователей\n"
+"  -q, --count       все имена и число подключённых пользователей\n"
 "  -r, --runlevel    печатать текущий уровень выполнения\n"
-"  -s, --short       печатать только имя, линию и время (принимается по умолчанию)\n"
+"  -s, --short       печатать только имя, линию и время\n"
+"                    (принимается по умолчанию)\n"
 "  -t, --time        печатать последнее изменение системного времени\n"
 
 #: src/who.c:669
@@ -12723,7 +12743,7 @@ msgid ""
 "      --writable    same as -T\n"
 msgstr ""
 "  -T, -w, --mesg    добавлять статус приема сообщений как  +, - или ?\n"
-"  -u, --users       перечислить подключенных пользователей\n"
+"  -u, --users       перечислить подключённых пользователей\n"
 "      --message     эквивалент -T\n"
 "      --writable    эквивалент -T\n"
 
