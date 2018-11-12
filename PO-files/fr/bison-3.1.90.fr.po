@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU bison 3.1.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2018-10-17 06:35+0200\n"
-"PO-Revision-Date: 2018-10-18 08:31+0200\n"
+"PO-Revision-Date: 2018-11-12 08:18+0100\n"
 "Last-Translator: Frédéric Marchal <fmarchal@perso.be>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -34,12 +34,12 @@ msgstr "avertissement"
 #: src/complain.c:382
 #, c-format
 msgid "deprecated directive, use %s"
-msgstr "directive invalide, utilisez %s"
+msgstr "directive dépréciée, utilisez %s"
 
 #: src/complain.c:386
 #, c-format
 msgid "deprecated directive: %s, use %s"
-msgstr "directive invalide: %s, utilisez %s"
+msgstr "directive dépréciée: %s, utilisez %s"
 
 #: src/complain.c:395
 #, c-format
