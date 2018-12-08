@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU bison 3.1.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2018-10-17 06:35+0200\n"
-"PO-Revision-Date: 2018-11-12 08:18+0100\n"
+"PO-Revision-Date: 2018-12-08 20:42+0100\n"
 "Last-Translator: Frédéric Marchal <fmarchal@perso.be>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -852,7 +852,7 @@ msgstr "symbole %s est redéclaré"
 #: src/symtab.c:470
 #, c-format
 msgid "redefining user token number of %s"
-msgstr "redéfinition du jeton usager numéro de %s"
+msgstr "redéfinition du numéro utilisateur du jeton de %s"
 
 #: src/symtab.c:501
 #, c-format
