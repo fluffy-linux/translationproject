@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.30-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2018-06-24 21:56-0700\n"
-"PO-Revision-Date: 2018-11-01 21:59+0300\n"
+"PO-Revision-Date: 2018-12-18 21:59+0300\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <gnu@d07.ru>\n"
 "Language: ru\n"
@@ -4716,12 +4716,12 @@ msgstr "%s: число байт слишком велико"
 
 #: src/head.c:912 src/split.c:1367 src/split.c:1534 src/tail.c:2181
 msgid "invalid number of lines"
-msgstr "неверное число строк"
+msgstr "неверное количество строк"
 
 #: src/head.c:913 src/head.c:1077 src/split.c:1359 src/split.c:1375
 #: src/tail.c:2182
 msgid "invalid number of bytes"
-msgstr "неверный число байт"
+msgstr "неверное количество байт"
 
 #: src/head.c:1003 src/head.c:1065
 #, c-format
