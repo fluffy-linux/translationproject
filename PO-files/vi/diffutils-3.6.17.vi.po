@@ -509,7 +509,7 @@ msgstr "Không có ký tự dòng mới tại kêt thức tập tin."
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:44
 msgid "Torbjorn Granlund"
-msgstr "Torbjorn Granlund"
+msgstr "Torbjörn Granlund"
 
 # Tên họ
 #. This is a proper name. See the gettext manual, section Names.
