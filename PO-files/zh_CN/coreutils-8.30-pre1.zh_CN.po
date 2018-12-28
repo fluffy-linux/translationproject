@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.30-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2018-06-24 21:56-0700\n"
-"PO-Revision-Date: 2018-10-09 21:57-0400\n"
+"PO-Revision-Date: 2018-12-28 13:31+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -1491,6 +1491,9 @@ msgid ""
 "With --reference, change the owner and group of each FILE to those of RFILE.\n"
 "\n"
 msgstr ""
+"修改每个<文件>的所有者和/或所属组为给定的<所有者>和/或<组>。\n"
+"如同时使用 --reference，将每个给定<文件>的所有者和属组修改为<参考文件>\n"
+"所具有的对应值。\n"
 
 #: src/chown.c:104
 msgid ""
@@ -1510,14 +1513,10 @@ msgid ""
 "      --reference=RFILE  use RFILE's owner and group rather than\n"
 "                         specifying OWNER:GROUP values\n"
 msgstr ""
+"      --reference=<参考文件>  使用指定<参考文件>的所有者和所属组信息，而非\n"
+"                         手工指定 所有者:组 的值\n"
 
 #: src/chown.c:137
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Owner is unchanged if missing.  Group is unchanged if missing, but changed\n"
-#| "to login group if implied by a `:' following a symbolic OWNER.\n"
-#| "OWNER and GROUP may be numeric as well as symbolic.\n"
 msgid ""
 "\n"
 "Owner is unchanged if missing.  Group is unchanged if missing, but changed\n"
@@ -1525,8 +1524,9 @@ msgid ""
 "OWNER and GROUP may be numeric as well as symbolic.\n"
 msgstr ""
 "\n"
-"如果没有指定所有者，则不会更改。 所属组若没有指定也不会更改，但当加上\n"
-"\":\"时 GROUP 会更改为指定所有者的主要组。所有者和所属组可以是数字或名称。\n"
+"如果没有指定所有者，则不会更改所有者信息。若所属组若没有指定也不会对其更改，\n"
+"但当加上 ':' 时 GROUP 会更改为指定所有者的主要组。所有者和所属组可以是\n"
+"数字或名称。\n"
 
 #: src/chown.c:143
 #, c-format
@@ -1576,24 +1576,12 @@ msgstr ""
 "\n"
 
 #: src/chroot.c:196
-#, fuzzy
-#| msgid ""
-#| "  --userspec=USER:GROUP  specify user and group (ID or name) to use\n"
-#| "  --groups=G_LIST        specify supplementary groups as g1,g2,..,gN\n"
 msgid "  --groups=G_LIST        specify supplementary groups as g1,g2,..,gN\n"
-msgstr ""
-"  --userspec=用户:组      指定所用的用户及用户组(可使用\"数字\"或\"名字\")\n"
-"  --groups=组列表         指定可供选择的用户组列表，形如组1，组2，组3...\n"
+msgstr "  --groups=组列表         指定附加用户组，形如 组1,组2,组3...,组N\n"
 
 #: src/chroot.c:199
-#, fuzzy
-#| msgid ""
-#| "  --userspec=USER:GROUP  specify user and group (ID or name) to use\n"
-#| "  --groups=G_LIST        specify supplementary groups as g1,g2,..,gN\n"
 msgid "  --userspec=USER:GROUP  specify user and group (ID or name) to use\n"
-msgstr ""
-"  --userspec=用户:组      指定所用的用户及用户组(可使用\"数字\"或\"名字\")\n"
-"  --groups=组列表         指定可供选择的用户组列表，形如组1，组2，组3...\n"
+msgstr "  --userspec=用户:组      指定用户及用户组（可使用编号或名称）\n"
 
 #: src/chroot.c:202
 #, c-format
@@ -1769,10 +1757,8 @@ msgid "total"
 msgstr "总用量"
 
 #: src/comm.c:458
-#, fuzzy
-#| msgid "multiple delimiters specified"
 msgid "multiple output delimiters specified"
-msgstr "已定义多重分隔符"
+msgstr "指定了多个输出分隔符"
 
 #: src/copy.c:194 src/copy.c:465
 #, c-format
@@ -1780,10 +1766,9 @@ msgid "cannot lseek %s"
 msgstr "无法lseek %s"
 
 #: src/copy.c:204 src/copy.c:571
-#, fuzzy, c-format
-#| msgid "error reading %s"
+#, c-format
 msgid "error deallocating %s"
-msgstr "读取%s 时出错"
+msgstr "取消分配 %s 时出错"
 
 #: src/copy.c:242 src/dd.c:1864 src/dd.c:2200 src/du.c:1133 src/head.c:156
 #: src/head.c:307 src/head.c:389 src/head.c:585 src/head.c:667 src/head.c:736
@@ -1792,12 +1777,12 @@ msgstr "读取%s 时出错"
 #: src/tail.c:2046 src/uniq.c:473
 #, c-format
 msgid "error reading %s"
-msgstr "读取%s 时出错"
+msgstr "读取 %s 时出错"
 
 #: src/copy.c:275 src/dd.c:2263 src/dd.c:2325 src/head.c:184 src/tail.c:415
 #, c-format
 msgid "error writing %s"
-msgstr "写入%s 出错"
+msgstr "写入 %s 出错"
 
 #: src/copy.c:306
 #, c-format
@@ -1910,10 +1895,9 @@ msgid "failed to close %s"
 msgstr "关闭 %s 失败"
 
 #: src/copy.c:1685
-#, fuzzy, c-format
-#| msgid "%s: try to overwrite %s, overriding mode %04lo (%s)? "
+#, c-format
 msgid "%s: replace %s, overriding mode %04lo (%s)? "
-msgstr "%s：是否覆盖%s，而不理会权限%04lo (%s)？ "
+msgstr "%s：是否替换 %s，而忽略模式 %04lo (%s)？"
 
 #: src/copy.c:1686
 #, c-format
@@ -1932,7 +1916,7 @@ msgstr " (备份：%s)"
 
 #: src/copy.c:1773
 msgid "failed to restore the default file creation context"
-msgstr "恢复默认文件创建山下文失败"
+msgstr "恢复默认文件创建上下文失败"
 
 #: src/copy.c:1791
 #, c-format
@@ -2024,7 +2008,7 @@ msgstr "不会创建指向目录%2$s 的硬链接%1$s"
 #: src/copy.c:2354
 #, c-format
 msgid "renamed "
-msgstr ""
+msgstr "已重命名 "
 
 #: src/copy.c:2392
 #, c-format
@@ -2044,7 +2028,7 @@ msgstr "无法进行跨设备的移动：%s 至%s；无法删除目标"
 #: src/copy.c:2459
 #, c-format
 msgid "copied "
-msgstr ""
+msgstr "已复制 "
 
 #: src/copy.c:2496
 #, c-format
@@ -2104,18 +2088,18 @@ msgstr "%s -> %s (还原备份)\n"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/coreutils.c:48
 msgid "Alex Deymo"
-msgstr ""
+msgstr "Alex Deymo"
 
 #: src/coreutils.c:65
 #, c-format
 msgid "Usage: %s --coreutils-prog=PROGRAM_NAME [PARAMETERS]... \n"
-msgstr ""
+msgstr "用法：%s --coreutils-prog=程序名称 [参数]... \n"
 
 #: src/coreutils.c:68
 msgid ""
 "Execute the PROGRAM_NAME built-in program with the given PARAMETERS.\n"
 "\n"
-msgstr ""
+msgstr "使用给定<参数>执行指定<程序名称>对应的内建程序。\n"
 
 #: src/coreutils.c:86
 #, c-format
@@ -2123,6 +2107,8 @@ msgid ""
 "\n"
 "Use: '%s --coreutils-prog=PROGRAM_NAME --help' for individual program help.\n"
 msgstr ""
+"\n"
+"使用：'%s --coreutils-prog=程序名称 --help' 以获取独立程序的帮助信息。\n"
 
 #: src/coreutils.c:178 src/coreutils.c:203
 #, c-format
@@ -2141,14 +2127,8 @@ msgstr ""
 "　或：%s [选项]... -t 目录 源文件...\n"
 
 #: src/cp.c:154
-#, fuzzy
-#| msgid ""
-#| "Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.\n"
-#| "\n"
 msgid "Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.\n"
-msgstr ""
-"将源文件复制至目标文件，或将多个源文件复制至目标目录。\n"
-"\n"
+msgstr "将指定<源文件>复制至<目标文件>，或将多个<源文件>复制至<目标目录>。\n"
 
 #: src/cp.c:160
 msgid ""
@@ -10103,10 +10083,8 @@ msgid "failed to run command: \"%s -c %s\""
 msgstr "运行命令失败：“%s -c %s”"
 
 #: src/split.c:524
-#, fuzzy
-#| msgid "failed to close directory %s"
 msgid "failed to close input pipe"
-msgstr "关闭目录 %s 失败"
+msgstr "关闭输入管道失败"
 
 #: src/split.c:560
 msgid "waiting for child process"
@@ -11075,14 +11053,12 @@ msgid " * [-]ctlecho    echo control characters in hat notation ('^c')\n"
 msgstr ""
 
 #: src/stty.c:812
-#, fuzzy
-#| msgid " * [-]iutf8      assume input characters are UTF-8 encoded\n"
 msgid "   [-]echo       echo input characters\n"
-msgstr " * [-]iutf8\t假定输入字符都是UTF-8 编码\n"
+msgstr "   [-]echo       对输入字符进行回显\n"
 
 #: src/stty.c:816
 msgid " * [-]echoctl    same as [-]ctlecho\n"
-msgstr ""
+msgstr " * [-]echoctl    和 [-]ctlecho 相同\n"
 
 #: src/stty.c:820
 msgid ""
