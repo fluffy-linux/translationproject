@@ -271,7 +271,7 @@ msgstr "Expressão regular muito grande"
 
 #: lib/regcomp.c:183
 msgid "Unmatched ) or \\)"
-msgstr ") or \\) sem par"
+msgstr ") ou \\) sem par"
 
 #: lib/regcomp.c:688
 msgid "No previous regular expression"
