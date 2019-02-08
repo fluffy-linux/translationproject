@@ -1,17 +1,18 @@
-# Translation of coreutils to Croatian.
-# Copyright © 2008-2014, 2016 Free Software Foundation, Inc.
+# Translation of GNU coreutils messages to Croatian.
+# Copyright © 2018 Free Software Foundation, Inc.
 # This file is distributed under the same license as the coreutils package.
 #
 # bp, 2017-02-20: u ovoj verziji samo su popravljeni "fuzzy" prijevodi.
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2017, 2018.
+# Božidar Putanec <bozidarp@yahoo.com>, 2017, 2018, 2019.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils-8.30-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2018-06-24 21:56-0700\n"
-"PO-Revision-Date: 2018-07-23 18:42+0100\n"
-"Last-Translator: Bozidar Putanec <bozidarp@yahoo.com>\n"
+"PO-Revision-Date: 2019-02-08 15:46-0800\n"
+"Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -48,12 +49,12 @@ msgstr "greška pri zatvaranju datoteke"
 #: src/unexpand.c:234 src/unexpand.c:250
 #, c-format
 msgid "write error"
-msgstr "pogreška u pisanju"
+msgstr "greška u pisanju"
 
 #: lib/copy-acl.c:54 src/copy.c:1393 src/copy.c:2901
 #, c-format
 msgid "preserving permissions for %s"
-msgstr "zadržavanje prava pristupa za %s"
+msgstr "očuvana su prava pristupa za %s"
 
 #: lib/error.c:195
 msgid "Unknown system error"
@@ -61,11 +62,11 @@ msgstr "Nepoznata greška sustava"
 
 #: lib/file-type.c:40
 msgid "regular empty file"
-msgstr "obična prazna datoteka"
+msgstr "običnu praznu datoteku"
 
 #: lib/file-type.c:40
 msgid "regular file"
-msgstr "obična datoteka"
+msgstr "običnu datoteku"
 
 #: lib/file-type.c:43
 msgid "directory"
@@ -73,7 +74,7 @@ msgstr "direktorij"
 
 #: lib/file-type.c:46
 msgid "symbolic link"
-msgstr "simbolička veza"
+msgstr "simbolička poveznica"
 
 #: lib/file-type.c:52
 msgid "message queue"
@@ -159,11 +160,11 @@ msgstr "čudna datoteka"
 
 #: lib/gai_strerror.c:57
 msgid "Address family for hostname not supported"
-msgstr "Familija adresa nije podržana za ime računala"
+msgstr "Familija adresa za hostname nije podržana"
 
 #: lib/gai_strerror.c:58
 msgid "Temporary failure in name resolution"
-msgstr "Privremeni neuspjeh u razrješenju imena"
+msgstr "Privremeni neuspjeh u rješavanju imena"
 
 #: lib/gai_strerror.c:59
 msgid "Bad value for ai_flags"
@@ -171,23 +172,23 @@ msgstr "Loša vrijednost za ai_flags"
 
 #: lib/gai_strerror.c:60
 msgid "Non-recoverable failure in name resolution"
-msgstr "Nepopravljivi neuspjeh u razrješenju imena"
+msgstr "Nepopravljivi neuspjeh u razlučivanju imena"
 
 #: lib/gai_strerror.c:61
 msgid "ai_family not supported"
-msgstr "ai_family nije podržan"
+msgstr "ai_family nije podržana"
 
 #: lib/gai_strerror.c:62
 msgid "Memory allocation failure"
-msgstr "Nije uspjelo dodijeliti memoriju"
+msgstr "Dodjela memorije nije uspjela"
 
 #: lib/gai_strerror.c:63
 msgid "No address associated with hostname"
-msgstr "Nijedna adresa nije povezana s imenom računala"
+msgstr "Nema adrese povezane s hostname"
 
 #: lib/gai_strerror.c:64
 msgid "Name or service not known"
-msgstr "Ime ili servis nisu poznati"
+msgstr "Ime ili servis nije poznato"
 
 #: lib/gai_strerror.c:65
 msgid "Servname not supported for ai_socktype"
@@ -223,11 +224,11 @@ msgstr "Svi zahtjevi su obrađeni"
 
 #: lib/gai_strerror.c:74
 msgid "Interrupted by a signal"
-msgstr "Prekinut signalom"
+msgstr "Prekinuto signalom"
 
 #: lib/gai_strerror.c:75
 msgid "Parameter string not correctly encoded"
-msgstr "Parametri stringa nisu ispravno kodirani"
+msgstr "String parametra nije ispravno kodiran"
 
 #: lib/gai_strerror.c:87
 msgid "Unknown error"
@@ -241,7 +242,7 @@ msgstr "%s: opcija „%s%s“ je dvosmislena\n"
 #: lib/getopt.c:284
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija „%s%s“ je dvosmislena; moguće varijante:"
+msgstr "%s: opcija „%s%s“ je dvosmislena; mogućnosti:"
 
 #: lib/getopt.c:319
 #, c-format
@@ -282,7 +283,7 @@ msgstr "nije moguće stvoriti direktorij %s"
 #: src/tac.c:442
 #, c-format
 msgid "memory exhausted"
-msgstr "memorija je iscrpljena"
+msgstr "nema dovoljno memorije"
 
 #: lib/openat-die.c:38
 #, c-format
@@ -356,27 +357,27 @@ msgstr "Nevaljano ime klase znakova"
 
 #: lib/regcomp.c:150
 msgid "Trailing backslash"
-msgstr "Zaostala obratna kosa crta (backslash)"
+msgstr "Zaostala obrnuta kosa crta („\\“, backslash)"
 
 #: lib/regcomp.c:153
 msgid "Invalid back reference"
-msgstr "Neispravna povratna referencija"
+msgstr "Nevaljana povratna referencija"
 
 #: lib/regcomp.c:156
 msgid "Unmatched [, [^, [:, [., or [="
-msgstr "Nespareni: [, [^, [:, [., ili [="
+msgstr "Nesparena [, [^, [:, [., ili [="
 
 #: lib/regcomp.c:159
 msgid "Unmatched ( or \\("
-msgstr "Nespareni: ( ili \\("
+msgstr "Nesparena ( ili \\("
 
 #: lib/regcomp.c:162
 msgid "Unmatched \\{"
-msgstr "Nespareni: \\{"
+msgstr "Nesparena \\{"
 
 #: lib/regcomp.c:165
 msgid "Invalid content of \\{\\}"
-msgstr "Nevaljani sadržaj od \\{\\}"
+msgstr "Nevaljani sadržaj u \\{\\}"
 
 #: lib/regcomp.c:168
 msgid "Invalid range end"
@@ -384,7 +385,7 @@ msgstr "Nevaljani kraj raspona"
 
 #: lib/regcomp.c:171
 msgid "Memory exhausted"
-msgstr "Memorija je iscrpljena"
+msgstr "Nema dovoljno memorije"
 
 #: lib/regcomp.c:174
 msgid "Invalid preceding regular expression"
@@ -400,7 +401,7 @@ msgstr "Regularni izraz je prevelik"
 
 #: lib/regcomp.c:183
 msgid "Unmatched ) or \\)"
-msgstr "Nespareni: ) ili \\)"
+msgstr "Nesparena ) ili \\)"
 
 #: lib/regcomp.c:689
 msgid "No previous regular expression"
@@ -452,27 +453,27 @@ msgstr "Terminal zatvoren (SIGHUP)"
 
 #: lib/siglist.h:34
 msgid "Interrupt"
-msgstr "Prekid (SIGINT)"
+msgstr "Prekini (SIGINT)"
 
 #: lib/siglist.h:37
 msgid "Quit"
-msgstr "Konac (SIGQUIT)"
+msgstr "Završi (SIGQUIT)"
 
 #: lib/siglist.h:40
 msgid "Illegal instruction"
-msgstr "Ilegalna instrukcija (SIGILL)"
+msgstr "Nepropisna instrukcija (SIGILL)"
 
 #: lib/siglist.h:43
 msgid "Trace/breakpoint trap"
-msgstr "Prekid na kontrolnoj točki (SIGTRAP)"
+msgstr "Trace/breakpoint (SIGTRAP)"
 
 #: lib/siglist.h:46
 msgid "Aborted"
-msgstr "Prekinuto (SIGABRT)"
+msgstr "Prekid (SIGABRT)"
 
 #: lib/siglist.h:49
 msgid "Floating point exception"
-msgstr "Izuzetak prilikom operacije s pomičnim zarezom (SIGFPE)"
+msgstr "Iznimka (broja) pomičnog zareza (SIGFPE)"
 
 #: lib/siglist.h:52
 msgid "Killed"
@@ -480,7 +481,7 @@ msgstr "Ubijen (SIGKILL)"
 
 #: lib/siglist.h:55
 msgid "Bus error"
-msgstr "Greška sabirnice (SIGBUS)"
+msgstr "Sabirnička greška (SIGBUS)"
 
 #: lib/siglist.h:58
 msgid "Segmentation fault"
@@ -504,19 +505,19 @@ msgstr "Hitno U/I stanje (SIGURG)"
 
 #: lib/siglist.h:73
 msgid "Stopped (signal)"
-msgstr "Zaustavljeno (signalom SIGSTOP)"
+msgstr "Zaustavljeno (signal)"
 
 #: lib/siglist.h:76
 msgid "Stopped"
-msgstr "Zaustavljeno (SIGSTP)"
+msgstr "Zaustavljeno"
 
 #: lib/siglist.h:79
 msgid "Continued"
-msgstr "Nastavljano (SIGCONT)"
+msgstr "Nastavlja se (SIGCONT)"
 
 #: lib/siglist.h:82
 msgid "Child exited"
-msgstr "Dijete-proces završeni (SIGCHLD)"
+msgstr "Potomak (child process) je završio (SIGCHLD)"
 
 #: lib/siglist.h:85
 msgid "Stopped (tty input)"
@@ -528,15 +529,15 @@ msgstr "Zaustavljeno (tty izlaz) (SIGTTOU)"
 
 #: lib/siglist.h:91
 msgid "I/O possible"
-msgstr "U/I je mogući (SIGIO)"
+msgstr "U/I je sada moguć (SIGIO)"
 
 #: lib/siglist.h:94
 msgid "CPU time limit exceeded"
-msgstr "Vremensko ograničenje CPU-a je prekoračeno (SIGXCPU)"
+msgstr "Prekoračeno je vremensko ograničenje procesora (SIGXCPU)"
 
 #: lib/siglist.h:97
 msgid "File size limit exceeded"
-msgstr "Ograničenje veličine datoteke je prekoračeno"
+msgstr "Prekoračeno ograničenje veličine datoteke"
 
 #: lib/siglist.h:100
 msgid "Virtual timer expired"
@@ -544,11 +545,11 @@ msgstr "Virtualni tajmer je istekao (SIGVTALRM)"
 
 #: lib/siglist.h:103
 msgid "Profiling timer expired"
-msgstr "Tajmer za profiliranje je istekao (SIGPROF)"
+msgstr "Isteklo je vrijeme za profiliranj (SIGPROF)"
 
 #: lib/siglist.h:106
 msgid "Window changed"
-msgstr "Prozor je promijenjen (SIGWINCH)"
+msgstr "Promjena veličine prozora (SIGWINCH)"
 
 #: lib/siglist.h:109
 msgid "User defined signal 1"
@@ -564,15 +565,15 @@ msgstr "EMT zamka (SIGEMT)"
 
 #: lib/siglist.h:120
 msgid "Bad system call"
-msgstr "Loš sustavski poziv (SIGSYS)"
+msgstr "Loši sustavski poziv (SIGSYS)"
 
 #: lib/siglist.h:123
 msgid "Stack fault"
-msgstr "Greška stoga (SIGSTFLT)"
+msgstr "Greška stȏga"
 
 #: lib/siglist.h:126
 msgid "Information request"
-msgstr "Zahtjev za informacijama (SIGINFO)"
+msgstr "Zahtjev za informacijom (SIGINFO)"
 
 #: lib/siglist.h:128
 msgid "Power failure"
@@ -585,7 +586,7 @@ msgstr "Resurs je izgubljen (SIGLOST)"
 #: lib/strsignal.c:114
 #, c-format
 msgid "Real-time signal %d"
-msgstr "Signal u realnom vremenu %d"
+msgstr "Signal realnog vremena %d"
 
 #: lib/strsignal.c:118
 #, c-format
@@ -657,9 +658,10 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Licencija GPLv3+: GNU GPL inačica 3 ili kasnija <https://gnu.org/licenses/gpl.html>\n"
-"Ovo je slobodan softver: slobodno ga smijete mijenjati i dijeliti.\n"
-"NEMA JAMSTAVA, do krajnje mjere dopuštene zakonom.\n"
+"Licencija:\n"
+"GPLv3+: GNU GPL inačica 3 ili kasnija <https://gnu.org/licenses/gpl.html>.\n"
+"Ovo je slobodan softver: slobodno ga mijenjajte i distribuirajte.\n"
+"NEMA JAMSTVA do granica dopuštenih zakonom.\n"
 "\n"
 
 #. TRANSLATORS: %s denotes an author name.
@@ -792,21 +794,23 @@ msgstr "Prijavite programske greške za %s (na engleskom, LC_ALL=C) na %s.\n"
 #: lib/version-etc.c:251
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr "Web stranica od %s: <%s>\n"
+msgstr "Mrežna stranica od %s: <%s>\n"
 
 #: lib/version-etc.c:253
 #, c-format
 msgid "%s home page: <https://www.gnu.org/software/%s/>\n"
-msgstr "Web stranica od %s: <https://www.gnu.org/software/%s/>\n"
+msgstr "Početna stranica za %s: <https://www.gnu.org/software/%s/>\n"
 
 #: lib/version-etc.c:256
 msgid "General help using GNU software: <https://www.gnu.org/gethelp/>\n"
-msgstr "Općenita pomoć za korištenje GNU softvera: <https://www.gnu.org/gethelp/>\n"
+msgstr ""
+"Općenita pomoć za korištenje GNU softvera: <https://www.gnu.org/gethelp/>\n"
+"Prijavite primjedbe i greške u prijevoda na lokalizacija@linux.hr/\n"
 
 #: lib/xbinary-io.c:37
 #, c-format
 msgid "failed to set file descriptor text/binary mode"
-msgstr "nije uspjelo postaviti tekst/binarni mod deskriptora datoteke"
+msgstr "nije uspjelo postaviti deskriptor datoteke u tekst/binarni mȏd"
 
 #: lib/xmemcoll.c:39 src/expr.c:1026
 #, c-format
@@ -1230,7 +1234,7 @@ msgstr ""
 "navedena i -R opcija. Ako je navedeno nekoliko ovih opcija, onda samo zadnja\n"
 "ima učinak a ostale su zanemarene.\n"
 "\n"
-"  -H                     ako je argument na naredbenom retku simbolička veza\n"
+"  -H                     ako je argument na naredbenom retku simbolička poveznica\n"
 "                           na direktorij, onda prođe kroz taj direktorij\n"
 "  -L                     slijedi svaku simboličku vezu na direktorije\n"
 "  -P                     ne slijedi simboličke veze (zadano)\n"
@@ -1340,7 +1344,7 @@ msgstr "dobivanje novih atributa od %s"
 #: src/chmod.c:151 src/chown-core.c:146
 #, c-format
 msgid "neither symbolic link %s nor referent has been changed\n"
-msgstr "ni simbolička veza %s, ni njezina meta (ciljana datoteka) nije promijenjena\n"
+msgstr "ni simbolička poveznica %s, ni njezina meta (ciljana datoteka) nije promijenjena\n"
 
 #: src/chmod.c:165
 #, c-format
@@ -1379,8 +1383,8 @@ msgid ""
 "  or:  %s [OPTION]... OCTAL-MODE FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
-"Uporaba: %s [OPCIJA]... MOD[,MOD]... DATOTEKA...\n"
-"    ili: %s [OPCIJA]... OKTAL-MOD DATOTEKA...\n"
+"Uporaba: %s [OPCIJA]... MÔD[,MÔD]... DATOTEKA...\n"
+"    ili: %s [OPCIJA]... OKTAL-MÔD DATOTEKA...\n"
 "    ili: %s [OPCIJA]... --reference=REFDATOTEKA DATOTEKA...\n"
 
 #: src/chmod.c:380
@@ -1390,7 +1394,7 @@ msgid ""
 "\n"
 msgstr ""
 "Promijeni prava pristupa svake DATOTEKE u MOD.\n"
-"S opcijom --reference promijeni mod DATOTEKE na mod REFDATOTEKE.\n"
+"S opcijom --reference promijeni mȏd DATOTEKE na mȏd REFDATOTEKE.\n"
 "\n"
 
 #: src/chmod.c:394
@@ -1409,12 +1413,12 @@ msgid ""
 "Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.\n"
 msgstr ""
 "\n"
-" Svaki MOD je u obliku „[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+“.\n"
+" Svaki MÔD je u obliku „[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+“.\n"
 
 #: src/chmod.c:516
 #, c-format
 msgid "cannot combine mode and --reference options"
-msgstr "opcije --reference i mod se ne smiju kombinirati"
+msgstr "opcije --reference i mȏd se ne smiju kombinirati"
 
 #: src/chmod.c:547
 #, c-format
@@ -1802,7 +1806,7 @@ msgstr "greška pri čitanju %s"
 #: src/copy.c:275 src/dd.c:2263 src/dd.c:2325 src/head.c:184 src/tail.c:415
 #, c-format
 msgid "error writing %s"
-msgstr "greška pri čitanju %s"
+msgstr "greška pri pisanju %s"
 
 #: src/copy.c:306
 #, c-format
@@ -1948,7 +1952,7 @@ msgstr "nije moguće stvoriti čvrstu vezu %s na %s"
 #: src/stat.c:1389 src/truncate.c:338
 #, c-format
 msgid "cannot stat %s"
-msgstr "nije moguće dobiti status od %s"
+msgstr "nije moguće stat %s"
 
 #: src/copy.c:1900
 #, c-format
@@ -2029,7 +2033,7 @@ msgstr "nije moguće stvoriti čvrstu vezu %s na direktorij %s"
 #: src/copy.c:2354
 #, c-format
 msgid "renamed "
-msgstr "imenovana datoteka "
+msgstr "preimenovan(a/o) "
 
 #: src/copy.c:2392
 #, c-format
@@ -2039,7 +2043,7 @@ msgstr "nije moguće premjestiti %s u vlastiti poddirektorij, %s"
 #: src/copy.c:2435
 #, c-format
 msgid "cannot move %s to %s"
-msgstr "nije moguće preimenovati %s u %s"
+msgstr "nije moguće pre(imenovati/mjestiti) %s u %s"
 
 #: src/copy.c:2451
 #, c-format
@@ -2236,8 +2240,8 @@ msgid ""
 "                                 attempting to open it (contrast with --force)\n"
 msgstr ""
 "  -R, -r, --recursive          kopira direktorije rekurzivno\n"
-"      --reflink[=KADA]          kontrola klona/CoW kopije. (v. niže)\n"
-"                                 KADA je jedan od: always, auto\n"
+"      --reflink[=KAD]          kontrola klona/CoW kopije. (v. niže)\n"
+"                                 KAD je jedan od: always, auto\n"
 "      --remove-destination     briše svaku postojeću datoteku u odredištu prije\n"
 "                                 pokušaja otvaranja (usporedi s --force)\n"
 
@@ -2247,8 +2251,8 @@ msgid ""
 "      --strip-trailing-slashes  remove any trailing slashes from each SOURCE\n"
 "                                 argument\n"
 msgstr ""
-"      --sparse=KADA            kontrola stvaranja „sparse“ datoteke. (v. niže)\n"
-"                                 KADA mora biti jedan od: auto, always, never\n"
+"      --sparse=KAD            kontrola stvaranja „sparse“ datoteke. (v. niže)\n"
+"                                 KAD mora biti jedan od: auto, always, never\n"
 "      --strip-trailing-slashes  izbriše svaku zaostalu kosu crtu (slash) iz\n"
 "                                 svakog argumenta u IZVORNIKU\n"
 
@@ -3232,7 +3236,7 @@ msgstr "  nofollow  ne slijedi simboličke veze\n"
 
 #: src/dd.c:655
 msgid "  nolinks   fail if multiply-linked\n"
-msgstr "  nolinks   završi s greškom ako datoteka ima nekoliko čvrstih veza\n"
+msgstr "  nolinks   završi s greškom ako datoteka ima nekoliko čvrstih poveznica\n"
 
 #: src/dd.c:657
 msgid "  binary    use binary I/O for data\n"
@@ -3537,7 +3541,7 @@ msgstr "Veličina"
 
 #: src/df.c:423 src/df.c:460
 msgid "Avail"
-msgstr "Dostupno"
+msgstr "Dobitak"
 
 #: src/df.c:483
 msgid "Capacity"
@@ -4088,7 +4092,7 @@ msgstr ""
 #: src/env.c:122
 #, c-format
 msgid "cannot unset %s"
-msgstr "nije moguće ukloniti %s"
+msgstr "nije moguće ukloniti postavku od %s"
 
 #: src/env.c:256
 msgid "'\\c' must not appear in double-quoted -S string"
@@ -4465,7 +4469,7 @@ msgstr "nije moguće promijeniti direktorij u %s"
 #: src/find-mount-point.c:70
 #, c-format
 msgid "cannot stat current directory (now %s)"
-msgstr "nije moguće doznati status trenutačnog direktorija (zasada %s)"
+msgstr "nije moguće stat trenutačni direktorij (zasada %s)"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/fmt.c:37
@@ -4708,7 +4712,7 @@ msgid ""
 msgstr ""
 "Uporaba: %s [IME]\n"
 "   ili:  %s OPCIJA\n"
-"Ispiše ili postavi ime aktualnog računala.\n"
+"Ispiše ili postavi hostname aktualnog sustava.\n"
 "\n"
 
 #: src/hostname.c:100
@@ -4718,11 +4722,11 @@ msgstr "nije moguće postaviti ime na %s"
 
 #: src/hostname.c:104
 msgid "cannot set hostname; this system lacks the functionality"
-msgstr "nije moguće postaviti ime računala; ovaj sustav nema te mogućnosti"
+msgstr "nije moguće postaviti hostname; ovaj sustav nema te mogućnosti"
 
 #: src/hostname.c:112
 msgid "cannot determine hostname"
-msgstr "nije moguće odrediti ime računala"
+msgstr "nije moguće odrediti hostname"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/id.c:41 src/touch.c:43
@@ -5020,7 +5024,7 @@ msgstr "ciljani direktorij nije dopušten prilikom instalacije direktorija"
 #: src/install.c:1002 src/mkdir.c:284 src/stdbuf.c:351
 #, c-format
 msgid "invalid mode %s"
-msgstr "nevaljani mod %s"
+msgstr "nevaljani mȏd %s"
 
 #: src/install.c:1009
 #, c-format
@@ -5040,7 +5044,7 @@ msgstr "opcije --compare (-C) and --strip se međusobno isključuju"
 #: src/install.c:1027
 #, c-format
 msgid "the --compare (-C) option is ignored when you specify a mode with non-permission bits"
-msgstr "--compare (-C) se ignorira ako specificirate mod bez bitova za prava pristupa"
+msgstr "--compare (-C) se ignorira ako specificirate mȏd bez bitova za prava pristupa"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/join.c:41 src/sort.c:66
@@ -5145,7 +5149,7 @@ msgstr ""
 "rabite „join -t ''“ ako je sort bez opcija.\n"
 "Naravno, usporedba poštuje pravila specificirana u „LC_COLLATE“.\n"
 "Ako ulaz nije sortiran i neki od redaka se mogu spojiti,\n"
-"ispisati će se poruka upozorenja\n"
+"ispisat će se poruka upozorenja\n"
 
 #: src/join.c:417
 #, c-format
@@ -5226,7 +5230,7 @@ msgid ""
 msgstr ""
 "\n"
 "SIGNAL može biti ime signala npr. „HUP“, ili broj signala npr. „1“,\n"
-"ili izlazni status procesa prekinut signalom.\n"
+"ili izlazni status procesa okončan signalom.\n"
 "PID je cijeli broj; ako je negativan, PID identificira grupu procesa.\n"
 
 #: src/kill.c:206
@@ -5267,13 +5271,13 @@ msgstr "nije uspjelo dodijeliti %<PRIuMAX> bajtova međuspremniku standardnog U/
 #: src/libstdbuf.c:119
 #, c-format
 msgid "invalid buffering mode %s for %s\n"
-msgstr "nevaljani mod predmemoriranja %s for %s\n"
+msgstr "nevaljani mȏd predmemoriranja %s for %s\n"
 
 # buffering > u ovom slučaju nema veze s ikakvom memorijom
 #: src/libstdbuf.c:127
 #, c-format
 msgid "could not set buffering of %s to mode %s\n"
-msgstr "predmemoriranje %s nije moguće postaviti u mod %s\n"
+msgstr "predmemoriranje %s nije moguće postaviti u mȏd %s\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/link.c:37 src/unlink.c:37 src/who.c:52
@@ -5303,7 +5307,7 @@ msgstr "nije moguće stvoriti vezu %s na %s"
 #: src/ln.c:207
 #, c-format
 msgid "%s: hard link not allowed for directory"
-msgstr "%s: čvrsta veza na direktorij nije dopuštena"
+msgstr "%s: čvrsta poveznica na direktorij nije dopuštena"
 
 #: src/ln.c:272
 #, c-format
@@ -5369,8 +5373,8 @@ msgstr ""
 "3. i 4. forma stvaraju veze na svaki CILJ u DIREKTORIJU.\n"
 "Zadano se stvaraju čvrste veze, a simboličke sa -s ili --symbolic.\n"
 "Zadano je da svako odredište (ime nove veze) ne bi smjelo već postojati.\n"
-"Za stvaranje čvrstih veza svaki CILJ već mora postojati. Simboličke veze\n"
-"mogu sadržavati bilo koji tekst; relativna veza ako se razriješi, interpretira\n"
+"Za stvaranje čvrstih poveznica svaki CILJ već mora postojati. Simboličke veze\n"
+"mogu sadržavati bilo koji tekst; relativna poveznica ako se razriješi, interpretira\n"
 "se u odnosu na direktorij koji sadrži vezu.\n"
 
 #: src/ln.c:398
@@ -5403,10 +5407,10 @@ msgstr ""
 "  -L, --logical               Ako su CILJevi simboličke veze, pravi čvrste\n"
 "                                veze na ciljane datoteke\n"
 "  -n, --no-dereference        IME_VEZE tretira kao normalnu datoteku ako je\n"
-"                                ona (IME_VEZE) simbolička veza na direktorij\n"
+"                                ona (IME_VEZE) simbolička poveznica na direktorij\n"
 "  -P, --physical              pravi čvrste veze direktno na simboličke veze\n"
 "  -r, --relative              stvara simboličke veze u odnosu na lokaciju veze\n"
-"  -s, --symbolic              pravi simboličke umjesto čvrstih veza\n"
+"  -s, --symbolic              pravi simboličke umjesto čvrstih poveznica\n"
 
 #: src/ln.c:415
 msgid ""
@@ -5431,7 +5435,7 @@ msgid ""
 msgstr ""
 "\n"
 "Ako se rabi -s, onda se -L i -P ignoriraju. Inače, samo zadnja od navedenih\n"
-"opcija -L ili -P je aktivna kad je CILJ simbolička veza; zadano djeluje %s.\n"
+"opcija -L ili -P je aktivna kad je CILJ simbolička poveznica; zadano djeluje %s.\n"
 
 #: src/ln.c:542
 msgid "cannot combine --target-directory and --no-target-directory"
@@ -5693,7 +5697,7 @@ msgid ""
 "      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'\n"
 "                               (default if omitted), 'auto', or 'never'\n"
 msgstr ""
-"      --hyperlink[=KADA]     hyperlink iz imena datoteke; KADA može biti\n"
+"      --hyperlink[=KAD]     hyperlink iz imena datoteke; KAD može biti\n"
 "                               „always“ (zadano), „auto“ ili „never“\n"
 
 #: src/ls.c:5203
@@ -6001,9 +6005,9 @@ msgid ""
 msgstr ""
 "\n"
 "Zbrojevi se izračunaju kako je opisano u %s. Kod provjere, ulaz bi trebao\n"
-"biti prethodni izlaz ovog programa. U zadanom stanju ispiše se redak s\n"
-"kontrolnim zbrojem, razmak, znak '*' za binarni, ili ' ' za tekstualni ulazni\n"
-"mod (znak ' ' ako je binarni ulaz beznačajan), te ime svake DATOTEKE.\n"
+"biti prethodni izlaz ovog programa. U zadanom mȏdu ispiše se redak s\n"
+"kontrolnim zbrojem, razmak, znak '*' za binarni, a znak ' ' za tekst\n"
+"ili za beznačajni binarni ulaz), zatim ime svake DATOTEKE.\n"
 
 #: src/md5sum.c:697
 #, c-format
@@ -6139,9 +6143,9 @@ msgid ""
 "  -p, --parents     no error if existing, make parent directories as needed\n"
 "  -v, --verbose     print a message for each created directory\n"
 msgstr ""
-"  -m, --mode=MOD   postavlja prava pristupa datoteci (kao u chmod),\n"
+"  -m, --mode=MÔD   postavlja prava pristupa datoteci (kao u chmod),\n"
 "                       umjesto a=rwx - umask\n"
-"  -p, --parents     ako je potrebno stvori direktorije; ne prijavljuje grešku\n"
+"  -p, --parents     ako je potrebno kreira direktorije; ne prijavljuje grešku\n"
 "                      ako ti direktoriji već postoje\n"
 "  -v, --verbose     ispiše poruku za svaki kreirani direktorij\n"
 
@@ -6152,7 +6156,7 @@ msgid ""
 "      --context[=CTX]  like -Z, or if CTX is specified then set the SELinux\n"
 "                         or SMACK security context to CTX\n"
 msgstr ""
-"  -Z                postavi SELinux sigurnosni kontekst svih stvorenih\n"
+"  -Z                postavi SELinux sigurnosni kontekst svih kreiranih\n"
 "                      direktorija (sve je datoteka!) na zadani tip\n"
 "      --context[=CTX] kao -Z, ili ako je CTX specificiran, postavi\n"
 "                        SELinux ili SMACK sigurnosni kontekst na CTX\n"
@@ -6160,7 +6164,7 @@ msgstr ""
 #: src/mkdir.c:221
 #, c-format
 msgid "created directory %s"
-msgstr "stvoren je direktorij %s"
+msgstr "kreiran je direktorij %s"
 
 #: src/mkdir.c:239 src/mkfifo.c:117 src/mknod.c:134
 #, c-format
@@ -6179,7 +6183,7 @@ msgstr "Stvara imenovane cijevi (FIFO-ve) navedenoga IMENA.\n"
 #: src/mkfifo.c:61 src/mknod.c:63
 msgid "  -m, --mode=MODE    set file permission bits to MODE, not a=rw - umask\n"
 msgstr ""
-"  -m, --mode=MOD    postavlja datotečna prava pristupa na MOD (kao chmod),\n"
+"  -m, --mode=MÔD    postavlja datotečna prava pristupa na MÔD (kao chmod),\n"
 "                        umjesto na a=rw - umask\n"
 
 #: src/mkfifo.c:64 src/mknod.c:66
@@ -6195,11 +6199,11 @@ msgstr ""
 
 #: src/mkfifo.c:154 src/mknod.c:151
 msgid "invalid mode"
-msgstr "nevaljana prava pristupa"
+msgstr "nevaljani mod"
 
 #: src/mkfifo.c:161 src/mknod.c:158
 msgid "mode must specify only file permission bits"
-msgstr "mod smije sadržavati samo bitove koji određuju prava pristupa datoteci"
+msgstr "mȏd smije sadržavati samo bitove koji određuju prava pristupa datoteci"
 
 #: src/mkfifo.c:175 src/mknod.c:271
 #, c-format
@@ -6810,7 +6814,7 @@ msgid ""
 "      --invalid=MODE   failure mode for invalid numbers: MODE can be:\n"
 "                         abort (default), fail, warn, ignore\n"
 msgstr ""
-"      --invalid=MOD    mod za slučajeve nevaljanih brojeva: MOD može biti:\n"
+"      --invalid=MÔD    mȏd za slučajeve nevaljanih brojeva: MÔD može biti:\n"
 "                         abort (zadano), fail, warn, ignore\n"
 
 #: src/numfmt.c:924
@@ -7335,7 +7339,7 @@ msgstr "za ispis stringova ne smije se specificirati TIP"
 
 #: src/od.c:1867
 msgid "compatibility mode supports at most one file"
-msgstr "mod kompatibilnosti podržava samo jednu datoteku"
+msgstr "mȏd kompatibilnosti podržava samo jednu datoteku"
 
 #: src/od.c:1888
 msgid "skip-bytes + read-bytes is too large"
@@ -7344,7 +7348,7 @@ msgstr "vrijednost skip-bytes + read-bytes je prevelika"
 #: src/od.c:1931
 #, c-format
 msgid "warning: invalid width %lu; using %d instead"
-msgstr "upozorenje: nevaljana širina %lu; umjesto toga koristiti će se %d"
+msgstr "upozorenje: nevaljana širina %lu; umjesto toga koristit će se %d"
 
 #: src/operand2sig.c:88
 #, c-format
@@ -7493,7 +7497,7 @@ msgstr "Neaktivan"
 
 #: src/pinky.c:410
 msgid "When"
-msgstr "Kada"
+msgstr "Kad"
 
 #: src/pinky.c:413
 msgid "Where"
@@ -7562,7 +7566,7 @@ msgstr "Roland Huebner"
 
 #: src/pr.c:777
 msgid "integer overflow"
-msgstr "preljev cijelog broja"
+msgstr "prelijevanje pri operaciji s cijelim brojem"
 
 #: src/pr.c:916
 msgid "'--pages=FIRST_PAGE[:LAST_PAGE]' missing argument"
@@ -7657,7 +7661,7 @@ msgstr ""
 "                      s -BROJ\n"
 "  -c, --show-control-chars\n"
 "                    kontrolni znakovi rabe „^“, a ostali neispisivi znakovi\n"
-"                      rabe obratnu kosu crtu (i oktalni kod) za ispis\n"
+"                      rabe obratnu kosu crtu (i oktalni kȏd) za ispis\n"
 "  -d, --double-space\n"
 "                    jedan prazni redak nakon svakog izlaznog retka\n"
 
@@ -8170,7 +8174,7 @@ msgid ""
 msgstr ""
 "  -e, --canonicalize-existing  sve komponente staze moraju postojati\n"
 "  -m, --canonicalize-missing   ni komponente ni direktorij ne treba postojati\n"
-"  -L, --logical                razriješi „..“ prije simboličkih veza\n"
+"  -L, --logical                razriješi „..“ prije simboličkih poveznica\n"
 "  -P, --physical               simboličke veze rješava kako nailaze (zadano)\n"
 "  -q, --quiet                  izostavi većinu poruka o greškama\n"
 "      --relative-to=DIR        ispiše razriješenu stazu relativno s DIR\n"
@@ -8201,7 +8205,7 @@ msgstr "%s: spustiti se u direktorij %s? "
 #: src/remove.c:291
 #, c-format
 msgid "%s: remove write-protected %s %s? "
-msgstr "%s: ukloniti zaštitu od pisanja %s %s? "
+msgstr "%s: izbrisati od-pisanja-zaštićen(u) %s %s? "
 
 #: src/remove.c:292
 #, c-format
@@ -8788,8 +8792,8 @@ msgid ""
 msgstr ""
 "U slučaju ext3 datotečnog sustava navedena odricanja primjenjuju se\n"
 "(i shred je zato manje učinkovit) samo u modu podaci=journal u kojem\n"
-"journal sprema podatke, a ne samo metapodatke. U oba moda data=ordered\n"
-"(zadano) i data=writeback shred radi normalno. ext3 journal mod može se\n"
+"journal sprema podatke, a ne samo metapodatke. U oba mȏda data=ordered\n"
+"(zadano) i data=writeback shred radi normalno. ext3 journal mȏd može se\n"
 "promijeniti dodavanjem data=„nešto“ opcijama za montiranje određenog\n"
 "datotečnog sustava u /etc/fstab datoteci kako je to dokumentirano u\n"
 "man mount uputama.\n"
@@ -9334,7 +9338,7 @@ msgstr "%s: %s:%s: nevaljani redoslijed: "
 
 #: src/sort.c:2846
 msgid "standard error"
-msgstr "standardna greška"
+msgstr "standardni izlaz za greške"
 
 #: src/sort.c:3763
 msgid "cannot read"
@@ -9573,7 +9577,7 @@ msgstr "s FILE=%s, završava s kodom %d iz naredbe: %s"
 #: src/split.c:585
 #, c-format
 msgid "unknown status from command (0x%X)"
-msgstr "nepoznati povratni kod naredbe (0x%X)"
+msgstr "nepoznati povratni kȏd naredbe (0x%X)"
 
 #: src/split.c:1273
 #, c-format
@@ -9677,7 +9681,7 @@ msgstr "nije moguće pročitati informaciju datotečnog sustava za %s"
 #: src/stat.c:1378
 #, c-format
 msgid "cannot stat standard input"
-msgstr "nije uspjelo primijeniti stat na standardni ulaz"
+msgstr "nije moguće stat standardni ulaz"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' with --file-system, and NOT from printf.
@@ -9801,7 +9805,7 @@ msgid ""
 msgstr ""
 "  %d   broj uređaja, decimalni\n"
 "  %D   broj uređaja, heksadecimalni\n"
-"  %f   „sirovi“ kod (st_mode; prava i vrsta), heksadecimalni\n"
+"  %f   „sirovi“ kȏd (st_mode; prava i vrsta), heksadecimalni\n"
 "  %F   vrsta datoteke\n"
 "  %g   ID grupe vlasnika\n"
 "  %G   ime grupe vlasnika\n"
@@ -9818,7 +9822,7 @@ msgid ""
 "  %t   major device type in hex, for character/block device special files\n"
 "  %T   minor device type in hex, for character/block device special files\n"
 msgstr ""
-"  %h   broj čvrstih veza\n"
+"  %h   broj čvrstih poveznica\n"
 "  %i   inode broj\n"
 "  %m   montirano na\n"
 "  %n   ime datoteke\n"
@@ -9927,9 +9931,9 @@ msgid ""
 "  -o, --output=MODE  adjust standard output stream buffering\n"
 "  -e, --error=MODE   adjust standard error stream buffering\n"
 msgstr ""
-"  -i, --input=MOD   prilagodi međuspremnik standardnog ulaza\n"
-"  -o, --output=MOD  prilagodi međuspremnik standardnog izlaza\n"
-"  -e, --error=MOD   prilagodi međuspremnik standardne greške\n"
+"  -i, --input=MÔD   prilagodi međuspremnik standardnog ulaza\n"
+"  -o, --output=MÔD  prilagodi međuspremnik standardnog izlaza\n"
+"  -e, --error=MÔD   prilagodi međuspremnik standardne greške\n"
 
 #: src/stdbuf.c:105
 msgid ""
@@ -9938,7 +9942,7 @@ msgid ""
 "This option is invalid with standard input.\n"
 msgstr ""
 "\n"
-"Ako je MOD „L“, međuspremanje za korespondentni potok je po redcima\n"
+"Ako je MÔD „L“, međuspremanje za korespondentni potok je po redcima\n"
 "Ova opcija nije valjana za standardni ulaz.\n"
 
 #: src/stdbuf.c:108
@@ -9947,7 +9951,7 @@ msgid ""
 "If MODE is '0' the corresponding stream will be unbuffered.\n"
 msgstr ""
 "\n"
-"Ako je MOD „0“, korespondentni potok nema međuspremnik.\n"
+"Ako je MÔD „0“, korespondentni potok nema međuspremnik.\n"
 
 #: src/stdbuf.c:111
 msgid ""
@@ -9958,10 +9962,10 @@ msgid ""
 "size set to MODE bytes.\n"
 msgstr ""
 "\n"
-"Inače, MOD je broj iza kojega možete dopisati jedan od sljedećih sufiksa:\n"
+"Inače, MÔD je broj iza kojega možete dopisati jedan od sljedećih sufiksa:\n"
 "KB = 1000, K = 1024, MB = 1000*1000, M = 1024*1024, itd. za G, T, P, E, Z, Y.\n"
 "U tom slučaju korespondentni potok će imati na raspolaganju međuspremnik\n"
-"veličine MOD bajtova.\n"
+"veličine MÔD bajtova.\n"
 
 #: src/stdbuf.c:117
 msgid ""
@@ -9995,7 +9999,7 @@ msgstr "međuspremanje po redcima nema smisla za standardni ulaz"
 #: src/stdbuf.c:376
 #, c-format
 msgid "you must specify a buffering mode option"
-msgstr "morate navesti opciju za mod međuspremanja"
+msgstr "morate navesti opciju za mȏd međuspremanja"
 
 #: src/stty.c:531
 #, c-format
@@ -10412,8 +10416,8 @@ msgid ""
 "   [-]noflsh     disable flushing after interrupt and quit special characters\n"
 msgstr ""
 "   [-]isig       omogući specijalne znakove za prekid, završetak, i obustavu\n"
-"   [-]noflsh     onemogući prazniti nakon prekida i specijalnog znaka\n"
-"                    završetka\n"
+"   [-]noflsh     onemogući čišćenje nakon prekidnog znaka i specijalnog\n"
+"                    „prestani“ znaka\n"
 
 #: src/stty.c:863
 msgid " * [-]prterase   same as [-]echoprt\n"
@@ -10678,7 +10682,7 @@ msgstr "greška pri otvaranju datoteke %s"
 #: src/sync.c:124
 #, c-format
 msgid "couldn't reset non-blocking mode %s"
-msgstr "nije  moguće ponovno uspostaviti ne-blokirajući mod %s"
+msgstr "nije  moguće ponovno uspostaviti ne-blokirajući mȏd %s"
 
 #: src/sync.c:155
 #, c-format
@@ -10708,11 +10712,11 @@ msgstr ""
 
 #: src/system.h:350
 msgid "      --help     display this help and exit\n"
-msgstr "      --help     ova pomoć\n"
+msgstr "      --help     pokaže ovu pomoć i završi\n"
 
 #: src/system.h:352
 msgid "      --version  output version information and exit\n"
-msgstr "      --version  informacije o inačici\n"
+msgstr "      --version  informacije o inačici ovog programa\n"
 
 #: src/system.h:580
 msgid ""
@@ -10728,7 +10732,7 @@ msgid ""
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
 "\n"
-"Obvezni argumenti za dugačke opcije su također obvezni i za kratke opcije.\n"
+"Obvezni argumenti dugačkih opcija obvezni su također i za kratke opcije.\n"
 
 #: src/system.h:595
 msgid ""
@@ -10815,7 +10819,7 @@ msgstr "ili lokalno s naredbom: info „(coreutils) %s%s“\n"
 #: src/system.h:678
 #, c-format
 msgid "Try '%s --help' for more information.\n"
-msgstr "Pokušajte s „%s --help“ za više informacija.\n"
+msgstr "Pokušajte s „%s --help“ za pomoć i više informacija.\n"
 
 #: src/system.h:722
 #, c-format
@@ -11169,7 +11173,7 @@ msgstr ""
 "Kopira standardni ulaz u svaku navedenu DATOTEKU i na na standardni izlaz.\n"
 "\n"
 "  -a, --append              pripaja navedenim datotekama (ne prepiše ih)\n"
-"  -i, --ignore-interrupts   ignorira signale za prekid\n"
+"  -i, --ignore-interrupts   ignorira prekidne signale\n"
 
 #: src/tee.c:94
 msgid ""
@@ -11193,13 +11197,13 @@ msgid ""
 "writing to non pipe outputs.\n"
 msgstr ""
 "\n"
-"MOD određuje ponašanje pri greškama pisanja na izlazu:\n"
+"MÔD određuje ponašanje pri greškama pisanja na izlazu:\n"
 "  'warn'         prijavi greške pisanja na bilo koju vrstu izlaza\n"
 "  'warn-nopipe'  prijavi greške pisanja na svaki izlaz osim na cijevi\n"
 "  'exit'         završi proces zbog greški pisanja na bilo kojoj vrsti izlaza\n"
 "  'exit-nopipe'  završi proces zbog greški pisanja na svakom izlazu osim na\n"
 "                   cijevi\n"
-"Zadani MOD za opciju -p je 'warn-nopipe'.\n"
+"Zadani MÔD za opciju -p je 'warn-nopipe'.\n"
 "Kad nije specificirana opcija --output-error zadano ponašanje je momentalni\n"
 "završetak procesa zbog greški pisanja na cijev i prijava greški na bilo kojem\n"
 "izlazu koji nije cijev.\n"
@@ -11227,7 +11231,7 @@ msgstr "očekivao se %s, a pronađeno je %s"
 #: src/test.c:265 src/test.c:623
 #, c-format
 msgid "%s: unary operator expected"
-msgstr "%s: očekivao se je unarni operator"
+msgstr "%s: očekivan je unarni operator"
 
 #: src/test.c:334
 msgid "-nt does not accept -l"
@@ -11249,7 +11253,7 @@ msgstr "%s: je nepoznati binarni operator"
 #: src/test.c:651
 #, c-format
 msgid "%s: binary operator expected"
-msgstr "%s: očekivao se je binarni operator"
+msgstr "%s: očekivan je binarni operator"
 
 #: src/test.c:709
 msgid ""
@@ -11377,7 +11381,7 @@ msgid ""
 "  -r FILE     FILE exists and read permission is granted\n"
 "  -s FILE     FILE exists and has a size greater than zero\n"
 msgstr ""
-"  -L DATOTEKA     DATOTEKA postoji i simbolička veza je (isto kao -h)\n"
+"  -L DATOTEKA     DATOTEKA postoji i simbolička poveznica je (isto kao -h)\n"
 "  -O DATOTEKA     DATOTEKA postoji i vlasništvo je efektivnog korisnika ID\n"
 "  -p DATOTEKA     DATOTEKA postoji i imenovana cijev je\n"
 "  -r DATOTEKA     DATOTEKA postoji i dopuštena su prava čitanja\n"
@@ -11638,7 +11642,7 @@ msgid ""
 msgstr ""
 "  -h, --no-dereference   djeluje na svaku simboličku vezu umjesto na\n"
 "                           koju ciljanu datoteku (samo ako sustav može\n"
-"                           mijenjati vremenske oznake simboličkih veza)\n"
+"                           mijenjati vremenske oznake simboličkih poveznica)\n"
 "  -m                     izmijeni samo vrijeme promijene datoteke\n"
 
 #: src/touch.c:238
@@ -11796,7 +11800,7 @@ msgid ""
 "warning: the ambiguous octal escape \\%c%c%c is being\n"
 "\tinterpreted as the 2-byte sequence \\0%c%c, %c"
 msgstr ""
-"upozorenje: dvosmisleni oktalni kontrolni kod \\%c%c%c se\n"
+"upozorenje: dvosmisleni oktalni kontrolni kȏd \\%c%c%c se\n"
 "\tinterpretira kao sekvencija od dva bajta \\0%c%c, %c"
 
 #: src/tr.c:516
@@ -11932,7 +11936,7 @@ msgid ""
 msgstr ""
 "Smanji ili poveća veličinu svake DATOTEKE na specificiranu veličinu.\n"
 "\n"
-"Ako DATOTEKA kao argument ne postoji, stvoriti ti će se.\n"
+"Ako DATOTEKA kao argument ne postoji, stvorit će se.\n"
 "\n"
 "Ako je DATOTEKA duža od specificirane veličine, suvišni podaci se gube.\n"
 "A ako je DATOTEKA kraća, produži se, a produženi dio (rupe) su nula-bajtovi.\n"
@@ -12083,7 +12087,7 @@ msgstr ""
 "  -a, --all                ispiše sve informacije u sljedećem poretku,\n"
 "                             osim što izostavi -p and -i ako nisu poznati:\n"
 "  -s, --kernel-name        ime jezgre\n"
-"  -n, --nodename           ime računala na mreži\n"
+"  -n, --nodename           hostname na mreži\n"
 "  -r, --kernel-release     načica jezgre\n"
 
 #: src/uname.c:134
@@ -12324,7 +12328,7 @@ msgid ""
 "an uninterruptible sleep state also contribute to the load average.\n"
 msgstr ""
 "  Procesi koji\n"
-"su u stanju neprekidnog sna također doprinose prosjeku opterećenja.\n"
+"su u stanju stalnoga sna također doprinose prosjeku opterećenja.\n"
 
 #: src/uptime.c:220
 #, c-format
@@ -12494,8 +12498,8 @@ msgid ""
 "  -m                only hostname and user associated with stdin\n"
 "  -p, --process     print active processes spawned by init\n"
 msgstr ""
-"      --lookup      pokuša pronaći stvarna imena računala pomoću DNS-a\n"
-"  -m                samo ime računala i korisnika povezanoga s stdin\n"
+"      --lookup      pokuša kanonizirati hostnames pomoću DNS-a\n"
+"  -m                samo hostname i korisnik su povezani sa stdin\n"
 "  -p, --process     ispiše aktivne procese pokrenute init-om\n"
 
 #: src/who.c:663
@@ -12562,4 +12566,11 @@ msgstr ""
 msgid ""
 "Repeatedly output a line with all specified STRING(s), or 'y'.\n"
 "\n"
-msgstr "Neprekidno ispisuje redak sa svim navedenim STRING(ovima), ili „y“.\n"
+msgstr "Redovito ispisuje redak sa svim navedenim STRING(ovima), ili „y“.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Obvezni argumenti dugačkih opcija obvezni su također i za kratke opcije.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Obvezni argumenti za dugačke opcije su također obvezni i za kratke opcije.\n"
