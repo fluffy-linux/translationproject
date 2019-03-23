@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU bison 3.3\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2019-01-26 11:33+0100\n"
-"PO-Revision-Date: 2019-02-03 17:05+0100\n"
+"PO-Revision-Date: 2019-03-23 08:17+0100\n"
 "Last-Translator: Frédéric Marchal <fmarchal@perso.be>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -312,7 +312,7 @@ msgstr ""
 "  « conflicts-rr »      conflits R/R (activé par défaut)\n"
 "  « deprecated »        constructions obsolètes\n"
 "  « empty-rule »        règles vides sans %empty\n"
-"  « precedence »        préséance ou associativité inutile\n"
+"  « precedence »        priorité ou associativité inutile\n"
 "  « other »             tous les autres avertissements (activé par défaut)\n"
 "  « all »               tous les avertissements\n"
 "  « no-CATÉGORIE »      supprime les avertissements de la CATÉGORIE\n"
@@ -563,7 +563,7 @@ msgstr " à droite:"
 
 #: src/print.c:502
 msgid "Rules useless in parser due to conflicts"
-msgstr "La règle est inutile dans l'analyseur à cause de conflits"
+msgstr "Règles inutiles dans l'analyseur à cause de conflits"
 
 #: src/reader.c:59
 #, c-format
@@ -975,12 +975,12 @@ msgstr "le symbole de départ %s est un terminal"
 #: src/symtab.c:1208
 #, c-format
 msgid "useless precedence and associativity for %s"
-msgstr "préséance ou associativité inutile pour %s"
+msgstr "priorité et associativité inutiles pour %s"
 
 #: src/symtab.c:1211
 #, c-format
 msgid "useless precedence for %s"
-msgstr "préséance inutile pour %s"
+msgstr "priorité inutile pour %s"
 
 #: src/symtab.c:1215
 #, c-format
