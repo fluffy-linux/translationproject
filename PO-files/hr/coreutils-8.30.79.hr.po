@@ -6,15 +6,15 @@
 # header is not removed and modified versions are marked
 # as such.
 #
+#
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
 # Božidar Putanec <bozidarp@yahoo.com>, 2017, 2018, 2019.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils-8.30.79\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2019-03-04 01:47-0800\n"
-"PO-Revision-Date: 2019-03-05 15:51-0800\n"
+"PO-Revision-Date: 2019-05-01 11:30-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Lokalize 2.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: lib/argmatch.c:134
@@ -557,7 +557,7 @@ msgstr "Virtualni tajmer je istekao (SIGVTALRM)"
 
 #: lib/siglist.h:103
 msgid "Profiling timer expired"
-msgstr "Isteklo je vrijeme za profiliranj (SIGPROF)"
+msgstr "Isteklo je vrijeme za profiliranje (SIGPROF)"
 
 #: lib/siglist.h:106
 msgid "Window changed"
@@ -672,7 +672,7 @@ msgstr ""
 "\n"
 "Licencija:\n"
 "GPLv3+: GNU GPL inačica 3 ili kasnija <https://gnu.org/licenses/gpl.html>.\n"
-"Ovo je slobodan softver: slobodno ga mijenjajte i distribuirajte.\n"
+"Ovo je slobodan softver: slobodno ga mijenjajte i dijelite.\n"
 "NEMA JAMSTVA do granica dopuštenih zakonom.\n"
 "\n"
 
@@ -1207,7 +1207,7 @@ msgstr "nije uspjelo promijeniti kontekst od %s u %s"
 #: src/du.c:532 src/ls.c:3245
 #, c-format
 msgid "cannot access %s"
-msgstr "nije moguće pristupiti k %s"
+msgstr "%s nije pristupačan"
 
 #: src/chcon.c:266 src/chmod.c:231 src/chown-core.c:337 src/du.c:512
 #, c-format
@@ -1258,8 +1258,8 @@ msgid ""
 "                         the default), rather than the symbolic link itself\n"
 "  -h, --no-dereference   affect symbolic links instead of any referenced file\n"
 msgstr ""
-"      --dereference      djeluje na referenciju svake simboličke poveznice (to je\n"
-"                           i zadano), a ne na samu simboličku poveznicu\n"
+"      --dereference      djeluje na referenciju svake simboličke poveznice\n"
+"                           (to je zadano), a ne na samu simboličku poveznicu\n"
 "  -h, --no-dereference   djeluje na simboličke poveznice umjesto na\n"
 "                           ciljane datoteke\n"
 
@@ -1322,8 +1322,8 @@ msgstr ""
 "navedena i -R opcija. Ako je navedeno nekoliko ovih opcija, onda samo zadnja\n"
 "ima učinak a ostale su zanemarene.\n"
 "\n"
-"  -H                     ako je argument na naredbenom retku simbolička poveznica\n"
-"                           na direktorij, onda prođe kroz taj direktorij\n"
+"  -H                     ako je argument na naredbenom retku simbolička\n"
+"                           poveznica na direktorij, onda prođe kroz direktorij\n"
 "  -L                     slijedi svaku simboličku poveznicu na direktorije\n"
 "  -P                     ne slijedi simboličke poveznice (zadano)\n"
 "\n"
@@ -1432,7 +1432,7 @@ msgstr "dobivanje novih atributa od %s"
 #: src/chmod.c:151 src/chown-core.c:146
 #, c-format
 msgid "neither symbolic link %s nor referent has been changed\n"
-msgstr "ni simbolička poveznica %s, ni njezina meta (ciljana datoteka) nije promijenjena\n"
+msgstr "ni simbolička poveznica %s ni njezina meta (ciljana datoteka) nije promijenjena\n"
 
 #: src/chmod.c:165
 #, c-format
@@ -2280,7 +2280,7 @@ msgid ""
 "  -l, --link                   hard link files instead of copying\n"
 "  -L, --dereference            always follow symbolic links in SOURCE\n"
 msgstr ""
-"  -l, --link                   umjesto kopija napravi čvrste simboličke poveznice\n"
+"  -l, --link                   umjesto kopija pravi čvrste simboličke poveznice\n"
 "  -L, --dereference            uvijek slijedi simboličke poveznice navedene\n"
 "                                 u IZVORNIKU (v. niže)\n"
 
@@ -2290,9 +2290,9 @@ msgid ""
 "                                 a previous -i option)\n"
 "  -P, --no-dereference         never follow symbolic links in SOURCE\n"
 msgstr ""
-"  -n, --no-clobber             ne prepiše postojeće datoteku (poništi\n"
+"  -n, --no-clobber             ne piše preko postojeće datoteke (poništi\n"
 "                                 prethodnu -i opciju)\n"
-"  -P, --no-dereference         nikada ne slijedi simboličke poveznice u IZVORNIKU\n"
+"  -P, --no-dereference         nikad ne slijedi simboličke poveznice u IZVORNIKU\n"
 "                                 (v. niže)\n"
 
 #: src/cp.c:187
