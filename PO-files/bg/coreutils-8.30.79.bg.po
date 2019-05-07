@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.30.79\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2019-03-04 01:47-0800\n"
-"PO-Revision-Date: 2019-04-25 08:30+0200\n"
+"PO-Revision-Date: 2019-05-07 10:23+0200\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -51,7 +51,7 @@ msgstr "грешка при запис"
 #: lib/copy-acl.c:54 src/copy.c:1393 src/copy.c:2909
 #, c-format
 msgid "preserving permissions for %s"
-msgstr "режимът за достъп до „%s“ е запазен"
+msgstr "запазване на правата за „%s“"
 
 #: lib/error.c:195
 msgid "Unknown system error"
@@ -171,7 +171,7 @@ msgstr "Окончателен неуспех при намиране IP-адр�
 
 #: lib/gai_strerror.c:61
 msgid "ai_family not supported"
-msgstr "не се поддържа посочването на вид адреси („ai_family“)"
+msgstr "посочването на вид адреси („ai_family“) не се поддържа"
 
 #: lib/gai_strerror.c:62
 msgid "Memory allocation failure"
@@ -237,7 +237,7 @@ msgstr "%s: опцията „%s%s“ не е еднозначна\n"
 #: lib/getopt.c:284
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: опцията „%s%s“ не е еднозначна. Възможности:"
+msgstr "%s: опцията „%s%s“ не е еднозначна.  Възможности:"
 
 #: lib/getopt.c:319
 #, c-format
@@ -274,12 +274,12 @@ msgstr "не може да се получи информация със „stat
 #: lib/mkdir-p.c:190 src/install.c:512
 #, c-format
 msgid "cannot change permissions of %s"
-msgstr "не може да се сменят правата за достъп до „%s“"
+msgstr "правата за достъп до „%s“ не може да се сменят"
 
 #: lib/mkdir-p.c:200 src/copy.c:2524 src/install.c:740 src/install.c:753
 #, c-format
 msgid "cannot create directory %s"
-msgstr "не може да се създаде директория „%s“"
+msgstr "директорията „%s“ не може да се създаде"
 
 #: lib/obstack.c:338 lib/obstack.c:340 lib/xalloc-die.c:34 src/csplit.c:233
 #: src/tac.c:442
@@ -422,7 +422,7 @@ msgstr "опасно е да се работи рекурсивно върху %
 #: lib/root-dev-ino.h:43
 #, c-format
 msgid "use --no-preserve-root to override this failsafe"
-msgstr "ползвайте --no-preserve-root, за да отмените тази предпазна мярка"
+msgstr "ползвайте „--no-preserve-root“, за да отмените тази предпазна мярка"
 
 #. TRANSLATORS: A regular expression testing for an affirmative answer
 #. (english: "yes").  Testing the first character may be sufficient.
@@ -447,7 +447,7 @@ msgstr "^[nNнНхХ]"
 #: lib/set-acl.c:46 src/copy.c:2547 src/cp.c:514
 #, c-format
 msgid "setting permissions for %s"
-msgstr "установява се режим за достъп до „%s“"
+msgstr "задаване на права на „%s“"
 
 #: lib/siglist.h:31
 msgid "Hangup"
@@ -479,7 +479,7 @@ msgstr "Изключение от плаваща запетая"
 
 #: lib/siglist.h:52
 msgid "Killed"
-msgstr "Убиване"
+msgstr "Убит"
 
 #: lib/siglist.h:55
 msgid "Bus error"
@@ -507,7 +507,7 @@ msgstr "Спешно вх./изх. състояние"
 
 #: lib/siglist.h:73
 msgid "Stopped (signal)"
-msgstr "Спиране (сигнал)"
+msgstr "Спрян (сигнал)"
 
 #: lib/siglist.h:76
 msgid "Stopped"
@@ -515,7 +515,7 @@ msgstr "Спрян"
 
 #: lib/siglist.h:79
 msgid "Continued"
-msgstr "Продължаване"
+msgstr "Продължен"
 
 #: lib/siglist.h:82
 msgid "Child exited"
@@ -597,11 +597,11 @@ msgstr "Непознат сигнал %d"
 
 #: lib/unicodeio.c:102
 msgid "iconv function not usable"
-msgstr "функцията iconv не е използваема"
+msgstr "функцията „iconv“  е неизползваема"
 
 #: lib/unicodeio.c:104
 msgid "iconv function not available"
-msgstr "функцията iconv е недостъпна"
+msgstr "функцията „iconv“ е недостъпна"
 
 #: lib/unicodeio.c:111
 msgid "character out of range"
@@ -610,12 +610,12 @@ msgstr "знак извън диапазона"
 #: lib/unicodeio.c:181
 #, c-format
 msgid "cannot convert U+%04X to local character set"
-msgstr "не може да се конвертира U+%04X в локалното кодиране"
+msgstr "„U+%04X“ не може да се конвертира в локалното кодиране"
 
 #: lib/unicodeio.c:183
 #, c-format
 msgid "cannot convert U+%04X to local character set: %s"
-msgstr "не може да се конвертира U+%04X в локалното кодиране: %s"
+msgstr "„U+%04X“ не може да се конвертира в локалното кодиране: %s"
 
 #: lib/userspec.c:106
 msgid "invalid user"
@@ -820,7 +820,7 @@ msgstr "неуспешно сравнение на низове"
 #: lib/xmemcoll.c:40
 #, c-format
 msgid "Set LC_ALL='C' to work around the problem."
-msgstr "Използвайте LC_ALL='C', за да заобиколите този проблем."
+msgstr "Използвайте „LC_ALL='C'“, за да заобиколите този проблем."
 
 #: lib/xmemcoll.c:42
 #, c-format
@@ -970,12 +970,12 @@ msgstr "      --base32          същото като програмата „ba
 #: src/basenc.c:127
 msgid "      --base32hex       extended hex alphabet base32 (RFC4648 section 7)\n"
 msgstr ""
-"      --base32hex       base32 с разширена шестнайсетична азбука\n"
+"      --base32hex       base32 с разширена шестнадесетична азбука\n"
 "                        (RFC4648, раздел 7)\n"
 
 #: src/basenc.c:130
 msgid "      --base16          hex encoding (RFC4648 section 8)\n"
-msgstr "      --base16          шестнайсетично кодиране (RFC4648, раздел 8)\n"
+msgstr "      --base16          шестнадесетично кодиране (RFC4648, раздел 8)\n"
 
 #: src/basenc.c:133
 msgid "      --base2msbf       bit string with most significant bit (msb) first\n"
@@ -1131,7 +1131,8 @@ msgid ""
 msgstr ""
 "\n"
 "Примери:\n"
-"  %s f - g  Извеждане на съдържанието на „f“, на стандартния изход и после „g“\n"
+"  %s f - g  Извеждане на съдържанието на „f“, на полученото от стандартния\n"
+"            изход и после на съдържанието на „g“\n"
 "  %s        Копиране на стандартния вход на стандартния изход.\n"
 
 #: src/cat.c:327
@@ -1332,7 +1333,7 @@ msgstr "неправилен контекст: „%s“"
 #: src/chcon.c:567
 #, c-format
 msgid "conflicting security context specifiers given"
-msgstr "зададените контексти за сигурност са в конфликт"
+msgstr "зададените контексти за сигурност са несъвместими"
 
 #: src/chcon.c:576 src/chgrp.c:289 src/chgrp.c:307 src/chmod.c:539
 #: src/chmod.c:558 src/chown.c:290 src/chown.c:319 src/cp.c:422 src/cp.c:489
@@ -1522,6 +1523,7 @@ msgstr "неуспешна смяна на собственика на „%s“ 
 msgid "failed to change group of %s from %s to %s\n"
 msgstr "неуспешна смяна на групата на „%s“ от „%s“ на „%s“\n"
 
+# смяна или промяна
 #: src/chown-core.c:166 src/chown-core.c:172
 #, c-format
 msgid "failed to change ownership of %s\n"
@@ -1692,7 +1694,7 @@ msgid ""
 "If no command is given, run '\"$SHELL\" -i' (default: '/bin/sh -i').\n"
 msgstr ""
 "\n"
-"Ако не е посочена команда, се изпълнява „${SHELL} -i“ (стандартно: „/bin/sh -i“)\n"
+"Ако не е посочена команда, се изпълнява „\"${SHELL}\" -i“ (стандартно: „/bin/sh -i“)\n"
 
 #: src/chroot.c:287
 #, c-format
@@ -2041,7 +2043,7 @@ msgstr "директорията „%s“ се прескача"
 #: src/copy.c:1924
 #, c-format
 msgid "warning: source file %s specified more than once"
-msgstr "внимание: изходния файл „%s“ е посочен повече от един път"
+msgstr "ПРЕДУПРЕЖДЕНИЕ: изходния файл „%s“ е посочен повече от един път"
 
 #: src/copy.c:1979 src/ln.c:275
 #, c-format
@@ -2071,12 +2073,12 @@ msgstr "директория не може да се премести върху
 #: src/copy.c:2146
 #, c-format
 msgid "backing up %s might destroy source;  %s not moved"
-msgstr "резервното копиране на „%s“ може да унищожи — „%s“ не бе преместен"
+msgstr "резервното копиране на „%s“ може да унищожи източника — без преместване на „%s“"
 
 #: src/copy.c:2147
 #, c-format
 msgid "backing up %s might destroy source;  %s not copied"
-msgstr "резервното копиране на „%s“ може да унищожи — „%s“ не бе копиран"
+msgstr "резервното копиране на „%s“ може да унищожи източника — без копиране на „%s“"
 
 #: src/copy.c:2169 src/ln.c:305
 #, c-format
@@ -2269,7 +2271,7 @@ msgid ""
 "  -L, --dereference            always follow symbolic links in SOURCE\n"
 msgstr ""
 "  -l, --link                   създаване на твърди връзки вместо копиране\n"
-"  -L, --dereference            символните връзки в ИЗТОЧНИКа да се проследяват\n"
+"  -L, --dereference            символните връзки в ИЗТОЧНИКа да се следват\n"
 
 #: src/cp.c:182
 msgid ""
@@ -2290,17 +2292,18 @@ msgid ""
 "                                 all\n"
 msgstr ""
 "  -p                           като „--preserve=mode,ownership,timestamps“\n"
-"      --preserve[=СПИС_АТРИБ]  запазване на посочените атрибути (стандартно:\n"
+"      --preserve[=АТРИБУТ[,…]] запазване на посочените АТРИБУТи (стандартно:\n"
 "                               „mode,ownership,timestamps“), а при възможност и\n"
-"                               следните допълнителни атрибути: „context“,\n"
-"                               „links“, „xattr“, „all“\n"
+"                               следните допълнителни атрибути: „Context“,\n"
+"                               „Links“, „xattr“, „all“\n"
 
 #: src/cp.c:195
 msgid ""
 "      --no-preserve=ATTR_LIST  don't preserve the specified attributes\n"
 "      --parents                use full source file name under DIRECTORY\n"
 msgstr ""
-"      --no-preserve=АТРИБУТИ   без запазване на посочените АТРИБУТИ\n"
+"      --no-preserve=АТРИБУТ[,…]\n"
+"                               без запазване на посочените АТРИБУТи\n"
 "      --parents                използване на пълното име на файла под\n"
 "                               ДИРЕКТОРИЯта\n"
 
@@ -2313,7 +2316,7 @@ msgid ""
 msgstr ""
 "  -R, -r, --recursive          рекурсивно копиране на директориите\n"
 "      --reflink[=КОГА]         управление на клонирането/копирането при запис.\n"
-"                               Вижте по-долу\n"
+"                               Вж. по-долу\n"
 "      --remove-destination     изтриване на всеки съществуващ целеви файл, преди\n"
 "                               да се опитва отваряне (сравнете с „--force“)\n"
 
@@ -2346,8 +2349,8 @@ msgid ""
 "  -v, --verbose                explain what is being done\n"
 "  -x, --one-file-system        stay on this file system\n"
 msgstr ""
-"  -u, --update                 копиране само, ако ИЗТОЧНИК е по-нов от целевия\n"
-"                               файл или ако целевият файл липсва\n"
+"  -u, --update                 копиране, само ако ИЗТОЧНИКът е по-нов от\n"
+"                               целевия файл или ако целевият файл липсва\n"
 "  -v, --verbose                съобщаване какво се прави\n"
 "  -x, --one-file-system        оставане в текущата файлова система\n"
 
@@ -2360,7 +2363,7 @@ msgid ""
 msgstr ""
 "  -Z                           задаване на стандартен контекст за сигурност на\n"
 "                               SELinux на целевия файл\n"
-"      --context[=КОНТЕКСТ]     като „-Z“, а ако е присъства КОНТЕКСТ, той се\n"
+"      --context[=КОНТЕКСТ]     като „-Z“, а ако присъства КОНТЕКСТ, той се\n"
 "                               задава вместо стандартния за SELinux или SMACK\n"
 
 #: src/cp.c:231
@@ -2403,8 +2406,9 @@ msgid ""
 "regular file.\n"
 msgstr ""
 "\n"
-"По изключение ако са зададени опции --force и --backup, а ИЗТОЧНИК и ЦЕЛ са едно\n"
-"и също име на съществуващ обикновен файл, ce прави резервно копие на ИЗТОЧНИК.\n"
+"По изключение — ако са зададени опции „--force“ и „--backup“, а ИЗТОЧНИКът и\n"
+"ЦЕЛта са едно и също име на съществуващ обикновен файл, ce прави резервно копие\n"
+"на ИЗТОЧНИКа.\n"
 
 #: src/cp.c:306
 #, c-format
@@ -2555,7 +2559,7 @@ msgstr "%s}: между „{“ и „}“ е необходимо цяло чи
 #: src/csplit.c:1144
 #, c-format
 msgid "%s: closing delimiter '%c' missing"
-msgstr "%s:  липсва затварящ разделител „%c“"
+msgstr "%s: липсва затварящ разделител „%c“"
 
 #: src/csplit.c:1161
 #, c-format
@@ -2580,7 +2584,7 @@ msgstr "номерът на ред %s е по-малък от предходни
 #: src/csplit.c:1207
 #, c-format
 msgid "warning: line number %s is the same as preceding line number"
-msgstr "внимание: номерът на ред %s съвпада с предходния номер на ред"
+msgstr "ПРЕДУПРЕЖДЕНИЕ: номерът на ред %s съвпада с предходния номер на ред"
 
 #: src/csplit.c:1285
 msgid "missing conversion specifier in suffix"
@@ -2683,7 +2687,7 @@ msgstr ""
 "  {ЦЯЛО_ЧИСЛО}       повтаряне на предходния ШАБЛОН посочения брой пъти\n"
 "  {*}                повтаряне на предходния ШАБЛОН максимален брой пъти\n"
 "\n"
-"ОТМЕСТВАНЕТО е положително число, задължително предхождано от „+“ или „-“.\n"
+"ОТМЕСТВАНЕто е положително число, задължително предхождано от „+“ или „-“.\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cut.c:45 src/paste.c:52
@@ -2707,8 +2711,8 @@ msgid ""
 "  -c, --characters=LIST   select only these characters\n"
 "  -d, --delimiter=DELIM   use DELIM instead of TAB for field delimiter\n"
 msgstr ""
-"  -b, --bytes=СПИСЪК      извежда само тези байтове\n"
-"  -c, --characters=СПИСЪК извежда само тези знаци\n"
+"  -b, --bytes=СПИСЪК      извеждане само на тези байтове\n"
+"  -c, --characters=СПИСЪК извеждане само на тези знаци\n"
 "  -d, --delimiter=РАЗДЕЛ  РАЗДЕЛ вместо табулация като разделител между полетата\n"
 
 #: src/cut.c:163
@@ -2728,7 +2732,7 @@ msgid ""
 "      --complement        complement the set of selected bytes, characters\n"
 "                            or fields\n"
 msgstr ""
-"      --complement        извежда всичко освен указаните байтове,\n"
+"      --complement        извеждане на всичко освен указаните байтове,\n"
 "                          знаци или полета.\n"
 
 #: src/cut.c:173
@@ -2737,10 +2741,10 @@ msgid ""
 "      --output-delimiter=STRING  use STRING as the output delimiter\n"
 "                            the default is to use the input delimiter\n"
 msgstr ""
-"  -s, --only-delimited    без извеждане на редове биз разделители\n"
+"  -s, --only-delimited    без извеждане на редове без разделители\n"
 "      --output-delimiter=НИЗ\n"
 "                          използване на посочения НИЗ като разделител на изхода,\n"
-"                          стандартно си ползва входният разделител\n"
+"                          стандартно се ползва входният разделител\n"
 
 #: src/cut.c:183
 msgid ""
@@ -2784,14 +2788,14 @@ msgstr "трябва да посочите списък байтове, знац
 
 #: src/cut.c:570
 msgid "an input delimiter may be specified only when operating on fields"
-msgstr "входен разделител може да се посочва само ако се работи с полета"
+msgstr "входен разделител може да се посочва, само ако се работи с полета"
 
 #: src/cut.c:574
 msgid ""
 "suppressing non-delimited lines makes sense\n"
 "\tonly when operating on fields"
 msgstr ""
-"неизвеждането на редове, несъдържащи разделител, има смисъл\n"
+"неизвеждането на редове, несъдържащи разделител, има смисъл,\n"
 "само ако се работи с полета"
 
 #: src/date.c:130
@@ -2840,7 +2844,7 @@ msgstr ""
 "                             ТОЧНОСТта може да е „date“ само за датата\n"
 "                             (стандартно), „hours“ (часове), „minutes“\n"
 "                             (минути), „seconds“ (секунди) или „ns“\n"
-"                             (наносекунди) за  извеждане на датата и времето до\n"
+"                             (наносекунди) за извеждане на датата и времето до\n"
 "                             зададената точност.\n"
 "                             Напр.: „2006-08-14T02:34:56-06:00“\n"
 
@@ -2887,7 +2891,7 @@ msgid ""
 "  %a   locale's abbreviated weekday name (e.g., Sun)\n"
 msgstr ""
 "\n"
-"ФОРМАТът управлява изхода.  Разпознават се следните низове във ФОРМАТа:\n"
+"ФОРМАТът управлява изхода.  Разпознават се следните низове във ФОРМА̀Та:\n"
 "\n"
 "  %%   знакът „%“\n"
 "  %a   съкратено наименование на деня от седмицата според локала (пн, вт, ср, …)\n"
@@ -2923,8 +2927,8 @@ msgid ""
 "  %G   year of ISO week number (see %V); normally useful only with %V\n"
 msgstr ""
 "  %F   пълна дата — същото като „%+4Y-%m-%d“\n"
-"  %g   последни две цифри на годината, съдържаща седмица с ISO № (виж „%G“)\n"
-"  %G   година, съдържаща седмица с ISO № (виж „%V“, обикновено се комбинира)\n"
+"  %g   последни две цифри на годината, съдържаща седмица с ISO № (вж. „%G“)\n"
+"  %G   година, съдържаща седмица с ISO № (вж. „%V“, обикновено се комбинира)\n"
 
 #: src/date.c:201
 msgid ""
@@ -3253,8 +3257,8 @@ msgid ""
 "  fsync     likewise, but also write metadata\n"
 msgstr ""
 "  excl      да не действа, ако изходният файл вече съществува\n"
-"  nocreat   да не се създава изходния файл\n"
-"  notrunc   да не съкращава изходния файл\n"
+"  nocreat   без създаване на изходния файл\n"
+"  notrunc   без отсичане на изходния файл\n"
 "  noerror   продължаване дори при възникване на грешка\n"
 "  fdatasync физически запис на изходните данни още преди пълното приключване\n"
 "  fsync     подобно, но освен това записва и метаданните\n"
@@ -3306,7 +3310,7 @@ msgstr "  noatime   без промяна на времето за достъп\
 
 #: src/dd.c:641
 msgid "  nocache   Request to drop cache.  See also oflag=sync\n"
-msgstr "  nocache   опит за пропускане на кеша.  Вижте и „oflag=sync“\n"
+msgstr "  nocache   опит за пропускане на кеша.  Вж. и „oflag=sync“\n"
 
 #: src/dd.c:645
 msgid "  noctty    do not assign controlling terminal from file\n"
@@ -3402,8 +3406,8 @@ msgstr ""
 #, c-format
 msgid "%<PRIuMAX> truncated record\n"
 msgid_plural "%<PRIuMAX> truncated records\n"
-msgstr[0] "%<PRIuMAX> съкратен запис\n"
-msgstr[1] "%<PRIuMAX> съкратени записа\n"
+msgstr[0] "%<PRIuMAX> отсечен запис\n"
+msgstr[1] "%<PRIuMAX> отсечени записи\n"
 
 #: src/dd.c:949
 #, c-format
@@ -3519,12 +3523,12 @@ msgstr "%s: неуспешно пропускане до зададеното о
 #: src/dd.c:2343
 #, c-format
 msgid "failed to truncate to %<PRIdMAX> bytes in output file %s"
-msgstr "неуспешно съкращаване до %<PRIdMAX> байта в изходния файл „%s“"
+msgstr "неуспешно отсичане до %<PRIdMAX> байта в изходния файл „%s“"
 
 #: src/dd.c:2356
 #, c-format
 msgid "fdatasync failed for %s"
-msgstr "неуспешно извикване на „fdatasync“ за %s"
+msgstr "неуспешно изпълнение на „fdatasync“ върху %s"
 
 #: src/dd.c:2366
 #, c-format
@@ -3539,12 +3543,12 @@ msgstr "„%s“ не може да се отвори"
 #: src/dd.c:2454
 #, c-format
 msgid "offset too large: cannot truncate to a length of seek=%<PRIuMAX> (%lu-byte) blocks"
-msgstr "твърде голямо отместване: не може да се отреже до дължината на seek=%<PRIuMAX> (%lu-byte) блокове"
+msgstr "твърде голямо отместване: не може да се отсече до дължината на seek=%<PRIuMAX> (%lu-byte) блокове"
 
 #: src/dd.c:2475
 #, c-format
 msgid "failed to truncate to %<PRIuMAX> bytes in output file %s"
-msgstr "неуспешно съкращаване до %<PRIuMAX> байта в изходния файл %s"
+msgstr "неуспешно отсичане до %<PRIuMAX> байта в изходния файл %s"
 
 #: src/dd.c:2492 src/dd.c:2498
 #, c-format
@@ -3587,11 +3591,11 @@ msgstr "I-възли"
 
 #: src/df.c:202
 msgid "IUsed"
-msgstr "Заети"
+msgstr "I-заети"
 
 #: src/df.c:205
 msgid "IFree"
-msgstr "Свобод"
+msgstr "I-свбдн"
 
 #: src/df.c:208
 msgid "IUse%"
@@ -3663,7 +3667,7 @@ msgstr ""
 "                        файлови системи\n"
 "  -B, --block-size=РАЗМЕР\n"
 "                        извеждане на единици с такъв РАЗМЕР, напр. с „-BM“\n"
-"                        единиците са по 1024×1024 байта.  Вижте раздела за\n"
+"                        единиците са по 1024×1024 байта.  Вж. раздела за\n"
 "                        РАЗМЕР по-долу\n"
 "  -h, --human-readable  основи кратни на 1024 (напр.: 1023M)\n"
 "  -H, --si              основи кратни на 1000 (напр.: 1.1G)\n"
@@ -3729,7 +3733,7 @@ msgstr ""
 "система), „itotal“ (общ брой на i-възлите), „iused“ (брой използвани i-възли),\n"
 "„iavail“ (брой налични i-възли), „ipcent“ (≡100*iused/itotal), „size“ (общ брой\n"
 "на блоковете), „used“ (брой използвани блокове), „avail“ (брой налични блокове),\n"
-"„pcent“ (≡100*used/size), „file“ () and „target“ (точката на монтиране).\n"
+"„pcent“ (≡100*used/size), „file“ (файлове) and „target“ (точката на монтиране).\n"
 
 #: src/df.c:1592
 #, c-format
@@ -3743,7 +3747,7 @@ msgstr "файловите системи от вида „%s“ са хем и�
 
 #: src/df.c:1801
 msgid "Warning: "
-msgstr "Внимание: "
+msgstr "Предупреждение: "
 
 #: src/df.c:1803 src/stat.c:906
 msgid "cannot read table of mounted file systems"
@@ -3782,7 +3786,7 @@ msgid ""
 "For details on the format of these files, run 'dircolors --print-database'.\n"
 msgstr ""
 "\n"
-"Ако е указан ФАЙЛ, той определя цветовете за различните файлове разширения.\n"
+"Ако е указан ФАЙЛ, той определя цветовете за различните файлови разширения.\n"
 "В противен случай се използва вградена база от данни.\n"
 "За подробности относно форма̀та на ФАЙЛа, изпълнете „dircolors --print-database“.\n"
 
@@ -3902,7 +3906,7 @@ msgstr ""
 "  -B, --block-size=РАЗМEР\n"
 "                        да се ползват блокове с този РАЗМЕР байтове, напр.:\n"
 "                        с „-BM“ се извеждат размери по 1024×1024 байта.\n"
-"                        Вижте раздела за РАЗМЕР по-долу\n"
+"                        Вж. раздела за РАЗМЕР по-долу\n"
 "  -b, --bytes           същото като „--apparent-size --block-size=1“\n"
 "  -c, --total           пресмятане и на общ сбор на използваното пространство\n"
 "  -D, --dereference-args\n"
@@ -4016,7 +4020,7 @@ msgstr "ПРЕДУПРЕЖДЕНИЕ: резюмирането е еквивал
 #: src/du.c:944
 #, c-format
 msgid "warning: summarizing conflicts with --max-depth=%lu"
-msgstr "ПРЕДУПРЕЖДЕНИЕ: резюмирането влиза в конфликт с „--max-depth=%lu“"
+msgstr "ПРЕДУПРЕЖДЕНИЕ: резюмирането е несъвместимо с „--max-depth=%lu“"
 
 #: src/du.c:955
 #, c-format
@@ -4061,25 +4065,25 @@ msgid ""
 "\n"
 "  -n             do not output the trailing newline\n"
 msgstr ""
-"Извежда НИЗовете на стандартния изход.\n"
+"Извеждане на НИЗовете на стандартния изход.\n"
 "\n"
-"  -n             не извежда знаци за нов ред след всеки от НИЗовете\n"
+"  -n             без извеждане на знаци за нов ред след всеки от НИЗовете\n"
 
 #: src/echo.c:52
 msgid ""
 "  -e             enable interpretation of backslash escapes (default)\n"
 "  -E             disable interpretation of backslash escapes\n"
 msgstr ""
-"  -e             позволява обработката знаци, защитени с \\ (по подразбиране)\n"
-"  -E             забранява специалната обработка на \\\n"
+"  -e             обработка на знаци, екранирани с „\\“ (стандартно)\n"
+"  -E             без обработка на знаци, екранирани с „\\“\n"
 
 #: src/echo.c:55
 msgid ""
 "  -e             enable interpretation of backslash escapes\n"
 "  -E             disable interpretation of backslash escapes (default)\n"
 msgstr ""
-"  -e             позволява обработката знаци, защитени с \\\n"
-"  -E             забранява специалната обработка на \\ (по подразбиране)\n"
+"  -e             обработка на знаци, екранирани с „\\“\n"
+"  -E             без обработка на знаци, екранирани с „\\“ (стандартно)\n"
 
 #: src/echo.c:61
 msgid ""
@@ -4120,8 +4124,8 @@ msgid ""
 "  \\0NNN   byte with octal value NNN (1 to 3 digits)\n"
 "  \\xHH    byte with hexadecimal value HH (1 to 2 digits)\n"
 msgstr ""
-"  \\0NNN   байт с осмичен код NNN (от 1 до 3 цифри)\n"
-"  \\xHH    байт с шестнадесетичен код HH (от 1 до 2 цифри)\n"
+"  \\0NNN   байт с осмичен код NNN (1/2/3 цифри)\n"
+"  \\xHH    байт с шестнадесетичен код HH (1/2 цифри)\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/env.c:38 src/printenv.c:45 src/whoami.c:35
@@ -4405,9 +4409,9 @@ msgstr ""
 "Отпечатване на стойността на ИЗРАЗа на стандартния изход. По-долу празни редове\n"
 "отделят групите операции с нарастващ приоритет. ИЗРАЗът може да бъде:\n"
 "\n"
-"  АРГ_1 |  АРГ_2    АРГумент_1, ако не е нулев или 0, а иначе АРГумент_2\n"
+"  ⁃ АРГ_1 |  АРГ_2    АРГумент_1, ако не е нулев или 0, а иначе АРГумент_2\n"
 "\n"
-"  АРГ_1 &  АРГ_2    АРГумент_1, ако аргументите не са нулеви или 0, а иначе 0\n"
+"  ⁃ АРГ_1 &  АРГ_2    АРГумент_1, ако аргументите не са нулеви или 0, а иначе 0\n"
 
 #: src/expr.c:362
 msgid ""
@@ -4420,12 +4424,12 @@ msgid ""
 "  ARG1 > ARG2       ARG1 is greater than ARG2\n"
 msgstr ""
 "\n"
-"  АРГ_1 <  АРГ_2    АРГ_1 е по-малък от АРГ_2\n"
-"  АРГ_1 <= АРГ_2    АРГ_1 е по-малък или равен на АРГ_2\n"
-"  АРГ_1 =  АРГ_2    АРГ_1 е равен на АРГ_2\n"
-"  АРГ_1 != АРГ_2    АРГ_1 е различен от АРГ_2\n"
-"  АРГ_1 >= АРГ_2    АРГ_1 е по-голям или равен на АРГ_2\n"
-"  АРГ_1 >  АРГ_2    АРГ_1 е по-голям от АРГ_2\n"
+"  ⁃ АРГ_1 <  АРГ_2    АРГ_1 е по-малък от АРГ_2\n"
+"  ⁃ АРГ_1 <= АРГ_2    АРГ_1 е по-малък или равен на АРГ_2\n"
+"  ⁃ АРГ_1 =  АРГ_2    АРГ_1 е равен на АРГ_2\n"
+"  ⁃ АРГ_1 != АРГ_2    АРГ_1 е различен от АРГ_2\n"
+"  ⁃ АРГ_1 >= АРГ_2    АРГ_1 е по-голям или равен на АРГ_2\n"
+"  ⁃ АРГ_1 >  АРГ_2    АРГ_1 е по-голям от АРГ_2\n"
 
 #: src/expr.c:371
 msgid ""
@@ -4434,8 +4438,8 @@ msgid ""
 "  ARG1 - ARG2       arithmetic difference of ARG1 and ARG2\n"
 msgstr ""
 "\n"
-"  АРГ_1 +  АРГ_2    аритметична сума на АРГ_1 и АРГ_2\n"
-"  АРГ_1 -  АРГ_2    аритметична разлика на АРГ_1 и АРГ_2\n"
+"  ⁃ АРГ_1 +  АРГ_2    аритметична сума на АРГ_1 и АРГ_2\n"
+"  ⁃ АРГ_1 -  АРГ_2    аритметична разлика на АРГ_1 и АРГ_2\n"
 
 #: src/expr.c:378
 #, no-c-format
@@ -4446,9 +4450,9 @@ msgid ""
 "  ARG1 % ARG2       arithmetic remainder of ARG1 divided by ARG2\n"
 msgstr ""
 "\n"
-"  АРГ_1 *  АРГ_2    аритметично произведение на АРГ_1 и АРГ_2\n"
-"  АРГ_1 /  АРГ_2    аритметично частно на АРГ_1 разделен на АРГ_2\n"
-"  АРГ_1 %  АРГ_2    аритметичен остатък на АРГ_1 разделен на АРГ_2\n"
+"  ⁃ АРГ_1 *  АРГ_2    аритметично произведение на АРГ_1 и АРГ_2\n"
+"  ⁃ АРГ_1 /  АРГ_2    аритметично частно на АРГ_1 разделен на АРГ_2\n"
+"  ⁃ АРГ_1 %  АРГ_2    аритметичен остатък на АРГ_1 разделен на АРГ_2\n"
 
 #: src/expr.c:384
 msgid ""
@@ -4461,13 +4465,13 @@ msgid ""
 "  length STRING              length of STRING\n"
 msgstr ""
 "\n"
-"  НИЗ : РЕГУЛЯРЕН_ИЗРАЗ      стриктно (anchored) съпоставяне на РЕГУЛЯРНия_ИЗРАЗ\n"
-"                             в НИЗа\n"
+"  ⁃ НИЗ : РЕГУЛЯРЕН_ИЗРАЗ      стриктно (anchored) съпоставяне на\n"
+"                               РЕГУЛЯРНия_ИЗРАЗ в НИЗа\n"
 "\n"
-"  match НИЗ РЕГУЛЯРЕН_ИЗРАЗ  същото като НИЗ : РЕГУЛЯРЕН_ИЗРАЗ\n"
-"  substr НИЗ ПОЗИЦИЯ ДЪЛЖИНА подниз на НИЗа, ПОЗИЦИЯта се брои от 1\n"
-"  index НИЗ ЗНАЦИ            място, където са някои от ЗНАЦИте в НИЗа, или 0\n"
-"  length НИЗ                 дължината на НИЗа\n"
+"  ⁃ match НИЗ РЕГУЛЯРЕН_ИЗРАЗ  същото като НИЗ : РЕГУЛЯРЕН_ИЗРАЗ\n"
+"  ⁃ substr НИЗ ПОЗИЦИЯ ДЪЛЖИНА подниз на НИЗа, ПОЗИЦИЯта се брои от 1\n"
+"  ⁃ index НИЗ ЗНАЦИ            място, където са някои от ЗНАЦИте в НИЗа, или 0\n"
+"  ⁃ length НИЗ                 дължината на НИЗа\n"
 
 #: src/expr.c:393
 msgid ""
@@ -4476,10 +4480,10 @@ msgid ""
 "\n"
 "  ( EXPRESSION )             value of EXPRESSION\n"
 msgstr ""
-"  + ЛЕКСЕМА                  обработка на ЛЕКСЕМАта като низ, дори и ако е\n"
-"                             ключова дума като „match“ или оператор като „/“\n"
+"  ⁃ + ЛЕКСЕМА                  обработка на ЛЕКСЕМАта като низ, дори и ако е\n"
+"                               ключова дума като „match“ или оператор като „/“\n"
 "\n"
-"  ( ИЗРАЗ )                  стойността на ИЗРАЗ\n"
+"  ⁃ ( ИЗРАЗ )                  стойността на ИЗРАЗ\n"
 
 #: src/expr.c:399
 msgid ""
@@ -4600,7 +4604,7 @@ msgstr ""
 #: src/find-mount-point.c:40
 #, c-format
 msgid "cannot get current directory"
-msgstr "не може да се определи коя е текущата директория"
+msgstr "текущата директория не може да се определи"
 
 #: src/find-mount-point.c:50 src/find-mount-point.c:64
 #: src/find-mount-point.c:92
@@ -4787,8 +4791,8 @@ msgid ""
 "  -q, --quiet, --silent    never print headers giving file names\n"
 "  -v, --verbose            always print headers giving file names\n"
 msgstr ""
-"  -q, --quiet, --silent    да не се извеждат заглавия с имената на файловете\n"
-"  -v, --verbose            винаги да извежда заглавия с имената на файловете\n"
+"  -q, --quiet, --silent    без извеждане на заглавия с имената на файловете\n"
+"  -v, --verbose            винаги да се извеждат заглавия с имената на файловете\n"
 
 #: src/head.c:139
 msgid ""
@@ -4836,7 +4840,7 @@ msgstr "недопустимо количество байтове"
 #: src/head.c:1004 src/head.c:1066
 #, c-format
 msgid "invalid trailing option -- %c"
-msgstr "неправилна опция -- %c"
+msgstr "неправилна опция — „%c“"
 
 #: src/hostid.c:41
 #, c-format
@@ -5135,7 +5139,7 @@ msgstr ""
 "                      премахване на таблиците със символи с тази ПРОГРАМА\n"
 "  -S, --suffix=СУФИКС ползване на този СУФИКС за резервни копия, а не обичайния\n"
 "  -t, --target-directory=ДИРЕКТОРИЯ\n"
-"                      копирате на всички аргументи-ИЗТОЧНИци в ДИРЕКТОРИЯта\n"
+"                      копиране на всички аргументи-ИЗТОЧНИци в ДИРЕКТОРИЯта\n"
 "  -T, --no-target-directory\n"
 "                      работа с ЦЕЛта като с обикновен файл\n"
 "  -v, --verbose       извеждане на името на всяка директория при създаването ѝ\n"
@@ -5167,7 +5171,7 @@ msgstr "ПРЕДУПРЕЖДЕНИЕ: опцията „--preserve-context“ с
 
 #: src/install.c:932
 msgid "the strip option may not be used when installing a directory"
-msgstr "опцията за махане на символните таблици не може да се използва при инсталиране на директория"
+msgstr "опцията за махане на таблиците със символи не може да се използва при инсталиране на директория"
 
 #: src/install.c:935
 msgid "target directory not allowed when installing a directory"
@@ -5281,13 +5285,13 @@ msgid ""
 msgstr ""
 "\n"
 "Ако опцията „-t ЗНАК“ е пропусната, бялото поле пред полетата е разделител и\n"
-"се прескача. Иначе ЗНАКът се счита, че разделя полетата.  Всяко ПОЛЕ е номер,\n"
+"се прескача.  Иначе ЗНАКът се счита, че разделя полетата.  Всяко ПОЛЕ е номер,\n"
 "който се брои от 1.  ФОРМАТите са една или повече спецификации, разделени със\n"
 "запетая или интервал,  всяка от които е „НОМЕР_на_файл.ПОЛЕ“ или „0“.\n"
 "Стандартният ФОРМАТ извежда свързващото поле, останалите полета от ФАЙЛ_1 и\n"
 "останалите полета от ФАЙЛ_2, като те се разделят с указания ЗНАК.\n"
 "\n"
-"ВАЖНО: ФАЙЛ_1 и ФАЙЛ_2 трябва да са подредени по свързващите полета!\n"
+"ВНИМАНИЕ: ФАЙЛ_1 и ФАЙЛ_2 трябва да са подредени по свързващите полета!\n"
 "Например: ако на „join“ не са подадени опции, ползвайте „sort -k 1b,1“.\n"
 "ВНИМАНИЕ: подредбата трябва да е според правилата на „LC_COLLATE“ за локала!\n"
 "Ако входните данни не са подредени правилно и някои от редовете не могат да\n"
@@ -5325,11 +5329,11 @@ msgstr "несъвместими заменящи низове за празно
 #: src/join.c:1110 src/sort.c:4539
 #, c-format
 msgid "multi-character tab %s"
-msgstr "табулатор от множество знаци „%s“"
+msgstr "табулация от множество знаци „%s“"
 
 #: src/join.c:1114 src/sort.c:4544
 msgid "incompatible tabs"
-msgstr "несъвместими табулатори"
+msgstr "несъвместими табулации"
 
 #: src/join.c:1187
 msgid "both files cannot be standard input"
@@ -5576,7 +5580,7 @@ msgid ""
 "behavior when a TARGET is a symbolic link, defaulting to %s.\n"
 msgstr ""
 "\n"
-"При ползването на „-s“ — опциите „-L“ и „-P“ се прескачат.  Иначе последната\n"
+"При ползването на „-s“ опциите „-L“ и „-P“ се прескачат.  Иначе последната\n"
 "опция определя поведението, когато ЦЕЛта е символна връзка — стандартно то е\n"
 "същото като „%s“.\n"
 
@@ -5662,7 +5666,7 @@ msgstr "Възможните аргументи са:\n"
 
 #: src/ls.c:2231
 msgid "  - +FORMAT (e.g., +%H:%M) for a 'date'-style format\n"
-msgstr "  — +ФОРМАТ (напр. „+%H:%M“) за форматиране като дата\n"
+msgstr "  ⁃ +ФОРМАТ (напр. „+%H:%M“) за форматиране като дата\n"
 
 #: src/ls.c:2605
 #, c-format
@@ -5742,7 +5746,7 @@ msgid ""
 msgstr ""
 "      --block-size=РАЗМЕР    заедно с „-l“: мащабиране на стойностите към този\n"
 "                             РАЗМЕР при извеждането им, напр. „--block-size=M“.\n"
-"                             Вижте по-долу за възможните стойности  на РАЗМЕРа\n"
+"                             Вж. по-долу за възможните стойности  на РАЗМЕРа\n"
 
 #: src/ls.c:5151
 msgid ""
@@ -5863,8 +5867,8 @@ msgid ""
 "  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN\n"
 msgstr ""
 "      --indicator-style=СТИЛ добавяне на знак в СТИЛа към имената на файловете:\n"
-"                             none (стандартно — без), slash (-p),\n"
-"                               file-type (--file-type), classify (-F)\n"
+"                             „none“ (стандартно — без), „slash“ (-p),\n"
+"                             „file-type“ (--file-type), „classify“ (-F)\n"
 "  -i, --inode                извеждане на номера на i-възела на всеки файл\n"
 "  -I, --ignore=ШАБЛОН        без извеждане на обектите с имена по ШАБЛОНа\n"
 
@@ -5885,11 +5889,12 @@ msgid ""
 "                               references rather than for the link itself\n"
 "  -m                         fill width with a comma separated list of entries\n"
 msgstr ""
-"  -l                         да се ползва формат с подробно изброяване\n"
+"  -l                         формат с подробно изброяване\n"
 "  -L, --dereference          при показване на информация за символна връзка\n"
 "                             да се показва информация за сочения файл вместо за\n"
 "                             самата символна връзка\n"
-"  -m                         попълва в широчина с разделени със запетая елементи\n"
+"  -m                         извеждане на елементите по редове, разделени\n"
+"                             със запетая\n"
 
 #: src/ls.c:5226
 msgid ""
@@ -5967,7 +5972,7 @@ msgstr ""
 msgid "      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below\n"
 msgstr ""
 "      --time-style=ФОРМАТ_ЗА_ВРЕМЕТО\n"
-"                               ФОРМАТ_ЗА_ВРЕМЕТО за опцията „-l“, вижте по-долу\n"
+"                               ФОРМАТ_ЗА_ВРЕМЕТО за опцията „-l“, вж. по-долу\n"
 
 #: src/ls.c:5263
 msgid ""
@@ -6163,7 +6168,7 @@ msgid ""
 "' ' for text or where binary is insignificant), and name for each FILE.\n"
 msgstr ""
 "\n"
-"Сумите се изчисляват така, както е посочено в %s.  При проверка входът\n"
+"Сумите се изчисляват така, както е посочено в „%s“.  При проверка входът\n"
 "трябва да бъде предишен изход от тази програма.  По подразбиране се извежда ред\n"
 "с контролна сума, знак посочващ типа („*“ за двоичен, „ “ за текстов или когато\n"
 "това няма значение) и името на всеки ФАЙЛ.\n"
@@ -6199,22 +6204,22 @@ msgstr "%s: не са открити правилно форматирани %s 
 #, c-format
 msgid "WARNING: %<PRIuMAX> line is improperly formatted"
 msgid_plural "WARNING: %<PRIuMAX> lines are improperly formatted"
-msgstr[0] "ПРЕДУПРЕЖДЕНИЕ: ред %<PRIuMAX> е неправилно форматиран за контролна сума"
-msgstr[1] "ПРЕДУПРЕЖДЕНИЕ: %<PRIuMAX> реда са неправилно форматирани за контролна сума"
+msgstr[0] "ПРЕДУПРЕЖДЕНИЕ: %<PRIuMAX> ред е неправилно форматиран"
+msgstr[1] "ПРЕДУПРЕЖДЕНИЕ: %<PRIuMAX> реда са неправилно форматирани"
 
 #: src/md5sum.c:834
 #, c-format
 msgid "WARNING: %<PRIuMAX> listed file could not be read"
 msgid_plural "WARNING: %<PRIuMAX> listed files could not be read"
-msgstr[0] "ПРЕДУПРЕЖДЕНИЕ: %<PRIuMAX>-ят изброен файл не може да бъде прочетен"
+msgstr[0] "ПРЕДУПРЕЖДЕНИЕ: %<PRIuMAX> изброен файл не може да бъде прочетен"
 msgstr[1] "ПРЕДУПРЕЖДЕНИЕ: %<PRIuMAX> изброени файла не могат да бъде прочетени"
 
 #: src/md5sum.c:842
 #, c-format
 msgid "WARNING: %<PRIuMAX> computed checksum did NOT match"
 msgid_plural "WARNING: %<PRIuMAX> computed checksums did NOT match"
-msgstr[0] "ВНИМАНИЕ: %<PRIuMAX> пресметната контролна сума НЕ пасва"
-msgstr[1] "ВНИМАНИЕ: %<PRIuMAX> пресметнати контролни суми НЕ пасват"
+msgstr[0] "ПРЕДУПРЕЖДЕНИЕ: %<PRIuMAX> пресметната контролна сума НЕ пасва"
+msgstr[1] "ПРЕДУПРЕЖДЕНИЕ: %<PRIuMAX> пресметнати контролни суми НЕ пасват"
 
 #: src/md5sum.c:848
 #, c-format
@@ -6292,7 +6297,7 @@ msgstr "Употреба: %s [ОПЦИЯ]… ДИРЕКТОРИЯ…\n"
 #: src/mkdir.c:60
 msgid "Create the DIRECTORY(ies), if they do not already exist.\n"
 msgstr ""
-"Създаване на ДИРЕКТОРИЯ(и), ако вече не са създадени.\n"
+"Създаване на ДИРЕКТОРИите, ако не са създадени вече.\n"
 "\n"
 
 #: src/mkdir.c:66
@@ -6301,10 +6306,10 @@ msgid ""
 "  -p, --parents     no error if existing, make parent directories as needed\n"
 "  -v, --verbose     print a message for each created directory\n"
 msgstr ""
-"  -m, --mode=РЕЖИМ  задава режим за достъп (като chmod), not a=rwx - umask\n"
-"  -p, --parents     създава и родителските директории, без грешка за\n"
+"  -m, --mode=РЕЖИМ  РЕЖИМ за достъп (като „chmod“), а не „a=rwx“ — „umask“\n"
+"  -p, --parents     създаване на родителските директории, без грешка за\n"
 "                    съществуващи\n"
-"  -v, --verbose     извежда съобщение за всяка създадена директория\n"
+"  -v, --verbose     извеждане на съобщение за всяка създадена директория\n"
 
 #: src/mkdir.c:71
 msgid ""
@@ -6322,7 +6327,7 @@ msgstr ""
 #: src/mkdir.c:221
 #, c-format
 msgid "created directory %s"
-msgstr "създаден е директория „%s“"
+msgstr "създадена е директория „%s“"
 
 #: src/mkdir.c:239 src/mkfifo.c:117 src/mknod.c:134
 #, c-format
@@ -6385,10 +6390,10 @@ msgid ""
 "otherwise, as decimal.  TYPE may be:\n"
 msgstr ""
 "\n"
-"Както ГОЛЯМ, така и МАЛЪК трябва да се посочат, ако ВИДът е „b“, „c“ или „u“, и\n"
-"трябва да се пропуснат, ако той е „p“.  Ако ГОЛЯМ или МАЛЪК започва с 0x или 0X,\n"
-"номерът се интерпретира като шестнадесетичен, ако започва с 0 — като осмичен,\n"
-"а в останалите случаи — като десетичен.  ВИДът може да е:\n"
+"Както ГОЛЯМ, така и МАЛЪК трябва да се посочат, когато ВИДът е „b“, „c“ или „u“,\n"
+"и трябва да се пропуснат, когато  той е „p“.  Ако ГОЛЯМ или МАЛЪК започва с 0x\n"
+"или 0X, номерът се интерпретира като шестнадесетичен, ако започва с 0 — като\n"
+"осмичен, а в останалите случаи — като десетичен.  ВИДът може да е:\n"
 
 #: src/mknod.c:80
 msgid ""
@@ -6495,7 +6500,7 @@ msgid ""
 "                        mktemp creates only the final component\n"
 msgstr ""
 "  -p ДИР, --tmpdir[=ДИР]\n"
-"                        ШАБЛОНЪТ се интрерпретира спрямо тази ДИРектория.  Ако\n"
+"                        ШАБЛОНЪТ се интерпретира спрямо тази ДИРектория.  Ако\n"
 "                        тя не е зададена, се ползва съдържанието на „TMPDIR“, а\n"
 "                        ако и то липсва — „/tmp“.  При задаването на тази опция\n"
 "                        ШАБЛОНЪТ не може да е абсолютно име за разлика от\n"
@@ -6673,7 +6678,7 @@ msgid ""
 "  -s, --number-separator=STRING   add STRING after (possible) line number\n"
 msgstr ""
 "  -h, --header-numbering=СТИЛ     номериране на горния колонтитул с този СТИЛ\n"
-"  -i, --page-increment=РАЗЛИКА    с колко нараства номера на всеки следващ ред\n"
+"  -i, --page-increment=СТЪПКА     СТЪПКА за нарастването на номера\n"
 "  -l, --join-blank-lines=БРОЙ     номер само на последния ред при такъв БРОЙ\n"
 "                                  последователни празни редове\n"
 "  -n, --number-format=ФОРМАТ      номера на редовете според този ФОРМАТ\n"
@@ -6718,7 +6723,7 @@ msgstr ""
 "\n"
 "Стилът е измежду:\n"
 "\n"
-"  ⁃ „a“  номериране на всички редове  \n"
+"  ⁃ „a“  номериране на всички редове\n"
 "  ⁃ „t“  номериране само на непразните редове\n"
 "  ⁃ „n“  без никакво номериране\n"
 "  ⁃ „pРЕГУЛЯРЕН_ИЗРАЗ“\n"
@@ -6768,7 +6773,7 @@ msgstr "неправилно начално число"
 
 #: src/nl.c:516
 msgid "invalid line number increment"
-msgstr "неправилна разлика, с която да нарастват номерата на редовете"
+msgstr "неправилна стъпка, с която да нарастват номерата на редовете"
 
 #: src/nl.c:523
 msgid "invalid line number of blank lines"
@@ -6969,8 +6974,8 @@ msgid ""
 "                         (which means it has no effect in the C/POSIX locale)\n"
 msgstr ""
 "      --grouping       използване на знак за разделяне на групите цифри според\n"
-"                       локала.  За български това е интервал, напр. „1 000 000“.\n"
-"                       Съответно в нулевия локал (C/POSIX) опцията не прави нищо\n"
+"                       локала.  В българския локал такъв няма и както в нулевия\n"
+"                       локал (C/POSIX) опцията не прави нищо\n"
 
 #: src/numfmt.c:916
 msgid ""
@@ -7000,7 +7005,7 @@ msgstr ""
 "      --padding=БРОЙ_ЗНАЦИ\n"
 "                       допълване на изхода до този БРОЙ_ЗНАЦИ.  Положителна\n"
 "                       стойност е за допълване отляво, а отрицателна — отдясно.\n"
-"                       Не се извършва допълване, ако изходът е по-широк от\n"
+"                       Допълване не се извършва, ако изходът е по-широк от\n"
 "                       този БРОЙ_ЗНАЦИ.  Стандартно автоматично се прилага\n"
 "                       допълване, ако в изхода присъства интервал.\n"
 
@@ -7022,7 +7027,7 @@ msgid ""
 "                         SUFFIX in input numbers\n"
 msgstr ""
 "      --suffix=СУФИКС  добавяне на този СУФИКС към изходните числа и приемане\n"
-"                       на този незадължителен СУФИКС от изходните числа\n"
+"                       на този незадължителен СУФИКС при входните числа\n"
 
 #: src/numfmt.c:939
 msgid "      --to=UNIT        auto-scale output numbers to UNITs; see UNIT below\n"
@@ -7298,7 +7303,7 @@ msgstr "опцията „--header“ се прескача при вход от
 #: src/numfmt.c:1632
 #, c-format
 msgid "error reading input"
-msgstr "грешка при при прочитане на входа"
+msgstr "грешка при прочитане на входа"
 
 #: src/numfmt.c:1643
 #, c-format
@@ -7355,7 +7360,7 @@ msgid ""
 msgstr ""
 "  -A, --address-radix=ОСНОВА  формат на отместването във файла.  ОСНОВАта може\n"
 "                              да е „d“ (десетична), „o“ (осмична), „x“\n"
-"                              (шестнайсетична) или „n“ (без отмествания)\n"
+"                              (шестнадесетична) или „n“ (без отмествания)\n"
 "      --endian={big|little}   размяна на входните байтове според указания ред\n"
 "  -j, --skip-bytes=БРОЙ       пропускане на този БРОЙ байтове от входа\n"
 
@@ -7480,7 +7485,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"РАЗМЕРът е шестнайсетично цяло число, когато е ползван префикс „0x“ или „0X“.\n"
+"РАЗМЕРът е шестнадесетично цяло число, когато е ползван префикс „0x“ или „0X“.\n"
 "Може да се ползва някой и суфикс-множител:\n"
 "b≡512, KB≡1000, K≡1024, MB≡1000×1000, M≡1024×1024 и т.н. за „G“, „T“, „P“, „E“,\n"
 "„Z“ и „Y“.  Приемат се и двоични префикси: KiB≡K, MiB≡M и т.н.\n"
@@ -7537,7 +7542,7 @@ msgstr "skip-bytes + read-bytes са твърде много"
 #: src/od.c:1932
 #, c-format
 msgid "warning: invalid width %lu; using %d instead"
-msgstr "внимание: неправилна ширина %lu.  Вместо нея се ползва %d"
+msgstr "ПРЕДУПРЕЖДЕНИЕ: неправилна ширина %lu.  Вместо нея се ползва %d"
 
 #: src/paste.c:222
 msgid "standard input is closed"
@@ -7596,7 +7601,7 @@ msgstr "празно файлово име"
 #: src/pathchk.c:313
 #, c-format
 msgid "%s: unable to determine maximum file name length"
-msgstr "%s: не може да се определи максималната дължина за име на файл"
+msgstr "%s: максималната дължина за име на файл не може да се определи"
 
 #: src/pathchk.c:324
 #, c-format
@@ -7904,7 +7909,7 @@ msgid ""
 "                    truncate lines, but join lines of full length with -J\n"
 msgstr ""
 "  -m, --merge       паралелно извеждане на всички файлове, по един в колона.\n"
-"                    Редовете стандартно се съкращават при необходимост, но с\n"
+"                    Редовете стандартно се отсичат при необходимост, а с\n"
 "                    опцията „-J“ пълните редове се сливат\n"
 
 #: src/pr.c:2793
@@ -8001,7 +8006,7 @@ msgid ""
 "                    with -S or -s\n"
 msgstr ""
 "  -W ШИРОЧИНА, --page-width=ШИРОЧИНА\n"
-"                    налагане на ШИРОЧИНА на страницата в знаци (стандартно 72)\n"
+"                    налагане на ШИРОЧИНА на страницата в знаци (стандартно 72),\n"
 "                    отсичане на редовете (освен със „-J“), не се влияе от\n"
 "                    „-S“ и „-s“\n"
 
@@ -8025,7 +8030,7 @@ msgstr "  -0, --null     завършване на редовете с нуле�
 #: src/printf.c:84
 #, c-format
 msgid "warning: %s: character(s) following character constant have been ignored"
-msgstr "внимание: %s: знаците следващи знакова константа са пренебрегнати"
+msgstr "ПРЕДУПРЕЖДЕНИЕ: %s: знаците, следващи знакова константа, са пренебрегнати"
 
 #: src/printf.c:93
 #, c-format
@@ -8041,7 +8046,7 @@ msgid ""
 "Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:\n"
 "\n"
 msgstr ""
-"Извеждане на АРГУМЕНТите според ФОРМАТа или според ОПЦИите:\n"
+"Извеждане на АРГУМЕНТите според ФОРМА̀Та или според ОПЦИите:\n"
 "\n"
 
 #: src/printf.c:104
@@ -8063,8 +8068,8 @@ msgid ""
 "  \\uHHHH  Unicode (ISO/IEC 10646) character with hex value HHHH (4 digits)\n"
 "  \\UHHHHHHHH  Unicode character with hex value HHHHHHHH (8 digits)\n"
 msgstr ""
-"  \\NNN    байт с осмичен код NNN (от 1 до 3 цифри)\n"
-"  \\xHH    байт с шестнадесетичен код HH (от 1 до 2 цифри)\n"
+"  \\NNN    байт с осмичен код NNN (1/2/3 цифри)\n"
+"  \\xHH    байт с шестнадесетичен код HH (от 1/2 цифри)\n"
 "  \\uHHHH  знак от Unicode (ISO/IEC 10646) с 16-ичен код HHHH (4 цифри)\n"
 "  \\UHHHHHHHH\n"
 "          знак от Unicode със шестнадесетичен код HHHHHHHH (8 цифри)\n"
@@ -8127,7 +8132,7 @@ msgstr "%.*s: неправилна спецификация на преобра�
 #: src/printf.c:711
 #, c-format
 msgid "warning: ignoring excess arguments, starting with %s"
-msgstr "внимание: пренебрегват се излишните аргументи започвайки от „%s“"
+msgstr "ПРЕДУПРЕЖДЕНИЕ: започвайки от „%s“ излишните аргументи се пренебрегват"
 
 #. TRANSLATORS: Please translate "F. Pinard" to "François Pinard"
 #. if "ç" (c-with-cedilla) is available in the translation's character
@@ -8203,9 +8208,9 @@ msgid ""
 "  -o, --only-file=FILE           read only word list from this FILE\n"
 msgstr ""
 "  -W, --word-regexp=РЕГ_ИЗР      РЕГулярен_ИЗРаз, който определя какво е дума\n"
-"  -b, --break-file=ФАЙЛ          думите свършват при знак от този ФАЙЛ\n"
+"  -b, --break-file=ФАЙЛ          думите свършват при знак от този ФАЙЛа\n"
 "  -f, --ignore-case              подредба без разлика главните и малките букви\n"
-"  -g, --gap-size=РАЗМЕР          РАЗМЕР на  мястото между полетата в изхода\n"
+"  -g, --gap-size=РАЗМЕР          РАЗМЕР на мястото между полетата в изхода\n"
 "  -i, --ignore-file=ФАЙЛ         ФАЙЛ с думи, които да се пренебрегват\n"
 "  -o, --only-file=ФАЙЛ           признават се само думи от този ФАЙЛ\n"
 
@@ -8272,7 +8277,7 @@ msgstr "не може да се намери какво съответства �
 #: src/pwd.c:367
 #, c-format
 msgid "ignoring non-option arguments"
-msgstr "аргументи, които не са опции, се пренебрегват"
+msgstr "аргументите, които не са опции, се пренебрегват"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/readlink.c:32
@@ -8482,7 +8487,7 @@ msgid ""
 "                          directory that is on a file system different from\n"
 "                          that of the corresponding command line argument\n"
 msgstr ""
-"      --one-file-system  при рекурсивно изтриване на файлове си прескачат\n"
+"      --one-file-system  при рекурсивно изтриване на файлове се прескачат\n"
 "                         директориите, които са на файлова система, различна от\n"
 "                         тази на съответния аргумент на командния ред\n"
 
@@ -8726,7 +8731,7 @@ msgstr ""
 
 #: src/seq.c:80
 msgid "Print numbers from FIRST to LAST, in steps of INCREMENT.\n"
-msgstr "Извеждане на числата от НАЧАЛО (стандартно 1) до КРАЙ през тази СТЪПКА (стандартно 1).\n"
+msgstr "Извеждане на числата от НАЧАЛОто (стандартно 1) до КРАя през тази СТЪПКА (стандартно 1).\n"
 
 #: src/seq.c:86
 msgid ""
@@ -8734,7 +8739,7 @@ msgid ""
 "  -s, --separator=STRING   use STRING to separate numbers (default: \\n)\n"
 "  -w, --equal-width        equalize width by padding with leading zeroes\n"
 msgstr ""
-"  -f, --format=ФОРМАТ      прилагане на ФОРМАТа на „printf“ за плаваща запетая\n"
+"  -f, --format=ФОРМАТ      прилагане на ФОРМА̀Та на „printf“ за плаваща запетая\n"
 "  -s, --separator=НИЗ      разделяне на числата с този НИЗ (стандартно: нов ред)\n"
 "  -w, --equal-width        допълване с „0“ отпред за еднаква дължина на числата\n"
 
@@ -8896,7 +8901,7 @@ msgstr ""
 "  -u             освобождаване на заделеното пространство за файла и изтриване\n"
 "                 след заличаването му\n"
 "      --remove[=НАЧИН]\n"
-"                 като „-u“, но със задаване на НАЧИНа за изтриване (виж по-долу)\n"
+"                 като „-u“, но със задаване на НАЧИНа за изтриване (вж. по-долу)\n"
 "  -v, --verbose  извеждане на информация за напредъка\n"
 "  -x, --exact    без закръгляване на размерите на файловете до следващия пълен\n"
 "                 блок.  Това е стандартно за специалните файлове и директории\n"
@@ -8998,7 +9003,7 @@ msgstr ""
 "„data=ordered“ (стандартен) и „data=writeback“ „shred“ работи както трябва.\n"
 "Журналният режим на ext3 се управлява с опцията „data=РЕЖИМ“ при монтиране на\n"
 "съответната файлова система във файла „/etc/fstab“, както това е описано в\n"
-"ръководството на mount (виж: man mount).\n"
+"ръководството на mount (вж.: man mount).\n"
 
 #: src/shred.c:245
 msgid ""
@@ -9023,7 +9028,7 @@ msgstr "%s: неуспешно изпълнение на „fsync“"
 #: src/shred.c:472
 #, c-format
 msgid "%s: cannot rewind"
-msgstr "%s: битовете не могат да се обръщат"
+msgstr "%s: неуспешно връщане в началото на файла"
 
 #: src/shred.c:492
 #, c-format
@@ -9073,7 +9078,7 @@ msgstr "%s: файлът има отрицателен размер"
 #: src/shred.c:986 src/sort.c:976 src/split.c:475
 #, c-format
 msgid "%s: error truncating"
-msgstr "%s: неуспешно съкращаване"
+msgstr "%s: неуспешно отсичане"
 
 #: src/shred.c:1005
 #, c-format
@@ -9234,9 +9239,10 @@ msgid ""
 "  -d, --dictionary-order      consider only blanks and alphanumeric characters\n"
 "  -f, --ignore-case           fold lower case to upper case characters\n"
 msgstr ""
-"  -b, --ignore-leading-blanks не отчита интервалите в началото\n"
-"  -d, --dictionary-order      отчита само интервалите и буквено-цифровите знаци\n"
-"  -f, --ignore-case           приравнява малките с главните букви\n"
+"  -b, --ignore-leading-blanks без отчитане на интервалите в началото\n"
+"  -d, --dictionary-order      отчитане само на интервалите и буквено-цифровите\n"
+"                              знаци\n"
+"  -f, --ignore-case           без разлика между главни и малки букви\n"
 
 #: src/sort.c:441
 msgid ""
@@ -9324,7 +9330,7 @@ msgstr ""
 "                            подредбата и предупреждаване за неправилна употреба\n"
 "                            на стандартната грешка\n"
 "      --files0-from=ФАЙЛ    за вход се ползват файловете изброени в този ФАЙЛ,\n"
-"                            разделени с нулев знак.  Имената се изчитат от\n"
+"                            разделени с нулев байт.  Имената се изчитат от\n"
 "                            стандартния вход, ако ФАЙЛът е „-“\n"
 
 #: src/sort.c:485
@@ -9366,7 +9372,7 @@ msgstr ""
 "                            файлове вместо „$TMPDIR“ или „%s“.  Задайте  няколко\n"
 "                            такива опции за няколко директории\n"
 "      --parallel=БРОЙ       ползване на този БРОЙ паралелни подредби\n"
-"  -u, --unique              с „-c“ проверка за строга наредба, иначе се\n"
+"  -u, --unique              с „-c“ — проверка за строга наредба, иначе се\n"
 "                            извежда само първият от група еквивалентни редове\n"
 
 #: src/sort.c:509
@@ -9404,7 +9410,7 @@ msgid ""
 msgstr ""
 "% 1% от паметта, b 1, K 1024 (стандартно) и т.н. за M, G, T, P, E, Z, Y.\n"
 "\n"
-"••• ВНИМАНИЕ •••\n"
+"••• ПРЕДУПРЕЖДЕНИЕ •••\n"
 "Локалът, посочен в обкръжението, влияе на подредбата!\n"
 "Използвайте LC_ALL=C, за да получите традиционната, при която се сравнява според\n"
 "стойността на байтовете.\n"
@@ -9642,7 +9648,7 @@ msgid ""
 "Output pieces of FILE to PREFIXaa, PREFIXab, ...;\n"
 "default size is 1000 lines, and default PREFIX is 'x'.\n"
 msgstr ""
-"Разделя ВХОДа на парчета ПРЕФИКСaa, ПРЕФИКСab,… с фиксиран размер.\n"
+"Разделяне на ВХОДа на парчета ПРЕФИКСaa, ПРЕФИКСab,… с фиксиран размер.\n"
 "Стандартно ПРЕФИКСът е „x“, а размерът — 1000 реда.\n"
 
 #: src/split.c:238
@@ -9729,7 +9735,7 @@ msgstr "създава се файл „%s“\n"
 #: src/split.c:471
 #, c-format
 msgid "%s would overwrite input; aborting"
-msgstr "„%s“ ще презапише изхода, отказ на изпълнение"
+msgstr "„%s“ ще презапише изхода, отказ за изпълнение"
 
 #: src/split.c:488
 msgid "failed to set FILE environment variable"
@@ -9865,7 +9871,7 @@ msgstr "„%s“ не може да се приведе в канонична ф
 #: src/stat.c:1238
 #, c-format
 msgid "warning: unrecognized escape '\\%c'"
-msgstr "ВНИМАНИЕ: непознато екраниране „\\%c“"
+msgstr "ПРЕДУПРЕЖДЕНИЕ: непознато екраниране „\\%c“"
 
 #: src/stat.c:1293
 #, c-format
@@ -9875,7 +9881,7 @@ msgstr "%s: неправилна команда"
 #: src/stat.c:1340
 #, c-format
 msgid "warning: backslash at end of format"
-msgstr "внимание: обратна наклонена черта в края на форматен низ"
+msgstr "ПРЕДУПРЕЖДЕНИЕ: обратна наклонена черта в края на форматен низ"
 
 #: src/stat.c:1371
 #, c-format
@@ -9978,10 +9984,10 @@ msgid ""
 "  -t, --terse           print the information in terse form\n"
 msgstr ""
 "  -c  --format=ФОРМАТ   ползване на посочения ФОРМАТ, вместо стандартния.\n"
-"                        Извеждане на нов ред след всяко използване на ФОРМАТа\n"
+"                        Извеждане на нов ред след всяко използване на ФОРМА̀Та\n"
 "      --printf=ФОРМАТ   като --format, но „\\“ се интерпретират, а задължителният\n"
 "                        завършващ нов ред не се извежда.  Ако искате нов ред,\n"
-"                        вмъкнете „\\n“ във ФОРМАТа.\n"
+"                        вмъкнете „\\n“ във ФОРМА̀Та.\n"
 "  -t, --terse           извеждане на информацията в сбита форма\n"
 
 #: src/stat.c:1540
@@ -10078,7 +10084,7 @@ msgid ""
 "  %d   free file nodes in file system\n"
 "  %f   free blocks in file system\n"
 msgstr ""
-"Валидни формати за файловите системи са:\n"
+"Поддържат се следните формати за файловите системи са:\n"
 "\n"
 "  ⁃ „%a“:  свободни блокове, достъпни за обикновени потребители\n"
 "  ⁃ „%b“:  общ брой блокове за данни във файловата система\n"
@@ -10234,7 +10240,7 @@ msgid ""
 "  -g, --save         print all current settings in a stty-readable form\n"
 "  -F, --file=DEVICE  open and use the specified DEVICE instead of stdin\n"
 msgstr ""
-"  -a, --all          извеждане на всички настройки в удобен за четене вид\n"
+"  -a, --all          извеждане на всички настройки във формат, четим от хора\n"
 "  -g, --save         извеждане на всички настройки във формат, четим от stty\n"
 "  -F, --file=УСТРОЙСТВО\n"
 "                     отваряне и използване на посоченото УСТРОЙСТВО вместо\n"
@@ -10247,9 +10253,9 @@ msgid ""
 "settings.  The underlying system defines which settings are available.\n"
 msgstr ""
 "\n"
-"Незадължителен „-“ преди НАСТРОЙКА показва отрицание.  Със „•“ са означени\n"
-"настройките, която не са от POSIX.  Кои настройки са допустими зависи от\n"
-"използваната система.\n"
+"Незадължителен знак „-“ преди НАСТРОЙКА показва отрицание.  Със знак „•“\n"
+"са означени настройките, която не са от POSIX.  Кои настройки са допустими\n"
+"зависи от използваната система.\n"
 
 #: src/stty.c:555
 msgid ""
@@ -10320,7 +10326,8 @@ msgstr ""
 #: src/stty.c:606
 msgid " * swtch CHAR    CHAR will switch to a different shell layer\n"
 msgstr ""
-" • swtch ЗНАК    ЗНАК, превключващ към друг слой на обвивката (shell layer)\n"
+" • swtch ЗНАК    ЗНАК, превключващ към друг слой на обвивката (остарял начин\n"
+"                 за управление на задачите под System V)\n"
 "\n"
 
 #: src/stty.c:611
@@ -10342,7 +10349,7 @@ msgid ""
 " * cols N        tell the kernel that the terminal has N columns\n"
 " * columns N     same as cols N\n"
 msgstr ""
-" • cols N        задаване към ядрото, че терминалът има N стълба\n"
+" • cols N        задаване, че терминалът има N стълба, към ядрото\n"
 " • columns N     същото като „cols N“\n"
 
 #: src/stty.c:626
@@ -10381,7 +10388,7 @@ msgid ""
 " * rows N        tell the kernel that the terminal has N rows\n"
 " * size          print the number of rows and columns according to the kernel\n"
 msgstr ""
-" • rows N        задаване към ядрото, че терминалът има N реда\n"
+" • rows N        задаване, че терминалът има N реда, към ядрото\n"
 " • size          извеждане на броя редове и стълбове според ядрото\n"
 
 #: src/stty.c:647
@@ -10415,7 +10422,7 @@ msgstr " • [-]cdtrdsr    включване на ръкостискане по
 
 #: src/stty.c:667
 msgid "   csN           set character size to N bits, N in [5..8]\n"
-msgstr "   csN           задаване на размер на знака от N бита (5/6/7/8)\n"
+msgstr "   csN           задаване на размер на знака от N бита, N e 5/6/7/8\n"
 
 #: src/stty.c:670
 msgid ""
@@ -10527,7 +10534,7 @@ msgstr " • [-]ocrnl      заместване на връщането на к�
 
 #: src/stty.c:752
 msgid " * [-]ofdel      use delete characters for fill instead of NUL characters\n"
-msgstr " • [-]ofdel      запълване с изтриващи знаци, а не с нулеви знаци\n"
+msgstr " • [-]ofdel      запълване с изтриващи знаци, а не с нулеви байтове\n"
 
 #: src/stty.c:757
 msgid " * [-]ofill      use fill (padding) characters instead of timing for delays\n"
@@ -10617,12 +10624,12 @@ msgstr " • [-]echoke     същото като „[-]crtkill“\n"
 #: src/stty.c:829
 msgid "   [-]echonl     echo newline even if not echoing other characters\n"
 msgstr ""
-"   [-]echonl     локално извеждане на новите редове, дари когато другите знаци\n"
+"   [-]echonl     локално извеждане на новите редове, дори когато другите знаци\n"
 "                 не се извеждат\n"
 
 #: src/stty.c:833
 msgid " * [-]echoprt    echo erased characters backward, between '\\' and '/'\n"
-msgstr " • [-]echoprt    локално извеждане на изтритите знаци между „\\“ и „/“\n"
+msgstr " • [-]echoprt    локално извеждане между „\\“ и „/“ на изтритите знаци\n"
 
 #: src/stty.c:838
 msgid " * [-]extproc    enable \"LINEMODE\"; useful with high latency links\n"
@@ -10666,7 +10673,7 @@ msgstr ""
 #: src/stty.c:873
 msgid " * [-]xcase      with icanon, escape with '\\' for uppercase characters\n"
 msgstr ""
-" • [-]xcase      с „icanon“, заместване на главните букви с екранирани\n"
+" • [-]xcase      с „icanon“ — заместване на главните букви с екранирани\n"
 "                 с „\\“ малки букви\n"
 
 #: src/stty.c:877
@@ -10711,8 +10718,8 @@ msgid ""
 "   dec           same as %s intr ^c erase 0177\n"
 "                 kill ^u\n"
 msgstr ""
-"   dec           същото като „%s intr ^c erase 0177“\n"
-"                 изчистване на „^u“\n"
+"   dec           същото като „%s intr ^c erase 0177\n"
+"                 kill ^u“\n"
 
 #: src/stty.c:920
 msgid " * [-]decctlq    same as [-]ixany\n"
@@ -10802,7 +10809,7 @@ msgid ""
 "127; special values ^- or undef used to disable special characters.\n"
 msgstr ""
 "\n"
-"Управление на терминалната линия (tty), свързана на стандартния изход.  Без\n"
+"Управление на терминалната линия (tty) свързана на стандартния изход.  Без\n"
 "аргументи извежда скоростта в бодове, дисциплината на линията и различията от\n"
 "„stty sane“.  В настройките ЗНАците се задават дословно или екранирани — „^c“,\n"
 "„0x37“, „0177“ или „127“.  Специалните стойности „^-“ и „undef“ се използват,\n"
@@ -10836,7 +10843,7 @@ msgstr "може да се посочва само едно устройство
 msgid ""
 "the options for verbose and stty-readable output styles are\n"
 "mutually exclusive"
-msgstr "опциите за подробен и за четим от stty стил са несъвместими"
+msgstr "опциите за четим от хора и четим от stty стилове са несъвместими"
 
 #: src/stty.c:1366
 msgid "when specifying an output style, modes may not be set"
@@ -10939,7 +10946,7 @@ msgid ""
 "for details about the options it supports.\n"
 msgstr ""
 "\n"
-"ЗАБЕЛЕЖКА: Обвивката ви може да има своя собствена версия на „%s“.\n"
+"ПРЕДУПРЕЖДЕНИЕ: Обвивката ви може да има своя собствена версия на „%s“.\n"
 "Тя обикновено се предпочита пред версията, описана тук.  Проверете\n"
 "документацията на използваната от вас обвивка за поддържаните от нея опции.\n"
 
@@ -10949,7 +10956,7 @@ msgstr "      --help     извеждане на тази помощ и изхо
 
 #: src/system.h:352
 msgid "      --version  output version information and exit\n"
-msgstr "      --version  извеждане на версията на GNU sed и изход\n"
+msgstr "      --version  извеждане на версията и изход\n"
 
 #: src/system.h:580
 msgid ""
@@ -10993,8 +11000,11 @@ msgid ""
 msgstr ""
 "\n"
 "Извеждане на стойностите в единици според първия зададен РАЗМЕР измежду\n"
-"последователно: опцията „--block-size и стойностите на променливите на средата:\n"
-"„%s_BLOCK_SIZE“, „BLOCK_SIZE““ и „BLOCKSIZE“.\n"
+"последователно:\n"
+"  ⁃ опцията „--block-size;\n"
+"  ⁃ стойността на „%s_BLOCK_SIZE“ (променлива на средата);\n"
+"  ⁃ стойността на „BLOCK_SIZE“ (променлива на средата);\n"
+"  ⁃ стойността на „BLOCKSIZE“ (променлива на средата).\n"
 "Иначе се използват единици от по 1024 байта (или 512, ако е зададена\n"
 "променливата „POSIXLY_CORRECT“).\n"
 
@@ -11068,7 +11078,7 @@ msgid ""
 "The following directory is part of the cycle:\n"
 "  %s\n"
 msgstr ""
-"ВНИМАНИЕ: Цикъл в директориите.\n"
+"ПРЕДУПРЕЖДЕНИЕ: Цикъл в директориите.\n"
 "Това почти със сигурност означава, че имате повредена файлова система.\n"
 "ИЗВЕСТЕТЕ ВАШИЯ СИСТЕМЕН АДМИНИСТРАТОР.\n"
 "Следната директория е част от цикъла:\n"
@@ -11081,7 +11091,7 @@ msgstr "Jay Lepreau"
 
 #: src/tac.c:136
 msgid "Write each FILE to standard output, last line first.\n"
-msgstr "Извеждане на редовете, в обратен ред, от всеки ФАЙЛ на стандартния изход.\n"
+msgstr "Извеждане в обратен ред на редовете от всеки ФАЙЛ на стандартния изход.\n"
 
 #: src/tac.c:143
 msgid ""
@@ -11243,7 +11253,7 @@ msgstr ""
 "файлът да бъде преименуван или преместен, командата ще го следи.  Стандартното\n"
 "поведение не е подходящо, когато важното е името на файла, а не дескриптора\n"
 "(примерно при редовната подмяна на журналните файлове).  В такива случаи\n"
-"ползвайте „--follow=name“.  Така се следи файла с точно това име, без\n"
+"ползвайте „--follow=name“.  Така се следи файлът с точно това име, без\n"
 "преименуването, изтриването и създаването да пречат.\n"
 
 #: src/tail.c:416
@@ -11264,7 +11274,7 @@ msgstr "местоположението на „%s“ не може да се �
 #: src/tail.c:1007
 #, c-format
 msgid "%s has been replaced with an untailable symbolic link"
-msgstr "„%s“ е заменен с файл, с който командата „tail“ не може да работи"
+msgstr "„%s“ е заменен със символна връзка, с която командата „tail“ не може да работи"
 
 #: src/tail.c:1022
 #, c-format
@@ -11308,7 +11318,7 @@ msgstr "%s: не може да се смени режимът към такъв 
 #: src/tail.c:1252 src/tail.c:1427
 #, c-format
 msgid "%s: file truncated"
-msgstr "%s: файлът е съкратен"
+msgstr "%s: файлът бе отсечен"
 
 #: src/tail.c:1286 src/tail.c:1628
 #, c-format
@@ -11399,7 +11409,7 @@ msgstr "„%s“ не може да се следва според името"
 #: src/tail.c:2415
 #, c-format
 msgid "warning: following standard input indefinitely is ineffective"
-msgstr "внимание: безкрайното следване на стандартния вход е безполезно"
+msgstr "ПРЕДУПРЕЖДЕНИЕ: безкрайното следване на стандартния вход е безполезно"
 
 #: src/tail.c:2512
 #, c-format
@@ -11416,7 +11426,7 @@ msgstr ""
 "Копиране на стандартния изход във всеки от ФАЙЛовете, а също и на стандартния изход.\n"
 "\n"
 "  -a, --append              добавяне (а не заместване) към посочените ФАЙЛове\n"
-"  -i, --ignore-interrupts   заглушаването на сигналите за прекъсване\n"
+"  -i, --ignore-interrupts   заглушаване на сигналите за прекъсване\n"
 
 #: src/tee.c:94
 msgid ""
@@ -11426,7 +11436,7 @@ msgstr ""
 "  -p                        диагностициране на грешките при запис в обект, който\n"
 "                            не е програмен канал\n"
 "      --output-error[=РЕЖИМ]\n"
-"                            поведение при грешка при запис.  Вижте „РЕЖИМ“\n"
+"                            поведение при грешка при запис.  Вж. „РЕЖИМ“\n"
 
 #: src/tee.c:100
 msgid ""
@@ -11617,7 +11627,7 @@ msgstr ""
 "  -g ФАЙЛ     ФАЙЛът съществува и при изпълнение задава група\n"
 "  -h ФАЙЛ     ФАЙЛът съществува и е символна връзка (същото като „-L“)\n"
 "  -G ФАЙЛ     ФАЙЛът съществува и се притежава от действащата група\n"
-"  -k ФАЙЛ     ФАЙЛът съществува и е със sticky bit\n"
+"  -k ФАЙЛ     ФАЙЛът съществува и е с лепкав бит\n"
 
 #: src/test.c:752
 msgid ""
@@ -11671,7 +11681,7 @@ msgid ""
 "EXPR2' or 'test EXPR1 || test EXPR2' instead.\n"
 msgstr ""
 "\n"
-"ВНИМАНИЕ: Двоичните „-a“ и „-o“ не са еднозначни!  Вместо тях ползвайте:\n"
+"ПРЕДУПРЕЖДЕНИЕ: Двоичните „-a“ и „-o“ не са еднозначни!  Вместо тях ползвайте:\n"
 "„test ИЗРАЗ_1 && test ИЗРАЗ_2“ или „test ИЗРАЗ_1 || test ИЗРАЗ_2“.\n"
 
 #: src/test.c:778
@@ -11681,7 +11691,7 @@ msgid ""
 "test treats each of those as it treats any other nonempty STRING.\n"
 msgstr ""
 "\n"
-"ВНИМАНИЕ: „[“ приема опциите „--help“ и „--version“, а „test“ — не!\n"
+"ПРЕДУПРЕЖДЕНИЕ: „[“ приема опциите „--help“ и „--version“, а „test“ — не!\n"
 "„test“ ги обработва по същия начин както произволен друг непразен НИЗ.\n"
 
 #: src/test.c:783
@@ -12087,7 +12097,7 @@ msgstr "неправилен брой повторения %s в констру�
 #: src/tr.c:888
 #, c-format
 msgid "missing character class name '[::]'"
-msgstr "името на класа знаци „[::]“ липсва"
+msgstr "името на класа̀ знаци „[::]“ липсва"
 
 #: src/tr.c:891
 #, c-format
@@ -12158,7 +12168,7 @@ msgstr "конструкцията „[c*]“ може да се среща в �
 
 #: src/tr.c:1759
 msgid "Two strings must be given when both deleting and squeezing repeats."
-msgstr "Трябва да сe посочат двe множества при едновременно се изтриване на знаци и отстраняване на повторения."
+msgstr "Трябва да сe посочат двe множества при едновременно изтриване на знаци и отстраняване на повторения."
 
 #: src/tr.c:1761
 msgid "Two strings must be given when translating."
@@ -12179,11 +12189,11 @@ msgstr ""
 
 #: src/true.c:45
 msgid "Exit with a status code indicating success."
-msgstr "Завършва с код-състояние, посочващ успех."
+msgstr "Завършване с код-състояние за успех."
 
 #: src/true.c:46
 msgid "Exit with a status code indicating failure."
-msgstr "Завършва с код-състояние, посочващ неуспех."
+msgstr "Завършване с код-състояние за неуспех."
 
 #: src/truncate.c:70
 #, c-format
@@ -12336,13 +12346,13 @@ msgid ""
 "\n"
 "  -s, --silent, --quiet   print nothing, only return an exit status\n"
 msgstr ""
-"Извежда файловото име на терминала, свързан със стандартния вход.\n"
+"Извеждане на името на файла на терминала, който е свързан със стандартния вход.\n"
 "\n"
-"  -s, --silent, --quiet   не извежда нищо, връща само код на завършване\n"
+"  -s, --silent, --quiet   без извеждане, връщане само на код-състояние\n"
 
 #: src/tty.c:127
 msgid "not a tty"
-msgstr "не е tty"
+msgstr "не е „tty“"
 
 #: src/uname.c:125
 msgid ""
@@ -12587,7 +12597,7 @@ msgstr "  %2d:%02d,  "
 msgid "%lu user"
 msgid_plural "%lu users"
 msgstr[0] "%lu потребител"
-msgstr[1] "%lu потребителя"
+msgstr[1] "%lu потребители"
 
 #: src/uptime.c:161
 #, c-format
@@ -12602,7 +12612,7 @@ msgid ""
 "in the run queue over the last 1, 5 and 15 minutes."
 msgstr ""
 "Извеждане на текущото време, продължителността на времето, през което системата е била\n"
-"стартирана, броят потребители, използващи в момента системата, и средният брой задачи\n"
+"стартирана, броя потребители, използващи в момента системата, и средния брой задачи\n"
 "в опашката на многозадачния диспечер през последните 1, 5 и 15 минути."
 
 #: src/uptime.c:208
@@ -12628,8 +12638,8 @@ msgid ""
 "If FILE is not specified, use %s.  %s as FILE is common.\n"
 "\n"
 msgstr ""
-"Извежда кой в момента е влязъл в системата според ФАЙЛ.\n"
-"Ако не е посочен ФАЙЛ, използва %s. Често ФАЙЛ е %s.\n"
+"Извеждане кой в момента е влязъл в системата според ФАЙЛ.\n"
+"Ако не е посочен ФАЙЛ, се използва „%s“. Често ФАЙЛ е „%s“.\n"
 "\n"
 
 #: src/wc.c:123
@@ -12690,11 +12700,11 @@ msgstr "id="
 
 #: src/who.c:466 src/who.c:471
 msgid "term="
-msgstr "term="
+msgstr "терм="
 
 #: src/who.c:468 src/who.c:472
 msgid "exit="
-msgstr "exit="
+msgstr "изход="
 
 #: src/who.c:489
 msgid "LOGIN"
@@ -12710,7 +12720,7 @@ msgstr "старт-ниво"
 
 #: src/who.c:525 src/who.c:526
 msgid "last="
-msgstr "last="
+msgstr "посл="
 
 #: src/who.c:557
 #, c-format
