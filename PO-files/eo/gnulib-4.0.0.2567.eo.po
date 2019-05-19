@@ -1,0 +1,1215 @@
+# translation of gnulib to Esperanto
+# Copyright (C) 2013, 2019 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnulib package.
+# Felipe Castro <fefcas@gmail.com>, 2013, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnulib 4.0.0.2567\n"
+"Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
+"POT-Creation-Date: 2019-05-18 19:06+0200\n"
+"PO-Revision-Date: 2019-05-19 18:26-0300\n"
+"Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
+"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: lib/argmatch.c:134
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "malvalida argumento %s por %s"
+
+#: lib/argmatch.c:135
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "plursenca argumento %s por %s"
+
+#: lib/argmatch.c:154
+msgid "Valid arguments are:"
+msgstr "Validaj argumentoj estas:"
+
+#: lib/argp-help.c:148
+#, c-format
+msgid "ARGP_HELP_FMT: %s value is less than or equal to %s"
+msgstr "ARGP_HELP_FMT: valoro de %s estas malpli aŭ egala al %s"
+
+#: lib/argp-help.c:224
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
+msgstr "%.*s: parametro ARGP_HELP_FMT postulas valoron"
+
+#: lib/argp-help.c:234
+#, c-format
+msgid "%.*s: Unknown ARGP_HELP_FMT parameter"
+msgstr "%.*s: Nekonata parametro ARGP_HELP_FMT"
+
+#: lib/argp-help.c:247
+#, c-format
+msgid "Garbage in ARGP_HELP_FMT: %s"
+msgstr "Rubaĵo en ARGP_HELP_FMT: %s"
+
+#: lib/argp-help.c:1228
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Devigaj aŭ nedevigaj argumentoj por longaj modifiloj ankaŭ estas devigaj aŭ nedevigaj por iu ajn korespondanta mallonga modifilo."
+
+#: lib/argp-help.c:1617
+msgid "Usage:"
+msgstr "Uzmaniero:"
+
+#: lib/argp-help.c:1621
+msgid "  or: "
+msgstr "  aŭ: "
+
+#: lib/argp-help.c:1633
+msgid " [OPTION...]"
+msgstr " [MODIFILO...]"
+
+#: lib/argp-help.c:1660
+#, c-format
+msgid "Try '%s --help' or '%s --usage' for more information.\n"
+msgstr "Provu '%s --help' aŭ '%s --usage' por pli da informo.\n"
+
+#: lib/argp-help.c:1688
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr "Raportu program-misojn al %s.\n"
+
+#: lib/argp-help.c:1889 lib/error.c:195
+msgid "Unknown system error"
+msgstr "Nekonata sistem-eraro"
+
+#: lib/argp-parse.c:81
+msgid "give this help list"
+msgstr "montri tiun ĉi help-liston"
+
+#: lib/argp-parse.c:82
+msgid "give a short usage message"
+msgstr "montri mallongan mesaĝon pri la uzmaniero"
+
+#: lib/argp-parse.c:83
+msgid "NAME"
+msgstr "NOMO"
+
+#: lib/argp-parse.c:84
+msgid "set the program name"
+msgstr "difini la program-nomon"
+
+#: lib/argp-parse.c:85
+msgid "SECS"
+msgstr "SEK"
+
+#: lib/argp-parse.c:86
+msgid "hang for SECS seconds (default 3600)"
+msgstr "halti dum SEK sekundoj (apriore 3600)"
+
+#: lib/argp-parse.c:143
+msgid "print program version"
+msgstr "montri program-version"
+
+#: lib/argp-parse.c:160
+msgid "(PROGRAM ERROR) No version known!?"
+msgstr "(PROGRAM-ERARO) Neniu versio estas konata!?"
+
+#: lib/argp-parse.c:613
+#, c-format
+msgid "%s: Too many arguments\n"
+msgstr "%s: tro da argumentoj\n"
+
+#: lib/argp-parse.c:759
+msgid "(PROGRAM ERROR) Option should have been recognized!?"
+msgstr "(PROGRAM-ERARO) Modifilo devus esti rekonita!?"
+
+#: lib/bitset/stats.c:177
+#, c-format
+msgid "%u bitset_allocs, %u freed (%.2f%%).\n"
+msgstr "%u bitset_allocs, %u liberitaj (%.2f%%).\n"
+
+#: lib/bitset/stats.c:180
+#, c-format
+msgid "%u bitset_sets, %u cached (%.2f%%)\n"
+msgstr "%u bitset_sets, %u kaŝmem (%.2f%%)\n"
+
+#: lib/bitset/stats.c:183
+#, c-format
+msgid "%u bitset_resets, %u cached (%.2f%%)\n"
+msgstr "%u bitset_resets, %u kaŝmem (%.2f%%)\n"
+
+#: lib/bitset/stats.c:186
+#, c-format
+msgid "%u bitset_tests, %u cached (%.2f%%)\n"
+msgstr "%u bitset_tests, %u kaŝmem (%.2f%%)\n"
+
+#: lib/bitset/stats.c:190
+#, c-format
+msgid "%u bitset_lists\n"
+msgstr "%u bitset_lists\n"
+
+#: lib/bitset/stats.c:192
+msgid "count log histogram\n"
+msgstr "histogramo pri nombro-protokolado\n"
+
+#: lib/bitset/stats.c:195
+msgid "size log histogram\n"
+msgstr "histogramo pri grando-protokolado\n"
+
+#: lib/bitset/stats.c:198
+msgid "density histogram\n"
+msgstr "histogramo pri denso\n"
+
+#: lib/bitset/stats.c:210
+#, c-format
+msgid ""
+"Bitset statistics:\n"
+"\n"
+msgstr ""
+"Bitset statistikoj:\n"
+"\n"
+
+#: lib/bitset/stats.c:213
+#, c-format
+msgid "Accumulated runs = %u\n"
+msgstr "Akumulitaj funkciadoj = %u\n"
+
+#: lib/bitset/stats.c:255 lib/bitset/stats.c:260
+msgid "cannot read stats file"
+msgstr "ne eblas legi dosieron stats"
+
+#: lib/bitset/stats.c:257
+#, c-format
+msgid "bad stats file size\n"
+msgstr "malĝusta dosier-grando de stats\n"
+
+#: lib/bitset/stats.c:281 lib/bitset/stats.c:283
+msgid "cannot write stats file"
+msgstr "ne eblas skibi en dosiero stats"
+
+#: lib/bitset/stats.c:286
+msgid "cannot open stats file for writing"
+msgstr "ne eblas malfermi dosieron stats por skribi"
+
+#: lib/c-stack.c:211 lib/c-stack.c:304
+msgid "program error"
+msgstr "programeraro"
+
+#: lib/c-stack.c:212 lib/c-stack.c:305
+msgid "stack overflow"
+msgstr "staka troigo"
+
+#: lib/clean-temp.c:322
+msgid "cannot find a temporary directory, try setting $TMPDIR"
+msgstr "ne eblas trovi provizoran dosierujon, provu difini $TMPDIR"
+
+#: lib/clean-temp.c:336
+#, c-format
+msgid "cannot create a temporary directory using template \"%s\""
+msgstr "ne eblas krei provizoran dosierujon uzante la ŝablonon \"%s\""
+
+#: lib/clean-temp.c:432
+#, c-format
+msgid "cannot remove temporary file %s"
+msgstr "ne eblas forigi la provizoran dosieron %s"
+
+#: lib/clean-temp.c:447
+#, c-format
+msgid "cannot remove temporary directory %s"
+msgstr "ne eblas forigi la provizoran dosierujon %s"
+
+#: lib/closein.c:100
+msgid "error closing file"
+msgstr "eraro dum fermo de dosiero"
+
+#: lib/closeout.c:122
+msgid "write error"
+msgstr "skrib-eraro"
+
+#: lib/copy-acl.c:54 lib/copy-file.c:198
+#, c-format
+msgid "preserving permissions for %s"
+msgstr "ni tenas la permesojn por %s"
+
+#: lib/copy-file.c:175
+#, c-format
+msgid "error while opening %s for reading"
+msgstr "eraro dum malfermo de %s por legi"
+
+#: lib/copy-file.c:179
+#, c-format
+msgid "cannot open backup file %s for writing"
+msgstr "ne eblas malfermi la savdosieron %s por skribi"
+
+#: lib/copy-file.c:183
+#, c-format
+msgid "error reading %s"
+msgstr "eraro dum lego de %s"
+
+#: lib/copy-file.c:187
+#, c-format
+msgid "error writing %s"
+msgstr "eraro dum skribo de %s"
+
+#: lib/copy-file.c:191
+#, c-format
+msgid "error after reading %s"
+msgstr "eraro post legi %s"
+
+#: lib/csharpcomp.c:202 lib/javaversion.c:78
+msgid "fdopen() failed"
+msgstr "fdopen() fiaskis"
+
+#: lib/csharpcomp.c:443
+msgid "C# compiler not found, try installing mono"
+msgstr "Kompililo C# ne estis trovata, ni provas instali mono"
+
+#: lib/csharpexec.c:255
+msgid "C# virtual machine not found, try installing mono"
+msgstr "Virtuala maŝino C# ne estis trovata, ni provas instali mono"
+
+#: lib/dfa.c:970
+msgid "unbalanced ["
+msgstr "nekongruita ["
+
+#: lib/dfa.c:1091
+msgid "invalid character class"
+msgstr "malvalida signa klaso"
+
+#: lib/dfa.c:1217
+msgid "character class syntax is [[:space:]], not [:space:]"
+msgstr "sintakso de signa klaso estas [[:space:]], ne [:space:]"
+
+#: lib/dfa.c:1284
+msgid "unfinished \\ escape"
+msgstr "nefinigita eskapo \\"
+
+#: lib/dfa.c:1445
+msgid "invalid content of \\{\\}"
+msgstr "malvalida enhavo de \\{\\}"
+
+#: lib/dfa.c:1448
+msgid "regular expression too big"
+msgstr "regulesprimo tro grandas"
+
+#: lib/dfa.c:1863
+msgid "unbalanced ("
+msgstr "nekongruita ("
+
+#: lib/dfa.c:1981
+msgid "no syntax specified"
+msgstr "neniu sintakso estas indikita"
+
+#: lib/dfa.c:1992
+msgid "unbalanced )"
+msgstr "nekongruita )"
+
+#: lib/execute.c:185 lib/execute.c:258 lib/spawn-pipe.c:235
+#: lib/spawn-pipe.c:349 lib/wait-process.c:290 lib/wait-process.c:364
+#, c-format
+msgid "%s subprocess failed"
+msgstr "subprocezo de %s fiaskis"
+
+#: lib/file-type.c:40
+msgid "regular empty file"
+msgstr "regula malplena dosiero"
+
+#: lib/file-type.c:40
+msgid "regular file"
+msgstr "regula dosiero"
+
+#: lib/file-type.c:43
+msgid "directory"
+msgstr "dosierujo"
+
+#: lib/file-type.c:46
+msgid "symbolic link"
+msgstr "simbola ligo"
+
+#: lib/file-type.c:52
+msgid "message queue"
+msgstr "mesaĝovico"
+
+#: lib/file-type.c:55
+msgid "semaphore"
+msgstr "semaforo"
+
+#: lib/file-type.c:58
+msgid "shared memory object"
+msgstr "komuna memorobjekto"
+
+#: lib/file-type.c:61
+msgid "typed memory object"
+msgstr "tipita memorbjekto"
+
+#: lib/file-type.c:66
+msgid "block special file"
+msgstr "bloka speciala dosiero"
+
+#: lib/file-type.c:69
+msgid "character special file"
+msgstr "bajta speciala dosiero"
+
+#: lib/file-type.c:72
+msgid "contiguous data"
+msgstr "kontinua datumaro"
+
+#: lib/file-type.c:75
+msgid "fifo"
+msgstr "fifo"
+
+#: lib/file-type.c:78
+msgid "door"
+msgstr "enirejo"
+
+#: lib/file-type.c:81
+msgid "multiplexed block special file"
+msgstr "multplektita bloka speciala dosiero"
+
+#: lib/file-type.c:84
+msgid "multiplexed character special file"
+msgstr "bajta multplektita speciala dosiero"
+
+#: lib/file-type.c:87
+msgid "multiplexed file"
+msgstr "multplektita dosiero"
+
+#: lib/file-type.c:90
+msgid "named file"
+msgstr "nomigita dosiero"
+
+#: lib/file-type.c:93
+msgid "network special file"
+msgstr "reta speciala dosiero"
+
+#: lib/file-type.c:96
+msgid "migrated file with data"
+msgstr "transmetis dosieron kun datumaro"
+
+#: lib/file-type.c:99
+msgid "migrated file without data"
+msgstr "transmetis dosieron sen datumaro"
+
+#: lib/file-type.c:102
+msgid "port"
+msgstr "pordo"
+
+#: lib/file-type.c:105
+msgid "socket"
+msgstr "konektingo"
+
+#: lib/file-type.c:108
+msgid "whiteout"
+msgstr "'whiteout'"
+
+#: lib/file-type.c:110
+msgid "weird file"
+msgstr "stranga dosiero"
+
+#: lib/gai_strerror.c:57
+msgid "Address family for hostname not supported"
+msgstr "Adresfamilio por komputilretnomo ne estas subtenata"
+
+#: lib/gai_strerror.c:58
+msgid "Temporary failure in name resolution"
+msgstr "Provizora paneo en solvo de retnomo"
+
+#: lib/gai_strerror.c:59
+msgid "Bad value for ai_flags"
+msgstr "Malĝusta valoro por ai_flags"
+
+#: lib/gai_strerror.c:60
+msgid "Non-recoverable failure in name resolution"
+msgstr "Neriparebla paneo en solvo de retnomo"
+
+#: lib/gai_strerror.c:61
+msgid "ai_family not supported"
+msgstr "ai_family ne estas subtenata"
+
+#: lib/gai_strerror.c:62
+msgid "Memory allocation failure"
+msgstr "Rezervo de memoro fiaskis"
+
+#: lib/gai_strerror.c:63
+msgid "No address associated with hostname"
+msgstr "Neniu adreso estas asociita kun komputilretnomo"
+
+#: lib/gai_strerror.c:64
+msgid "Name or service not known"
+msgstr "Nomo aŭ servo ne estas konata"
+
+#: lib/gai_strerror.c:65
+msgid "Servname not supported for ai_socktype"
+msgstr "Servname ne estas subtenata por ai_socktype"
+
+#: lib/gai_strerror.c:66
+msgid "ai_socktype not supported"
+msgstr "ai_socktype ne estas subtenata"
+
+#: lib/gai_strerror.c:67
+msgid "System error"
+msgstr "Sistem-eraro"
+
+#: lib/gai_strerror.c:68
+msgid "Argument buffer too small"
+msgstr "Bufro por argumentoj tro malgrandas"
+
+#: lib/gai_strerror.c:70
+msgid "Processing request in progress"
+msgstr "Procezado de peto daŭras"
+
+#: lib/gai_strerror.c:71
+msgid "Request canceled"
+msgstr "Peto estas nuligita"
+
+#: lib/gai_strerror.c:72
+msgid "Request not canceled"
+msgstr "Peto ne estas nuligita"
+
+#: lib/gai_strerror.c:73
+msgid "All requests done"
+msgstr "Ĉiuj petoj estas plenumitaj"
+
+#: lib/gai_strerror.c:74
+msgid "Interrupted by a signal"
+msgstr "Interrompita de signalo"
+
+#: lib/gai_strerror.c:75
+msgid "Parameter string not correctly encoded"
+msgstr "Parametra ĉeno ne estas ĝuste enkodita"
+
+#: lib/gai_strerror.c:87
+msgid "Unknown error"
+msgstr "Nekonata eraro"
+
+#: lib/getopt.c:278
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s: la modifilo '%s%s' estas plursenca\n"
+
+#: lib/getopt.c:284
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s: la modifilo '%s%s' estas plursenca; eblecoj:"
+
+#: lib/getopt.c:319
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s: nerekonata modifilo '%s%s'\n"
+
+#: lib/getopt.c:345
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s: la modifilo '%s%s' ne permesas argumenton\n"
+
+#: lib/getopt.c:360
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s: la modifilo '%s%s' postulas argumenton\n"
+
+#: lib/getopt.c:621
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: malvalida modifilo -- '%c'\n"
+
+#: lib/getopt.c:636 lib/getopt.c:682
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: la modifilo postulas argumenton -- '%c'\n"
+
+#: lib/javacomp.c:150 lib/javacomp.c:174 lib/javacomp.c:200
+msgid "invalid source_version argument to compile_java_class"
+msgstr "malvalida argumento source_version por compile_java_class"
+
+#: lib/javacomp.c:221 lib/javacomp.c:252
+msgid "invalid target_version argument to compile_java_class"
+msgstr "malvalida argumento target_version por compile_java_class"
+
+#: lib/javacomp.c:579
+#, c-format
+msgid "failed to create \"%s\""
+msgstr "ni fiaskis krei \"%s\""
+
+#: lib/javacomp.c:586
+#, c-format
+msgid "error while writing \"%s\" file"
+msgstr "eraro dum skribo de dosiero \"%s\""
+
+#: lib/javacomp.c:2436
+msgid "Java compiler not found, try installing gcj or set $JAVAC"
+msgstr "Ĵava kompililo ne estis trovata, provu instali gcj aŭ difinu $JAVAC"
+
+#: lib/javaexec.c:417
+msgid "Java virtual machine not found, try installing gij or set $JAVA"
+msgstr "Ĵava virtuala maŝino ne estis trovata, provu instali gij aŭ difinu $JAVA"
+
+#: lib/javaversion.c:86
+#, c-format
+msgid "%s subprocess I/O error"
+msgstr "%s subproceza eraro de en/eligo"
+
+#: lib/mkdir-p.c:162
+#, c-format
+msgid "cannot stat %s"
+msgstr "ne eblas stat %s"
+
+#: lib/mkdir-p.c:190
+#, c-format
+msgid "cannot change permissions of %s"
+msgstr "ne eblas ŝanĝi permesojn de %s"
+
+#: lib/mkdir-p.c:200
+#, c-format
+msgid "cannot create directory %s"
+msgstr "ne eblas krei la dosierujon %s"
+
+#: lib/obstack.c:338 lib/obstack.c:340 lib/xalloc-die.c:34 lib/xsetenv.c:37
+msgid "memory exhausted"
+msgstr "memoro estas plenigita"
+
+#: lib/openat-die.c:38
+msgid "unable to record current working directory"
+msgstr "ne eblas registri la aktualan labordosierujon"
+
+#: lib/openat-die.c:57
+msgid "failed to return to initial working directory"
+msgstr "ni fiaskis reveni al la komenca labordosierujo"
+
+#: lib/pagealign_alloc.c:137
+msgid "Failed to open /dev/zero for read"
+msgstr "Ni fiaskis malfermi /dev/zero por legi"
+
+#: lib/pipe-filter-gi.c:152
+msgid "creation of reading thread failed"
+msgstr "kreo de leganta fadeno fiaskis"
+
+#: lib/pipe-filter-gi.c:257 lib/pipe-filter-ii.c:419
+#, c-format
+msgid "cannot set up nonblocking I/O to %s subprocess"
+msgstr "ne eblas difini neblokantan en/eligon al la subprocezo %s"
+
+#: lib/pipe-filter-gi.c:335 lib/pipe-filter-ii.c:457
+#, c-format
+msgid "communication with %s subprocess failed"
+msgstr "komunikado kun la subprocezo %s fiaskis"
+
+#: lib/pipe-filter-gi.c:365 lib/pipe-filter-ii.c:345 lib/pipe-filter-ii.c:502
+#, c-format
+msgid "write to %s subprocess failed"
+msgstr "skribo al la subprocezo %s fiaskis"
+
+#: lib/pipe-filter-gi.c:405 lib/pipe-filter-ii.c:366 lib/pipe-filter-ii.c:545
+#, c-format
+msgid "read from %s subprocess failed"
+msgstr "lego el la subprocezo %s fiaskis"
+
+#: lib/pipe-filter-gi.c:458
+#, c-format
+msgid "subprocess %s terminated with exit code %d"
+msgstr "la subproceso %s ĉesis kun elira kodo %d"
+
+#: lib/pipe-filter-ii.c:313
+msgid "creation of threads failed"
+msgstr "kreo de fadenoj fiaskis"
+
+#: lib/pipe-filter-ii.c:577
+#, c-format
+msgid "%s subprocess terminated with exit code %d"
+msgstr "la subproceso %s ĉesis kun elira kodo %d"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:362
+msgid "`"
+msgstr "‘"
+
+#: lib/quotearg.c:363
+msgid "'"
+msgstr "’"
+
+#: lib/regcomp.c:135
+msgid "Success"
+msgstr "Sukceso"
+
+#: lib/regcomp.c:138
+msgid "No match"
+msgstr "Neniu kongruaĵo"
+
+#: lib/regcomp.c:141
+msgid "Invalid regular expression"
+msgstr "Malvalida regulesprimo"
+
+#: lib/regcomp.c:144
+msgid "Invalid collation character"
+msgstr "Malvalida ordodifina signo"
+
+#: lib/regcomp.c:147
+msgid "Invalid character class name"
+msgstr "Malvalida signa klasnomo"
+
+#: lib/regcomp.c:150
+msgid "Trailing backslash"
+msgstr "Vosta retroklino"
+
+#: lib/regcomp.c:153
+msgid "Invalid back reference"
+msgstr "Malvalida retroreferenco"
+
+#: lib/regcomp.c:156
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "Senpara [, [^, [:, [., aŭ [="
+
+#: lib/regcomp.c:159
+msgid "Unmatched ( or \\("
+msgstr "Senpara ( aŭ \\("
+
+#: lib/regcomp.c:162
+msgid "Unmatched \\{"
+msgstr "Senpara \\{"
+
+#: lib/regcomp.c:165
+msgid "Invalid content of \\{\\}"
+msgstr "Malvalida enhavo de \\{\\}"
+
+#: lib/regcomp.c:168
+msgid "Invalid range end"
+msgstr "Malvalida intervalofino"
+
+#: lib/regcomp.c:171
+msgid "Memory exhausted"
+msgstr "Memoro estas plenigita"
+
+#: lib/regcomp.c:174
+msgid "Invalid preceding regular expression"
+msgstr "Malvalida antaŭa regulesprimo"
+
+#: lib/regcomp.c:177
+msgid "Premature end of regular expression"
+msgstr "Tro frua fino de regulesprimo"
+
+#: lib/regcomp.c:180
+msgid "Regular expression too big"
+msgstr "Regulesprimo tro grandas"
+
+#: lib/regcomp.c:183
+msgid "Unmatched ) or \\)"
+msgstr "Senpara ) aŭ \\)"
+
+#: lib/regcomp.c:676
+msgid "No previous regular expression"
+msgstr "Neniu antaŭa regulesprimo"
+
+#. TRANSLATORS: A regular expression testing for an affirmative answer
+#. (english: "yes").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^yesexpr='
+#: lib/rpmatch.c:150
+msgid "^[yY]"
+msgstr "^[jJyY]"
+
+#. TRANSLATORS: A regular expression testing for a negative answer
+#. (english: "no").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^noexpr='
+#: lib/rpmatch.c:163
+msgid "^[nN]"
+msgstr "^[nN]"
+
+#: lib/set-acl.c:46
+#, c-format
+msgid "setting permissions for %s"
+msgstr "agordo de permesoj por %s"
+
+#: lib/siglist.h:31
+msgid "Hangup"
+msgstr "Malkonekto"
+
+#: lib/siglist.h:34
+msgid "Interrupt"
+msgstr "Interrompo"
+
+#: lib/siglist.h:37
+msgid "Quit"
+msgstr "Eliri"
+
+#: lib/siglist.h:40
+msgid "Illegal instruction"
+msgstr "Malvalida instrukcio"
+
+#: lib/siglist.h:43
+msgid "Trace/breakpoint trap"
+msgstr "Spursekva/paŭzopunkta kaptilo"
+
+#: lib/siglist.h:46
+msgid "Aborted"
+msgstr "Ĉesigita"
+
+#: lib/siglist.h:49
+msgid "Floating point exception"
+msgstr "Glitkoma escepto"
+
+#: lib/siglist.h:52
+msgid "Killed"
+msgstr "Mortigita"
+
+#: lib/siglist.h:55
+msgid "Bus error"
+msgstr "Bus-eraro"
+
+#: lib/siglist.h:58
+msgid "Segmentation fault"
+msgstr "Adres-eraro"
+
+#: lib/siglist.h:61
+msgid "Broken pipe"
+msgstr "Rompita dukto"
+
+#: lib/siglist.h:64
+msgid "Alarm clock"
+msgstr "Vekhorloĝo"
+
+#: lib/siglist.h:67
+msgid "Terminated"
+msgstr "Finigita"
+
+#: lib/siglist.h:70
+msgid "Urgent I/O condition"
+msgstr "Urĝa en/eliga stato"
+
+#: lib/siglist.h:73
+msgid "Stopped (signal)"
+msgstr "Haltigita (signalo)"
+
+#: lib/siglist.h:76
+msgid "Stopped"
+msgstr "Haltigita"
+
+#: lib/siglist.h:79
+msgid "Continued"
+msgstr "Daŭrigita"
+
+#: lib/siglist.h:82
+msgid "Child exited"
+msgstr "Ido finis"
+
+#: lib/siglist.h:85
+msgid "Stopped (tty input)"
+msgstr "Haltigita (enigo tty)"
+
+#: lib/siglist.h:88
+msgid "Stopped (tty output)"
+msgstr "Haltigita (eligo tty)"
+
+#: lib/siglist.h:91
+msgid "I/O possible"
+msgstr "En/eligo eblas"
+
+#: lib/siglist.h:94
+msgid "CPU time limit exceeded"
+msgstr "Procezila tempolimo estas atingita"
+
+#: lib/siglist.h:97
+msgid "File size limit exceeded"
+msgstr "Dosiergranda limo estas atingita"
+
+#: lib/siglist.h:100
+msgid "Virtual timer expired"
+msgstr "Virtuala horloĝo senvalidiĝis"
+
+#: lib/siglist.h:103
+msgid "Profiling timer expired"
+msgstr "Profilanta horloĝo senvalidiĝis"
+
+#: lib/siglist.h:106
+msgid "Window changed"
+msgstr "Fenestro ŝanĝis"
+
+#: lib/siglist.h:109
+msgid "User defined signal 1"
+msgstr "Signalo 1 difinita de uzanto"
+
+#: lib/siglist.h:112
+msgid "User defined signal 2"
+msgstr "Signalo 2 difinita de uzanto"
+
+#: lib/siglist.h:117
+msgid "EMT trap"
+msgstr "EMT-kaptilo"
+
+#: lib/siglist.h:120
+msgid "Bad system call"
+msgstr "Malĝusta sistemvoko"
+
+#: lib/siglist.h:123
+msgid "Stack fault"
+msgstr "Stak-eraro"
+
+#: lib/siglist.h:126
+msgid "Information request"
+msgstr "Informo-peto"
+
+#: lib/siglist.h:128
+msgid "Power failure"
+msgstr "Elektra paneo"
+
+#: lib/siglist.h:131
+msgid "Resource lost"
+msgstr "Perdo de rimedo"
+
+#: lib/sigpipe-die.c:37
+msgid "error writing to a closed pipe or socket"
+msgstr "eraro skribante al fermida dukto aŭ konektingo"
+
+#: lib/spawn-pipe.c:141 lib/spawn-pipe.c:144 lib/spawn-pipe.c:265
+#: lib/spawn-pipe.c:268
+msgid "cannot create pipe"
+msgstr "ne eblas krei dukton"
+
+#: lib/strsignal.c:114
+#, c-format
+msgid "Real-time signal %d"
+msgstr "Realtempa signalo %d"
+
+#: lib/strsignal.c:118
+#, c-format
+msgid "Unknown signal %d"
+msgstr "Nekonata signalo %d"
+
+#: lib/timevar.c:316
+msgid "Execution times (seconds)"
+msgstr "Tempo de funkciado (sekundoj)"
+
+#: lib/timevar.c:318
+msgid "CPU user"
+msgstr "CPU uzanto"
+
+#: lib/timevar.c:318
+msgid "CPU system"
+msgstr "CPU sistemo"
+
+#: lib/timevar.c:318
+msgid "wall clock"
+msgstr "mur-horloĝo"
+
+#: lib/unicodeio.c:102
+msgid "iconv function not usable"
+msgstr "funkcio iconv ne uzeblas"
+
+#: lib/unicodeio.c:104
+msgid "iconv function not available"
+msgstr "funkcio iconv ne disponeblas"
+
+#: lib/unicodeio.c:111
+msgid "character out of range"
+msgstr "signo estas for de intervalo"
+
+#: lib/unicodeio.c:181
+#, c-format
+msgid "cannot convert U+%04X to local character set"
+msgstr "ne eblas konverti U+%04X al loka signaro"
+
+#: lib/unicodeio.c:183
+#, c-format
+msgid "cannot convert U+%04X to local character set: %s"
+msgstr "ne eblas konverti U+%04X al loka signaro: %s"
+
+#: lib/userspec.c:106
+msgid "invalid user"
+msgstr "malvalida uzanto"
+
+#: lib/userspec.c:107
+msgid "invalid group"
+msgstr "malvalida grupo"
+
+#: lib/userspec.c:108
+msgid "invalid spec"
+msgstr "malvalida spec"
+
+#: lib/verror.c:73
+msgid "unable to display error message"
+msgstr "ne eblas montri erarmesaĝon"
+
+#: lib/version-etc.c:73
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "Pakigita de %s (%s)\n"
+
+#: lib/version-etc.c:76
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "Pakigita de %s\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:83
+msgid "(C)"
+msgstr "©"
+
+#. TRANSLATORS: The %s placeholder is the web address of the GPL license.
+#: lib/version-etc.c:88
+#, c-format
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <%s>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"Permeso GPLv3+: GNU GPL versio 3 aŭ posta <%s>.\n"
+"Tio ĉi estas libera programaro: vi estas libera por ŝanĝi kaj redisdoni ĝin.\n"
+"Ekzistas NENIU GARANTIO, laŭ plej amplekse permesate de la leĝoj.\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:105
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Verkita de %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:109
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Verkita de %s kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:113
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Verkita de %s, %s, kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:120
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:127
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"%s, kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:134
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"%s, %s, kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:142
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"%s, %s, %s, kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:150
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:159
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:170
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, kaj aliaj.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:249
+#, c-format
+msgid "Report bugs to: %s\n"
+msgstr "Raportu program-misojn al: %s\n"
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "Raportu %s misojn al: %s\n"
+
+#: lib/version-etc.c:255 lib/version-etc.c:257
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "%s hejm-paĝo: <%s>\n"
+
+#: lib/version-etc.c:260
+#, c-format
+msgid "General help using GNU software: <%s>\n"
+msgstr "Ĝenerala helpo por uzi programaron GNU: <%s>\n"
+
+#: lib/w32spawn.h:49
+msgid "_open_osfhandle failed"
+msgstr "_open_osfhandle fiaskis"
+
+#: lib/w32spawn.h:90
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr "ne eblas restarigi fd %d: dup2 fiaskis"
+
+#: lib/wait-process.c:231 lib/wait-process.c:263 lib/wait-process.c:325
+#, c-format
+msgid "%s subprocess"
+msgstr "subprocezo %s"
+
+#: lib/wait-process.c:282 lib/wait-process.c:354
+#, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "subprocezo %s ricevis neripareblan signalon %d"
+
+#: lib/xbinary-io.c:37
+msgid "failed to set file descriptor text/binary mode"
+msgstr "ni fiaskis difini la dosieran priaĵon teksta/cifereca reĝimo"
+
+#: lib/xfreopen.c:34
+msgid "stdin"
+msgstr "ĉefenigujo"
+
+#: lib/xfreopen.c:35
+msgid "stdout"
+msgstr "ĉefeligujo"
+
+#: lib/xfreopen.c:36
+msgid "stderr"
+msgstr "ĉeferarujo"
+
+#: lib/xfreopen.c:37
+msgid "unknown stream"
+msgstr "nekonata fluaĵo"
+
+#: lib/xfreopen.c:38
+#, c-format
+msgid "failed to reopen %s with mode %s"
+msgstr "ni fiaskis remalfermi %s kun reĝimo %s"
+
+#: lib/xmemcoll.c:39
+msgid "string comparison failed"
+msgstr "ĉena komparo fiaskis"
+
+#: lib/xmemcoll.c:40
+msgid "Set LC_ALL='C' to work around the problem."
+msgstr "Agordu LC_ALL='C' por ĉirkauiri la problemon."
+
+#: lib/xmemcoll.c:42
+#, c-format
+msgid "The strings compared were %s and %s."
+msgstr "La komparitaj ĉenoj estis %s kaj %s."
+
+#: lib/xprintf.c:50 lib/xprintf.c:76
+msgid "cannot perform formatted output"
+msgstr "ne eblas efektivigi formatitan eligon"
+
+#: lib/xstdopen.c:34
+msgid "standard file descriptors"
+msgstr "laŭnormaj dosier-priaĵoj"
+
+#: lib/xstrtol-error.c:63
+#, c-format
+msgid "invalid %s%s argument '%s'"
+msgstr "malvalida %s%s-argumento '%s'"
+
+#: lib/xstrtol-error.c:68
+#, c-format
+msgid "invalid suffix in %s%s argument '%s'"
+msgstr "malvalida sufikso en %s%s-argumento '%s'"
+
+#: lib/xstrtol-error.c:72
+#, c-format
+msgid "%s%s argument '%s' too large"
+msgstr "%s%s-argumento '%s' tro larĝas"
+
+#~ msgid "%s home page: <https://www.gnu.org/software/%s/>\n"
+#~ msgstr "%s hejm-paĝo: <https://www.gnu.org/software/%s/>\n"
+
+#~ msgid "%.*s: ARGP_HELP_FMT parameter must be positive"
+#~ msgstr "%.*s: parametro ARGP_HELP_FMT devas esti pozitiva"
+
+#~ msgid "%s: option '--%s' doesn't allow an argument\n"
+#~ msgstr "%s: la modifilo '--%s' ne permesas argumenton\n"
+
+#~ msgid "%s: unrecognized option '--%s'\n"
+#~ msgstr "%s: nerekonata modifilo '--%s'\n"
+
+#~ msgid "%s: option '-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: la modifilo '-W %s' ne permesas argumenton\n"
+
+#~ msgid "%s: option '-W %s' requires an argument\n"
+#~ msgstr "%s: la modifilo '-W %s' postulas argumenton\n"
+
+#~ msgid "Franc,ois Pinard"
+#~ msgstr "François Pinard"
