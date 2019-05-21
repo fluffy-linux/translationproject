@@ -1,0 +1,1217 @@
+# translation of gnulib-2.0.0.3462.e9796.ru.po to Russian
+# Copyright (C) 2005, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnulib package.
+#
+# Sergey Poznyakoff <gray@gnu.org>, 2003,2004,2005.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnulib 4.0.0.2567\n"
+"Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
+"POT-Creation-Date: 2019-05-18 19:06+0200\n"
+"PO-Revision-Date: 2019-05-21 18:46+0300\n"
+"Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
+"Language-Team: Russian <gnu@d07.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: lib/argmatch.c:134
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "неверный аргумент %s для %s"
+
+#: lib/argmatch.c:135
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "неоднозначный аргумент %s для %s"
+
+#: lib/argmatch.c:154
+msgid "Valid arguments are:"
+msgstr "Верные аргументы:"
+
+#: lib/argp-help.c:148
+#, c-format
+msgid "ARGP_HELP_FMT: %s value is less than or equal to %s"
+msgstr "ARGP_HELP_FMT: значение %s меньше или равно %s"
+
+#: lib/argp-help.c:224
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
+msgstr "%.*s: параметр ARGP_HELP_FMT требует значения"
+
+#: lib/argp-help.c:234
+#, c-format
+msgid "%.*s: Unknown ARGP_HELP_FMT parameter"
+msgstr "%.*s: неизвестный параметр ARGP_HELP_FMT"
+
+#: lib/argp-help.c:247
+#, c-format
+msgid "Garbage in ARGP_HELP_FMT: %s"
+msgstr "Мусор в ARGP_HELP_FMT: %s"
+
+#: lib/argp-help.c:1228
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Обязательные или необязательные аргументы к длинным именам параметров остаются таковыми и к соответствующим коротким параметрам."
+
+#: lib/argp-help.c:1617
+msgid "Usage:"
+msgstr "Использование:"
+
+#: lib/argp-help.c:1621
+msgid "  or: "
+msgstr "  или: "
+
+#: lib/argp-help.c:1633
+msgid " [OPTION...]"
+msgstr " [ПАРАМЕТР...]"
+
+#: lib/argp-help.c:1660
+#, c-format
+msgid "Try '%s --help' or '%s --usage' for more information.\n"
+msgstr "Попробуйте «%s --help» или «%s --usage» для получения более подробного описания.\n"
+
+#: lib/argp-help.c:1688
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr "Об ошибках сообщай по адресу %s.\n"
+
+#: lib/argp-help.c:1889 lib/error.c:195
+msgid "Unknown system error"
+msgstr "Неизвестная системная ошибка"
+
+#: lib/argp-parse.c:81
+msgid "give this help list"
+msgstr "показать эту справку"
+
+#: lib/argp-parse.c:82
+msgid "give a short usage message"
+msgstr "показать короткую справку по использованию"
+
+#: lib/argp-parse.c:83
+msgid "NAME"
+msgstr "ИМЯ"
+
+#: lib/argp-parse.c:84
+msgid "set the program name"
+msgstr "задать имя программы"
+
+#: lib/argp-parse.c:85
+msgid "SECS"
+msgstr "СЕКУНД"
+
+#: lib/argp-parse.c:86
+msgid "hang for SECS seconds (default 3600)"
+msgstr "остановиться на заданное число СЕКУНД (по умолчанию 3600)"
+
+#: lib/argp-parse.c:143
+msgid "print program version"
+msgstr "показать номер версии программы"
+
+#: lib/argp-parse.c:160
+msgid "(PROGRAM ERROR) No version known!?"
+msgstr "(ОШИБКА ПРОГРАММЫ) Версия неизвестна!?"
+
+#: lib/argp-parse.c:613
+#, c-format
+msgid "%s: Too many arguments\n"
+msgstr "%s: слишком много аргументов\n"
+
+#: lib/argp-parse.c:759
+msgid "(PROGRAM ERROR) Option should have been recognized!?"
+msgstr "(ОШИБКА ПРОГРАММЫ) Параметр должен был быть распознан!?"
+
+#: lib/bitset/stats.c:177
+#, c-format
+msgid "%u bitset_allocs, %u freed (%.2f%%).\n"
+msgstr "%u bitset_allocs, %u освобождено (%.2f%%).\n"
+
+#: lib/bitset/stats.c:180
+#, c-format
+msgid "%u bitset_sets, %u cached (%.2f%%)\n"
+msgstr "%u bitset_sets, %u кэшировано (%.2f%%)\n"
+
+#: lib/bitset/stats.c:183
+#, c-format
+msgid "%u bitset_resets, %u cached (%.2f%%)\n"
+msgstr "%u bitset_resets, %u кэшировано (%.2f%%)\n"
+
+#: lib/bitset/stats.c:186
+#, c-format
+msgid "%u bitset_tests, %u cached (%.2f%%)\n"
+msgstr "%u bitset_tests, %u кэшировано (%.2f%%)\n"
+
+#: lib/bitset/stats.c:190
+#, c-format
+msgid "%u bitset_lists\n"
+msgstr "%u bitset_lists\n"
+
+#: lib/bitset/stats.c:192
+msgid "count log histogram\n"
+msgstr "количественная логарифмическая гистограмма\n"
+
+#: lib/bitset/stats.c:195
+msgid "size log histogram\n"
+msgstr "размерная логарифмическая гистограмма\n"
+
+#: lib/bitset/stats.c:198
+msgid "density histogram\n"
+msgstr "гистограмма плотности\n"
+
+#: lib/bitset/stats.c:210
+#, c-format
+msgid ""
+"Bitset statistics:\n"
+"\n"
+msgstr ""
+"Статистика bitset:\n"
+"\n"
+
+#: lib/bitset/stats.c:213
+#, c-format
+msgid "Accumulated runs = %u\n"
+msgstr "Накопленных запусков = %u\n"
+
+#: lib/bitset/stats.c:255 lib/bitset/stats.c:260
+msgid "cannot read stats file"
+msgstr "невозможно прочитать файл stats"
+
+#: lib/bitset/stats.c:257
+#, c-format
+msgid "bad stats file size\n"
+msgstr "некорректный размер файла stats\n"
+
+#: lib/bitset/stats.c:281 lib/bitset/stats.c:283
+msgid "cannot write stats file"
+msgstr "невозможно записать файл stats"
+
+#: lib/bitset/stats.c:286
+msgid "cannot open stats file for writing"
+msgstr "невозможно открыть файл stats для записи"
+
+#: lib/c-stack.c:211 lib/c-stack.c:304
+msgid "program error"
+msgstr "программная ошибка"
+
+#: lib/c-stack.c:212 lib/c-stack.c:305
+msgid "stack overflow"
+msgstr "переполнение стека"
+
+#: lib/clean-temp.c:322
+msgid "cannot find a temporary directory, try setting $TMPDIR"
+msgstr "не удалось найти временный каталог, попробуйте задать $TMPDIR"
+
+#: lib/clean-temp.c:336
+#, c-format
+msgid "cannot create a temporary directory using template \"%s\""
+msgstr "не удалось создать временный каталог с помощью шаблона «%s»"
+
+#: lib/clean-temp.c:432
+#, c-format
+msgid "cannot remove temporary file %s"
+msgstr "не удалось удалить временный файл %s"
+
+#: lib/clean-temp.c:447
+#, c-format
+msgid "cannot remove temporary directory %s"
+msgstr "не удалось удалить временный каталог %s"
+
+#: lib/closein.c:100
+msgid "error closing file"
+msgstr "ошибка закрытия файла"
+
+#: lib/closeout.c:122
+msgid "write error"
+msgstr "ошибка записи"
+
+#: lib/copy-acl.c:54 lib/copy-file.c:198
+#, c-format
+msgid "preserving permissions for %s"
+msgstr "сохраняются права доступа для %s"
+
+#: lib/copy-file.c:175
+#, c-format
+msgid "error while opening %s for reading"
+msgstr "ошибка при открытии файла %s для чтения"
+
+#: lib/copy-file.c:179
+#, c-format
+msgid "cannot open backup file %s for writing"
+msgstr "не удалось открыть файл резервной копии %s для записи"
+
+#: lib/copy-file.c:183
+#, c-format
+msgid "error reading %s"
+msgstr "ошибка чтения %s"
+
+#: lib/copy-file.c:187
+#, c-format
+msgid "error writing %s"
+msgstr "ошибка записи %s"
+
+#: lib/copy-file.c:191
+#, c-format
+msgid "error after reading %s"
+msgstr "ошибка после чтения %s"
+
+#: lib/csharpcomp.c:202 lib/javaversion.c:78
+msgid "fdopen() failed"
+msgstr "ошибка при выполнении fdopen()"
+
+#: lib/csharpcomp.c:443
+msgid "C# compiler not found, try installing mono"
+msgstr "Не найден компилятор C#, попробуйте установить mono"
+
+#: lib/csharpexec.c:255
+msgid "C# virtual machine not found, try installing mono"
+msgstr "Не найдена виртуальная машина C#, попробуйте установить mono"
+
+#: lib/dfa.c:970
+msgid "unbalanced ["
+msgstr "несбалансированная ["
+
+#: lib/dfa.c:1091
+msgid "invalid character class"
+msgstr "неправильный класс символов"
+
+#: lib/dfa.c:1217
+msgid "character class syntax is [[:space:]], not [:space:]"
+msgstr "синтаксис класса символов: [[:space:]], а не [:space:]"
+
+#: lib/dfa.c:1284
+msgid "unfinished \\ escape"
+msgstr "незавершённая \\ экранирующая последовательность"
+
+#: lib/dfa.c:1445
+msgid "invalid content of \\{\\}"
+msgstr "неправильное содержимое в \\{\\}"
+
+#: lib/dfa.c:1448
+msgid "regular expression too big"
+msgstr "регулярное выражение слишком большое"
+
+#: lib/dfa.c:1863
+msgid "unbalanced ("
+msgstr "несбалансированная ("
+
+#: lib/dfa.c:1981
+msgid "no syntax specified"
+msgstr "не указан синтаксис"
+
+#: lib/dfa.c:1992
+msgid "unbalanced )"
+msgstr "несбалансированная )"
+
+#: lib/execute.c:185 lib/execute.c:258 lib/spawn-pipe.c:235
+#: lib/spawn-pipe.c:349 lib/wait-process.c:290 lib/wait-process.c:364
+#, c-format
+msgid "%s subprocess failed"
+msgstr "подпроцесс %s завершился с ошибкой"
+
+#: lib/file-type.c:40
+msgid "regular empty file"
+msgstr "пустой обычный файл"
+
+#: lib/file-type.c:40
+msgid "regular file"
+msgstr "обычный файл"
+
+#: lib/file-type.c:43
+msgid "directory"
+msgstr "каталог"
+
+#: lib/file-type.c:46
+msgid "symbolic link"
+msgstr "символьная ссылка"
+
+#: lib/file-type.c:52
+msgid "message queue"
+msgstr "очередь сообщений"
+
+#: lib/file-type.c:55
+msgid "semaphore"
+msgstr "семафор"
+
+#: lib/file-type.c:58
+msgid "shared memory object"
+msgstr "объект общей памяти"
+
+#: lib/file-type.c:61
+msgid "typed memory object"
+msgstr "объект типизированной памяти"
+
+#: lib/file-type.c:66
+msgid "block special file"
+msgstr "блочный специальный файл"
+
+#: lib/file-type.c:69
+msgid "character special file"
+msgstr "символьный специальный файл"
+
+#: lib/file-type.c:72
+msgid "contiguous data"
+msgstr "непрерывные данные"
+
+#: lib/file-type.c:75
+msgid "fifo"
+msgstr "файл-очередь"
+
+#: lib/file-type.c:78
+msgid "door"
+msgstr "дверь"
+
+#: lib/file-type.c:81
+msgid "multiplexed block special file"
+msgstr "мультиплексный блочный специальный файл"
+
+#: lib/file-type.c:84
+msgid "multiplexed character special file"
+msgstr "мультиплексный символьный специальный файл"
+
+#: lib/file-type.c:87
+msgid "multiplexed file"
+msgstr "мультиплексный файл"
+
+#: lib/file-type.c:90
+msgid "named file"
+msgstr "именованный файл"
+
+#: lib/file-type.c:93
+msgid "network special file"
+msgstr "сетевой специальный файл"
+
+#: lib/file-type.c:96
+msgid "migrated file with data"
+msgstr "переносной файл с данными"
+
+#: lib/file-type.c:99
+msgid "migrated file without data"
+msgstr "переносной файл без данных"
+
+#: lib/file-type.c:102
+msgid "port"
+msgstr "порт"
+
+#: lib/file-type.c:105
+msgid "socket"
+msgstr "сокет"
+
+#: lib/file-type.c:108
+msgid "whiteout"
+msgstr "замазка"
+
+#: lib/file-type.c:110
+msgid "weird file"
+msgstr "странный файл"
+
+#: lib/gai_strerror.c:57
+msgid "Address family for hostname not supported"
+msgstr "Адресное семейство не поддерживается для имени узла"
+
+#: lib/gai_strerror.c:58
+msgid "Temporary failure in name resolution"
+msgstr "Временная ошибка при определении имени"
+
+#: lib/gai_strerror.c:59
+msgid "Bad value for ai_flags"
+msgstr "Неверное значение для ai_flags"
+
+#: lib/gai_strerror.c:60
+msgid "Non-recoverable failure in name resolution"
+msgstr "Невосстановимая ошибка при определении имени"
+
+#: lib/gai_strerror.c:61
+msgid "ai_family not supported"
+msgstr "ai_family не поддерживается"
+
+#: lib/gai_strerror.c:62
+msgid "Memory allocation failure"
+msgstr "Ошибка при выделении памяти"
+
+#: lib/gai_strerror.c:63
+msgid "No address associated with hostname"
+msgstr "С именем узла не связано ни одного адреса"
+
+#: lib/gai_strerror.c:64
+msgid "Name or service not known"
+msgstr "Неизвестное имя или служба"
+
+#: lib/gai_strerror.c:65
+msgid "Servname not supported for ai_socktype"
+msgstr "Servname не поддерживается для ai_socktype"
+
+#: lib/gai_strerror.c:66
+msgid "ai_socktype not supported"
+msgstr "ai_socktype не поддерживается"
+
+#: lib/gai_strerror.c:67
+msgid "System error"
+msgstr "Системная ошибка"
+
+#: lib/gai_strerror.c:68
+msgid "Argument buffer too small"
+msgstr "Слишком маленький буфер, указанный в аргументе"
+
+#: lib/gai_strerror.c:70
+msgid "Processing request in progress"
+msgstr "Выполняется обработка запроса"
+
+#: lib/gai_strerror.c:71
+msgid "Request canceled"
+msgstr "Запрос отменён"
+
+#: lib/gai_strerror.c:72
+msgid "Request not canceled"
+msgstr "Запрос не отменён"
+
+#: lib/gai_strerror.c:73
+msgid "All requests done"
+msgstr "Все запросы выполнены"
+
+#: lib/gai_strerror.c:74
+msgid "Interrupted by a signal"
+msgstr "Прервано по сигналу"
+
+#: lib/gai_strerror.c:75
+msgid "Parameter string not correctly encoded"
+msgstr "Строковый параметр неправильно закодирован"
+
+#: lib/gai_strerror.c:87
+msgid "Unknown error"
+msgstr "Неизвестная ошибка"
+
+#: lib/getopt.c:278
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s: двусмысленный параметр «%s%s»\n"
+
+#: lib/getopt.c:284
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s: двусмысленный параметр «%s%s»; возможные варианты:"
+
+#: lib/getopt.c:319
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s: нераспознанный параметр «%s%s»\n"
+
+#: lib/getopt.c:345
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s: для параметра «%s%s» нельзя использовать аргумент\n"
+
+#: lib/getopt.c:360
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s: для параметра «%s%s» требуется аргумент\n"
+
+#: lib/getopt.c:621
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: неправильный параметр -- «%c»\n"
+
+#: lib/getopt.c:636 lib/getopt.c:682
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: для параметра требуется аргумент -- «%c»\n"
+
+#: lib/javacomp.c:150 lib/javacomp.c:174 lib/javacomp.c:200
+msgid "invalid source_version argument to compile_java_class"
+msgstr "неверный аргумент source_version для compile_java_class"
+
+#: lib/javacomp.c:221 lib/javacomp.c:252
+msgid "invalid target_version argument to compile_java_class"
+msgstr "неверный аргумент target_version для compile_java_class"
+
+#: lib/javacomp.c:579
+#, c-format
+msgid "failed to create \"%s\""
+msgstr "не удалось создать «%s»"
+
+#: lib/javacomp.c:586
+#, c-format
+msgid "error while writing \"%s\" file"
+msgstr "ошибка записи в файл «%s»"
+
+#: lib/javacomp.c:2436
+msgid "Java compiler not found, try installing gcj or set $JAVAC"
+msgstr "Не найден компилятор Java, попробуйте установить gcj или задать $JAVAC"
+
+#: lib/javaexec.c:417
+msgid "Java virtual machine not found, try installing gij or set $JAVA"
+msgstr "Не найдена виртуальная машина Java, попробуйте установить gcj или задать $JAVA"
+
+#: lib/javaversion.c:86
+#, c-format
+msgid "%s subprocess I/O error"
+msgstr "ошибка вв/вывода подпроцесса %s"
+
+#: lib/mkdir-p.c:162
+#, c-format
+msgid "cannot stat %s"
+msgstr "не удалось выполнить stat для %s"
+
+#: lib/mkdir-p.c:190
+#, c-format
+msgid "cannot change permissions of %s"
+msgstr "невозможно изменить права доступа %s"
+
+#: lib/mkdir-p.c:200
+#, c-format
+msgid "cannot create directory %s"
+msgstr "невозможно создать каталог %s"
+
+#: lib/obstack.c:338 lib/obstack.c:340 lib/xalloc-die.c:34 lib/xsetenv.c:37
+msgid "memory exhausted"
+msgstr "закончилась память"
+
+#: lib/openat-die.c:38
+msgid "unable to record current working directory"
+msgstr "не удалось запомнить текущий рабочий каталог"
+
+#: lib/openat-die.c:57
+msgid "failed to return to initial working directory"
+msgstr "не удалось вернуться в первоначальный рабочий каталог"
+
+#: lib/pagealign_alloc.c:137
+msgid "Failed to open /dev/zero for read"
+msgstr "Не удалось открыть /dev/zero на чтение"
+
+#: lib/pipe-filter-gi.c:152
+msgid "creation of reading thread failed"
+msgstr "не удалось создать нить для чтения"
+
+#: lib/pipe-filter-gi.c:257 lib/pipe-filter-ii.c:419
+#, c-format
+msgid "cannot set up nonblocking I/O to %s subprocess"
+msgstr "не удалось настроить неблокированный ввод-вывод в подпроцессе %s"
+
+#: lib/pipe-filter-gi.c:335 lib/pipe-filter-ii.c:457
+#, c-format
+msgid "communication with %s subprocess failed"
+msgstr "не удалось связаться с подпроцессом %s"
+
+#: lib/pipe-filter-gi.c:365 lib/pipe-filter-ii.c:345 lib/pipe-filter-ii.c:502
+#, c-format
+msgid "write to %s subprocess failed"
+msgstr "не удалось записать в подпроцесс %s"
+
+#: lib/pipe-filter-gi.c:405 lib/pipe-filter-ii.c:366 lib/pipe-filter-ii.c:545
+#, c-format
+msgid "read from %s subprocess failed"
+msgstr "не удалось прочитать из подпроцесса %s"
+
+#: lib/pipe-filter-gi.c:458
+#, c-format
+msgid "subprocess %s terminated with exit code %d"
+msgstr "подпроцесс %s завершился с кодом выхода %d"
+
+#: lib/pipe-filter-ii.c:313
+msgid "creation of threads failed"
+msgstr "не удалось создать нити"
+
+#: lib/pipe-filter-ii.c:577
+#, c-format
+msgid "%s subprocess terminated with exit code %d"
+msgstr "подпроцесс %s завершился с кодом выхода %d"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:362
+msgid "`"
+msgstr "«"
+
+#: lib/quotearg.c:363
+msgid "'"
+msgstr "»"
+
+#: lib/regcomp.c:135
+msgid "Success"
+msgstr "Успешно"
+
+#: lib/regcomp.c:138
+msgid "No match"
+msgstr "Нет совпадений"
+
+#: lib/regcomp.c:141
+msgid "Invalid regular expression"
+msgstr "Неверное регулярное выражение"
+
+#: lib/regcomp.c:144
+msgid "Invalid collation character"
+msgstr "Неверный символ сравнения"
+
+#: lib/regcomp.c:147
+msgid "Invalid character class name"
+msgstr "Неверное имя класса символов"
+
+#: lib/regcomp.c:150
+msgid "Trailing backslash"
+msgstr "Конечная обратная косая черта"
+
+#: lib/regcomp.c:153
+msgid "Invalid back reference"
+msgstr "Неверная обратная ссылка"
+
+#: lib/regcomp.c:156
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "Непарная [, [^, [:, [. или [="
+
+#: lib/regcomp.c:159
+msgid "Unmatched ( or \\("
+msgstr "Непарная ( или \\("
+
+#: lib/regcomp.c:162
+msgid "Unmatched \\{"
+msgstr "Непарная \\{"
+
+#: lib/regcomp.c:165
+msgid "Invalid content of \\{\\}"
+msgstr "Недопустимое содержимое в \\{\\}"
+
+#: lib/regcomp.c:168
+msgid "Invalid range end"
+msgstr "Неверный конец диапазона"
+
+#: lib/regcomp.c:171
+msgid "Memory exhausted"
+msgstr "Закончилась память"
+
+#: lib/regcomp.c:174
+msgid "Invalid preceding regular expression"
+msgstr "Недопустимое предшествующее регулярное выражение"
+
+#: lib/regcomp.c:177
+msgid "Premature end of regular expression"
+msgstr "Преждевременное завершение регулярного выражения"
+
+#: lib/regcomp.c:180
+msgid "Regular expression too big"
+msgstr "Слишком большое регулярное выражение"
+
+#: lib/regcomp.c:183
+msgid "Unmatched ) or \\)"
+msgstr "Непарная ) или \\)"
+
+#: lib/regcomp.c:676
+msgid "No previous regular expression"
+msgstr "Отсутствует предыдущее регулярное выражение"
+
+#. TRANSLATORS: A regular expression testing for an affirmative answer
+#. (english: "yes").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^yesexpr='
+#: lib/rpmatch.c:150
+msgid "^[yY]"
+msgstr "^[ДдYy]"
+
+#. TRANSLATORS: A regular expression testing for a negative answer
+#. (english: "no").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^noexpr='
+#: lib/rpmatch.c:163
+msgid "^[nN]"
+msgstr "^[НнNn]"
+
+#: lib/set-acl.c:46
+#, c-format
+msgid "setting permissions for %s"
+msgstr "задание прав доступа для %s"
+
+#: lib/siglist.h:31
+msgid "Hangup"
+msgstr "Обрыв терминальной линии"
+
+#: lib/siglist.h:34
+msgid "Interrupt"
+msgstr "Прерывание"
+
+#: lib/siglist.h:37
+msgid "Quit"
+msgstr "Аварийное прерывание"
+
+#: lib/siglist.h:40
+msgid "Illegal instruction"
+msgstr "Недопустимая инструкция"
+
+#: lib/siglist.h:43
+msgid "Trace/breakpoint trap"
+msgstr "Прерывание на контрольной точке"
+
+#: lib/siglist.h:46
+msgid "Aborted"
+msgstr "Прервано"
+
+#: lib/siglist.h:49
+msgid "Floating point exception"
+msgstr "Ошибка операции с плавающей точкой"
+
+#: lib/siglist.h:52
+msgid "Killed"
+msgstr "Уничтожение"
+
+#: lib/siglist.h:55
+msgid "Bus error"
+msgstr "Ошибка шины"
+
+#: lib/siglist.h:58
+msgid "Segmentation fault"
+msgstr "Нарушение сегментирования"
+
+#: lib/siglist.h:61
+msgid "Broken pipe"
+msgstr "Обрыв канала"
+
+#: lib/siglist.h:64
+msgid "Alarm clock"
+msgstr "Сигнал по таймеру"
+
+#: lib/siglist.h:67
+msgid "Terminated"
+msgstr "Завершение"
+
+#: lib/siglist.h:70
+msgid "Urgent I/O condition"
+msgstr "Срочная операция ввода-вывода"
+
+#: lib/siglist.h:73
+msgid "Stopped (signal)"
+msgstr "Останов (сигнал)"
+
+#: lib/siglist.h:76
+msgid "Stopped"
+msgstr "Останов"
+
+#: lib/siglist.h:79
+msgid "Continued"
+msgstr "Возобновление"
+
+#: lib/siglist.h:82
+msgid "Child exited"
+msgstr "Потомок завершил работу"
+
+#: lib/siglist.h:85
+msgid "Stopped (tty input)"
+msgstr "Останов (ввод с терминала)"
+
+#: lib/siglist.h:88
+msgid "Stopped (tty output)"
+msgstr "Останов (вывод с терминала)"
+
+#: lib/siglist.h:91
+msgid "I/O possible"
+msgstr "Возможен ввод-вывод"
+
+#: lib/siglist.h:94
+msgid "CPU time limit exceeded"
+msgstr "Превышен предел по процессорному времени"
+
+#: lib/siglist.h:97
+msgid "File size limit exceeded"
+msgstr "Превышен предел размера файла"
+
+#: lib/siglist.h:100
+msgid "Virtual timer expired"
+msgstr "Виртуальное время истекло"
+
+#: lib/siglist.h:103
+msgid "Profiling timer expired"
+msgstr "Время профилирования истекло"
+
+#: lib/siglist.h:106
+msgid "Window changed"
+msgstr "Окно изменено"
+
+#: lib/siglist.h:109
+msgid "User defined signal 1"
+msgstr "Определяемый пользователем сигнал 1"
+
+#: lib/siglist.h:112
+msgid "User defined signal 2"
+msgstr "Определяемый пользователем сигнал 2"
+
+#: lib/siglist.h:117
+msgid "EMT trap"
+msgstr "Ловушка EMT"
+
+#: lib/siglist.h:120
+msgid "Bad system call"
+msgstr "Неправильный системный вызов"
+
+#: lib/siglist.h:123
+msgid "Stack fault"
+msgstr "Ошибка работы со стеком"
+
+#: lib/siglist.h:126
+msgid "Information request"
+msgstr "Запрос информации"
+
+#: lib/siglist.h:128
+msgid "Power failure"
+msgstr "Отказ питания"
+
+#: lib/siglist.h:131
+msgid "Resource lost"
+msgstr "Ресурс потерян"
+
+#: lib/sigpipe-die.c:37
+msgid "error writing to a closed pipe or socket"
+msgstr "ошибка записи в закрытый канал или сокет"
+
+#: lib/spawn-pipe.c:141 lib/spawn-pipe.c:144 lib/spawn-pipe.c:265
+#: lib/spawn-pipe.c:268
+msgid "cannot create pipe"
+msgstr "не удалось создать канал"
+
+#: lib/strsignal.c:114
+#, c-format
+msgid "Real-time signal %d"
+msgstr "Сигнал реального времени %d"
+
+#: lib/strsignal.c:118
+#, c-format
+msgid "Unknown signal %d"
+msgstr "Неизвестный сигнал %d"
+
+#: lib/timevar.c:316
+msgid "Execution times (seconds)"
+msgstr "Время выполнения (секунд)"
+
+#: lib/timevar.c:318
+msgid "CPU user"
+msgstr "пользовательское время на ЦП"
+
+#: lib/timevar.c:318
+msgid "CPU system"
+msgstr "системное время на ЦП"
+
+#: lib/timevar.c:318
+msgid "wall clock"
+msgstr "настенные часы"
+
+#: lib/unicodeio.c:102
+msgid "iconv function not usable"
+msgstr "функция iconv неприменима"
+
+#: lib/unicodeio.c:104
+msgid "iconv function not available"
+msgstr "функция iconv недоступна"
+
+#: lib/unicodeio.c:111
+msgid "character out of range"
+msgstr "символ вне допустимого диапазона"
+
+#: lib/unicodeio.c:181
+#, c-format
+msgid "cannot convert U+%04X to local character set"
+msgstr "невозможно преобразовать U+%04X в локальную кодировку"
+
+#: lib/unicodeio.c:183
+#, c-format
+msgid "cannot convert U+%04X to local character set: %s"
+msgstr "невозможно преобразовать U+%04X в локальную кодировку: %s"
+
+#: lib/userspec.c:106
+msgid "invalid user"
+msgstr "неверный пользователь"
+
+#: lib/userspec.c:107
+msgid "invalid group"
+msgstr "неверная группа"
+
+#: lib/userspec.c:108
+msgid "invalid spec"
+msgstr "неверный spec"
+
+#: lib/verror.c:73
+msgid "unable to display error message"
+msgstr "невозможно показать сообщение об ошибке"
+
+#: lib/version-etc.c:73
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "Упакован %s (%s)\n"
+
+#: lib/version-etc.c:76
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "Упакован %s\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:83
+msgid "(C)"
+msgstr "©"
+
+#. TRANSLATORS: The %s placeholder is the web address of the GPL license.
+#: lib/version-etc.c:88
+#, c-format
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <%s>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"Лицензия GPLv3+: GNU GPL версии 3 или новее <%s>.\n"
+"Это свободное ПО: вы можете изменять и распространять его.\n"
+"Нет НИКАКИХ ГАРАНТИЙ в пределах действующего законодательства.\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:105
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Автор программы: %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:109
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Авторы программы: %s и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:113
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Авторы программы: %s, %s и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:120
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Авторы программы: %s, %s, %s\n"
+"и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:127
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Авторы программы: %s, %s, %s,\n"
+"%s и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:134
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Авторы программы: %s, %s, %s,\n"
+"%s, %s и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:142
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Авторы программы: %s, %s, %s,\n"
+"%s, %s, %s и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:150
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Авторы программы: %s, %s, %s,\n"
+"%s, %s, %s, %s\n"
+"и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:159
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Авторы программы:  %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s и %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:170
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Авторы программы: %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s и другие.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:249
+#, c-format
+msgid "Report bugs to: %s\n"
+msgstr "Об ошибках сообщайте по адресу: %s\n"
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "Об ошибках в %s сообщайте по адресу: %s\n"
+
+#: lib/version-etc.c:255 lib/version-etc.c:257
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "Домашняя страница %s: <%s>\n"
+
+#: lib/version-etc.c:260
+#, c-format
+msgid "General help using GNU software: <%s>\n"
+msgstr "Справка по работе с программами GNU: <%s>\n"
+
+#: lib/w32spawn.h:49
+msgid "_open_osfhandle failed"
+msgstr "_open_osfhandle завершилась неудачно"
+
+#: lib/w32spawn.h:90
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr "не удалось восстановить fd %d: dup2 завершилась неудачно"
+
+#: lib/wait-process.c:231 lib/wait-process.c:263 lib/wait-process.c:325
+#, c-format
+msgid "%s subprocess"
+msgstr "подпроцесс %s"
+
+#: lib/wait-process.c:282 lib/wait-process.c:354
+#, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "подпроцесс %s получил сигнал завершения %d"
+
+#: lib/xbinary-io.c:37
+msgid "failed to set file descriptor text/binary mode"
+msgstr "не удалось изменить текстовый/двоичный режим у файлового дескриптора"
+
+#: lib/xfreopen.c:34
+msgid "stdin"
+msgstr "stdin"
+
+#: lib/xfreopen.c:35
+msgid "stdout"
+msgstr "stdout"
+
+#: lib/xfreopen.c:36
+msgid "stderr"
+msgstr "stderr"
+
+#: lib/xfreopen.c:37
+msgid "unknown stream"
+msgstr "неизвестный поток"
+
+#: lib/xfreopen.c:38
+#, c-format
+msgid "failed to reopen %s with mode %s"
+msgstr "не удалось повторно открыть %s в режиме %s"
+
+#: lib/xmemcoll.c:39
+msgid "string comparison failed"
+msgstr "сравнение строк завершилось неудачно"
+
+#: lib/xmemcoll.c:40
+msgid "Set LC_ALL='C' to work around the problem."
+msgstr "Чтобы обойти эту проблему, установите LC_ALL='C'."
+
+#: lib/xmemcoll.c:42
+#, c-format
+msgid "The strings compared were %s and %s."
+msgstr "Сравнивались строки %s %s."
+
+#: lib/xprintf.c:50 lib/xprintf.c:76
+msgid "cannot perform formatted output"
+msgstr "невозможно выполнить форматированный вывод"
+
+#: lib/xstdopen.c:34
+msgid "standard file descriptors"
+msgstr "стандартные файловые дескрипторы"
+
+#: lib/xstrtol-error.c:63
+#, c-format
+msgid "invalid %s%s argument '%s'"
+msgstr "неверный аргумент %s%s в «%s»"
+
+#: lib/xstrtol-error.c:68
+#, c-format
+msgid "invalid suffix in %s%s argument '%s'"
+msgstr "недопустимый суффикс в аргументе %s%s для «%s»"
+
+#: lib/xstrtol-error.c:72
+#, c-format
+msgid "%s%s argument '%s' too large"
+msgstr "аргумент %s%s слишком велик для «%s»"
+
+#~ msgid "%s home page: <https://www.gnu.org/software/%s/>\n"
+#~ msgstr "Домашняя страница %s: <https://www.gnu.org/software/%s/>\n"
+
+#~ msgid "%.*s: ARGP_HELP_FMT parameter must be positive"
+#~ msgstr "%.*s: значение параметра ARGP_HELP_FMT должно быть положительным"
+
+#~ msgid "%s: option '--%s' doesn't allow an argument\n"
+#~ msgstr "%s: для параметра «--%s» аргумент не разрешён\n"
+
+#~ msgid "%s: unrecognized option '--%s'\n"
+#~ msgstr "%s: нераспознанный параметр «--%s»\n"
+
+#~ msgid "%s: option '-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: у параметра «-W %s» не может быть аргумента\n"
+
+#~ msgid "%s: option '-W %s' requires an argument\n"
+#~ msgstr "%s: для параметра «-W %s» требуется аргумент\n"
+
+#~ msgid "Franc,ois Pinard"
+#~ msgstr "Френсис Пинард (Franc,ois Pinard)"
