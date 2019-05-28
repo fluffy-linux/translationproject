@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils-8.30.79\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2019-03-04 01:47-0800\n"
-"PO-Revision-Date: 2019-05-01 11:30-0700\n"
+"PO-Revision-Date: 2019-05-28 16:35-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -1879,7 +1879,7 @@ msgstr "ulaz nije u sortiranom poretku"
 #: src/copy.c:194 src/copy.c:465
 #, c-format
 msgid "cannot lseek %s"
-msgstr "nije moguće pozvati lseek za %s"
+msgstr "na %s nije moguće lseek"
 
 #: src/copy.c:204 src/copy.c:571
 #, c-format
@@ -8967,7 +8967,7 @@ msgstr "%s: greška pri pisanju na odmaku %s"
 #: src/shred.c:564
 #, c-format
 msgid "%s: lseek failed"
-msgstr "%s: lseek nije bio neuspješan"
+msgstr "%s: lseek nije uspio"
 
 #: src/shred.c:576
 #, c-format
