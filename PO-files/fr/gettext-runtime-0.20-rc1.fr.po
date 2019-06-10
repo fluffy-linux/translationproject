@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gettext-runtime 0.20-rc1\n"
 "Report-Msgid-Bugs-To: bug-gnu-gettext@gnu.org\n"
 "POT-Creation-Date: 2019-04-13 23:28+0200\n"
-"PO-Revision-Date: 2019-05-12 13:37+0200\n"
+"PO-Revision-Date: 2019-06-10 14:14+0200\n"
 "Last-Translator: Stéphane Aulery <lkppo@free.fr>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -289,7 +289,7 @@ msgstr ""
 #: src/ngettext.c:228
 #, c-format, no-wrap
 msgid "  -d, --domain=TEXTDOMAIN   retrieve translated message from TEXTDOMAIN\n"
-msgstr "  -d, --domain=DOMAINE      récupérer le message traduit pour le DOAMINE\n"
+msgstr "  -d, --domain=DOMAINE      récupérer le message traduit pour le DOMAINE\n"
 
 #: src/ngettext.c:236
 #, c-format
@@ -304,7 +304,7 @@ msgstr "  MSGID MSGID-PLURAL        traduire MSGID (singulier) / MSGID-PLURAL (p
 #: src/ngettext.c:240
 #, c-format
 msgid "  COUNT                     choose singular/plural form based on this value\n"
-msgstr "  COUNT                     choisir une forme singluière ou plurielle en fonction de cette valeur\n"
+msgstr "  COUNT                     choisir une forme singulière ou plurielle en fonction de cette valeur\n"
 
 #: src/ngettext.c:251
 #, c-format, no-wrap
