@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: bison 3.3.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2019-04-28 11:47+0200\n"
-"PO-Revision-Date: 2019-06-21 11:34+0200\n"
+"PO-Revision-Date: 2019-07-03 21:41+0200\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -68,12 +68,12 @@ msgstr "позволено е само еднократно ползване н�
 #: src/conflicts.c:77
 #, c-format
 msgid "    Conflict between rule %d and token %s resolved as shift"
-msgstr "    Конфликтът между правило %d и лексема „%s“ се решава като придвижване"
+msgstr "    Конфликтът между правило %d и лексема „%s“ се решава като преместване"
 
 #: src/conflicts.c:86
 #, c-format
 msgid "    Conflict between rule %d and token %s resolved as reduce"
-msgstr "    Конфликтът между правило %d и лексема „%s“ се решава като сливане"
+msgstr "    Конфликтът между правило %d и лексема „%s“ се решава като извеждане"
 
 #: src/conflicts.c:94
 #, c-format
@@ -88,27 +88,27 @@ msgstr "Състояние %d "
 #: src/conflicts.c:600
 #, c-format
 msgid "conflicts: %d shift/reduce, %d reduce/reduce\n"
-msgstr "конфликти: %d придвижване/сливане, %d сливане/сливане\n"
+msgstr "конфликти: %d преместване/опростяване, %d извеждане/извеждане\n"
 
 #: src/conflicts.c:603
 #, c-format
 msgid "conflicts: %d shift/reduce\n"
-msgstr "конфликти: %d придвижване/сливане\n"
+msgstr "конфликти: %d преместване/извеждане\n"
 
 #: src/conflicts.c:605
 #, c-format
 msgid "conflicts: %d reduce/reduce\n"
-msgstr "конфликти: %d сливане/сливане\n"
+msgstr "конфликти: %d извеждане/извеждане\n"
 
 #: src/conflicts.c:641
 #, c-format
 msgid "shift/reduce conflicts for rule %d: %d found, %d expected"
-msgstr "конфликти придвижване/сливане за правило %d: открити са %d, а се очакват %d"
+msgstr "конфликти преместване/извеждане за правило %d: открити са %d, а се очакват %d"
 
 #: src/conflicts.c:647
 #, c-format
 msgid "reduce/reduce conflicts for rule %d: %d found, %d expected"
-msgstr "конфликти сливане/сливане за правило %d: открити са %d, а се очакват %d"
+msgstr "конфликти извеждане/извеждане за правило %d: открити са %d, а се очакват %d"
 
 #: src/conflicts.c:665
 #, c-format
@@ -118,26 +118,26 @@ msgstr "„%%expect-rr“ се отнася само за анализатори
 #: src/conflicts.c:682
 #, c-format
 msgid "shift/reduce conflicts: %d found, %d expected"
-msgstr "конфликти придвижване/сливане: открити са %d, а се очакват %d"
+msgstr "конфликти преместване/извеждане: открити са %d, а се очакват %d"
 
 #: src/conflicts.c:687
 #, c-format
 msgid "%d shift/reduce conflict"
 msgid_plural "%d shift/reduce conflicts"
-msgstr[0] "%d конфликт придвижване/сливане"
-msgstr[1] "%d конфликти придвижване/сливане"
+msgstr[0] "%d конфликт преместване/извеждане"
+msgstr[1] "%d конфликти преместване/извеждане"
 
 #: src/conflicts.c:704
 #, c-format
 msgid "reduce/reduce conflicts: %d found, %d expected"
-msgstr "конфликти сливане/сливане: открити са %d, а се очакват %d"
+msgstr "конфликти извеждане/извеждане: открити са %d, а се очакват %d"
 
 #: src/conflicts.c:709
 #, c-format
 msgid "%d reduce/reduce conflict"
 msgid_plural "%d reduce/reduce conflicts"
-msgstr[0] "%d конфликт сливане/сливане"
-msgstr[1] "%d конфликти сливане/сливане"
+msgstr[0] "%d конфликт извеждане/извеждане"
+msgstr[1] "%d конфликти извеждане/извеждане"
 
 #: src/files.c:125
 #, c-format
@@ -186,7 +186,7 @@ msgid ""
 "canonical LR(1) support is experimental.\n"
 "\n"
 msgstr ""
-"Генериране на детерминиран LR или генерализиран LR (GLR) анализатор\n"
+"Генериране на детерминиран LR или обобщен LR (GLR) анализатор\n"
 "ползващ таблици LALR(1), IELR(1) или канонични LR(1).  Поддръжката\n"
 "на IELR(1) и канонични LR(1) е експериментална.\n"
 "\n"
@@ -223,8 +223,8 @@ msgstr ""
 "  -V, --version              извеждане на версията и изход\n"
 "      --print-localedir      извеждане на директорията с данни зависещи от\n"
 "                             локала и изход\n"
-"      --print-datadir        извеждане на директорията със скелетата и XSLT\n"
-"                             и изход\n"
+"      --print-datadir        извеждане на директорията със скелетни файлове и\n"
+"                             XSLT и изход\n"
 "  -u, --update               прилагане на поправки към входния файл с граматика\n"
 "                             и изход\n"
 "  -y, --yacc                 режим „yacc“ по POSIX\n"
@@ -251,7 +251,7 @@ msgid ""
 msgstr ""
 "Анализатор:\n"
 "  -L, --language=ЕЗИК              указване на изходен програмен ЕЗИК\n"
-"  -S, --skeleton=ФАЙЛ              указване на скелето\n"
+"  -S, --skeleton=ФАЙЛ              указване на скелетния ФАЙЛ\n"
 "  -t, --debug                      включване на трасиране в анализатора,\n"
 "                                   същото като „-Dparse.trace“\n"
 "      --locations                  поддръжка на местоположения\n"
@@ -334,7 +334,7 @@ msgid ""
 msgstr ""
 "ВИДОВЕте е списък от думи, разделени с „,“.  Думите са:\n"
 "  state             описание на състоянията\n"
-"  itemset           прибавяне на покриващото допълнение към основните\n"
+"  itemset           прибавяне на небходимото за затваряне на основните\n"
 "                    множества от елементи\n"
 "  lookahead         изрично асоцииране на проверяваните последващи\n"
 "                    лексеми с елементите\n"
@@ -425,7 +425,7 @@ msgstr ""
 #: src/getargs.c:449
 #, c-format
 msgid "multiple skeleton declarations are invalid"
-msgstr "декларирането на множество скелета е грешка"
+msgstr "грешка е да има повече от една скелетна декларация"
 
 #: src/getargs.c:466
 #, c-format
@@ -544,7 +544,7 @@ msgstr "Състояние %d"
 #: src/print.c:136
 #, c-format
 msgid "shift, and go to state %d\n"
-msgstr "придвижване и преминаване към състояние %d\n"
+msgstr "преместване и преминаване към състояние %d\n"
 
 #: src/print.c:138
 #, c-format
@@ -762,12 +762,12 @@ msgstr "синтактична грешка след „%c“, очаква се
 #: src/scan-code.l:511
 #, c-format
 msgid "symbol not found in production before $%d: %.*s"
-msgstr "символът липсва в произведението преди $%d: %.*s"
+msgstr "символът липсва в правилото преди $%d: %.*s"
 
 #: src/scan-code.l:516
 #, c-format
 msgid "symbol not found in production: %.*s"
-msgstr "символът липсва в произведението: %.*s"
+msgstr "символът липсва в правилото: %.*s"
 
 #: src/scan-code.l:531
 #, c-format
@@ -889,17 +889,17 @@ msgstr "в края на ред липсва „%s“"
 #: src/scan-skel.l:140
 #, c-format
 msgid "unclosed %s directive in skeleton"
-msgstr "директива „%s“ в скелето не е затворена"
+msgstr "директива „%s“ в скелета не е затворена"
 
 #: src/scan-skel.l:257
 #, c-format
 msgid "too few arguments for %s directive in skeleton"
-msgstr "прекалено малко аргументи към директива „%s“ в скелето"
+msgstr "прекалено малко аргументи към директива „%s“ в скелета"
 
 #: src/scan-skel.l:264
 #, c-format
 msgid "too many arguments for %s directive in skeleton"
-msgstr "прекалено много аргументи към директива „%s“ в скелето"
+msgstr "прекалено много аргументи към директива „%s“ в скелета"
 
 #: src/symtab.c:100
 #, c-format
