@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.30.79\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2019-03-04 01:47-0800\n"
-"PO-Revision-Date: 2019-03-07 19:51+0300\n"
+"PO-Revision-Date: 2019-07-08 18:40+0300\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <gnu@d07.ru>\n"
 "Language: ru\n"
@@ -6297,7 +6297,7 @@ msgstr "параметр --zero не поддерживается при про�
 #: src/md5sum.c:987
 #, c-format
 msgid "the --tag option is meaningless when verifying checksums"
-msgstr "параметр --tag имеет смысл только при проверке контрольных сумм"
+msgstr "параметр --tag бессмыслен при проверке контрольных сумм"
 
 #: src/md5sum.c:994
 #, c-format
