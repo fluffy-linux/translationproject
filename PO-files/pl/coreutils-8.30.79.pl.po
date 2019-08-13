@@ -12,12 +12,13 @@
 # 3 corrections: Andrzej Krzysztofowicz <ankry@green.mif.pg.gda.pl>, 2006.
 # 1 correction: Daniel Janus <dj189395@students.mimuw.edu.pl>, 2007.
 # 2 format strings: Jakub Bogusz <qboosh@pld-linux.org>, 2007.
+# typo: Karol Kosek <krkk@krkk.ct8.pl> via JB, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 8.30.79\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2019-03-04 01:47-0800\n"
-"PO-Revision-Date: 2019-03-09 17:00+0100\n"
+"PO-Revision-Date: 2019-08-14 00:20+0200\n"
 "Last-Translator: Rafał Maszkowski <rzm@icm.edu.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -2983,7 +2984,7 @@ msgid ""
 msgstr ""
 "  %n   znak nowej linii\n"
 "  %N   nanosekundy (000000000..999999999)\n"
-"  %p   lokalny odpowiednik AM lub PM; pusty jeżlei nieznany\n"
+"  %p   lokalny odpowiednik AM lub PM; pusty jeżeli nieznany\n"
 "  %P   jak %p, ale małymi literami\n"
 "  %q   kwartał roku (1..4)\n"
 "  %r   czas w formacie 12-godzinnym (np. 11:11:04 PM)\n"
