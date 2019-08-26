@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2019-05-19 20:39+0800\n"
+"PO-Revision-Date: 2019-08-26 15:01+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 2.2.2\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -85,9 +85,8 @@ msgid "character special file"
 msgstr "fail khas aksara"
 
 #: lib/file-type.c:72
-#, fuzzy
 msgid "contiguous data"
-msgstr "Blok data pertama=%u"
+msgstr "data berterusan"
 
 #: lib/file-type.c:75
 msgid "fifo"
@@ -107,29 +106,27 @@ msgstr "fail khas blok"
 #, fuzzy
 #| msgid "character special file"
 msgid "multiplexed character special file"
-msgstr "fail khas aksara"
+msgstr "fail istimewa aksara"
 
 #: lib/file-type.c:87
 #, fuzzy
 msgid "multiplexed file"
-msgstr "Fail Baru"
+msgstr "  Fail: ..."
 
 #: lib/file-type.c:90
-#, fuzzy
-#| msgid "weird file"
 msgid "named file"
-msgstr "FAIL"
+msgstr "fail dinamakan"
 
 #: lib/file-type.c:93
 #, fuzzy
 #| msgid "block special file"
 msgid "network special file"
-msgstr "fail khas aksara"
+msgstr "Rangkaian tidak dapat dicapai."
 
 #: lib/file-type.c:96
 #, fuzzy
 msgid "migrated file with data"
-msgstr "Blok data pertama=%u"
+msgstr "fail dipindahkan tanpa data"
 
 #: lib/file-type.c:99
 msgid "migrated file without data"
@@ -247,7 +244,7 @@ msgstr "Rujukan belakang tidak sah"
 #, fuzzy
 #| msgid "Unmatched [ or [^"
 msgid "Unmatched [, [^, [:, [., or [="
-msgstr "( atau \\( tidak sepadan"
+msgstr "[ atau [^ tidak sepadan"
 
 #: lib/regcomp.c:159
 msgid "Unmatched ( or \\("
@@ -306,15 +303,13 @@ msgid "stderr"
 msgstr "stderr"
 
 #: lib/xfreopen.c:38
-#, fuzzy
-#| msgid "Unknown system error"
 msgid "unknown stream"
-msgstr "tidak diketahui"
+msgstr "aliran tidak diketahui"
 
 #: lib/xfreopen.c:39
 #, fuzzy, c-format
 msgid "failed to reopen %s with mode %s"
-msgstr "%s: Tak dapat menukar mod ke %s"
+msgstr "%s tidak dapat dibuka semula: %s"
 
 #: lib/xstrtol-error.c:63
 #, fuzzy, c-format
@@ -325,7 +320,7 @@ msgstr "hujah tidak sah %s bagi %s"
 #: lib/xstrtol-error.c:68
 #, fuzzy, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "hujah tidak sah %s untuk %s"
+msgstr "hujah tidak sah `%s' untuk `%s'"
 
 #: lib/xstrtol-error.c:72
 #, fuzzy, c-format
@@ -340,7 +335,7 @@ msgstr "< %s ... %s > ? "
 #: lib/version-etc.c:76
 #, fuzzy, c-format
 msgid "Packaged by %s\n"
-msgstr "< %s ... %s > ? "
+msgstr "%s%s: %.*s (%s)\n"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
@@ -476,16 +471,18 @@ msgstr ""
 #. "Report translation bugs to <...>\n" with the address for translation
 #. bugs (typically your translation team's web or email address).
 #: lib/version-etc.c:245
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "Report bugs to: %s\n"
-msgstr "Lapor pepijat ke %s.\n"
+msgstr ""
+"\n"
+"Lapor pepijat ke: %s\n"
 
 #: lib/version-etc.c:247
-#, fuzzy, c-format
+#, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr "Lapor pepijat ke %s\n"
+msgstr "Lapor %s pepijat ke: %s\n"
 
 #: lib/version-etc.c:251
 #, fuzzy, c-format
@@ -497,10 +494,9 @@ msgstr ""
 "\n"
 
 #: lib/version-etc.c:253
-#, fuzzy, c-format
-#| msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+#, c-format
 msgid "%s home page: <https://www.gnu.org/software/%s/>\n"
-msgstr "Laman web %s: <http://www.gnu.org/software/%s/>\n"
+msgstr "Laman web %s: <https://www.gnu.org/software/%s/>\n"
 
 #: lib/version-etc.c:256
 #, fuzzy
@@ -513,10 +509,9 @@ msgid "Files %s and %s differ\n"
 msgstr "Fail %s dan %s berbeza\n"
 
 #: src/analyze.c:455
-#, fuzzy, c-format
-#| msgid "Files %s and %s differ\n"
+#, c-format
 msgid "Binary files %s and %s differ\n"
-msgstr "Fail %s dan %s berbeza\n"
+msgstr "Fail binari %s dan %s berbeza\n"
 
 #: src/analyze.c:706 src/diff3.c:1465 src/util.c:1254
 msgid "No newline at end of file"
@@ -533,10 +528,9 @@ msgid "David MacKenzie"
 msgstr "David MacKenzie"
 
 #: src/cmp.c:119 src/diff.c:877 src/diff3.c:462 src/sdiff.c:159
-#, fuzzy, c-format
-#| msgid "Try `%s --help' for more information."
+#, c-format
 msgid "Try '%s --help' for more information."
-msgstr "Cuba `%s --help' untuk lebih maklumat.\n"
+msgstr "Cuba '%s --help' untuk maklumat lanjut."
 
 #: src/cmp.c:137
 #, fuzzy, c-format
@@ -642,9 +636,7 @@ msgstr ""
 #, fuzzy
 #| msgid "If a FILE is `-' or missing, read standard input."
 msgid "If a FILE is '-' or missing, read standard input."
-msgstr ""
-"\n"
-"Dengan tiada FAIL, atau bila FAIL adalah -, baca input piawai.\n"
+msgstr "Jika FAIL adalah `-' atau tiada, baca masukan piawai."
 
 #: src/cmp.c:195 src/diff.c:985 src/sdiff.c:220
 msgid "Exit status is 0 if inputs are the same, 1 if different, 2 if trouble."
@@ -654,19 +646,19 @@ msgstr "Status keluar adalah 0 jika masukan adalah sama, 1 jika berbeza, 2 jika 
 #, fuzzy, c-format
 #| msgid "invalid --bytes value `%s'"
 msgid "invalid --bytes value '%s'"
-msgstr "bilangan byte tidak sah"
+msgstr "nilai --bytes `%s' tidak sah"
 
 #: src/cmp.c:266 src/diff.c:795 src/diff3.c:356 src/sdiff.c:565
 #, fuzzy, c-format
 #| msgid "missing operand after `%s'"
 msgid "missing operand after '%s'"
-msgstr "\t\tTidak Selepas: %s\n"
+msgstr "operan hilang selepas `%s'"
 
 #: src/cmp.c:278 src/diff.c:797 src/diff3.c:358 src/sdiff.c:567
 #, fuzzy, c-format
 #| msgid "extra operand `%s'"
 msgid "extra operand '%s'"
-msgstr "Ekstra"
+msgstr "operan tambahan `%s'"
 
 #: src/cmp.c:498
 #, c-format
@@ -731,7 +723,7 @@ msgstr "Len Tower"
 #, fuzzy, c-format
 #| msgid "invalid context length `%s'"
 msgid "invalid context length '%s'"
-msgstr "Panjang stride tidak sah"
+msgstr "panjang konteks `%s' tidak sah"
 
 #: src/diff.c:436
 #, c-format
@@ -747,7 +739,7 @@ msgstr "terlalu banyak pilihan label fail"
 #, fuzzy, c-format
 #| msgid "invalid width `%s'"
 msgid "invalid width '%s'"
-msgstr "lebar baris tidak sah: %s"
+msgstr "lebar `%s' tidak sah"
 
 #: src/diff.c:532
 msgid "conflicting width options"
@@ -757,7 +749,7 @@ msgstr "pilihan lebar berkonflik"
 #, fuzzy, c-format
 #| msgid "invalid horizon length `%s'"
 msgid "invalid horizon length '%s'"
-msgstr "Panjang stride tidak sah"
+msgstr "panjang horizon `%s' tidak sah"
 
 #: src/diff.c:613
 #, fuzzy, c-format
@@ -777,7 +769,7 @@ msgstr "--from-file dan --to-file kedua-duanya dinyatakan"
 #, fuzzy
 #| msgid "--normal  Output a normal diff."
 msgid "    --normal                  output a normal diff (the default)"
-msgstr "-s, --quiet, --silent      sekat semua keluaran normal"
+msgstr "--normal  Keluarkan diff normal."
 
 #: src/diff.c:892
 #, fuzzy
@@ -934,19 +926,52 @@ msgstr "--no-ignore-file-name-case  Ambil kira case ketika membanding nama fail.
 #, fuzzy
 #| msgid "-x PAT  --exclude=PAT  Exclude files that match PAT."
 msgid "-x, --exclude=PAT               exclude files that match PAT"
-msgstr "-x PAT  --exclude=PAT  Asing fail yang sepadan PAT."
+msgstr ""
+"  -T, --initial-tab         jadikan tab berbaris dengan menambah awalan tab\n"
+"  -r, --recursive           banding berulang sebarang subdirektori yang dijumpai\n"
+"  -N, --new-file            layan fail tidak wujud sebagai kosong\n"
+"  -P, --unidirectional-new-file layan fail tidak wujud pertama sebagai kosong\n"
+"  -s, --report-identical-files lapor apabila dua fail adalah sama\n"
+"  -x, --exclude=PAT         asingkan fail yang sepadan PAT\n"
+"  -X, --exclude-from=FAIL   asingkan fail yang sepadan sebarang corak dalam FAIL\n"
+"  -S, --starting-file=FAIL  mula dengan FAIL apabila membanding direktori\n"
+"      --horizon-lines=NOM   simpan NOM baris bagi prefiks dan suffiks yang sama\n"
+"  -d, --minimal             usaha keras untuk mencari set perbezaan yang kecil\n"
+"  -H, --speed-large-files   andaikan fail besar dan banyak perbezaan kecil\n"
 
 #: src/diff.c:921
 #, fuzzy
 #| msgid "-X FILE  --exclude-from=FILE  Exclude files that match any pattern in FILE."
 msgid "-X, --exclude-from=FILE         exclude files that match any pattern in FILE"
-msgstr "-X FAIL  --exclude-from=FAIL  Asing fail yang sepadan sebarang corak dalam FAIL."
+msgstr ""
+"  -T, --initial-tab         jadikan tab berbaris dengan menambah awalan tab\n"
+"  -r, --recursive           banding berulang sebarang subdirektori yang dijumpai\n"
+"  -N, --new-file            layan fail tidak wujud sebagai kosong\n"
+"  -P, --unidirectional-new-file layan fail tidak wujud pertama sebagai kosong\n"
+"  -s, --report-identical-files lapor apabila dua fail adalah sama\n"
+"  -x, --exclude=PAT         asingkan fail yang sepadan PAT\n"
+"  -X, --exclude-from=FAIL   asingkan fail yang sepadan sebarang corak dalam FAIL\n"
+"  -S, --starting-file=FAIL  mula dengan FAIL apabila membanding direktori\n"
+"      --horizon-lines=NOM   simpan NOM baris bagi prefiks dan suffiks yang sama\n"
+"  -d, --minimal             usaha keras untuk mencari set perbezaan yang kecil\n"
+"  -H, --speed-large-files   andaikan fail besar dan banyak perbezaan kecil\n"
 
 #: src/diff.c:922
 #, fuzzy
 #| msgid "-S FILE  --starting-file=FILE  Start with FILE when comparing directories."
 msgid "-S, --starting-file=FILE        start with FILE when comparing directories"
-msgstr "-S FAIL  --starting-file=FAIL  Mula dengan FAIL apabila membanding direktori."
+msgstr ""
+"  -T, --initial-tab         jadikan tab berbaris dengan menambah awalan tab\n"
+"  -r, --recursive           banding berulang sebarang subdirektori yang dijumpai\n"
+"  -N, --new-file            layan fail tidak wujud sebagai kosong\n"
+"  -P, --unidirectional-new-file layan fail tidak wujud pertama sebagai kosong\n"
+"  -s, --report-identical-files lapor apabila dua fail adalah sama\n"
+"  -x, --exclude=PAT         asingkan fail yang sepadan PAT\n"
+"  -X, --exclude-from=FAIL   asingkan fail yang sepadan sebarang corak dalam FAIL\n"
+"  -S, --starting-file=FAIL  mula dengan FAIL apabila membanding direktori\n"
+"      --horizon-lines=NOM   simpan NOM baris bagi prefiks dan suffiks yang sama\n"
+"  -d, --minimal             usaha keras untuk mencari set perbezaan yang kecil\n"
+"  -H, --speed-large-files   andaikan fail besar dan banyak perbezaan kecil\n"
 
 #: src/diff.c:923
 #, fuzzy
@@ -1028,7 +1053,20 @@ msgstr "--binary  Baca dan tulis data dalam mod binari."
 #, fuzzy
 #| msgid "-D NAME  --ifdef=NAME  Output merged file to show `#ifdef NAME' diffs."
 msgid "-D, --ifdef=NAME                output merged file with '#ifdef NAME' diffs"
-msgstr "-D NAMA  --ifdef=NAMA  Keluarkan fail tergabung untuk menunjukkan perbezaa `#ifdef NAMA'."
+msgstr ""
+"  -q, --brief               keluarkan jika hanya fail berbeza\n"
+"  -e, --ed                  hasilkan skrip ed\n"
+"  -n, --rcs                 hasilkan format diff RCS\n"
+"  -y, --side-by-side        keluarkan dalam dua lajur\n"
+"  -w, --width=NOM           keluarkan paling banyak NOM (default 130) aksara per baris\n"
+"      --left-column         keluarkan hanya lajur kiri baris sama\n"
+"      --suppress-common-lines jangan keluarkan baris yang sama\n"
+"  -D, --ifdef=NAMA          keluarkan fail tergabung untuk menunjukkan diff `#ifdef NAMA'\n"
+"      --GTYPE-group-format=GFMT kumpulan masukan GTYPE dengan GFMT\n"
+"      --line-format=LFMT    semua baris masukan dengan LFMT\n"
+"      --LTYPE-line-format=LFMT baris masukan LTYPE dengan LFMT\n"
+"  -l, --paginate            hantar keluaran menerusi `pr' untuk paginate\n"
+"  -t, --expand-tabs         kembangkan tab kepada ruang dalam keluaran\n"
 
 #: src/diff.c:943
 #, fuzzy
@@ -1153,7 +1191,7 @@ msgstr "--horizon-lines=NOM  Pastikan NOM baris prefix dan suffix sama."
 #, fuzzy
 #| msgid "-H  --speed-large-files  Assume large files and many scattered small changes."
 msgid "    --speed-large-files  assume large files and many scattered small changes"
-msgstr "-H, --speed-large-files      anggap fail besar, banyak perubahan kecil bertaburan"
+msgstr "--speed-large-files  Anggap fail besar dan banyak perubahan kecil tersebar."
 
 #: src/diff.c:974
 msgid ""
@@ -1188,15 +1226,13 @@ msgstr "FAIL-FAIL adalah `FAIL1 FAIL2' atau `DIR1 DIR2' atau `DIR FAIL...' atau 
 #, fuzzy
 #| msgid "If --from-file or --to-file is given, there are no restrictions on FILES."
 msgid "If --from-file or --to-file is given, there are no restrictions on FILE(s)."
-msgstr "%s: Tak dapat ekstrak -- fail bersambung dari volum lain"
+msgstr "Jika --from-file atau --to-file diberi, tiada sekatan pada FAIL."
 
 #: src/diff.c:984 src/diff3.c:528 src/sdiff.c:219
 #, fuzzy
 #| msgid "If a FILE is `-', read standard input."
 msgid "If a FILE is '-', read standard input."
-msgstr ""
-"\n"
-"Dengan tiada FAIL, atau bila FAIL adalah -, baca input piawai.\n"
+msgstr "Jika FAIL adalah `-', baca masukan piawai."
 
 #: src/diff.c:994
 #, c-format
@@ -1207,13 +1243,13 @@ msgstr "Penggunaan: %s [PILIHAN]... FAIL\n"
 #, fuzzy
 #| msgid "Compare files line by line."
 msgid "Compare FILES line by line."
-msgstr "Banding tiga fail tiap-tiap baris."
+msgstr "Banding fail setiap baris."
 
 #: src/diff.c:1032
 #, fuzzy, c-format
 #| msgid "conflicting %s option value `%s'"
 msgid "conflicting %s option value '%s'"
-msgstr "keluaran berkonflik kepada fail %s"
+msgstr "nilai pilihan %s berkonflik `%s'"
 
 #: src/diff.c:1045
 #, c-format
@@ -1235,7 +1271,7 @@ msgstr "Hanya dalam %s: %s\n"
 #, fuzzy
 #| msgid "cannot compare `-' to a directory"
 msgid "cannot compare '-' to a directory"
-msgstr "tak dapat mencipta direktori %s"
+msgstr "tidak dapat membandingkan `-' kepada direktori"
 
 #: src/diff.c:1286
 msgid "-D option not supported with directories"
@@ -1276,7 +1312,7 @@ msgstr "pilihan tidak sepadan"
 #, fuzzy
 #| msgid "`-' specified for more than one input file"
 msgid "'-' specified for more than one input file"
-msgstr "Amaran: fail sumber %s dinyatakan lebih drpd sekali"
+msgstr "`-' dinyatakan untuk lebih daripada satu fail masukan"
 
 #: src/diff3.c:442 src/diff3.c:1290 src/diff3.c:1693 src/diff3.c:1748
 #: src/sdiff.c:307 src/sdiff.c:844 src/sdiff.c:855
@@ -1367,8 +1403,6 @@ msgid "    --help                  display this help and exit"
 msgstr "    --help                   paparkan bantuan ini dan keluar"
 
 #: src/diff3.c:496
-#, fuzzy
-#| msgid "-v  --version  Output version info."
 msgid "-v, --version               output version information and exit"
 msgstr "-v, --version                papar maklumat versi dan keluar"
 
@@ -1438,10 +1472,9 @@ msgid "input file shrank"
 msgstr "fail masukan mengecil"
 
 #: src/dir.c:156
-#, fuzzy, c-format
-#| msgid "cannot compare file names `%s' and `%s'"
+#, c-format
 msgid "cannot compare file names '%s' and '%s'"
-msgstr "tak boleh banding nama fail %s dan %s"
+msgstr "tidak dapat membandingkan fail bernama '%s' dan '%s'"
 
 #: src/dir.c:225
 #, c-format
