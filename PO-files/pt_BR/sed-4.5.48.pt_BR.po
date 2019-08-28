@@ -1,17 +1,17 @@
 # Brazilian Portuguese translations for sed package
 # Traduções em português brasileiro para o pacote sed
-# Copyright (C) 2018 Free Software Foundation, Inc.
+# Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the sed package.
 # Tradução original da versão 4.01:
 # Juan Carlos Castro y Castro <jcastro@vialink.com.br>, 2002.
 # Aurelio Jargas <verde@aurelio.net>, 1999-2010.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2016-2018.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2016-2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: sed 4.5.48\n"
 "Report-Msgid-Bugs-To: bug-gnu-utils@gnu.org\n"
 "POT-Creation-Date: 2018-12-12 22:13-0800\n"
-"PO-Revision-Date: 2018-12-14 06:48-0200\n"
+"PO-Revision-Date: 2019-08-28 15:29-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
@@ -367,7 +367,7 @@ msgid ""
 msgstr ""
 "\n"
 "Relate erros para: %s\n"
-"Relate erros de tradução para <http://ldpbr-translation@lists.sourceforge.net>\n"
+"Relate erros de tradução para <https://translationproject.org/team/pt_BR.html>\n"
 
 #: lib/version-etc.c:247
 #, c-format
