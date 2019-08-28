@@ -1,6 +1,6 @@
 # Brazilian Portuguese translations for tar package
 # Traduções em português brasileiro para o pacote tar
-# Copyright (C) 2017 Free Software Foundation, Inc.
+# Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the tar package.
 # Rodolfo Ferraz <rcaferraz@gmail.com>, 2013.
 # Eduardo Tenorio <embatbr@gmail.com>, 2013.
@@ -12,14 +12,14 @@
 # based on the translation to Portuguese (pt) by
 # António José Coutinho <ajc@di.uminho.pt>, 1996.
 # Marcus Moreira de Souza <marcusms@frb.br>
-# Rafael Fontenelle <rafaelff@gnome.org>, 2017.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2017, 2019.
 #: src/create.c:1599
 msgid ""
 msgstr ""
 "Project-Id-Version: tar 1.30\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2017-12-17 12:31+0200\n"
-"PO-Revision-Date: 2017-12-18 10:19-0200\n"
+"PO-Revision-Date: 2019-08-28 15:29-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
@@ -389,7 +389,7 @@ msgid ""
 msgstr ""
 "\n"
 "Relate erros para: %s\n"
-"Relate erros de tradução para <http://ldpbr-translation@lists.sourceforge.net>\n"
+"Relate erros de tradução para <https://translationproject.org/team/pt_BR.html>\n"
 
 #: gnu/version-etc.c:247
 #, c-format
