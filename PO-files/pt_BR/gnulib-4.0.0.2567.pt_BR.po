@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gnulib 4.0.0.2567\n"
 "Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
 "POT-Creation-Date: 2019-05-18 19:06+0200\n"
-"PO-Revision-Date: 2019-05-19 09:10-0200\n"
+"PO-Revision-Date: 2019-08-28 15:29-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
@@ -1172,7 +1172,7 @@ msgstr ""
 msgid "Report bugs to: %s\n"
 msgstr ""
 "Relate erros para: %s\n"
-"Relate erros de tradução para <http://ldpbr-translation@lists.sourceforge.net>\n"
+"Relate erros de tradução para <https://translationproject.org/team/pt_BR.html>\n"
 
 #: lib/version-etc.c:251
 #, c-format
