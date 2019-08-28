@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gettext-runtime 0.20-rc1\n"
 "Report-Msgid-Bugs-To: bug-gnu-gettext@gnu.org\n"
 "POT-Creation-Date: 2019-04-13 23:28+0200\n"
-"PO-Revision-Date: 2019-04-14 10:11-0300\n"
+"PO-Revision-Date: 2019-08-28 15:29-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
@@ -178,7 +178,7 @@ msgstr ""
 msgid "Report bugs to <bug-gnu-gettext@gnu.org>.\n"
 msgstr ""
 "Relate erros para <bug-gnu-gettext@gnu.org>.\n"
-"Relate erros de tradução para <ldpbr-translation@lists.sourceforge.net>.\n"
+"Relate erros de tradução para <https://translationproject.org/team/pt_BR.html>\n"
 
 #: src/envsubst.c:448
 #, c-format
