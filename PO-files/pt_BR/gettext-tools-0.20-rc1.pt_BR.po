@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gettext-tools 0.20-rc1\n"
 "Report-Msgid-Bugs-To: bug-gnu-gettext@gnu.org\n"
 "POT-Creation-Date: 2019-04-13 23:29+0200\n"
-"PO-Revision-Date: 2019-04-14 10:29-0300\n"
+"PO-Revision-Date: 2019-08-28 15:29-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
@@ -392,7 +392,7 @@ msgstr "  -V, --version               exibe a informação da versão e sai\n"
 msgid "Report bugs to <bug-gnu-gettext@gnu.org>.\n"
 msgstr ""
 "Relate erros para <bug-gnu-gettext@gnu.org>.\n"
-"Relate erros de tradução para <ldpbr-translation@lists.sourceforge.net>\n"
+"Relate erros de tradução para <https://translationproject.org/team/pt_BR.html>\n"
 
 #: src/cldr-plurals.c:287 src/hostname.c:179 src/msgattrib.c:355
 #: src/msgcat.c:293 src/msgcmp.c:171 src/msgcomm.c:284 src/msgconv.c:244
