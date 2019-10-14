@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.3.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2019-04-28 11:47+0200\n"
-"PO-Revision-Date: 2019-08-16 18:06+0800\n"
+"PO-Revision-Date: 2019-10-14 18:56+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: src/complain.c:236
 msgid "warning"
@@ -184,7 +184,7 @@ msgstr "tak dapat backup %s"
 #, fuzzy, c-format
 #| msgid "Try `%s --help' for more information.\n"
 msgid "Try '%s --help' for more information.\n"
-msgstr "Cuba `%s --help' untuk maklumat lanjut .\n"
+msgstr "Cuba `%s --help' untuk lebih maklumat.\n"
 
 #: src/getargs.c:275
 #, c-format
@@ -859,7 +859,7 @@ msgstr "$$ dari `%s' tiada jenis diisytiharkan"
 #, fuzzy, c-format
 #| msgid "$%d of `%s' has no declared type"
 msgid "$%s of %s has no declared type"
-msgstr "$$ dari `%s' tiada jenis diisytiharkan"
+msgstr "$$ bagi `%s' tiada jenis dinyatakan"
 
 #: src/scan-code.l:693
 #, fuzzy, c-format
@@ -951,15 +951,14 @@ msgid "missing %s at end of file"
 msgstr "`%s' hilang pada penghujung fail"
 
 #: src/scan-gram.l:1015
-#, fuzzy, c-format
-#| msgid "missing `%s' at end of line"
+#, c-format
 msgid "missing %s at end of line"
-msgstr "`%s' hilang pada penghujung baris"
+msgstr "%s hilang pada penghujung baris"
 
 #: src/scan-skel.l:140
-#, fuzzy, c-format
+#, c-format
 msgid "unclosed %s directive in skeleton"
-msgstr "terlalu sedikit hujah untuk arahan %s dalam rangka"
+msgstr "arahan %s tidak ditutup dalam rangka"
 
 #: src/scan-skel.l:257
 #, c-format
@@ -967,9 +966,9 @@ msgid "too few arguments for %s directive in skeleton"
 msgstr "terlalu sedikit hujah untuk arahan %s dalam rangka"
 
 #: src/scan-skel.l:264
-#, fuzzy, c-format
+#, c-format
 msgid "too many arguments for %s directive in skeleton"
-msgstr "terlalu sedikit hujah untuk arahan %s dalam rangka"
+msgstr "terlalu banyak hujah untuk arahan %s dalam rangka"
 
 #: src/symtab.c:100
 #, c-format
@@ -992,16 +991,14 @@ msgid "%s redeclaration for <%s>"
 msgstr "%s pengisytiharan semula untuk <%s>"
 
 #: src/symtab.c:310
-#, fuzzy, c-format
-#| msgid "symbol %s redeclared"
+#, c-format
 msgid "symbol %s redeclared as a token"
-msgstr "simbol %s ditakrif semula"
+msgstr "simbol %s ditakrif semula sebagai token"
 
 #: src/symtab.c:311
-#, fuzzy, c-format
-#| msgid "symbol %s redeclared"
+#, c-format
 msgid "symbol %s redeclared as a nonterminal"
-msgstr "simbol %s ditakrif semula"
+msgstr "simbol %s ditakrif semula sebagai bukan terminal"
 
 #: src/symtab.c:465
 #, c-format
@@ -1082,78 +1079,3 @@ msgstr "keutamaan tidak berguna untuk %s"
 #, c-format
 msgid "useless associativity for %s, use %%precedence"
 msgstr "kebolehkumpulan tidak berguna untuk %s, guna %%precendence"
-
-#~ msgid "invalid argument %s for %s"
-#~ msgstr "hujah tidak sah %s untuk %s"
-
-#~ msgid "ambiguous argument %s for %s"
-#~ msgstr "hujah kabur %s untuk %s"
-
-#~ msgid "Valid arguments are:"
-#~ msgstr "Hujah yang sah adalah:"
-
-#~ msgid "write error"
-#~ msgstr "ralat menulis"
-
-#~ msgid "Unknown system error"
-#~ msgstr "Ralat sistem tidak diketahui"
-
-#~ msgid "%s: option '%s%s' is ambiguous\n"
-#~ msgstr "%s: pilihan '%s%s' adalah kabur\n"
-
-#~ msgid "%s: option '%s%s' is ambiguous; possibilities:"
-#~ msgstr "%s: pilihan '%s%s' adalah kabur; kemungkinan:"
-
-#~ msgid "%s: unrecognized option '%s%s'\n"
-#~ msgstr "%s: pilihan '%s%s' tidak dikenali\n"
-
-#~ msgid "%s: option '%s%s' doesn't allow an argument\n"
-#~ msgstr "%s: pilihan '%s%s' tidak membenarkan hujah\n"
-
-#~ msgid "%s: option '%s%s' requires an argument\n"
-#~ msgstr "%s: pilihan '%s%s' memerlukan hujah\n"
-
-#~ msgid "%s: invalid option -- '%c'\n"
-#~ msgstr "%s: pilihan tidak sah -- '%c'\n"
-
-#~ msgid "%s: option requires an argument -- '%c'\n"
-#~ msgstr "%s: pilihan memerlukan hujah -- '%c'\n"
-
-#~ msgid "memory exhausted"
-#~ msgstr "kehabisan memori"
-
-#~ msgid "cannot create pipe"
-#~ msgstr "tidak dapat mencipta paip"
-
-#~ msgid "%s subprocess failed"
-#~ msgstr "subproses %s gagal"
-
-#~ msgid "`"
-#~ msgstr "`"
-
-#~ msgid "'"
-#~ msgstr "'"
-
-#~ msgid "Execution times (seconds)"
-#~ msgstr "Masa pelaksanaan (saat)"
-
-#~ msgid "CPU user"
-#~ msgstr "Pengguna CPU"
-
-#~ msgid "CPU system"
-#~ msgstr "Sistem CPU"
-
-#~ msgid "wall clock"
-#~ msgstr "jam dinding"
-
-#~ msgid "_open_osfhandle failed"
-#~ msgstr "_open_osfhandle gagal"
-
-#~ msgid "cannot restore fd %d: dup2 failed"
-#~ msgstr "tidak dapat mengembalikan fd %d: dup2 gagal"
-
-#~ msgid "%s subprocess"
-#~ msgstr "subproses %s"
-
-#~ msgid "%s subprocess got fatal signal %d"
-#~ msgstr "subproses %s mendapat isyarat maut %d"
