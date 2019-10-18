@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2019-08-26 15:01+0800\n"
+"PO-Revision-Date: 2019-10-18 12:49+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -106,7 +106,7 @@ msgstr "fail khas blok"
 #, fuzzy
 #| msgid "character special file"
 msgid "multiplexed character special file"
-msgstr "fail istimewa aksara"
+msgstr "fail khas aksara"
 
 #: lib/file-type.c:87
 #, fuzzy
@@ -241,10 +241,8 @@ msgid "Invalid back reference"
 msgstr "Rujukan belakang tidak sah"
 
 #: lib/regcomp.c:156
-#, fuzzy
-#| msgid "Unmatched [ or [^"
 msgid "Unmatched [, [^, [:, [., or [="
-msgstr "[ atau [^ tidak sepadan"
+msgstr "[, [^, [:, [., atau [= tidak sepadan"
 
 #: lib/regcomp.c:159
 msgid "Unmatched ( or \\("
@@ -320,7 +318,7 @@ msgstr "hujah tidak sah %s bagi %s"
 #: lib/xstrtol-error.c:68
 #, fuzzy, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "hujah tidak sah `%s' untuk `%s'"
+msgstr "hujah %s tidak sah untuk `%s'"
 
 #: lib/xstrtol-error.c:72
 #, fuzzy, c-format
@@ -1553,28 +1551,20 @@ msgid "-w, --width=NUM              output at most NUM (default 130) print colum
 msgstr "-w NOM  --width=NOM  Keluarkan paling banyak NOM (default 130) lajur cetakan."
 
 #: src/sdiff.c:186
-#, fuzzy
-#| msgid "-l  --left-column  Output only the left column of common lines."
 msgid "-l, --left-column            output only the left column of common lines"
-msgstr "-l  --left-column  Keluarkan hanya lajur kiri baris yang sama."
+msgstr "-l, --left-column            keluarkan hanya lajur kiri baris yang sama"
 
 #: src/sdiff.c:187
-#, fuzzy
-#| msgid "-s  --suppress-common-lines  Do not output common lines."
 msgid "-s, --suppress-common-lines  do not output common lines"
-msgstr "-s  --suppress-common-lines  Jangan keluarkan baris sama."
+msgstr "-s, --suppress-common-lines  jangan keluarkan baris sama"
 
 #: src/sdiff.c:189
-#, fuzzy
-#| msgid "-t  --expand-tabs  Expand tabs to spaces in output."
 msgid "-t, --expand-tabs            expand tabs to spaces in output"
-msgstr "-t  --expand-tabs  Kembang tab kepada ruang dalam keluaran."
+msgstr "-t, --expand-tabs            kembang tab kepada ruang dalam keluaran"
 
 #: src/sdiff.c:190
-#, fuzzy
-#| msgid "--tabsize=NUM  Tab stops are every NUM (default 8) print columns."
 msgid "    --tabsize=NUM            tab stops at every NUM (default 8) print columns"
-msgstr "--tabsize=NOM  Hentian tab setial NOM (default 8) lajur cetakan."
+msgstr "    --tabsize=NUM            hentian tab setiap NUM (default 8) lajur cetakan"
 
 #: src/sdiff.c:192
 msgid "-d, --minimal                try hard to find a smaller set of changes"
