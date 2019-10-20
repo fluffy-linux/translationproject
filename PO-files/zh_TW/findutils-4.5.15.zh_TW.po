@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: findutils 4.5.15\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2015-12-18 14:45+0000\n"
-"PO-Revision-Date: 2019-01-06 17:52+0800\n"
+"PO-Revision-Date: 2019-10-21 01:32+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 18.12.0\n"
+"X-Generator: Lokalize 19.08.2\n"
 
 #: find/exec.c:136
 #, c-format
@@ -174,12 +174,12 @@ msgstr ""
 #: find/parser.c:1194
 #, c-format
 msgid "%s is not the name of an existing group"
-msgstr ""
+msgstr "%s 名稱不屬於任何現存群組"
 
 #: find/parser.c:1200
 #, c-format
 msgid "argument to -group is empty, but should be a group name"
-msgstr ""
+msgstr "傳入 -group 的參數空白，但應為群組名稱"
 
 #: find/parser.c:1222
 msgid ""
@@ -241,7 +241,7 @@ msgstr ""
 
 #: find/parser.c:1244
 msgid "      -context CONTEXT\n"
-msgstr ""
+msgstr "      -context 上下文\n"
 
 #: find/parser.c:1246
 msgid ""
@@ -280,12 +280,12 @@ msgstr "警告：Unix 檔案名稱中一般上不會出現斜號 (雖然完整�
 #: find/parser.c:1447
 #, c-format
 msgid "Expected a positive decimal integer argument to %s, but got %s"
-msgstr ""
+msgstr "期望傳入 %s 的是十進位正整數參數，但卻是 %s"
 
 #: find/parser.c:1612
 #, c-format
 msgid "This system does not provide a way to find the birth time of a file."
-msgstr ""
+msgstr "此系統未提供尋找檔案建立日期的方法。"
 
 #: find/parser.c:1633
 #, c-format
@@ -295,7 +295,7 @@ msgstr "%s 測試需要參數"
 #: find/parser.c:1670
 #, c-format
 msgid "I cannot figure out how to interpret %s as a date or time"
-msgstr ""
+msgstr "無法確定要解析 %s 成日期還是時間"
 
 #: find/parser.c:1687
 #, c-format
@@ -305,7 +305,7 @@ msgstr "無法取得檔案「%s」的建立時間"
 #: find/parser.c:1831
 #, c-format
 msgid "warning: -%s %s will not match anything because it ends with /."
-msgstr ""
+msgstr "警告：-%s %s 因為以「/」結尾，因此什麼也不符合。"
 
 #: find/parser.c:1928
 #, c-format
@@ -344,12 +344,12 @@ msgstr "傳給 -used 的參數「%s」無效"
 #: find/parser.c:2544
 #, c-format
 msgid "%s is not the name of a known user"
-msgstr ""
+msgstr "%s 不是已知使用者的名稱"
 
 #: find/parser.c:2551
 #, c-format
 msgid "The argument to -user should not be empty"
-msgstr ""
+msgstr "傳入 -user 的參數不應空白"
 
 #: find/parser.c:2576
 #, c-format
@@ -359,37 +359,37 @@ msgstr "啟用了的功能："
 #: find/parser.c:2653
 #, c-format
 msgid "invalid predicate -context: SELinux is not enabled."
-msgstr ""
+msgstr "-context 謂語無效：未啟用 SELinux。"
 
 #: find/parser.c:2717
 #, c-format
 msgid "Arguments to -type should contain only one letter"
-msgstr ""
+msgstr "傳入 -type 的參數應只包含一個字母"
 
 #: find/parser.c:2746
 #, c-format
 msgid "-type %c is not supported because symbolic links are not supported on the platform find was compiled on."
-msgstr ""
+msgstr "不支援 -type %c，因為編譯 find 之平台不支援符號連結。"
 
 #: find/parser.c:2757
 #, c-format
 msgid "-type %c is not supported because FIFOs are not supported on the platform find was compiled on."
-msgstr ""
+msgstr "不支援 -type %c，因為編譯 find 之平台不支援 FIFO。"
 
 #: find/parser.c:2768
 #, c-format
 msgid "-type %c is not supported because named sockets are not supported on the platform find was compiled on."
-msgstr ""
+msgstr "不支援 -type %c，因為編譯 find 之平台不支援命名 socket。"
 
 #: find/parser.c:2779
 #, c-format
 msgid "-type %c is not supported because Solaris doors are not supported on the platform find was compiled on."
-msgstr ""
+msgstr "不支援 -type %c，因為編譯 find 之平台不支援 Solaris 門。"
 
 #: find/parser.c:2786
 #, c-format
 msgid "Unknown argument to -type: %c"
-msgstr ""
+msgstr "傳入 -type 的參數未知：%c"
 
 #: find/parser.c:2860
 #, c-format
@@ -433,21 +433,21 @@ msgstr ""
 
 #: find/parser.c:3389
 msgid "standard error"
-msgstr ""
+msgstr "標準錯誤"
 
 #: find/parser.c:3394
 msgid "standard output"
-msgstr ""
+msgstr "標準輸出"
 
 #: find/pred.c:338
 #, c-format
 msgid "cannot delete %s"
-msgstr ""
+msgstr "無法刪除 %s"
 
 #: find/pred.c:718
 #, c-format
 msgid "WARNING: cannot determine birth time of file %s"
-msgstr ""
+msgstr "警告：無法確認 %s 檔案的建立時間"
 
 #: find/pred.c:766
 #, c-format
@@ -457,17 +457,17 @@ msgstr "< %s ... %s > ? "
 #: find/pred.c:768
 #, c-format
 msgid "Failed to write prompt for -ok"
-msgstr ""
+msgstr "無法寫入用於 -ok 的提示"
 
 #: find/pred.c:1192 find/print.c:1239
 #, c-format
 msgid "getfilecon failed: %s"
-msgstr ""
+msgstr "getfilecon 失敗：%s"
 
 #: find/print.c:346
 #, c-format
 msgid "warning: escape `\\' followed by nothing at all"
-msgstr ""
+msgstr "警告：跳脫字元「\\」後方什麼也沒有"
 
 #: find/print.c:365
 #, c-format
@@ -477,22 +477,22 @@ msgstr "警告：無效辨認轉義控制序列 (escape sequence)「\\%c」"
 #: find/print.c:385
 #, c-format
 msgid "error: %s at end of format string"
-msgstr ""
+msgstr "錯誤：%s 在格式字串結尾"
 
 #: find/print.c:409
 #, c-format
 msgid "error: the format directive `%%%c' is reserved for future use"
-msgstr ""
+msgstr "錯誤：「%%%c」格式指令保留作未來使用"
 
 #: find/print.c:417
 #, c-format
 msgid "warning: format directive `%%%c' should be followed by another character"
-msgstr ""
+msgstr "警告：「%%%c」格式指令後方應接其他字元"
 
 #: find/print.c:425
 #, c-format
 msgid "warning: unrecognized format directive `%%%c'"
-msgstr ""
+msgstr "警告：「%%%c」格式指令無法識別"
 
 #: find/tree.c:129 find/tree.c:134 find/tree.c:224 find/tree.c:263
 #, c-format
@@ -507,12 +507,12 @@ msgstr ""
 #: find/tree.c:151
 #, c-format
 msgid "expected an expression between '%s' and ')'"
-msgstr ""
+msgstr "期望「%s」和「)」之間有表示式"
 
 #: find/tree.c:161
 #, c-format
 msgid "expected an expression after '%s'"
-msgstr ""
+msgstr "期望「%s」後有表示式"
 
 #: find/tree.c:166
 #, c-format
@@ -557,12 +557,12 @@ msgstr "路徑必須放在表達式之前：%s"
 #: find/tree.c:1303
 #, c-format
 msgid "unknown predicate `%s'"
-msgstr ""
+msgstr "未知謂語「%s」"
 
 #: find/tree.c:1323
 #, c-format
 msgid "invalid predicate `%s'"
-msgstr ""
+msgstr "無效謂語「%s」"
 
 #: find/tree.c:1328
 #, c-format
@@ -582,12 +582,12 @@ msgstr "過多「)」"
 #: find/tree.c:1418
 #, c-format
 msgid "unexpected extra predicate '%s'"
-msgstr ""
+msgstr "非預期延伸謂語「%s」"
 
 #: find/tree.c:1420
 #, c-format
 msgid "unexpected extra predicate"
-msgstr ""
+msgstr "非預期延伸謂語"
 
 #: find/tree.c:1553
 #, c-format
@@ -607,12 +607,12 @@ msgstr "] [路徑...] [表達式]\n"
 #: find/util.c:459
 #, c-format
 msgid "failed to save initial working directory: %s"
-msgstr ""
+msgstr "無法儲存初始工作目錄：%s"
 
 #: find/util.c:476
 #, c-format
 msgid "failed to restore initial working directory: %s"
-msgstr ""
+msgstr "無法復原初始工作目錄：%s"
 
 #: find/util.c:824
 #, c-format
@@ -622,27 +622,27 @@ msgstr "忽略無法識別的偵錯旗標 %s"
 #: find/util.c:831
 #, c-format
 msgid "Empty argument to the -D option."
-msgstr ""
+msgstr "傳入 -D 選項的參數空白。"
 
 #: find/util.c:847
 #, c-format
 msgid "The -O option must be immediately followed by a decimal integer"
-msgstr ""
+msgstr "必須在 -O 後立即接著一個十進位數字"
 
 #: find/util.c:857 find/util.c:868
 #, c-format
 msgid "Please specify a decimal number immediately after -O"
-msgstr ""
+msgstr "請在 -O 後立即指定一個十進位數字"
 
 #: find/util.c:873 find/util.c:878
 #, c-format
 msgid "Invalid optimisation level %s"
-msgstr ""
+msgstr "最佳化等級 %s 無效"
 
 #: find/util.c:886
 #, c-format
 msgid "Optimisation level %lu is too high.  If you want to find files very quickly, consider using GNU locate."
-msgstr ""
+msgstr "最佳化等級 %lu 過高。如果你希望非常快速地尋找檔案，請考慮使用 GNU locate。"
 
 #: find/util.c:1030
 #, c-format
@@ -652,12 +652,12 @@ msgstr "環境變數 FIND_BLOCK_SIZE 已經不再支援，唯一一個能夠影�
 #: gl/lib/argmatch.c:133
 #, c-format
 msgid "invalid argument %s for %s"
-msgstr "%2$s 的參數 %1$s 無效"
+msgstr "傳入 %2$s 之參數 %1$s 無效"
 
 #: gl/lib/argmatch.c:134
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "%2$s 的參數 %1$s 不明確"
+msgstr "傳入 %2$s 之參數 %1$s 不明確"
 
 #: gl/lib/argmatch.c:153
 msgid "Valid arguments are:"
@@ -665,16 +665,16 @@ msgstr "有效的參數為："
 
 #: gl/lib/closein.c:100
 msgid "error closing file"
-msgstr ""
+msgstr "關閉檔案時發生錯誤"
 
 #: gl/lib/closeout.c:112 locate/code.c:153 locate/frcode.c:210
 #, c-format
 msgid "write error"
-msgstr ""
+msgstr "寫入時發生錯誤"
 
 #: gl/lib/error.c:188
 msgid "Unknown system error"
-msgstr "不明的系統錯誤"
+msgstr "未知系統錯誤"
 
 #: gl/lib/getopt.c:547 gl/lib/getopt.c:576
 #, c-format
@@ -709,13 +709,13 @@ msgstr "%s：無法識別「%c%s」選項\n"
 #: gl/lib/getopt.c:805 gl/lib/getopt.c:808
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s：未知選項「%c」\n"
+msgstr "%s：無效選項 -- '%c'\n"
 
 #: gl/lib/getopt.c:861 gl/lib/getopt.c:878 gl/lib/getopt.c:1088
 #: gl/lib/getopt.c:1106
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s：選項需要參數「%c」\n"
+msgstr "%s：選項需要參數 -- '%c'\n"
 
 #: gl/lib/getopt.c:934 gl/lib/getopt.c:950
 #, c-format
@@ -740,7 +740,7 @@ msgstr "無法記錄目前工作目錄"
 #: gl/lib/openat-die.c:57
 #, c-format
 msgid "failed to return to initial working directory"
-msgstr ""
+msgstr "無法回到初始工作目錄"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -765,11 +765,11 @@ msgstr ""
 #. and use glyphs suitable for your language.
 #: gl/lib/quotearg.c:312
 msgid "`"
-msgstr "`"
+msgstr "「"
 
 #: gl/lib/quotearg.c:313
 msgid "'"
-msgstr "'"
+msgstr "」"
 
 #. TRANSLATORS: A regular expression testing for an affirmative answer
 #. (english: "yes").  Testing the first character may be sufficient.
@@ -794,19 +794,19 @@ msgstr "^[nN]"
 #: gl/lib/version-etc.c:74
 #, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr ""
+msgstr "由 %s (%s) 打包\n"
 
 #: gl/lib/version-etc.c:77
 #, c-format
 msgid "Packaged by %s\n"
-msgstr ""
+msgstr "由 %s 打包\n"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
 #. locale.  Otherwise, do not translate "(C)"; leave it as-is.
 #: gl/lib/version-etc.c:84
 msgid "(C)"
-msgstr ""
+msgstr "(C)"
 
 #: gl/lib/version-etc.c:86
 msgid ""
@@ -816,24 +816,29 @@ msgid ""
 "There is NO WARRANTY, to the extent permitted by law.\n"
 "\n"
 msgstr ""
+"\n"
+"GPLv3+ 授權條款：GNU GPL 第三版或更新版本 <http://gnu.org/licenses/gpl.html>。\n"
+"這是自由軟體：你能自由變更及重散佈。\n"
+"在法律允許的範圍內沒有任何擔保。\n"
+"\n"
 
 #. TRANSLATORS: %s denotes an author name.
 #: gl/lib/version-etc.c:102
 #, c-format
 msgid "Written by %s.\n"
-msgstr ""
+msgstr "由 %s 編寫。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: gl/lib/version-etc.c:106
 #, c-format
 msgid "Written by %s and %s.\n"
-msgstr ""
+msgstr "由 %s 和 %s 編寫。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: gl/lib/version-etc.c:110
 #, c-format
 msgid "Written by %s, %s, and %s.\n"
-msgstr ""
+msgstr "由 %s、%s 和 %s 編寫。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -844,6 +849,8 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
+"由 %s、%s、%s\n"
+"和 %s 編寫。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -854,6 +861,8 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
+"由 %s、%s、%s、\n"
+"%s 和 %s 編寫。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -864,6 +873,8 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, and %s.\n"
 msgstr ""
+"由 %s、%s、%s、\n"
+"%s、%s 和 %s 編寫。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -874,6 +885,8 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, %s, and %s.\n"
 msgstr ""
+"由 %s、%s、%s、%s、\n"
+"%s、%s 和 %s 編寫。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -885,6 +898,8 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
+"由 %s、%s、%s、%s、\n"
+"%s、%s、%s 和 %s 編寫。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -896,6 +911,9 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
+"由 %s、%s、%s、%s、\n"
+"%s、%s、%s、%s\n"
+"和 %s 編寫。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -907,6 +925,9 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, %s, and others.\n"
 msgstr ""
+"由 %s、%s、%s、%s、\n"
+"%s、%s、%s、%s\n"
+"和 %s 等人編寫。\n"
 
 #. TRANSLATORS: The placeholder indicates the bug-reporting address
 #. for this package.  Please add _another line_ saying
@@ -918,54 +939,56 @@ msgid ""
 "\n"
 "Report bugs to: %s\n"
 msgstr ""
+"\n"
+"回報臭蟲至：%s\n"
 
 #: gl/lib/version-etc.c:247
 #, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr ""
+msgstr "請將 %s 的臭蟲匯報至：%s\n"
 
 #: gl/lib/version-etc.c:251
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr ""
+msgstr "%s 首頁：<%s>\n"
 
 #: gl/lib/version-etc.c:253
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
-msgstr ""
+msgstr "%s 首頁：<http://www.gnu.org/software/%s/>\n"
 
 #: gl/lib/version-etc.c:256
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
+msgstr "使用 GNU 軟體的一般說明：<http://www.gnu.org/gethelp/>\n"
 
 #: gl/lib/xalloc-die.c:34
 msgid "memory exhausted"
-msgstr ""
+msgstr "記憶體用盡"
 
 #: gl/lib/xstrtol-error.c:63
 #, c-format
 msgid "invalid %s%s argument '%s'"
-msgstr "無效的 %s%s 參數「%s」"
+msgstr "%s%s 參數「%s」無效"
 
 #: gl/lib/xstrtol-error.c:68
 #, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "%s%s 的參數「%s」後置詞無效"
+msgstr "%s%s 參數「%s」有無效後綴"
 
 #: gl/lib/xstrtol-error.c:72
 #, c-format
 msgid "%s%s argument '%s' too large"
-msgstr "%s%s 的參數「%s」過長"
+msgstr "%s%s 參數「%s」過長"
 
 #: lib/buildcmd.c:161
 #, c-format
 msgid "command too long"
-msgstr ""
+msgstr "指令太長"
 
 #: lib/buildcmd.c:301
 #, c-format
 msgid "can't call exec() due to argument size restrictions"
-msgstr ""
+msgstr "因參數大小限制而無法呼叫 exec()"
 
 #: lib/buildcmd.c:371
 #, c-format
@@ -980,7 +1003,7 @@ msgstr "參數列表過長"
 #: lib/buildcmd.c:629
 #, c-format
 msgid "Environment variable %s is not set to a valid decimal number"
-msgstr ""
+msgstr "%s 環境變數並未設定成有效的十進位數字"
 
 #: lib/fdleak.c:377
 #, c-format
@@ -989,15 +1012,15 @@ msgstr ""
 
 #: lib/findutils-version.c:55
 msgid "Eric B. Decker"
-msgstr ""
+msgstr "Eric B. Decker"
 
 #: lib/findutils-version.c:56
 msgid "James Youngman"
-msgstr ""
+msgstr "James Youngman"
 
 #: lib/findutils-version.c:57
 msgid "Kevin Dalley"
-msgstr ""
+msgstr "Kevin Dalley"
 
 #: lib/listfile.c:452
 #, c-format
@@ -1012,12 +1035,12 @@ msgstr ""
 #: lib/safe-atoi.c:81
 #, c-format
 msgid "Unexpected suffix %s on %s"
-msgstr ""
+msgstr "%2$s 上有非預期的 %1$s 後綴"
 
 #: lib/safe-atoi.c:87
 #, c-format
 msgid "Expected an integer: %s"
-msgstr ""
+msgstr "期望整數：%s"
 
 #: locate/code.c:131
 #, c-format
@@ -1040,7 +1063,7 @@ msgstr ""
 #: locate/frcode.c:160
 #, c-format
 msgid "Usage: %s [-0 | --null] [--version] [--help]\n"
-msgstr ""
+msgstr "用法：%s [-0 | --null] [--version] [--help]\n"
 
 #: locate/frcode.c:180
 #, c-format
@@ -1094,7 +1117,7 @@ msgstr "定位資料庫「%s」損壞或無效"
 #: locate/locate.c:865
 #, c-format
 msgid "Database was last modified at %s.%09ld"
-msgstr ""
+msgstr "資料庫上次修改於 %s.%09ld"
 
 #: locate/locate.c:873
 #, c-format
@@ -1207,19 +1230,19 @@ msgstr ""
 
 #: locate/locate.c:1448
 msgid "failed to drop group privileges"
-msgstr ""
+msgstr "無法拋棄群組權限"
 
 #: locate/locate.c:1466
 msgid "failed to drop setuid privileges"
-msgstr ""
+msgstr "無法拋棄 setuid 權限"
 
 #: locate/locate.c:1480
 msgid "Failed to fully drop privileges"
-msgstr ""
+msgstr "無法完全拋棄權限"
 
 #: locate/locate.c:1498
 msgid "failed to drop setgid privileges"
-msgstr ""
+msgstr "無法拋棄 setgid 權限"
 
 #: locate/locate.c:1778
 #, c-format
@@ -1229,7 +1252,7 @@ msgstr "警告：locate 資料庫只可以由標準輸入讀取一次。"
 #: locate/locate.c:1851
 #, c-format
 msgid "time system call failed"
-msgstr ""
+msgstr "時間系統呼叫失敗"
 
 # e.g. database `%s' is more than 8 days old
 #: locate/locate.c:1862
@@ -1245,7 +1268,7 @@ msgstr ""
 #: locate/word_io.c:145
 #, c-format
 msgid "unexpected EOF in %s"
-msgstr ""
+msgstr "%s 中有非預期的檔案結尾"
 
 #: locate/word_io.c:148
 #, c-format
@@ -1305,12 +1328,12 @@ msgstr ""
 #: xargs/xargs.c:663
 #, c-format
 msgid "Cannot set SIGUSR1 signal handler"
-msgstr ""
+msgstr "無法設定 SIGUSR1 信號處理器"
 
 #: xargs/xargs.c:669
 #, c-format
 msgid "Cannot set SIGUSR2 signal handler"
-msgstr ""
+msgstr "無法設定 SIGUSR2 信號處理器"
 
 #: xargs/xargs.c:685
 #, c-format
@@ -1477,7 +1500,7 @@ msgstr ""
 msgid ""
 "Mandatory and optional arguments to long options are also\n"
 "mandatory or optional for the corresponding short option.\n"
-msgstr ""
+msgstr "傳入長選項的必選及選用參數，對相對應的短選項亦然。\n"
 
 #: xargs/xargs.c:1639
 msgid ""
@@ -1488,7 +1511,7 @@ msgstr ""
 
 #: xargs/xargs.c:1642
 msgid "  -a, --arg-file=FILE          read arguments from FILE, not standard input\n"
-msgstr ""
+msgstr "  -a, --arg-file=檔案          從 <檔案> 而非標準輸入讀取參數\n"
 
 #: xargs/xargs.c:1643
 msgid ""
@@ -1512,7 +1535,7 @@ msgstr ""
 
 #: xargs/xargs.c:1651
 msgid "  -I R                         same as --replace=R\n"
-msgstr ""
+msgstr "  -I R                         等於 --replace=R\n"
 
 #: xargs/xargs.c:1652
 msgid ""
@@ -1543,7 +1566,7 @@ msgstr ""
 
 #: xargs/xargs.c:1661
 msgid "  -p, --interactive            prompt before running commands\n"
-msgstr ""
+msgstr "  -p, --interactive            執行指令前提示\n"
 
 #: xargs/xargs.c:1662
 msgid "      --process-slot-var=VAR   set environment variable VAR in child processes\n"
@@ -1566,91 +1589,22 @@ msgstr ""
 
 #: xargs/xargs.c:1668
 msgid "  -t, --verbose                print commands before executing them\n"
-msgstr ""
+msgstr "  -t, --verbose                執行前輸出指令\n"
 
 #: xargs/xargs.c:1669
 msgid "  -x, --exit                   exit if the size (see -s) is exceeded\n"
-msgstr ""
+msgstr "  -x, --exit                   如果大小 (見 -s) 超出範圍則離開\n"
 
 #: xargs/xargs.c:1671
 msgid "      --help                   display this help and exit\n"
-msgstr ""
+msgstr "      --help                   顯示此說明後離開\n"
 
 #: xargs/xargs.c:1672
 msgid "      --version                output version information and exit\n"
-msgstr ""
+msgstr "      --version                輸出版本資訊後離開\n"
 
 #~ msgid "%s: illegal option -- %c\n"
 #~ msgstr "%s：不合法的選項 ─ %c\n"
 
 #~ msgid "block size"
-#~ msgstr "區段大小"
-
-#~ msgid "warning: the predicate -ipath is deprecated; please use -iwholename instead."
-#~ msgstr "警告：-ipath 選項已過時，請改用 -iwholename。"
-
-#~ msgid "GNU find version %s\n"
-#~ msgstr "GNU find %s 版本\n"
-
-#~ msgid "oops -- invalid expression type in mark_stat!"
-#~ msgstr "mark_stat 中的表達式類型無效！"
-
-#~ msgid "oops -- invalid expression type in mark_type!"
-#~ msgstr "mark_type 中的表達式類型無效！"
-
-#~ msgid "GNU findutils version %s\n"
-#~ msgstr "GNU findutils %s 版本\n"
-
-#~ msgid "with a cumulative length of %s bytes"
-#~ msgstr "總長度共 %s 位元組"
-
-#~ msgid ""
-#~ "\n"
-#~ "\tof which %s contain whitespace, "
-#~ msgstr ""
-#~ "\n"
-#~ "\t其中 %s 個有空白字元，"
-
-#~ msgid ""
-#~ "\n"
-#~ "\t%s contain newline characters, "
-#~ msgstr ""
-#~ "\n"
-#~ "\t%s 個有換行字元，"
-
-#~ msgid ""
-#~ "\n"
-#~ "\tand %s contain characters with the high bit set.\n"
-#~ msgstr ""
-#~ "\n"
-#~ "\t和 %s 個含有不是 7 bit 的字元。\n"
-
-#~ msgid "old"
-#~ msgstr "舊的"
-
-#~ msgid "GNU locate version %s\n"
-#~ msgstr "GNU locate %s 版本\n"
-
-#~ msgid "GNU xargs version %s\n"
-#~ msgstr "GNU xargs %s 版本\n"
-
-#~ msgid ""
-#~ "Usage: %s [-0prtx] [--interactive] [--null] [-d|--delimiter=delim]\n"
-#~ "       [-E eof-str] [-e[eof-str]]  [--eof[=eof-str]]\n"
-#~ "       [-L max-lines] [-l[max-lines]] [--max-lines[=max-lines]]\n"
-#~ "       [-I replace-str] [-i[replace-str]] [--replace[=replace-str]]\n"
-#~ "       [-n max-args] [--max-args=max-args]\n"
-#~ "       [-s max-chars] [--max-chars=max-chars]\n"
-#~ "       [-P max-procs]  [--max-procs=max-procs]\n"
-#~ "       [--verbose] [--exit] [--no-run-if-empty] [--arg-file=file]\n"
-#~ "       [--version] [--help] [command [initial-arguments]]\n"
-#~ msgstr ""
-#~ "用法:  %s [-0prtx] [--interactive] [--null] [-d|--delimiter=delim]\n"
-#~ "       [-E eof-str] [-e[eof-str]]  [--eof[=eof-str]]\n"
-#~ "       [-L max-lines] [-l[max-lines]] [--max-lines[=max-lines]]\n"
-#~ "       [-I replace-str] [-i[replace-str]] [--replace[=replace-str]]\n"
-#~ "       [-n max-args] [--max-args=max-args]\n"
-#~ "       [-s max-chars] [--max-chars=max-chars]\n"
-#~ "       [-P max-procs]  [--max-procs=max-procs]\n"
-#~ "       [--verbose] [--exit] [--no-run-if-empty] [--arg-file=file]\n"
-#~ "       [--version] [--help] [指令 [指令的參數]]\n"
+#~ msgstr "區塊大小"
