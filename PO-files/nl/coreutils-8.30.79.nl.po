@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.30.79\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2019-03-04 01:47-0800\n"
-"PO-Revision-Date: 2019-10-13 20:02+0200\n"
+"PO-Revision-Date: 2019-11-09 20:41+0200\n"
 "Last-Translator: Benno Schulenberg <vertaling@coevern.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -4130,7 +4130,7 @@ msgstr ""
 
 #: src/env.c:126
 msgid "  -C, --chdir=DIR      change working directory to DIR\n"
-msgstr "  -C, --chdir=MAP      huidige map niet wijzigen naar MAP\n"
+msgstr "  -C, --chdir=MAP      huidige map wijzigen naar MAP\n"
 
 #: src/env.c:129
 msgid ""
@@ -4255,9 +4255,9 @@ msgid "must specify command with --chdir (-C)"
 msgstr "met '--chdir' (-C) moet een commado gegeven worden"
 
 #: src/env.c:919
-#, fuzzy, c-format
+#, c-format
 msgid "cannot change directory to %s"
-msgstr "kan '%s' niet als basismap instellen"
+msgstr "kan map niet wijzigen naar '%s'"
 
 #: src/expand-common.c:90
 msgid "tabs are too far apart"
@@ -5559,9 +5559,9 @@ msgid "cannot combine --target-directory and --no-target-directory"
 msgstr "opties '--target-directory' en '--no-target-directory' gaan niet samen"
 
 #: src/ln.c:619
-#, fuzzy, c-format
+#, c-format
 msgid "target %s"
-msgstr "overtollig argument: %s"
+msgstr "doel %s"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/logname.c:30
@@ -5714,9 +5714,11 @@ msgid ""
 "      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;\n"
 "                               e.g., '--block-size=M'; see SIZE format below\n"
 msgstr ""
+"      --block-size=GROOTTE   de te tonen groottes schalen naar deze waarde;\n"
+"                               '--block-size=M' bijvoorbeeld toont de groottes\n"
+"                               in eenheden van 1.048.576 bytes; zie hieronder\n"
 
 #: src/ls.c:5151
-#, fuzzy
 msgid ""
 "  -B, --ignore-backups       do not list implied entries ending with ~\n"
 "  -c                         with -lt: sort by, and show, ctime (time of last\n"
@@ -5724,9 +5726,6 @@ msgid ""
 "                               with -l: show ctime and sort by name;\n"
 "                               otherwise: sort by ctime, newest first\n"
 msgstr ""
-"      --block-size=GROOTTE   de te tonen groottes schalen naar deze waarde;\n"
-"                               '--block-size=M' bijvoorbeeld toont de groottes\n"
-"                               in eenheden van 1.048.576 bytes; zie hieronder\n"
 "  -B, --ignore-backups       geen namen tonen die eindigen op '~'\n"
 "  -c                         met '-lt': op 'ctime' sorteren en deze tonen (de\n"
 "                               tijd van de laatste statusinformatiewijziging);\n"
@@ -11200,7 +11199,7 @@ msgstr "fout bij lezen van 'inotify'-gebeurtenis"
 #: src/tail.c:1714
 #, c-format
 msgid "directory containing watched file was removed"
-msgstr ""
+msgstr "de map die het gemonitorde bestand bevatte werd verwijderd"
 
 #: src/tail.c:2046
 #, c-format
@@ -11477,7 +11476,6 @@ msgstr ""
 "  -k BESTAND    waar als bestand het \"sticky\"-bit aan heeft staan\n"
 
 #: src/test.c:752
-#, fuzzy
 msgid ""
 "  -L FILE     FILE exists and is a symbolic link (same as -h)\n"
 "  -N FILE     FILE exists and has been modified since it was last read\n"
@@ -11487,6 +11485,7 @@ msgid ""
 "  -s FILE     FILE exists and has a size greater than zero\n"
 msgstr ""
 "  -L BESTAND    waar als bestand een symbolische koppeling is (== '-h')\n"
+"  -N BESTAND    waar als bestand gewijzigd is sinds het laatst gelezen werd\n"
 "  -O BESTAND    waar als uw effectieve gebruikers-ID het bestand bezit\n"
 "  -p BESTAND    waar als bestand een benoemde pijp is\n"
 "  -r BESTAND    waar als bestand voor u leesbaar is\n"
@@ -11574,9 +11573,9 @@ msgid "warning: timer_create"
 msgstr "Waarschuwing: kan timer niet aanmaken"
 
 #: src/timeout.c:207
-#, fuzzy, c-format
+#, c-format
 msgid "sending signal %s to command %s"
-msgstr "met FILE=%s, signaal %s van commando: %s"
+msgstr "signaal %s wordt gestuurd naar commando %s"
 
 #: src/timeout.c:235
 #, c-format
@@ -12243,7 +12242,6 @@ msgid "Convert blanks in each FILE to tabs, writing to standard output.\n"
 msgstr "Stuurt elk BESTAND naar standaarduitvoer met witruimte geconverteerd naar tabs.\n"
 
 #: src/unexpand.c:89
-#, fuzzy
 msgid ""
 "  -a, --all        convert all blanks, instead of just initial blanks\n"
 "      --first-only  convert only leading sequences of blanks (overrides -a)\n"
@@ -12252,7 +12250,6 @@ msgstr ""
 "  -a, --all           alle witruimte omzetten, niet alleen die aan regelbegin\n"
 "      --first-only    alleen beginwitruimte omzetten (gaat boven '-a')\n"
 "  -t, --tabs=GETAL    te gebruiken tabbreedte in plaats van 8 (activeert '-a')\n"
-"  -t, --tabs=LIJST    kommagescheiden lijst van te gebruiken tabposities (idem)\n"
 
 #: src/unexpand.c:306
 msgid "tab stop value is too large"
@@ -12404,9 +12401,8 @@ msgstr "kan de opstarttijd niet vinden"
 
 #. TRANSLATORS: This prints the current clock time.
 #: src/uptime.c:136
-#, fuzzy
 msgid " %H:%M:%S  "
-msgstr " %H:%M    "
+msgstr " %H:%M:%S  "
 
 #: src/uptime.c:138
 #, c-format
@@ -13351,9 +13347,6 @@ msgstr ""
 
 #~ msgid "using restricted shell %s"
 #~ msgstr "ingeperkte shell %s wordt gebruikt"
-
-#~ msgid "warning: cannot change directory to %s"
-#~ msgstr "waarschuwing: kan map niet wijzigen in %s"
 
 #~ msgid ""
 #~ "\n"
