@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: make 4.2.91\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2019-09-16 08:26-0400\n"
-"PO-Revision-Date: 2019-09-24 18:20+0200\n"
+"PO-Revision-Date: 2019-11-13 10:20+0100\n"
 "Last-Translator: Francesco Groccia <grocf@protonmail.ch>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -476,7 +476,7 @@ msgstr "Nome della funzione troppo lungo: %s"
 #: src/function.c:2665
 #, c-format
 msgid "Invalid minimum argument count (%u) for function %s"
-msgstr "numero di argomenti non sufficienti (%u) per la funzione %s"
+msgstr "Numero di argomenti non sufficienti (%u) per la funzione %s"
 
 #: src/function.c:2668
 #, c-format
@@ -873,7 +873,7 @@ msgstr ""
 
 #: src/main.c:350
 msgid "  -E STRING, --eval=STRING    Evaluate STRING as a makefile statement.\n"
-msgstr "-E STRINGA, --eval=TESTO               Analizza STRINGA come estratta dal makefile.\n"
+msgstr " -E STRINGA, --eval=TESTO               Analizza STRINGA come estratta dal makefile.\n"
 
 #: src/main.c:352
 msgid ""
@@ -1533,7 +1533,7 @@ msgstr "il «%s» dell'obiettivo non corrisponde al modello dell'obiettivo stess
 #: src/read.c:2122 src/read.c:2168
 #, c-format
 msgid "target file '%s' has both : and :: entries"
-msgstr "Il file dell'obiettivo «%s» contiene sia : che ::"
+msgstr "il file dell'obiettivo «%s» contiene sia : che ::"
 
 #: src/read.c:2128
 #, c-format
@@ -1718,7 +1718,7 @@ msgstr "L'obiettivo «%s» deve essere rigenerato.\n"
 #: src/remake.c:830
 #, c-format
 msgid "  Ignoring VPATH name '%s'.\n"
-msgstr "  nome VPATH «%s» ignorato.\n"
+msgstr "  Nome VPATH «%s» ignorato.\n"
 
 #: src/remake.c:839
 #, c-format
@@ -2047,7 +2047,7 @@ msgid ""
 "# Pattern-specific Variable Values"
 msgstr ""
 "\n"
-"# Valori di variabile non specifici per il modello."
+"# Valori di variabile non specifici per il modello"
 
 #: src/variable.c:1774
 msgid ""
@@ -2064,7 +2064,7 @@ msgid ""
 "# %u pattern-specific variable values"
 msgstr ""
 "\n"
-"# %u valori di variabile specifici per il modello."
+"# %u valori di variabile specifici per il modello"
 
 #: src/variable.h:229
 #, c-format
@@ -2116,7 +2116,7 @@ msgstr ""
 
 #: src/vpath.c:620
 msgid "# No 'vpath' search paths."
-msgstr "# Percorsi di ricerca «vpath» assenti."
+msgstr "# Non ci sono percorsi di ricerca 'vpath'."
 
 #: src/vpath.c:622
 #, c-format
@@ -2125,7 +2125,7 @@ msgid ""
 "# %u 'vpath' search paths.\n"
 msgstr ""
 "\n"
-"# %u 'vpath' percorsi di ricerca.\n"
+"# percorsi di ricerca 'vpath' %u.\n"
 
 #: src/vpath.c:625
 msgid ""
@@ -2153,7 +2153,7 @@ msgstr "Slot del jobserver limitati a %d\n"
 #: src/w32/w32os.c:60
 #, c-format
 msgid "creating jobserver semaphore: (Error %ld: %s)"
-msgstr "Creazione del semaforo del jobserver: (Errore %ld: %s)"
+msgstr "creazione del semaforo del jobserver: (Errore %ld: %s)"
 
 #: src/w32/w32os.c:79
 #, c-format
