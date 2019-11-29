@@ -1335,7 +1335,7 @@ msgstr "файл, вказаний з параметром -T, містить н
 
 #: src/names.c:80
 msgid "disable the effect of the previous --null option"
-msgstr "відмінити дію попередньої параметра --null"
+msgstr "скасувати дію попереднього параметра --null"
 
 #: src/names.c:82
 msgid "unquote input file or member names (default)"
@@ -1423,7 +1423,7 @@ msgstr "Керування порівнюванням назв (впливає �
 
 #: src/names.c:132
 msgid "patterns match file name start"
-msgstr "порівнювати шаблони з назвами файлів починаючи від початку назви"
+msgstr "порівнювати шаблони з назвами файлів, починаючи від початку назви"
 
 #: src/names.c:134
 msgid "patterns match after any '/' (default for exclusion)"
@@ -1539,7 +1539,7 @@ msgstr "Формат архіву є несумісним з розширени�
 #: src/tar.c:264
 #, c-format
 msgid "Unknown quoting style '%s'. Try '%s --quoting-style=help' to get a list."
-msgstr "Невідомий стиль цитування «%s». Наберіть «%s --quoting-style=help», щоб отримати перелік стилів."
+msgstr "Невідомий стиль взяття у лапки «%s». Наберіть «%s --quoting-style=help», щоб отримати перелік стилів."
 
 #: src/tar.c:354
 msgid ""
@@ -1626,7 +1626,7 @@ msgstr "Модифікатори режиму роботи:"
 
 #: src/tar.c:423
 msgid "handle sparse files efficiently"
-msgstr "заощаджувати простір під час зберігання розсіяних файлів"
+msgstr "заощаджувати простір під час зберігання розріджених файлів"
 
 #: src/tar.c:424
 msgid "TYPE"
@@ -1642,7 +1642,7 @@ msgstr "ГОЛОВНИЙ[.ДРУГОРЯДНИЙ]"
 
 #: src/tar.c:427
 msgid "set version of the sparse format to use (implies --sparse)"
-msgstr "встановлює версію формату розсіяних файлів (вмикає --sparse)"
+msgstr "встановлює версію формату розріджених файлів (вмикає --sparse)"
 
 # FIXME: incremental
 #: src/tar.c:429
@@ -1664,7 +1664,7 @@ msgstr "ігнорувати помилки читання файлів"
 
 #: src/tar.c:437
 msgid "process only the NUMBERth occurrence of each file in the archive; this option is valid only in conjunction with one of the subcommands --delete, --diff, --extract or --list and when a list of files is given either on the command line or via the -T option; NUMBER defaults to 1"
-msgstr "обробляти тільки вказане входження кожного файла в архіві. Ця параметр є дійсною тільки разом з одним з параметрів --delete, --diff, --extract, --list і з переліком файлів (у командному рядку або за допомогою параметра -T). Типове ЧИСЛО: 1."
+msgstr "обробляти тільки вказане входження кожного файла в архіві. Цей параметр є дійсним тільки разом з одним з параметрів --delete, --diff, --extract, --list і з переліком файлів (у командному рядку або за допомогою параметра -T). Типове ЧИСЛО: 1."
 
 #: src/tar.c:443
 msgid "archive is seekable"
@@ -1704,7 +1704,7 @@ msgstr "не заміняти наявні файли під час видобу
 
 #: src/tar.c:469
 msgid "don't replace existing files that are newer than their archive copies"
-msgstr "не заміняти наявні файли що є новішими за їх копії у архіві"
+msgstr "не заміняти наявні файли, що є новішими за їх копії у архіві"
 
 #: src/tar.c:471
 msgid "overwrite existing files when extracting"
@@ -1712,7 +1712,7 @@ msgstr "перезаписувати наявні файли під час ви�
 
 #: src/tar.c:473
 msgid "remove each file prior to extracting over it"
-msgstr "вилучяти кожний файл перед видобуванням його копії"
+msgstr "вилучати кожний файл перед видобуванням його копії"
 
 #: src/tar.c:475
 msgid "empty hierarchies prior to extracting directory"
@@ -1788,7 +1788,7 @@ msgstr "встановлення часу останньої зміни дода
 
 #: src/tar.c:518
 msgid "only set time when the file is more recent than what was given with --mtime"
-msgstr "встановлювати час лише для файлів що є новіші за файл вказаний з --mtime"
+msgstr "встановлювати час лише для файлів, що є новішими за файл, вказаний з --mtime"
 
 # Ну, і чому це CHANGES??
 #: src/tar.c:519
@@ -1841,7 +1841,7 @@ msgstr "затримати встановлення часу модифікац�
 
 #: src/tar.c:548
 msgid "cancel the effect of --delay-directory-restore option"
-msgstr "відмінити дії параметра --delay-directory-restore"
+msgstr "скасувати дії параметра --delay-directory-restore"
 
 #: src/tar.c:549
 msgid "ORDER"
@@ -2045,7 +2045,7 @@ msgstr "ПРОГРАМА"
 
 #: src/tar.c:673
 msgid "filter through PROG (must accept -d)"
-msgstr "використовувати ПРОГРАМУ для стиснення/розтискання архіву"
+msgstr "фільтрувати через ПРОГРАМУ (має приймати B<-d>)"
 
 #: src/tar.c:690
 msgid "Local file selection:"
@@ -2061,11 +2061,11 @@ msgstr "не вилучати початкову похилу риску, '/', �
 
 #: src/tar.c:696
 msgid "follow symlinks; archive and dump the files they point to"
-msgstr "Йти за символьними посиланнями: долучати файли, на яки вони вказують"
+msgstr "Йти за символьними посиланнями: долучати файли, на які вони вказують"
 
 #: src/tar.c:698
 msgid "follow hard links; archive and dump the files they refer to"
-msgstr "Йти за жорсткими посиланнями: долучати файли, на яки вони вказують"
+msgstr "Йти за жорсткими посиланнями: долучати файли, на які вони вказують"
 
 #: src/tar.c:699
 msgid "MEMBER-NAME"
@@ -2109,7 +2109,7 @@ msgstr "Перетворювання назв файлів:"
 
 #: src/tar.c:716
 msgid "strip NUMBER leading components from file names on extraction"
-msgstr "вилучяти вказане ЧИСЛО компонентів з початку назв файлів"
+msgstr "вилучати вказане ЧИСЛО компонентів з початку назв файлів"
 
 #: src/tar.c:718
 msgid "EXPRESSION"
@@ -2149,7 +2149,7 @@ msgstr "виконати вказану дію у контрольному пу�
 
 #: src/tar.c:738
 msgid "print a message if not all links are dumped"
-msgstr "виводити повідомлення якщо до архіву було додано не всі посилання"
+msgstr "виводити повідомлення, якщо до архіву було додано не всі посилання"
 
 #: src/tar.c:739
 msgid "SIGNAL"
@@ -2201,15 +2201,15 @@ msgstr "СТИЛЬ"
 
 #: src/tar.c:766
 msgid "set name quoting style; see below for valid STYLE values"
-msgstr "встановити стиль цитування; дозволені стилі див. нижче"
+msgstr "встановити стиль взяття у лапки; дозволені стилі див. нижче"
 
 #: src/tar.c:768
 msgid "additionally quote characters from STRING"
-msgstr "цитувати також вказані символи"
+msgstr "брати у лапки також вказані РЯДКОМ символи"
 
 #: src/tar.c:770
 msgid "disable quoting for characters from STRING"
-msgstr "вимкнути цитування вказаних символів"
+msgstr "вимкнути взяття у лапки вказаних символів"
 
 #: src/tar.c:775
 msgid "Compatibility options:"
@@ -2301,7 +2301,7 @@ msgstr "Більш ніж одна гранична дата"
 
 #: src/tar.c:1599 src/tar.c:1602
 msgid "Invalid sparse version value"
-msgstr "Недійсна версія формату розсіяних файлів"
+msgstr "Недійсна версія формату розріджених файлів"
 
 #: src/tar.c:1670
 msgid "--atime-preserve='system' is not supported on this platform"
@@ -2629,11 +2629,11 @@ msgstr "Взірець заповнення файла: 'default' (типови�
 
 #: tests/genfile.c:141
 msgid "Size of a block for sparse file"
-msgstr "Розмір блока розсіяного файла"
+msgstr "Розмір блока розрідженого файла"
 
 #: tests/genfile.c:143
 msgid "Generate sparse file. Rest of the command line gives the file map."
-msgstr "Створити розсіяний файл. Решта аргументів дає мапу файла."
+msgstr "Створити розріджений файл. Решта аргументів дає мапу файла."
 
 #: tests/genfile.c:145
 msgid "OFFSET"
@@ -2731,7 +2731,7 @@ msgstr "замовлений розмір файла %lu, справжній -- 
 #: tests/genfile.c:275
 #, c-format
 msgid "created file is not sparse"
-msgstr "створений файл не є розсіяним"
+msgstr "створений файл не є розрідженим"
 
 #: tests/genfile.c:368
 #, c-format
@@ -2765,7 +2765,7 @@ msgstr "назва файла містить нульовий символ"
 #: tests/genfile.c:571
 #, c-format
 msgid "cannot generate sparse files on standard output, use --file option"
-msgstr "неможливо створювати розсіяні файли на стандартному виводі; користайтеся параметром --file"
+msgstr "неможливо створювати розріджені файли на стандартному виводі; користайтеся параметром --file"
 
 #: tests/genfile.c:662
 #, c-format
