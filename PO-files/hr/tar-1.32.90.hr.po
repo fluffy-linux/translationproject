@@ -1442,7 +1442,7 @@ msgstr "isključi backup (osiguranje) i zaključane datoteke"
 
 #: src/names.c:122
 msgid "recurse into directories (default)"
-msgstr "rekurzivno ulazi u direktorije (zadano)"
+msgstr "rekurzivno ulazimo u direktorije (zadano)"
 
 #: src/names.c:124
 msgid "avoid descending automatically in directories"
