@@ -14,9 +14,9 @@ msgstr ""
 "Project-Id-Version: coreutils 8.30.79\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2019-03-04 01:47-0800\n"
-"PO-Revision-Date: 2019-11-17 21:52+0800\n"
+"PO-Revision-Date: 2019-12-06 23:42+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
-"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -152,7 +152,7 @@ msgstr "連線埠"
 
 #: lib/file-type.c:105
 msgid "socket"
-msgstr "通訊端 (socket)"
+msgstr "socket"
 
 #: lib/file-type.c:108
 msgid "whiteout"
@@ -228,7 +228,7 @@ msgstr "所有請求完成"
 
 #: lib/gai_strerror.c:74
 msgid "Interrupted by a signal"
-msgstr "遭訊號中止"
+msgstr "遭信號中斷"
 
 #: lib/gai_strerror.c:75
 msgid "Parameter string not correctly encoded"
@@ -464,11 +464,11 @@ msgstr "掛斷"
 
 #: lib/siglist.h:34
 msgid "Interrupt"
-msgstr "中止"
+msgstr "中斷"
 
 #: lib/siglist.h:37
 msgid "Quit"
-msgstr "結束"
+msgstr "退出"
 
 #: lib/siglist.h:40
 msgid "Illegal instruction"
@@ -480,11 +480,11 @@ msgstr "追蹤 / 斷點陷阱"
 
 #: lib/siglist.h:46
 msgid "Aborted"
-msgstr "取消"
+msgstr "中止"
 
 #: lib/siglist.h:49
 msgid "Floating point exception"
-msgstr "期望浮點數"
+msgstr "浮點數例外"
 
 #: lib/siglist.h:52
 msgid "Killed"
@@ -496,7 +496,7 @@ msgstr "匯流排錯誤"
 
 #: lib/siglist.h:58
 msgid "Segmentation fault"
-msgstr "分割錯誤"
+msgstr "程式記憶體區段錯誤"
 
 #: lib/siglist.h:61
 msgid "Broken pipe"
@@ -516,7 +516,7 @@ msgstr "緊急 I/O 條件"
 
 #: lib/siglist.h:73
 msgid "Stopped (signal)"
-msgstr "停止（訊號）"
+msgstr "停止（信號）"
 
 #: lib/siglist.h:76
 msgid "Stopped"
@@ -564,11 +564,11 @@ msgstr "已變更視窗"
 
 #: lib/siglist.h:109
 msgid "User defined signal 1"
-msgstr "使用者定義訊號 1"
+msgstr "使用者定義信號 1"
 
 #: lib/siglist.h:112
 msgid "User defined signal 2"
-msgstr "使用者定義訊號 2"
+msgstr "使用者定義信號 2"
 
 #: lib/siglist.h:117
 msgid "EMT trap"
@@ -597,12 +597,12 @@ msgstr "資源遺失"
 #: lib/strsignal.c:114
 #, c-format
 msgid "Real-time signal %d"
-msgstr "即時訊號 %d"
+msgstr "即時信號 %d"
 
 #: lib/strsignal.c:118
 #, c-format
 msgid "Unknown signal %d"
-msgstr "未知訊號 %d"
+msgstr "未知信號 %d"
 
 #: lib/unicodeio.c:102
 msgid "iconv function not usable"
