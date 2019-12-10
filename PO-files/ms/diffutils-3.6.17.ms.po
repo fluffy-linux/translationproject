@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2019-10-18 12:49+0800\n"
+"PO-Revision-Date: 2019-12-10 15:38+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -318,7 +318,7 @@ msgstr "hujah tidak sah %s bagi %s"
 #: lib/xstrtol-error.c:68
 #, fuzzy, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "hujah %s tidak sah untuk `%s'"
+msgstr "hujah tidak sah %s bagi %s"
 
 #: lib/xstrtol-error.c:72
 #, fuzzy, c-format
@@ -828,7 +828,7 @@ msgstr "-w NOM  --width=NOM  Keluarkan paling banyak NOM (default 130) lajur cet
 #, fuzzy
 #| msgid "-l  --left-column  Output only the left column of common lines."
 msgid "    --left-column             output only the left column of common lines"
-msgstr "-l  --left-column  Keluarkan hanya lajur kiri baris yang sama."
+msgstr "-l, --left-column            keluarkan hanya lajur kiri baris yang sama"
 
 #: src/diff.c:901
 #, fuzzy
@@ -861,7 +861,7 @@ msgstr "-L LABEL  --label=LABEL  Guna LABEL selain daripada nama fail."
 #, fuzzy
 #| msgid "-t  --expand-tabs  Expand tabs to spaces in output."
 msgid "-t, --expand-tabs             expand tabs to spaces in output"
-msgstr "-t  --expand-tabs  Kembang tab kepada ruang dalam keluaran."
+msgstr "-t, --expand-tabs            kembang tab kepada ruang dalam keluaran"
 
 #: src/diff.c:909
 #, fuzzy
@@ -873,7 +873,7 @@ msgstr "-T  --initial-tab  Jadikan tab sebaris dengan menambah awalan tab."
 #, fuzzy
 #| msgid "--tabsize=NUM  Tab stops are every NUM (default 8) print columns."
 msgid "    --tabsize=NUM             tab stops every NUM (default 8) print columns"
-msgstr "--tabsize=NOM  Hentian tab setial NOM (default 8) lajur cetakan."
+msgstr "    --tabsize=NUM            hentian tab setiap NUM (default 8) lajur cetakan"
 
 #: src/diff.c:911
 msgid "    --suppress-blank-empty    suppress space or tab before empty output lines"
@@ -1515,10 +1515,8 @@ msgid "-b, --ignore-space-change    ignore changes in the amount of white space"
 msgstr "-b  --ignore-space-change  Abai perubahan dalam jumlah ruang putih."
 
 #: src/sdiff.c:179
-#, fuzzy
-#| msgid "-W  --ignore-all-space  Ignore all white space."
 msgid "-W, --ignore-all-space       ignore all white space"
-msgstr "-w  --ignore-all-space  Abai semua ruang putih."
+msgstr "-W, --ignore-all-space       abai semua ruang putih"
 
 #: src/sdiff.c:180
 #, fuzzy
@@ -1527,28 +1525,20 @@ msgid "-B, --ignore-blank-lines     ignore changes whose lines are all blank"
 msgstr "-B  --ignore-blank-lines  Abai perubahan dimana baris adalah kesemuanya kosong."
 
 #: src/sdiff.c:181
-#, fuzzy
-#| msgid "-I RE  --ignore-matching-lines=RE  Ignore changes whose lines all match RE."
 msgid "-I, --ignore-matching-lines=RE  ignore changes all whose lines match RE"
-msgstr "-I RE  --ignore-matching-lines=RE  Abai perubahan dimana baris semua sepadan RE."
+msgstr "-I, --ignore-matching-lines=RE  abai perubahan dimana baris semua sepadan RE"
 
 #: src/sdiff.c:182
-#, fuzzy
-#| msgid "--strip-trailing-cr  Strip trailing carriage return on input."
 msgid "    --strip-trailing-cr      strip trailing carriage return on input"
-msgstr "--strip-trailing-cr  Buang enter penghujung pada masukan."
+msgstr "    --strip-trailing-cr      buang enter penghujung pada masukan"
 
 #: src/sdiff.c:183
-#, fuzzy
-#| msgid "-a  --text  Treat all files as text."
 msgid "-a, --text                   treat all files as text"
-msgstr "-a  --text  Layan semua fail sebagai teks."
+msgstr "-a, --text                   layan semua fail sebagai teks"
 
 #: src/sdiff.c:185
-#, fuzzy
-#| msgid "-w NUM  --width=NUM  Output at most NUM (default 130) print columns."
 msgid "-w, --width=NUM              output at most NUM (default 130) print columns"
-msgstr "-w NOM  --width=NOM  Keluarkan paling banyak NOM (default 130) lajur cetakan."
+msgstr "-w, --width=NUM              keluarkan paling banyak NUM (default 130) lajur cetakan"
 
 #: src/sdiff.c:186
 msgid "-l, --left-column            output only the left column of common lines"
