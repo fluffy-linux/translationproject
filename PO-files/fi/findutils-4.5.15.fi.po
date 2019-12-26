@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the findutils package.
 # Matti Koskimies <matti@apulanta.fi>, 2002.
 # Jorma Karvonen <karvonen.jorma@gmail.com>, 2009, 2010, 2013-2014, 2016.
+# Lauri Nurmi <lanurmi@iki.fi>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: findutils 4.5.15\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2015-12-18 14:45+0000\n"
-"PO-Revision-Date: 2016-09-07 17:28+0300\n"
-"Last-Translator: Jorma Karvonen <karvonen.jorma@gmail.com>\n"
+"PO-Revision-Date: 2019-12-26 15:30+0200\n"
+"Last-Translator: Lauri Nurmi <lanurmi@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -18,16 +19,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: find/exec.c:136
 #, c-format
 msgid "Failed to save working directory in order to run a command on %s"
-msgstr "Työhakemiston tallentaminen komennon suorittamiseksi kohteessa %s epäonnistui"
+msgstr "Työhakemiston tallentaminen komennon suorittamiseksi hakemistossa %s epäonnistui"
 
 #: find/exec.c:256
 #, c-format
 msgid "Cannot close standard input"
-msgstr "Vakiosyötteen sulkeminen epäonnistui"
+msgstr "Vakiosyötettä ei voi sulkea"
 
 #: find/exec.c:285
 #, c-format
@@ -37,33 +39,33 @@ msgstr "Hakemiston vaihtaminen epäonnistui: %s"
 #: find/exec.c:312 xargs/xargs.c:1241
 #, c-format
 msgid "cannot fork"
-msgstr "lapsiprosessin luominen epäonnistui"
+msgstr "haarauttaminen ei onnistu"
 
 #: find/exec.c:343
 #, c-format
 msgid "error waiting for %s"
-msgstr "virhe odotettaessa kohdetta %s"
+msgstr "virhe odotettaessa komentoa %s"
 
 #: find/exec.c:352
 #, c-format
 msgid "%s terminated by signal %d"
-msgstr "%s keskeytettiin signaalilla %d"
+msgstr "%s keskeytyi signaaliin %d"
 
 #: find/find.c:203 find/ftsfind.c:677
 #, c-format
 msgid "Failed to initialize shared-file hash table"
-msgstr "Jaetun tiedoston hash-taulun alustus epäonnistui"
+msgstr "Jaetun tiedoston hajautustaulun alustus epäonnistui"
 
 #: find/find.c:219 find/ftsfind.c:693 locate/bigram.c:105 locate/code.c:174
 #: locate/frcode.c:233 locate/locate.c:1581 xargs/xargs.c:401
 #, c-format
 msgid "The atexit library function failed"
-msgstr "kirjastofunktio atexit epäonnistui"
+msgstr "Kirjastofunktio atexit epäonnistui"
 
 #: find/find.c:263
 #, c-format
 msgid "cannot stat current directory"
-msgstr "komentoa ”stat” ei voi suorittaa nykyisessä hakemistossa"
+msgstr "nykyisen hakemiston tilaa ei voi lukea"
 
 #: find/find.c:354
 #, c-format
@@ -73,22 +75,22 @@ msgstr "Liitettyjen laitteiden luettelon lukeminen epäonnistui."
 #: find/find.c:443
 #, c-format
 msgid "WARNING: file system %s has recently been unmounted."
-msgstr "VAROITUS: tiedostojärjestelmälle %s on äskettäin suoritettu unmount-komento."
+msgstr "VAROITUS: tiedostojärjestelmä %s on äskettäin irrotettu."
 
 #: find/find.c:453
 #, c-format
 msgid "WARNING: file system %s has recently been mounted."
-msgstr "VAROITUS: tiedostojärjestelmälle %s on äskettäin suoritettu mount-komento."
+msgstr "VAROITUS: tiedostojärjestelmä %s on äskettäin liitetty."
 
 #: find/find.c:550
 #, c-format
 msgid "%s%s changed during execution of %s (old device number %ld, new device number %ld, file system type is %s) [ref %ld]"
-msgstr "%s%s vaihtunut ohjelman %s suorituksen aikana (vanha laitenumero %ld, uusi laitenumero %ld, tiedostojärjestelmän tyyppi on %s) [viite %ld]"
+msgstr "%s%s muuttui ohjelman %s suorituksen aikana (vanha laitenumero %ld, uusi laitenumero %ld, tied.järj. tyyppi on %s) [viite %ld]"
 
 #: find/find.c:587
 #, c-format
 msgid "%s%s changed during execution of %s (old inode number %<PRIuMAX>, new inode number %<PRIuMAX>, file system type is %s) [ref %ld]"
-msgstr "%s%s vaihtunut ohjelman %s suorituksen aikana (vanha inode-numero %<PRIuMAX>, uusi inode-numero %<PRIuMAX>, tiedostojärjestelmän tyyppi on %s) [viite %ld]"
+msgstr "%s%s muuttui ohjelman %s suorituksen aikana (vanha isolmu-numero %<PRIuMAX>, uusi isolmu-numero %<PRIuMAX>, tied.järj. tyyppi on %s) [viite %ld]"
 
 #: find/find.c:752
 #, c-format
@@ -98,19 +100,19 @@ msgstr "paluu ylähakemistoon epäonnistui"
 #: find/find.c:1038
 #, c-format
 msgid "Failed to safely change directory into %s"
-msgstr "Hakemiston turvallinen vaihtaminen päähakemistoon %s epäonnistui"
+msgstr "Turvallinen vaihtaminen hakemistoon %s epäonnistui"
 
 #: find/find.c:1138 find/ftsfind.c:245
 #, c-format
 msgid "Symbolic link %s is part of a loop in the directory hierarchy; we have already visited the directory to which it points."
-msgstr "Symbolinen linkki %s on silmukkaosa hakemistohierarkiassa; olemme jo vierailleet hakemistossa, johon se osoittaa."
+msgstr "Symbolinen linkki %s on osa silmukkaa hakemistohierarkiassa; olemme jo vierailleet hakemistossa, johon se osoittaa."
 
 #: find/find.c:1157
 #, c-format
 msgid "Filesystem loop detected; %s has the same device number and inode as a directory which is %d level higher in the file system hierarchy"
 msgid_plural "Filesystem loop detected; %s has the same device number and inode as a directory which is %d levels higher in the file system hierarchy"
-msgstr[0] "Tiedostojärjestelmäsilmukka havaittu; kohteella %s on sama laitenumero ja inode hakemistona kuin on %d-taso korkeammalla tiedostojärjestelmähierarkiassa"
-msgstr[1] "Tiedostojärjestelmäsilmukka havaittu; kohteella %s on sama laitenumero ja inode hakemistona kuin on %d-tasoa korkeammalla tiedostojärjestelmähierarkiassa"
+msgstr[0] "Tiedostojärjestelmäsilmukka havaittu; hakemiston %s laitenumero ja isolmu ovat samat kuin %d tason ylempänä hierarkiassa olevalla hakemistolla"
+msgstr[1] "Tiedostojärjestelmäsilmukka havaittu; hakemiston %s laitenumero ja isolmu ovat samat kuin %d tasoa ylempänä hierarkiassa olevalla hakemistolla"
 
 #: find/find.c:1409
 #, c-format
@@ -120,12 +122,12 @@ msgstr "varoitus: ei seurata symbolista linkkiä %s"
 #: find/find.c:1482
 #, c-format
 msgid "WARNING: Hard link count is wrong for %s (saw only st_nlink=%<PRIuMAX> but we already saw %<PRIuMAX> subdirectories): this may be a bug in your file system driver.  Automatically turning on find's -noleaf option.  Earlier results may have failed to include directories that should have been searched."
-msgstr "VAROITUS: Kovalinkkilaskuri on virheellinen kohteelle %s (näki vain st_nlink=%<PRIuMAX> mutta me näimme jo %<PRIuMAX> alihakemistoa): tämä saattaa olla ohjelmointivirhe tiedostojärjestelmäajurissasi. Käännetään automaattisesti päälle find-ohjelman valitsin -noleaf. Aikaisemmat tulokset ovat saattaneet epäonnistua sisällyttää hakemistoja, joista olisi pitänyt etsiä."
+msgstr "VAROITUS: Hakemiston %s kovalinkkilaskuri on virheellinen (nähtiin vain st_nlink=%<PRIuMAX>, mutta näimme jo %<PRIuMAX> alihakemistoa): tämä saattaa olla ohjelmistovika tiedostojärjestelmäajurissa. Otetaan automaattisesti käyttöön findin valitsin -noleaf. Aikaisemmista tuloksista saattaa puuttua hakemistoja, joista olisi kuulunut etsiä."
 
 #: find/fstype.c:185
 #, c-format
 msgid "Cannot read mounted file system list"
-msgstr "Liitetyn tiedostojärjestelmäluettelon lukeminen epäonnistui"
+msgstr "Liitettyjen tiedostojärjestelmien luettelon lukeminen epäonnistui"
 
 #: find/fstype.c:244
 msgid "unknown"
@@ -134,32 +136,32 @@ msgstr "tuntematon"
 #: find/ftsfind.c:259
 #, c-format
 msgid "File system loop detected; %s is part of the same file system loop as %s."
-msgstr "Tiedostojärjestelmäsilmukka havaittu; kohde %s on osa samaa tiedostojärjestelmäsilmukkaa kuin %s."
+msgstr "Tiedostojärjestelmäsilmukka havaittu; %s on osa samaa silmukkaa kuin %s."
 
 #: find/ftsfind.c:444 find/util.c:222
 #, c-format
 msgid "WARNING: file %s appears to have mode 0000"
-msgstr "VAROITUS: tiedosto %s näyttää olevan tilassa 0000"
+msgstr "VAROITUS: tiedostolla %s näyttää olevan oikeudet 0000"
 
 #: find/ftsfind.c:559
 #, c-format
 msgid "cannot search %s"
-msgstr "kohteen %s etsiminen epäonnistui"
+msgstr "kohteesta %s etsiminen epäonnistui"
 
 #: find/ftsfind.c:609
 #, c-format
 msgid "failed to restore working directory after searching %s"
-msgstr "työhakemiston palauttaminen haun %s jälkeen epäonnistui"
+msgstr "työhakemiston palauttaminen kohteesta %s etsimisen jälkeen epäonnistui"
 
 #: find/parser.c:452
 #, c-format
 msgid "The -delete action automatically turns on -depth, but -prune does nothing when -depth is in effect.  If you want to carry on anyway, just explicitly use the -depth option."
-msgstr "Toiminto -delete kääntää automaattisesti päälle valitsimen -depth, mutta valitsin -prune ei tee mitään, kun valitsin -depth on päällä. Jos haluat kuitenkin jatkaa, käytä vain eksplisiittisesti valitsinta -depth."
+msgstr "Toiminto -delete ottaa automaattisesti käyttöön valitsimen -depth, mutta -prune ei tee mitään, kun valitsin -depth on käytössä. Jos haluat kuitenkin jatkaa, anna -depth-valitsin itse."
 
 #: find/parser.c:599
 #, c-format
 msgid "warning: you have specified the %s option after a non-option argument %s, but options are not positional (%s affects tests specified before it as well as those specified after it).  Please specify options before other arguments.\n"
-msgstr "varoitus: olet määritellyt valitsimen %s jälkeen ei-valitsin-argumentin %s, mutta valitsimet eivät ole oikealla paikalla (%s vaikuttaa testeihin, jotka on määritelty ennen sitä aivan kuin myös sen jälkeen määriteltyihin). Määrittele valitsimet ennen muita argumentteja.\n"
+msgstr "varoitus: olet antanut valitsimen %s jälkeen ei-valitsin-argumentin %s, mutta valitsimet eivät ole paikkasidonnaisia (%s vaikuttaa sekä sen edellä että jäljessä oleviin testeihin). Anna valitsimet ennen muita argumentteja.\n"
 
 #: find/parser.c:906
 #, c-format
@@ -169,17 +171,17 @@ msgstr "varoitus: valitsin -d on vanhentunut; käytä sen sijaan valitsinta -dep
 #: find/parser.c:1179
 #, c-format
 msgid "%s is not the name of an existing group and it does not look like a numeric group ID because it has the unexpected suffix %s"
-msgstr "%s ei ole olemassa olevan ryhmän nimi ja se ei näytä ryhmän numeeriselta tunnisteelta, koska siinä on odottamaton jälkiliite %s"
+msgstr "%s ei ole olemassa olevan ryhmän nimi, eikä näytä numeeriselta ryhmän tunnisteelta, koska sillä on odottamaton jälkiliite %s"
 
 #: find/parser.c:1194
 #, c-format
 msgid "%s is not the name of an existing group"
-msgstr "%s ei ole olemassaolevan ryhmän nimi"
+msgstr "%s ei ole olemassa olevan ryhmän nimi"
 
 #: find/parser.c:1200
 #, c-format
 msgid "argument to -group is empty, but should be a group name"
-msgstr "argumentti valitsimelle -group on tyhjä, mutta sen pitäisi olla ryhmän nimi"
+msgstr "valitsimen -group argumentti on tyhjä, mutta sen tulisi olla ryhmän nimi"
 
 #: find/parser.c:1222
 msgid ""
@@ -188,8 +190,8 @@ msgid ""
 "expression may consist of: operators, options, tests, and actions:\n"
 msgstr ""
 "\n"
-"oletuspolku on nykyinen hakemisto; oletuslauseke on ”-print”\n"
-"lauseke saattaa koostua: operaattoreista, valitsimista, testeistä ja toiminnoista:\n"
+"oletuspolku on nykyinen hakemisto; oletuslauseke on -print\n"
+"lauseke voi koostua: operaattoreista, valitsimista, testeistä ja toiminnoista:\n"
 
 #: find/parser.c:1225
 msgid ""
@@ -197,10 +199,10 @@ msgid ""
 "      ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2\n"
 "      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1 , EXPR2\n"
 msgstr ""
-"operaattorit (laskeva arvojärjestys; ”-and” on oletuksena kun muuta ei\n"
-"ole annettuna):\n"
-"      ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2\n"
-"      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1 , EXPR2\n"
+"operaattorit (laskeva arvojärjestys; -and on oletuksena kun muuta ei\n"
+"ole annettu):\n"
+"      ( LAUS )   ! LAUS   -not LAUS   LAUS1 -a LAUS2   LAUS1 -and LAUS2\n"
+"      LAUS1 -o LAUS2   LAUS1 -or LAUS2   LAUS1 , LAUS2\n"
 
 #: find/parser.c:1229
 msgid ""
@@ -210,9 +212,9 @@ msgid ""
 "      -depth --help -maxdepth LEVELS -mindepth LEVELS -mount -noleaf\n"
 "      --version -xdev -ignore_readdir_race -noignore_readdir_race\n"
 msgstr ""
-"sijainnista riippuvat valitsimet (aina tosia): -daystart -follow -regextype\n"
+"paikkasidonnaiset valitsimet (aina tosia): -daystart -follow -regextype\n"
 "\n"
-"normaalit valitsimet (aina tosia, määritelty ennen muita lausekkeita):\n"
+"normaalit valitsimet (aina tosia, annetaan ennen muita lausekkeita):\n"
 "      -depth --help -maxdepth TASOT -mindepth TASOT -mount -noleaf\n"
 "      --version -xdev -ignore_readdir_race -noignore_readdir_race\n"
 
@@ -225,8 +227,8 @@ msgid ""
 msgstr ""
 "testit (N voi olla +N tai -N tai N): -amin N -anewer TIEDOSTO -atime N -cmin N\n"
 "      -cnewer TIEDOSTO -ctime N -empty -false -fstype TYYPPI -gid N -group NIMI\n"
-"      -ilname MALLI -iname MALLI -inum N -ipath MALLI -iregex MALLI\n"
-"      -links N -lname MALLI -mmin N -mtime N -name MALLI -newer TIEDOSTO"
+"      -ilname HAHMO -iname MALLI -inum N -ipath HAHMO -iregex HAHMO\n"
+"      -links N -lname HAHMO -mmin N -mtime N -name HAHMO -newer TIEDOSTO"
 
 #: find/parser.c:1239
 msgid ""
@@ -235,9 +237,9 @@ msgid ""
 "      -wholename PATTERN -size N[bcwkMG] -true -type [bcdpflsD] -uid N\n"
 "      -used N -user NAME -xtype [bcdpfls]"
 msgstr ""
-"      -nouser -nogroup -path MALLI -perm [-/]TILA -regex MALLI\n"
+"      -nouser -nogroup -path HAHMO -perm [-/]TILA -regex MALLI\n"
 "      -readable -writable -executable\n"
-"      -wholename MALLI -size N[bcwkMG] -true -type [bcdpflsD] -uid N\n"
+"      -wholename HAHMO -size N[bcwkMG] -true -type [bcdpflsD] -uid N\n"
 "      -used N -user NIMI -xtype [bcdpfls]"
 
 #: find/parser.c:1244
@@ -258,15 +260,16 @@ msgstr ""
 "      -exec KOMENTO ; -exec KOMENTO {} + -ok KOMENTO ;\n"
 "      -execdir KOMENTO ; -execdir KOMENTO {} + -okdir KOMENTO ;\n"
 
+# "if you have no web access"??? Viesti lienee suunnattu vain Stallmanille.
 #: find/parser.c:1252
 msgid ""
 "Report (and track progress on fixing) bugs via the findutils bug-reporting\n"
 "page at http://savannah.gnu.org/ or, if you have no web access, by sending\n"
 "email to <bug-findutils@gnu.org>."
 msgstr ""
-"Ilmoita (ja jäljitä korjauksen edistymistä) ohjelmointivirheet findutils-ohjelman\n"
-"virheenilmoitussivun http://savannah.gnu.org/ kautta tai, jos sinulla on pääsy webbiin,\n"
-"lähettämällä sähköpostiviesti osoitteeseen <bug-findutils@gnu.org>."
+"Ilmoita (ja seuraa korjauksen edistymistä) ohjelmistoviat findutils-ohjelman\n"
+"vikailmoitussivun http://savannah.gnu.org/ kautta, tai jos sähköpostitse\n"
+"osoitteeseen <bug-findutils@gnu.org>."
 
 #: find/parser.c:1307
 #, c-format
@@ -276,17 +279,17 @@ msgstr "kirjastofunktion fnmatch() järkevyystarkistus epäonnistui."
 #: find/parser.c:1321
 #, c-format
 msgid "warning: Unix filenames usually don't contain slashes (though pathnames do).  That means that '%s %s' will probably evaluate to false all the time on this system.  You might find the '-wholename' test more useful, or perhaps '-samefile'.  Alternatively, if you are using GNU grep, you could use 'find ... -print0 | grep -FzZ %s'."
-msgstr "varoitus: Unix-tiedostonimet eivät tavallisesti sisällä kauttaviivoja (vaikka niitä on polkunimissä).  Se tarkoittaa, että ”%s %s” luultavasti arvioidaan epätodeksi koko ajan tässä järjestelmässä.  Saatat huomata ”-wholename”-testin hyödyllisemmäksi, tai ehkä ”-samefile”.  Vaihtoehtoisesti jos käytät GNU grep-ohjelmaa, voisit käyttää komentoa ”find ... -print0 | grep -FzZ %s”."
+msgstr "varoitus: Unix-tiedostonimet eivät tavallisesti sisällä kauttaviivoja (vaikka niitä on poluissa). Tästä johtuen ”%s %s” todennäköisesti lasketaan aina epätodeksi tässä järjestelmässä. ”-wholename”-testi saattaa olla hyödyllisempi, tai ehkä ”-samefile”. Vaihtoehtoisesti GNU grep -ohjelman ollessa käytössä voit käyttää komentoa ”find ... -print0 | grep -FzZ %s”."
 
 #: find/parser.c:1447
 #, c-format
 msgid "Expected a positive decimal integer argument to %s, but got %s"
-msgstr "Odotettiin positiivinen desimaalikokonaislukuargumentti predikaattiin %s, mutta saatiin %s"
+msgstr "Odotettiin positiivista 10-kantaista kokonaislukuargumenttia predikaattiin %s, mutta saatiin %s"
 
 #: find/parser.c:1612
 #, c-format
 msgid "This system does not provide a way to find the birth time of a file."
-msgstr "Tämä järjestelmä ei tarjoa mitään tapaa löytää tiedoston syntymäaika."
+msgstr "Tämä järjestelmä ei tarjoa mitään tapaa selvittää tiedoston syntymäaikaa."
 
 #: find/parser.c:1633
 #, c-format
@@ -296,37 +299,37 @@ msgstr "Testi %s vaatii argumentin"
 #: find/parser.c:1670
 #, c-format
 msgid "I cannot figure out how to interpret %s as a date or time"
-msgstr "Ei voi kuvitella, kuinka tulkita %s päivämääränä tai kellonaikana"
+msgstr "Ei voida päätellä, miten tulkita %s päivämääränä tai kellonaikana"
 
 #: find/parser.c:1687
 #, c-format
 msgid "Cannot obtain birth time of file %s"
-msgstr "Ei voi saada tiedoston %s syntymäaikaa"
+msgstr "Ei voida noutaa tiedoston %s syntymäaikaa"
 
 #: find/parser.c:1831
 #, c-format
 msgid "warning: -%s %s will not match anything because it ends with /."
-msgstr "varoitus: -%s %s ei täsmää minkään kanssa, koska se loppuu merkkiin /."
+msgstr "varoitus: -%s %s ei täsmää mihinkään, koska se loppuu merkkiin /."
 
 #: find/parser.c:1928
 #, c-format
 msgid "invalid mode %s"
-msgstr "epäkelpo tila %s"
+msgstr "virheelliset oikeudet %s"
 
 #: find/parser.c:1946
 #, c-format
 msgid "warning: you have specified a mode pattern %s (which is equivalent to /000). The meaning of -perm /000 has now been changed to be consistent with -perm -000; that is, while it used to match no files, it now matches all files."
-msgstr "varoitus: olet määritellyt tilamallin %s (joka on sama kuin /000). Valitsimen -perm /000 tarkoitus on nyt muuttunut yhteensopivaksi valitsimen -perm -000 kanssa; toisin sanoen, samalla kun sitä käytetään täsmäämään ”ei tiedostoja” kanssa, se nyt täsmää kaikkien tiedostojen kanssa."
+msgstr "varoitus: olet antanut oikeushahmon %s (joka on sama kuin /000). -perm /000 on nyt muutettu johdonmukaisesti merkitsemään samaa kuin -perm -000; kun siis aiemmin se ei täsmännyt yhteenkään tiedostoon, se nyt se täsmää kaikkiin."
 
 #: find/parser.c:2147
 #, c-format
 msgid "invalid null argument to -size"
-msgstr "epäkelpo null-argumentti valitsimelle ”-size”"
+msgstr "virheellinen null-argumentti valitsimelle -size"
 
 #: find/parser.c:2197
 #, c-format
 msgid "invalid -size type `%c'"
-msgstr "eläkelpo ”-size”-tyyppi ”%c”"
+msgstr "virheellinen -size -tyyppi ”%c”"
 
 #: find/parser.c:2207
 #, c-format
@@ -350,7 +353,7 @@ msgstr "%s ei ole tunnetun käyttäjän nimi"
 #: find/parser.c:2551
 #, c-format
 msgid "The argument to -user should not be empty"
-msgstr "Argumentin valitsimelle -user ei pitäisi olla tyhjä"
+msgstr "Argumentti valitsimelle -user ei saa olla tyhjä"
 
 #: find/parser.c:2576
 #, c-format
@@ -365,27 +368,27 @@ msgstr "virheellinen predikaatti -context: SELinux ei ole käytössä."
 #: find/parser.c:2717
 #, c-format
 msgid "Arguments to -type should contain only one letter"
-msgstr "Argumentit valitsimelle -type pitäisi sisältää vain yhden kirjaimen"
+msgstr "Valitsimen -type argumenttien tulee sisältää vain yksi kirjain"
 
 #: find/parser.c:2746
 #, c-format
 msgid "-type %c is not supported because symbolic links are not supported on the platform find was compiled on."
-msgstr "-type %c ei ole tuettu, koska symbolisia linkkejä ei tueta alustalla, jossa find käännettiin."
+msgstr "-type %c ei ole tuettu, koska symbolisia linkkejä ei tueta alustalla, jolla find käännettiin."
 
 #: find/parser.c:2757
 #, c-format
 msgid "-type %c is not supported because FIFOs are not supported on the platform find was compiled on."
-msgstr "-type %c ei ole tuettu, koska FIFO-puskureita ei tueta alustalla, jossa find käännettiin."
+msgstr "-type %c ei ole tuettu, koska FIFO-putkia ei tueta alustalla, jolla find käännettiin."
 
 #: find/parser.c:2768
 #, c-format
 msgid "-type %c is not supported because named sockets are not supported on the platform find was compiled on."
-msgstr "-type %c ei ole tuettu, koska named sockets-rakenteita ei tueta alustalla, jossa find käännettiin."
+msgstr "-type %c ei ole tuettu, koska nimettyjä pistokkeita ei tueta alustalla, jolla find käännettiin."
 
 #: find/parser.c:2779
 #, c-format
 msgid "-type %c is not supported because Solaris doors are not supported on the platform find was compiled on."
-msgstr "-type %c ei ole tuettu, koska Solaris doors-rakenteita ei tueta alustalla, jossa find käännettiin."
+msgstr "-type %c ei ole tuettu, koska Solariksen ovia ei tueta alustalla, jolla find käännettiin."
 
 #: find/parser.c:2786
 #, c-format
@@ -395,17 +398,17 @@ msgstr "Tuntematon argumentti valitsimelle -type: %c"
 #: find/parser.c:2860
 #, c-format
 msgid "The current directory is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove the current directory from your $PATH (that is, remove \".\", doubled colons, or leading or trailing colons)"
-msgstr "Nykyinen hakemisto on sisällytetty PATH-ympäristömuuttujaan, mikä on turvaton yhdessä find-ohjelman %s-toiminnon kanssa. Poista nykyinen hakemisto $PATH-ympäristömuuttujastasi (toisin sanoen, poista ”.” tuplakaksoispisteet tai edeltävät ja jäljessä olevat kaksoispisteet)"
+msgstr "Nykyinen hakemisto sisältyy PATH-ympäristömuuttujaan, mikä on turvatonta yhdessä findin %s-toiminnon kanssa. Poista nykyinen hakemisto $PATH-muuttujastasi (toisin sanoen poista ”.”, tuplakaksoispisteet ja edeltävät tai jäljessä olevat kaksoispisteet)"
 
 #: find/parser.c:2872
 #, c-format
 msgid "The relative path %s is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove that entry from $PATH"
-msgstr "Suhteellinen polku %s on sisällytetty PATH-ympäristömuuttujaan, mikä on turvaton yhdessä find-ohjelman %s-toiminnon kanssa. Poista tämä merkintä ympäristömuuttujasta $PATH"
+msgstr "Suhteellinen polku %s sisältyy PATH-ympäristömuuttujaan, mikä on turvatonta yhdessä findin %s-toiminnon kanssa. Poista tämä merkintä $PATH-ympäristömuuttujasta"
 
 #: find/parser.c:2981
 #, c-format
 msgid "You may not use {} within the utility name for -execdir and -okdir, because this is a potential security problem."
-msgstr "Ei saa käyttää {} työkalun nimen sisällä valitsimille -execdir ja -okdir, koska tämä on potentiaalinen turvapulma."
+msgstr "{}-merkintää ei saa käyttää työkalun nimessä valitsimilla -execdir ja -okdir, koska tämä on mahdollinen turvallisuusongelma."
 
 #: find/parser.c:3007
 #, c-format
@@ -415,22 +418,22 @@ msgstr "Vain yksi {}-ilmentymä on tuettu valitsimella -exec%s ... +"
 #: find/parser.c:3017
 #, c-format
 msgid "In %s the %s must appear by itself, but you specified %s"
-msgstr "Kohteessa %s alkion %s on esiinnyttävä itsestään, mutta määrittelit %s"
+msgstr "Rakenteessa %s %s:n on esiinnyttävä sellaisenaan, mutta annoit %s"
 
 #: find/parser.c:3037
 #, c-format
 msgid "The environment is too large for exec()."
-msgstr "Ympäristö on liian iso funktiolle exec()."
+msgstr "Ympäristö on liian suuri exec()-funktiolle."
 
 #: find/parser.c:3206
 #, c-format
 msgid "arithmetic overflow while converting %s days to a number of seconds"
-msgstr "aritmeettinen ylivuoto kun muunnetaan %s päivää sekuntimääräksi"
+msgstr "aritmeettinen ylivuoto muunnettaessa %s vuorokautta sekuntimääräksi"
 
 #: find/parser.c:3230
 #, c-format
 msgid "arithmetic overflow when trying to calculate the end of today"
-msgstr "aritmeettinen ylivuoto kun yritetään laskea tämän päivän loppua"
+msgstr "aritmeettinen ylivuoto yritettäessä laskea tämän päivän loppua"
 
 #: find/parser.c:3389
 msgid "standard error"
@@ -448,7 +451,7 @@ msgstr "kohteen %s poistaminen epäonnistui"
 #: find/pred.c:718
 #, c-format
 msgid "WARNING: cannot determine birth time of file %s"
-msgstr "VAROITUS: tiedoston %s syntymäajan määritteleminen epäonnistui"
+msgstr "VAROITUS: tiedoston %s syntymäajan määrittäminen epäonnistui"
 
 #: find/pred.c:766
 #, c-format
@@ -458,7 +461,7 @@ msgstr "< %s ... %s > ? "
 #: find/pred.c:768
 #, c-format
 msgid "Failed to write prompt for -ok"
-msgstr "Kehotteeseen -ok kirjoittaminen epäonnistui"
+msgstr "Kehotteen kirjoittaminen -ok:lle epäonnistui"
 
 #: find/pred.c:1192 find/print.c:1239
 #, c-format
@@ -468,32 +471,32 @@ msgstr "getfilecon epäonnistui: %s"
 #: find/print.c:346
 #, c-format
 msgid "warning: escape `\\' followed by nothing at all"
-msgstr "varoitus: koodinvaihtomerkkiä ”\\” ei seurannut mitään"
+msgstr "varoitus: ohjausmerkkiä ”\\” ei seurannut mitään"
 
 #: find/print.c:365
 #, c-format
 msgid "warning: unrecognized escape `\\%c'"
-msgstr "varoitus: tunnistamaton koodinvaihtomerkki ”\\%c”"
+msgstr "varoitus: tunnistamaton ohjausmerkki ”\\%c”"
 
 #: find/print.c:385
 #, c-format
 msgid "error: %s at end of format string"
-msgstr "virhe: %s muotomerkkijonon lopussa"
+msgstr "virhe: %s muotoilumerkkijonon lopussa"
 
 #: find/print.c:409
 #, c-format
 msgid "error: the format directive `%%%c' is reserved for future use"
-msgstr "virhe: muotoilumäärite ”%%%c” on varattu tulevaa käyttöä varten"
+msgstr "virhe: muotoiludirektiivi ”%%%c” on varattu tulevaa käyttöä varten"
 
 #: find/print.c:417
 #, c-format
 msgid "warning: format directive `%%%c' should be followed by another character"
-msgstr "varoitus: jonkun muun merkin pitäisi seurata muotodirektiivia ”%%%c”"
+msgstr "varoitus: muotoiludirektiivin ”%%%c” jäljessä tulee olla toinen merkki"
 
 #: find/print.c:425
 #, c-format
 msgid "warning: unrecognized format directive `%%%c'"
-msgstr "varoitus: tunnistamaton muotoilumäärite ”%%%c”"
+msgstr "varoitus: tunnistamaton muotoiludirektiivi ”%%%c”"
 
 #: find/tree.c:129 find/tree.c:134 find/tree.c:224 find/tree.c:263
 #, c-format
@@ -503,52 +506,52 @@ msgstr "epäkelpo lauseke"
 #: find/tree.c:140
 #, c-format
 msgid "invalid expression; you have used a binary operator '%s' with nothing before it."
-msgstr "virheellinen lauseke; olet käyttänyt binäärioperaattoria ”%s” ilman että sitä ennen on mitään."
+msgstr "virheellinen lauseke; olet käyttänyt binäärioperaattoria ”%s” eikä sen edellä ole mitään."
 
 #: find/tree.c:151
 #, c-format
 msgid "expected an expression between '%s' and ')'"
-msgstr "odotettiin lauseke kohteiden ”%s” ja ”)” välissä"
+msgstr "odotettiin lauseketta merkkien ”%s” ja ”)” välissä"
 
 #: find/tree.c:161
 #, c-format
 msgid "expected an expression after '%s'"
-msgstr "odotettiin lauseke kohteen ”%s” jälkeen"
+msgstr "odotettiin lauseketta merkin ”%s” jälkeen"
 
 #: find/tree.c:166
 #, c-format
 msgid "invalid expression; you have too many ')'"
-msgstr "epäkelpo lauseke; sinulla on liian monia ”)”-merkkejä"
+msgstr "epäkelpo lauseke; liikaa ”)”-merkkejä"
 
 #: find/tree.c:189
 #, c-format
 msgid "invalid expression; expected to find a ')' but didn't see one.  Perhaps you need an extra predicate after '%s'"
-msgstr "virheellinen lauseke; odotettiin löytyvän ”)”, mutta yhtään ei näy. Ehkä tarvitset lisäpredikaatin kohteen ”%s” jälkeen"
+msgstr "virheellinen lauseke; odotettiin löytyvän ”)”, mutta yhtään ei näy. Ehkä tarvitaan lisäpredikaatti merkin ”%s” jälkeen"
 
 #: find/tree.c:197
 #, c-format
 msgid "invalid expression; empty parentheses are not allowed."
-msgstr "virheellinen lauseke; tyhjät sulkeet eivät ole sallittu."
+msgstr "virheellinen lauseke; tyhjät sulkeet eivät ole sallittuja."
 
 #: find/tree.c:203
 #, c-format
 msgid "invalid expression; I was expecting to find a ')' somewhere but did not see one."
-msgstr "virheellinen lauseke; Odotin löytäväni kohteen ”)” jostain, mutta en näe yhtään."
+msgstr "virheellinen lauseke; Odotin löytäväni merkin ”)” jostain, mutta en näe yhtään."
 
 #: find/tree.c:209 find/tree.c:833
 #, c-format
 msgid "oops -- invalid expression type!"
-msgstr "hupsista -- epäkelpo lauseketyyppi!"
+msgstr "hupsista -- virheellinen lauseketyyppi!"
 
 #: find/tree.c:281
 #, c-format
 msgid "oops -- invalid expression type (%d)!"
-msgstr "hupsista -- epäkelpo lauseketyyppi (%d)!"
+msgstr "hupsista – virheellinen lauseketyyppi (%d)!"
 
 #: find/tree.c:1120
 #, c-format
 msgid "warning: there is no entry in the predicate evaluation cost table for predicate %s; please report this as a bug"
-msgstr "varoitus: predikaatille %s ei ole alkiota predikaatin evalointivakiotaulussa; ilmoita tästä ohjelmointivirheestä"
+msgstr "varoitus: predikaatille %s ei ole alkiota predikaatin laskentakulutaulussa; ilmoita tästä ohjelmistovikana"
 
 #: find/tree.c:1294
 #, c-format
@@ -563,22 +566,22 @@ msgstr "tuntematon predikaatti ”%s”"
 #: find/tree.c:1323
 #, c-format
 msgid "invalid predicate `%s'"
-msgstr "epäkelpo predikaatti ”%s”"
+msgstr "virheellinen predikaatti ”%s”"
 
 #: find/tree.c:1328
 #, c-format
 msgid "invalid argument `%s' to `%s'"
-msgstr "virheellinen argumentti ”%s” kohteelle ”%s”"
+msgstr "virheellinen argumentti %s predikaatille %s"
 
 #: find/tree.c:1336
 #, c-format
 msgid "missing argument to `%s'"
-msgstr "puuttuva argumentti kohteelle ”%s”"
+msgstr "puuttuva argumentti predikaatille ”%s”"
 
 #: find/tree.c:1412
 #, c-format
 msgid "you have too many ')'"
-msgstr "sinulla on liian monta ”)”-merkkiä"
+msgstr "liian monta ”)”-merkkiä"
 
 #: find/tree.c:1418
 #, c-format
@@ -593,7 +596,7 @@ msgstr "odottamaton lisäpredikaatti"
 #: find/tree.c:1553
 #, c-format
 msgid "oops -- invalid default insertion of and!"
-msgstr "hupsista -- epäkelpo ”and”-operaattorin oletuslisäys"
+msgstr "hupsista – virheellinen and-operaattorin oletuslisäys!"
 
 #: find/util.c:175
 #, c-format
@@ -618,7 +621,7 @@ msgstr "alkuperäisen työhakemiston palauttaminen epäonnistui: %s"
 #: find/util.c:824
 #, c-format
 msgid "Ignoring unrecognised debug flag %s"
-msgstr "Ei välitetä tunnistamattomasta virheenjäljityslipusta %s"
+msgstr "Ei huomioida tunnistamatonta vianjäljityslippua %s"
 
 #: find/util.c:831
 #, c-format
@@ -628,12 +631,12 @@ msgstr "Tyhjä argumentti valitsimelle -D."
 #: find/util.c:847
 #, c-format
 msgid "The -O option must be immediately followed by a decimal integer"
-msgstr "Valitsinta -O täytyy välittömästi seurata desimaalikokonaisluku"
+msgstr "Valitsinta -O täytyy välittömästi seurata 10-kantainen kokonaisluku"
 
 #: find/util.c:857 find/util.c:868
 #, c-format
 msgid "Please specify a decimal number immediately after -O"
-msgstr "Määrittele desimaaliluku heti valitsimen -O jälkeen"
+msgstr "Anna 10-kantainen kokonaisluku heti valitsimen -O jälkeen"
 
 #: find/util.c:873 find/util.c:878
 #, c-format
@@ -643,12 +646,12 @@ msgstr "Virheellinen optimointitaso %s"
 #: find/util.c:886
 #, c-format
 msgid "Optimisation level %lu is too high.  If you want to find files very quickly, consider using GNU locate."
-msgstr "Optimointitaso %lu on liian korkea. Jos haluat löytää tiedostoja nopeasti, harkitse GNU locate-ohjelman käyttämistä."
+msgstr "Optimointitaso %lu on liian korkea. Jos haluat löytää tiedostoja hyvin nopeasti, harkitse GNU locate -ohjelman käyttämistä."
 
 #: find/util.c:1030
 #, c-format
 msgid "The environment variable FIND_BLOCK_SIZE is not supported, the only thing that affects the block size is the POSIXLY_CORRECT environment variable"
-msgstr "Ympäristömuuttujaa FIND_BLOCK_SIZE ei tueta, ainoa asia, joka vaikuttaa lohkokokoon on POSIXLY_CORRECT-ympäristömuuttuja"
+msgstr "Ympäristömuuttujaa FIND_BLOCK_SIZE ei tueta; ainoa lohkokokoon vaikuttava asia on POSIXLY_CORRECT-ympäristömuuttuja"
 
 #: gl/lib/argmatch.c:133
 #, c-format
@@ -658,15 +661,15 @@ msgstr "virheellinen argumentti %s kontekstille %s"
 #: gl/lib/argmatch.c:134
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "argumentti %s kontekstille %s ei ole yksiselitteinen"
+msgstr "moniselitteinen argumentti %s kontekstille %s"
 
 #: gl/lib/argmatch.c:153
 msgid "Valid arguments are:"
-msgstr "Tarjolla olevat argumentit:"
+msgstr "Kelvolliset argumentit ovat:"
 
 #: gl/lib/closein.c:100
 msgid "error closing file"
-msgstr "virhe suljettaessa tiedostoa"
+msgstr "virhe tiedoston sulkemisessa"
 
 #: gl/lib/closeout.c:112 locate/code.c:153 locate/frcode.c:210
 #, c-format
@@ -680,68 +683,68 @@ msgstr "Tuntematon järjestelmävirhe"
 #: gl/lib/getopt.c:547 gl/lib/getopt.c:576
 #, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s: valitsin ’%s’ ei ole yksiselitteinen, vaihtoehdot:"
+msgstr "%s: valitsin ”%s” on moniselitteinen; vaihtoehdot:"
 
 #: gl/lib/getopt.c:624 gl/lib/getopt.c:628
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: valitsin ’--%s’ ei salli argumenttia\n"
+msgstr "%s: valitsin ”--%s” ei salli argumenttia\n"
 
 #: gl/lib/getopt.c:637 gl/lib/getopt.c:642
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: valitsin ’%c%s’ ei salli argumenttia\n"
+msgstr "%s: valitsin ”%c%s” ei salli argumenttia\n"
 
 #: gl/lib/getopt.c:685 gl/lib/getopt.c:704
 #, c-format
 msgid "%s: option '--%s' requires an argument\n"
-msgstr "%s: valitsin ’--%s’ vaatii argumentin\n"
+msgstr "%s: valitsin ”--%s” vaatii argumentin\n"
 
 #: gl/lib/getopt.c:742 gl/lib/getopt.c:745
 #, c-format
 msgid "%s: unrecognized option '--%s'\n"
-msgstr "%s: tunnistamaton valitsin ’--%s’\n"
+msgstr "%s: tunnistamaton valitsin ”--%s”\n"
 
 #: gl/lib/getopt.c:753 gl/lib/getopt.c:756
 #, c-format
 msgid "%s: unrecognized option '%c%s'\n"
-msgstr "%s: tunnistamaton valitsin ’%c%s’\n"
+msgstr "%s: tunnistamaton valitsin ”%c%s”\n"
 
 #: gl/lib/getopt.c:805 gl/lib/getopt.c:808
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: epäkelpo valitsin -- ’%c’\n"
+msgstr "%s: virheellinen valitsin -- ”%c”\n"
 
 #: gl/lib/getopt.c:861 gl/lib/getopt.c:878 gl/lib/getopt.c:1088
 #: gl/lib/getopt.c:1106
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: valitsin vaatii argumentin -- ’%c’\n"
+msgstr "%s: valitsin vaatii argumentin -- ”%c”\n"
 
 #: gl/lib/getopt.c:934 gl/lib/getopt.c:950
 #, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
-msgstr "%s: valitsin ’-W %s’ ei ole yksiselitteinen\n"
+msgstr "%s: valitsin ”-W %s” on moniselitteinen\n"
 
 #: gl/lib/getopt.c:974 gl/lib/getopt.c:992
 #, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
-msgstr "%s: valitsin ’-W %s’ ei salli argumenttia\n"
+msgstr "%s: valitsin ”-W %s” ei salli argumenttia\n"
 
 #: gl/lib/getopt.c:1013 gl/lib/getopt.c:1031
 #, c-format
 msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: valitsin ’-W %s’ vaatii argumentin\n"
+msgstr "%s: valitsin ”-W %s” vaatii argumentin\n"
 
 #: gl/lib/openat-die.c:38
 #, c-format
 msgid "unable to record current working directory"
-msgstr "nykyiseen työhakemistoon tallentaminen epäonnistui"
+msgstr "nykyisen työhakemiston kirjaaminen ei onnistu"
 
 #: gl/lib/openat-die.c:57
 #, c-format
 msgid "failed to return to initial working directory"
-msgstr "alkuperäisen työhakemiston palaaminen epäonnistui"
+msgstr "palaaminen alkuperäiseen työhakemistoon epäonnistui"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -795,12 +798,12 @@ msgstr "^[eEnN]"
 #: gl/lib/version-etc.c:74
 #, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr "Pakkaaja: %s (%s)\n"
+msgstr "Paketoinut %s (%s)\n"
 
 #: gl/lib/version-etc.c:77
 #, c-format
 msgid "Packaged by %s\n"
-msgstr "Pakkaaja: %s\n"
+msgstr "Paketoinut %s\n"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
@@ -818,7 +821,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Lisenssi GPLv3+: GNU GPL versio 3 tai myöhempi <http://gnu.org/licenses/gpl.html>.\n"
+"Lisenssi GPLv3+: GNU GPL versio 3 tai myöhempi <https://gnu.org/licenses/gpl.html>.\n"
 "Tämä on vapaa ohjelmisto; sitä saa vapaasti muuttaa ja levittää edelleen.\n"
 "Siinä määrin kuin laki sallii, TAKUUTA EI OLE.\n"
 "\n"
@@ -827,19 +830,19 @@ msgstr ""
 #: gl/lib/version-etc.c:102
 #, c-format
 msgid "Written by %s.\n"
-msgstr "Tekijä: %s.\n"
+msgstr "Kirjoittanut %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: gl/lib/version-etc.c:106
 #, c-format
 msgid "Written by %s and %s.\n"
-msgstr "Tekijät: %s ja %s.\n"
+msgstr "Kirjoittaneet %s ja %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: gl/lib/version-etc.c:110
 #, c-format
 msgid "Written by %s, %s, and %s.\n"
-msgstr "Tekijät: %s, %s, ja %s.\n"
+msgstr "Kirjoittaneet %s, %s ja %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -850,8 +853,8 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"Tekijät: %s, %s, %s,\n"
-"ja %s.\n"
+"Kirjoittaneet %s, %s,\n"
+"%s ja %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -862,8 +865,8 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
-"Tekijät: %s, %s, %s,\n"
-"%s, ja %s.\n"
+"Kirjoittaneet %s, %s,\n"
+"%s, %s ja %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -874,8 +877,8 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, and %s.\n"
 msgstr ""
-"Tekijät: %s, %s, %s,\n"
-"%s, %s, ja %s.\n"
+"Kirjoittaneet %s, %s,\n"
+"%s, %s, %s ja %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -886,8 +889,9 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, %s, and %s.\n"
 msgstr ""
-"Tekijät: %s, %s, %s,\n"
-"%s, %s, %s, ja %s.\n"
+"Kirjoittaneet %s, %s,\n"
+"%s, %s, %s,\n"
+"%s ja %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -899,9 +903,9 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"Tekijät: %s, %s, %s,\n"
+"Kirjoittaneet %s, %s,\n"
 "%s, %s, %s, %s,\n"
-"ja %s.\n"
+"%s ja %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -913,9 +917,9 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
-"Tekijät: %s, %s, %s,\n"
+"Kirjoittaneet %s, %s,\n"
 "%s, %s, %s, %s,\n"
-"%s, ja %s.\n"
+"%s, %s ja %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -927,9 +931,9 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, %s, and others.\n"
 msgstr ""
-"Tekijät: %s, %s, %s,\n"
+"Kirjoittaneet %s, %s,\n"
 "%s, %s, %s, %s,\n"
-"%s, %s, ja muut.\n"
+"%s, %s, %s ja muut.\n"
 
 #. TRANSLATORS: The placeholder indicates the bug-reporting address
 #. for this package.  Please add _another line_ saying
@@ -942,12 +946,12 @@ msgid ""
 "Report bugs to: %s\n"
 msgstr ""
 "\n"
-"Ilmoita ohjelmointivirheistä osoitteeseen: %s\n"
+"Ilmoita ohjelmistovioista (englanniksi) osoitteeseen: %s\n"
 
 #: gl/lib/version-etc.c:247
 #, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr "Ilmoita %s-ohjelmointivirheistä osoitteeseen: %s\n"
+msgstr "Ilmoita %s-vioista (englanniksi) osoitteeseen %s.\n"
 
 #: gl/lib/version-etc.c:251
 #, c-format
@@ -961,7 +965,7 @@ msgstr "%s-kotisivu: <http://www.gnu.org/software/%s/>\n"
 
 #: gl/lib/version-etc.c:256
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr "Yleinen opaste GNU-ohjelmistojen käyttöön: <http://www.gnu.org/gethelp/>\n"
+msgstr "Yleisohjeita GNU-ohjelmistojen käyttöön: <http://www.gnu.org/gethelp/>\n"
 
 #: gl/lib/xalloc-die.c:34
 msgid "memory exhausted"
@@ -970,17 +974,17 @@ msgstr "muisti loppui"
 #: gl/lib/xstrtol-error.c:63
 #, c-format
 msgid "invalid %s%s argument '%s'"
-msgstr "virheellinen %s%s-argumentti kohteelle ’%s’"
+msgstr "virheellinen %s%s-argumentti ”%s”"
 
 #: gl/lib/xstrtol-error.c:68
 #, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "virheellinen loppuliite kohteessa %s%s argumentti ’%s’"
+msgstr "virheellinen loppuliite %s%s-argumentissa ”%s”"
 
 #: gl/lib/xstrtol-error.c:72
 #, c-format
 msgid "%s%s argument '%s' too large"
-msgstr "%s%s argumentti ’%s’ on liian suuri"
+msgstr "%s%s-argumentti ”%s” on liian suuri"
 
 #: lib/buildcmd.c:161
 #, c-format
@@ -1005,12 +1009,12 @@ msgstr "liian pitkä argumenttiluettelo"
 #: lib/buildcmd.c:629
 #, c-format
 msgid "Environment variable %s is not set to a valid decimal number"
-msgstr "Ympäristömuuttujaa %s ei ole asetettu kelvolliseen desimaalinumeroarvoon"
+msgstr "Ympäristömuuttujaa %s ei ole asetettu kelvolliseen 10-kantaiseen lukuarvoon"
 
 #: lib/fdleak.c:377
 #, c-format
 msgid "File descriptor %d will leak; please report this as a bug, remembering to include a detailed description of the simplest way to reproduce this problem."
-msgstr "Tiedostodeskriptori %d vuotaa; ilmoita tästä ohjelmointivirheestä. Muista sisällyttää yksityiskohtainen kuvaus siitä, kuinka virheen voi toistaa yksinkertaisimmalla tavalla."
+msgstr "Tiedostokahva %d tulee vuotamaan; ilmoita tästä ohjelmistovikana. Muista sisällyttää yksityiskohtainen kuvaus siitä, kuinka tämän ongelman voi toistaa yksinkertaisimmalla tavalla."
 
 #: lib/findutils-version.c:55
 msgid "Eric B. Decker"
@@ -1027,17 +1031,17 @@ msgstr "Kevin Dalley"
 #: lib/listfile.c:452
 #, c-format
 msgid "Failed to write output (at stage %d)"
-msgstr "Tulosteeseen kirjoittaminen epäonnistui (vaiheessa %d)"
+msgstr "Tulosteen kirjoittaminen epäonnistui (vaiheessa %d)"
 
 #: lib/regextype.c:110
 #, c-format
 msgid "Unknown regular expression type %s; valid types are %s."
-msgstr "Tuntematon säännöllinen lauseketyyppi %s; oikeat tyypit ovat %s."
+msgstr "Tuntematon säännöllinen lauseketyyppi %s; kelvolliset tyypit ovat %s."
 
 #: lib/safe-atoi.c:81
 #, c-format
 msgid "Unexpected suffix %s on %s"
-msgstr "Odottamaton loppuliite %s kohteessa %s"
+msgstr "Odottamaton loppuliite %s luvulla %s"
 
 #: lib/safe-atoi.c:87
 #, c-format
@@ -1051,7 +1055,7 @@ msgid ""
 "or     %s most_common_bigrams < file-list > locate-database\n"
 msgstr ""
 "Käyttö: %s [--version | --help]\n"
-"tai    %s most_common_bigrams < tiedostoluettelo > locate-tietokanta\n"
+"tai     %s most_common_bigrams < tiedostoluettelo > locate-tietokanta\n"
 
 #: locate/code.c:135 locate/frcode.c:162 locate/locate.c:1394
 #: xargs/xargs.c:1673
@@ -1060,8 +1064,7 @@ msgid ""
 "Report bugs to <bug-findutils@gnu.org>.\n"
 msgstr ""
 "\n"
-"Ilmoita virheistä (englanniksi) osoitteeseen <bug-findutils@gnu.org>.\n"
-"Ilmoita käännösvirheistä osoitteeseen <translation-team-fi@lists.sourceforge.net>.\n"
+"Ilmoita vioista (englanniksi) osoitteeseen <bug-findutils@gnu.org>.\n"
 
 #: locate/frcode.c:160
 #, c-format
@@ -1071,12 +1074,12 @@ msgstr "Käyttö: %s [-0 | --null] [--version] [--help]\n"
 #: locate/frcode.c:180
 #, c-format
 msgid "You need to specify a security level as a decimal integer."
-msgstr "Sinun on määriteltävä turvataso desimaalilukuna."
+msgstr "Turvataso on annettava 10-kantaisena kokonaislukuna."
 
 #: locate/frcode.c:188
 #, c-format
 msgid "Security level %s is outside the convertible range."
-msgstr "Turvataso %s on muunneltavan alueen ulkopuolella."
+msgstr "Turvataso %s on muuntuvan välin ulkopuolella."
 
 #: locate/frcode.c:196
 #, c-format
@@ -1095,12 +1098,12 @@ msgstr "Vakiotulosteeseen kirjoittaminen epäonnistui"
 
 #: locate/locate.c:131
 msgid "days"
-msgstr "päivää"
+msgstr "vuorokautta"
 
 #: locate/locate.c:178
 #, c-format
 msgid "The argument for option --max-database-age must not be empty"
-msgstr "Argumentin valitsimelle --max-database-age on oltava tyhjä"
+msgstr "Argumentti valitsimelle --max-database-age ei saa olla tyhjä"
 
 #: locate/locate.c:194 locate/locate.c:201
 #, c-format
@@ -1110,7 +1113,7 @@ msgstr "Virheellinen argumentti %s valitsimelle -max-database-age"
 #: locate/locate.c:451
 #, c-format
 msgid "locate database %s contains a filename longer than locate can handle"
-msgstr "locate-tietokanta %s sisältää pitempiä tiedostonimiä kuin mitä locate-ohjelma voi käsitellä"
+msgstr "locate-tietokanta %s sisältää pidempiä tiedostonimiä kuin mitä locate osaa käsitellä"
 
 #: locate/locate.c:561 locate/locate.c:580
 #, c-format
@@ -1126,8 +1129,8 @@ msgstr "Tietokantaa muokattiin viimeksi %s.%09ld"
 #, c-format
 msgid "Locate database size: %s byte\n"
 msgid_plural "Locate database size: %s bytes\n"
-msgstr[0] "Locate-tietokantakoko: %s tavu\n"
-msgstr[1] "Locate-tietokantakoko: %s tavua\n"
+msgstr[0] "Locate-tietokannan koko: %s tavu\n"
+msgstr[1] "Locate-tietokannan koko: %s tavua\n"
 
 #: locate/locate.c:879
 #, c-format
@@ -1150,16 +1153,16 @@ msgid ""
 "\tand %s contain characters with the high bit set.\n"
 msgstr ""
 "Tiedostonimien kumulatiivinen pituus on %s tavua.\n"
-"Noista tiedostonimistä,\n"
+"Noista tiedostonimistä\n"
 "\n"
 "\t%s sisältää tyhjemerkkejä, \n"
 "\t%s sisältää rivinvaihtomerkkejä, \n"
-"\tja %s sisältää merkkejä, joiden ylimmäinen bitti on asetettu.\n"
+"\tja %s sisältää merkkejä, joiden ylin bitti on asetettu.\n"
 
 #: locate/locate.c:900
 #, c-format
 msgid "Some filenames may have been filtered out, so we cannot compute the compression ratio.\n"
-msgstr "Jotkut tiedostonimet saattavat olla poissuodatettuja, joten emme voi laskea tiivistyssuhdetta.\n"
+msgstr "Osa tiedostonimistä on voitu suodattaa pois, joten emme voi laskea tiivistyssuhdetta.\n"
 
 #: locate/locate.c:913
 #, c-format
@@ -1174,27 +1177,27 @@ msgstr "Tiivistyssuhde on määrittelemätön\n"
 #: locate/locate.c:975
 #, c-format
 msgid "locate database %s looks like an slocate database but it seems to have security level %c, which GNU findutils does not currently support"
-msgstr "locate-tietokanta %s näyttää kuin slocate-tietokanta, mutta se tuntuu olevan turvatasolla %c, mitä GNU findutils ei nykyisin tue"
+msgstr "locate-tietokanta %s näyttää slocate-tietokannalta, mutta se vaikuttaa olevan turvatasolla %c, mitä GNU findutils ei nykyisin tue"
 
 #: locate/locate.c:1088
 #, c-format
 msgid "%s is an slocate database.  Support for these is new, expect problems for now."
-msgstr "%s on slocate-tietokanta.  Tuki niille on uusi, odota tästä lähtien pulmia."
+msgstr "%s on slocate-tietokanta. Tuki niille on uusi, ongelmia on odotettavissa tästä lähin."
 
 #: locate/locate.c:1102
 #, c-format
 msgid "%s is an slocate database of unsupported security level %d; skipping it."
-msgstr "%s on slocate-tietokannan tukematon turvataso %d; hypätään yli."
+msgstr "%s on slocate-tietokanta, jolla on ei-tuettu turvataso %d; ohitetaan se."
 
 #: locate/locate.c:1119
 #, c-format
 msgid "You specified the -E option, but that option cannot be used with slocate-format databases with a non-zero security level.  No results will be generated for this database.\n"
-msgstr "Olet määritellyt valitsimen -E, mutta tuota valitsinta ei voida käyttää slocate-muotoisten tietokantojen kanssa silloin kun niillä on nollasta poikkeava turvataso. Tähän tietokantaan ei tuoteta tuloksia.\n"
+msgstr "Olet antanut valitsimen -E, mutta tätä valitsinta ei voi käyttää slocate-muotoisten tietokantojen kanssa, joilla on nollasta poikkeava turvataso. Tähän tietokantaan ei tuoteta tuloksia.\n"
 
 #: locate/locate.c:1130
 #, c-format
 msgid "%s is an slocate database.  Turning on the '-e' option."
-msgstr "%s on slocate-tietokanta.  Käännetään päälle valitsin ”-e”."
+msgstr "%s on slocate-tietokanta. Otetaan käyttöön valitsin ”-e”."
 
 #: locate/locate.c:1168
 #, c-format
@@ -1204,7 +1207,7 @@ msgstr "Vanhanmuotoinen locate-tietokanta %s on liian lyhyt ollakseen kelvolline
 #: locate/locate.c:1320
 #, c-format
 msgid "Database %s is in the %s format.\n"
-msgstr "Tietokanta %s on %s-muotoinen.\n"
+msgstr "Tietokanta %s on %s-muodossa.\n"
 
 #: locate/locate.c:1347
 msgid "The database has little-endian machine-word encoding.\n"
@@ -1217,7 +1220,7 @@ msgstr "Tietokannassa on ”big-endian”-konesanakoodaus.\n"
 #: locate/locate.c:1362
 #, c-format
 msgid "The database machine-word encoding order is not obvious.\n"
-msgstr "Tietokannan konesanakoodausjärjestys ei ole itsestään selvä.\n"
+msgstr "Tietokannan konesanajärjestys ei ole ilmeinen.\n"
 
 #: locate/locate.c:1385
 #, c-format
@@ -1236,23 +1239,23 @@ msgstr ""
 "      [-P | -H | --nofollow] [-L | --follow] [-m | --mmap ] [ -s | --stdio]\n"
 "      [-A | --all] [-p | --print] [-r | --regex] [--regextype=TYYPPI]\n"
 "      [--max-database-age D] [--version] [--help]\n"
-"      malli...\n"
+"      hahmo...\n"
 
 #: locate/locate.c:1448
 msgid "failed to drop group privileges"
-msgstr "drop-käsky tietokannan ryhmäoikeuksille epäonnistui"
+msgstr "ryhmäoikeuksista luopuminen epäonnistui"
 
 #: locate/locate.c:1466
 msgid "failed to drop setuid privileges"
-msgstr "drop setuid-käsky tietokannan oikeuksille epäonnistui"
+msgstr "setuid-oikeuksista luopuminen epäonnistui"
 
 #: locate/locate.c:1480
 msgid "Failed to fully drop privileges"
-msgstr "Täysi drop-käsky tietokannan oikeuksille epäonnistui"
+msgstr "Täysi oikeuksista luopuminen epäonnistui"
 
 #: locate/locate.c:1498
 msgid "failed to drop setgid privileges"
-msgstr "drop setgid-käsky tietokannan oikeuksille epäonnistui"
+msgstr "setgid-oikeuksista luopuminen epäonnistui"
 
 #: locate/locate.c:1778
 #, c-format
@@ -1262,77 +1265,77 @@ msgstr "varoitus: locate-tietokanta voidaan lukea vakiosyötteestä vain kerran.
 #: locate/locate.c:1851
 #, c-format
 msgid "time system call failed"
-msgstr "järjestelmän aikakutsu epäonnistui"
+msgstr "time-järjestelmäkutsu epäonnistui"
 
 #: locate/locate.c:1862
 #, c-format
 msgid "warning: database %s is more than %d %s old (actual age is %.1f %s)"
-msgstr "varoitus: tietokanta %s on vanhempi kuin %d %s (todellinen ikä on %.1f %s)"
+msgstr "varoitus: tietokanta %s yli %d %s vanha (todellinen ikä on %.1f %s)"
 
 #: locate/word_io.c:98
 #, c-format
 msgid "WARNING: locate database %s was built with a different byte order"
-msgstr "VAROITUS: locate-tietokanta %s rakennettiin eri tavujärjestyksellä"
+msgstr "VAROITUS: locate-tietokanta %s luotiin eri tavujärjestyksellä"
 
 #: locate/word_io.c:145
 #, c-format
 msgid "unexpected EOF in %s"
-msgstr "odottamaton tiedoston loppumerkki EOF kohteessa %s"
+msgstr "odottamaton tiedoston loppu tiedostossa %s"
 
 #: locate/word_io.c:148
 #, c-format
 msgid "error reading a word from %s"
-msgstr "virhe luettaessa sanaa kohteesta %s"
+msgstr "virhe luettaessa sanaa tiedostosta %s"
 
 #: xargs/xargs.c:261
 #, c-format
 msgid "Invalid escape sequence %s in input delimiter specification."
-msgstr "Virheellinen koodinvaihtosekvenssi %s syöterajoitinmäärittelyssä"
+msgstr "Virheellinen ohjaussarja %s syöterajoitinmäärittelyssä."
 
 #: xargs/xargs.c:279
 #, c-format
 msgid "Invalid escape sequence %s in input delimiter specification; character values must not exceed %lx."
-msgstr "Virheellinen koodinvaihtosekvenssi %s syöterajoitinmäärittelyssä; merkkiarvot eivät saa ylittää arvoa %lx"
+msgstr "Virheellinen ohjaussarja %s syöterajoitinmäärittelyssä; merkkien arvot eivät saa olla yli %lx."
 
 #: xargs/xargs.c:285
 #, c-format
 msgid "Invalid escape sequence %s in input delimiter specification; character values must not exceed %lo."
-msgstr "Virheellinen koodinvaihtosekvenssi %s syöterajoitinmäärittelyssä; merkkiarvot eivät saa ylittää arvoa %lo."
+msgstr "Virheellinen ohjaussarja %s syöterajoitinmäärittelyssä; merkkien arvot eivät saa olla yli %lo."
 
 #: xargs/xargs.c:294
 #, c-format
 msgid "Invalid escape sequence %s in input delimiter specification; trailing characters %s not recognised."
-msgstr "Virheellinen koodinvaihtosekvenssi %s syöterajoitinmäärittelyssä; jälkimerkkejä %s ei tunnistettu."
+msgstr "Virheellinen ohjaussarja %s syöterajoitinmäärittelyssä; jäljessä olevia merkkejä %s ei tunnistettu."
 
 #: xargs/xargs.c:339
 #, c-format
 msgid "Invalid input delimiter specification %s: the delimiter must be either a single character or an escape sequence starting with \\."
-msgstr "Virheellinen syöterajoitinmäärittely %s: rajoittimen pitää olla joko yksittäismerkki tai koodinvaihtosekvenssi, joka alkaa merkeillä \\."
+msgstr "Virheellinen syöterajoitinmäärittely %s: rajoittimen on oltava joko yksittäinen merkki tai \\-merkillä alkava ohjaussarja."
 
 #: xargs/xargs.c:356
 #, c-format
 msgid "environment is too large for exec"
-msgstr "ympäristö on liian iso komennolle ”exec”"
+msgstr "ympäristö on liian suuri exec-toiminnolle"
 
 #: xargs/xargs.c:568
 #, c-format
 msgid "warning: value %ld for -s option is too large, using %ld instead"
-msgstr "Varoitus: arvo %ld valitsimelle -s on liian suuri, käytetään sen sijaan arvoa %ld"
+msgstr "varoitus: valitsimen -s arvo %ld on liian suuri, käytetään sen sijaan arvoa %ld"
 
 #: xargs/xargs.c:615
 #, c-format
 msgid "option --%s may not be set to a value which includes `='"
-msgstr "valitsin --%s ei voi olla asetettu arvoon, joka sisältää ”=”"
+msgstr "valitsinta --%s ei voi asettaa arvoon, joka sisältää merkin ”=”"
 
 #: xargs/xargs.c:627
 #, c-format
 msgid "failed to unset environment variable %s"
-msgstr "unset-toiminto ympäristömuuttujalle %s epäonnistui"
+msgstr "ympäristömuuttujan %s poisasettaminen epäonnistui"
 
 #: xargs/xargs.c:641
 #, c-format
 msgid "warning: the -E option has no effect if -0 or -d is used.\n"
-msgstr "varoitus: valitsimella -E ei ole vaikutusta, jos käytetään valitsinta -0 tai -d.\n"
+msgstr "varoitus: valitsimella -E ei ole vaikutusta, jos -0 tai -d on käytössä.\n"
 
 #: xargs/xargs.c:663
 #, c-format
@@ -1372,12 +1375,12 @@ msgstr "Komennon maksimipituus, jota voisimme todella käyttää on: %<PRIuMAX>\
 #: xargs/xargs.c:716
 #, c-format
 msgid "Size of command buffer we are actually using: %<PRIuMAX>\n"
-msgstr "Meidän todella käyttämämme komentopuskurin koko on: %<PRIuMAX>\n"
+msgstr "Todella käyttämämme komentopuskurin koko: %<PRIuMAX>\n"
 
 #: xargs/xargs.c:719
 #, c-format
 msgid "Maximum parallelism (--max-procs must be no greater): %<PRIuMAX>\n"
-msgstr "Maksimi parallelismi (--max-procs ei saa olla suurempi): %<PRIuMAX>\n"
+msgstr "Enimmäisrinnakkaisuus (--max-procs ei saa olla suurempi): %<PRIuMAX>\n"
 
 #: xargs/xargs.c:725
 #, c-format
@@ -1386,17 +1389,17 @@ msgid ""
 "Execution of xargs will continue now, and it will try to read its input and run commands; if this is not what you wanted to happen, please type the end-of-file keystroke.\n"
 msgstr ""
 "\n"
-"Ohjelman xargs suoritus jatkuu heti ja se yrittää lukea syötteensä ja suorituskomennot; jos tämä on jotain, mitä et halua, kirjoita tiedoston loppumerkki.\n"
+"xargs-ohjelman suoritus jatkuu nyt, ja se yrittää lukea syötteensä ja suorittaa komennot; jos et halunnut näin tapahtuvan, näppäile tiedoston loppumerkki.\n"
 
 #: xargs/xargs.c:733
 #, c-format
 msgid "Warning: %s will be run at least once.  If you do not want that to happen, then press the interrupt keystroke.\n"
-msgstr "Varoitus: %s suoritetaan vähintään kerran. Jos et halua sen tapahtuvan, paina keskeytyspainiketta.\n"
+msgstr "Varoitus: %s suoritetaan vähintään kerran. Jos et halua näin tapahtuvan, paina keskeytysnäppäintä.\n"
 
 #: xargs/xargs.c:861 xargs/xargs.c:954
 #, c-format
 msgid "unmatched %s quote; by default quotes are special to xargs unless you use the -0 option"
-msgstr "pariton %s lainaus; oletuksen lainaukset ovat erityisiä xargs:lle, ellet käytä valitsinta -0"
+msgstr "pariton %s-lainausmerkki; oletuksena lainausmerkeillä on erikoismerkitys xargs:lle, ellei -0 ole käytössä"
 
 #: xargs/xargs.c:862 xargs/xargs.c:955
 msgid "double"
@@ -1409,7 +1412,7 @@ msgstr "yksinkertainen"
 #: xargs/xargs.c:974
 #, c-format
 msgid "WARNING: a NUL character occurred in the input.  It cannot be passed through in the argument list.  Did you mean to use the --null option?"
-msgstr "VAROITUS: syötteessä oli NUL-merkki. Sitä ei voi välittää argumenttiluettelon lävitse. Oliko tarkoituksesi käyttää valitsinta --null ?"
+msgstr "VAROITUS: NUL-merkki kohdattiin syötteessä. Sitä ei voi välittää osana argumenttiluetteloa. Oliko tarkoitus käyttää valitsinta --null?"
 
 #: xargs/xargs.c:984 xargs/xargs.c:1049
 #, c-format
@@ -1449,65 +1452,63 @@ msgstr "putken luominen ennen fork-kutsua epäonnistui"
 #: xargs/xargs.c:1301
 #, c-format
 msgid "errno-buffer safe_read failed in xargs_do_exec (this is probably a bug, please report it)"
-msgstr "errno-buffer safe_read epäonnistui kohteessa xargs_do_exec (tämä on luultavasti ohjelmointivirhe, ilmoita siitä)"
+msgstr "errno-bufferin safe_read epäonnistui funktiossa xargs_do_exec (tämä on luultavasti ohjelmistovika, ilmoita siitä)"
 
 #: xargs/xargs.c:1354
 #, c-format
 msgid "read returned unexpected value %zu; this is probably a bug, please report it"
-msgstr "read-kutsu palautti odottamattoman arvon %zu; tämä on luultavasti ohjelmointivirhe, ilmoita siitä"
+msgstr "read-kutsu palautti odottamattoman arvon %zu; tämä on luultavasti ohjelmistovika, ilmoita siitä"
 
 #: xargs/xargs.c:1447
 #, c-format
 msgid "error waiting for child process"
-msgstr "lapsiprosessin odotuksenaikainen virhe"
+msgstr "virhe odotettaessa lapsiprosessia"
 
 #: xargs/xargs.c:1480
 #, c-format
 msgid "WARNING: Lost track of %lu child processes"
-msgstr "VAROITUS: Kadotettiin %lu-lapsiprosessin jälki"
+msgstr "VAROITUS: Hukattiin tieto %lu lapsiprosessista"
 
 #: xargs/xargs.c:1499
 #, c-format
 msgid "%s: exited with status 255; aborting"
-msgstr "%s: poistumistilakoodi 255; keskeytetään"
+msgstr "%s: poistuttiin paluuarvolla 255; keskeytetään"
 
 #: xargs/xargs.c:1502
 #, c-format
 msgid "%s: stopped by signal %d"
-msgstr "%s: pysäytetty signaalilla %d"
+msgstr "%s: pysähtyi signaaliin %d"
 
 #: xargs/xargs.c:1505
 #, c-format
 msgid "%s: terminated by signal %d"
-msgstr "%s: keskeytetty signaalilla %d"
+msgstr "%s: keskeytyi signaaliin %d"
 
 #: xargs/xargs.c:1590
 #, c-format
 msgid "%s: invalid number for -%c option\n"
-msgstr "%s: epäkelpo numero -%c -valitsimelle\n"
+msgstr "%s: epäkelpo lukuarvo -%c -valitsimelle\n"
 
 #: xargs/xargs.c:1597
 #, c-format
 msgid "%s: value for -%c option should be >= %ld\n"
-msgstr "%s: valitsimen -%c arvon pitäisi olla >= %ld\n"
+msgstr "%s: valitsimen -%c arvon tulee olla ≥ %ld\n"
 
 #: xargs/xargs.c:1611
 #, c-format
 msgid "%s: value for -%c option should be <= %ld\n"
-msgstr "%s: valitsimen -%c arvon pitäisi olla <= %ld\n"
+msgstr "%s: valitsimen -%c arvon tulee olla ≤ %ld\n"
 
 #: xargs/xargs.c:1630
 #, c-format
 msgid "Usage: %s [OPTION]... COMMAND [INITIAL-ARGS]...\n"
-msgstr "Käyttö: %s [VALITSIN]... KOMENTO [ALUSTUSARGUMENTIT]...\n"
+msgstr "Käyttö: %s [VALITSIN]... KOMENTO [ENSIARGUMENTIT]...\n"
 
 #: xargs/xargs.c:1635
 msgid ""
 "Run COMMAND with arguments INITIAL-ARGS and more arguments read from input.\n"
 "\n"
-msgstr ""
-"Käyttö: %s [VALITSIN]... KOMENTO ALUSTUSARGUMENTIT...\n"
-"Suorita KOMENTO argumenteilla ALUSTUSARGUMENTIT ja lisäargumentit luetaan syötteestä.\n"
+msgstr "Suorita KOMENTO ENSIARGUMENTein, ja lisäargumentit luetaan syötteestä.\n"
 
 #: xargs/xargs.c:1637
 msgid ""
@@ -1524,8 +1525,9 @@ msgid ""
 "                                 logical EOF processing\n"
 msgstr ""
 "  -0, --null                   alkiot erotellaan null-merkillä, ei tyhjemerkillä;\n"
-"                                 ottaa pois käytöstä lainauksen ja kenoviivan prosessoinnin\n"
-"                                  sekä loogisen EOF-prosessoinnin\n"
+"                                 ottaa pois käytöstä lainausmerkkien ja kenoviivan\n"
+"                                 sekä loogisen tiedoston lopun käsittelyn\n"
+"\n"
 
 #: xargs/xargs.c:1642
 msgid "  -a, --arg-file=FILE          read arguments from FILE, not standard input\n"
@@ -1537,9 +1539,10 @@ msgid ""
 "                                 not by whitespace; disables quote and backslash\n"
 "                                 processing and logical EOF processing\n"
 msgstr ""
-"  -d, --delimiter=CHARACTER    alkiot syötevuossa on eroteltu merkillä CHARACTER,\n"
-"                                 ei tyhjemerkillä; ottaa pois käytöstä lainauksen ja kenoviivan\n"
-"                                 prosessoinnin sekä loogisen EOF-prosessoinnin\n"
+"  -d, --delimiter=MERKKI       alkiot syötevirrassa on eroteltu merkillä MERKKI,\n"
+"                                 ei tyhjemerkillä; poistaa käytöstä\n"
+"                                 lainausmerkkien ja kenoviivan sekä loogisen\n"
+"                                 tiedoston lopun käsittelyn\n"
 
 #: xargs/xargs.c:1646
 msgid ""
@@ -1547,17 +1550,18 @@ msgid ""
 "                                 of input, the rest of the input is ignored\n"
 "                                 (ignored if -0 or -d was specified)\n"
 msgstr ""
-"  -E END                       aseta looginen EOF-merkkijono; jos END esiintyy syöterivinä\n"
-"                                 loput syötteestä ohitetaan\n"
-"                                 (ohitetaan jos -0 tai -d määriteltiin)\n"
+"  -E LOPPU                     aseta looginen tiedostonloppumerkkijono; jos\n"
+"                                 LOPPU esiintyy syöterivinä, loput syötteestä\n"
+"                                 ohitetaan\n"
+"                                 (ei huomioida jos -0 tai -d annettiin)\n"
 
 #: xargs/xargs.c:1649
 msgid ""
 "  -e, --eof[=END]              equivalent to -E END if END is specified;\n"
 "                                 otherwise, there is no end-of-file string\n"
 msgstr ""
-"  -e, --eof[=END]              sama kuin -E END jos END on määritelty;\n"
-"                                 muuten, eu ole end-of-file-merkkijonoa\n"
+"  -e, --eof[=LOPPU]            sama kuin -E LOPPU jos LOPPU on annettu;\n"
+"                                 muuten ei ole tiedostonloppumerkkijonoa\n"
 
 #: xargs/xargs.c:1651
 msgid "  -I R                         same as --replace=R\n"
@@ -1569,7 +1573,7 @@ msgid ""
 "                                 from standard input; if R is unspecified,\n"
 "                                 assume {}\n"
 msgstr ""
-"  -i, --replace[=R]            korvaa R ALUSTUSARGUMENTEISSA vakiosyötteestä\n"
+"  -i, --replace[=R]            korvaa R ENSIARGUMENTeissa vakiosyötteestä\n"
 "                                 luetuilla nimillä; jos R on määrittelemätön,\n"
 "                                 oleta {}\n"
 
@@ -1578,24 +1582,29 @@ msgid ""
 "  -L, --max-lines=MAX-LINES    use at most MAX-LINES non-blank input lines per\n"
 "                                 command line\n"
 msgstr ""
-"  -L, --max-lines=MAX-LINES    käytä enintään MAX-LINES ei-tyhjälle syöteriville per\n"
-"                                 komentorivi\n"
+"  -L, --max-lines=ENIMM.RIVIT  käytä enintään ENIMM.RIVIT epätyhjiä syöterivejä\n"
+"                                 komentoriviä kohden\n"
 
 #: xargs/xargs.c:1657
 msgid ""
 "  -l[MAX-LINES]                similar to -L but defaults to at most one non-\n"
 "                                 blank input line if MAX-LINES is not specified\n"
 msgstr ""
-"  -l[MAX-LINES]                samanlainen kuin -L mutta oletusarvot enintään\n"
-"                                 yhdelle ei-tyhjälle syöteriville jos MAX-LINES ei ole määritelty\n"
+"  -l[ENIMM.RIVIT]              samankaltainen kuin -L, mutta käyttää oletus-\n"
+"                                 arvoisesti enintään yhden epätyhjän syöterivin,\n"
+"                                 kun ENIMM.RIVIT on antamatta\n"
 
 #: xargs/xargs.c:1659
 msgid "  -n, --max-args=MAX-ARGS      use at most MAX-ARGS arguments per command line\n"
-msgstr "  -n, --max-args=MAX-ARGS      käytä enintään MAX-ARGS argumenttia per komentorivi\n"
+msgstr ""
+"  -n, --max-args=ENIMM.ARG     käytä enintään ENIMM.ARG argumenttia\n"
+"                                 komentoriviä kohden\n"
 
 #: xargs/xargs.c:1660
 msgid "  -P, --max-procs=MAX-PROCS    run at most MAX-PROCS processes at a time\n"
-msgstr "  -P, --max-procs=MAX-PROCS    suorita enintään MAX-PROCS prosessia kerrallaan\n"
+msgstr ""
+"  -P, --max-procs=ENIMM.PROS   suorita enintään ENIMM.PROS prosessia\n"
+"                                 kerrallaan\n"
 
 #: xargs/xargs.c:1661
 msgid "  -p, --interactive            prompt before running commands\n"
@@ -1603,7 +1612,7 @@ msgstr "  -p, --interactive            kehote ennen komentojen suorittamista\n"
 
 #: xargs/xargs.c:1662
 msgid "      --process-slot-var=VAR   set environment variable VAR in child processes\n"
-msgstr "      --process-slot-var=VAR   aseta ympäristömuuttuja VAR lapsiprosesseissa\n"
+msgstr "      --process-slot-var=MUUTT aseta ympäristömuuttuja MUUTT lapsiprosesseissa\n"
 
 #: xargs/xargs.c:1663
 msgid ""
@@ -1611,17 +1620,17 @@ msgid ""
 "                                 if this option is not given, COMMAND will be\n"
 "                                 run at least once\n"
 msgstr ""
-"  -r, --no-run-if-empty        Jos ei ole argumentteja, niin älä suorita KOMENTOa;\n"
+"  -r, --no-run-if-empty        jos argumentteja ei ole, älä suorita KOMENTOa;\n"
 "                                 jos tätä valitsinta ei anneta, KOMENTO\n"
 "                                 suoritetaan ainakin kerran\n"
 
 #: xargs/xargs.c:1666
 msgid "  -s, --max-chars=MAX-CHARS    limit length of command line to MAX-CHARS\n"
-msgstr "  -s, --max-chars=MAX-CHARS    rajoita komentorivin pituus kokoon MAX-CHARS merkkiä\n"
+msgstr "  -s, --max-chars=ENIMM.MERK   rajoita komentorivin pituus ENIMM.MERK merkkiin\n"
 
 #: xargs/xargs.c:1667
 msgid "      --show-limits            show limits on command-line length\n"
-msgstr "      --show-limits            näytä rajat komentorivipituudella\n"
+msgstr "      --show-limits            näytä komentorivipituuden rajat\n"
 
 #: xargs/xargs.c:1668
 msgid "  -t, --verbose                print commands before executing them\n"
@@ -1629,7 +1638,7 @@ msgstr "  -t, --verbose                tulosta komennot ennen niiden suorittamis
 
 #: xargs/xargs.c:1669
 msgid "  -x, --exit                   exit if the size (see -s) is exceeded\n"
-msgstr "  -x, --exit                   poistu, jos koko (katso -s) ylitetään\n"
+msgstr "  -x, --exit                   poistu, jos koko (ks. -s) ylitetään\n"
 
 #: xargs/xargs.c:1671
 msgid "      --help                   display this help and exit\n"
