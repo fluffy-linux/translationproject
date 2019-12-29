@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.30.79\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2019-03-04 01:47-0800\n"
-"PO-Revision-Date: 2019-11-09 20:41+0200\n"
+"PO-Revision-Date: 2019-12-29 17:21+0100\n"
 "Last-Translator: Benno Schulenberg <vertaling@coevern.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -9721,9 +9721,9 @@ msgid "%s: invalid start value for numerical suffix"
 msgstr "%s: ongeldige startwaarde voor numeriek achtervoegsel"
 
 #: src/split.c:1480
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid start value for hexadecimal suffix"
-msgstr "%s: ongeldige startwaarde voor numeriek achtervoegsel"
+msgstr "%s: ongeldige startwaarde voor hexadecimaal achtervoegsel"
 
 #: src/split.c:1504
 msgid "invalid IO block size"
@@ -10048,7 +10048,6 @@ msgstr ""
 "Als MODUS '0' is, zal de overeenkomstige stream ongebufferd zijn.\n"
 
 #: src/stdbuf.c:111
-#, fuzzy
 msgid ""
 "\n"
 "Otherwise MODE is a number which may be followed by one of the following:\n"
@@ -10060,6 +10059,7 @@ msgstr ""
 "\n"
 "Anders is MODUS een geheel getal gevolgd door één van de volgende:\n"
 "KB 1000, K 1024, MB 1000*1000, M 1024*1024, enz. voor G, T, P, E, Z en Y.\n"
+"(Ook binaire voorvoegsels mogen gebruikt worden: KiB = K, MiB = M, enzovoort.)\n"
 "In deze gevallen zal de overeenkomstige stream volledig gebufferd zijn\n"
 "met de grootte ingesteld op MODUS bytes.\n"
 
@@ -10826,7 +10826,6 @@ msgstr ""
 "(Een verplicht argument bij een lange optie geldt ook voor de korte vorm.)\n"
 
 #: src/system.h:595
-#, fuzzy
 msgid ""
 "\n"
 "The SIZE argument is an integer and optional unit (example: 10K is 10*1024).\n"
@@ -10837,6 +10836,7 @@ msgstr ""
 "GROOTTE is een geheel getal met een optionele eenheid (bijv. 10K is 10*1024).\n"
 "Mogelijke eenheden zijn: K, M, G, T, P, E, Z, Y (machten van 1024)\n"
 "of KB, MB, ... (machten van 1000).  Bijvoorbeeld: 10MB is 10*1000*1000.\n"
+"Ook binaire voorvoegsels mogen gebruikt worden: KiB = K, MiB = M, enzovoort.\n"
 
 #: src/system.h:605
 #, c-format
@@ -10893,9 +10893,8 @@ msgstr ""
 #. the URLs at https://translationproject.org/team/.  Otherwise, replace
 #. the entire URL with your translation team's email address.
 #: src/system.h:663
-#, fuzzy
 msgid "Report any translation bugs to <https://translationproject.org/team/>\n"
-msgstr "Meld vertalingsfouten in '%s' aan <vertaling@vrijschrift.org>.\n"
+msgstr "Meld vertalingsfouten aan <vertaling@vrijschrift.org>.\n"
 
 #: src/system.h:666
 #, fuzzy, c-format
@@ -11068,7 +11067,6 @@ msgstr ""
 "  -v, --verbose            altijd bestandsnaamkopjes tonen\n"
 
 #: src/tail.c:317
-#, fuzzy
 msgid ""
 "\n"
 "NUM may have a multiplier suffix:\n"
@@ -11081,6 +11079,7 @@ msgstr ""
 "Het GETAL mag gevolgd worden door een vermenigvuldigingsachtervoegsel:\n"
 "b = 512, kB = 1000, K = 1024, MB = 1000*1000, M = 1024*1024,\n"
 "GB = 1000*1000*1000, G = 1024*1024*1024, en zo verder voor T, P, E, Z en Y.\n"
+"Ook binaire voorvoegsels mogen gebruikt worden: KiB = K, MiB = M, enzovoort.\n"
 
 #: src/tail.c:325
 msgid ""
@@ -11188,9 +11187,8 @@ msgid "%s was replaced"
 msgstr "%s werd vervangen"
 
 #: src/tail.c:1667
-#, fuzzy
 msgid "error waiting for inotify and output events"
-msgstr "fout bij lezen van 'inotify'-gebeurtenis"
+msgstr "fout bij wachten op 'inotify'- en uitvoergebeurtenissen"
 
 #: src/tail.c:1695
 msgid "error reading inotify event"
