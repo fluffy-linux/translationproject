@@ -1326,12 +1326,12 @@ msgstr "%s: Nema nepoznatoga direktorija\n"
 #: src/output.c:102
 #, c-format
 msgid "%s: Entering directory '%s'\n"
-msgstr "%s: Ulazi se u direktorij „%s“\n"
+msgstr "%s: Ulazimo u direktorij „%s“\n"
 
 #: src/output.c:104
 #, c-format
 msgid "%s: Leaving directory '%s'\n"
-msgstr "%s: Izlazi se iz direktorija „%s“\n"
+msgstr "%s: Izlazimo iz direktorija „%s“\n"
 
 #: src/output.c:108
 #, c-format
@@ -1346,7 +1346,7 @@ msgstr "%s[%u]: Nema nepoznatoga direktorija\n"
 #: src/output.c:113
 #, c-format
 msgid "%s[%u]: Entering directory '%s'\n"
-msgstr "%s[%u]: Ulazi se u direktorij „%s“\n"
+msgstr "%s[%u]: Ulazimo u direktorij „%s“\n"
 
 #: src/output.c:115
 #, c-format
@@ -2299,7 +2299,7 @@ msgstr "čekanje na semafor ili na potomka (dijete-procesa): (Greška %ld: %s)"
 
 # Treba li ovo prevesti?
 #~ msgid "dup jobserver"
-#~ msgstr "dup poslužitelj poslova"
+#~ msgstr "dup server poslova"
 
 #~ msgid "virtual memory exhausted"
 #~ msgstr "virtualna memorija iscrpljena"
