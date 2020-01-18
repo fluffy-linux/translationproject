@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU bison 3.4.91\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2019-11-20 07:26+0100\n"
-"PO-Revision-Date: 2019-11-24 23:13+0800\n"
+"PO-Revision-Date: 2020-01-19 00:41+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -659,7 +659,7 @@ msgstr "接受"
 
 #: src/print.c:235 src/print.c:309
 msgid "$default"
-msgstr "$預設"
+msgstr "$default"
 
 #: src/print.c:364
 msgid "Terminals, with rules where they appear"
@@ -781,7 +781,7 @@ msgstr "非終結語詞在文法中無用"
 
 #: src/reduce.c:333
 msgid "Terminals unused in grammar"
-msgstr "終端機在文法中未使用"
+msgstr "未在文法中使用終結語詞"
 
 #: src/reduce.c:342
 msgid "Rules useless in grammar"
