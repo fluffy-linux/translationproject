@@ -1,14 +1,14 @@
 # diffutils Bahasa Melayu (Malay) (ms).
-# Copyright (C) 2003, 2015, 2018, 2019 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2015, 2018, 2019, 2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the diffutils package.
-# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2003, 2015, 2018, 2019.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2003, 2015, 2018, 2019, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2019-12-10 15:38+0800\n"
+"PO-Revision-Date: 2020-01-29 21:13+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -313,22 +313,22 @@ msgstr "%s tidak dapat dibuka semula: %s"
 #, fuzzy, c-format
 #| msgid "invalid --bytes value `%s'"
 msgid "invalid %s%s argument '%s'"
-msgstr "hujah tidak sah %s bagi %s"
+msgstr "hujah %s tidak sah untuk `%s'"
 
 #: lib/xstrtol-error.c:68
 #, fuzzy, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "hujah tidak sah %s bagi %s"
+msgstr "hujah tidak sah `%s' untuk `%s'"
 
 #: lib/xstrtol-error.c:72
 #, fuzzy, c-format
 msgid "%s%s argument '%s' too large"
-msgstr "%s: hujah terlalu panjang untuk %s escape"
+msgstr "nombor token pengguna %s terlalu besar"
 
 #: lib/version-etc.c:73
 #, fuzzy, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr "< %s ... %s > ? "
+msgstr "%s: %s"
 
 #: lib/version-etc.c:76
 #, fuzzy, c-format
@@ -822,7 +822,7 @@ msgstr "-y, --side-by-side            keluaran dalam dua lajur"
 #, fuzzy
 #| msgid "-w NUM  --width=NUM  Output at most NUM (default 130) print columns."
 msgid "-W, --width=NUM               output at most NUM (default 130) print columns"
-msgstr "-w NOM  --width=NOM  Keluarkan paling banyak NOM (default 130) lajur cetakan."
+msgstr "-w, --width=NUM              keluarkan paling banyak NUM (default 130) lajur cetakan"
 
 #: src/diff.c:900
 #, fuzzy
@@ -1015,7 +1015,7 @@ msgstr "-b  --ignore-space-change  Abai perubahan dalam jumlah ruang putih."
 #, fuzzy
 #| msgid "-w  --ignore-all-space  Ignore all white space."
 msgid "-w, --ignore-all-space          ignore all white space"
-msgstr "-w  --ignore-all-space  Abai semua ruang putih."
+msgstr "-W, --ignore-all-space       abai semua ruang putih"
 
 #: src/diff.c:933
 #, fuzzy
@@ -1027,19 +1027,19 @@ msgstr "-B  --ignore-blank-lines  Abai perubahan dimana baris adalah kesemuanya 
 #, fuzzy
 #| msgid "-I RE  --ignore-matching-lines=RE  Ignore changes whose lines all match RE."
 msgid "-I, --ignore-matching-lines=RE  ignore changes where all lines match RE"
-msgstr "-I RE  --ignore-matching-lines=RE  Abai perubahan dimana baris semua sepadan RE."
+msgstr "-I, --ignore-matching-lines=RE  abai perubahan dimana baris semua sepadan RE"
 
 #: src/diff.c:936
 #, fuzzy
 #| msgid "-a  --text  Treat all files as text."
 msgid "-a, --text                      treat all files as text"
-msgstr "-a  --text  Layan semua fail sebagai teks."
+msgstr "-a, --text                   layan semua fail sebagai teks"
 
 #: src/diff.c:937
 #, fuzzy
 #| msgid "--strip-trailing-cr  Strip trailing carriage return on input."
 msgid "    --strip-trailing-cr         strip trailing carriage return on input"
-msgstr "--strip-trailing-cr  Buang enter penghujung pada masukan."
+msgstr "    --strip-trailing-cr      buang enter penghujung pada masukan"
 
 #: src/diff.c:939
 #, fuzzy
@@ -1369,13 +1369,13 @@ msgstr ""
 #, fuzzy
 #| msgid "-a  --text  Treat all files as text."
 msgid "-a, --text                  treat all files as text"
-msgstr "-a  --text  Layan semua fail sebagai teks."
+msgstr "-a, --text                   layan semua fail sebagai teks"
 
 #: src/diff3.c:489
 #, fuzzy
 #| msgid "--strip-trailing-cr  Strip trailing carriage return on input."
 msgid "    --strip-trailing-cr     strip trailing carriage return on input"
-msgstr "--strip-trailing-cr  Buang enter penghujung pada masukan."
+msgstr "    --strip-trailing-cr      buang enter penghujung pada masukan"
 
 #: src/diff3.c:490
 #, fuzzy
@@ -1485,22 +1485,16 @@ msgid "Thomas Lord"
 msgstr "Thomas Lord"
 
 #: src/sdiff.c:173
-#, fuzzy
-#| msgid "-o FILE  --output=FILE  Operate interactively, sending output to FILE."
 msgid "-o, --output=FILE            operate interactively, sending output to FILE"
-msgstr "-o FAIL  --output=FAIL  Operasi secara interaktif, hantar keluaran ke FAIL."
+msgstr "-o, --output=FILE            operasi secara interaktif, hantar keluaran ke FAIL"
 
 #: src/sdiff.c:175
-#, fuzzy
-#| msgid "-i  --ignore-case  Consider upper- and lower-case to be the same."
 msgid "-i, --ignore-case            consider upper- and lower-case to be the same"
-msgstr "-i  --ignore-case  Anggap huruf besar dan kecil sebagai sama."
+msgstr "-i, --ignore-case            anggap huruf besar dan kecil sebagai sama"
 
 #: src/sdiff.c:176
-#, fuzzy
-#| msgid "-E  --ignore-tab-expansion  Ignore changes due to tab expansion."
 msgid "-E, --ignore-tab-expansion   ignore changes due to tab expansion"
-msgstr "-E  --ignore-tab-expansion  Abai perubahan diakibatkan oleh pengembangan tab."
+msgstr "-E, --ignore-tab-expansion   abai perubahan diakibatkan oleh pengembangan tab"
 
 #: src/sdiff.c:177
 #, fuzzy
@@ -1509,20 +1503,16 @@ msgid "-Z, --ignore-trailing-space  ignore white space at line end"
 msgstr "-w  --ignore-all-space  Abai semua ruang putih."
 
 #: src/sdiff.c:178
-#, fuzzy
-#| msgid "-b  --ignore-space-change  Ignore changes in the amount of white space."
 msgid "-b, --ignore-space-change    ignore changes in the amount of white space"
-msgstr "-b  --ignore-space-change  Abai perubahan dalam jumlah ruang putih."
+msgstr "-b, --ignore-space-change    abai perubahan dalam jumlah ruang putih"
 
 #: src/sdiff.c:179
 msgid "-W, --ignore-all-space       ignore all white space"
 msgstr "-W, --ignore-all-space       abai semua ruang putih"
 
 #: src/sdiff.c:180
-#, fuzzy
-#| msgid "-B  --ignore-blank-lines  Ignore changes whose lines are all blank."
 msgid "-B, --ignore-blank-lines     ignore changes whose lines are all blank"
-msgstr "-B  --ignore-blank-lines  Abai perubahan dimana baris adalah kesemuanya kosong."
+msgstr "-B, --ignore-blank-lines     abai perubahan dimana baris adalah kesemuanya kosong"
 
 #: src/sdiff.c:181
 msgid "-I, --ignore-matching-lines=RE  ignore changes all whose lines match RE"
