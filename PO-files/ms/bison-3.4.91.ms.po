@@ -1,14 +1,14 @@
 # bison Bahasa Melayu (Malay) (ms).
-# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017, 2018, 2019 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017, 2018, 2019, 2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the bison package.
-# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017, 2018, 2019.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017, 2018, 2019, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bison 3.4.91\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2019-11-20 07:26+0100\n"
-"PO-Revision-Date: 2019-12-14 15:58+0800\n"
+"PO-Revision-Date: 2020-02-16 15:13+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 
 #: src/complain.c:114
 msgid "S/R conflicts (enabled by default)"
@@ -39,7 +39,7 @@ msgstr "kemasukan `%s' usang.  Diabaikan"
 #: src/complain.c:118
 #, fuzzy, c-format
 msgid "empty rules without %empty"
-msgstr "Macro adalah kosong"
+msgstr "fail kosong biasa"
 
 #: src/complain.c:119
 #, fuzzy
@@ -63,15 +63,7 @@ msgstr "keutamaan dan pengumpulan tidak berguna untuk %s"
 #: src/complain.c:121
 #, fuzzy
 msgid "incompatibilities with POSIX Yacc"
-msgstr ""
-"Kategori amaran termasuk:\n"
-"  `midrule-values'  nilai hukumtengah nyahtetap atau tidak digunakan\n"
-"  `yacc'            tidak serasi dengan POSIX YACC\n"
-"  `all'             semua amaran\n"
-"  `no-CATEGORY'     matikan amaran dalam CATEGORY\n"
-"  `none'            matikan semua amaran\n"
-"  `error'           jadikan amaran sebagai ralat\n"
-"\n"
+msgstr "POSIX Yacc tidak menyokong %s"
 
 #: src/complain.c:122
 msgid "all other warnings (enabled by default)"
@@ -110,28 +102,12 @@ msgstr ""
 #: src/complain.c:126
 #, fuzzy
 msgid "treat warnings as errors"
-msgstr ""
-"Kategori amaran termasuk:\n"
-"  `midrule-values'  nilai hukumtengah nyahtetap atau tidak digunakan\n"
-"  `yacc'            tidak serasi dengan POSIX YACC\n"
-"  `all'             semua amaran\n"
-"  `no-CATEGORY'     matikan amaran dalam CATEGORY\n"
-"  `none'            matikan semua amaran\n"
-"  `error'           jadikan amaran sebagai ralat\n"
-"\n"
+msgstr "Terlalu banyak ralat, keluar"
 
 #: src/complain.c:151
 #, fuzzy
 msgid "Warning categories include:"
-msgstr ""
-"Kategori amaran termasuk:\n"
-"  `midrule-values'  nilai hukumtengah nyahtetap atau tidak digunakan\n"
-"  `yacc'            tidak serasi dengan POSIX YACC\n"
-"  `all'             semua amaran\n"
-"  `no-CATEGORY'     matikan amaran dalam CATEGORY\n"
-"  `none'            matikan semua amaran\n"
-"  `error'           jadikan amaran sebagai ralat\n"
-"\n"
+msgstr "Amaran: "
 
 #: src/complain.c:254
 msgid "warning"
@@ -160,7 +136,7 @@ msgstr "arahan tidak sah: %s"
 #, fuzzy, c-format
 #| msgid "invalid directive: %s"
 msgid "duplicate directive"
-msgstr "Salinan @E dijumpai."
+msgstr "@E adalah salinan '.' @e.\n"
 
 #: src/complain.c:571
 #, fuzzy, c-format
@@ -245,7 +221,7 @@ msgstr "konflik: %d pemindahan/pengurangan, %d pengurangan/pengurangan"
 #| msgid_plural "expected %d shift/reduce conflicts"
 msgid "%d shift/reduce conflict"
 msgid_plural "%d shift/reduce conflicts"
-msgstr[0] "jangkaan %d konflik pemindahan/pengurangan"
+msgstr[0] "konflik: %d pemindahan/pengurangan\n"
 
 #: src/conflicts.c:708
 #, c-format
@@ -258,7 +234,7 @@ msgstr "konflik pengurangan/pengurangan: %d dijumpai, %d diharapkan"
 #| msgid_plural "expected %d reduce/reduce conflicts"
 msgid "%d reduce/reduce conflict"
 msgid_plural "%d reduce/reduce conflicts"
-msgstr[0] "dijangkakan %d pengurangan/pengurangan konflik"
+msgstr[0] "konflik: %d pengurangan/pengurangan\n"
 
 #: src/files.c:124
 #, c-format
@@ -299,7 +275,7 @@ msgstr "Keluaran:\n"
 #: src/getargs.c:174
 #, fuzzy
 msgid "don't colorize the output"
-msgstr "Keluaran:\n"
+msgstr "Jangan lihat pada fail nanorc"
 
 #: src/getargs.c:175
 msgid "colorize if the output device is a tty"
@@ -314,14 +290,7 @@ msgstr ""
 #: src/getargs.c:209
 #, fuzzy
 msgid "describe the states"
-msgstr ""
-"PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:\n"
-"  `state'        nyatakan keadaan\n"
-"  `itemset'      lengkapkan perkara asas dengan penutupnya\n"
-"  `lookahead'    dengan jelas kaitkan lookahead kepada perkara\n"
-"  `solved'       nyatakan penyelesaian konflik pemindahan/pengurangan\n"
-"  `all'          masukkan semua maklumat diatas\n"
-"  `none'         matikan laporan\n"
+msgstr "Amerika Syarikat"
 
 #: src/getargs.c:210
 #, fuzzy
@@ -352,14 +321,7 @@ msgstr ""
 #| msgid "expected %d shift/reduce conflict"
 #| msgid_plural "expected %d shift/reduce conflicts"
 msgid "describe shift/reduce conflicts solving"
-msgstr ""
-"PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:\n"
-"  `state'        nyatakan keadaan\n"
-"  `itemset'      lengkapkan perkara asas dengan penutupnya\n"
-"  `lookahead'    dengan jelas kaitkan lookahead kepada perkara\n"
-"  `solved'       nyatakan penyelesaian konflik pemindahan/pengurangan\n"
-"  `all'          masukkan semua maklumat diatas\n"
-"  `none'         matikan laporan\n"
+msgstr "konflik: %d pemindahan/pengurangan, %d pengurangan/pengurangan\n"
 
 #: src/getargs.c:213
 #, fuzzy
@@ -376,14 +338,7 @@ msgstr ""
 #: src/getargs.c:214
 #, fuzzy
 msgid "disable the report"
-msgstr ""
-"PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:\n"
-"  `state'        nyatakan keadaan\n"
-"  `itemset'      lengkapkan perkara asas dengan penutupnya\n"
-"  `lookahead'    dengan jelas kaitkan lookahead kepada perkara\n"
-"  `solved'       nyatakan penyelesaian konflik pemindahan/pengurangan\n"
-"  `all'          masukkan semua maklumat diatas\n"
-"  `none'         matikan laporan\n"
+msgstr "enable/disable"
 
 #. TRANSLATORS: Use the same translation for THINGS as in the
 #. --report=THINGS help message.
@@ -668,7 +623,7 @@ msgstr "pelbagai rangka pengisytiharan tidak sah"
 #, fuzzy, c-format
 #| msgid "invalid language `%s'"
 msgid "%s: invalid language"
-msgstr "bahasa `%s' tidak sah"
+msgstr "\t\t\tBahasa Polisi: %s"
 
 #: src/getargs.c:523
 msgid "multiple language declarations are invalid"
@@ -678,19 +633,19 @@ msgstr "pelbagai pengisytiharan bahasa adalah tidak sah"
 #, fuzzy, c-format
 #| msgid "invalid directive: %s"
 msgid "deprecated option: %s, use %s"
-msgstr "opsyen `%s' telah luput; guna `%s'"
+msgstr "%s: pilihan `%s' adalah kabur\n"
 
 #: src/getargs.c:850
 #, fuzzy, c-format
 #| msgid "missing operand after `%s'"
 msgid "missing operand"
-msgstr "operan hilang selepas `%s'"
+msgstr "Nama kekunci hilang"
 
 #: src/getargs.c:852
 #, fuzzy, c-format
 #| msgid "extra operand `%s'"
 msgid "extra operand %s"
-msgstr "operan tambahan `%s'"
+msgstr "Ekstra"
 
 #: src/gram.c:218
 msgid "Grammar"
@@ -747,13 +702,13 @@ msgstr "pembetulan boleh diterapkan. Ulang laksana dengan pilihan '--update'."
 #, fuzzy, c-format
 #| msgid "symbol %s redefined"
 msgid "%%define variable %s redefined"
-msgstr "nilai tidak sah untuk %%define pembolehubah Boolean `%s'"
+msgstr "simbol %s ditakrif semula"
 
 #: src/muscle-tab.c:536 src/symtab.c:331
 #, fuzzy, c-format
 #| msgid "previous declaration"
 msgid "previous definition"
-msgstr "Takrifan sintaks untuk digunakan"
+msgstr "pengisytiharan terdahulu"
 
 #: src/muscle-tab.c:595 src/muscle-tab.c:696 src/muscle-tab.c:757
 #, fuzzy, c-format
@@ -781,12 +736,12 @@ msgstr "nilai tidak sah untuk %%define pembolehubah Boolean `%s'"
 #: src/muscle-tab.c:690
 #, fuzzy, c-format
 msgid "invalid value for %%define Boolean variable %s"
-msgstr "nilai tidak sah untuk %%define pembolehubah Boolean `%s'"
+msgstr "mengabai nilai pembolehubah persekitaran QUOTING_STYLE yang tidak sah: %s"
 
 #: src/muscle-tab.c:744
 #, fuzzy, c-format
 msgid "invalid value for %%define variable %s: %s"
-msgstr "nilai tidak sah untuk %%define pembolehubah Boolean `%s'"
+msgstr "pengenalan pembolehubah tidak sah `%s'"
 
 #: src/muscle-tab.c:749
 #, fuzzy, c-format
@@ -1018,7 +973,7 @@ msgstr "%s: pilihan tidak sah -- '%c'\n"
 #: src/scan-code.l:354
 #, fuzzy, c-format
 msgid "possibly meant: %c"
-msgstr "Mungkin bukan khidmat proksi SOCKS."
+msgstr "(C)"
 
 #: src/scan-code.l:363
 #, fuzzy, c-format
@@ -1088,24 +1043,23 @@ msgstr "$$ untuk hukum pertengahan pada $%d bagi `%s' tidak mempunyai jenis diny
 #, fuzzy, c-format
 #| msgid "$$ of `%s' has no declared type"
 msgid "$$ of %s has no declared type"
-msgstr "$$ dari `%s' tiada jenis diisytiharkan"
+msgstr "%s mempunyai jenis fail yang tidak diketahui"
 
 #: src/scan-code.l:671
 #, fuzzy, c-format
 #| msgid "$%d of `%s' has no declared type"
 msgid "$%s of %s has no declared type"
-msgstr "$$ bagi `%s' tiada jenis dinyatakan"
+msgstr "%s mempunyai jenis fail yang tidak diketahui"
 
 #: src/scan-code.l:694
-#, fuzzy, c-format
+#, c-format
 msgid "multiple occurrences of $%d with api.value.automove"
-msgstr "%d tempat telah diganti"
+msgstr "pelbagai kewujudan $%d dengan api.value.automove"
 
 #: src/scan-gram.l:198
-#, fuzzy, c-format
-#| msgid "stray `,' treated as white space"
+#, c-format
 msgid "stray ',' treated as white space"
-msgstr "`,' sesat dianggap sebagai ruang"
+msgstr "`,' sesat dianggap sebagai ruang putih"
 
 #: src/scan-gram.l:292
 #, c-format
@@ -1113,17 +1067,14 @@ msgid "invalid directive: %s"
 msgstr "arahan tidak sah: %s"
 
 #: src/scan-gram.l:313
-#, fuzzy, c-format
-#| msgid "invalid directive: %s"
+#, c-format
 msgid "invalid identifier: %s"
-msgstr "pengenalan pembolehubah tidak sah `%s'"
+msgstr "pengenalan tidak sah: %s"
 
 #: src/scan-gram.l:365
-#, fuzzy
-#| msgid "invalid character: %s"
 msgid "invalid character"
 msgid_plural "invalid characters"
-msgstr[0] "aksara tidak sah: %s"
+msgstr[0] "aksara tidak sah"
 
 #: src/scan-gram.l:383
 #, c-format
@@ -1136,16 +1087,14 @@ msgid "unexpected identifier in bracketed name: %s"
 msgstr "pengecam yang tidak dijangka dalam nama kurungan: %s"
 
 #: src/scan-gram.l:459
-#, fuzzy, c-format
+#, c-format
 msgid "an identifier expected"
-msgstr "')' dijangka\n"
+msgstr "sebuah pengenalan dijangka"
 
 #: src/scan-gram.l:464
-#, fuzzy
-#| msgid "invalid character: %s"
 msgid "invalid character in bracketed name"
 msgid_plural "invalid characters in bracketed name"
-msgstr[0] "pengecam yang tidak dijangka dalam nama kurungan: %s"
+msgstr[0] "aksara tidak sah dalam nama kurungan"
 
 #: src/scan-gram.l:535
 #, c-format
@@ -1153,9 +1102,9 @@ msgid "POSIX Yacc does not support string literals"
 msgstr "POSIX Yacc tidak menyokong rentetan literal"
 
 #: src/scan-gram.l:557
-#, fuzzy, c-format
+#, c-format
 msgid "empty character literal"
-msgstr "aksara tambahan dalam kesalahan ejaan"
+msgstr "rentetan aksara kosong"
 
 #: src/scan-gram.l:563
 #, c-format
@@ -1163,16 +1112,14 @@ msgid "extra characters in character literal"
 msgstr "aksara tambahan dalam kesalahan ejaan"
 
 #: src/scan-gram.l:612 src/scan-gram.l:622 src/scan-gram.l:640
-#, fuzzy, c-format
-#| msgid "invalid null character: %s"
+#, c-format
 msgid "invalid number after \\-escape: %s"
-msgstr "turutan escape tidak sah: %s"
+msgstr "nombor tidak sah selepas \\-escape: %s"
 
 #: src/scan-gram.l:652
-#, fuzzy, c-format
-#| msgid "invalid character: %s"
+#, c-format
 msgid "invalid character after \\-escape: %s"
-msgstr "turutan escape tidak sah: %s"
+msgstr "aksara tidak sah selepas \\-escape: %s"
 
 #: src/scan-gram.l:824
 #, c-format
@@ -1235,10 +1182,9 @@ msgid "symbol %s redeclared as a nonterminal"
 msgstr "simbol %s ditakrif semula sebagai bukan terminal"
 
 #: src/symtab.c:370
-#, fuzzy, c-format
-#| msgid "symbol %s is used, but is not defined as a token and has no rules"
+#, c-format
 msgid "symbol %s is used, but is not defined as a token and has no rules; did you mean %s?"
-msgstr "simbol %s digunakan, tetapi tidak ditakrifkan sebagai token atau mempunyai hukum"
+msgstr "simbol %s digunakan, tetapi tidak ditakrifkan sebagai token dan tidak mempunyai peraturan; adakah anda maksudkan %s?"
 
 #: src/symtab.c:380
 #, c-format
