@@ -5990,7 +5990,7 @@ msgstr ""
 "                               entradas\n"
 "  -Z, --context              emite qualquer contexto de segurança de cada\n"
 "                               arquivo\n"
-"  -1                         lista um arquivo por linha. Com -q ou -b, evita \\n\n"
+"  -1                         lista um arquivo por linha. Evita \\n com -q ou -b\n"
 
 #: src/ls.c:5495
 msgid ""
