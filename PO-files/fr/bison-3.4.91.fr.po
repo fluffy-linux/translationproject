@@ -1,15 +1,15 @@
 # Messages français pour Bison.
-# Copyright (C) 2019 Free Software Foundation, Inc.
+# Copyright (C) 2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the bison package.
 # Michel Robitaille <robitail@IRO.UMontreal.CA>, traducteur depuis/since 1996
 # Dominique Boucher a été le traducteur de 1996 à 2000
-# Frédéric Marchal <fmarchal@perso.be>, 2019.
+# Frédéric Marchal <fmarchal@perso.be>, 20R20
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU bison 3.4.91\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2019-11-20 07:26+0100\n"
-"PO-Revision-Date: 2019-11-23 17:59+0100\n"
+"PO-Revision-Date: 2020-03-08 20:17+0100\n"
 "Last-Translator: Frédéric Marchal <fmarchal@perso.be>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -809,7 +809,7 @@ msgstr "symbole de départ %s ne produit aucune phrase"
 #: src/scan-code.l:158
 #, c-format
 msgid "stray '%s'"
-msgstr "« %s » superflu"
+msgstr "« %s » égaré"
 
 #: src/scan-code.l:330
 #, c-format
@@ -1016,12 +1016,12 @@ msgstr "redéclaration de %s pour <%s>"
 #: src/symtab.c:325
 #, c-format
 msgid "symbol %s redeclared as a token"
-msgstr "symbole %s est redéclaré comme un jeton"
+msgstr "le symbole %s est redéclaré comme un jeton"
 
 #: src/symtab.c:326
 #, c-format
 msgid "symbol %s redeclared as a nonterminal"
-msgstr "symbole %s est redéclaré comme un non terminal"
+msgstr "le symbole %s est redéclaré comme un non terminal"
 
 #: src/symtab.c:370
 #, c-format
@@ -1041,7 +1041,7 @@ msgstr "yacc POSIX réserve %%type pour les non terminaux"
 #: src/symtab.c:550
 #, c-format
 msgid "symbol %s redeclared"
-msgstr "symbole %s est redéclaré"
+msgstr "le symbole %s est redéclaré"
 
 #: src/symtab.c:572
 #, c-format
@@ -1051,12 +1051,12 @@ msgstr "les non terminaux ne peuvent pas recevoir un nombre explicite"
 #: src/symtab.c:575
 #, c-format
 msgid "redefining user token number of %s"
-msgstr "redéfinition du numéro utilisateur du jeton de %s"
+msgstr "redéfinition du numéro utilisateur du jeton %s"
 
 #: src/symtab.c:578
 #, c-format
 msgid "user token number of %s too large"
-msgstr "le numéro utilisateur du jeton de %s est trop grand"
+msgstr "le numéro utilisateur du jeton %s est trop grand"
 
 #: src/symtab.c:617
 #, c-format
