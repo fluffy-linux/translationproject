@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sed 4.7.13\n"
 "Report-Msgid-Bugs-To: bug-gnu-utils@gnu.org\n"
 "POT-Creation-Date: 2020-01-05 13:50-0800\n"
-"PO-Revision-Date: 2020-01-06 15:40+0100\n"
+"PO-Revision-Date: 2020-03-10 09:47+0100\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -778,7 +778,7 @@ msgstr "      --help     извеждане на тази помощ и изхо
 #: sed/sed.c:197
 #, c-format
 msgid "      --version  output version information and exit\n"
-msgstr "      --version  извеждане на версията на GNU sed и изход\n"
+msgstr "      --version  извеждане на версията и изход\n"
 
 #: sed/sed.c:198
 #, c-format
