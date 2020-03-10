@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gnulib 4.0.0.2567\n"
 "Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
 "POT-Creation-Date: 2019-05-18 19:06+0200\n"
-"PO-Revision-Date: 2019-05-19 18:14+0200\n"
+"PO-Revision-Date: 2020-03-10 09:45+0100\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -113,7 +113,7 @@ msgstr "извеждане на версията на програмата"
 
 #: lib/argp-parse.c:160
 msgid "(PROGRAM ERROR) No version known!?"
-msgstr "ГРЕШКА: Неизвестна версия!"
+msgstr "(ДЕФЕКТ В ПРОГРАМАТА) Неизвестна версия!"
 
 #: lib/argp-parse.c:613
 #, c-format
@@ -122,7 +122,7 @@ msgstr "%s: Твърде много аргументи\n"
 
 #: lib/argp-parse.c:759
 msgid "(PROGRAM ERROR) Option should have been recognized!?"
-msgstr "ГРЕШКА: Непозната опция, а трябва да се разпознава!"
+msgstr "(ДЕФЕКТ В ПРОГРАМАТА) Опцията би трябвало да е била разпозната!"
 
 #: lib/bitset/stats.c:177
 #, c-format
