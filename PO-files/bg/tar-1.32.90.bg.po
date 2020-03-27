@@ -1,8 +1,8 @@
 # Bulgarian translation of GNU tar po-file.
-# Copyright (C) 2006, 2018, 2019 Free Software Foundation, Inc.
+# Copyright (C) 2006, 2018, 2019, 2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the tar package.
 # Anton Zinoviev <zinoviev@debian.org>, 2000, 2006.
-# Alexander Shopov <ash@kambanaria.org>, 2018, 2019.
+# Alexander Shopov <ash@kambanaria.org>, 2018, 2019, 2020.
 #
 # WARNING: Everywhere NUMBER is translated as N rather than as БРОЙ or ЧИСЛО
 #
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: tar 1.32.90\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2019-11-27 18:52+0200\n"
-"PO-Revision-Date: 2019-11-29 11:23+0100\n"
+"PO-Revision-Date: 2020-03-27 19:55+0100\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -115,7 +115,7 @@ msgstr "спиране за толкова СЕКУНДИ (стандартно 
 
 #: gnu/argp-parse.c:143
 msgid "print program version"
-msgstr "показва версията на програмата"
+msgstr "извеждане на версията на програмата"
 
 #: gnu/argp-parse.c:160
 msgid "(PROGRAM ERROR) No version known!?"
