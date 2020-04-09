@@ -5,14 +5,14 @@
 # Martin von Löwis <martin@v.loewis.de>, 1997, 2001, 2002
 # Jakob Kramer <jakob.kramer@gmx.de>, 2012, 2013.
 # Benno Schulenberg <bensberg@justemail.net>, 2013.
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2014-2018.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2014-2018, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2018-12-27 12:56+0100\n"
+"PO-Revision-Date: 2020-04-09 23:39+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
 "Language: de\n"
@@ -759,8 +759,8 @@ msgstr ""
 #: src/diff.c:895
 msgid "-u, -U NUM, --unified[=NUM]   output NUM (default 3) lines of unified context"
 msgstr ""
-"-u, -U ZAHL, --unified[=ZAHL]   ZAHL Zeilen des Unified-Kontexts ausgeben\n"
-"                                  (Vorgabe: 3)."
+"-u, -U ZAHL, --unified[=ZAHL]   ZAHL Zeilen des vereinheitlichten Kontexts\n"
+"                                  ausgeben (Vorgabe: 3)."
 
 #: src/diff.c:896
 msgid "-e, --ed                      output an ed script"
@@ -1477,111 +1477,3 @@ msgstr "Unbekanntes Präfix: %s"
 #, c-format
 msgid "unparsable value for --palette"
 msgstr "Wert für --palette ist nicht auswertbar"
-
-#~ msgid "%s: option '--%s' doesn't allow an argument\n"
-#~ msgstr "%s: Option »--%s« erlaubt kein Argument.\n"
-
-#~ msgid "%s: unrecognized option '--%s'\n"
-#~ msgstr "%s: Unbekannte Option »--%s«.\n"
-
-#~ msgid "%s: option '-W %s' is ambiguous\n"
-#~ msgstr "%s: Option »-W %s« ist mehrdeutig\n"
-
-#~ msgid "%s: option '-W %s' doesn't allow an argument\n"
-#~ msgstr "%s: Option »-W %s« erlaubt kein Argument.\n"
-
-#~ msgid "%s: option '-W %s' requires an argument\n"
-#~ msgstr "%s: Option »-W %s« verlangt ein Argument.\n"
-
-#~ msgid "                           or 'auto' (the default)"
-#~ msgstr "                            oder »auto« sein (Voreinstellung)"
-
-#~ msgid "    --palette=PALETTE    specify the colors to use when --color is active"
-#~ msgstr "    --palette=PALETTE     Farben angeben, wenn --color aktiv ist."
-
-#~ msgid ""
-#~ "This program comes with NO WARRANTY, to the extent permitted by law.\n"
-#~ "You may redistribute copies of this program\n"
-#~ "under the terms of the GNU General Public License.\n"
-#~ "For more information about these matters, see the file named COPYING."
-#~ msgstr ""
-#~ "Dieses Programm wird ohne Gewährleistung geliefert, soweit dies\n"
-#~ "gesetzlich zulässig ist. Sie können es unter den Bedingungen der GNU\n"
-#~ "General Public License weitergeben. \n"
-#~ "Details dazu enthält die Datei COPYING."
-
-#~ msgid "%s: illegal option -- %c\n"
-#~ msgstr "%s: ungültige Option -- %c.\n"
-
-#~ msgid "Written by Torbjorn Granlund and David MacKenzie."
-#~ msgstr "Geschrieben von Torbjorn Granlund und David MacKenzie."
-
-#~ msgid "-i SKIP1:SKIP2  --ignore-initial=SKIP1:SKIP2"
-#~ msgstr "-i SKIP1:SKIP2  --ignore-initial=SKIP1:SKIP2"
-
-#~ msgid "-s  --quiet  --silent  Output nothing; yield exit status only."
-#~ msgstr "-s  -quiet  --silent  Keine Ausgabe; nur den Exit-Status setzen."
-
-#~ msgid "--help  Output this help."
-#~ msgstr "--help   Nur diese Hilfe zeigen."
-
-#~ msgid "Report bugs to <bug-gnu-utils@gnu.org>."
-#~ msgstr "Fehlerberichte bitte an <bug-gnu-utils@gnu.org>."
-
-#~ msgid ""
-#~ "Written by Paul Eggert, Mike Haertel, David Hayes,\n"
-#~ "Richard Stallman, and Len Tower."
-#~ msgstr ""
-#~ "Geschrieben von Paul Eggert, Mike Haertel, David Hayes,\n"
-#~ "Richard Stallman und Len Tower."
-
-#~ msgid "`-%ld' option is obsolete; use `-%c %ld'"
-#~ msgstr "Die Option »-%ld« ist veraltet; verwenden Sie »-%c %ld«."
-
-#~ msgid "`-%ld' option is obsolete; omit it"
-#~ msgstr "Die Option »-%ld« ist veraltet; lassen Sie sie weg."
-
-#~ msgid ""
-#~ "-c  -C NUM  --context[=NUM]  Output NUM (default 3) lines of copied context.\n"
-#~ "-u  -U NUM  --unified[=NUM]  Output NUM (default 3) lines of unified context.\n"
-#~ "  --label LABEL  Use LABEL instead of file name.\n"
-#~ "  -p  --show-c-function  Show which C function each change is in.\n"
-#~ "  -F RE  --show-function-line=RE  Show the most recent line matching RE."
-#~ msgstr ""
-#~ "  -c, -C ZAHL, --context[=ZAHL]    ZAHL Zeilen des kopierten Kontextes ausgeben\n"
-#~ "                                   (Vorgabe: 3).\n"
-#~ "  -u, -U ZAHL, --unified[=ZAHL]    ZAHL Zeilen des \"unifizierten\" Kontextes ausgeben\n"
-#~ "                                   (Vorgabe: 3).\n"
-#~ "  --label LABEL                    LABEL statt Dateiname verwenden.\n"
-#~ "  -p, --show-c-function            Anzeigen, in welcher C-Funktion die Veränderung\n"
-#~ "                                   vorkommt.\n"
-#~ "  -F RE, --show-function-line=RE   Die nächste Zeile anzeigen, auf die RE zutrifft."
-
-#~ msgid ""
-#~ "-y  --side-by-side  Output in two columns.\n"
-#~ "  -W NUM  --width=NUM  Output at most NUM (default 130) print columns.\n"
-#~ "  --left-column  Output only the left column of common lines.\n"
-#~ "  --suppress-common-lines  Do not output common lines."
-#~ msgstr ""
-#~ "-y  -side-by-side  In zwei Spalten ausgeben.\n"
-#~ "  -W ZAHL  --width=ZAHL  Maximal ZAHL Zeichen pro Zeile ausgeben(Vorgabe: 130).\n"
-#~ "  --left-column  Nur linke Spalte gemeinsamer Zeilen ausgeben.\n"
-#~ "  ---suppress-common-lines  Keine gemeinsamen Zeilen ausgeben."
-
-#~ msgid "--speed-large-files  Assume large files and many scattered small changes."
-#~ msgstr "--speed-large-files  Es werden große Dateien und viele Änderungen vermutet."
-
-#~ msgid "-X  Output overlapping changes, bracketing them."
-#~ msgstr "-X  Überlappende Änderungen geklammert ausgeben."
-
-#~ msgid "-m  --merge  Output merged file instead of ed script (default -A)."
-#~ msgstr "-m  --merge  Zusammengeführte Datei anstelle von ed-Skript ausgeben (Vorgabe -A)."
-
-#~ msgid "-L LABEL  --label=LABEL  Use LABEL instead of file name."
-#~ msgstr "-L LABEL  --label=LABEL  LABEL anstelle des Dateinamens verwenden."
-
-#~ msgid "subsidiary program `%s' failed"
-#~ msgstr "Unterprogramm »%s« schlug fehl."
-
-#~ msgid "subsidiary program `%s' not executable"
-#~ msgstr "Unterprogramm »%s« ist nicht ausführbar."
