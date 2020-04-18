@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils-8.31.90\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2020-02-27 17:02+0000\n"
-"PO-Revision-Date: 2020-03-02 13:24-0800\n"
+"PO-Revision-Date: 2020-04-18 13:06-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 19.04.3\n"
+"X-Generator: Lokalize 20.07.70\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: lib/argmatch.c:132
@@ -71,7 +71,7 @@ msgstr "običnu praznu datoteku"
 
 #: lib/file-type.c:40
 msgid "regular file"
-msgstr "običnu datoteku"
+msgstr "obična datoteku"
 
 #: lib/file-type.c:43
 msgid "directory"
@@ -369,7 +369,7 @@ msgstr "Nevaljano ime klase znakova"
 
 #: lib/regcomp.c:150
 msgid "Trailing backslash"
-msgstr "Zaostala obrnuta kosa crta („\\“, backslash)"
+msgstr "Zaostala obratna kosa crta („\\“, backslash)"
 
 #: lib/regcomp.c:153
 msgid "Invalid back reference"
@@ -3299,7 +3299,7 @@ msgstr "  nonblock  rabi non-blocking U/I\n"
 
 #: src/dd.c:638
 msgid "  noatime   do not update access time\n"
-msgstr "  noatime   ne ažurira access time (vremensku oznaku zadnjeg pristupa datoteci)\n"
+msgstr "  noatime   ne ažurira vrijeme posljednjeg pristupa datoteci\n"
 
 #: src/dd.c:641
 msgid "  nocache   Request to drop cache.  See also oflag=sync\n"
@@ -3578,7 +3578,7 @@ msgstr "Dostupno"
 
 #: src/df.c:197
 msgid "Use%"
-msgstr "Rabi%"
+msgstr "Zauzeto%"
 
 #: src/df.c:200
 msgid "Inodes"
@@ -3594,7 +3594,7 @@ msgstr "IDostupno"
 
 #: src/df.c:209
 msgid "IUse%"
-msgstr "IRabi%"
+msgstr "IZauzeto%"
 
 #: src/df.c:212
 msgid "Mounted on"
@@ -3659,9 +3659,9 @@ msgid ""
 msgstr ""
 "  -a, --all             uključivo i sve moguće neregularne datoteke\n"
 "  -B, --block-size=VELIČINA  rabi blokove VELIČINA kao jedinicu za ispis;\n"
-"                          npr. „-BM“ ispisuje veličine u jedinicama\n"
-"                          od 1.048.576 bajtova;\n"
-"                          v. niže za format VELIČINE\n"
+"                               npr. „-BM“ ispisuje veličine u jedinicama\n"
+"                               od 1.048.576 bajtova;\n"
+"                               v. niže za format VELIČINE\n"
 "  -h, --human-readable  lako čitljiv ispis (npr. 1K, 234M, 2G)\n"
 "  -H, --si              kao -h ali s bazom 1000 umjesto 1024 (npr. 3.6M, 1.1G)\n"
 
@@ -3672,9 +3672,8 @@ msgid ""
 "  -l, --local           limit listing to local file systems\n"
 "      --no-sync         do not invoke sync before getting usage info (default)\n"
 msgstr ""
-"  -i, --inodes          informacije o uporabi inodova (indeksni čvor, ičvor),\n"
-"                          umjesto o uporabi blokova\n"
-" -k                     isto kao --block-size=1K\n"
+"  -i, --inodes          informira o inodovima umjesto o blokovima\n"
+"  -k                    isto kao --block-size=1K\n"
 "  -l, --local           informacije ograniči samo na lokalni datotečni sustav\n"
 "      --no-sync         ne poziva sync prije nego se dobije informacija o\n"
 "                          uporabi (zadano stanje)\n"
@@ -3887,9 +3886,9 @@ msgid ""
 "                          --summarize\n"
 msgstr ""
 "  -B, --block-size=VELIČINA  rabi blokove VELIČINA kao jedinicu za ispis;\n"
-"                            npr. „-BM“ ispisuje veličine u jedinicama\n"
-"                            od 1.048.576 bajtova;\n"
-"                            v. niže za format VELIČINE\n"
+"                               npr. „-BM“ ispisuje veličine u jedinicama\n"
+"                               od 1.048.576 bajtova;\n"
+"                               v. niže za format VELIČINE\n"
 "  -b, --bytes           isto kao „--apparent-size --block-size=1“\n"
 "  -c, --total           samo sveukupne vrijednosti bez detalja\n"
 "  -D, --dereference-args  slijedi samo simboličke poveznice navedene\n"
@@ -3913,7 +3912,7 @@ msgstr ""
 "                          Ako je D „-“, čita imena iz standardnog ulaza\n"
 "  -H                    isto kao --dereference-args (-D)\n"
 "  -h, --human-readable  lako čitljiv ispis (npr. 1K, 234M, 2G)\n"
-"      --inodes          informacija o uporabi inodova umjesto blokova\n"
+"      --inodes          informira o inodovima umjesto o blokovima\n"
 
 #: src/du.c:326
 msgid ""
@@ -5737,7 +5736,7 @@ msgid ""
 msgstr ""
 "  -B, --ignore-backups       ignorira imena s impliciranim krajem ~\n"
 "  -c                         zajedno s -lt: razvrsta po, i ispiše ctime\n"
-"                               (vrijeme zadnje izmjene datoteke);\n"
+"                               (vrijeme posljenje promjene statusa datoteke);\n"
 "                               zajedno s -l: ispiše ctime, razvrsta po imenu;\n"
 "                               inače: razvrsta po ctime, prvo je najnovije\n"
 
@@ -5840,7 +5839,7 @@ msgstr ""
 "      --indicator-style=RIJEČ  pripoji RIJEČ kao pokazatelj vrste stavki:\n"
 "                                 RIJEČ može biti: none (zadano), slash (-p),\n"
 "                                 file-type (--file-type), classify (-F)\n"
-"  -i, --inode                ispiše broj indeksa svake datoteke\n"
+"  -i, --inode                ispiše indeksni broj svake datoteke\n"
 "  -I, --ignore=UZORAK        ne ispisuje imena stavki podudarnih s UZORKOM\n"
 
 #: src/ls.c:5423
@@ -5927,9 +5926,9 @@ msgstr ""
 "      --sort=RIJEČ           razvrsta po RIJEČI umjesto po imenu.\n"
 "                               RIJEČ može biti: none (-U), size (-S),\n"
 "                               time (-t), version (-v), extension (-X)\n"
-"      --time=RIJEČ           promijeni zadani način korištenja vremenskih\n"
+"      --time=RIJEČ           promijeni zadano korištenje vremenskih\n"
 "                               oznaka izmjena;                                vrijeme pristupa (-u): atime, access, use;\n"
-"                               vrijeme izmjene (-c): ctime, status;\n"
+"                               vrijeme promjene (-c): ctime, status;\n"
 "                             s -l, RIJEČ odredi koje vrijeme pokazati;                                razvrstavanje ako je aktivna opcija\n"
 "                             sa --sort=time (prvo je najnovije)\n"
 
@@ -9758,8 +9757,8 @@ msgstr ""
 "Datoteka: \"%n\"\n"
 "      ID: %-8i Dužina imena: %-7l Vrsta: %T\n"
 "Veličina bloka: %-10s Osnovna veličina bloka: %S\n"
-" Blokova: Ukupno: %-10b Slobodno: %-10f Dostupno: %a\n"
-" Inodova: Ukupno: %-10c Slobodno: %d\n"
+"Blokovi: ukupno: %-10b slobodno: %-10f dostupno: %a\n"
+"Inodovi: ukupno: %-10c slobodno: %d\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
@@ -9768,26 +9767,26 @@ msgid ""
 "  File: %N\n"
 "  Size: %-10s\tBlocks: %-10b IO Block: %-6o %F\n"
 msgstr ""
-"   Datoteka: %N\n"
-"   Veličina: %-10s\tBlokova: %-10b U/I Blok: %-6o %F\n"
+"Datoteka: %N\n"
+"Veličina: %-10s\tBlokova: %-10b U/I Blok: %-6o %F\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1639
 msgid "Device: %Dh/%dd\tInode: %-10i  Links: %-5h Device type: %t,%T\n"
-msgstr "     Uređaj: %Dh/%dd\tInode: %-10i  Poveznice: %-5h Vrsta uređaja: %t,%T\n"
+msgstr "Uređaj: %Dh/%dd\tInode: %-10i  Poveznice: %-5h Vrsta uređaja: %t,%T\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1647
 msgid "Device: %Dh/%dd\tInode: %-10i  Links: %h\n"
-msgstr "     Uređaj: %Dh/%dd\tInode: %-10i  Poveznice: %h\n"
+msgstr "Uređaj: %Dh/%dd\tInode: %-10i  Poveznice: %h\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1656
 msgid "Access: (%04a/%10.10A)  Uid: (%5u/%8U)   Gid: (%5g/%8G)\n"
-msgstr "      Prava: (%04a/%10.10A)  UID: (%5u/%8U)   GID: (%5g/%8G)\n"
+msgstr "Prava: (%04a/%10.10A)  UID: (%5u/%8U)   GID: (%5g/%8G)\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
@@ -9803,10 +9802,10 @@ msgid ""
 "Change: %z\n"
 " Birth: %w\n"
 msgstr ""
-"    Pristup: %x\n"
-" Izmijenjen: %y\n"
-"Meta mijena: %z\n"
-"    Stvoren: %w\n"
+"Dostup: %x\n"
+"Izmjena: %y\n"
+"Promjena: %z\n"
+"Stvorena: %w\n"
 
 #: src/stat.c:1692
 msgid "Display file or file system status.\n"
@@ -9938,8 +9937,8 @@ msgstr ""
 "  %X   vrijeme posljednjeg pristupa u sekundama od Epohe\n"
 "  %y   vrijeme posljednje izmjene\n"
 "  %Y   vrijeme posljednje izmjene u sekundama od Epohe\n"
-"  %z   vrijeme posljednje izmjene statusa\n"
-"  %Z   vrijeme posljednje izmjene statusa u sekundama od Epohe\n"
+"  %z   vrijeme posljednje promjene statusa\n"
+"  %Z   vrijeme posljednje promjene statusa u sekundama od Epohe\n"
 "\n"
 
 #: src/stat.c:1766
@@ -9956,8 +9955,8 @@ msgstr ""
 "\n"
 "  %a   slobodni blokovi dostupni običnom korisniku (non-superuser)\n"
 "  %b   sveukupni broj blokova u datotečnom sustavu\n"
-"  %c   sveukupni broj inodeova u datotečnom sustavu\n"
-"  %d   slobodni inodeovi u datotečnom sustavu\n"
+"  %c   sveukupni broj inodova u datotečnom sustavu\n"
+"  %d   slobodni inodovi u datotečnom sustavu\n"
 "  %f   slobodni blokovi u datotečnom sustavu\n"
 
 #: src/stat.c:1775
