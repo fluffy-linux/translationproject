@@ -1,5 +1,5 @@
 # Traditional Chinese translation of coreutils.
-# Copyright (C) 1998, 2002, 2004, 2005, 2009, 2010, 2011, 2019 Free Software Foundation, Inc.
+# Copyright (C) 1998, 2002, 2004, 2005, 2009, 2010, 2011, 2019, 2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the coreutils package.
 # Yip Chi Lap <clyip@cs.hku.hk>, 1998.
 # Abel Cheung <maddog@linux.org.hk>, 2002, 2005.
@@ -9,13 +9,14 @@
 # Aron Xu <happyaron.xu@gmail.com>, 2009, 2010, 2011, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2018, 2019.
 # Yi-Jyun Pan <pan93412@gmail.com>, 2019, 2020.
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 8.31.90\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2020-02-27 17:02+0000\n"
-"PO-Revision-Date: 2020-02-28 20:33+0800\n"
-"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-05-01 22:17+0800\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -23,23 +24,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.12.2\n"
-"X-ZhConverter: 繁化姬 dict-8bb0c6c3-r910 @ 2019/11/17 22:13:09 | https://zhconvert.org\n"
-"X-ZhConverter: 繁化姬 dict-fa3f548e-r876 @ 2019/07/17 13:29:50 | https://zhconvert.org\n"
+"X-Generator: Poedit 2.3\n"
 
 #: lib/argmatch.c:132
 #, c-format
 msgid "invalid argument %s for %s"
-msgstr "傳入 %2$s 之參數 %1$s 無效"
+msgstr "傳入 %2$s 之 %1$s 引數無效"
 
 #: lib/argmatch.c:133
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "傳入 %2$s 之參數 %1$s 不明確"
+msgstr "傳入 %2$s 之 %1$s 引數不明確"
 
 #: lib/argmatch.c:152 lib/argmatch.h:223
 msgid "Valid arguments are:"
-msgstr "有效的參數為："
+msgstr "有效的引數為："
 
 #: lib/closein.c:100
 msgid "error closing file"
@@ -116,7 +115,7 @@ msgstr "fifo"
 
 #: lib/file-type.c:78
 msgid "door"
-msgstr "門 (door)"
+msgstr "door"
 
 #: lib/file-type.c:81
 msgid "multiplexed block special file"
@@ -208,7 +207,7 @@ msgstr "系統錯誤"
 
 #: lib/gai_strerror.c:68
 msgid "Argument buffer too small"
-msgstr "參數緩衝區過小"
+msgstr "引數緩衝區過小"
 
 #: lib/gai_strerror.c:70
 msgid "Processing request in progress"
@@ -256,12 +255,12 @@ msgstr "%s：無法識別「%s%s」選項\n"
 #: lib/getopt.c:345
 #, c-format
 msgid "%s: option '%s%s' doesn't allow an argument\n"
-msgstr "%s：「%s%s」選項不接受參數\n"
+msgstr "%s：「%s%s」選項不接受引數\n"
 
 #: lib/getopt.c:360
 #, c-format
 msgid "%s: option '%s%s' requires an argument\n"
-msgstr "%s：「%s%s」選項需要參數\n"
+msgstr "%s：「%s%s」選項需要引數\n"
 
 #: lib/getopt.c:621
 #, c-format
@@ -271,7 +270,7 @@ msgstr "%s：無效選項 -- '%c'\n"
 #: lib/getopt.c:636 lib/getopt.c:682
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s：選項需要參數 -- '%c'\n"
+msgstr "%s：選項需要引數 -- '%c'\n"
 
 #: lib/mkdir-p.c:162 src/copy.c:1927 src/copy.c:1999 src/copy.c:2571
 #: src/copy.c:2932 src/find-mount-point.c:84 src/install.c:702
@@ -619,12 +618,12 @@ msgstr "字元超出範圍"
 #: lib/unicodeio.c:181
 #, c-format
 msgid "cannot convert U+%04X to local character set"
-msgstr "無法將 U+%04X 轉換至使用者的字元集"
+msgstr "無法將 U+%04X 轉換至本地端的字元集"
 
 #: lib/unicodeio.c:183
 #, c-format
 msgid "cannot convert U+%04X to local character set: %s"
-msgstr "無法將 U+%04X 轉換至使用者的字元集：%s"
+msgstr "無法將 U+%04X 轉換至本地端的字元集：%s"
 
 #: lib/userspec.c:106
 msgid "invalid user"
@@ -831,17 +830,17 @@ msgstr "無法執行格式化輸出"
 #: lib/xstrtol-error.c:63
 #, c-format
 msgid "invalid %s%s argument '%s'"
-msgstr "%s%s 參數「%s」無效"
+msgstr "%s%s 引數「%s」無效"
 
 #: lib/xstrtol-error.c:68
 #, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "%s%s 參數「%s」有無效後綴"
+msgstr "%s%s 引數「%s」有無效後綴"
 
 #: lib/xstrtol-error.c:72
 #, c-format
 msgid "%s%s argument '%s' too large"
-msgstr "%s%s 參數「%s」過長"
+msgstr "%s%s 引數「%s」過長"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/basename.c:29 src/chgrp.c:38 src/chmod.c:39 src/chown.c:37
@@ -881,9 +880,9 @@ msgid ""
 "  -s, --suffix=SUFFIX  remove a trailing SUFFIX; implies -a\n"
 "  -z, --zero           end each output line with NUL, not newline\n"
 msgstr ""
-"  -a, --multiple       支援接受多個參數，並把每個參數都視作指定的 <名稱>\n"
+"  -a, --multiple       支援接受多個引數，並把每個引數都視作指定的 <名稱>\n"
 "  -s, --suffix=SUFFIX  移除後置的 <後綴>；意指啟用 -a 選項\n"
-"  -z, --zero           以 NUL 字元而非換行符來結束每一個輸出行\n"
+"  -z, --zero           以 NUL 字元而非換列符來結束每一個輸出列\n"
 
 #: src/basename.c:67
 #, c-format
@@ -987,7 +986,7 @@ msgid ""
 msgstr ""
 "  -d, --decode          解碼資料\n"
 "  -i, --ignore-garbag   解碼時忽略非字母字元\n"
-"  -w, --wrap=字元數     在指定的字元數後自動換行 (預設為76)，0 為停用自動換行\n"
+"  -w, --wrap=字元數     在指定的字元數後自動換列 (預設為76)，0 為停用自動換列\n"
 "\n"
 
 #: src/basenc.c:148
@@ -1008,7 +1007,7 @@ msgid ""
 "from any other non-alphabet bytes in the encoded stream.\n"
 msgstr ""
 "\n"
-"解碼時，輸入資料（編碼串流）可能包含一些換行符，以及不在有效字元範圍之內的\n"
+"解碼時，輸入資料（編碼串流）可能包含一些換列符，以及不在有效字元範圍之內的\n"
 "字元。  可以嘗試用 --ignore-garbage 選項來繞過編碼串流中的無效字元。\n"
 
 #: src/basenc.c:164
@@ -1042,7 +1041,7 @@ msgstr "輸入無效"
 
 #: src/basenc.c:1118
 msgid "invalid wrap size"
-msgstr "無效的換行字元數"
+msgstr "無效的折列字元數"
 
 #: src/basenc.c:1215
 #, c-format
@@ -1088,11 +1087,11 @@ msgid ""
 msgstr ""
 "\n"
 "  -A, --show-all           等效於 -vET\n"
-"  -b, --number-nonblank    對非空輸出行編號，同時取消 -n 選項效果\n"
+"  -b, --number-nonblank    對非空輸出列編號，同時取消 -n 選項效果\n"
 "  -e                       等效於 -vE\n"
-"  -E, --show-ends          在每行結束處顯示 \"$\"\n"
-"  -n, --number             對輸出的所有行加上編號\n"
-"  -s, --squeeze-blank      不輸出多行空行\n"
+"  -E, --show-ends          在每列結束處顯示 \"$\"\n"
+"  -n, --number             對輸出的所有列加上編號\n"
+"  -s, --squeeze-blank      不輸出多列空列\n"
 
 #: src/cat.c:107
 msgid ""
@@ -1152,28 +1151,28 @@ msgstr "Jim Meyering"
 #: src/chcon.c:101 src/runcon.c:202 src/runcon.c:233
 #, c-format
 msgid "failed to create security context: %s"
-msgstr "建立安全上下文失敗：%s"
+msgstr "建立安全情境失敗：%s"
 
 #: src/chcon.c:113
 #, c-format
 msgid "failed to set %s security context component to %s"
-msgstr "設定 %s 安全上下文元件到 %s 失敗"
+msgstr "設定 %s 安全情境元件到 %s 失敗"
 
 #: src/chcon.c:157 src/chcon.c:548 src/copy.c:958 src/runcon.c:216
 #: src/stat.c:833
 #, c-format
 msgid "failed to get security context of %s"
-msgstr "無法取得 %s 的安全上下文"
+msgstr "無法取得 %s 的安全情境"
 
 #: src/chcon.c:167
 #, c-format
 msgid "can't apply partial context to unlabeled file %s"
-msgstr "無法對未標記的檔案 %s 套用部分（不完整的）上下文"
+msgstr "無法對未標記的檔案 %s 套用部分（不完整的）情境"
 
 #: src/chcon.c:191
 #, c-format
 msgid "failed to change context of %s to %s"
-msgstr "改變 %s 的上下文到 %s 失敗"
+msgstr "改變 %s 的情境到 %s 失敗"
 
 #: src/chcon.c:256 src/chmod.c:218 src/chown-core.c:324 src/copy.c:759
 #: src/du.c:533 src/ls.c:3436
@@ -1189,7 +1188,7 @@ msgstr "無法讀取目錄 %s"
 #: src/chcon.c:294
 #, c-format
 msgid "changing security context of %s\n"
-msgstr "正在變更 %s 的安全上下文\n"
+msgstr "正在變更 %s 的安全情境\n"
 
 #: src/chcon.c:328 src/chmod.c:349 src/chown-core.c:538 src/remove.c:601
 #: src/selinux.c:323
@@ -1210,7 +1209,7 @@ msgid ""
 "  or:  %s [OPTION]... [-u USER] [-r ROLE] [-l RANGE] [-t TYPE] FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
-"用法:  %s [選項]... 上下文 檔案...\n"
+"用法:  %s [選項]... 情境 檔案...\n"
 "　或:  %s [選項]... [-u 使用者] [-r 角色] [-l 範圍] [-t 類型] 檔案...\n"
 "　或:  %s [選項]... --reference=參考檔案 檔案...\n"
 
@@ -1219,8 +1218,8 @@ msgid ""
 "Change the SELinux security context of each FILE to CONTEXT.\n"
 "With --reference, change the security context of each FILE to that of RFILE.\n"
 msgstr ""
-"將每個指定 <檔案> 的安全上下文變更至指定 <上下文>。\n"
-"使用 --reference 選項時，把指定 <檔案> 的安全上下文設定為與 <參考檔案> 相同。\n"
+"將每個指定 <檔案> 的安全情境變更至指定 <情境>。\n"
+"使用 --reference 選項時，把指定 <檔案> 的安全情境設定為與 <參考檔案> 相同。\n"
 
 #: src/chcon.c:366 src/chgrp.c:125 src/chown.c:95
 msgid ""
@@ -1239,10 +1238,10 @@ msgid ""
 "  -t, --type=TYPE        set type TYPE in the target security context\n"
 "  -l, --range=RANGE      set range RANGE in the target security context\n"
 msgstr ""
-"  -u, --user=使用者        設定指定<使用者>的目標安全上下文\n"
-"  -r, --role=角色        設定指定 <角色> 的目標安全上下文\n"
-"  -t, --type=類型        設定指定 <類型> 的目標安全上下文\n"
-"  -l, --range=範圍      設定指定 <範圍> 的目標安全上下文\n"
+"  -u, --user=使用者        設定指定<使用者>的目標安全情境\n"
+"  -r, --role=角色        設定指定 <角色> 的目標安全情境\n"
+"  -t, --type=類型        設定指定 <類型> 的目標安全情境\n"
+"  -l, --range=範圍      設定指定 <範圍> 的目標安全情境\n"
 "\n"
 
 #: src/chcon.c:377 src/chgrp.c:134 src/chmod.c:390 src/chown.c:111
@@ -1257,7 +1256,7 @@ msgstr ""
 msgid ""
 "      --reference=RFILE  use RFILE's security context rather than specifying\n"
 "                         a CONTEXT value\n"
-msgstr "      --reference=參考檔案  使用指定 <參考檔案> 的安全上下文，而非指定 <環境> 值\n"
+msgstr "      --reference=參考檔案  使用指定 <參考檔案> 的安全情境，而非指定 <環境> 值\n"
 
 #: src/chcon.c:385 src/chgrp.c:142 src/chown.c:119
 msgid "  -R, --recursive        operate on files and directories recursively\n"
@@ -1285,7 +1284,7 @@ msgstr ""
 "以下選項是在指定了 -R 選項時被用於設定如何遍歷目錄結構體系。\n"
 "如果您指定了多於一個選項，那麼只有最後一個會生效。\n"
 "\n"
-"  -H                     如果指令行參數是一個指向目錄的符號連結，則對其\n"
+"  -H                     如果命令列引數是一個指向目錄的符號連結，則對其\n"
 "                         進行遍歷\n"
 "  -L                     遍歷每一個遇到的指向目錄的符號連結\n"
 "  -P                     不遍歷任何符號連結（預設）\n"
@@ -1309,12 +1308,12 @@ msgstr "%s 後缺少運算元"
 #: src/chcon.c:563 src/runcon.c:250
 #, c-format
 msgid "invalid context: %s"
-msgstr "無效上下文：%s"
+msgstr "無效情境：%s"
 
 #: src/chcon.c:569
 #, c-format
 msgid "conflicting security context specifiers given"
-msgstr "給出的安全上下文說明衝突"
+msgstr "給出的安全情境說明衝突"
 
 #: src/chcon.c:578 src/chgrp.c:289 src/chgrp.c:307 src/chmod.c:539
 #: src/chmod.c:558 src/chown.c:290 src/chown.c:319 src/cp.c:422 src/cp.c:489
@@ -1334,7 +1333,7 @@ msgid ""
 "Usage: %s [OPTION]... GROUP FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
-"用法：%s [選項]... 使用者群組 檔案...\n"
+"用法：%s [選項]... 群組 檔案...\n"
 "　或：%s [選項]... --reference=參考檔案 檔案...\n"
 
 #: src/chgrp.c:115
@@ -1343,7 +1342,7 @@ msgid ""
 "With --reference, change the group of each FILE to that of RFILE.\n"
 "\n"
 msgstr ""
-"將每個指定 <檔案> 的群組變更至指定 <使用者群組>。\n"
+"將每個指定 <檔案> 的群組變更至指定 <群組>。\n"
 "使用 --reference 選項時，把指定 <檔案> 的群組設定為與 <參考檔案> 相同。\n"
 "\n"
 
@@ -1371,7 +1370,7 @@ msgid ""
 "                         GROUP value\n"
 msgstr ""
 "      --reference=參考檔案  使用 <參考檔案> 的群組訊息而非指定一個\n"
-"                            <使用者群組> 的值\n"
+"                            <群組> 的值\n"
 
 #: src/chgrp.c:160
 #, c-format
@@ -1631,7 +1630,7 @@ msgid ""
 "Usage: %s [OPTION] NEWROOT [COMMAND [ARG]...]\n"
 "  or:  %s OPTION\n"
 msgstr ""
-"用法：%s [選項] 新根目錄 [指令 [參數]...]\n"
+"用法：%s [選項] 新根目錄 [指令 [引數]...]\n"
 "　或：%s 選項\n"
 
 #: src/chroot.c:192
@@ -1644,7 +1643,7 @@ msgstr ""
 
 #: src/chroot.c:197
 msgid "  --groups=G_LIST        specify supplementary groups as g1,g2,..,gN\n"
-msgstr "  --groups=群組列表         指定附加使用者群組，形如 群組1,群組2,群組3...,群組N\n"
+msgstr "  --groups=群組列表         指定附加群組，形如 群組1,群組2,群組3...,群組N\n"
 
 #: src/chroot.c:200
 msgid "  --userspec=USER:GROUP  specify user and group (ID or name) to use\n"
@@ -1737,7 +1736,7 @@ msgstr "用法：%s [選項]... 檔案1 檔案2\n"
 
 #: src/comm.c:116
 msgid "Compare sorted files FILE1 and FILE2 line by line.\n"
-msgstr "逐行比較已排序的 檔案1 和 檔案2。\n"
+msgstr "逐列比較已排序的 檔案1 和 檔案2。\n"
 
 #: src/comm.c:119 src/join.c:201
 msgid ""
@@ -1755,7 +1754,7 @@ msgid ""
 "and column three contains lines common to both files.\n"
 msgstr ""
 "\n"
-"如果不附加選項，程式會產生三欄輸出。第一欄包含 <檔案1> 特有的行，第二欄包含 <檔案2> 特有的行，而第三欄包含兩個檔案共有的行。\n"
+"如果不附加選項，程式會產生三欄輸出。第一欄包含 <檔案1> 特有的列，第二欄包含 <檔案2> 特有的列，而第三欄包含兩個檔案共有的列。\n"
 
 #: src/comm.c:129
 msgid ""
@@ -1765,9 +1764,9 @@ msgid ""
 "  -3              suppress column 3 (lines that appear in both files)\n"
 msgstr ""
 "\n"
-"  -1              不輸出 檔案1 特有的行\n"
-"  -2              不輸出 檔案2 特有的行\n"
-"  -3              不輸出兩個檔案共有的行\n"
+"  -1              不輸出欄 1（檔案1 特有）\n"
+"  -2              不輸出欄 2（檔案2 特有）\n"
+"  -3              不輸出欄 3（兩個檔案共有）\n"
 
 #: src/comm.c:135
 msgid ""
@@ -1777,12 +1776,12 @@ msgid ""
 "  --nocheck-order   do not check that the input is correctly sorted\n"
 msgstr ""
 "\n"
-"  --check-order     檢查輸入是否被正確排序，即使所有輸入行均成對\n"
+"  --check-order     檢查輸入是否被正確排序，即使所有輸入列均成對\n"
 "  --nocheck-order   不檢查輸入是否被正確排序\n"
 
 #: src/comm.c:141
 msgid "  --output-delimiter=STR  separate columns with STR\n"
-msgstr "  --output-delimiter=STR  依照 STR 分列\n"
+msgstr "  --output-delimiter=STR  依照 STR 分欄\n"
 
 #: src/comm.c:144
 msgid "  --total           output a summary\n"
@@ -1791,7 +1790,7 @@ msgstr "  --total           輸出一份摘要訊息\n"
 #: src/comm.c:147 src/cut.c:178 src/head.c:134 src/numfmt.c:945
 #: src/paste.c:452 src/tail.c:312
 msgid "  -z, --zero-terminated    line delimiter is NUL, not newline\n"
-msgstr "  -z, --zero-terminated    以 NUL 字元而非換行符作為行尾分隔符\n"
+msgstr "  -z, --zero-terminated    以 NUL 字元而非換列符作為列尾分隔符\n"
 
 #: src/comm.c:152
 msgid ""
@@ -1811,8 +1810,8 @@ msgid ""
 msgstr ""
 "\n"
 "範例：\n"
-"  %s -12 檔案1 檔案2  只列印在 檔案1 和 檔案2 中都有的行\n"
-"  %s -3  檔案1 檔案2  列印在 檔案1 中有，而 檔案2 中沒有的行。反之亦然。\n"
+"  %s -12 檔案1 檔案2  只列印在 檔案1 和 檔案2 中都有的列\n"
+"  %s -3  檔案1 檔案2  列印在 檔案1 中有，而 檔案2 中沒有的列。反之亦然。\n"
 
 #: src/comm.c:238
 #, c-format
@@ -1899,17 +1898,17 @@ msgstr "保留 %s 的作者失敗"
 #: src/mkfifo.c:144 src/mknod.c:200
 #, c-format
 msgid "failed to set default file creation context to %s"
-msgstr "無法設定預設檔案建立上下文至 %s"
+msgstr "無法設定預設檔案建立情境至 %s"
 
 #: src/copy.c:973
 #, c-format
 msgid "failed to set default file creation context for %s"
-msgstr "無法設定 %s 的預設檔案建立上下文"
+msgstr "無法設定 %s 的預設檔案建立情境"
 
 #: src/copy.c:999
 #, c-format
 msgid "failed to set the security context of %s"
-msgstr "設定 %s 的安全上下文失敗"
+msgstr "設定 %s 的安全情境失敗"
 
 #: src/copy.c:1072 src/csplit.c:655 src/du.c:1026 src/fmt.c:439 src/head.c:889
 #: src/split.c:1570 src/tail.c:2011 src/wc.c:770
@@ -1987,7 +1986,7 @@ msgstr " (備份：%s)"
 
 #: src/copy.c:1807
 msgid "failed to restore the default file creation context"
-msgstr "復原預設檔案建立上下文失敗"
+msgstr "復原預設檔案建立情境失敗"
 
 #: src/copy.c:1825
 #, c-format
@@ -2206,7 +2205,7 @@ msgstr ""
 "  -a, --archive                等於 -dR --preserve=all\n"
 "      --attributes-only        僅複製屬性而不複製資料\n"
 "      --backup[=CONTROL]       為每個已存在的目標檔案建立備份\n"
-"  -b                           類似 --backup 但不接受參數\n"
+"  -b                           類似 --backup 但不接受引數\n"
 "      --copy-contents          遞迴處理時複製特殊檔案的內容\n"
 "  -d                           等於 --no-dereference --preserve=links\n"
 
@@ -2222,7 +2221,7 @@ msgstr ""
 "  -f, --force                  如果有已存在的目標檔案且無法開啟，則將其刪除並重試\n"
 "                                 （該選項在與 -n 選項同時使用時將被忽略）\n"
 "  -i, --interactive            覆蓋前詢問（使前面的 -n 選項失效）\n"
-"  -H                           跟隨來源檔案中的指令行符號連結\n"
+"  -H                           跟隨來源檔案中的命令列符號連結\n"
 
 #: src/cp.c:178
 msgid ""
@@ -2280,7 +2279,7 @@ msgid ""
 "                                 argument\n"
 msgstr ""
 "      --sparse=WHEN            控制建立稀疏檔案的方式\n"
-"      --strip-trailing-slashes 刪除參數中所有來源檔案/目錄末端的斜槓\n"
+"      --strip-trailing-slashes 刪除引數中所有來源檔案/目錄末端的斜槓\n"
 
 #: src/cp.c:210
 msgid ""
@@ -2291,7 +2290,7 @@ msgid ""
 msgstr ""
 "  -s, --symbolic-link          只建立符號連結而不複製檔案\n"
 "  -S, --suffix=後綴            自行指定備份檔案的後綴\n"
-"  -t,  --target-directory=目錄 將所有參數指定的來源檔案/目錄\n"
+"  -t,  --target-directory=目錄 將所有引數指定的來源檔案/目錄\n"
 "                                 複製至目標目錄\n"
 "  -T, --no-target-directory    將目標目錄視作一般檔案\n"
 
@@ -2315,9 +2314,9 @@ msgid ""
 "      --context[=CTX]          like -Z, or if CTX is specified then set the\n"
 "                                 SELinux or SMACK security context to CTX\n"
 msgstr ""
-"  -Z                           設定目標檔案的 SELinux 安全上下文為預設類型\n"
-"      --context[=上下文]       類似 -Z；如果指定了上下文，則將 SELinux 或\n"
-"                                 SMACK 安全上下文設定為指定值\n"
+"  -Z                           設定目標檔案的 SELinux 安全情境為預設類型\n"
+"      --context[=情境]       類似 -Z；如果指定了情境，則將 SELinux 或\n"
+"                                 SMACK 安全情境設定為指定值\n"
 
 #: src/cp.c:231
 msgid ""
@@ -2330,9 +2329,9 @@ msgid ""
 msgstr ""
 "\n"
 "預設情況下，來源檔案的稀疏性僅僅透過簡單的方法判斷，對應的目標檔案目標檔案\n"
-"也將設為稀疏。這是因為預設情況下使用了 --sparse=auto 參數。如果明確使用\n"
-"--sparse=always 參數，則不論來源檔案是否包含足夠長的 0 序列，都會將目標檔案\n"
-"建立為稀疏檔案。使用 --sparse=never 參數可以禁止建立稀疏檔案。\n"
+"也將設為稀疏。這是因為預設情況下使用了 --sparse=auto。如果明確使用\n"
+"--sparse=always 引數，則不論來源檔案是否包含足夠長的 0 序列，都會將目標檔案\n"
+"建立為稀疏檔案。使用 --sparse=never 引數可以禁止建立稀疏檔案。\n"
 
 #: src/cp.c:239
 msgid ""
@@ -2343,7 +2342,7 @@ msgid ""
 "Use --reflink=never to ensure a standard copy is performed.\n"
 msgstr ""
 "\n"
-"當指定了 --reflink[=always] 參數時，將進行輕量級複製，此時資料塊只在被修改時\n"
+"當指定了 --reflink[=always] 時，將進行輕量級複製，此時資料塊只在被修改時\n"
 "進行複製，如果無法如此操作則複製將會失敗。或者如果指定了 --reflink=auto，程式\n"
 "將會回退到標準複製操作。使用 --reflink=never 可以確保永遠進行標準複製。\n"
 
@@ -2417,7 +2416,7 @@ msgstr "指定了多個目標目錄"
 #: src/cp.c:1124 src/install.c:918
 #, c-format
 msgid "warning: ignoring --context; it requires an SELinux-enabled kernel"
-msgstr "警告：忽略 --context 參數；它需要啟用 SELinux 的核心"
+msgstr "警告：忽略 --context；它需要啟用 SELinux 的核心"
 
 #: src/cp.c:1145
 #, c-format
@@ -2440,11 +2439,11 @@ msgstr "備份方式"
 
 #: src/cp.c:1190 src/install.c:957
 msgid "cannot set target context and preserve it"
-msgstr "無法設定目標上下文並將其儲存"
+msgstr "無法設定目標情境並將其儲存"
 
 #: src/cp.c:1194
 msgid "cannot preserve security context without an SELinux-enabled kernel"
-msgstr "無法在未啟用 SELinux 支援的核心上儲存安全上下文"
+msgstr "無法在未啟用 SELinux 支援的核心上儲存安全情境"
 
 #: src/cp.c:1210
 msgid "cannot preserve extended attributes, cp is built without xattr support"
@@ -2462,12 +2461,12 @@ msgstr "輸入消失"
 #: src/csplit.c:676 src/csplit.c:688
 #, c-format
 msgid "%s: line number out of range"
-msgstr "%s：行數超出範圍"
+msgstr "%s：列數超出範圍"
 
 #: src/csplit.c:718
 #, c-format
 msgid "%s: %s: line number out of range"
-msgstr "%s：%s：行數超出範圍"
+msgstr "%s：%s：列數超出範圍"
 
 #: src/csplit.c:721 src/csplit.c:777
 #, fuzzy, c-format
@@ -2522,17 +2521,17 @@ msgstr "%s：無效的模式"
 #: src/csplit.c:1196
 #, c-format
 msgid "%s: line number must be greater than zero"
-msgstr "%s：行號必須大於 0"
+msgstr "%s：列號必須大於 0"
 
 #: src/csplit.c:1201
 #, c-format
 msgid "line number %s is smaller than preceding line number, %s"
-msgstr "行號 %s 比先前的行號 %s 更小"
+msgstr "列號 %s 比先前的列號 %s 更小"
 
 #: src/csplit.c:1207
 #, c-format
 msgid "warning: line number %s is the same as preceding line number"
-msgstr "警告：行號 %s 比先前的行號更小"
+msgstr "警告：列號 %s 比先前的列號更小"
 
 #: src/csplit.c:1285
 msgid "missing conversion specifier in suffix"
@@ -2601,7 +2600,7 @@ msgstr ""
 
 #: src/csplit.c:1502
 msgid "      --suppress-matched     suppress the lines matching PATTERN\n"
-msgstr "      --suppress-matched     不顯示符合格式字串的行\n"
+msgstr "      --suppress-matched     不顯示符合格式字串的列\n"
 
 #: src/csplit.c:1505
 msgid ""
@@ -2627,13 +2626,13 @@ msgid ""
 msgstr ""
 "\n"
 "每個指定的格式可以為：\n"
-"  整數                 複製至指定行號（不包括該行）\n"
-"  /REGEXP/[偏移量]     複製至符合行（不包括該行）\n"
-"  %REGEXP%[偏移量]     跳過直至符合行（不包括該行）\n"
+"  整數                 複製至指定列號（不包括該列）\n"
+"  /REGEXP/[偏移量]     複製至符合列（不包括該列）\n"
+"  %REGEXP%[偏移量]     跳過直至符合列（不包括該列）\n"
 "  {整數}               將之前指定的模式重複指定的次數\n"
 "  {*}                      將之前指定的模式重複儘可能多的次數\n"
 "\n"
-"一個行的偏移量需要在正整數值之前聲明 '+' 或 '-'。\n"
+"一個列的偏移量需要在正整數值之前聲明 '+' 或 '-'。\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cut.c:45 src/paste.c:52
@@ -2657,7 +2656,7 @@ msgid ""
 msgstr ""
 "  -b, --bytes=列表        只選取指定的這些位元組\n"
 "  -c, --characters=列表   只選取指定的這些字元\n"
-"  -d, --delimiter=分隔符  使用指定分隔符號代替定位符號作為區域分界\n"
+"  -d, --delimiter=分隔符  使用指定分隔符號代替定位符號作為欄位分界\n"
 
 #: src/cut.c:163
 msgid ""
@@ -2667,7 +2666,7 @@ msgid ""
 "  -n                      (ignored)\n"
 msgstr ""
 "  -f, --fields=列表       只選取指定的這些域；並列印所有不包含分隔符號的\n"
-"                            行，除非-s 選項被指定\n"
+"                            列，除非-s 選項被指定\n"
 "  -n                      (忽略)\n"
 
 #: src/cut.c:169
@@ -2682,7 +2681,7 @@ msgid ""
 "      --output-delimiter=STRING  use STRING as the output delimiter\n"
 "                            the default is to use the input delimiter\n"
 msgstr ""
-"  -s, --only-delimited    不列印沒有包含分隔符號的行\n"
+"  -s, --only-delimited    不列印沒有包含分隔符號的列\n"
 "      --output-delimiter=字串    使用指定的字串作為輸出分隔符號，預設採用輸入\n"
 "                             的分隔符號\n"
 
@@ -2706,9 +2705,9 @@ msgid ""
 "  N-M   from N'th to M'th (included) byte, character or field\n"
 "  -M    from first to M'th (included) byte, character or field\n"
 msgstr ""
-"每種參數格式表示範圍如下：\n"
+"每種格式表示範圍如下：\n"
 "    N     從第1個開始數的第N個位元組、字元或域\n"
-"    N-    從第N個開始到所在行結束的所有字元、位元組或域\n"
+"    N-    從第N個開始到所在列結束的所有字元、位元組或域\n"
 "    N-M   從第N個開始到第M個之間(包括第M個)的所有字元、位元組或域\n"
 "    -M    從第1個開始到第M個之間(包括第M個)的所有字元、位元組或域\n"
 
@@ -2733,7 +2732,7 @@ msgid ""
 "suppressing non-delimited lines makes sense\n"
 "\tonly when operating on fields"
 msgstr ""
-"清除沒有分隔符號的行僅在\n"
+"清除沒有分隔符號的列僅在\n"
 "\t操作欄位時才有意義"
 
 #: src/date.c:130
@@ -2764,7 +2763,7 @@ msgstr ""
 
 #: src/date.c:148
 msgid "  -f, --file=DATEFILE        like --date; once for each line of DATEFILE\n"
-msgstr "  -f, --file=日期檔案        類似 --date；使用指定<日期檔案>，一次處理一行\n"
+msgstr "  -f, --file=日期檔案        類似 --date；使用指定<日期檔案>，一次處理一列\n"
 
 #: src/date.c:151
 msgid ""
@@ -2895,7 +2894,7 @@ msgid ""
 "  %R   24-hour hour and minute; same as %H:%M\n"
 "  %s   seconds since 1970-01-01 00:00:00 UTC\n"
 msgstr ""
-"  %n   換行\n"
+"  %n   換列\n"
 "  %N   奈秒（000000000..999999999）\n"
 "  %p   目前地區時間設定中 AM 或 PM 的等效值（「上午」或「下午」），未知則為空\n"
 "  %P   類似 %p，但使用小寫\n"
@@ -2987,7 +2986,7 @@ msgid ""
 "O to use the locale's alternate numeric symbols if available.\n"
 msgstr ""
 "\n"
-"在任何標記之後還允許一個可選的區域寬度指定，它是一個十進位數字。\n"
+"在任何標記之後還允許一個可選的欄位寬度指定，它是一個十進位數字。\n"
 "作為一個可選的修飾聲明，它可以是 E，在可能的情況下使用本機環境關聯的\n"
 "表示方式；或者是 O，在可能的情況下使用本機環境關聯的數字元號。\n"
 
@@ -3048,8 +3047,8 @@ msgid ""
 "when using an option to specify date(s), any non-option\n"
 "argument must be a format string beginning with '+'"
 msgstr ""
-"參數 %s 缺少前置的 \"+\"；\n"
-"當使用選項來描述日期時，任何非選項參數都必須以 \"+\" 所引導\n"
+"引數 %s 缺少前置的 \"+\"；\n"
+"當使用選項來描述日期時，任何非選項引數都必須以 \"+\" 所引導\n"
 "的字串出現"
 
 #: src/date.c:566
@@ -3160,8 +3159,8 @@ msgstr ""
 "  ascii     由 EBCDIC 碼轉換至 ASCII 碼\n"
 "  ebcdic    由 ASCII 碼轉換至 EBCDIC 碼\n"
 "  ibm       由 ASCII 碼轉換至代用的 EBCDIC 碼\n"
-"  block     在換行符結尾的紀錄末尾填充空格至 cbs 對應的長度\n"
-"  unblock   將 cbs 大小的塊中尾部的空格取代為一個換行符\n"
+"  block     在換列符結尾的紀錄末尾填充空格至 cbs 對應的長度\n"
+"  unblock   將 cbs 大小的塊中尾部的空格取代為一個換列符\n"
 "  lcase     將大寫字元轉換為小寫\n"
 "  ucase     將小寫字元轉換為大寫\n"
 "  sparse    嘗試定址（seek）而非寫入所有 NUL 輸出區塊\n"
@@ -3603,10 +3602,10 @@ msgid ""
 "  -P, --portability     use the POSIX output format\n"
 "      --sync            invoke sync before getting usage info\n"
 msgstr ""
-"      --output[=區域列表]      使用指定區域列表定義的輸出格式，\n"
-"                               或者在預設情況下輸出所有區域。\n"
+"      --output[=欄位列表]      使用指定區域列表定義的輸出格式，\n"
+"                               或者在預設情況下輸出所有欄位。\n"
 "  -P, --portability     使用 POSIX 相容的輸出格式\n"
-"      --sync            取得使用量資料前先呼叫同步（sync）動作\n"
+"      --sync            取得使用量資料前先呼叫同步 (sync) 動作\n"
 
 #: src/df.c:1542
 msgid ""
@@ -3634,7 +3633,7 @@ msgid ""
 "'size', 'used', 'avail', 'pcent', 'file' and 'target' (see info page).\n"
 msgstr ""
 "\n"
-"「區域列表」是由逗號分隔的列表，指示需要包含在內的列。有效的區域名稱包括：\n"
+"「欄位列表」是由逗號分隔的列表，指示需要包含在內的欄。有效的區域名稱包括：\n"
 "'source', 'fstype', 'itotal', 'iused', 'iavail', 'ipcent', 'size',\n"
 "'used', 'avail', 'pcent', 'file' 和 'target'（請參考 info 訊息頁）。\n"
 
@@ -3696,7 +3695,7 @@ msgstr ""
 #: src/dircolors.c:288
 #, c-format
 msgid "%s:%lu: invalid line;  missing second token"
-msgstr "%s：%lu：此行無效；缺少了第二欄資料"
+msgstr "%s：%lu：此列無效；缺少了第二欄資料"
 
 #: src/dircolors.c:360
 #, c-format
@@ -3741,7 +3740,7 @@ msgstr ""
 
 #: src/dirname.c:59
 msgid "  -z, --zero     end each output line with NUL, not newline\n"
-msgstr "  -z, --zero     以 NUL 空字元而非換行符結束每一輸出行\n"
+msgstr "  -z, --zero     以 NUL 空字元而非換列符結束每一輸出列\n"
 
 #: src/dirname.c:64
 #, c-format
@@ -3780,7 +3779,7 @@ msgid ""
 "                          larger due to holes in ('sparse') files, internal\n"
 "                          fragmentation, indirect blocks, and the like\n"
 msgstr ""
-"  -0, --null            每行輸出使用 NUL 空字元結尾而非使用換行符\n"
+"  -0, --null            每列輸出使用 NUL 空字元結尾而非使用換列符\n"
 "  -a, --all             輸出所有檔案的磁碟用量，不僅僅是目錄\n"
 "      --apparent-size   顯示表面用量，而並非是磁碟用量；雖然表面用量通常會\n"
 "                          小一些，但有時它會因為稀疏檔案間的「洞」、內部碎\n"
@@ -3805,9 +3804,9 @@ msgstr ""
 "                           詳情請參見下方的「SIZE 格式」部分\n"
 "  -b, --bytes           等效於 '--apparent-size --block-size=1'\n"
 "  -c, --total           顯示總計訊息\n"
-"  -D, --dereference-args  只在符號連結顯式在指令行列出時對其進行解引用\n"
+"  -D, --dereference-args  只在符號連結顯式在命令列列出時對其進行解引用\n"
 "  -d, --max-depth=N     僅當目錄（或在 --all 選項啟用時包括檔案）層級不高於\n"
-"                          指令行參數指定的 N 層時輸出對應目錄或檔案的對應大小；\n"
+"                          命令列引數指定的 N 層時輸出對應目錄或檔案的對應大小；\n"
 "                          --max-depth=0 等效於 --summarize\n"
 
 #: src/du.c:317
@@ -3848,7 +3847,7 @@ msgstr ""
 "  -P, --no-dereference  不跟隨任何符號連結（預設行為）\n"
 "  -S, --separate-dirs   不包括子目錄的占用量\n"
 "      --si              類似 -h，但使用 1000 的倍數，而非 1024\n"
-"  -s, --summarize       只分別計算命令列中每個參數所占的總用量\n"
+"  -s, --summarize       只分別計算命令列中每個引數所占的總用量\n"
 
 #: src/du.c:338
 msgid ""
@@ -3893,7 +3892,7 @@ msgstr "目錄最大層次 %s 無效"
 
 #: src/du.c:849
 msgid "invalid --threshold argument '-0'"
-msgstr "無效的 --threshold 參數 '-0'"
+msgstr "無效的 --threshold 引數 '-0'"
 
 #: src/du.c:932
 #, c-format
@@ -3917,7 +3916,7 @@ msgstr "警告：選項 --apparent-size 和 -b 對 --inodes 無效"
 
 #: src/du.c:1021 src/sort.c:4598 src/wc.c:760
 msgid "file operands cannot be combined with --files0-from"
-msgstr "檔案運算元不能與 --files0-from 參數一起使用"
+msgstr "檔案運算元不能與 --files0-from 引數一起使用"
 
 #: src/du.c:1088 src/sort.c:4619 src/wc.c:838
 #, c-format
@@ -3955,7 +3954,7 @@ msgid ""
 msgstr ""
 "將 STRING 輸出到標準輸出。\n"
 "\n"
-"  -n             不在末尾輸出換行符\n"
+"  -n             不在末尾輸出換列符\n"
 
 #: src/echo.c:52
 msgid ""
@@ -4002,7 +4001,7 @@ msgstr ""
 "  \\c    不再產生新的輸出\n"
 "  \\e    跳脫字元\n"
 "  \\f    換頁\n"
-"  \\n    換行\n"
+"  \\n    換列\n"
 "  \\r    Enter\n"
 "  \\t    水平 Tab\n"
 "  \\v    垂直 Tab\n"
@@ -4023,7 +4022,7 @@ msgstr "Richard Mlynarik"
 #: src/env.c:112
 #, c-format
 msgid "Usage: %s [OPTION]... [-] [NAME=VALUE]... [COMMAND [ARG]...]\n"
-msgstr "用法：%s [選項]... [-] [名稱=值]... [指令 [參數]...]\n"
+msgstr "用法：%s [選項]... [-] [名稱=值]... [指令 [引數]...]\n"
 
 #: src/env.c:115
 msgid "Set each NAME to VALUE in the environment and run COMMAND.\n"
@@ -4036,7 +4035,7 @@ msgid ""
 "  -u, --unset=NAME     remove variable from the environment\n"
 msgstr ""
 "  -i, --ignore-environment  以空環境啟動\n"
-"  -0, --null           以 NUL 空字元而非換行符結束每一輸出行\n"
+"  -0, --null           以 NUL 空字元而非換列符結束每一輸出列\n"
 "  -u,  --unset=名稱     從目前環境中移除一個變數\n"
 
 #: src/env.c:126
@@ -4048,8 +4047,8 @@ msgid ""
 "  -S, --split-string=S  process and split S into separate arguments;\n"
 "                        used to pass multiple arguments on shebang lines\n"
 msgstr ""
-"  -S, --split-string=S  處理並將 S 字串分割為多個參數；\n"
-"                        用於向 shebang 行傳遞多個參數\n"
+"  -S, --split-string=S  處理並將 S 字串分割為多個引數；\n"
+"                        用於向 shebang 列傳遞多個引數\n"
 
 #: src/env.c:133
 msgid "      --block-signal[=SIG]    block delivery of SIG signal(s) to COMMAND\n"
@@ -4087,7 +4086,7 @@ msgid ""
 "comma-separated.\n"
 msgstr ""
 "\n"
-"參數中的訊號可以是類似 'PIPE' 這樣的訊號名稱，也可以是如 '1'\n"
+"SIG 訊號可以是類似 'PIPE' 這樣的訊號名稱，也可以是如 '1'\n"
 "這樣的訊號編碼。所有已知訊號均包括其中。如需指定多個訊號，可以使用\n"
 "半形逗號隔開。\n"
 
@@ -4149,7 +4148,7 @@ msgstr "無效的選項 -- \"%c\""
 #: src/env.c:858 src/env.c:949
 #, c-format
 msgid "use -[v]S to pass options in shebang lines"
-msgstr "使用 -[v]S 以在 shebang 行中傳遞選項"
+msgstr "使用 -[v]S 以在 shebang 列中傳遞選項"
 
 #: src/env.c:891
 #, c-format
@@ -4248,7 +4247,7 @@ msgstr ""
 
 #: src/expand.c:146 src/expand.c:165 src/unexpand.c:181 src/unexpand.c:226
 msgid "input line is too long"
-msgstr "輸入行太長"
+msgstr "輸入列太長"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/expr.c:151 src/ln.c:51 src/mv.c:42 src/tee.c:36
@@ -4280,7 +4279,7 @@ msgid ""
 "  ARG1 & ARG2       ARG1 if neither argument is null or 0, otherwise 0\n"
 msgstr ""
 "\n"
-"將表達式的值列印到標準輸出，分隔符下面的空行可提升算式優先度。\n"
+"將表達式的值列印到標準輸出，分隔符下面的空列可提升算式優先度。\n"
 "可用的表達式有：\n"
 "\n"
 "  ARG1 | ARG2       若ARG1 的值不為0 或者為空，則返回ARG1，否則返回ARG2\n"
@@ -4385,12 +4384,12 @@ msgstr ""
 #: src/expr.c:462
 #, c-format
 msgid "syntax error: unexpected argument %s"
-msgstr "語法錯誤：未預期的參數 %s"
+msgstr "語法錯誤：未預期的引數 %s"
 
 #: src/expr.c:665
 #, c-format
 msgid "syntax error: missing argument after %s"
-msgstr "語法錯誤：%s 後缺少參數"
+msgstr "語法錯誤：%s 後缺少引數"
 
 #: src/expr.c:748 src/ptx.c:289
 msgid "error in regular expression matcher"
@@ -4412,7 +4411,7 @@ msgstr "語法錯誤：未預期的「)」"
 
 #: src/expr.c:931 src/expr.c:968
 msgid "non-integer argument"
-msgstr "非整數參數"
+msgstr "非整數引數"
 
 #: src/expr.c:933 src/truncate.c:278
 msgid "division by zero"
@@ -4466,7 +4465,7 @@ msgid ""
 "Print the prime factors of each specified integer NUMBER.  If none\n"
 "are specified on the command line, read them from standard input.\n"
 "\n"
-msgstr "輸出每個指定的數字的素因子，如果沒有在指令行中指定則從標準輸入讀取。\n"
+msgstr "輸出每個指定的數字的素因子，如果沒有在命令列中指定則從標準輸入讀取。\n"
 
 #: src/find-mount-point.c:40
 #, c-format
@@ -4509,10 +4508,10 @@ msgid ""
 "                              reattaching the prefix to reformatted lines\n"
 "  -s, --split-only          split long lines, but do not refill\n"
 msgstr ""
-"  -c, --crown-margin        保持前兩行的縮排\n"
-"  -p, --prefix=字串       只對以指定字串開頭的行重新格式化，\n"
-"                              將前綴重新附著到被重新格式化的行上\n"
-"  -s, --split-only          分割過長的行，但不自動補足\n"
+"  -c, --crown-margin        保持前兩列的縮排\n"
+"  -p, --prefix=字串       只對以指定字串開頭的列重新格式化，\n"
+"                              將前綴重新附著到被重新格式化的列上\n"
+"  -s, --split-only          分割過長的列，但不自動補足\n"
 
 #: src/fmt.c:287
 #, no-c-format
@@ -4522,9 +4521,9 @@ msgid ""
 "  -w, --width=WIDTH         maximum line width (default of 75 columns)\n"
 "  -g, --goal=WIDTH          goal width (default of 93% of width)\n"
 msgstr ""
-"  -t, --tagged-paragraph    對第一行進行縮排以和第二行區分\n"
+"  -t, --tagged-paragraph    對第一列進行縮排以和第二列區分\n"
 "  -u, --uniform-spacing     單詞間保留一個空格，每句之後保留兩個空格\n"
-"  -w, --width=寬度          最大行寬（預設為 75 列）\n"
+"  -w, --width=寬度          最大行寬（預設為 75 欄）\n"
 "  -g, --goal=目標寬度       目標寬度（預設為上述最大行寬的 93%）\n"
 "\n"
 
@@ -4541,7 +4540,7 @@ msgstr "無效的寬度"
 
 #: src/fold.c:70
 msgid "Wrap input lines in each FILE, writing to standard output.\n"
-msgstr "對每個指定的檔案設定自動換行（折行），並將重新排版後的結果輸出到標準輸出。\n"
+msgstr "對每個指定的檔案設定自動折列，並將重新排版後的結果輸出到標準輸出。\n"
 
 #: src/fold.c:77
 msgid ""
@@ -4549,13 +4548,13 @@ msgid ""
 "  -s, --spaces        break at spaces\n"
 "  -w, --width=WIDTH   use WIDTH columns instead of 80\n"
 msgstr ""
-"  -b, --bytes\t\t計算位元組數而不是列數\n"
-"  -s,  --spaces\t\t在空格處斷行\n"
+"  -b, --bytes\t\t計算位元組數而不是欄數\n"
+"  -s,  --spaces\t\t在空格處斷列\n"
 "  -w, --width=寬度\t使用指定的列寬度代替預設的80\n"
 
 #: src/fold.c:284 src/pr.c:841
 msgid "invalid number of columns"
-msgstr "無效的列數"
+msgstr "無效的欄數"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/getlimits.c:30 src/md5sum.c:107 src/realpath.c:33 src/stdbuf.c:38
@@ -4573,7 +4572,7 @@ msgid ""
 "Output platform dependent limits in a format useful for shell scripts.\n"
 "\n"
 msgstr ""
-"為Shell 腳本格式輸出基於操作平台的限制參數。\n"
+"為 Shell 指令稿格式輸出基於操作平台的限制引數。\n"
 "\n"
 
 #: src/group-list.c:68 src/id.c:401
@@ -4584,12 +4583,12 @@ msgstr "取得使用者 %s 的群組失敗"
 #: src/group-list.c:73 src/id.c:404
 #, c-format
 msgid "failed to get groups for the current process"
-msgstr "取得目前處理程序使用者群組失敗"
+msgstr "取得目前處理程序群組失敗"
 
 #: src/group-list.c:113
 #, c-format
 msgid "cannot find name for group ID %lu"
-msgstr "無法找到 ID 為 %lu 的使用者的群組"
+msgstr "無法找群組 ID %lu 的名稱"
 
 #: src/groups.c:54
 #, c-format
@@ -4610,7 +4609,7 @@ msgstr "無法取得真實 UID"
 
 #: src/groups.c:111 src/id.c:297
 msgid "cannot get effective GID"
-msgstr "無法取得有效 GID"
+msgstr "無法取得有效用的 GID"
 
 #: src/groups.c:116 src/id.c:302
 msgid "cannot get real GID"
@@ -4627,7 +4626,7 @@ msgid ""
 "Print the first %d lines of each FILE to standard output.\n"
 "With more than one FILE, precede each with a header giving the file name.\n"
 msgstr ""
-"將每個指定檔案的前 %d 行輸出到標準輸出。\n"
+"將每個指定檔案的前 %d 列輸出到標準輸出。\n"
 "如果指定了多於一個檔案，在每塊輸出之前附加檔案名稱作為頭部。\n"
 
 #: src/head.c:122
@@ -4643,9 +4642,9 @@ msgstr ""
 "  -c, --bytes=[-]K         顯示每個檔案的前 K 位元組內容；\n"
 "                             如果數字前附加「-」字元，則除了每個檔案的\n"
 "                             最後 K 位元組資料外顯示其餘全部內容\n"
-"  -n, --lines=[-]K         顯示每個檔案的前 K 行內容而非前 %d 行內容；\n"
+"  -n, --lines=[-]K         顯示每個檔案的前 K 列內容而非前 %d 列內容；\n"
 "                             如果數字前附加「-」字元，則除了每個檔案的\n"
-"                             最後 K 行資料外顯示其餘全部內容\n"
+"                             最後 K 列資料外顯示其餘全部內容\n"
 
 #: src/head.c:130
 msgid ""
@@ -4691,7 +4690,7 @@ msgstr "%s：位元組數過大"
 
 #: src/head.c:913 src/split.c:1368 src/split.c:1535 src/tail.c:2205
 msgid "invalid number of lines"
-msgstr "無效的行數"
+msgstr "無效的列數"
 
 #: src/head.c:914 src/head.c:1078 src/split.c:1360 src/split.c:1376
 #: src/tail.c:2206
@@ -4756,7 +4755,7 @@ msgid ""
 "or (when USER omitted) for the current user.\n"
 "\n"
 msgstr ""
-"輸出指定<使用者>的使用者和使用者群組訊息，\n"
+"輸出指定<使用者>的使用者和群組訊息，\n"
 "或（當沒有指定使用者訊息時）預設使用目前使用者訊息 。\n"
 "\n"
 
@@ -4773,12 +4772,12 @@ msgid ""
 "                   not permitted in default format\n"
 msgstr ""
 "  -a             忽略，僅為與其他版本相相容而設計\n"
-"  -Z, --context  僅顯示目前使用者的安全上下文\n"
-"  -g, --group    僅顯示有效使用者群組ID\n"
+"  -Z, --context  僅顯示程序的安全情境\n"
+"  -g, --group    僅顯示有效用的群組ID\n"
 "  -G, --groups   顯示所有ID群組\n"
-"  -n, --name     顯示組名稱而非數字，與 -ugG 一起使用\n"
+"  -n, --name     顯示群組名稱而非數字，與 -ugG 一起使用\n"
 "  -r, --real     顯示真實ID 而非有效ID，與 -ugG 一起使用\n"
-"  -u, --user     僅顯示有效使用者ID\n"
+"  -u, --user     僅顯示有效用的使用者ID\n"
 "   -z, --zero     使用 NUL 字元而非空格來分隔各個條目，在預設格式下不可使用\n"
 "\n"
 
@@ -4800,7 +4799,7 @@ msgstr "--context (-Z) 選項只能在開啟 SELinux 支援的核心上使用"
 
 #: src/id.c:192
 msgid "cannot print security context when user specified"
-msgstr "不能顯示特定使用者的安全上下文"
+msgstr "不能顯示特定使用者的安全情境"
 
 #: src/id.c:195
 msgid "cannot print \"only\" of more than one choice"
@@ -4816,50 +4815,50 @@ msgstr "預設格式不允許使用選項 --zero"
 
 #: src/id.c:224
 msgid "can't get process context"
-msgstr "不能得到處理程序上下文"
+msgstr "不能得到處理程序情境"
 
 #: src/id.c:280
 msgid "cannot get effective UID"
-msgstr "無法取得有效 UID"
+msgstr "無法取得有效用的 UID"
 
 #: src/id.c:344
 #, c-format
 msgid "cannot find name for user ID %s"
-msgstr "無法找到 ID 為 %s 的使用者的名稱"
+msgstr "無法找到使用者 ID %s 的名稱"
 
 #: src/id.c:362
 #, c-format
 msgid "uid=%s"
-msgstr "使用者id=%s"
+msgstr "uid=%s"
 
 #: src/id.c:367
 #, c-format
 msgid " gid=%s"
-msgstr " id群組=%s"
+msgstr " gid=%s"
 
 #: src/id.c:374
 #, c-format
 msgid " euid=%s"
-msgstr " 有效使用者id=%s"
+msgstr " euid=%s"
 
 #: src/id.c:382
 #, c-format
 msgid " egid=%s"
-msgstr " 有效id群組=%s"
+msgstr " egid=%s"
 
 #: src/id.c:410
 msgid " groups="
-msgstr " 組="
+msgstr " groups="
 
 #: src/id.c:426
 #, c-format
 msgid " context=%s"
-msgstr " 上下文=%s"
+msgstr " context=%s"
 
 #: src/install.c:378
 #, c-format
 msgid "warning: %s: failed to change context to %s"
-msgstr "警告：%s：切換上下文至 %s 失敗"
+msgstr "警告：%s：切換情境至 %s 失敗"
 
 #: src/install.c:420
 #, c-format
@@ -4869,12 +4868,12 @@ msgstr "正在建立目錄 %s"
 #: src/install.c:432 src/mkdir.c:128 src/mkdir.c:161
 #, c-format
 msgid "failed to set default creation context for %s"
-msgstr "設定 %s 的預設建立上下文失敗"
+msgstr "設定 %s 的預設建立情境失敗"
 
 #: src/install.c:462 src/mkdir.c:181
 #, c-format
 msgid "failed to restore context for %s"
-msgstr "復原 %s 的上下文失敗"
+msgstr "復原 %s 的情境失敗"
 
 #: src/install.c:510
 #, c-format
@@ -4956,10 +4955,10 @@ msgid ""
 "                        components of the specified directories\n"
 msgstr ""
 "      --backup[=CONTROL]  為每個已存在的檔案建立備份\n"
-"  -b                  類似--backup 但不接受參數\n"
+"  -b                  類似--backup 但不接受引數\n"
 "  -c                  （被忽略）\n"
 "  -C, --compare       比較每組來源檔案和目標檔案，在一些情況下不修改目標檔案\n"
-"  -d, --directory     將所有參數視為目錄名稱；為指定的目錄建立所有元件\n"
+"  -d, --directory     將所有引數視為目錄名稱；為指定的目錄建立所有元件\n"
 
 #: src/install.c:657
 msgid ""
@@ -4992,7 +4991,7 @@ msgstr ""
 "  -s, --strip\t\t\t拆解符號表\n"
 "      --strip-program=程式\t指定拆解二進位檔案的程式\n"
 "  -S, --suffix=後綴\t\t覆蓋常用備份副檔名\n"
-"  -t, --target-directory=目錄\t將來源檔案所有參數複製到指定目錄\n"
+"  -t, --target-directory=目錄\t將來源檔案所有引數複製到指定目錄\n"
 "  -T, --no-target-directory\t將目標檔案視為一般檔案\n"
 "  -v, --verbose\t\t\t建立目錄時顯示其名稱\n"
 
@@ -5004,11 +5003,11 @@ msgid ""
 "      --context[=CTX]     like -Z, or if CTX is specified then set the\n"
 "                            SELinux or SMACK security context to CTX\n"
 msgstr ""
-"      --preserve-context  保持 SELinux 安全上下文\n"
-"  -Z                      設定每個建立的目錄和目標檔案的 SELinux 安全上下文\n"
+"      --preserve-context  保持 SELinux 安全情境\n"
+"  -Z                      設定每個建立的目錄和目標檔案的 SELinux 安全情境\n"
 "                            為預設格式\n"
-"      --context[=上下文]  類似 -Z，或者如果指定了上下文，則將 SELinux 或\n"
-"                            SMACK 安全上下文設定為指定的值\n"
+"      --context[=情境]  類似 -Z，或者如果指定了情境，則將 SELinux 或\n"
+"                            SMACK 安全情境設定為指定的值\n"
 
 #: src/install.c:711 src/unlink.c:85
 #, c-format
@@ -5018,7 +5017,7 @@ msgstr "無法清除 %s 的連結（unlink 失敗）"
 #: src/install.c:892
 #, c-format
 msgid "WARNING: ignoring --preserve-context; this kernel is not SELinux-enabled"
-msgstr "警告：忽略 --preserve-context 參數；目前執行的核心沒有啟用 SELinux 支援"
+msgstr "警告：忽略 --preserve-context 引數；目前執行的核心沒有啟用 SELinux 支援"
 
 #: src/install.c:932
 msgid "the strip option may not be used when installing a directory"
@@ -5063,8 +5062,8 @@ msgid ""
 "For each pair of input lines with identical join fields, write a line to\n"
 "standard output.  The default join field is the first, delimited by blanks.\n"
 msgstr ""
-"對具有相同的合併域的每一對輸入行，在標準輸出寫出一行訊息。預設的合併\n"
-"域是第一列的內容，使用空白字元分隔。\n"
+"對具有相同的合併域的每一對輸入列，在標準輸出寫出一列訊息。預設的合併\n"
+"域是第一欄的內容，使用空白字元分隔。\n"
 
 #: src/join.c:205
 msgid ""
@@ -5075,8 +5074,8 @@ msgid ""
 msgstr ""
 "\n"
 "  -a 檔案編號       檔案編號的值可以是1或2，分別對應<檔案1>和<檔案2>。\n"
-"                      此選項用於根據指定檔案編號輸出不成對的行目。\n"
-"  -e 填充字元       將缺少的輸入區塊取代為指定字元\n"
+"                      此選項用於根據指定檔案編號輸出不成對的列目。\n"
+"  -e 填充字元       將缺少的輸入欄位取代為指定字元\n"
 
 #: src/join.c:211
 msgid ""
@@ -5087,7 +5086,7 @@ msgid ""
 msgstr ""
 "  -i, --ignore-case  比較各個域時忽略大小寫\n"
 "  -j 域              等效於 \"-1 域 -2 域\"\n"
-"  -o 格式            按照指定格式構造輸出行\n"
+"  -o 格式            按照指定格式構造輸出列\n"
 "  -t 字元            使用指定字元作為輸入和輸出域的分隔符\n"
 
 #: src/join.c:217
@@ -5101,16 +5100,16 @@ msgid ""
 "  --header          treat the first line in each file as field headers,\n"
 "                      print them without trying to pair them\n"
 msgstr ""
-"  -v 檔案編號        \t類似 -a 檔案編號，但禁止組合輸出行\n"
+"  -v 檔案編號        \t類似 -a 檔案編號，但禁止組合輸出列\n"
 "  -1 域          \t在檔案1 的此域組合\n"
 "  -2 域          \t在檔案2 的此域組合\n"
-"  --check-order     \t檢查輸入行是否正確排序，即使所有輸入行均是成對的\n"
+"  --check-order     \t檢查輸入列是否正確排序，即使所有輸入列均是成對的\n"
 "  --nocheck-order   \t不檢查輸入是否正確排序\n"
-"  --header          \t將首行視作域的頭部，直接輸出而不對其進行符合\n"
+"  --header          \t將首列視作域的頭部，直接輸出而不對其進列符合\n"
 
 #: src/join.c:227 src/shuf.c:83 src/sort.c:500 src/uniq.c:201
 msgid "  -z, --zero-terminated     line delimiter is NUL, not newline\n"
-msgstr "  -z, --zero-terminated     以 NUL 空字元而非換行符作為行尾分隔符\n"
+msgstr "  -z, --zero-terminated     以 NUL 空字元而非換列符作為列尾分隔符\n"
 
 #: src/join.c:232
 msgid ""
@@ -5150,26 +5149,26 @@ msgstr "%s:%<PRIuMAX>：未排序：%.*s"
 #: src/join.c:848 src/join.c:1046
 #, c-format
 msgid "invalid field number: %s"
-msgstr "無效的區塊編號%s"
+msgstr "無效的欄位編號%s"
 
 #: src/join.c:869 src/join.c:878
 #, c-format
 msgid "invalid field specifier: %s"
-msgstr "無效的區塊定義符：%s"
+msgstr "無效的欄位定義符：%s"
 
 #: src/join.c:885
 #, c-format
 msgid "invalid file number in field spec: %s"
-msgstr "在區塊定義中出現無效的檔案編號：%s"
+msgstr "在欄位規格中出現無效的檔案編號：%s"
 
 #: src/join.c:929
 #, c-format
 msgid "incompatible join fields %lu, %lu"
-msgstr "不相容的連結區塊 %lu, %lu"
+msgstr "不相容的連結欄位 %lu, %lu"
 
 #: src/join.c:1057
 msgid "conflicting empty-field replacement strings"
-msgstr "有衝突的空區塊取代字串"
+msgstr "有衝突的空欄位取代字串"
 
 #: src/join.c:1109 src/sort.c:4535
 #, c-format
@@ -5191,7 +5190,7 @@ msgid ""
 "  or:  %s -l [SIGNAL]...\n"
 "  or:  %s -t [SIGNAL]...\n"
 msgstr ""
-"用法：%s [-s 訊號 | -訊號] 處理程序號...\n"
+"用法：%s [-s 訊號 | -訊號] PID...\n"
 "　或：%s -l [訊號]...\n"
 "　或：%s -t [訊號]...\n"
 
@@ -5219,9 +5218,9 @@ msgid ""
 "PID is an integer; if negative it identifies a process group.\n"
 msgstr ""
 "\n"
-"參數中的訊號可以是類似\"HUP\"的訊號名稱，也可以是如\"1\"這樣的訊號編碼，\n"
+"引數中的訊號可以是類似\"HUP\"的訊號名稱，也可以是如\"1\"這樣的訊號編碼，\n"
 "或者處理程序被訊號終止後的退出狀態號。\n"
-"處理程序號（PID）是一個整數，如果為負數則表示一個處理程序組。\n"
+"PID（程序ID）是一個整數，如果為負數則表示一個處理程序組。\n"
 
 #: src/kill.c:206
 #, c-format
@@ -5377,7 +5376,7 @@ msgid ""
 "  -f, --force                 remove existing destination files\n"
 msgstr ""
 "      --backup[=CONTROL]      為每個已存在的目標檔案建立備份檔案\n"
-"  -b                          類似--backup，但不接受任何參數\n"
+"  -b                          類似--backup，但不接受任何引數\n"
 "  -d, -F, --directory         允許超級使用者嘗試建立指向目錄的實際連結 (hardlink) \n"
 "                              （注意：此操作可能因系統限制而失敗)\n"
 "  -f, --force                 強行刪除任何已存在的目標檔案\n"
@@ -5489,7 +5488,7 @@ msgstr "忽略無效的環境變數 TABSIZE 所示的定位符號尺寸值：%s"
 
 #: src/ls.c:2074
 msgid "invalid line width"
-msgstr "無效的行寬"
+msgstr "無效的列寬"
 
 #: src/ls.c:2142
 msgid "invalid tab size"
@@ -5502,7 +5501,7 @@ msgstr "無效的日期時間格式%s"
 
 #: src/ls.c:2400
 msgid "Valid arguments are:\n"
-msgstr "有效的參數為：\n"
+msgstr "有效的引數為：\n"
 
 #: src/ls.c:2404
 msgid "  - +FORMAT (e.g., +%H:%M) for a 'date'-style format\n"
@@ -5672,9 +5671,9 @@ msgid ""
 "                               (overridden by -a or -A)\n"
 msgstr ""
 "  -H, --dereference-command-line\n"
-"                             跟隨指令行列出的符號連結\n"
+"                             跟隨命令列列出的符號連結\n"
 "      --dereference-command-line-symlink-to-dir\n"
-"                             跟隨指令行列出的指向目錄的符號連結\n"
+"                             跟隨命令列列出的指向目錄的符號連結\n"
 "      --hide=PATTERN         隱藏符合 shell PATTERN 模式的項目\n"
 "                               （-a 或 -A 將覆蓋此選項）\n"
 
@@ -5720,7 +5719,7 @@ msgstr ""
 "  -l\t\t\t\t使用較長格式列出訊息\n"
 "  -L, --dereference\t\t當顯示符號連結的檔案資訊時，顯示符號連結所指示\n"
 "\t\t\t\t的物件而並非符號連結本身的訊息\n"
-"  -m\t\t\t\t所有項目以逗號分隔，並填滿整行行寬\n"
+"  -m\t\t\t\t所有項目以逗號分隔，並填滿整列列寬\n"
 
 #: src/ls.c:5435
 msgid ""
@@ -5730,7 +5729,7 @@ msgid ""
 "  -p, --indicator-style=slash\n"
 "                             append / indicator to directories\n"
 msgstr ""
-"  -n, --numeric-uid-gid      類似 -l，但列出使用者和組的 ID 號\n"
+"  -n, --numeric-uid-gid      類似 -l，但列出使用者數字和群組 ID\n"
 "  -N, --literal              輸出未經引號括起的項目名稱\n"
 "  -o                         類似 -l，但不列出有關組的訊息\n"
 "  -p, --indicator-style=slash\n"
@@ -5827,10 +5826,10 @@ msgid ""
 "  -1                         list one file per line.  Avoid '\\n' with -q or -b\n"
 msgstr ""
 "  -w, --width=COLS           設定輸出寬度為 COLS 對應的值。0 代表無限制\n"
-"  -x                         逐行列出項目而不是逐欄列出\n"
+"  -x                         逐列列出項目而不是逐欄列出\n"
 "  -X                         根據副檔名按字母順序排序\n"
-"  -Z, --context              輸出每個檔案的所有安全上下文訊息\n"
-"  -1                         每行只列出一個檔案。與 -q 或 -b 共用時避免 '\\n'\n"
+"  -Z, --context              輸出每個檔案的所有安全情境訊息\n"
+"  -1                         每列只列出一個檔案。與 -q 或 -b 共用時避免 '\\n'\n"
 
 #: src/ls.c:5495
 msgid ""
@@ -5842,7 +5841,7 @@ msgid ""
 "Also the TIME_STYLE environment variable sets the default style to use.\n"
 msgstr ""
 "\n"
-"TIME_STYLE 參數可以是 full-iso、long-iso、iso、locale 或 +格式。\n"
+"TIME_STYLE 引數可以是 full-iso、long-iso、iso、locale 或 +格式。\n"
 "這裡的格式字串按照類似 date(1) 的方式進行解讀。如果格式字串是\n"
 "格式1<換行符>格式2 的形式的話，格式1對應的字串將套用到不是最近使用的檔案\n"
 "而格式2對應的字串將套用到最近使用的檔案。TIME_STYLE 如果帶有「posix-」\n"
@@ -5875,7 +5874,7 @@ msgstr ""
 "退出狀態：\n"
 " 0  正常\n"
 " 1  一般問題 (例如：無法存取子檔案夾)\n"
-" 2  嚴重問題 (例如：無法使用指令行參數)\n"
+" 2  嚴重問題 (例如：無法使用命令列引數)\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/md5sum.c:108
@@ -5952,7 +5951,7 @@ msgid ""
 "  -z, --zero           end each output line with NUL, not newline,\n"
 "                       and disable file name escaping\n"
 msgstr ""
-"  -z, --zero           以 NUL 空字元而非換行符結束每一輸出行，\n"
+"  -z, --zero           以 NUL 空字元而非換列符結束每一輸出列，\n"
 "                       同時停用檔名跳脫\n"
 
 #: src/md5sum.c:273
@@ -5997,12 +5996,12 @@ msgstr ""
 #: src/md5sum.c:697
 #, c-format
 msgid "%s: too many checksum lines"
-msgstr "%s：總和檢查碼的行數過多"
+msgstr "%s：總和檢查碼的列數過多"
 
 #: src/md5sum.c:720
 #, c-format
 msgid "%s: %<PRIuMAX>: improperly formatted %s checksum line"
-msgstr "%s：%<PRIuMAX>：%s 的總和檢查碼行目格式不適當"
+msgstr "%s：%<PRIuMAX>：%s 的總和檢查碼列目格式不適當"
 
 #: src/md5sum.c:752
 msgid "FAILED open or read"
@@ -6025,7 +6024,7 @@ msgstr "%s：找不到格式適用的%s 總和檢查碼"
 #, c-format
 msgid "WARNING: %<PRIuMAX> line is improperly formatted"
 msgid_plural "WARNING: %<PRIuMAX> lines are improperly formatted"
-msgstr[0] "警告：%<PRIuMAX> 行的格式不適當"
+msgstr[0] "警告：%<PRIuMAX> 列的格式不適當"
 
 #: src/md5sum.c:834
 #, c-format
@@ -6134,9 +6133,9 @@ msgid ""
 "      --context[=CTX]  like -Z, or if CTX is specified then set the SELinux\n"
 "                         or SMACK security context to CTX\n"
 msgstr ""
-"  -Z                   設定每個建立的目錄的 SELinux 安全上下文為預設類型\n"
+"  -Z                   設定每個建立的目錄的 SELinux 安全情境為預設類型\n"
 "      --context[=CTX]  類似 -Z，或如果指定了 CTX，則將 SELinux 或 SMACK 安全\n"
-"                         上下文設定為 CTX 對應的值\n"
+"                         情境設定為 CTX 對應的值\n"
 
 #: src/mkdir.c:221
 #, c-format
@@ -6146,7 +6145,7 @@ msgstr "已建立目錄 %s"
 #: src/mkdir.c:239 src/mkfifo.c:117 src/mknod.c:134
 #, c-format
 msgid "warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel"
-msgstr "警告：忽略 --context 參數；它需要啟用 SELinux/SMARK 的核心"
+msgstr "警告：忽略 --context 引數；它需要啟用 SELinux/SMARK 的核心"
 
 #: src/mkfifo.c:54 src/pathchk.c:88
 #, c-format
@@ -6167,9 +6166,9 @@ msgid ""
 "      --context[=CTX]  like -Z, or if CTX is specified then set the SELinux\n"
 "                         or SMACK security context to CTX\n"
 msgstr ""
-"  -Z                   設定 SELinux 安全上下文為預設類型\n"
+"  -Z                   設定 SELinux 安全情境為預設類型\n"
 "      --context[=CTX]  類似 -Z，或者如果指定了 CTX 則設定 SELinux 或\n"
-"                         SMACK 安全上下文為指定的 CTX 值\n"
+"                         SMACK 安全情境為指定的 CTX 值\n"
 
 #: src/mkfifo.c:154 src/mknod.c:151
 msgid "invalid mode"
@@ -6319,7 +6318,7 @@ msgid ""
 msgstr ""
 "  -t                  將<模板>解釋為相對與一個目錄的單個檔名部分：該目錄\n"
 "                        在 $TMPDIR 變數已設定時取該變數的值，否則使用 -p\n"
-"                        參數指定的目錄，再次將回退至使用 /tmp [不推薦]\n"
+"                        引數指定的目錄，再次將回退至使用 /tmp [不推薦]\n"
 
 #: src/mktemp.c:211
 #, c-format
@@ -6375,7 +6374,7 @@ msgid ""
 "If you specify more than one of -i, -f, -n, only the final one takes effect.\n"
 msgstr ""
 "      --backup[=CONTROL]       為每個已存在的目標檔案建立備份\n"
-"  -b                           類似--backup 但不接受參數\n"
+"  -b                           類似--backup 但不接受引數\n"
 "  -f, --force                  覆蓋前不詢問\n"
 "  -i, --interactive            覆蓋前詢問\n"
 "  -n, --no-clobber             不覆蓋已存在檔案\n"
@@ -6387,7 +6386,7 @@ msgid ""
 "                                 argument\n"
 "  -S, --suffix=SUFFIX          override the usual backup suffix\n"
 msgstr ""
-"      --strip-trailing-slashes  去掉每個來源檔案參數尾部的斜線\n"
+"      --strip-trailing-slashes  去掉每個來源檔案引數尾部的斜線\n"
 "  -S, --suffix=後綴             取代常用的備份副檔名\n"
 
 #: src/mv.c:318
@@ -6402,17 +6401,17 @@ msgid ""
 "                                 file to default type\n"
 msgstr ""
 "  -t, --target-directory=目錄  將所有<來源檔案>移動至指定的<目錄>中\n"
-"  -T, --no-target-directory    將參數中所有<目標檔案>部分視為一般檔案\n"
+"  -T, --no-target-directory    將引數中所有<目標檔案>部分視為一般檔案\n"
 "  -u, --update                 僅在<來源檔案>比目標檔案更新，或者目標檔案\n"
 "                               不存在時進行移動操作\n"
 "  -v, --verbose                對正在發生的操作給出解釋\n"
-"  -Z, --context                將目標檔案的 SELinux 安全上下文設定為\n"
+"  -Z, --context                將目標檔案的 SELinux 安全情境設定為\n"
 "                                 預設類型\n"
 
 #: src/nice.c:73
 #, c-format
 msgid "Usage: %s [OPTION] [COMMAND [ARG]...]\n"
-msgstr "用法：%s [選項] [指令 [參數]...]\n"
+msgstr "用法：%s [選項] [指令 [引數]...]\n"
 
 #: src/nice.c:74
 #, c-format
@@ -6455,7 +6454,7 @@ msgstr "Scott Bartram"
 
 #: src/nl.c:180
 msgid "Write each FILE to standard output, with line numbers added.\n"
-msgstr "將指定的各個 <檔案> 新增行號標註後寫到標準輸出。\n"
+msgstr "將指定的各個 <檔案> 新增列號標註後寫到標準輸出。\n"
 
 #: src/nl.c:187
 msgid ""
@@ -6463,9 +6462,9 @@ msgid ""
 "  -d, --section-delimiter=CC      use CC for logical page delimiters\n"
 "  -f, --footer-numbering=STYLE    use STYLE for numbering footer lines\n"
 msgstr ""
-"  -b, --body-numbering=樣式\t使用指定樣式編號檔案的正文行目\n"
+"  -b, --body-numbering=樣式\t使用指定樣式編號檔案的正文列目\n"
 "  -d, --section-delimiter=CC\t使用指定的 CC 作為邏輯頁數的分割符號\n"
-"  -f, --footer-numbering=樣式\t使用指定樣式編號檔案的頁尾行目\n"
+"  -f, --footer-numbering=樣式\t使用指定樣式編號檔案的頁尾列目\n"
 
 #: src/nl.c:192
 msgid ""
@@ -6476,20 +6475,20 @@ msgid ""
 "  -p, --no-renumber               do not reset line numbers for each section\n"
 "  -s, --number-separator=STRING   add STRING after (possible) line number\n"
 msgstr ""
-"  -h, --header-numbering=樣式\t使用指定樣式編號檔案的頁首行目\n"
-"  -i, --page-increment=數值\t設定每一行遍歷後的自動遞增值\n"
-"  -l, --join-blank-lines=數值\t設定數值為多少的若干空行被視作一行\n"
-"  -n, --number-format=格式\t根據指定格式插入行號\n"
-"  -p, --no-renumber\t\t不重設每個部份的行號\n"
-"  -s, --number-separator=字串\t可能的話在行號後新增字串\n"
+"  -h, --header-numbering=樣式\t使用指定樣式編號檔案的頁首列目\n"
+"  -i, --page-increment=數值\t設定每一列遍歷後的自動遞增值\n"
+"  -l, --join-blank-lines=數值\t設定數值為多少的若干空列被視作一列\n"
+"  -n, --number-format=格式\t根據指定格式插入列號\n"
+"  -p, --no-renumber\t\t不重設每個部份的列號\n"
+"  -s, --number-separator=字串\t可能的話在列號後新增字串\n"
 
 #: src/nl.c:200
 msgid ""
 "  -v, --starting-line-number=NUMBER  first line number for each section\n"
 "  -w, --number-width=NUMBER       use NUMBER columns for line numbers\n"
 msgstr ""
-"  -v, --starting-line-number=數字\t每個部份的第一行號\n"
-"  -w, --number-width=數字\t為行號使用指定的欄數\n"
+"  -v, --starting-line-number=數字\t每個部份的第一列號\n"
+"  -w, --number-width=數字\t為列號使用指定的欄數\n"
 
 #: src/nl.c:206
 msgid ""
@@ -6522,10 +6521,10 @@ msgstr ""
 "\n"
 "<樣式> 可以是：\n"
 "\n"
-"  a\t對所有行編號\n"
-"  t\t對非空行編號\n"
-"  n\t不編行號\n"
-"  pBRE\t只對符合正規表示式 BRE 的行編號\n"
+"  a\t對所有列編號\n"
+"  t\t對非空列編號\n"
+"  n\t不編列號\n"
+"  pBRE\t只對符合正規表示式 BRE 的列編號\n"
 
 #: src/nl.c:223
 msgid ""
@@ -6547,7 +6546,7 @@ msgstr ""
 
 #: src/nl.c:281
 msgid "line number overflow"
-msgstr "行號溢位"
+msgstr "列號溢位"
 
 #: src/nl.c:484
 #, c-format
@@ -6566,19 +6565,19 @@ msgstr "無效的頁尾號樣式：%s"
 
 #: src/nl.c:507
 msgid "invalid starting line number"
-msgstr "無效的起始行號"
+msgstr "無效的起始列號"
 
 #: src/nl.c:512
 msgid "invalid line number increment"
-msgstr "無效的行號遞增值"
+msgstr "無效的列號遞增值"
 
 #: src/nl.c:519
 msgid "invalid line number of blank lines"
-msgstr "無效的空行數"
+msgstr "無效的空列數"
 
 #: src/nl.c:526
 msgid "invalid line number field width"
-msgstr "無效的行寬數值"
+msgstr "無效的列寬數值"
 
 #: src/nl.c:537
 #, c-format
@@ -6591,7 +6590,7 @@ msgid ""
 "Usage: %s COMMAND [ARG]...\n"
 "  or:  %s OPTION\n"
 msgstr ""
-"用法：%s 指令 [參數]...\n"
+"用法：%s 指令 [引數]...\n"
 "　或：%s 選項\n"
 
 #: src/nohup.c:56
@@ -6724,7 +6723,7 @@ msgstr "用法: %s [選項]... [數字]...\n"
 
 #: src/numfmt.c:887
 msgid "Reformat NUMBER(s), or the numbers from standard input if none are specified.\n"
-msgstr "對參數給出的數字進行格式化，或者在參數未給出數字的情況下從標準輸入取得數字。\n"
+msgstr "對引數給出的數字進行格式化，或者在引數未給出數字的情況下從標準輸入取得數字。\n"
 
 #: src/numfmt.c:891
 msgid "      --debug          print warnings about invalid input\n"
@@ -6739,7 +6738,7 @@ msgid ""
 "      --field=FIELDS   replace the numbers in these input fields (default=1)\n"
 "                         see FIELDS below\n"
 msgstr ""
-"      --field=FIELDS   取代這些輸入列中的數字 (預設 = 1)\n"
+"      --field=FIELDS   取代這些輸入欄位中的數字 (預設 = 1)\n"
 "                        請參閱下方〈FIELDS〉部份\n"
 
 #: src/numfmt.c:901
@@ -6767,7 +6766,7 @@ msgid ""
 "      --grouping       use locale-defined grouping of digits, e.g. 1,000,000\n"
 "                         (which means it has no effect in the C/POSIX locale)\n"
 msgstr ""
-"      --grouping       使用區域定義的位數分組方式，例如 1,000,000\n"
+"      --grouping       使用區域語言定義的位數分組方式，例如 1,000,000\n"
 "                         (亦代表著其在 C/POSIX 區域沒有作用)\n"
 
 #: src/numfmt.c:916
@@ -6775,7 +6774,7 @@ msgid ""
 "      --header[=N]     print (without converting) the first N header lines;\n"
 "                         N defaults to 1 if not specified\n"
 msgstr ""
-"      --header[=N]     輸出 (而不轉換) 前 N 開頭行；\n"
+"      --header[=N]     輸出 (而不轉換) 前 N 開頭列；\n"
 "                         若未指定，則 N 預設值為 1\n"
 
 #: src/numfmt.c:920
@@ -6896,9 +6895,9 @@ msgid ""
 "Multiple fields/ranges can be separated with commas\n"
 msgstr ""
 "\n"
-"FIELDS 支援 cut(1) 樣式的列數區間：\n"
+"FIELDS 支援 cut(1) 樣式的欄位區間：\n"
 "  N    從第 1 列到第 N 列\n"
-"  N-   從第 N 列到行末\n"
+"  N-   從第 N 列到列末\n"
 "  N-M  從第 N 列到第 M (含) 列\n"
 "  -M   從第 1 列至第 M (含) 列\n"
 "  -    整列\n"
@@ -6915,8 +6914,8 @@ msgid ""
 "Optional precision (%.1f) will override the input determined precision.\n"
 msgstr ""
 "\n"
-"<格式> 必須能剛好輸出一個浮點數參數「%f」。選擇性的引號 (%'f) 會啟用\n"
-"--grouping (如果目前的區域設定支援)。\n"
+"<格式> 必須能剛好輸出一個浮點數引數「%f」。選擇性的引號 (%'f) 會啟用\n"
+"--grouping (如果目前的區域語言設定支援)。\n"
 "選擇性的寬度值 (%10f) 會填充輸出。選擇性的 0 (%010f) 寬度會使用 0 來\n"
 "填充輸出。選擇性的負數值 (%-10f) 會靠左對齊。選擇性的精度 (%.1f) 會覆寫\n"
 "輸入決定的精度。\n"
@@ -7043,7 +7042,7 @@ msgstr "無效的填儲值 %s"
 
 #: src/numfmt.c:1513
 msgid "multiple field specifications"
-msgstr "有多個列 (field) 規格"
+msgstr "有多個欄位 (field) 規格"
 
 #: src/numfmt.c:1547
 #, c-format
@@ -7066,17 +7065,17 @@ msgstr "未指定轉換選項"
 
 #: src/numfmt.c:1590
 msgid "grouping cannot be combined with --to"
-msgstr "分組 (--grouping) 不能與 --to 一起使用"
+msgstr "分組不能與 --to 一起使用"
 
 #: src/numfmt.c:1592
 #, c-format
 msgid "grouping has no effect in this locale"
-msgstr "在此區域設定中，分組 (--grouping) 沒有效果"
+msgstr "在此區域語言設定中，分組沒有效果"
 
 #: src/numfmt.c:1605
 #, c-format
 msgid "--header ignored with command-line input"
-msgstr "在指令行輸入下 --header 已被忽略"
+msgstr "在命令列輸入下 --header 已被忽略"
 
 #: src/numfmt.c:1632
 #, c-format
@@ -7108,7 +7107,7 @@ msgid ""
 msgstr ""
 "\n"
 "將指定檔案以八進位 (預設) 轉儲到標準輸出。如果指定了多於一個的檔案\n"
-"參數，程式會自動將輸入的內容整合為列表並以同樣的形式輸出。\n"
+"引數，程式會自動將輸入的內容整合為列表並以同樣的形式輸出。\n"
 
 #: src/od.c:337
 #, fuzzy
@@ -7162,10 +7161,10 @@ msgstr ""
 "  -S BYTES, --strings[=BYTES]  輸出至少 BYTES 位元組圖形字元至字串；\n"
 "                                如果未指定 BYTES，則預設為 3。\n"
 "  -t, --format=TYPE           選擇一或多個輸出格式\n"
-"  -v, --output-duplicates     不要用 * 標示隱藏的行\n"
-"  -w[BYTES], --width[=BYTES]  一行輸出 BYTES 位元組；\n"
+"  -v, --output-duplicates     不要用 * 標示隱藏的列\n"
+"  -w[BYTES], --width[=BYTES]  一列輸出 BYTES 位元組；\n"
 "                                如果未指定 BYTES，則預設為 32\n"
-"      --traditional           接受上述之第三個形式參數\n"
+"      --traditional           接受上述之第三個形式引數\n"
 
 #: src/od.c:368
 msgid ""
@@ -7252,7 +7251,7 @@ msgid ""
 "each output line.\n"
 msgstr ""
 "\n"
-"在每行輸出行加入 z 後綴至任何顯示可輸出字元的類型的末尾。\n"
+"在每列輸出列加入 z 後綴至任何顯示可輸出字元的類型的末尾。\n"
 
 #: src/od.c:411
 msgid ""
@@ -7340,7 +7339,7 @@ msgstr "標準輸入已關閉"
 msgid ""
 "Write lines consisting of the sequentially corresponding lines from\n"
 "each FILE, separated by TABs, to standard output.\n"
-msgstr "將每個指定檔案裡的每一行整合到對應一行裡寫到標準輸出，之間用定位符號分隔。\n"
+msgstr "將每個指定檔案裡的每一列整合到對應一列裡寫到標準輸出，之間用定位符號分隔。\n"
 
 #: src/paste.c:448
 msgid ""
@@ -7348,7 +7347,7 @@ msgid ""
 "  -s, --serial            paste one file at a time instead of in parallel\n"
 msgstr ""
 "  -d, --delimiters=列表\t改用指定列表裡的字元替代製表分隔符\n"
-"  -s, --serial\t\t不使用平行的行目輸出模式，而是每個檔案占用一行\n"
+"  -s, --serial\t\t不使用平行的列目輸出模式，而是每個檔案占用一列\n"
 
 #: src/paste.c:518
 #, c-format
@@ -7422,12 +7421,12 @@ msgstr "?????"
 #: src/pinky.c:313
 #, c-format
 msgid "Login name: "
-msgstr "登入名： "
+msgstr "登入名："
 
 #: src/pinky.c:316
 #, c-format
 msgid "In real life: "
-msgstr "真名： "
+msgstr "真名："
 
 #. TRANSLATORS: Real name is unknown; no hard limit.
 #: src/pinky.c:320
@@ -7437,17 +7436,17 @@ msgstr "???\n"
 #: src/pinky.c:340
 #, c-format
 msgid "Directory: "
-msgstr "主目錄： "
+msgstr "主目錄："
 
 #: src/pinky.c:342
 #, c-format
 msgid "Shell: "
-msgstr "Shell： "
+msgstr "Shell："
 
 #: src/pinky.c:361
 #, c-format
 msgid "Project: "
-msgstr "項目： "
+msgstr "專案："
 
 #: src/pinky.c:385
 #, c-format
@@ -7460,7 +7459,7 @@ msgstr "登入名"
 
 #: src/pinky.c:406
 msgid "Name"
-msgstr "名字"
+msgstr "名稱"
 
 #: src/pinky.c:407
 msgid " TTY"
@@ -7468,7 +7467,7 @@ msgstr " TTY"
 
 #: src/pinky.c:409
 msgid "Idle"
-msgstr "空閒時間"
+msgstr "閒置"
 
 #: src/pinky.c:410
 msgid "When"
@@ -7502,10 +7501,10 @@ msgid ""
 "  -q              omit the user's full name, remote host and idle time\n"
 "                  in short format\n"
 msgstr ""
-"  -f\t在短格式中省略列欄標頭\n"
+"  -f\t在短格式中省略欄標題列\n"
 "  -w\t在短格式中省略使用者全名\n"
 "  -i\t在短格式中省略使用者全名以及遠端主機\n"
-"  -q\t在短格式中省略使用者全名、遠端主機以及空閒時間\n"
+"  -q\t在短格式中省略使用者全名、遠端主機以及閒置時間\n"
 
 #: src/pinky.c:507
 #, c-format
@@ -7539,7 +7538,7 @@ msgstr "整數溢位"
 
 #: src/pr.c:917
 msgid "'--pages=FIRST_PAGE[:LAST_PAGE]' missing argument"
-msgstr "'--pages=第一頁[:最後一頁]' 缺少參數"
+msgstr "'--pages=第一頁[:最後一頁]' 缺少引數"
 
 #: src/pr.c:919
 #, c-format
@@ -7548,15 +7547,15 @@ msgstr "頁碼範圍%s 無效"
 
 #: src/pr.c:979
 msgid "'-l PAGE_LENGTH' invalid number of lines"
-msgstr "'-l 頁長' 有無效的行數"
+msgstr "'-l 頁長' 有無效的列數"
 
 #: src/pr.c:994
 msgid "'-N NUMBER' invalid starting line number"
-msgstr "'-N 數字' 有無效的開始行碼"
+msgstr "'-N 數字' 有無效的開始列碼"
 
 #: src/pr.c:998
 msgid "'-o MARGIN' invalid line offset"
-msgstr "「-o 頁邊距」中含有無效的行偏移量"
+msgstr "「-o 頁邊距」中含有無效的列偏移量"
 
 #: src/pr.c:1035
 msgid "'-w PAGE_WIDTH' invalid number of characters"
@@ -7568,16 +7567,16 @@ msgstr "'-W 頁長' 有無效的字元數"
 
 #: src/pr.c:1073
 msgid "cannot specify number of columns when printing in parallel"
-msgstr "在平行輸出參數時不能指定欄數"
+msgstr "在平行輸出引數時不能指定欄數"
 
 #: src/pr.c:1077
 msgid "cannot specify both printing across and printing in parallel"
-msgstr "無法同時指定相交輸出和平行輸出參數"
+msgstr "無法同時指定相交輸出和平行輸出引數"
 
 #: src/pr.c:1180
 #, c-format
 msgid "'-%c' extra characters or invalid number in the argument: %s"
-msgstr "'-%c' 的參數中有多餘的字元或無效的數字：%s"
+msgstr "'-%c' 的引數中有多餘的字元或無效的數字：%s"
 
 #: src/pr.c:1282
 msgid "page width too narrow"
@@ -7612,9 +7611,9 @@ msgid ""
 msgstr ""
 "  +第一頁[:最後一頁], --pages=第一頁[:最後一頁]\n"
 "\t\t\t在指定的首頁/末頁處開始/停止列印\n"
-"  -列數, --columns=列數\n"
+"  -欄數, --columns=欄數\n"
 "\t\t\t輸出指定的列數。如果指定了-a 選項，則從上到下列印。\n"
-"\t\t\t程式會自動在每一頁均衡每列占用的行數。\n"
+"\t\t\t程式會自動在每一頁均衡每欄佔用的列數。\n"
 
 #: src/pr.c:2757
 msgid ""
@@ -7625,12 +7624,12 @@ msgid ""
 "  -d, --double-space\n"
 "                    double space the output\n"
 msgstr ""
-"  -a, --across      印出內容時會先橫跨所有欄位 (橫向列印)，並非印完一欄才\n"
+"  -a, --across      印出內容時會先橫跨所有欄 (橫向列印)，並非印完一欄才\n"
 "                    跳至第二欄繼續列印；此選項需要配合 -欄數 使用\n"
 "  -c, --show-control-chars\n"
 "                     使用開頭 (^) 符號 (^G) 和八進位反斜線標記\n"
 "  -d, --double-space\n"
-"                     隔行顯示結果\n"
+"                     隔列顯示結果\n"
 
 #: src/pr.c:2765
 msgid ""
@@ -7647,8 +7646,8 @@ msgstr ""
 "\t\t\t使用遵循指定格式的頁首日期\n"
 "  -e[字元[寬度]], --expand-tabs[=字元[寬度]]\n"
 "\t\t\t擴充輸入的 <字元> (定位符號) 到定位符號寬度 (8)\n"
-"  -F, -f, --form-feed\t使用出紙頁頁標代替換行作為頁面間的分隔符\n"
-"\t\t\t(使用 -F 選項時標頭為 3 行，不使用時為 5 行)\n"
+"  -F, -f, --form-feed\t使用出紙頁頁標代替換列作為頁面間的分隔符\n"
+"\t\t\t(使用 -F 選項時標頭為 3 列，不使用時為 5 列)\n"
 
 #: src/pr.c:2775
 msgid ""
@@ -7662,10 +7661,10 @@ msgid ""
 msgstr ""
 "  -h, --header=頁首\n"
 "                   在頁首中使用居中的指定字元代替檔名\n"
-"                   -h \"\" 輸出一個空行，不要使用 -h\"\"\n"
+"                   -h \"\" 輸出一個空列，不要使用 -h\"\"\n"
 "  -i[字元[寬度]], --output-tabs[=字元[寬度]]\n"
 "                   使用指定字元(或定位符號)代替空格不足到指定定位符號寬度(預設 8)\n"
-"  -J, --join-lines 合併整行，關閉 -W 選項的行截斷，不使用欄調整，使用\n"
+"  -J, --join-lines 合併整列，關閉 -W 選項的列截斷，不使用欄調整，使用\n"
 "                   --sep-string[=字串] 設定分隔符\n"
 
 #: src/pr.c:2784
@@ -7676,8 +7675,8 @@ msgid ""
 "                    implies -t if PAGE_LENGTH <= 10\n"
 msgstr ""
 "  -l, --length=頁面長度\n"
-"                    設定頁面長度至 <頁面長度> (66) 行\n"
-"                    (預設文字行數為 56，加上 -F 是 63）。\n"
+"                    設定頁面長度至 <頁面長度> (66) 列\n"
+"                    (預設文字列數為 56，加上 -F 是 63）。\n"
 "                    如果 <頁面長度> <= 10 則隱含 -t\n"
 
 #: src/pr.c:2790
@@ -7685,7 +7684,7 @@ msgid ""
 "  -m, --merge       print all files in parallel, one in each column,\n"
 "                    truncate lines, but join lines of full length with -J\n"
 msgstr ""
-"  -m, --merge       平行輸出所有檔案，每個檔案都在各自的欄位，\n"
+"  -m, --merge       平行輸出所有檔案，每個檔案都在各自的欄，\n"
 "                    會截行，但可以使用 -J 把行合併至完整長度。\n"
 
 #: src/pr.c:2794
@@ -7698,10 +7697,10 @@ msgid ""
 "                    page printed (see +FIRST_PAGE)\n"
 msgstr ""
 "  -n[分隔符[位數]], --number-lines[=分隔符[位數]]\n"
-"\t\t\t顯示行號，使用指定(預設5) 位數，後接分隔符(預設TAB)\n"
-"\t\t\t預設從輸入檔案的第一行開始計數\n"
+"\t\t\t顯示列號，使用指定(預設5) 位數，後接分隔符(預設TAB)\n"
+"\t\t\t預設從輸入檔案的第一列開始計數\n"
 "  -N, --first-line-number=數字\n"
-"\t\t\t從首頁的首行以指定數字開始計數(參看\"+首頁\")\n"
+"\t\t\t從首頁的首列以指定數字開始計數(參看\"+首頁\")\n"
 
 #: src/pr.c:2802
 msgid ""
@@ -7712,7 +7711,7 @@ msgid ""
 "                    omit warning when a file cannot be opened\n"
 msgstr ""
 "  -o, --indent=縮排量\n"
-"\t\t\t將每行縮排(預設0)個空格，不影響-w 或-W 參數，\n"
+"\t\t\t將每列縮排(預設0)個空格，不影響-w 或-W 引數，\n"
 "\t\t\t縮排亮的值將被加入頁面寬度\n"
 "  -r, --no-file-warnings\n"
 "\t\t\t當檔案無法開啟時忽略警告\n"
@@ -7726,10 +7725,10 @@ msgid ""
 "                    options (-COLUMN|-a -COLUMN|-m) except -w is set\n"
 msgstr ""
 "  -s[字元], --separator[=字元]\n"
-"                    依單個字元分隔列，如果沒有 -w，\n"
+"                    依單個字元分隔欄，如果沒有 -w，\n"
 "                    則預設的 <字元> 是 TAB 字元，如果有 -w\n"
 "                    則預設沒有字元。除非設定了 -w，否則 -s[字元]\n"
-"                    會關閉全部 3 列選項 (-列|-a -列|-m) 的截行功能。\n"
+"                    會關閉全部 3 列選項 (-欄|-a -欄|-m) 的截欄功能。\n"
 
 #: src/pr.c:2817
 msgid ""
@@ -7739,7 +7738,7 @@ msgid ""
 "                    otherwise (same as -S\" \"), no effect on column options\n"
 msgstr ""
 "  -S[字串], --sep-string[=字串]\n"
-"                    依 <字串> 分隔列，\n"
+"                    依 <字串> 分隔欄，\n"
 "                    沒有 -S：若有 -J 則預設的分隔符號是 TAB，反之 <空白>\n"
 "                    否則 (等於 -S\" \") 不會影響到列選項\n"
 
@@ -7780,7 +7779,7 @@ msgid ""
 msgstr ""
 "  -W, --page-width=頁寬\n"
 "\t\t\t總是將頁寬設定為指定的(預設72)字元數，\n"
-"\t\t\t除非-J 選項啟用總是截斷行，此參數與-S 或-s 衝突\n"
+"\t\t\t除非-J 選項啟用總是截斷列，此引數與-S 或-s 衝突\n"
 
 #: src/printenv.c:62
 #, c-format
@@ -7797,7 +7796,7 @@ msgstr ""
 
 #: src/printenv.c:69
 msgid "  -0, --null     end each output line with NUL, not newline\n"
-msgstr "  -0, --null     以空字元而非換行符結束每一輸出行\n"
+msgstr "  -0, --null     以空字元而非換列符結束每一輸出列\n"
 
 #: src/printf.c:84
 #, c-format
@@ -7810,7 +7809,7 @@ msgid ""
 "Usage: %s FORMAT [ARGUMENT]...\n"
 "  or:  %s OPTION\n"
 msgstr ""
-"用法：%s 格式 [參數]\n"
+"用法：%s 格式 [引數]\n"
 "　或：%s 選項\n"
 
 #: src/printf.c:98
@@ -7818,7 +7817,7 @@ msgid ""
 "Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:\n"
 "\n"
 msgstr ""
-"按照指定格式列印參數或按照選項執行該參數：\n"
+"按照指定格式列印引數或按照選項執行該引數：\n"
 "\n"
 
 #: src/printf.c:104
@@ -7857,18 +7856,18 @@ msgid ""
 "ARGUMENTs converted to proper type first.  Variable widths are handled.\n"
 msgstr ""
 "  %%\t\t一個 \"%\"\n"
-"  %b\t\t帶\"\\\"的指定的參數是停用跳脫字元的字串，\n"
+"  %b\t\t帶\"\\\"的指定的引數是停用跳脫字元的字串，\n"
 "          例外：八進位數的跳脫串採用\"\\0\"或\"\\0NNN\"的形式\n"
 "\n"
-"同時，所有以diouxXfeEgGcs 結尾的C 格式化說明，將首先把指定的參數轉換為\n"
+"同時，所有以diouxXfeEgGcs 結尾的C 格式化說明，將首先把指定的引數轉換為\n"
 "合適的類型。變數的寬度將得到恰當處理。\n"
 "  %%      一個 %\n"
-"  %b      <參數> 有 '\\' 跳脫字元的字串會被解譯，\n"
+"  %b      <引數> 有 '\\' 跳脫字元的字串會被解譯，\n"
 "          除了八進位跳脫字元，形式是 \\0 或 \\0NNN\n"
-"  %q      <參數> 會用能以 Shell 輸入重新使用的格式輸出，\n"
+"  %q      <引數> 會用能以 Shell 輸入重新使用的格式輸出，\n"
 "          使用 POSIX 提議的 $'' 語法跳脫無法輸出的字元。\n"
 "\n"
-"及所有以 diouxXfeEgGcs 結束的 C 格式規範，會先將 <參數> 轉換成合適的類型。\n"
+"及所有以 diouxXfeEgGcs 結束的 C 格式規範，會先將 <引數> 轉換成合適的類型。\n"
 "會處理變數寬度。\n"
 
 #: src/printf.c:155
@@ -7908,7 +7907,7 @@ msgstr "%.*s：無效的轉換規範"
 #: src/printf.c:711
 #, c-format
 msgid "warning: ignoring excess arguments, starting with %s"
-msgstr "警告：從 %s 開始已忽略超量的參數"
+msgstr "警告：從 %s 開始已忽略超量的引數"
 
 #. TRANSLATORS: Please translate "F. Pinard" to "François Pinard"
 #. if "ç" (c-with-cedilla) is available in the translation's character
@@ -7954,7 +7953,7 @@ msgid ""
 "  -F, --flag-truncation=STRING   use STRING for flagging line truncations.\n"
 "                                 The default is '/'\n"
 msgstr ""
-"  -F, --flag-truncation=STRING   使用字串標示截斷行。\n"
+"  -F, --flag-truncation=STRING   使用字串標示截斷列。\n"
 "                                 預設值為 '/'\n"
 
 #: src/ptx.c:1833
@@ -7967,8 +7966,8 @@ msgid ""
 msgstr ""
 "  -M, --macro-name=字串        指定代替「xx」的巨集名稱\n"
 "  -O, --format=roff            產生 roff 格式輸出\n"
-"  -R, --right-side-refs        將關聯引用放置在右側，不能和 -w 選項疊加\n"
-"  -S, --sentence-regexp=正規表示式 用於符合行末或句末\n"
+"  -R, --right-side-refs        將參照引用放置在右側，不能和 -w 選項疊加\n"
+"  -S, --sentence-regexp=正規表示式 用於符合列末或句末\n"
 "  -T, --format=tex             產生 TeX 格式輸出\n"
 
 #: src/ptx.c:1840
@@ -7983,7 +7982,7 @@ msgstr ""
 "  -W, --word-regexp=正規表示式\t使用正規表示式符合每個關鍵字\n"
 "  -b, --break-file=檔案\t\t以檔案中包含的單詞為分隔字元\n"
 "  -f, --ignore-case\t\t排序時合併小寫字母和大寫字母\n"
-"  -g, --gap-size=數值\t\t指定多個輸出區塊間的列間隙尺寸\n"
+"  -g, --gap-size=數值\t\t指定多個輸出欄位間的欄間隙大小\n"
 "  -i, --ignore-file=檔案\t從指定檔案中讀取忽略單詞的列表\n"
 "  -o, --only-file=檔案\t\t只從指定檔案中讀取單詞列表\n"
 
@@ -7993,9 +7992,9 @@ msgid ""
 "  -t, --typeset-mode               - not implemented -\n"
 "  -w, --width=NUMBER             output width in columns, reference excluded\n"
 msgstr ""
-"  -r, --references\t\t設定每行的第一個區塊為關聯引用\n"
+"  -r, --references\t\t設定每列的第一個欄位為參照引用\n"
 "  -t, --typeset-mode\t\t -- 此功能尚未實現 --\n"
-"  -w, --width=數值\t\t每列的輸出寬度，不計關聯引用\n"
+"  -w, --width=數值\t\t每欄的輸出寬度，不計參照引用\n"
 
 #: src/ptx.c:1945
 #, c-format
@@ -8005,7 +8004,7 @@ msgstr "無效的間隙寬度：%s"
 #: src/ptx.c:1972
 #, c-format
 msgid "invalid line width: %s"
-msgstr "無效的行寬：%s"
+msgstr "無效的列寬：%s"
 
 #: src/pwd.c:58
 msgid ""
@@ -8049,7 +8048,7 @@ msgstr "在符合的inode %s 上找不到目錄入口"
 #: src/pwd.c:367
 #, c-format
 msgid "ignoring non-option arguments"
-msgstr "忽略不是選項的參數"
+msgstr "忽略不是選項的引數"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/readlink.c:32
@@ -8111,12 +8110,12 @@ msgstr ""
 "  -q, --quiet\n"
 "  -s, --silent                  隱藏大部分的錯誤訊息 (預設開啟)\n"
 "  -v, --verbose                 回報錯誤訊息\n"
-"  -z, --zero                    使用 NUL 而非換行符號結束每行輸出行\n"
+"  -z, --zero                    使用 NUL 而非換列符號結束每列輸出列\n"
 
 #: src/readlink.c:152
 #, c-format
 msgid "ignoring --no-newline with multiple arguments"
-msgstr "忽略多於一個參數的 --no-newline"
+msgstr "忽略多於一個引數的 --no-newline"
 
 #: src/realpath.c:72
 msgid ""
@@ -8257,7 +8256,7 @@ msgid ""
 "                          directory that is on a file system different from\n"
 "                          that of the corresponding command line argument\n"
 msgstr ""
-"      --one-file-system\t\t遞迴刪除一個層級時，跳過所有不符合指令行參\n"
+"      --one-file-system\t\t遞迴刪除一個層級時，跳過所有不符合命令列參\n"
 "\t\t\t\t數的檔案系統上的檔案\n"
 
 #: src/rm.c:152
@@ -8269,7 +8268,7 @@ msgid ""
 msgstr ""
 "      --no-preserve-root  不特別針對 '/'\n"
 "      --preserve-root[=all]  不移除 '/' (預設值)；\n"
-"                              如配上 'all'，則會拒絕指令列參數中跟\n"
+"                              如配上 'all'，則會拒絕指令列引數中跟\n"
 "                              父裝置不同的裝置\n"
 
 #: src/rm.c:158
@@ -8327,19 +8326,19 @@ msgstr "您不能使用縮寫的 --no-preserve-root 選項"
 #: src/rm.c:309
 #, c-format
 msgid "unrecognized --preserve-root argument: %s"
-msgstr "無法識別的 --preserve-root 參數：%s"
+msgstr "無法識別的 --preserve-root 引數：%s"
 
 #: src/rm.c:359
 #, c-format
 msgid "%s: remove %<PRIuMAX> argument recursively? "
 msgid_plural "%s: remove %<PRIuMAX> arguments recursively? "
-msgstr[0] "%s：遞迴刪除 %<PRIuMAX> 個參數？"
+msgstr[0] "%s：遞迴刪除 %<PRIuMAX> 個引數？"
 
 #: src/rm.c:362
 #, c-format
 msgid "%s: remove %<PRIuMAX> argument? "
 msgid_plural "%s: remove %<PRIuMAX> arguments? "
-msgstr[0] "%s：刪除 %<PRIuMAX> 個參數？"
+msgstr[0] "%s：刪除 %<PRIuMAX> 個引數？"
 
 #: src/rmdir.c:133 src/rmdir.c:233
 #, c-format
@@ -8385,16 +8384,16 @@ msgid ""
 "Usage: %s CONTEXT COMMAND [args]\n"
 "  or:  %s [ -c ] [-u USER] [-r ROLE] [-t TYPE] [-l RANGE] COMMAND [args]\n"
 msgstr ""
-"用法: %s 上下文 指令 [參數]\n"
-"　或: %s [ -c ] [-u 使用者] [-r 角色] [-t 類型] [-l 範圍] 指令 [參數]\n"
+"用法: %s 情境 指令 [引數]\n"
+"　或: %s [ -c ] [-u 使用者] [-r 角色] [-t 類型] [-l 範圍] 指令 [引數]\n"
 
 #: src/runcon.c:82
 msgid ""
 "Run a program in a different SELinux security context.\n"
 "With neither CONTEXT nor COMMAND, print the current security context.\n"
 msgstr ""
-"在不同的 SELinux 安全上下文中執行程式。\n"
-"若未指定上下文和指令，輸出目前安全上下文。\n"
+"在不同的 SELinux 安全情境中執行程式。\n"
+"若未指定情境和指令，輸出目前安全情境。\n"
 
 #: src/runcon.c:89
 msgid ""
@@ -8406,7 +8405,7 @@ msgid ""
 "  -l, --range=RANGE  levelrange\n"
 "\n"
 msgstr ""
-"  上下文            完整的安全上下文描述\n"
+"  情境            完整的安全情境描述\n"
 "  -c, --compute      在變更前計算環境變化\n"
 "  -t, --type=類型    類型（與父處理程序角色相同）\n"
 "  -u, --user=使用者    使用者身份\n"
@@ -8420,11 +8419,11 @@ msgstr "多角色"
 
 #: src/runcon.c:144
 msgid "multiple types"
-msgstr "多類型"
+msgstr "多種類型"
 
 #: src/runcon.c:149
 msgid "multiple users"
-msgstr "多使用者"
+msgstr "多位使用者"
 
 #: src/runcon.c:154
 msgid "multiple levelranges"
@@ -8432,12 +8431,12 @@ msgstr "複合級別範圍"
 
 #: src/runcon.c:172 src/runcon.c:208
 msgid "failed to get current context"
-msgstr "無法獲得目前上下文"
+msgstr "無法獲得目前情境"
 
 #: src/runcon.c:182
 #, c-format
 msgid "you must specify -c, -t, -u, -l, -r, or context"
-msgstr "您必須指定-c，-t，-u，-l，-r 或上下文"
+msgstr "您必須指定-c，-t，-u，-l，-r 或情境"
 
 #: src/runcon.c:190
 #, c-format
@@ -8451,7 +8450,7 @@ msgstr "%s 只能用於啟用了 SELinux 支援的核心"
 
 #: src/runcon.c:222
 msgid "failed to compute a new context"
-msgstr "計算新的上下文失敗"
+msgstr "計算新的情境失敗"
 
 #: src/runcon.c:236
 #, c-format
@@ -8476,7 +8475,7 @@ msgstr "設定新角色失敗：%s"
 #: src/runcon.c:254
 #, c-format
 msgid "unable to set security context %s"
-msgstr "無法設定安全上下文 %s"
+msgstr "無法設定安全情境 %s"
 
 #: src/seq.c:80
 #, c-format
@@ -8534,18 +8533,18 @@ msgid ""
 "it defaults to %.PRECf if FIRST, INCREMENT, and LAST are all fixed point\n"
 "decimal numbers with maximum precision PREC, and to %g otherwise.\n"
 msgstr ""
-"指定的格式必須適用於輸出「double」類型的參數；當首數、增量和尾數均為指定\n"
+"指定的格式必須適用於輸出「double」類型的引數；當首數、增量和尾數均為指定\n"
 "精確度的定點十進位數時預設為「%.精確度f」，否則預設為「%g」。\n"
 
 #: src/seq.c:155
 #, c-format
 msgid "invalid floating point argument: %s"
-msgstr "無效的浮點參數：%s"
+msgstr "無效的浮點引數：%s"
 
 #: src/seq.c:161
 #, c-format
 msgid "invalid %s argument: %s"
-msgstr "無效的 %s 參數：%s"
+msgstr "無效的 %s 引數：%s"
 
 #: src/seq.c:268
 #, c-format
@@ -8823,12 +8822,12 @@ msgid ""
 "  or:  %s -i LO-HI [OPTION]...\n"
 msgstr ""
 "用法： %s [選項]... [檔案]\n"
-"　或者:  %s -e [選項]... [參數]...\n"
+"　或者:  %s -e [選項]... [引數]...\n"
 "　或者:  %s -i LO-HI [選項]...\n"
 
 #: src/shuf.c:68
 msgid "Write a random permutation of the input lines to standard output.\n"
-msgstr "把輸入行按隨機順序輸出到標準輸出。\n"
+msgstr "把輸入列按隨機順序輸出到標準輸出。\n"
 
 #: src/shuf.c:75
 msgid ""
@@ -8839,17 +8838,17 @@ msgid ""
 "      --random-source=FILE  get random bytes from FILE\n"
 "  -r, --repeat              output lines can be repeated\n"
 msgstr ""
-"  -e, --echo                將每個參數視為輸入行\n"
-"  -i, --input-range=LO-HI   將 LO 到 HI 的每個數字視為輸入行\n"
-"  -n, --head-count=行數     最多輸出指定的行數\n"
+"  -e, --echo                將每個引數視為輸入列\n"
+"  -i, --input-range=LO-HI   將 LO 到 HI 的每個數字視為輸入列\n"
+"  -n, --head-count=列數     最多輸出指定的列數\n"
 "  -o, --output=檔案         將結果輸出到指定檔案而非標準輸出\n"
 "      --random-source=檔案  從指定檔案獲得隨機位元組\n"
-"  -r, --repeat              輸出行可以重複\n"
+"  -r, --repeat              輸出列可以重複\n"
 "\n"
 
 #: src/shuf.c:226
 msgid "too many input lines"
-msgstr "輸入行過多"
+msgstr "輸入列過多"
 
 #: src/shuf.c:418
 msgid "multiple -i options specified"
@@ -8862,7 +8861,7 @@ msgstr "無效的輸入範圍"
 #: src/shuf.c:449
 #, c-format
 msgid "invalid line count: %s"
-msgstr "無效的行數：%s"
+msgstr "無效的列數：%s"
 
 #: src/shuf.c:456 src/sort.c:4502
 msgid "multiple output files specified"
@@ -8875,7 +8874,7 @@ msgstr "不能同時指定 -e 和 -i 選項"
 
 #: src/shuf.c:575
 msgid "no lines to repeat"
-msgstr "沒有可重複的行"
+msgstr "沒有可重複的列"
 
 #: src/sleep.c:44
 #, c-format
@@ -8891,7 +8890,7 @@ msgstr ""
 "用法:  %s 數字[後綴]...\n"
 "  或:  %s 選項\n"
 "暫停 <數字> 秒。<後綴> 可以是 's' 秒數 (預設值)、'm' 分鐘、'h' 小時，\n"
-"或 'd' 天。<數字> 不一定只能是整數。提供兩或以上個參數，則暫停參數值\n"
+"或 'd' 天。<數字> 不一定只能是整數。提供兩或以上個引數，則暫停引數值\n"
 "總和的時間。\n"
 "\n"
 
@@ -8990,7 +8989,7 @@ msgid ""
 "                              decompress them with PROG -d\n"
 msgstr ""
 "  -c, --check, --check=diagnose-first  檢查輸入是否已經排序；如否則不排序\n"
-"  -C, --check=quiet, --check=silent  類似 -c，但不回報第一個未排序的行\n"
+"  -C, --check=quiet, --check=silent  類似 -c，但不回報第一個未排序的列\n"
 "      --compress-program=程式  使用 <程式> 壓縮暫存檔；用\n"
 "                               <程式> -d 解壓縮。\n"
 
@@ -9002,7 +9001,7 @@ msgid ""
 "                            NUL-terminated names in file F;\n"
 "                            If F is - then read names from standard input\n"
 msgstr ""
-"      --debug               附註要排序行的組成部份，\n"
+"      --debug               附註要排序列的組成部份，\n"
 "                              並警告有問題的使用方式至 stderr\n"
 "      --files0-from=F       從檔案 F 中以 NUL 結束的檔名中讀取輸入；\n"
 "                            如果 F 是 - 則從標準輸入讀取名稱\n"
@@ -9058,9 +9057,9 @@ msgstr ""
 "\n"
 "KEYDEF 是 F[.C][OPTS][,F[.C][OPTS]] 用於開始及停止位置，\n"
 "F 是欄碼，C 是欄中字元位置，兩者的原點皆為 1，且停止位置預設皆為\n"
-"行尾。如果 -t 和 -b 皆未作用，則欄中字元會從前置空白開頭開始計數。\n"
+"列尾。如果 -t 和 -b 皆未作用，則欄中字元會從前置空白開頭開始計數。\n"
 "OPTS 是一或多個以單字元表示的排序選項 [bdfgiMhnRrV]，會覆蓋該鍵的\n"
-"全域排序選項。若未指定鍵，則會將一整行當鍵使用。使用 --debug 診斷\n"
+"全域排序選項。若未指定鍵，則會將一整列當鍵使用。使用 --debug 診斷\n"
 "不正確的鍵用法。\n"
 "\n"
 "<大小> 可以使用下方倍數後綴作為結尾：\n"
@@ -9126,22 +9125,22 @@ msgstr "警告：無法刪除：%s"
 #: src/sort.c:1353
 #, c-format
 msgid "invalid --%s argument %s"
-msgstr "無效的 --%s 參數 %s"
+msgstr "無效的 --%s 引數 %s"
 
 #: src/sort.c:1356
 #, c-format
 msgid "minimum --%s argument is %s"
-msgstr "最小 --%s 參數是 %s"
+msgstr "最小 --%s 引數是 %s"
 
 #: src/sort.c:1371
 #, c-format
 msgid "--%s argument %s too large"
-msgstr "--%s 參數 %s 太長"
+msgstr "--%s 引數 %s 太長"
 
 #: src/sort.c:1374
 #, c-format
 msgid "maximum --%s argument with current rlimit is %s"
-msgstr "目前資源限制 (rlimit) 之最大 --%s 參數是 %s"
+msgstr "目前資源限制 (rlimit) 之最大 --%s 引數是 %s"
 
 #: src/sort.c:1456
 msgid "number in parallel must be nonzero"
@@ -9314,7 +9313,7 @@ msgid ""
 "default size is 1000 lines, and default PREFIX is 'x'.\n"
 msgstr ""
 "將多個 <檔案> 片段輸出成 <前綴>aa, <前綴>ab, ...；\n"
-"預設大小是 1000 行，且預設前綴是「x」。\n"
+"預設大小是 1000 列，且預設前綴是「x」。\n"
 
 #: src/split.c:238
 #, c-format
@@ -9345,9 +9344,9 @@ msgstr ""
 "      --hex-suffixes[=FROM]  跟 -x 相同，但能設定開始值\n"
 "  -e, --elide-empty-files  不使用 '-n' 產生空的輸出檔\n"
 "      --filter=指令       寫入 shell <指令>，檔名是 $FILE\n"
-"  -l, --lines=NUMBER      給每個輸出檔放入 NUMBER 行 / 條紀錄\n"
+"  -l, --lines=NUMBER      給每個輸出檔放入 NUMBER 列 / 條紀錄\n"
 "  -n, --number=CHUNKS     產生 CHUNKS 個輸出檔；請參閱下方的解釋。\n"
-"  -t, --separator=分隔符  使用 <分隔符> 作為記錄分隔符而非換行符號；\n"
+"  -t, --separator=分隔符  使用 <分隔符> 作為記錄分隔符而非換列符號；\n"
 "                            '\\0' (零) 會指定 NUL 字元\n"
 "  -u, --unbuffered        使用 '-n r/...' 立即複製輸入至輸出\n"
 
@@ -9372,8 +9371,8 @@ msgstr ""
 "CHUNKS (區塊) 可以是：\n"
 "  N       基於輸入大小切分成 N 個檔案\n"
 "  K/N     輸出第 K 個 N 至標準輸出\n"
-"  l/N     切分成 N 個檔案而不分割行 / 記錄\n"
-"  l/K/N   輸出第 k 個 N 至標準輸出而不分割行 / 記錄\n"
+"  l/N     切分成 N 個檔案而不分割列 / 記錄\n"
+"  l/K/N   輸出第 k 個 N 至標準輸出而不分割列 / 記錄\n"
 "  r/N     類似 'l' 但使用輪替分配方式 (round robin distribution)\n"
 "  r/K/N   類似上者，但只輸出第 K 個 N 至標準輸出\n"
 
@@ -9481,7 +9480,7 @@ msgstr "指定了多個分隔符字元"
 #: src/split.c:1462
 #, c-format
 msgid "line count option -%s%c... is too large"
-msgstr "行數選項 -%s%c... 過長"
+msgstr "列數選項 -%s%c... 過長"
 
 #: src/split.c:1479
 #, c-format
@@ -9606,7 +9605,7 @@ msgstr "權限：(%04a/%10.10A)    Uid：(%5u/%8U)  Gid：(%5g/%8G)\n"
 #: src/stat.c:1666
 #, c-format
 msgid "Context: %C\n"
-msgstr "上下文：%C\n"
+msgstr "情境：%C\n"
 
 #: src/stat.c:1674
 msgid ""
@@ -9650,10 +9649,10 @@ msgid ""
 "  -t, --terse           print the information in terse form\n"
 msgstr ""
 "  -c  --format=格式     使用指定的 <格式> 而非預設值；\n"
-"                          在每次使用 <格式> 後輸出換行\n"
+"                          在每次使用 <格式> 後輸出換列\n"
 "      --printf=格式       類似 --format，但會解譯反斜線，\n"
-"                          且不輸出強制性的末尾換行；\n"
-"                          若要換行，請在 <格式> 中加上 \\n \n"
+"                          且不輸出強制性的末尾換列；\n"
+"                          若要換列，請在 <格式> 中加上 \\n \n"
 "  -t, --terse           輸出簡潔格式的資訊\n"
 
 #: src/stat.c:1717
@@ -9665,7 +9664,7 @@ msgid ""
 "`default` will leave it up to the underlying file system.\n"
 msgstr ""
 "\n"
-"--cached MODE 參數可以是：always、never 或 default。\n"
+"--cached MODE 引數可以是：always、never 或 default。\n"
 "`always` 會在有快取屬性時使用它，\n"
 "`never` 會嘗試與最新屬性同步\n"
 "`default` 會留給底層檔案系統決定。\n"
@@ -9688,7 +9687,7 @@ msgstr ""
 "  %A   人類可讀格式的權限位元及檔案類型\n"
 "  %b   配置的區塊數 (請參閱 %B)\n"
 "  %B   %b 回報的每個區塊大小 (位元組)\n"
-"  %C   SELinux 安全性上下文字串\n"
+"  %C   SELinux 安全性情境字串\n"
 
 #: src/stat.c:1733
 msgid ""
@@ -9836,7 +9835,7 @@ msgid ""
 "This option is invalid with standard input.\n"
 msgstr ""
 "\n"
-"若 MODE 是 \"L\"，則相應的流將是行緩衝模式。\n"
+"若 MODE 是 \"L\"，則相應的流將是列緩衝模式。\n"
 "標準輸入流下此選項無效。\n"
 
 #: src/stdbuf.c:108
@@ -9890,7 +9889,7 @@ msgstr "更新 %s 的環境失敗"
 #: src/stdbuf.c:346
 #, c-format
 msgid "line buffering stdin is meaningless"
-msgstr "對標準輸入進行行緩衝無意義"
+msgstr "對標準輸入進行列緩衝無意義"
 
 #: src/stdbuf.c:377
 #, c-format
@@ -9930,7 +9929,7 @@ msgid ""
 msgstr ""
 "\n"
 "可選- 在設定前的指示中，* 標記出了非POSIX 標準的設定。以下系\n"
-"統定義象徵了哪些設定是有效的。\n"
+"統定義象徵了哪些設定有效。\n"
 
 #: src/stty.c:555
 msgid ""
@@ -9954,7 +9953,7 @@ msgid ""
 "   eol CHAR      CHAR will end the line\n"
 msgstr ""
 "   eof 字元      <字元> 會傳送檔案結束字元 (EOF) (結束輸入)\n"
-"   eol 字元      CHAR 會結束一行 (EOL)\n"
+"   eol 字元      CHAR 會結束一列 (EOL)\n"
 
 #: src/stty.c:573
 msgid " * eol2 CHAR     alternate CHAR for ending the line\n"
@@ -9968,7 +9967,7 @@ msgid ""
 msgstr ""
 "   erase 字元    擦除前一個輸入文字的字元\n"
 "   intr 字元     用於發送中斷訊號的字元\n"
-"   kill 字元     用於擦除目前終端行的字元\n"
+"   kill 字元     用於擦除目前終端列的字元\n"
 
 #: src/stty.c:583
 msgid " * lnext CHAR    CHAR will enter the next character quoted\n"
@@ -10081,7 +10080,7 @@ msgid ""
 "   ospeed N      set the output speed to N\n"
 msgstr ""
 "   ispeed N\t設定輸入速度為N 波特\n"
-" * line N\t設定行約束規則為N\n"
+" * line N\t設定列約束規則為N\n"
 "   min N\t和 -icanon 配合使用，設定每次一完整讀入的最小字元數為<N>\n"
 "   ospeed N\t設定輸出速度為N 波特\n"
 
@@ -10096,8 +10095,8 @@ msgid ""
 " * rows N        tell the kernel that the terminal has N rows\n"
 " * size          print the number of rows and columns according to the kernel\n"
 msgstr ""
-" * rows N\t向核心通告此終端有N 行\n"
-" * size\t根據核心訊息輸出目前終端的行數和列數\n"
+" * rows N\t向核心通告此終端有N 列\n"
+" * size\t根據核心訊息輸出目前終端的列數和列數\n"
 "   speed\t輸出終端速度(單位為波特)\n"
 "   time N\t和-icanon 配合使用，設定讀取超時為N 個十分之一秒\n"
 
@@ -10112,8 +10111,8 @@ msgid ""
 "   speed         print the terminal speed\n"
 "   time N        with -icanon, set read timeout of N tenths of a second\n"
 msgstr ""
-" * rows N\t向核心通告此終端有N 行\n"
-" * size\t根據核心訊息輸出目前終端的行數和列數\n"
+" * rows N\t向核心通告此終端有N 列\n"
+" * size\t根據核心訊息輸出目前終端的列數和列數\n"
 "   speed\t輸出終端速度(單位為波特)\n"
 "   time N\t和-icanon 配合使用，設定讀取超時為N 個十分之一秒\n"
 
@@ -10183,7 +10182,7 @@ msgstr ""
 "\n"
 "輸入設定：\n"
 "   [-]brkint\t任務中斷會觸發中斷訊號\n"
-"   [-]icrnl\t將Enter轉換為換行符\n"
+"   [-]icrnl\t將Enter轉換為換列符\n"
 "   [-]ignbrk\t忽略中斷字元\n"
 "   [-]igncr\t忽略Enter\n"
 
@@ -10206,7 +10205,7 @@ msgid ""
 msgstr ""
 "   [-]ignpar\t忽略含有奇偶不對稱錯誤的字元\n"
 " * [-]imaxbel\t發出終端響鈴但不重新整理字元的完整輸入緩衝\n"
-"   [-]inlcr\t將換行符轉換為Enter\n"
+"   [-]inlcr\t將換列符轉換為Enter\n"
 "   [-]inpck\t啟用輸入奇偶性校驗\n"
 "   [-]istrip\t剝除輸入字元的高8 位位元\n"
 
@@ -10335,8 +10334,8 @@ msgstr ""
 "\n"
 "本機設定：\n"
 "   [-]crterase\t擦除字元回顯為倒退字元符\n"
-" * crtkill\t依照echoprt 和echoe 的設定清除所有行\n"
-" * -crtkill\t依照echoctl 和echol 的設定清除所有行\n"
+" * crtkill\t依照echoprt 和echoe 的設定清除所有列\n"
+" * -crtkill\t依照echoctl 和echol 的設定清除所有列\n"
 
 #: src/stty.c:808
 msgid " * [-]ctlecho    echo control characters in hat notation ('^c')\n"
@@ -10554,19 +10553,19 @@ msgid ""
 "127; special values ^- or undef used to disable special characters.\n"
 msgstr ""
 "\n"
-"處理連結到標準輸入的 tty 終端行設定。當不附加參數時，程式會輸出波特率、行約束\n"
+"處理連結到標準輸入的 tty 終端列設定。當不附加引數時，程式會輸出波特率、列約束\n"
 "規則以及與標準 stty 設定間的偏差。在設定中，字元會被逐字讀取或是被編碼為 ^c、\n"
 "0x37、0177 或 127 這樣的字元，其中有特殊值 ^- 或 undef 被用於禁止特殊字元。\n"
 
 #: src/stty.c:1097
 #, c-format
 msgid "missing argument to %s"
-msgstr "缺少%s 的參數"
+msgstr "缺少 %s 的引數"
 
 #: src/stty.c:1140 src/stty.c:1258
 #, c-format
 msgid "invalid argument %s"
-msgstr "無效的參數 %s"
+msgstr "無效的引數 %s"
 
 #: src/stty.c:1192
 #, c-format
@@ -10576,7 +10575,7 @@ msgstr "%s：設定 %s 時發生錯誤"
 #: src/stty.c:1234
 #, c-format
 msgid "invalid line discipline %s"
-msgstr "無效的行約束%s"
+msgstr "無效的列約束%s"
 
 #: src/stty.c:1326
 msgid "only one device may be specified"
@@ -10609,7 +10608,7 @@ msgstr "%s：此裝置沒有大小訊息"
 
 #: src/stty.c:2321
 msgid "invalid integer argument"
-msgstr "無效的整數參數"
+msgstr "無效的整數引數"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/sum.c:38
@@ -10677,7 +10676,7 @@ msgstr "無法同時指定 --data 和 --file-system"
 
 #: src/sync.c:219
 msgid "--data needs at least one argument"
-msgstr "--data 需要至少一個參數"
+msgstr "--data 需要至少一個引數"
 
 #: src/system.h:347
 #, c-format
@@ -10713,7 +10712,7 @@ msgid ""
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
 "\n"
-"必要參數對長短選項皆適用。\n"
+"必要引數對長短選項皆適用。\n"
 
 #: src/system.h:598
 msgid ""
@@ -10723,7 +10722,7 @@ msgid ""
 "Binary prefixes can be used, too: KiB=K, MiB=M, and so on.\n"
 msgstr ""
 "\n"
-"<大小> 參數是整數 + 選擇性的單位 (範例：10K = 10*1024)。\n"
+"<大小> 引數是整數 + 選擇性的單位 (範例：10K = 10*1024)。\n"
 "單位有 K,M,G,T,P,E,Z,Y (1024 的倍數) 或 KB,MB,... (1000 的倍數)。\n"
 "亦可使用二進位前綴：KiB=K、MiB=M 等等。\n"
 
@@ -10820,7 +10819,7 @@ msgstr "Jay Lepreau"
 
 #: src/tac.c:136
 msgid "Write each FILE to standard output, last line first.\n"
-msgstr "將每個指定檔案按行倒置並寫到標準輸出。\n"
+msgstr "將每個指定檔案按列倒置並寫到標準輸出。\n"
 
 #: src/tac.c:143
 msgid ""
@@ -10828,9 +10827,9 @@ msgid ""
 "  -r, --regex              interpret the separator as a regular expression\n"
 "  -s, --separator=STRING   use STRING as the separator instead of newline\n"
 msgstr ""
-"  -b, --before\t\t\t在行前而非行尾新增分隔標誌\n"
+"  -b, --before\t\t\t在列前而非列尾新增分隔標誌\n"
 "  -r, --regex\t\t\t將分隔標誌視作正規表示式來解析\n"
-"  -s, --separator=字串\t使用指定字串代取代行作為分隔標誌\n"
+"  -s, --separator=字串\t使用指定字串代取代列作為分隔標誌\n"
 
 #: src/tac.c:223 src/tac.c:233 src/tac.c:343
 #, c-format
@@ -10881,7 +10880,7 @@ msgid ""
 "Print the last %d lines of each FILE to standard output.\n"
 "With more than one FILE, precede each with a header giving the file name.\n"
 msgstr ""
-"顯示每個指定檔案的最後 %d 行並輸出至標準輸出。\n"
+"顯示每個指定檔案的最後 %d 列並輸出至標準輸出。\n"
 "若指定了多於一個檔案，程式會在每段輸出的開始新增相應檔名作為頭。\n"
 
 #: src/tail.c:277
@@ -10901,7 +10900,7 @@ msgid ""
 msgstr ""
 "  -f, --follow[={name|descriptor}]\n"
 "                           隨檔案增長即時輸出新增資料；\n"
-"                             若未指定選項參數，則預設使用 'descriptor'\n"
+"                             若未指定選項引數，則預設使用 'descriptor'\n"
 "  -F                       和 --follow=name --retry 相同\n"
 
 #: src/tail.c:287
@@ -10916,8 +10915,8 @@ msgid ""
 "                             (this is the usual case of rotated log files);\n"
 "                             with inotify, this option is rarely useful\n"
 msgstr ""
-"  -n, --lines=[+]NUM       輸出最後 NUM 行，而非最後 %d 行；或使用\n"
-"                           -n +NUM 以從第 NUM 行開始\n"
+"  -n, --lines=[+]NUM       輸出最後 NUM 列，而非最後 %d 列；或使用\n"
+"                           -n +NUM 以從第 NUM 列開始\n"
 "      --max-unchanged-stats=N\n"
 "                           使用 --follow=name，則重新開啟 N 次 (預設 %d 次) 迭代後\n"
 "                             大小沒變化的 FILE 以檢查檔案是否被取消連結或重新命名\n"
@@ -11088,7 +11087,7 @@ msgstr ""
 
 #: src/tail.c:2235
 msgid "invalid PID"
-msgstr "無效的處理程序號碼（PID）"
+msgstr "無效的 PID"
 
 #: src/tail.c:2251
 #, c-format
@@ -11098,7 +11097,7 @@ msgstr "無效的秒數：%s"
 #: src/tail.c:2270
 #, c-format
 msgid "option used in invalid context -- %c"
-msgstr "在無效上下文中使用選項 -- %c"
+msgstr "在無效情境中使用選項 -- %c"
 
 #: src/tail.c:2282
 #, c-format
@@ -11181,7 +11180,7 @@ msgstr ""
 #: src/test.c:126
 #, c-format
 msgid "missing argument after %s"
-msgstr "%s 後缺少參數"
+msgstr "%s 後缺少引數"
 
 #: src/test.c:162
 #, c-format
@@ -11341,7 +11340,7 @@ msgid ""
 msgstr ""
 "  -f 檔案\t\t指定檔案存在且為一般檔案\n"
 "  -g 檔案\t\t指定檔案存在且設定了setgid 位\n"
-"  -G 檔案\t\t指定檔案存在且屬ID群組 有效\n"
+"  -G 檔案\t\t指定檔案存在且屬有效用群組ID擁有\n"
 "  -h 檔案\t\t指定檔案存在且為符號連結 (等價於 -L)\n"
 "  -k 檔案\t\t指定檔案存在且設定了黏附位\n"
 
@@ -11356,7 +11355,7 @@ msgid ""
 msgstr ""
 "  -L 檔案     指定檔案存在且為符號連結 (等於 -h)\n"
 "  -N 檔案     指定檔案存在且在上次讀取後修改過\n"
-"  -O 檔案     指定檔案存在且所有者 ID 有效\n"
+"  -O 檔案     指定檔案存在且屬有效用使用者ID擁有\n"
 "  -p 檔案     指定檔案存在且為命名管道\n"
 "  -r 檔案     指定檔案存在且具備讀取權限\n"
 "  -s 檔案     指定檔案存在且其大小大於 0\n"
@@ -11429,7 +11428,7 @@ msgstr "缺少 %s"
 #: src/test.c:864
 #, c-format
 msgid "extra argument %s"
-msgstr "多餘的參數 %s"
+msgstr "多餘的引數 %s"
 
 #: src/timeout.c:135
 #, c-format
@@ -11452,7 +11451,7 @@ msgid ""
 "Usage: %s [OPTION] DURATION COMMAND [ARG]...\n"
 "  or:  %s [OPTION]\n"
 msgstr ""
-"用法：%s [選項] 停留時間 指令 [參數]...\n"
+"用法：%s [選項] 停留時間 指令 [引數]...\n"
 "　或：%s 選項\n"
 
 #: src/timeout.c:239
@@ -11480,7 +11479,7 @@ msgstr ""
 "                 退出時返回值與所執行指令的返回值保持相同，即使指令超時也\n"
 "                   這樣設定\n"
 "      --foreground\n"
-"                 當 timeout 不是直接從 shell 指令行開始執行時，允許所執行的\n"
+"                 當 timeout 不是直接從 shell 命令列開始執行時，允許所執行的\n"
 "                   指令從 TTY 讀取輸入並取得 TTY 訊號；在此模式下，所執行的\n"
 "                   指令的子處理程序不會受超時的影響\n"
 "  -k, --kill-after=持續時間\n"
@@ -11706,7 +11705,7 @@ msgstr ""
 "  \\a              響聲 (BEL)\n"
 "  \\b              倒退字元 (backspace)\n"
 "  \\f              換頁字元 (form feed)\n"
-"  \\n              換行字元 (new line)\n"
+"  \\n              換列字元 (new line)\n"
 "  \\r              復位字元 (return)\n"
 "  \\t              水平定位字元 (tab)\n"
 
@@ -11803,7 +11802,7 @@ msgstr "「%s-%s」的結束點範圍序列已經過反轉處理"
 #: src/tr.c:812
 #, c-format
 msgid "invalid repeat count %s in [c*n] construct"
-msgstr "在參數結構 [c*n] 中有無效的重複次數%s"
+msgstr "在引數結構 [c*n] 中有無效的重複次數%s"
 
 #: src/tr.c:888
 #, c-format
@@ -11869,7 +11868,7 @@ msgstr "當以反相模式取代字元類型時，字串2 必須將所有字元�
 
 #: src/tr.c:1507
 msgid "the [c*] construct may appear in string2 only when translating"
-msgstr "當進行取代操作時[c*] 結構的參數只能出現在字串2 中"
+msgstr "當進行取代操作時[c*] 結構的引數只能出現在字串2 中"
 
 #: src/tr.c:1759
 msgid "Two strings must be given when both deleting and squeezing repeats."
@@ -11889,7 +11888,7 @@ msgid ""
 "Usage: %s [ignored command line arguments]\n"
 "  or:  %s OPTION\n"
 msgstr ""
-"用法：%s [忽略任何指令行參數]\n"
+"用法：%s [忽略任何命令列引數]\n"
 "　或：%s 選項\n"
 
 #: src/true.c:45
@@ -12039,7 +12038,7 @@ msgstr "\n"
 #: src/tsort.c:475
 #, c-format
 msgid "%s: input contains an odd number of tokens"
-msgstr "%s：輸入內容的行數為奇數"
+msgstr "%s：輸入內容的列數為奇數"
 
 #: src/tsort.c:521
 #, c-format
@@ -12076,7 +12075,7 @@ msgstr ""
 "                             -i 的探測結果不可知則被省略：\n"
 "  -s, --kernel-name        輸出核心名稱\n"
 "  -n, --nodename           輸出網路節點上的主機名稱\n"
-"  -r, --kernel-release     輸出核心發行號\n"
+"  -r, --kernel-release     輸出核心發行版號\n"
 
 #: src/uname.c:134
 msgid ""
@@ -12134,9 +12133,9 @@ msgid ""
 "\n"
 "With no options, matching lines are merged to the first occurrence.\n"
 msgstr ""
-"從輸入檔案或者標準輸入中篩選相鄰的符合行並寫入到輸出檔案或標準輸出。\n"
+"從輸入檔案或者標準輸入中篩選相鄰的符合列並寫入到輸出檔案或標準輸出。\n"
 "\n"
-"不附加任何選項時符合行將在首次出現處被合併。\n"
+"不附加任何選項時符合列將在首次出現處被合併。\n"
 
 #: src/uniq.c:179
 #, fuzzy
@@ -12147,8 +12146,8 @@ msgid ""
 "  -c, --count           prefix lines by the number of occurrences\n"
 "  -d, --repeated        only print duplicate lines, one for each group\n"
 msgstr ""
-"  -c, --count           在每行前加上表示相應行目出現次數的前綴編號\n"
-"  -d, --repeated        只輸出重複的行\n"
+"  -c, --count           在每列前加上表示相應列目出現次數的前綴編號\n"
+"  -d, --repeated        只輸出重複的列\n"
 
 #: src/uniq.c:183
 msgid ""
@@ -12160,7 +12159,7 @@ msgstr ""
 
 #: src/uniq.c:189
 msgid "  -f, --skip-fields=N   avoid comparing the first N fields\n"
-msgstr "  -f, --skip-fields=N   不要比較前 N 個域\n"
+msgstr "  -f, --skip-fields=N   不要比較前 N 個欄位\n"
 
 #: src/uniq.c:192
 msgid ""
@@ -12176,11 +12175,11 @@ msgid ""
 msgstr ""
 "  -i, --ignore-case     比較時忽略大小寫差異\n"
 "  -s, --skip-chars=N    不要比較起始 N 個字元\n"
-"  -u, --unique          只輸出不重複（內容唯一）的行\n"
+"  -u, --unique          只輸出不重複（內容唯一）的列\n"
 
 #: src/uniq.c:204
 msgid "  -w, --check-chars=N   compare no more than N characters in lines\n"
-msgstr "  -w, --check-chars=N\t對每行第N 個字元以後的內容不作對照\n"
+msgstr "  -w, --check-chars=N\t對每列第N 個字元以後的內容不作對照\n"
 
 #: src/uniq.c:209
 msgid ""
@@ -12189,7 +12188,7 @@ msgid ""
 "characters.  Fields are skipped before chars.\n"
 msgstr ""
 "\n"
-"若域中為先空字元(通常包括空格以及定位符號)，然後非空字元，域中字元前的空字元將被跳過。\n"
+"若欄位中為先空字元（通常包括空格以及定位符號），然後非空字元，欄位中字元前的空字元將被跳過。\n"
 
 #: src/uniq.c:214
 msgid ""
@@ -12198,12 +12197,12 @@ msgid ""
 "You may want to sort the input first, or use 'sort -u' without 'uniq'.\n"
 msgstr ""
 "\n"
-"提示：\"uniq\" 不會檢查重複的行，除非它們是相鄰的行。\n"
+"提示：\"uniq\" 不會檢查重複的列，除非它們是相鄰的列。\n"
 "您也許需要事先對輸入排序，或使用 \"sort -u\" 而非 \"uniq\"。\n"
 
 #: src/uniq.c:425
 msgid "too many repeated lines"
-msgstr "重複行過多"
+msgstr "重複列過多"
 
 #: src/uniq.c:600
 msgid "invalid number of fields to skip"
@@ -12230,7 +12229,7 @@ msgstr "群組及輸出重複次數沒有意義"
 #: src/uniq.c:655
 #, c-format
 msgid "printing all duplicated lines and repeat counts is meaningless"
-msgstr "同時輸出重複的行和重複計數是沒有意義的"
+msgstr "同時輸出重複的列和重複計數是沒有意義的"
 
 #: src/unlink.c:45
 #, c-format
@@ -12333,8 +12332,8 @@ msgid ""
 "more than one FILE is specified.  A word is a non-zero-length sequence of\n"
 "characters delimited by white space.\n"
 msgstr ""
-"輸出每個 <檔案> 的換行、單字及位元組數，如果指定多個 <檔案>，則還會\n"
-"輸出總行數。此指單字是用空白分隔，長度大於 0 的字元序列。\n"
+"輸出每個 <檔案> 的換列、單字及位元組數，如果指定多個 <檔案>，則還會\n"
+"輸出總列數。此指單字是用空白分隔，長度大於 0 的字元序列。\n"
 
 #: src/wc.c:131
 msgid ""
@@ -12347,10 +12346,10 @@ msgid ""
 msgstr ""
 "\n"
 "下述選項可能會用來選擇要輸出哪個項目的數量，順序永遠如下：\n"
-"換行、單字、字元、位元組、最大行長度。\n"
+"換列、單字、字元、位元組、最大列長度。\n"
 "  -c, --bytes            輸出位元組數量\n"
 "  -m, --chars            輸出字元數\n"
-"  -l, --lines            輸出換行數\n"
+"  -l, --lines            輸出換列數\n"
 
 #: src/wc.c:139
 msgid ""
@@ -12424,11 +12423,11 @@ msgstr "時間"
 
 #: src/who.c:563
 msgid "IDLE"
-msgstr "空閒"
+msgstr "閒置"
 
 #: src/who.c:564
 msgid "PID"
-msgstr "處理程序號"
+msgstr "PID"
 
 #: src/who.c:564
 msgid "COMMENT"
@@ -12441,7 +12440,7 @@ msgstr "退出"
 #: src/who.c:644
 #, c-format
 msgid "Usage: %s [OPTION]... [ FILE | ARG1 ARG2 ]\n"
-msgstr "用法：%s [選項]... [ 檔案 | 參數1 參數2 ]\n"
+msgstr "用法：%s [選項]... [ 檔案 | 引數1 引數2 ]\n"
 
 #: src/who.c:645
 msgid "Print information about users who are currently logged in.\n"
@@ -12459,7 +12458,7 @@ msgstr ""
 "  -a, --all\t\t等於-b -d --login -p -r -t -T -u 選項的組合\n"
 "  -b, --boot\t\t上次系統啟動時間\n"
 "  -d, --dead\t\t顯示已死的處理程序\n"
-"  -H, --heading\t輸出頭部的標題列\n"
+"  -H, --heading\t輸出頭部的欄標題列\n"
 
 #: src/who.c:655
 msgid "  -l, --login       print system login processes\n"
@@ -12507,7 +12506,7 @@ msgid ""
 msgstr ""
 "\n"
 "如果檔案未被指定，則使用%s。%s 是通用的相關檔案。\n"
-"如果指定了參數1和參數2，則假定同時啟用了 -m 參數：常見的參數例子如\n"
+"如果指定了引數1和引數2，則假定同時啟用了 -m 引數：常見的引數例子如\n"
 "\"am i\" 或 \"mom likes\"。\n"
 
 #: src/whoami.c:45
@@ -12516,14 +12515,14 @@ msgid ""
 "Same as id -un.\n"
 "\n"
 msgstr ""
-"顯示與目前的有效使用者ID 相關聯的使用者名稱。\n"
-"與id -un 相同。\n"
+"顯示與目前有效用的使用者 ID 相關聯的使用者名稱。\n"
+"與 id -un 相同。\n"
 "\n"
 
 #: src/whoami.c:86
 #, c-format
 msgid "cannot find name for user ID %lu"
-msgstr "無法找到 ID 為 %lu 的使用者的名稱"
+msgstr "無法找到使用者 ID %lu 的名稱"
 
 #: src/yes.c:41
 #, c-format
@@ -12539,7 +12538,7 @@ msgid ""
 "Repeatedly output a line with all specified STRING(s), or 'y'.\n"
 "\n"
 msgstr ""
-"重複輸出一行指定的字串，或者重複輸出\"y\"。\n"
+"重複輸出一列指定的字串，或者重複輸出\"y\"。\n"
 "\n"
 
 #~ msgid "%s home page: <https://www.gnu.org/software/%s/>\n"
