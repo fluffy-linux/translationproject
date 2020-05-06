@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: coreutils-8.31.90\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2020-02-27 17:02+0000\n"
-"PO-Revision-Date: 2020-03-03 19:33+0100\n"
+"PO-Revision-Date: 2020-05-06 20:44+0200\n"
 "Last-Translator: Frédéric Marchal <fmarchal@perso.be>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -2332,7 +2332,7 @@ msgid ""
 msgstr ""
 "  -s, --symbolic-link          créer des liens symboliques au lieu d'une copie\n"
 "  -S, --suffix=SUFFIXE         remplacer le suffixe habituel d'archivage\n"
-"      --target-directory=RÉPERTOIRE  copier tous les arguments SOURCE dans\n"
+"  -t, --target-directory=RÉPERTOIRE  copier tous les arguments SOURCE dans\n"
 "                                     RÉPERTOIRE\n"
 "  -T, --no-target-directory    traiter DEST comme un fichier normal\n"
 
@@ -11075,7 +11075,7 @@ msgstr ""
 #. the entire URL with your translation team's email address.
 #: src/system.h:666
 msgid "Report any translation bugs to <https://translationproject.org/team/>\n"
-msgstr "Signalez les problèmes de traduction de à : <traduc@traduc.org>\n"
+msgstr "Signalez les problèmes de traduction à : <traduc@traduc.org>\n"
 
 #: src/system.h:669
 #, c-format
