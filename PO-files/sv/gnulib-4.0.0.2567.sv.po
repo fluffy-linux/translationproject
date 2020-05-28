@@ -1,21 +1,21 @@
 # Swedish messages for gnulib.
-# Copyright © 1997, 2002, 2003, 2004, 2005, 2007, 2009, 2010, 2011, 2019 Free Software Foundation, Inc.
+# Copyright © 1997, 2002, 2003, 2004, 2005, 2007, 2009, 2010, 2011, 2019, 2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnulib package.
 # Peter Antman <peter.antman@abc.se>, 1997.
 # Thomas Olsson <cid95tho@lustudat.student.lu.se>, 1997.
 # Daniel Resare <daniel@resare.com>, 1999, 2000.
-# Göran Uddeborg <goeran@uddeborg.se>, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2007, 2009, 2010, 2011, 2019.
+# Göran Uddeborg <goeran@uddeborg.se>, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2007, 2009, 2010, 2011, 2019, 2020.
 #
-# $Revision: 1.14 $
+# $Revision: 1.19 $
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnulib 4.0.0.2567\n"
 "Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
 "POT-Creation-Date: 2019-05-18 19:06+0200\n"
-"PO-Revision-Date: 2019-05-21 10:41+0200\n"
+"PO-Revision-Date: 2020-05-28 21:40+0200\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language-Team: Swedish <tp-sv-list@lists.sourceforge.net>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +45,7 @@ msgstr "ARGP_HELP_FMT: värdet på %s är mindre än eller lika med %s"
 #: lib/argp-help.c:224
 #, c-format
 msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
-msgstr "%.*s: ARGP_HELP_FMT parametern kräver ett värde"
+msgstr "%.*s: ARGP_HELP_FMT-parametern kräver ett värde"
 
 #: lib/argp-help.c:234
 #, c-format
@@ -83,7 +83,7 @@ msgstr "Försök med ”%s --help” eller ”%s --usage” för mer information
 msgid "Report bugs to %s.\n"
 msgstr ""
 "Rapportera fel till %s.\n"
-"Skicka synpunkter på översättningen till <tp-sv@listor.tp-sv.se>.\n"
+"Skicka synpunkter på översättningen till <tp-sv-list@lists.sourceforge.net>.\n"
 
 #: lib/argp-help.c:1889 lib/error.c:195
 msgid "Unknown system error"
@@ -133,22 +133,22 @@ msgstr "(PROGRAMFEL) Flaggan borde ha känts igen!?"
 #: lib/bitset/stats.c:177
 #, c-format
 msgid "%u bitset_allocs, %u freed (%.2f%%).\n"
-msgstr "%u bitset-allokeringar, %u friade (%.2f%%).\n"
+msgstr "%u bitset-allokeringar, %u frigjorda (%.2f %%).\n"
 
 #: lib/bitset/stats.c:180
 #, c-format
 msgid "%u bitset_sets, %u cached (%.2f%%)\n"
-msgstr "%u bitset-mängder, %u cachade (%.2f%%)\n"
+msgstr "%u bitset-mängder, %u cachade (%.2f %%)\n"
 
 #: lib/bitset/stats.c:183
 #, c-format
 msgid "%u bitset_resets, %u cached (%.2f%%)\n"
-msgstr "%u bitset-återställningar, %u cachade (%.2f%%)\n"
+msgstr "%u bitset-återställningar, %u cachade (%.2f %%)\n"
 
 #: lib/bitset/stats.c:186
 #, c-format
 msgid "%u bitset_tests, %u cached (%.2f%%)\n"
-msgstr "%u bitset-tester, %u cachade (%.2f%%)\n"
+msgstr "%u bitset-tester, %u cachade (%.2f %%)\n"
 
 #: lib/bitset/stats.c:190
 #, c-format
@@ -246,7 +246,7 @@ msgstr "fel när %s öppnades för läsning"
 #: lib/copy-file.c:179
 #, c-format
 msgid "cannot open backup file %s for writing"
-msgstr "det går inte att öppna säkerthetskopiefil %s för skrivning"
+msgstr "det går inte att öppna säkerhetskopiefilen %s för skrivning"
 
 #: lib/copy-file.c:183
 #, c-format
@@ -273,7 +273,7 @@ msgstr "C#-kompilator hittades inte, försök installera mono"
 
 #: lib/csharpexec.c:255
 msgid "C# virtual machine not found, try installing mono"
-msgstr "virtuell C#-maskinen hittades inte, försök installera mono"
+msgstr "den virtuella C#-maskinen hittades inte, försök installera mono"
 
 #: lib/dfa.c:970
 msgid "unbalanced ["
@@ -467,11 +467,11 @@ msgstr "Bearbetar pågående begäran"
 
 #: lib/gai_strerror.c:71
 msgid "Request canceled"
-msgstr "Begäran annulerad"
+msgstr "Begäran annullerad"
 
 #: lib/gai_strerror.c:72
 msgid "Request not canceled"
-msgstr "Begäran inte annulerad"
+msgstr "Begäran inte annullerad"
 
 #: lib/gai_strerror.c:73
 msgid "All requests done"
@@ -517,12 +517,12 @@ msgstr "%s: flaggan ”%s%s” kräver ett argument\n"
 #: lib/getopt.c:621
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: ogiltig flagga -- \"%c\"\n"
+msgstr "%s: ogiltig flagga -- ”%c”\n"
 
 #: lib/getopt.c:636 lib/getopt.c:682
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: flaggan kräver ett argument -- \"%c\"\n"
+msgstr "%s: flaggan kräver ett argument -- ”%c”\n"
 
 #: lib/javacomp.c:150 lib/javacomp.c:174 lib/javacomp.c:200
 msgid "invalid source_version argument to compile_java_class"
@@ -535,7 +535,7 @@ msgstr "ogiltigt target_version-argument till compile_java_class"
 #: lib/javacomp.c:579
 #, c-format
 msgid "failed to create \"%s\""
-msgstr "det gick inte att skapa \"%s\""
+msgstr "det gick inte att skapa ”%s”"
 
 #: lib/javacomp.c:586
 #, c-format
@@ -691,7 +691,7 @@ msgstr "Ensam ( eller \\("
 
 #: lib/regcomp.c:162
 msgid "Unmatched \\{"
-msgstr "Ensam \\\\{"
+msgstr "Ensam \\{"
 
 #: lib/regcomp.c:165
 msgid "Invalid content of \\{\\}"
@@ -844,11 +844,11 @@ msgstr "Begränsning av filstorlek överskriden"
 
 #: lib/siglist.h:100
 msgid "Virtual timer expired"
-msgstr "Alarmklocka - virtuell tid"
+msgstr "Alarmklocka - virtuell tid gick ut"
 
 #: lib/siglist.h:103
 msgid "Profiling timer expired"
-msgstr "Profileringsklocka"
+msgstr "Profileringsklocka gick ut"
 
 #: lib/siglist.h:106
 msgid "Window changed"
@@ -898,7 +898,7 @@ msgstr "kan inte skapa rör"
 #: lib/strsignal.c:114
 #, c-format
 msgid "Real-time signal %d"
-msgstr "Realtidsignal %d"
+msgstr "Realtidssignal %d"
 
 #: lib/strsignal.c:118
 #, c-format
@@ -1105,7 +1105,7 @@ msgstr ""
 msgid "Report bugs to: %s\n"
 msgstr ""
 "Rapportera fel till: %s\n"
-"Skicka synpunkter på översättningen till: tp-sv@listor.tp-sv.se\n"
+"Skicka synpunkter på översättningen till: tp-sv-list@lists.sourceforg.net\n"
 
 #: lib/version-etc.c:251
 #, c-format
@@ -1115,7 +1115,7 @@ msgstr "Rapportera %s-fel till: %s\n"
 #: lib/version-etc.c:255 lib/version-etc.c:257
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr "%s hemsida: <%s>\n"
+msgstr "Webbsida för %s: <%s>\n"
 
 #: lib/version-etc.c:260
 #, c-format
@@ -1143,7 +1143,7 @@ msgstr "%s-underprocess fick ödesdiger signal %d"
 
 #: lib/xbinary-io.c:37
 msgid "failed to set file descriptor text/binary mode"
-msgstr "misslyckades att filbeskrivaren i text-/binärt läge"
+msgstr "misslyckades att sätta filbeskrivaren i text-/binärt läge"
 
 #: lib/xfreopen.c:34
 msgid "stdin"
