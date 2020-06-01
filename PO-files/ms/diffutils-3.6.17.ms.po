@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2020-04-18 16:44+0800\n"
+"PO-Revision-Date: 2020-06-01 13:35+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -318,7 +318,7 @@ msgstr "hujah tidak sah %s bagi %s"
 #: lib/xstrtol-error.c:68
 #, fuzzy, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "hujah tidak sah %s bagi %s"
+msgstr "hujah tidak sah `%s' untuk `%s'"
 
 #: lib/xstrtol-error.c:72
 #, fuzzy, c-format
@@ -1258,7 +1258,7 @@ msgstr "pilihan gaya keluaran berkonflik"
 #, fuzzy, c-format
 #| msgid "invalid width `%s'"
 msgid "invalid color '%s'"
-msgstr "hujah tidak sah %s bagi %s"
+msgstr "%s tidak sah - %s"
 
 #: src/diff.c:1117 src/diff.c:1327
 #, c-format
@@ -1286,10 +1286,9 @@ msgid "File %s is a %s while file %s is a %s\n"
 msgstr "Fail %s adalah %s manakala fail %s adalah %s\n"
 
 #: src/diff.c:1373
-#, fuzzy, c-format
-#| msgid "Files %s and %s differ\n"
+#, c-format
 msgid "Symbolic links %s and %s differ\n"
-msgstr "Fail %s dan %s berbeza\n"
+msgstr "Pautan simbolik %s dan %s berbeza\n"
 
 #: src/diff.c:1460
 #, c-format
@@ -1307,10 +1306,8 @@ msgid "incompatible options"
 msgstr "pilihan tidak sepadan"
 
 #: src/diff3.c:391
-#, fuzzy
-#| msgid "`-' specified for more than one input file"
 msgid "'-' specified for more than one input file"
-msgstr "`-' dinyatakan untuk lebih daripada satu fail masukan"
+msgstr "'-' dinyatakan untuk lebih daripada satu fail masukan"
 
 #: src/diff3.c:442 src/diff3.c:1290 src/diff3.c:1693 src/diff3.c:1748
 #: src/sdiff.c:307 src/sdiff.c:844 src/sdiff.c:855
@@ -1318,18 +1315,16 @@ msgid "read failed"
 msgstr "gagal membaca"
 
 #: src/diff3.c:475
-#, fuzzy
-#| msgid "-A  --show-all  Output all changes, bracketing conflicts."
 msgid "-A, --show-all              output all changes, bracketing conflicts"
-msgstr "-A  --show-all  Keluarkan semua perubahan, kurungkan konflik."
+msgstr "-A, --show-all              keluarkan semua perubahan, kurungkan konflik"
 
 #: src/diff3.c:477
-#, fuzzy
-#| msgid "-e  --ed  Output unmerged changes from OLDFILE to YOURFILE into MYFILE."
 msgid ""
 "-e, --ed                    output ed script incorporating changes\n"
 "                                from OLDFILE to YOURFILE into MYFILE"
-msgstr "-e  --ed  Keluarkan perubahan tidak digabung daripada OLDFILE ke YOURFILE kedalam MYFILE."
+msgstr ""
+"-e, --ed                    keluarkan skrip ed menggabungkan perubahan\n"
+"                                daripada OLDFILE ke YOURFILE ke dalam MYFILE"
 
 #: src/diff3.c:479
 msgid "-E, --show-overlap          like -e, but bracket conflicts"
@@ -1345,7 +1340,7 @@ msgstr "-x, --overlap-only          seperti -e, tetapi hanya menggabungkan perub
 
 #: src/diff3.c:482
 msgid "-X                          like -x, but bracket conflicts"
-msgstr ""
+msgstr "-X                          seperti -x, tetapi kurungkan konflik"
 
 #: src/diff3.c:483
 msgid "-i                          append 'w' and 'q' commands to ed scripts"
