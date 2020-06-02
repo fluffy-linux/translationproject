@@ -6,16 +6,16 @@
 # Daniel Resare <daniel@resare.com> 1999, 2000.
 # Göran Uddeborg <goeran@uddeborg.se>, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2020.
 #
-# $Revision: 1.210 $
+# $Revision: 1.211 $
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 8.31.90\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2020-02-27 17:02+0000\n"
-"PO-Revision-Date: 2020-02-29 12:54+0100\n"
+"PO-Revision-Date: 2020-06-02 21:52+0200\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language-Team: Swedish <tp-sv-list@lists.sourceforge.net>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -785,14 +785,14 @@ msgstr ""
 msgid "Report bugs to: %s\n"
 msgstr ""
 "Rapportera fel till %s\n"
-"Rapportera kommentarer om översättningen till <tp-sv@listor.tp-sv.se>\n"
+"Rapportera kommentarer om översättningen till <tp-sv-list@lists.sourceforge.net>\n"
 
 #: lib/version-etc.c:251
 #, c-format
 msgid "Report %s bugs to: %s\n"
 msgstr ""
 "Rapportera fel i %s till %s\n"
-"Rapportera kommentarer om översättningen till <tp-sv@listor.tp-sv.se>\n"
+"Rapportera kommentarer om översättningen till <tp-sv-list@lists.sourceforge.net>\n"
 
 #: lib/version-etc.c:255 lib/version-etc.c:257
 #, c-format
@@ -964,7 +964,7 @@ msgstr "      --base32          samma som programmet ”base32” (RFC4648 avsni
 
 #: src/basenc.c:127
 msgid "      --base32hex       extended hex alphabet base32 (RFC4648 section 7)\n"
-msgstr "      --base32hex       utökat hexalfabete base32 (RFC4648 avsnitt 7)\n"
+msgstr "      --base32hex       utökat hexalfabet base32 (RFC4648 avsnitt 7)\n"
 
 #: src/basenc.c:130
 msgid "      --base16          hex encoding (RFC4648 section 8)\n"
@@ -976,7 +976,7 @@ msgstr "      --base2msbf       bitsträng med mest signifikant bit (msb) först
 
 #: src/basenc.c:136
 msgid "      --base2lsbf       bit string with least significant bit (lsb) first\n"
-msgstr "      --base2lsbf       bitsträng med minst signifikat bit (lsb) först\n"
+msgstr "      --base2lsbf       bitsträng med minst signifikant bit (lsb) först\n"
 
 #: src/basenc.c:140
 msgid ""
@@ -1032,7 +1032,7 @@ msgstr ""
 
 #: src/basenc.c:619
 msgid "invalid input (length must be multiple of 4 characters)"
-msgstr "felaktig indata (längden måste vara en mutipel av 4 tecken)"
+msgstr "felaktig indata (längden måste vara en multipel av 4 tecken)"
 
 #: src/basenc.c:1006 src/basenc.c:1052 src/csplit.c:277 src/csplit.c:1468
 #: src/join.c:465 src/shuf.c:233 src/shuf.c:279 src/shuf.c:559
@@ -10803,7 +10803,7 @@ msgstr ""
 #. the entire URL with your translation team's email address.
 #: src/system.h:666
 msgid "Report any translation bugs to <https://translationproject.org/team/>\n"
-msgstr "Rapportera anmärkningar på översättningen till <tp-sv@listor.tp-sv.se>\n"
+msgstr "Rapportera anmärkningar på översättningen till <tp-sv-list@lists.sourceforge.net>\n"
 
 #: src/system.h:669
 #, c-format
