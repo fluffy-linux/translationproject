@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2020-06-01 13:35+0800\n"
+"PO-Revision-Date: 2020-07-07 16:17+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -323,7 +323,7 @@ msgstr "hujah tidak sah `%s' untuk `%s'"
 #: lib/xstrtol-error.c:72
 #, fuzzy, c-format
 msgid "%s%s argument '%s' too large"
-msgstr "nombor token pengguna %s terlalu besar"
+msgstr "kod bagi token %s terlalu besar"
 
 #: lib/version-etc.c:73
 #, fuzzy, c-format
@@ -1227,10 +1227,8 @@ msgid "If --from-file or --to-file is given, there are no restrictions on FILE(s
 msgstr "Jika --from-file atau --to-file diberi, tiada sekatan pada FAIL."
 
 #: src/diff.c:984 src/diff3.c:528 src/sdiff.c:219
-#, fuzzy
-#| msgid "If a FILE is `-', read standard input."
 msgid "If a FILE is '-', read standard input."
-msgstr "Jika FAIL adalah `-', baca masukan piawai."
+msgstr "Jika FAIL adalah '-', baca masukan piawai."
 
 #: src/diff.c:994
 #, c-format
@@ -1238,16 +1236,13 @@ msgid "Usage: %s [OPTION]... FILES\n"
 msgstr "Penggunaan: %s [PILIHAN]... FAIL\n"
 
 #: src/diff.c:995
-#, fuzzy
-#| msgid "Compare files line by line."
 msgid "Compare FILES line by line."
-msgstr "Banding fail setiap baris."
+msgstr "Banding FAIL setiap baris."
 
 #: src/diff.c:1032
-#, fuzzy, c-format
-#| msgid "conflicting %s option value `%s'"
+#, c-format
 msgid "conflicting %s option value '%s'"
-msgstr "nilai pilihan %s berkonflik `%s'"
+msgstr "nilai pilihan %s bercanggah '%s'"
 
 #: src/diff.c:1045
 #, c-format
@@ -1255,10 +1250,9 @@ msgid "conflicting output style options"
 msgstr "pilihan gaya keluaran berkonflik"
 
 #: src/diff.c:1061
-#, fuzzy, c-format
-#| msgid "invalid width `%s'"
+#, c-format
 msgid "invalid color '%s'"
-msgstr "%s tidak sah - %s"
+msgstr "warna '%s' tidak sah"
 
 #: src/diff.c:1117 src/diff.c:1327
 #, c-format
@@ -1266,10 +1260,8 @@ msgid "Only in %s: %s\n"
 msgstr "Hanya dalam %s: %s\n"
 
 #: src/diff.c:1251
-#, fuzzy
-#| msgid "cannot compare `-' to a directory"
 msgid "cannot compare '-' to a directory"
-msgstr "tidak dapat membandingkan `-' kepada direktori"
+msgstr "tidak dapat membandingkan '-' kepada direktori"
 
 #: src/diff.c:1286
 msgid "-D option not supported with directories"
