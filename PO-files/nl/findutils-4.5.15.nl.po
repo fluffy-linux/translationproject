@@ -1,5 +1,5 @@
 # Dutch translations for GNU findutils.
-# Copyright (C) 2016 Free Software Foundation, Inc.
+# Copyright (C) 2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the findutils package.
 #
 # “Een half gesmolten ijslaag...”
@@ -8,21 +8,20 @@
 # Ivo Timmermans <itimmermans@bigfoot.com>, 2000.
 # Taco Witte <tcwitte@cs.uu.nl>, 2004.
 # Erwin Poeze <erwin.poeze@gmail.com>, 2009.
-# Benno Schulenberg <benno@vertaalt.nl>, 2005, 2006, 2007, 2008, 2010, 2013, 2014, 2016.
+# Benno Schulenberg <benno@vertaalt.nl>, 2005, 2006, 2007, 2008, 2010, 2013, 2014, 2016, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: findutils-4.5.15\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2015-12-18 14:45+0000\n"
-"PO-Revision-Date: 2016-12-07 09:41+0100\n"
-"Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
+"PO-Revision-Date: 2020-07-28 09:17+0200\n"
+"Last-Translator: Benno Schulenberg <vertaling@coevern.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: find/exec.c:136
@@ -222,8 +221,8 @@ msgid ""
 "expression may consist of: operators, options, tests, and actions:\n"
 msgstr ""
 "\n"
-"Het standaardpad is de huidige map; de standaardexpressie is '-print';\n"
-"de expressie mag bestaan uit: operatoren, opties, testen, en acties:\n"
+"Het standaardpad is de huidige map; de standaarduitdrukking is '-print';\n"
+"de uitdrukking mag bestaan uit: operatoren, opties, testen, en acties:\n"
 
 #: find/parser.c:1225
 msgid ""
@@ -246,7 +245,7 @@ msgid ""
 msgstr ""
 "Positionele opties (altijd waar):  -daystart  -follow  -regextype\n"
 "\n"
-"Normale opties (ook altijd waar, maar gegeven vóór andere expressies):\n"
+"Normale opties (ook altijd waar, maar gegeven vóór andere uitdrukkingen):\n"
 "    -depth  --help  -maxdepth NIVEAUS  -mindepth NIVEAUS  -mount  -noleaf\n"
 "    --version  -xdev  -ignore_readdir_race  -noignore_readdir_race\n"
 
@@ -554,52 +553,52 @@ msgstr "waarschuwing: onbekende opmaakcode '%%%c'"
 #: find/tree.c:129 find/tree.c:134 find/tree.c:224 find/tree.c:263
 #, c-format
 msgid "invalid expression"
-msgstr "ongeldige expressie"
+msgstr "ongeldige uitdrukking"
 
 #: find/tree.c:140
 #, c-format
 msgid "invalid expression; you have used a binary operator '%s' with nothing before it."
-msgstr "ongeldige expressie: binaire operator '%s' is gebruikt met niets ervoor"
+msgstr "ongeldige uitdrukking: binaire operator '%s' is gebruikt met niets ervoor"
 
 #: find/tree.c:151
 #, c-format
 msgid "expected an expression between '%s' and ')'"
-msgstr "expressie werd verwacht tussen '%s' en ')'"
+msgstr "uitdrukking werd verwacht tussen '%s' en ')'"
 
 #: find/tree.c:161
 #, c-format
 msgid "expected an expression after '%s'"
-msgstr "expressie werd verwacht na '%s'"
+msgstr "uitdrukking werd verwacht na '%s'"
 
 #: find/tree.c:166
 #, c-format
 msgid "invalid expression; you have too many ')'"
-msgstr "ongeldige expressie: er zijn te veel ')'"
+msgstr "ongeldige uitdrukking: er zijn te veel ')'"
 
 #: find/tree.c:189
 #, c-format
 msgid "invalid expression; expected to find a ')' but didn't see one.  Perhaps you need an extra predicate after '%s'"
-msgstr "ongeldige expressie: ontbrekend ')' -- of er ontbreekt iets na '%s'"
+msgstr "ongeldige uitdrukking: ontbrekend ')' -- of er ontbreekt iets na '%s'"
 
 #: find/tree.c:197
 #, c-format
 msgid "invalid expression; empty parentheses are not allowed."
-msgstr "ongeldige expressie: lege haakjes zijn niet toegestaan"
+msgstr "ongeldige uitdrukking: lege haakjes zijn niet toegestaan"
 
 #: find/tree.c:203
 #, c-format
 msgid "invalid expression; I was expecting to find a ')' somewhere but did not see one."
-msgstr "ongeldige expressie: ontbrekend ')'"
+msgstr "ongeldige uitdrukking: ontbrekend ')'"
 
 #: find/tree.c:209 find/tree.c:833
 #, c-format
 msgid "oops -- invalid expression type!"
-msgstr "oeps -- ongeldig expressietype!"
+msgstr "oeps -- ongeldig uitdrukkingstype!"
 
 #: find/tree.c:281
 #, c-format
 msgid "oops -- invalid expression type (%d)!"
-msgstr "oeps -- ongeldig expressietype (%d)!"
+msgstr "oeps -- ongeldig uitdrukkingstype (%d)!"
 
 #: find/tree.c:1120
 #, c-format
@@ -611,7 +610,7 @@ msgstr ""
 #: find/tree.c:1294
 #, c-format
 msgid "paths must precede expression: %s"
-msgstr "padnamen moeten voorafgaan aan expressies (%s)"
+msgstr "padnamen moeten voorafgaan aan uitdrukkingen (%s)"
 
 #: find/tree.c:1303
 #, c-format
@@ -653,16 +652,16 @@ msgstr "onverwacht extra argument"
 msgid "oops -- invalid default insertion of and!"
 msgstr "oeps -- ongeldige standaardtussenvoeging van '-and'!"
 
+# FIXME: should be joined with the next one into a single msgid
 #: find/util.c:175
 #, c-format
 msgid "Usage: %s [-H] [-L] [-P] [-Olevel] [-D "
 msgstr "Gebruik:  %s [-HLP] [-Oniveau] [-D "
 
-# FIXME: should be joined with the next one into a slingle msgid
 #: find/util.c:177
 #, c-format
 msgid "] [path...] [expression]\n"
-msgstr "] [pad...] [expressie]\n"
+msgstr "] [pad...] [uitdrukking]\n"
 
 #: find/util.c:459
 #, c-format
