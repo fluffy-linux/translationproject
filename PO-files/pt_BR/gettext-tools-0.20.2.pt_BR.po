@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gettext-tools 0.20.2\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2020-04-13 15:58+0200\n"
-"PO-Revision-Date: 2020-04-16 08:42-0300\n"
+"PO-Revision-Date: 2020-07-30 22:10-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
@@ -307,12 +307,12 @@ msgstr "O elemento raiz deve ser <%s>"
 #: src/cldr-plurals.c:82
 #, c-format
 msgid "The element <%s> does not contain a <%s> element"
-msgstr "O elemento raiz <%s> não contém um elemento <%s> válido"
+msgstr "O elemento <%s> não contém um elemento <%s>"
 
 #: src/cldr-plurals.c:104 src/cldr-plurals.c:144
 #, c-format
 msgid "The element <%s> does not have attribute <%s>"
-msgstr "O elemento raiz <%s> não possui o atributo <%s>"
+msgstr "O elemento <%s> não possui o atributo <%s>"
 
 #: src/cldr-plurals.c:188 src/hostname.c:208 src/msgattrib.c:417
 #: src/msgcat.c:362 src/msgcmp.c:208 src/msgcomm.c:354 src/msgconv.c:303
@@ -490,7 +490,7 @@ msgstr "especificações de formato em \"%s\" e \"%s\", para argumento %u, não 
 #: src/format-boost.c:449
 #, c-format
 msgid "The directive number %u starts with | but does not end with |."
-msgstr "A diretiva número %u inicia com |, mas não termina com |."
+msgstr "A diretiva de número %u inicia com |, mas não termina com |."
 
 #: src/format.c:152
 #, c-format
@@ -500,12 +500,12 @@ msgstr "\"%s\" não é um formato de string %s válido, ao contrário de \"%s\".
 #: src/format-c.c:36
 #, c-format
 msgid "In the directive number %u, the token after '<' is not the name of a format specifier macro. The valid macro names are listed in ISO C 99 section 7.8.1."
-msgstr "Na diretiva número %u, o token após \"<\" não é o nome de uma macro especificadora de formato. Os nomes de macro válidos são listados na ISO C 99 seção 7.8.1."
+msgstr "Na diretiva de número %u, o token após \"<\" não é o nome de uma macro especificadora de formato. Os nomes de macro válidos são listados na ISO C 99 seção 7.8.1."
 
 #: src/format-c.c:39
 #, c-format
 msgid "In the directive number %u, the token after '<' is not followed by '>'."
-msgstr "Na diretiva número %u, o token após \"<\" não está seguido por \">\"."
+msgstr "Na diretiva de número %u, o token após \"<\" não está seguido por \">\"."
 
 #: src/format-c.c:42 src/format-gfc-internal.c:289
 #, c-format
@@ -521,12 +521,12 @@ msgstr "número de especificações de formato em \"%s\" e \"%s\" não conferem"
 #: src/format-csharp.c:85 src/format-java.c:205
 #, c-format
 msgid "In the directive number %u, '{' is not followed by an argument number."
-msgstr "Na diretiva número %u, \"{\" não está seguido por um número de argumento."
+msgstr "Na diretiva de número %u, \"{\" não está seguido por um número de argumento."
 
 #: src/format-csharp.c:106
 #, c-format
 msgid "In the directive number %u, ',' is not followed by a number."
-msgstr "Na diretiva número %u, \",\" não está seguido por um número."
+msgstr "Na diretiva de número %u, \",\" não está seguido por um número."
 
 #: src/format-csharp.c:127 src/format-java.c:191
 msgid "The string ends in the middle of a directive: found '{' without matching '}'."
@@ -535,12 +535,12 @@ msgstr "A string termina no meio de uma diretriz: encontrado \"{\" sem a \"}\" c
 #: src/format-csharp.c:136
 #, c-format
 msgid "The directive number %u ends with an invalid character '%c' instead of '}'."
-msgstr "A diretiva número %u termina com um caractere inválido \"%c\" ao invés de \"}\"."
+msgstr "A diretiva de número %u termina com um caractere inválido \"%c\" ao invés de \"}\"."
 
 #: src/format-csharp.c:137
 #, c-format
 msgid "The directive number %u ends with an invalid character instead of '}'."
-msgstr "A diretiva número %u termina com um caractere inválido ao invés de \"}\"."
+msgstr "A diretiva de número %u termina com um caractere inválido ao invés de \"}\"."
 
 #: src/format-csharp.c:158 src/format-java.c:346
 msgid "The string starts in the middle of a directive: found '}' without matching '{'."
@@ -612,7 +612,7 @@ msgstr "A string faz referência a argumentos por meio de números de argumento 
 #: src/format-invalid.h:28
 #, c-format
 msgid "In the directive number %u, the argument number 0 is not a positive integer."
-msgstr "Na diretiva número %u, o argumento de número 0 não é um inteiro positivo."
+msgstr "Na diretiva de número %u, o argumento de número 0 não é um inteiro positivo."
 
 #: src/format-invalid.h:30
 #, c-format
@@ -647,7 +647,7 @@ msgstr "Na diretiva de número %u, a sub-string \"%s\" não é um estilo de data
 #: src/format-java.c:251 src/format-java.c:285 src/format-java.c:314
 #, c-format
 msgid "In the directive number %u, \"%s\" is not followed by a comma."
-msgstr "Na diretiva número %u, \"%s\" não está seguido por uma vírgula."
+msgstr "Na diretiva de número %u, \"%s\" não está seguido por uma vírgula."
 
 #: src/format-java.c:274
 #, c-format
@@ -716,12 +716,12 @@ msgstr[1] "Na diretiva de número %u, parâmetros demais foram passados; esperav
 #: src/format-lisp.c:2499 src/format-scheme.c:2501
 #, c-format
 msgid "In the directive number %u, '%c' is not followed by a digit."
-msgstr "Na diretiva número %u, \"%c\" não está seguido por um dígito."
+msgstr "Na diretiva de número %u, \"%c\" não está seguido por um dígito."
 
 #: src/format-lisp.c:2739 src/format-scheme.c:2756
 #, c-format
 msgid "In the directive number %u, the argument %d is negative."
-msgstr "Na diretiva número %u, o argumento %d é negativo."
+msgstr "Na diretiva de número %u, o argumento %d é negativo."
 
 #: src/format-lisp.c:2808
 msgid "The string ends in the middle of a ~/.../ directive."
@@ -777,17 +777,17 @@ msgstr "Na diretiva de número %u, a especificação do tamanho é incompatível
 #: src/format-python-brace.c:138
 #, c-format
 msgid "In the directive number %u, '%c' cannot start a field name."
-msgstr "Na diretiva número %u, \"%c\" não pode iniciar um nome de campo."
+msgstr "Na diretiva de número %u, \"%c\" não pode iniciar um nome de campo."
 
 #: src/format-python-brace.c:157
 #, c-format
 msgid "In the directive number %u, '%c' cannot start a getattr argument."
-msgstr "Na diretiva número %u, \"%c\" não pode iniciar um argumento getattr."
+msgstr "Na diretiva de número %u, \"%c\" não pode iniciar um argumento getattr."
 
 #: src/format-python-brace.c:171
 #, c-format
 msgid "In the directive number %u, '%c' cannot start a getitem argument."
-msgstr "Na diretiva número %u, \"%c\" não pode iniciar um argumento getitem."
+msgstr "Na diretiva de número %u, \"%c\" não pode iniciar um argumento getitem."
 
 #: src/format-python-brace.c:193
 #, c-format
@@ -797,7 +797,7 @@ msgstr "Na diretiva de número %u, não é mais permitido empilhamento em um esp
 #: src/format-python-brace.c:278
 #, c-format
 msgid "In the directive number %u, there is an unterminated format directive."
-msgstr "Na diretiva número %u, há uma diretiva de formato não terminado."
+msgstr "Na diretiva de número %u, há uma diretiva de formato não terminado."
 
 #: src/format-python.c:115
 msgid "The string refers to arguments both through argument names and through unnamed argument specifications."
@@ -1280,7 +1280,7 @@ msgstr "  -n, --add-location          gera linhas \"#: nome-de-arquivo:linha' (p
 msgid "      --strict                write out strict Uniforum conforming .po file\n"
 msgstr ""
 "      --strict                escreve um arquivo .po em conformidade com\n"
-"                              com Uniforum estrito\n"
+"                              Uniforum estrito\n"
 
 #: src/msgattrib.c:520 src/msgcat.c:454 src/msgcomm.c:438 src/msgconv.c:371
 #: src/msgen.c:367 src/msgfilter.c:493 src/msggrep.c:614 src/msginit.c:459
@@ -1720,7 +1720,7 @@ msgstr ""
 #: src/msgexec.c:360
 #, c-format
 msgid "write to stdout failed"
-msgstr "Escrita para a saída padrão falhou"
+msgstr "escrita para a saída padrão falhou"
 
 #: src/msgfilter.c:304
 #, c-format
@@ -1830,7 +1830,7 @@ msgstr "Ulrich Drepper"
 #: src/msgfmt.c:471
 #, c-format
 msgid "no input file should be given if %s and %s are specified"
-msgstr "nenhum arquivo de entrada deveria ser passado se %s e %s forem especificadas."
+msgstr "nenhum arquivo de entrada deveria ser passado se %s e %s forem especificadas"
 
 #: src/msgfmt.c:517 src/msgfmt.c:539 src/msgfmt.c:561 src/msgunfmt.c:330
 #: src/msgunfmt.c:353
@@ -2264,7 +2264,7 @@ msgstr "erro ao ler \"%s\""
 #: src/msggrep.c:501
 #, c-format
 msgid "option '%c' cannot be used before 'J' or 'K' or 'T' or 'C' or 'X' has been specified"
-msgstr "opção \"%c\" não pode ser usada antes de \"J\", \"K\", \"T\", \"C\" ou \"X\"  ser especificada"
+msgstr "opção \"%c\" não pode ser usada antes de \"J\", \"K\", \"T\", \"C\" ou \"X\" ser especificada"
 
 #: src/msggrep.c:521
 #, c-format, no-wrap
@@ -2566,7 +2566,7 @@ msgstr ""
 "altera alguns msgids ou msgctxts.\n"
 "Altere todas as msgids e msgctxts para ASCII puro ou certifique-se de que elas\n"
 "estão codificadas em UTF-8 desde o começo, isto é, já em seus arquivos do\n"
-"código fonte.\n"
+"código-fonte.\n"
 
 #: src/msgl-charset.c:92
 #, c-format
@@ -2693,29 +2693,29 @@ msgstr "catálogo de mensagens possui traduções em forma de plural, mas o cabe
 
 #: src/msgl-check.c:616
 msgid "'msgid' and 'msgid_plural' entries do not both begin with '\\n'"
-msgstr "\"msgid\" e \"msgid_plural\" não começam com \"\\n\"'"
+msgstr "\"msgid\" e \"msgid_plural\" não começam com \"\\n\""
 
 #: src/msgl-check.c:623
 #, c-format
 msgid "'msgid' and 'msgstr[%u]' entries do not both begin with '\\n'"
-msgstr "\"msgid\" e \"msgstr[%u]\" não começam com \"\\n\"'"
+msgstr "\"msgid\" e \"msgstr[%u]\" não começam com \"\\n\""
 
 #: src/msgl-check.c:639
 msgid "'msgid' and 'msgstr' entries do not both begin with '\\n'"
-msgstr "\"msgid\" e \"msgstr\" não começa com \"\\n\"'"
+msgstr "\"msgid\" e \"msgstr\" não começam com \"\\n\""
 
 #: src/msgl-check.c:657
 msgid "'msgid' and 'msgid_plural' entries do not both end with '\\n'"
-msgstr "\"msgid\" e \"msgid_plural\" não terminam com \"\\n\"'"
+msgstr "\"msgid\" e \"msgid_plural\" não terminam com \"\\n\""
 
 #: src/msgl-check.c:664
 #, c-format
 msgid "'msgid' and 'msgstr[%u]' entries do not both end with '\\n'"
-msgstr "\"msgid\" e \"msgstr[%u]\" não terminam com \"\\n\"'"
+msgstr "\"msgid\" e \"msgstr[%u]\" não terminam com \"\\n\""
 
 #: src/msgl-check.c:680
 msgid "'msgid' and 'msgstr' entries do not both end with '\\n'"
-msgstr "\"msgid\" e \"msgstr\" não terminam com \"\\n\"'"
+msgstr "\"msgid\" e \"msgstr\" não terminam com \"\\n\""
 
 #: src/msgl-check.c:692
 msgid "plural handling is a GNU gettext extension"
@@ -2743,11 +2743,11 @@ msgstr "campo de cabeçalho \"%s\" faltando no cabeçalho\n"
 
 #: src/msgl-check.c:940
 msgid "ASCII ellipsis ('...') instead of Unicode"
-msgstr "elipse ASCII (\"...\") ao invés de Unicode"
+msgstr "reticências ASCII (\"...\") ao invés de Unicode"
 
 #: src/msgl-check.c:1013
 msgid "space before ellipsis found in user visible strings"
-msgstr "espaço antes de elipse encontrado nas strings visíveis de usuário"
+msgstr "espaço antes de reticências encontrado nas strings visíveis de usuário"
 
 #: src/msgl-check.c:1041
 msgid "ASCII double quote used instead of Unicode"
@@ -3288,7 +3288,7 @@ msgstr "aviso: erro de sintaxe, esperava \";\" após string"
 
 #: src/read-stringtable.c:948
 msgid "warning: syntax error, expected '=' or ';' after string"
-msgstr "aviso: erro de sintaxe, esperada \"=\" ou \";\" após string"
+msgstr "aviso: erro de sintaxe, esperava \"=\" ou \";\" após string"
 
 #: src/recode-sr-latin.c:115
 #, c-format
@@ -3583,7 +3583,7 @@ msgstr "%s:%d: aviso: string literal não terminada"
 
 #: src/x-csharp.c:225
 msgid "Please specify the source encoding through --from-code."
-msgstr "Por favor, especifique a codificação fonte por meio de --from-code"
+msgstr "Por favor, especifique a codificação fonte por meio de --from-code."
 
 #: src/x-csharp.c:269
 #, c-format
@@ -3673,7 +3673,7 @@ msgstr "--join-existing não pode ser usada enquanto a saída é escrita na saí
 #: src/xgettext.c:705
 #, c-format
 msgid "xgettext cannot work without keywords to look for"
-msgstr "xgettext não pode funcionar sem as teclas para procurar"
+msgstr "xgettext não pode funcionar sem as palavras-chaves para procurar"
 
 #: src/xgettext.c:840
 #, c-format
@@ -4019,7 +4019,7 @@ msgid ""
 "Please specify the correct source encoding through --from-code\n"
 msgstr ""
 "%s:%d: Sequência multi-byte inválida.\n"
-"Por favor, especifique a codificação fonte correta por meio de --from-code.\n"
+"Por favor, especifique a codificação fonte correta por meio de --from-code\n"
 
 #: src/x-javascript.c:291
 #, c-format
@@ -4028,7 +4028,7 @@ msgid ""
 "Please specify the correct source encoding through --from-code\n"
 msgstr ""
 "%s:%d: Sequência multi-byte longa e incompleta.\n"
-"Por favor, especifique a codificação fonte correta por meio de --from-code.\n"
+"Por favor, especifique a codificação fonte correta por meio de --from-code\n"
 
 #: src/x-javascript.c:303
 #, c-format
@@ -4037,7 +4037,7 @@ msgid ""
 "Please specify the correct source encoding through --from-code\n"
 msgstr ""
 "%s:%d: Sequência multi-byte incompleta ao final do arquivo.\n"
-"Por favor, especifique a codificação fonte correta por meio de --from-code.\n"
+"Por favor, especifique a codificação fonte correta por meio de --from-code\n"
 
 #: src/x-javascript.c:312
 #, c-format
@@ -4046,7 +4046,7 @@ msgid ""
 "Please specify the correct source encoding through --from-code\n"
 msgstr ""
 "%s:%d: Sequência multi-byte incompleta ao final da linha.\n"
-"Por favor, especifique a codificação fonte correta por meio de --from-code.\n"
+"Por favor, especifique a codificação fonte correta por meio de --from-code\n"
 
 #: src/x-javascript.c:344
 #, c-format
@@ -4055,7 +4055,7 @@ msgid ""
 "Please specify the source encoding through --from-code\n"
 msgstr ""
 "%s:%d: Sequência multi-byte inválida.\n"
-"Por favor, especifique a codificação fonte por meio de --from-code.\n"
+"Por favor, especifique a codificação fonte por meio de --from-code\n"
 
 #: src/x-javascript.c:919
 #, c-format
