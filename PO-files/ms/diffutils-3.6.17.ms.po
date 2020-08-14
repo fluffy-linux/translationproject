@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2020-07-07 16:17+0800\n"
+"PO-Revision-Date: 2020-08-14 18:16+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -313,7 +313,7 @@ msgstr "%s tidak dapat dibuka semula: %s"
 #, fuzzy, c-format
 #| msgid "invalid --bytes value `%s'"
 msgid "invalid %s%s argument '%s'"
-msgstr "hujah tidak sah %s bagi %s"
+msgstr "hujah tidak sah %s untuk %s"
 
 #: lib/xstrtol-error.c:68
 #, fuzzy, c-format
@@ -1186,10 +1186,8 @@ msgid "    --horizon-lines=NUM  keep NUM lines of the common prefix and suffix"
 msgstr "--horizon-lines=NOM  Pastikan NOM baris prefix dan suffix sama."
 
 #: src/diff.c:973
-#, fuzzy
-#| msgid "-H  --speed-large-files  Assume large files and many scattered small changes."
 msgid "    --speed-large-files  assume large files and many scattered small changes"
-msgstr "--speed-large-files  Anggap fail besar dan banyak perubahan kecil tersebar."
+msgstr "    --speed-large-files  anggap fail besar dan banyak perubahan kecil bertaburan"
 
 #: src/diff.c:974
 msgid ""
@@ -1204,27 +1202,20 @@ msgid ""
 msgstr ""
 
 #: src/diff.c:979
-#, fuzzy
 msgid "    --help               display this help and exit"
-msgstr "    --help                  paparkan bantuan ini dan keluar"
+msgstr "    --help               paparkan bantuan ini dan keluar"
 
 #: src/diff.c:980
-#, fuzzy
-#| msgid "-v  --version  Output version info."
 msgid "-v, --version            output version information and exit"
-msgstr "-v, --version                papar maklumat versi dan keluar"
+msgstr "-v, --version            papar maklumat versi dan keluar"
 
 #: src/diff.c:982
-#, fuzzy
-#| msgid "FILES are `FILE1 FILE2' or `DIR1 DIR2' or `DIR FILE...' or `FILE... DIR'."
 msgid "FILES are 'FILE1 FILE2' or 'DIR1 DIR2' or 'DIR FILE' or 'FILE DIR'."
-msgstr "FAIL-FAIL adalah `FAIL1 FAIL2' atau `DIR1 DIR2' atau `DIR FAIL...' atau `FAIL... DIR'."
+msgstr "FAIL-FAIL adalah 'FAIL1 FAIL2' atau 'DIR1 DIR2' atau 'DIR FAIL' atau 'FAIL DIR'."
 
 #: src/diff.c:983
-#, fuzzy
-#| msgid "If --from-file or --to-file is given, there are no restrictions on FILES."
 msgid "If --from-file or --to-file is given, there are no restrictions on FILE(s)."
-msgstr "Jika --from-file atau --to-file diberi, tiada sekatan pada FAIL."
+msgstr "Jika --from-file atau --to-file diberikan, tiada sekatan ke atas FAIL."
 
 #: src/diff.c:984 src/diff3.c:528 src/sdiff.c:219
 msgid "If a FILE is '-', read standard input."
