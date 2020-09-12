@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.6.93\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2020-07-20 07:39+0200\n"
-"PO-Revision-Date: 2020-08-05 20:01+0800\n"
+"PO-Revision-Date: 2020-09-12 23:55+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: examples/c/bistromathic/parse.y:148 examples/java/calc/Calc.y:77
 msgid "number"
@@ -1042,15 +1042,14 @@ msgid "missing identifier in parameter declaration"
 msgstr "pengecam hilang dalam parameter pengisytiharan"
 
 #: src/parse-gram.y:1083
-#, fuzzy, c-format
-#| msgid "invalid directive: %s"
+#, c-format
 msgid "invalid version requirement: %s"
-msgstr "nombor versi tidak sah `%s'"
+msgstr "keperluan versi tidak sah: %s"
 
 #: src/parse-gram.y:1094
-#, fuzzy, c-format
+#, c-format
 msgid "require bison %s, but have %s"
-msgstr "bison (GNU Bison) %s"
+msgstr "memerlukan bison %s, tetapi mempunyai %s"
 
 #: src/print-graph.c:62 src/print.c:350
 #, c-format
@@ -1111,8 +1110,7 @@ msgid "multiple %s declarations"
 msgstr "pelbagai pengisytiharan %s"
 
 #: src/reader.c:128
-#, fuzzy, c-format
-#| msgid "result type clash on merge function `%s': <%s> != <%s>"
+#, c-format
 msgid "result type clash on merge function %s: <%s> != <%s>"
 msgstr "jenis hasil bertelingkah pada fungsi gabung %s: <%s> != <%s>"
 
@@ -1147,14 +1145,14 @@ msgid "unset value: $$"
 msgstr "nyahtetap nilai: $$"
 
 #: src/reader.c:343
-#, fuzzy, c-format
+#, c-format
 msgid "%%empty on non-empty rule"
-msgstr "hukum kosong untuk bukan terminal ditaip, dan tiada tindakan"
+msgstr "%%empty pada hukum bukan kosong"
 
 #: src/reader.c:353
-#, fuzzy, c-format
+#, c-format
 msgid "empty rule without %%empty"
-msgstr "hukum kosong untuk bukan terminal ditaip, dan tiada tindakan"
+msgstr "hukum kosong tanpa %%empty"
 
 #: src/reader.c:369
 #, c-format
