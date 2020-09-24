@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2020-08-14 18:16+0800\n"
+"PO-Revision-Date: 2020-09-24 16:02+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -313,7 +313,7 @@ msgstr "%s tidak dapat dibuka semula: %s"
 #, fuzzy, c-format
 #| msgid "invalid --bytes value `%s'"
 msgid "invalid %s%s argument '%s'"
-msgstr "hujah tidak sah %s untuk %s"
+msgstr "hujah tidak sah %s bagi %s"
 
 #: lib/xstrtol-error.c:68
 #, fuzzy, c-format
@@ -328,7 +328,7 @@ msgstr "kod bagi token %s terlalu besar"
 #: lib/version-etc.c:73
 #, fuzzy, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr "%s: %s"
+msgstr "%s: %s.\n"
 
 #: lib/version-etc.c:76
 #, fuzzy, c-format
@@ -1097,19 +1097,6 @@ msgid "  LTYPE is 'old', 'new', or 'unchanged'.  GTYPE is LTYPE or 'changed'."
 msgstr "  LTYPE adalah `old', `new', atau `unchanged'.  GTYPE adalah LTYPE atau `changed'."
 
 #: src/diff.c:949
-#, fuzzy
-#| msgid ""
-#| "  GFMT may contain:\n"
-#| "    %<  lines from FILE1\n"
-#| "    %>  lines from FILE2\n"
-#| "    %=  lines common to FILE1 and FILE2\n"
-#| "    %[-][WIDTH][.[PREC]]{doxX}LETTER  printf-style spec for LETTER\n"
-#| "      LETTERs are as follows for new group, lower case for old group:\n"
-#| "        F  first line number\n"
-#| "        L  last line number\n"
-#| "        N  number of lines = L-F+1\n"
-#| "        E  F-1\n"
-#| "        M  L+1"
 msgid ""
 "  GFMT (only) may contain:\n"
 "    %<  lines from FILE1\n"
@@ -1124,7 +1111,7 @@ msgid ""
 "        M  L+1\n"
 "    %(A=B?T:E)  if A equals B then T else E"
 msgstr ""
-"  GFMT boleh mengandungi:\n"
+"  GFMT (sahaja) mungkin mengandungi:\n"
 "    %<  baris dari FAIL1\n"
 "    %>  baris dari FAIL2\n"
 "    %=  baris yang sama pada FAIL1 dan FAIL2\n"
@@ -1134,33 +1121,22 @@ msgstr ""
 "        L  nombor baris terakhir\n"
 "        N  jumlah baris = L-F+1\n"
 "        E  F-1\n"
-"        M  L+1"
+"        M  L+1\n"
+"    %(A=B?T:E)  jika A sama dengan B maka T selainnya E"
 
 #: src/diff.c:961
-#, fuzzy
-#| msgid ""
-#| "  LFMT may contain:\n"
-#| "    %L  contents of line\n"
-#| "    %l  contents of line, excluding any trailing newline\n"
-#| "    %[-][WIDTH][.[PREC]]{doxX}n  printf-style spec for input line number"
 msgid ""
 "  LFMT (only) may contain:\n"
 "    %L  contents of line\n"
 "    %l  contents of line, excluding any trailing newline\n"
 "    %[-][WIDTH][.[PREC]]{doxX}n  printf-style spec for input line number"
 msgstr ""
-"  LFMT boleh mengandungi:\n"
+"  LFMT (sahaja) mungkin mengandungi:\n"
 "    %L  kandungan baris\n"
 "    %l  kandungan baris, tidak termasuk baris baru dipenghujung\n"
 "    %[-][WIDTH][.[PREC]]{doxX}n  spec gaya-printf untuk nombor baris masukan"
 
 #: src/diff.c:965
-#, fuzzy
-#| msgid ""
-#| "  Either GFMT or LFMT may contain:\n"
-#| "    %%  %\n"
-#| "    %c'C'  the single character C\n"
-#| "    %c'\\OOO'  the character with octal code OOO"
 msgid ""
 "  Both GFMT and LFMT may contain:\n"
 "    %%  %\n"
@@ -1168,22 +1144,19 @@ msgid ""
 "    %c'\\OOO'  the character with octal code OOO\n"
 "    C    the character C (other characters represent themselves)"
 msgstr ""
-"  Sama ada GFMT atau LFMT boleh mengandungi:\n"
+"  Kedua-dua GFMT atau LFMT mungkin mengandungi:\n"
 "    %%  %\n"
 "    %c'C'  satu aksara C\n"
-"    %c'\\OOO'  aksara dengan kod oktal OOO"
+"    %c'\\OOO'  aksara dengan kod oktal OOO\n"
+"    C    aksara C (aksara lain mewakili diri mereka sendiri)"
 
 #: src/diff.c:971
-#, fuzzy
-#| msgid "-d  --minimal  Try hard to find a smaller set of changes."
 msgid "-d, --minimal            try hard to find a smaller set of changes"
-msgstr "-d, --minimal                cuba cari dengan tekun set perbezaan yang kecil"
+msgstr "-d, --minimal            cuba cari dengan tekun set perbezaan yang kecil"
 
 #: src/diff.c:972
-#, fuzzy
-#| msgid "--horizon-lines=NUM  Keep NUM lines of the common prefix and suffix."
 msgid "    --horizon-lines=NUM  keep NUM lines of the common prefix and suffix"
-msgstr "--horizon-lines=NOM  Pastikan NOM baris prefix dan suffix sama."
+msgstr "    --horizon-lines=NUM  simpan NUM baris prefix dan suffix sama"
 
 #: src/diff.c:973
 msgid "    --speed-large-files  assume large files and many scattered small changes"
