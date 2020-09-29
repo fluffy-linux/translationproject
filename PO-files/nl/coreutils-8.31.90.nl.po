@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.31.90\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2020-02-27 17:02+0000\n"
-"PO-Revision-Date: 2020-03-04 14:03+0100\n"
+"PO-Revision-Date: 2020-09-29 10:34+0200\n"
 "Last-Translator: Benno Schulenberg <vertaling@coevern.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -2370,12 +2370,12 @@ msgid ""
 "Use --sparse=never to inhibit creation of sparse files.\n"
 msgstr ""
 "\n"
-"BRON-bestanden met gaten worden standaard via een ruwe regel gedetecteerd,\n"
+"BRON-bestanden met gaten worden standaard via een vuistregel gedetecteerd,\n"
 "waarna de overeenkomstige BESTEMMING-bestanden ook met gaten worden gemaakt.\n"
-"Dit is het gedrag dat geselecteerd wordt met '--sparse=auto'.  Specificeer\n"
-"'--sparse=always' om een BESTEMMING-bestand met gaten te maken wanneer het\n"
-"BRON-bestand een voldoend lange reeks nul-bytes bevat.  Gebruik '--sparse=never'\n"
-"om het aanmaken van bestanden met gaten te voorkomen.\n"
+"Dit is het gedrag dat geselecteerd wordt met '--sparse=auto'.\n"
+"Specificeer '--sparse=always' om een BESTEMMING-bestand met gaten te maken\n"
+"wanneer het BRON-bestand een voldoend lange reeks nul-bytes bevat.  Gebruik\n"
+"'--sparse=never' om het aanmaken van bestanden met gaten te voorkomen.\n"
 
 #: src/cp.c:239
 msgid ""
@@ -2386,10 +2386,11 @@ msgid ""
 "Use --reflink=never to ensure a standard copy is performed.\n"
 msgstr ""
 "\n"
-"Als '--reflink[=always]' is gespecificeerd, doe dan een lichtgewicht kopieeropdracht,\n"
-"waar de datablokken alleen worden gekopieerd als ze zijn gewijzigd.  Als dat niet\n"
-"mogelijk is, dan mislukt het kopiëren of, als --reflink=auto is gespecificeerd, wordt\n"
-"teruggevallen op standaard kopiëren.\n"
+"Als '--reflink[=always]' is gespecificeerd, dan wordt een lichtgewicht\n"
+"kopieeropdracht uitgevoerd, waar de datablokken alleen worden gekopieerd\n"
+"als ze zijn gewijzigd.  Als dat niet mogelijk is, dan mislukt het kopiëren\n"
+"of, als '--reflink=auto' is gespecificeerd, wordt teruggevallen op standaard\n"
+"kopiëren.  Gebruik '--reflink=never' om standaard kopiëren af te dwingen.\n"
 
 #: src/cp.c:247
 msgid ""
@@ -4116,34 +4117,38 @@ msgid ""
 "  -u, --unset=NAME     remove variable from the environment\n"
 msgstr ""
 "  -i, --ignore-environment   alle ongenoemde omgevingsvariabelen verwijderen\n"
-"  -0, --null           elke regel afsluiten met een 0-byte, niet met nieuweregel\n"
-"  -u, --unset=NAAM     de genoemde variabele uit de omgeving verwijderen\n"
+"  -0, --null            elke regel afsluiten met een 0-byte, niet met nieuweregel\n"
+"  -u, --unset=NAAM      de genoemde variabele uit de omgeving verwijderen\n"
 
 #: src/env.c:126
 msgid "  -C, --chdir=DIR      change working directory to DIR\n"
-msgstr "  -C, --chdir=MAP      huidige map wijzigen naar MAP\n"
+msgstr "  -C, --chdir=MAP       huidige map wijzigen naar MAP\n"
 
 #: src/env.c:129
 msgid ""
 "  -S, --split-string=S  process and split S into separate arguments;\n"
 "                        used to pass multiple arguments on shebang lines\n"
 msgstr ""
+"  -S, --split-string=T  deze tekenreeks in aparte argumenten opsplitsen;\n"
+"                        nuttig voor de '#!'-regel in scripts\n"
 
 #: src/env.c:133
 msgid "      --block-signal[=SIG]    block delivery of SIG signal(s) to COMMAND\n"
-msgstr ""
+msgstr "      --block-signal[=SIG]    signalen (of dit signaal) aan COMMANDO blokkeren\n"
 
 #: src/env.c:136
 msgid "      --default-signal[=SIG]  reset handling of SIG signal(s) to the default\n"
 msgstr ""
+"      --default-signal[=SIG]  afhandeling van signalen (of van dit signaal)\n"
+"                              terugzetten op de standaard\n"
 
 #: src/env.c:139
 msgid "      --ignore-signal[=SIG]   set handling of SIG signals(s) to do nothing\n"
-msgstr ""
+msgstr "      --ignore-signal[=SIG]   signalen (of dit signaal) negeren\n"
 
 #: src/env.c:142
 msgid "      --list-signal-handling  list non default signal handling to stderr\n"
-msgstr ""
+msgstr "      --list-signal-handling  de niet-standaard signaalafhandelingen tonen\n"
 
 #: src/env.c:145
 msgid "  -v, --debug          print verbose information for each processing step\n"
@@ -4228,7 +4233,7 @@ msgstr "ongeldige optie -- '%c'"
 #: src/env.c:858 src/env.c:949
 #, c-format
 msgid "use -[v]S to pass options in shebang lines"
-msgstr ""
+msgstr "gebruik -[v]S om opties op te geven in '#!'-regels"
 
 #: src/env.c:891
 #, c-format
@@ -5798,13 +5803,15 @@ msgstr ""
 "                             symbolische koppelingen op opdrachtregel die naar\n"
 "                               een map verwijzen volgen\n"
 "      --hide=PATROON         de namen die voldoen aan PATROON niet tonen\n"
-"                                 (geldt niet samen met '-a' of '-A')\n"
+"                               (geldt niet samen met '-a' of '-A')\n"
 
 #: src/ls.c:5410
 msgid ""
 "      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'\n"
 "                               (default if omitted), 'auto', or 'never'\n"
 msgstr ""
+"      --hyperlink[=WANNEER]  bestandsnamen linken; WANNEER kan zijn: 'always'\n"
+"                               (altijd, standaard), 'auto', of 'never' (nooit)\n"
 
 #: src/ls.c:5414
 msgid ""
@@ -5913,7 +5920,7 @@ msgstr ""
 
 #: src/ls.c:5470
 msgid "      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below\n"
-msgstr ""
+msgstr "      --time-style=TIJDSTIJL   tijd-/datumopmaak bij '-l'; zie TIME_STYLE hieronder\n"
 
 #: src/ls.c:5473
 msgid ""
@@ -6813,13 +6820,12 @@ msgstr ""
 "\n"
 
 #: src/nproc.c:63
-#, fuzzy
 msgid ""
 "      --all      print the number of installed processors\n"
 "      --ignore=N  if possible, exclude N processing units\n"
 msgstr ""
-"     --all       het aantal geïnstalleerde processoren tonen\n"
-"     --ignore=N  indien mogelijk, N processoreenheden uitsluiten\n"
+"      --all       het aantal geïnstalleerde processoren tonen\n"
+"      --ignore=N  indien mogelijk, N processoreenheden uitsluiten\n"
 
 #: src/numfmt.c:694
 #, c-format
@@ -6889,6 +6895,8 @@ msgid ""
 "      --format=FORMAT  use printf style floating-point FORMAT;\n"
 "                         see FORMAT below for details\n"
 msgstr ""
+"      --format=OPMAAK  deze drijvende-komma opmaak gebruiken;\n"
+"                         zie FORMAT hieronder voor details\n"
 
 #: src/numfmt.c:905
 msgid ""
@@ -9425,12 +9433,11 @@ msgid "no input from %s"
 msgstr "geen invoer van %s"
 
 #: src/sort.c:4688
-#, fuzzy, c-format
+#, c-format
 msgid "text ordering performed using %s sorting rules"
 msgstr "sorteerregels van %s worden gebruikt"
 
 #: src/sort.c:4692
-#, fuzzy
 msgid "text ordering performed using simple byte comparison"
 msgstr "eenvoudige byte-vergelijking wordt gebruikt"
 
@@ -9697,7 +9704,7 @@ msgid "cannot stat standard input"
 msgstr "kan 'stat' niet toepassen op standaardinvoer"
 
 #: src/stat.c:1364
-#, fuzzy, c-format
+#, c-format
 msgid "cannot statx %s"
 msgstr "kan status van %s niet opvragen"
 
@@ -9725,32 +9732,32 @@ msgid ""
 "  Size: %-10s\tBlocks: %-10b IO Block: %-6o %F\n"
 msgstr ""
 "  Bestand: %N\n"
-"  Grootte: %-10s   Blokken: %-10b   IO-blok: %-6o %F\n"
+"  Grootte: %-10s     Blokken: %-10b IO-blok: %-6o %F\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1639
 msgid "Device: %Dh/%dd\tInode: %-10i  Links: %-5h Device type: %t,%T\n"
-msgstr "Apparaat: %Dh/%dd   Inode: %-10i   Koppelingen: %-5h   Apparaattype: %t,%T\n"
+msgstr " Apparaat: %Dh/%dd   Inode: %-10i   Koppelingen: %-5h   Apparaattype: %t,%T\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1647
 msgid "Device: %Dh/%dd\tInode: %-10i  Links: %h\n"
-msgstr "Apparaat: %Dh/%dd   Inode: %-10i   Koppelingen: %h\n"
+msgstr " Apparaat: %Dh/%dd   Inode: %-10i   Koppelingen: %h\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1656
 msgid "Access: (%04a/%10.10A)  Uid: (%5u/%8U)   Gid: (%5g/%8G)\n"
-msgstr "Toegang: (%04a/%10.10A)   UID: (%5u/%8U)   GID: (%5g/%8G)\n"
+msgstr "  Rechten: (%04a/%10.10A)   UID: (%5u/%8U)   GID: (%5g/%8G)\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1666
 #, c-format
 msgid "Context: %C\n"
-msgstr "Context:   %C\n"
+msgstr "  Context: %C\n"
 
 #: src/stat.c:1674
 msgid ""
@@ -9759,10 +9766,10 @@ msgid ""
 "Change: %z\n"
 " Birth: %w\n"
 msgstr ""
-"Toegang:   %x\n"
+"  Toegang: %x\n"
 "Gewijzigd: %y\n"
 "Veranderd: %z\n"
-"Ontstaan:  %w\n"
+" Ontstaan: %w\n"
 
 #: src/stat.c:1692
 msgid "Display file or file system status.\n"
@@ -9781,6 +9788,8 @@ msgid ""
 "      --cached=MODE     specify how to use cached attributes;\n"
 "                          useful on remote file systems. See MODE below\n"
 msgstr ""
+"      --cached=MODUS    de behandelwijze voor gecachete kenmerken; nuttig bij\n"
+"                          bestandssystemen op afstand; zie MODE hieronder\n"
 
 #: src/stat.c:1706
 msgid ""
@@ -9808,7 +9817,6 @@ msgid ""
 msgstr ""
 
 #: src/stat.c:1724
-#, fuzzy
 msgid ""
 "\n"
 "The valid format sequences for files (without --file-system):\n"
@@ -9822,7 +9830,7 @@ msgstr ""
 "\n"
 "Geldige opmaakspecificaties voor bestanden (zonder '--file-system') zijn:\n"
 "\n"
-"  %a   toegangsrechten in octale vorm  (bemerk '#' en '0' printf-vlaggen)\n"
+"  %a   toegangsrechten in octale vorm  (opmaak met '#' en '0' van printf(2))\n"
 "  %A   toegangsrechten in leesbare vorm\n"
 "  %b   aantal toegewezen blokken (zie %B)\n"
 "  %B   de grootte in bytes van elk blok gerapporteerd door %b\n"
@@ -9935,6 +9943,9 @@ msgid ""
 "--terse is equivalent to the following FORMAT:\n"
 "    %s"
 msgstr ""
+"\n"
+"'--terse' is equivalent aan de volgende OPMAAK:\n"
+"    %s"
 
 #: src/stat.c:1796
 #, c-format
@@ -9942,6 +9953,8 @@ msgid ""
 "--terse --file-system is equivalent to the following FORMAT:\n"
 "    %s"
 msgstr ""
+"'--terse --file-system' is equivalent aan de volgende OPMAAK:\n"
+"    %s"
 
 #: src/stdbuf.c:91
 #, c-format
@@ -10830,9 +10843,9 @@ msgid "Report any translation bugs to <https://translationproject.org/team/>\n"
 msgstr "Meld vertalingsfouten aan <vertaling@vrijschrift.org>.\n"
 
 #: src/system.h:669
-#, fuzzy, c-format
+#, c-format
 msgid "Full documentation <%s%s>\n"
-msgstr "Volledige documentatie is beschikbaar op: <%s%s>\n"
+msgstr "Volledige documentatie: <%s%s>\n"
 
 #: src/system.h:671
 #, c-format
@@ -11552,14 +11565,13 @@ msgstr ""
 "  -s, --signal=SIGNAAL\n"
 "                   het te zenden signaal als de tijdsduur verlopen is;\n"
 "                   SIGNAAL kan een naam zijn als 'HUP' of een nummer;\n"
-"                   zie 'kill -l` voor een lijst van mogelijke signalen\n"
+"                   zie 'kill -l' voor een lijst van mogelijke signalen\n"
 
 #: src/timeout.c:260
 msgid "  -v, --verbose  diagnose to stderr any signal sent upon timeout\n"
-msgstr ""
+msgstr "  -v, --verbose  bij tijdsoverschrijding het gegeven signaal rapporteren\n"
 
 #: src/timeout.c:266
-#, fuzzy
 msgid ""
 "\n"
 "DURATION is a floating point number with an optional suffix:\n"
@@ -11569,6 +11581,7 @@ msgstr ""
 "\n"
 "DUUR is een drijvendekommagetal met een optioneel achtervoegsel: 's' voor\n"
 "seconden (standaard), 'm' voor minuten, 'h' voor uren, 'd' voor dagen.\n"
+"Een DUUR van 0 schakelt de betreffende tijdslimiet uit.\n"
 
 #: src/timeout.c:271
 msgid ""
@@ -11974,7 +11987,6 @@ msgid "Usage: %s OPTION... FILE...\n"
 msgstr "Gebruik:  %s OPTIE... BESTAND...\n"
 
 #: src/truncate.c:71
-#, fuzzy
 msgid ""
 "Shrink or extend the size of each FILE to the specified size\n"
 "\n"
@@ -12022,9 +12034,9 @@ msgstr ""
 "'%' naar boven afronden op een veelvoud van.\n"
 
 #: src/truncate.c:124
-#, fuzzy, c-format
+#, c-format
 msgid "overflow in %<PRIdMAX> * %<PRIdPTR> byte blocks for file %s"
-msgstr "overloop in %<PRIdMAX> * %<PRIdMAX>-byte blokken voor bestand %s"
+msgstr "overloop in %<PRIdMAX> * %<PRIdPTR>-byte blokken voor bestand %s"
 
 #: src/truncate.c:145
 #, c-format
@@ -12262,7 +12274,6 @@ msgstr ""
 "geen witruimte zijn.  Eerst worden velden overgeslagen, dan tekens.\n"
 
 #: src/uniq.c:214
-#, fuzzy
 msgid ""
 "\n"
 "Note: 'uniq' does not detect repeated lines unless they are adjacent.\n"
@@ -12271,7 +12282,6 @@ msgstr ""
 "\n"
 "Opmerking: 'uniq' detecteert herhaalde regels niet als ze niet bij elkaar staan;\n"
 "u zou de invoer eerst kunnen sorteren, of 'sort -u' gebruiken zonder 'uniq'.\n"
-"Verder volgt de vergelijking de regels gespecificeerd door 'LC_COLLATE'.\n"
 
 #: src/uniq.c:425
 msgid "too many repeated lines"
@@ -13379,39 +13389,6 @@ msgstr ""
 #~ msgstr "optie '--relative-base' vereist '--relative-to'"
 
 #~ msgid ""
-#~ "  -f, --silent, --quiet  suppress most error messages\n"
-#~ "      --reference=RFILE  use RFILE's group rather than specifying a\n"
-#~ "                         GROUP value\n"
-#~ "  -R, --recursive        operate on files and directories recursively\n"
-#~ "  -v, --verbose          output a diagnostic for every file processed\n"
-#~ "\n"
-#~ msgstr ""
-#~ "  -f, --silent, --quiet   de meeste foutmeldingen onderdrukken\n"
-#~ "      --reference=RFBSTND de groep van RFBSTND gebruiken in plaats van GROEP\n"
-#~ "  -R, --recursive         bestanden en mappen recursief behandelen\n"
-#~ "  -v, --verbose           een melding geven voor elk gezien bestand\n"
-#~ "\n"
-
-#~ msgid ""
-#~ "      --no-preserve-root  do not treat `/' specially (the default)\n"
-#~ "      --preserve-root     fail to operate recursively on `/'\n"
-#~ msgstr ""
-#~ "      --no-preserve-root   '/' niet speciaal behandelen (standaard)\n"
-#~ "      --preserve-root      op '/' niet recursief werken\n"
-
-#~ msgid ""
-#~ "  -f, --silent, --quiet   suppress most error messages\n"
-#~ "  -v, --verbose           output a diagnostic for every file processed\n"
-#~ "      --reference=RFILE   use RFILE's mode instead of MODE values\n"
-#~ "  -R, --recursive         change files and directories recursively\n"
-#~ msgstr ""
-#~ "  -f, --silent, --quiet    de meeste foutmeldingen onderdrukken\n"
-#~ "  -R, --recursive          bestanden en mappen recursief behandelen\n"
-#~ "      --reference=RFBSTND  modus van RFBSTND gebruiken i.p.v. een MODUS-waarde\n"
-#~ "  -v, --verbose            een melding geven voor elk gezien bestand\n"
-#~ "\n"
-
-#~ msgid ""
 #~ "Change the owner and/or group of each FILE to OWNER and/or GROUP.\n"
 #~ "With --reference, change the owner and group of each FILE to those of RFILE.\n"
 #~ "\n"
@@ -13425,20 +13402,6 @@ msgstr ""
 #~ "  -c, --changes            een melding geven voor elk veranderd bestand\n"
 #~ "      --dereference        niet de symbolische koppelingen zelf bewerken, maar\n"
 #~ "                             de bestanden waarnaar ze verwijzen (standaard)\n"
-
-#~ msgid ""
-#~ "  -f, --silent, --quiet  suppress most error messages\n"
-#~ "      --reference=RFILE  use RFILE's owner and group rather than\n"
-#~ "                         specifying OWNER:GROUP values\n"
-#~ "  -R, --recursive        operate on files and directories recursively\n"
-#~ "  -v, --verbose          output a diagnostic for every file processed\n"
-#~ "\n"
-#~ msgstr ""
-#~ "  -f, --silent, --quiet    de meeste foutmeldingen onderdrukken\n"
-#~ "      --reference=RFBSTND  eigenaar en groep van RFBSTND gebruiken\n"
-#~ "  -R, --recursive          bestanden en mappen recursief behandelen\n"
-#~ "  -v, --verbose            een melding geven voor elk gezien bestand\n"
-#~ "\n"
 
 #~ msgid ""
 #~ "\n"
