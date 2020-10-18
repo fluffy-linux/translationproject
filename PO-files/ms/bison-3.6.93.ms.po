@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.6.93\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2020-07-20 07:39+0200\n"
-"PO-Revision-Date: 2020-09-12 23:55+0800\n"
+"PO-Revision-Date: 2020-10-18 17:27+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -110,7 +110,7 @@ msgstr "kemasukan `%s' usang.  Diabaikan"
 #: src/complain.c:158
 #, fuzzy, c-format
 msgid "empty rules without %empty"
-msgstr "Macro adalah kosong"
+msgstr "hukum kosong tanpa %%empty"
 
 #: src/complain.c:159
 #, fuzzy
@@ -573,8 +573,9 @@ msgstr ""
 "  "
 
 #: src/getargs.c:314
+#, fuzzy
 msgid "show machine-readable fixes"
-msgstr ""
+msgstr "Keluaran dalam format boleh dibaca mesin (dibatasi tab)"
 
 #: src/getargs.c:315
 #, fuzzy
@@ -999,25 +1000,20 @@ msgid "epilogue"
 msgstr ""
 
 #: src/parse-gram.y:221
-#, fuzzy
-#| msgid "invalid identifier: %s"
 msgid "identifier"
-msgstr "Penghurai ASN1: Pengenalan tidak dijumpai"
+msgstr "pengecam"
 
 #: src/parse-gram.y:222
-#, fuzzy
-#| msgid "invalid identifier: %s"
 msgid "identifier:"
-msgstr "Penghurai ASN1: Pengenalan tidak dijumpai"
+msgstr "pengecam:"
 
 #: src/parse-gram.y:227
 msgid "<tag>"
 msgstr "<tag>"
 
 #: src/parse-gram.y:252
-#, fuzzy
 msgid "integer literal"
-msgstr "integer"
+msgstr "literal integer"
 
 #: src/parse-gram.y:774
 #, c-format
@@ -1025,16 +1021,14 @@ msgid "character literals cannot be nonterminals"
 msgstr "aksara literal tidak boleh bukan-penamat"
 
 #: src/parse-gram.y:780
-#, fuzzy, c-format
-#| msgid "character literals cannot be nonterminals"
+#, c-format
 msgid "character literals cannot be used together with %s"
-msgstr "aksara literal tidak boleh bukan-penamat"
+msgstr "aksara literal tidak boleh digunakan bersama-sama dengan %s"
 
 #: src/parse-gram.y:783
-#, fuzzy, c-format
-#| msgid "redefining user token number of %s"
+#, c-format
 msgid "definition of %s"
-msgstr "definisi tidak sah bagi pencetak `%s': %s"
+msgstr "definisi bagi %s"
 
 #: src/parse-gram.y:934
 #, c-format
