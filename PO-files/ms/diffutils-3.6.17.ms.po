@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2020-09-24 16:02+0800\n"
+"PO-Revision-Date: 2020-10-24 22:56+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -106,7 +106,7 @@ msgstr "fail khas blok"
 #, fuzzy
 #| msgid "character special file"
 msgid "multiplexed character special file"
-msgstr "fail khas aksara"
+msgstr "fail istimewa aksara"
 
 #: lib/file-type.c:87
 #, fuzzy
@@ -1048,41 +1048,20 @@ msgid "    --binary                    read and write data in binary mode"
 msgstr "--binary  Baca dan tulis data dalam mod binari."
 
 #: src/diff.c:942
-#, fuzzy
-#| msgid "-D NAME  --ifdef=NAME  Output merged file to show `#ifdef NAME' diffs."
 msgid "-D, --ifdef=NAME                output merged file with '#ifdef NAME' diffs"
-msgstr ""
-"  -q, --brief               keluarkan jika hanya fail berbeza\n"
-"  -e, --ed                  hasilkan skrip ed\n"
-"  -n, --rcs                 hasilkan format diff RCS\n"
-"  -y, --side-by-side        keluarkan dalam dua lajur\n"
-"  -w, --width=NOM           keluarkan paling banyak NOM (default 130) aksara per baris\n"
-"      --left-column         keluarkan hanya lajur kiri baris sama\n"
-"      --suppress-common-lines jangan keluarkan baris yang sama\n"
-"  -D, --ifdef=NAMA          keluarkan fail tergabung untuk menunjukkan diff `#ifdef NAMA'\n"
-"      --GTYPE-group-format=GFMT kumpulan masukan GTYPE dengan GFMT\n"
-"      --line-format=LFMT    semua baris masukan dengan LFMT\n"
-"      --LTYPE-line-format=LFMT baris masukan LTYPE dengan LFMT\n"
-"  -l, --paginate            hantar keluaran menerusi `pr' untuk paginate\n"
-"  -t, --expand-tabs         kembangkan tab kepada ruang dalam keluaran\n"
+msgstr "-D, --ifdef=NAME                keluarkan fail tergabung dengan diff '#ifdef NAME'"
 
 #: src/diff.c:943
-#, fuzzy
-#| msgid "--GTYPE-group-format=GFMT  Similar, but format GTYPE input groups with GFMT."
 msgid "    --GTYPE-group-format=GFMT   format GTYPE input groups with GFMT"
-msgstr "--GTYPE-group-format=GFMT  Hampir sama, tetapi format masukan GTYPE dikumpulkan dengan GFMT."
+msgstr "    --GTYPE-group-format=GFMT   format masukan GTYPE dikumpulkan dengan GFMT"
 
 #: src/diff.c:944
-#, fuzzy
-#| msgid "--line-format=LFMT  Similar, but format all input lines with LFMT."
 msgid "    --line-format=LFMT          format all input lines with LFMT"
-msgstr "--line-format=LFMT  Hampir sama, tetapi format semua baris masukan dengan LFMT."
+msgstr "    --line-format=LFMT          format semua baris masukan dengan LFMT"
 
 #: src/diff.c:945
-#, fuzzy
-#| msgid "--LTYPE-line-format=LFMT  Similar, but format LTYPE input lines with LFMT."
 msgid "    --LTYPE-line-format=LFMT    format LTYPE input lines with LFMT"
-msgstr "--LTYPE-line-format=LFMT  Hampir sama, tetapi format baris masukan LTYPE dengan LFMT."
+msgstr "    --LTYPE-line-format=LFMT    format baris masukan LTYPE dengan LFMT"
 
 #: src/diff.c:946
 msgid ""
@@ -1091,10 +1070,8 @@ msgid ""
 msgstr ""
 
 #: src/diff.c:948
-#, fuzzy
-#| msgid "  LTYPE is `old', `new', or `unchanged'.  GTYPE is LTYPE or `changed'."
 msgid "  LTYPE is 'old', 'new', or 'unchanged'.  GTYPE is LTYPE or 'changed'."
-msgstr "  LTYPE adalah `old', `new', atau `unchanged'.  GTYPE adalah LTYPE atau `changed'."
+msgstr "  LTYPE adalah 'old', 'new', atau 'unchanged'.  GTYPE adalah LTYPE atau 'changed'."
 
 #: src/diff.c:949
 msgid ""
