@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.6.93\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2020-07-20 07:39+0200\n"
-"PO-Revision-Date: 2020-10-18 17:27+0800\n"
+"PO-Revision-Date: 2020-11-14 00:37+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: examples/c/bistromathic/parse.y:148 examples/java/calc/Calc.y:77
 msgid "number"
@@ -448,7 +448,7 @@ msgstr "keluaran berkonflik kepada fail %s"
 #, fuzzy, c-format
 #| msgid "%s: cannot open"
 msgid "%s: cannot backup"
-msgstr "tak dapat backup %s"
+msgstr "tak dapat nyahbackup %s"
 
 #: src/getargs.c:173
 #, fuzzy
@@ -934,7 +934,7 @@ msgstr "nilai tidak sah untuk %%define pembolehubah Boolean `%s'"
 #, fuzzy
 #| msgid "previous declaration"
 msgid "previous definition"
-msgstr "Takrifan sintaks untuk digunakan"
+msgstr "definisi bagi %s"
 
 #: src/muscle-tab.c:592 src/muscle-tab.c:693 src/muscle-tab.c:752
 #, fuzzy, c-format
@@ -965,35 +965,30 @@ msgid "invalid value for %%define Boolean variable %s"
 msgstr "nilai tidak sah untuk %%define pembolehubah Boolean `%s'"
 
 #: src/muscle-tab.c:740
-#, fuzzy, c-format
+#, c-format
 msgid "invalid value for %%define variable %s: %s"
-msgstr "nilai tidak sah untuk %%define pembolehubah Boolean `%s'"
+msgstr "nilai tidak sah untuk %%define pembolehubah %s: %s"
 
 #: src/muscle-tab.c:744
-#, fuzzy, c-format
-#| msgid "unused value: $%d"
+#, c-format
 msgid "accepted value: %s"
-msgstr "nilai tidak sah: %s"
+msgstr "nilai diterima: %s"
 
 #: src/parse-gram.y:169
 msgid "string"
 msgstr "rentetan"
 
 #: src/parse-gram.y:170
-#, fuzzy
 msgid "translatable string"
-msgstr "RENTETAN"
+msgstr "rentetan boleh diterjemah"
 
 #: src/parse-gram.y:216
-#, fuzzy
 msgid "[identifier]"
-msgstr "Penghurai ASN1: Pengenalan tidak dijumpai"
+msgstr "[pengecam]"
 
 #: src/parse-gram.y:217
-#, fuzzy
-#| msgid "empty character literal"
 msgid "character literal"
-msgstr "rentetan aksara kosong"
+msgstr "rentetan aksara"
 
 #: src/parse-gram.y:219
 msgid "epilogue"
