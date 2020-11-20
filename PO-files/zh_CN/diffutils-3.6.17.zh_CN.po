@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2018-12-28 13:39+0800\n"
+"PO-Revision-Date: 2020-11-19 22:04-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -229,7 +229,7 @@ msgstr "无效的字符种类名称"
 
 #: lib/regcomp.c:150
 msgid "Trailing backslash"
-msgstr "末端有多余的反斜号"
+msgstr "末端有多余的反斜杠"
 
 #: lib/regcomp.c:153
 msgid "Invalid back reference"
@@ -265,7 +265,7 @@ msgstr "无效的前导正则表达式"
 
 #: lib/regcomp.c:177
 msgid "Premature end of regular expression"
-msgstr "正则表达式过旱结束"
+msgstr "正则表达式过早结束"
 
 #: lib/regcomp.c:180
 msgid "Regular expression too big"
@@ -1087,7 +1087,7 @@ msgstr "软链接 %s 和 %s 不同\n"
 #: src/diff.c:1460
 #, c-format
 msgid "Files %s and %s are identical\n"
-msgstr "檔案 %s 和 %s 相同\n"
+msgstr "文件 %s 和 %s 相同\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/diff3.c:42
