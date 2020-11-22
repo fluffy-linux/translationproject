@@ -548,10 +548,8 @@ msgid "CPU time limit exceeded"
 msgstr "Prekoračeno je vremensko ograničenje procesora (SIGXCPU)"
 
 #: lib/siglist.h:97
-#, fuzzy
-#| msgid "CPU time limit exceeded"
 msgid "File size limit exceeded"
-msgstr "Prekoračeno je vremensko ograničenje procesora (SIGXCPU)"
+msgstr "Prekoračeno je ograničenje za veličinu datoteke"
 
 #: lib/siglist.h:100
 msgid "Virtual timer expired"
@@ -1475,7 +1473,7 @@ msgid ""
 "\n"
 msgstr ""
 "Promijeni prava pristupa svake DATOTEKE u MODE.\n"
-"S opcijom --reference promijeni mȏd DATOTEKE na mȏd REFDATOTEKE.\n"
+"S opcijom --reference promijeni mode DATOTEKE na mode REFDATOTEKE.\n"
 "\n"
 
 #: src/chmod.c:394
@@ -1499,7 +1497,7 @@ msgstr ""
 #: src/chmod.c:516
 #, c-format
 msgid "cannot combine mode and --reference options"
-msgstr "opcije --reference i mȏd se ne smiju kombinirati"
+msgstr "opcije --reference i mode se ne smiju kombinirati"
 
 #: src/chmod.c:547
 #, c-format
@@ -3600,7 +3598,7 @@ msgstr "IZauzeto%"
 
 #: src/df.c:212
 msgid "Mounted on"
-msgstr "Montirani na"
+msgstr "Montiran na"
 
 #: src/df.c:215
 msgid "File"
@@ -5169,7 +5167,7 @@ msgstr "opcije --compare (-C) and --strip se međusobno isključuju"
 #: src/install.c:1027
 #, c-format
 msgid "the --compare (-C) option is ignored when you specify a mode with non-permission bits"
-msgstr "--compare (-C) se ignorira ako specificirate mȏd bez bitova za prava pristupa"
+msgstr "--compare (-C) se ignorira ako specificirate mode bez bitova za prava pristupa"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/join.c:41 src/sort.c:67
@@ -6339,7 +6337,7 @@ msgstr "nevaljani način"
 
 #: src/mkfifo.c:161 src/mknod.c:158
 msgid "mode must specify only file permission bits"
-msgstr "mȏd smije sadržavati samo bitove koji određuju prava pristupa datoteci"
+msgstr "mode smije sadržavati samo bitove koji određuju prava pristupa datoteci"
 
 #: src/mkfifo.c:175 src/mknod.c:271
 #, c-format
@@ -7152,7 +7150,7 @@ msgstr "nevaljani format %s (prelijevanje širine)"
 #: src/numfmt.c:1091
 #, c-format
 msgid "--format padding overriding --padding"
-msgstr "dopuna iz opcije --format zamijenila je značenje --padding"
+msgstr "ispuna iz opcije --format zamijenila je značenje --padding"
 
 #: src/numfmt.c:1110 src/seq.c:265
 #, c-format
@@ -7477,7 +7475,7 @@ msgstr "za ispis stringova ne smije se specificirati TIP"
 
 #: src/od.c:1873
 msgid "compatibility mode supports at most one file"
-msgstr "mȏd kompatibilnosti podržava samo jednu datoteku"
+msgstr "mode kompatibilnosti podržava samo jednu datoteku"
 
 #: src/od.c:1894
 msgid "skip-bytes + read-bytes is too large"
@@ -10811,7 +10809,7 @@ msgid ""
 "With no FILE, or when FILE is -, read standard input.\n"
 msgstr ""
 "\n"
-"Ako DATOTEKA nije navedena ili je „-“, čita se standardni ulaz.\n"
+"Bez DATOTEKE, ili ako je DATOTEKA „-“ čita standardni ulaz.\n"
 
 #: src/system.h:590
 msgid ""
@@ -11879,10 +11877,10 @@ msgid ""
 msgstr ""
 "\n"
 "Zamjena se provede ako opcija -d nije navedena, a navedeni su i SKUP1 i SKUP2.\n"
-"Opcija -t smije se koristiti samo kod mijenjanja. SKUP2 produži se na dužinu\n"
+"Opcija -t smije se koristiti samo kȏd mijenjanja. SKUP2 produži se na dužinu\n"
 "SKUPA1 ponavljanjem posljednjeg znaka koliko god to treba. Višak znakova u\n"
 "SKUPU2 se ignorira. Proširenje u uzlaznom poretku garantira se samo za\n"
-"[:lower:] i [:upper:]; smiju se koristiti u SKUPU2 kod mijenjanja, ali samo u\n"
+"[:lower:] i [:upper:]; smiju se koristiti u SKUPU2 kȏd mijenjanja, ali samo u\n"
 "parovima za konverziju veličine slova. Opcija -s koristi posljednji\n"
 "specificirani SKUP a izvrši se nakon mijenjanja ili brisanja.\n"
 
@@ -11943,8 +11941,8 @@ msgid ""
 "when translating with string1 longer than string2,\n"
 "the latter string must not end with a character class"
 msgstr ""
-"kada je string1 pri mijenjanju duži od stringa2,\n"
-"onda string2 ne smije završiti sa znakovnom klasom"
+"pri mijenjanju sa string1 dužim od stringa2,\n"
+"string2 ne smije završiti sa znakovnom klasom"
 
 #: src/tr.c:1449
 msgid "the [c*] repeat construct may not appear in string1"
@@ -11956,7 +11954,7 @@ msgstr "samo jedna konstrukcija [c*] smije se pojaviti u stringu2"
 
 #: src/tr.c:1467
 msgid "[=c=] expressions may not appear in string2 when translating"
-msgstr "kod mijenjanja, izraz [=c=] se ne smije pojaviti u stringu2"
+msgstr "kȏd mijenjanja, izraz [=c=] možda se neće pojaviti u stringu2"
 
 #: src/tr.c:1474
 msgid ""
@@ -11975,7 +11973,7 @@ msgid ""
 "when translating with complemented character classes,\n"
 "string2 must map all characters in the domain to one"
 msgstr ""
-"kod mijenjanja s komplementom znakovne klase, string2\n"
+"kȏd mijenjanja s komplementom znakovne klase, string2\n"
 "mora mapirati sve znakove komplementa na točno jedan znak"
 
 #: src/tr.c:1507
@@ -12652,6 +12650,13 @@ msgid ""
 "Repeatedly output a line with all specified STRING(s), or 'y'.\n"
 "\n"
 msgstr "Redovito ispisuje redak sa svim navedenim STRING(ovima), ili „y“.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Ako DATOTEKA nije navedena ili je „-“, čita iz standardnog ulaza.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Ako DATOTEKA nije navedena ili je „-“, čita se standardni ulaz.\n"
 
 #~ msgid "Prekoračeno je ograničenje veličine datoteke"
 #~ msgstr "Prekoračeno ograničenje veličine datoteke"
