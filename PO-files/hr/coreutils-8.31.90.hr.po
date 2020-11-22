@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils-8.31.90\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2020-02-27 17:02+0000\n"
-"PO-Revision-Date: 2020-04-18 13:06-0700\n"
+"PO-Revision-Date: 2020-11-22 13:26-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -34,7 +34,7 @@ msgstr "nevaljani argument %s za %s"
 #: lib/argmatch.c:133
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "dvosmisleni argument %s za %s"
+msgstr "višeznačni argument %s za %s"
 
 #: lib/argmatch.c:152 lib/argmatch.h:223
 msgid "Valid arguments are:"
@@ -59,7 +59,7 @@ msgstr "greška u pisanju"
 #: lib/copy-acl.c:54 src/copy.c:1427 src/copy.c:2945
 #, c-format
 msgid "preserving permissions for %s"
-msgstr "očuvana su prava pristupa za %s"
+msgstr "zadržavaju se prava pristupa za %s"
 
 #: lib/error.c:195
 msgid "Unknown system error"
@@ -103,7 +103,7 @@ msgstr "specijalna blokovska datoteka (blok-uređaj)"
 
 #: lib/file-type.c:69
 msgid "character special file"
-msgstr "specijalna znakovska datoteka (znak-uređaj)"
+msgstr "specijalna znakovska datoteka (bajt-uređaj)"
 
 # In computing, contiguous data is data that is moved or stored in a solid uninterrupted block.
 #: lib/file-type.c:72
@@ -120,11 +120,11 @@ msgstr "vrata"
 
 #: lib/file-type.c:81
 msgid "multiplexed block special file"
-msgstr "multipleksirana specijalna blokovska datoteka (disk, sektor diska, i slično)"
+msgstr "multipleksirana (specijalna) blok datoteka (blok-uređaj)"
 
 #: lib/file-type.c:84
 msgid "multiplexed character special file"
-msgstr "multipleksirana specijalna znakovska datoteka (cijev, port, i slično)"
+msgstr "multipleksirana (specijalna) znak datoteka (bajt uređaj)"
 
 #: lib/file-type.c:87
 msgid "multiplexed file"
@@ -157,7 +157,7 @@ msgstr "utičnica"
 
 #: lib/file-type.c:108
 msgid "whiteout"
-msgstr "whiteout (zastrti)"
+msgstr "whiteout"
 
 #: lib/file-type.c:110
 msgid "weird file"
@@ -169,7 +169,7 @@ msgstr "Familija adresa za hostname nije podržana"
 
 #: lib/gai_strerror.c:58
 msgid "Temporary failure in name resolution"
-msgstr "Privremeni neuspjeh u rješavanju imena"
+msgstr "Privremeni neuspjeh u razrješenju imena"
 
 #: lib/gai_strerror.c:59
 msgid "Bad value for ai_flags"
@@ -185,15 +185,15 @@ msgstr "ai_family nije podržana"
 
 #: lib/gai_strerror.c:62
 msgid "Memory allocation failure"
-msgstr "Dodjela memorije nije uspjela"
+msgstr "Nije uspjelo dodijeliti memoriju"
 
 #: lib/gai_strerror.c:63
 msgid "No address associated with hostname"
-msgstr "Nema adrese povezane s hostname"
+msgstr "Nijedna adresa nije pridružena imenu hosta"
 
 #: lib/gai_strerror.c:64
 msgid "Name or service not known"
-msgstr "Ime ili servis nije poznato"
+msgstr "Ime ili usluga nije poznata"
 
 #: lib/gai_strerror.c:65
 msgid "Servname not supported for ai_socktype"
@@ -233,7 +233,7 @@ msgstr "Prekinuto signalom"
 
 #: lib/gai_strerror.c:75
 msgid "Parameter string not correctly encoded"
-msgstr "String parametra nije ispravno kodiran"
+msgstr "Parametar (string) nije pravilno kodiran"
 
 #: lib/gai_strerror.c:87
 msgid "Unknown error"
@@ -242,12 +242,12 @@ msgstr "Nepoznata greška"
 #: lib/getopt.c:278
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija „%s%s“ je dvosmislena\n"
+msgstr "%s: opcija „%s%s“ nije jednoznačna\n"
 
 #: lib/getopt.c:284
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija „%s%s“ je dvosmislena; mogućnosti:"
+msgstr "%s: opcija „%s%s“ nije jednoznačna; mogućnosti su:"
 
 #: lib/getopt.c:319
 #, c-format
@@ -279,7 +279,7 @@ msgstr "%s: opcija zahtijeva argument -- „%c“\n"
 #: src/realpath.c:146 src/stat.c:1440 src/truncate.c:327
 #, c-format
 msgid "cannot stat %s"
-msgstr "nije moguće stat %s"
+msgstr "nije moguće dobiti status za %s"
 
 #: lib/mkdir-p.c:190 src/install.c:512
 #, c-format
@@ -300,7 +300,7 @@ msgstr "nema dovoljno memorije"
 #: lib/openat-die.c:38
 #, c-format
 msgid "unable to record current working directory"
-msgstr "nije moguće zapisati trenutačni radni direktorij"
+msgstr "nije moguće zapisati trenutni radni direktorij"
 
 #: lib/openat-die.c:57 src/find-mount-point.c:107
 #, c-format
@@ -442,7 +442,7 @@ msgstr "koristite --no-preserve-root da zaobiđete ovu zaštitu"
 #. locale -k LC_MESSAGES | grep '^yesexpr='
 #: lib/rpmatch.c:150
 msgid "^[yY]"
-msgstr "^[dD]"
+msgstr "^[yYdD]"
 
 #. TRANSLATORS: A regular expression testing for a negative answer
 #. (english: "no").  Testing the first character may be sufficient.
@@ -461,7 +461,7 @@ msgstr "postavljanje prava pristupa za %s"
 
 #: lib/siglist.h:31
 msgid "Hangup"
-msgstr "Terminal zatvoren (SIGHUP)"
+msgstr "Poklopi (SIGHUP)"
 
 #: lib/siglist.h:34
 msgid "Interrupt"
@@ -473,7 +473,7 @@ msgstr "Završi (SIGQUIT)"
 
 #: lib/siglist.h:40
 msgid "Illegal instruction"
-msgstr "Nepropisna instrukcija (SIGILL)"
+msgstr "Nedopuštena instrukcija (SIGILL)"
 
 #: lib/siglist.h:43
 msgid "Trace/breakpoint trap"
@@ -485,7 +485,7 @@ msgstr "Prekid (SIGABRT)"
 
 #: lib/siglist.h:49
 msgid "Floating point exception"
-msgstr "Iznimka (broja) pomičnog zareza (SIGFPE)"
+msgstr "Iznimka (broja) s pomičnim zarezom (SIGFPE)"
 
 #: lib/siglist.h:52
 msgid "Killed"
@@ -493,7 +493,7 @@ msgstr "Ubijen (SIGKILL)"
 
 #: lib/siglist.h:55
 msgid "Bus error"
-msgstr "Sabirnička greška (SIGBUS)"
+msgstr "Greška sabirnice (SIGBUS)"
 
 #: lib/siglist.h:58
 msgid "Segmentation fault"
@@ -548,8 +548,10 @@ msgid "CPU time limit exceeded"
 msgstr "Prekoračeno je vremensko ograničenje procesora (SIGXCPU)"
 
 #: lib/siglist.h:97
+#, fuzzy
+#| msgid "CPU time limit exceeded"
 msgid "File size limit exceeded"
-msgstr "Prekoračeno ograničenje veličine datoteke"
+msgstr "Prekoračeno je vremensko ograničenje procesora (SIGXCPU)"
 
 #: lib/siglist.h:100
 msgid "Virtual timer expired"
@@ -561,7 +563,7 @@ msgstr "Isteklo je vrijeme za profiliranje (SIGPROF)"
 
 #: lib/siglist.h:106
 msgid "Window changed"
-msgstr "Promjena veličine prozora (SIGWINCH)"
+msgstr "Prozor se promijenio (SIGWINCH)"
 
 #: lib/siglist.h:109
 msgid "User defined signal 1"
@@ -647,12 +649,12 @@ msgstr "nije moguće prikazati poruku greške"
 #: lib/version-etc.c:73
 #, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr "Pakirao %s (%s)\n"
+msgstr "Spakirao %s (%s)\n"
 
 #: lib/version-etc.c:76
 #, c-format
 msgid "Packaged by %s\n"
-msgstr "Pakirao %s\n"
+msgstr "Spakirao %s\n"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
@@ -801,7 +803,7 @@ msgstr "Prijavite programske greške za %s (na engleskom, LC_ALL=C) na %s.\n"
 #: lib/version-etc.c:255 lib/version-etc.c:257
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr "Mrežna stranica od %s: <%s>\n"
+msgstr "Mrežna stranica za %s: <%s>\n"
 
 #: lib/version-etc.c:260
 #, c-format
@@ -1198,12 +1200,12 @@ msgstr "nije uspjelo promijeniti kontekst od %s u %s"
 #: src/du.c:533 src/ls.c:3436
 #, c-format
 msgid "cannot access %s"
-msgstr "%s nije pristupačan"
+msgstr "%s nije dostupan"
 
 #: src/chcon.c:267 src/chmod.c:231 src/chown-core.c:337 src/du.c:513
 #, c-format
 msgid "cannot read directory %s"
-msgstr "direktorij %s nije moguće pročitati"
+msgstr "direktorij %s nije moguće čitati"
 
 #: src/chcon.c:294
 #, c-format
@@ -1602,8 +1604,8 @@ msgid ""
 "                         here.  Either may be omitted, in which case a match\n"
 "                         is not required for the omitted attribute\n"
 msgstr ""
-"      --from=TRENUTAČNI_VLASNIK:TRENUTAČNA_GRUPA  vlasnik i/ili grupa se\n"
-"                          promijeni samo datotekama čiji trenutačni vlasnik\n"
+"      --from=TRENUTNI_VLASNIK:TRENUTNA_GRUPA  vlasnik i/ili grupa se\n"
+"                          promijeni samo datotekama čiji trenutni vlasnik\n"
 "                          i/ili grupa se točno podudara s ovdje navedenima.\n"
 "                          Vlasnik ili grupa se može ispustiti; u tom slučaju\n"
 "                          ne traži se podudaranje sa ispuštenim atributom.\n"
@@ -2144,7 +2146,7 @@ msgstr "kreiran je direktorij %s\n"
 #: src/copy.c:2665
 #, c-format
 msgid "%s: can make relative symbolic links only in current directory"
-msgstr "%s: relativne simboličke poveznice su moguće samo unutar trenutačnog direktorija"
+msgstr "%s: relativne simboličke poveznice su moguće samo unutar trenutnog direktorija"
 
 #: src/copy.c:2675
 #, c-format
@@ -2164,7 +2166,7 @@ msgstr "nije moguće stvoriti posebnu, specijalnu datoteku %s"
 #: src/copy.c:2749 src/ls.c:3648 src/stat.c:1477
 #, c-format
 msgid "cannot read symbolic link %s"
-msgstr "nije moguće pročitati simboličku poveznicu %s"
+msgstr "nije moguće čitati simboličku poveznicu %s"
 
 #: src/copy.c:2775
 #, c-format
@@ -2261,7 +2263,7 @@ msgstr ""
 "  -f, --force                  ako ne može otvoriti postojeću datoteku na\n"
 "                                 odredištu, izbriše ju i ponovno pokuša\n"
 "                                 (opcija ne djeluje ako je zadana i -n opcija)\n"
-"  -i, --interactive            pita prije nego prepiše postojeće datoteke\n"
+"  -i, --interactive            pita prije nego piše preko postojeće datoteke\n"
 "                                 (poništi prethodnu -n opciju)\n"
 "  -H                           slijedi na naredbenom retku navedene simboličke\n"
 "                                 poveznice u IZVORNIKU\n"
@@ -2808,13 +2810,13 @@ msgstr ""
 
 #: src/date.c:135
 msgid "Display the current time in the given FORMAT, or set the system date.\n"
-msgstr "Ispiše trenutačno vrijeme u danom FORMATU ili izmijeni vrijeme sustava.\n"
+msgstr "Ispiše trenutno vrijeme u danom FORMATU ili izmijeni vrijeme sustava.\n"
 
 #: src/date.c:141
 msgid "  -d, --date=STRING          display time described by STRING, not 'now'\n"
 msgstr ""
 "  -d, --date=STRING          prikaže vrijeme opisano STRINGOM, a ne\n"
-"                               trenutačno vrijeme\n"
+"                               trenutno vrijeme\n"
 
 #: src/date.c:144
 msgid ""
@@ -3620,7 +3622,7 @@ msgstr "Veličina"
 
 #: src/df.c:474 src/df.c:511
 msgid "Avail"
-msgstr "Dobitak"
+msgstr "Dostupno"
 
 #: src/df.c:534
 msgid "Capacity"
@@ -3736,7 +3738,7 @@ msgstr "Upozorenje: "
 
 #: src/df.c:1804 src/stat.c:944
 msgid "cannot read table of mounted file systems"
-msgstr "nije moguće pročitati tablicu montiranih datotečnih sustava"
+msgstr "nije moguće čitati tablicu montiranih datotečnih sustava"
 
 #: src/df.c:1841
 msgid "no file systems processed"
@@ -3820,7 +3822,7 @@ msgid ""
 msgstr ""
 "Prikaže svako IME ali bez zadnje, s kosom crtom (/) omeđene komponente. Kose\n"
 "crte sa svake strane zadnje komponente se uklone; Ako IME ne sadrži ni jednu\n"
-"kosu crtu (/), ispiše „.“, to jest trenutačni direktorij.\n"
+"kosu crtu (/), ispiše „.“, to jest trenutni direktorij.\n"
 "\n"
 
 #: src/dirname.c:59
@@ -4495,7 +4497,7 @@ msgstr "sintaktička pogreška: neočekivani argument %s"
 #: src/expr.c:665
 #, c-format
 msgid "syntax error: missing argument after %s"
-msgstr "sintaktička pogreška: nedostaje operand iza %s"
+msgstr "sintaktička greška: nedostaje operand iza %s"
 
 #: src/expr.c:748 src/ptx.c:289
 msgid "error in regular expression matcher"
@@ -4504,7 +4506,7 @@ msgstr "pogreška u regularnom izrazu za pretragu"
 #: src/expr.c:776
 #, c-format
 msgid "syntax error: expecting ')' after %s"
-msgstr "sintaktička pogreška: očekuje se „)“ iza %s"
+msgstr "sintaktička greška: očekuje se „)“ iza %s"
 
 #: src/expr.c:779
 #, c-format
@@ -4513,7 +4515,7 @@ msgstr "sintaktička pogreška: očekuje se „)“ umjesto %s"
 
 #: src/expr.c:785
 msgid "syntax error: unexpected ')'"
-msgstr "sintaktička pogreška: neočekivana „)“"
+msgstr "sintaktička greška: neočekivana „)“"
 
 #: src/expr.c:931 src/expr.c:968
 msgid "non-integer argument"
@@ -4579,7 +4581,7 @@ msgstr ""
 #: src/find-mount-point.c:40
 #, c-format
 msgid "cannot get current directory"
-msgstr "trenutačni radni direktorij nije dostupan"
+msgstr "trenutni radni direktorij nije dostupan"
 
 #: src/find-mount-point.c:50 src/find-mount-point.c:64
 #: src/find-mount-point.c:92
@@ -4590,7 +4592,7 @@ msgstr "nije moguće promijeniti direktorij u %s"
 #: src/find-mount-point.c:70
 #, c-format
 msgid "cannot stat current directory (now %s)"
-msgstr "nije moguće stat trenutačni direktorij (zasada %s)"
+msgstr "nije moguće stat trenutni direktorij (zasada %s)"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/fmt.c:37
@@ -4694,7 +4696,7 @@ msgstr "grupe za korisnika %s nije uspjelo ustanoviti"
 #: src/group-list.c:73 src/id.c:404
 #, c-format
 msgid "failed to get groups for the current process"
-msgstr "grupe za trenutačni proces nije uspjelo ustanoviti"
+msgstr "grupe za trenutni proces nije uspjelo ustanoviti"
 
 #: src/group-list.c:113
 #, c-format
@@ -4712,7 +4714,7 @@ msgid ""
 "the current process (which may differ if the groups database has changed).\n"
 msgstr ""
 "Ispiše podatke o članstvu u grupi za svakog KORISNIKA ili, ako KORISNIK nije\n"
-"naveden, za trenutačni proces (može se razlikovati ako se grupna baza podataka\n"
+"naveden, za trenutni proces (može se razlikovati ako se grupna baza podataka\n"
 "promijenila).\n"
 
 #: src/groups.c:106 src/id.c:289
@@ -4822,7 +4824,7 @@ msgid ""
 "\n"
 msgstr ""
 "Uporaba: %s [OPCIJA]\n"
-"Ispiše numerički (heksadecimalni) identifikator trenutačnog računala.\n"
+"Ispiše numerički (heksadecimalni) identifikator trenutnog računala.\n"
 "\n"
 
 #: src/hostname.c:56
@@ -4835,7 +4837,7 @@ msgid ""
 msgstr ""
 "Uporaba: %s [IME]\n"
 "   ili:  %s OPCIJA\n"
-"Ispiše ili postavi hostname aktualnog sustava.\n"
+"Ispiše ili postavi hostname trenutnog sustava.\n"
 "\n"
 
 #: src/hostname.c:93
@@ -4868,7 +4870,7 @@ msgid ""
 "\n"
 msgstr ""
 "Ispiše informacije o korisniku i grupi za svakog navedenoga KORISNIKA,\n"
-"ili (ako KORISNIK nije naveden) za trenutačnog korisnika.\n"
+"ili (ako KORISNIK nije naveden) za trenutnog korisnika.\n"
 "\n"
 
 #: src/id.c:102
@@ -5086,7 +5088,7 @@ msgstr ""
 "  -D                  kreira sve početne komponente ODREDIŠTA osim zadnje,\n"
 "                        ili sve komponente u --target-directory,\n"
 "                        i onda kopira IZVORNIK u ODREDIŠTE\n"
-"  -g, --group=GRUPA   postavi vlasničku GRUPU umjesto grupe aktualnog procesa\n"
+"  -g, --group=GRUPA   postavi vlasničku GRUPU umjesto grupe trenutnog procesa\n"
 "  -m, --mode=MODE     postavi prava pristupa (kao u chmod) umjesto rwxr-xr-x\n"
 "  -o, --owner=VLASNIK  postavi vlasništvo (samo super-user)\n"
 
@@ -5492,7 +5494,7 @@ msgid ""
 "interpreted in relation to its parent directory.\n"
 msgstr ""
 "1. forma stvori poveznicu na CILJ s imenom IME_POVEZNICE.\n"
-"2. forma stvori poveznicu na CILJ (pod istim imenom u trenutačnom direktoriju).\n"
+"2. forma stvori poveznicu na CILJ (pod istim imenom u trenutnom direktoriju).\n"
 "3. i 4. forma stvaraju poveznice na svaki CILJ u DIREKTORIJU.\n"
 "Zadano se stvaraju čvrste poveznice, a simboličke sa -s ili --symbolic.\n"
 "Zadano je da svako odredište (ime nove poveznice) ne bi smjelo već postojati.\n"
@@ -5588,7 +5590,7 @@ msgid ""
 "Print the name of the current user.\n"
 "\n"
 msgstr ""
-"Ispiše ime trenutačnog korisnika.\n"
+"Ispiše ime trenutnog korisnika.\n"
 "\n"
 
 #: src/logname.c:78
@@ -5699,7 +5701,7 @@ msgid ""
 "List information about the FILEs (the current directory by default).\n"
 "Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.\n"
 msgstr ""
-"Ispiše informacije o DATOTECI ili DATOTEKAMA (zadano u trenutačnom\n"
+"Ispiše informacije o DATOTECI ili DATOTEKAMA (zadano u trenutnom\n"
 "direktoriju). Alfabetski ih sortira ako nije specificirana --sort i nijedna\n"
 "od -cftuvSUX opcija.\n"
 
@@ -6539,7 +6541,7 @@ msgstr ""
 "      --backup[=METODA]      napravi kopije svih postojećih datoteka\n"
 "                                 na odredištu; za parametre METODE v. niže\n"
 "  -b                           isto kao --backup, ali ne prihvaća argument\n"
-"  -f, --force                  prepiše postojeće datoteke bez pitanja\n"
+"  -f, --force                  piše preko postojeće datoteke bez pitanja\n"
 "  -i, --interactive            pita prije prepisivanja postojećih datoteka\n"
 "  -n, --no-clobber             ne piše preko postojećih datoteka\n"
 " Ako navedete neke od ovih opcija -i, -f, -n opcija, izvrši se samo zadnja navedena\n"
@@ -6588,7 +6590,7 @@ msgid ""
 "%d (most favorable to the process) to %d (least favorable to the process).\n"
 msgstr ""
 "Izvrši NAREDBU s prilagođenim prioritetom („nice“ vrijednost) što utječe na\n"
-"raspored procesiranja. Ako NAREDBA nije navedena, nice ispiše trenutačni\n"
+"raspored procesiranja. Ako NAREDBA nije navedena, nice ispiše trenutni\n"
 "prioritet. Raspon prioriteta (niceness) je od %d (najpogodniji) do\n"
 "%d (najlošiji) za proces.\n"
 
@@ -6764,7 +6766,7 @@ msgid ""
 "Run COMMAND, ignoring hangup signals.\n"
 "\n"
 msgstr ""
-"Izvrši NAREDBU ne mareći za „hangup“ signale.\n"
+"Izvrši NAREDBU ne mareći za „poklopi“ signale.\n"
 "\n"
 
 #: src/nohup.c:62
@@ -6835,7 +6837,7 @@ msgid ""
 "which may be less than the number of online processors\n"
 "\n"
 msgstr ""
-"Ispiše broj jedinica procesora na raspolaganju trenutačnom procesu,\n"
+"Ispiše broj jedinica procesora na raspolaganju trenutnom procesu,\n"
 "a koji može biti manji od broja aktivnih procesora\n"
 "\n"
 
@@ -7074,7 +7076,7 @@ msgid ""
 msgstr ""
 "\n"
 "FORMAT mora biti prikladan za ispis jednog argumenta s pomičnim zarezom „%f“.\n"
-"Neobvezno citiranje (%'f) omogućuje --grouping (ako to podržava trenutačni\n"
+"Neobvezno citiranje (%'f) omogućuje --grouping (ako to podržava trenutni\n"
 "locale).\n"
 "Neobvezna vrijednost širine (%10f) će dopuniti izlaz. Neobvezna nula (%010f)\n"
 "širina će dopuniti broj s nulama. Neobvezna negativna vrijednost (%-10f) će\n"
@@ -7692,7 +7694,7 @@ msgstr "Roland Huebner"
 
 #: src/pr.c:778
 msgid "integer overflow"
-msgstr "prelijevanje pri operaciji s cijelim brojem"
+msgstr "prelijevanje pri operaciji s cijelim brojem (integer overflow)"
 
 #: src/pr.c:917
 msgid "'--pages=FIRST_PAGE[:LAST_PAGE]' missing argument"
@@ -8177,7 +8179,7 @@ msgstr "nevaljana širina retka: %s"
 msgid ""
 "Print the full filename of the current working directory.\n"
 "\n"
-msgstr "Ispiše puno ime trenutačnog radnog direktorija.\n"
+msgstr "Ispiše puno ime trenutnog radnog direktorija.\n"
 
 #: src/pwd.c:62
 msgid ""
@@ -8560,7 +8562,7 @@ msgid ""
 "With neither CONTEXT nor COMMAND, print the current security context.\n"
 msgstr ""
 "Pokreni program u drugom SELinux sigurnosnom kontekstu.\n"
-"Bez KONTEKSTA i bez NAREDBE, ispiši trenutačni sigurnosni kontekst.\n"
+"Bez KONTEKSTA i bez NAREDBE, ispiši trenutni sigurnosni kontekst.\n"
 
 #: src/runcon.c:89
 msgid ""
@@ -8598,7 +8600,7 @@ msgstr "nekoliko raspona razine (levelranges)"
 
 #: src/runcon.c:172 src/runcon.c:208
 msgid "failed to get current context"
-msgstr "nije uspjelo pročitati trenutačni kontekst"
+msgstr "nije uspjelo pročitati trenutni kontekst"
 
 #: src/runcon.c:182
 #, c-format
@@ -8684,7 +8686,7 @@ msgstr ""
 "\n"
 "Ako se ispuste, PRVI i/ili PRIRAST jednaki su 1 (zadano). Ispušteni PRIRAST\n"
 "jednak je 1 čak i kad je ZADNJI manji od PRVOG. Ispis niza se završi kad\n"
-"bi zbroj trenutačnog broja i PRIRASTA postao veći od ZADNJEG.\n"
+"bi zbroj trenutnog broja i PRIRASTA postao veći od ZADNJEG.\n"
 "PRVI, PRIRAST, i ZADNJI se interpretiraju kao brojevi s pomičnim zarezom.\n"
 "PRIRAST je obično pozitivni ako je PRVI manji od ZADNJEG, a negativni kad je\n"
 "PRVI veći od ZADNJEG. PRIRAST ne smije biti 0; PRVI, PRIRAST i ZADNJI\n"
@@ -8808,7 +8810,7 @@ msgid ""
 "  -s, --size=N   shred this many bytes (suffixes like K, M, G accepted)\n"
 msgstr ""
 "  -f, --force    ako je potrebno, promijeni prava i dopusti pisanje\n"
-"  -n, --iterations=N  prepiše N puta (umjesto zadano %d puta)\n"
+"  -n, --iterations=N  prekopiše N puta (umjesto zadano %d puta)\n"
 "      --random-source=DATOTEKA  čita i rabi slučajne bajtove iz DATOTEKE\n"
 "  -s, --size=N   samelje N prvih bajtova (dopušteni sufiksi su: K, M, ili G)\n"
 
@@ -8827,7 +8829,7 @@ msgstr ""
 "  -v, --verbose  prikazuje napredak rezuckanja\n"
 "  -x, --exact    ne zaokruži veličinu datoteke do sljedećeg cijelog bloka;\n"
 "                   to je zadano za neregularne datoteke\n"
-"  -z, --zero     još s nulama dodatno prepiše da skrije rezuckanje\n"
+"  -z, --zero     dodatno prekopiše s nulama da skrije rezuckanje\n"
 
 #: src/shred.c:198
 msgid ""
@@ -9070,7 +9072,7 @@ msgstr "nevaljani vremenski interval %s"
 
 #: src/sleep.c:143 src/tail.c:1311
 msgid "cannot read realtime clock"
-msgstr "nije moguće pročitati stvarno vrijeme"
+msgstr "nije moguće čitati stvarno vrijeme"
 
 #: src/sort.c:420
 msgid "Write sorted concatenation of all FILE(s) to standard output.\n"
@@ -9321,7 +9323,7 @@ msgstr "argument %2$s od --%1$s je prevelik"
 #: src/sort.c:1374
 #, c-format
 msgid "maximum --%s argument with current rlimit is %s"
-msgstr "maksimum za --%s s aktualnim rlimit je: %s"
+msgstr "maksimum za --%s s trenutnim rlimit je: %s"
 
 #: src/sort.c:1456
 msgid "number in parallel must be nonzero"
@@ -9398,7 +9400,7 @@ msgstr "standardni izlaz za greške"
 
 #: src/sort.c:3764
 msgid "cannot read"
-msgstr "čitanje nije moguće"
+msgstr "nije moguće čitati"
 
 #: src/sort.c:4043
 #, c-format
@@ -9454,7 +9456,7 @@ msgstr "prazni tab(ulator)"
 #: src/sort.c:4607 src/wc.c:784
 #, c-format
 msgid "cannot read file names from %s"
-msgstr "nije moguće pročitati imena datoteka iz %s"
+msgstr "nije moguće čitati imena datoteka iz %s"
 
 #: src/sort.c:4629
 #, c-format
@@ -9732,7 +9734,7 @@ msgstr "korištenje %s za označiti standardni ulaz ne radi u modu datotečnog s
 #: src/stat.c:1238
 #, c-format
 msgid "cannot read file system information for %s"
-msgstr "nije moguće pročitati informaciju datotečnog sustava za %s"
+msgstr "nije moguće čitati informaciju datotečnog sustava za %s"
 
 #: src/stat.c:1362 src/stat.c:1429
 #, c-format
@@ -9802,7 +9804,7 @@ msgid ""
 "Change: %z\n"
 " Birth: %w\n"
 msgstr ""
-"Dostup: %x\n"
+"dfDostup: %x\n"
 "Izmjena: %y\n"
 "Promjena: %z\n"
 "Stvorena: %w\n"
@@ -10107,8 +10109,8 @@ msgid ""
 "  -g, --save         print all current settings in a stty-readable form\n"
 "  -F, --file=DEVICE  open and use the specified DEVICE instead of stdin\n"
 msgstr ""
-"  -a, --all          sve trenutačne postavke u čitljivom obliku\n"
-"  -g, --save         sve trenutačne postavke u stty obliku\n"
+"  -a, --all          sve trenutne postavke u čitljivom obliku\n"
+"  -g, --save         sve trenutne postavke u stty obliku\n"
 "  -F, --file=UREĐAJ  otvori i rabi specificirani UREĐAJ umjesto stdin\n"
 
 #: src/stty.c:550
@@ -10157,7 +10159,7 @@ msgid ""
 msgstr ""
 "   erase ZNAK    ZNAK će izbrisati posljednji utipkani znak\n"
 "   intr ZNAK     ZNAK će poslati prekidni signal\n"
-"   kill ZNAK     ZNAK će izbrisati trenutačni redak\n"
+"   kill ZNAK     ZNAK će izbrisati trenutni redak\n"
 
 #: src/stty.c:583
 msgid " * lnext CHAR    CHAR will enter the next character quoted\n"
@@ -10173,7 +10175,7 @@ msgstr "   quit ZNAK     ZNAK će poslati quit signal\n"
 
 #: src/stty.c:596
 msgid " * rprnt CHAR    CHAR will redraw the current line\n"
-msgstr " * rprnt ZNAK    ZNAK će osvježiti trenutačni redak\n"
+msgstr " * rprnt ZNAK    ZNAK će osvježiti trenutni redak\n"
 
 #: src/stty.c:600
 msgid ""
@@ -10292,7 +10294,7 @@ msgid ""
 "   [-]parodd     set odd parity (or even parity with '-')\n"
 msgstr ""
 "   [-]cstopb     rabi dva stop bita po znaku (jedan s „-“)\n"
-"   [-]hup        pošalje hangup signal kad zadnji proces zatvori tty\n"
+"   [-]hup        pošalje poklopi signal kad zadnji proces zatvori tty\n"
 "   [-]hupcl      isto kao [-]hup\n"
 "   [-]parenb     generira paritetni bit na izlazu i očekuje\n"
 "                   paritetni bit na ulazu\n"
@@ -10843,7 +10845,7 @@ msgstr ""
 "\n"
 "Veličine se ispisuju u jedinicama prve raspoložive VELIČINE u --block-size, i\n"
 "varijabla okoline %s_BLOCK_SIZE, BLOCK_SIZE i BLOCKSIZE.\n"
-"Inače, jedinice su (zadano stanje) 1024 bajta (ili 512 ako je aktivna\n"
+"Inače, jedinice su (zadano) 1024 bajta (ili 512 ako je aktivna\n"
 "postavka POSIXLY_CORRECT).\n"
 
 #: src/system.h:618
@@ -11260,7 +11262,7 @@ msgid ""
 msgstr ""
 "Kopira standardni ulaz u svaku navedenu DATOTEKU i na na standardni izlaz.\n"
 "\n"
-"  -a, --append              pripaja navedenim datotekama (ne prepiše ih)\n"
+"  -a, --append              pripaja navedenim datotekama (ne prekopiše ih)\n"
 "  -i, --ignore-interrupts   ignorira prekidne signale\n"
 
 #: src/tee.c:94
@@ -11679,7 +11681,7 @@ msgstr "Randy Smith"
 #: src/touch.c:116 src/touch.c:310
 #, c-format
 msgid "invalid date format %s"
-msgstr "neispravno formiran datum %s"
+msgstr "nevaljani format datuma %s"
 
 #: src/touch.c:192
 #, c-format
@@ -11701,7 +11703,7 @@ msgid ""
 "A FILE argument string of - is handled specially and causes touch to\n"
 "change the times of the file associated with standard output.\n"
 msgstr ""
-"Ažurira vremenske oznake pristupa i promijene svake datoteke na trenutačno\n"
+"Ažurira vremenske oznake pristupa i promijene svake datoteke na trenutno\n"
 "vrijeme sustava\n"
 "\n"
 "Ako DATOTEKA ne postoji stvori se prazna DATOTEKA, osim ako nije navedena\n"
@@ -11720,7 +11722,7 @@ msgstr ""
 "  -a                     promjeni samo vrijeme pristupa\n"
 "  -c, --no-create        ne stvara nove datoteke\n"
 "  -d, --date=STRING      raščlani/analizira STRING i rabi ga umjesto\n"
-"                           trenutačnog vremena\n"
+"                           trenutnog vremena\n"
 "  -f                     (ignorira se)\n"
 
 #: src/touch.c:232
@@ -11744,8 +11746,8 @@ msgid ""
 "                           WORD is modify or mtime: equivalent to -m\n"
 msgstr ""
 "  -r, --reference=DATOTEKA  rabi vremenske oznake DATOTEKE umjesto\n"
-"                              trenutačnog vremena sustava\n"
-"  -t VRIJEME             rabi [[CC]YY]MMDDhhmm[.ss] umjesto trenutačnog vremena\n"
+"                              trenutnog vremena sustava\n"
+"  -t VRIJEME             rabi [[CC]YY]MMDDhhmm[.ss] umjesto trenutnog vremena\n"
 "      --time=RIJEČ       promijeni specificirano vrijeme:\n"
 "                           RIJEČ je access, atime ili use: isto kao opcija -a\n"
 "                           RIJEČ je modify ili mtime: isto kao opcija -m\n"
@@ -11890,7 +11892,7 @@ msgid ""
 "warning: the ambiguous octal escape \\%c%c%c is being\n"
 "\tinterpreted as the 2-byte sequence \\0%c%c, %c"
 msgstr ""
-"upozorenje: dvosmisleni oktalni kontrolni kȏd \\%c%c%c se\n"
+"upozorenje: višeznačni oktalni kontrolni kȏd \\%c%c%c se\n"
 "\tinterpretira kao sekvencija od dva bajta \\0%c%c, %c"
 
 #: src/tr.c:516
@@ -12400,7 +12402,7 @@ msgid ""
 "the number of users on the system, and the average number of jobs\n"
 "in the run queue over the last 1, 5 and 15 minutes."
 msgstr ""
-"Ispiše trenutačno vrijeme, koliko je vremena sustav u upotrebi,\n"
+"Ispiše trenutno vrijeme, koliko je vremena sustav u upotrebi,\n"
 "broj korisnika sustava, i prosječan broj aktivnih poslova u\n"
 "redu čekanja u zadnjih 1, 5 i 15 minuta."
 
@@ -12430,7 +12432,7 @@ msgid ""
 "If FILE is not specified, use %s.  %s as FILE is common.\n"
 "\n"
 msgstr ""
-"Ispiše tko je trenutačno prijavljeni korisnik suglasno s DATOTEKOM.\n"
+"Ispiše tko je trenutno prijavljeni korisnik suglasno s DATOTEKOM.\n"
 "Ako DATOTEKA nije specificirana, rabi se %s.\n"
 "Upotreba %s kao DATOTEKA je česta.\n"
 "\n"
@@ -12555,7 +12557,7 @@ msgstr "Uporaba: %s [OPCIJA]... [ DATOTEKA | ARG1 ARG2 ]\n"
 
 #: src/who.c:645
 msgid "Print information about users who are currently logged in.\n"
-msgstr "Ispiše informacije o korisnicima koji su trenutačno prijavljeni.\n"
+msgstr "Ispiše informacije o korisnicima koji su trenutno prijavljeni.\n"
 
 #: src/who.c:648
 msgid ""
@@ -12593,7 +12595,7 @@ msgid ""
 "  -t, --time        print last system clock change\n"
 msgstr ""
 "  -q, --count       sva prijavljena imena i broj prijavljenih korisnika\n"
-"  -r, --runlevel    ispiše trenutačni runlevel\n"
+"  -r, --runlevel    ispiše trenutni runlevel\n"
 "  -s, --short       ispiše samo ime, terminal, i vrijeme (zadano)\n"
 "  -t, --time        ispiše zadnju promjenu sata (vremena)\n"
 
@@ -12628,7 +12630,7 @@ msgid ""
 "Same as id -un.\n"
 "\n"
 msgstr ""
-"Ispiše ime korisnika povezanoga s trenutačnim efektivnim korisničkim ID-om.\n"
+"Ispiše ime korisnika povezanoga s trenutnim efektivnim korisničkim ID-om.\n"
 "Isto kao id -un.\n"
 
 #: src/whoami.c:86
@@ -12650,6 +12652,9 @@ msgid ""
 "Repeatedly output a line with all specified STRING(s), or 'y'.\n"
 "\n"
 msgstr "Redovito ispisuje redak sa svim navedenim STRING(ovima), ili „y“.\n"
+
+#~ msgid "Prekoračeno je ograničenje veličine datoteke"
+#~ msgstr "Prekoračeno ograničenje veličine datoteke"
 
 #~ msgid "%s home page: <https://www.gnu.org/software/%s/>\n"
 #~ msgstr "Početna stranica za %s: <https://www.gnu.org/software/%s/>\n"
