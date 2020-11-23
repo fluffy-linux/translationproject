@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2020-10-24 22:56+0800\n"
+"PO-Revision-Date: 2020-11-23 22:40+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -106,7 +106,7 @@ msgstr "fail khas blok"
 #, fuzzy
 #| msgid "character special file"
 msgid "multiplexed character special file"
-msgstr "fail istimewa aksara"
+msgstr "fail khas aksara"
 
 #: lib/file-type.c:87
 #, fuzzy
@@ -1018,34 +1018,24 @@ msgid "-w, --ignore-all-space          ignore all white space"
 msgstr "-W, --ignore-all-space       abai semua ruang putih"
 
 #: src/diff.c:933
-#, fuzzy
-#| msgid "-B  --ignore-blank-lines  Ignore changes whose lines are all blank."
 msgid "-B, --ignore-blank-lines        ignore changes where lines are all blank"
-msgstr "-B, --ignore-blank-lines     abai perubahan dimana baris adalah kesemuanya kosong"
+msgstr "-B, --ignore-blank-lines        abai perubahan dimana baris adalah kesemuanya kosong"
 
 #: src/diff.c:934
-#, fuzzy
-#| msgid "-I RE  --ignore-matching-lines=RE  Ignore changes whose lines all match RE."
 msgid "-I, --ignore-matching-lines=RE  ignore changes where all lines match RE"
-msgstr "-I, --ignore-matching-lines=RE  abai perubahan dimana baris semua sepadan RE"
+msgstr "-I, --ignore-matching-lines=RE  abai perubahan dimana semua baris sepadan RE"
 
 #: src/diff.c:936
-#, fuzzy
-#| msgid "-a  --text  Treat all files as text."
 msgid "-a, --text                      treat all files as text"
-msgstr "-a, --text                   layan semua fail sebagai teks"
+msgstr "-a, --text                      layan semua fail sebagai teks"
 
 #: src/diff.c:937
-#, fuzzy
-#| msgid "--strip-trailing-cr  Strip trailing carriage return on input."
 msgid "    --strip-trailing-cr         strip trailing carriage return on input"
-msgstr "    --strip-trailing-cr      buang enter penghujung pada masukan"
+msgstr "    --strip-trailing-cr         buang enter penghujung pada masukan"
 
 #: src/diff.c:939
-#, fuzzy
-#| msgid "--binary  Read and write data in binary mode."
 msgid "    --binary                    read and write data in binary mode"
-msgstr "--binary  Baca dan tulis data dalam mod binari."
+msgstr "    --binary                    baca dan tulis data dalam mod perduaan"
 
 #: src/diff.c:942
 msgid "-D, --ifdef=NAME                output merged file with '#ifdef NAME' diffs"
