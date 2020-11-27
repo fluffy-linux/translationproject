@@ -1052,7 +1052,7 @@ msgstr ""
 
 #: src/diff.c:983
 msgid "If --from-file or --to-file is given, there are no restrictions on FILE(s)."
-msgstr "Ako je dan --from-file ili --to-file, onda nema restrikcija na  DATOTEK(U/E)."
+msgstr "Ako je dano --from-file ili --to-file, onda nema restrikcija na  DATOTEK(U/E)."
 
 #: src/diff.c:984 src/diff3.c:528 src/sdiff.c:219
 msgid "If a FILE is '-', read standard input."
