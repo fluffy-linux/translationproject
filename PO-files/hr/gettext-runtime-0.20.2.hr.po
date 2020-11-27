@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gettext-runtime-0.20.2\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2020-04-13 15:53+0200\n"
-"PO-Revision-Date: 2020-04-17 08:19-0700\n"
+"PO-Revision-Date: 2020-11-26 17:22-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -28,7 +28,7 @@ msgstr ""
 # Provjeriti koje nazive parametara i varijabli okoline treba prevesti... (TK)
 #: gnulib-lib/closeout.c:66
 msgid "write error"
-msgstr "greška pisanja"
+msgstr "greška pri pisanju"
 
 # Unrecognized is a synonym of unknown.
 # unrecognized is not recognized;
@@ -41,15 +41,15 @@ msgstr "Nepoznata greška sustava"
 #: gnulib-lib/getopt.c:278
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija „%s%s“ je dvosmislena\n"
+msgstr "%s: opcija „%s%s“ nije jednoznačna\n"
 
 # ambiguous: having or ​expressing more than one ​possible ​meaning
 # ambiguous: able to be understood in more than one way
-# ambiguous se češće prevodi s „dvosmislen“ ali ....
+# ambiguous se češće prevodi s „višeznačn“ ali ....
 #: gnulib-lib/getopt.c:284
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija „%s%s“ je dvosmislena; mogućnosti su:"
+msgstr "%s: opcija „%s%s“ nije jednoznačna; mogućnosti su:"
 
 #: gnulib-lib/getopt.c:319
 #, c-format
@@ -119,7 +119,7 @@ msgstr "nema argumenata"
 #: src/envsubst.c:176 src/gettext.c:248 src/ngettext.c:213
 #, c-format
 msgid "Try '%s --help' for more information.\n"
-msgstr "„%s --help“ pomoć za uporabu i dodatne obavijesti.\n"
+msgstr "„Pokušajte s „%s --help“ za pomoć i više informacija.\n"
 
 # gettext manual 15.5.2.3
 # SHELL-FORMAT su strings, as supported by  gettext and the ‘envsubst’ program, are strings with references to shell variables in the form $variable or ${variable}.
@@ -148,7 +148,7 @@ msgstr "  -v, --variables             ispiše varijable koje se javljaju u FORMA
 #: src/envsubst.c:197 src/gettext.c:277 src/ngettext.c:243
 #, c-format, no-wrap
 msgid "Informative output:\n"
-msgstr "Dodatne obavijesti:\n"
+msgstr "Informativni izlaz:\n"
 
 # http://ihjj.hr iziđi umjesto izađi: „prikaži pomoć i iziđi“ Ili kraće samo „pomoć“, ili „ova pomoć“; glagoli nisu nužni, jer je iz konteksta sve jasno.
 #: src/envsubst.c:200
@@ -367,7 +367,7 @@ msgstr ""
 #~ msgstr "%s: nepoznata opcija „--%s“\n"
 
 #~ msgid "%s: option '-W %s' is ambiguous\n"
-#~ msgstr "%s: opcija „-W %s“ je dvosmislena\n"
+#~ msgstr "%s: opcija „-W %s“ nije jednoznačna\n"
 
 #~ msgid "%s: option '-W %s' doesn't allow an argument\n"
 #~ msgstr "%s: opcija „-W %s“ ne dopušta argument\n"
