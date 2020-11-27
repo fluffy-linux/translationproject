@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2019-02-27 13:26-0800\n"
+"PO-Revision-Date: 2020-11-26 17:22-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -28,7 +28,7 @@ msgstr "nevaljani argument %s for %s"
 #: lib/argmatch.c:135
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "dvosmisleni argument %s za %s"
+msgstr "višeznačni argument %s za %s"
 
 #: lib/argmatch.c:154
 msgid "Valid arguments are:"
@@ -92,7 +92,7 @@ msgstr "kontinuirani podaci"
 
 #: lib/file-type.c:75
 msgid "fifo"
-msgstr "fifo"
+msgstr "FIFO"
 
 #: lib/file-type.c:78
 msgid "door"
@@ -112,7 +112,7 @@ msgstr "multipleksirana datoteka"
 
 #: lib/file-type.c:90
 msgid "named file"
-msgstr "imenova datoteka"
+msgstr "imenovana datoteka"
 
 #: lib/file-type.c:93
 msgid "network special file"
@@ -145,12 +145,12 @@ msgstr "čudna datoteka"
 #: lib/getopt.c:278
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija „-%s%s“ je dvosmislena\n"
+msgstr "%s: opcija „-%s%s“ nije jednoznačna\n"
 
 #: lib/getopt.c:284
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija „%s%s“ je dvosmislena; mogućnosti su:"
+msgstr "%s: opcija „%s%s“ nije jednoznačna; mogućnosti su:"
 
 #: lib/getopt.c:319
 #, c-format
@@ -220,7 +220,7 @@ msgstr "Nevaljani regularni izraz"
 
 #: lib/regcomp.c:144
 msgid "Invalid collation character"
-msgstr "Nevaljani znak razvrstavanja"
+msgstr "Nevaljani znak za razvrstavanje"
 
 #: lib/regcomp.c:147
 msgid "Invalid character class name"
@@ -232,7 +232,7 @@ msgstr "Zaostala obratna kosa crta (backslash)"
 
 #: lib/regcomp.c:153
 msgid "Invalid back reference"
-msgstr "Nevaljana povratna veza"
+msgstr "Nevaljana povratna referencija"
 
 #: lib/regcomp.c:156
 msgid "Unmatched [, [^, [:, [., or [="
@@ -321,12 +321,12 @@ msgstr "%s%s argument „%s“ je prevelik"
 #: lib/version-etc.c:73
 #, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr "Pakirao %s (%s)\n"
+msgstr "Spakirali %s (%s)\n"
 
 #: lib/version-etc.c:76
 #, c-format
 msgid "Packaged by %s\n"
-msgstr "Pakirao %s\n"
+msgstr "Spakirao %s\n"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
@@ -346,7 +346,7 @@ msgstr ""
 "\n"
 "Licencija:\n"
 "GPLv3+: GNU GPL inačica 3 ili kasnija <https://gnu.org/licenses/gpl.html>.\n"
-"Ovo je slobodan softver: slobodno ga mijenjajte i distribuirajte.\n"
+"Ovo je slobodan softver: slobodno ga mijenjajte i dijelite.\n"
 "NEMA JAMSTVA do granica dopuštenih zakonom.\n"
 "\n"
 
@@ -480,12 +480,12 @@ msgstr "Prijavite %s greške na %s\n"
 #: lib/version-etc.c:251
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr "%s web stranica: <%s>\n"
+msgstr "Mrežna stranica za %s: <%s>\n"
 
 #: lib/version-etc.c:253
 #, c-format
 msgid "%s home page: <https://www.gnu.org/software/%s/>\n"
-msgstr "%s web stranica: <http://www.gnu.org/software/%s/>\n"
+msgstr "Mrežna stranica za %s: <http://www.gnu.org/software/%s/>\n"
 
 #: lib/version-etc.c:256
 msgid "General help using GNU software: <https://www.gnu.org/gethelp/>\n"
@@ -534,7 +534,7 @@ msgstr "opcije -l i -s nisu kompatibilne"
 #: src/sdiff.c:315 src/sdiff.c:322 src/sdiff.c:874 src/util.c:852
 #: src/util.c:952 src/util.c:959
 msgid "write failed"
-msgstr "zapisivanje nije uspjelo"
+msgstr "pisanje nije uspjelo"
 
 #: src/cmp.c:157 src/diff.c:887 src/diff.c:1469 src/diff3.c:471
 #: src/sdiff.c:169
@@ -571,7 +571,7 @@ msgstr "-s, --quiet, --silent      izostavi normalni izlaz (ispiše samo status 
 
 #: src/cmp.c:168
 msgid "    --help                 display this help and exit"
-msgstr "    --help                 pokaže ovu pomoć"
+msgstr "    --help                 pokaže ovu pomoć i iziđe"
 
 #: src/cmp.c:169
 msgid "-v, --version              output version information and exit"
@@ -580,7 +580,7 @@ msgstr "-v, --version              informacije o inačici ovog programa"
 #: src/cmp.c:178
 #, c-format
 msgid "Usage: %s [OPTION]... FILE1 [FILE2 [SKIP1 [SKIP2]]]\n"
-msgstr "Uporaba: %s [OPCIJA...] DATOTEKA1 [DATOTEKA2 [SKIP1 [SKIP2]]]\n"
+msgstr "Uporaba: %s [OPCIJA]... DATOTEKA1 [DATOTEKA2 [SKIP1 [SKIP2]]]\n"
 
 #: src/cmp.c:180
 msgid "Compare two files byte by byte."
@@ -1181,7 +1181,7 @@ msgid ""
 "-m, --merge                 output actual merged file, according to\n"
 "                                -A if no other options are given"
 msgstr ""
-"-m, --merge                 prikaže aktualnu spojenu datoteku kao -A ako\n"
+"-m, --merge                 prikaže trenutnu spojenu datoteku kao -A ako\n"
 "                                nijedna druga opcija nije dana"
 
 #: src/diff3.c:488
