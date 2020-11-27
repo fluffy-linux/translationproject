@@ -2746,7 +2746,7 @@ msgstr "Pokaže izvršene kontrolne točke i izlazni status NAREDBE"
 
 #: tests/genfile.c:180
 msgid "Synchronous execution actions. These are executed when checkpoint number given by --checkpoint option is reached."
-msgstr "Sinkrono izvršene akcije. Izvršavaju se kad se dostigne broj kontrolne točke dan opcijom --checkpoint."
+msgstr "Sinkrono izvršene akcije. Izvršavaju se kad se dostigne broj kontrolne točke iz opcije --checkpoint."
 
 #: tests/genfile.c:183
 msgid "Truncate FILE to the size specified by previous --length option (or 0, if it is not given)"
