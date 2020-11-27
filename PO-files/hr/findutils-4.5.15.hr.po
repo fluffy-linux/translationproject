@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: findutils 4.5.15\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2015-12-18 14:45+0000\n"
-"PO-Revision-Date: 2019-02-24 19:04-0800\n"
+"PO-Revision-Date: 2020-11-26 17:22-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -65,7 +65,7 @@ msgstr "Bibliotečna funkcija atexit() nije uspjela"
 #: find/find.c:263
 #, c-format
 msgid "cannot stat current directory"
-msgstr "nije moguće dobiti status za trenutačni direktorij"
+msgstr "nije moguće dobiti status za trenutni direktorij"
 
 #: find/find.c:354
 #, c-format
@@ -215,7 +215,7 @@ msgid ""
 "expression may consist of: operators, options, tests, and actions:\n"
 msgstr ""
 "\n"
-"zadana staza je trenutačni direktorij; zadani izraz je -print\n"
+"zadana staza je trenutni direktorij; zadani izraz je -print\n"
 "izraz može sadržavati operatore, opcije, testove i akcije:\n"
 
 #: find/parser.c:1225
@@ -432,9 +432,9 @@ msgstr "Nepoznati argument za -type: %c"
 #, c-format
 msgid "The current directory is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove the current directory from your $PATH (that is, remove \".\", doubled colons, or leading or trailing colons)"
 msgstr ""
-"Varijabla okoline PATH sadrži trenutačni direktorij;\n"
+"Varijabla okoline PATH sadrži trenutni direktorij;\n"
 "to nije sigurno u kombinaciji s akcijom %s od find.\n"
-"Zbog toga valja ukloniti trenutačni direktorij iz $PATH (odnosno, uklonite\n"
+"Zbog toga valja ukloniti trenutni direktorij iz $PATH (odnosno, uklonite\n"
 "„.“, duple dvotočke, ili dvotočke na početku (leading) ili na kraju (trailing)."
 
 #: find/parser.c:2872
@@ -710,7 +710,7 @@ msgstr "nevaljani argument „%s“ za „%s“"
 #: gl/lib/argmatch.c:134
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "dvosmisleni argument %s za „%s“"
+msgstr "višeznačni argument %s za „%s“"
 
 #: gl/lib/argmatch.c:153
 msgid "Valid arguments are:"
@@ -732,17 +732,17 @@ msgstr "Nepoznata greška sustava"
 #: gl/lib/getopt.c:547 gl/lib/getopt.c:576
 #, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s: opcija „%s“ je dvosmislena; mogućnosti su:"
+msgstr "%s: opcija „%s“ nije jednoznačna; mogućnosti su:"
 
 #: gl/lib/getopt.c:624 gl/lib/getopt.c:628
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: opcija „--%s“ ne dopušta nijedan argument\n"
+msgstr "%s: opcija „--%s“ ne dopušta argumente\n"
 
 #: gl/lib/getopt.c:637 gl/lib/getopt.c:642
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: opcija „%c%s“ ne dopušta nijedan argument\n"
+msgstr "%s: opcija „%c%s“ ne dopušta argumente\n"
 
 #: gl/lib/getopt.c:685 gl/lib/getopt.c:704
 #, c-format
@@ -773,12 +773,12 @@ msgstr "%s: opcija zahtijeva argument -- „%c“\n"
 #: gl/lib/getopt.c:934 gl/lib/getopt.c:950
 #, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
-msgstr "%s: opcija „-W %s“ je dvosmislena\n"
+msgstr "%s: opcija „-W %s“ nije jednoznačna\n"
 
 #: gl/lib/getopt.c:974 gl/lib/getopt.c:992
 #, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
-msgstr "%s: opcija „-W %s“ ne dopušta nijedan argument\n"
+msgstr "%s: opcija „-W %s“ ne dopušta argumente\n"
 
 #: gl/lib/getopt.c:1013 gl/lib/getopt.c:1031
 #, c-format
@@ -788,7 +788,7 @@ msgstr "%s: opcija „-W %s“ zahtijeva argument\n"
 #: gl/lib/openat-die.c:38
 #, c-format
 msgid "unable to record current working directory"
-msgstr "nije moguće zabilježiti trenutačni radni direktorij"
+msgstr "nije moguće zabilježiti trenutni radni direktorij"
 
 #: gl/lib/openat-die.c:57
 #, c-format
@@ -847,12 +847,12 @@ msgstr "^[nN]"
 #: gl/lib/version-etc.c:74
 #, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr "Zapakirao — %s (%s)\n"
+msgstr "Spakirali %s (%s)\n"
 
 #: gl/lib/version-etc.c:77
 #, c-format
 msgid "Packaged by %s\n"
-msgstr "Zapakirao — %s\n"
+msgstr "Spakirao %s\n"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
@@ -872,7 +872,7 @@ msgstr ""
 "\n"
 "Licencija:\n"
 "GPLv3+: GNU GPL inačica 3 ili kasnija <https://gnu.org/licenses/gpl.html>.\n"
-"Ovo je slobodan softver: slobodno ga mijenjajte i distribuirajte.\n"
+"Ovo je slobodan softver: slobodno ga mijenjajte i dijelite.\n"
 "NEMA JAMSTVA do granica dopuštenih zakonom.\n"
 "\n"
 
@@ -880,19 +880,19 @@ msgstr ""
 #: gl/lib/version-etc.c:102
 #, c-format
 msgid "Written by %s.\n"
-msgstr "Napisao — %s.\n"
+msgstr "Napisao %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: gl/lib/version-etc.c:106
 #, c-format
 msgid "Written by %s and %s.\n"
-msgstr "Napisali — %s i %s.\n"
+msgstr "Napisali %s i %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: gl/lib/version-etc.c:110
 #, c-format
 msgid "Written by %s, %s, and %s.\n"
-msgstr "Napisali — %s, %s i %s.\n"
+msgstr "Napisali %s, %s i %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -903,7 +903,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"Napisali — %s, %s, %s\n"
+"Napisali %s, %s, %s\n"
 "i %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -915,7 +915,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
-"Napisali — %s, %s, %s,\n"
+"Napisali %s, %s, %s,\n"
 "%s i %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -927,7 +927,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, and %s.\n"
 msgstr ""
-"Napisali — %s, %s, %s,\n"
+"Napisali %s, %s, %s,\n"
 "%s, %s i %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -939,7 +939,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, %s, and %s.\n"
 msgstr ""
-"Napisali — %s, %s, %s,\n"
+"Napisali %s, %s, %s,\n"
 "%s, %s, %s i %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -952,7 +952,7 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"Napisali — %s, %s, %s,\n"
+"Napisali %s, %s, %s,\n"
 "%s, %s, %s, %s\n"
 "i %s.\n"
 
@@ -966,7 +966,7 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
-"Napisali — %s, %s, %s,\n"
+"Napisali %s, %s, %s,\n"
 "%s, %s, %s, %s,\n"
 "%s i %s.\n"
 
@@ -980,7 +980,7 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, %s, and others.\n"
 msgstr ""
-"Napisali — %s, %s, %s,\n"
+"Napisali %s, %s, %s,\n"
 "%s, %s, %s, %s,\n"
 "%s, %s i drugi.\n"
 
@@ -1009,12 +1009,12 @@ msgstr ""
 #: gl/lib/version-etc.c:251
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr "Webstranica od %s: <%s>\n"
+msgstr "Mrežna stranica za %s: <%s>\n"
 
 #: gl/lib/version-etc.c:253
 #, c-format
 msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
-msgstr "Webstranica od %s: <http://www.gnu.org/software/%s/>\n"
+msgstr "Mrežna stranica za %s: <http://www.gnu.org/software/%s/>\n"
 
 #: gl/lib/version-etc.c:256
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
@@ -1042,7 +1042,7 @@ msgstr "argument %s%s za „%s“ je prevelik"
 #: lib/buildcmd.c:161
 #, c-format
 msgid "command too long"
-msgstr "preduga naredba"
+msgstr "naredba je preduga"
 
 #: lib/buildcmd.c:301
 #, c-format
@@ -1239,7 +1239,7 @@ msgid "locate database %s looks like an slocate database but it seems to have se
 msgstr ""
 "Čini se da je baza podataka %s slocate baza podataka\n"
 "ali izgleda da ima sigurnosnu razinu %c.\n"
-"GNU findutils trenutačno ne podržava tu razinu."
+"GNU findutils trenutno ne podržava tu razinu."
 
 #: locate/locate.c:1088
 #, c-format
