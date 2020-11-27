@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: tar-1.32.90\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2019-11-27 18:52+0200\n"
-"PO-Revision-Date: 2019-11-30 17:23-0800\n"
+"PO-Revision-Date: 2020-11-26 17:25-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -34,16 +34,16 @@ msgstr ""
 #: gnu/argmatch.c:134
 #, c-format
 msgid "invalid argument %s for %s"
-msgstr "neispravni argument %s za %s"
+msgstr "nevaljani argument %s za %s"
 
 #: gnu/argmatch.c:135
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "dvosmisleni argument %s za %s"
+msgstr "višeznačni argument %s za %s"
 
 #: gnu/argmatch.c:154
 msgid "Valid arguments are:"
-msgstr "Ispravni argumenti su:"
+msgstr "Valjani argumenti su:"
 
 #: gnu/argp-help.c:148
 #, c-format
@@ -53,12 +53,12 @@ msgstr "ARGP_HELP_FMT: vrijednost %s je manja ili jednaka %s"
 #: gnu/argp-help.c:224
 #, c-format
 msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
-msgstr "%.*s: ARGP_HELP_FMT parametar zahtijeva vrijednost"
+msgstr "%.*s: parametar ARGP_HELP_FMT zahtijeva vrijednost"
 
 #: gnu/argp-help.c:234
 #, c-format
 msgid "%.*s: Unknown ARGP_HELP_FMT parameter"
-msgstr "%.*s: Nepoznati ARGP_HELP_FMT parametar"
+msgstr "%.*s: Nepoznati parametar ARGP_HELP_FMT"
 
 #: gnu/argp-help.c:247
 #, c-format
@@ -67,7 +67,7 @@ msgstr "Smeće u ARGP_HELP_FMT: %s"
 
 #: gnu/argp-help.c:1228
 msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
-msgstr "Obvezni ili opcijski argumenti za dugačke opcije su također obvezni i za kratke opcije."
+msgstr "Obvezni ili neobvezni argumenti za dugačke opcije također su obvezni ili neobvezni za korespondentne kratke opcije."
 
 #: gnu/argp-help.c:1615
 msgid "Usage:"
@@ -127,7 +127,7 @@ msgstr "inačica ovog tar programa"
 
 #: gnu/argp-parse.c:160
 msgid "(PROGRAM ERROR) No version known!?"
-msgstr "**Interna greška programa**: Nepoznata inačica!?"
+msgstr "**Interna greška programa**: Nije poznata nijedna verzija!?"
 
 #: gnu/argp-parse.c:613
 #, c-format
@@ -140,17 +140,17 @@ msgstr "**Interna greška programa**: Opcije su trebale biti prepoznate!?"
 
 #: gnu/closeout.c:122
 msgid "write error"
-msgstr "greška pisanja"
+msgstr "greška pri pisanju"
 
 #: gnu/getopt.c:278
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija „%s%s“ je dvosmislena\n"
+msgstr "%s: opcija „%s%s“ nije jednoznačna\n"
 
 #: gnu/getopt.c:284
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija „%s%s“ je dvosmislena; mogućnosti:"
+msgstr "%s: opcija „%s%s“ nije jednoznačna; mogućnosti su:"
 
 #: gnu/getopt.c:319
 #, c-format
@@ -179,12 +179,12 @@ msgstr "%s: opcija zahtijeva argument -- „%c“\n"
 
 #: gnu/obstack.c:338 gnu/obstack.c:340 gnu/xalloc-die.c:34
 msgid "memory exhausted"
-msgstr "memorija je iscrpljena"
+msgstr "nema dovoljno memorije"
 
 #: gnu/openat-die.c:38
 #, c-format
 msgid "unable to record current working directory"
-msgstr "nije moguće registrirati trenutačni radni direktorij"
+msgstr "nije moguće registrirati trenutni radni direktorij"
 
 #: gnu/openat-die.c:57
 #, c-format
@@ -244,12 +244,12 @@ msgstr "^[nN]"
 #: gnu/version-etc.c:73
 #, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr "Pakirao %s (%s)\n"
+msgstr "Spakirali %s (%s)\n"
 
 #: gnu/version-etc.c:76
 #, c-format
 msgid "Packaged by %s\n"
-msgstr "Pakirao %s\n"
+msgstr "Spakirao %s\n"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
@@ -402,12 +402,12 @@ msgstr "Prijavite %s greške na %s\n"
 #: gnu/version-etc.c:251
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr "Internetska stranica od %s: <%s>\n"
+msgstr "Mrežna stranica za %s: <%s>\n"
 
 #: gnu/version-etc.c:253
 #, c-format
 msgid "%s home page: <https://www.gnu.org/software/%s/>\n"
-msgstr "Internetska stranica od %s: <https://www.gnu.org/software/%s/>\n"
+msgstr "Mrežna stranica za %s: <https://www.gnu.org/software/%s/>\n"
 
 #: gnu/version-etc.c:256
 msgid "General help using GNU software: <https://www.gnu.org/gethelp/>\n"
@@ -465,12 +465,12 @@ msgstr[2] "%s: Upozorenje: Pogreška u čitanju na bajtu %s pri čitanju %lu baj
 #: lib/paxerror.c:261
 #, c-format
 msgid "%s: Cannot seek to %s"
-msgstr "%s: Nije moguće skiočiti/naći na %s"
+msgstr "%s: Nije moguće tražiti (seek) %s"
 
 #: lib/paxerror.c:277
 #, c-format
 msgid "%s: Warning: Cannot seek to %s"
-msgstr "%s: Upozorenje: Nije moguće skočiti/naći na %s"
+msgstr "%s: Upozorenje: nije moguće tražiti (seek) %s"
 
 #: lib/paxerror.c:286
 #, c-format
@@ -1042,7 +1042,7 @@ msgstr "%s: Nepoznata vrsta datoteke „%c“, izdvojena kao normalna datoteka"
 #: src/extract.c:1718
 #, c-format
 msgid "Current %s is newer or same age"
-msgstr "Trenutačni %s je noviji ili jednako star"
+msgstr "Trenutni %s je noviji ili jednako star"
 
 #: src/extract.c:1746
 #, c-format
@@ -2524,7 +2524,7 @@ msgstr "Morate navesti jednu od opcija „-Acdtrux“, „--delete“ ili „--t
 #: src/tar.c:2802
 #, c-format
 msgid "Exiting with failure status due to previous errors"
-msgstr "Izlaz sa statusom neuspjeha zbog prethodnih grešaka"
+msgstr "Završi sa statusom neuspjeha zbog prethodnih grešaka"
 
 #: src/update.c:86
 #, c-format
@@ -2820,7 +2820,7 @@ msgstr "nije moguće otvoriti „%s“"
 
 #: tests/genfile.c:441
 msgid "cannot seek"
-msgstr "nije moguće skočiti na poziciju"
+msgstr "nije moguće tražiti (seek)"
 
 #: tests/genfile.c:458
 #, c-format
