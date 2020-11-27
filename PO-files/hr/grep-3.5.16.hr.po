@@ -706,7 +706,7 @@ msgstr ""
 # bp: novi msgid
 #: src/pcresearch.c:85
 msgid "failed to allocate memory for the PCRE JIT stack"
-msgstr "dodjela memorije za PCRE JIT stog nije uspjela"
+msgstr "dodjela memorije za PCRE JIT stȏg nije uspjela"
 
 # bp: novi msgid
 #: src/pcresearch.c:137
@@ -734,7 +734,7 @@ msgstr "%s: nema dovoljno memorije"
 #: src/pcresearch.c:310
 #, c-format
 msgid "%s: exhausted PCRE JIT stack"
-msgstr "%s: PCRE JIT stog je iscrpljen"
+msgstr "%s: PCRE JIT stȏg je iscrpljen"
 
 #: src/pcresearch.c:315
 #, c-format
