@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: make 4.2.93\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2020-01-03 02:30-0500\n"
-"PO-Revision-Date: 2020-11-26 17:24-0800\n"
+"PO-Revision-Date: 2020-12-10 11:01-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -1141,7 +1141,7 @@ msgstr "Povratak na način rada s jednim poslom (-j1)."
 #: src/main.c:2109
 #, c-format
 msgid "Symbolic links not supported: disabling -L."
-msgstr "Simboličke veze nisu podržane: onemogućuje se -L."
+msgstr "Simboličke veze nisu podržane: onemogućujemo -L."
 
 #: src/main.c:2190
 #, c-format
@@ -1614,12 +1614,12 @@ msgstr "upozorenje: zanemareno je članstvo grupe za cilj „%s“"
 #: src/read.c:2636
 #, c-format
 msgid "warning: NUL character seen; rest of line ignored"
-msgstr "upozorenje: pročitani je NUL znak; ostatak retka je zanemaren"
+msgstr "upozorenje: pročitan je NUL znak; ostatak retka je zanemaren"
 
 #: src/remake.c:226
 #, c-format
 msgid "Nothing to be done for '%s'."
-msgstr "Ne treba ništa raditi za „%s“."
+msgstr "Ništa se ne može napraviti za„%s”."
 
 #: src/remake.c:227
 #, c-format
@@ -1629,7 +1629,7 @@ msgstr "„%s“ je ažurirani."
 #: src/remake.c:323
 #, c-format
 msgid "Pruning file '%s'.\n"
-msgstr "Čišćenje datoteke „%s“.\n"
+msgstr "Čistimo datoteku „%s“.\n"
 
 #: src/remake.c:389
 #, c-format
@@ -1957,13 +1957,11 @@ msgstr "Zaustavljeno (signal) (SIGSTOP)"
 
 #: src/signame.c:171
 msgid "CPU time limit exceeded"
-msgstr "Prekoračeno je vremensko ograničenje procesora (SIGXCPU)"
+msgstr "Procesor je premašio ograničenje za vrijeme procesora (SIGCPU)"
 
 #: src/signame.c:174
-#, fuzzy
-#| msgid "CPU time limit exceeded"
 msgid "File size limit exceeded"
-msgstr "Prekoračeno je vremensko ograničenje procesora (SIGXCPU)"
+msgstr "Veličina datoteke je premašila ograničenje za veličinu"
 
 # Kako prevesti "virtual timer"?
 #: src/signame.c:177
