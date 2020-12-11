@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.6.93\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2020-07-20 07:39+0200\n"
-"PO-Revision-Date: 2020-11-14 00:37+0800\n"
+"PO-Revision-Date: 2020-12-11 13:20+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -928,7 +928,7 @@ msgstr "pembetulan boleh diterapkan. Ulang laksana dengan pilihan '--update'."
 #, fuzzy, c-format
 #| msgid "symbol %s redefined"
 msgid "%%define variable %s redefined"
-msgstr "nilai tidak sah untuk %%define pembolehubah Boolean `%s'"
+msgstr "nilai tidak sah untuk %%define pembolehubah %s: %s"
 
 #: src/muscle-tab.c:533 src/symtab.c:344
 #, fuzzy
@@ -937,32 +937,29 @@ msgid "previous definition"
 msgstr "definisi bagi %s"
 
 #: src/muscle-tab.c:592 src/muscle-tab.c:693 src/muscle-tab.c:752
-#, fuzzy, c-format
+#, c-format
 msgid "%s: undefined %%define variable %s"
-msgstr "simbol permulaan %s tidak ditakrifkan"
+msgstr "%s: pembolehubah %s %%define tidak ditakrifkan"
 
 #: src/muscle-tab.c:626
-#, fuzzy, c-format
-#| msgid "symbol %s redefined"
+#, c-format
 msgid "%%define variable '%s' requires '{...}' values"
-msgstr "nilai tidak sah untuk %%define pembolehubah Boolean `%s'"
+msgstr "pembolehubah '%s' %%define memerlukan nilai '{…}'"
 
 #: src/muscle-tab.c:631
-#, fuzzy, c-format
-#| msgid "symbol %s redefined"
+#, c-format
 msgid "%%define variable '%s' requires keyword values"
-msgstr "nilai tidak sah untuk %%define pembolehubah Boolean `%s'"
+msgstr "pembolehubah '%s' %%define memerlukan nilai kata kunci"
 
 #: src/muscle-tab.c:636
-#, fuzzy, c-format
-#| msgid "symbol %s redefined"
+#, c-format
 msgid "%%define variable '%s' requires '\"...\"' values"
-msgstr "nilai tidak sah untuk %%define pembolehubah Boolean `%s'"
+msgstr "pembolehubah '%s' %%define memerlukan nilai '\"...\"'"
 
 #: src/muscle-tab.c:687
-#, fuzzy, c-format
+#, c-format
 msgid "invalid value for %%define Boolean variable %s"
-msgstr "nilai tidak sah untuk %%define pembolehubah Boolean `%s'"
+msgstr "nilai tidak sah untuk %%define pembolehubah Boolean %s"
 
 #: src/muscle-tab.c:740
 #, c-format
