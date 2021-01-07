@@ -1,18 +1,18 @@
 # Brazilian Portuguese translation for coreutils package
 # Traduções em português brasileiro para o pacote coreutils
-# Copyright (C) 2020 Free Software Foundation, Inc.
+# Copyright (C) 2021 Free Software Foundation, Inc.
 # This file is distributed under the same license as the coreutils package.
 # Cyro Mendes De Moraes Neto <neto@conectiva.com.br>, 1998.
 # Rodrigo Stulzer Lopes <rodrigo@conectiva.com.br>, 2001.
 # Juan Carlos Castro y Castro <jcastro@vialink.com.br>, 2003.
 # Rodolfo Ribeiro Gomes <rodolforg@gmail.com>, 2008, 2010, 2012.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2016-2020.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2016-2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 8.31.90\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2020-02-27 17:02+0000\n"
-"PO-Revision-Date: 2020-02-29 09:37-0300\n"
+"PO-Revision-Date: 2021-01-06 22:21-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
@@ -2012,7 +2012,7 @@ msgstr "falha ao restaurar o contexto padrão de criação de arquivo"
 #: src/copy.c:1825
 #, c-format
 msgid "cannot create hard link %s to %s"
-msgstr "não foi possível criar o link absoluto %s para %s"
+msgstr "não foi possível criar o link físico %s para %s"
 
 #: src/copy.c:1936
 #, c-format
@@ -2087,7 +2087,7 @@ msgstr "aviso: o diretório de origem %s foi especificado mais de uma vez"
 #: src/copy.c:2374
 #, c-format
 msgid "will not create hard link %s to directory %s"
-msgstr "não criará link absoluto %s para o diretório %s"
+msgstr "não criará link físico %s para o diretório %s"
 
 #: src/copy.c:2398
 #, c-format
@@ -2258,7 +2258,7 @@ msgid ""
 "  -l, --link                   hard link files instead of copying\n"
 "  -L, --dereference            always follow symbolic links in SOURCE\n"
 msgstr ""
-"  -l, --link                   faz um link absoluto dos arquivos em vez de\n"
+"  -l, --link                   faz um link físico dos arquivos em vez de\n"
 "                                 copiá-los\n"
 "  -L, --dereference            sempre segue links simbólicos em ORIGEM\n"
 
@@ -2471,7 +2471,7 @@ msgstr "aviso: ignorando --context; requer um kernel habilitado com SELinux"
 #: src/cp.c:1145
 #, c-format
 msgid "cannot make both hard and symbolic links"
-msgstr "não é possível fazer links absolutos e simbólicos simultaneamente"
+msgstr "não é possível fazer links físicos e simbólicos simultaneamente"
 
 #: src/cp.c:1155 src/mv.c:478
 #, c-format
@@ -3928,7 +3928,7 @@ msgstr ""
 "  -k                    o mesmo que --block-size=1K\n"
 "  -L, --dereference     interpreta links simbólicos\n"
 "  -l, --count-links     contabiliza tamanhos mais vezes se for um link\n"
-"                          absoluto\n"
+"                          físico\n"
 "  -m                    o mesmo que --block-size=1M\n"
 
 #: src/du.c:332
@@ -5431,7 +5431,7 @@ msgstr "não foi possível criar o link %s para %s"
 #: src/ln.c:213
 #, c-format
 msgid "%s: hard link not allowed for directory"
-msgstr "%s: não são permitidos links absolutos para diretórios"
+msgstr "%s: não são permitidos links físicos para diretórios"
 
 #: src/ln.c:238
 #, c-format
@@ -5456,17 +5456,17 @@ msgstr "falha ao criar link simbólico %s -> %s"
 #: src/ln.c:383
 #, c-format
 msgid "failed to create hard link to %.0s%s"
-msgstr "falha ao criar link absoluto para %.0s%s"
+msgstr "falha ao criar link físico para %.0s%s"
 
 #: src/ln.c:386
 #, c-format
 msgid "failed to create hard link %s"
-msgstr "falha ao criar link absoluto %s"
+msgstr "falha ao criar link físico %s"
 
 #: src/ln.c:387
 #, c-format
 msgid "failed to create hard link %s => %s"
-msgstr "falha ao criar link absoluto %s => %s"
+msgstr "falha ao criar link físico %s => %s"
 
 #: src/ln.c:409
 #, c-format
@@ -5495,9 +5495,9 @@ msgstr ""
 "Na 1ª forma, cria um link para ALVO com o nome NOME_LINK.\n"
 "Na 2ª forma, cria um link para ALVO no diretório atual.\n"
 "Nas 3ª e 4ª formas, cria links para cada ALVO em DIRETÓRIO.\n"
-"Cria links absolutos por padrão; links simbólicos com --symbolic.\n"
+"Cria links físicos por padrão; links simbólicos com --symbolic.\n"
 "Por padrão, cada destino (nome do novo link) deve existir ainda.\n"
-"Ao criar links absolutos, cada ALVO deve existir. Links simbólicos\n"
+"Ao criar links físicos, cada ALVO deve existir. Links simbólicos\n"
 "podem conter texto arbitrário; se resolvido posteriormente, um link\n"
 "relativo é interpretado em relação a seu diretório pai.\n"
 
@@ -5513,10 +5513,10 @@ msgstr ""
 "      --backup[=CONTROLE]     cria uma cópia de segurança de cada arquivo de\n"
 "                                destino já existente\n"
 "  -b                          como --backup, mas não aceita argumentos\n"
-"  -d, -F, --directory         permite ao super-usuário tentar ligar diretórios\n"
-"                                de forma absoluta (nota: poderá falhar devido\n"
-"                                a restrições do sistema, mesmo para o\n"
-"                                super-usuário)\n"
+"  -d, -F, --directory         permite ao superusuário tentar fazer um link\n"
+"                                físico aos diretórios (nota: poderá falhar\n"
+"                                devido a restrições do sistema, mesmo para o\n"
+"                                superusuário)\n"
 "  -f, --force                 remove arquivos de destino existentes\n"
 
 #: src/ln.c:437
@@ -5531,11 +5531,11 @@ msgid ""
 msgstr ""
 "  -i, --interactive           pergunta se é para remover destinos\n"
 "  -L, --logical               interpreta ALVOs que forem links simbólicos\n"
-"  -n, --no-dereference        trata LINK_NOME como arquivo normal, se ele for\n"
+"  -n, --no-dereference        trata NOME_LINK como arquivo normal, se ele for\n"
 "                                um link simbólico para um diretório\n"
-"  -P, --physical              cria links absolutos diretamente para simbólicos\n"
+"  -P, --physical              cria links físicos diretamente para simbólicos\n"
 "  -r, --relative              cria links simbólicos relativos a sua localização\n"
-"  -s, --symbolic              cria links simbólicos em vez de absolutos\n"
+"  -s, --symbolic              cria links simbólicos em vez de físicos\n"
 
 #: src/ln.c:446
 msgid ""
@@ -5545,11 +5545,12 @@ msgid ""
 "  -T, --no-target-directory   treat LINK_NAME as a normal file always\n"
 "  -v, --verbose               print name of each linked file\n"
 msgstr ""
-"  -S, --suffix=SUFIXO         redefine o sufixo normal de cópia de segurança\n"
+"  -S, --suffix=SUFIXO         substitui o sufixo normal de cópia de segurança\n"
 "  -t, --target-directory=DIRETÓRIO  especifica o DIRETÓRIO onde criar os\n"
 "                                links\n"
 "  -T, --no-target-directory   trata NOME_LINK sempre como arquivo normal\n"
-"  -v, --verbose               emite o nome de cada arquivo ligado\n"
+"  -v, --verbose               emite o nome de cada arquivo cujo link foi\n"
+"                                criado\n"
 
 #: src/ln.c:456
 #, c-format
@@ -5559,7 +5560,7 @@ msgid ""
 "behavior when a TARGET is a symbolic link, defaulting to %s.\n"
 msgstr ""
 "\n"
-"Usar -s ignora -L e -P. Do contrário, a última opção especificada controle\n"
+"Usar -s ignora -L e -P. Do contrário, a última opção especificada controla\n"
 "o comportamento quando ALVO for um link simbólico, tem como padrão %s.\n"
 
 #: src/ln.c:572
@@ -9985,7 +9986,7 @@ msgid ""
 "  %t   major device type in hex, for character/block device special files\n"
 "  %T   minor device type in hex, for character/block device special files\n"
 msgstr ""
-"  %h   quantidade de links absolutos\n"
+"  %h   quantidade de links físicos\n"
 "  %i   número do inode\n"
 "  %m   ponto de montagem\n"
 "  %n   nome do arquivo\n"
@@ -13748,7 +13749,7 @@ msgstr ""
 #~ "mostrando a ID de um usuário diferente"
 
 #~ msgid "%s: warning: making a hard link to a symbolic link is not portable"
-#~ msgstr "%s: aviso: não é portável fazer um link absoluto para um link simbólico"
+#~ msgstr "%s: aviso: não é portável fazer um link físico para um link simbólico"
 
 #~ msgid "creating symbolic link %s"
 #~ msgstr "criando link simbólico %s"
@@ -13757,10 +13758,10 @@ msgstr ""
 #~ msgstr "criando link simbólico %s -> %s"
 
 #~ msgid "creating hard link %s"
-#~ msgstr "criando link absoluto %s"
+#~ msgstr "criando link físico %s"
 
 #~ msgid "creating hard link %s => %s"
-#~ msgstr "criando link absoluto %s => %s"
+#~ msgstr "criando link físico %s => %s"
 
 #~ msgid ""
 #~ "\n"
