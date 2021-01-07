@@ -1,6 +1,6 @@
 # Brazilian Portuguese translations for tar package
 # Traduções em português brasileiro para o pacote tar
-# Copyright (C) 2019 Free Software Foundation, Inc.
+# Copyright (C) 2021 Free Software Foundation, Inc.
 # This file is distributed under the same license as the tar package.
 # Rodolfo Ferraz <rcaferraz@gmail.com>, 2013.
 # Eduardo Tenorio <embatbr@gmail.com>, 2013.
@@ -12,14 +12,14 @@
 # based on the translation to Portuguese (pt) by
 # António José Coutinho <ajc@di.uminho.pt>, 1996.
 # Marcus Moreira de Souza <marcusms@frb.br>
-# Rafael Fontenelle <rafaelff@gnome.org>, 2017, 2019.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2017, 2019, 2021.
 #: src/create.c:1590
 msgid ""
 msgstr ""
 "Project-Id-Version: tar 1.32.90\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2019-11-27 18:52+0200\n"
-"PO-Revision-Date: 2019-11-29 10:38-0200\n"
+"PO-Revision-Date: 2021-01-06 22:33-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
@@ -441,7 +441,7 @@ msgstr "%s: Não foi possível alterar o dono para uid %lu, gid %lu"
 #: lib/paxerror.c:129
 #, c-format
 msgid "%s: Cannot hard link to %s"
-msgstr "%s: Não foi possível criar um link absoluto para %s"
+msgstr "%s: Não foi possível criar um link físico para %s"
 
 #: lib/paxerror.c:181 lib/paxerror.c:213
 #, c-format
@@ -487,7 +487,7 @@ msgstr "Removendo \"%s\" inicial dos nomes dos membros"
 #: lib/paxnames.c:141
 #, c-format
 msgid "Removing leading `%s' from hard link targets"
-msgstr "Removendo \"%s\" inicial dos alvos de links absolutos"
+msgstr "Removendo \"%s\" inicial dos alvos de links físicos"
 
 #: lib/paxnames.c:154
 msgid "Substituting `.' for empty member name"
@@ -495,7 +495,7 @@ msgstr "Substituindo \".\" para nome de membro vazio"
 
 #: lib/paxnames.c:155
 msgid "Substituting `.' for empty hard link target"
-msgstr "Substituindo \".\" para alvo de link absoluto vazio"
+msgstr "Substituindo \".\" para alvo de link físico vazio"
 
 #: lib/rtapelib.c:299
 #, c-format
@@ -1003,7 +1003,7 @@ msgstr "Extraindo arquivos contíguos como sendo arquivos comuns"
 
 #: src/extract.c:1515
 msgid "Attempting extraction of symbolic links as hard links"
-msgstr "Tentativa de extrair links simbólicos como links absolutos"
+msgstr "Tentativa de extrair links simbólicos como links físicos"
 
 #: src/extract.c:1678
 #, c-format
@@ -2065,7 +2065,7 @@ msgstr "segue links simbólicos; arquiva e despeja os arquivos aos quais eles ap
 
 #: src/tar.c:698
 msgid "follow hard links; archive and dump the files they refer to"
-msgstr "segue links absolutos; arquiva e despeja os arquivos aos quais eles fazem referência"
+msgstr "segue links físicos; arquiva e despeja os arquivos aos quais eles fazem referência"
 
 #: src/tar.c:699
 msgid "MEMBER-NAME"
