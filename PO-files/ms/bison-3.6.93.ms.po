@@ -1,14 +1,14 @@
 # bison Bahasa Melayu (Malay) (ms).
-# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017, 2018, 2019, 2020 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017, 2018, 2019, 2020, 2021 Free Software Foundation, Inc.
 # This file is distributed under the same license as the bison package.
-# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017, 2018, 2019, 2020.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017, 2018, 2019, 2020, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bison 3.6.93\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2020-07-20 07:39+0200\n"
-"PO-Revision-Date: 2020-12-11 13:20+0800\n"
+"PO-Revision-Date: 2021-01-12 15:32+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -30,7 +30,7 @@ msgstr "fungsi"
 #: examples/c/bistromathic/parse.y:151
 #, fuzzy
 msgid "variable"
-msgstr "pilih terminal dari pembolehubah persekitaran TERM"
+msgstr "%s: pembolehubah %s %%define tidak ditakrifkan"
 
 #: examples/c/bistromathic/parse.y:365
 #, fuzzy
@@ -448,7 +448,7 @@ msgstr "keluaran berkonflik kepada fail %s"
 #, fuzzy, c-format
 #| msgid "%s: cannot open"
 msgid "%s: cannot backup"
-msgstr "tak dapat nyahbackup %s"
+msgstr "tak dapat backup %s"
 
 #: src/getargs.c:173
 #, fuzzy
@@ -878,17 +878,12 @@ msgstr ""
 "\n"
 
 #: src/i18n-strings.c:35
-#, fuzzy
-#| msgid "missing %s at end of file"
 msgid "end of file"
-msgstr "%s: %s: akhir fail tidak dijangka\n"
+msgstr "tamat fail"
 
 #: src/i18n-strings.c:36
-#, fuzzy
-#| msgid "invalid character"
-#| msgid_plural "invalid characters"
 msgid "invalid token"
-msgstr "nombor token terlalu besar"
+msgstr "token tidak sah"
 
 #: src/location.c:150 src/scan-gram.l:948
 #, c-format
@@ -901,10 +896,9 @@ msgid "column number overflow"
 msgstr "nombor lajur melimpah"
 
 #: src/location.c:155
-#, fuzzy, c-format
-#| msgid "line number overflow"
+#, c-format
 msgid "byte number overflow"
-msgstr "nombor baris melimpah"
+msgstr "nombor byte melimpah"
 
 #. TRANSLATORS: This is used when a line is too long, and is
 #. displayed truncated.  Use an ellipsis appropriate for your
@@ -925,16 +919,13 @@ msgid "fix-its can be applied.  Rerun with option '--update'."
 msgstr "pembetulan boleh diterapkan. Ulang laksana dengan pilihan '--update'."
 
 #: src/muscle-tab.c:530
-#, fuzzy, c-format
-#| msgid "symbol %s redefined"
+#, c-format
 msgid "%%define variable %s redefined"
-msgstr "nilai tidak sah untuk %%define pembolehubah %s: %s"
+msgstr "pembolehubah %%define %s ditakrif semula"
 
 #: src/muscle-tab.c:533 src/symtab.c:344
-#, fuzzy
-#| msgid "previous declaration"
 msgid "previous definition"
-msgstr "definisi bagi %s"
+msgstr "definisi terdahulu"
 
 #: src/muscle-tab.c:592 src/muscle-tab.c:693 src/muscle-tab.c:752
 #, c-format
