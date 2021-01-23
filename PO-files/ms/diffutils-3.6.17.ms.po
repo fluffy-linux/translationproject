@@ -1,14 +1,14 @@
 # diffutils Bahasa Melayu (Malay) (ms).
-# Copyright (C) 2003, 2015, 2018, 2019, 2020 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2015, 2018, 2019, 2020, 2021 Free Software Foundation, Inc.
 # This file is distributed under the same license as the diffutils package.
-# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2003, 2015, 2018, 2019, 2020.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2003, 2015, 2018, 2019, 2020, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2020-11-23 22:40+0800\n"
+"PO-Revision-Date: 2021-01-23 21:32+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -313,7 +313,7 @@ msgstr "%s tidak dapat dibuka semula: %s"
 #, fuzzy, c-format
 #| msgid "invalid --bytes value `%s'"
 msgid "invalid %s%s argument '%s'"
-msgstr "hujah tidak sah %s bagi %s"
+msgstr "hujah tidak sah %s untuk `%s'"
 
 #: lib/xstrtol-error.c:68
 #, fuzzy, c-format
@@ -591,7 +591,7 @@ msgstr "-s, --quiet, --silent      sekat semua keluaran normal"
 #: src/cmp.c:168
 #, fuzzy
 msgid "    --help                 display this help and exit"
-msgstr "    --help                  paparkan bantuan ini dan keluar"
+msgstr "      --help             paparkan bantuan ini kemudian keluar\n"
 
 #: src/cmp.c:169
 #, fuzzy
@@ -921,101 +921,52 @@ msgid "    --no-ignore-file-name-case  consider case when comparing file names"
 msgstr "--no-ignore-file-name-case  Ambil kira case ketika membanding nama fail."
 
 #: src/diff.c:920
-#, fuzzy
-#| msgid "-x PAT  --exclude=PAT  Exclude files that match PAT."
 msgid "-x, --exclude=PAT               exclude files that match PAT"
-msgstr ""
-"  -T, --initial-tab         jadikan tab berbaris dengan menambah awalan tab\n"
-"  -r, --recursive           banding berulang sebarang subdirektori yang dijumpai\n"
-"  -N, --new-file            layan fail tidak wujud sebagai kosong\n"
-"  -P, --unidirectional-new-file layan fail tidak wujud pertama sebagai kosong\n"
-"  -s, --report-identical-files lapor apabila dua fail adalah sama\n"
-"  -x, --exclude=PAT         asingkan fail yang sepadan PAT\n"
-"  -X, --exclude-from=FAIL   asingkan fail yang sepadan sebarang corak dalam FAIL\n"
-"  -S, --starting-file=FAIL  mula dengan FAIL apabila membanding direktori\n"
-"      --horizon-lines=NOM   simpan NOM baris bagi prefiks dan suffiks yang sama\n"
-"  -d, --minimal             usaha keras untuk mencari set perbezaan yang kecil\n"
-"  -H, --speed-large-files   andaikan fail besar dan banyak perbezaan kecil\n"
+msgstr "-x, --exclude=PAT               asingkan fail yang sepadan PAT"
 
 #: src/diff.c:921
-#, fuzzy
-#| msgid "-X FILE  --exclude-from=FILE  Exclude files that match any pattern in FILE."
 msgid "-X, --exclude-from=FILE         exclude files that match any pattern in FILE"
-msgstr ""
-"  -T, --initial-tab         jadikan tab berbaris dengan menambah awalan tab\n"
-"  -r, --recursive           banding berulang sebarang subdirektori yang dijumpai\n"
-"  -N, --new-file            layan fail tidak wujud sebagai kosong\n"
-"  -P, --unidirectional-new-file layan fail tidak wujud pertama sebagai kosong\n"
-"  -s, --report-identical-files lapor apabila dua fail adalah sama\n"
-"  -x, --exclude=PAT         asingkan fail yang sepadan PAT\n"
-"  -X, --exclude-from=FAIL   asingkan fail yang sepadan sebarang corak dalam FAIL\n"
-"  -S, --starting-file=FAIL  mula dengan FAIL apabila membanding direktori\n"
-"      --horizon-lines=NOM   simpan NOM baris bagi prefiks dan suffiks yang sama\n"
-"  -d, --minimal             usaha keras untuk mencari set perbezaan yang kecil\n"
-"  -H, --speed-large-files   andaikan fail besar dan banyak perbezaan kecil\n"
+msgstr "-X, --exclude-from=FILE         asingkan fail yang sepadan sebarang corak dalam FAIL"
 
 #: src/diff.c:922
-#, fuzzy
-#| msgid "-S FILE  --starting-file=FILE  Start with FILE when comparing directories."
 msgid "-S, --starting-file=FILE        start with FILE when comparing directories"
-msgstr ""
-"  -T, --initial-tab         jadikan tab berbaris dengan menambah awalan tab\n"
-"  -r, --recursive           banding berulang sebarang subdirektori yang dijumpai\n"
-"  -N, --new-file            layan fail tidak wujud sebagai kosong\n"
-"  -P, --unidirectional-new-file layan fail tidak wujud pertama sebagai kosong\n"
-"  -s, --report-identical-files lapor apabila dua fail adalah sama\n"
-"  -x, --exclude=PAT         asingkan fail yang sepadan PAT\n"
-"  -X, --exclude-from=FAIL   asingkan fail yang sepadan sebarang corak dalam FAIL\n"
-"  -S, --starting-file=FAIL  mula dengan FAIL apabila membanding direktori\n"
-"      --horizon-lines=NOM   simpan NOM baris bagi prefiks dan suffiks yang sama\n"
-"  -d, --minimal             usaha keras untuk mencari set perbezaan yang kecil\n"
-"  -H, --speed-large-files   andaikan fail besar dan banyak perbezaan kecil\n"
+msgstr "-S, --starting-file=FILE        mula dengan FAIL apabila membanding direktori"
 
 #: src/diff.c:923
-#, fuzzy
-#| msgid "--from-file=FILE1  Compare FILE1 to all operands.  FILE1 can be a directory."
 msgid ""
 "    --from-file=FILE1           compare FILE1 to all operands;\n"
 "                                  FILE1 can be a directory"
-msgstr "--from-file=FAIL1  Banding FAIL1 kepada semua operan.  FAIL1 boleh jadi direktori."
+msgstr ""
+"    --from-file=FILE1           banding FAIL1 kepada semua operan;\n"
+"                                  FAIL1 boleh jadi direktori"
 
 #: src/diff.c:925
-#, fuzzy
-#| msgid "--to-file=FILE2  Compare all operands to FILE2.  FILE2 can be a directory."
 msgid ""
 "    --to-file=FILE2             compare all operands to FILE2;\n"
 "                                  FILE2 can be a directory"
-msgstr "--to-file=FAIL2  Banding semua operan kepada FAIL2.  FAIL2 boleh jadi direktori."
+msgstr ""
+"    --to-file=FILE2             banding semua operan ke FAIL2;\n"
+"                                  FAIL2 boleh jadi direktori"
 
 #: src/diff.c:928
-#, fuzzy
-#| msgid "-i  --ignore-case  Ignore case differences in file contents."
 msgid "-i, --ignore-case               ignore case differences in file contents"
-msgstr "-i  --ignore-case  Abai perbezaan case dalam kandungan fail."
+msgstr "-i, --ignore-case               abai perbezaan huruf besar kecil dalam kandungan fail"
 
 #: src/diff.c:929
-#, fuzzy
-#| msgid "-E  --ignore-tab-expansion  Ignore changes due to tab expansion."
 msgid "-E, --ignore-tab-expansion      ignore changes due to tab expansion"
-msgstr "-E, --ignore-tab-expansion   abai perubahan diakibatkan oleh pengembangan tab"
+msgstr "-E, --ignore-tab-expansion      abai perubahan akibat pengembangan tab"
 
 #: src/diff.c:930
-#, fuzzy
-#| msgid "-w  --ignore-all-space  Ignore all white space."
 msgid "-Z, --ignore-trailing-space     ignore white space at line end"
-msgstr "-Z, --ignore-trailing-space  abai semua ruang putih pada penghujung baris"
+msgstr "-Z, --ignore-trailing-space     abai semua ruang putih pada penghujung baris"
 
 #: src/diff.c:931
-#, fuzzy
-#| msgid "-b  --ignore-space-change  Ignore changes in the amount of white space."
 msgid "-b, --ignore-space-change       ignore changes in the amount of white space"
-msgstr "-b, --ignore-space-change    abai perubahan dalam jumlah ruang putih"
+msgstr "-b, --ignore-space-change       abai perubahan dalam jumlah ruang putih"
 
 #: src/diff.c:932
-#, fuzzy
-#| msgid "-w  --ignore-all-space  Ignore all white space."
 msgid "-w, --ignore-all-space          ignore all white space"
-msgstr "-W, --ignore-all-space       abai semua ruang putih"
+msgstr "-w, --ignore-all-space          abai semua ruang putih"
 
 #: src/diff.c:933
 msgid "-B, --ignore-blank-lines        ignore changes where lines are all blank"
