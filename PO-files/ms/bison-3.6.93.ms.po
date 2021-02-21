@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.6.93\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2020-07-20 07:39+0200\n"
-"PO-Revision-Date: 2021-01-12 15:32+0800\n"
+"PO-Revision-Date: 2021-02-21 23:13+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -827,38 +827,33 @@ msgid "multiple skeleton declarations are invalid"
 msgstr "pelbagai rangka pengisytiharan tidak sah"
 
 #: src/getargs.c:530
-#, fuzzy, c-format
-#| msgid "invalid language `%s'"
+#, c-format
 msgid "%s: invalid language"
-msgstr "bahasa `%s' tidak sah"
+msgstr "%s: bahasa tidak sah"
 
 #: src/getargs.c:533
 msgid "multiple language declarations are invalid"
 msgstr "pelbagai pengisytiharan bahasa adalah tidak sah"
 
 #: src/getargs.c:736
-#, fuzzy, c-format
-#| msgid "invalid identifier: %s"
+#, c-format
 msgid "invalid argument for %s: %s"
-msgstr "hujah tidak sah %s untuk `%s'"
+msgstr "hujah tidak sah untuk %s: %s"
 
 #: src/getargs.c:844
-#, fuzzy, c-format
-#| msgid "invalid directive: %s"
+#, c-format
 msgid "deprecated option: %s, use %s"
-msgstr "opsyen `%s' telah luput; guna `%s'"
+msgstr "pilihan telah luput: %s, guna %s"
 
 #: src/getargs.c:878
-#, fuzzy, c-format
-#| msgid "missing operand after `%s'"
+#, c-format
 msgid "missing operand"
-msgstr "operan hilang selepas `%s'"
+msgstr "operan hilang"
 
 #: src/getargs.c:880
-#, fuzzy, c-format
-#| msgid "extra operand `%s'"
+#, c-format
 msgid "extra operand %s"
-msgstr "operan tambahan `%s'"
+msgstr "operan tambahan %s"
 
 #: src/gram.c:208
 msgid "Grammar"
