@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2021-01-23 21:32+0800\n"
+"PO-Revision-Date: 2021-03-01 19:01+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -313,12 +313,12 @@ msgstr "%s tidak dapat dibuka semula: %s"
 #, fuzzy, c-format
 #| msgid "invalid --bytes value `%s'"
 msgid "invalid %s%s argument '%s'"
-msgstr "hujah tidak sah %s untuk `%s'"
+msgstr "hujah tidak sah %s bagi %s"
 
 #: lib/xstrtol-error.c:68
 #, fuzzy, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "hujah tidak sah `%s' untuk `%s'"
+msgstr "hujah tidak sah %s bagi %s"
 
 #: lib/xstrtol-error.c:72
 #, fuzzy, c-format
@@ -897,28 +897,20 @@ msgid "    --no-dereference            don't follow symbolic links"
 msgstr "Jangan ikut pautan simbolik, tulisemula"
 
 #: src/diff.c:916
-#, fuzzy
-#| msgid "-N  --new-file  Treat absent files as empty."
 msgid "-N, --new-file                  treat absent files as empty"
-msgstr "-N  --new-file  Anggap fail tidak wujud sebagai kosong."
+msgstr "-N, --new-file                  anggap fail tidak wujud sebagai kosong"
 
 #: src/diff.c:917
-#, fuzzy
-#| msgid "--unidirectional-new-file  Treat absent first files as empty."
 msgid "    --unidirectional-new-file   treat absent first files as empty"
-msgstr "--unidirectional-new-file  Anggap fail tidak wujud sebagai kosong."
+msgstr "    --unidirectional-new-file   anggap fail tidak wujud sebagai kosong"
 
 #: src/diff.c:918
-#, fuzzy
-#| msgid "--ignore-file-name-case  Ignore case when comparing file names."
 msgid "    --ignore-file-name-case     ignore case when comparing file names"
-msgstr "--ignore-file-name-case  Abai case apabila membanding nama fail."
+msgstr "    --ignore-file-name-case     abai case apabila membanding nama fail"
 
 #: src/diff.c:919
-#, fuzzy
-#| msgid "--no-ignore-file-name-case  Consider case when comparing file names."
 msgid "    --no-ignore-file-name-case  consider case when comparing file names"
-msgstr "--no-ignore-file-name-case  Ambil kira case ketika membanding nama fail."
+msgstr "    --no-ignore-file-name-case  ambil kira case ketika membanding nama fail"
 
 #: src/diff.c:920
 msgid "-x, --exclude=PAT               exclude files that match PAT"
