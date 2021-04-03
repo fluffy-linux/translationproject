@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2021-03-01 19:01+0800\n"
+"PO-Revision-Date: 2021-04-03 22:55+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -318,7 +318,7 @@ msgstr "hujah tidak sah %s bagi %s"
 #: lib/xstrtol-error.c:68
 #, fuzzy, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "hujah tidak sah %s bagi %s"
+msgstr "hujah tidak sah `%s' untuk `%s'"
 
 #: lib/xstrtol-error.c:72
 #, fuzzy, c-format
@@ -485,11 +485,7 @@ msgstr "Lapor %s pepijat ke: %s\n"
 #: lib/version-etc.c:251
 #, fuzzy, c-format
 msgid "%s home page: <%s>\n"
-msgstr ""
-"// Dijana oleh %s.\n"
-"// Lapor pepijat ke <%s>.\n"
-"// Laman utama: <%s>.\n"
-"\n"
+msgstr "%s laman utama: <%s>.\n"
 
 #: lib/version-etc.c:253
 #, c-format
@@ -864,37 +860,28 @@ msgid "-t, --expand-tabs             expand tabs to spaces in output"
 msgstr "-t, --expand-tabs            kembang tab kepada ruang dalam keluaran"
 
 #: src/diff.c:909
-#, fuzzy
-#| msgid "-T  --initial-tab  Make tabs line up by prepending a tab."
 msgid "-T, --initial-tab             make tabs line up by prepending a tab"
-msgstr "-T, --initial-tab           jadikan tab sebaris dengan menambah awalan tab"
+msgstr "-T, --initial-tab             jadikan tab sebaris dengan menambah awalan tab"
 
 #: src/diff.c:910
-#, fuzzy
-#| msgid "--tabsize=NUM  Tab stops are every NUM (default 8) print columns."
 msgid "    --tabsize=NUM             tab stops every NUM (default 8) print columns"
-msgstr "    --tabsize=NUM            hentian tab setiap NUM (default 8) lajur cetakan"
+msgstr "    --tabsize=NUM             hentian tab setiap NUM (default 8) lajur cetakan"
 
 #: src/diff.c:911
 msgid "    --suppress-blank-empty    suppress space or tab before empty output lines"
 msgstr "    --suppress-blank-empty    sekat ruang atau tab sebelum baris keluaran kosong"
 
 #: src/diff.c:912
-#, fuzzy
-#| msgid "-l  --paginate  Pass the output through `pr' to paginate it."
 msgid "-l, --paginate                pass output through 'pr' to paginate it"
-msgstr "-l  --paginate  Salur keluaran menerusi `pr' untuk paginate."
+msgstr "-l, --paginate                salur keluaran menerusi 'pr' untuk paginate"
 
 #: src/diff.c:914
-#, fuzzy
-#| msgid "-r  --recursive  Recursively compare any subdirectories found."
 msgid "-r, --recursive                 recursively compare any subdirectories found"
-msgstr "-r  --recursive  Banding berulang-ulang sebarang subdirektori yang dijumpai."
+msgstr "-r, --recursive                 banding berulang-ulang sebarang subdirektori yang dijumpai"
 
 #: src/diff.c:915
-#, fuzzy
 msgid "    --no-dereference            don't follow symbolic links"
-msgstr "Jangan ikut pautan simbolik, tulisemula"
+msgstr "    --no-dereference            jangan ikut pautan simbolik"
 
 #: src/diff.c:916
 msgid "-N, --new-file                  treat absent files as empty"
