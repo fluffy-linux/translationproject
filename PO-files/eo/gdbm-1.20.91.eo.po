@@ -1,0 +1,1408 @@
+# Esperanto translation of gdbm.
+# Copyright (C) 2013, 2017, 2018, 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gdbm package.
+# Felipe Castro <fefcas@gmail.com>, 2013, 2017, 2018, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gdbm 1.19.90\n"
+"Report-Msgid-Bugs-To: bug-gdbm@gnu.org\n"
+"POT-Creation-Date: 2021-08-09 09:37+0300\n"
+"PO-Revision-Date: 2021-04-16 09:45-0300\n"
+"Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
+"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: src/bucket.c:282 src/bucket.c:553 src/bucket.c:662 src/falloc.c:211
+#: src/falloc.c:337 src/findkey.c:124 src/gdbmstore.c:168 src/update.c:36
+#: src/update.c:88
+msgid "lseek error"
+msgstr "eraro de lseek"
+
+#: src/bucket.c:410
+msgid "directory overflow"
+msgstr "dosieruja troo"
+
+#: src/bucket.c:421 src/falloc.c:302 src/findkey.c:97 src/findkey.c:113
+msgid "malloc error"
+msgstr "eraro de malloc"
+
+#: src/datconv.c:291
+#, c-format
+msgid "(not enough data)"
+msgstr "(ne sufiĉe da datumaro)"
+
+#: src/datconv.c:383
+msgid "cannot convert"
+msgstr "ne eblas konverti"
+
+#: src/datconv.c:392
+#, c-format
+msgid "cannot convert value #%d: %s"
+msgstr "ne eblas konverti valoron #%d: %s"
+
+#: src/datconv.c:418 src/datconv.c:467
+msgid "mixing tagged and untagged values is not allowed"
+msgstr "mikso de markitaj kaj nemarkitaj valoroj ne estas permesata"
+
+#: src/datconv.c:472
+#, c-format
+msgid "%s: no such field in datum"
+msgstr "%s: neniu tia kampo en datumo"
+
+#: src/falloc.c:201
+msgid "malloc failed"
+msgstr "malloc fiaskis"
+
+#: src/gdbm_dump.c:22
+msgid "dump a GDBM database to a file"
+msgstr "ŝuti datumbazon GDBM al dosiero"
+
+#: src/gdbm_dump.c:23
+msgid "DB_FILE [FILE]"
+msgstr "DB_DOSIERO [DOSIERO]"
+
+#: src/gdbm_dump.c:25
+msgid "select dump format"
+msgstr "elekti ŝut-formon"
+
+#: src/gdbm_dump.c:67
+msgid "unknown dump format"
+msgstr "nekonata ŝut-formo"
+
+#: src/gdbm_dump.c:74 src/gdbm_load.c:215
+msgid "unknown option"
+msgstr "nekonata modifilo"
+
+#: src/gdbm_dump.c:90 src/gdbm_load.c:231
+#, c-format
+msgid "too many arguments; try `%s -h' for more info"
+msgstr "tro multaj argumentoj; provu '%s -h' por pli da informo"
+
+#: src/gdbm_dump.c:110 src/gdbm_load.c:251
+#, c-format
+msgid "cannot open %s"
+msgstr "ne eblas malfermi %s"
+
+#: src/gdbm_dump.c:118 src/gdbm_load.c:261
+msgid "gdbm_open failed"
+msgstr "gdbm_open fiaskis"
+
+#: src/gdbm_dump.c:125
+msgid "dump error"
+msgstr "ŝuta eraro"
+
+#: src/gdbm_load.c:32
+msgid "load a GDBM database from a file"
+msgstr "ŝargi je datumbazo GDBM el dosiero"
+
+#: src/gdbm_load.c:33
+msgid "FILE [DB_FILE]"
+msgstr "DOSIERO [DB_DOSIERO]"
+
+#: src/gdbm_load.c:35
+msgid "replace records in the existing database"
+msgstr "anstataŭigi rikordojn en la ekzistanta datumbazo"
+
+#: src/gdbm_load.c:36
+msgid "MODE"
+msgstr "REĜIMO"
+
+#: src/gdbm_load.c:36
+msgid "set file mode"
+msgstr "difini dosier-reĝimon"
+
+#: src/gdbm_load.c:37
+msgid "NAME|UID[:NAME|GID]"
+msgstr "NOMO|UID[:NOMO|GID]"
+
+#: src/gdbm_load.c:37
+msgid "set file owner"
+msgstr "difini dosier-posedanton"
+
+#: src/gdbm_load.c:38
+msgid "do not attempt to set file meta-data"
+msgstr "ne provi difini dosieran meta-datumaron"
+
+#: src/gdbm_load.c:39
+msgid "use memory mapping"
+msgstr "uzi memor-mapadon"
+
+#: src/gdbm_load.c:40 src/gdbm_load.c:41
+msgid "NUM"
+msgstr "NUM"
+
+#: src/gdbm_load.c:40
+msgid "set the cache size"
+msgstr "difini la kaŝmemoran grandon"
+
+#: src/gdbm_load.c:41
+msgid "set the block size"
+msgstr "difini la bloko-grandon"
+
+#: src/gdbm_load.c:79
+#, c-format
+msgid "invalid number: %s"
+msgstr "malvalida numero: %s"
+
+#: src/gdbm_load.c:84
+#, c-format
+msgid "invalid number: %s: %s"
+msgstr "malvalida numero: %s: %s"
+
+#: src/gdbm_load.c:136
+#, c-format
+msgid "invalid octal number"
+msgstr "malvalida okuma numero"
+
+#: src/gdbm_load.c:161
+#, c-format
+msgid "invalid user name: %s"
+msgstr "malvalida uzant-nomo: %s"
+
+#: src/gdbm_load.c:180
+#, c-format
+msgid "invalid group name: %s"
+msgstr "malvalida grup-nomo: %s"
+
+#: src/gdbm_load.c:192
+#, c-format
+msgid "no such UID: %lu"
+msgstr "neniu tia UID: %lu"
+
+#: src/gdbm_load.c:267 src/gdbmtool.c:116 src/gdbmtool.c:122
+#: src/gdbmtool.c:128 src/gdbmtool.c:1269
+#, c-format
+msgid "gdbm_setopt failed: %s"
+msgstr "gdbm_setopt fiaskis: %s"
+
+#: src/gdbm_load.c:281 src/gdbm_load.c:299 src/gdbmtool.c:1252
+#, c-format
+msgid "error restoring metadata: %s (%s)"
+msgstr "eraro dum restarigo de metadatumaro: %s (%s)"
+
+#: src/gdbm_load.c:290
+#, c-format
+msgid "cannot load from %s"
+msgstr "ne eblas ŝargi el %s"
+
+#: src/gdbm_load.c:307
+msgid "gdbm_setopt failed"
+msgstr "gdbm_setopt fiaskis"
+
+#: src/gdbmerrno.c:102
+msgid "No error"
+msgstr "Neniu eraro"
+
+#: src/gdbmerrno.c:103
+msgid "Malloc error"
+msgstr "Eraro de malloc"
+
+#: src/gdbmerrno.c:104
+msgid "Block size error"
+msgstr "Eraro de blok-grando"
+
+#: src/gdbmerrno.c:105
+msgid "File open error"
+msgstr "Eraro de malfermo de dosiero"
+
+#: src/gdbmerrno.c:106
+msgid "File write error"
+msgstr "Eraro de dosier-skribo"
+
+#: src/gdbmerrno.c:107
+msgid "File seek error"
+msgstr "Eraro de serĉo en dosiero"
+
+#: src/gdbmerrno.c:108
+msgid "File read error"
+msgstr "Eraro de dosier-lego"
+
+#: src/gdbmerrno.c:109
+msgid "Bad magic number"
+msgstr "Malĝusta maginumero"
+
+#: src/gdbmerrno.c:110
+msgid "Empty database"
+msgstr "Malplena datumbazo"
+
+#: src/gdbmerrno.c:111
+msgid "Can't be reader"
+msgstr "Ne eblas esti leganto"
+
+#: src/gdbmerrno.c:112
+msgid "Can't be writer"
+msgstr "Ne eblas esti skribanto"
+
+#: src/gdbmerrno.c:113
+msgid "Reader can't delete"
+msgstr "Leganto ne povas forviŝi"
+
+#: src/gdbmerrno.c:114
+msgid "Reader can't store"
+msgstr "Leganto ne povas konservi"
+
+#: src/gdbmerrno.c:115
+msgid "Reader can't reorganize"
+msgstr "Legando ne povas reordigi"
+
+#: src/gdbmerrno.c:116
+msgid "Should not happen: unused error code"
+msgstr "Ne devus okazi: neuzata erar-kodo"
+
+#: src/gdbmerrno.c:117 src/gdbmtool.c:418
+msgid "Item not found"
+msgstr "Ero ne estis trovata"
+
+#: src/gdbmerrno.c:118
+msgid "Reorganize failed"
+msgstr "Reorganizo fiaskis"
+
+#: src/gdbmerrno.c:119
+msgid "Cannot replace"
+msgstr "Ne eblas anstataŭigi"
+
+#: src/gdbmerrno.c:120
+msgid "Illegal data"
+msgstr "Malvalida datumaro"
+
+#: src/gdbmerrno.c:121
+msgid "Option already set"
+msgstr "Modifilo jam estas aktiva"
+
+#: src/gdbmerrno.c:122
+msgid "Illegal option"
+msgstr "Malvalida modifilo"
+
+#: src/gdbmerrno.c:123
+msgid "Byte-swapped file"
+msgstr "Bajt-permutita dosiero"
+
+#: src/gdbmerrno.c:124
+msgid "File header assumes wrong off_t size"
+msgstr "Dosier-kapo reprezentas malĝustan grandon de 'off_t'"
+
+#: src/gdbmerrno.c:125
+msgid "Bad file flags"
+msgstr "Malĝusta dosier-flagoj"
+
+#: src/gdbmerrno.c:126
+msgid "Cannot stat file"
+msgstr "Ne eblas apliki stat al dosiero"
+
+#: src/gdbmerrno.c:127
+msgid "Unexpected end of file"
+msgstr "Neatendita dosierfino"
+
+#: src/gdbmerrno.c:128
+msgid "Database name not given"
+msgstr "Datumbaza nomo ne estas indikita"
+
+#: src/gdbmerrno.c:129
+msgid "Failed to restore file owner"
+msgstr "Restarigo de dosier-posedanto fiaskis"
+
+#: src/gdbmerrno.c:130
+msgid "Failed to restore file mode"
+msgstr "Restarigo de dosier-reĝimo fiaskis"
+
+#: src/gdbmerrno.c:131
+msgid "Database needs recovery"
+msgstr "Datumbazo bezonas riparon"
+
+#: src/gdbmerrno.c:132
+msgid "Failed to create backup copy"
+msgstr "Kreado de sekur-kopio fiaskis"
+
+#: src/gdbmerrno.c:133
+msgid "Bucket directory overflow"
+msgstr "Troo en forgesuja dosierujo"
+
+#: src/gdbmerrno.c:134
+msgid "Malformed bucket header"
+msgstr "Misformita forgesuja kapo"
+
+#: src/gdbmerrno.c:135
+msgid "Malformed database file header"
+msgstr "Misformita datumbaza dosierkapo"
+
+#. TRANSLATORS: avail_block is a field name. Don't translate it.
+#: src/gdbmerrno.c:137
+msgid "Malformed avail_block"
+msgstr "Misformita avail_block"
+
+#: src/gdbmerrno.c:138
+msgid "Malformed hash table"
+msgstr "Misformita haket-tabelo"
+
+#: src/gdbmerrno.c:139
+msgid "Invalid directory entry"
+msgstr "Malvalida dosieruja enigo"
+
+#: src/gdbmerrno.c:140
+msgid "Error closing file"
+msgstr "Eraro dum malfermo de dosiero"
+
+#: src/gdbmerrno.c:141
+msgid "Error synchronizing file"
+msgstr "Eraro dum sinkronigo de dosiero"
+
+#: src/gdbmerrno.c:142
+msgid "Error truncating file"
+msgstr "Eraro dum tranĉado de dosiero"
+
+#: src/gdbmerrno.c:143
+msgid "Bucket cache corrupted"
+msgstr "Forgesuja kaŝmemoro estas difektita"
+
+#: src/gdbmerrno.c:144
+msgid "Malformed bucket hash entry"
+msgstr "Misformita forgesuja haketa enigo"
+
+#: src/gdbmerrno.c:145
+#, fuzzy
+#| msgid "Reorganize failed"
+msgid "Reflink failed"
+msgstr "Reorganizo fiaskis"
+
+#: src/gdbmerrno.c:146
+#, fuzzy
+#| msgid "Failed to restore file mode"
+msgid "Failed to resolve real path name"
+msgstr "Restarigo de dosier-reĝimo fiaskis"
+
+#: src/gdbmerrno.c:147
+#, fuzzy
+#| msgid "File seek error"
+msgid "Function usage error"
+msgstr "Eraro de serĉo en dosiero"
+
+#: src/gdbmtool.c:94
+#, c-format
+msgid "database %s already exists; overwrite"
+msgstr "datumbazo %s jam ekzistas; anstataŭigo"
+
+#: src/gdbmtool.c:109
+#, c-format
+msgid "cannot open database %s: %s"
+msgstr "ne eblas malfermi datumbazon %s: %s"
+
+#: src/gdbmtool.c:146
+#, c-format
+msgid "warning: using default database file %s"
+msgstr "averto: ni uzas aprioran datumbaz-dosieron %s"
+
+#: src/gdbmtool.c:194
+#, c-format
+msgid ""
+"bits = %d\n"
+"count= %d\n"
+"Hash Table:\n"
+msgstr ""
+"bitoj = %d\n"
+"nombro= %d\n"
+"Haket-tabelo:\n"
+
+#: src/gdbmtool.c:197
+#, c-format
+msgid "    #    hash value     key size    data size     data adr home  key start\n"
+msgstr "     #    haketvaloro    ŝlosgrando  datumgrando   datumadr  hejmo  ekŝlosilo\n"
+
+#: src/gdbmtool.c:215
+#, c-format
+msgid ""
+"\n"
+"Avail count = %1d\n"
+msgstr ""
+"\n"
+"Disp nombro = %1d\n"
+
+#: src/gdbmtool.c:216
+#, c-format
+msgid "Address           size\n"
+msgstr "Adreso            grando\n"
+
+#: src/gdbmtool.c:267
+msgid "header block"
+msgstr ""
+
+#: src/gdbmtool.c:269
+#, fuzzy, c-format
+#| msgid "  next block   = %lu\n"
+msgid "block = %lu"
+msgstr "  sekva bloko  = %lu\n"
+
+#: src/gdbmtool.c:270
+#, fuzzy, c-format
+#| msgid ""
+#| "\n"
+#| "block = %lu\n"
+#| "size  = %d\n"
+#| "count = %d\n"
+msgid ""
+"\n"
+"size  = %d\n"
+"count = %d\n"
+msgstr ""
+"\n"
+"bloko  = %lu\n"
+"grando = %d\n"
+"nombro = %d\n"
+
+#: src/gdbmtool.c:292
+#, c-format
+msgid ""
+"Bucket Cache (size %zu/%zu):\n"
+"  Index:         Address  Changed  Data_Hash \n"
+msgstr ""
+"Forgesuja Kaŝmemoro (grando %zu/%zu):\n"
+"  Indekso:       Adreso   Modifite Data_Hash \n"
+
+#: src/gdbmtool.c:299
+msgid "True"
+msgstr "Vere"
+
+#: src/gdbmtool.c:299
+msgid "False"
+msgstr "False"
+
+#: src/gdbmtool.c:304
+#, c-format
+msgid "Bucket cache is empty.\n"
+msgstr "Forgesuja kaŝmemoro estas malplena.\n"
+
+#: src/gdbmtool.c:362
+msgid "nothing to close"
+msgstr "nenio por fermi"
+
+#: src/gdbmtool.c:401
+msgid "count buffer overflow"
+msgstr "nombro da bufraj trooj"
+
+#: src/gdbmtool.c:404
+#, c-format
+msgid "There is %s item in the database.\n"
+msgid_plural "There are %s items in the database.\n"
+msgstr[0] "Estas %s ero en la datumbazo.\n"
+msgstr[1] "Estas %s eroj en la datumbazo.\n"
+
+#: src/gdbmtool.c:420
+#, c-format
+msgid "Can't delete: %s"
+msgstr "Ne eblas forviŝi: %s"
+
+#: src/gdbmtool.c:436 src/gdbmtool.c:504
+msgid "No such item found."
+msgstr "Neniu ero tia estis trovata."
+
+#: src/gdbmtool.c:438
+#, c-format
+msgid "Can't fetch data: %s"
+msgstr "Ne eblas preni datumaron: %s"
+
+#: src/gdbmtool.c:448
+#, c-format
+msgid "Item not inserted: %s."
+msgstr "Ero ne enmetita: %s."
+
+#: src/gdbmtool.c:471
+#, c-format
+msgid "No such item found.\n"
+msgstr "Neniu tia ero estis trovata.\n"
+
+#: src/gdbmtool.c:473 src/gdbmtool.c:509
+#, c-format
+msgid "Can't find key: %s"
+msgstr "Ne eblas trovi ŝlosilon: %s"
+
+#: src/gdbmtool.c:517
+msgid "Reorganization failed."
+msgstr "Reordigo fiaskis."
+
+#: src/gdbmtool.c:519
+msgid "Reorganization succeeded."
+msgstr "Reordigo sukcesis."
+
+#: src/gdbmtool.c:569 src/gdbmtool.c:579 src/gdbmtool.c:589 src/gdbmtool.c:696
+#: src/gdbmtool.c:705
+#, c-format
+msgid "not a number (stopped near %s)\n"
+msgstr "ne estas numero (haltis proksime de %s)\n"
+
+#: src/gdbmtool.c:596 src/gdbmtool.c:1192 src/gdbmtool.c:1224
+#, c-format
+msgid "unrecognized argument: %s"
+msgstr "nerekonita argumento: %s"
+
+#: src/gdbmtool.c:605
+#, c-format
+msgid "Recovery succeeded.\n"
+msgstr "Riparo sukcesis.\n"
+
+#: src/gdbmtool.c:609
+#, c-format
+msgid "Keys recovered: %lu, failed: %lu, duplicate: %lu\n"
+msgstr "Ŝlosiloj riparitaj: %lu, malsukcesis: %lu, duobligite: %lu\n"
+
+#: src/gdbmtool.c:614
+#, c-format
+msgid "Buckets recovered: %lu, failed: %lu\n"
+msgstr "Forgesujoj riparitaj: %lu, malsukcesis: %lu\n"
+
+#: src/gdbmtool.c:622
+#, c-format
+msgid "Original database preserved in file %s"
+msgstr "Originala datumbazo estis konservata en la dosiero %s"
+
+#: src/gdbmtool.c:630
+#, c-format
+msgid "Recovery failed: %s"
+msgstr "Riparado fiaskis: %s"
+
+#: src/gdbmtool.c:674
+#, c-format
+msgid "no current bucket\n"
+msgstr "neniu nuna forgesujo\n"
+
+#: src/gdbmtool.c:678
+#, c-format
+msgid "Bucket #%s"
+msgstr "Forgesujo #%s"
+
+#: src/gdbmtool.c:681
+msgid "Current bucket"
+msgstr "Nuna forgesujo"
+
+#: src/gdbmtool.c:682
+#, c-format
+msgid ""
+"\n"
+" current directory entry = %d.\n"
+msgstr ""
+"\n"
+" nuna dosieruja enigo = %d.\n"
+
+#: src/gdbmtool.c:684
+#, c-format
+msgid " current bucket address  = %lu.\n"
+msgstr " nuna forgesuja adreso  = %lu.\n"
+
+#: src/gdbmtool.c:727
+msgid "Not a bucket."
+msgstr "Ne estas forgesujo."
+
+#: src/gdbmtool.c:768
+#, c-format
+msgid "Hash table directory.\n"
+msgstr "Haket-tabela dosierujo.\n"
+
+#: src/gdbmtool.c:769
+#, c-format
+msgid ""
+"  Size =  %d.  Bits = %d,  Buckets = %zu.\n"
+"\n"
+msgstr ""
+"  Grando =  %d.  Bitoj = %d, Forgesujoj = %zu.\n"
+"\n"
+
+#: src/gdbmtool.c:813
+#, c-format
+msgid ""
+"\n"
+"File Header: \n"
+"\n"
+msgstr ""
+"\n"
+"Dosierkapo: \n"
+"\n"
+
+#: src/gdbmtool.c:814
+#, fuzzy, c-format
+#| msgid "  table        = %lu\n"
+msgid "  type         = %s\n"
+msgstr "  tabelo       = %lu\n"
+
+#: src/gdbmtool.c:815
+#, c-format
+msgid "  table        = %lu\n"
+msgstr "  tabelo       = %lu\n"
+
+#: src/gdbmtool.c:817
+#, c-format
+msgid "  table size   = %d\n"
+msgstr "  tabelgrando  = %d\n"
+
+#: src/gdbmtool.c:818
+#, c-format
+msgid "  table bits   = %d\n"
+msgstr "  tabel-bitoj  = %d\n"
+
+#: src/gdbmtool.c:819
+#, c-format
+msgid "  block size   = %d\n"
+msgstr "  bloko-grando = %d\n"
+
+#: src/gdbmtool.c:820
+#, c-format
+msgid "  bucket elems = %d\n"
+msgstr "  forgesujeroj = %d\n"
+
+#: src/gdbmtool.c:821
+#, c-format
+msgid "  bucket size  = %d\n"
+msgstr "  forgesujgrando= %d\n"
+
+#: src/gdbmtool.c:822
+#, c-format
+msgid "  header magic = %x\n"
+msgstr "  kapa magio   = %x\n"
+
+#: src/gdbmtool.c:823
+#, c-format
+msgid "  next block   = %lu\n"
+msgstr "  sekva bloko  = %lu\n"
+
+#: src/gdbmtool.c:826
+#, c-format
+msgid "  avail size   = %d\n"
+msgstr "  disp grando  = %d\n"
+
+#: src/gdbmtool.c:827
+#, c-format
+msgid "  avail count  = %d\n"
+msgstr "  disp nombro  = %d\n"
+
+#: src/gdbmtool.c:828
+#, c-format
+msgid "  avail nx blk = %lu\n"
+msgstr "  disp nx blk  = %lu\n"
+
+#: src/gdbmtool.c:833
+#, fuzzy, c-format
+#| msgid ""
+#| "\n"
+#| "File Header: \n"
+#| "\n"
+msgid ""
+"\n"
+"Extended Header: \n"
+"\n"
+msgstr ""
+"\n"
+"Dosierkapo: \n"
+"\n"
+
+#: src/gdbmtool.c:834
+#, fuzzy, c-format
+#| msgid "  avail count  = %d\n"
+msgid "       version = %d\n"
+msgstr "  disp nombro  = %d\n"
+
+#: src/gdbmtool.c:835
+#, fuzzy, c-format
+#| msgid "  table        = %lu\n"
+msgid "       numsync = %u\n"
+msgstr "  tabelo       = %lu\n"
+
+#: src/gdbmtool.c:932
+#, fuzzy
+#| msgid "set file mode"
+msgid "bad file mode"
+msgstr "difini dosier-reĝimon"
+
+#. TRANSLATORS: Stands for "Not Available".
+#: src/gdbmtool.c:951
+msgid "N/A"
+msgstr ""
+
+#: src/gdbmtool.c:959 src/gdbmtool.c:964
+#, fuzzy
+#| msgid "cannot open database %s: %s"
+msgid "can't open database"
+msgstr "ne eblas malfermi datumbazon %s: %s"
+
+#: src/gdbmtool.c:969
+#, fuzzy
+#| msgid "%s is not a regular file"
+msgid "not a regular file"
+msgstr "%s ne estas ordinara dosiero"
+
+#: src/gdbmtool.c:974
+msgid "ERROR"
+msgstr ""
+
+#: src/gdbmtool.c:984
+#, c-format
+msgid "%s: ERROR: can't stat: %s"
+msgstr ""
+
+#: src/gdbmtool.c:1008
+msgid "Invalid arguments in call to gdbm_latest_snapshot"
+msgstr ""
+
+#: src/gdbmtool.c:1013
+msgid "Function is not implemented: GDBM is built without crash-tolerance support"
+msgstr ""
+
+#: src/gdbmtool.c:1021
+msgid "Selected the most recent snapshot"
+msgstr ""
+
+#: src/gdbmtool.c:1025
+msgid "Neither snapshot is readable"
+msgstr ""
+
+#: src/gdbmtool.c:1030
+msgid "Error selecting snapshot"
+msgstr ""
+
+#: src/gdbmtool.c:1035
+msgid "Snapshot modes and dates are the same"
+msgstr ""
+
+#: src/gdbmtool.c:1040
+msgid "Snapshot sync counters differ by more than 1"
+msgstr ""
+
+#: src/gdbmtool.c:1065
+#, fuzzy, c-format
+#| msgid "unexpected error setting %s: %d"
+msgid "unexpected error code: %d"
+msgstr "neatendita eraro dum difino de %s: %d"
+
+#: src/gdbmtool.c:1078
+#, c-format
+msgid "hash value = %x, bucket #%u, slot %u"
+msgstr "haket-valoro = %x, forgesujo #%u, ingo %u"
+
+#: src/gdbmtool.c:1084
+#, c-format
+msgid "hash value = %x"
+msgstr "haketvaloro = %x"
+
+#: src/gdbmtool.c:1148
+#, c-format
+msgid "%s; the key was:"
+msgstr "%s; la ŝlosilo estis:"
+
+#: src/gdbmtool.c:1201
+#, c-format
+msgid "error dumping database: %s"
+msgstr "eraro dum ŝuto de datumbazo: %s"
+
+#: src/gdbmtool.c:1261
+#, c-format
+msgid "cannot load from %s: %s"
+msgstr "ne eblas ŝargi el %s: %s"
+
+#: src/gdbmtool.c:1277
+#, c-format
+msgid "Database file: %s\n"
+msgstr "Datumbaza dosiero: %s\n"
+
+#: src/gdbmtool.c:1279
+msgid "No database name"
+msgstr "Neniu datumbaz-nomo"
+
+#: src/gdbmtool.c:1281
+msgid "Database is open"
+msgstr "Datumbazo estas malferma"
+
+#: src/gdbmtool.c:1283
+msgid "Database is not open"
+msgstr "Datumbazo ne estas malferma"
+
+#: src/gdbmtool.c:1337
+#, c-format
+msgid "unknown debug flag: %s"
+msgstr "nekonata sencimiga flago: %s"
+
+#: src/gdbmtool.c:1340
+#, c-format
+msgid "invalid type of argument %d"
+msgstr "malvalida tipo de argumento %d"
+
+#: src/gdbmtool.c:1345
+#, c-format
+msgid "Debug flags:"
+msgstr "Sercimigaj flagoj:"
+
+#: src/gdbmtool.c:1351
+msgid "none"
+msgstr "neniu"
+
+#: src/gdbmtool.c:1355
+msgid "compiled without debug support"
+msgstr "kompilita sen subteno al sencimigo"
+
+#: src/gdbmtool.c:1459
+msgid "count (number of entries)"
+msgstr "nombro (da enigoj)"
+
+#: src/gdbmtool.c:1462 src/gdbmtool.c:1477 src/gdbmtool.c:1505
+#: src/gdbmtool.c:1569
+msgid "KEY"
+msgstr "ŜLOSILO"
+
+#: src/gdbmtool.c:1465
+msgid "delete a record"
+msgstr "forigi rikordon"
+
+#: src/gdbmtool.c:1468 src/gdbmtool.c:1483 src/gdbmtool.c:1852
+msgid "FILE"
+msgstr "DOSIERO"
+
+#: src/gdbmtool.c:1474
+msgid "export"
+msgstr "eksporti"
+
+#: src/gdbmtool.c:1480
+msgid "fetch record"
+msgstr "havigi rikordon"
+
+#: src/gdbmtool.c:1489
+msgid "import"
+msgstr "importi"
+
+#: src/gdbmtool.c:1495
+msgid "list"
+msgstr "listigi"
+
+#: src/gdbmtool.c:1498
+msgid "[KEY]"
+msgstr "[ŜLOSILO]"
+
+#: src/gdbmtool.c:1502
+msgid "continue iteration: get next key and datum"
+msgstr "daŭrigi iteracion: havigi sekvan ŝlosilon kaj datumon"
+
+#: src/gdbmtool.c:1506
+msgid "DATA"
+msgstr "DATUMARO"
+
+#: src/gdbmtool.c:1510
+msgid "store"
+msgstr "konservi"
+
+#: src/gdbmtool.c:1516
+msgid "begin iteration: get first key and datum"
+msgstr "komenci iteracion: havigi unuan ŝlosilon kaj datumon"
+
+#: src/gdbmtool.c:1522
+msgid "reorganize"
+msgstr "reordigi"
+
+#: src/gdbmtool.c:1535
+msgid "recover the database"
+msgstr "ripari la datumbazon"
+
+#: src/gdbmtool.c:1541
+msgid "print avail list"
+msgstr "montri disponeblan liston"
+
+#: src/gdbmtool.c:1544
+msgid "NUMBER"
+msgstr "NUMERO"
+
+#: src/gdbmtool.c:1548
+msgid "print a bucket"
+msgstr "montri forgesujon"
+
+#: src/gdbmtool.c:1554
+msgid "print current bucket"
+msgstr "montri nunan forgesujon"
+
+#: src/gdbmtool.c:1560
+msgid "print hash directory"
+msgstr "montri haketan dosierujon"
+
+#: src/gdbmtool.c:1566
+msgid "print database file header"
+msgstr "montri datumbazan dosierkapon"
+
+#: src/gdbmtool.c:1573
+msgid "hash value of key"
+msgstr "haketa valoro de ŝlosilo"
+
+#: src/gdbmtool.c:1579
+msgid "print the bucket cache"
+msgstr "montri la forgesujan kaŝmemoron"
+
+#: src/gdbmtool.c:1585
+msgid "print current program status"
+msgstr "montri na nunan program-staton"
+
+#: src/gdbmtool.c:1591
+msgid "Synchronize the database with disk copy"
+msgstr ""
+
+#: src/gdbmtool.c:1597
+msgid "Upgrade the database to extended format"
+msgstr ""
+
+#: src/gdbmtool.c:1603
+msgid "Downgrade the database to standard format"
+msgstr ""
+
+#: src/gdbmtool.c:1611
+msgid "analyze two database snapshots"
+msgstr ""
+
+#: src/gdbmtool.c:1617
+msgid "print version of gdbm"
+msgstr "montri la version de gdbm"
+
+#: src/gdbmtool.c:1623
+msgid "print this help list"
+msgstr "montri tiun ĉi help-liston"
+
+#: src/gdbmtool.c:1629
+msgid "quit the program"
+msgstr "eliri la programon"
+
+#: src/gdbmtool.c:1635
+msgid "set or list variables"
+msgstr "difini aŭ listigi variablojn"
+
+#: src/gdbmtool.c:1641
+msgid "unset variables"
+msgstr "maldifini variablojn"
+
+#: src/gdbmtool.c:1649
+msgid "define datum structure"
+msgstr "difini datuman strukturon"
+
+#: src/gdbmtool.c:1656
+msgid "source command script"
+msgstr "enmeti komand-skripton"
+
+#: src/gdbmtool.c:1662
+msgid "close the database"
+msgstr "fermi la datumbazon"
+
+#: src/gdbmtool.c:1668
+msgid "open new database"
+msgstr "malfermi novan datumbazon"
+
+#: src/gdbmtool.c:1672
+msgid "[FROM]"
+msgstr "[EL]"
+
+#: src/gdbmtool.c:1673
+msgid "[COUNT]"
+msgstr "[NOMBRO]"
+
+#: src/gdbmtool.c:1677
+msgid "show input history"
+msgstr "montri eniga historion"
+
+#: src/gdbmtool.c:1684
+msgid "query/set debug level"
+msgstr "informpeti/difini sencimigan nivelon"
+
+#: src/gdbmtool.c:1690
+#, fuzzy
+#| msgid "give this help list"
+msgid "invoke the shell"
+msgstr "montri tiun ĉi help-liston"
+
+#: src/gdbmtool.c:1832
+msgid "Invalid command. Try ? for help."
+msgstr "Malvalida komando. Provu ? por helpo."
+
+#: src/gdbmtool.c:1833
+msgid "Unknown command"
+msgstr "Nekonata komando"
+
+#: src/gdbmtool.c:1841
+msgid "examine and/or modify a GDBM database"
+msgstr "ekzameni kaj/aŭ modifi datumbazon GDBM"
+
+#: src/gdbmtool.c:1842
+msgid "DBFILE [COMMAND [ARG ...]]"
+msgstr "DB_DOSIERO [KOMANDO [ARG ...]]"
+
+#: src/gdbmtool.c:1850 src/gdbmtool.c:1851
+msgid "SIZE"
+msgstr "GRANDO"
+
+#: src/gdbmtool.c:1850
+msgid "set block size"
+msgstr "difini  bloko-grandon"
+
+#: src/gdbmtool.c:1851
+msgid "set cache size"
+msgstr "difini kaŝmemoran grandon"
+
+#: src/gdbmtool.c:1852
+msgid "read commands from FILE"
+msgstr "legi komandojn el DOSIERO"
+
+#: src/gdbmtool.c:1854
+msgid "disable file locking"
+msgstr "malebligi dosier-ŝloson"
+
+#: src/gdbmtool.c:1855
+msgid "do not use mmap"
+msgstr "ne uzi mmap"
+
+#: src/gdbmtool.c:1856
+msgid "create database"
+msgstr "krei datumbazon"
+
+#: src/gdbmtool.c:1857
+msgid "do not read .gdbmtoolrc file"
+msgstr "ne legi dosieron .gdbmtoolrc"
+
+#: src/gdbmtool.c:1858
+msgid "open database in read-only mode"
+msgstr "malfermi datumbazon laŭ nurlegebla reĝimo"
+
+#: src/gdbmtool.c:1859
+msgid "synchronize to disk after each write"
+msgstr "sinkronigi kun la disko post ĉiu skribo"
+
+#: src/gdbmtool.c:1860
+msgid "don't print initial banner"
+msgstr "ne montri komencan ŝildon"
+
+#. TRANSLATORS: File Descriptor.
+#: src/gdbmtool.c:1863
+msgid "FD"
+msgstr ""
+
+#: src/gdbmtool.c:1864
+msgid "open database at the given file descriptor"
+msgstr ""
+
+#: src/gdbmtool.c:1865
+msgid "extended format (numsync)"
+msgstr ""
+
+#: src/gdbmtool.c:1868
+msgid "enable lexical analyzer traces"
+msgstr "ebligi leksilajn analizilajn spurojn"
+
+#: src/gdbmtool.c:1869
+msgid "enable grammar traces"
+msgstr "ebligi gramatikajn spurojn"
+
+#: src/gdbmtool.c:2149
+#, c-format
+msgid "cannot coerce %s to %s"
+msgstr "ne eblas perfortigi %s al %s"
+
+#: src/gdbmtool.c:2224
+#, c-format
+msgid "%s: not enough arguments"
+msgstr "%s: ne sufiĉaj argumentoj"
+
+#: src/gdbmtool.c:2231
+msgid "unexpected eof"
+msgstr "neatendita eof"
+
+#: src/gdbmtool.c:2254
+#, c-format
+msgid "%s: too many arguments"
+msgstr "%s: tro multaj argumentoj"
+
+#: src/gdbmtool.c:2282
+#, c-format
+msgid "cannot run pager `%s': %s"
+msgstr "ne eblas lanĉi paĝigilon '%s': %s"
+
+#: src/gdbmtool.c:2331
+msgid "cannot find home directory"
+msgstr "ne eblas trovi hejman dosierujon"
+
+#: src/gdbmtool.c:2406
+#, fuzzy, c-format
+#| msgid "invalid user name: %s"
+msgid "invalid file descriptor: %s"
+msgstr "malvalida uzant-nomo: %s"
+
+#: src/gdbmtool.c:2472
+#, fuzzy, c-format
+#| msgid "unknown option; try `%s -h' for more info"
+msgid "unknown option %c; try `%s -h' for more info"
+msgstr "nekonata modifilo; provu '%s -h' por pli da informo"
+
+#: src/gdbmtool.c:2496
+msgid "--file and command cannot be used together"
+msgstr "--file kaj komando ne povas esti uzataj kune"
+
+#: src/gdbmtool.c:2518
+#, c-format
+msgid ""
+"\n"
+"Welcome to the gdbm tool.  Type ? for help.\n"
+"\n"
+msgstr ""
+"\n"
+"Bonvenon al la ilo gdbm.  Tajpu ? por helpo.\n"
+"\n"
+
+#: src/gram.y:158
+#, c-format
+msgid "duplicate tag: %s"
+msgstr "dubligita etikedo: %s"
+
+#: src/gram.y:239
+#, c-format
+msgid "expected \"key\" or \"content\", but found \"%s\""
+msgstr "ni atendis \"ŝlosilo\" aŭ \"content\", sed trovis \"%s\""
+
+#: src/gram.y:311 src/gram.y:332 src/gram.y:364
+#, c-format
+msgid "no such variable: %s"
+msgstr "neniu tia variablo: %s"
+
+#: src/gram.y:315
+#, c-format
+msgid "%s is not a boolean variable"
+msgstr "%s ne estas bulea variablo"
+
+#: src/gram.y:319 src/gram.y:344
+#, c-format
+msgid "unexpected error setting %s: %d"
+msgstr "neatendita eraro dum difino de %s: %d"
+
+#: src/gram.y:336
+#, c-format
+msgid "%s: bad variable type"
+msgstr "%s: malĝusta variablo-tipo"
+
+#: src/gram.y:340
+#, c-format
+msgid "%s: value %s is not allowed"
+msgstr "%s: valoro %s ne estas permesata"
+
+#: src/gram.y:368
+#, c-format
+msgid "%s: variable cannot be unset"
+msgstr "%s: variablo ne povas esti maldifinata"
+
+#: src/lex.l:95
+msgid "recursive sourcing"
+msgstr "rekura enmeto"
+
+#: src/lex.l:97
+#, c-format
+msgid "%s already sourced here"
+msgstr "%s jam enmetita ĉi tie"
+
+#: src/lex.l:203 src/lex.l:213
+msgid "invalid #line statement"
+msgstr "malvalida komando #line"
+
+#: src/parseopt.c:49
+msgid "give this help list"
+msgstr "montri tiun ĉi help-liston"
+
+#: src/parseopt.c:50
+msgid "print program version"
+msgstr "montri la program-version"
+
+#: src/parseopt.c:51
+msgid "give a short usage message"
+msgstr "montri mesaĝeton pri uzmaniero"
+
+#: src/parseopt.c:346 src/parseopt.c:429
+msgid "Usage:"
+msgstr "Uzmaniero:"
+
+#: src/parseopt.c:348
+msgid "OPTION"
+msgstr "MODIFILO"
+
+#: src/parseopt.c:362
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Nepraj aŭ malnepraj argumentoj por longaj modifiloj ankaŭ nepras aŭ malnepras por iu ajn korespondaj mallongaj modifiloj."
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: src/parseopt.c:373
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr ""
+"Raportu programajn misojn al %s.\n"
+"Raportu traduk-misojn al <translation-team-eo@lists.sourceforge.net>.\n"
+
+#: src/parseopt.c:376
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "Hejm-paĝo de %s: <%s>\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: src/parseopt.c:539
+msgid "(C)"
+msgstr "©"
+
+#: src/recover.c:270
+#, c-format
+msgid "can't read bucket #%d: %s"
+msgstr "ne eblas legi forgesujon #%d: %s"
+
+#: src/recover.c:298
+#, c-format
+msgid "can't read key pair %d:%d (%lu:%d): %s"
+msgstr "ne eblas legi ŝlosilan paron %d:%d (%lu:%d): %s"
+
+#: src/recover.c:328
+#, c-format
+msgid "ignoring duplicate key %d:%d (%lu:%d)"
+msgstr "ni ignoras dubligitan ŝlosilon %d:%d (%lu:%d)"
+
+#: src/recover.c:338
+#, c-format
+msgid "fatal: can't store element %d:%d (%lu:%d): %s"
+msgstr "fatale: ne eblas konservi elementon %d:%d (%lu:%d): %s"
+
+#. TRANSLATORS: Please, don't translate 'y' and 'n'.
+#: src/util.c:99
+msgid "Please, reply 'y' or 'n'"
+msgstr "Bonvole, respondu 'y' aŭ 'n'"
+
+#~ msgid ""
+#~ "\n"
+#~ "header block\n"
+#~ "size  = %d\n"
+#~ "count = %d\n"
+#~ msgstr ""
+#~ "\n"
+#~ "kapa bloko\n"
+#~ "grando = %d\n"
+#~ "nombro = %d\n"
+
+#~ msgid "couldn't init cache"
+#~ msgstr "ne eblis ekigi kaŝmemoron"
+
+#~ msgid "invalid avail_block"
+#~ msgstr "malvalida avail_block"
+
+#~ msgid "nextkey"
+#~ msgstr "sekvŝlosilo"
+
+#~ msgid "firstkey"
+#~ msgstr "unuaŝlosilo"
+
+#~ msgid "Wrong file offset"
+#~ msgstr "Malkorekta dosier-deŝovo"
+
+#~ msgid "cannot fetch data; the key was:"
+#~ msgstr "ne eblas havigi datumaron; la ŝlosilo estis:"
+
+#~ msgid "too many arguments"
+#~ msgstr "tro multaj argumentoj"
+
+#~ msgid "cannot open `%s': %s"
+#~ msgstr "ne eblas malfermi '%s': %s"
+
+#~ msgid "cannot open %s for reading: %s"
+#~ msgstr "ne eblas malfermi %s por legi: %s"
+
+#~ msgid "Unknown update"
+#~ msgstr "Nekonata ĝisdatigo"
+
+#~ msgid "Unknown error"
+#~ msgstr "Nekonata eraro"
+
+#~ msgid "gdbm fatal: %s\n"
+#~ msgstr "gdbm neripareble: %s\n"
+
+#~ msgid "Out of memory"
+#~ msgstr "Memoro plenpleniĝis"
+
+#~ msgid "Usage: %s OPTIONS\n"
+#~ msgstr "Uzmaniero: %s [MODIFILOJ]\n"
+
+#~ msgid "  -b SIZE            set block size\n"
+#~ msgstr "  -b GRANDO          difini blokan grandon\n"
+
+#~ msgid "  -c SIZE            set cache size\n"
+#~ msgstr "  -c GRANDO          difini kaŝmemoran grandon\n"
+
+#~ msgid "  -g FILE            operate on FILE instead of `junk.gdbm'\n"
+#~ msgstr "  -g FILE            operacii sur DOSIERO anstataŭ sur 'juntk.gdbm'\n"
+
+#~ msgid "  -h                 print this help summary\n"
+#~ msgstr "  -h                 montri tiun ĉi help-resumon\n"
+
+#~ msgid "  -m                 disable file mmap\n"
+#~ msgstr "  -m                 malebligi dosieran mmap\n"
+
+#~ msgid "  -n                 create database\n"
+#~ msgstr "  -n                 krei datumbazon\n"
+
+#~ msgid "%s:%d: line too long"
+#~ msgstr "%s:%d: linio tro longas"
+
+#~ msgid "%s:%d: malformed line"
+#~ msgstr "%s:%d: misformita linio"
+
+#~ msgid "%d: item not inserted: %s"
+#~ msgstr "%d: ero ne enmetita: %s"
+
+#~ msgid "gdbm_export failed, %s"
+#~ msgstr "gdbm_export fiaskis, %s"
+
+#~ msgid "gdbm_import failed, %s"
+#~ msgstr "gdbm_import fiaskis, %s"
+
+#~ msgid "yes"
+#~ msgstr "jes"
+
+#~ msgid "no"
+#~ msgstr "ne"
+
+#~ msgid "Zero terminated keys: %s\n"
+#~ msgstr "Nul-finaj ŝlosiloj: %s\n"
+
+#~ msgid "key"
+#~ msgstr "ŝlosilo"
+
+#~ msgid "delete"
+#~ msgstr "forigi"
+
+#~ msgid "file"
+#~ msgstr "dosiero"
+
+#~ msgid "fetch"
+#~ msgstr "havigi"
+
+#~ msgid "[key]"
+#~ msgstr "[ŝlosilo]"
+
+#~ msgid "data"
+#~ msgstr "datumaro"
+
+#~ msgid "read entries from file and store"
+#~ msgstr "legi enigoj el dosiero kaj konservi"
+
+#~ msgid "toggle key nul-termination"
+#~ msgstr "alterni ŝlosilan nul-finon"
+
+#~ msgid "bucket-number"
+#~ msgstr "forgesuj-numero"
+
+#~ msgid "toggle data nul-termination"
+#~ msgstr "alterni datumaran nul-finon"
+
+#~ msgid "-s is incompatible with -r"
+#~ msgstr "-s ne interakordas kun -r"
+
+#~ msgid "-r is incompatible with -n"
+#~ msgstr "-r ne interakordas kun -n"
+
+#~ msgid "-n is incompatible with -r"
+#~ msgstr "-n ne interakordas kun -r"
