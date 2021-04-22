@@ -7552,7 +7552,7 @@ msgid ""
 "  -q              omit the user's full name, remote host and idle time\n"
 "                  in short format\n"
 msgstr ""
-"  -f              짧은 형식에서 줄의 열 머리 부분을 생략합니다\n"
+"  -f              짧은 형식에서 행의 열 제목 부분을 생략합니다\n"
 "  -w              짧은 형식에서 사용자 전체 이름을 생략합니다\n"
 "  -i              짧은 형식에서 사용자 전체 이름과 원격 호스트를 생략합니다\n"
 "  -q              짧은 형식에서 사용자 전체 이름, 원격 호스트, 대기 시간을\n"
@@ -7619,7 +7619,7 @@ msgstr "`-l <페이지_폭>' 부적절한 문자 개수"
 
 #: src/pr.c:1073
 msgid "cannot specify number of columns when printing in parallel"
-msgstr "병렬 인쇄시 컬럼 수를 지정할 수 없습니다"
+msgstr "병렬 인쇄시 열 항목 수를 지정할 수 없습니다"
 
 #: src/pr.c:1077
 msgid "cannot specify both printing across and printing in parallel"
@@ -7650,7 +7650,7 @@ msgstr "%<PRIuMAX> 페이지"
 
 #: src/pr.c:2742
 msgid "Paginate or columnate FILE(s) for printing.\n"
-msgstr "<파일>을 출력 목적으로 페이지별, 컬럼 별로 정렬합니다.\n"
+msgstr "<파일>을 출력 목적으로 페이지별, 열 항목 별로 정렬합니다.\n"
 
 #: src/pr.c:2749
 msgid ""
@@ -7665,8 +7665,7 @@ msgstr ""
 "                    <첫_페이지>[<끝_페이지>]에서 인쇄를 시작합니다[끝냅니다].\n"
 "  -<열>, --columns=<열>\n"
 "                    -a 옵션을 사용하지 않는다면 <열> 열의 출력물을 만들어 해당 \n"
-"                    열을 페이지 단위로 인쇄합니다.  페이지에서 각각의 열에 들어\n"
-"                    있는 줄 수를 같게 유지합니다\n"
+"                    열 항목을 페이지 단위로 인쇄합니다.  페이지에서 각각의 열                     항목에 들어 있는 줄 수를 같게 유지합니다\n"
 
 #: src/pr.c:2757
 msgid ""
@@ -7720,7 +7719,7 @@ msgstr ""
 "  -i[<문자>[<폭>]], --output-tabs[=<문자>[<폭>]]\n"
 "                    공백을 탭 <폭>(8)만큼의 <문자>(또는 탭으)로 바꿉니다\n"
 "  -J, --join-lines  전체 줄을 합칩니다. -W 줄 잘라내기를 쓰지 않도록 만들고,\n"
-"                    열 정렬을 하지 않으며, --sep-string=[<문자열>]로 구분자를 지정합니다\n"
+"                    열 항목 정렬을 하지 않으며, --sep-string=[<문자열>]로 구분자를 지정합니다\n"
 
 #: src/pr.c:2784
 msgid ""
@@ -7740,7 +7739,7 @@ msgid ""
 "  -m, --merge       print all files in parallel, one in each column,\n"
 "                    truncate lines, but join lines of full length with -J\n"
 msgstr ""
-"  -m, --merge       모든 파일을 병렬로, 열 별로 출력합니다. \n"
+"  -m, --merge       모든 파일을 병렬로, 열 항목 별로 출력합니다. \n"
 "                    넘어가는 행을 자르되, -J 옵션으로 여러 행을 합쳐\n"
 "                    행을 채웁니다\n"
 
@@ -7783,7 +7782,7 @@ msgid ""
 "                    options (-COLUMN|-a -COLUMN|-m) except -w is set\n"
 msgstr ""
 "  -s[<문자>],--separator[=<문자>]\n"
-"                    각 열을 한 개의 <문자>로 구분합니다.  <문자>의 기본값은 \n"
+"                    각 열 항목을 한 개의 <문자>로 구분합니다.  <문자>의 기본값은 \n"
 "                    -w가 없으면 탭 문자를 넣고, -w가 있으면 구분자를 넣지 않습니다.\n"
 "                    -s[<문자>]는 모든 3열 옵션의 (-<열>|-a -<열>|-m) \n"
 "                    넘어가는 줄 자르기 기능을 (-w가 없으면) 끕니다.\n"
@@ -7796,9 +7795,9 @@ msgid ""
 "                    otherwise (same as -S\" \"), no effect on column options\n"
 msgstr ""
 "  -S[<문자열>], --sep-string[=<문자열>]\n"
-"                    여러 열을 -S 없이 <문자열>로 구분합니다. \n"
+"                    여러 열 항목을 -S 없이 <문자열>로 구분합니다. \n"
 "                    기본 구분자는 탭 문자와 -J이고 그 외의 경우 공백 문자입니다\n"
-"                    (-S\" \"와 동일). 열 관련 옵션에 영향을 주지 않습니다\n"
+"                    (-S\" \"와 동일). 열 항목 관련 옵션에 영향을 주지 않습니다\n"
 
 #: src/pr.c:2823
 msgid ""
@@ -7825,7 +7824,7 @@ msgstr ""
 "  -v, --show-nonprinting\n"
 "                    8진수 백슬래쉬 표시를 사용합니다\n"
 "  -w, --width=<페이지_폭>\n"
-"                    텍스트-열 출력에서, -s[<문자>]를 쓰지 않았을 경우에\n"
+"                    텍스트-열 항목 출력에서, -s[<문자>]를 쓰지 않았을 경우에\n"
 "                    페이지 폭을 <페이지_폭>(72)으로 합니다\n"
 
 #: src/pr.c:2837
@@ -8036,7 +8035,7 @@ msgstr ""
 "  -W, --word-regexp=<정규식>     키워드를 구분하는 데 <정규식>을 씁니다\n"
 "  -b, --break-file=<파일>        이 <파일>에 단어 구분 문자가 들어 있습니다\n"
 "  -f, --ignore-case              정렬에서 소문자와 대문자를 구별하지 않습니다\n"
-"  -g, --gap-size=<개수>          출력할 필드에서 열 사이의 간격\n"
+"  -g, --gap-size=<개수>          출력할 필드의 열 항목 사이 간격\n"
 "  -i, --ignore-file=<파일>       이 <파일>에 들어 있는 단어를 무시합니다\n"
 "  -o, --only-file=<파일>         이 <파일>에 들어 있는 단어를 읽습니다\n"
 
@@ -8048,7 +8047,7 @@ msgid ""
 msgstr ""
 "  -r, --references               각 줄의 첫 번째 필드가 참조입니다\n"
 "  -t, --typeset-mode               - 구현되지 않았음 -\n"
-"  -w, --width=<개수>             출력할 열의 폭 (참조는 제외하고)\n"
+"  -w, --width=<개수>             출력할 열 항목의 폭 (참조 제외)\n"
 
 #: src/ptx.c:1945
 #, c-format
@@ -11846,7 +11845,7 @@ msgstr "변환할 때 문자열 두개를 제시해야합니다."
 
 #: src/tr.c:1771
 msgid "Only one string may be given when deleting without squeezing repeats."
-msgstr "반복줄임 없이 지우는 경우 문자열 한개만을 제시해야합니다."
+msgstr "반복줄임 없이 지우는 경우 문자열 한 개 만을 제시해야 합니다."
 
 #: src/true.c:38
 #, c-format
@@ -12147,7 +12146,7 @@ msgid ""
 msgstr ""
 "\n"
 "필드 하나는 공백으로 구분하며 (보통 간격 과/또는 탭), 그 다음은 비공백\n"
-"문자로 구분합니다.  이 문자가 나타나기 전 열은 건너뜁니다.\n"
+"문자로 구분합니다.  이 문자가 나타나기 전 열 항목은 건너뜁니다.\n"
 
 #: src/uniq.c:214
 msgid ""
@@ -12425,7 +12424,7 @@ msgstr ""
 "  -a, --all         -b -d --login -p -r -t -T -u와 동일\n"
 "  -b, --boot        최종 시스템 부팅 시각 출력\n"
 "  -d, --dead        죽은 프로세스 출력\n"
-"  -H, --heading     열 제목 행 출력\n"
+"  -H, --heading     열 항목 제목 행 출력\n"
 
 #: src/who.c:655
 msgid "  -l, --login       print system login processes\n"
