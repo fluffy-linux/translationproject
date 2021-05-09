@@ -3,22 +3,22 @@
 # This file is distributed under the same license as the diffutils package.
 #
 # Abel Cheung <maddog@linux.org.hk>, 2002, 2005.
-# pan93412 <pan93412@gmail.com>, 2019.
+# pan93412 <pan93412@gmail.com>, 2019, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2019-10-21 01:31+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
-"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"PO-Revision-Date: 2021-05-09 20:53+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.2\n"
+"X-Generator: Poedit 2.4.3\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -877,11 +877,11 @@ msgstr "-w, --ignore-all-space          忽略所有空白"
 
 #: src/diff.c:933
 msgid "-B, --ignore-blank-lines        ignore changes where lines are all blank"
-msgstr "-B, --ignore-blank-lines        忽略空行的變更"
+msgstr "-B, --ignore-blank-lines        忽略空列的變更"
 
 #: src/diff.c:934
 msgid "-I, --ignore-matching-lines=RE  ignore changes where all lines match RE"
-msgstr ""
+msgstr "-I, --ignore-matching-lines=RE   忽略所有列都符合 RE 的變更"
 
 #: src/diff.c:936
 msgid "-a, --text                      treat all files as text"
@@ -1195,6 +1195,14 @@ msgid ""
 "and output the actual merged file.  For unusual input, this is more\n"
 "robust than using ed.\n"
 msgstr ""
+"\n"
+"預設輸出格式是某個讓人好讀的變更表示方式。\n"
+"\n"
+"-e, -E, -x, -X (及其對應的長版) 選項可以讓 ed 指令稿\n"
+"輸出與預設模式不同的版本。\n"
+"\n"
+"最後，-m (--merge) 選項能讓 diff3 在內部合併，並輸出實際合併的檔案。\n"
+"在某些不常見的輸入情況，這會比使用 ed 還來得可靠。\n"
 
 #: src/diff3.c:529
 msgid "Exit status is 0 if successful, 1 if conflicts, 2 if trouble."
@@ -1279,13 +1287,11 @@ msgstr "-W, --ignore-all-space       忽略所有空白"
 
 #: src/sdiff.c:180
 msgid "-B, --ignore-blank-lines     ignore changes whose lines are all blank"
-msgstr "-B, --ignore-blank-lines     忽略因空行而造成的差異"
+msgstr "-B, --ignore-blank-lines     忽略因空列而造成的差異"
 
 #: src/sdiff.c:181
-#, fuzzy
-#| msgid "-I RE  --ignore-matching-lines=RE  Ignore changes whose lines all match RE."
 msgid "-I, --ignore-matching-lines=RE  ignore changes all whose lines match RE"
-msgstr "-I, --ignore-matching-lines=RE  忽略符合 RE 之行的所有變更"
+msgstr "-I, --ignore-matching-lines=RE  忽略所有其列符合 RE 的變更"
 
 #: src/sdiff.c:182
 msgid "    --strip-trailing-cr      strip trailing carriage return on input"
