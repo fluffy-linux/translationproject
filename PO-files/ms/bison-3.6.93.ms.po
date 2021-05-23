@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.6.93\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2020-07-20 07:39+0200\n"
-"PO-Revision-Date: 2021-03-28 16:10+0800\n"
+"PO-Revision-Date: 2021-05-24 00:58+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.4.3\n"
 
 #: examples/c/bistromathic/parse.y:148 examples/java/calc/Calc.y:77
 msgid "number"
@@ -448,7 +448,7 @@ msgstr "keluaran berkonflik kepada fail %s"
 #, fuzzy, c-format
 #| msgid "%s: cannot open"
 msgid "%s: cannot backup"
-msgstr "tak dapat backup %s"
+msgstr "tak dapat nyahbackup %s"
 
 #: src/getargs.c:173
 #, fuzzy
@@ -573,34 +573,20 @@ msgstr ""
 "  "
 
 #: src/getargs.c:314
-#, fuzzy
 msgid "show machine-readable fixes"
-msgstr "Keluaran dalam format boleh dibaca mesin (dibatasi tab)"
+msgstr "papar pembetulan boleh dibaca mesin"
 
 #: src/getargs.c:315
-#, fuzzy
 msgid "do not generate any file"
-msgstr "Jangan periksa kebenaran fail tetapan pengguna"
+msgstr "jangan jana sebarang fail"
 
 #: src/getargs.c:316
-#, fuzzy
 msgid "all of the above"
-msgstr ""
-"FEATURE adalah senarai perkataan dipisahkan koma yang boleh termasuk:\n"
-"   'caret'       menunjukkan kesilapan dengan carets\n"
-"   'all'         semua di atas\n"
-"   'none'        melumpuhkan semua di atas\n"
-"  "
+msgstr "semua di atas"
 
 #: src/getargs.c:317
-#, fuzzy
 msgid "disable all of the above"
-msgstr ""
-"FEATURE adalah senarai perkataan dipisahkan koma yang boleh termasuk:\n"
-"   'caret'       menunjukkan kesilapan dengan carets\n"
-"   'all'         semua di atas\n"
-"   'none'        melumpuhkan semua di atas\n"
-"  "
+msgstr "lumpuhkan semua di atas"
 
 #. TRANSLATORS: Use the same translation for FEATURES as in the
 #. --feature=FEATURES help message.
@@ -609,10 +595,9 @@ msgid "FEATURES is a list of comma separated words that can include:"
 msgstr ""
 
 #: src/getargs.c:354
-#, fuzzy, c-format
-#| msgid "Try `%s --help' for more information.\n"
+#, c-format
 msgid "Try '%s --help' for more information.\n"
-msgstr "Cuba `%s --help' untuk lebih maklumat.\n"
+msgstr "Cuba '%s --help' untuk lebih maklumat.\n"
 
 #: src/getargs.c:363
 #, c-format
