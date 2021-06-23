@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.6.93\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2020-07-20 07:39+0200\n"
-"PO-Revision-Date: 2021-05-24 00:58+0800\n"
+"PO-Revision-Date: 2021-06-24 00:20+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.0\n"
 
 #: examples/c/bistromathic/parse.y:148 examples/java/calc/Calc.y:77
 msgid "number"
@@ -507,9 +507,6 @@ msgstr ""
 "  `none'         matikan laporan\n"
 
 #: src/getargs.c:212
-#, fuzzy
-#| msgid "expected %d shift/reduce conflict"
-#| msgid_plural "expected %d shift/reduce conflicts"
 msgid "describe shift/reduce conflicts solving"
 msgstr ""
 "PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:\n"
@@ -518,59 +515,29 @@ msgstr ""
 "  `lookahead'    dengan jelas kaitkan lookahead kepada perkara\n"
 "  `solved'       nyatakan penyelesaian konflik pemindahan/pengurangan\n"
 "  `all'          masukkan semua maklumat diatas\n"
-"  `none'         matikan laporan\n"
+"  `none'         matikan laporan"
 
 #: src/getargs.c:214
-#, fuzzy
 msgid "include all the above information"
-msgstr ""
-"PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:\n"
-"  `state'        nyatakan keadaan\n"
-"  `itemset'      lengkapkan perkara asas dengan penutupnya\n"
-"  `lookahead'    dengan jelas kaitkan lookahead kepada perkara\n"
-"  `solved'       nyatakan penyelesaian konflik pemindahan/pengurangan\n"
-"  `all'          masukkan semua maklumat diatas\n"
-"  `none'         matikan laporan\n"
+msgstr "masukkan semua maklumat diatas"
 
 #: src/getargs.c:215
-#, fuzzy
 msgid "disable the report"
-msgstr ""
-"PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:\n"
-"  `state'        nyatakan keadaan\n"
-"  `itemset'      lengkapkan perkara asas dengan penutupnya\n"
-"  `lookahead'    dengan jelas kaitkan lookahead kepada perkara\n"
-"  `solved'       nyatakan penyelesaian konflik pemindahan/pengurangan\n"
-"  `all'          masukkan semua maklumat diatas\n"
-"  `none'         matikan laporan\n"
+msgstr "matikan laporan"
 
 #. TRANSLATORS: Use the same translation for THINGS as in the
 #. --report=THINGS help message.
 #: src/getargs.c:238
-#, fuzzy
 msgid "THINGS is a list of comma separated words that can include:"
-msgstr ""
-"PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:\n"
-"  `state'        nyatakan keadaan\n"
-"  `itemset'      lengkapkan perkara asas dengan penutupnya\n"
-"  `lookahead'    dengan jelas kaitkan lookahead kepada perkara\n"
-"  `solved'       nyatakan penyelesaian konflik pemindahan/pengurangan\n"
-"  `all'          masukkan semua maklumat diatas\n"
-"  `none'         matikan laporan\n"
+msgstr "PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:"
 
 #: src/getargs.c:301
 msgid "TRACES is a list of comma separated words that can include:"
 msgstr ""
 
 #: src/getargs.c:313
-#, fuzzy
 msgid "show errors with carets"
-msgstr ""
-"FEATURE adalah senarai perkataan dipisahkan koma yang boleh termasuk:\n"
-"   'caret'       menunjukkan kesilapan dengan carets\n"
-"   'all'         semua di atas\n"
-"   'none'        melumpuhkan semua di atas\n"
-"  "
+msgstr "papar kesilapan dengan carets"
 
 #: src/getargs.c:314
 msgid "show machine-readable fixes"
