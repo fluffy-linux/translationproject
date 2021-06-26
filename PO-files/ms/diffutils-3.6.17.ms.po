@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.6.17\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2018-12-26 14:31-0800\n"
-"PO-Revision-Date: 2021-04-03 22:55+0800\n"
+"PO-Revision-Date: 2021-06-26 20:09+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.0\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -318,7 +318,7 @@ msgstr "hujah tidak sah %s bagi %s"
 #: lib/xstrtol-error.c:68
 #, fuzzy, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "hujah tidak sah `%s' untuk `%s'"
+msgstr "hujah tidak sah %s untuk %s"
 
 #: lib/xstrtol-error.c:72
 #, fuzzy, c-format
@@ -778,86 +778,56 @@ msgid "-s, --report-identical-files  report when two files are the same"
 msgstr "-s  --report-identical-files  Lapor apabila dua fail adalah sama."
 
 #: src/diff.c:894
-#, fuzzy
 msgid "-c, -C NUM, --context[=NUM]   output NUM (default 3) lines of copied context"
-msgstr ""
-"-c  -C NOM  --context[=NOM]  Keluarkan NOM (default 3) baris konteks yang disalin.\n"
-"-u  -U NOM  --unified[=NOM]  Keluarkan NOM (default 3) baris konteks tergabung.\n"
-"  --label LABEL  Guna LABEL selain daripada nama fail.\n"
-"  -p  --show-c-function  Papar fungsi C yang mana dalam setiap perubahan.\n"
-"  -F RE  --show-function-line=RE  Papar baris terbaru sepadan RE."
+msgstr "-c, -C NUM, --context[=NUM]   keluarkan NUM (default 3) baris konteks yang disalin"
 
 #: src/diff.c:895
-#, fuzzy
-#| msgid "-w NUM  --width=NUM  Output at most NUM (default 130) print columns."
 msgid "-u, -U NUM, --unified[=NUM]   output NUM (default 3) lines of unified context"
-msgstr ""
-"-c  -C NOM  --context[=NOM]  Keluarkan NOM (default 3) baris konteks yang disalin.\n"
-"-u  -U NOM  --unified[=NOM]  Keluarkan NOM (default 3) baris konteks tergabung.\n"
-"  --label LABEL  Guna LABEL selain daripada nama fail.\n"
-"  -p  --show-c-function  Papar fungsi C yang mana dalam setiap perubahan.\n"
-"  -F RE  --show-function-line=RE  Papar baris terbaru sepadan RE."
+msgstr "-u, -U NUM, --unified[=NUM]   keluarkan NUM (default 3) baris konteks tergabung"
 
 #: src/diff.c:896
-#, fuzzy
-#| msgid "-e  --ed  Output an ed script."
 msgid "-e, --ed                      output an ed script"
-msgstr "-e  --ed  Keluarkan skrip ed."
+msgstr "-e, --ed                      keluarkan skrip ed"
 
 #: src/diff.c:897
-#, fuzzy
-#| msgid "-n  --rcs  Output an RCS format diff."
 msgid "-n, --rcs                     output an RCS format diff"
-msgstr "-n  --rcs  Keluarkan diff format RCS."
+msgstr "-n, --rcs                     keluarkan diff format RCS"
 
 #: src/diff.c:898
 msgid "-y, --side-by-side            output in two columns"
 msgstr "-y, --side-by-side            keluaran dalam dua lajur"
 
 #: src/diff.c:899
-#, fuzzy
-#| msgid "-w NUM  --width=NUM  Output at most NUM (default 130) print columns."
 msgid "-W, --width=NUM               output at most NUM (default 130) print columns"
-msgstr "-w, --width=NUM              keluarkan paling banyak NUM (default 130) lajur cetakan"
+msgstr "-W, --width=NUM               keluarkan paling banyak NUM (default 130) lajur cetakan"
 
 #: src/diff.c:900
-#, fuzzy
-#| msgid "-l  --left-column  Output only the left column of common lines."
 msgid "    --left-column             output only the left column of common lines"
-msgstr "-l, --left-column            keluarkan hanya lajur kiri baris yang sama"
+msgstr "    --left-column             keluarkan hanya lajur kiri baris yang sama"
 
 #: src/diff.c:901
-#, fuzzy
-#| msgid "-s  --suppress-common-lines  Do not output common lines."
 msgid "    --suppress-common-lines   do not output common lines"
-msgstr "-s  --suppress-common-lines  Jangan keluarkan baris sama."
+msgstr "    --suppress-common-lines   jangan keluarkan baris sama"
 
 #: src/diff.c:903
-#, fuzzy
 msgid "-p, --show-c-function         show which C function each change is in"
-msgstr ""
-"-c  -C NOM  --context[=NOM]  Keluarkan NOM (default 3) baris konteks yang disalin.\n"
-"-u  -U NOM  --unified[=NOM]  Keluarkan NOM (default 3) baris konteks tergabung.\n"
-"  --label LABEL  Guna LABEL selain daripada nama fail.\n"
-"  -p  --show-c-function  Papar fungsi C yang mana dalam setiap perubahan.\n"
-"  -F RE  --show-function-line=RE  Papar baris terbaru sepadan RE."
+msgstr "-p, --show-c-function         papar fungsi C yang mana dalam setiap perubahan"
 
 #: src/diff.c:904
 msgid "-F, --show-function-line=RE   show the most recent line matching RE"
 msgstr "-F, --show-function-line=RE   papar baris paling terkini sepadan RE"
 
 #: src/diff.c:905
-#, fuzzy
 msgid ""
 "    --label LABEL             use LABEL instead of file name and timestamp\n"
 "                                (can be repeated)"
-msgstr "-L LABEL  --label=LABEL  Guna LABEL selain daripada nama fail."
+msgstr ""
+"    --label LABEL             guna LABEL berbanding nama fail dan capmasa\n"
+"                                (boleh diulang)"
 
 #: src/diff.c:908
-#, fuzzy
-#| msgid "-t  --expand-tabs  Expand tabs to spaces in output."
 msgid "-t, --expand-tabs             expand tabs to spaces in output"
-msgstr "-t, --expand-tabs            kembang tab kepada ruang dalam keluaran"
+msgstr "-t, --expand-tabs             kembang tab kepada ruang dalam keluaran"
 
 #: src/diff.c:909
 msgid "-T, --initial-tab             make tabs line up by prepending a tab"
