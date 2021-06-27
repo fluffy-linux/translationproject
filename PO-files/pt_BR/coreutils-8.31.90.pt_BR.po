@@ -7,20 +7,21 @@
 # Juan Carlos Castro y Castro <jcastro@vialink.com.br>, 2003.
 # Rodolfo Ribeiro Gomes <rodolforg@gmail.com>, 2008, 2010, 2012.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2016-2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 8.31.90\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2020-02-27 17:02+0000\n"
-"PO-Revision-Date: 2021-04-07 21:29-0300\n"
+"PO-Revision-Date: 2021-06-27 13:06-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Virtaal 1.0.0-beta1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 40.0\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 
 #: lib/argmatch.c:132
@@ -637,7 +638,7 @@ msgstr "especificação inválida"
 #: lib/verror.c:73
 #, c-format
 msgid "unable to display error message"
-msgstr "não foi possível de exibir a mensagem de erro"
+msgstr "não foi possível exibir a mensagem de erro"
 
 #: lib/version-etc.c:73
 #, c-format
@@ -6592,7 +6593,7 @@ msgstr ""
 "                                 mais novo do que o de destino ou quando o\n"
 "                                 arquivo de destino não existe\n"
 "  -v, --verbose                explica o que está sendo feito\n"
-"  -Z, --context                define o contexto de segurança SELinux do\"\n"
+"  -Z, --context                define o contexto de segurança SELinux do\n"
 "                                 arquivo de destino para o tipo padrão\n"
 
 #: src/nice.c:73
@@ -11823,7 +11824,7 @@ msgid ""
 msgstr ""
 "  -a                     altera apenas o horário de acesso\n"
 "  -c, --no-create        não cria arquivo algum\n"
-"  -d, --date=TEXTO       analisa TEXTO e o usa ao invés da hora atual\n"
+"  -d, --date=STRING       analisa STRING e o usa ao invés da hora atual\n"
 "  -f                     (ignorado)\n"
 
 #: src/touch.c:232
@@ -11835,7 +11836,7 @@ msgid ""
 msgstr ""
 "  -h, --no-dereference   afeta cada link simbólico em vez do arquivo por\n"
 "                           ele referenciado (útil apenas em sistemas que\n"
-"                           permitem alterar o dono de uma link simbólico)\n"
+"                           permitem alterar o dono de um link simbólico)\n"
 "  -m                     altera apenas o horário de modificação\n"
 
 #: src/touch.c:238
