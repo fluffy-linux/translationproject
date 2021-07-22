@@ -486,7 +486,7 @@ msgstr "В конце файла нет новой строки"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:45
 msgid "Torbjorn Granlund"
-msgstr "Торбьёрн Гронлунд (Torbjorn Granlund)"
+msgstr "Торбьёрн Гронлунд (Torbjörn Granlund)"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:46
