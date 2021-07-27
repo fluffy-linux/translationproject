@@ -1,41 +1,40 @@
 # Serbian translation of m4.
 # Copyright (C) 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the m4 package.
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012–2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: m4-1.4o\n"
+"Project-Id-Version: m4-1.4.18d\n"
 "Report-Msgid-Bugs-To: bug-m4@gnu.org\n"
 "POT-Creation-Date: 2021-05-11 09:07-0500\n"
-"PO-Revision-Date: 2012-05-23 09:15+0200\n"
+"PO-Revision-Date: 2021-07-27 21:14+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
-"Language-Team: Serbian <gnu@prevod.org>\n"
+"Language-Team: Serbian <(nothing)>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 
 #: lib/clean-temp.c:235
-#, fuzzy, c-format
+#, c-format
 msgid "cannot find a temporary directory, try setting $TMPDIR"
-msgstr "не могу да направим привремену датотеку: %s"
+msgstr "не могу да нађем привремени директоријум, покушајте да поставите „$TMPDIR“"
 
 #: lib/clean-temp.c:250
-#, fuzzy, c-format
+#, c-format
 msgid "cannot create a temporary directory using template \"%s\""
-msgstr "не могу да направим привремену датотеку: %s"
+msgstr "не могу да направим привремени директоријум користећи образац „%s“"
 
 #: lib/clean-temp.c:371
-#, fuzzy, c-format
+#, c-format
 msgid "cannot remove temporary directory %s"
-msgstr "не могу да направим привремену датотеку: %s"
+msgstr "не могу да уклоним привремени директоријум „%s“"
 
 #: lib/closein.c:100
-#, fuzzy
 msgid "error closing file"
-msgstr "грешка приликом затварања излазне датотеке"
+msgstr "грешка затварања датотеке"
 
 #: lib/closeout.c:122
 msgid "write error"
@@ -50,9 +49,9 @@ msgid "stack overflow"
 msgstr "прекорачење спремника"
 
 #: lib/clean-temp-simple.c:297
-#, fuzzy, c-format
+#, c-format
 msgid "cannot remove temporary file %s"
-msgstr "не могу да направим привремену датотеку: %s"
+msgstr "не могу да уклоним привремену датотеку „%s“"
 
 #: lib/error.c:195
 msgid "Unknown system error"
@@ -60,9 +59,9 @@ msgstr "Непозната системска грешка"
 
 #: lib/execute.c:348 lib/spawn-pipe.c:597 lib/wait-process.c:291
 #: lib/wait-process.c:365
-#, fuzzy, c-format
+#, c-format
 msgid "%s subprocess failed"
-msgstr "„cap_set_proc“ није успело"
+msgstr "„%s“ подпроцес није успео"
 
 #: lib/getopt.c:278
 #, c-format
@@ -114,14 +113,14 @@ msgid "failed to return to initial working directory"
 msgstr "не могу да се вратим у почетни радни директоријум"
 
 #: lib/os2-spawn.c:46
-#, fuzzy, c-format
+#, c-format
 msgid "_open_osfhandle failed"
-msgstr "нисам успео да прочитам ЕЛФ заглавље"
+msgstr "„_open_osfhandle“ није успело"
 
 #: lib/os2-spawn.c:83
 #, c-format
 msgid "cannot restore fd %d: dup2 failed"
-msgstr ""
+msgstr "не могу да вратим описник датотеке %d: „dup2“ није успело"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -362,9 +361,9 @@ msgstr "Губитак изворишта"
 
 #: lib/spawn-pipe.c:217 lib/spawn-pipe.c:220 lib/spawn-pipe.c:459
 #: lib/spawn-pipe.c:462
-#, fuzzy, c-format
+#, c-format
 msgid "cannot create pipe"
-msgstr "не могу да направим списак досега"
+msgstr "не могу да направим спојку"
 
 #: lib/strsignal.c:114
 #, c-format
@@ -377,9 +376,9 @@ msgid "Unknown signal %d"
 msgstr "Непознати сигнал %d"
 
 #: lib/verror.c:76
-#, fuzzy, c-format
+#, c-format
 msgid "unable to display error message"
-msgstr "не могу да ослободим аргументе"
+msgstr "не могу да прикажем поруку грешке"
 
 #: lib/version-etc.c:73
 #, c-format
@@ -543,119 +542,118 @@ msgid "General help using GNU software: <%s>\n"
 msgstr "Општа помоћ за Гнуов софтвер: <%s>\n"
 
 #: lib/wait-process.c:232 lib/wait-process.c:264 lib/wait-process.c:326
-#, fuzzy, c-format
+#, c-format
 msgid "%s subprocess"
-msgstr "Нема таквог процеса"
+msgstr "„%s“ подпроцес"
 
 #: lib/wait-process.c:283 lib/wait-process.c:355
-#, fuzzy, c-format
+#, c-format
 msgid "%s subprocess got fatal signal %d"
-msgstr "„cap_set_proc“ није успело"
+msgstr "„%s“ подпроцес је добио кобни сигнал %d"
 
 #: lib/xprintf.c:50 lib/xprintf.c:76
-#, fuzzy, c-format
+#, c-format
 msgid "cannot perform formatted output"
-msgstr "не могу да створим излазну датотеку"
+msgstr "не могу да одрадим форматирани излаз"
 
 #: src/builtin.c:264
-#, fuzzy, c-format
+#, c-format
 msgid "--warn-macro-sequence: bad regular expression `%s': %s"
-msgstr "Лош регуларни израз „%s“: %s"
+msgstr "--warn-macro-sequence: лош регуларни израз „%s“: %s"
 
 #: src/builtin.c:320
 #, c-format
 msgid "Warning: definition of `%s' contains sequence `%s'"
-msgstr ""
+msgstr "Упозорење: дефиниција за „%s“ садржи низ „%s“"
 
 #: src/builtin.c:327
 #, c-format
 msgid "error checking --warn-macro-sequence for macro `%s'"
-msgstr ""
+msgstr "грешка провере „--warn-macro-sequence“ за макро „%s“"
 
 #: src/builtin.c:388
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: too few arguments to builtin `%s'"
-msgstr "Упозорење: Премало аргумената за угради-у „%s“"
+msgstr "Упозорење: премало аргумената за уградњу „%s“"
 
 #: src/builtin.c:394
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: excess arguments to builtin `%s' ignored"
-msgstr "Упозорење: Премашење аргумената за угради-у „%s“ је занемарено"
+msgstr "Упозорење: премашење аргумената за уградњу „%s“"
 
 #: src/builtin.c:415 src/builtin.c:1114
-#, fuzzy, c-format
+#, c-format
 msgid "empty string treated as 0 in builtin `%s'"
-msgstr "Не бројевни аргумент за угради-у „%s“"
+msgstr "празна нит ниске као 0 у угради-у „%s“"
 
 #: src/builtin.c:425 src/builtin.c:1243
-#, fuzzy, c-format
+#, c-format
 msgid "non-numeric argument to builtin `%s'"
-msgstr "Не бројевни аргумент за угради-у „%s“"
+msgstr "не-бројевни аргумент за угради-у „%s“"
 
 #: src/builtin.c:431
-#, fuzzy, c-format
+#, c-format
 msgid "leading whitespace ignored in builtin `%s'"
-msgstr "Не бројевни аргумент за угради-у „%s“"
+msgstr "водећа празнина занемарена у угради-у „%s“"
 
 #: src/builtin.c:435
-#, fuzzy, c-format
+#, c-format
 msgid "numeric overflow detected in builtin `%s'"
-msgstr "Не бројевни аргумент за угради-у „%s“"
+msgstr "бројевно прекорачење је откривено у угради-у „%s“"
 
 #: src/builtin.c:552 src/builtin.c:815 src/builtin.c:856
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: %s: invalid macro name ignored"
-msgstr "неисправан знак: порука је занемарена"
+msgstr "Упозорење: %s: неисправан назив макроа је занемарен"
 
 #: src/builtin.c:752 src/builtin.c:864
-#, fuzzy, c-format
+#, c-format
 msgid "undefined macro `%s'"
-msgstr "Неодређени назив „%s“"
+msgstr "недефинисани макро „%s“"
 
 #: src/builtin.c:823
-#, fuzzy, c-format
+#, c-format
 msgid "undefined builtin `%s'"
-msgstr "Неодређени назив „%s“"
+msgstr "недефинисана уградња „%s“"
 
 #: src/builtin.c:914 src/builtin.c:2208
-#, fuzzy, c-format
+#, c-format
 msgid "builtin `%s' requested by frozen file is not supported"
-msgstr "%s: угнеждене условности нису подржане"
+msgstr "уградња „%s“ захтевана замрзнутом датотеком није подржана"
 
 #: src/builtin.c:918
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: cannot concatenate builtin `%s'"
-msgstr "Упозорење: Премало аргумената за угради-у „%s“"
+msgstr "Упозорење: не могу да надовежем уградњу „%s“"
 
 #: src/builtin.c:978 src/builtin.c:1015 src/builtin.c:1028 src/builtin.c:1063
-#, fuzzy, c-format
+#, c-format
 msgid "cannot run command `%s'"
-msgstr "Не могу да отворим спојку за наредбу „%s“"
+msgstr "не могу да покренем наредбу „%s“"
 
 #: src/builtin.c:1051
-#, fuzzy
 msgid "cannot read pipe"
-msgstr "не могу да прочитам мапу везе"
+msgstr "не могу да прочитам спојку"
 
 #: src/builtin.c:1098
 #, c-format
 msgid "radix %d in builtin `%s' out of range"
-msgstr ""
+msgstr "корен %d у уградњи „%s“ је ван опсега"
 
 #: src/builtin.c:1108
-#, fuzzy, c-format
+#, c-format
 msgid "negative width to builtin `%s'"
-msgstr "Негативна ширина у процени"
+msgstr "негативна ширина за уградњу „%s“"
 
 #: src/builtin.c:1252
-#, fuzzy, c-format
+#, c-format
 msgid "error undiverting `%s'"
-msgstr "Не могу да поништим скретање %s"
+msgstr "грешка поништавања скретања „%s“"
 
 #: src/builtin.c:1256
-#, fuzzy, c-format
+#, c-format
 msgid "cannot undivert `%s'"
-msgstr "Не могу да поништим скретање %s"
+msgstr "не могу да поништим скретање „%s“"
 
 #: src/builtin.c:1366 src/freeze.c:115 src/m4.c:379
 #, c-format
@@ -663,18 +661,18 @@ msgid "cannot open `%s'"
 msgstr "не могу да отворим „%s“"
 
 #: src/builtin.c:1429
-#, fuzzy, c-format
+#, c-format
 msgid "%s: cannot create tempfile `%s'"
-msgstr "не могу да направим привремену датотеку: %s"
+msgstr "%s: не могу да направим привремену датотеку „%s“"
 
 #: src/builtin.c:1464
 msgid "recommend using mkstemp instead"
-msgstr ""
+msgstr "препоручује коришћење „mkstemp“"
 
 #: src/builtin.c:1557
-#, fuzzy, c-format
+#, c-format
 msgid "exit status out of range: `%d'"
-msgstr "„UT“ померај је ван опсега"
+msgstr "излазно стање је ван опсега: %d"
 
 #: src/builtin.c:1681
 #, c-format
@@ -682,134 +680,128 @@ msgid "Debugmode: bad debug flags: `%s'"
 msgstr "Режим уклањања грешака: лоша опција уклањања грешака: „%s“"
 
 #: src/builtin.c:1722 src/m4.c:625 src/m4.c:689
-#, fuzzy, c-format
+#, c-format
 msgid "cannot set debug file `%s'"
-msgstr "Не могу да отворим улазну датотеку „%s“"
+msgstr "не могу да поставим датотеку прочишћавања „%s“"
 
 #: src/builtin.c:1988
-#, fuzzy
 msgid "Warning: \\0 will disappear, use \\& instead in replacements"
-msgstr "УПОЗОРЕЊЕ: \\0 ће нестати, уместо тога користите \\& у заменама"
+msgstr "Упозорење: \\0 ће нестати, уместо тога користите \\& у заменама"
 
 #: src/builtin.c:2004
 #, c-format
 msgid "Warning: sub-expression %d not present"
-msgstr ""
+msgstr "Упозорење: подизраз %d није присутан"
 
 #: src/builtin.c:2013
 msgid "Warning: trailing \\ ignored in replacement"
-msgstr ""
+msgstr "Упозорење: пратећа \\ је занемарена у замени"
 
 #: src/builtin.c:2079
-#, fuzzy, c-format
+#, c-format
 msgid "bad regular expression: `%s': %s"
-msgstr "Лош регуларни израз „%s“: %s"
+msgstr "лош регуларни израз: „%s“: %s"
 
 #: src/builtin.c:2091 src/builtin.c:2161
-#, fuzzy, c-format
+#, c-format
 msgid "error matching regular expression `%s'"
-msgstr "Грешка упоређивања регуларног израза „%s“"
+msgstr "грешка упоређивања регуларног израза „%s“"
 
 #: src/builtin.c:2139 src/input.c:792
-#, fuzzy, c-format
+#, c-format
 msgid "bad regular expression `%s': %s"
-msgstr "Лош регуларни израз „%s“: %s"
+msgstr "лош регуларни израз „%s“: %s"
 
 #: src/debug.c:136 src/debug.c:157
 msgid "error writing to debug stream"
-msgstr ""
+msgstr "гршка писања у ток прочишћавања"
 
 #: src/eval.c:318
-#, fuzzy, c-format
+#, c-format
 msgid "bad expression in eval (missing right parenthesis): %s"
-msgstr "Лош израз у процени (недостаје десна мала заграда): %s"
+msgstr "лош израз у процени (недостаје десна мала заграда): %s"
 
 #: src/eval.c:324
-#, fuzzy, c-format
+#, c-format
 msgid "bad expression in eval: %s"
-msgstr "Лош израз у процени: %s"
+msgstr "лош израз у процени: %s"
 
 #: src/eval.c:329
-#, fuzzy, c-format
+#, c-format
 msgid "bad expression in eval (bad input): %s"
-msgstr "Лош израз у процени (лош улаз): %s"
+msgstr "лош израз у процени (лош улаз): %s"
 
 #: src/eval.c:334
-#, fuzzy, c-format
+#, c-format
 msgid "bad expression in eval (excess input): %s"
-msgstr "Лош израз у процени (превише улаза): %s"
+msgstr "лош израз у процени (превише улаза): %s"
 
 #: src/eval.c:339
-#, fuzzy, c-format
+#, c-format
 msgid "invalid operator in eval: %s"
-msgstr "Дељење нулом у процени: %s"
+msgstr "неисправан оператор у процени: %s"
 
 #: src/eval.c:345
-#, fuzzy, c-format
+#, c-format
 msgid "divide by zero in eval: %s"
-msgstr "Дељење нулом у процени: %s"
+msgstr "дељење нулом у процени: %s"
 
 #: src/eval.c:350
-#, fuzzy, c-format
+#, c-format
 msgid "modulo by zero in eval: %s"
-msgstr "Основа нулом у процени: %s"
+msgstr "основа нулом у процени: %s"
 
 #: src/eval.c:355
-#, fuzzy, c-format
+#, c-format
 msgid "negative exponent in eval: %s"
-msgstr "Лош израз у процени: %s"
+msgstr "негативан изложилац у процени: %s"
 
 #: src/eval.c:538
 msgid "Warning: recommend ==, not =, for equality operator"
-msgstr ""
+msgstr "Упозорење: препоручује ==, а не =, за оператор једнакости"
 
 #: src/format.c:40 src/format.c:64 src/format.c:88
 msgid "empty string treated as 0"
-msgstr ""
+msgstr "празна нит ниске као 0"
 
 #: src/format.c:46 src/format.c:70 src/format.c:94
-#, fuzzy, c-format
+#, c-format
 msgid "non-numeric argument %s"
-msgstr "Не бројевни аргумент за „%s“"
+msgstr "не бројевни аргумент „%s“"
 
 #: src/format.c:48 src/format.c:72 src/format.c:96
 msgid "leading whitespace ignored"
-msgstr ""
+msgstr "водећа празнина је занемарена"
 
 #: src/format.c:50 src/format.c:74 src/format.c:98
-#, fuzzy
 msgid "numeric overflow detected"
-msgstr "Не бројевни аргумент за угради-у „%s“"
+msgstr "бројевно прекорачење је откривено"
 
 #: src/format.c:308
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: unrecognized specifier in `%s'"
-msgstr "%s: непозната опција „%c%s“\n"
+msgstr "Упозорење: непознат одредник у „%s“"
 
 #: src/freeze.c:156
-#, fuzzy
 msgid "unable to create frozen state"
-msgstr "Не могу да направим процес на серверу"
+msgstr "не могу да направим замрзнуто стање"
 
 #: src/freeze.c:167
-#, fuzzy
 msgid "expecting line feed in frozen file"
-msgstr "Ишчекујем приток реда у замрзнутој датотеци"
+msgstr "ишчекујем приток реда у замрзнутој датотеци"
 
 #: src/freeze.c:169
-#, fuzzy, c-format
+#, c-format
 msgid "expecting character `%c' in frozen file"
-msgstr "Ишчекујем знак „%c“ у замрзнутој датотеци"
+msgstr "ишчекујем знак „%c“ у замрзнутој датотеци"
 
 #: src/freeze.c:215
-#, fuzzy
 msgid "integer overflow in frozen file"
-msgstr "прекорачење целог броја"
+msgstr "прекорачење целог броја у замрзнутој датотеци"
 
 #: src/freeze.c:257
-#, fuzzy
 msgid "premature end of frozen file"
-msgstr "Превремен крај замрзнуте датотеке"
+msgstr "превремен крај замрзнуте датотеке"
 
 #: src/freeze.c:270
 #, c-format
@@ -819,42 +811,37 @@ msgstr "не могу да отворим „%s“"
 #: src/freeze.c:285
 #, c-format
 msgid "frozen file version %d greater than max supported of 1"
-msgstr ""
+msgstr "издање замрзнуте датотеке %d је веће од највећег подржаног од 1"
 
 #: src/freeze.c:288
 msgid "ill-formed frozen file, version directive expected"
-msgstr ""
+msgstr "лоше творена замрзнута датотека, очекивана је упута издања"
 
 #: src/freeze.c:297
-#, fuzzy
 msgid "ill-formed frozen file"
-msgstr "Рђаво форматирана замрзнута датотека"
+msgstr "лоше творена замрзнута датотека"
 
 #: src/freeze.c:385
-#, fuzzy
 msgid "unable to read frozen state"
-msgstr "не могу да ослободим аргументе"
+msgstr "не могу да прочитам замрзнуто стање"
 
 #: src/input.c:359
-#, fuzzy
 msgid "read error"
-msgstr "грешка писања"
+msgstr "грешка читања"
 
 #: src/input.c:366
-#, fuzzy
 msgid "error reading file"
-msgstr "грешка приликом читања улаза"
+msgstr "грешка читања датотеке"
 
 #: src/input.c:589
 msgid "Warning: end of file treated as newline"
-msgstr ""
+msgstr "Упозорење: крај датотеке је сматран новим редом"
 
 #: src/input.c:881
 msgid "ERROR: end of file in comment"
-msgstr ""
+msgstr "ГРЕШКА: крај датотеке у напомени"
 
 #: src/input.c:1001
-#, fuzzy
 msgid "ERROR: end of file in string"
 msgstr "ГРЕШКА: крај датотеке у ниски"
 
@@ -863,12 +850,12 @@ msgstr "ГРЕШКА: крај датотеке у ниски"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/m4.c:41
 msgid "Rene' Seindal"
-msgstr ""
+msgstr "Рене Синдал"
 
 #: src/m4.c:207
-#, fuzzy, c-format
+#, c-format
 msgid "Try `%s --help' for more information."
-msgstr "Покушајте „%s --help“ за више података.\n"
+msgstr "Покушајте „%s --help“ за више података."
 
 #: src/m4.c:213
 #, c-format
@@ -876,20 +863,20 @@ msgid "Usage: %s [OPTION]... [FILE]...\n"
 msgstr "Употреба: %s [ОПЦИЈА]... [ДАТОТЕКА]...\n"
 
 #: src/m4.c:214
-#, fuzzy
 msgid ""
 "Process macros in FILEs.  If no FILE or if FILE is `-', standard input\n"
 "is read.\n"
 msgstr ""
-"\n"
-"Ако нема ДАТОТЕКЕ или ако је ДАТОТЕКА „-“, чита се стандардни улаз.\n"
+"Обрађује макрое у ДАТОТЕКАМА.  Ако нема ДАТОТЕКЕ или ако је ДАТОТЕКА „-“,\n"
+"чита се стандардни улаз.\n"
 
 #: src/m4.c:219
-#, fuzzy
 msgid ""
 "Mandatory or optional arguments to long options are mandatory or optional\n"
 "for short options too.\n"
-msgstr "Обавезни или опционални аргументи за дуге опције су такође обавезни или опционални за све одговарајуће кратке опције."
+msgstr ""
+"Обавезни или опционални аргументи за дуге опције су такође обавезни или\n"
+"опционални за све одговарајуће кратке опције.\n"
 
 #: src/m4.c:224
 msgid ""
@@ -897,6 +884,9 @@ msgid ""
 "      --help                   display this help and exit\n"
 "      --version                output version information and exit\n"
 msgstr ""
+"Режими рада:\n"
+"      --help                           приказује ову помоћ и излази\n"
+"      --version                        исписује податке о издању и излази\n"
 
 #: src/m4.c:229
 msgid ""
@@ -906,6 +896,11 @@ msgid ""
 "  -P, --prefix-builtins        force a `m4_' prefix to all builtins\n"
 "  -Q, --quiet, --silent        suppress some warnings for builtins\n"
 msgstr ""
+"  -E, --fatal-warnings                 једном: упозорења постају грешке, двапут: зауставља\n"
+"                                       извршавање при првој грешци\n"
+"  -i, --interactive                    поништава међумеморију излаза, занемарује прекиде\n"
+"  -P, --prefix-builtins                присиљава префикс „m4_“ свим уграђеним\n"
+"  -Q, --quiet, --silent                потискује нека упозорења за уграђене\n"
 
 #: src/m4.c:236
 #, c-format
@@ -914,13 +909,15 @@ msgid ""
 "                               warn if macro definition matches REGEXP,\n"
 "                                 default %s\n"
 msgstr ""
+"      --warn-macro-sequence[=РЕГИЗР]\n"
+"                                       упозорава ако дефиниција макроа одговара РЕГУЛАРНОМ_ИЗРАЗУ,\n"
+"                                       основно је „%s“\n"
 
 #: src/m4.c:242
 msgid "  -W, --word-regexp=REGEXP     use REGEXP for macro name syntax\n"
 msgstr "  -W, --word-regexp=РЕГ. ИЗРАЗ         користи РЕГУЛАРНИ ИЗРАЗ за садржај назива макроа\n"
 
 #: src/m4.c:246
-#, fuzzy
 msgid ""
 "Preprocessor features:\n"
 "  -D, --define=NAME[=VALUE]    define NAME as having VALUE, or empty\n"
@@ -928,15 +925,14 @@ msgid ""
 "  -s, --synclines              generate `#line NUM \"FILE\"' lines\n"
 "  -U, --undefine=NAME          undefine NAME\n"
 msgstr ""
-"\n"
 "Функције претпроцесора:\n"
-"  -I, --include=ДИРЕКТОРИЈУМ           претражује овај директоријум за укључивањима\n"
-"  -D, --define=НАЗИВ[=ВРЕДНОСТ]        НАЗИВ уноса има имајућу ВРЕДНОСТ, или празно\n"
-"  -U, --undefine=НАЗИВ                 брише НАЗИВ уграђивања\n"
-"  -s, --synclines                      ствара редове „#line НЕМА 'ДАТОТЕКА'“\n"
+"  -D, --define=НАЗИВ[=ВРЕДНОСТ]        дефинише НАЗИВ да има ВРЕДНОСТ, или празно\n"
+"  -I, --include=ДИРЕКТОРИЈУМ           придодаје ДИРЕКТОРИЈУМ у путању укључивања\n"
+"  -s, --synclines                      ствара редове „#line БРОЈ 'ДАТОТЕКА'“\n"
+"  -U, --undefine=НАЗИВ                 поништава дефиницију НАЗИВ\n"
 
 #: src/m4.c:255
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Limits control:\n"
 "  -g, --gnu                    override -G to re-enable GNU extensions\n"
@@ -944,26 +940,23 @@ msgid ""
 "  -H, --hashsize=PRIME         set symbol lookup hash table size [509]\n"
 "  -L, --nesting-limit=NUMBER   change nesting limit, 0 for unlimited [%d]\n"
 msgstr ""
-"\n"
 "Управљање ограничењем:\n"
+"  -g, --gnu                            заобилази „-G“ да поново укључи ГНУ проширења\n"
 "  -G, --traditional                    потискује сва ГНУ проширења\n"
-"  -H, --hashsize=PRIME                 подешава величину хеш табеле потраге симбола\n"
-"  -L, --nesting-limit=БРОЈ             мења ограничење вештачког угнежђавања\n"
+"  -H, --hashsize=PRIME                 подешава величину хеш табеле потраге симбола [509]\n"
+"  -L, --nesting-limit=БРОЈ             мења ограничење угнежђавања, 0 за неограничено [%d]\n"
 
 #: src/m4.c:263
-#, fuzzy
 msgid ""
 "Frozen state files:\n"
 "  -F, --freeze-state=FILE      produce a frozen state on FILE at end\n"
 "  -R, --reload-state=FILE      reload a frozen state from FILE at start\n"
 msgstr ""
-"\n"
 "Датотеке замрзнутог стања:\n"
 "  -F, --freeze-state=ДАТОТЕКА          производи замрзнуто стање на ДАТОТЕЦИ на крају\n"
 "  -R, --reload-state=ДАТОТЕКА          поново учитава замрзнуто стање из ДАТОТЕКЕ на почетку\n"
 
 #: src/m4.c:269
-#, fuzzy
 msgid ""
 "Debugging:\n"
 "  -d, --debug[=FLAGS]          set debug level (no FLAGS implies `aeq')\n"
@@ -972,12 +965,12 @@ msgid ""
 "  -l, --arglength=NUM          restrict macro tracing size\n"
 "  -t, --trace=NAME             trace NAME when it is defined\n"
 msgstr ""
-"\n"
 "Уклањање грешака:\n"
-"  -d, --debug=[ОПЦИЈЕ]                 подешава ниво уклањања грешака (ниједна ОПЦИЈА не подразумева „aeq“)\n"
-"  -t, --trace=НАЗИВ                    прати НАЗИВ када ће бити одређен\n"
+"  -d, --debug=[ОПЦИЈЕ]                 подешава ниво прочишћавања (ниједна ОПЦИЈА не подразумева „aeq“)\n"
+"      --debugfile[=ДАТОТЕКА]           преусмерава излаз прочишћавања и трага у ДАТОТЕКУ\n"
+"                                       (основно је стандардна грешка, одбацује ако је празна ниска)\n"
 "  -l, --arglength=БРОЈ                 ограничава величину праћења макроа\n"
-"  -o, --error-output=ДАТОТЕКА          преусмерава уклањање грешака и прати излаз\n"
+"  -t, --trace=НАЗИВ                    прати НАЗИВ када је дефинисан\n"
 
 #: src/m4.c:278
 msgid ""
@@ -988,6 +981,12 @@ msgid ""
 "  f   say current input file name\n"
 "  i   show changes in input files\n"
 msgstr ""
+"ОПЦИЈЕ су било које од следећих:\n"
+"  a   приказује тренутне аргументе\n"
+"  c   приказује пре прикупљања, после прикупљања и после позива\n"
+"  e   приказује ширење\n"
+"  f   приказује назив текуће датотеке улаза\n"
+"  i   приказује измене у улазним датотекама\n"
 
 #: src/m4.c:286
 msgid ""
@@ -998,102 +997,102 @@ msgid ""
 "  x   add a unique macro call id, useful with c flag\n"
 "  V   shorthand for all of the above flags\n"
 msgstr ""
+"  l   приказује број тренутног улазног реда\n"
+"  p   приказује резултате претрага путање\n"
+"  q   вредности наводника су неопходне са опцијом „а“ или „е“\n"
+"  t   прати све позиве макроа, не само „traceon'ed“\n"
+"  x   додаје јединствени иб позива макроа, корисно уз опцију „c“\n"
+"  V   скраћеница за све горе наведене опције\n"
 
 #: src/m4.c:295
 msgid ""
 "If defined, the environment variable `M4PATH' is a colon-separated list\n"
 "of directories included after any specified by `-I'.\n"
 msgstr ""
+"Ако је дефинисано, променљива окружења „M4PATH“ је двотачком одвојен списак\n"
+"директоријума укључених након било ког наведеног са „-I“.\n"
 
 #: src/m4.c:300
 msgid ""
 "Exit status is 0 for success, 1 for failure, 63 for frozen file version\n"
 "mismatch, or whatever value was passed to the m4exit macro.\n"
 msgstr ""
+"Излазно стање је 0 за успех, 1 за неуспех, 63 за непоклапање издања замрзнуте\n"
+"датотеке, или било која вредност прослеђена макроу „m4exit“.\n"
 
 #: src/m4.c:436
 #, c-format
 msgid "internal error detected; please report this bug to <%s>"
-msgstr ""
+msgstr "откривена је унутрашња грешка; пријавите ову грешку на <%s>"
 
 #: src/m4.c:489
 #, c-format
 msgid "warning: `m4 -%c' may be removed in a future release"
-msgstr ""
+msgstr "упозорење: „m4 -%c“ може бити уклоњено у будућем издању"
 
 #: src/m4.c:496
-#, fuzzy, c-format
+#, c-format
 msgid "warning: `m4 %s' is deprecated"
-msgstr "Позив као „egrep“ је застарео; користите „grep -E“ уместо тога.\n"
+msgstr "упозорење: „m4 %s“ је застарело"
 
 #: src/m4.c:572
-#, fuzzy, c-format
+#, c-format
 msgid "bad debug flags: `%s'"
-msgstr "Лоше опције прочишћавања: „%s“"
+msgstr "лоше опције прочишћавања: „%s“"
 
 #: src/m4.c:578
-#, fuzzy, c-format
+#, c-format
 msgid "warning: `m4 -e' is deprecated, use `-i' instead"
-msgstr "Позив као „egrep“ је застарео; користите „grep -E“ уместо тога.\n"
+msgstr "упозорење: „m4 -e“ је застарело; користите „-i“ уместо тога"
 
 #: src/m4.c:690
 msgid "stderr"
-msgstr ""
+msgstr "стандардна грешка"
 
 #: src/macro.c:196
-#, fuzzy
 msgid "ERROR: end of file in argument list"
-msgstr "ГРЕШКА: Крај датотеке у списку аргумента"
+msgstr "ГРЕШКА: крај датотеке на списку аргумената"
 
 #: src/macro.c:332
-#, fuzzy, c-format
+#, c-format
 msgid "recursion limit of %d exceeded, use -L<N> to change it"
-msgstr "ГРЕШКА: Ограничење дубачења од %d је премашено, употребите -L<N> да га измените"
+msgstr "ограничење дубачења од %d је премашено, употребите „-L<N>“ да га измените"
 
 #: src/output.c:172 src/output.c:898 src/output.c:901
-#, fuzzy
 msgid "cannot clean temporary file for diversion"
-msgstr "ГРЕШКА: Не могу да направим привремену датотеку за размимоилажење"
+msgstr "не могу да очистим привремену датотеку за размимоилажење"
 
 #: src/output.c:222 src/output.c:231 src/output.c:265 src/output.c:360
-#, fuzzy
 msgid "cannot create temporary file for diversion"
-msgstr "ГРЕШКА: Не могу да направим привремену датотеку за размимоилажење"
+msgstr "не могу да направим привремену датотеку за размимоилажење"
 
 #: src/output.c:250 src/output.c:257 src/output.c:269
-#, fuzzy
 msgid "cannot seek within diversion"
-msgstr "Не могу да добавим податке размимоилажења"
+msgstr "не могу да премотам у размимоилажењу"
 
 #: src/output.c:341 src/output.c:353 src/output.c:502 src/output.c:733
-#, fuzzy
 msgid "cannot close temporary file for diversion"
-msgstr "ГРЕШКА: Не могу да направим привремену датотеку за размимоилажење"
+msgstr "не могу да затворим привремену датотеку за размимоилажење"
 
 #: src/output.c:474
-#, fuzzy
 msgid "ERROR: cannot flush diversion to temporary file"
-msgstr "ГРЕШКА: Не могу да преточим размимоилажење у привремену датотеку"
+msgstr "ГРЕШКА: не могу да преточим размимоилажење у привремену датотеку"
 
 #: src/output.c:568
-#, fuzzy
 msgid "ERROR: copying inserted file"
-msgstr "ГРЕШКА: Умножавам уметнуту датотеку"
+msgstr "ГРЕШКА: умножавам уметнуту датотеку"
 
 #: src/output.c:816
-#, fuzzy
 msgid "error reading inserted file"
-msgstr "ГРЕШКА: Читам уметнуту датотеку"
+msgstr "грешка читања уметнуте датотеке"
 
 #: src/output.c:983
-#, fuzzy
 msgid "cannot stat diversion"
-msgstr "Не могу да добавим податке размимоилажења"
+msgstr "не могу да добавим податке размимоилажења"
 
 #: src/output.c:987
-#, fuzzy
 msgid "diversion too large"
-msgstr "Размимоилажење је превелико"
+msgstr "размимоилажење је превелико"
 
 #~ msgid "%s: option `%s' is ambiguous\n"
 #~ msgstr "%s: опција „%s“ је нејасна\n"
