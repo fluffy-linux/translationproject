@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.6.93\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2020-07-20 07:39+0200\n"
-"PO-Revision-Date: 2021-06-24 00:20+0800\n"
+"PO-Revision-Date: 2021-07-29 00:38+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -448,7 +448,7 @@ msgstr "keluaran berkonflik kepada fail %s"
 #, fuzzy, c-format
 #| msgid "%s: cannot open"
 msgid "%s: cannot backup"
-msgstr "tak dapat nyahbackup %s"
+msgstr "tak dapat backup %s"
 
 #: src/getargs.c:173
 #, fuzzy
@@ -471,40 +471,16 @@ msgid "WHEN can be one of the following:"
 msgstr ""
 
 #: src/getargs.c:209
-#, fuzzy
 msgid "describe the states"
-msgstr ""
-"PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:\n"
-"  `state'        nyatakan keadaan\n"
-"  `itemset'      lengkapkan perkara asas dengan penutupnya\n"
-"  `lookahead'    dengan jelas kaitkan lookahead kepada perkara\n"
-"  `solved'       nyatakan penyelesaian konflik pemindahan/pengurangan\n"
-"  `all'          masukkan semua maklumat diatas\n"
-"  `none'         matikan laporan\n"
+msgstr "nyatakan keadaan"
 
 #: src/getargs.c:210
-#, fuzzy
 msgid "complete the core item sets with their closure"
-msgstr ""
-"PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:\n"
-"  `state'        nyatakan keadaan\n"
-"  `itemset'      lengkapkan perkara asas dengan penutupnya\n"
-"  `lookahead'    dengan jelas kaitkan lookahead kepada perkara\n"
-"  `solved'       nyatakan penyelesaian konflik pemindahan/pengurangan\n"
-"  `all'          masukkan semua maklumat diatas\n"
-"  `none'         matikan laporan\n"
+msgstr "lengkapkan kumpulan perkara asas dengan penutupnya"
 
 #: src/getargs.c:211
-#, fuzzy
 msgid "explicitly associate lookahead tokens to items"
-msgstr ""
-"PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:\n"
-"  `state'        nyatakan keadaan\n"
-"  `itemset'      lengkapkan set perkara asas dengan penutupnya\n"
-"  `lookahead'    dengan jelas kaitkan token lookahead kepada perkara\n"
-"  `solved'       nyatakan penyelesaian konflik pemindahan/pengurangan\n"
-"  `all'          masukkan semua maklumat diatas\n"
-"  `none'         matikan laporan\n"
+msgstr "dengan jelas kaitkan token lookahead kepada perkara"
 
 #: src/getargs.c:212
 msgid "describe shift/reduce conflicts solving"
@@ -533,7 +509,7 @@ msgstr "PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:"
 
 #: src/getargs.c:301
 msgid "TRACES is a list of comma separated words that can include:"
-msgstr ""
+msgstr "KESAN adalah senarai perkataan dipisah koma yang boleh termasuk:"
 
 #: src/getargs.c:313
 msgid "show errors with carets"
@@ -559,7 +535,7 @@ msgstr "lumpuhkan semua di atas"
 #. --feature=FEATURES help message.
 #: src/getargs.c:339
 msgid "FEATURES is a list of comma separated words that can include:"
-msgstr ""
+msgstr "CIRI-CIRI adalah senarai perkataan dipisah koma yang boleh termasuk:"
 
 #: src/getargs.c:354
 #, c-format
