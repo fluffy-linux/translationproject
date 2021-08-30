@@ -1,16 +1,16 @@
 # Swedish messages for bison.
 # Copyright © 2001-2006, 2008, 2010, 2011, 2012, 2013, 2015, 2018, 2019, 2020, 2021 Free Software Foundation, Inc.
 # This file is distributed under the same license as the bison package.
-# Göran Uddeborg <goeran@uddeborg.se>, 2001-2006, 2008, 2010, 2011, 2012, 2013, 2015, 2018, 2019, 2020, 2021.
 # Luna Jernberg <droidbittin@gmail.com>, 2021
+# Göran Uddeborg <goeran@uddeborg.se>, 2001-2006, 2008, 2010, 2011, 2012, 2013, 2015, 2018, 2019, 2020, 2021.
 #
-# $Revision: 1.124 $
+# $Revision: 1.126 $
 msgid ""
 msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2021-08-13 23:06+0200\n"
+"PO-Revision-Date: 2021-08-30 12:00+0200\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -576,7 +576,7 @@ msgstr ""
 "      --html[=FIL]              skapa också en HTML-rapport om automaten\n"
 "  -x, --xml[=FIL]               skapa också en XML-rapport om automaten\n"
 "  -M, --file-prefix-map=GAMMALT=NYTT ersätt prefixet GAMMALT med NYTT när\n"
-"                                  filsöksvägar skrivs i utmatningsfiler\n"
+"                                  filsökvägar skrivs i utmatningsfiler\n"
 
 #: src/getargs.c:446
 #, c-format
