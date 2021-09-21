@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.7.41\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2021-07-19 20:25-0700\n"
-"PO-Revision-Date: 2021-08-16 23:27+0800\n"
+"PO-Revision-Date: 2021-09-21 20:05+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -696,10 +696,9 @@ msgid "Len Tower"
 msgstr "Len Tower"
 
 #: src/diff.c:355
-#, fuzzy, c-format
-#| msgid "invalid context length `%s'"
+#, c-format
 msgid "invalid context length '%s'"
-msgstr "panjang konteks `%s' tidak sah"
+msgstr "panjang konteks '%s' tidak sah"
 
 #: src/diff.c:438
 #, c-format
@@ -712,26 +711,23 @@ msgid "too many file label options"
 msgstr "terlalu banyak pilihan label fail"
 
 #: src/diff.c:530
-#, fuzzy, c-format
-#| msgid "invalid width `%s'"
+#, c-format
 msgid "invalid width '%s'"
-msgstr "lebar `%s' tidak sah"
+msgstr "lebar '%s' tidak sah"
 
 #: src/diff.c:534
 msgid "conflicting width options"
 msgstr "pilihan lebar berkonflik"
 
 #: src/diff.c:559
-#, fuzzy, c-format
-#| msgid "invalid horizon length `%s'"
+#, c-format
 msgid "invalid horizon length '%s'"
-msgstr "panjang horizon `%s' tidak sah"
+msgstr "panjang horizon '%s' tidak sah"
 
 #: src/diff.c:615
-#, fuzzy, c-format
-#| msgid "invalid tabsize `%s'"
+#, c-format
 msgid "invalid tabsize '%s'"
-msgstr "saiz tab `%s' tidak sah"
+msgstr "saiz tab '%s' tidak sah"
 
 #: src/diff.c:619
 msgid "conflicting tabsize options"
@@ -742,10 +738,8 @@ msgid "--from-file and --to-file both specified"
 msgstr "--from-file dan --to-file kedua-duanya dinyatakan"
 
 #: src/diff.c:893
-#, fuzzy
-#| msgid "--normal  Output a normal diff."
 msgid "    --normal                  output a normal diff (the default)"
-msgstr "--normal  Keluarkan diff normal."
+msgstr "    --normal                  keluarkan diff normal (default)"
 
 #: src/diff.c:894
 msgid "-q, --brief                   report only when files differ"
