@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 9.0-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2021-09-20 22:04+0100\n"
-"PO-Revision-Date: 2021-09-21 14:33-0400\n"
+"PO-Revision-Date: 2021-10-15 16:02-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -5018,13 +5018,13 @@ msgid ""
 "  -T, --no-target-directory  treat DEST as a normal file\n"
 "  -v, --verbose       print the name of each directory as it is created\n"
 msgstr ""
-"  -p, --preserve-timestamps\t修改源文件的访问/修改时间以与目标文件保持一致\n"
-"  -s, --strip\t\t\t拆解符号表\n"
-"      --strip-program=程序\t指定拆解二进制文件的程序\n"
-"  -S, --suffix=后缀\t\t覆盖常用备份文件后缀\n"
-"  -t, --target-directory=目录\t将源文件所有参数复制到指定目录\n"
-"  -T, --no-target-directory\t将目标文件视为普通文件\n"
-"  -v, --verbose\t\t\t创建目录时显示其名称\n"
+"  -p, --preserve-timestamps\t将源文件的访问/修改时间应用于相应目标文件\n"
+"  -s, --strip\t\t\t剥离符号表\n"
+"      --strip-program=程序\t指定剥离（strip）二进制文件的程序\n"
+"  -S, --suffix=后缀\t\t替换常用的备份文件后缀\n"
+"  -t, --target-directory=目录\t复制源目录列表中的所有文件到指定目录\n"
+"  -T, --no-target-directory\t将目标文件当作普通文件对待（而不是目录）\n"
+"  -v, --verbose\t\t\t每次创建目录都输出目录名\n"
 
 #: src/install.c:640
 msgid ""
@@ -5061,7 +5061,7 @@ msgstr "安装目录时不能用目标目录选项"
 #: src/install.c:967 src/mkdir.c:292 src/stdbuf.c:352
 #, c-format
 msgid "invalid mode %s"
-msgstr "无效模式%s"
+msgstr "无效模式 %s"
 
 #: src/install.c:974
 #, c-format
@@ -5097,12 +5097,6 @@ msgstr ""
 "域是第一列的内容，使用空白字符分隔。\n"
 
 #: src/join.c:205
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "  -a FILENUM        also print unpairable lines from file FILENUM, where\n"
-#| "                      FILENUM is 1 or 2, corresponding to FILE1 or FILE2\n"
-#| "  -e EMPTY          replace missing input fields with EMPTY\n"
 msgid ""
 "\n"
 "  -a FILENUM             also print unpairable lines from file FILENUM, where\n"
@@ -5110,27 +5104,21 @@ msgid ""
 "  -e EMPTY               replace missing input fields with EMPTY\n"
 msgstr ""
 "\n"
-"  -a 文件编号       文件编号的值可以是1或2，分别对应<文件1>和<文件2>。\n"
-"                      此选项用于根据指定文件编号输出不成对的行目。\n"
-"  -e 填充字符       将缺失的输入区块替换为指定字符\n"
+"  -a 文件编号            文件编号的值可以是1或2，分别对应 文件1 和 文件2。\n"
+"                           此选项用于根据指定文件编号输出不成对的行目。\n"
+"  -e 填充字符            将缺失的输入区块替换为指定字符\n"
 
 #: src/join.c:211
-#, fuzzy
-#| msgid ""
-#| "  -i, --ignore-case  ignore differences in case when comparing fields\n"
-#| "  -j FIELD          equivalent to '-1 FIELD -2 FIELD'\n"
-#| "  -o FORMAT         obey FORMAT while constructing output line\n"
-#| "  -t CHAR           use CHAR as input and output field separator\n"
 msgid ""
 "  -i, --ignore-case      ignore differences in case when comparing fields\n"
 "  -j FIELD               equivalent to '-1 FIELD -2 FIELD'\n"
 "  -o FORMAT              obey FORMAT while constructing output line\n"
 "  -t CHAR                use CHAR as input and output field separator\n"
 msgstr ""
-"  -i, --ignore-case  比较各个域时忽略大小写\n"
-"  -j 域              等效于 \"-1 域 -2 域\"\n"
-"  -o 格式            按照指定格式构造输出行\n"
-"  -t 字符            使用指定字符作为输入和输出域的分隔符\n"
+"  -i, --ignore-case      比较各个域时忽略大小写\n"
+"  -j 域                  等效于 \"-1 域 -2 域\"\n"
+"  -o 格式                按照指定格式构造输出行\n"
+"  -t 字符                使用指定字符作为输入和输出域的分隔符\n"
 
 #: src/join.c:217
 #, fuzzy
@@ -6142,17 +6130,10 @@ msgid ""
 "\n"
 "The sums are computed as described in %s.\n"
 msgstr ""
+"\n"
+"校验和会按照 %s 所描述的规范生成。\n"
 
 #: src/digest.c:522
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "The sums are computed as described in %s.  When checking, the input\n"
-#| "should be a former output of this program.  The default mode is to print a\n"
-#| "line with checksum, a space, a character indicating input mode ('*' for binary,\n"
-#| "' ' for text or where binary is insignificant), and name for each FILE.\n"
-#| "\n"
-#| "Note: There is no difference between binary mode and text mode on GNU systems.\n"
 msgid ""
 "When checking, the input should be a former output of this program.\n"
 "The default mode is to print a line with: checksum, a space,\n"
@@ -6161,10 +6142,9 @@ msgid ""
 "\n"
 "Note: There is no difference between binary mode and text mode on GNU systems.\n"
 msgstr ""
-"\n"
-"校验和会按照 %s 所描述的规范生成。在进行检查时，给出的输入格式应该和\n"
-"程序先前输出的格式相同。默认的输出模式时输出一行校验和的校验结果、一个空格\n"
-"以及一个指示输入模式的字符（“*”代表二进制，“ ”代表纯文本或者二进制特性\n"
+"在进行检查时，给出的输入格式应该和本程序先前输出的格式相同。\n"
+"默认的输出模式时输出一行校验和的校验结果、一个空格以及一个指示\n"
+"输入模式的字符（“*”代表二进制，“ ”代表纯文本或者二进制特性\n"
 "不明显的数据），并同时显示每个文件的名称。\n"
 "\n"
 "注意：GNU 系统上二进制模式和文本模式没有区别。\n"
@@ -6174,6 +6154,8 @@ msgid ""
 "When checking, the input should be a former output of this program,\n"
 "or equivalent standalone program.\n"
 msgstr ""
+"在进行检查时，给出的输入格式应该和本程序或等效的独立程序先前\n"
+"输出的格式相同。\n"
 
 #: src/digest.c:1067
 #, c-format
@@ -6303,7 +6285,7 @@ msgstr "用法：%s [选项]... 目录...\n"
 
 #: src/mkdir.c:60
 msgid "Create the DIRECTORY(ies), if they do not already exist.\n"
-msgstr "若指定<目录>不存在则创建目录。\n"
+msgstr "若指定目录不存在，则创建目录。\n"
 
 #: src/mkdir.c:66
 msgid ""
@@ -6345,7 +6327,7 @@ msgstr "用法：%s [选项]... 名称...\n"
 
 #: src/mkfifo.c:55
 msgid "Create named pipes (FIFOs) with the given NAMEs.\n"
-msgstr "以指定的<名称>创建命名管道（FIFO）。\n"
+msgstr "以指定的名称创建命名管道（FIFO）。\n"
 
 #: src/mkfifo.c:61 src/mknod.c:63
 msgid "  -m, --mode=MODE    set file permission bits to MODE, not a=rw - umask\n"
@@ -6645,7 +6627,7 @@ msgstr "Scott Bartram"
 
 #: src/nl.c:183
 msgid "Write each FILE to standard output, with line numbers added.\n"
-msgstr "将指定的各个<文件>添加行号标注后写到标准输出。\n"
+msgstr "将指定的各个文件添加行号标注后写到标准输出。\n"
 
 #: src/nl.c:190
 msgid ""
@@ -6666,7 +6648,7 @@ msgid ""
 "  -p, --no-renumber               do not reset line numbers for each section\n"
 "  -s, --number-separator=STRING   add STRING after (possible) line number\n"
 msgstr ""
-"  -h, --header-numbering=样式     使用指定样式编号文件的页眉行目\n"
+"  -h, --header-numbering=样式     使用指定样式编号文件的页眉行\n"
 "  -i, --line-increment=数值       设置每一行遍历后的自动递增值\n"
 "  -l, --join-blank-lines=数值     设置数值为多少的若干空行被视作一行\n"
 "  -n, --number-format=格式        根据指定格式插入行号\n"
@@ -6682,13 +6664,6 @@ msgstr ""
 "  -w, --number-width=数字        为行号使用指定的列数\n"
 
 #: src/nl.c:209
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Default options are: -bt -d'\\:' -fn -hn -i1 -l1 -n'rn' -s<TAB> -v1 -w6\n"
-#| "\n"
-#| "CC are two delimiter characters used to construct logical page delimiters;\n"
-#| "a missing second character implies ':'.\n"
 msgid ""
 "\n"
 "Default options are: -bt -d'\\:' -fn -hn -i1 -l1 -n'rn' -s<TAB> -v1 -w6\n"
@@ -6702,7 +6677,8 @@ msgstr ""
 "默认的选项设置是：-bt -d'\\:' -fn -hn -i1 -l1 -n'rn' -s<TAB> -v1 -w6\n"
 "\n"
 "CC 是用于构建逻辑分页符的两个分界符号；如第二个符号缺失，则认为默认\n"
-"使用 \":\"。\n"
+"使用 \":\"。GNU 扩展还支持指定超过两个字符，同时如果指定了空字符串\n"
+"（-d ''）则会禁用节匹配。\n"
 
 #: src/nl.c:218
 msgid ""
@@ -6716,7 +6692,7 @@ msgid ""
 "         expression, BRE\n"
 msgstr ""
 "\n"
-"所指定的<样式>是下列之一：\n"
+"所指定的样式是下列之一：\n"
 "\n"
 "  a      对所有行编号\n"
 "  t      对非空行编号\n"
