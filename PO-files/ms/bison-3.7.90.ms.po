@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2021-09-11 20:23+0800\n"
+"PO-Revision-Date: 2021-10-19 13:20+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -389,46 +389,41 @@ msgstr "Contoh hello"
 #: src/counterexample.c:124
 #, fuzzy
 msgid "Second example"
-msgstr "setuid(%lu) kedua gagal"
+msgstr "Contoh hello"
 
 #: src/counterexample.c:126
 #, fuzzy
 msgid "Shift derivation"
-msgstr "pindah, dan pergi ke keadaan %d\n"
+msgstr "Penerbitan pengurangan kedua"
 
 #: src/counterexample.c:126
 #, fuzzy
 msgid "First reduce derivation"
-msgstr "dijangkakan %d pengurangan/pengurangan konflik"
+msgstr "Penerbitan pengurangan kedua"
 
 #: src/counterexample.c:128
 #, fuzzy
 msgid "Reduce derivation"
-msgstr "konflik: %d pengurangan/pengurangan\n"
+msgstr "Penerbitan pengurangan kedua"
 
 #: src/counterexample.c:128
-#, fuzzy
 msgid "Second reduce derivation"
-msgstr "setuid(%lu) kedua gagal"
+msgstr "Penerbitan pengurangan kedua"
 
 #: src/counterexample.c:1293 src/counterexample.c:1297
-#, fuzzy, c-format
-#| msgid "expected %d shift/reduce conflict"
-#| msgid_plural "expected %d shift/reduce conflicts"
+#, c-format
 msgid "shift/reduce conflict on token %s"
-msgstr "jangkaan %d konflik pemindahan/pengurangan"
+msgstr "pindah/kurangkan konflik pada token %s"
 
 #: src/counterexample.c:1298 src/counterexample.c:1340
 msgid ":"
 msgstr ":"
 
 #: src/counterexample.c:1328 src/counterexample.c:1336
-#, fuzzy, c-format
-#| msgid "expected %d reduce/reduce conflict"
-#| msgid_plural "expected %d reduce/reduce conflicts"
+#, c-format
 msgid "reduce/reduce conflict on token %s"
 msgid_plural "reduce/reduce conflict on tokens %s"
-msgstr[0] "dijangkakan %d pengurangan/pengurangan konflik"
+msgstr[0] "kurang/kurangkan konflik pada token %s"
 
 #: src/files.c:144
 #, c-format
@@ -456,10 +451,9 @@ msgid "conflicting outputs to file %s"
 msgstr "keluaran berkonflik kepada fail %s"
 
 #: src/fixits.c:122
-#, fuzzy, c-format
-#| msgid "%s: cannot open"
+#, c-format
 msgid "%s: cannot backup"
-msgstr "tak dapat nyahbackup %s"
+msgstr "%s: tidak dapat membuat backup"
 
 #: src/getargs.c:174
 msgid "colorize the output"
@@ -470,9 +464,8 @@ msgid "don't colorize the output"
 msgstr "jangan warnakan keluaran"
 
 #: src/getargs.c:176
-#, fuzzy
 msgid "colorize if the output device is a tty"
-msgstr "jangan warnakan keluaran"
+msgstr "warnakan jika peranti keluaran adalah tty"
 
 #. TRANSLATORS: Use the same translation for WHEN as in the
 #. --color=WHEN help message.
