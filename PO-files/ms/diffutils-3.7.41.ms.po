@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.7.41\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2021-07-19 20:25-0700\n"
-"PO-Revision-Date: 2021-09-21 20:05+0800\n"
+"PO-Revision-Date: 2021-10-24 23:00+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -631,10 +631,9 @@ msgid "missing operand after '%s'"
 msgstr "operan hilang selepas `%s'"
 
 #: src/cmp.c:281 src/diff.c:799 src/diff3.c:363 src/sdiff.c:569
-#, fuzzy, c-format
-#| msgid "extra operand `%s'"
+#, c-format
 msgid "extra operand '%s'"
-msgstr "operan tambahan `%s'"
+msgstr "operan tambahan '%s'"
 
 #: src/cmp.c:498
 #, c-format
@@ -647,28 +646,24 @@ msgid "%s %s differ: byte %s, line %s is %3o %s %3o %s\n"
 msgstr "%s %s berbeza: byte %s, baris %s adalah %3o %s %3o %s\n"
 
 #: src/cmp.c:571
-#, fuzzy, c-format
-#| msgid "cmp: EOF on %s\n"
+#, c-format
 msgid "cmp: EOF on %s which is empty\n"
-msgstr "cmp: EOF pada %s\n"
+msgstr "cmp: EOF pada %s yang kosong\n"
 
 #: src/cmp.c:585
-#, fuzzy, c-format
-#| msgid "%s %s differ: byte %s, line %s\n"
+#, c-format
 msgid "cmp: EOF on %s after byte %s, line %s\n"
-msgstr "%s %s berbeza: byte %s, baris %s\n"
+msgstr "cmp: EOF pada %s selepas byte %s, baris %s\n"
 
 #: src/cmp.c:586
-#, fuzzy, c-format
-#| msgid "%s %s differ: byte %s, line %s\n"
+#, c-format
 msgid "cmp: EOF on %s after byte %s, in line %s\n"
-msgstr "%s %s berbeza: byte %s, baris %s\n"
+msgstr "cmp: EOF pada %s selepas byte %s, dalam baris %s\n"
 
 #: src/cmp.c:592
-#, fuzzy, c-format
-#| msgid "cmp: EOF on %s\n"
+#, c-format
 msgid "cmp: EOF on %s after byte %s\n"
-msgstr "%s: EOF tidak dijangka selepas membaca %d/%d bins\n"
+msgstr "cmp: EOF pada %s selepas byte %s\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/diff.c:51
