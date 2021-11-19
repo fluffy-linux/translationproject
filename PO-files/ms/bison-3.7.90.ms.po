@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2021-10-19 13:20+0800\n"
+"PO-Revision-Date: 2021-11-19 13:40+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -382,29 +382,24 @@ msgid "Example"
 msgstr "Contoh hello world"
 
 #: src/counterexample.c:122
-#, fuzzy
 msgid "First example"
-msgstr "Contoh hello"
+msgstr "Contoh pertama"
 
 #: src/counterexample.c:124
-#, fuzzy
 msgid "Second example"
-msgstr "Contoh hello"
+msgstr "Contoh kedua"
 
 #: src/counterexample.c:126
-#, fuzzy
 msgid "Shift derivation"
-msgstr "Penerbitan pengurangan kedua"
+msgstr "Pindah terbitan"
 
 #: src/counterexample.c:126
-#, fuzzy
 msgid "First reduce derivation"
-msgstr "Penerbitan pengurangan kedua"
+msgstr "Penerbitan pengurangan pertama"
 
 #: src/counterexample.c:128
-#, fuzzy
 msgid "Reduce derivation"
-msgstr "Penerbitan pengurangan kedua"
+msgstr "Kurangkan terbitan"
 
 #: src/counterexample.c:128
 msgid "Second reduce derivation"
