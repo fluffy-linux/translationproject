@@ -4,7 +4,7 @@
 #
 # Michel Robitaille <robitail@IRO.UMontreal.CA>, 2002, 2005.
 # Nicolas Provost <nprovost@quadriv.com>, 2009, 2010.
-# Jean-Christophe Helary <jean.christophe.helary@gmail.com>, 2011.
+# Jean-Christophe Helary <jean.christophe.helary@traduction-libre.org>, 2011.
 # David Prévot <david@tilapin.org>, 2012-2014.
 # Stéphane Aulery <lkppo@free.fr>, 2016-2021.
 #
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: GNU grep 3.6.27\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2021-08-08 09:59-0700\n"
-"PO-Revision-Date: 2021-08-19 23:44+0200\n"
+"PO-Revision-Date: 2021-11-21 00:54+0100\n"
 "Last-Translator: Stéphane Aulery <lkppo@free.fr>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
