@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gettext-tools 0.21\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2020-07-26 21:56+0200\n"
-"PO-Revision-Date: 2021-08-20 16:51+0200\n"
+"PO-Revision-Date: 2021-11-21 04:46+0100\n"
 "Last-Translator: Stéphane Aulery <lkppo@free.fr>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -683,46 +683,39 @@ msgid "format specifications in '%s' and '%s' for argument {%u} are not the same
 msgstr "Les spécifications de format dans « %s » et « %s » pour l'argument {%u} ne sont pas les mêmes"
 
 #: src/format-java-printf.c:139
-#, fuzzy, c-format
-#| msgid "In the directive number %u, the precision specification is invalid."
+#, c-format
 msgid "In the directive number %u, the reference to the argument of the previous directive is invalid."
-msgstr "Dans la directive numéro %u, l'indication de précision est incorrecte."
+msgstr "Dans la directive numéro %u, la référence à l'argument de la précédente directive est invalide."
 
 #: src/format-java-printf.c:142
-#, fuzzy, c-format
-#| msgid "In the directive number %u, the precision specification is invalid."
+#, c-format
 msgid "In the directive number %u, the precision is missing."
-msgstr "Dans la directive numéro %u, l'indication de précision est incorrecte."
+msgstr "Dans la directive numéro %u, la précision est absente."
 
 #: src/format-java-printf.c:145
-#, fuzzy, c-format
-#| msgid "In the directive number %u, the character '%c' is not a valid conversion specifier."
+#, c-format
 msgid "In the directive number %u, the flag '%c' is invalid for the conversion '%c'."
-msgstr "Dans la directive numéro %u, le caractère « %c » n'est pas un spécificateur de conversion valide."
+msgstr "Dans la directive numéro %u, le drapeau « %c » est invalide pour une conversion « %c »."
 
 #: src/format-java-printf.c:148
-#, fuzzy, c-format
-#| msgid "In the directive number %u, a precision is not allowed before '%c'."
+#, c-format
 msgid "In the directive number %u, a width is invalid for the conversion '%c'."
-msgstr "Dans la directive numéro %u, une précision n'est pas permise avant « %c »."
+msgstr "Dans la directive numéro %u, une longueur est invalide pour la conversion « %c »."
 
 #: src/format-java-printf.c:151
-#, fuzzy, c-format
-#| msgid "In the directive number %u, a precision is not allowed before '%c'."
+#, c-format
 msgid "In the directive number %u, a precision is invalid for the conversion '%c'."
-msgstr "Dans la directive numéro %u, une précision n'est pas permise avant « %c »."
+msgstr "Dans la directive numéro %u, une précision est invalide pour la conversion « %c »."
 
 #: src/format-java-printf.c:155
-#, fuzzy, c-format
-#| msgid "In the directive number %u, the character '%c' is not a valid conversion specifier."
+#, c-format
 msgid "In the directive number %u, for the conversion '%c', the character '%c' is not a valid conversion suffix."
-msgstr "Dans la directive numéro %u, le caractère « %c » n'est pas un spécificateur de conversion valide."
+msgstr "Dans la directive numéro %u, pour la conversion « %c », le caractère « %c » n'est pas un suffixe de conversion valide."
 
 #: src/format-java-printf.c:156
-#, fuzzy, c-format
-#| msgid "The character that terminates the directive number %u is not a valid conversion specifier."
+#, c-format
 msgid "The character that terminates the directive number %u, for the conversion '%c', is not a valid conversion suffix."
-msgstr "Le caractère qui termine la directive numéro %u n'est pas un spécificateur de conversion valide."
+msgstr "Le caractère qui termine la directive numéro %u, pour la conversion « %c », n'est pas un suffixe de conversion valide."
 
 #: src/format-kde.c:158
 #, c-format
@@ -875,36 +868,29 @@ msgid "'%s' is a simple format string, but '%s' is not: it contains an 'L' flag 
 msgstr "« %s » est une simple chaîne de format, mais « %s » n'en est pas une : elle contient un drapeau « L » ou un nombre d'arguments à deux chiffres"
 
 #: src/format-ruby.c:134
-#, fuzzy, c-format
-#| msgid "In the directive number %u, too many parameters are given; expected at most %u parameter."
-#| msgid_plural "In the directive number %u, too many parameters are given; expected at most %u parameters."
+#, c-format
 msgid "In the directive number %u, two names are given for the same argument."
-msgstr "Dans la directive numéro %u, trop de paramètres sont fournis (il en faut %u au maximum)."
+msgstr "Dans la directive numéro %u, deux noms sont donnés pour le même argument."
 
 #: src/format-ruby.c:137
-#, fuzzy, c-format
-#| msgid "In the directive number %u, too many parameters are given; expected at most %u parameter."
-#| msgid_plural "In the directive number %u, too many parameters are given; expected at most %u parameters."
+#, c-format
 msgid "In the directive number %u, two numbers are given for the same argument."
-msgstr "Dans la directive numéro %u, trop de paramètres sont fournis (il en faut %u au maximum)."
+msgstr "Dans la directive numéro %u, deux nombres sont donnés pour le même argument."
 
 #: src/format-ruby.c:140
-#, fuzzy, c-format
-#| msgid "In the directive number %u, the flags combination is invalid."
+#, c-format
 msgid "In the directive number %u, a flag is given after the width."
-msgstr "Dans la directive numéro %u, la combinaison des  est invalide"
+msgstr "Dans la directive numéro %u, un drapeau apparaît après la longeur."
 
 #: src/format-ruby.c:143
-#, fuzzy, c-format
-#| msgid "In the directive number %u, the flags combination is invalid."
+#, c-format
 msgid "In the directive number %u, a flag is given after the precision."
-msgstr "Dans la directive numéro %u, la combinaison des  est invalide"
+msgstr "Dans la directive numéro %u, un drapeau apparaît après la précision."
 
 #: src/format-ruby.c:146
-#, fuzzy, c-format
-#| msgid "In the directive number %u, the width's argument number 0 is not a positive integer."
+#, c-format
 msgid "In the directive number %u, the width is given after the precision."
-msgstr "Dans la directive numéro %u, l'argument de largeur numéro 0 n'est pas un nombre entier positif"
+msgstr "Dans la directive numéro %u, la longueur apparaît après la précision."
 
 #: src/format-ruby.c:149
 #, c-format
@@ -917,10 +903,9 @@ msgid "In the directive number %u, a precision is given twice."
 msgstr "Dans la directive numéro %u, une précision est indiquée deux fois."
 
 #: src/format-ruby.c:868
-#, fuzzy, c-format
-#| msgid "format specifications in '%s' expect a tuple, those in '%s' expect a mapping"
+#, c-format
 msgid "format specifications in '%s' expect a hash table, those in '%s' expect individual arguments"
-msgstr "Les spécifications de format dans « %s » requièrent un n-uplet (tuple), celles de « %s » requièrent une carte de correspondance (mapping)."
+msgstr "Les spécifications de format dans « %s » requièrent une table de hash, celles de « %s » requièrent des arguments individuels."
 
 #: src/format-ruby.c:875
 #, c-format
@@ -3291,22 +3276,19 @@ msgid "file \"%s\" contains a not NUL terminated string, at %s"
 msgstr "Le fichier « %s » contient une chaîne non terminée par un octet nul, à %s"
 
 #: src/read-mo.c:331
-#, fuzzy, c-format
-#| msgid "file \"%s\" is not in GNU .mo format"
+#, c-format
 msgid "file \"%s\" is not in GNU .mo format: The array of messages is not sorted."
-msgstr "Le fichier « %s » n'est pas au format GNU « .mo »"
+msgstr "Le fichier « %s » n'est pas au format GNU « .mo » : le tableau de messages n'est pas trié."
 
 #: src/read-mo.c:346
-#, fuzzy, c-format
-#| msgid "file \"%s\" is not in GNU .mo format"
+#, c-format
 msgid "file \"%s\" is not in GNU .mo format: The hash table size is invalid."
-msgstr "Le fichier « %s » n'est pas au format GNU « .mo »"
+msgstr "Le fichier « %s » n'est pas au format GNU « .mo » : la taille de la table de hash est invalide."
 
 #: src/read-mo.c:362
-#, fuzzy, c-format
-#| msgid "file \"%s\" is not in GNU .mo format"
+#, c-format
 msgid "file \"%s\" is not in GNU .mo format: The hash table contains invalid entries."
-msgstr "Le fichier « %s » n'est pas au format GNU « .mo »"
+msgstr "Le fichier « %s » n'est pas au format GNU « .mo » : la table de hash contient des entrées invalides."
 
 #: src/read-mo.c:369
 #, c-format
@@ -3714,10 +3696,9 @@ msgid "%s:%d: warning: '}' found where ')' was expected"
 msgstr "%s:%d : AVERTISSEMENT : caractère « } » trouvé à la place de « ) »"
 
 #: src/xg-arglist-parser.c:388
-#, fuzzy, c-format
-#| msgid "ambiguous argument %s for %s"
+#, c-format
 msgid "ambiguous argument specification for keyword '%.*s'"
-msgstr "Argument ambigu %s pour %s"
+msgstr "définition d'argument ambiguë pour le mot-clef '%.*s'"
 
 #: src/xg-arglist-parser.c:450
 #, c-format
@@ -3735,10 +3716,9 @@ msgid "context mismatch between singular and plural form"
 msgstr ""
 
 #: src/xg-encoding.c:76
-#, fuzzy, c-format
-#| msgid "invalid character after '%s'"
+#, c-format
 msgid "Non-ASCII character at %s%s."
-msgstr "caractère invalide après « %s »"
+msgstr "caractère non ASCII à la position %s%s."
 
 #: src/xg-encoding.c:80
 #, c-format
@@ -3821,14 +3801,7 @@ msgid "Choice of input file language:\n"
 msgstr "Choix du langage du fichier d'entrée :\n"
 
 #: src/xgettext.c:1089
-#, fuzzy, c-format
-#| msgid ""
-#| "  -L, --language=NAME         recognise the specified language\n"
-#| "                                (C, C++, ObjectiveC, PO, Shell, Python, Lisp,\n"
-#| "                                EmacsLisp, librep, Scheme, Smalltalk, Java,\n"
-#| "                                JavaProperties, C#, awk, YCP, Tcl, Perl, PHP,\n"
-#| "                                GCC-source, NXStringTable, RST, RSJ, Glade,\n"
-#| "                                Lua, JavaScript, Vala, Desktop)\n"
+#, c-format
 msgid ""
 "  -L, --language=NAME         recognise the specified language\n"
 "                                (C, C++, ObjectiveC, PO, Shell, Python, Lisp,\n"
@@ -3841,8 +3814,8 @@ msgstr ""
 "                                (C, C++, ObjectiveC, PO, Shell, Python, Lisp,\n"
 "                                EmacsLisp, librep, Scheme, Smalltalk, Java,\n"
 "                                JavaProperties, C#, awk, YCP, Tcl, Perl, PHP,\n"
-"                                GCC-source, NXStringTable, RST, Glade, Lua,\n"
-"                                JavaScript, Vala, Desktop)\n"
+"                                Ruby, GCC-source, NXStringTable, RST, RSJ,\n"
+"                                Glade, Lua, JavaScript, Vala, Desktop)\n"
 
 #: src/xgettext.c:1096
 #, c-format
@@ -4096,10 +4069,9 @@ msgid "language '%s' unknown"
 msgstr "langage « %s » inconnu"
 
 #: src/xg-message.c:91 src/xg-message.c:227 src/xg-message.c:296
-#, fuzzy, c-format
-#| msgid "warning: "
+#, c-format
 msgid "%s%s: warning: "
-msgstr "AVERTISSEMENT : "
+msgstr "%s%s : AVERTISSEMENT : "
 
 #: src/xg-message.c:94
 #, c-format
@@ -4107,10 +4079,9 @@ msgid "Although being used in a format string position, the %s is not a valid %s
 msgstr ""
 
 #: src/xg-message.c:95
-#, fuzzy, c-format
-#| msgid "'%s' is not a valid %s format string, unlike '%s'. Reason: %s"
+#, c-format
 msgid "Although declared as such, the %s is not a valid %s format string. Reason: %s\n"
-msgstr "« %s » n'est pas une chaîne de format %s valide, contrairement à « %s ». Raison : %s"
+msgstr "Bien que déclaré comme tel, %s n'est pas une chaîne de format %s valide. Raison : %s\n"
 
 #: src/xg-message.c:229
 #, c-format
@@ -4483,6 +4454,3 @@ msgstr "dans un commentaire ou une instruction de traitement"
 #, c-format
 msgid "document ended unexpectedly: %s"
 msgstr "le document se termine de manière inattendue par : %s"
-
-#~ msgid "setting permissions for %s"
-#~ msgstr "configuration des permissions pour %s "
