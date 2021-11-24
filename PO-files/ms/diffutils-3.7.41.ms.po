@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.7.41\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2021-07-19 20:25-0700\n"
-"PO-Revision-Date: 2021-10-24 23:00+0800\n"
+"PO-Revision-Date: 2021-11-25 01:25+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -477,7 +477,7 @@ msgstr "%s laman utama: <%s>.\n"
 #: lib/version-etc.c:260
 #, fuzzy, c-format
 msgid "General help using GNU software: <%s>\n"
-msgstr "Bantuan umum menggunakan perisian GNU: <http://www.gnu.org/gethelp/>.\n"
+msgstr "Bantuan umum menggunakan perisian GNU: <https://www.gnu.org/gethelp/>.\n"
 
 #: src/analyze.c:454 src/diff.c:1406
 #, c-format
@@ -572,10 +572,8 @@ msgid "    --help                 display this help and exit"
 msgstr "      --help             paparkan bantuan ini kemudian keluar\n"
 
 #: src/cmp.c:170
-#, fuzzy
-#| msgid "-v  --version  Output version info."
 msgid "-v, --version              output version information and exit"
-msgstr "-v, --version                papar maklumat versi dan keluar"
+msgstr "-v, --version              papar maklumat versi dan keluar"
 
 #: src/cmp.c:179
 #, c-format
@@ -587,12 +585,12 @@ msgid "Compare two files byte by byte."
 msgstr "Banding dua fail setiap byte."
 
 #: src/cmp.c:183
-#, fuzzy
-#| msgid "SKIP1 and SKIP2 are the number of bytes to skip in each file."
 msgid ""
 "The optional SKIP1 and SKIP2 specify the number of bytes to skip\n"
 "at the beginning of each file (zero by default)."
-msgstr "LANGKAU1 dan LANGKAU2 adalah jumlah byte untuk dilangkau dalam setiap fail."
+msgstr ""
+"Pilihan LANGKAU1 dan LANGKAU2 menyatakan bilangan byte untuk dilangkau\n"
+"pada permulaan setiap fail (sifar secara default)"
 
 #: src/cmp.c:186 src/diff.c:999 src/diff3.c:514 src/sdiff.c:211
 msgid "Mandatory arguments to long options are mandatory for short options too.\n"
@@ -609,26 +607,22 @@ msgstr ""
 "GB 1,000,000,000, G 1,073,741,824, dan seterusnya untuk T, P, E, Z, Y."
 
 #: src/cmp.c:195
-#, fuzzy
-#| msgid "If a FILE is `-' or missing, read standard input."
 msgid "If a FILE is '-' or missing, read standard input."
-msgstr "Jika FAIL adalah `-' atau tiada, baca masukan piawai."
+msgstr "Jika FAIL adalah '-' atau tiada, baca masukan piawai."
 
 #: src/cmp.c:196 src/diff.c:987 src/sdiff.c:221
 msgid "Exit status is 0 if inputs are the same, 1 if different, 2 if trouble."
 msgstr "Status keluar adalah 0 jika masukan adalah sama, 1 jika berbeza, 2 jika bermasalah."
 
 #: src/cmp.c:243
-#, fuzzy, c-format
-#| msgid "invalid --bytes value `%s'"
+#, c-format
 msgid "invalid --bytes value '%s'"
-msgstr "nilai --bytes `%s' tidak sah"
+msgstr "nilai --bytes '%s' tidak sah"
 
 #: src/cmp.c:269 src/diff.c:797 src/diff3.c:361 src/sdiff.c:567
-#, fuzzy, c-format
-#| msgid "missing operand after `%s'"
+#, c-format
 msgid "missing operand after '%s'"
-msgstr "operan hilang selepas `%s'"
+msgstr "operan hilang selepas '%s'"
 
 #: src/cmp.c:281 src/diff.c:799 src/diff3.c:363 src/sdiff.c:569
 #, c-format
