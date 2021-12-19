@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2021-11-19 13:40+0800\n"
+"PO-Revision-Date: 2021-12-20 00:54+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.0\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: examples/c/bistromathic/parse.y:152 examples/java/calc/Calc.y:83
 msgid "number"
@@ -330,16 +330,14 @@ msgid "conflicts: %d reduce/reduce\n"
 msgstr "konflik: %d pengurangan/pengurangan\n"
 
 #: src/conflicts.c:661
-#, fuzzy, c-format
-#| msgid "shift/reduce conflicts: %d found, %d expected"
+#, c-format
 msgid "shift/reduce conflicts for rule %d: %d found, %d expected"
-msgstr "konflik: %d pemindahan/pengurangan, %d pengurangan/pengurangan"
+msgstr "pemindahan/pengurangan konflik untuk hukum %d: %d dijumpai, %d dijangka"
 
 #: src/conflicts.c:667
-#, fuzzy, c-format
-#| msgid "reduce/reduce conflicts: %d found, %d expected"
+#, c-format
 msgid "reduce/reduce conflicts for rule %d: %d found, %d expected"
-msgstr "konflik: %d pemindahan/pengurangan, %d pengurangan/pengurangan"
+msgstr "pengurangan/pengurangan konflik untuk hukum %d: %d dijumpai, %d dijangka"
 
 #: src/conflicts.c:685
 #, c-format
@@ -352,12 +350,10 @@ msgid "shift/reduce conflicts: %d found, %d expected"
 msgstr "konflik: %d pemindahan/pengurangan, %d pengurangan/pengurangan"
 
 #: src/conflicts.c:714
-#, fuzzy, c-format
-#| msgid "expected %d shift/reduce conflict"
-#| msgid_plural "expected %d shift/reduce conflicts"
+#, c-format
 msgid "%d shift/reduce conflict"
 msgid_plural "%d shift/reduce conflicts"
-msgstr[0] "jangkaan %d konflik pemindahan/pengurangan"
+msgstr[0] "%d pemindahan/pengurangan konflik"
 
 #: src/conflicts.c:734
 #, c-format
@@ -365,21 +361,18 @@ msgid "reduce/reduce conflicts: %d found, %d expected"
 msgstr "konflik pengurangan/pengurangan: %d dijumpai, %d diharapkan"
 
 #: src/conflicts.c:743
-#, fuzzy, c-format
-#| msgid "expected %d reduce/reduce conflict"
-#| msgid_plural "expected %d reduce/reduce conflicts"
+#, c-format
 msgid "%d reduce/reduce conflict"
 msgid_plural "%d reduce/reduce conflicts"
-msgstr[0] "dijangkakan %d pengurangan/pengurangan konflik"
+msgstr[0] "%d pengurangan/pengurangan konflik"
 
 #: src/conflicts.c:755
 msgid "rerun with option '-Wcounterexamples' to generate conflict counterexamples"
 msgstr ""
 
 #: src/counterexample.c:122 src/counterexample.c:124
-#, fuzzy
 msgid "Example"
-msgstr "Contoh hello world"
+msgstr "Contoh"
 
 #: src/counterexample.c:122
 msgid "First example"
