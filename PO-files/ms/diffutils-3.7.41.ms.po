@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.7.41\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2021-07-19 20:25-0700\n"
-"PO-Revision-Date: 2021-11-25 01:25+0800\n"
+"PO-Revision-Date: 2021-12-25 01:59+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: lib/argmatch.c:132
 #, c-format
@@ -477,7 +477,7 @@ msgstr "%s laman utama: <%s>.\n"
 #: lib/version-etc.c:260
 #, fuzzy, c-format
 msgid "General help using GNU software: <%s>\n"
-msgstr "Bantuan umum menggunakan perisian GNU: <https://www.gnu.org/gethelp/>.\n"
+msgstr "Bantuan umum menggunakan perisian GNU: <http://www.gnu.org/gethelp/>.\n"
 
 #: src/analyze.c:454 src/diff.c:1406
 #, c-format
@@ -537,39 +537,32 @@ msgid "-b, --print-bytes          print differing bytes"
 msgstr "-b  --print-bytes  Cetak byte berbeza."
 
 #: src/cmp.c:163
-#, fuzzy
-#| msgid "-i SKIP  --ignore-initial=SKIP  Skip the first SKIP bytes of input."
 msgid "-i, --ignore-initial=SKIP         skip first SKIP bytes of both inputs"
-msgstr "-i LANGKAU  --ignore-initial=LANGKAU  Langkau LANGKAU byte pertama masukan."
+msgstr "-i, --ignore-initial=LANGKAU       langkau LANGKAU byte pertama bagi kedua-dua masukan"
 
 #: src/cmp.c:164
-#, fuzzy
-#| msgid "  Skip the first SKIP1 bytes of FILE1 and the first SKIP2 bytes of FILE2."
 msgid ""
 "-i, --ignore-initial=SKIP1:SKIP2  skip first SKIP1 bytes of FILE1 and\n"
 "                                      first SKIP2 bytes of FILE2"
-msgstr "  Langkau LANGKAU1 byte pertama untuk FAIL1 dan LANGKAU2 byte pertama untuk FAIL2."
+msgstr ""
+"-i, --ignore-initial=LANGKAU1:LANGKAU2  langkau LANGKAU1 byte pertama untuk FAIL1 dan\n"
+"                                       LANGKAU2 byte pertama untuk FAIL2"
 
 #: src/cmp.c:166
-#, fuzzy
-#| msgid "-l  --verbose  Output byte numbers and values of all differing bytes."
 msgid "-l, --verbose              output byte numbers and differing byte values"
-msgstr "-l  --verbose  Keluarkan nombor byte dan nilai semua byte berbeza."
+msgstr "-l, --verbose              keluarkan nombor byte dan nilai byte berbeza"
 
 #: src/cmp.c:167
-#, fuzzy
-#| msgid "-n LIMIT  --bytes=LIMIT  Compare at most LIMIT bytes."
 msgid "-n, --bytes=LIMIT          compare at most LIMIT bytes"
-msgstr "-n HAD  --bytes=HAD  Banding paling banyak HAD byte."
+msgstr "-n, --bytes=HAD            banding paling banyak HAD byte"
 
 #: src/cmp.c:168
 msgid "-s, --quiet, --silent      suppress all normal output"
 msgstr "-s, --quiet, --silent      sekat semua keluaran normal"
 
 #: src/cmp.c:169
-#, fuzzy
 msgid "    --help                 display this help and exit"
-msgstr "      --help             paparkan bantuan ini kemudian keluar\n"
+msgstr "    --help                 paparkan bantuan ini dan keluar"
 
 #: src/cmp.c:170
 msgid "-v, --version              output version information and exit"
