@@ -1,14 +1,14 @@
 # bison Bahasa Melayu (Malay) (ms).
-# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017, 2018, 2019, 2020, 2021 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022 Free Software Foundation, Inc.
 # This file is distributed under the same license as the bison package.
-# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017, 2018, 2019, 2020, 2021.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2021-12-20 00:54+0800\n"
+"PO-Revision-Date: 2022-01-12 01:40+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -251,10 +251,9 @@ msgid "duplicate directive"
 msgstr "Salinan @E dijumpai.  "
 
 #: src/complain.c:618
-#, fuzzy, c-format
-#| msgid "invalid directive: %s"
+#, c-format
 msgid "duplicate directive: %s"
-msgstr "arahan tidak sah: %s"
+msgstr "arahan berulang: %s"
 
 #: src/complain.c:619 src/complain.c:628 src/reader.c:156 src/symtab.c:330
 #: src/symtab.c:339 src/symtab.c:569
@@ -271,9 +270,8 @@ msgid "syntax error"
 msgstr "ralat sintaks"
 
 #: src/complain.c:648
-#, fuzzy
 msgid "unexpected %0$s"
-msgstr "%s: %s: akhir fail tidak dijangka\n"
+msgstr "%0$s tidak dijangka"
 
 #: src/complain.c:649
 msgid "expected %1$s before %0$s"
@@ -292,22 +290,19 @@ msgid "expected %1$s or %2$s or %3$s or %4$s before %0$s"
 msgstr ""
 
 #: src/conflicts.c:88
-#, fuzzy, c-format
-#| msgid "    Conflict between rule %d and token %s resolved as shift"
+#, c-format
 msgid "Conflict between rule %d and token %s resolved as shift"
-msgstr "    Konflik antara hukum %d dan token %s diselesaikan sebagai pindahan"
+msgstr "Konflik antara hukum %d dan token %s diselesaikan sebagai pindahan"
 
 #: src/conflicts.c:98
-#, fuzzy, c-format
-#| msgid "    Conflict between rule %d and token %s resolved as reduce"
+#, c-format
 msgid "Conflict between rule %d and token %s resolved as reduce"
-msgstr "    Konflik antara hukum %d dan token %s diselesaikan sebagai pengurangan"
+msgstr "Konflik antara hukum %d dan token %s diselesaikan sebagai pengurangan"
 
 #: src/conflicts.c:107
-#, fuzzy, c-format
-#| msgid "    Conflict between rule %d and token %s resolved as an error"
+#, c-format
 msgid "Conflict between rule %d and token %s resolved as an error"
-msgstr "    Konflik antara hukum %d dan token %s diselesaikan sebagai ralat"
+msgstr "Konflik antara hukum %d dan token %s diselesaikan sebagai ralat"
 
 #: src/conflicts.c:610
 #, c-format
