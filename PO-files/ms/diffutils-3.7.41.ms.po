@@ -1,14 +1,14 @@
 # diffutils Bahasa Melayu (Malay) (ms).
-# Copyright (C) 2003, 2015, 2018, 2019, 2020, 2021 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2015, 2018, 2019, 2020, 2021, 2022 Free Software Foundation, Inc.
 # This file is distributed under the same license as the diffutils package.
-# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2003, 2015, 2018, 2019, 2020, 2021.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2003, 2015, 2018, 2019, 2020, 2021, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: diffutils 3.7.41\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2021-07-19 20:25-0700\n"
-"PO-Revision-Date: 2021-12-25 01:59+0800\n"
+"PO-Revision-Date: 2022-01-24 02:08+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -457,12 +457,9 @@ msgstr ""
 #. "Report translation bugs to <...>\n" with the address for translation
 #. bugs (typically your translation team's web or email address).
 #: lib/version-etc.c:249
-#, fuzzy, c-format
-#| msgid ""
-#| "\n"
-#| "Report bugs to: %s\n"
+#, c-format
 msgid "Report bugs to: %s\n"
-msgstr "Lapor pepijat ke %s.\n"
+msgstr "Lapor pepijat ke: %s\n"
 
 #: lib/version-etc.c:251
 #, c-format
@@ -470,14 +467,14 @@ msgid "Report %s bugs to: %s\n"
 msgstr "Lapor %s pepijat ke: %s\n"
 
 #: lib/version-etc.c:255 lib/version-etc.c:257
-#, fuzzy, c-format
+#, c-format
 msgid "%s home page: <%s>\n"
-msgstr "%s laman utama: <%s>.\n"
+msgstr "%s laman utama: <%s>\n"
 
 #: lib/version-etc.c:260
-#, fuzzy, c-format
+#, c-format
 msgid "General help using GNU software: <%s>\n"
-msgstr "Bantuan umum menggunakan perisian GNU: <http://www.gnu.org/gethelp/>.\n"
+msgstr "Bantuan umum menggunakan perisian GNU: <%s>\n"
 
 #: src/analyze.c:454 src/diff.c:1406
 #, c-format
@@ -509,10 +506,9 @@ msgid "Try '%s --help' for more information."
 msgstr "Cuba '%s --help' untuk maklumat lanjut."
 
 #: src/cmp.c:138
-#, fuzzy, c-format
-#| msgid "invalid --ignore-initial value `%s'"
+#, c-format
 msgid "invalid --ignore-initial value '%s'"
-msgstr "nilai `%s' --ignore-initial tidak sah"
+msgstr "nilai '%s' --ignore-initial tidak sah"
 
 #: src/cmp.c:148
 #, c-format
@@ -531,10 +527,8 @@ msgid "standard output"
 msgstr "keluaran piawai"
 
 #: src/cmp.c:162
-#, fuzzy
-#| msgid "-b  --print-bytes  Print differing bytes."
 msgid "-b, --print-bytes          print differing bytes"
-msgstr "-b  --print-bytes  Cetak byte berbeza."
+msgstr "-b, --print-bytes          cetak byte berbeza"
 
 #: src/cmp.c:163
 msgid "-i, --ignore-initial=SKIP         skip first SKIP bytes of both inputs"
