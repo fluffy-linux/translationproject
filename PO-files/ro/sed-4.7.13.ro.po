@@ -1,23 +1,30 @@
 # Mesajele în limba română pentru sed.
 # Copyright (C) 2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the sed package.
+#
 # Laurentiu Buzdugan <lbuz@rolix.org>, 2003,2004,2005.
 # Florentina Mușat <florentina.musat.28@gmail.com>, 2020.
+# Traducere făcută de FM, pentru versiunea sed 4.7.13.
+# Actualizare a mesajelor, de la fișierul „sed-4.7.13.pot”.
+# Actualizare a algoritmului formelor de plural (de la „două” la „trei”).
+# NU și a mesajelor traduse (acestea au rămas neschimbate).
+# Eliminare a mesajelor ce-au dispărut în ultima versiune.
+# Actualizări realizate de Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 15.01.2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: sed 4.7.13\n"
 "Report-Msgid-Bugs-To: bug-gnu-utils@gnu.org\n"
 "POT-Creation-Date: 2020-01-05 13:50-0800\n"
-"PO-Revision-Date: 2020-07-03 15:24+0300\n"
-"Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
+"PO-Revision-Date: 2022-01-24 21:01+0100\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && n%100<=19) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "X-Generator: Poedit 2.3.1\n"
 
 #: lib/closeout.c:122
@@ -29,6 +36,12 @@ msgstr "eroare de scriere"
 msgid "preserving permissions for %s"
 msgstr "se păstrează permisiunile pentru %s"
 
+# R-GC, scrie:
+# cred că ar trebui schimbată, traducerea făcută,
+# e corectă, dar nu reprezintă cu adevărat ceea ce
+# autorul vrea să spună (fără/îi lipsește, perechea)
+# Și bineînțeles următoarele mesaje cu acest
+# înțeles
 #: lib/dfa.c:923
 msgid "unbalanced ["
 msgstr "[ nebalansată"
@@ -131,11 +144,11 @@ msgstr "memorie epuizată"
 #. and use glyphs suitable for your language.
 #: lib/quotearg.c:362
 msgid "`"
-msgstr "`"
+msgstr "„"
 
 #: lib/quotearg.c:363
 msgid "'"
-msgstr "'"
+msgstr "”"
 
 #: lib/regcomp.c:135
 msgid "Success"
@@ -850,44 +863,3 @@ msgstr "nu se poate da stat la %s: %s"
 #, c-format
 msgid "cannot rename %s: %s"
 msgstr "nu pot redenumi %s: %s"
-
-#~ msgid "cannot specify modifiers on empty regexp"
-#~ msgstr "nu se pot specifica modificatori pentru regexp vidă"
-
-#~ msgid ""
-#~ "  -R, --regexp-perl\n"
-#~ "                 use Perl 5's regular expressions syntax in the script.\n"
-#~ msgstr ""
-#~ "  -R, --regexp-perl\n"
-#~ "                foloseşte sintaxa expresiilor regulare din Perl 5 în script.\n"
-
-#~ msgid ""
-#~ "E-mail bug reports to: %s .\n"
-#~ "Be sure to include the word ``%s'' somewhere in the ``Subject:'' field.\n"
-#~ msgstr ""
-#~ "Raportaţi bug-uri prin e-mail la: %s .\n"
-#~ "Fiţi siguri că includeţi ``%s'' undeva în câmpul ``Subject:''.\n"
-
-#~ msgid "super-sed version %s\n"
-#~ msgstr "versiunea super-sed %s\n"
-
-#~ msgid ""
-#~ "based on GNU sed version %s\n"
-#~ "\n"
-#~ msgstr ""
-#~ "bazat pe GNU sed versiunea %s\n"
-#~ "\n"
-
-#~ msgid "GNU sed version %s\n"
-#~ msgstr "GNU sed versiunea %s\n"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "This is free software; see the source for copying conditions.  There is NO\n"
-#~ "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE,\n"
-#~ "to the extent permitted by law.\n"
-#~ msgstr ""
-#~ "%s\n"
-#~ "Acesta este software liber; vedeţi codul sursă pentru condiţiile de copiere.\n"
-#~ "Nu există NICI o garanţie; nici măcar pentru VANDABILITATE sau POTRIVIRE \n"
-#~ "PENTRU UN ANUME SCOP, conform legilor în vigoare.\n"
