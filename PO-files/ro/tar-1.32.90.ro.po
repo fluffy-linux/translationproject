@@ -1,8 +1,15 @@
 # Mesajele în limba română pentru GNU tar
 # Copyright (C) 2005 Free Software Foundation, Inc.
 # This file is distributed under the same license as the tar package.
+#
 # Laurentiu Buzdugan <lbuz@rolix.org>>, 2005.
 # Florentina Mușat <florentina.musat.28@gmail.com>, 2020.
+# Traducere făcută de FM, pentru versiunea tar 1.32.90.
+# Actualizare a mesajelor, de la fișierul „tar-1.32.90.pot”.
+# Actualizare a algoritmului formelor de plural (de la „trei-vechi” la „trei-actual”).
+# NU și a mesajelor traduse (acestea au rămas neschimbate).
+# Eliminare a mesajelor ce-au dispărut în ultima versiune.
+# Actualizări realizate de Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 15.01.2022.
 #
 #: src/create.c:1590
 msgid ""
@@ -10,15 +17,15 @@ msgstr ""
 "Project-Id-Version: tar 1.32.90\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2019-11-27 18:52+0200\n"
-"PO-Revision-Date: 2020-06-20 13:15+0300\n"
-"Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
+"PO-Revision-Date: 2022-01-24 21:15+0100\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && n%100<=19) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "X-Generator: Poedit 2.3.1\n"
 
 #: gnu/argmatch.c:134
@@ -2828,186 +2835,3 @@ msgstr "Comanda s-a terminat\n"
 #, c-format
 msgid "--stat requires file names"
 msgstr "--stat necesită nume de fișiere"
-
-#~ msgid "%s: option `--%s' doesn't allow an argument\n"
-#~ msgstr "%s: opţiunea `--%s' nu permite un argument\n"
-
-#~ msgid "%s: unrecognized option `--%s'\n"
-#~ msgstr "%s: opţiunea `--%s' nu este recunoscută\n"
-
-#~ msgid "%s: illegal option -- %c\n"
-#~ msgstr "%s: opţiune ilegală -- %c\n"
-
-#~ msgid "%s: option `-W %s' is ambiguous\n"
-#~ msgstr "%s: opţiunea `-W %s' este ambiguă\n"
-
-#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
-#~ msgstr "%s: opţiunea `-W %s' nu permite un argument\n"
-
-#~ msgid "block size"
-#~ msgstr "dimensiune bloc"
-
-#~ msgid "rmtd: Cannot allocate buffer space\n"
-#~ msgstr "rmtd: Nu pot aloca spaţiu memorie intermediară\n"
-
-#~ msgid "Cannot allocate buffer space"
-#~ msgstr "Nu pot aloca spaţiu memorie intermediară"
-
-#~ msgid "Try `%s --help' for more information.\n"
-#~ msgstr "Încercaţi `%s --help' pentru informaţii suplimentare.\n"
-
-#~ msgid ""
-#~ "\n"
-#~ "Report bugs to <%s>.\n"
-#~ msgstr ""
-#~ "\n"
-#~ "Raportaţi bug-uri la <%s>.\n"
-
-#~ msgid ""
-#~ "This program comes with NO WARRANTY, to the extent permitted by law.\n"
-#~ "You may redistribute it under the terms of the GNU General Public License;\n"
-#~ "see the file named COPYING for details."
-#~ msgstr ""
-#~ "Acest program vine fără NICI O GARANŢIE, în conformitate cu sistemul legal.\n"
-#~ "Îl puteţi redistribui conform termenilor din GNU General Public License;\n"
-#~ "vedeţi fişierul numit COPYING pentru detalii."
-
-#~ msgid "Premature end of file"
-#~ msgstr "Sfârşit de fişier prematur"
-
-#~ msgid "rmtd: Garbage command %c\n"
-#~ msgstr "rmtd: Comandă gunoi %c\n"
-
-#~ msgid "Reading %s\n"
-#~ msgstr "Citesc %s\n"
-
-#~ msgid "WARNING: No volume header"
-#~ msgstr "AVERTISMENT: Nici un antet de volum"
-
-#~ msgid "Visible long name error"
-#~ msgstr "Eroare nume lung evidentă"
-
-#~ msgid "Error is not recoverable: exiting now"
-#~ msgstr "Nu-mi pot reveni din eroare: termin acum"
-
-#~ msgid "Device number out of range"
-#~ msgstr "Număr dispozitiv în afara intervalului"
-
-#~ msgid "Visible longname error"
-#~ msgstr "Eroare nume lung evidentă"
-
-#~ msgid "Renamed %s to %s"
-#~ msgstr "Redenumit %s ca %s"
-
-#~ msgid "Symlinked %s to %s"
-#~ msgstr "Creat symlink %s către %s"
-
-#~ msgid "Unknown demangling command %s"
-#~ msgstr "Comanda de-amestecare necunoscută %s"
-
-#~ msgid "Missing file name after -C"
-#~ msgstr "Nume fişier absent după -C"
-
-#~ msgid "don't change access times on dumped files"
-#~ msgstr "nu schimba timpurile de acces pentru fişierele prelucrate"
-
-#~ msgid "extract permissions information"
-#~ msgstr "extrage informaţii permisiuni"
-
-#~ msgid "do not extract permissions information"
-#~ msgstr "nu extrage informaţii permisiuni"
-
-#~ msgid "sort names to extract to match archive"
-#~ msgstr "sortează numele de extras să se potrivească cu arhiva"
-
-#~ msgid "same as both -p and -s"
-#~ msgstr "la fel ca -p şi -s"
-
-#~ msgid "filter the archive through bzip2"
-#~ msgstr "filtrază arhiva prin bzip2"
-
-#~ msgid "filter the archive through compress"
-#~ msgstr "filtrează arhiva prin compress"
-
-#~ msgid "FILE-OF-NAMES"
-#~ msgstr "FIŞIER-DE-NUME"
-
-#~ msgid "dump instead the files symlinks point to"
-#~ msgstr "foloseşte în schimb fişierele către care point-ează symlink-urile"
-
-#~ msgid "same as -N"
-#~ msgstr "ca şi -N"
-
-#~ msgid "exclude patterns use wildcards (default)"
-#~ msgstr "pattern-urile de excludere folosesc wildcard-uri (implicit)"
-
-#~ msgid "print total bytes written while creating archive"
-#~ msgstr "afişează numărul total de octeţi scrişi la crearea arhivei"
-
-#~ msgid "Print license and exit"
-#~ msgstr "Afişează licenţa şi termină"
-
-#~ msgid ""
-#~ "Based on the work of John Gilmore and Jay Fenlason. See AUTHORS\n"
-#~ "for complete list of authors.\n"
-#~ msgstr ""
-#~ "Bazat pe munca lui John Gilmore şi Jay Fenlason. Vedeţi AUTHORS\n"
-#~ "pentru o listă completă a autorilor.\n"
-
-#~ msgid ""
-#~ "   GNU tar is free software; you can redistribute it and/or modify\n"
-#~ "   it under the terms of the GNU General Public License as published by\n"
-#~ "   the Free Software Foundation; either version 2 of the License, or\n"
-#~ "   (at your option) any later version.\n"
-#~ "\n"
-#~ "   GNU tar is distributed in the hope that it will be useful,\n"
-#~ "   but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
-#~ "   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
-#~ "   GNU General Public License for more details.\n"
-#~ "\n"
-#~ "   You should have received a copy of the GNU General Public License\n"
-#~ "   along with GNU tar; if not, write to the Free Software\n"
-#~ "   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA\n"
-#~ "\n"
-#~ msgstr ""
-#~ "   GNU tar este software liber (free software); îl puteţi redistribui\n"
-#~ "   şi/sau modifica conform termenilor licenţei GNU General Public License\n"
-#~ "   publicată de Free Software Foundation; fie versiunea 2 a Licenţei,\n"
-#~ "   fie (la latitudinea dvs.) orice versiune ulterioară.\n"
-#~ "\n"
-#~ "   GNU tar este distribuit în speranţa că va fi folositor,\n"
-#~ "   dar FĂRĂ NICI O GARANŢIE; fără chiar garanţia implicită de\n"
-#~ "   VANDABILITATE sau POTRIVIRE PENTRU UN SCOP ANUME.  Vedeţi\n"
-#~ "   licenţa GNU General Public License pentru detalii suplimentare.\n"
-#~ "\n"
-#~ "   Ar fi trebuit să fi primit o copie a licenţei GNU General Public License\n"
-#~ "   împreună cu GNU tar; dacă nu, scrieţi la Free Software Foundation, Inc.,\n"
-#~ "   59 Temple Place, Suite 330, Boston, MA 02111-1307  USA\n"
-#~ "\n"
-
-#~ msgid "Warning: the -I option is not supported; perhaps you meant -j or -T?"
-#~ msgstr "Avertisment: opţiunea -I nu este suportată; aţi dorit cumva -j sau -T?"
-
-#~ msgid "Semantics of -l option will change in the future releases."
-#~ msgstr "Semantica opţiunii -l se va schimba în versiunile viitoare."
-
-#~ msgid "Please use --one-file-system option instead."
-#~ msgstr "Vă rugăm folosiţi opţiunea --one-file-system în schimb."
-
-#~ msgid "Warning: the -y option is not supported; perhaps you meant -j?"
-#~ msgstr "Avertisment: opţiunea -y nu este suportată, aţi dorit cumva -j?"
-
-#~ msgid "--occurrence cannot be used in the requested operation mode"
-#~ msgstr "--occurrence nu poate fi folosit în modul de operare cerut"
-
-#~ msgid "Cannot combine --listed-incremental with --newer"
-#~ msgstr "Nu puteţi combina --listed-incremental cu --newer"
-
-#~ msgid "Error in writing to standard output"
-#~ msgstr "Eroare de scriere la ieşirea standard"
-
-#~ msgid "Error exit delayed from previous errors"
-#~ msgstr "Terminare cu eroare întârziată de erori precedente"
-
-#~ msgid "Quitting now."
-#~ msgstr "Termin acum."
