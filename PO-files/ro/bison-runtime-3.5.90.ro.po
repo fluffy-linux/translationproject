@@ -1,0 +1,79 @@
+# Mesajele în limba română pentru GNU Bison.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the bison package.
+# Acest fișier este distribuit sub aceeași licență ca pachetul bison.
+#
+# Laurentiu Buzdugan <lbuz@rolix.org>, 2003,2004,2005.
+# Traducere făcută de LB, pentru versiunea bison-runtime 2.1.
+# Actualizare a mesajelor, de la fișierul „bison-runtime-3.5.90.pot”.
+# Actualizare a codării caracteror, la codarea de caractere UTF-8.
+# Actualizare a diacriticelor de la „cu sedilă” la „cu virgulă”.
+# Actualizări realizate de Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 15.01.2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bison-runtime 3.5.90\n"
+"Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
+"POT-Creation-Date: 2020-04-18 10:42+0200\n"
+"PO-Revision-Date: 2022-02-04 16:14+0100\n"
+"Last-Translator: Adela Vais <adela.vais99@gmail.com>\n"
+"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || ((n%100) > 0 && (n %100) < 20)) ? 1 : 2);\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: data/skeletons/glr.c:893 data/skeletons/yacc.c:739
+msgid "syntax error: cannot back up"
+msgstr "eroare de sintaxă: nu pot da înapoi"
+
+#: data/skeletons/glr.c:1802
+msgid "syntax is ambiguous"
+msgstr "sintaxa este ambiguă"
+
+#: data/skeletons/glr.c:2213 data/skeletons/glr.c:2239
+#: data/skeletons/glr.c:2292 data/skeletons/glr.c:2530
+#: data/skeletons/lalr1.cc:1073 data/skeletons/lalr1.cc:1490
+#: data/skeletons/yacc.c:1408 data/skeletons/yacc.c:1915
+#: data/skeletons/yacc.c:1919
+msgid "syntax error"
+msgstr "eroare de sintaxă"
+
+#: data/skeletons/glr.c:2240 data/skeletons/lalr1.cc:1491
+#: data/skeletons/yacc.c:1409
+#, c-format
+msgid "syntax error, unexpected %s"
+msgstr "eroare de sintaxă, %s neașteptat"
+
+#: data/skeletons/glr.c:2241 data/skeletons/lalr1.cc:1492
+#: data/skeletons/yacc.c:1410
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s"
+msgstr "eroare de sintaxă, %s neașteptat, aștept %s"
+
+#: data/skeletons/glr.c:2242 data/skeletons/lalr1.cc:1493
+#: data/skeletons/yacc.c:1411
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s"
+msgstr "eroare de sintaxă, %s neașteptat, aștept %s sau %s"
+
+#: data/skeletons/glr.c:2243 data/skeletons/lalr1.cc:1494
+#: data/skeletons/yacc.c:1412
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s"
+msgstr "eroare de sintaxă, %s neașteptat, aștept %s sau %s sau %s"
+
+#: data/skeletons/glr.c:2244 data/skeletons/lalr1.cc:1495
+#: data/skeletons/yacc.c:1413
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
+msgstr "eroare de sintaxă, %s neașteptat, aștept %s sau %s sau %s sau %s"
+
+#: data/skeletons/glr.c:2589 data/skeletons/yacc.c:1492
+#: data/skeletons/yacc.c:1494 data/skeletons/yacc.c:1669
+#: data/skeletons/yacc.c:2070
+msgid "memory exhausted"
+msgstr "memorie epuizată"
