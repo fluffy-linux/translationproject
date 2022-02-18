@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2022-01-12 01:40+0800\n"
+"PO-Revision-Date: 2022-02-18 17:33+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -30,7 +30,7 @@ msgstr "fungsi"
 #: examples/c/bistromathic/parse.y:155
 #, fuzzy
 msgid "variable"
-msgstr "%s: pembolehubah %s %%define tidak ditakrifkan"
+msgstr "pembolehubah"
 
 #: examples/c/bistromathic/parse.y:194
 #, fuzzy
@@ -42,12 +42,12 @@ msgstr "dibahagi dengan sifar"
 #| msgid "invalid character"
 #| msgid_plural "invalid characters"
 msgid "syntax error: invalid character: %c"
-msgstr "ralat sintaks selepas '%c', menjangkakan nombor, huruf, '_', '[', atau '$'"
+msgstr "Aksara tidak sah \"%c\" pada komen."
 
 #: examples/c/bistromathic/parse.y:389
 #, fuzzy
 msgid "%@: syntax error"
-msgstr "ralat sintaks"
+msgstr "Ralat sintaks"
 
 #: examples/c/bistromathic/parse.y:390
 #, fuzzy
@@ -93,22 +93,21 @@ msgstr ""
 #, fuzzy
 #| msgid "missing %s at end of line"
 msgid "end of line"
-msgstr "Potong dari kursor hingga ke akhir baris"
+msgstr "Akhir dari baris"
 
 #: src/complain.c:153
 msgid "S/R conflicts (enabled by default)"
 msgstr ""
 
 #: src/complain.c:154
+#, fuzzy
 msgid "R/R conflicts (enabled by default)"
-msgstr ""
+msgstr "Warna latar belakang asal formspec (R,G,B)."
 
 #: src/complain.c:155 src/getargs.c:214
 #, fuzzy
 msgid "generate conflict counterexamples"
-msgstr ""
-"Janakan penghurai LALR(1) dan GLR.\n"
-"\n"
+msgstr "Konflik"
 
 #: src/complain.c:156
 msgid "string aliases not attached to a symbol"
@@ -117,7 +116,7 @@ msgstr ""
 #: src/complain.c:157
 #, fuzzy
 msgid "obsolete constructs"
-msgstr "kemasukan `%s' usang.  Diabaikan"
+msgstr "Dilupuskan Oleh"
 
 #: src/complain.c:158
 #, fuzzy, c-format
@@ -231,7 +230,7 @@ msgstr "ralat maut"
 #: src/complain.c:501
 #, fuzzy
 msgid "note"
-msgstr "  -S, --string[=STRING]   ambil perhatian terhadap STRING pengguna lain\n"
+msgstr "nota"
 
 #: src/complain.c:594
 #, c-format
@@ -239,16 +238,14 @@ msgid "POSIX Yacc does not support %s"
 msgstr "POSIX Yacc tidak menyokong %s"
 
 #: src/complain.c:603
-#, fuzzy, c-format
-#| msgid "invalid directive: %s"
+#, c-format
 msgid "deprecated directive: %s, use %s"
-msgstr "pilihan telah luput: %s, guna %s"
+msgstr "arahan lapuk: %s, guna %s"
 
 #: src/complain.c:616
-#, fuzzy, c-format
-#| msgid "invalid directive: %s"
+#, c-format
 msgid "duplicate directive"
-msgstr "Salinan @E dijumpai.  "
+msgstr "arahan berulang"
 
 #: src/complain.c:618
 #, c-format
@@ -275,11 +272,12 @@ msgstr "%0$s tidak dijangka"
 
 #: src/complain.c:649
 msgid "expected %1$s before %0$s"
-msgstr ""
+msgstr "dijangka %1$s sebelum %0$s"
 
 #: src/complain.c:650
+#, fuzzy
 msgid "expected %1$s or %2$s before %0$s"
-msgstr ""
+msgstr "dijangka %1$s sebelum %0$s"
 
 #: src/complain.c:651
 msgid "expected %1$s or %2$s or %3$s before %0$s"
@@ -454,7 +452,7 @@ msgstr "warnakan jika peranti keluaran adalah tty"
 #. --color=WHEN help message.
 #: src/getargs.c:197
 msgid "WHEN can be one of the following:"
-msgstr ""
+msgstr "APABILA boleh jadi salah satu daripada berikut:"
 
 #: src/getargs.c:210
 msgid "describe the states"
@@ -843,7 +841,7 @@ msgstr "rentetan aksara"
 
 #: src/parse-gram.y:217
 msgid "epilogue"
-msgstr ""
+msgstr "epilog"
 
 #: src/parse-gram.y:219
 msgid "identifier"
