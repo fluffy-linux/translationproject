@@ -17,16 +17,16 @@ msgstr ""
 "Project-Id-Version: tar 1.32.90\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2019-11-27 18:52+0200\n"
-"PO-Revision-Date: 2022-01-24 21:15+0100\n"
+"PO-Revision-Date: 2022-03-17 23:58+0100\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: gnu/argmatch.c:134
 #, c-format
@@ -1079,9 +1079,27 @@ msgstr "Timp de modificare nevalid (nanosecunde)"
 msgid "Invalid device number"
 msgstr "Număr dispozitiv invalid"
 
+# R-GC, scrie:
+# am modificat de la „inode” la „nod-i”,
+# pentru a fi în concordanță cu celelalte 
+# traduceri, și mai ales cu:
+#    
+# «inode este (index node)», adică:
+# „nod de index”, așa că am folosit forma,
+# prescurtată folosită, adaptată la limba 
+# română → « nod-i ».
+# Sursa folosită:
+# https://en.wikipedia.org/wiki/Inode, aici se
+# găsește explicația „etimologică :)” a 
+# cuvîntului,
+# oferită de Dennis Ritchie, «autorul»
+# acestui cuvînt.
+# ***
+# Am omogenizat modificarea făcută, în tot
+# fișierul.
 #: src/incremen.c:1081
 msgid "Invalid inode number"
-msgstr "Număr inode invalid"
+msgstr "Număr nod-i invalid"
 
 #: src/incremen.c:1137
 #, c-format
@@ -1843,7 +1861,7 @@ msgstr "ORDINE"
 
 #: src/tar.c:551
 msgid "directory sorting order: none (default), name or inode"
-msgstr "ordine de sortare a directorului: nimic (implicit), nume sau inode"
+msgstr "ordine de sortare a directorului: nimic (implicit), nume sau nod-i"
 
 #: src/tar.c:553
 msgid "directory sorting order: none (default) or name"
