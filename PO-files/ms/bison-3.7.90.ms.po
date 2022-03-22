@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2022-02-18 17:33+0800\n"
+"PO-Revision-Date: 2022-03-22 23:32+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -42,7 +42,7 @@ msgstr "dibahagi dengan sifar"
 #| msgid "invalid character"
 #| msgid_plural "invalid characters"
 msgid "syntax error: invalid character: %c"
-msgstr "Aksara tidak sah \"%c\" pada komen."
+msgstr "Aksara pertama \"%c\" tidak sah"
 
 #: examples/c/bistromathic/parse.y:389
 #, fuzzy
@@ -177,43 +177,16 @@ msgstr ""
 "\n"
 
 #: src/complain.c:165
-#, fuzzy
 msgid "turn off all the warnings"
-msgstr ""
-"Kategori amaran termasuk:\n"
-"  `midrule-values'  nilai hukumtengah nyahtetap atau tidak digunakan\n"
-"  `yacc'            tidak serasi dengan POSIX YACC\n"
-"  `all'             semua amaran\n"
-"  `no-CATEGORY'     matikan amaran dalam CATEGORY\n"
-"  `none'            matikan semua amaran\n"
-"  `error'           jadikan amaran sebagai ralat\n"
-"\n"
+msgstr "matikan semua amaran"
 
 #: src/complain.c:166
-#, fuzzy
 msgid "treat warnings as errors"
-msgstr ""
-"Kategori amaran termasuk:\n"
-"  `midrule-values'  nilai hukumtengah nyahtetap atau tidak digunakan\n"
-"  `yacc'            tidak serasi dengan POSIX YACC\n"
-"  `all'             semua amaran\n"
-"  `no-CATEGORY'     matikan amaran dalam CATEGORY\n"
-"  `none'            matikan semua amaran\n"
-"  `error'           jadikan amaran sebagai ralat\n"
-"\n"
+msgstr "anggap amaran sebagai ralat"
 
 #: src/complain.c:192
-#, fuzzy
 msgid "Warning categories include:"
-msgstr ""
-"Kategori amaran termasuk:\n"
-"  `midrule-values'  nilai hukumtengah nyahtetap atau tidak digunakan\n"
-"  `yacc'            tidak serasi dengan POSIX YACC\n"
-"  `all'             semua amaran\n"
-"  `no-CATEGORY'     matikan amaran dalam CATEGORY\n"
-"  `none'            matikan semua amaran\n"
-"  `error'           jadikan amaran sebagai ralat\n"
-"\n"
+msgstr "Kategori amaran termasuk:"
 
 #: src/complain.c:297
 msgid "warning"
@@ -228,7 +201,6 @@ msgid "fatal error"
 msgstr "ralat maut"
 
 #: src/complain.c:501
-#, fuzzy
 msgid "note"
 msgstr "nota"
 
@@ -275,13 +247,13 @@ msgid "expected %1$s before %0$s"
 msgstr "dijangka %1$s sebelum %0$s"
 
 #: src/complain.c:650
-#, fuzzy
 msgid "expected %1$s or %2$s before %0$s"
-msgstr "dijangka %1$s sebelum %0$s"
+msgstr "dijangka %1$s atau %2$s sebelum %0$s"
 
 #: src/complain.c:651
+#, fuzzy
 msgid "expected %1$s or %2$s or %3$s before %0$s"
-msgstr ""
+msgstr "dijangka %1$s atau %2$s sebelum %0$s"
 
 #: src/complain.c:652
 msgid "expected %1$s or %2$s or %3$s or %4$s before %0$s"
