@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the diffutils package.
 #
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2019, 2021.
+# Božidar Putanec <bozidarp@yahoo.com>, 2019, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU diffutils 3.7.41\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2021-07-19 20:25-0700\n"
-"PO-Revision-Date: 2021-07-20 12:48+0200\n"
+"PO-Revision-Date: 2022-03-24 16:29-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -797,37 +797,37 @@ msgstr "-l, --paginate                proslijedi izlaz na paginaciju kroz „pr�
 
 #: src/diff.c:916
 msgid "-r, --recursive                 recursively compare any subdirectories found"
-msgstr "-r, --recursive                 rekurzivno uspoređuje sve poddirektorije"
+msgstr "-r, --recursive               rekurzivno uspoređuje sve poddirektorije"
 
 #: src/diff.c:917
 msgid "    --no-dereference            don't follow symbolic links"
-msgstr "    --no-dereference            ne slijedi simboličke poveznice"
+msgstr "    --no-dereference          ne slijedi simboličke poveznice"
 
 #: src/diff.c:918
 msgid "-N, --new-file                  treat absent files as empty"
-msgstr "-N, --new-file                  tretira odsutne datoteke kao prazne"
+msgstr "-N, --new-file                tretira odsutne datoteke kao prazne"
 
 #: src/diff.c:919
 msgid "    --unidirectional-new-file   treat absent first files as empty"
 msgstr ""
-"    --unidirectional-new-file   tretira samo datoteke odsutne\n"
-"                                  u prvom direktoriju kao prazne"
+"    --unidirectional-new-file  tretira samo datoteke odsutne\n"
+"                                 u prvom direktoriju kao prazne"
 
 #: src/diff.c:920
 msgid "    --ignore-file-name-case     ignore case when comparing file names"
 msgstr ""
-"    --ignore-file-name-case     ignorira veličinu slova pri\n"
-"                                  uspoređivanju imena datoteka"
+"    --ignore-file-name-case    zanemari veličinu slova pri\n"
+"                                 uspoređivanju imena datoteka"
 
 #: src/diff.c:921
 msgid "    --no-ignore-file-name-case  consider case when comparing file names"
 msgstr ""
-"    --no-ignore-file-name-case  ne ignorira veličinu slova\n"
+"    --no-ignore-file-name-case  ne zanemari veličinu slova\n"
 "                                  pri uspoređivanju imena datoteka"
 
 #: src/diff.c:922
 msgid "-x, --exclude=PAT               exclude files that match PAT"
-msgstr "-x, --exclude=UZORAK            izostavi datoteke podudarne s UZORKOM"
+msgstr "-x, --exclude=UZORAK          izostavi datoteke podudarne s UZORKOM"
 
 #: src/diff.c:923
 msgid "-X, --exclude-from=FILE         exclude files that match any pattern in FILE"
@@ -859,34 +859,34 @@ msgstr ""
 
 #: src/diff.c:930
 msgid "-i, --ignore-case               ignore case differences in file contents"
-msgstr "-i, --ignore-case               ignorira veličinu slova u sadržaju datoteka"
+msgstr "-i, --ignore-case               zanemari veličinu slova u sadržaju datoteka"
 
 #: src/diff.c:931
 msgid "-E, --ignore-tab-expansion      ignore changes due to tab expansion"
-msgstr "-E, --ignore-tab-expansion      ignorira promjene nastale ekspanzijom tab(ova)"
+msgstr "-E, --ignore-tab-expansion      zanemari promjene nastale ekspanzijom tab(ova)"
 
 #: src/diff.c:932
 msgid "-Z, --ignore-trailing-space     ignore white space at line end"
-msgstr "-Z, --ignore-trailing-space     ignorira bjeline na kraju retka"
+msgstr "-Z, --ignore-trailing-space     zanemari bjeline na kraju retka"
 
 #: src/diff.c:933
 msgid "-b, --ignore-space-change       ignore changes in the amount of white space"
-msgstr "-b, --ignore-space-change       ignorira promjene u količini bijelog prostora"
+msgstr "-b, --ignore-space-change       zanemari promjene u količini bijelog prostora"
 
 #: src/diff.c:934
 msgid "-w, --ignore-all-space          ignore all white space"
-msgstr "-w, --ignore-all-space          ignorira sav bijeli prostor"
+msgstr "-w, --ignore-all-space          zanemari sav bijeli prostor"
 
 #: src/diff.c:935
 msgid "-B, --ignore-blank-lines        ignore changes where lines are all blank"
 msgstr ""
-"-B, --ignore-blank-lines        ignorira promjene nastale uklanjanjem\n"
+"-B, --ignore-blank-lines        zanemari promjene nastale uklanjanjem\n"
 "                                  praznih redaka"
 
 #: src/diff.c:936
 msgid "-I, --ignore-matching-lines=RE  ignore changes where all lines match RE"
 msgstr ""
-"-I, --ignore-matching-lines=RE  ignorira promjene nastale uklanjanjem redaka\n"
+"-I, --ignore-matching-lines=RE  zanemari promjene nastale uklanjanjem redaka\n"
 "                                  podudarnih s RE (regex)"
 
 #: src/diff.c:938
@@ -1291,34 +1291,34 @@ msgstr "-o, --output=DATOTEKA        interaktivni rad; rezultat se sprema u DATO
 
 #: src/sdiff.c:176
 msgid "-i, --ignore-case            consider upper- and lower-case to be the same"
-msgstr "-i, --ignore-case            ignorira veličinu slova"
+msgstr "-i, --ignore-case            zanemari veličinu slova"
 
 #: src/sdiff.c:177
 msgid "-E, --ignore-tab-expansion   ignore changes due to tab expansion"
-msgstr "-E, --ignore-tab-expansion   ignorira promjene nastale ekspanzijom tab(ova)"
+msgstr "-E, --ignore-tab-expansion   zanemari promjene nastale ekspanzijom tab(ova)"
 
 #: src/sdiff.c:178
 msgid "-Z, --ignore-trailing-space  ignore white space at line end"
-msgstr "-Z, --ignore-trailing-space  ignorira bjeline na kraju retka"
+msgstr "-Z, --ignore-trailing-space  zanemari bjeline na kraju retka"
 
 #: src/sdiff.c:179
 msgid "-b, --ignore-space-change    ignore changes in the amount of white space"
-msgstr "-b, --ignore-space-change    ignorira promjene u količini bijelog prostora"
+msgstr "-b, --ignore-space-change    zanemari promjene u količini bijelog prostora"
 
 #: src/sdiff.c:180
 msgid "-W, --ignore-all-space       ignore all white space"
-msgstr "-W, --ignore-all-space       ignorira sav bijeli prostor"
+msgstr "-W, --ignore-all-space       zanemari sav bijeli prostor"
 
 #: src/sdiff.c:181
 msgid "-B, --ignore-blank-lines     ignore changes whose lines are all blank"
 msgstr ""
-"-B, --ignore-blank-lines     ignorira promjene nastale uklanjanjem\n"
+"-B, --ignore-blank-lines     zanemari promjene nastale uklanjanjem\n"
 "                                 praznih redaka"
 
 #: src/sdiff.c:182
 msgid "-I, --ignore-matching-lines=RE  ignore changes all whose lines match RE"
 msgstr ""
-"-I, --ignore-matching-lines=RE  ignorira promjene nastale uklanjanjem redaka\n"
+"-I, --ignore-matching-lines=RE  zanemari promjene nastale uklanjanjem redaka\n"
 "                                    podudarnih s RE (regex)"
 
 #: src/sdiff.c:183
@@ -1341,7 +1341,7 @@ msgstr "-l, --left-column            pokaže samo lijevi stupac kad su redci jed
 
 #: src/sdiff.c:188
 msgid "-s, --suppress-common-lines  do not output common lines"
-msgstr "-s, --suppress-common-lines  ne prikazuje jednake retke"
+msgstr "-s, --suppress-common-lines  ne pokazuje jednake retke"
 
 #: src/sdiff.c:190
 msgid "-t, --expand-tabs            expand tabs to spaces in output"
