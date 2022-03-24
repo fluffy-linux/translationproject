@@ -8,13 +8,13 @@
 #
 #
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2018, 2019, 2020.
+# Božidar Putanec <bozidarp@yahoo.com>, 2018, 2019, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: gettext-runtime-0.20.2\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2020-04-13 15:53+0200\n"
-"PO-Revision-Date: 2020-11-26 17:22-0800\n"
+"PO-Revision-Date: 2022-03-24 16:35-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -185,7 +185,7 @@ msgid ""
 "When --variables is used, standard input is ignored, and the output consists\n"
 "of the environment variables that are referenced in SHELL-FORMAT, one per line.\n"
 msgstr ""
-"Ako se koristi --variables, standardni ulaz se ignorira, a izlaz se\n"
+"Ako se koristi --variables, standardni ulaz je zanemaren, a izlaz se\n"
 "sastoji od onih varijabli okoline s referencijom u FORMAT-LJUSKE,\n"
 "po jedna po retku.\n"
 
@@ -235,7 +235,7 @@ msgstr ""
 #: src/gettext.c:259
 #, c-format, no-wrap
 msgid "Display native language translation of a textual message.\n"
-msgstr "Ispiše prijevod tekstualne poruke.\n"
+msgstr "Ispiše prijevod tekstne poruke.\n"
 
 #: src/gettext.c:263
 #, c-format, no-wrap
@@ -315,7 +315,7 @@ msgstr "Uporaba: %s [OPCIJA] [TEKSTDOMENA] MSGID MSGID-PLURAL BROJ\n"
 msgid ""
 "Display native language translation of a textual message whose grammatical\n"
 "form depends on a number.\n"
-msgstr "Ispiše prijevod tekstualne poruke čiji gramatički oblik ovisi o broju\n"
+msgstr "Ispiše prijevod tekstne poruke čiji gramatički oblik ovisi o broju\n"
 
 #: src/ngettext.c:228
 #, c-format, no-wrap
