@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the findutils package.
 #
 # Hrvoje Niksic <hniksic@xemacs.org>, 2002.
-# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
+# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012 2022.
 # Božidar Putanec <bozidarp@yahoo.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: findutils 4.5.15\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2015-12-18 14:45+0000\n"
-"PO-Revision-Date: 2020-11-26 17:22-0800\n"
+"PO-Revision-Date: 2022-03-24 16:32-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -39,7 +39,7 @@ msgstr "Promjena direktorija nije uspjela: %s"
 #: find/exec.c:312 xargs/xargs.c:1241
 #, c-format
 msgid "cannot fork"
-msgstr "nije moguće započeti novi proces"
+msgstr "nije moguće započeti novi proces (fork)"
 
 #: find/exec.c:343
 #, c-format
@@ -539,7 +539,7 @@ msgstr "upozorenje: nakon formata direktive „%%%c“ mora slijediti jedan doda
 #: find/print.c:425
 #, c-format
 msgid "warning: unrecognized format directive `%%%c'"
-msgstr "upozorenje: nepoznati format direktive „%%%c“"
+msgstr "upozorenje: neprepoznat format direktive „%%%c“"
 
 #: find/tree.c:129 find/tree.c:134 find/tree.c:224 find/tree.c:263
 #, c-format
@@ -666,7 +666,7 @@ msgstr "nije uspjelo uspostaviti početni radni direktorij: %s"
 #: find/util.c:824
 #, c-format
 msgid "Ignoring unrecognised debug flag %s"
-msgstr "Ignorira se neprepoznati debug flag %s"
+msgstr "Zanemaren neprepoznat debug flag %s"
 
 #: find/util.c:831
 #, c-format
@@ -737,12 +737,12 @@ msgstr "%s: opcija „%s“ nije jednoznačna; mogućnosti su:"
 #: gl/lib/getopt.c:624 gl/lib/getopt.c:628
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: opcija „--%s“ ne dopušta argumente\n"
+msgstr "%s: opcija „--%s“ ne dopušta argument\n"
 
 #: gl/lib/getopt.c:637 gl/lib/getopt.c:642
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: opcija „%c%s“ ne dopušta argumente\n"
+msgstr "%s: opcija „%c%s“ ne dopušta argument\n"
 
 #: gl/lib/getopt.c:685 gl/lib/getopt.c:704
 #, c-format
@@ -778,7 +778,7 @@ msgstr "%s: opcija „-W %s“ nije jednoznačna\n"
 #: gl/lib/getopt.c:974 gl/lib/getopt.c:992
 #, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
-msgstr "%s: opcija „-W %s“ ne dopušta argumente\n"
+msgstr "%s: opcija „-W %s“ ne dopušta argument\n"
 
 #: gl/lib/getopt.c:1013 gl/lib/getopt.c:1031
 #, c-format
@@ -1069,7 +1069,7 @@ msgstr "Varijabla okoline %s nije postavljena na valjani decimalni broj"
 msgid "File descriptor %d will leak; please report this as a bug, remembering to include a detailed description of the simplest way to reproduce this problem."
 msgstr ""
 "Datotečni deskriptor %d će procuriti; prijavite to kao **programsku grešku**,\n"
-"uključujući detaljan opis i jednostavan način reproduciranja problema."
+"uključujući iscrpan opis i jednostavan način reproduciranja problema."
 
 #: lib/findutils-version.c:55
 msgid "Eric B. Decker"
@@ -1450,7 +1450,7 @@ msgstr "Maksimalna duljina upotrebljive naredbe: %<PRIuMAX>\n"
 #: xargs/xargs.c:716
 #, c-format
 msgid "Size of command buffer we are actually using: %<PRIuMAX>\n"
-msgstr "Veličina upotrijebljenoga međuspremnika naredbi: %<PRIuMAX>\n"
+msgstr "Veličina upotrijebljenog međuspremnika naredbi: %<PRIuMAX>\n"
 
 #: xargs/xargs.c:719
 #, c-format
@@ -1646,8 +1646,8 @@ msgid ""
 "                                 (ignored if -0 or -d was specified)\n"
 msgstr ""
 "  -E END                       koristi string za logički EOF; ako se END pojavi\n"
-"                                 kao redak ulaza, ostatak ulaza se ignorira.\n"
-"                                 (ignorira se i ako su aktivirani -0 ili -d)\n"
+"                                 kao redak ulaza, ostatak ulaza se zanemari.\n"
+"                                 (zanemari se i ako su aktivirani -0 ili -d)\n"
 
 #: xargs/xargs.c:1649
 msgid ""
