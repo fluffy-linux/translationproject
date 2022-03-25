@@ -13,14 +13,14 @@
 #
 # Mirsad Todorovac <mtodorov_69@yahoo.com>, 2002.
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2016, 2017, 2018, 2019.
+# Božidar Putanec <bozidarp@yahoo.com>, 2016, 2017, 2018, 2019, 2022.
 #: src/create.c:1590
 msgid ""
 msgstr ""
 "Project-Id-Version: tar-1.32.90\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2019-11-27 18:52+0200\n"
-"PO-Revision-Date: 2020-11-26 17:25-0800\n"
+"PO-Revision-Date: 2022-03-24 17:16-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -669,7 +669,7 @@ msgstr "Arhiva je komprimirana. rabite opciju %s"
 
 #: src/buffer.c:830 src/tar.c:2466
 msgid "Cannot update compressed archives"
-msgstr "Nije moguće ažurirati komprimirane arhive"
+msgstr "Nije moguće osvježiti komprimirane arhive"
 
 #: src/buffer.c:930
 msgid "At beginning of tape, quitting now"
@@ -719,7 +719,7 @@ msgstr "Pripremite svezak broj #%d za %s i pritisnite [ENTER]: "
 
 #: src/buffer.c:1226
 msgid "EOF where user reply was expected"
-msgstr "Kraj datoteke (EOF) umjesto očekivanoga odgovora korisnika"
+msgstr "Kraj datoteke (EOF) umjesto očekivanog odgovora korisnika"
 
 #: src/buffer.c:1231 src/buffer.c:1263
 msgid "WARNING: Archive is incomplete"
@@ -948,7 +948,7 @@ msgstr "sadržaj nije arhiviran"
 #: src/create.c:1455
 #, c-format
 msgid "%s: Unknown file type; file ignored"
-msgstr "%s: Nepoznata vrsta datoteke; ignorira se"
+msgstr "%s: Nepoznata vrsta datoteke; datoteka je zanemarena"
 
 #: src/create.c:1567
 #, c-format
@@ -958,12 +958,12 @@ msgstr "Nedostaju veze na %s."
 #: src/create.c:1728
 #, c-format
 msgid "%s: file is unchanged; not dumped"
-msgstr "%s: datoteka je nepromijenjena; ne arhivira se"
+msgstr "%s: datoteka je nepromijenjena; nije arhivirana"
 
 #: src/create.c:1737
 #, c-format
 msgid "%s: file is the archive; not dumped"
-msgstr "%s: datoteka je arhiva; ne arhivira se"
+msgstr "%s: datoteka je arhiva; nije arhivirana"
 
 #: src/create.c:1765 src/incremen.c:602
 msgid "directory not dumped"
@@ -1302,7 +1302,7 @@ msgstr "--Nastavlja se na bajtu %s--\n"
 
 #: src/list.c:1374
 msgid "Creating directory:"
-msgstr "Kreiranje direktorija:"
+msgstr "Stvaramo direktorij:"
 
 #: src/misc.c:749
 #, c-format
@@ -1351,7 +1351,7 @@ msgstr "prijeđe u direktorij DIR"
 
 #: src/names.c:75
 msgid "get names to extract or create from FILE"
-msgstr "učita iz DATOTEKE imena elemenata za izdvajanje iz arhive ili kreiranje arhive"
+msgstr "učita iz DATOTEKE imena elemenata za izdvajanje iz arhive ili stvaranje arhive"
 
 # bp: čita s  NULL završena imena....
 #: src/names.c:77
@@ -1493,7 +1493,7 @@ msgstr "višeznačnik ne podudara „/“"
 
 #: src/names.c:732
 msgid "The following options were used after any non-optional arguments in archive create or update mode.  These options are positional and affect only arguments that follow them.  Please, rearrange them properly."
-msgstr "Sljedeće opcije se koriste iza neobveznih argumenata za kreiranje ili ažuriranje arhive. Te opcije su ovisne o položaju i utječu samo na argumente koji ih slijede. Trebate ih ispravno poredati."
+msgstr "Sljedeće opcije se koriste iza neobveznih argumenata za stvaranje ili osvježavanje arhive. Te opcije su ovisne o položaju i utječu samo na argumente koji ih slijede. Trebate ih ispravno poredati."
 
 #: src/names.c:743
 #, c-format
@@ -1595,7 +1595,7 @@ msgstr ""
 "GNU tar sprema puno datoteka u arhivu na vrpcu ili na disk i može vratiti pojedinačne datoteke iz arhive.\n"
 "\n"
 "Primjeri:\n"
-"  tar -cf arhiva.tar foo bar   # Kreira arhiva.tar od datoteka foo i bar\n"
+"  tar -cf arhiva.tar foo bar   # Stvori arhiva.tar od datoteka foo i bar\n"
 "  tar -tvf arhiva.tar          # Izlista sve datoteke sadržane u arhiva.tar\n"
 "  tar -xf arhiva.tar           # Izdvoji sve datoteke iz arhiva.tar\n"
 
@@ -1633,11 +1633,11 @@ msgstr "izdvoji datoteke iz arhive"
 
 #: src/tar.c:401
 msgid "create a new archive"
-msgstr "kreira novu arhivu"
+msgstr "stvori novu arhivu"
 
 #: src/tar.c:403
 msgid "find differences between archive and file system"
-msgstr "traži razlike između arhive i datotečnoga sustava"
+msgstr "traži razlike između arhive i datotečnog sustava"
 
 #: src/tar.c:406
 msgid "append files to the end of an archive"
@@ -1695,7 +1695,7 @@ msgstr "obradi inkrementalno osiguranje (backup) u novom GNU-formatu"
 
 #: src/tar.c:433
 msgid "dump level for created listed-incremental archive"
-msgstr "BROJ je dump level za arhivu kreiranu s --listed-incremental opcijom"
+msgstr "BROJ je dump level za arhivu stvorenu s --listed-incremental opcijom"
 
 #: src/tar.c:435
 msgid "do not exit with nonzero on unreadable files"
@@ -1715,7 +1715,7 @@ msgstr "arhiva ne dopušta skok na poziciju"
 
 #: src/tar.c:447
 msgid "do not check device numbers when creating incremental archives"
-msgstr "ne provjerava broj uređaja pri kreiranju inkrementalnih arhiva"
+msgstr "ne provjerava broj uređaja pri stvaranju inkrementalnih arhiva"
 
 #: src/tar.c:450
 msgid "check device numbers when creating incremental archives (default)"
@@ -1795,7 +1795,7 @@ msgstr "proslijedi izdvojene datoteke kroz cijev u program NAREDBA"
 
 #: src/tar.c:498
 msgid "ignore exit codes of children"
-msgstr "ignorira izlazne kodove potomačkih procesa"
+msgstr "zanemari izlazne kodove potomačkih procesa"
 
 #: src/tar.c:500
 msgid "treat non-zero exit codes of children as error"
@@ -1988,7 +1988,7 @@ msgstr "pokrene skriptu na kraju svake vrpce (podrazumijeva -M)"
 
 #: src/tar.c:616
 msgid "use/update the volume number in FILE"
-msgstr "rabi/ažurira broj sveska u DATOTECI"
+msgstr "rabi/osvježi broj sveska u DATOTECI"
 
 #: src/tar.c:621
 msgid "Device blocking:"
@@ -2008,7 +2008,7 @@ msgstr "BROJ bajtova po zapisu, višekratnik od 512"
 
 #: src/tar.c:628
 msgid "ignore zeroed blocks in archive (means EOF)"
-msgstr "ignorira blokove s nulom u arhivi (to jest EOF)"
+msgstr "zanemari blokove s nulom u arhivi (to jest EOF)"
 
 #: src/tar.c:630
 msgid "reblock as we read (for 4.2BSD pipes)"
@@ -2024,7 +2024,7 @@ msgstr "FORMAT"
 
 #: src/tar.c:638
 msgid "create archive of the given format"
-msgstr "kreira arhivu danog formata"
+msgstr "stvori arhivu danog formata"
 
 #: src/tar.c:640
 msgid "FORMAT is one of the following:"
@@ -2076,7 +2076,7 @@ msgstr "TEKST"
 
 #: src/tar.c:661
 msgid "create archive with volume name TEXT; at list/extract time, use TEXT as a globbing pattern for volume name"
-msgstr "kreira arhivu s imenom sveska TEKST; pri listanju/izdvajanju rabi TEKST kao globbing uzorak za ime sveska"
+msgstr "stvori arhivu s imenom sveska TEKST; pri listanju/izdvajanju rabi TEKST kao globbing uzorak za ime sveska"
 
 #: src/tar.c:666
 msgid "Compression options:"
@@ -2104,7 +2104,7 @@ msgstr "Selekcija lokalnih datoteka:"
 
 #: src/tar.c:692
 msgid "stay in local file system when creating archive"
-msgstr "kreira arhivu u lokalnom datotečnom sustavu"
+msgstr "stvori arhivu u lokalnom datotečnom sustavu"
 
 #: src/tar.c:694
 msgid "don't strip leading '/'s from file names"
@@ -2269,7 +2269,7 @@ msgstr "Opcije za kompatibilnost:"
 
 #: src/tar.c:778
 msgid "when creating, same as --old-archive; when extracting, same as --no-same-owner"
-msgstr "pri kreiranju isto kao --old-archive; pri izdvajanju isto kao --no-same-owner"
+msgstr "pri stvaranju isto kao --old-archive; pri izdvajanju isto kao --no-same-owner"
 
 #: src/tar.c:783
 msgid "Other options:"
@@ -2501,7 +2501,7 @@ msgstr "--xattrs može se rabiti samo na POSIX arhivama"
 # bp: novi msgid
 #: src/tar.c:2551
 msgid "Cannot deduce top-level directory name; please set it explicitly with --one-top-level=DIR"
-msgstr "Nije moguće odrediti ime vrhovnoga direktorija; specificirajte ga eksplicitno s --one-top-level=DIR"
+msgstr "Nije moguće odrediti ime vršnog direktorija; specificirajte ga eksplicitno s --one-top-level=DIR"
 
 #: src/tar.c:2584
 msgid "Volume length cannot be less than record size"
@@ -2541,7 +2541,7 @@ msgstr "Ključna riječ %s je nepoznata ili još nije implementirana"
 
 #: src/xheader.c:173
 msgid "Time stamp is out of allowed range"
-msgstr "Vremenska oznaka je izvan dopuštenoga raspona"
+msgstr "Vremenska oznaka je izvan dopuštenog raspona"
 
 #: src/xheader.c:188
 #, c-format
@@ -2560,7 +2560,7 @@ msgstr "Ključnu riječ %s nije moguće prepisati (nadjačati)"
 
 #: src/xheader.c:493
 msgid "can't update global extended header record"
-msgstr "nije moguće ažurirati globalni zapis proširenog zaglavlja"
+msgstr "nije moguće osvježiti globalni zapis proširenog zaglavlja"
 
 #: src/xheader.c:703
 msgid "Malformed extended header: missing length"
@@ -2586,7 +2586,7 @@ msgstr "Deformirano prošireno zaglavlje: nedostaje novi redak (newline)"
 #: src/xheader.c:776
 #, c-format
 msgid "Ignoring unknown extended header keyword '%s'"
-msgstr "Ignorira se nepoznata ključna riječ proširenog zaglavlja „%s“"
+msgstr "Zanemarimo nepoznatu ključnu riječ proširenog zaglavlja „%s“"
 
 #: src/xheader.c:1058
 #, c-format
@@ -2666,7 +2666,7 @@ msgstr ""
 
 #: tests/genfile.c:128
 msgid "File creation options:"
-msgstr "Opcije za kreiranje datoteka:"
+msgstr "Opcije za stvaranje datoteka:"
 
 #: tests/genfile.c:129 tests/genfile.c:140
 msgid "SIZE"
@@ -2674,7 +2674,7 @@ msgstr "VELIČINA"
 
 #: tests/genfile.c:130
 msgid "Create file of the given SIZE"
-msgstr "Kreiranje datoteke dane VELIČINE"
+msgstr "Stvori datoteku dane VELIČINE"
 
 #: tests/genfile.c:132
 msgid "Write to file NAME, instead of standard output"
@@ -2758,7 +2758,7 @@ msgstr "Dodati VELIČINU bajtova u DATOTEKU. VELIČINA je zadana prethodnom opci
 
 #: tests/genfile.c:190
 msgid "Update the access and modification times of FILE"
-msgstr "Ažurira vremena dostupa i izmjene DATOTEKE"
+msgstr "Osvježi vremena dostupa i izmjene DATOTEKE"
 
 #: tests/genfile.c:193
 msgid "Execute COMMAND"
@@ -2776,7 +2776,7 @@ msgstr "Neispravna veličina: %s"
 #: tests/genfile.c:252
 #, c-format
 msgid "Number out of allowed range: %s"
-msgstr "Broj je izvan dopuštenoga raspona: %s"
+msgstr "Broj je izvan dopuštenog raspona: %s"
 
 #: tests/genfile.c:255
 #, c-format
@@ -2796,7 +2796,7 @@ msgstr "tražena duljina datoteke %lu, stvarna %lu"
 #: tests/genfile.c:275
 #, c-format
 msgid "created file is not sparse"
-msgstr "kreirana datoteka nije raspršena (sparse)"
+msgstr "stvorena datoteka nije raspršena (sparse)"
 
 #: tests/genfile.c:368
 #, c-format
