@@ -4,13 +4,13 @@
 #
 # Hrvoje Niksic <hniksic@xemacs.org>, 2002.
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2016, 2018, 2019, 2020.
+# Božidar Putanec <bozidarp@yahoo.com>, 2016, 2018, 2019, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: make 4.2.93\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2020-01-03 02:30-0500\n"
-"PO-Revision-Date: 2020-12-10 11:01-0800\n"
+"PO-Revision-Date: 2022-03-24 17:10-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -223,7 +223,7 @@ msgstr "ali se „%s“ sada smatra istom datotekom kao i „%s“."
 #: src/file.c:290
 #, c-format
 msgid "Recipe for '%s' will be ignored in favor of the one for '%s'."
-msgstr "Recept za „%s“ je zanemaren u korist ovoga za „%s“."
+msgstr "Recept za „%s“ je zanemaren u korist ovog za „%s“."
 
 #: src/file.c:310
 #, c-format
@@ -319,11 +319,11 @@ msgstr "#  Posljednja promjena %s\n"
 
 #: src/file.c:1057
 msgid "#  File has been updated."
-msgstr "#  Datoteka je ažurirana."
+msgstr "#  Datoteka je osvježena."
 
 #: src/file.c:1057
 msgid "#  File has not been updated."
-msgstr "#  Datoteka nije ažurirana."
+msgstr "#  Datoteka nije osvježena."
 
 #: src/file.c:1061
 msgid "#  Recipe currently running (THIS IS A BUG)."
@@ -335,15 +335,15 @@ msgstr "#  Recept za ovisnosti je još u tijeku (OVO JE PROGRAMSKA GREŠKA)"
 
 #: src/file.c:1073
 msgid "#  Successfully updated."
-msgstr "#  Uspješno ažurirano."
+msgstr "#  Uspješno osvježena."
 
 #: src/file.c:1077
 msgid "#  Needs to be updated (-q is set)."
-msgstr "#  Ažuriranje je nužno (opcija -q je dana)."
+msgstr "#  Osvježavanje je nužno (dana je opcija -q)."
 
 #: src/file.c:1080
 msgid "#  Failed to be updated."
-msgstr "#  Ažuriranje nije uspjelo."
+msgstr "#  Osvježavanje nije uspjelo."
 
 #: src/file.c:1085
 msgid "#  Invalid value in 'command_state' member!"
@@ -735,7 +735,7 @@ msgstr "%s: cilj „%s“ ne postoji"
 #: src/job.c:1905
 #, c-format
 msgid "%s: update target '%s' due to: %s"
-msgstr "%s: ažurira cilj „%s“ za potrebe: %s"
+msgstr "%s: osvježava cilj „%s“ za potrebe: %s"
 
 #: src/job.c:2108
 #, c-format
@@ -943,9 +943,7 @@ msgstr ""
 
 #: src/main.c:369
 msgid "  -L, --check-symlink-times   Use the latest mtime between symlinks and target.\n"
-msgstr ""
-"  -L, --check-symlink-times   od simboličke veze i njezinoga cilja koristi\n"
-"                                se kasnije vrijeme izmjene (mtime)\n"
+msgstr "  -L, --check-symlink-times    koristi najkasniji mtime između simboličke veze i njena cilja\n"
 
 #: src/main.c:371
 msgid ""
@@ -1011,7 +1009,7 @@ msgstr ""
 #: src/main.c:395
 msgid "  -t, --touch                 Touch targets instead of remaking them.\n"
 msgstr ""
-"  -t, --touch                 „touch“ (ažurira vrijeme) ciljeve umjesto\n"
+"  -t, --touch                 „touch“ (osvježi vrijeme) ciljeve umjesto\n"
 "                                da ih iznova napravi\n"
 
 #: src/main.c:397
@@ -1146,7 +1144,7 @@ msgstr "Simboličke veze nisu podržane: onemogućujemo -L."
 #: src/main.c:2190
 #, c-format
 msgid "Updating makefiles....\n"
-msgstr "Ažuriramo Makefiles....\n"
+msgstr "Osvježavamo Makefiles....\n"
 
 #: src/main.c:2226
 #, c-format
@@ -1156,7 +1154,7 @@ msgstr "Makefile „%s“ bi mogao ući u petlju; ne obnavljamo ga.\n"
 #: src/main.c:2303
 #, c-format
 msgid "Failed to remake makefile '%s'."
-msgstr "Nije uspjelo ponovno napraviti Makefile „%s“."
+msgstr "Nije uspjelo preraditi Makefile „%s“."
 
 #: src/main.c:2323
 #, c-format
@@ -1185,7 +1183,7 @@ msgstr "unlink (privremena datoteka): "
 #: src/main.c:2555
 #, c-format
 msgid ".DEFAULT_GOAL contains more than one target"
-msgstr ".DEFAULT_GOAL sadrži više od jednoga cilja"
+msgstr ".DEFAULT_GOAL sadrži više od jednog cilja"
 
 #: src/main.c:2579
 #, c-format
@@ -1200,7 +1198,7 @@ msgstr "Nije navedeni nijedan cilj i nije pronađeni nijedan Makefile"
 #: src/main.c:2586
 #, c-format
 msgid "Updating goal targets....\n"
-msgstr "Ažuriramo ciljeve....\n"
+msgstr "Osvježavamo ciljeve....\n"
 
 #: src/main.c:2610
 #, c-format
@@ -1319,7 +1317,7 @@ msgstr "%s: Ulazimo u nepoznati direktorij\n"
 #: src/output.c:99
 #, c-format
 msgid "%s: Leaving an unknown directory\n"
-msgstr "%s: Izlazimo iz nepoznatoga direktorija\n"
+msgstr "%s: Izlazimo iz nepoznatog direktorija\n"
 
 #: src/output.c:102
 #, c-format
@@ -1339,7 +1337,7 @@ msgstr "%s[%u]: Ulazimo u nepoznati direktorij\n"
 #: src/output.c:110
 #, c-format
 msgid "%s[%u]: Leaving an unknown directory\n"
-msgstr "%s[%u]: Izlazimo iz nepoznatoga direktorija\n"
+msgstr "%s[%u]: Izlazimo iz nepoznatog direktorija\n"
 
 #: src/output.c:113
 #, c-format
@@ -1624,7 +1622,7 @@ msgstr "Ništa se ne može napraviti za„%s”."
 #: src/remake.c:227
 #, c-format
 msgid "'%s' is up to date."
-msgstr "„%s“ je ažurirani."
+msgstr "„%s“ je osvježena."
 
 #: src/remake.c:323
 #, c-format
@@ -1649,7 +1647,7 @@ msgstr "Razmatramo ciljnu datoteku „%s“.\n"
 #: src/remake.c:432
 #, c-format
 msgid "Recently tried and failed to update file '%s'.\n"
-msgstr "Nedavni pokušaj ažuriranja datoteke „%s“ nije uspio.\n"
+msgstr "Nedavni pokušaj osvježavanja datoteke „%s“ nije uspio.\n"
 
 #: src/remake.c:444
 #, c-format
@@ -1659,12 +1657,12 @@ msgstr "Datoteka „%s“ je već bila razmatrana.\n"
 #: src/remake.c:454
 #, c-format
 msgid "Still updating file '%s'.\n"
-msgstr "Datoteka „%s“ se još uvijek ažurira.\n"
+msgstr "Datoteka „%s“ se još uvijek osvježava.\n"
 
 #: src/remake.c:457
 #, c-format
 msgid "Finished updating file '%s'.\n"
-msgstr "Ažuriranje datoteke „%s“ je završeno.\n"
+msgstr "Osvježavanje datoteke „%s“ je završeno.\n"
 
 #: src/remake.c:486
 #, c-format
@@ -2229,7 +2227,7 @@ msgstr "Jobserver broj mjesta je ograničen na %d\n"
 #: src/w32/w32os.c:60
 #, c-format
 msgid "creating jobserver semaphore: (Error %ld: %s)"
-msgstr "kreiranje semafora jobservera: (Greška %ld: %s)"
+msgstr "stvaranje semafora jobservera: (Greška %ld: %s)"
 
 #: src/w32/w32os.c:79
 #, c-format
