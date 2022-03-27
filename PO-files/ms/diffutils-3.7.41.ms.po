@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.7.41\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2021-07-19 20:25-0700\n"
-"PO-Revision-Date: 2022-02-21 18:21+0800\n"
+"PO-Revision-Date: 2022-03-27 19:03+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -97,36 +97,28 @@ msgid "door"
 msgstr "pintu"
 
 #: lib/file-type.c:81
-#, fuzzy
-#| msgid "block special file"
 msgid "multiplexed block special file"
-msgstr "fail khas blok"
+msgstr "fail khas blok selangseli"
 
 #: lib/file-type.c:84
-#, fuzzy
-#| msgid "character special file"
 msgid "multiplexed character special file"
-msgstr "fail khas aksara"
+msgstr "fail khas aksara selangseli"
 
 #: lib/file-type.c:87
-#, fuzzy
 msgid "multiplexed file"
-msgstr "  Fail: ..."
+msgstr "fail selangseli"
 
 #: lib/file-type.c:90
 msgid "named file"
 msgstr "fail dinamakan"
 
 #: lib/file-type.c:93
-#, fuzzy
-#| msgid "block special file"
 msgid "network special file"
-msgstr "Rangkaian;Perkhidmatan;|Rangkaian;Pemindah Fail"
+msgstr "fail khas rangkaian"
 
 #: lib/file-type.c:96
-#, fuzzy
 msgid "migrated file with data"
-msgstr "fail dipindahkan tanpa data"
+msgstr "fail dipindahkan dengan data"
 
 #: lib/file-type.c:99
 msgid "migrated file without data"
