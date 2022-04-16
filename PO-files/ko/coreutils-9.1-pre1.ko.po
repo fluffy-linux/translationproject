@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: coreutils 9.1-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2022-04-09 13:42+0100\n"
-"PO-Revision-Date: 2022-04-11 13:07+0900\n"
+"PO-Revision-Date: 2022-04-17 00:51+0900\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean <translation-team-ko@googlegroups.com>\n"
 "Language: ko\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #: lib/argmatch.c:147
 #, c-format
@@ -5662,7 +5662,7 @@ msgstr ""
 "  -a, --all                  . (점)으로 시작하는 항목을 무시하지 않습니다\n"
 "  -A, --almost-all           . 과 .. 를 목록으로 나타내지 않습니다\n"
 "      --author               -l 옵션을 붙이면, 각 파일의 작성자를 출력합니다\n"
-"  -b, --escape               비시각적 문자를 C언어 방식 이스케이프로 출력합니다\n"
+"  -b, --escape               출력할 수 없는 문자를 C언어 방식 이스케이프로 출력합니다\n"
 
 #: src/ls.c:5416
 msgid ""
@@ -5866,7 +5866,7 @@ msgstr ""
 
 #: src/ls.c:5524
 msgid "  -q, --hide-control-chars   print ? instead of nongraphic characters\n"
-msgstr "  -q, --hide-control-chars   비형 문자 대신 ? 문자를 출력합니다\n"
+msgstr "  -q, --hide-control-chars   출력할 수 없는 문자 대신 ? 문자를 출력합니다\n"
 
 #: src/ls.c:5527
 msgid ""
@@ -5889,7 +5889,7 @@ msgid ""
 "                             (overrides QUOTING_STYLE environment variable)\n"
 "\n"
 msgstr ""
-"      --quoting-style=WORD   WORD의 인용 스타일을 사용합니다. 가능한 값은:\n"
+"      --quoting-style=<단어>   <단어>의 인용 스타일을 사용합니다. 가능한 값:\n"
 "                               literal, locale, shell, shell-always, c, escape\n"
 "                               (QUOTING_STYLE 환경 변수 값을 덮어씀)\n"
 "\n"
