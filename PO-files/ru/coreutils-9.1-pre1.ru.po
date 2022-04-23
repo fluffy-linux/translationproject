@@ -1073,7 +1073,7 @@ msgstr "пропущен тип кодирования"
 #: src/cat.c:50 src/cp.c:43 src/df.c:48 src/du.c:54 src/factor.c:123
 #: src/split.c:50
 msgid "Torbjorn Granlund"
-msgstr "Торбьёрн Гронлунд (Torbjorn Granlund)"
+msgstr "Торбьёрн Гронлунд (Torbjörn Granlund)"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:51 src/comm.c:38 src/ls.c:132 src/rm.c:42 src/split.c:51
