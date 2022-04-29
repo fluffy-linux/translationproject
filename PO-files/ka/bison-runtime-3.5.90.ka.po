@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# This file is distributed under the same license as the bison package.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bison-runtime 3.5.90\n"
+"Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
+"POT-Creation-Date: 2020-04-18 10:42+0200\n"
+"PO-Revision-Date: 2022-04-29 15:19+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: data/skeletons/glr.c:893 data/skeletons/yacc.c:739
+msgid "syntax error: cannot back up"
+msgstr "სინტაქსური შეცდომა: მარქაფი შეუძლებელია"
+
+#: data/skeletons/glr.c:1802
+msgid "syntax is ambiguous"
+msgstr "შეცდომითი სინტაქსი"
+
+#: data/skeletons/glr.c:2213 data/skeletons/glr.c:2239
+#: data/skeletons/glr.c:2292 data/skeletons/glr.c:2530
+#: data/skeletons/lalr1.cc:1073 data/skeletons/lalr1.cc:1490
+#: data/skeletons/yacc.c:1408 data/skeletons/yacc.c:1915
+#: data/skeletons/yacc.c:1919
+msgid "syntax error"
+msgstr "სინტაქსური შეცდომა"
+
+#: data/skeletons/glr.c:2240 data/skeletons/lalr1.cc:1491
+#: data/skeletons/yacc.c:1409
+#, c-format
+msgid "syntax error, unexpected %s"
+msgstr "სინტაქსური შეცდომა, %s მოულოდნელია"
+
+#: data/skeletons/glr.c:2241 data/skeletons/lalr1.cc:1492
+#: data/skeletons/yacc.c:1410
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s"
+msgstr "სინტაქსური შეცდომა, %s მოულოდნელია, ველოდებოდით %s-ს"
+
+#: data/skeletons/glr.c:2242 data/skeletons/lalr1.cc:1493
+#: data/skeletons/yacc.c:1411
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s"
+msgstr "სინტაქსური შეცდომა, %s მოულოდნელია, ველოდებოდით %s-ს ან %s-ს"
+
+#: data/skeletons/glr.c:2243 data/skeletons/lalr1.cc:1494
+#: data/skeletons/yacc.c:1412
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s"
+msgstr "სინტაქსური შეცდომა, %s მოულოდნელია, ველოდებოდით %s-ს ან %s-ს ან %s-ს"
+
+#: data/skeletons/glr.c:2244 data/skeletons/lalr1.cc:1495
+#: data/skeletons/yacc.c:1413
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
+msgstr "სინტაქსური შეცდომა, %s მოულოდნელია, ველოდებოდით %s-ს ან %s-ს ან %s-ს ან %s-ს"
+
+#: data/skeletons/glr.c:2589 data/skeletons/yacc.c:1492
+#: data/skeletons/yacc.c:1494 data/skeletons/yacc.c:1669
+#: data/skeletons/yacc.c:2070
+msgid "memory exhausted"
+msgstr "მეხსიერება გადავსებულია"
