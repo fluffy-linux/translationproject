@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
+# Georgian translations for bison-runtime.
 # Copyright (C) 2002 Free Software Foundation, Inc.
 # This file is distributed under the same license as the bison package.
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022.
