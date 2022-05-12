@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2022-03-22 23:32+0800\n"
+"PO-Revision-Date: 2022-05-12 09:50+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -42,7 +42,7 @@ msgstr "dibahagi dengan sifar"
 #| msgid "invalid character"
 #| msgid_plural "invalid characters"
 msgid "syntax error: invalid character: %c"
-msgstr "Aksara pertama \"%c\" tidak sah"
+msgstr "Aksara tidak sah \"%c\" pada komen."
 
 #: examples/c/bistromathic/parse.y:389
 #, fuzzy
@@ -124,36 +124,16 @@ msgid "empty rules without %empty"
 msgstr "hukum kosong tanpa %%empty"
 
 #: src/complain.c:159
-#, fuzzy
 msgid "unset or unused midrule values"
-msgstr ""
-"Kategori amaran termasuk:\n"
-"  `midrule-values'  nilai hukumtengah nyahtetap atau tidak digunakan\n"
-"  `yacc'            tidak serasi dengan POSIX YACC\n"
-"  `all'             semua amaran\n"
-"  `no-CATEGORY'     matikan amaran dalam CATEGORY\n"
-"  `none'            matikan semua amaran\n"
-"  `error'           jadikan amaran sebagai ralat\n"
-"\n"
+msgstr "nilai hukumtengah nyahtetap atau tidak digunakan"
 
 #: src/complain.c:160
-#, fuzzy
-#| msgid "useless precedence and associativity for %s"
 msgid "useless precedence and associativity"
-msgstr "keutamaan dan pengumpulan tidak berguna untuk %s"
+msgstr "keutamaan dan pengumpulan tidak berguna"
 
 #: src/complain.c:161
-#, fuzzy
 msgid "incompatibilities with POSIX Yacc"
-msgstr ""
-"Kategori amaran termasuk:\n"
-"  `midrule-values'  nilai hukumtengah nyahtetap atau tidak digunakan\n"
-"  `yacc'            tidak serasi dengan POSIX YACC\n"
-"  `all'             semua amaran\n"
-"  `no-CATEGORY'     matikan amaran dalam CATEGORY\n"
-"  `none'            matikan semua amaran\n"
-"  `error'           jadikan amaran sebagai ralat\n"
-"\n"
+msgstr "tidak serasi dengan POSIX Yacc"
 
 #: src/complain.c:162
 msgid "all other warnings (enabled by default)"
@@ -164,17 +144,8 @@ msgid "all the warnings except 'counterexamples', 'dangling-alias' and 'yacc'"
 msgstr ""
 
 #: src/complain.c:164
-#, fuzzy
 msgid "turn off warnings in CATEGORY"
-msgstr ""
-"Kategori amaran termasuk:\n"
-"  `midrule-values'  nilai hukumtengah nyahtetap atau tidak digunakan\n"
-"  `yacc'            tidak serasi dengan POSIX YACC\n"
-"  `all'             semua amaran\n"
-"  `no-CATEGORY'     matikan amaran dalam CATEGORY\n"
-"  `none'            matikan semua amaran\n"
-"  `error'           jadikan amaran sebagai ralat\n"
-"\n"
+msgstr "matikan amaran dalam CATEGORY"
 
 #: src/complain.c:165
 msgid "turn off all the warnings"
@@ -251,9 +222,8 @@ msgid "expected %1$s or %2$s before %0$s"
 msgstr "dijangka %1$s atau %2$s sebelum %0$s"
 
 #: src/complain.c:651
-#, fuzzy
 msgid "expected %1$s or %2$s or %3$s before %0$s"
-msgstr "dijangka %1$s atau %2$s sebelum %0$s"
+msgstr "dijangka %1$s atau %2$s atau %3$s sebelum %0$s"
 
 #: src/complain.c:652
 msgid "expected %1$s or %2$s or %3$s or %4$s before %0$s"
