@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.7.41\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2021-07-19 20:25-0700\n"
-"PO-Revision-Date: 2022-03-27 19:03+0800\n"
+"PO-Revision-Date: 2022-05-13 17:28+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -134,7 +134,7 @@ msgstr "soket"
 
 #: lib/file-type.c:108
 msgid "whiteout"
-msgstr ""
+msgstr "kosongkan"
 
 #: lib/file-type.c:110
 msgid "weird file"
@@ -897,6 +897,8 @@ msgid ""
 "  These format options provide fine-grained control over the output\n"
 "    of diff, generalizing -D/--ifdef."
 msgstr ""
+"  Pilihan format ini menyediakan kawalan halus ke atas keluaran\n"
+"    dari diff, generalisasi -D/--ifdef."
 
 #: src/diff.c:950
 msgid "  LTYPE is 'old', 'new', or 'unchanged'.  GTYPE is LTYPE or 'changed'."
@@ -973,12 +975,16 @@ msgid ""
 "    --color[=WHEN]       color output; WHEN is 'never', 'always', or 'auto';\n"
 "                           plain --color means --color='auto'"
 msgstr ""
+"    --color[=WHEN]       keluaran warna; WHEN ialah 'never', 'always', atau 'auto';\n"
+"                           hanya --color bermaksud --color='auto'"
 
 #: src/diff.c:978
 msgid ""
 "    --palette=PALETTE    the colors to use when --color is active; PALETTE is\n"
 "                           a colon-separated list of terminfo capabilities"
 msgstr ""
+"    --palette=PALETTE    warna untuk digunakan bila --color aktif; PALETTE adalah\n"
+"                           senarai dipisahkan kolon untuk keupayaan terminfo"
 
 #: src/diff.c:981
 msgid "    --help               display this help and exit"
@@ -1353,4 +1359,4 @@ msgstr "prefix tidak dikenali: %s"
 #: src/util.c:692
 #, c-format
 msgid "unparsable value for --palette"
-msgstr ""
+msgstr "nilai tidak boleh dihuraikan untuk --palette"
