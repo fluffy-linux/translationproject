@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
+# Georgian translations for gettext-examples.
 # Copyright (C) 2022 Yoyodyne, Inc. (msgids)
 # This file is distributed under the same license as the gettext package.
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022.
