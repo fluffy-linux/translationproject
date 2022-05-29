@@ -1,31 +1,37 @@
-# Romanian translation for gettext-runtime.
+# Mesajele în limba română pentru pachetul gettext-runtime.
 # Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gettext package.
 #
 # Eugen Hoanca <eugenh@urban-grafx.ro>, 2003.
 # Daniel Șerbănescu <daniel@serbanescu.dk>, 2019.
-# Traducere făcută de DȘ, pentru versiunea gettext-runtime 0.20-rc1.
+# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2022.
+#
+# Cronologia traducerii fișierului „gettext-runtime”:
+# Traducerea inițială, făcută de EH, pentru versiunea gettext-runtime 0.12.1, 2003.
+# Actualizare a traducerii pentru versiunea 0.13-pre1, făcută de EH, 2003.
+# Actualizare a traducerii pentru versiunea 0.20-rc1 făcută de DȘ, 2019.
 # Actualizare a mesajelor, de la fișierul „gettext-runtime-0.20.2.pot”.
 # Actualizare a algoritmului formelor de plural (de la „trei-vechi” la „trei-actual”).
 # NU și a mesajelor traduse (acestea au rămas neschimbate).
 # Eliminare a mesajelor ce-au dispărut în ultima versiune.
 # Actualizări realizate de Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 15.01.2022.
+# Actualizare a traducerii pentru versiunea 0.20.2 făcută de R-GC, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gettext-runtime 0.20.2\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2020-04-13 15:53+0200\n"
-"PO-Revision-Date: 2022-01-23 21:34+0100\n"
+"PO-Revision-Date: 2022-05-30 00:49+0200\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 2.3.1\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: gnulib-lib/closeout.c:66
@@ -54,7 +60,7 @@ msgstr "%s: opțiune nerecunoscută „%s%s”\n"
 #: gnulib-lib/getopt.c:345
 #, c-format
 msgid "%s: option '%s%s' doesn't allow an argument\n"
-msgstr "%s: opțiunea „%s%s” nu permite argumente\n"
+msgstr "%s: opțiunea „%s%s” nu permite un argument\n"
 
 #: gnulib-lib/getopt.c:360
 #, c-format
@@ -74,18 +80,18 @@ msgstr "%s: opțiunea necesită un argument -- „%c”\n"
 #: gnulib-lib/xmalloc.c:38
 #, c-format
 msgid "memory exhausted"
-msgstr "memorie plină"
+msgstr "memorie epuizată"
 
 #: src/envsubst.c:112 src/gettext.c:137 src/ngettext.c:126
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "License GPLv3+: GNU GPL version 3 or later <%s>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
-"Drepturi de autor (C) %s Free Software Foundation, Inc.\n"
-"Licență GPLv3+: GNU GPL versiunea 3 sau ulterioară <https://gnu.org/licenses/gpl.html>\n"
+"Drepturi de autor © %s Free Software Foundation, Inc.\n"
+"Licență GPLv3+: GNU GPL versiunea 3 sau ulterioară <%s>\n"
 "Acesta este un program liber: sunteți liberi să-l modificați și să-l redistribuiți.\n"
 "Nu există NICIO GARANȚIE, în cadrul limitelor legale.\n"
 
@@ -102,7 +108,7 @@ msgstr "Bruno Haible"
 #: src/envsubst.c:127 src/gettext.c:161 src/ngettext.c:144
 #, c-format
 msgid "too many arguments"
-msgstr "prea mulţi parametri"
+msgstr "prea mulți parametri"
 
 #: src/envsubst.c:138 src/gettext.c:171 src/ngettext.c:156
 #, c-format
@@ -112,42 +118,51 @@ msgstr "parametri lipsă"
 #: src/envsubst.c:176 src/gettext.c:248 src/ngettext.c:213
 #, c-format
 msgid "Try '%s --help' for more information.\n"
-msgstr "Încercați „%s --help” pentru mai multe informații.\n"
+msgstr "Încercați «%s --help» pentru mai multe informații.\n"
 
+# R-GC, scrie:
+# acest mesaj, și următoarele, pot să fie
+# vizualizate, rulînd comanda:
+# «envsubst --help».
 #: src/envsubst.c:181
 #, c-format, no-wrap
 msgid "Usage: %s [OPTION] [SHELL-FORMAT]\n"
-msgstr "Folosire: %s [OPŢIUNE] [FORMAT-SHELL]\n"
+msgstr "Utilizare: %s [OPŢIUNE] [FORMAT-SHELL]\n"
 
 #: src/envsubst.c:186
 #, c-format, no-wrap
 msgid "Substitutes the values of environment variables.\n"
-msgstr "Înlocuieşte valorile variabilelor de mediu.\n"
+msgstr "Înlocuiește valorile variabilelor de mediu.\n"
 
 #: src/envsubst.c:190
 #, c-format, no-wrap
 msgid "Operation mode:\n"
 msgstr "Mod de operare:\n"
 
+# R-GC, scrie:
+# aproape întotdeauna o explicație mai
+# detaliată, este mai bună decît una scurtă;
+# mesajul inițial:
+# „afișează variabilele din FORMAT_SHELL”
 #: src/envsubst.c:193
 #, c-format, no-wrap
 msgid "  -v, --variables             output the variables occurring in SHELL-FORMAT\n"
-msgstr "  -v, --variables             afişează variabilele din FORMAT-SHELL\n"
+msgstr "  -v, --variables             afișează variabilele care apar în FORMAT-SHELL\n"
 
 #: src/envsubst.c:197 src/gettext.c:277 src/ngettext.c:243
 #, c-format, no-wrap
 msgid "Informative output:\n"
-msgstr "Output informativ:\n"
+msgstr "Ieșirea informativă:\n"
 
 #: src/envsubst.c:200
 #, c-format, no-wrap
 msgid "  -h, --help                  display this help and exit\n"
-msgstr "  -h, --help                  afişează acest ajutor şi iese\n"
+msgstr "  -h, --help                  afișează acest mesaj de ajutor și iese\n"
 
 #: src/envsubst.c:203
 #, c-format, no-wrap
 msgid "  -V, --version               output version information and exit\n"
-msgstr "  -V, --version               afişează informaţii despre versiune şi iese\n"
+msgstr "  -V, --version               afișează informații despre versiune și iese\n"
 
 #: src/envsubst.c:207
 #, c-format, no-wrap
@@ -159,13 +174,12 @@ msgid ""
 "substituted; otherwise all environment variables references occurring in\n"
 "standard input are substituted.\n"
 msgstr ""
-"În modul normal de operare, intrarea(input) standard este copiată la\n"
-"ieşirea(output) standard), cu referirile către variabilele de mediu de forma\n"
-"$VARIABLE sau $(VARIABLE) fiind înlocuite cu valorile corespunzătoare.\n"
-"  Dacă este specificat un FORMAT-SHELL, doar acele variabile de mediu\n"
-"către se face referire în FORMAT-SHELL sunt substituite, în caz contrar\n"
-"toate referinţele variabilelor de mediu din intrarea(input) standard sunt\n"
-"substituite.\n"
+"În modul normal de operare, intrarea standard este copiată la ieșirea\n"
+"standard, cu referințe către variabilele de mediu de forma $VARIABLE sau\n"
+"$(VARIABLE) fiind înlocuite cu valorile corespunzătoare.  Dacă este specificat\n"
+"un FORMAT-SHELL, doar acele variabile de mediu către care se face referire\n"
+"în FORMAT-SHELL sunt substituite, în caz contrar toate referințele\n"
+"variabilelor de mediu din intrarea standard sunt substituite.\n"
 
 #: src/envsubst.c:216
 #, c-format, no-wrap
@@ -173,9 +187,8 @@ msgid ""
 "When --variables is used, standard input is ignored, and the output consists\n"
 "of the environment variables that are referenced in SHELL-FORMAT, one per line.\n"
 msgstr ""
-"Dacă e folosit --variables, intrarea(input) standard este ignorată, iar ieşirea\n"
-"(output) va consta în variabilele de mediula care se face referire în\n"
-"FORMAT-SHELL, câte una pe linie.\n"
+"Dacă este folosită opțiunea „--variables”, intrarea standard este ignorată, iar ieșirea va\n"
+"consta în variabilele de mediu la care se face referire în FORMAT-SHELL, câte una pe linie.\n"
 
 #. TRANSLATORS: The first placeholder is the web address of the Savannah
 #. project of this package.  The second placeholder is the bug-reporting
@@ -188,34 +201,41 @@ msgid ""
 "Report bugs in the bug tracker at <%s>\n"
 "or by email to <%s>.\n"
 msgstr ""
+"Raportați erorile în sistemul de urmărire a erorilor la <%s>\n"
+"sau prin e-mail la <%s>.\n"
+"Raportați erorile de traducere la <translation-team-ro@lists.sourceforge.net>\n"
 
 #: src/envsubst.c:453
 #, c-format
 msgid "error while reading \"%s\""
-msgstr "eroare în citirea \"%s\""
+msgstr "eroare la citirea „%s”"
 
 #: src/envsubst.c:453
 msgid "standard input"
-msgstr "intrare(input) standard"
+msgstr "intrarea standard"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/gettext.c:143 src/ngettext.c:132
 msgid "Ulrich Drepper"
 msgstr "Ulrich Drepper"
 
+# R-GC, scrie:
+# acest mesaj, și următoarele, pot să fie
+# vizualizate, rulînd comanda:
+# «gettext --help».
 #: src/gettext.c:253
 #, c-format, no-wrap
 msgid ""
 "Usage: %s [OPTION] [[TEXTDOMAIN] MSGID]\n"
 "or:    %s [OPTION] -s [MSGID]...\n"
 msgstr ""
-"Folosire: %s [OPŢIUNE] [[DOMENIU_TEXT] MSGID]\n"
-"sau:    %s [OPŢIUNE] -s [MSGID]...\n"
+"Utilizare: %s [OPȚIUNE] [[DOMENIU_TEXT] MSGID]\n"
+"sau:    %s [OPȚIUNE] -s [MSGID]...\n"
 
 #: src/gettext.c:259
 #, c-format, no-wrap
 msgid "Display native language translation of a textual message.\n"
-msgstr "Afişează traducerea din limbă nativă a unui mesaj textual.\n"
+msgstr "Afișează traducerea în limba maternă a unui mesaj de text.\n"
 
 #: src/gettext.c:263
 #, c-format, no-wrap
@@ -225,22 +245,22 @@ msgstr "  -d, --domain=DOMENIU_TEXT   preia mesajele traduse din DOMENIU_TEXT\n"
 #: src/gettext.c:265 src/ngettext.c:230
 #, c-format
 msgid "  -c, --context=CONTEXT     specify context for MSGID\n"
-msgstr "  -c, --context=CONTEXT     specifică contextul pentru MSGID\n"
+msgstr "  -c, --context=CONTEXT       specifică contextul pentru MSGID\n"
 
 #: src/gettext.c:267 src/ngettext.c:232
 #, c-format
 msgid "  -e                        enable expansion of some escape sequences\n"
-msgstr "  -e                        activează expansiunea unor caractere de eludare\n"
+msgstr "  -e                          activează expansiunea unor caractere de eludare\n"
 
 #: src/gettext.c:269
 #, c-format
 msgid "  -n                        suppress trailing newline\n"
-msgstr "  -n                        evită noua linie de la sfârșit\n"
+msgstr "  -n                          elimină caracterul de linie nouă\n"
 
 #: src/gettext.c:271 src/ngettext.c:234
 #, c-format
 msgid "  -E                        (ignored for compatibility)\n"
-msgstr "  -E                        (ignorat pentru compatibilitate)\n"
+msgstr "  -E                          (ignorată pentru compatibilitate)\n"
 
 #: src/gettext.c:273
 #, c-format
@@ -249,12 +269,12 @@ msgid ""
 "                            to MSGID from TEXTDOMAIN\n"
 msgstr ""
 "  [DOMENIU_TEXT] MSGID        preia mesajul tradus ce corespunde\n"
-"                            lui MSGID din DOMENIU_TEXT\n"
+"                              lui MSGID din DOMENIU_TEXT\n"
 
 #: src/gettext.c:279 src/ngettext.c:245
 #, c-format
 msgid "  -h, --help                display this help and exit\n"
-msgstr "  -h, --help                  afișează acest ajutor și iese\n"
+msgstr "  -h, --help                  afișează acest mesaj de ajutor și iese\n"
 
 #: src/gettext.c:281 src/ngettext.c:247
 #, c-format
@@ -277,15 +297,19 @@ msgstr ""
 "variabila de mediu TEXTDOMAIN.  În cazul în care catalogul de mesaje nu\n"
 "este găsit în directorul obișnuit, o altă locație poate fi specificată în variabila de\n"
 "mediu TEXTDOMAINDIR.\n"
-"Când este folosit cu opțiunea -s programul se comportă precum comanda „echo”.\n"
-"Dar nu execută doar simpla copiere a argumentelor sale la stdout.  În schimb\n"
+"Când este folosit cu opțiunea „-s” programul se comportă precum comanda «echo».\n"
+"Dar nu execută doar simpla copiere a argumentelor sale la ieșirea standard.  În schimb\n"
 "sunt traduse acele mesaje care sunt găsite în catalogul selectat.\n"
 "Directorul de căutare standard: %s\n"
 
+# R-GC, scrie:
+# acest mesaj, și următoarele, pot să fie
+# vizualizate, rulînd comanda:
+# «ngettext --help».
 #: src/ngettext.c:218
 #, c-format, no-wrap
 msgid "Usage: %s [OPTION] [TEXTDOMAIN] MSGID MSGID-PLURAL COUNT\n"
-msgstr "Folosire: %s [OPŢIUNE] [DOMENIU_TEXT] MSGID MSGID-PLURAL NUMĂRARE\n"
+msgstr "Utilizare: %s [OPŢIUNE] [DOMENIU_TEXT] MSGID MSGID-PLURAL NUMĂRARE\n"
 
 #: src/ngettext.c:223
 #, c-format, no-wrap
@@ -293,7 +317,7 @@ msgid ""
 "Display native language translation of a textual message whose grammatical\n"
 "form depends on a number.\n"
 msgstr ""
-"Afişează traducerea din limba nativă a mesajului textual a cărui formă\n"
+"Afișează traducerea în limba maternă a unui mesaj textual a cărui formă\n"
 "gramaticală depinde de un număr.\n"
 
 #: src/ngettext.c:228
@@ -309,12 +333,12 @@ msgstr "  [DOMENIU_TEXT]              preia mesajul tradus din DOMENIU_TEXT\n"
 #: src/ngettext.c:238
 #, c-format
 msgid "  MSGID MSGID-PLURAL        translate MSGID (singular) / MSGID-PLURAL (plural)\n"
-msgstr "  MSGID MSGID-PLURAL        traduce MSGID (singular) / MSGID-PLURAL (plural)\n"
+msgstr "  MSGID MSGID-PLURAL          traduce MSGID (singular) / MSGID-PLURAL (plural)\n"
 
 #: src/ngettext.c:240
 #, c-format
 msgid "  COUNT                     choose singular/plural form based on this value\n"
-msgstr "  CONTOR                     alege forma de singular/plural pe baza acestei valori \n"
+msgstr "  CONTOR                      alege forma de singular/plural pe baza acestei valori \n"
 
 #: src/ngettext.c:251
 #, c-format, no-wrap
@@ -327,6 +351,6 @@ msgid ""
 msgstr ""
 "Dacă nu este furnizat parametrul DOMENIU_TEXT, domeniul este determinat din\n"
 "variabila de mediu TEXTDOMAIN.  În cazul în care catalogul de mesaje nu\n"
-"este găsit în directorul obişnuit, o altă locaţie poate fi specificată în variabila de\n"
+"este găsit în directorul obișnuit, o altă locație poate fi specificată în variabila de\n"
 "mediu TEXTDOMAINDIR.\n"
 "Directorul de căutare standard: %s\n"
