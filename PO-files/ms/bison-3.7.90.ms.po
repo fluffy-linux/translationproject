@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2022-05-12 09:50+0800\n"
+"PO-Revision-Date: 2022-06-09 23:16+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1\n"
 
 #: examples/c/bistromathic/parse.y:152 examples/java/calc/Calc.y:83
 msgid "number"
@@ -96,32 +96,30 @@ msgid "end of line"
 msgstr "Akhir dari baris"
 
 #: src/complain.c:153
+#, fuzzy
 msgid "S/R conflicts (enabled by default)"
-msgstr ""
+msgstr "konflik R/R (dihidupkan secara default)"
 
 #: src/complain.c:154
-#, fuzzy
 msgid "R/R conflicts (enabled by default)"
-msgstr "Warna latar belakang asal formspec (R,G,B)."
+msgstr "konflik R/R (dihidupkan secara default)"
 
 #: src/complain.c:155 src/getargs.c:214
-#, fuzzy
 msgid "generate conflict counterexamples"
-msgstr "Konflik"
+msgstr "jana contoh balas konflik"
 
 #: src/complain.c:156
 msgid "string aliases not attached to a symbol"
 msgstr ""
 
 #: src/complain.c:157
-#, fuzzy
 msgid "obsolete constructs"
-msgstr "Dilupuskan Oleh"
+msgstr "binaan usang"
 
 #: src/complain.c:158
-#, fuzzy, c-format
+#, c-format
 msgid "empty rules without %empty"
-msgstr "hukum kosong tanpa %%empty"
+msgstr "hukum kosong tanpa %empty"
 
 #: src/complain.c:159
 msgid "unset or unused midrule values"
@@ -227,7 +225,7 @@ msgstr "dijangka %1$s atau %2$s atau %3$s sebelum %0$s"
 
 #: src/complain.c:652
 msgid "expected %1$s or %2$s or %3$s or %4$s before %0$s"
-msgstr ""
+msgstr "dijangka %1$s atau %2$s atau %3$s atau %4$s sebelum %0$s"
 
 #: src/conflicts.c:88
 #, c-format
