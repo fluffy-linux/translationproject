@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2022-06-09 23:16+0800\n"
+"PO-Revision-Date: 2022-07-05 11:12+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -38,21 +38,17 @@ msgid "error: division by zero"
 msgstr "dibahagi dengan sifar"
 
 #: examples/c/bistromathic/parse.y:372
-#, fuzzy, c-format
-#| msgid "invalid character"
-#| msgid_plural "invalid characters"
+#, c-format
 msgid "syntax error: invalid character: %c"
-msgstr "Aksara tidak sah \"%c\" pada komen."
+msgstr "ralat sintaks: aksara tidak sah: %c"
 
 #: examples/c/bistromathic/parse.y:389
-#, fuzzy
 msgid "%@: syntax error"
-msgstr "Ralat sintaks"
+msgstr "%@: ralat sintaks"
 
 #: examples/c/bistromathic/parse.y:390
-#, fuzzy
 msgid "%@: syntax error: unexpected %u"
-msgstr "ralat sintaks, tidak menjangka %s"
+msgstr "%@: ralat sintaks: tidak menjangka %u"
 
 #. TRANSLATORS: '%@' is a location in a file, '%u' is an
 #. "unexpected token", and '%0e', '%1e'... are expected tokens
@@ -90,15 +86,12 @@ msgid "%@: syntax error: expected %0e or %1e or %2e or %3e or %4e or %5e etc., b
 msgstr ""
 
 #: examples/java/calc/Calc.y:81
-#, fuzzy
-#| msgid "missing %s at end of line"
 msgid "end of line"
-msgstr "Akhir dari baris"
+msgstr "hujung baris"
 
 #: src/complain.c:153
-#, fuzzy
 msgid "S/R conflicts (enabled by default)"
-msgstr "konflik R/R (dihidupkan secara default)"
+msgstr "konflik S/R (dihidupkan secara default)"
 
 #: src/complain.c:154
 msgid "R/R conflicts (enabled by default)"
