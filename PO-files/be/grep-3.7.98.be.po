@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: grep-3.7.98\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2022-07-02 14:59-0700\n"
-"PO-Revision-Date: 2022-07-21 21:04+0300\n"
+"PO-Revision-Date: 2022-08-01 21:57+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -59,7 +59,7 @@ msgstr "сынтаксіс клясы сымбаляў [[:space:]], а не [:sp
 
 #: lib/dfa.c:1209
 msgid "unfinished \\ escape"
-msgstr "незавершаная \\ кіруючая пасьлядоўнасьць"
+msgstr "незавершаная \\ экраніруючая пасьлядоўнасьць"
 
 #: lib/dfa.c:1319
 msgid "? at start of expression"
@@ -87,7 +87,7 @@ msgstr "занадта вялікі рэгулярны выраз"
 
 #: lib/dfa.c:1555
 msgid "stray \\ before unprintable character"
-msgstr "залішні \\ перад недрукаваным сімвалам"
+msgstr "залішні \\ перад недрукаваным сымбалем"
 
 #: lib/dfa.c:1557
 msgid "stray \\ before white space"
@@ -160,7 +160,7 @@ msgstr "памяць вычарпана"
 #: lib/openat-die.c:38
 #, c-format
 msgid "unable to record current working directory"
-msgstr "немагчыма захаваць бягучы рабочы каталёг"
+msgstr "нельга захаваць бягучы рабочы каталёг"
 
 #: lib/openat-die.c:57
 #, c-format
@@ -300,7 +300,8 @@ msgid ""
 msgstr ""
 "Ліцэнзія GPLv3+: GNU GPL вэрсіі 3 або навей <%s>.\n"
 "Гэта свабоднае праграмнае забесьпячэньне: вы можаце вольна зьмяняць і\n"
-"распаўсюджваць яго. Няма НІЯКІХ ГАРАНТЫЙ у межах дзеючага заканадаўства.\n"
+"распаўсюджваць яго.\n"
+"Няма НІЯКІХ ГАРАНТЫЙ у межах дзеючага заканадаўства.\n"
 
 #. TRANSLATORS: %s denotes an author name.
 #: lib/version-etc.c:105
@@ -417,12 +418,12 @@ msgstr ""
 #: lib/version-etc.c:249
 #, c-format
 msgid "Report bugs to: %s\n"
-msgstr "Аб памылках паведамляйце на: %s\n"
+msgstr "Паведамляйце пра памылкі на: %s\n"
 
 #: lib/version-etc.c:251
 #, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr "Аб памылках у %s паведамляйце на: %s\n"
+msgstr "Паведамляйце пра памылкі ў %s на: %s\n"
 
 #: lib/version-etc.c:255 lib/version-etc.c:257
 #, c-format
@@ -560,8 +561,8 @@ msgstr ""
 "\n"
 "Кіраваньне вывадам:\n"
 "  -m, --max-count=НУМ       спыніцца пасьля НУМ радкоў\n"
-"  -b, --byte-offset         друкаваць байтавае зрушэньне з выхаднымі радкамі\n"
-"  -n, --line-number         друкаваць нумар радка з вываднымі радкамі\n"
+"  -b, --byte-offset         друкаваць байтавае зрушэньне з радкамі вываду\n"
+"  -n, --line-number         друкаваць нумар радка з радкамі вываду\n"
 "      --line-buffered       ачысьціць буфэр пасьля кожнага радка\n"
 "  -H, --with-filename       друкаваць назву файла разам з радкамі вываду\n"
 "  -h, --no-filename         падаўляць назвы файлаў на вывадзе\n"
