@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2022-07-05 11:12+0800\n"
+"PO-Revision-Date: 2022-08-08 23:53+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: examples/c/bistromathic/parse.y:152 examples/java/calc/Calc.y:83
 msgid "number"
@@ -28,14 +28,12 @@ msgid "function"
 msgstr "fungsi"
 
 #: examples/c/bistromathic/parse.y:155
-#, fuzzy
 msgid "variable"
 msgstr "pembolehubah"
 
 #: examples/c/bistromathic/parse.y:194
-#, fuzzy
 msgid "error: division by zero"
-msgstr "dibahagi dengan sifar"
+msgstr "ralat: pembahagian dengan sifar"
 
 #: examples/c/bistromathic/parse.y:372
 #, c-format
@@ -102,8 +100,9 @@ msgid "generate conflict counterexamples"
 msgstr "jana contoh balas konflik"
 
 #: src/complain.c:156
+#, fuzzy
 msgid "string aliases not attached to a symbol"
-msgstr ""
+msgstr "rentetan literal %s tidak dikepilkan pada simbol"
 
 #: src/complain.c:157
 msgid "obsolete constructs"
@@ -1241,7 +1240,7 @@ msgstr "simbol %s ditakrif semula"
 #: src/symtab.c:591
 #, c-format
 msgid "nonterminals cannot be given a token code"
-msgstr ""
+msgstr "bukan terminal tidak boleh diberi kod token"
 
 #: src/symtab.c:594
 #, c-format
@@ -1256,7 +1255,7 @@ msgstr "kod bagi token %s terlalu besar"
 #: src/symtab.c:634
 #, c-format
 msgid "string literal %s not attached to a symbol"
-msgstr ""
+msgstr "rentetan literal %s tidak dikepilkan pada simbol"
 
 #: src/symtab.c:662
 #, c-format
@@ -1271,7 +1270,7 @@ msgstr "jenis <%s> digunakan, tetapi tidak dihubungkan ke sebarang simbol"
 #: src/symtab.c:712
 #, c-format
 msgid "nonterminals cannot be given a string alias"
-msgstr ""
+msgstr "bukan terminal tidak boleh diberi alias rentetan"
 
 #: src/symtab.c:715
 #, c-format
