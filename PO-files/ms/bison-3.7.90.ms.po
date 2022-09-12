@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2022-08-08 23:53+0800\n"
+"PO-Revision-Date: 2022-09-12 15:46+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -100,9 +100,8 @@ msgid "generate conflict counterexamples"
 msgstr "jana contoh balas konflik"
 
 #: src/complain.c:156
-#, fuzzy
 msgid "string aliases not attached to a symbol"
-msgstr "rentetan literal %s tidak dikepilkan pada simbol"
+msgstr "alias rentetan tidak dikepilkan pada simbol"
 
 #: src/complain.c:157
 msgid "obsolete constructs"
@@ -131,7 +130,7 @@ msgstr ""
 
 #: src/complain.c:163
 msgid "all the warnings except 'counterexamples', 'dangling-alias' and 'yacc'"
-msgstr ""
+msgstr "semua amaran kecuali 'counterexamples', 'dangling-alias' dan 'yacc'"
 
 #: src/complain.c:164
 msgid "turn off warnings in CATEGORY"
@@ -293,7 +292,7 @@ msgstr[0] "%d pengurangan/pengurangan konflik"
 
 #: src/conflicts.c:755
 msgid "rerun with option '-Wcounterexamples' to generate conflict counterexamples"
-msgstr ""
+msgstr "jalankan semula dengan pilihan '-Wcounterexamples' untuk menjana contoh balas konflik"
 
 #: src/counterexample.c:122 src/counterexample.c:124
 msgid "Example"
@@ -514,6 +513,11 @@ msgid ""
 "      --style=FILE           specify the CSS FILE for colorizer diagnostics\n"
 "\n"
 msgstr ""
+"Pemeriksaan:\n"
+"  -W, --warnings[=CATEGORY]  lapor amaran yang jatuh dalam CATEGORY\n"
+"      --color[=WHEN]         sama ada henda mewarnakan pemeriksaan\n"
+"      --style=FILE           nyatakan FAIL CSS untuk pewarnaan pemeriksaan\n"
+"\n"
 
 #: src/getargs.c:409
 #, c-format
@@ -1230,7 +1234,7 @@ msgstr "simbol %s digunakan, tetapi tidak ditakrifkan sebagai token atau mempuny
 #: src/symtab.c:537
 #, c-format
 msgid "POSIX yacc reserves %%type to nonterminals"
-msgstr ""
+msgstr "Rizab yacc POSIX %%type ke bukan terminal"
 
 #: src/symtab.c:567
 #, c-format
