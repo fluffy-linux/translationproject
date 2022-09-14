@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: grep-3.7.98\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2022-07-02 14:59-0700\n"
-"PO-Revision-Date: 2022-08-01 21:57+0300\n"
+"PO-Revision-Date: 2022-09-14 03:08+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Emacs 28.1, po mode 2.27\n"
+"X-Generator: Emacs 28.2, po mode 2.27\n"
 
 #: lib/argmatch.c:147
 #, c-format
@@ -203,7 +203,7 @@ msgstr "»"
 
 #: lib/regcomp.c:122
 msgid "Success"
-msgstr "Поспех"
+msgstr "Посьпех"
 
 #: lib/regcomp.c:125
 msgid "No match"
@@ -418,7 +418,9 @@ msgstr ""
 #: lib/version-etc.c:249
 #, c-format
 msgid "Report bugs to: %s\n"
-msgstr "Паведамляйце пра памылкі на: %s\n"
+msgstr ""
+"Паведамляйце пра памылкі на: %s\n"
+"Паведамляйце пра памылкі перакладу на: debian-l10n-belarusian@lists.debian.org\n"
 
 #: lib/version-etc.c:251
 #, c-format
@@ -491,9 +493,9 @@ msgid ""
 "Pattern selection and interpretation:\n"
 msgstr ""
 "Прыклад: %s -i 'hello world' menu.h main.c\n"
-"Запіс УЗОРЫ можа зьмяшчаць некалькі ўзораў, падзеленых сымбалямі новага радка.\n"
+"УЗОРЫ могуць зьмяшчаць некалькі ўзораў, падзеленых сымбалямі новага радка.\n"
 "\n"
-"Выбар узору і інтэрпрэтацыя:\n"
+"Выбар узору й інтэрпрэтацыя:\n"
 
 #: src/grep.c:1985
 #, c-format
@@ -503,10 +505,10 @@ msgid ""
 "  -G, --basic-regexp        PATTERNS are basic regular expressions\n"
 "  -P, --perl-regexp         PATTERNS are Perl regular expressions\n"
 msgstr ""
-"  -E, --extended-regexp     УЗОРЫ ёсьць пашыраныя рэгулярныя выразы\n"
-"  -F, --fixed-strings       УЗОРЫ ёсьць звычайныя радкі\n"
-"  -G, --basic-regexp        УЗОРЫ ёсьць базавыя рэгулярныя выразы\n"
-"  -P, --perl-regexp         УЗОРЫ ёсьць рэгулярныя выразы Perl\n"
+"  -E, --extended-regexp     УЗОРЫ — пашыраныя рэгулярныя выразы\n"
+"  -F, --fixed-strings       УЗОРЫ — звычайныя радкі\n"
+"  -G, --basic-regexp        УЗОРЫ — базавыя рэгулярныя выразы\n"
+"  -P, --perl-regexp         УЗОРЫ — рэгулярныя выразы Perl\n"
 
 #: src/grep.c:1991
 #, c-format
@@ -526,7 +528,7 @@ msgstr ""
 "  -w, --word-regexp         супастаўляць цэламу слову\n"
 "  -x, --line-regexp         супастаўляць цэламу радку\n"
 "  -z, --null-data           радок дадзеных падзелены нулявым байтам,\n"
-"                            а не сымбалем пераводу радка\n"
+"                            а ня сымбалем пераводу радка\n"
 
 #: src/grep.c:1999
 #, c-format
@@ -540,10 +542,10 @@ msgid ""
 msgstr ""
 "\n"
 "Разнастайныя:\n"
-"  -s, --no-messages         падаўляць паведамленьні пра памылкі\n"
-"  -v, --invert-match        выбіраць не супастаўныя радкі\n"
-"  -V, --version             адлюстраваць зьвесткі пра вэрсію і выйсьці\n"
-"      --help                адлюстраваць гэтую даведку і выйсьці\n"
+"  -s, --no-messages         заглушаць паведамленьні аб памылках\n"
+"  -v, --invert-match        выбіраць несупастаўныя радкі\n"
+"  -V, --version             адлюстраваць зьвесткі аб вэрсіі й выйсьці\n"
+"      --help                адлюстраваць гэтую даведку й выйсьці\n"
 
 #: src/grep.c:2006
 #, c-format
@@ -560,12 +562,12 @@ msgid ""
 msgstr ""
 "\n"
 "Кіраваньне вывадам:\n"
-"  -m, --max-count=НУМ       спыніцца пасьля НУМ радкоў\n"
+"  -m, --max-count=ЛІК       спыніцца пасьля ЛІК радкоў\n"
 "  -b, --byte-offset         друкаваць байтавае зрушэньне з радкамі вываду\n"
 "  -n, --line-number         друкаваць нумар радка з радкамі вываду\n"
-"      --line-buffered       ачысьціць буфэр пасьля кожнага радка\n"
+"      --line-buffered       скідваць буфэр пасьля кожнага радка\n"
 "  -H, --with-filename       друкаваць назву файла разам з радкамі вываду\n"
-"  -h, --no-filename         падаўляць назвы файлаў на вывадзе\n"
+"  -h, --no-filename         заглушаць назвы файлаў на вывадзе\n"
 "      --label=МЕТКА         выкарыстоўваць МЕТКА ў якасьці назвы файла для\n"
 "                            стандартнага ўводу\n"
 
@@ -579,7 +581,7 @@ msgid ""
 "  -a, --text                equivalent to --binary-files=text\n"
 msgstr ""
 "  -o, --only-matching       паказваць толькі адпаведныя непустыя часткі радкоў\n"
-"  -q, --quiet, --silent     падавіць увесь звычайны вывад\n"
+"  -q, --quiet, --silent     заглушаць увесь звычайны вывад\n"
 "      --binary-files=ТЫП    лічыць, што двайковыя файлы маюць ТЫП;\n"
 "                            ТЫП можа быць «binary», «text» ці «without-match»\n"
 "  -a, --text                раўназначна --binary-files=text\n"
@@ -600,10 +602,10 @@ msgstr ""
 "                              ДЗЕЯНЬНЕ можа быць  «read» (чытаць),\n"
 "                              «recurse» (рэкурсыўна абходзіць)\n"
 "                              ці  «skip» (абмінаць)\n"
-"  -D, --devices=ДЗЕЯНЬНЕ    як апрацоўваць файлы прылад, FIFO і сокеты;\n"
+"  -D, --devices=ДЗЕЯНЬНЕ    як апрацоўваць файлы прылад, FIFO й сокеты;\n"
 "                            ДЗЕЯНЬНЕ можа быць  «read» (чытаць)\n"
 "                            ці  «skip» (абмінаць)\n"
-"  -r, --recursive           тое ж, што і --directories=recurse\n"
+"  -r, --recursive           тое ж, што й --directories=recurse\n"
 "  -R, --dereference-recursive  гэтак жа, але з пераходам па ўсім сымбалічным\n"
 "                               спасылкам\n"
 
@@ -638,7 +640,7 @@ msgstr ""
 "  -c, --count               надрукаваць толькі колькасьць выбраных радкоў\n"
 "                            да ФАЙЛа\n"
 "  -T, --initial-tab         выраўнаваць табуляцыяй (калі патрэбна)\n"
-"  -Z, --null                друкаваць байт 0 пасьля назвы ФАЙЛа\n"
+"  -Z, --null                друкаваць байт «0» пасьля назвы ФАЙЛа\n"
 
 #: src/grep.c:2046
 #, c-format
@@ -651,9 +653,9 @@ msgid ""
 msgstr ""
 "\n"
 "Кіраваньне кантэкстам:\n"
-"  -B, --before-context=НУМ  надрукаваць НУМ радкоў папярэдняга кантэксту\n"
-"  -A, --after-context=НУМ   надрукаваць НУМ радкоў наступнага кантэксту\n"
-"  -C, --context=НУМ         надрукаваць НУМ выходнага кантэксту\n"
+"  -B, --before-context=ЛІК  надрукаваць ЛІК радкоў папярэдняга кантэксту\n"
+"  -A, --after-context=ЛІК   надрукаваць ЛІК радкоў наступнага кантэксту\n"
+"  -C, --context=ЛІК         надрукаваць ЛІК выходнага кантэксту\n"
 
 #: src/grep.c:2053
 #, c-format
@@ -667,7 +669,7 @@ msgid ""
 "  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)\n"
 "\n"
 msgstr ""
-"  -НУМАР                    тое ж, што і --context=НУМ\n"
+"  -NUM                      тое ж, што й --context=ЛІК\n"
 "      --group-separator=РАЗ  надрукаваць РАЗ у радку паміж супадзеньнямі\n"
 "                             з кантэкстам\n"
 "      --no-group-separator  не друкаваць разьдзяляльнік паміж\n"
@@ -690,10 +692,10 @@ msgid ""
 "if any error occurs and -q is not given, the exit status is 2.\n"
 msgstr ""
 "Калі ў якасьці ФАЙЛа пазначаны сымбаль «-», тады чытаецца стандартны ўвод.\n"
-"Калі ФАЙЛ не вызначаны, то чытаецца «.» у рэкурсіўным рэжыме, інакш «-». \n"
-"Калі вызначаны менш чым два ФАЙЛа, тады мяркуецца -h.\n"
+"Калі ФАЙЛ ня вызначаны, то чытаецца «.» у рэкурсіўным рэжыме, інакш «-». \n"
+"Калі вызначаны менш чым два ФАЙЛы, тады мяркуецца -h.\n"
 "Код завяршэньня 0 — калі знойдзены супадзеньні любога радка, 1 - калі іх няма,\n"
-"2 - калі адбылася памылка і не выкарыстоўвалася опцыя -q .\n"
+"2 - калі адбылася памылка й не выкарыстоўвалася опцыя -q .\n"
 
 #: src/grep.c:2104
 msgid "conflicting matchers specified"
@@ -738,11 +740,11 @@ msgstr ""
 msgid "warning: GREP_COLOR='%s' is deprecated; use GREP_COLORS='mt=%s'"
 msgstr ""
 "папярэджаньне: GREP_COLOR=«%s» састарэла;\n"
-"               карыстайцеся GREP_COLORS=«mt=%s»"
+"               выкарыстоўвайце GREP_COLORS=«mt=%s»"
 
 #: src/pcresearch.c:148
 msgid "-P supports only unibyte and UTF-8 locales"
-msgstr "опцыя -P падтрымлівае толькі аднабайтавыя лакалі і UTF-8"
+msgstr "опцыя -P падтрымлівае толькі аднабайтавыя ды UTF-8 лякалі"
 
 #: src/pcresearch.c:162
 msgid "the -P option only supports a single pattern"
@@ -770,12 +772,12 @@ msgstr "%s: вычарпаны стэк JIT PCRE"
 #: src/pcresearch.c:337
 #, c-format
 msgid "%s: exceeded PCRE's backtracking limit"
-msgstr "%s: перавышаны ліміт пошуку з вяртаньнем у PCRE"
+msgstr "%s: перавышаны ліміт пошуку зь вяртаньнем у PCRE"
 
 #: src/pcresearch.c:342
 #, c-format
 msgid "%s: exceeded PCRE's nested backtracking limit"
-msgstr "%s: перавышаны ліміт укладзенага пошуку з вяртаньнем у PCRE"
+msgstr "%s: перавышаны ліміт укладзенага пошуку зь вяртаньнем у PCRE"
 
 #: src/pcresearch.c:346
 #, c-format
