@@ -6,13 +6,13 @@
 # Christer Andersson <klamm@comhem.se>, 2007.
 # Göran Uddeborg <goeran@uddeborg.se>, 2011, 2013, 2014, 2016, 2019, 2020, 2022.
 #
-# $Id: make.po,v 1.29 2022-09-27 09:54:57+02 göran Exp $
+# $Id: make.po,v 1.30 2022-10-03 10:37:55+02 göran Exp $
 msgid ""
 msgstr ""
 "Project-Id-Version: make 4.3.90\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2022-09-20 13:43-0400\n"
-"PO-Revision-Date: 2022-09-27 09:53+0200\n"
+"PO-Revision-Date: 2022-10-03 10:37+0200\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -69,7 +69,7 @@ msgstr "kan inte öppna biblioteket ”%s” för att slå upp medlemsstatus %d"
 #: src/arscan.c:397
 #, c-format
 msgid "Invalid %s for archive %s member %s"
-msgstr "Felaktig %s fär arkivet %s medlemmen %s"
+msgstr "Felaktig %s för arkivet %s medlemmen %s"
 
 #: src/arscan.c:973
 #, c-format
@@ -256,7 +256,7 @@ msgstr "Tar bort mellanfiler …\n"
 #: src/file.c:835
 #, c-format
 msgid "%s cannot be both .NOTINTERMEDIATE and .INTERMEDIATE"
-msgstr "%s kan inte var både .NOTINTERMEDIATE och .INTERMEDIATE"
+msgstr "%s kan inte vara både .NOTINTERMEDIATE och .INTERMEDIATE"
 
 #: src/file.c:850
 #, c-format
