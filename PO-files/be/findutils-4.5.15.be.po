@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: findutils 4.5.15\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2015-12-18 14:45+0000\n"
-"PO-Revision-Date: 2022-08-23 02:35+0300\n"
+"PO-Revision-Date: 2022-10-25 01:19+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Emacs 28.1, po mode 2.27\n"
+"X-Generator: Emacs 28.2, po mode 2.27\n"
 
 #: find/exec.c:136
 #, c-format
@@ -28,7 +28,7 @@ msgstr "Не атрымалася захаваць рабочы каталёг, 
 #: find/exec.c:256
 #, c-format
 msgid "Cannot close standard input"
-msgstr "Немагчыма закрыць стандартны паток уводу"
+msgstr "Немагчыма закрыць стандартны ўвод"
 
 #: find/exec.c:285
 #, c-format
@@ -156,12 +156,12 @@ msgstr "не атрымалася аднавіць рабочы каталёг �
 #: find/parser.c:452
 #, c-format
 msgid "The -delete action automatically turns on -depth, but -prune does nothing when -depth is in effect.  If you want to carry on anyway, just explicitly use the -depth option."
-msgstr "Дзеяньне -delete аўтаматычна ўключае -depth; а -prune нічога ня робіць, калі дзейнічае -depth.  Калі вы ўсё роўна хочаце працягнуць, проста выкарыстоўвайце опцыю -depth яўна."
+msgstr "Дзеяньне -delete аўтаматычна ўключае -depth, але -prune нічога ня робіць, калі дзейнічае -depth.  Калі вы ўсё роўна хочаце працягнуць, проста выкарыстоўвайце опцыю -depth яўна."
 
 #: find/parser.c:599
 #, c-format
 msgid "warning: you have specified the %s option after a non-option argument %s, but options are not positional (%s affects tests specified before it as well as those specified after it).  Please specify options before other arguments.\n"
-msgstr "папярэджаньне: вы адзначылі опцыю %s пасьля звычайнага аргумэнта %s,  але опцыі не зьяўляюцца пазыцыйнымі (%s уплывае як на тэсты, адзначаныя перад ім, так і на тыя, якія адзначаны пасьля яго).  Калі ласка, адзначайце опцыі перад іншымі аргумэнтамі.\n"
+msgstr "папярэджаньне: вы адзначылі опцыю %s пасьля звычайнага аргумэнта %s, але опцыі не зьяўляюцца пазыцыйнымі (%s уплывае як на тэсты, адзначаныя перад ім, так і на тыя, якія адзначаны пасьля яго).  Калі ласка, адзначайце опцыі перад іншымі аргумэнтамі.\n"
 
 #: find/parser.c:906
 #, c-format
@@ -619,7 +619,7 @@ msgstr "не ўдалося аднавіць пачатковы рабочы к�
 #: find/util.c:824
 #, c-format
 msgid "Ignoring unrecognised debug flag %s"
-msgstr "Ігнараваньне нераспазнанага знака адладкі %s"
+msgstr "Ігнараваньне нераспазнанага фляжка адладкі %s"
 
 #: find/util.c:831
 #, c-format
@@ -1447,7 +1447,7 @@ msgstr "не атрымалася ўстанавіць зьменную асяр
 #: xargs/xargs.c:1230
 #, c-format
 msgid "could not create pipe before fork"
-msgstr "не ўдалася стварыць пайп перад форкам"
+msgstr "не ўдалося стварыць пайп перад форкам"
 
 #: xargs/xargs.c:1301
 #, c-format
