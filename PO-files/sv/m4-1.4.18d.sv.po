@@ -1,44 +1,44 @@
 # Swedish messages for m4
-# Copyright © 1999, 2001, 2017 Free Software Foundation, Inc.
+# Copyright © 1999, 2001, 2017, 2022 Free Software Foundation, Inc.
 # This file is distributed under the same license as the m4 package.
 # Jan Djärv <Jan.Djarv@mbox200.swipnet.se>, 1999, 2001.
 # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017.
+# Sebastian Rasmussen <sebras@gmail.com>, 2022.
 # Revision: 1.13
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: m4 1.4o\n"
+"Project-Id-Version: m4 1.4.18d\n"
 "Report-Msgid-Bugs-To: bug-m4@gnu.org\n"
 "POT-Creation-Date: 2021-05-11 09:07-0500\n"
-"PO-Revision-Date: 2017-06-10 11:24+0200\n"
-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"PO-Revision-Date: 2022-10-26 23:22+0200\n"
+"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: lib/clean-temp.c:235
-#, fuzzy, c-format
+#, c-format
 msgid "cannot find a temporary directory, try setting $TMPDIR"
-msgstr "kan inte skapa temporärfil: %s"
+msgstr "kan inte hitta en temporärkatalog, prova att sätta $TMPDIR"
 
 #: lib/clean-temp.c:250
-#, fuzzy, c-format
+#, c-format
 msgid "cannot create a temporary directory using template \"%s\""
-msgstr "kan inte skapa temporärfil: %s"
+msgstr "kan inte skapa en temporärkatalog med mall ”%s”"
 
 #: lib/clean-temp.c:371
-#, fuzzy, c-format
+#, c-format
 msgid "cannot remove temporary directory %s"
-msgstr "kan inte skapa temporärfil: %s"
+msgstr "kan inte ta bort temporärkatalog %s"
 
 #: lib/closein.c:100
-#, fuzzy
 msgid "error closing file"
-msgstr "fel vid stängning av utfilen"
+msgstr "fel vid stängning av fil"
 
 #: lib/closeout.c:122
 msgid "write error"
@@ -53,9 +53,9 @@ msgid "stack overflow"
 msgstr "stacköverspill"
 
 #: lib/clean-temp-simple.c:297
-#, fuzzy, c-format
+#, c-format
 msgid "cannot remove temporary file %s"
-msgstr "kan inte skapa temporärfil: %s"
+msgstr "kan inte ta bort temporärfil %s"
 
 #: lib/error.c:195
 msgid "Unknown system error"
@@ -63,9 +63,9 @@ msgstr "Okänt systemfel"
 
 #: lib/execute.c:348 lib/spawn-pipe.c:597 lib/wait-process.c:291
 #: lib/wait-process.c:365
-#, fuzzy, c-format
+#, c-format
 msgid "%s subprocess failed"
-msgstr "cap_set_proc misslyckades"
+msgstr "%s underprocess misslyckades"
 
 #: lib/getopt.c:278
 #, c-format
@@ -117,14 +117,14 @@ msgid "failed to return to initial working directory"
 msgstr "misslyckades med att återvända till ursprunglig arbetskatalog"
 
 #: lib/os2-spawn.c:46
-#, fuzzy, c-format
+#, c-format
 msgid "_open_osfhandle failed"
-msgstr "läsning av ELF-huvud misslyckades"
+msgstr "_open_osfhandle misslyckades"
 
 #: lib/os2-spawn.c:83
 #, c-format
 msgid "cannot restore fd %d: dup2 failed"
-msgstr ""
+msgstr "kan inte återställa fd %d: dup2 misslyckades"
 
 # Då det skulle krävas att spara hela filen i UTF-8 för att kunna göra
 # detta rätt, känns det inte värt det. Speciellt eftersom funktionen
@@ -369,9 +369,9 @@ msgstr "Förlorad resurs"
 
 #: lib/spawn-pipe.c:217 lib/spawn-pipe.c:220 lib/spawn-pipe.c:459
 #: lib/spawn-pipe.c:462
-#, fuzzy, c-format
+#, c-format
 msgid "cannot create pipe"
-msgstr "kan inte skapa omfångslista"
+msgstr "kan inte skapa rör"
 
 #: lib/strsignal.c:114
 #, c-format
@@ -384,9 +384,9 @@ msgid "Unknown signal %d"
 msgstr "Okänd signal %d"
 
 #: lib/verror.c:76
-#, fuzzy, c-format
+#, c-format
 msgid "unable to display error message"
-msgstr "kan inte avallokera argument"
+msgstr "kan inte visa felmeddelande"
 
 #: lib/version-etc.c:73
 #, c-format
@@ -554,119 +554,118 @@ msgid "General help using GNU software: <%s>\n"
 msgstr "Allmän hjälp för GNU-programvara: <%s>\n"
 
 #: lib/wait-process.c:232 lib/wait-process.c:264 lib/wait-process.c:326
-#, fuzzy, c-format
+#, c-format
 msgid "%s subprocess"
-msgstr "Processen finns inte"
+msgstr "%s underprocess"
 
 #: lib/wait-process.c:283 lib/wait-process.c:355
-#, fuzzy, c-format
+#, c-format
 msgid "%s subprocess got fatal signal %d"
-msgstr "cap_set_proc misslyckades"
+msgstr "%s underprocess fick ödesdiger signal %d"
 
 #: lib/xprintf.c:50 lib/xprintf.c:76
-#, fuzzy, c-format
+#, c-format
 msgid "cannot perform formatted output"
-msgstr "kan inte generera utfil"
+msgstr "kan inte utföra formaterad utdata"
 
 #: src/builtin.c:264
-#, fuzzy, c-format
+#, c-format
 msgid "--warn-macro-sequence: bad regular expression `%s': %s"
-msgstr "Otillåtet reguljäruttryck \"%s\": %s"
+msgstr "--warn-macro-sequence: felaktigt reguljärtuttryck ”%s”: %s"
 
 #: src/builtin.c:320
 #, c-format
 msgid "Warning: definition of `%s' contains sequence `%s'"
-msgstr ""
+msgstr "Varning: definition av ”%s” innehåller sekvens ”%s”"
 
 #: src/builtin.c:327
 #, c-format
 msgid "error checking --warn-macro-sequence for macro `%s'"
-msgstr ""
+msgstr "fel vid kontroll av --warn-macro-sequence för makro ”%s”"
 
 #: src/builtin.c:388
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: too few arguments to builtin `%s'"
-msgstr "Varning: För få argument till inbyggt makro \"%s\""
+msgstr "Varning: för få argument till inbyggt makro ”%s”"
 
 #: src/builtin.c:394
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: excess arguments to builtin `%s' ignored"
-msgstr "Varning: Överskottsargument till inbyggt makro \"%s\" ignorerade"
+msgstr "Varning: överskottsargument till inbyggt makro ”%s” ignorerade"
 
 #: src/builtin.c:415 src/builtin.c:1114
-#, fuzzy, c-format
+#, c-format
 msgid "empty string treated as 0 in builtin `%s'"
-msgstr "Ickenumeriskt argument till inbyggt makro \"%s\""
+msgstr "tom sträng behandlad som 0 i inbyggt makro ”%s”"
 
 #: src/builtin.c:425 src/builtin.c:1243
-#, fuzzy, c-format
+#, c-format
 msgid "non-numeric argument to builtin `%s'"
-msgstr "Ickenumeriskt argument till inbyggt makro \"%s\""
+msgstr "ickenumeriskt argument till inbyggt makro ”%s”"
 
 #: src/builtin.c:431
-#, fuzzy, c-format
+#, c-format
 msgid "leading whitespace ignored in builtin `%s'"
-msgstr "Ickenumeriskt argument till inbyggt makro \"%s\""
+msgstr "inledande blanksteg ignorerade i inbyggt makro ”%s”"
 
 #: src/builtin.c:435
-#, fuzzy, c-format
+#, c-format
 msgid "numeric overflow detected in builtin `%s'"
-msgstr "Ickenumeriskt argument till inbyggt makro \"%s\""
+msgstr "numeriskt överspill identifierat i inbyggt makro ”%s”"
 
 #: src/builtin.c:552 src/builtin.c:815 src/builtin.c:856
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: %s: invalid macro name ignored"
-msgstr "ogiltigt tecken: meddelandet ignorerat"
+msgstr "Varning: %s: ogiltig makronamn ignorerat"
 
 #: src/builtin.c:752 src/builtin.c:864
-#, fuzzy, c-format
+#, c-format
 msgid "undefined macro `%s'"
-msgstr "Odefinierat namn \"%s\""
+msgstr "odefinierat makro ”%s”"
 
 #: src/builtin.c:823
-#, fuzzy, c-format
+#, c-format
 msgid "undefined builtin `%s'"
-msgstr "Odefinierat namn \"%s\""
+msgstr "odefinierat inbyggt makro ”%s”"
 
 #: src/builtin.c:914 src/builtin.c:2208
-#, fuzzy, c-format
+#, c-format
 msgid "builtin `%s' requested by frozen file is not supported"
-msgstr "%s: nästlade villkor stödjs ej"
+msgstr "inbyggt makro ”%s” begärt av fryst fil stöds ej"
 
 #: src/builtin.c:918
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: cannot concatenate builtin `%s'"
-msgstr "Varning: För få argument till inbyggt makro \"%s\""
+msgstr "Varning: kan inte konkatenera inbyggt makro ”%s”"
 
 #: src/builtin.c:978 src/builtin.c:1015 src/builtin.c:1028 src/builtin.c:1063
-#, fuzzy, c-format
+#, c-format
 msgid "cannot run command `%s'"
-msgstr "Kan inte skapa rör till kommandot \"%s\""
+msgstr "kan inte köra kommando ”%s”"
 
 #: src/builtin.c:1051
-#, fuzzy
 msgid "cannot read pipe"
-msgstr "kan inte läsa länkmappning"
+msgstr "kan inte läsa rör"
 
 #: src/builtin.c:1098
 #, c-format
 msgid "radix %d in builtin `%s' out of range"
-msgstr ""
+msgstr "radix %d i inbyggd ”%s” är utanför intervall"
 
 #: src/builtin.c:1108
-#, fuzzy, c-format
+#, c-format
 msgid "negative width to builtin `%s'"
-msgstr "Negativ bredd till \"eval\""
+msgstr "negativ bredd till inbyggt makro ”%s”"
 
 #: src/builtin.c:1252
-#, fuzzy, c-format
+#, c-format
 msgid "error undiverting `%s'"
-msgstr "Kan inte återleda %s"
+msgstr "fel vid återledning ”%s”"
 
 #: src/builtin.c:1256
-#, fuzzy, c-format
+#, c-format
 msgid "cannot undivert `%s'"
-msgstr "Kan inte återleda %s"
+msgstr "kan inte återleda ”%s”"
 
 #: src/builtin.c:1366 src/freeze.c:115 src/m4.c:379
 #, c-format
@@ -674,18 +673,18 @@ msgid "cannot open `%s'"
 msgstr "kan inte öppna \"%s\""
 
 #: src/builtin.c:1429
-#, fuzzy, c-format
+#, c-format
 msgid "%s: cannot create tempfile `%s'"
-msgstr "kan inte skapa temporärfil: %s"
+msgstr "%s: kan inte skapa temporärfil ”%s”"
 
 #: src/builtin.c:1464
 msgid "recommend using mkstemp instead"
-msgstr ""
+msgstr "rekommenderar att använda mkstemp istället"
 
 #: src/builtin.c:1557
-#, fuzzy, c-format
+#, c-format
 msgid "exit status out of range: `%d'"
-msgstr "UT-offset utanför giltigt intervall"
+msgstr "avslutningsstatus utanför intervall: ”%d”"
 
 #: src/builtin.c:1681
 #, c-format
@@ -693,134 +692,128 @@ msgid "Debugmode: bad debug flags: `%s'"
 msgstr "Felsökningsläge: okänd flagga: \"%s\""
 
 #: src/builtin.c:1722 src/m4.c:625 src/m4.c:689
-#, fuzzy, c-format
+#, c-format
 msgid "cannot set debug file `%s'"
-msgstr "kan inte öppna infil ”%s”"
+msgstr "kan inte ställa in felsöknings fil ”%s”"
 
 #: src/builtin.c:1988
-#, fuzzy
 msgid "Warning: \\0 will disappear, use \\& instead in replacements"
-msgstr "VARNING: \\0 kommer att försvinna, använd \\& istället i ersättningar"
+msgstr "Varning: \\0 kommer att försvinna, använd \\& istället i ersättningar"
 
 #: src/builtin.c:2004
 #, c-format
 msgid "Warning: sub-expression %d not present"
-msgstr ""
+msgstr "Varning: underuttryck %d inte närvarande"
 
 #: src/builtin.c:2013
 msgid "Warning: trailing \\ ignored in replacement"
-msgstr ""
+msgstr "Varning: avslutande \\ ignorerat i ersättning"
 
 #: src/builtin.c:2079
-#, fuzzy, c-format
+#, c-format
 msgid "bad regular expression: `%s': %s"
-msgstr "Otillåtet reguljäruttryck \"%s\": %s"
+msgstr "felaktigt reguljärt uttryck ”%s”: %s"
 
 #: src/builtin.c:2091 src/builtin.c:2161
-#, fuzzy, c-format
+#, c-format
 msgid "error matching regular expression `%s'"
-msgstr "Fel när reguljäruttrycket \"%s\" matchades"
+msgstr "fel när reguljära uttrycket ”%s” matchades"
 
 #: src/builtin.c:2139 src/input.c:792
-#, fuzzy, c-format
+#, c-format
 msgid "bad regular expression `%s': %s"
-msgstr "Otillåtet reguljäruttryck \"%s\": %s"
+msgstr "felaktigt reguljärt uttryck ”%s”: %s"
 
 #: src/debug.c:136 src/debug.c:157
 msgid "error writing to debug stream"
-msgstr ""
+msgstr "fel vid skrivning till felsökningsström"
 
 #: src/eval.c:318
-#, fuzzy, c-format
+#, c-format
 msgid "bad expression in eval (missing right parenthesis): %s"
-msgstr "Otillåtet uttryck i \"eval\" (högerparentes saknas): %s"
+msgstr "felaktigt uttryck i eval (sakna högerparentes): %s"
 
 #: src/eval.c:324
-#, fuzzy, c-format
+#, c-format
 msgid "bad expression in eval: %s"
-msgstr "Otillåtet uttryck i \"eval\": %s"
+msgstr "felaktigt uttryck i eval: %s"
 
 #: src/eval.c:329
-#, fuzzy, c-format
+#, c-format
 msgid "bad expression in eval (bad input): %s"
-msgstr "Otillåtet uttryck i \"eval\" (otillåtet indata): %s"
+msgstr "felaktigt uttryck i eval (otillåten indata): %s"
 
 #: src/eval.c:334
-#, fuzzy, c-format
+#, c-format
 msgid "bad expression in eval (excess input): %s"
-msgstr "Otillåtet uttryck i \"eval\" (för mycket indata): %s"
+msgstr "felaktigt uttryck i eval (för mycket indata): %s"
 
 #: src/eval.c:339
-#, fuzzy, c-format
+#, c-format
 msgid "invalid operator in eval: %s"
-msgstr "Division med noll i \"eval\": %s"
+msgstr "felaktig operator i eval: %s"
 
 #: src/eval.c:345
-#, fuzzy, c-format
+#, c-format
 msgid "divide by zero in eval: %s"
-msgstr "Division med noll i \"eval\": %s"
+msgstr "division med noll i eval: %s"
 
 #: src/eval.c:350
-#, fuzzy, c-format
+#, c-format
 msgid "modulo by zero in eval: %s"
-msgstr "Modulo med noll i \"eval\": %s"
+msgstr "modulo med noll i eval: %s"
 
 #: src/eval.c:355
-#, fuzzy, c-format
+#, c-format
 msgid "negative exponent in eval: %s"
-msgstr "Otillåtet uttryck i \"eval\": %s"
+msgstr "negativ exponent i eval: %s"
 
 #: src/eval.c:538
 msgid "Warning: recommend ==, not =, for equality operator"
-msgstr ""
+msgstr "Varning: rekommenderar ==, inte =, som likhetsoperator"
 
 #: src/format.c:40 src/format.c:64 src/format.c:88
 msgid "empty string treated as 0"
-msgstr ""
+msgstr "tom sträng behandlad som 0"
 
 #: src/format.c:46 src/format.c:70 src/format.c:94
-#, fuzzy, c-format
+#, c-format
 msgid "non-numeric argument %s"
-msgstr "Ickenumeriskt argument till %s"
+msgstr "ickenumeriskt argument till %s"
 
 #: src/format.c:48 src/format.c:72 src/format.c:96
 msgid "leading whitespace ignored"
-msgstr ""
+msgstr "inledande blanktecken ignorerade"
 
 #: src/format.c:50 src/format.c:74 src/format.c:98
-#, fuzzy
 msgid "numeric overflow detected"
-msgstr "Ickenumeriskt argument till inbyggt makro \"%s\""
+msgstr "numeriskt överspill identifierat"
 
 #: src/format.c:308
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: unrecognized specifier in `%s'"
-msgstr "%s: okänd flagga \"%c%s\"\n"
+msgstr "Varning: okänd pecificerare i ”%s”"
 
 #: src/freeze.c:156
-#, fuzzy
 msgid "unable to create frozen state"
-msgstr "Kan inte skapa process hos server"
+msgstr "kan inte skapa fruset tillstånd"
 
 #: src/freeze.c:167
-#, fuzzy
 msgid "expecting line feed in frozen file"
-msgstr "Nyrad förväntas i fryst fil"
+msgstr "nyrad förväntas i fryst fil"
 
 #: src/freeze.c:169
-#, fuzzy, c-format
+#, c-format
 msgid "expecting character `%c' in frozen file"
-msgstr "Tecknet \"%c\" förväntas i fryst fil"
+msgstr "tecknet ”%c” förväntas i fryst fil"
 
 #: src/freeze.c:215
-#, fuzzy
 msgid "integer overflow in frozen file"
-msgstr "heltalsspill"
+msgstr "heltalsöverspill i fryst fil"
 
 #: src/freeze.c:257
-#, fuzzy
 msgid "premature end of frozen file"
-msgstr "För tidigt filslut i fryst fil"
+msgstr "för tidigt filslut i fryst fil"
 
 #: src/freeze.c:270
 #, c-format
@@ -830,56 +823,51 @@ msgstr "kan inte öppna %s"
 #: src/freeze.c:285
 #, c-format
 msgid "frozen file version %d greater than max supported of 1"
-msgstr ""
+msgstr "fryst filversion %d större än den största som stöds, 1"
 
 #: src/freeze.c:288
 msgid "ill-formed frozen file, version directive expected"
-msgstr ""
+msgstr "felformaterad fryst fil, versionsdirektiv förväntat"
 
 #: src/freeze.c:297
-#, fuzzy
 msgid "ill-formed frozen file"
-msgstr "Korrupt fryst fil"
+msgstr "felformaterad fryst fil"
 
 #: src/freeze.c:385
-#, fuzzy
 msgid "unable to read frozen state"
-msgstr "kan inte avallokera argument"
+msgstr "kan inte läsa fryst tillstånd"
 
 #: src/input.c:359
-#, fuzzy
 msgid "read error"
-msgstr "skrivfel"
+msgstr "läsfel"
 
 #: src/input.c:366
-#, fuzzy
 msgid "error reading file"
-msgstr "fel när indata lästes"
+msgstr "fel vi läsning av fil"
 
 #: src/input.c:589
 msgid "Warning: end of file treated as newline"
-msgstr ""
+msgstr "Varning: filslut behandlat som nyrad"
 
 #: src/input.c:881
 msgid "ERROR: end of file in comment"
-msgstr ""
+msgstr "FEL: filslut i kommentar"
 
 #: src/input.c:1001
-#, fuzzy
 msgid "ERROR: end of file in string"
-msgstr "FEL: Filslut i sträng"
+msgstr "FEL: filslut i sträng"
 
 #. TRANSLATORS: This is a non-ASCII name: The first name is (with
 #. Unicode escapes) "Ren\u00e9" or (with HTML entities) "Ren&eacute;".
 #. This is a proper name. See the gettext manual, section Names.
 #: src/m4.c:41
 msgid "Rene' Seindal"
-msgstr ""
+msgstr "Rene' Seindal"
 
 #: src/m4.c:207
-#, fuzzy, c-format
+#, c-format
 msgid "Try `%s --help' for more information."
-msgstr "Försök med \"%s --help\" för mer information.\n"
+msgstr "Försök med ”%s --help” för mer information."
 
 #: src/m4.c:213
 #, c-format
@@ -887,20 +875,20 @@ msgid "Usage: %s [OPTION]... [FILE]...\n"
 msgstr "Användning: %s [FLAGGA]... [FIL]...\n"
 
 #: src/m4.c:214
-#, fuzzy
 msgid ""
 "Process macros in FILEs.  If no FILE or if FILE is `-', standard input\n"
 "is read.\n"
 msgstr ""
-"\n"
-"Om ingen FIL anges eller om FIL är `-', så läses standard in.\n"
+"Hantera makron i FILer.  Om ingen FIL anges eller om FIL är ”-”,\n"
+"så läses standard in.\n"
 
 #: src/m4.c:219
-#, fuzzy
 msgid ""
 "Mandatory or optional arguments to long options are mandatory or optional\n"
 "for short options too.\n"
-msgstr "Obligatoriska respektive valfria argument för långa flaggor är obligatoriska respektive valfria även för korta."
+msgstr ""
+"Obligatoriska respektive valfria argument för långa flaggor är obligatoriska\n"
+"respektive valfria även för korta.\n"
 
 #: src/m4.c:224
 msgid ""
@@ -908,6 +896,9 @@ msgid ""
 "      --help                   display this help and exit\n"
 "      --version                output version information and exit\n"
 msgstr ""
+"Körlägen:\n"
+"      --help                   visa denna hjälptext och avsluta\n"
+"      --version                visa versionsinformation och avsluta\n"
 
 #: src/m4.c:229
 msgid ""
@@ -917,6 +908,11 @@ msgid ""
 "  -P, --prefix-builtins        force a `m4_' prefix to all builtins\n"
 "  -Q, --quiet, --silent        suppress some warnings for builtins\n"
 msgstr ""
+"  -E, --fatal-warnings         en gång: varningar blir fel, två gånger: avsluta\n"
+"                                 körning efter första felet\n"
+"  -i, --interactive            obuffrad utskrift, ignorera avbrott\n"
+"  -P, --prefix-builtins        tvinga ”m4_” prefix för alla inbyggda makron\n"
+"  -Q, --quiet, --silent        undertryck vissa varningar för inbyggda makron\n"
 
 #: src/m4.c:236
 #, c-format
@@ -925,13 +921,15 @@ msgid ""
 "                               warn if macro definition matches REGEXP,\n"
 "                                 default %s\n"
 msgstr ""
+"      --warn-macro-sequence[=REGUTR]\n"
+"                               varna om makrodefinition matchar REGUTR,\n"
+"                                 standardvärde %s\n"
 
 #: src/m4.c:242
 msgid "  -W, --word-regexp=REGEXP     use REGEXP for macro name syntax\n"
 msgstr "  -W, --word-regexp=REGEXP     använd REGEXP som makronamnsyntax\n"
 
 #: src/m4.c:246
-#, fuzzy
 msgid ""
 "Preprocessor features:\n"
 "  -D, --define=NAME[=VALUE]    define NAME as having VALUE, or empty\n"
@@ -939,15 +937,14 @@ msgid ""
 "  -s, --synclines              generate `#line NUM \"FILE\"' lines\n"
 "  -U, --undefine=NAME          undefine NAME\n"
 msgstr ""
-"\n"
 "Förprocessorstyrning:\n"
-"  -I, --include=KATALOG        sök i katalog efter inkluderade filer\n"
 "  -D, --define=NAMN[=VÄRDE]    definiera NAMN som VÄRDE, eller tomt\n"
-"  -U, --undefine=NAMN          ta bort inbyggt makro\n"
+"  -I, --include=KATALOG        lägg till KATALOG till inkluderingssökväg\n"
 "  -s, --synclines              generera rader med '#line NNN \"FIL\"'\n"
+"  -U, --undefine=NAMN          ta bort definition av makro NAMN\n"
 
 #: src/m4.c:255
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Limits control:\n"
 "  -g, --gnu                    override -G to re-enable GNU extensions\n"
@@ -955,26 +952,23 @@ msgid ""
 "  -H, --hashsize=PRIME         set symbol lookup hash table size [509]\n"
 "  -L, --nesting-limit=NUMBER   change nesting limit, 0 for unlimited [%d]\n"
 msgstr ""
-"\n"
 "Begränsningskontroll:\n"
+"  -g, --gnu                    åsidosätt -G för att återaktivera GNU-tillägg\n"
 "  -G, --traditional            undertryck alla extra GNU-tillägg\n"
-"  -H, --hashsize=PRIMTAL       sätt storlek på symboltabellen\n"
-"  -L, --nesting-limit=ANTAL    ändra artificiell nästningsnivå\n"
+"  -H, --hashsize=PRIMTAL       sätt storlek på symboltabellen [509]\n"
+"  -L, --nesting-limit=ANTAL    ändra nästningsnivå, 0 för obegränsad [%d]\n"
 
 #: src/m4.c:263
-#, fuzzy
 msgid ""
 "Frozen state files:\n"
 "  -F, --freeze-state=FILE      produce a frozen state on FILE at end\n"
 "  -R, --reload-state=FILE      reload a frozen state from FILE at start\n"
 msgstr ""
-"\n"
 "Frysta tillståndsfiler:\n"
 "  -F, --freeze-state=FIL       spara fryst tillstånd i FIL vid avslut\n"
 "  -R, --reload-state=FIL       läs fryst tillstånd från FIL vid start\n"
 
 #: src/m4.c:269
-#, fuzzy
 msgid ""
 "Debugging:\n"
 "  -d, --debug[=FLAGS]          set debug level (no FLAGS implies `aeq')\n"
@@ -983,13 +977,12 @@ msgid ""
 "  -l, --arglength=NUM          restrict macro tracing size\n"
 "  -t, --trace=NAME             trace NAME when it is defined\n"
 msgstr ""
-"\n"
 "Felsökning:\n"
-"  -d, --debug=[FLAGGOR]        sätt felsökningsnivå\n"
-"                               (inga FLAGGOR tolkas som \"aeq\")\n"
-"  -t, --trace=NAMN             spåra NAMN när den blir definierad\n"
+"  -d, --debug=[FLAGGOR]        sätt felsökningsnivå (inga FLAGGOR innebär ”aeq”)\n"
+"      --debugfile[=FIL]        omdirigera felsöknings- och spårningsutdata till FIL\n"
+"                                 (stderr som standard, släng om tom sträng)\n"
 "  -l, --arglength=ANTAL        begränsa makrospårningsstorleken\n"
-"  -o, --error-output=FIL       avled felsöknings- och spårutskrifter till FIL\n"
+"  -t, --trace=NAMN             spåra NAMN när den blir definierad\n"
 
 #: src/m4.c:278
 msgid ""
@@ -1000,6 +993,12 @@ msgid ""
 "  f   say current input file name\n"
 "  i   show changes in input files\n"
 msgstr ""
+"FLAGGOR kan vara en eller flera av:\n"
+"  a   visa faktiska argument\n"
+"  c   visa före insamling, efter insamling och efter anrop\n"
+"  e   visa expansion\n"
+"  f   skriv ut namnet på aktuell indatafil\n"
+"  i   visa byten av indatafil\n"
 
 #: src/m4.c:286
 msgid ""
@@ -1010,102 +1009,102 @@ msgid ""
 "  x   add a unique macro call id, useful with c flag\n"
 "  V   shorthand for all of the above flags\n"
 msgstr ""
+"  l   visa aktuella radnummer\n"
+"  p   visa resultat av sökvägssökningar\n"
+"  q   sätt citationstecken där det behövs, gäller a och e flaggorna\n"
+"  t   spåra alla makroanrop, inte bara de som spåras med traceon\n"
+"  x   lägg till en unik identifierare för makroanrop, användbart med c flaggan\n"
+"  V   förkortning för alla ovanstående flaggor\n"
 
 #: src/m4.c:295
 msgid ""
 "If defined, the environment variable `M4PATH' is a colon-separated list\n"
 "of directories included after any specified by `-I'.\n"
 msgstr ""
+"Om definierad är miljövariabeln ”M4PATH” en kolonseparerad lista\n"
+"av kataloger som inkluderats efter de som anges med ”-I”.\n"
 
 #: src/m4.c:300
 msgid ""
 "Exit status is 0 for success, 1 for failure, 63 for frozen file version\n"
 "mismatch, or whatever value was passed to the m4exit macro.\n"
 msgstr ""
+"Avslutningsstatus 0 för framgång, 1 för fel, 63 för fryst filversion\n"
+"som inte stämmer, eller det värde som skickats till m4exit-makrot.\n"
 
 #: src/m4.c:436
 #, c-format
 msgid "internal error detected; please report this bug to <%s>"
-msgstr ""
+msgstr "internt fel identifierat; rapportera detta fel till <%s>"
 
 #: src/m4.c:489
 #, c-format
 msgid "warning: `m4 -%c' may be removed in a future release"
-msgstr ""
+msgstr "varning: ”m4 -%c” kan komma att tas bort i en framtida version"
 
 #: src/m4.c:496
-#, fuzzy, c-format
+#, c-format
 msgid "warning: `m4 %s' is deprecated"
-msgstr "Körning som \"egrep\" är föråldrat; använd \"grep -E\" istället.\n"
+msgstr "varning: ”m4 %s” är föråldrat"
 
 #: src/m4.c:572
-#, fuzzy, c-format
+#, c-format
 msgid "bad debug flags: `%s'"
-msgstr "Okänd felsökningsflagga \"%s\""
+msgstr "felaktiga felsökningsflaggor: ”%s”"
 
 #: src/m4.c:578
-#, fuzzy, c-format
+#, c-format
 msgid "warning: `m4 -e' is deprecated, use `-i' instead"
-msgstr "Körning som \"egrep\" är föråldrat; använd \"grep -E\" istället.\n"
+msgstr "varning: ”m4 -e” är föråldrat, använd ”-i” istället"
 
 #: src/m4.c:690
 msgid "stderr"
-msgstr ""
+msgstr "stderr"
 
 #: src/macro.c:196
-#, fuzzy
 msgid "ERROR: end of file in argument list"
-msgstr "FEL: Filslut i argumentlistan"
+msgstr "FEL: filslut i argumentlistan"
 
 #: src/macro.c:332
-#, fuzzy, c-format
+#, c-format
 msgid "recursion limit of %d exceeded, use -L<N> to change it"
-msgstr "FEL: Rekursionsgräns %d överskriden, använd -L<N> för att ändra"
+msgstr "rekursionsgräns %d överskriden, använd -L<N> för att ändra"
 
 #: src/output.c:172 src/output.c:898 src/output.c:901
-#, fuzzy
 msgid "cannot clean temporary file for diversion"
-msgstr "FEL: Kan inte skapa temporär fil för avledning"
+msgstr "kan inte rensa temporär fil för avledning"
 
 #: src/output.c:222 src/output.c:231 src/output.c:265 src/output.c:360
-#, fuzzy
 msgid "cannot create temporary file for diversion"
-msgstr "FEL: Kan inte skapa temporär fil för avledning"
+msgstr "kan inte skapa temporär fil för avledning"
 
 #: src/output.c:250 src/output.c:257 src/output.c:269
-#, fuzzy
 msgid "cannot seek within diversion"
-msgstr "Kan inte ta status på avledningen"
+msgstr "kan inte söka inom avledning"
 
 #: src/output.c:341 src/output.c:353 src/output.c:502 src/output.c:733
-#, fuzzy
 msgid "cannot close temporary file for diversion"
-msgstr "FEL: Kan inte skapa temporär fil för avledning"
+msgstr "kan inte stänga temporär fil för avledning"
 
 #: src/output.c:474
-#, fuzzy
 msgid "ERROR: cannot flush diversion to temporary file"
-msgstr "FEL: Kan inte skriva avledningen till temporär fil"
+msgstr "FEL: kan inte tömma avledning till temporär fil"
 
 #: src/output.c:568
-#, fuzzy
 msgid "ERROR: copying inserted file"
-msgstr "FEL: Kopiering av insatt fil"
+msgstr "FEL: kopiering av insatt fil"
 
 #: src/output.c:816
-#, fuzzy
 msgid "error reading inserted file"
-msgstr "FEL: Läsning av insatt fil"
+msgstr "fel vid läsning av insatt fil"
 
 #: src/output.c:983
-#, fuzzy
 msgid "cannot stat diversion"
-msgstr "Kan inte ta status på avledningen"
+msgstr "kan inte ta status på avledningen"
 
 #: src/output.c:987
-#, fuzzy
 msgid "diversion too large"
-msgstr "Avledning för stor"
+msgstr "avledning för stor"
 
 #~ msgid "%s: option `%s' is ambiguous\n"
 #~ msgstr "%s: flaggan \"%s\" är tvetydig\n"
