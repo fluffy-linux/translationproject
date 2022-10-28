@@ -489,7 +489,7 @@ msgstr "파일 끝 개행 문자 없음"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:45
 msgid "Torbjorn Granlund"
-msgstr "Torbjorn Granlund"
+msgstr "Torbjörn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:46
