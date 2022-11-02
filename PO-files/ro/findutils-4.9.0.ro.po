@@ -1079,7 +1079,7 @@ msgstr "AVERTISMENT: baza de date «locate» %s a fost construită cu o ordine d
 #: locate/word_io.c:123
 #, c-format
 msgid "unexpected EOF in %s"
-msgstr "sfârșit neașteptat al fișierului în „% s”"
+msgstr "sfârșit neașteptat al fișierului în „%s”"
 
 #: locate/word_io.c:126
 #, c-format
