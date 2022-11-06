@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU diffutils 3.7.41\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2021-07-19 20:25-0700\n"
-"PO-Revision-Date: 2022-03-24 16:29-0700\n"
+"PO-Revision-Date: 2022-11-06 15:41-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -28,7 +28,7 @@ msgstr "nevaljani argument %s for %s"
 #: lib/argmatch.c:133
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "višeznačni argument %s za %s"
+msgstr "dvosmisleni argument %s za %s"
 
 #: lib/argmatch.c:152 lib/argmatch.h:223
 msgid "Valid arguments are:"
@@ -36,7 +36,7 @@ msgstr "Valjani argumenti su:"
 
 #: lib/c-stack.c:187
 msgid "program error"
-msgstr "programska greška"
+msgstr "greška u programu"
 
 #: lib/c-stack.c:188
 msgid "stack overflow"
@@ -80,11 +80,11 @@ msgstr "nezavisni memorijski objekt"
 
 #: lib/file-type.c:66
 msgid "block special file"
-msgstr "specijalna blokovska datoteka (blok uređaj)"
+msgstr "blok specijalna datoteka (blok uređaj)"
 
 #: lib/file-type.c:69
 msgid "character special file"
-msgstr "(specijalna) znak datoteka (bajt uređaj)"
+msgstr "znak specijalna datoteka (bajt uređaj)"
 
 #: lib/file-type.c:72
 msgid "contiguous data"
@@ -100,11 +100,11 @@ msgstr "vrata"
 
 #: lib/file-type.c:81
 msgid "multiplexed block special file"
-msgstr "multipleksirana (specijalna) blok datoteka (blok-uređaj)"
+msgstr "multipleksirana blok specijalna datoteka (blok-uređaj)"
 
 #: lib/file-type.c:84
 msgid "multiplexed character special file"
-msgstr "multipleksirana (specijalna) znak datoteka (bajt uređaj)"
+msgstr "multipleksirana znak speijalna datoteka (bajt uređaj)"
 
 #: lib/file-type.c:87
 msgid "multiplexed file"
@@ -116,7 +116,7 @@ msgstr "imenovana datoteka"
 
 #: lib/file-type.c:93
 msgid "network special file"
-msgstr "(specijalna) mrežna datoteka (mrežni uređaj)"
+msgstr "mrežna specijalna datoteka (mrežni uređaj)"
 
 #: lib/file-type.c:96
 msgid "migrated file with data"
@@ -145,12 +145,12 @@ msgstr "čudna datoteka"
 #: lib/getopt.c:278
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija „-%s%s“ nije jednoznačna\n"
+msgstr "%s: opcija „-%s%s“ je dvosmislen\n"
 
 #: lib/getopt.c:284
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija „%s%s“ nije jednoznačna; mogućnosti su:"
+msgstr "%s: opcija „%s%s“ je dvosmislena; mogućnosti su:"
 
 #: lib/getopt.c:319
 #, c-format
@@ -228,7 +228,7 @@ msgstr "Nevaljano ime klase znakova"
 
 #: lib/regcomp.c:150
 msgid "Trailing backslash"
-msgstr "Zaostala obratna kosa crta (backslash)"
+msgstr "Zaostala obratna kosa crta („\\“, backslash)"
 
 #: lib/regcomp.c:153
 msgid "Invalid back reference"
@@ -248,7 +248,7 @@ msgstr "Nesparena \\{"
 
 #: lib/regcomp.c:165
 msgid "Invalid content of \\{\\}"
-msgstr "Nevaljani sadržaj u \\{\\}"
+msgstr "Nevaljani sadržaj \\{\\}"
 
 #: lib/regcomp.c:168
 msgid "Invalid range end"
@@ -260,7 +260,7 @@ msgstr "Nema dovoljno memorije"
 
 #: lib/regcomp.c:174
 msgid "Invalid preceding regular expression"
-msgstr "Nevaljani prethodni regularni izraz"
+msgstr "Prethodni regularni izraz nije valjan"
 
 #: lib/regcomp.c:177
 msgid "Premature end of regular expression"
@@ -556,7 +556,7 @@ msgstr "    --help                 pokaže ovu pomoć i iziđe"
 
 #: src/cmp.c:170
 msgid "-v, --version              output version information and exit"
-msgstr "-v, --version              informacije o inačici ovog programa"
+msgstr "-v, --version              informira o inačici ovog programa i iziđe"
 
 #: src/cmp.c:179
 #, c-format
@@ -577,7 +577,7 @@ msgstr ""
 
 #: src/cmp.c:186 src/diff.c:999 src/diff3.c:514 src/sdiff.c:211
 msgid "Mandatory arguments to long options are mandatory for short options too.\n"
-msgstr "Obvezni argumenti dugačkih opcija obvezni su također i za kratke opcije.\n"
+msgstr "Obvezni argumenti za duge opcije obvezni su također i za kratke opcije.\n"
 
 #: src/cmp.c:192
 msgid ""
@@ -605,7 +605,7 @@ msgstr "nevaljana vrijednost „%s“ za --bytes"
 #: src/cmp.c:269 src/diff.c:797 src/diff3.c:361 src/sdiff.c:567
 #, c-format
 msgid "missing operand after '%s'"
-msgstr "nedostaje operand iza „%s“"
+msgstr "nema operanda iza „%s“"
 
 #: src/cmp.c:281 src/diff.c:799 src/diff3.c:363 src/sdiff.c:569
 #, c-format
@@ -1023,7 +1023,7 @@ msgstr "    --help               pokaže ovu pomoć"
 
 #: src/diff.c:982
 msgid "-v, --version            output version information and exit"
-msgstr "-v, --version            informacije o inačici ovog programa"
+msgstr "-v, --version            informira o inačici ovog programa i iziđe"
 
 #: src/diff.c:984
 msgid "FILES are 'FILE1 FILE2' or 'DIR1 DIR2' or 'DIR FILE' or 'FILE DIR'."
@@ -1195,7 +1195,7 @@ msgstr "    --help                  pokaže ovu pomoć"
 
 #: src/diff3.c:501
 msgid "-v, --version               output version information and exit"
-msgstr "-v, --version               informacije o inačici ovog programa"
+msgstr "-v, --version               informira o inačici ovog programa i iziđe"
 
 #: src/diff3.c:510
 #, c-format
@@ -1243,7 +1243,7 @@ msgstr "%s: diff nije uspio: "
 
 #: src/diff3.c:1044
 msgid "internal error: invalid diff type in process_diff"
-msgstr "*interna greška*: nevaljana diff vrsta u process_diff"
+msgstr "*interna greška*: nevaljani tip diff-a u process_diff"
 
 #: src/diff3.c:1069
 msgid "invalid diff format; invalid change separator"
@@ -1264,7 +1264,7 @@ msgstr "nevaljani diff format: nevaljani znakovi na početku retka"
 
 #: src/diff3.c:1427
 msgid "internal error: invalid diff type passed to output"
-msgstr "*interna greška*:nevaljana diff vrsta je proslijeđena na izlaz"
+msgstr "*interna greška*:nevaljani tip diff-a je proslijeđen na izlaz"
 
 #: src/diff3.c:1700 src/diff3.c:1757
 msgid "input file shrank"
@@ -1371,7 +1371,7 @@ msgstr "    --help                   pokaže ovu pomoć"
 
 #: src/sdiff.c:198
 msgid "-v, --version                output version information and exit"
-msgstr "-v, --version                informacije o inačici ovog programa"
+msgstr "-v, --version                informira o inačici ovog programa i iziđe"
 
 #: src/sdiff.c:207
 #, c-format
