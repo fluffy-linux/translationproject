@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: tar-1.32.90\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2019-11-27 18:52+0200\n"
-"PO-Revision-Date: 2022-03-24 17:16-0700\n"
+"PO-Revision-Date: 2022-11-06 17:08-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -39,7 +39,7 @@ msgstr "nevaljani argument %s za %s"
 #: gnu/argmatch.c:135
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "višeznačni argument %s za %s"
+msgstr "dvosmisleni argument %s za %s"
 
 #: gnu/argmatch.c:154
 msgid "Valid arguments are:"
@@ -67,7 +67,7 @@ msgstr "Smeće u ARGP_HELP_FMT: %s"
 
 #: gnu/argp-help.c:1228
 msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
-msgstr "Obvezni ili neobvezni argumenti za dugačke opcije također su obvezni ili neobvezni za korespondentne kratke opcije."
+msgstr "Obvezni ili neobvezni argumenti dugih opcija također su obvezni ili neobvezni za korespondentne kratke opcije."
 
 #: gnu/argp-help.c:1615
 msgid "Usage:"
@@ -119,7 +119,7 @@ msgstr "SEK"
 
 #: gnu/argp-parse.c:86
 msgid "hang for SECS seconds (default 3600)"
-msgstr "zaustavi se za SEK sekundi (zadano 3600)"
+msgstr "pauzira SEK sekundi (zadano 3600)"
 
 #: gnu/argp-parse.c:143
 msgid "print program version"
@@ -136,7 +136,7 @@ msgstr "%s: Previše argumenata\n"
 
 #: gnu/argp-parse.c:759
 msgid "(PROGRAM ERROR) Option should have been recognized!?"
-msgstr "**Interna greška programa**: Opcije su trebale biti prepoznate!?"
+msgstr "(**INTERNA GREŠKA PROGRAMA**): Opcije su trebale biti prepoznate!?"
 
 #: gnu/closeout.c:122
 msgid "write error"
@@ -145,12 +145,12 @@ msgstr "greška pri pisanju"
 #: gnu/getopt.c:278
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija „%s%s“ nije jednoznačna\n"
+msgstr "%s: opcija „%s%s“ je dvosmislena\n"
 
 #: gnu/getopt.c:284
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija „%s%s“ nije jednoznačna; mogućnosti su:"
+msgstr "%s: opcija „%s%s“ je dvosmislena; mogućnosti su:"
 
 #: gnu/getopt.c:319
 #, c-format
@@ -184,7 +184,7 @@ msgstr "nema dovoljno memorije"
 #: gnu/openat-die.c:38
 #, c-format
 msgid "unable to record current working directory"
-msgstr "nije moguće registrirati trenutni radni direktorij"
+msgstr "nije moguće zapisati trenutni radni direktorij"
 
 #: gnu/openat-die.c:57
 #, c-format
@@ -644,11 +644,11 @@ msgstr "(cijev)"
 # odbijati > ne pristati
 #: src/buffer.c:698
 msgid "Refusing to read archive contents from terminal (missing -f option?)"
-msgstr "Uskraćuje se čitanje sadržaja arhive s terminala (nedostaje -f opcija?)"
+msgstr "Uskraćuje se čitanje sadržaja arhive s terminala (nema -f opcije?)"
 
 #: src/buffer.c:700
 msgid "Refusing to write archive contents to terminal (missing -f option?)"
-msgstr "Odbija se ispisati sadržaj arhive na terminal (nedostaje -f opcija?)"
+msgstr "Odbija se ispisati sadržaj arhive na terminal (nema -f opcije?)"
 
 #: src/buffer.c:713
 msgid "Invalid value for record_size"
@@ -823,7 +823,7 @@ msgstr "Neočekivani kraj datoteke (EOF) u arhivi"
 
 #: src/compare.c:181 src/compare.c:197 src/compare.c:316 src/compare.c:421
 msgid "File type differs"
-msgstr "Vrsta datoteke se razlikuje"
+msgstr "Tip datoteke se razlikuje"
 
 #: src/compare.c:184 src/compare.c:204 src/compare.c:330
 msgid "Mode differs"
@@ -866,7 +866,7 @@ msgstr "Provjeri "
 #: src/compare.c:479
 #, c-format
 msgid "%s: Unknown file type '%c', diffed as normal file"
-msgstr "%s: Nepoznata vrsta datoteke „%c“, uspoređuje se kao normalna datoteka"
+msgstr "%s: Nepoznati tip datoteke „%c“, uspoređuje se kao normalna datoteka"
 
 #: src/compare.c:534
 msgid "Archive contains file names with leading prefixes removed."
@@ -948,12 +948,12 @@ msgstr "sadržaj nije arhiviran"
 #: src/create.c:1455
 #, c-format
 msgid "%s: Unknown file type; file ignored"
-msgstr "%s: Nepoznata vrsta datoteke; datoteka je zanemarena"
+msgstr "%s: Nepoznati tip datoteke; datoteka je zanemarena"
 
 #: src/create.c:1567
 #, c-format
 msgid "Missing links to %s."
-msgstr "Nedostaju veze na %s."
+msgstr "Nema poveznica na %s."
 
 #: src/create.c:1728
 #, c-format
@@ -1037,7 +1037,7 @@ msgstr "Neočekivano dugo ime zaglavlja"
 #: src/extract.c:1692
 #, c-format
 msgid "%s: Unknown file type '%c', extracted as normal file"
-msgstr "%s: Nepoznata vrsta datoteke „%c“, izdvojena kao normalna datoteka"
+msgstr "%s: Nepoznati tip datoteke „%c“, izdvojena kao normalna datoteka"
 
 #: src/extract.c:1718
 #, c-format
@@ -1134,7 +1134,7 @@ msgstr "%s: bajt %s: %s"
 
 #: src/incremen.c:1265
 msgid "Missing record terminator"
-msgstr "Nedostaje indikator kraja zapisa"
+msgstr "Nema indikatora kraja zapisa"
 
 #: src/incremen.c:1371 src/incremen.c:1374
 msgid "Bad incremental file format"
@@ -1277,7 +1277,7 @@ msgstr " veza na %s\n"
 #: src/list.c:1277
 #, c-format
 msgid " unknown file type %s\n"
-msgstr " nepoznata vrsta datoteke %s\n"
+msgstr " Nepoznati tip datoteke %s\n"
 
 #: src/list.c:1295
 #, c-format
@@ -1670,7 +1670,7 @@ msgstr "učinkovito obradi raspršene (sparse) datoteke"
 # bp: novi msgid
 #: src/tar.c:424
 msgid "TYPE"
-msgstr "POSTUPAK"
+msgstr "TIP"
 
 # bp: novi msgid
 #: src/tar.c:425
@@ -1779,7 +1779,7 @@ msgstr "napravi poddirektorij da izbjegne izdvajanje neželjenih datoteka (tarbo
 
 #: src/tar.c:491
 msgid "Select output stream:"
-msgstr "Izbor izlaznog potoka (stream):"
+msgstr "Izbor izlaznog toka (stream):"
 
 #: src/tar.c:494
 msgid "extract files to standard output"
@@ -2564,7 +2564,7 @@ msgstr "nije moguće osvježiti globalni zapis proširenog zaglavlja"
 
 #: src/xheader.c:703
 msgid "Malformed extended header: missing length"
-msgstr "Deformirano prošireno zaglavlje: nedostaje duljina"
+msgstr "Deformirano prošireno zaglavlje: nema duljine"
 
 #: src/xheader.c:712
 #, c-format
@@ -2573,15 +2573,15 @@ msgstr "Duljina proširenog zaglavlja %*s je izvan raspona"
 
 #: src/xheader.c:724
 msgid "Malformed extended header: missing blank after length"
-msgstr "Deformirano prošireno zaglavlje: nedostaje praznina nakon duljine"
+msgstr "Deformirano prošireno zaglavlje: nema razmaka nakon duljine"
 
 #: src/xheader.c:732
 msgid "Malformed extended header: missing equal sign"
-msgstr "Deformirano prošireno zaglavlje: nedostaje znak jednakosti"
+msgstr "Deformirano prošireno zaglavlje: nema znaka jednakosti"
 
 #: src/xheader.c:738
 msgid "Malformed extended header: missing newline"
-msgstr "Deformirano prošireno zaglavlje: nedostaje novi redak (newline)"
+msgstr "Deformirano prošireno zaglavlje: nema novog retka (newline)"
 
 #: src/xheader.c:776
 #, c-format
