@@ -672,7 +672,7 @@ msgid ""
 "  --follow-symlinks\n"
 "                 follow symlinks when processing in place\n"
 msgstr ""
-"  --follow-symlinks                slijedi simboličke veze kad procesira\n"
+"  --follow-symlinks                slijedi simboličke poveznice kad procesira\n"
 "                                     'in-place'\n"
 
 #: sed/sed.c:150
