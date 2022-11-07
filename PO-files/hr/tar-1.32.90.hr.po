@@ -536,7 +536,7 @@ msgstr "Nije moguće pokrenuti udaljenu ljusku (remote shell)"
 
 #: rmt/rmt.c:436
 msgid "Seek direction out of range"
-msgstr "Smjer za skok na poziciju je izvan dosega"
+msgstr "Smjer za skok na poziciju je izvan raspona"
 
 #: rmt/rmt.c:442
 msgid "Invalid seek direction"
@@ -2152,7 +2152,7 @@ msgstr "STRING"
 
 #: src/tar.c:709
 msgid "backup before removal, override usual suffix ('~' unless overridden by environment variable SIMPLE_BACKUP_SUFFIX)"
-msgstr "osiguranje (sigurnosne kopije) napravi prije uklanjanja, promijeni uobičajeni sufiks „~“ (ako nije promijenjen varijablom okoline SIMPLE_BACKUP_SUFFIX) u STRING"
+msgstr "osiguranje (sigurnosne kopije) napravi prije uklanjanja, redefina uobičajeni sufiks „~“ (ako nije promijenjen varijablom okoline SIMPLE_BACKUP_SUFFIX) u STRING"
 
 #: src/tar.c:714
 msgid "File name transformations:"
