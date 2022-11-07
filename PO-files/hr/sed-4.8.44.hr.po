@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: sed-4.8.44\n"
 "Report-Msgid-Bugs-To: bug-gnu-utils@gnu.org\n"
 "POT-Creation-Date: 2022-10-16 22:21-0700\n"
-"PO-Revision-Date: 2022-10-24 18:50-0700\n"
+"PO-Revision-Date: 2022-11-06 17:04-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -40,7 +40,7 @@ msgstr "nevaljana znakovna klasa"
 
 #: lib/dfa.c:1143
 msgid "character class syntax is [[:space:]], not [:space:]"
-msgstr "sintaksa znakovne klase je [[:space]], a ne [:space:]"
+msgstr "sintaksa klase znakova je [[:space]], a ne [:space:]"
 
 #: lib/dfa.c:1209
 msgid "unfinished \\ escape"
@@ -64,7 +64,7 @@ msgstr "izraz započinje s {...}"
 
 #: lib/dfa.c:1403
 msgid "invalid content of \\{\\}"
-msgstr "nevaljani sadržaj od \\{\\}"
+msgstr "Nevaljani sadržaj \\{\\}"
 
 #: lib/dfa.c:1405
 msgid "regular expression too big"
@@ -158,7 +158,7 @@ msgstr "Nevaljano ime klase znakova"
 
 #: lib/regcomp.c:137
 msgid "Trailing backslash"
-msgstr "Zaostala obratna kosa crta („\\“)"
+msgstr "Zaostala obratna kosa crta („\\“, backslash)"
 
 #: lib/regcomp.c:140
 msgid "Invalid back reference"
@@ -178,7 +178,7 @@ msgstr "Nesparena \\{"
 
 #: lib/regcomp.c:152
 msgid "Invalid content of \\{\\}"
-msgstr "Nevaljani sadržaj od \\{\\}"
+msgstr "Nevaljani sadržaj \\{\\}"
 
 #: lib/regcomp.c:155
 msgid "Invalid range end"
@@ -190,11 +190,11 @@ msgstr "Nema dovoljno memorije"
 
 #: lib/regcomp.c:161
 msgid "Invalid preceding regular expression"
-msgstr "Nevaljani prethodni regularni izraz"
+msgstr "Prethodni regularni izraz nije valjan"
 
 #: lib/regcomp.c:164
 msgid "Premature end of regular expression"
-msgstr "Preuranjeni kraj regularnog izraza"
+msgstr "Prerani kraj regularnog izraza"
 
 #: lib/regcomp.c:167
 msgid "Regular expression too big"
@@ -765,7 +765,7 @@ msgstr "      --help                       pokaže ovu pomoć i završi\n"
 #: sed/sed.c:175
 #, c-format
 msgid "      --version  output version information and exit\n"
-msgstr "      --version                    informacije o inačici ovog programa i završi\n"
+msgstr "      --version                    informira o inačici ovog programa i iziđe\n"
 
 #: sed/sed.c:176
 #, c-format
