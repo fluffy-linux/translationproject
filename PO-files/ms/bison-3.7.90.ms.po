@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2022-11-06 23:54+0800\n"
+"PO-Revision-Date: 2022-11-28 19:50+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -57,17 +57,15 @@ msgstr "%@: ralat sintaks: tidak menjangka %u"
 #. 1.5: syntax error: expected - or ( or number or function or variable before *
 #: examples/c/bistromathic/parse.y:398
 msgid "%@: syntax error: expected %0e before %u"
-msgstr ""
+msgstr "%@: ralat sintaks: dijangka %0e sebelum %u"
 
 #: examples/c/bistromathic/parse.y:399
-#, fuzzy
 msgid "%@: syntax error: expected %0e or %1e before %u"
-msgstr "%@: ralat sintaks: dijangka %0e atau %1e atau %2e atau %3e sebelum %u"
+msgstr "%@: ralat sintaks: dijangka %0e atau %1e sebelum %u"
 
 #: examples/c/bistromathic/parse.y:400
-#, fuzzy
 msgid "%@: syntax error: expected %0e or %1e or %2e before %u"
-msgstr "%@: ralat sintaks: dijangka %0e atau %1e atau %2e atau %3e sebelum %u"
+msgstr "%@: ralat sintaks: dijangka %0e atau %1e atau %2e sebelum %u"
 
 #: examples/c/bistromathic/parse.y:401
 msgid "%@: syntax error: expected %0e or %1e or %2e or %3e before %u"
@@ -401,14 +399,7 @@ msgstr "dengan jelas kaitkan token lookahead kepada perkara"
 
 #: src/getargs.c:213
 msgid "describe shift/reduce conflicts solving"
-msgstr ""
-"PERKARA adalah senarai perkataan dipisah koma yang boleh termasuk:\n"
-"  `state'        nyatakan keadaan\n"
-"  `itemset'      lengkapkan perkara asas dengan penutupnya\n"
-"  `lookahead'    dengan jelas kaitkan lookahead kepada perkara\n"
-"  `solved'       nyatakan penyelesaian konflik pemindahan/pengurangan\n"
-"  `all'          masukkan semua maklumat diatas\n"
-"  `none'         matikan laporan"
+msgstr "nyatakan penyelesaian konflik pemindahan/pengurangan"
 
 #: src/getargs.c:215
 msgid "include all the above information"
@@ -734,7 +725,7 @@ msgstr "%s: pembolehubah %s %%define tidak ditakrifkan"
 #: src/muscle-tab.c:623
 #, c-format
 msgid "%%define variable '%s' requires '{...}' values"
-msgstr "pembolehubah '%s' %%define memerlukan nilai '{…}'"
+msgstr "pembolehubah '%s' %%define memerlukan nilai '{...}'"
 
 #: src/muscle-tab.c:628
 #, c-format
@@ -1081,7 +1072,7 @@ msgstr "rujukan yang tidak jelas: %s"
 #: src/scan-code.l:588
 #, c-format
 msgid "explicit type given in untyped grammar"
-msgstr "Jenis tidak tersirat diberikan dalam tatabahasa tanpa jenis"
+msgstr "jenis jelas diberikan dalam tatabahasa tanpa jenis"
 
 #: src/scan-code.l:643
 #, c-format
