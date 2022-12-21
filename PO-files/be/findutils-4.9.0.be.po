@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU findutils 4.9.0\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2022-02-02 01:18+0100\n"
-"PO-Revision-Date: 2022-11-03 23:07+0300\n"
+"PO-Revision-Date: 2022-12-22 01:23+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -171,7 +171,7 @@ msgstr "папярэджаньне: %s супадае толькі з базав
 #: find/parser.c:1399
 #, c-format
 msgid "Expected a positive decimal integer argument to %s, but got %s"
-msgstr "Для %s чакаўся дадатны дзесятковы цэлы аргумэнт, але атрыманы %s"
+msgstr "Да %s чакаўся дадатны дзесятковы цэлы аргумэнт, але атрыманы %s"
 
 #: find/parser.c:1564
 #, c-format
@@ -220,12 +220,12 @@ msgstr "адсутнічае аргумэнт у -size"
 #: find/parser.c:2148
 #, c-format
 msgid "invalid -size type `%c'"
-msgstr "няправільны тып «%c» для -size"
+msgstr "няправільны тып «%c» да -size"
 
 #: find/parser.c:2158
 #, c-format
 msgid "Invalid argument `%s%s' to -size"
-msgstr "Няправільны аргумэнт «%s%s» для -size"
+msgstr "Няправільны аргумэнт «%s%s» да -size"
 
 #: find/parser.c:2340
 msgid "The -show-control-chars option takes a single argument which must be 'literal' or 'safe'"
@@ -234,7 +234,7 @@ msgstr "Опцыя -show-control-chars прымае адзін аргумэнт,
 #: find/parser.c:2454
 #, c-format
 msgid "Invalid argument %s to -used"
-msgstr "Няправільны аргумэнт %s для -used"
+msgstr "Няправільны аргумэнт %s да -used"
 
 #: find/parser.c:2495
 #, c-format
@@ -287,12 +287,12 @@ msgstr "Невядомы аргумэнт да %s: %c"
 #: find/parser.c:2773
 #, c-format
 msgid "Duplicate file type '%c' in the argument list to %s."
-msgstr "Дубліраваньне тыпу файла «%c» у сьпісе аргумэнтаў для %s."
+msgstr "Дубліраваньне тыпу файла «%c» у сьпісе аргумэнтаў да %s."
 
 #: find/parser.c:2789
 #, c-format
 msgid "Must separate multiple arguments to %s using: ','"
-msgstr "Неабходна разьдзяляць некалькі аргумэнтаў для %s з дапамогай: «,»"
+msgstr "Неабходна разьдзяляць некалькі аргумэнтаў да %s з дапамогай: «,»"
 
 #: find/parser.c:2798
 #, c-format
@@ -451,7 +451,7 @@ msgstr "вой! -- няправільны тып выраза (%d)!"
 #: find/tree.c:1112
 #, c-format
 msgid "warning: there is no entry in the predicate evaluation cost table for predicate %s; please report this as a bug"
-msgstr "папярэджаньне: няма запісу ў табліцы кошту прэдыкатаў для %s; калі ласка, паведаміце аб гэтым баге"
+msgstr "папярэджаньне: няма запісу ў табліцы кошту прэдыкатаў для прэдыката %s; калі ласка, паведаміце аб гэтым баге"
 
 #: find/tree.c:1286
 #, c-format
@@ -1096,7 +1096,7 @@ msgstr "Папярэджаньне: %s будзе запушчана прына�
 #: xargs/xargs.c:933 xargs/xargs.c:1028
 #, c-format
 msgid "unmatched %s quote; by default quotes are special to xargs unless you use the -0 option"
-msgstr "няпарныя %s двукосьсі; па змаўчаньні двукосьсі зьяўляюцца спэцыяльным сымбалем для xargs, калі не выкарыстоўваецца опцыя -0"
+msgstr "няпарныя %s двукосьсі; па змаўчаньні двукосьсі зьяўляюцца спэцыяльным сымбалем да xargs, калі не выкарыстоўваецца опцыя -0"
 
 #: xargs/xargs.c:935 xargs/xargs.c:1030
 msgid "double"
@@ -1207,7 +1207,7 @@ msgid ""
 "Mandatory and optional arguments to long options are also\n"
 "mandatory or optional for the corresponding short option.\n"
 msgstr ""
-"Абавязковыя і неабавязковыя аргумэнты для доўгіх опцыяў\n"
+"Абавязковыя і неабавязковыя аргумэнты да доўгіх опцыяў\n"
 "таксама зьяўляюцца абавязковымі або неабавязковымі\n"
 "для адпаведнага кароткіх опцый\n"
 
@@ -1296,7 +1296,7 @@ msgid ""
 "                                 interactive application.\n"
 msgstr ""
 "  -o, --open-tty               Пераадкрыць stdin як /dev/tty у даччыным працэсе\n"
-"                                 перад выкананьнем каманды; карысна для запуску\n"
+"                                 перад выкананьнем каманды; карысна да запуску\n"
 "                                 інтэрактыўных прыкладаньняў.\n"
 
 #: xargs/xargs.c:1740
