@@ -4,12 +4,13 @@
 #
 # Ales Nyakhaychyk <nab@mail.by>, 2001-2003.
 # Viachaslau Khalikin <viachaslau.vinegret@outlook.com>, 2022.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: grep-3.7.98\n"
+"Project-Id-Version: GNU grep 3.7.98\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2022-07-02 14:59-0700\n"
-"PO-Revision-Date: 2022-10-25 14:19+0300\n"
+"PO-Revision-Date: 2022-12-22 01:20+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -354,7 +355,7 @@ msgid ""
 "%s, %s, and %s.\n"
 msgstr ""
 "Аўтары: %s, %s, %s,\n"
-"%s, %s  і %s.\n"
+"%s, %s і %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -451,7 +452,7 @@ msgstr "памылковы аргумэнт даўжыні кантэксту"
 
 #: src/grep.c:902
 msgid "input is too large to count"
-msgstr "увод занадта вялікі для падліку"
+msgstr "увод занадта вялікі да падліку"
 
 #: src/grep.c:1651
 #, c-format
@@ -674,7 +675,7 @@ msgstr ""
 "      --no-group-separator  не друкаваць разьдзяляльнік паміж\n"
 "                            супадзеньнямі з кантэкстам\n"
 "      --color[=КАЛІ],\n"
-"      --colour[=КАЛІ]       выкарыстоўваць маркеры для падсьветкі адпаведных\n"
+"      --colour[=КАЛІ]       выкарыстоўваць маркеры да падсьветкі адпаведных\n"
 "                            радкоў;\n"
 "                            КАЛІ можа быць «always» (заўсёды),\n"
 "                            «never» (ніколі) ці «auto» (аўтаматычна)\n"
