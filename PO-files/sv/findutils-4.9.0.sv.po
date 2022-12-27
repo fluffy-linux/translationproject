@@ -7,14 +7,14 @@
 # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009.
 # Göran Uddeborg <goeran@uddeborg.se>, 2014, 2015, 2022.
 #
-# $Revision: 1.7 $
+# $Revision: 1.8 $
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: findutils 4.9.0\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2022-02-02 01:18+0100\n"
-"PO-Revision-Date: 2022-11-05 22:26+0100\n"
+"PO-Revision-Date: 2022-12-27 12:56+0100\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -111,12 +111,12 @@ msgstr "kan inte öppna %s för läsning"
 
 #: find/ftsfind.c:625
 msgid "option -files0-from: standard input must not refer to the same file when combined with -ok, -okdir"
-msgstr "flaggan -files-from: standard in får inte referera till samma fil när den kombineras med -ok, -okdir"
+msgstr "flaggan -files0-from: standard in får inte referera till samma fil när den kombineras med -ok, -okdir"
 
 #: find/ftsfind.c:668
 #, c-format
 msgid "%s: read error"
-msgstr "%s: standard fel"
+msgstr "%s: läsfel"
 
 #: find/ftsfind.c:695
 msgid "invalid zero-length file name"
@@ -211,7 +211,7 @@ msgstr "ogiltigt läge %s"
 #: find/parser.c:1896
 #, c-format
 msgid "warning: you have specified a mode pattern %s (which is equivalent to /000). The meaning of -perm /000 has now been changed to be consistent with -perm -000; that is, while it used to match no files, it now matches all files."
-msgstr "varning: du måste ange ett lägesmönster %s (som är likvärdigt med /000). Betydelsen av -perm /000 kommer har nu ändrats för att överensstämma med -perm 000; alltså, det brukade inte matcha några fil men nu matchar det alla filer."
+msgstr "varning: du måste ange ett lägesmönster %s (som är likvärdigt med /000). Betydelsen av -perm /000 har nu ändrats för att överensstämma med -perm 000; alltså, det brukade inte matcha någon fil men nu matchar det alla filer."
 
 #: find/parser.c:2069
 #, c-format
@@ -225,7 +225,7 @@ msgstr "tomt argument till -size ogiltigt"
 #: find/parser.c:2148
 #, c-format
 msgid "invalid -size type `%c'"
-msgstr "ogiltig typ \"%c\" för -size"
+msgstr "ogiltig typ ”%c” för -size"
 
 #: find/parser.c:2158
 #, c-format
@@ -234,7 +234,7 @@ msgstr "Ogiltigt argument ”%s%s” till -size"
 
 #: find/parser.c:2340
 msgid "The -show-control-chars option takes a single argument which must be 'literal' or 'safe'"
-msgstr "Flaggan -show-control-chars tar ett argument som måste vara \"literal\" eller \"safe\""
+msgstr "Flaggan -show-control-chars tar ett argument som måste vara ”literal” eller ”safe”"
 
 #: find/parser.c:2454
 #, c-format
@@ -262,7 +262,7 @@ msgstr "felaktigt predikat -context: SELinux är inte aktiverat."
 #: find/parser.c:2652
 #, c-format
 msgid "Arguments to %s should contain at least one letter"
-msgstr "Argument till %s skall endast innehålla en bokstav"
+msgstr "Argument till %s skall innehålla minst en bokstav"
 
 #: find/parser.c:2717
 #, c-format
@@ -339,7 +339,7 @@ msgstr "aritmetiskt spill vid vid konvertering av %s dagar till ett antal sekund
 
 #: find/parser.c:3228
 msgid "arithmetic overflow when trying to calculate the end of today"
-msgstr "aritmetiskt överflöde vid försök att beräkna dagens slut"
+msgstr "aritmetiskt spill vid försök att beräkna dagens slut"
 
 #: find/parser.c:3387
 msgid "standard error"
@@ -391,7 +391,7 @@ msgstr "fel: %s på slutet av formatsträng"
 #: find/print.c:398
 #, c-format
 msgid "error: the format directive `%%%c' is reserved for future use"
-msgstr "fel: formatdirektivet \"%%%c\" är reserverat för framtida användning"
+msgstr "fel: formatdirektivet ”%%%c” är reserverat för framtida användning"
 
 #: find/print.c:406
 #, c-format
@@ -410,7 +410,7 @@ msgstr "ogiltigt uttryck"
 #: find/tree.c:126
 #, c-format
 msgid "invalid expression; you have used a binary operator '%s' with nothing before it."
-msgstr "ogiltigt uttryck; du har använt en binäroperator \"%s\" utan någonting före den."
+msgstr "ogiltigt uttryck; du har använt en binäroperator ”%s” utan någonting före den."
 
 #: find/tree.c:135 find/tree.c:194
 #, c-format
@@ -420,21 +420,21 @@ msgstr "ogiltigt uttryck; ett uttryck förväntades före den avslutande parente
 #: find/tree.c:145
 #, c-format
 msgid "expected an expression between '%s' and ')'"
-msgstr "förväntade ett uttryck mellan \"%s\" och \")\""
+msgstr "förväntade ett uttryck mellan ”%s” och ”)”"
 
 #: find/tree.c:155
 #, c-format
 msgid "expected an expression after '%s'"
-msgstr "förväntade ett uttryck efter \"%s\""
+msgstr "förväntade ett uttryck efter ”%s”"
 
 #: find/tree.c:160
 msgid "invalid expression; you have too many ')'"
-msgstr "ogiltigt uttryck; du har för många \")\""
+msgstr "ogiltigt uttryck; du har för många ”)”"
 
 #: find/tree.c:183
 #, c-format
 msgid "invalid expression; expected to find a ')' but didn't see one. Perhaps you need an extra predicate after '%s'"
-msgstr "ogiltigt uttryck; förväntade att hitta ett ”)”-tecken men kunde inte se ett.  Kanske behöver du ett extra predikat efter ”%s”"
+msgstr "ogiltigt uttryck; förväntade att hitta ett ”)”-tecken men kunde inte se något. Kanske behöver du ett extra predikat efter ”%s”"
 
 #: find/tree.c:198
 msgid "invalid expression; empty parentheses are not allowed."
@@ -442,7 +442,7 @@ msgstr "ogiltigt uttryck; tomma parenteser tillåts inte."
 
 #: find/tree.c:204
 msgid "invalid expression; I was expecting to find a ')' somewhere but did not see one."
-msgstr "ogiltigt uttryck; Jag förväntade mig att hitta ett \")\"-tecken någonstans men kunde inte se ett."
+msgstr "ogiltigt uttryck; Jag förväntade mig att hitta ett ”)”-tecken någonstans men kunde inte se något."
 
 #: find/tree.c:211 find/tree.c:835
 msgid "oops -- invalid expression type!"
@@ -471,31 +471,31 @@ msgstr "möjligen oskyddade mönster efter predikatet ”%s”?"
 #: find/tree.c:1298
 #, c-format
 msgid "unknown predicate `%s'"
-msgstr "okänt predikat \"%s\""
+msgstr "okänt predikat ”%s”"
 
 #: find/tree.c:1318
 #, c-format
 msgid "invalid predicate `%s'"
-msgstr "ogiltigt predikat \"%s\""
+msgstr "ogiltigt predikat ”%s”"
 
 #: find/tree.c:1322
 #, c-format
 msgid "invalid argument `%s' to `%s'"
-msgstr "ogiltigt argument \"%s\" till \"%s\""
+msgstr "ogiltigt argument ”%s” till ”%s”"
 
 #: find/tree.c:1329
 #, c-format
 msgid "missing argument to `%s'"
-msgstr "argument till \"%s\" saknas"
+msgstr "argument till ”%s” saknas"
 
 #: find/tree.c:1405
 msgid "you have too many ')'"
-msgstr "du har för många \")\""
+msgstr "du har för många ”)”"
 
 #: find/tree.c:1411
 #, c-format
 msgid "unexpected extra predicate '%s'"
-msgstr "oväntat extra predikat \"%s\""
+msgstr "oväntat extra predikat ”%s”"
 
 #: find/tree.c:1413
 msgid "unexpected extra predicate"
@@ -503,7 +503,7 @@ msgstr "oväntat extra predikat"
 
 #: find/tree.c:1534
 msgid "oops -- invalid default insertion of and!"
-msgstr "hoppsan -- ogiltig standardinsättning av \"and\"!"
+msgstr "hoppsan -- ogiltig standardinsättning av and!"
 
 #: find/util.c:139
 msgid "Valid arguments for -D:\n"
@@ -517,7 +517,7 @@ msgstr "Prova ”%s --help” för mer information.\n"
 #: find/util.c:169
 #, c-format
 msgid "Usage: %s [-H] [-L] [-P] [-Olevel] [-D debugopts] [path...] [expression]\n"
-msgstr "Usage: %s [-H] [-L] [-P] [-Onivå] [-D felsökningsflaggor] [sökväg …] [uttryck]\n"
+msgstr "Användning: %s [-H] [-L] [-P] [-Onivå] [-D felsökningsflaggor] [sökväg …] [uttryck]\n"
 
 #: find/util.c:173
 msgid ""
@@ -892,7 +892,7 @@ msgstr "Du angav flaggan -E men den flaggan kan inte användas med databaser med
 #: locate/locate.c:1108
 #, c-format
 msgid "%s is an slocate database.  Turning on the '-e' option."
-msgstr "%s är en slocate-databas.  Slår på flaggan \"-e\"."
+msgstr "%s är en slocate-databas.  Slår på flaggan ”-e”."
 
 #: locate/locate.c:1146
 #, c-format
@@ -1141,7 +1141,7 @@ msgstr "misslyckades att sätta miljövariabeln %s"
 
 #: xargs/xargs.c:1259
 msgid "failed to redirect standard input of the child process"
-msgstr "misslyckades att omdirigera standard in till barnprocessen"
+msgstr "misslyckades att omdirigera barnprocessens standard in"
 
 #: xargs/xargs.c:1311
 msgid "could not create pipe before fork"
@@ -1273,7 +1273,7 @@ msgid ""
 msgstr ""
 "  -i, --replace[=E]            ersätt E i STARTARGUMENT med namn lästa från\n"
 "                                 standard in; dela vid nyrader;\n"
-"                                 om R utelämnas, anta {}\n"
+"                                 om E utelämnas, anta {}\n"
 
 #: xargs/xargs.c:1732
 msgid ""
