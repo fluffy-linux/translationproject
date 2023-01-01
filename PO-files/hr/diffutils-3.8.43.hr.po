@@ -40,7 +40,7 @@ msgstr "greška u programu"
 
 #: lib/c-stack.c:188
 msgid "stack overflow"
-msgstr "prelijevanje stȏga"
+msgstr "prekoračenje stȏga"
 
 #: lib/error.c:195
 msgid "Unknown system error"
@@ -577,7 +577,7 @@ msgstr ""
 
 #: src/cmp.c:185 src/diff.c:1048 src/diff3.c:522 src/sdiff.c:210
 msgid "Mandatory arguments to long options are mandatory for short options too.\n"
-msgstr "Obvezni argumenti za duge opcije obvezni su također i za kratke opcije.\n"
+msgstr "Obvezni argumenti za duge opcije, obvezni su i za kratke opcije.\n"
 
 #: src/cmp.c:191
 msgid ""
