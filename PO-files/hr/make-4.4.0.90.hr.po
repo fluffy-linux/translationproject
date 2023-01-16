@@ -279,7 +279,7 @@ msgstr "Trenutno vrijeme"
 #: src/file.c:943
 #, c-format
 msgid "%s: Timestamp out of range; substituting %s"
-msgstr "%s: Vremenski žig je izvan granica raspona; zamijenjen je s %s"
+msgstr "%s: Vremenski žig je izvan raspona; zamijenjen je s %s"
 
 #: src/file.c:1086
 msgid "# Not a target:"
@@ -415,7 +415,7 @@ msgstr "%s: prazna vrijednost"
 #: src/function.c:784
 #, c-format
 msgid "%s: '%s' out of range"
-msgstr "%s: '%s' izvan opsega"
+msgstr "%s: '%s' izvan raspona"
 
 #: src/function.c:800
 msgid "invalid first argument to 'word' function"
@@ -1025,8 +1025,7 @@ msgid ""
 "                              Environment variables override makefiles.\n"
 msgstr ""
 "  -e, --environment-overrides\n"
-"                              učini da „make“ rabi varijable okoline umjesto\n"
-"                                tih istih varijabli iz Makefiles\n"
+"                              Redefinira makefile s varijablama okružja\n"
 
 #: src/main.c:334
 msgid "  -E STRING, --eval=STRING    Evaluate STRING as a makefile statement.\n"
@@ -2329,7 +2328,7 @@ msgstr "naredbeni redak"
 
 #: src/variable.c:1862
 msgid "'override' directive"
-msgstr "„override“ direktiva"
+msgstr "‘override’ direktiva (direktiva s redefinicijama)"
 
 #: src/variable.c:1872
 #, c-format
