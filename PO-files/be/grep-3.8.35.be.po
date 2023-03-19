@@ -1,16 +1,16 @@
 # Belarusian messages for GNU grep.
-# Copyright (C) 2001, 2002, 2003, 2022 Free Software Foundation, Inc.
+# Copyright (C) 2001, 2002, 2003, 2022, 2023 Free Software Foundation, Inc.
 # This file is distributed under the same license as the grep package.
 #
 # Ales Nyakhaychyk <nab@mail.by>, 2001-2003.
-# Viachaslau Khalikin <viachaslau.vinegret@outlook.com>, 2022.
+# Viachaslau Khalikin <viachaslau.vinegret@outlook.com>, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU grep 3.8.35\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2023-02-26 19:45-0800\n"
-"PO-Revision-Date: 2023-02-28 00:41+0300\n"
+"PO-Revision-Date: 2023-03-19 15:30+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -277,12 +277,12 @@ msgstr "Няма папярэдняга рэгулярнага выраза"
 #: lib/version-etc.c:73
 #, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr "Упакоўшчык: %s (%s)\n"
+msgstr "Пакавальнік: %s (%s)\n"
 
 #: lib/version-etc.c:76
 #, c-format
 msgid "Packaged by %s\n"
-msgstr "Упакоўшчык: %s\n"
+msgstr "Пакавальнік: %s\n"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
