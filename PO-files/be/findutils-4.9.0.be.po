@@ -1,15 +1,15 @@
 # Belarusian messages for GNU findutils.
-# Copyright (C) 2003, 2022 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2022, 2023 Free Software Foundation, Inc.
 # This file is distributed under the same license as the findutils package.
 #
 # Ales Nyakhaychyk <nab@mail.by>, 2003.
-# Viachaslau Khalikin <viachaslau.vinegret@outlook.com>, 2022.
+# Viachaslau Khalikin <viachaslau.vinegret@outlook.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU findutils 4.9.0\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2022-02-02 01:18+0100\n"
-"PO-Revision-Date: 2023-01-27 01:06+0300\n"
+"PO-Revision-Date: 2023-03-20 00:41+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -1037,12 +1037,12 @@ msgstr "папярэджаньне: опцыя -E option не дзейнічае
 #: xargs/xargs.c:734
 #, c-format
 msgid "Cannot set SIGUSR1 signal handler"
-msgstr "Немагчыма вызначыць апрацоўшчык сыгналу SIGUSR1"
+msgstr "Немагчыма вызначыць апрацоўнік сыгналу SIGUSR1"
 
 #: xargs/xargs.c:740
 #, c-format
 msgid "Cannot set SIGUSR2 signal handler"
-msgstr "Немагчыма вызначыць апрацоўшчык сыгналу SIGUSR2"
+msgstr "Немагчыма вызначыць апрацоўнік сыгналу SIGUSR2"
 
 #: xargs/xargs.c:756
 #, c-format
