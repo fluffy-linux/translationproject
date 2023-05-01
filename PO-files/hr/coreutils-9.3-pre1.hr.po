@@ -4565,12 +4565,12 @@ msgstr ""
 #: src/expr.c:355
 #, c-format
 msgid "syntax error: unexpected argument %s"
-msgstr "sintaktična pogreška: neočekivani argument %s"
+msgstr "sintaktička pogreška: neočekivani argument %s"
 
 #: src/expr.c:560
 #, c-format
 msgid "syntax error: missing argument after %s"
-msgstr "sintaktična greška: nema operanda iza %s"
+msgstr "sintaktička greška: nema operanda iza %s"
 
 #: src/expr.c:648 src/ptx.c:288
 msgid "error in regular expression matcher"
@@ -4579,16 +4579,16 @@ msgstr "pogreška u regularnom izrazu za pretragu"
 #: src/expr.c:676
 #, c-format
 msgid "syntax error: expecting ')' after %s"
-msgstr "sintaktična greška: očekuje se „)“ iza %s"
+msgstr "sintaktička greška: očekuje se „)“ iza %s"
 
 #: src/expr.c:679
 #, c-format
 msgid "syntax error: expecting ')' instead of %s"
-msgstr "sintaktična pogreška: očekuje se „)“ umjesto %s"
+msgstr "sintaktička pogreška: očekuje se „)“ umjesto %s"
 
 #: src/expr.c:685
 msgid "syntax error: unexpected ')'"
-msgstr "sintaktična greška: neočekivana „)“"
+msgstr "sintaktička greška: neočekivana „)“"
 
 #: src/expr.c:831 src/expr.c:868
 msgid "non-integer argument"
