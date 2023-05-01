@@ -102,7 +102,7 @@ msgstr "zalutali \\ ispred neispisivog znaka"
 
 #: lib/dfa.c:1570
 msgid "stray \\ before white space"
-msgstr "zalutali \\ ispred bijeline"
+msgstr "zalutali \\ ispred bjeline"
 
 #: lib/dfa.c:1574
 #, c-format
