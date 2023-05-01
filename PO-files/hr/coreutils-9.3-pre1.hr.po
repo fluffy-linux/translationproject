@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: coreutils 9.3-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2023-04-10 13:04+0100\n"
-"PO-Revision-Date: 2023-04-10 16:59-0700\n"
+"PO-Revision-Date: 2023-05-01 16:11-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -1902,7 +1902,7 @@ msgstr "greška pri pisanju %s"
 #: src/copy.c:461
 #, c-format
 msgid "overflow reading %s"
-msgstr "prelijevanje pri čitanju %s"
+msgstr "prekoračenje pri čitanju %s"
 
 #: src/copy.c:609
 #, c-format
@@ -4620,7 +4620,7 @@ msgstr "Lucasov test za proste brojeve nije uspio. To se nije trebalo dogoditi"
 
 #: src/factor.c:2102
 msgid "squfof queue overflow"
-msgstr "prelijevanje u redu čekanja u SQUFOF"
+msgstr "prekoračenje u redu čekanja u SQUFOF"
 
 #: src/factor.c:2519
 #, c-format
@@ -4687,7 +4687,7 @@ msgstr ""
 "                              redak poravna se na uvlaku drugog retka\n"
 "  -p, --prefix=STRING       djeluje samo na retke koji započinju sa STRINGOM,\n"
 "                              ali nakon formiranja prikvači STRING tim redcima\n"
-"  -s, --split-only          samo prelomi dugačke retke ali bez popunjavanja\n"
+"  -s, --split-only          samo prelomi duge retke ali bez popunjavanja\n"
 
 #: src/fmt.c:289
 #, no-c-format
@@ -5493,7 +5493,7 @@ msgstr "nevaljani način predmemoriranja %s for %s\n"
 msgid "failed to allocate a %<PRIuMAX> byte stdio buffer\n"
 msgstr "nije uspjelo dodijeliti %<PRIuMAX> bajtova međuspremniku standardnog U/I\n"
 
-# buffering > u ovom slučaju nema veze s ikakvom memorijom
+# buffering > u ovom slučaju nema poveznice s ikakvom memorijom
 #: src/libstdbuf.c:131
 #, c-format
 msgid "could not set buffering of %s to mode %s\n"
@@ -5595,7 +5595,7 @@ msgstr ""
 "Zadano je da svako odredište (ime nove poveznice) ne bi smjelo već postojati.\n"
 "Za stvaranje čvrstih poveznica svaki CILJ već mora postojati. Simboličke\n"
 "poveznice mogu sadržavati bilo koji tekst; ako se relativna poveznica\n"
-"razriješi, interpretira se u odnosu na direktorij koji sadrži vezu.\n"
+"razriješi, interpretira se u odnosu na direktorij koji sadrži poveznicu.\n"
 
 #: src/ln.c:430
 msgid ""
@@ -5905,7 +5905,7 @@ msgstr ""
 
 #: src/ls.c:5518
 msgid "  -G, --no-group             in a long listing, don't print group names\n"
-msgstr "  -G, --no-group             u dugačkom ispisu ne ispisuje imena grupa\n"
+msgstr "  -G, --no-group             u dugom ispisu ne ispisuje imena grupa\n"
 
 #: src/ls.c:5521
 msgid ""
@@ -5984,7 +5984,7 @@ msgstr ""
 
 #: src/ls.c:5562
 msgid "  -l                         use a long listing format\n"
-msgstr "  -l                         koristi dugački (detaljni) format za ispis\n"
+msgstr "  -l                         koristi dugi (detaljni) format za ispis\n"
 
 #: src/ls.c:5565
 msgid ""
@@ -7000,7 +7000,7 @@ msgstr ""
 
 #: src/nl.c:284
 msgid "line number overflow"
-msgstr "prelijevanje broja redaka"
+msgstr "prekoračenje broja redaka"
 
 #: src/nl.c:500
 #, c-format
@@ -7433,7 +7433,7 @@ msgstr "specifikacija formata %s nema %% direktive"
 #: src/numfmt.c:1101
 #, c-format
 msgid "invalid format %s (width overflow)"
-msgstr "nevaljani format %s (prelijevanje širine)"
+msgstr "nevaljani format %s (prekoračenje širine)"
 
 #: src/numfmt.c:1106
 #, c-format
@@ -7985,7 +7985,7 @@ msgstr "Roland Huebner"
 
 #: src/pr.c:778
 msgid "integer overflow"
-msgstr "prelijevanje pri operaciji s cijelim brojem (integer overflow)"
+msgstr "prekoračenje pri operaciji s cijelim brojem (integer overflow)"
 
 #: src/pr.c:918
 msgid "'--pages=FIRST_PAGE[:LAST_PAGE]' missing argument"
@@ -8040,7 +8040,7 @@ msgstr "početna stranica broj %<PRIuMAX> je veća od broja stranica %<PRIuMAX>"
 
 #: src/pr.c:2380
 msgid "page number overflow"
-msgstr "prelijevanje broja stranica"
+msgstr "prekoračenje broja stranica"
 
 #: src/pr.c:2385
 #, c-format
@@ -9410,7 +9410,7 @@ msgid ""
 "  -i, --ignore-nonprinting    consider only printable characters\n"
 "  -M, --month-sort            compare (unknown) < 'JAN' < ... < 'DEC'\n"
 msgstr ""
-"  -g, --general-numeric-sort  usporedba u skladu s općenitim\n"
+"  -g, --general-numeric-sort  usporedba u skladu s općim\n"
 "                                numeričkim vrijednostima\n"
 "  -i, --ignore-nonprinting    uzima u obzir samo ispisive znakove\n"
 "  -M, --month-sort            poredak: (nepoznato) < „JAN“ < ... < „DEC“;\n"
@@ -10542,7 +10542,7 @@ msgstr ""
 
 #: src/stty.c:621
 msgid " * swtch CHAR    CHAR will switch to a different shell layer\n"
-msgstr " * swtch ZNAK    ZNAK će se prebaciti na drugačiju razinu ljuske\n"
+msgstr " * swtch ZNAK    ZNAK će se prebaciti na drukčiju razinu ljuske\n"
 
 #: src/stty.c:626
 msgid " * werase CHAR   CHAR will erase the last word typed\n"
@@ -11173,7 +11173,7 @@ msgid ""
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
 "\n"
-"Obvezni argumenti za duge opcije obvezni su također i za kratke opcije.\n"
+"Obvezni argumenti za duge opcije, obvezni su i za kratke opcije.\n"
 
 #: src/system.h:594
 msgid ""
@@ -11900,7 +11900,7 @@ msgid ""
 msgstr ""
 "\n"
 "Osim za -h i -L, svi testovi povezani s DATOTEKOM\n"
-"dereferenciraju simboličke veze.\n"
+"dereferenciraju simboličke poveznice.\n"
 "Pazite, zagrade za ljuske moraju se maskirati (npr., s „\\“).\n"
 "INTEGER može također biti -l STRING koji procjenjuje duljinu STRING-a.\n"
 
@@ -12483,7 +12483,7 @@ msgstr ""
 #: src/truncate.c:124
 #, c-format
 msgid "overflow in %<PRIdMAX> * %<PRIdPTR> byte blocks for file %s"
-msgstr "prelijevanje u %<PRIdMAX> * %<PRIdPTR> bajtnih blokova za datoteku %s"
+msgstr "prekoračenje u %<PRIdMAX> * %<PRIdPTR> bajtnih blokova za datoteku %s"
 
 #: src/truncate.c:145
 #, c-format
@@ -12498,7 +12498,7 @@ msgstr "nije moguće doznati veličinu od %s"
 #: src/truncate.c:179
 #, c-format
 msgid "overflow extending size of file %s"
-msgstr "prelijevanje pri povećanju datoteke %s"
+msgstr "prekoračenje pri povećanju datoteke %s"
 
 #: src/truncate.c:193
 #, c-format
