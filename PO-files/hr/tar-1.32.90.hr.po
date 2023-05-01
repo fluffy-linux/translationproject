@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: tar-1.32.90\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2019-11-27 18:52+0200\n"
-"PO-Revision-Date: 2022-11-06 17:08-0800\n"
+"PO-Revision-Date: 2023-05-01 16:12-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -67,7 +67,7 @@ msgstr "Smeće u ARGP_HELP_FMT: %s"
 
 #: gnu/argp-help.c:1228
 msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
-msgstr "Obvezni ili neobvezni argumenti dugih opcija također su obvezni ili neobvezni za korespondentne kratke opcije."
+msgstr "Obvezni ili neobvezni argumenti za duge opcije, obvezni su ili neobvezni i za korespondentne kratke opcije."
 
 #: gnu/argp-help.c:1615
 msgid "Usage:"
@@ -1102,7 +1102,7 @@ msgstr "Neispravni broj indeksa čvora (inode)"
 #: src/incremen.c:1137
 #, c-format
 msgid "%s: byte %s: %s %.*s... too long"
-msgstr "%s: bajt %s: %s %.*s... predugačko"
+msgstr "%s: bajt %s: %s %.*s... predugo"
 
 #: src/incremen.c:1153 src/incremen.c:1211 src/incremen.c:1273
 msgid "Unexpected EOF in snapshot file"
@@ -1282,12 +1282,12 @@ msgstr " Nepoznati tip datoteke %s\n"
 #: src/list.c:1295
 #, c-format
 msgid "--Long Link--\n"
-msgstr "--Dugačka veza--\n"
+msgstr "--duga veza--\n"
 
 #: src/list.c:1299
 #, c-format
 msgid "--Long Name--\n"
-msgstr "--Dugačko ime--\n"
+msgstr "--Dugo ime--\n"
 
 #: src/list.c:1303
 #, c-format
