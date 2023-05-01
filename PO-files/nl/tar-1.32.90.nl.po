@@ -1,5 +1,5 @@
 # Dutch translations for GNU tar.
-# Copyright (C) 2019 Free Software Foundation, Inc.
+# Copyright (C) 2023 Free Software Foundation, Inc.
 # This file is distributed under the same license as the tar package.
 #
 # “Hoeperdepoep!”
@@ -7,7 +7,7 @@
 # Erwin Poeze <erwin.poeze@gmail.com>, 2009.
 # Elros Cyriatan <cyriatan@fastmail.fm>, 2004.
 # Benno Schulenberg <vertaling@coevern.nl>, 2005, 2006, 2007, 2008, 2010, 2011.
-# Benno Schulenberg <vertaling@coevern.nl>, 2013, 2014, 2016, 2018, 2019.
+# Benno Schulenberg <vertaling@coevern.nl>, 2013, 2014, 2016, 2018, 2019, 2023.
 #
 #: src/create.c:1590
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: tar-1.32.90\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2019-11-27 18:52+0200\n"
-"PO-Revision-Date: 2019-12-01 19:50+0100\n"
+"PO-Revision-Date: 2023-05-01 09:10+0200\n"
 "Last-Translator: Benno Schulenberg <vertaling@coevern.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -657,7 +657,7 @@ msgstr "Archief is gecomprimeerd.  Gebruik optie '%s'."
 
 #: src/buffer.c:830 src/tar.c:2466
 msgid "Cannot update compressed archives"
-msgstr "Kan ingepakte archieven niet bijwerken"
+msgstr "Kan gecomprimeerde archieven niet bijwerken"
 
 #: src/buffer.c:930
 msgid "At beginning of tape, quitting now"
@@ -2401,15 +2401,15 @@ msgstr "Kan meerdelige archieven niet verifiëren"
 
 #: src/tar.c:2450
 msgid "Cannot verify compressed archives"
-msgstr "Kan ingepakte archieven niet verifiëren"
+msgstr "Kan gecomprimeerde archieven niet verifiëren"
 
 #: src/tar.c:2464
 msgid "Cannot use multi-volume compressed archives"
-msgstr "Kan geen meerdelige ingepakte archieven verwerken"
+msgstr "Kan geen meerdelige gecomprimeerde archieven verwerken"
 
 #: src/tar.c:2468
 msgid "Cannot concatenate compressed archives"
-msgstr "Kan ingepakte archieven niet samenvoegen"
+msgstr "Kan gecomprimeerde archieven niet samenvoegen"
 
 #: src/tar.c:2475
 msgid "--clamp-mtime needs a date specified using --mtime"
