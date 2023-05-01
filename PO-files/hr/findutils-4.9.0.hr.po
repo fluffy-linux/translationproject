@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: findutils 4.9.0\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2022-02-02 01:18+0100\n"
-"PO-Revision-Date: 2022-11-06 15:43-0800\n"
+"PO-Revision-Date: 2023-05-01 16:11-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -290,7 +290,7 @@ msgstr "Argument za %s mora sadržati barem jedno slovo"
 #, c-format
 msgid "%s %c is not supported because symbolic links are not supported on the platform find was compiled on."
 msgstr ""
-"%s %c nije podržano jer simboličke veze nisu podržane na platformi na kojoj je\n"
+"%s %c nije podržano jer simboličke poveznice nisu podržane na platformi na kojoj je\n"
 "‘find’ kompiliran."
 
 #: find/parser.c:2729
@@ -375,11 +375,11 @@ msgstr "Okolina je prevelika za exec()."
 #: find/parser.c:3204
 #, c-format
 msgid "arithmetic overflow while converting %s days to a number of seconds"
-msgstr "aritmetičko prelijevanje pri pretvaranju %s dana u sekunde"
+msgstr "aritmetičko prekoračenje pri pretvaranju %s dana u sekunde"
 
 #: find/parser.c:3228
 msgid "arithmetic overflow when trying to calculate the end of today"
-msgstr "aritmetičko prelijevanje pri pokušaju računanja kraja današnjeg dana"
+msgstr "aritmetičko prekoračenje pri pokušaju računanja kraja današnjeg dana"
 
 #: find/parser.c:3387
 msgid "standard error"
@@ -907,7 +907,7 @@ msgstr ""
 "Od tih imena datoteka,\n"
 "\n"
 "\t%s sadrži bjeline, \n"
-"\t%s sadrži znak novog retka \n"
+"\t%s sadrži znak novog retka\n"
 "\ti %s sadrži znakove s postavljenim visokim bitom.\n"
 
 #: locate/locate.c:883
@@ -1300,8 +1300,8 @@ msgid ""
 "Mandatory and optional arguments to long options are also\n"
 "mandatory or optional for the corresponding short option.\n"
 msgstr ""
-"Obvezni ili neobvezni argumenti za dugačke opcije također su\n"
-"obvezni ili neobvezni za korespondentne kratke opcije.\n"
+"Obvezni ili neobvezni argumenti za duge opcije,\n"
+"obvezni su ili neobvezni i za korespondentne kratke opcije.\n"
 "\n"
 
 #: xargs/xargs.c:1716
