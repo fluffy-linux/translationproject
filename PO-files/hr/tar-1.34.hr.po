@@ -513,7 +513,7 @@ msgstr "standardni izlaz (stdout)"
 #: lib/rtapelib.c:429
 #, c-format
 msgid "Cannot connect to %s: resolve failed"
-msgstr "Nije moguće povezivanje s %s: riješenje nije uspjelo"
+msgstr "Nije moguće povezivanje s %s: rješavanje nije uspjelo"
 
 #: lib/rtapelib.c:502
 #, c-format
@@ -688,7 +688,7 @@ msgstr[2] "Neporavnani blok (%lu bajtova) unutar arhive"
 
 #: src/buffer.c:1077
 msgid "Cannot backspace archive file; it may be unreadable without -i"
-msgstr "Nije momoguće vratiti se i ponovno pretražiti arhivu; možda je nečitljiva bez -i"
+msgstr "Nije moguće vratiti se i ponovno pretražiti arhivu; možda je nečitljiva bez -i"
 
 #: src/buffer.c:1109
 msgid "rmtlseek not stopped at a record boundary"
@@ -789,7 +789,7 @@ msgstr "Svezak %s se ne podudara s(a) %s"
 #: src/buffer.c:1769
 #, c-format
 msgid "%s: file name too long to be stored in a GNU multivolume header, truncated"
-msgstr "%s: ime datoteke je predugo za spremanje u višesvezačno zaglavlje GNU-a; skraćuje se"
+msgstr "%s: ime datoteke je predugo za spremanje u više sveščano zaglavlje GNU-a; skraćuje se"
 
 #: src/buffer.c:1962
 msgid "write did not end on a block boundary"
@@ -1972,7 +1972,7 @@ msgstr "rabi udaljenu NAREDBU umjesto rsh"
 # FIXME -- volume -- find more suitable (ask others) -- TM
 #: src/tar.c:655
 msgid "create/list/extract multi-volume archive"
-msgstr "napraviti/izlistati/izdvojiti višesvezačne arhive"
+msgstr "napraviti/izlistati/izdvojiti više sveščane arhive"
 
 #: src/tar.c:658
 msgid "change tape after writing NUMBER x 1024 bytes"
