@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: GNU grep 3.10.12\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2023-04-20 18:51-0700\n"
-"PO-Revision-Date: 2023-04-21 17:35+0300\n"
+"PO-Revision-Date: 2023-05-13 03:04+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -92,7 +92,7 @@ msgstr "залішні \\ перад недрукаваным сымбалем"
 
 #: lib/dfa.c:1570
 msgid "stray \\ before white space"
-msgstr "залішні \\ перад прабелам"
+msgstr "залішні \\ перад прагалам"
 
 #: lib/dfa.c:1574
 #, c-format
