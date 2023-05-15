@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: GNU grep 3.10.12\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2023-04-20 18:51-0700\n"
-"PO-Revision-Date: 2023-04-26 00:29+0100\n"
+"PO-Revision-Date: 2023-05-16 00:08+0100\n"
 "Last-Translator: Arun Isaac <arunisaac@systemreboot.net>\n"
 "Language-Team: Tamil <tamil@systemreboot.net>\n"
 "Language: ta\n"
@@ -215,7 +215,7 @@ msgstr "ஏற்கத்தகா செங்குறித்தொடர�
 
 #: lib/regcomp.c:131
 msgid "Invalid collation character"
-msgstr "ஏற்கத்தகா ஒப்பாய்வு உரு"
+msgstr "ஏற்கத்தகா ஒப்பாய்வு வரியுரு"
 
 #: lib/regcomp.c:134
 msgid "Invalid character class name"
@@ -329,7 +329,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"எழுதியவர் %s, %s, %s,\n"
+"எழுதியவர் %s, %s, %s\n"
 "மற்றும் %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -408,7 +408,7 @@ msgid ""
 msgstr ""
 "எழுதியவர் %s, %s, %s,\n"
 "%s, %s, %s, %s,\n"
-"%s, %s மற்றும் பிறர்.\n"
+"%s, %s மற்றும் பலர்.\n"
 
 #. TRANSLATORS: The placeholder indicates the bug-reporting address
 #. for this package.  Please add _another line_ saying
