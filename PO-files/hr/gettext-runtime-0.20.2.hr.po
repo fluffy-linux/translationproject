@@ -8,22 +8,22 @@
 #
 #
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2018, 2019, 2020, 2022.
+# Božidar Putanec <bozidarp@yahoo.com>, 2018, 2019, 2020, 2022, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: gettext-runtime-0.20.2\n"
+"Project-Id-Version: gettext-runtime 0.20.2\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2020-04-13 15:53+0200\n"
-"PO-Revision-Date: 2022-11-06 16:06-0800\n"
+"PO-Revision-Date: 2023-05-23 16:19-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 20.07.70\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.3.1\n"
 
 # Provjeriti koje nazive parametara i varijabli okoline treba prevesti... (TK)
 #: gnulib-lib/closeout.c:66
@@ -41,7 +41,7 @@ msgstr "Nepoznata greška sustava"
 #: gnulib-lib/getopt.c:278
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija „%s%s“ je dvosmislena\n"
+msgstr "%s: opcija „%s%s“ nije jednoznačna\n"
 
 # ambiguous: having or ​expressing more than one ​possible ​meaning
 # ambiguous: able to be understood in more than one way
@@ -49,7 +49,7 @@ msgstr "%s: opcija „%s%s“ je dvosmislena\n"
 #: gnulib-lib/getopt.c:284
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija „%s%s“ je dvosmislena; mogućnosti su:"
+msgstr "%s: opcija „%s%s“ nije jednoznačna; mogućnosti su:"
 
 #: gnulib-lib/getopt.c:319
 #, c-format
@@ -82,7 +82,6 @@ msgstr "%s: opcija zahtijeva argument -- „%c“\n"
 msgid "memory exhausted"
 msgstr "nema dovoljno memorije"
 
-# http://ihjj.hr/ ppreporučuje „licencija“ umjesto „licenca“; jamstva umjesto jamstava
 #: src/envsubst.c:112 src/gettext.c:137 src/ngettext.c:126
 #, c-format, no-wrap
 msgid ""
@@ -92,7 +91,7 @@ msgid ""
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"Licencija GPLv3+: GNU GPL inačica 3 ili novija <%s>\n"
+"Licenca GPLv3+: GNU GPL inačica 3 ili novija <%s>\n"
 "Ovo je slobodan softver: slobodno ga mijenjajte i dijelite.\n"
 "NEMA JAMSTVA do granica dopuštenih zakonom.\n"
 
@@ -119,7 +118,7 @@ msgstr "nema argumenata"
 #: src/envsubst.c:176 src/gettext.c:248 src/ngettext.c:213
 #, c-format
 msgid "Try '%s --help' for more information.\n"
-msgstr "Pokušajte s „%s --help“ za pomoć i više informacija.\n"
+msgstr "Utipkajte „%s --help“ za pomoć i više informacija.\n"
 
 # gettext manual 15.5.2.3
 # SHELL-FORMAT su strings, as supported by  gettext and the ‘envsubst’ program, are strings with references to shell variables in the form $variable or ${variable}.
@@ -138,7 +137,7 @@ msgstr "Zamjenjuje vrijednosti varijabli okoline.\n"
 #: src/envsubst.c:190
 #, c-format, no-wrap
 msgid "Operation mode:\n"
-msgstr "Način rada:\n"
+msgstr "Način rada (mode):\n"
 
 #: src/envsubst.c:193
 #, c-format, no-wrap
@@ -200,9 +199,8 @@ msgid ""
 "Report bugs in the bug tracker at <%s>\n"
 "or by email to <%s>.\n"
 msgstr ""
-"Greške u programu prijavite u <%s>.\n"
-"ili s e-porukom na <%s>.\n"
-"Primjedbe i pogreške u prijevodu javite na <lokalizacija@linux.hr>.\n"
+"Greške prijavite u ‘bug tracker’ na <%s>\n"
+"ili e-poštom na <%s>.\n"
 
 #: src/envsubst.c:453
 #, c-format
@@ -240,7 +238,7 @@ msgstr "Ispiše prijevod tekstne poruke.\n"
 #: src/gettext.c:263
 #, c-format, no-wrap
 msgid "  -d, --domain=TEXTDOMAIN   retrieve translated messages from TEXTDOMAIN\n"
-msgstr "  -d, --domain=TEKSTDOMENA  preuzme prevedene poruke iz TEKSTDOMENE\n"
+msgstr "  -d, --domain=TEKSTDOMENA  traži prevedene poruke iz TEKSTDOMENE\n"
 
 #: src/gettext.c:265 src/ngettext.c:230
 #, c-format
@@ -250,12 +248,12 @@ msgstr "  -c, --context=KONTEKST    specifikacija konteksta za MSGID\n"
 #: src/gettext.c:267 src/ngettext.c:232
 #, c-format
 msgid "  -e                        enable expansion of some escape sequences\n"
-msgstr "  -e                        omogući ekspanziju nekih kontrolnih sekvencija\n"
+msgstr "  -e                        omogući ekspanziju nekih kontrolnih nizova\n"
 
 #: src/gettext.c:269
 #, c-format
 msgid "  -n                        suppress trailing newline\n"
-msgstr "  -n                        počisti zaostale znakove za novi redak (newline)\n"
+msgstr "  -n                        ne ostavlja prazni redak na kraju datoteke\n"
 
 #: src/gettext.c:271 src/ngettext.c:234
 #, c-format
@@ -335,7 +333,7 @@ msgstr "  MSGID MSGID-PLURAL        prevede MSGID (singular) / MSGID-PLURAL (plu
 #: src/ngettext.c:240
 #, c-format
 msgid "  COUNT                     choose singular/plural form based on this value\n"
-msgstr "  BROJ                      odabere formu singular/plural prema BROJU\n"
+msgstr "  BROJ                      odabere formu singular/plural po BROJU\n"
 
 #: src/ngettext.c:251
 #, c-format, no-wrap
@@ -402,7 +400,7 @@ msgstr ""
 # „retrieve“ podrazumijeva implicitno
 # postojane prijevoda; ako prijevoda
 # nema, onda ga ne može „retrieve“; zato
-# promjena  „retrieve“ >  „traži“
+# promjena „retrieve“ > „traži“
 # jd./mn. za poruke slijedi gettext Manual.
 #~ msgid ""
 #~ "  -d, --domain=TEXTDOMAIN   retrieve translated message from TEXTDOMAIN\n"
