@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: make 4.4.0.90\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2023-01-14 14:08-0500\n"
-"PO-Revision-Date: 2023-01-16 13:04-0800\n"
+"PO-Revision-Date: 2023-05-26 20:53-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -1082,7 +1082,7 @@ msgstr ""
 
 #: src/main.c:355
 msgid "  -L, --check-symlink-times   Use the latest mtime between symlinks and target.\n"
-msgstr "  -L, --check-symlink-times    koristi najkasniji mtime između simboličke veze i njena cilja\n"
+msgstr "  -L, --check-symlink-times    koristi najkasniji mtime između simboličke poveznice i njena cilja\n"
 
 #: src/main.c:357
 msgid ""
@@ -1094,7 +1094,7 @@ msgstr ""
 
 # remake > make (something) again or differently.
 # remake > gl. prepraviti, preurediti / im. prepravak, prerada
-# na nov način, drugačije urediti, izmijeniti da na drugi način služi svrsi; preuređenje, preuređen.
+# na nov način, drukčije urediti, izmijeniti da na drugi način služi svrsi; preuređenje, preuređen.
 #: src/main.c:360
 msgid ""
 "  -o FILE, --old-file=FILE, --assume-old=FILE\n"
@@ -1337,7 +1337,7 @@ msgstr "Koristimo zaključavanje (mutex) izlazne sinkronizacije „%s“\n"
 #: src/main.c:2273
 #, c-format
 msgid "Symbolic links not supported: disabling -L."
-msgstr "Simboličke veze nisu podržane: onemogućujemo -L."
+msgstr "Simboličke poveznice nisu podržane: onemogućujemo -L."
 
 #: src/main.c:2345
 #, c-format
@@ -2435,7 +2435,7 @@ msgid ""
 "# No general ('VPATH' variable) search path."
 msgstr ""
 "\n"
-"# Nema općenite („VPATH“ varijable) staze za pretraživanje."
+"# Nema opće („VPATH“ varijable) staze za pretraživanje."
 
 #: src/vpath.c:610
 msgid ""
