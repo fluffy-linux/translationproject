@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU coreutils 9.3-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2023-04-10 13:04+0100\n"
-"PO-Revision-Date: 2023-05-21 19:22+0100\n"
+"PO-Revision-Date: 2023-06-19 00:42+0100\n"
 "Last-Translator: Anbarasan Sivakumar <ivanovicha350@gmail.com>\n"
 "Language-Team: Tamil <tamil@systemreboot.net>\n"
 "Language: ta\n"
@@ -1344,9 +1344,9 @@ msgid "failed to get attributes of %s"
 msgstr "%s இன் இயற்பண்புகளை பெறுவதில் தோல்வியடைந்தது"
 
 #: src/chgrp.c:93
-#, fuzzy, c-format
+#, c-format
 msgid "invalid group: %s"
-msgstr "தவறான குழு: %s"
+msgstr "ஏற்கத்தகாக் குழு: %s"
 
 #: src/chgrp.c:110
 #, fuzzy, c-format
@@ -1354,8 +1354,8 @@ msgid ""
 "Usage: %s [OPTION]... GROUP FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
-"பயன்பாடு: %s [விருப்பத்தேர்வு]... [குழுக்கோப்பு]...\n"
-"  அல்லது:  %s [விருப்பத்தேர்வு]... --reference=[RFILE கோப்பு]...\n"
+"பயன்பாடு: %s [<செயல்மாற்றி>]... [<குழு>] [<கோப்பு>]...\n"
+"  அல்லது:  %s [<செயல்மாற்றி>]... --reference=[RFILE] [<கோப்பு>]...\n"
 
 #: src/chgrp.c:115
 #, fuzzy
@@ -1369,36 +1369,33 @@ msgstr ""
 "\n"
 
 #: src/chgrp.c:120 src/chmod.c:386 src/chown.c:90
-#, fuzzy
 msgid ""
 "  -c, --changes          like verbose but report only when a change is made\n"
 "  -f, --silent, --quiet  suppress most error messages\n"
 "  -v, --verbose          output a diagnostic for every file processed\n"
 msgstr ""
-"  -c, --changes          இது verbose ஐ ஒத்தது ஆனால் மாற்றம் செய்யும் போது மட்டுமே தெரிவிக்கும்\n"
-"  -f, --silent, --quiet  பெரும்பாலான பிழை செய்திகளை அடக்கும்\n"
-"  -v, --verbose          செயலாக்கப்பட்ட ஒவ்வொரு கோப்பிற்கான பழுது கண்டறிதல் தகவல்களை வெளியிடும்\n"
+"  -c, --changes          verbose போன்று, ஆனால் மாற்றங்களை மட்டுமே தெரிவி\n"
+"  -f, --silent, --quiet  பலப் பிழைச் செய்திகளைக் காட்டாதே\n"
+"  -v, --verbose          ஒவ்வொருக் கோப்பிற்கும் செய்தி அறிவி\n"
 
 #: src/chgrp.c:130 src/chown.c:100
-#, fuzzy
 msgid ""
 "                         (useful only on systems that can change the\n"
 "                         ownership of a symlink)\n"
 msgstr ""
-"                         (குறியீட்டுத்தொடுப்பின் உரிமையாளரை மாற்றும் ஆற்றல் \n"
-"                         பெற்ற முறைமைகளில் மட்டுமே பயனுள்ளதாக இருக்கும்)\n"
+"                         (மென்தொடுப்பின் உரிமையாளரை மாற்ற இயன்ற\n"
+"                         கணிப்பொறி அமைப்புகளில் மட்டுமே பயனுடையது)\n"
 
 #: src/chgrp.c:138
-#, fuzzy
 msgid ""
 "      --reference=RFILE  use RFILE's group rather than specifying a GROUP.\n"
 "                         RFILE is always dereferenced if a symbolic link.\n"
 msgstr ""
-"      --reference=RFILE  குழு மதிப்பை குறிப்பிடுவதற்கு பதிலாக \n"
-"                         RFILE இன் குழுவை பயன்படுத்தும்\n"
+"      --reference=<மூலக்கோப்பு>  <குழு> அல்லாமல் <மூலக்கோப்பின்> குழுவைப் பயன்படுத்து.\n"
+"                                 <மூலக்கோப்பு> மென்தொடுப்பெனின் அதுச் சுட்டும் கோப்பைப் பயன்படுத்து.\n"
 
 #: src/chgrp.c:160
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "Examples:\n"
@@ -1407,200 +1404,195 @@ msgid ""
 msgstr ""
 "\n"
 "எடுத்துக்காட்டு:\n"
-"  %s staff /u      இது /u இன் குழுவை \"staff\" என மாற்றும்.\n"
-"  %s -hR staff /u  இது /u மற்றும் துணைக்கோப்புகளின் குழுவை \"staff\" என மாற்றும்.\n"
+"  %s staff /u      /u கோப்பின் குழுவை \"staff\" என மாற்று.\n"
+"  %s -hR staff /u  /u அடைவின் குழுவையும் அதில் உள்ளடங்கியவற்றின் குழுவையும் \"staff\" என மாற்று.\n"
 
 #: src/chmod.c:134
-#, fuzzy, c-format
+#, c-format
 msgid "getting new attributes of %s"
-msgstr "%s கான புதிய இயற்பண்புகளை பெறுகிறது"
+msgstr "%s கோப்பின் புதிய பண்புக்கூறுகள் பெறப்படுகின்றன"
 
 #: src/chmod.c:159 src/chown-core.c:162
-#, fuzzy, c-format
+#, c-format
 msgid "neither symbolic link %s nor referent has been changed\n"
-msgstr "%s இன் குறியீட்டுத்தொடுப்பு அல்லது குறிப்பு என எதுவும் மாற்றப்படவில்லை\n"
+msgstr "%s மென்தொடுப்போ அதுக் குறிப்பதோ மாற்றப்படவில்லை\n"
 
 #: src/chmod.c:164
-#, fuzzy, c-format
+#, c-format
 msgid "%s could not be accessed\n"
-msgstr "%s ஐ அணுக இயலவில்லை\n"
+msgstr "%s அணுக இயலவில்லை\n"
 
 #: src/chmod.c:184
-#, fuzzy, c-format
+#, c-format
 msgid "mode of %s changed from %04lo (%s) to %04lo (%s)\n"
-msgstr "%s இன் பயன்முறை %04lo (%s) இல் இருந்து %04lo (%s) ஆக மாற்றப்பட்டது\n"
+msgstr "%s கோப்பின் அனுமதிகள் %04lo (%s) இலிருந்து %04lo (%s) என மாற்றப்பட்டது\n"
 
 #: src/chmod.c:187
-#, fuzzy, c-format
+#, c-format
 msgid "failed to change mode of %s from %04lo (%s) to %04lo (%s)\n"
-msgstr "%s இன் பயன்முறையை %04lo (%s) இல் இருந்து %04lo (%s) ஆக மாற்றுவதில் தோல்வியடைந்தது\n"
+msgstr "%s கோப்பின் அனுமதிகளை %04lo (%s) இலிருந்து %04lo (%s) என மாற்ற இயலவில்லை\n"
 
 #: src/chmod.c:190
-#, fuzzy, c-format
+#, c-format
 msgid "mode of %s retained as %04lo (%s)\n"
-msgstr "%s இன் பயன்முறை %04lo (%s) ஆக வைத்திருக்கப்பட்டது\n"
+msgstr "%s கோப்பின் அனுமதிகள் %04lo (%s) என மாற்றாமல் வைக்கப்பட்டன\n"
 
 #: src/chmod.c:249
-#, fuzzy, c-format
+#, c-format
 msgid "cannot operate on dangling symlink %s"
-msgstr "தொங்கிக்கொண்டிருக்கும் குறியீட்டுத்தொடுப்பு %s ஐ இயக்க முடியவில்லை"
+msgstr "%s மென்தொடுப்பு குறிக்கும் கோப்பு இல்லாததால் அதன் மிசை செயலாற்ற இயலவில்லை"
 
 #: src/chmod.c:286
-#, fuzzy, c-format
+#, c-format
 msgid "changing permissions of %s"
-msgstr "%s ற்கான அனுமதிகள் மாற்றியமைக்கப்படுகிறது"
+msgstr "%s கோப்பின் அனுமதிகள் மாற்றப்படுகின்றன"
 
 #: src/chmod.c:315
-#, fuzzy, c-format
+#, c-format
 msgid "%s: new permissions are %s, not %s"
 msgstr "%s: புதிய அனுமதிகள் %s ஆகும், %s அல்ல"
 
 #: src/chmod.c:375
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Usage: %s [OPTION]... MODE[,MODE]... FILE...\n"
 "  or:  %s [OPTION]... OCTAL-MODE FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
-"பயன்பாடு: %s [விருப்பத்தேர்வு]... பயன்முறை[,பயன்முறை]... கோப்பு...\n"
-"  அல்லது:  %s [விருப்பத்தேர்வு]... எண்ம-பயன்முறை கோப்பு...\n"
-"  அல்லது:  %s [விருப்பத்தேர்வு]... --reference=RFILE கோப்பு...\n"
+"பயன்பாடு: %s [<செயல்மாற்றி>]... <அனுமதி>[,<அனுமதி>]... <கோப்பு>...\n"
+"  அல்லது: %s [<செயல்மாற்றி>]... <எண்ம-அனுமதி> <கோப்பு>...\n"
+"  அல்லது: %s [<செயல்மாற்றி>]... --reference=<மூலக்கோப்பு> <கோப்பு>...\n"
 
 #: src/chmod.c:381
-#, fuzzy
 msgid ""
 "Change the mode of each FILE to MODE.\n"
 "With --reference, change the mode of each FILE to that of RFILE.\n"
 "\n"
 msgstr ""
-"ஒவ்வொரு கோப்பின் பயன்முறையையும் [பயன்முறை] ஆக மாற்றும்.\n"
-"--reference ஐ கொண்டு, ஒவ்வொரு கோப்பின் பயன்முறையையும் [RFILE] கோப்பில் உள்ள [பயன்முறை]யாக மாற்றலாம்.\n"
+"ஒவ்வொருக் <கோப்பின்> அனுமதியையும் <அனுமதி> என மாற்று.\n"
+"--reference கொடுத்தால், ஒவ்வொரு <கோப்பின்> அனுமதியும் [<மூலக்கோப்பில்>] உள்ள அனுமதியாக மாற்று.\n"
 "\n"
 
 #: src/chmod.c:395
-#, fuzzy
 msgid ""
 "      --reference=RFILE  use RFILE's mode instead of specifying MODE values.\n"
 "                         RFILE is always dereferenced if a symbolic link.\n"
 msgstr ""
-"      --reference=RFILE  குழு மதிப்பை குறிப்பிடுவதற்கு பதிலாக \n"
-"                         RFILE இன் குழுவை பயன்படுத்தும்\n"
+"      --reference=<மூலக்கோப்பு>  <அனுமதி> அல்லாமல் <மூலக்கோப்பின்> அனுமதியைப் பயன்படுத்து\n"
+"                                 <மூலக்கோப்பு> மென்தொடுப்பெனின் அதுக் குறிக்கும் கோப்பைப் பயன்படுத்து\n"
 
 #: src/chmod.c:399
-#, fuzzy
 msgid "  -R, --recursive        change files and directories recursively\n"
-msgstr "  -R, --recursive        கோப்புகள் மற்றும் அடைவுகளில் மீள்சுருளாக மாற்றும்\n"
+msgstr "  -R, --recursive        கோப்புகளையும் அடைவுகளையும் மீள்சுருளாக மாற்று\n"
 
 #: src/chmod.c:404
-#, fuzzy
 msgid ""
 "\n"
 "Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.\n"
 msgstr ""
 "\n"
-"ஒவ்வொரு பயன்முறையும் இவ்வாறாக இருக்கும் '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.\n"
+"ஒவ்வொரு <அனுமதியும்> '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+' வடிவத்தில் இருக்க வேண்டும்.\n"
 
 #: src/chmod.c:518
-#, fuzzy, c-format
+#, c-format
 msgid "cannot combine mode and --reference options"
-msgstr "பயன்முறை மற்றும் --reference விருப்பத்தேர்வுகளை ஒன்றாக்க முடியவில்லை"
+msgstr "<அனுமதி> செயலுருபையும் --reference செயல்மாற்றியையும் ஒன்றாக அளிக்கக் கூடாது"
 
 #: src/chmod.c:549
-#, fuzzy, c-format
+#, c-format
 msgid "invalid mode: %s"
-msgstr "தவறான பயன்முறை: %s"
+msgstr "ஏற்கத்தகா அனுமதி: %s"
 
 #: src/chown-core.c:173
-#, fuzzy, c-format
+#, c-format
 msgid "changed ownership of %s from %s to %s\n"
-msgstr "%s இன் உரிமை %s இல் இருந்து %s க்கு மாறியது\n"
+msgstr "%s கோப்பின் உரிமை %s பயனரிடமிருந்து %s பயனருக்கு மாறியது\n"
 
 #: src/chown-core.c:174
-#, fuzzy, c-format
+#, c-format
 msgid "changed group of %s from %s to %s\n"
-msgstr "%s இன் குழு %s இல் இருந்து %s க்கு மாறியது\n"
+msgstr "%s கோப்பு %s குழுவிலிருந்து %s குழுவிற்கு மாறியது\n"
 
 #: src/chown-core.c:175
-#, fuzzy, c-format
+#, c-format
 msgid "no change to ownership of %s\n"
-msgstr "%s இன் உரிமையில் மாற்றம் எதுவும் இல்லை\n"
+msgstr "%s கோப்பின் உரிமையில் மாற்றம் இல்லை\n"
 
 #: src/chown-core.c:180
-#, fuzzy, c-format
+#, c-format
 msgid "failed to change ownership of %s from %s to %s\n"
-msgstr "%s இன் உரிமையை %s இல் இருந்து %s க்கு மாற்றுவதில் தோல்வியடைந்தது\n"
+msgstr "%s கோப்பின் உரிமையை %s பயனரிடமிருந்து %s பயனருக்கு மாற்ற தோல்வி\n"
 
 #: src/chown-core.c:181
-#, fuzzy, c-format
+#, c-format
 msgid "failed to change group of %s from %s to %s\n"
-msgstr "%s இன் குழுவை %s இல் இருந்து %s க்கு மாற்றுவதில் தோல்வியடைந்தது\n"
+msgstr "%s கோப்பை %s குழுவிலிருந்து %s குழுவிற்கு மாற்ற தோல்வி\n"
 
 #: src/chown-core.c:182 src/chown-core.c:188
-#, fuzzy, c-format
+#, c-format
 msgid "failed to change ownership of %s\n"
-msgstr "%s இன் உரிமையை மாற்றுவதில் தோல்வியடைந்தது\n"
+msgstr "%s கோப்பின் உரிமையை மாற்ற தோல்வி\n"
 
 #: src/chown-core.c:186
-#, fuzzy, c-format
+#, c-format
 msgid "failed to change ownership of %s to %s\n"
-msgstr "%s இன் உரிமையை %s க்கு மாற்றுவதில் தோல்வியடைந்தது\n"
+msgstr "%s கோப்பின் உரிமையை %s பயனருக்கு மாற்ற தோல்வி\n"
 
 #: src/chown-core.c:187
-#, fuzzy, c-format
+#, c-format
 msgid "failed to change group of %s to %s\n"
-msgstr "%s இன் உரிமையை %s க்கு மாற்றுவதில் தோல்வியடைந்தது\n"
+msgstr "%s கோப்பை %s குழுவிற்கு மாற்ற தோல்வி\n"
 
 #: src/chown-core.c:195
-#, fuzzy, c-format
+#, c-format
 msgid "ownership of %s retained as %s\n"
-msgstr "%s இன் உரிமை %s ஆக வைத்திருக்கப்பட்டது\n"
+msgstr "%s கோப்பின் உரிமை %s என மாற்றாமல் விடப்பட்டது\n"
 
 #: src/chown-core.c:196
-#, fuzzy, c-format
+#, c-format
 msgid "group of %s retained as %s\n"
-msgstr "%s இன் குழு %s ஆக வைத்திருக்கப்பட்டது\n"
+msgstr "%s கோப்பின் குழு %s என மாற்றாமல் விடப்பட்டது\n"
 
 #: src/chown-core.c:197
-#, fuzzy, c-format
+#, c-format
 msgid "ownership of %s retained\n"
-msgstr "%s இன் உரிமை வைத்திருக்கப்பட்டது\n"
+msgstr "%s கோப்பின் உரிமை மாற்றாமல் விடப்பட்டது\n"
 
 #: src/chown-core.c:394
-#, fuzzy, c-format
+#, c-format
 msgid "cannot dereference %s"
-msgstr "%s ஐ குறிப்புதவி நீக்கம் செய்ய முடியவில்லை"
+msgstr "%s மென்தொடுப்பு சுட்டுவதைக் கண்டறிய இயலவில்லை"
 
 #: src/chown-core.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "changing ownership of %s"
-msgstr "%s இன் உரிமை மாற்றியமைக்கப்படுகிறது"
+msgstr "%s கோப்பின் உரிமை மாற்றப்படுகிறது"
 
 #: src/chown-core.c:483
-#, fuzzy, c-format
+#, c-format
 msgid "changing group of %s"
-msgstr "%s இன் குழு மாற்றியமைக்கப்படுகிறது"
+msgstr "%s கோப்பின் குழு மாற்றப்படுகிறது"
 
 #: src/chown.c:80
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Usage: %s [OPTION]... [OWNER][:[GROUP]] FILE...\n"
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
-"பயன்பாடு: %s [விருப்பத்தேர்வு]... [உரிமையாளர்][:[குழு]] கோப்பு...\n"
-"  அல்லது:  %s [விருப்பத்தேர்வு]... --reference=RFILE கோப்பு...\n"
+"பயன்பாடு: %s [<செயல்மாற்றி>]... [<உரிமையாளர்>][:[<குழு>]] <கோப்பு>...\n"
+"  அல்லது: %s [<செயல்மாற்றி>]... --reference=<மூலக்கோப்பு> <கோப்பு>...\n"
 
 #: src/chown.c:85
-#, fuzzy
 msgid ""
 "Change the owner and/or group of each FILE to OWNER and/or GROUP.\n"
 "With --reference, change the owner and group of each FILE to those of RFILE.\n"
 "\n"
 msgstr ""
-"ஒவ்வொரு [கோப்பு] இன் உரிமையாளர் மற்றும்/அல்லது குழுவை முறையே [உரிமையாளர்] மற்றும்/அல்லது [குழு] வாக மாற்றும்.\n"
-"--reference ஐ கொண்டு, ஒவ்வொரு [கோப்பு] இன் உரிமையாளர் மற்றும்/அல்லது குழுவை RFILE இல் உள்ளபடி மாற்றும்.\n"
+"ஒவ்வொருக் <கோப்பின்> உரிமையாளரை <உரிமையாளர்> என்றும் குழுவை <குழு> என்றும் மாற்று.\n"
+"--reference இருப்பின், ஒவ்வொருக் <கோப்பின்> உரிமையாளரையும் குழுவையும் <மூலக்கோப்பில்> உள்ளபடி மாற்று.\n"
+"\n"
 
 #: src/chown.c:104
-#, fuzzy
 msgid ""
 "      --from=CURRENT_OWNER:CURRENT_GROUP\n"
 "                         change the owner and/or group of each file only if\n"
@@ -1608,20 +1600,19 @@ msgid ""
 "                         here.  Either may be omitted, in which case a match\n"
 "                         is not required for the omitted attribute\n"
 msgstr ""
-"      --from=[இப்போதைய_உரிமையாளர்:இப்போதைய_குழு]\n"
-"                         இப்போதைய உரிமையாளர் மற்றும்/அல்லது இப்போதைய குழு இங்கு\n"
-"                         குறிப்பிட்டுள்ளவையோடு பொருந்தினால் மட்டுமே ஒவ்வொரு கோப்பின் உரிமையாளர்\n"
-"                         மற்றும்/அல்லது குழுவை மாற்றும். இவ்விரண்டில் ஏதாவது ஒன்றை தவிர்க்கலாம், அப்போது\n"
-"                         தவிர்க்கப்பட்ட இயற்பண்பிற்கு பொருத்தம் தேவையில்லை.\n"
+"      --from=[<தற்போதைய_உரிமையாளர்>:<தற்போதைய_குழு>]\n"
+"                         தற்போதைய உரிமையாளரும் தற்போதைய குழுவும்\n"
+"                         குறிப்பிட்டுள்ளவாறே இருந்தால் மட்டுமே கோப்புகளை மாற்றியமை.\n"
+"                         உரிமையாளர் குழு இரண்டையும் குறிப்பிட வேண்டியதில்லை.\n"
+"                         குறிப்பிடப்பட்டது மட்டுமே சரிபார்க்கப்படும்.\n"
 
 #: src/chown.c:115
-#, fuzzy
 msgid ""
 "      --reference=RFILE  use RFILE's owner and group rather than specifying\n"
 "                         OWNER:GROUP values.  RFILE is always dereferenced.\n"
 msgstr ""
-"      --reference=RFILE  குழு மதிப்பை குறிப்பிடுவதற்கு பதிலாக \n"
-"                         RFILE இன் குழுவை பயன்படுத்தும்\n"
+"      --reference=<மூலக்கோப்பு>  <உரிமையாளர்>:<குழு> அல்லாமல் <மூலக்கோப்பின்> உரிமையாளரையும் குழுவையும் பயன்படுத்து.\n"
+"                                  <மூலக்கோப்பு> மென்தொடுப்பெனின் அதுச் சுட்டும் கோப்பைப் பயன்படுத்து.\n"
 
 #: src/chown.c:137
 #, fuzzy
@@ -1637,7 +1628,7 @@ msgstr ""
 " உள்நுழை குழுவாக மாற்றப்படும்.\n"
 
 #: src/chown.c:143
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "Examples:\n"
@@ -1647,112 +1638,102 @@ msgid ""
 msgstr ""
 "\n"
 "எடுத்துக்காட்டு:\n"
-"  %s root /u        இது /u இன் உரிமையாளரை \"root\" என மாற்றுகிறது.\n"
-"  %s root:staff /u  இதுபோலவே, அதன் குழுவை \"staff\" ஆக மாற்றுகிறது.\n"
-"  %s -hR root /u    இது /u மற்றும் துணைக்கோப்புகளின் உரிமையாளரை \"root\" என மாற்றுகிறது.\n"
+"  %s root /u        /u கோப்பின் உரிமையாளரை \"root\" என மாற்று.\n"
+"  %s root:staff /u  முந்தைய எடுத்துக்காட்டு போலவே, ஆனால் குழுவை \"staff\" எனவும் மாற்று.\n"
+"  %s -hR root /u    /u அடைவின் உரிமையாளரையும் அதில் உள்ளடங்கியவற்றின் உரிமையாளரையும் \"staff\" என மாற்று.\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/chroot.c:39
-#, fuzzy
 msgid "Roland McGrath"
-msgstr "Roland McGrath"
+msgstr "இரோலன்ட் மெக்கிராத்"
 
 #: src/chroot.c:139 src/install.c:554
-#, fuzzy, c-format
+#, c-format
 msgid "invalid group %s"
-msgstr "தவறான குழு %s"
+msgstr "ஏற்கத்தகாக் குழு %s"
 
 #: src/chroot.c:154
-#, fuzzy, c-format
+#, c-format
 msgid "invalid group list %s"
-msgstr "தவறான குழு பட்டியல் %s"
+msgstr "ஏற்கத்தகாக் குழுப் பட்டியல் %s"
 
 #: src/chroot.c:187
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Usage: %s [OPTION] NEWROOT [COMMAND [ARG]...]\n"
 "  or:  %s OPTION\n"
 msgstr ""
-"பயன்பாடு: %s [விருப்பத்தேர்வு] புதியவேர் [கட்டளை [மதிப்புரு]...]\n"
-"  அல்லது:  %s விருப்பத்தேர்வு\n"
+"பயன்பாடு: %s [<செயல்மாற்றி>] <புதியவேர்> [<கட்டளை> [<செயலுருபு>]...]\n"
+"  அல்லது:  %s <செயல்மாற்றி>\n"
 
 #: src/chroot.c:192
-#, fuzzy
 msgid ""
 "Run COMMAND with root directory set to NEWROOT.\n"
 "\n"
 msgstr ""
-"வேர் அடைவை [புதியவேர்] க்கு அமைத்ததும் [கட்டளை] யை இயக்கவும்.\n"
+"வேர் அடைவை <புதியவேர்க்கு> மாற்றி <கட்டளையை> இயக்கு.\n"
 "\n"
 
 #: src/chroot.c:197
-#, fuzzy
 msgid "      --groups=G_LIST        specify supplementary groups as g1,g2,..,gN\n"
-msgstr "      --groups=G_LIST        g1,g2,..,gN என துணையான குழுக்களை குறிப்பிடவும்\n"
+msgstr "      --groups=<குழுக்கள்>        குழு1,குழு2,..,குழுN எனத் துணைக் குழுக்களைக் குறிப்பிடுக\n"
 
 #: src/chroot.c:200
-#, fuzzy
 msgid "      --userspec=USER:GROUP  specify user and group (ID or name) to use\n"
-msgstr "      --userspec=பயனர்:குழு    பயன்படுத்துவதற்கான பயனர் மற்றும் குழு (ID அல்லது பெயர்) ஐ குறிப்பிடவும்\n"
+msgstr "      --userspec=<பயனர்>:<குழு>    <பயனரையும்> <குழுவையும்> (அடையாள எண் அல்லது பெயர்) குறிப்பிடுக\n"
 
 #: src/chroot.c:203
-#, fuzzy, c-format
+#, c-format
 msgid "      --skip-chdir           do not change working directory to %s\n"
-msgstr "      --skip-chdir           வேலை செய்யும் அடைவை %s க்கு மாற்ற வேண்டாம்\n"
+msgstr "      --skip-chdir           தற்போதைய அடைவை %s அடைவிற்கு மாற்றாதே\n"
 
 #: src/chroot.c:209
-#, fuzzy
 msgid ""
 "\n"
 "If no command is given, run '\"$SHELL\" -i' (default: '/bin/sh -i').\n"
 msgstr ""
 "\n"
-"கட்டளை எதுவும் தரவில்லை என்றால், இதை இயக்கவும் '\"$SHELL\" -i' (default: '/bin/sh -i').\n"
+"கட்டளை குறிப்பிடப்படவில்லையெனின், '\"$SHELL\" -i' (default: '/bin/sh -i') இயக்கு.\n"
 
 #: src/chroot.c:289
-#, fuzzy, c-format
+#, c-format
 msgid "option --skip-chdir only permitted if NEWROOT is old %s"
-msgstr "விருப்பத்தேர்வு --skip-chdir ஆனது புதிய_வேர் பழைய %s ஆக இருந்தால் மட்டுமே அனுமதிக்கும்"
+msgstr "<புதியவேர்> பழைய %s ஆக இருந்தால் மட்டுமே --skip-chdir செயல்மாற்றி ஏற்புடையது"
 
 #: src/chroot.c:332
-#, fuzzy, c-format
+#, c-format
 msgid "cannot change root directory to %s"
-msgstr "%s ற்கு வேர் அடைவை மாற்ற முடியவில்லை"
+msgstr "வேர் அடைவை %s என மாற்ற இயலவில்லை"
 
 #: src/chroot.c:336
-#, fuzzy
 msgid "cannot chdir to root directory"
-msgstr "வேர் அடைவிற்கு chdir செய்ய முடியவில்லை"
+msgstr "வேர் அடைவிற்கு chdir செய்ய இயலவில்லை"
 
 #: src/chroot.c:379
-#, fuzzy, c-format
+#, c-format
 msgid "no group specified for unknown uid: %d"
-msgstr "அறியப்படாத uid க்கு எந்த குழுவும் குறிப்பிடப்படவில்லை: %d"
+msgstr "அறியப்படாத %d பயனர் எண்ணுக்கு குழு குறிப்பிடப்படவில்லை"
 
 #: src/chroot.c:404
-#, fuzzy
 msgid "failed to get supplemental groups"
-msgstr "துணையான குழுக்களை பெறுவதில் தோல்வியடைந்தது"
+msgstr "துணைக் குழுக்கள் பெற தோல்வி"
 
 #: src/chroot.c:416
-#, fuzzy
 msgid "failed to set supplemental groups"
-msgstr "துணையான குழுக்களை அமைப்பதில் தோல்வியடைந்தது"
+msgstr "துணைக் குழுக்கள் அமைக்க தோல்வி"
 
 #: src/chroot.c:422
-#, fuzzy
 msgid "failed to set group-ID"
-msgstr "குழு-ID ஐ அமைப்பதில் தோல்வியடைந்தது"
+msgstr "குழு எண் அமைக்க தோல்வி"
 
 #: src/chroot.c:425
-#, fuzzy
 msgid "failed to set user-ID"
-msgstr "பயனர்-ID ஐ அமைப்பதில் தோல்வியடைந்தது"
+msgstr "பயனர் எண் அமைக்க தோல்வி"
 
 #: src/chroot.c:431 src/nohup.c:223 src/stdbuf.c:393 src/timeout.c:552
-#, fuzzy, c-format
+#, c-format
 msgid "failed to run command %s"
-msgstr "%s கட்டளையை செயல்படுத்துவதில் தோல்வியடைந்தது"
+msgstr "%s கட்டளையை இயக்க தோல்வி"
 
 #: src/cksum.c:170 src/wc.c:191
 #, fuzzy
@@ -1775,26 +1756,23 @@ msgid "using generic hardware support"
 msgstr "பொதுவான மென்பொருள் ஆதரவு பயன்படுத்தப்படுகிறது"
 
 #: src/comm.c:112 src/join.c:192
-#, fuzzy, c-format
+#, c-format
 msgid "Usage: %s [OPTION]... FILE1 FILE2\n"
-msgstr "பயன்பாடு: %s [விருப்பத்தேர்வு]... கோப்பு1 கோப்பு2\n"
+msgstr "பயன்பாடு: %s [<செயல்மாற்றி>]... <கோப்பு1> <கோப்பு2>\n"
 
 #: src/comm.c:116
-#, fuzzy
 msgid "Compare sorted files FILE1 and FILE2 line by line.\n"
-msgstr "வகைப்படுத்தப்பட்ட கோப்புகள் கோப்பு1 மற்றும் கோப்பு2 களை வரிக்கு வரி ஒப்பிடுகிறது.\n"
+msgstr "<கோப்பு1>, <கோப்பு2> ஆகிய வரிசைப்படுத்தப்பட்ட கோப்புகளை வரிக்கு வரி ஒப்பிடு.\n"
 
 #: src/comm.c:119 src/join.c:201
-#, fuzzy
 msgid ""
 "\n"
 "When FILE1 or FILE2 (not both) is -, read standard input.\n"
 msgstr ""
 "\n"
-"கோப்பு1 அல்லது கோப்பு2 (இரண்டும் சேர்த்து அல்ல) '-' ஆக இருந்தால், தரமான உள்ளீட்டை படிக்கும்.\n"
+"<கோப்பு1> அல்லது <கோப்பு2> (இரண்டும் அல்ல) '-' எனின், இயல் உள்ளீட்டைப் படி.\n"
 
 #: src/comm.c:123
-#, fuzzy
 msgid ""
 "\n"
 "With no options, produce three-column output.  Column one contains\n"
@@ -1802,12 +1780,12 @@ msgid ""
 "and column three contains lines common to both files.\n"
 msgstr ""
 "\n"
-"விருப்பங்கள் இல்லாமல், மூன்று செங்குத்துவரிசை வெளியீட்டை உருவாக்கும். செங்குத்துவரிசை ஒன்று \n"
-"கோப்பு1 க்கு தனித்துவமான வரிகளைக் கொண்டுள்ளது, செங்குத்துவரிசை இரண்டு கோப்பு2 க்கு தனித்துவமான \n"
-"வரிகளைக் கொண்டுள்ளது, மற்றும் செங்குத்துவரிசை மூன்று இரண்டு கோப்புகளுக்கும் பொதுவான வரிகளைக் கொண்டுள்ளது.\n"
+"செயல்மாற்றிகள் இல்லையெனின், மூன்று நிரல்களில் வெளியிடு. முதல் நிரல் \n"
+"<கோப்பு1> இல் மட்டுமேயுள்ள வரிகளைக் கொண்டது, இரண்டாம் நிரல்\n"
+"<கோப்பு2> இல் மட்டுமேயுள்ள வரிகளைக் கொண்டது, மூன்றாம் நிரல் இரண்டு\n"
+"கோப்புகளுக்கும் பொதுவான வரிகளைக் கொண்டது.\n"
 
 #: src/comm.c:129
-#, fuzzy
 msgid ""
 "\n"
 "  -1                      suppress column 1 (lines unique to FILE1)\n"
@@ -1815,12 +1793,11 @@ msgid ""
 "  -3                      suppress column 3 (lines that appear in both files)\n"
 msgstr ""
 "\n"
-"  -1                      செங்குத்துவரிசை 1 ஐ அடக்கும் (கோப்பு1 க்கு தனித்துவமான வரிகள்)\n"
-"  -2                      செங்குத்துவரிசை 2 ஐ அடக்கும் (கோப்பு2 க்கு தனித்துவமான வரிகள்)\n"
-"  -3                      செங்குத்துவரிசை 3 ஐ அடக்கும் (இரண்டு கோப்புகளுக்கும் பொதுவான வரிகள்)\n"
+"  -1                      முதல் நிரலைக் காட்டாதே (<கோப்பு1> இல் மட்டுமேயுள்ள வரிகள்)\n"
+"  -2                      இரண்டாம் நிரலைக் காட்டாதே (<கோப்பு2> இல் மட்டுமேயுள்ள வரிகள்)\n"
+"  -3                      மூன்றாம் நிரலைக் காட்டாதே (இரண்டு கோப்புகளுக்கும் பொதுவான வரிகள்)\n"
 
 #: src/comm.c:135
-#, fuzzy
 msgid ""
 "\n"
 "      --check-order       check that the input is correctly sorted, even\n"
@@ -1828,36 +1805,33 @@ msgid ""
 "      --nocheck-order     do not check that the input is correctly sorted\n"
 msgstr ""
 "\n"
-"      --check-order       எல்லா உள்ளீடு வரிகளும் இணையாக இருந்தாலும் அவை \n"
-"                            சரியாக வரிசைப்படுத்தப்பட்டுள்ளதா என்பதை சரிபார்க்கிறது\n"
-"      --nocheck-order     உள்ளீடு சரியாக வரிசைப்படுத்தப்பட்டுள்ளதா என்பதை சரிபார்க்காது\n"
+"      --check-order       எல்லா உள்ளீட்டு வரிகளும் இணையாக இருந்தாலும் அவைச் \n"
+"                            சரியாக வரிசைப்படுத்தப்பட்டுள்ளனவா எனச் சரிபார்\n"
+"      --nocheck-order     உள்ளீடு சரியாக வரிசைப்படுத்தப்பட்டுள்ளதா எனச் சரிபார்க்காதே\n"
 
 #: src/comm.c:141
-#, fuzzy
 msgid "      --output-delimiter=STR  separate columns with STR\n"
-msgstr "      --output-delimiter=STR  STR ஐ கொண்டு செங்குத்துவரிசைகளை பிரிக்கும்\n"
+msgstr "      --output-delimiter=STR  STR உருச்சரத்துடன் நிரல்களைப் பிரி\n"
 
 #: src/comm.c:144
-#, fuzzy
 msgid "      --total             output a summary\n"
-msgstr "      --total             சுருக்கத்தை வெளியிடும்\n"
+msgstr "      --total             சுருக்கத்தை வெளியிடு\n"
 
 #: src/comm.c:147
-#, fuzzy
 msgid "  -z, --zero-terminated   line delimiter is NUL, not newline\n"
-msgstr "  -z, --zero-terminated   புதியவரிக்கு பதிலாக NUL ஐ வரி வரம்புச்சுட்டியாக பயன்படுத்தும்\n"
+msgstr "  -z, --zero-terminated   புதியவரி வரியுருக்கு மாறாக NUL வரியுருவை வரம்புச்சுட்டியாக பயன்படுத்து\n"
 
 #: src/comm.c:152
-#, fuzzy
 msgid ""
 "\n"
 "Note, comparisons honor the rules specified by 'LC_COLLATE'.\n"
 msgstr ""
 "\n"
-"குறிப்பு, ஒப்பீடுகள் 'LC_COLLATE' ஆல் குறிப்பிடப்பட்டுள்ள விதிகளை மதிக்கிறது.\n"
+"\n"
+"குறிப்பு: ஒப்பீடுகள் 'LC_COLLATE' குறிப்பிடும் விதிகளை மதிக்கிறது.\n"
 
 #: src/comm.c:156
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "Examples:\n"
@@ -1865,34 +1839,31 @@ msgid ""
 "  %s -3 file1 file2  Print lines in file1 not in file2, and vice versa.\n"
 msgstr ""
 "\n"
-"எடுத்துக்காட்டுகள்:\n"
-"  %s -12 கோப்பு1 கோப்பு2   கோப்பு1 மற்றும் கோப்பு2 இவை இரண்டிலும் உள்ள பொதுவான வரிகளை அச்சிடும்.\n"
-"  %s -3 கோப்பு1 கோப்பு2  கோப்பு2 அல்லாமல் கோப்பு1 இல் உள்ள வரிகளை அச்சிடுகிறது, மற்றும் நிலை எதிர்மாறாக.\n"
+"எடுத்துக்காட்டு:\n"
+"  %s -12 கோப்பு1 கோப்பு2   கோப்பு1, கோப்பு2 இரண்டிற்கும் பொதுவான வரிகளை மட்டும் காட்டு.\n"
+"  %s -3 கோப்பு1 கோப்பு2  கோப்பு1, கோப்பு2 இரண்டிற்கும் பொதுவல்லாத வரிகளை மட்டும் காட்டு.\n"
 
 #: src/comm.c:238
-#, fuzzy, c-format
+#, c-format
 msgid "file %d is not in sorted order"
-msgstr "வரிசைப்படுத்தப்பட்ட வரிசையில் %d கோப்பு இல்லை"
+msgstr "கோப்பு %d வரிசைப்படுத்தப்படவில்லை"
 
 #: src/comm.c:404 src/comm.c:412 src/du.c:1137 src/ls.c:3144 src/wc.c:1066
-#, fuzzy
 msgid "total"
 msgstr "மொத்தம்"
 
 #: src/comm.c:417 src/join.c:1199
-#, fuzzy
 msgid "input is not in sorted order"
-msgstr "வரிசைப்படுத்தப்பட்ட வரிசையில் உள்ளீடு இல்லை"
+msgstr "உள்ளீடு வரிசைப்படுத்தப்படவில்லை"
 
 #: src/comm.c:475
-#, fuzzy
 msgid "multiple output delimiters specified"
 msgstr "பல வெளியீடு வரம்புச்சுட்டிகள் குறிப்பிடப்பட்டுள்ளன"
 
 #: src/copy.c:263 src/copy.c:673 src/copy.c:1553
-#, fuzzy, c-format
+#, c-format
 msgid "cannot lseek %s"
-msgstr "%s ஐ lseek செய்ய முடியவில்லை"
+msgstr "%s கோப்பை lseek செய்ய இயலாது"
 
 #: src/copy.c:273 src/copy.c:666
 #, fuzzy, c-format
@@ -1900,33 +1871,33 @@ msgid "error deallocating %s"
 msgstr "%s ஒதுக்கீடு விடுத்தலில் பிழை"
 
 #: src/copy.c:373
-#, fuzzy, c-format
+#, c-format
 msgid "error copying %s to %s"
-msgstr "%s ஐ %s க்கு நகலெடுப்பதில் பிழை"
+msgstr "%s கோப்பை %s கோப்பிற்கு படியெடுப்பதில் பிழை"
 
 #: src/copy.c:399 src/dd.c:1894 src/dd.c:2218 src/du.c:1134 src/head.c:157
 #: src/head.c:308 src/head.c:390 src/head.c:587 src/head.c:669 src/head.c:738
 #: src/head.c:788 src/head.c:811 src/tail.c:443 src/tail.c:536 src/tail.c:584
 #: src/tail.c:677 src/tail.c:804 src/tail.c:852 src/tail.c:889 src/tail.c:2008
 #: src/tail.c:2041 src/uniq.c:462
-#, fuzzy, c-format
+#, c-format
 msgid "error reading %s"
-msgstr "%s ஐ படிப்பதில் பிழை"
+msgstr "%s படிப்பதில் பிழை"
 
 #: src/copy.c:432 src/dd.c:2281 src/dd.c:2344 src/head.c:185 src/tail.c:417
-#, fuzzy, c-format
+#, c-format
 msgid "error writing %s"
 msgstr "%s எழுதுவதில் பிழை"
 
 #: src/copy.c:461
-#, fuzzy, c-format
+#, c-format
 msgid "overflow reading %s"
-msgstr "%s ஐ படிப்பதில் வழிவு ஏற்பட்டுள்ளது"
+msgstr "%s படிப்பதில் வழிவு ஏற்பட்டது"
 
 #: src/copy.c:609
-#, fuzzy, c-format
+#, c-format
 msgid "%s: write failed"
-msgstr "%s: எழுதல் தோல்வியடைந்தது"
+msgstr "%s: எழுத தோல்வி"
 
 #: src/copy.c:659 src/copy.c:1615
 #, fuzzy, c-format
@@ -1998,9 +1969,9 @@ msgid "skipping file %s, as it was replaced while being copied"
 msgstr "கோப்பு %s நகலெடுக்கும்போது மாற்றியமைக்கப்பட்டதால் இதை தவிர்க்கப்படுகிறது"
 
 #: src/copy.c:1315 src/copy.c:2137 src/copy.c:2582 src/remove.c:401
-#, fuzzy, c-format
+#, c-format
 msgid "removed %s\n"
-msgstr "%s நீக்கப்பட்டுவிட்டது\n"
+msgstr "%s நீக்கப்பட்டது\n"
 
 #: src/copy.c:1402
 #, fuzzy, c-format
@@ -2024,9 +1995,9 @@ msgstr "%s கான தடவைகள் பாதுகாக்கப்ப�
 
 #: src/copy.c:1704 src/copy.c:1710 src/head.c:898 src/sync.c:164
 #: src/touch.c:168 src/truncate.c:378
-#, fuzzy, c-format
+#, c-format
 msgid "failed to close %s"
-msgstr "%s ஐ மூடுவதில் தோல்வியடைந்தது"
+msgstr "%s மூட தோல்வி"
 
 #: src/copy.c:1995
 #, fuzzy, c-format
@@ -2044,9 +2015,9 @@ msgid "%s: overwrite %s? "
 msgstr "%s: %s ஐ மேலெழுதவா? "
 
 #: src/copy.c:2081
-#, fuzzy, c-format
+#, c-format
 msgid " (backup: %s)"
-msgstr " (காப்புநகல்: %s)"
+msgstr " (காப்புப்படி: %s)"
 
 #: src/copy.c:2091
 #, fuzzy
@@ -2054,34 +2025,34 @@ msgid "failed to restore the default file creation context"
 msgstr "முன்னிருப்பு கோப்பு உருவாக்க சூழலை மீட்டமைப்பதில் தோல்வியடைந்தது"
 
 #: src/copy.c:2131
-#, fuzzy, c-format
+#, c-format
 msgid "cannot create hard link %s to %s"
-msgstr "வன் தொடுப்பு %s ஐ %s க்கு உருவாக்க முடியவில்லை"
+msgstr "%2$s கோப்பைச் சுட்டும் %1$s வன்தொடுப்பை உருவாக்க இயலவில்லை"
 
 #: src/copy.c:2257
-#, fuzzy, c-format
+#, c-format
 msgid "-r not specified; omitting directory %s"
-msgstr "-r குறிப்பிடப்படவில்லை; %s அடைவு தவிர்க்கப்படுகிறது"
+msgstr "-r குறிப்பிடப்படவில்லை; %s அடைவு படியெடுக்கப்படவில்லை"
 
 #: src/copy.c:2258
-#, fuzzy, c-format
+#, c-format
 msgid "omitting directory %s"
-msgstr "%s அடைவு தவிர்க்கப்படுகிறது"
+msgstr "%s அடைவு படியெடுக்கப்படவில்லை"
 
 #: src/copy.c:2281
-#, fuzzy, c-format
+#, c-format
 msgid "warning: source file %s specified more than once"
-msgstr "எச்சரிக்கை: மூலம்க்கோப்பு %s ஒன்றிற்கும் மேற்பட்ட இடத்தில் குறிப்பிடப்பட்டுள்ளது"
+msgstr "எச்சரிக்கை: மூலக்கோப்பு %s பல முறை குறிப்பிடப்பட்டுள்ளது"
 
 #: src/copy.c:2343 src/ln.c:269
-#, fuzzy, c-format
+#, c-format
 msgid "%s and %s are the same file"
-msgstr "%s மற்றும் %s இவ்விரண்டும் ஒரே கோப்புகளாகும்"
+msgstr "%s, %s இரண்டும் ஒரேக் கோப்பு"
 
 #: src/copy.c:2433
 #, c-format
 msgid "skipped %s\n"
-msgstr ""
+msgstr "%s படியெடுக்கப்படவில்லை\n"
 
 #: src/copy.c:2435
 #, fuzzy, c-format
@@ -2089,39 +2060,39 @@ msgid "not replacing %s"
 msgstr "%s ஐ படிப்பதில் பிழை"
 
 #: src/copy.c:2455
-#, fuzzy, c-format
+#, c-format
 msgid "cannot overwrite non-directory %s with directory %s"
-msgstr "அடைவு அல்லாத %s ஐ அடைவு %s ஐ கொண்டு மேலெழுத முடியவில்லை"
+msgstr "அடைவு அல்லாத %s கோப்பை %s அடைவு கொண்டு மேலெழுத இயலவில்லை"
 
 #: src/copy.c:2473 src/ln.c:240
-#, fuzzy, c-format
+#, c-format
 msgid "will not overwrite just-created %s with %s"
-msgstr "இப்போது உருவாக்கிய %s ஐ %s ஐ கொண்டு மேலெழுத போவதில்லை"
+msgstr "இப்போதே உருவாக்கிய %s கோப்பை %s கோப்பு கொண்டு மேலெழுத இயலாது"
 
 #: src/copy.c:2491
-#, fuzzy, c-format
+#, c-format
 msgid "cannot overwrite directory %s with non-directory"
-msgstr "அடைவு %s ஐ அடைவு அல்லாத ஒன்றை கொண்டு மேலெழுத முடியவில்லை"
+msgstr "%s அடைவை அடைவு அல்லாத ஒன்றைக் கொண்டு மேலெழுத இயலாது"
 
 #: src/copy.c:2505
-#, fuzzy, c-format
+#, c-format
 msgid "cannot move directory onto non-directory: %s -> %s"
-msgstr "அடைவு அல்லாத ஒன்றில் அடைவை நகர்த்த முடியவில்லை: %s -> %s"
+msgstr "அடைவை அடைவு அல்லாத ஒன்றின் மீது நகர்த்த இயலவில்லை: %s -> %s"
 
 #: src/copy.c:2533
-#, fuzzy, c-format
+#, c-format
 msgid "backing up %s might destroy source;  %s not moved"
-msgstr "%s ஐ காப்புநகல் செயலானது மூலம்த்தை அழிக்கக்கூடும்;  %s நகர்த்தப்படவில்லை"
+msgstr "%s கோப்பைக் காப்புப்படியெடுப்பது மூலக்கோப்பை அழிக்கலாம்;  %s நகர்த்தப்படவில்லை"
 
 #: src/copy.c:2534
-#, fuzzy, c-format
+#, c-format
 msgid "backing up %s might destroy source;  %s not copied"
-msgstr "%s ஐ காப்புநகல் செயலானது மூலம்த்தை அழிக்கக்கூடும்;  %s நகலெடுக்கப்படவில்லை"
+msgstr "%s கோப்பைக் காப்புப்படியெடுப்பது மூலக்கோப்பை அழிக்கலாம்;  %s படியெடுக்கப்படவில்லை"
 
 #: src/copy.c:2560 src/ln.c:302
-#, fuzzy, c-format
+#, c-format
 msgid "cannot backup %s"
-msgstr "%s ஐ காப்புநகல் செய்ய முடியவில்லை"
+msgstr "%s கோப்பைக் காப்புப்படியெடுக்க இயலவில்லை"
 
 #: src/copy.c:2614
 #, fuzzy, c-format
