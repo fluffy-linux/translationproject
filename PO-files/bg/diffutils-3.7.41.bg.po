@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.7.41\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2021-07-19 20:25-0700\n"
-"PO-Revision-Date: 2021-07-20 18:17+0200\n"
+"PO-Revision-Date: 2023-06-18 17:54+0300\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -82,7 +82,7 @@ msgstr "блоков специален файл"
 
 #: lib/file-type.c:69
 msgid "character special file"
-msgstr "знаков специален сайт"
+msgstr "знаков специален файл"
 
 #: lib/file-type.c:72
 msgid "contiguous data"
@@ -331,9 +331,9 @@ msgid ""
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
-"Лиценз GPLv3+: ОПЛ на GNU, версия 3 или по-висока <%s>\n"
-"Това е свободен софтуер. Можете да го променяте и разпространявате.\n"
-"Няма НИКАКВИ ГАРАНЦИИ до степента позволена от закона.\n"
+"Лиценз GPLv3+: GNU GPL — версия 3 или по-късна версия <%s>.\n"
+"Тази програма е свободен софтуер. Може да я променяте и/или разпространявате.\n"
+"Тя се разпространява БЕЗ НИКАКВИ ГАРАНЦИИ доколкото е позволено от закона.\n"
 
 #. TRANSLATORS: %s denotes an author name.
 #: lib/version-etc.c:105
