@@ -3479,7 +3479,7 @@ msgstr "datoteka „%s“ sadrži string koji nije završen s NULL"
 #: src/read-mo.c:178
 #, c-format
 msgid "file \"%s\" contains a not NUL terminated system dependent string"
-msgstr "datateka „%s“ sadrži string ovisan o sustavu, a koji nije završen s NULL"
+msgstr "datoteka „%s“ sadrži string ovisan o sustavu, a koji nije završen s NULL"
 
 #: src/read-mo.c:184 src/read-mo.c:292
 #, c-format
