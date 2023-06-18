@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: coreutils 9.3-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2023-04-10 13:04+0100\n"
-"PO-Revision-Date: 2023-04-10 19:20+0300\n"
+"PO-Revision-Date: 2023-06-18 17:54+0300\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -96,7 +96,7 @@ msgstr "блоков специален файл"
 
 #: lib/file-type.c:69
 msgid "character special file"
-msgstr "знаков специален сайт"
+msgstr "знаков специален файл"
 
 #: lib/file-type.c:72
 msgid "contiguous data"
@@ -665,10 +665,8 @@ msgid ""
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
-"Лиценз — Общ публичен лиценз на GNU (GNU GPL), както е публикуван от Фондацията\n"
-"за свободен софтуер — версия 3 на лиценза или (по ваше решение) по-късна версия.\n"
-"<%s>\n"
-"Тази програма е свободен софтуер. Можете да я разпространявате и/или променяте.\n"
+"Лиценз GPLv3+: GNU GPL — версия 3 или по-късна версия <%s>.\n"
+"Тази програма е свободен софтуер. Може да я променяте и/или разпространявате.\n"
 "Тя се разпространява БЕЗ НИКАКВИ ГАРАНЦИИ доколкото е позволено от закона.\n"
 
 #. TRANSLATORS: %s denotes an author name.
@@ -4671,7 +4669,7 @@ msgstr "текущата директория не може да се опред
 #: src/find-mount-point.c:92
 #, c-format
 msgid "cannot change to directory %s"
-msgstr "не може да се влезе в директорията %s"
+msgstr "не може да се влезе в директорията „%s“"
 
 #: src/find-mount-point.c:70
 #, c-format
