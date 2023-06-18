@@ -42,9 +42,8 @@ msgstr "Tungjatjeta, botë!"
 #: hello-c++-gnome/hello.cc:60 hello-c++-wxwidgets/hello.cc:76
 #: hello-objc/hello.m:36 hello-objc-gnustep/Hello.m:58
 #: hello-objc-gnome/hello.m:57 hello-librep/hello.jl.in:14
-#: hello-gawk/hello.awk:12 hello-pascal/hello.running_as
-#: hello-tcl/hello.tcl:12 hello-tcl-tk/hello.tcl:16
-#: hello-perl/hello-1.pl.in:19 hello-php/hello.php:14
+#: hello-gawk/hello.awk:12 hello-pascal/hello.running_as hello-tcl/hello.tcl:12
+#: hello-tcl-tk/hello.tcl:16 hello-perl/hello-1.pl.in:19 hello-php/hello.php:14
 #, php-format
 msgid "This program is running as process number %d."
 msgstr "Ky program po xhiron si procesi numër %d."
