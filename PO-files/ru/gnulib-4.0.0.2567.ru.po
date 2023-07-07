@@ -1,4 +1,4 @@
-# translation of gnulib-2.0.0.3462.e9796.ru.po to Russian
+# Russian translation for gnulib.
 # Copyright (C) 2005, 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnulib package.
 #
