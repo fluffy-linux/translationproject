@@ -488,7 +488,7 @@ msgstr "Intet linjeskift ved filafslutning"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:45
 msgid "Torbjorn Granlund"
-msgstr "Torbjörn Granlund"
+msgstr "Torbjørn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cmp.c:46
