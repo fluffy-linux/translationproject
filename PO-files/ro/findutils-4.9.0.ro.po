@@ -3,7 +3,7 @@
 # Acest fișier este distribuit sub aceeași licență ca și pachetul findutils.
 # This file is distributed under the same license as the findutils package.
 #
-# Laurentiu Buzdugan <lbuz@rolix.org>, 2003,2004,2005
+# Laurentiu Buzdugan <lbuz@rolix.org>, 2003, 2004, 2005
 # Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2022.
 #
 # Cronologia traducerii fișierului „findutils”:
@@ -17,15 +17,17 @@
 # NU și a mesajelor traduse (acestea au rămas neschimbate).
 # Eliminare a mesajelor ce-au dispărut în ultima versiune.
 # Actualizări realizate de Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 15.01.2022.
-# Actualizare a traducerii pentru versiunea 4.5.15, făcută de R-GC, 2022.
-# Actualizare a traducerii pentru versiunea 4.9.0, făcută de R-GC, 2022.
+# Actualizare a traducerii pentru versiunea 4.5.15, făcută de R-GC, apr-2022.
+# Actualizare a traducerii pentru versiunea 4.9.0, făcută de R-GC, noi-2022.
+# Corectare a unei greșeli de dactilografiere prezentă din versiunea 4.5.15, făcută de R-GC, noi-2023.
+# Actualizare a traducerii pentru versiunea Y, făcută de X, Z(luna-anul).
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: findutils 4.9.0\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2022-02-02 01:18+0100\n"
-"PO-Revision-Date: 2022-11-02 23:34+0100\n"
+"PO-Revision-Date: 2023-11-14 18:50+0100\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -34,7 +36,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=((n==1) ? 0 : (n==2) ? 1 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 2 : 3);\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: find/exec.c:123
 #, c-format
@@ -951,7 +953,7 @@ msgid ""
 "\t%s contain newline characters, \n"
 "\tand %s contain characters with the high bit set.\n"
 msgstr ""
-"Numele fișierelor au o lungime cumulată de %s de octeți.n\n"
+"Numele fișierelor au o lungime cumulată de %s de octeți.\n"
 "Dintre aceste nume de fișiere,\n"
 "\n"
 "\t%s conțin spații albe, \n"
