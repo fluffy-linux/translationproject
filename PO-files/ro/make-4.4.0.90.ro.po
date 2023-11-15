@@ -10,6 +10,7 @@
 # Actualizare a traducerii pentru versiunea 4.3.91, făcută de R-GC, în oct-2022.
 # Actualizare a traducerii pentru versiunea 4.3.92, făcută de R-GC, în oct-2022.
 # Actualizare a traducerii pentru versiunea 4.4.0.90, făcută de R-GC, în ian-2023.
+# Corectare a unei greșeli de dactilografiere prezentă din versiunea 4.3.90, făcută de R-GC, noi-2023.
 # Actualizare a traducerii pentru versiunea Y, făcută de X, Z(luna-anul).
 #
 #
@@ -18,7 +19,7 @@ msgstr ""
 "Project-Id-Version: GNU make 4.4.0.90\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2023-01-14 14:08-0500\n"
-"PO-Revision-Date: 2023-01-15 18:50+0100\n"
+"PO-Revision-Date: 2023-11-15 09:26+0100\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -749,7 +750,7 @@ msgstr "Se încearcă cerința prealabilă implicită „%s”.\n"
 #: src/implicit.c:827
 #, c-format
 msgid "'%s' ought to exist.\n"
-msgstr "„%s” ar trebui să existe.n\n"
+msgstr "„%s” ar trebui să existe.\n"
 
 #: src/implicit.c:834
 #, c-format
