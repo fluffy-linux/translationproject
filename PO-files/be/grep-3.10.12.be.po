@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: GNU grep 3.10.12\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2023-04-20 18:51-0700\n"
-"PO-Revision-Date: 2023-05-13 03:04+0300\n"
+"PO-Revision-Date: 2023-12-06 16:16+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Emacs 28.2, po mode 2.27\n"
+"X-Generator: Emacs 29.1, po mode 2.28\n"
 
 #: lib/argmatch.c:145
 #, c-format
@@ -216,7 +216,7 @@ msgstr "Памылковы рэгулярны выраз"
 
 #: lib/regcomp.c:131
 msgid "Invalid collation character"
-msgstr "Няправільны сымбаль параўнаньня"
+msgstr "Няправільны сымбаль супастаўленьня"
 
 #: lib/regcomp.c:134
 msgid "Invalid character class name"
@@ -542,9 +542,9 @@ msgid ""
 msgstr ""
 "\n"
 "Разнастайныя:\n"
-"  -s, --no-messages         заглушаць паведамленьні аб памылках\n"
+"  -s, --no-messages         заглушаць паведамленьні пра памылкі\n"
 "  -v, --invert-match        выбіраць несупастаўныя радкі\n"
-"  -V, --version             адлюстраваць зьвесткі аб вэрсіі ды выйсьці\n"
+"  -V, --version             адлюстраваць зьвесткі пра вэрсію ды выйсьці\n"
 "      --help                адлюстраваць гэтую даведку ды выйсьці\n"
 
 #: src/grep.c:2006
