@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU sed 4.8.44\n"
 "Report-Msgid-Bugs-To: bug-gnu-utils@gnu.org\n"
 "POT-Creation-Date: 2022-10-16 22:21-0700\n"
-"PO-Revision-Date: 2023-05-13 03:05+0300\n"
+"PO-Revision-Date: 2023-12-06 16:11+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Emacs 28.2, po mode 2.27\n"
+"X-Generator: Emacs 29.1, po mode 2.28\n"
 
 #: lib/closeout.c:121
 msgid "write error"
@@ -607,7 +607,7 @@ msgstr ""
 #: sed/sed.c:109
 #, c-format
 msgid "E-mail bug reports to: <%s>.\n"
-msgstr "Паведамленьні аб памылках дасылайце на: <%s>.\n"
+msgstr "Паведамленьні пра памылкі дасылайце на: <%s>.\n"
 
 #: sed/sed.c:117
 msgid "This sed program was built with SELinux support."
@@ -755,7 +755,7 @@ msgid ""
 msgstr ""
 "  -u, --unbuffered\n"
 "                 загружаць мінімальны аб'ём даных з уваходных файлаў ды\n"
-"                 часьцей скідваць выхадныя буфэры\n"
+"                 часьцей скідваць выходныя буфэры\n"
 
 #: sed/sed.c:172
 #, c-format
@@ -774,7 +774,7 @@ msgstr "      --help     адлюстраваць гэтую даведку ды
 #: sed/sed.c:175
 #, c-format
 msgid "      --version  output version information and exit\n"
-msgstr "      --version  вывесьці зьвесткі аб вэрсіі ды выйсьці\n"
+msgstr "      --version  вывесьці зьвесткі пра вэрсію ды выйсьці\n"
 
 #: sed/sed.c:176
 #, c-format
