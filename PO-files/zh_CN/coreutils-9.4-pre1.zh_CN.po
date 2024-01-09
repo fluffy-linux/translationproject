@@ -8,15 +8,15 @@
 # Ji ZhengYu <zhengyuji@gmail.com>, 2009.
 # Aron Xu <happyaron.xu@gmail.com>, 2009, 2010, 2011, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2018, 2019, 2020, 2021.
-# Wenbin Lv <wenbin816@gmail.com>, 2022, 2023.
+# Wenbin Lv <wenbin816@gmail.com>, 2022, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 9.4-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2023-08-22 13:38+0100\n"
-"PO-Revision-Date: 2023-09-05 17:07-0400\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"PO-Revision-Date: 2024-01-09 22:40+0800\n"
+"Last-Translator: Wenbin Lv <wenbin816@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -467,7 +467,7 @@ msgstr "非法指令"
 
 #: lib/siglist.h:43
 msgid "Trace/breakpoint trap"
-msgstr "跟踪或断点陷阱"
+msgstr "追踪或断点陷阱"
 
 #: lib/siglist.h:46
 msgid "Aborted"
@@ -842,17 +842,17 @@ msgid "%s%s argument '%s' too large"
 msgstr "%s%s 参数 \"%s\" 太大"
 
 #. This is a proper name. See the gettext manual, section Names.
-#: src/basename.c:28 src/chgrp.c:36 src/chmod.c:38 src/chown.c:35
-#: src/comm.c:37 src/cp.c:44 src/csplit.c:43 src/cut.c:43 src/date.c:38
-#: src/dd.c:43 src/df.c:47 src/dirname.c:31 src/du.c:53 src/env.c:36
-#: src/expand.c:46 src/fold.c:34 src/groups.c:35 src/head.c:46 src/id.c:40
-#: src/install.c:50 src/ln.c:44 src/ls.c:131 src/digest.c:135 src/mkdir.c:37
-#: src/mkfifo.c:34 src/mknod.c:35 src/mv.c:43 src/nice.c:38 src/nl.c:41
-#: src/paste.c:51 src/pathchk.c:31 src/pinky.c:37 src/printenv.c:44
-#: src/printf.c:67 src/rm.c:39 src/rmdir.c:36 src/stty.c:66 src/tac.c:57
-#: src/tail.c:73 src/tee.c:38 src/touch.c:43 src/tty.c:43 src/uname.c:54
-#: src/unexpand.c:47 src/uniq.c:39 src/uptime.c:37 src/users.c:34 src/wc.c:51
-#: src/who.c:49 src/yes.c:31
+#: src/basename.c:28 src/chgrp.c:36 src/chmod.c:38 src/chown.c:35 src/comm.c:37
+#: src/cp.c:44 src/csplit.c:43 src/cut.c:43 src/date.c:38 src/dd.c:43
+#: src/df.c:47 src/dirname.c:31 src/du.c:53 src/env.c:36 src/expand.c:46
+#: src/fold.c:34 src/groups.c:35 src/head.c:46 src/id.c:40 src/install.c:50
+#: src/ln.c:44 src/ls.c:131 src/digest.c:135 src/mkdir.c:37 src/mkfifo.c:34
+#: src/mknod.c:35 src/mv.c:43 src/nice.c:38 src/nl.c:41 src/paste.c:51
+#: src/pathchk.c:31 src/pinky.c:37 src/printenv.c:44 src/printf.c:67
+#: src/rm.c:39 src/rmdir.c:36 src/stty.c:66 src/tac.c:57 src/tail.c:73
+#: src/tee.c:38 src/touch.c:43 src/tty.c:43 src/uname.c:54 src/unexpand.c:47
+#: src/uniq.c:39 src/uptime.c:37 src/users.c:34 src/wc.c:51 src/who.c:49
+#: src/yes.c:31
 msgid "David MacKenzie"
 msgstr "David MacKenzie"
 
@@ -916,9 +916,9 @@ msgstr "缺少操作对象"
 #: src/hostname.c:91 src/install.c:961 src/join.c:957 src/link.c:82
 #: src/ln.c:593 src/logname.c:68 src/mknod.c:185 src/mv.c:451 src/nproc.c:114
 #: src/od.c:1864 src/ptx.c:1978 src/seq.c:632 src/shuf.c:495 src/sort.c:4669
-#: src/split.c:1597 src/tr.c:1755 src/tsort.c:548 src/tty.c:112
-#: src/uname.c:265 src/uniq.c:523 src/uniq.c:540 src/unlink.c:78
-#: src/uptime.c:203 src/users.c:143 src/wc.c:864 src/who.c:829 src/whoami.c:76
+#: src/split.c:1597 src/tr.c:1755 src/tsort.c:548 src/tty.c:112 src/uname.c:265
+#: src/uniq.c:523 src/uniq.c:540 src/unlink.c:78 src/uptime.c:203
+#: src/users.c:143 src/wc.c:864 src/who.c:829 src/whoami.c:76
 #, c-format
 msgid "extra operand %s"
 msgstr "多余的操作对象 %s"
