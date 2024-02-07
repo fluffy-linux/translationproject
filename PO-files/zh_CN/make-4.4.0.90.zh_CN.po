@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: make 4.4.0.90\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2023-01-14 14:08-0500\n"
-"PO-Revision-Date: 2023-01-18 15:40-0500\n"
+"PO-Revision-Date: 2024-02-07 08:58-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 2.4.3\n"
 
 #: src/ar.c:47
 #, c-format
@@ -92,10 +92,9 @@ msgid "  uid = %d, gid = %d, mode = 0%o.\n"
 msgstr "  uid = %d，gid = %d，mode = 0%o。\n"
 
 #: src/commands.c:379
-#, fuzzy, c-format
-#| msgid "Recipe has too many lines (%ud)"
+#, c-format
 msgid "Recipe has too many lines (limit %hu)"
-msgstr "命令配方行数太多 (%ud)"
+msgstr "命令配方行数太多（限制为 %hu）"
 
 #: src/commands.c:501
 msgid "*** Break.\n"
@@ -263,12 +262,12 @@ msgstr "正在删除中间文件...\n"
 #: src/file.c:822
 #, c-format
 msgid "%s cannot be both .NOTINTERMEDIATE and .INTERMEDIATE"
-msgstr ""
+msgstr "%s 不能同时为 .NOTINTERMEDIATE 和 .INTERMEDIATE"
 
 #: src/file.c:837
 #, c-format
 msgid "%s cannot be both .NOTINTERMEDIATE and .SECONDARY"
-msgstr ""
+msgstr "%s 不能同时为 .NOTINTERMEDIATE 和 .SECONDARY"
 
 #: src/file.c:847
 #, c-format
@@ -326,10 +325,8 @@ msgid "#  File is an intermediate prerequisite."
 msgstr "#  文件是一个中间前提。"
 
 #: src/file.c:1108
-#, fuzzy
-#| msgid "#  Precious file (prerequisite of .PRECIOUS)."
 msgid "#  File is a prerequisite of .NOTINTERMEDIATE."
-msgstr "#  重要文件 (.PRECIOUS的前提)。"
+msgstr "#  文件是 .NOTINTERMEDIATE 的前提。"
 
 #: src/file.c:1110
 #, fuzzy
@@ -460,22 +457,19 @@ msgstr "“wordlist”函数的第二个参数不是数字"
 
 # 程序员的函数名提示，还是不要动吧。
 #: src/function.c:1684
-#, fuzzy, c-format
-#| msgid "windows32_openpipe: DuplicateHandle(In) failed (e=%ld)\n"
+#, c-format
 msgid "windows32_openpipe: DuplicateHandle(In) failed (e=%lu)\n"
-msgstr "windows32_openpipe: DuplicateHandle(In) 失败 (e=%ld)\n"
+msgstr "windows32_openpipe: DuplicateHandle(In) 失败 (e=%lu)\n"
 
 #: src/function.c:1708
-#, fuzzy, c-format
-#| msgid "windows32_openpipe: DuplicateHandle(Err) failed (e=%ld)\n"
+#, c-format
 msgid "windows32_openpipe: DuplicateHandle(Err) failed (e=%lu)\n"
-msgstr "windows32_openpipe: DuplicateHandle(Err) 失败 (e=%ld)\n"
+msgstr "windows32_openpipe: DuplicateHandle(Err) 失败 (e=%lu)\n"
 
 #: src/function.c:1715
-#, fuzzy, c-format
-#| msgid "CreatePipe() failed (e=%ld)\n"
+#, c-format
 msgid "CreatePipe() failed (e=%lu)\n"
-msgstr "CreatePipe() 失败 (e=%ld)\n"
+msgstr "CreatePipe() 失败 (e=%lu)\n"
 
 #: src/function.c:1723
 #, c-format
@@ -678,7 +672,7 @@ msgstr "避免隐含规则递归。\n"
 #: src/implicit.c:451
 #, c-format
 msgid "Trying harder.\n"
-msgstr ""
+msgstr "正在进一步尝试。\n"
 
 #: src/implicit.c:501
 #, fuzzy, c-format
@@ -770,10 +764,9 @@ msgid "Found implicit rule '%s' for '%s'.\n"
 msgstr "找到一条关于“%s”的隐含规则。\n"
 
 #: src/implicit.c:1151
-#, fuzzy, c-format
-#| msgid "Looking for an implicit rule for '%s'.\n"
+#, c-format
 msgid "Searching for a compatibility rule for '%s'.\n"
-msgstr "正在为“%s”寻找隐含规则。\n"
+msgstr "正在为“%s”寻找兼容规则。\n"
 
 #: src/implicit.c:1157
 #, c-format
@@ -1005,7 +998,7 @@ msgstr "正从 %2$s 加载符号 %1$s\n"
 #: src/load.c:232
 #, c-format
 msgid "Unloading shared object %s\n"
-msgstr ""
+msgstr "正在反加载共享对象 %s\n"
 
 #: src/load.c:251
 #, c-format
@@ -1078,7 +1071,7 @@ msgstr "  -j [N], --jobs[=N]          同时允许 N 个任务；无参数表明
 
 #: src/main.c:348
 msgid "  --jobserver-style=STYLE     Select the style of jobserver to use.\n"
-msgstr ""
+msgstr "  --jobserver-style=风格      选择要使用的 jobserver 风格。\n"
 
 #: src/main.c:350
 msgid "  -k, --keep-going            Keep going when some targets can't be made.\n"
@@ -1141,6 +1134,8 @@ msgid ""
 "  --shuffle[={SEED|random|reverse|none}]\n"
 "                              Perform shuffle of prerequisites and goals.\n"
 msgstr ""
+"  --shuffle[={SEED|random|reverse|none}]\n"
+"                              将前提和目标打乱顺序。\n"
 
 #: src/main.c:377
 msgid "  -s, --silent, --quiet       Don't echo recipes.\n"
@@ -1298,16 +1293,14 @@ msgid "Makefile from standard input specified twice"
 msgstr "两次指明了来自标准输入的 Makefile"
 
 #: src/main.c:1950
-#, fuzzy, c-format
-#| msgid "Cannot create a temporary file\n"
+#, c-format
 msgid "cannot store makefile from stdin to a temporary file"
-msgstr "无法创建临时文件\n"
+msgstr "无法将来自标准输入的 makefile 存储至临时文件"
 
 #: src/main.c:1958
-#, fuzzy, c-format
-#| msgid "fwrite (temporary file)"
+#, c-format
 msgid "fwrite: temporary file %s: %s"
-msgstr "fwrite (临时文件)"
+msgstr "fwrite：临时文件 %s：%s"
 
 #: src/main.c:2113
 #, c-format
@@ -1327,7 +1320,7 @@ msgstr "重置为单任务模式 (-j1)。"
 #: src/main.c:2266
 #, c-format
 msgid "Using jobserver controller %s\n"
-msgstr ""
+msgstr "正在使用 jobserver 控制器 %s\n"
 
 #: src/main.c:2268
 #, c-format
@@ -1342,7 +1335,7 @@ msgstr "不支持软链接：禁用 -L。"
 #: src/main.c:2345
 #, c-format
 msgid "Enabled shuffle mode: %s\n"
-msgstr ""
+msgstr "已启用乱序模式：%s\n"
 
 #: src/main.c:2357
 #, c-format
@@ -1435,17 +1428,13 @@ msgid "%sBuilt for %s (%s)\n"
 msgstr "%s为 %s (%s) 编译\n"
 
 #: src/main.c:3735
-#, fuzzy, c-format
-#| msgid ""
-#| "%sLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
-#| "%sThis is free software: you are free to change and redistribute it.\n"
-#| "%sThere is NO WARRANTY, to the extent permitted by law.\n"
+#, c-format
 msgid ""
 "%sLicense GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>\n"
 "%sThis is free software: you are free to change and redistribute it.\n"
 "%sThere is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
-"%s许可证：GPLv3+：GNU 通用公共许可证第 3 版或更新版本<http://gnu.org/licenses/gpl.html>。\n"
+"%s许可证：GPLv3+：GNU 通用公共许可证第 3 版或更新版本<https://gnu.org/licenses/gpl.html>。\n"
 "%s本软件是自由软件：您可以自由修改和重新发布它。\n"
 "%s在法律允许的范围内没有其他保证。\n"
 
@@ -1479,44 +1468,39 @@ msgid "%s value %s: not a directory"
 msgstr ""
 
 #: src/misc.c:612
-#, fuzzy, c-format
-#| msgid "Using default recipe for '%s'.\n"
+#, c-format
 msgid "using default temporary directory '%s'"
-msgstr "使用“%s”的默认配方。\n"
+msgstr "正在使用默认临时目录“%s”"
 
 #: src/misc.c:654
 #, c-format
 msgid "cannot generate temp path from %s: %s"
-msgstr ""
+msgstr "无法从 %s 生成临时路径：%s"
 
 #: src/misc.c:662
 #, c-format
 msgid "cannot generate temp name: %s"
-msgstr ""
+msgstr "无法生成临时名称：%s"
 
 #: src/misc.c:712
-#, fuzzy, c-format
-#| msgid "Cannot create a temporary file\n"
+#, c-format
 msgid "cannot create temporary file %s: %s"
-msgstr "无法创建临时文件\n"
+msgstr "无法创建临时文件 %s：%s"
 
 #: src/misc.c:725
-#, fuzzy, c-format
-#| msgid "unlink (temporary file): "
+#, c-format
 msgid "cannot unlink temporary file %s: %s"
-msgstr "删除 (临时文件)："
+msgstr "无法删除临时文件 %s：%s"
 
 #: src/misc.c:755
-#, fuzzy, c-format
-#| msgid "fopen (temporary file)"
+#, c-format
 msgid "fdopen: temporary file %s: %s"
-msgstr "fopen (临时文件)"
+msgstr "fdopen：临时文件 %s：%s"
 
 #: src/misc.c:772
-#, fuzzy, c-format
-#| msgid "fopen (temporary file)"
+#, c-format
 msgid "fopen: temporary file %s: %s"
-msgstr "fopen (临时文件)"
+msgstr "fopen：临时文件 %s：%s"
 
 #: src/output.c:95
 #, c-format
@@ -1561,7 +1545,7 @@ msgstr "%s[%u]: 离开目录“%s”\n"
 #: src/output.c:252
 #, c-format
 msgid "cannot open output-sync lock file, suppressing output-sync."
-msgstr ""
+msgstr "无法打开输出同步所文件，将隐藏输出同步信息。"
 
 #: src/output.c:283
 #, c-format
@@ -1580,13 +1564,12 @@ msgstr "%s%s: %s"
 #: src/posixos.c:177 src/posixos.c:182 src/posixos.c:241 src/posixos.c:249
 #, c-format
 msgid "cannot open jobserver %s: %s"
-msgstr ""
+msgstr "无法打开 jobserver %s：%s"
 
 #: src/posixos.c:193 src/w32/w32os.c:219
-#, fuzzy, c-format
-#| msgid "unknown output-sync type '%s'"
+#, c-format
 msgid "unknown jobserver auth style '%s'"
-msgstr "不明输出同步类型“%s”"
+msgstr "未知的 jobserver 验证风格“%s”"
 
 #: src/posixos.c:197
 msgid "creating jobs pipe"
@@ -1601,10 +1584,9 @@ msgid "init jobserver pipe"
 msgstr "初始化任务服务器管道"
 
 #: src/posixos.c:273
-#, fuzzy, c-format
-#| msgid "internal error: invalid --jobserver-auth string '%s'"
+#, c-format
 msgid "invalid --jobserver-auth string '%s'"
-msgstr "内部错误：非法 --jobserver-auth 验证字符串“%s”"
+msgstr "无效的 --jobserver-auth 验证字符串“%s”"
 
 #: src/posixos.c:375
 msgid "write jobserver"
@@ -1625,16 +1607,14 @@ msgid "read jobs pipe"
 msgstr "读取任务管道"
 
 #: src/posixos.c:684
-#, fuzzy, c-format
-#| msgid "internal error: invalid --jobserver-auth string '%s'"
+#, c-format
 msgid "invalid --sync-mutex string '%s'"
-msgstr "内部错误：非法 --jobserver-auth 验证字符串“%s”"
+msgstr "无效的 --sync-mutex 字符串“%s”"
 
 #: src/posixos.c:693
-#, fuzzy, c-format
-#| msgid "unknown output-sync type '%s'"
+#, c-format
 msgid "cannot open output sync mutex %s: %s"
-msgstr "不明输出同步类型“%s”"
+msgstr "无法打开输出同步互斥锁 %s：%s"
 
 #: src/posixos.c:867
 #, c-format
@@ -1664,7 +1644,7 @@ msgstr " (搜索路径)"
 #: src/read.c:328
 #, c-format
 msgid " (don't care)"
-msgstr " (不用理)"
+msgstr " (无需在意)"
 
 #: src/read.c:330
 #, c-format
@@ -1774,7 +1754,7 @@ msgstr "畸形的针对目标的标量定义"
 #: src/read.c:1998
 #, c-format
 msgid ".WAIT should not have prerequisites"
-msgstr ""
+msgstr ".WAIT 不应有前提"
 
 #: src/read.c:2004
 #, c-format
@@ -2075,7 +2055,7 @@ msgstr "BUG：num_pattern_rules 出错！%u != %u"
 #: src/shuffle.c:93
 #, c-format
 msgid "invalid shuffle mode: %s: '%s'"
-msgstr ""
+msgstr "无效的乱序模式：%s: '%s'"
 
 #: src/signame.c:84
 msgid "unknown signal"
@@ -2444,10 +2424,9 @@ msgid "creating jobserver semaphore: (Error %ld: %s)"
 msgstr "正创建 jobserver 信号量：（错误 %ld：%s）"
 
 #: src/w32/w32os.c:259
-#, fuzzy, c-format
-#| msgid "internal error: unable to open jobserver semaphore '%s': (Error %ld: %s)"
+#, c-format
 msgid "unable to open jobserver semaphore '%s': (Error %ld: %s)"
-msgstr "内部错误：无法打开 jobserver 信号量“%s”：（错误 %ld：%s）"
+msgstr "无法打开 jobserver 信号量“%s”：（错误 %ld：%s）"
 
 #: src/w32/w32os.c:264
 #, c-format
