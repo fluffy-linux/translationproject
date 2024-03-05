@@ -4,14 +4,14 @@
 # Daisuke Yamashita <yamad@mb.infoweb.ne.jp>, 2001.
 #             Thanks to NISHIJIMA Takanori
 # GOTO Masanori <gotom@debian.or.jp>, 2003-2004.
-# Takeshi Hamasaki <hmatrjp@users.sourceforge.jp>, 2011, 2014, 2016, 2019, 2020, 2022, 2023.
+# Takeshi Hamasaki <hmatrjp@users.sourceforge.jp>, 2011, 2014, 2016, 2019, 2020, 2022, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: make 4.4.0.90\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2023-01-14 14:08-0500\n"
-"PO-Revision-Date: 2023-02-05 12:05+0900\n"
+"PO-Revision-Date: 2024-03-05 20:23+0900\n"
 "Last-Translator: Takeshi Hamasaki <hmatrjp@users.sourceforge.jp>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "Language: ja\n"
@@ -19,9 +19,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 2.4.2\n"
-"X-Poedit-Basepath: make-4.4.0.90\n"
-"X-Poedit-SearchPath-0: .\n"
 
 #: src/ar.c:47
 #, c-format
@@ -114,12 +111,12 @@ msgstr "*** 書庫のメンバ '%s' は多分偽物です ― 削除しません
 #: src/commands.c:647
 #, c-format
 msgid "*** [%s] Deleting file '%s'"
-msgstr "*** [%s] ファイル '%s'　を削除します"
+msgstr "*** [%s] ファイル '%s' を削除します"
 
 #: src/commands.c:649
 #, c-format
 msgid "*** Deleting file '%s'"
-msgstr "*** ファイル '%s'　を削除します"
+msgstr "*** ファイル '%s' を削除します"
 
 #: src/commands.c:685
 msgid "#  recipe to execute"
@@ -250,7 +247,7 @@ msgstr "ダブルコロン '%s' からシングルコロン '%s' に名前を変
 #: src/file.c:404
 #, c-format
 msgid "*** Deleting intermediate file '%s'"
-msgstr "*** 中間ファイル '%s'　を削除します"
+msgstr "*** 中間ファイル '%s' を削除します"
 
 #: src/file.c:408
 #, c-format
@@ -960,7 +957,7 @@ msgstr "読み込んだオブジェクト %s は GPL互換の宣言がなされ�
 #: src/load.c:106
 #, c-format
 msgid "Failed to load symbol %s from %s: %s"
-msgstr "シンボル %s を %s　から読み込むのに失敗しました: %s"
+msgstr "シンボル %s を %s から読み込むのに失敗しました: %s"
 
 #: src/load.c:151
 #, c-format
@@ -1496,7 +1493,7 @@ msgstr "%s: ディレクトリ(ディレクトリ名不明)から出ます\n"
 #: src/output.c:100
 #, c-format
 msgid "%s: Entering directory '%s'\n"
-msgstr "%s: ディレクトリ '%s'　に入ります\n"
+msgstr "%s: ディレクトリ '%s' に入ります\n"
 
 #: src/output.c:102
 #, c-format
@@ -1689,7 +1686,7 @@ msgstr "ターゲットパターンが '%%' を含んでいません"
 #: src/read.c:1352
 #, c-format
 msgid "missing 'endif'"
-msgstr "'endif'　が欠落しています"
+msgstr "'endif' が欠落しています"
 
 #: src/read.c:1391 src/read.c:1436 src/variable.c:1753
 #, c-format
@@ -1819,7 +1816,7 @@ msgstr "'%s' は更新済みです."
 #: src/remake.c:350
 #, c-format
 msgid "Pruning file '%s'.\n"
-msgstr "ファイル '%s'　の依存関係を整理しています.\n"
+msgstr "ファイル '%s' の依存関係を整理しています.\n"
 
 #: src/remake.c:416
 #, c-format
@@ -1849,12 +1846,12 @@ msgstr "ファイル '%s' は検討済みです.\n"
 #: src/remake.c:481
 #, c-format
 msgid "Still updating file '%s'.\n"
-msgstr "ファイル '%s'　の更新をしています.\n"
+msgstr "ファイル '%s' の更新をしています.\n"
 
 #: src/remake.c:484
 #, c-format
 msgid "Finished updating file '%s'.\n"
-msgstr "ファイル '%s'　の更新が終了しました.\n"
+msgstr "ファイル '%s' の更新が終了しました.\n"
 
 #: src/remake.c:513
 #, c-format
@@ -1944,7 +1941,7 @@ msgstr "ターゲット '%s' を再make する必要はありません"
 #: src/remake.c:867
 #, c-format
 msgid "; using VPATH name '%s'"
-msgstr "; VPATH 名 '%s'　を使用します"
+msgstr "; VPATH 名 '%s' を使用します"
 
 #: src/remake.c:892
 #, c-format
