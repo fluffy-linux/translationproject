@@ -1,16 +1,16 @@
 # Belarusian messages for GNU grep.
-# Copyright (C) 2001, 2002, 2003, 2022, 2023 Free Software Foundation, Inc.
+# Copyright (C) 2001, 2002, 2003, 2022, 2023, 2024 Free Software Foundation, Inc.
 # This file is distributed under the same license as the grep package.
 #
 # Ales Nyakhaychyk <nab@mail.by>, 2001-2003.
-# Viachaslau Khalikin <viachaslau.vinegret@outlook.com>, 2022, 2023.
+# Viachaslau Khalikin <viachaslau.vinegret@outlook.com>, 2022, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU grep 3.10.12\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2023-04-20 18:51-0700\n"
-"PO-Revision-Date: 2023-12-06 16:16+0300\n"
+"PO-Revision-Date: 2024-03-30 00:42+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Emacs 29.1, po mode 2.28\n"
+"X-Generator: Emacs 29.3, po mode 2.28\n"
 
 #: lib/argmatch.c:145
 #, c-format
@@ -699,7 +699,7 @@ msgstr ""
 
 #: src/grep.c:2104
 msgid "conflicting matchers specified"
-msgstr "зададзены супярэчлівыя ўмовы супастаўленьня"
+msgstr "зададзеныя супярэчлівыя супастаўнікі"
 
 #: src/grep.c:2111
 msgid "Perl matching not supported in a --disable-perl-regexp build"
@@ -708,7 +708,7 @@ msgstr "Супастаўленьні Perl не падтрымліваюцца ў
 #: src/grep.c:2113
 #, c-format
 msgid "invalid matcher %s"
-msgstr "няправільны параўнальны выраз %s"
+msgstr "няправільны супастаўнік %s"
 
 #: src/grep.c:2534
 msgid "unknown devices method"
