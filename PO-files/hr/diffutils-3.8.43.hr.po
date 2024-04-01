@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU diffutils 3.8.43\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2022-12-30 13:40-0800\n"
-"PO-Revision-Date: 2023-01-01 11:49-0800\n"
+"PO-Revision-Date: 2024-03-31 18:43-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -60,7 +60,7 @@ msgstr "direktorij"
 
 #: lib/file-type.c:46
 msgid "symbolic link"
-msgstr "simbolička poveznica"
+msgstr "simbolična poveznica"
 
 #: lib/file-type.c:52
 msgid "message queue"
@@ -511,14 +511,13 @@ msgstr "nevaljana vrijednost „%s“ za --ignore-initial"
 msgid "options -l and -s are incompatible"
 msgstr "opcije -l i -s nisu kompatibilne"
 
-#: src/cmp.c:155 src/diff.c:936 src/diff3.c:482 src/sdiff.c:167
-#: src/sdiff.c:314 src/sdiff.c:321 src/sdiff.c:873 src/util.c:960
-#: src/util.c:1060 src/util.c:1067
+#: src/cmp.c:155 src/diff.c:936 src/diff3.c:482 src/sdiff.c:167 src/sdiff.c:314
+#: src/sdiff.c:321 src/sdiff.c:873 src/util.c:960 src/util.c:1060
+#: src/util.c:1067
 msgid "write failed"
 msgstr "pisanje nije uspjelo"
 
-#: src/cmp.c:157 src/diff.c:938 src/diff.c:1520 src/diff3.c:484
-#: src/sdiff.c:169
+#: src/cmp.c:157 src/diff.c:938 src/diff.c:1520 src/diff3.c:484 src/sdiff.c:169
 msgid "standard output"
 msgstr "standardni izlaz"
 
@@ -801,7 +800,7 @@ msgstr "-r, --recursive               rekurzivno uspoređuje sve poddirektorije"
 
 #: src/diff.c:966
 msgid "    --no-dereference            don't follow symbolic links"
-msgstr "    --no-dereference          ne slijedi simboličke poveznice"
+msgstr "    --no-dereference          ne slijedi simbolične poveznice"
 
 #: src/diff.c:967
 msgid "-N, --new-file                  treat absent files as empty"
@@ -1095,7 +1094,7 @@ msgstr "Datoteka %s je %s dok datoteka %s je %s\n"
 #: src/diff.c:1424
 #, c-format
 msgid "Symbolic links %s and %s differ\n"
-msgstr "Simboličke poveznice %s i %s se razlikuju\n"
+msgstr "Simbolične poveznice %s i %s se razlikuju\n"
 
 #: src/diff.c:1511
 #, c-format
