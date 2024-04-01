@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: findutils 4.9.0\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2022-02-02 01:18+0100\n"
-"PO-Revision-Date: 2023-05-01 16:11-0700\n"
+"PO-Revision-Date: 2024-03-31 18:43-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -62,7 +62,7 @@ msgstr "nepoznat"
 #, c-format
 msgid "Symbolic link %s is part of a loop in the directory hierarchy; we have already visited the directory to which it points."
 msgstr ""
-"Simbolička poveznica %s je dio (beskonačne) petlje u hijerarhiji direktorija;\n"
+"Simbolična poveznica %s je dio (beskonačne) petlje u hijerarhiji direktorija;\n"
 "ciljani direktorij već je bio posjećen."
 
 #: find/ftsfind.c:245
@@ -290,7 +290,7 @@ msgstr "Argument za %s mora sadržati barem jedno slovo"
 #, c-format
 msgid "%s %c is not supported because symbolic links are not supported on the platform find was compiled on."
 msgstr ""
-"%s %c nije podržano jer simboličke poveznice nisu podržane na platformi na kojoj je\n"
+"%s %c nije podržano jer simbolične poveznice nisu podržane na platformi na kojoj je\n"
 "‘find’ kompiliran."
 
 #: find/parser.c:2729
@@ -907,7 +907,7 @@ msgstr ""
 "Od tih imena datoteka,\n"
 "\n"
 "\t%s sadrži bjeline, \n"
-"\t%s sadrži znak novog retka\n"
+"\t%s sadrži znak novog retka \n"
 "\ti %s sadrži znakove s postavljenim visokim bitom.\n"
 
 #: locate/locate.c:883
