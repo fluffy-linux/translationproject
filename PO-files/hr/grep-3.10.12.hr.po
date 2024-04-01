@@ -12,7 +12,7 @@
 # Matej Vela <mvela@public.srce.hr>, 1999.
 # Hrvoje Niksic <hniksic@xemacs.org>, 2002.
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2016-2019, 2021, 2022, 2023.
+# Božidar Putanec <bozidarp@yahoo.com>, 2016-2019, 2021, 2022, 2023, 2024.
 # bp, 2016-04-03.
 msgid ""
 msgstr ""
@@ -117,7 +117,7 @@ msgstr "zalutali \\"
 msgid "unbalanced ("
 msgstr "( nema odgovarajući par"
 
-# „zadano“ je često „default“, pa radije „navedena“ ili „imenovana“
+# „zadano” je često „default”, pa radije „navedena” ili „imenovana”
 #: lib/dfa.c:2042
 msgid "no syntax specified"
 msgstr "sintaksa nije navedena"
@@ -133,37 +133,37 @@ msgstr "Nepoznata greška sustava"
 #: lib/getopt.c:278
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija „%s%s“ nije jednoznačna\n"
+msgstr "%s: opcija „%s%s” nije jednoznačna\n"
 
 #: lib/getopt.c:284
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija „%s%s“ nije jednoznačna; mogućnosti su:"
+msgstr "%s: opcija „%s%s” nije jednoznačna; mogućnosti su:"
 
 #: lib/getopt.c:319
 #, c-format
 msgid "%s: unrecognized option '%s%s'\n"
-msgstr "%s: neprepoznata opcija „%s%s“\n"
+msgstr "%s: neprepoznata opcija „%s%s”\n"
 
 #: lib/getopt.c:345
 #, c-format
 msgid "%s: option '%s%s' doesn't allow an argument\n"
-msgstr "%s: opcija „%s%s“ ne dopušta argument\n"
+msgstr "%s: opcija „%s%s” ne dopušta argument\n"
 
 #: lib/getopt.c:360
 #, c-format
 msgid "%s: option '%s%s' requires an argument\n"
-msgstr "%s: opcija „%s%s“ zahtijeva argument\n"
+msgstr "%s: opcija „%s%s” zahtijeva argument\n"
 
 #: lib/getopt.c:621
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: nevaljana opcija -- „%c“\n"
+msgstr "%s: nevaljana opcija -- „%c”\n"
 
 #: lib/getopt.c:636 lib/getopt.c:682
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: opcija zahtijeva argument -- „%c“\n"
+msgstr "%s: opcija zahtijeva argument -- „%c”\n"
 
 #: lib/obstack.c:337 lib/obstack.c:339 lib/xalloc-die.c:34
 msgid "memory exhausted"
@@ -212,7 +212,7 @@ msgstr "„"
 
 #: lib/quotearg.c:355
 msgid "'"
-msgstr "“"
+msgstr "”"
 
 #: lib/regcomp.c:122
 msgid "Success"
@@ -265,7 +265,7 @@ msgstr "Nevaljani sadržaj u \\{\\}"
 msgid "Invalid range end"
 msgstr "Nevaljani kraj raspona"
 
-# nedostaje memorije
+# nema memorije
 #: lib/regcomp.c:158
 msgid "Memory exhausted"
 msgstr "Nema dovoljno memorije"
@@ -495,7 +495,7 @@ msgstr "Uporaba: %s [OPCIJA]... UZORCI [DATOTEKA]...\n"
 #: src/grep.c:1973
 #, c-format
 msgid "Try '%s --help' for more information.\n"
-msgstr "Pokušajte s „%s --help“ za pomoć i više informacija.\n"
+msgstr "Pokušajte s „%s --help” za pomoć i više informacija.\n"
 
 #: src/grep.c:1979
 #, c-format
@@ -515,7 +515,7 @@ msgstr ""
 "\n"
 "Izbor uzorka i interpretacija:\n"
 
-# engl. „string“ hrvatske mogućnosti: biseri, zrna i sl. nanizani na nit; niska.
+# engl. „string” hrvatske mogućnosti: biseri, zrna i sl. nanizani na nit; niska.
 # Prijedlog je string  > niska
 # vidi http://hjp.znanje.hr/index.php?show=search_by_id&id=eF1uXRg%3D
 # ili ostavimo string = string !
@@ -604,7 +604,7 @@ msgstr ""
 "  -o, --only-matching       prikaže samo dio retka koji se podudara\n"
 "  -q, --quiet, --silent     izostavi svaki normalni izlaz (ništa ne ispiše)\n"
 "      --binary-files=VRSTA  pretpostavi binarne datoteke tipa VRSTA;\n"
-"                              VRSTA je „binary“, „text“ ili „without-match“\n"
+"                              VRSTA je „binary”, „text” ili „without-match”\n"
 "  -a, --text                isto kao --binary-files=text\n"
 
 #: src/grep.c:2024
@@ -620,9 +620,9 @@ msgid ""
 msgstr ""
 "  -I                        isto kao --binary-files=without-match\n"
 "  -d, --directories=AKCIJA  kako rukovati direktorijima;\n"
-"                              AKCIJA je „read“, „recurse“ ili „skip“\n"
+"                              AKCIJA je „read”, „recurse” ili „skip”\n"
 "  -D, --devices=AKCIJA      kako rukovati uređajima, FIFO uređajima\n"
-"                              i utičnicama;  AKCIJA je „read“ ili „skip“\n"
+"                              i utičnicama;  AKCIJA je „read” ili „skip”\n"
 "  -r, --recursive           isto kao --directories=recurse\n"
 "  -R, --dereference-recursive  jednako, ali slijedi svaku simboličnu poveznicu\n"
 
@@ -692,7 +692,7 @@ msgstr ""
 "      --no-group-separator  ne ispiše separator za podudaranja s kontektsom\n"
 "      --color[=KAD],\n"
 "      --colour[=KAD]       bojama istakne nađene stringove i markere;\n"
-"                            KAD može biti „always“ ili „never“ ili „auto“\n"
+"                            KAD može biti „always” ili „never” ili „auto”\n"
 "  -U, --binary              ne uklanja CqR znakove na EOL (MSDOS/Windows)\n"
 "\n"
 
@@ -704,8 +704,8 @@ msgid ""
 "Exit status is 0 if any line is selected, 1 otherwise;\n"
 "if any error occurs and -q is not given, the exit status is 2.\n"
 msgstr ""
-"Ako je DATOTEKA „-“ (spojnica), čita standardni ulaz. Bez DATOTEKE,\n"
-"rekurzivno čita „.“, inače čita „-“ (stdin).\n"
+"Ako je DATOTEKA „-” (spojnica), čita standardni ulaz. Bez DATOTEKE,\n"
+"rekurzivno čita „.”, inače čita „-” (stdin).\n"
 "S manje od dvije navedene DATOTEKE implicira opciju -h.\n"
 "Završi sa statusom 0 ako je nađen barem jedan redak, inače s 1;\n"
 "ako ima grešaka, a nije navedena opcija -q, završi sa statusom 2.\n"
@@ -843,34 +843,34 @@ msgstr "%s: interna PCRE greška: %d"
 #~ msgstr "%s internetska stranica: <https://www.gnu.org/software/%s/>\n"
 
 #~ msgid "invalid %s%s argument '%s'"
-#~ msgstr "nevaljani %s%s argument „%s“"
+#~ msgstr "nevaljani %s%s argument „%s”"
 
 #~ msgid "invalid suffix in %s%s argument '%s'"
-#~ msgstr "nevaljani sufiks u %s%s argumentu „%s“"
+#~ msgstr "nevaljani sufiks u %s%s argumentu „%s”"
 
 #~ msgid "%s%s argument '%s' too large"
-#~ msgstr "%s%s argument „%s“ je preveliki"
+#~ msgstr "%s%s argument „%s” je preveliki"
 
 #~ msgid "Mike Haertel"
 #~ msgstr "Mike Haertel"
 
 # http://ihjj.hr/ : dozvoljava > dopušta
 #~ msgid "%s: option '--%s' doesn't allow an argument\n"
-#~ msgstr "%s: opcija „--%s“ ne dopušta argument\n"
+#~ msgstr "%s: opcija „--%s” ne dopušta argument\n"
 
 # http://ihjj.hr/ : nepropoznat > nije prepoznat > nepoznat
 # neprepoznat: možda bi trebao biti prepoznat, ali nije
 #~ msgid "%s: unrecognized option '--%s'\n"
-#~ msgstr "%s: nepoznata opcija „--%s“\n"
+#~ msgstr "%s: nepoznata opcija „--%s”\n"
 
 #~ msgid "%s: option '-W %s' is ambiguous\n"
-#~ msgstr "%s: opcija „-W %s“ nije jednoznačna\n"
+#~ msgstr "%s: opcija „-W %s” nije jednoznačna\n"
 
 #~ msgid "%s: option '-W %s' doesn't allow an argument\n"
-#~ msgstr "%s: opcija „-W %s“ ne dopušta argument\n"
+#~ msgstr "%s: opcija „-W %s” ne dopušta argument\n"
 
 #~ msgid "%s: option '-W %s' requires an argument\n"
-#~ msgstr "%s: opcija „-W %s“ zahtijeva argument\n"
+#~ msgstr "%s: opcija „-W %s” zahtijeva argument\n"
 
 #~ msgid "PATTERN is, by default, a basic regular expression (BRE).\n"
 #~ msgstr "UZORAK je (podrazumijeva se) osnovni regularni izraz (BRE).\n"
@@ -879,8 +879,8 @@ msgstr "%s: interna PCRE greška: %d"
 #~ "'egrep' means 'grep -E'.  'fgrep' means 'grep -F'.\n"
 #~ "Direct invocation as either 'egrep' or 'fgrep' is deprecated.\n"
 #~ msgstr ""
-#~ "„egrep“ znači „grep -E“.  „fgrep“ znači „grep -F“.\n"
-#~ "Izravno pozivanje „egrep“ i „fgrep“ je zastarjelo.\n"
+#~ "„egrep” znači „grep -E”.  „fgrep” znači „grep -F”.\n"
+#~ "Izravno pozivanje „egrep” i „fgrep” je zastarjelo.\n"
 
 #~ msgid "lseek failed"
 #~ msgstr "lseek nije uspio"
