@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: sed-4.8.44\n"
 "Report-Msgid-Bugs-To: bug-gnu-utils@gnu.org\n"
 "POT-Creation-Date: 2022-10-16 22:21-0700\n"
-"PO-Revision-Date: 2022-11-06 17:04-0800\n"
+"PO-Revision-Date: 2024-03-31 18:45-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -672,7 +672,7 @@ msgid ""
 "  --follow-symlinks\n"
 "                 follow symlinks when processing in place\n"
 msgstr ""
-"  --follow-symlinks                slijedi simboličke poveznice kad procesira\n"
+"  --follow-symlinks                slijedi simbolične poveznice kad procesira\n"
 "                                     'in-place'\n"
 
 #: sed/sed.c:150
@@ -829,7 +829,7 @@ msgstr "nije moguće pročitati poveznicu %s: %s"
 #: sed/utils.c:361
 #, c-format
 msgid "couldn't follow symlink %s: %s"
-msgstr "nije bilo moguće slijediti simboličku vezu %s: %s"
+msgstr "nije bilo moguće slijediti simboličnu vezu %s: %s"
 
 #: sed/utils.c:408
 #, c-format
