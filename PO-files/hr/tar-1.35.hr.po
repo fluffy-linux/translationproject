@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: tar-1.35\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2023-07-18 09:55+0300\n"
-"PO-Revision-Date: 2023-07-20 10:32+0200\n"
+"PO-Revision-Date: 2024-03-31 18:46-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -81,11 +81,11 @@ msgstr "  ili: "
 msgid " [OPTION...]"
 msgstr " [OPCIJA...]"
 
-# promjena svih ” u “; navodnički par „“
+# promjena svih ” u ”; navodnički par „”
 #: gnu/argp-help.c:1772
 #, c-format
 msgid "Try '%s --help' or '%s --usage' for more information.\n"
-msgstr "Pokušajte „%s --help“ ili „%s --usage“ za više informacija.\n"
+msgstr "Pokušajte „%s --help” ili „%s --usage” za više informacija.\n"
 
 #: gnu/argp-help.c:1800
 #, c-format
@@ -145,37 +145,37 @@ msgstr "greška pri pisanju"
 #: gnu/getopt.c:278
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija „%s%s“ je dvosmislena\n"
+msgstr "%s: opcija „%s%s” je dvosmislena\n"
 
 #: gnu/getopt.c:284
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija „%s%s“ je dvosmislena; mogućnosti su:"
+msgstr "%s: opcija „%s%s” je dvosmislena; mogućnosti su:"
 
 #: gnu/getopt.c:319
 #, c-format
 msgid "%s: unrecognized option '%s%s'\n"
-msgstr "%s: neprepoznata opcija „%s%s“\n"
+msgstr "%s: neprepoznata opcija „%s%s”\n"
 
 #: gnu/getopt.c:345
 #, c-format
 msgid "%s: option '%s%s' doesn't allow an argument\n"
-msgstr "%s: opcija „%s%s“ ne dopušta argument\n"
+msgstr "%s: opcija „%s%s” ne dopušta argument\n"
 
 #: gnu/getopt.c:360
 #, c-format
 msgid "%s: option '%s%s' requires an argument\n"
-msgstr "%s: opcija „%s%s“ zahtijeva argument\n"
+msgstr "%s: opcija „%s%s” zahtijeva argument\n"
 
 #: gnu/getopt.c:621
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: neispravna opcija -- „%c“\n"
+msgstr "%s: neispravna opcija -- „%c”\n"
 
 #: gnu/getopt.c:636 gnu/getopt.c:682
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: opcija zahtijeva argument -- „%c“\n"
+msgstr "%s: opcija zahtijeva argument -- „%c”\n"
 
 #: gnu/obstack.c:337 gnu/obstack.c:339 gnu/xalloc-die.c:34
 msgid "memory exhausted"
@@ -219,7 +219,7 @@ msgstr "„"
 
 #: gnu/quotearg.c:355
 msgid "'"
-msgstr "“"
+msgstr "”"
 
 #. TRANSLATORS: A regular expression testing for an affirmative answer
 #. (english: "yes").  Testing the first character may be sufficient.
@@ -466,7 +466,7 @@ msgstr "%s: Upozorenje: nije moguće tražiti (seek) %jd"
 #: lib/paxerror.c:281
 #, c-format
 msgid "%s: Cannot create symlink to %s"
-msgstr "%s: Nije moguće napraviti simboličku poveznicu na %s"
+msgstr "%s: Nije moguće napraviti simboličnu poveznicu na %s"
 
 #: lib/paxerror.c:346
 #, c-format
@@ -479,20 +479,20 @@ msgstr[2] "%s: Zapisano je samo %zu bajtova iz %zu"
 #: lib/paxnames.c:140
 #, c-format
 msgid "Removing leading `%s' from member names"
-msgstr "Uklanja se početni „%s“ iz imena člana"
+msgstr "Uklanja se početni „%s” iz imena člana"
 
 #: lib/paxnames.c:141
 #, c-format
 msgid "Removing leading `%s' from hard link targets"
-msgstr "Uklanja se početni „%s“ iz meta tvrdih veza"
+msgstr "Uklanja se početni „%s” iz meta tvrdih veza"
 
 #: lib/paxnames.c:154
 msgid "Substituting `.' for empty member name"
-msgstr "„.“ (točkom) se zamjenjuje prazno ime člana"
+msgstr "„.” (točkom) se zamjenjuje prazno ime člana"
 
 #: lib/paxnames.c:155
 msgid "Substituting `.' for empty hard link target"
-msgstr "„.“ (točkom) se zamjenjuje prazna meta tvrde poveznice"
+msgstr "„.” (točkom) se zamjenjuje prazna meta tvrde poveznice"
 
 #: lib/rtapelib.c:295
 #, c-format
@@ -848,7 +848,7 @@ msgstr "Nije povezan na %s"
 
 #: src/compare.c:291
 msgid "Symlink differs"
-msgstr "Simbolička poveznica se razlikuje"
+msgstr "Simbolična poveznica se razlikuje"
 
 #: src/compare.c:323
 msgid "Device number differs"
@@ -862,7 +862,7 @@ msgstr "Provjeri "
 #: src/compare.c:478
 #, c-format
 msgid "%s: Unknown file type '%c', diffed as normal file"
-msgstr "%s: Nepoznati tip datoteke „%c“, uspoređuje se kao normalna datoteka"
+msgstr "%s: Nepoznati tip datoteke „%c”, uspoređuje se kao normalna datoteka"
 
 #: src/compare.c:533
 msgid "Archive contains file names with leading prefixes removed."
@@ -892,7 +892,7 @@ msgstr "Izolirani nulti blok pri %s"
 #: src/create.c:74
 #, c-format
 msgid "%s: contains a cache directory tag %s; %s"
-msgstr "%s: sadrži „cache directory tag“ (CACHEDIR.TAG) %s; %s v. http://www.brynosaurus.com/cachedir/spec.html"
+msgstr "%s: sadrži „cache directory tag” (CACHEDIR.TAG) %s; %s v. http://www.brynosaurus.com/cachedir/spec.html"
 
 #: src/create.c:263
 #, c-format
@@ -1019,7 +1019,7 @@ msgstr "Susjedne datoteke (contiguous files) izdvajaju se kao obične datoteke"
 
 #: src/extract.c:1597
 msgid "Attempting extraction of symbolic links as hard links"
-msgstr "Pokušava izdvojiti simboličke poveznice kao tvrde poveznice"
+msgstr "Pokušava izdvojiti simbolične poveznice kao tvrde poveznice"
 
 #: src/extract.c:1732
 #, c-format
@@ -1033,7 +1033,7 @@ msgstr "Neočekivano dugo ime zaglavlja"
 #: src/extract.c:1744
 #, c-format
 msgid "%s: Unknown file type '%c', extracted as normal file"
-msgstr "%s: Nepoznati tip datoteke „%c“, izdvojena kao normalna datoteka"
+msgstr "%s: Nepoznati tip datoteke „%c”, izdvojena kao normalna datoteka"
 
 #: src/extract.c:1774
 #, c-format
@@ -1043,7 +1043,7 @@ msgstr "Trenutni %s je noviji ili jednako star"
 #: src/extract.c:1804
 #, c-format
 msgid "%s: Member name contains '..'"
-msgstr "%s: Ime člana sadrži „..“"
+msgstr "%s: Ime člana sadrži „..”"
 
 #: src/extract.c:1836
 #, c-format
@@ -1144,7 +1144,7 @@ msgstr "Nepodržana verzija inkrementalnog formata: %<PRIuMAX>"
 #: src/incremen.c:1552
 #, c-format
 msgid "Malformed dumpdir: expected '%c' but found %#3o"
-msgstr "Deformirani arhivski direktorij: očekivano „%c“, a pronađeno je %#3o"
+msgstr "Deformirani arhivski direktorij: očekivano „%c”, a pronađeno je %#3o"
 
 #: src/incremen.c:1562
 msgid "Malformed dumpdir: 'X' duplicated"
@@ -1152,26 +1152,26 @@ msgstr "Deformirani arhivski direktorij: duplicirani 'X'"
 
 #: src/incremen.c:1575
 msgid "Malformed dumpdir: empty name in 'R'"
-msgstr "Deformirani arhivski direktorij: prazno ime u „R“"
+msgstr "Deformirani arhivski direktorij: prazno ime u „R”"
 
 # bp: Malformed > Nepravilan
-# prije „T“ ne dolazi „R“ > „T“ ne prethodi „R“
+# prije „T” ne dolazi „R” > „T” ne prethodi „R”
 #: src/incremen.c:1588
 msgid "Malformed dumpdir: 'T' not preceded by 'R'"
-msgstr "Deformirani arhivski direktorij: ispred „T“ ne stoji „R“"
+msgstr "Deformirani arhivski direktorij: ispred „T” ne stoji „R”"
 
 #: src/incremen.c:1594
 msgid "Malformed dumpdir: empty name in 'T'"
-msgstr "Deformirani arhivski direktorij: prazno ime u „T“"
+msgstr "Deformirani arhivski direktorij: prazno ime u „T”"
 
 #: src/incremen.c:1614
 #, c-format
 msgid "Malformed dumpdir: expected '%c' but found end of data"
-msgstr "Deformirani arhivski direktorij: očekivano „%c“, ali pronađen kraj podataka"
+msgstr "Deformirani arhivski direktorij: očekivano „%c”, ali pronađen kraj podataka"
 
 #: src/incremen.c:1621
 msgid "Malformed dumpdir: 'X' never used"
-msgstr "Deformirani arhivski direktorij: „X“ se nijednom ne rabi"
+msgstr "Deformirani arhivski direktorij: „X” se nijednom ne rabi"
 
 #: src/incremen.c:1665
 #, c-format
@@ -1460,7 +1460,7 @@ msgstr "uzorak mora podudariti početak imena datoteke"
 # bp: novi msgid
 #: src/names.c:139
 msgid "patterns match after any '/' (default for exclusion)"
-msgstr "uzorak može podudarati ikoji dio imena datoteke iza svakog „/“ (zadano za isključenje)"
+msgstr "uzorak može podudarati ikoji dio imena datoteke iza svakog „/” (zadano za isključenje)"
 
 #: src/names.c:141
 msgid "ignore case"
@@ -1472,7 +1472,7 @@ msgid "case sensitive matching (default)"
 msgstr "razlikuje mala od velikih slova (zadano)"
 
 # bp: novi msgid
-# u wget.po naišao sam da je „wildcard“  načnik, pa ga ovdje koristim.
+# u wget.po naišao sam da je „wildcard”  načnik, pa ga ovdje koristim.
 #: src/names.c:145
 msgid "use wildcards (default for exclusion)"
 msgstr "rabi višeznačnike (zadano za isključenje)"
@@ -1485,12 +1485,12 @@ msgstr "striktno podudaranje stringova"
 # bp: novi msgid
 #: src/names.c:149
 msgid "wildcards match '/' (default for exclusion)"
-msgstr "višeznačnik podudara „/“ (zadano za isključenje)"
+msgstr "višeznačnik podudara „/” (zadano za isključenje)"
 
 # originalno TK: Dio arhive %s ne odgovara %s
 #: src/names.c:151
 msgid "wildcards do not match '/'"
-msgstr "višeznačnik ne podudara „/“"
+msgstr "višeznačnik ne podudara „/”"
 
 #: src/names.c:208
 #, c-format
@@ -1527,11 +1527,11 @@ msgstr "naredbeni redak"
 msgid "%s: file list requested from %s already read from %s"
 msgstr "%s: zatražen popis datoteka od %s je već pročitan iz %s"
 
-# original TK ne mogu postaviti vrijeme na „%s“
+# original TK ne mogu postaviti vrijeme na „%s”
 #: src/names.c:1000 src/checkpoint.c:308
 #, c-format
 msgid "cannot split string '%s': %s"
-msgstr "nije moguće rastaviti string „%s“: %s"
+msgstr "nije moguće rastaviti string „%s”: %s"
 
 #: src/names.c:1049
 #, c-format
@@ -1573,7 +1573,7 @@ msgstr "Samo jedna opcija -C je dopuštena uz --listed-incremental"
 #: src/tar.c:88
 #, c-format
 msgid "Options '%s' and '%s' both want standard input"
-msgstr "Obje opcije „-%s“ i „-%s“ zahtijevaju standardni ulaz"
+msgstr "Obje opcije „-%s” i „-%s” zahtijevaju standardni ulaz"
 
 #: src/tar.c:165
 #, c-format
@@ -1587,7 +1587,7 @@ msgstr "Zatražene su GNU značajke za nekompatibilni format arhive"
 #: src/tar.c:265
 #, c-format
 msgid "Unknown quoting style '%s'. Try '%s --quoting-style=help' to get a list."
-msgstr "Nepoznat stil citiranja „%s“. Pokušajte „%s --quoting-style=help“ za popis."
+msgstr "Nepoznat stil citiranja „%s”. Pokušajte „%s --quoting-style=help” za popis."
 
 #: src/tar.c:355
 msgid ""
@@ -1615,7 +1615,7 @@ msgid ""
 "  nil, existing   numbered if numbered backups exist, simple otherwise\n"
 "  never, simple   always make simple backups\n"
 msgstr ""
-"Sufiks za osiguranje (sigurnosne kopije) je „~“, ako nije promijenjen s\n"
+"Sufiks za osiguranje (sigurnosne kopije) je „~”, ako nije promijenjen s\n"
 "opcijom --suffix ili SIMPLE_BACKUP_SUFFIX.\n"
 "Varijantu kontrole postavite ili s opcijom --backup, ili s VERSION_CONTROL,\n"
 "a moguće vrijednosti za KONTROLU su:\n"
@@ -1776,7 +1776,7 @@ msgstr "prepiše metapodatke postojećih direktorija prilikom izdvajanja (zadano
 # original TK prepiši postojeće datoteke pri ekstrakciji
 #: src/tar.c:533
 msgid "preserve existing symlinks to directories when extracting"
-msgstr "sačuva postojeće simboličke poveznice na direktorije prilikom izdvajanja"
+msgstr "sačuva postojeće simbolične poveznice na direktorije prilikom izdvajanja"
 
 # bp: novi msgid
 #: src/tar.c:536
@@ -1846,7 +1846,7 @@ msgstr "PROMJENE"
 
 #: src/tar.c:567
 msgid "force (symbolic) mode CHANGES for added files"
-msgstr "prisilno primjeni (simboličke) PROMJENE na dodane datoteke"
+msgstr "prisilno primjeni (simbolične) PROMJENE na dodane datoteke"
 
 #: src/tar.c:569
 msgid "METHOD"
@@ -1965,11 +1965,11 @@ msgstr "rabi arhiviranu datoteku ili uređaj ARHIVA"
 
 #: src/tar.c:632
 msgid "specify drive and density"
-msgstr "specifikacija uređaja i gustoće pisanja"
+msgstr "specificira disk i gustoću pisanja"
 
 #: src/tar.c:646
 msgid "archive file is local even if it has a colon"
-msgstr "arhivirana datoteka je lokalna iako sadrži dvotočku „:“"
+msgstr "arhivirana datoteka je lokalna iako sadrži dvotočku „:”"
 
 #: src/tar.c:649
 msgid "use given rmt COMMAND instead of rmt"
@@ -2114,11 +2114,11 @@ msgstr "stvori arhivu u lokalnom datotečnom sustavu"
 
 #: src/tar.c:740
 msgid "don't strip leading '/'s from file names"
-msgstr "ne skida početne „/“ iz imena datoteka"
+msgstr "ne skida početne „/” iz imena datoteka"
 
 #: src/tar.c:742
 msgid "follow symlinks; archive and dump the files they point to"
-msgstr "slijedi simboličke poveznice; arhivira i sprema datoteke u koje poveznice gađaju"
+msgstr "slijedi simbolične poveznice; arhivira i sprema datoteke u koje poveznice gađaju"
 
 #: src/tar.c:745
 msgid "follow hard links; archive and dump the files they refer to"
@@ -2158,7 +2158,7 @@ msgstr "STRING"
 
 #: src/tar.c:758
 msgid "backup before removal, override usual suffix ('~' unless overridden by environment variable SIMPLE_BACKUP_SUFFIX)"
-msgstr "osiguranje (sigurnosne kopije) napravi prije uklanjanja, redefina uobičajeni sufiks „~“ (ako nije promijenjen varijablom okoline SIMPLE_BACKUP_SUFFIX) u STRING"
+msgstr "osiguranje (sigurnosne kopije) napravi prije uklanjanja, redefina uobičajeni sufiks „~” (ako nije promijenjen varijablom okoline SIMPLE_BACKUP_SUFFIX) u STRING"
 
 #: src/tar.c:762
 msgid "File name transformations:"
@@ -2291,12 +2291,12 @@ msgstr "deaktivira nekoliko potencijalno opasnih opcija"
 #: src/tar.c:888
 #, c-format
 msgid "'%s' cannot be used with '%s'"
-msgstr "„%s“: ne može se rabiti s „%s“"
+msgstr "„%s”: ne može se rabiti s „%s”"
 
 # bp: fuziran, dodana
 #: src/tar.c:977
 msgid "You may not specify more than one '-Acdtrux', '--delete' or  '--test-label' option"
-msgstr "Smijete navesti samo jednu od opcija „-Acdtrux“, „--delete“ ili „--test-label“"
+msgstr "Smijete navesti samo jednu od opcija „-Acdtrux”, „--delete” ili „--test-label”"
 
 #: src/tar.c:989
 msgid "Conflicting compression options"
@@ -2319,7 +2319,7 @@ msgstr "S(a) %s zamijenjuje se nepoznati format datuma %s"
 #: src/tar.c:1110
 #, c-format
 msgid "Option %s: Treating date '%s' as %s"
-msgstr "Opcija %s: Datum „%s“ tretira se kao %s"
+msgstr "Opcija %s: Datum „%s” tretira se kao %s"
 
 #: src/tar.c:1150 src/tar.c:1154 src/tar.c:1158 src/tar.c:1162 src/tar.c:1166
 #: src/tar.c:1170 src/tar.c:1174 src/tar.c:1178
@@ -2356,12 +2356,12 @@ msgstr "Deformirani argument gustoće: %s"
 #: src/tar.c:1492
 #, c-format
 msgid "Unknown density: '%c'"
-msgstr "Nepoznata gustoća: „%c“"
+msgstr "Nepoznata gustoća: „%c”"
 
 #: src/tar.c:1509
 #, c-format
 msgid "Options '-[0-7][lmh]' not supported by *this* tar"
-msgstr "Opcije „-[0-7][lmh]“ *ovaj* tar ne podržava"
+msgstr "Opcije „-[0-7][lmh]” *ovaj* tar ne podržava"
 
 #: src/tar.c:1590
 msgid "Invalid tape length"
@@ -2443,7 +2443,7 @@ msgstr "argumenti, koji nisu opcije u %s"
 #: src/tar.c:2360
 #, c-format
 msgid "Old option '%c' requires an argument."
-msgstr "Stara opcija „%c“ zahtijeva argument."
+msgstr "Stara opcija „%c” zahtijeva argument."
 
 #: src/tar.c:2432
 msgid "--occurrence is meaningless without a file list"
@@ -2451,7 +2451,7 @@ msgstr "--occurrence nema smisla bez popisa datoteka"
 
 #: src/tar.c:2458
 msgid "Multiple archive files require '-M' option"
-msgstr "Više arhivskih datoteka zahtijeva opciju „-M“"
+msgstr "Više arhivskih datoteka zahtijeva opciju „-M”"
 
 #: src/tar.c:2475
 msgid "--level is meaningless without --listed-incremental"
@@ -2520,7 +2520,7 @@ msgstr "Pravljenje prazne arhive se kukavički odbija"
 
 #: src/tar.c:2691
 msgid "Options '-Aru' are incompatible with '-f -'"
-msgstr "Opcije „-Aru“ nisu kompatibilne s „-f -“"
+msgstr "Opcije „-Aru” nisu kompatibilne s „-f -”"
 
 #: src/tar.c:2775
 msgid "failed to assert availability of the standard file descriptors"
@@ -2529,7 +2529,7 @@ msgstr "nije uspjelo potvrditi dostupnost standardnih deskriptora datoteka"
 # bp: fuzirano, popravljeno
 #: src/tar.c:2805
 msgid "You must specify one of the '-Acdtrux', '--delete' or '--test-label' options"
-msgstr "Morate navesti jednu od opcija „-Acdtrux“, „--delete“ ili „--test-label“"
+msgstr "Morate navesti jednu od opcija „-Acdtrux”, „--delete” ili „--test-label”"
 
 #: src/tar.c:2865
 #, c-format
@@ -2588,7 +2588,7 @@ msgstr "Deformirano prošireno zaglavlje: nema novog retka (newline)"
 #: src/xheader.c:695
 #, c-format
 msgid "Ignoring unknown extended header keyword '%s'"
-msgstr "Zanemarimo nepoznatu ključnu riječ proširenog zaglavlja „%s“"
+msgstr "Zanemarimo nepoznatu ključnu riječ proširenog zaglavlja „%s”"
 
 #: src/xheader.c:977
 #, c-format
@@ -2692,7 +2692,7 @@ msgstr "-T čita imena završena praznim (null) znakom"
 
 #: tests/genfile.c:141
 msgid "Fill the file with the given PATTERN. PATTERN is 'default' or 'zeros'"
-msgstr "Popuni datoteku s navedenim UZORKOM. UZORAK je „default“ ili „zeros“"
+msgstr "Popuni datoteku s navedenim UZORKOM. UZORAK je „default” ili „zeros”"
 
 #: tests/genfile.c:144
 msgid "Size of a block for sparse file"
@@ -2724,7 +2724,7 @@ msgstr "Ispiše sadržaj struct stat za svaku navedenu datoteku. Standardni FORM
 
 #: tests/genfile.c:163
 msgid "stat symbolic links instead of referenced files"
-msgstr "‘stat’ na simboličke poveznice umjesto na referentne datoteka"
+msgstr "‘stat’ na simbolične poveznice umjesto na referentne datoteka"
 
 #: tests/genfile.c:167
 msgid "Set access and modification times of the files to the time supplied by --date option"
@@ -2811,7 +2811,7 @@ msgstr "stvorena datoteka nije raspršena (sparse)"
 #: tests/genfile.c:390
 #, c-format
 msgid "Error parsing number near `%s'"
-msgstr "Greška analize broja u blizini „%s“"
+msgstr "Greška analize broja u blizini „%s”"
 
 #: tests/genfile.c:396
 #, c-format
@@ -2826,7 +2826,7 @@ msgstr "[ARGUMENTI...]"
 #: tests/genfile.c:787 tests/genfile.c:801
 #, c-format
 msgid "cannot open `%s'"
-msgstr "nije moguće otvoriti „%s“"
+msgstr "nije moguće otvoriti „%s”"
 
 #: tests/genfile.c:463
 msgid "cannot seek"
@@ -2845,24 +2845,24 @@ msgstr "nemoguće je generirati raspršene (sparse) datoteke na standardnom izla
 #: tests/genfile.c:699
 #, c-format
 msgid "incorrect mask (near `%s')"
-msgstr "netočna maska (blizu „%s“)"
+msgstr "netočna maska (blizu „%s”)"
 
 #: tests/genfile.c:705 tests/genfile.c:738
 #, c-format
 msgid "Unknown field `%s'"
-msgstr "Nepoznato polje „%s“"
+msgstr "Nepoznato polje „%s”"
 
 #: tests/genfile.c:756 tests/genfile.c:776
 #, c-format
 msgid "cannot set time on `%s'"
-msgstr "nije moguće postaviti vrijeme na „%s“"
+msgstr "nije moguće postaviti vrijeme na „%s”"
 
 # bp: fuzirano.
-# možda je „vezu“ suvišna
+# možda je „vezu” suvišna
 #: tests/genfile.c:806
 #, c-format
 msgid "cannot truncate `%s'"
-msgstr "nije moguće skratiti „%s“"
+msgstr "nije moguće skratiti „%s”"
 
 #: tests/genfile.c:815
 #, c-format
@@ -2870,21 +2870,21 @@ msgid "command failed: %s"
 msgstr "naredba %s nije uspjela"
 
 # bp: fuzirano.
-# možda je „vezu“ suvišna
+# možda je „vezu” suvišna
 #: tests/genfile.c:822
 #, c-format
 msgid "cannot stat `%s'"
-msgstr "nije moguće dobiti status od „%s“"
+msgstr "nije moguće dobiti status od „%s”"
 
 #: tests/genfile.c:826
 #, c-format
 msgid "cannot remove directory `%s'"
-msgstr "direktorij „%s“ nije moguće ukloniti"
+msgstr "direktorij „%s” nije moguće ukloniti"
 
 #: tests/genfile.c:829
 #, c-format
 msgid "cannot unlink `%s'"
-msgstr "nije moguće ukloniti poveznicu (unlink) „%s“"
+msgstr "nije moguće ukloniti poveznicu (unlink) „%s”"
 
 #: tests/genfile.c:969
 #, c-format
