@@ -1,15 +1,15 @@
 # Belarusian messages for GNU findutils.
-# Copyright (C) 2003, 2022, 2023 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2022, 2023, 2024 Free Software Foundation, Inc.
 # This file is distributed under the same license as the findutils package.
 #
 # Ales Nyakhaychyk <nab@mail.by>, 2003.
-# Viachaslau Khalikin <viachaslau.vinegret@outlook.com>, 2022, 2023.
+# Viachaslau Khalikin <viachaslau.vinegret@outlook.com>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU findutils 4.9.0\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2022-02-02 01:18+0100\n"
-"PO-Revision-Date: 2023-03-26 21:09+0300\n"
+"PO-Revision-Date: 2024-04-15 21:24+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Emacs 28.2, po mode 2.27\n"
+"X-Generator: Emacs 29.3, po mode 2.28\n"
 
 #: find/exec.c:123
 #, c-format
@@ -176,7 +176,7 @@ msgstr "Да %s чакаўся дадатны дзесятковы цэлы ар
 #: find/parser.c:1564
 #, c-format
 msgid "This system does not provide a way to find the birth time of a file."
-msgstr "У гэтай сыстэмы няма магчымасьці вызначыць час стварэньня файла."
+msgstr "Гэтая сыстэма ня здольная адшукаць час стварэньня файла."
 
 #: find/parser.c:1585
 #, c-format
@@ -257,7 +257,7 @@ msgstr "няправільны прэдыкат -context: SELinux не ўклю�
 #: find/parser.c:2652
 #, c-format
 msgid "Arguments to %s should contain at least one letter"
-msgstr "Аргумэнты да %s мусіць зьмяшчаць ня менш за адну літару"
+msgstr "Аргумэнты да %s мусяць зьмяшчаць сама меней адну літару"
 
 #: find/parser.c:2717
 #, c-format
@@ -522,7 +522,7 @@ msgid ""
 msgstr ""
 "\n"
 "Прадвызначаны шлях: бягучы каталёг; прадвызначаны выраз: -print\n"
-"выраз можа складацца з апэратараў, опцыяў, тэстаў і дзеяньняў:\n"
+"выраз можа складацца з апэратараў, опцый, тэстаў і дзеяньняў:\n"
 
 #: find/util.c:176
 msgid ""
@@ -532,7 +532,7 @@ msgid ""
 "      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1 , EXPR2\n"
 msgstr ""
 "\n"
-"Апэратары (ў сыходным парадку; -and будзе няяўна, калі не пазначана іншых):\n"
+"Апэратары (ў сыходным парадку; -and будзе ускосна, калі не пазначана іншых):\n"
 "      ( ВЫРАЗ )   ! ВЫРАЗ   -not ВЫРАЗ   ВЫРАЗ-1 -a ВЫРАЗ-2   ВЫРАЗ-1 -and ВЫРАЗ-2\n"
 "      ВЫРАЗ-1 -o ВЫРАЗ-2   ВЫРАЗ-1 -or ВЫРАЗ-2   ВЫРАЗ-1 , ВЫРАЗ-2\n"
 
@@ -624,7 +624,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Скарыстайце «-D help» для азнаямленьня з апісаньнем опцыяў або глядзіце find(1)\n"
+"Выкарыстайце '-D help', каб азнаёміцца з апісаньнем опцый або глядзіце find(1)\n"
 "\n"
 
 #: find/util.c:475
@@ -640,7 +640,7 @@ msgstr "Не ўдалося аднавіць пачатковы рабочы к�
 #: find/util.c:832
 #, c-format
 msgid "Ignoring unrecognised debug flag %s"
-msgstr "Ігнараваньне нераспазнанага фляжка адладкі %s"
+msgstr "Ігнараваньне нераспазнанай пазнакі адладкі %s"
 
 #: find/util.c:839
 #, c-format
@@ -1003,7 +1003,7 @@ msgstr "Няправільная экрануючая пасьлядоўнась
 #: xargs/xargs.c:335
 #, c-format
 msgid "Invalid input delimiter specification %s: the delimiter must be either a single character or an escape sequence starting with \\."
-msgstr "Няправільнае вызначэньне размежавальніка %s: разьмежавальнік мусіць быць або адзіночным сымбалям або экрануючай пасьлядоўнасьцю, якая пачынаецца з \\."
+msgstr "Няправільнае вызначэньне разьмежавальніка %s: разьмежавальнік мусіць быць або адзіночным сымбалям або экрануючай пасьлядоўнасьцю, якая пачынаецца з \\."
 
 #: xargs/xargs.c:354
 msgid "environment is too large for exec"
@@ -1067,12 +1067,12 @@ msgstr "Найменш дапушчальная верхняя мяжа даўж
 #: xargs/xargs.c:784
 #, c-format
 msgid "Maximum length of command we could actually use: %<PRIuMAX>\n"
-msgstr "Максымальная даўжыня каманды, якую сапраўды можна выкарыстоўваць: %<PRIuMAX>\n"
+msgstr "Максымальная даўжыня каманды, якую сапраўды ільга выкарыстоўваць: %<PRIuMAX>\n"
 
 #: xargs/xargs.c:787
 #, c-format
 msgid "Size of command buffer we are actually using: %<PRIuMAX>\n"
-msgstr "Памер буфэра каманды, які сапраўды можна выкарыстоўваць: %<PRIuMAX>\n"
+msgstr "Памер буфэра каманды, які сапраўды ільга выкарыстоўваць: %<PRIuMAX>\n"
 
 #: xargs/xargs.c:790
 #, c-format
@@ -1207,9 +1207,9 @@ msgid ""
 "Mandatory and optional arguments to long options are also\n"
 "mandatory or optional for the corresponding short option.\n"
 msgstr ""
-"Абавязковыя ды неабавязковыя аргумэнты да доўгіх опцыяў\n"
+"Абавязковыя ды неабавязковыя аргумэнты да доўгіх опцый\n"
 "таксама зьяўляюцца абавязковымі ды неабавязковымі\n"
-"для адпаведных кароткіх опцыяў.\n"
+"для адпаведных кароткіх опцый.\n"
 
 #: xargs/xargs.c:1716
 msgid ""
@@ -1319,7 +1319,7 @@ msgid ""
 msgstr ""
 "  -r, --no-run-if-empty        не выконваць КАМАНДУ, калі няма перададзеных аргумэнтаў;\n"
 "                                 калі гэтая опцыя не вызначана, тады КАМАНДА будзе\n"
-"                                 выконвацца ня менш за раз\n"
+"                                 выконвацца прынамсі раз\n"
 
 #: xargs/xargs.c:1746
 msgid "  -s, --max-chars=MAX-CHARS    limit length of command line to MAX-CHARS\n"
