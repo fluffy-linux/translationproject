@@ -1055,7 +1055,7 @@ msgstr "kodeeringu tüüp puudub"
 #: src/cat.c:47 src/cp.c:43 src/df.c:44 src/du.c:52 src/factor.c:121
 #: src/split.c:51
 msgid "Torbjorn Granlund"
-msgstr "Torbjorn Granlund"
+msgstr "Torbjörn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:48 src/comm.c:36 src/ls.c:130 src/rm.c:40 src/split.c:52
