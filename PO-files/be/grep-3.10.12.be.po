@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: GNU grep 3.10.12\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2023-04-20 18:51-0700\n"
-"PO-Revision-Date: 2024-03-30 00:42+0300\n"
+"PO-Revision-Date: 2024-07-02 00:42+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Emacs 29.3, po mode 2.28\n"
+"X-Generator: Emacs 29.4, po mode 2.28\n"
 
 #: lib/argmatch.c:145
 #, c-format
 msgid "invalid argument %s for %s"
-msgstr "няправільны аргумэнт %s для %s"
+msgstr "памылковы аргумэнт %s для %s"
 
 #: lib/argmatch.c:146
 #, c-format
@@ -52,7 +52,7 @@ msgstr "неўраўнаважаная ["
 
 #: lib/dfa.c:1018
 msgid "invalid character class"
-msgstr "няправільная кляса сымбаляў"
+msgstr "памылковая кляса сымбаляў"
 
 #: lib/dfa.c:1146
 msgid "character class syntax is [[:space:]], not [:space:]"
@@ -80,7 +80,7 @@ msgstr "{...} у пачатку выразу"
 
 #: lib/dfa.c:1416
 msgid "invalid content of \\{\\}"
-msgstr "няправільнае зьмесьціва ў \\{\\}"
+msgstr "няслушнае зьмесьціва ў \\{\\}"
 
 #: lib/dfa.c:1418
 msgid "regular expression too big"
@@ -142,12 +142,12 @@ msgstr "%s: опцыя «%s%s» не дапускае аргумэнтаў\n"
 #: lib/getopt.c:360
 #, c-format
 msgid "%s: option '%s%s' requires an argument\n"
-msgstr "%s: опцыя «%s%s» патрабуе аргумэнт\n"
+msgstr "%s: опцыя «%s%s» патрабуе аргумэнта\n"
 
 #: lib/getopt.c:621
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: няправільная опцыя -- «%c»\n"
+msgstr "%s: памылковая опцыя -- «%c»\n"
 
 #: lib/getopt.c:636 lib/getopt.c:682
 #, c-format
@@ -166,7 +166,7 @@ msgstr "нельга захаваць бягучы рабочы каталёг"
 #: lib/openat-die.c:57
 #, c-format
 msgid "failed to return to initial working directory"
-msgstr "не атрымалася вярнуцца ў пачатковы рабочы каталёг"
+msgstr "не атрымалася вярнуцца да пачатковага рабочага каталёга"
 
 #: lib/xbinary-io.c:36
 #, c-format
@@ -216,15 +216,15 @@ msgstr "Памылковы рэгулярны выраз"
 
 #: lib/regcomp.c:131
 msgid "Invalid collation character"
-msgstr "Няправільны сымбаль супастаўленьня"
+msgstr "Памылковы сымбаль супастаўленьня"
 
 #: lib/regcomp.c:134
 msgid "Invalid character class name"
-msgstr "Няправільная назва клясы сымбаляў"
+msgstr "Памылковыя назва клясы сымбаляў"
 
 #: lib/regcomp.c:137
 msgid "Trailing backslash"
-msgstr "Канчатковая адваротная косая рыска"
+msgstr "Завяршальная адваротная косая рыска"
 
 #: lib/regcomp.c:140
 msgid "Invalid back reference"
@@ -244,11 +244,11 @@ msgstr "Несупастаўляльны \\{"
 
 #: lib/regcomp.c:152
 msgid "Invalid content of \\{\\}"
-msgstr "Няправільнае зьмесьціва ў\\{\\}"
+msgstr "Няслушнае зьмесьціва ў\\{\\}"
 
 #: lib/regcomp.c:155
 msgid "Invalid range end"
-msgstr "Няправільны канец дыяпазону"
+msgstr "Хібны канец дыяпазону"
 
 #: lib/regcomp.c:158
 msgid "Memory exhausted"
@@ -301,7 +301,7 @@ msgid ""
 msgstr ""
 "Ліцэнзія GPLv3+: GNU GPL вэрсіі 3 або навей <%s>.\n"
 "Гэта свабоднае праграмнае забесьпячэньне: вы можаце вольна зьмяняць і распаўсюджваць яго.\n"
-"Няма НІЯКІХ ГАРАНТЫЙ у межах дзеючага заканадаўства.\n"
+"Няма НІЯКІХ ГАРАНТЫЯЎ у межах дзеючага заканадаўства.\n"
 
 #. TRANSLATORS: %s denotes an author name.
 #: lib/version-etc.c:105
@@ -477,7 +477,7 @@ msgstr "Выкарыстаньне: %s [ОПЦЫЯ]... УЗОРЫ [ФАЙЛ]...\
 #: src/grep.c:1973
 #, c-format
 msgid "Try '%s --help' for more information.\n"
-msgstr "Паспрабуйце «%s --help» для атрыманьня больш падрабязных зьвестак.\n"
+msgstr "Паспрабуйце «%s --help» каб атрымаць падрабязныя зьвесткі.\n"
 
 #: src/grep.c:1979
 #, c-format
@@ -523,8 +523,8 @@ msgid ""
 msgstr ""
 "  -e, --regexp=УЗОРЫ        выкарыстоўваць УЗОРЫ для супастаўленьня\n"
 "  -f, --file=ФАЙЛ           прымаць УЗОРЫ з ФАЙЛа\n"
-"  -i, --ignore-case         ігнараваць рэгістар літар ва ўзорах і даных\n"
-"      --no-ignore-case      не ігнараваць рэгістар літар (прадвызначана)\n"
+"  -i, --ignore-case         ігнараваць рэгістар літараў ва ўзорах і даных\n"
+"      --no-ignore-case      не ігнараваць рэгістар літараў (прадвызначана)\n"
 "  -w, --word-regexp         супастаўляць цэламу слову\n"
 "  -x, --line-regexp         супастаўляць цэламу радку\n"
 "  -z, --null-data           радок даных падзелены нулявым байтам,\n"
@@ -542,7 +542,7 @@ msgid ""
 msgstr ""
 "\n"
 "Разнастайныя:\n"
-"  -s, --no-messages         заглушаць паведамленьні пра памылкі\n"
+"  -s, --no-messages         затойваць паведамленьні пра памылкі\n"
 "  -v, --invert-match        выбіраць несупастаўныя радкі\n"
 "  -V, --version             адлюстраваць зьвесткі пра вэрсію ды выйсьці\n"
 "      --help                адлюстраваць гэтую даведку ды выйсьці\n"
@@ -567,7 +567,7 @@ msgstr ""
 "  -n, --line-number         друкаваць нумар радка з радкамі вываду\n"
 "      --line-buffered       скідваць буфэр пасьля кожнага радка\n"
 "  -H, --with-filename       друкаваць назву файла разам з радкамі вываду\n"
-"  -h, --no-filename         заглушаць назвы файлаў на вывадзе\n"
+"  -h, --no-filename         затойваць назвы файлаў на вывадзе\n"
 "      --label=МЕТКА         выкарыстоўваць МЕТКА ў якасьці назвы файла для\n"
 "                            стандартнага ўводу\n"
 
@@ -581,9 +581,9 @@ msgid ""
 "  -a, --text                equivalent to --binary-files=text\n"
 msgstr ""
 "  -o, --only-matching       паказваць толькі адпаведныя непустыя часткі радкоў\n"
-"  -q, --quiet, --silent     заглушаць увесь звычайны вывад\n"
+"  -q, --quiet, --silent     затойваць увесь звычайны вывад\n"
 "      --binary-files=ТЫП    лічыць, што двайковыя файлы маюць ТЫП;\n"
-"                            ТЫП можа быць «binary», «text» ці «without-match»\n"
+"                            ТЫП можа быць «binary», «text» або «without-match»\n"
 "  -a, --text                раўназначна --binary-files=text\n"
 
 #: src/grep.c:2024
@@ -597,15 +597,15 @@ msgid ""
 "  -r, --recursive           like --directories=recurse\n"
 "  -R, --dereference-recursive  likewise, but follow all symlinks\n"
 msgstr ""
-"  -I                        раўназначна --binary-files=without-match\n"
-"  -d, --directories=ДЗЕЯНЬНЕ  як апрацоўваць каталёгі;\n"
-"                              ДЗЕЯНЬНЕ можа быць  «read» (чытаць),\n"
-"                              «recurse» (рэкурсіўна абходзіць)\n"
-"                              ці  «skip» (абмінаць)\n"
-"  -D, --devices=ДЗЕЯНЬНЕ    як апрацоўваць файлы прылад, FIFO й сокеты;\n"
-"                            ДЗЕЯНЬНЕ можа быць  «read» (чытаць)\n"
-"                            ці  «skip» (абмінаць)\n"
-"  -r, --recursive           тое ж, што й --directories=recurse\n"
+"  -I                           раўназначна --binary-files=without-match\n"
+"  -d, --directories=ДЗЕЯНЬНЕ   як апрацоўваць каталёгі;\n"
+"                               ДЗЕЯНЬНЕ можа быць  «read» (чытаць),\n"
+"                               «recurse» (рэкурсіўна абходзіць)\n"
+"                               ці  «skip» (абмінаць)\n"
+"  -D, --devices=ДЗЕЯНЬНЕ       як апрацоўваць файлы прылад, FIFO й сокеты;\n"
+"                               ДЗЕЯНЬНЕ можа быць  «read» (чытаць)\n"
+"                               ці  «skip» (абмінаць)\n"
+"  -r, --recursive              тое ж, што й --directories=recurse\n"
 "  -R, --dereference-recursive  гэтак жа, але з пераходам па ўсім сымбалічным\n"
 "                               спасылкам\n"
 
@@ -617,12 +617,12 @@ msgid ""
 "      --exclude-from=FILE   skip files that match any file pattern from FILE\n"
 "      --exclude-dir=GLOB    skip directories that match GLOB\n"
 msgstr ""
-"      --include=ГЛАБ        шукаць толькі тыя файлы, якія адпавядаюць ГЛАБ\n"
+"      --include=GLOB        шукаць толькі тыя файлы, якія адпавядаюць GLOB\n"
 "                            (файлаваму ўзору)\n"
-"      --exclude=ГЛАБ        абмінаць файлы, якія адпавядаюць ГЛАБ\n"
+"      --exclude=GLOB        абмінаць файлы, якія адпавядаюць GLOB\n"
 "      --exclude-from=ФАЙЛ   абмінаць файлы, якія адпавядаюць любому\n"
 "                            файлаваму ўзору з ФАЙЛа\n"
-"      --exclude-dir=ГЛАБ    абмінаць каталёгі, якія адпавядаюць ГЛАБ\n"
+"      --exclude-dir=GLOB    абмінаць каталёгі, якія адпавядаюць GLOB\n"
 
 #: src/grep.c:2040
 #, c-format
@@ -634,11 +634,11 @@ msgid ""
 "  -Z, --null                print 0 byte after FILE name\n"
 msgstr ""
 "  -L, --files-without-match  надрукаваць назвы толькі тых ФАЙЛаў,\n"
-"                             у якіх няма выбраных радкоў\n"
+"                             ў якіх няма выбраных радкоў\n"
 "  -l, --files-with-matches  надрукаваць толькі назвы ФАЙЛаў з выбранымі\n"
 "                            радкамі\n"
 "  -c, --count               надрукаваць толькі колькасьць выбраных радкоў\n"
-"                            да ФАЙЛа\n"
+"                            на ФАЙЛ\n"
 "  -T, --initial-tab         выраўнаваць табуляцыяй (калі патрэбна)\n"
 "  -Z, --null                друкаваць байт «0» пасьля назвы ФАЙЛа\n"
 
@@ -653,9 +653,9 @@ msgid ""
 msgstr ""
 "\n"
 "Кіраваньне кантэкстам:\n"
-"  -B, --before-context=ЛІК  надрукаваць ЛІК радкоў папярэдняга кантэксту\n"
-"  -A, --after-context=ЛІК   надрукаваць ЛІК радкоў наступнага кантэксту\n"
-"  -C, --context=ЛІК         надрукаваць ЛІК выходнага кантэксту\n"
+"  -B, --before-context=ЛІК  друкаваць ЛІК радкоў папярэдняга кантэксту\n"
+"  -A, --after-context=ЛІК   друкаваць ЛІК радкоў наступнага кантэксту\n"
+"  -C, --context=ЛІК         друкаваць ЛІК выходнага кантэксту\n"
 
 #: src/grep.c:2053
 #, c-format
@@ -675,7 +675,7 @@ msgstr ""
 "      --no-group-separator  не друкаваць разьдзяляльнік паміж\n"
 "                            супадзеньнямі з кантэкстам\n"
 "      --color[=КАЛІ],\n"
-"      --colour[=КАЛІ]       выкарыстоўваць маркеры да падсьветкі адпаведных\n"
+"      --colour[=КАЛІ]       выкарыстоўваць маркеры для падсьветкі адпаведных\n"
 "                            радкоў;\n"
 "                            КАЛІ можа быць «always» (заўсёды),\n"
 "                            «never» (ніколі) ці «auto» (аўтаматычна)\n"
@@ -699,7 +699,7 @@ msgstr ""
 
 #: src/grep.c:2104
 msgid "conflicting matchers specified"
-msgstr "зададзеныя супярэчлівыя супастаўнікі"
+msgstr "зададзеныя супярэчлівыя супастаўляльнікі"
 
 #: src/grep.c:2111
 msgid "Perl matching not supported in a --disable-perl-regexp build"
@@ -708,7 +708,7 @@ msgstr "Супастаўленьні Perl не падтрымліваюцца ў
 #: src/grep.c:2113
 #, c-format
 msgid "invalid matcher %s"
-msgstr "няправільны супастаўнік %s"
+msgstr "няслушны супастаўляльнік %s"
 
 #: src/grep.c:2534
 msgid "unknown devices method"
@@ -717,11 +717,11 @@ msgstr "невядомы мэтад прыладаў"
 #: src/grep.c:2576
 #, c-format
 msgid "warning: --unix-byte-offsets (-u) is obsolete"
-msgstr "папярэджаньне: --unix-byte-offsets (-u) зьяўляецца састарэлым"
+msgstr "папярэджаньне: --unix-byte-offsets (-u) больш не ўжываецца"
 
 #: src/grep.c:2688
 msgid "invalid max count"
-msgstr "памылковая максымальная колькасць"
+msgstr "хібная максымальная колькасць"
 
 #: src/grep.c:2746
 msgid "unknown binary-files type"
@@ -761,7 +761,7 @@ msgstr "-P падтрымлівае толькі аднабайтавыя ды U
 
 #: src/pcresearch.c:191
 msgid "the -P option only supports a single pattern"
-msgstr "опцыя -P падтрымлівае толькі адзін узор"
+msgstr "опцыя -P падтрымлівае толькі адзін ўзор"
 
 #: src/pcresearch.c:285
 msgid "exceeded PCRE's line length limit"
