@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU sed 4.8.44\n"
 "Report-Msgid-Bugs-To: bug-gnu-utils@gnu.org\n"
 "POT-Creation-Date: 2022-10-16 22:21-0700\n"
-"PO-Revision-Date: 2024-03-30 17:45+0300\n"
+"PO-Revision-Date: 2024-09-06 05:25+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Emacs 29.3, po mode 2.28\n"
+"X-Generator: Emacs 29.4, po mode 2.28\n"
 
 #: lib/closeout.c:121
 msgid "write error"
@@ -47,19 +47,19 @@ msgstr "незавершаная \\ экраніруючая пасьлядоў�
 
 #: lib/dfa.c:1319
 msgid "? at start of expression"
-msgstr "? у пачатку выразу"
+msgstr "? на пачатку выразу"
 
 #: lib/dfa.c:1331
 msgid "* at start of expression"
-msgstr "* у пачатку выразу"
+msgstr "* на пачатку выразу"
 
 #: lib/dfa.c:1345
 msgid "+ at start of expression"
-msgstr "+ у пачатку выразу"
+msgstr "+ на пачатку выразу"
 
 #: lib/dfa.c:1400
 msgid "{...} at start of expression"
-msgstr "{...} у пачатку выразу"
+msgstr "{...} на пачатку выразу"
 
 #: lib/dfa.c:1403
 msgid "invalid content of \\{\\}"
@@ -104,7 +104,7 @@ msgstr "Невядомая сыстэмная памылка"
 
 #: lib/obstack.c:337 lib/obstack.c:339 lib/xalloc-die.c:34
 msgid "memory exhausted"
-msgstr "памяць вычарпана"
+msgstr "памяць вычарпаная"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -185,7 +185,7 @@ msgstr "Няправільны канец дыяпазону"
 
 #: lib/regcomp.c:158
 msgid "Memory exhausted"
-msgstr "Памяць вычарпана"
+msgstr "Памяць вычарпаная"
 
 #: lib/regcomp.c:161
 msgid "Invalid preceding regular expression"
@@ -405,11 +405,11 @@ msgstr "чакалася \\ пасьля «a», «c» ці «i»"
 
 #: sed/compile.c:157
 msgid "`}' doesn't want any addresses"
-msgstr "«}» не патрабуе ніякіх адрасоў"
+msgstr "«}» не патрабуе аніякіх адрасоў"
 
 #: sed/compile.c:159
 msgid ": doesn't want any addresses"
-msgstr ": не патрабуе ніякіх адрасоў"
+msgstr ": не патрабуе аніякіх адрасоў"
 
 #: sed/compile.c:161
 msgid "comments don't accept any addresses"
@@ -441,15 +441,15 @@ msgstr "невядомая опцыя да «s»"
 
 #: sed/compile.c:170
 msgid "multiple `p' options to `s' command"
-msgstr "зашмат опцый «p» да каманды «s»"
+msgstr "зашмат опцыяў «p» да каманды «s»"
 
 #: sed/compile.c:172
 msgid "multiple `g' options to `s' command"
-msgstr "зашмат опцый «g» да каманды «s»"
+msgstr "зашмат опцыяў «g» да каманды «s»"
 
 #: sed/compile.c:174
 msgid "multiple number options to `s' command"
-msgstr "зашмат лікавых опцый да каманды «s»"
+msgstr "зашмат лікавых опцыяў да каманды «s»"
 
 #: sed/compile.c:176
 msgid "number option to `s' command may not be zero"
@@ -469,7 +469,7 @@ msgstr "чакалася найноўшая вэрсія sed"
 
 #: sed/compile.c:184
 msgid "invalid usage of line address 0"
-msgstr "няправільнае выкарыстаньне адрасу радка адрасу 0"
+msgstr "няправільнае выкарыстаньне радка адрасу 0"
 
 #: sed/compile.c:185
 #, c-format
@@ -668,7 +668,7 @@ msgid ""
 "                 add the contents of script-file to the commands to be executed\n"
 msgstr ""
 "  -f script-file, --file=файл-скрыпт\n"
-"                 дадаць зьмест файла-скрыпту да каманд на выкананьне\n"
+"                 дадаць зьмест файла-скрыпту да камандаў на выкананьне\n"
 
 #: sed/sed.c:147
 #, c-format
@@ -686,7 +686,7 @@ msgid ""
 "                 edit files in place (makes backup if SUFFIX supplied)\n"
 msgstr ""
 "  -i[СУФІКС], --in-place[=СУФІКС]\n"
-"                 рэдаґаваць файлы на месцы (стварае рэзэрвовую копію, калі вызначаны СУФІКС)\n"
+"                 рэдагаваць файлы на месцы (стварае рэзэрвовую копію, калі перададзены СУФІКС)\n"
 
 #: sed/sed.c:153
 #, c-format
@@ -843,4 +843,4 @@ msgstr "не ўдалося перайсьці па сымбалічнай сп�
 #: sed/utils.c:408
 #, c-format
 msgid "cannot rename %s: %s"
-msgstr "немагчыма пераназваць %s: %s"
+msgstr "немагчыма зьмяніць назву %s: %s"
