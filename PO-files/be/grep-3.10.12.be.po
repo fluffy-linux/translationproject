@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: GNU grep 3.10.12\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2023-04-20 18:51-0700\n"
-"PO-Revision-Date: 2024-07-02 00:42+0300\n"
+"PO-Revision-Date: 2024-09-06 05:21+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -64,19 +64,19 @@ msgstr "незавершаная \\ экраніруючая пасьлядоў�
 
 #: lib/dfa.c:1332
 msgid "? at start of expression"
-msgstr "? у пачатку выразу"
+msgstr "? на пачатку выразу"
 
 #: lib/dfa.c:1344
 msgid "* at start of expression"
-msgstr "* у пачатку выразу"
+msgstr "* на пачатку выразу"
 
 #: lib/dfa.c:1358
 msgid "+ at start of expression"
-msgstr "+ у пачатку выразу"
+msgstr "+ на пачатку выразу"
 
 #: lib/dfa.c:1413
 msgid "{...} at start of expression"
-msgstr "{...} у пачатку выразу"
+msgstr "{...} на пачатку выразу"
 
 #: lib/dfa.c:1416
 msgid "invalid content of \\{\\}"
@@ -156,7 +156,7 @@ msgstr "%s: опцыя патрабуе аргумэнт -- «%c»\n"
 
 #: lib/obstack.c:337 lib/obstack.c:339 lib/xalloc-die.c:34
 msgid "memory exhausted"
-msgstr "памяць вычарпана"
+msgstr "памяць вычарпаная"
 
 #: lib/openat-die.c:38
 #, c-format
@@ -252,7 +252,7 @@ msgstr "Хібны канец дыяпазону"
 
 #: lib/regcomp.c:158
 msgid "Memory exhausted"
-msgstr "Памяць вычарпана"
+msgstr "Памяць вычарпаная"
 
 #: lib/regcomp.c:161
 msgid "Invalid preceding regular expression"
@@ -770,7 +770,7 @@ msgstr "перавышана абмежаваньне даўжыні радка 
 #: src/pcresearch.c:363
 #, c-format
 msgid "%s: memory exhausted"
-msgstr "%s: памяць вычарпана"
+msgstr "%s: памяць вычарпаная"
 
 #: src/pcresearch.c:366
 #, c-format
