@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU findutils 4.9.0\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2022-02-02 01:18+0100\n"
-"PO-Revision-Date: 2024-04-15 21:24+0300\n"
+"PO-Revision-Date: 2024-09-06 17:22+0300\n"
 "Last-Translator: Viachaslau Khalikin <viachaslau.vinegret@outlook.com>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Emacs 29.3, po mode 2.28\n"
+"X-Generator: Emacs 29.4, po mode 2.28\n"
 
 #: find/exec.c:123
 #, c-format
@@ -148,16 +148,16 @@ msgstr "папярэджаньне: опцыя -d састарэла; замес
 #: find/parser.c:1167
 #, c-format
 msgid "%s is not the name of an existing group and it does not look like a numeric group ID because it has the unexpected suffix %s"
-msgstr "%s не зьяўляецца назвай існуючай групы і не падобны лікаваму ID групы, бо мае нечаканы суфікс %s"
+msgstr "%s не зьяўляецца назваю існае групы і не падобны лікаваму ID групы, бо мае нечаканы суфікс %s"
 
 #: find/parser.c:1182
 #, c-format
 msgid "%s is not the name of an existing group"
-msgstr "%s не зьяўляецца назвай існуючай групы"
+msgstr "%s не зьяўляецца назваю існае групы"
 
 #: find/parser.c:1188
 msgid "argument to -group is empty, but should be a group name"
-msgstr "аргумэнт да -group зараз пусты, але мусіць быць назвай групы"
+msgstr "аргумэнт да -group зараз пусты, але мусіць быць назваю групы"
 
 #: find/parser.c:1261
 msgid "sanity check of the fnmatch() library function failed."
@@ -522,7 +522,7 @@ msgid ""
 msgstr ""
 "\n"
 "Прадвызначаны шлях: бягучы каталёг; прадвызначаны выраз: -print\n"
-"выраз можа складацца з апэратараў, опцый, тэстаў і дзеяньняў:\n"
+"выраз можа складацца з апэратараў, опцыяў, тэстаў і дзеяньняў:\n"
 
 #: find/util.c:176
 msgid ""
@@ -624,7 +624,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Выкарыстайце '-D help', каб азнаёміцца з апісаньнем опцый або глядзіце find(1)\n"
+"Выкарыстайце '-D help', каб азнаёміцца з апісаньнем опцыяў або глядзіце find(1)\n"
 "\n"
 
 #: find/util.c:475
@@ -695,7 +695,7 @@ msgstr "каманда занадта вялікая"
 
 #: lib/buildcmd.c:284
 msgid "can't call exec() due to argument size restrictions"
-msgstr "немагчыма выклікаць exec() з-за абмежаваньняў на памер аргумэнта"
+msgstr "немагчыма выклікаць exec() праз абмежаваньні на памер аргумэнта"
 
 #: lib/buildcmd.c:349
 msgid "cannot fit single argument within argument list size limit"
@@ -1207,9 +1207,9 @@ msgid ""
 "Mandatory and optional arguments to long options are also\n"
 "mandatory or optional for the corresponding short option.\n"
 msgstr ""
-"Абавязковыя ды неабавязковыя аргумэнты да доўгіх опцый\n"
+"Абавязковыя ды неабавязковыя аргумэнты да доўгіх опцыяў\n"
 "таксама зьяўляюцца абавязковымі ды неабавязковымі\n"
-"для адпаведных кароткіх опцый.\n"
+"для адпаведных кароткіх опцыяў.\n"
 
 #: xargs/xargs.c:1716
 msgid ""
