@@ -4,14 +4,14 @@
 # Wang Li <charles@linux.net.cn>, 2002.
 # LI Daobing <lidaobing@gmail.com>, 2008, 2013.
 # Mingye Wang <arthur200126@gmail.com>, 2015, 2016.
-# Boyuan Yang <073plan@gmail.com>, 2018, 2019, 2023.
+# Boyuan Yang <073plan@gmail.com>, 2018, 2019, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: make 4.4.0.90\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2023-01-14 14:08-0500\n"
-"PO-Revision-Date: 2024-02-07 08:58-0500\n"
+"PO-Revision-Date: 2024-10-08 15:44-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.5\n"
 
 #: src/ar.c:47
 #, c-format
@@ -522,10 +522,9 @@ msgid "file: invalid file operation: %s"
 msgstr "file：无效文件（file）操作：%s"
 
 #: src/function.c:2552
-#, fuzzy, c-format
-#| msgid "insufficient number of arguments (%d) to function '%s'"
+#, c-format
 msgid "insufficient number of arguments (%u) to function '%s'"
-msgstr "函数“%2$s”的参数数量 (%1$d) 不够"
+msgstr "函数“%2$s”的参数数量 (%1$u) 不够"
 
 #: src/function.c:2564
 #, c-format
@@ -658,16 +657,14 @@ msgid "Looking for archive-member implicit rule for '%s'.\n"
 msgstr "正在为“%s”寻找归档成员隐含规则。\n"
 
 #: src/implicit.c:61
-#, fuzzy, c-format
-#| msgid "Looking for archive-member implicit rule for '%s'.\n"
+#, c-format
 msgid "No archive-member implicit rule found for '%s'.\n"
-msgstr "正在为“%s”寻找归档成员隐含规则。\n"
+msgstr "为“%s”找到了非归档成员隐含规则。\n"
 
 #: src/implicit.c:326
-#, fuzzy, c-format
-#| msgid "Avoiding implicit rule recursion.\n"
+#, c-format
 msgid "Avoiding implicit rule recursion for rule '%s'.\n"
-msgstr "避免隐含规则递归。\n"
+msgstr "为规则“%s”避免隐含规则递归。\n"
 
 #: src/implicit.c:451
 #, c-format
@@ -686,16 +683,14 @@ msgid "Stem too long: '%s%.*s'.\n"
 msgstr "主干太长：'%s%.*s'.\n"
 
 #: src/implicit.c:768
-#, fuzzy, c-format
-#| msgid "Rejecting impossible rule prerequisite '%s'.\n"
+#, c-format
 msgid "Rejecting rule '%s' due to impossible rule prerequisite '%s'.\n"
-msgstr "拒绝不可能的规则前提“%s”。\n"
+msgstr "拒绝规则“%s”，因为不可能的规则前提“%s”。\n"
 
 #: src/implicit.c:770
-#, fuzzy, c-format
-#| msgid "Rejecting impossible implicit prerequisite '%s'.\n"
+#, c-format
 msgid "Rejecting rule '%s' due to impossible implicit prerequisite '%s'.\n"
-msgstr "拒绝不可能的隐含前提“%s”。\n"
+msgstr "拒绝规则“%s”，因为不可能的隐含前提“%s”。\n"
 
 #: src/implicit.c:787
 #, c-format
@@ -718,10 +713,9 @@ msgid "Found '%s'.\n"
 msgstr "已找到 '%s'.\n"
 
 #: src/implicit.c:842
-#, fuzzy, c-format
-#| msgid "%s: update target '%s' due to: %s"
+#, c-format
 msgid "Using compatibility rule '%s' due to '%s'.\n"
-msgstr "%s：更新“%s”，因为：%s"
+msgstr "使用兼容规则“%s”，因为“%s”。\n"
 
 #: src/implicit.c:856
 #, fuzzy, c-format
@@ -1457,15 +1451,14 @@ msgstr ""
 "# 在 %s 上完成 make 数据基础\n"
 
 #: src/misc.c:601
-#, fuzzy, c-format
-#| msgid "%s%s: %s"
+#, c-format
 msgid "%s value %s: %s"
-msgstr "%s%s: %s"
+msgstr "%s 值 %s：%s"
 
 #: src/misc.c:604
 #, c-format
 msgid "%s value %s: not a directory"
-msgstr ""
+msgstr "%s 值 %s：不是目录"
 
 #: src/misc.c:612
 #, c-format
@@ -2413,10 +2406,9 @@ msgstr ""
 "# "
 
 #: src/w32/w32os.c:224
-#, fuzzy, c-format
-#| msgid "Jobserver slots limited to %d\n"
+#, c-format
 msgid "jobserver slots limited to %d\n"
-msgstr "Jobserver 槽位数限制为 %d\n"
+msgstr "jobserver 槽位数限制为 %d\n"
 
 #: src/w32/w32os.c:240
 #, c-format
