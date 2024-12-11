@@ -1,0 +1,1732 @@
+# Mesajele în limba română pentru pachetul gnulib.
+# Copyright (C) 2003, 2022, 2024 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnulib package.
+#
+# Eugen Hoanca <eugenh@urban-grafx.ro>, 2003.
+# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2022, 2024.
+#
+# Cronologia traducerii fișierului „trader”:
+# Traducere inițială, făcută de EH, pentru versiunea mailutis 0.4/coreutils  5.2.1.
+# Notă, R-GC: se pare că în perioada 2000-2005 a făcut parte din suita altor
+# pachete, înainte de-a deveni un pachet de sine stătător.
+# Actualizare a mesajelor, de la fișierul „gnulib-4.0.0.2567.pot”.
+# Actualizare a codării caracteror, la codarea de caractere UTF-8.
+# Actualizare a diacriticelor de la „cu sedilă” la „cu virgulă”.
+# Actualizare a algoritmului formelor de plural (de la „două” la „trei”).
+# NU și a mesajelor traduse (acestea au rămas neschimbate).
+# Eliminare a mesajelor ce-au dispărut în ultima versiune.
+# Actualizări realizate de Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 15.01.2022.
+# Actualizare a traducerii pentru versiunea 4.0.0.2567, făcută de R-GC, feb-2022.
+# Actualizare a traducerii pentru versiunea 20241209, făcută de R-GC, dec-2024.
+# Actualizare a traducerii pentru versiunea Y, făcută de X, Z(luna-anul).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnulib 20241209\n"
+"Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
+"POT-Creation-Date: 2024-12-09 10:23-0800\n"
+"PO-Revision-Date: 2024-12-11 14:19+0100\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
+"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.5\n"
+
+#: lib/argmatch.c:145
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "argument nevalid %s pentru %s"
+
+#: lib/argmatch.c:146
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "argument ambiguu %s pentru %s"
+
+#: lib/argmatch.c:165 lib/argmatch.h:242
+msgid "Valid arguments are:"
+msgstr "Argumentele valide sunt:"
+
+#: lib/argp-help.c:151
+#, c-format
+msgid "ARGP_HELP_FMT: %s value is less than or equal to %s"
+msgstr "ARGP_HELP_FMT: valoarea %s este mai mică sau egală cu %s"
+
+#: lib/argp-help.c:227
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
+msgstr "%.*s: parametrul ARGP_HELP_FMT necesită o valoare"
+
+#: lib/argp-help.c:237
+#, c-format
+msgid "%.*s: Unknown ARGP_HELP_FMT parameter"
+msgstr "%.*s: Parametru ARGP_HELP_FMT necunoscut"
+
+#: lib/argp-help.c:250
+#, c-format
+msgid "Garbage in ARGP_HELP_FMT: %s"
+msgstr "Gunoi(garbage) în ARGP_HELP_FMT: %s"
+
+#: lib/argp-help.c:1368
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Argumentele obligatorii sau opționale pentru opțiunile lungi sunt de asemenea, obligatorii sau opționale pentru oricare dintre opțiunile scurte corespunzătoare."
+
+#: lib/argp-help.c:1734
+msgid "Usage:"
+msgstr "Utilizare:"
+
+#: lib/argp-help.c:1738
+msgid "  or: "
+msgstr "  sau: "
+
+#: lib/argp-help.c:1750
+msgid " [OPTION...]"
+msgstr " [OPȚIUNE...]"
+
+#: lib/argp-help.c:1777
+#, c-format
+msgid "Try '%s --help' or '%s --usage' for more information.\n"
+msgstr "Încercați «%s --help» sau «%s --usage» pentru mai multe informații.\n"
+
+#: lib/argp-help.c:1805
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr "Raportați erorile la %s.\n"
+
+#: lib/argp-help.c:2006 lib/error.c:208 lib/xstrerror.c:46
+msgid "Unknown system error"
+msgstr "Eroare de sistem necunoscută"
+
+#: lib/argp-parse.c:80
+msgid "give this help list"
+msgstr "afișează această listă de ajutor"
+
+#: lib/argp-parse.c:81
+msgid "give a short usage message"
+msgstr "afișează un mesaj scurt de utlizare"
+
+#: lib/argp-parse.c:82
+msgid "NAME"
+msgstr "NUME"
+
+#: lib/argp-parse.c:83
+msgid "set the program name"
+msgstr "stabilește numele programului"
+
+#: lib/argp-parse.c:84
+msgid "SECS"
+msgstr "SECUNDE"
+
+#: lib/argp-parse.c:85
+msgid "hang for SECS seconds (default 3600)"
+msgstr "întrerupe(hang) pentru acest număr de secunde (implicit 3600)"
+
+#: lib/argp-parse.c:142
+msgid "print program version"
+msgstr "imprimă versiunea programului"
+
+#: lib/argp-parse.c:159
+msgid "(PROGRAM ERROR) No version known!?"
+msgstr "(EROARE DE PROGRAM) Nici o versiune cunoscută!?"
+
+#: lib/argp-parse.c:612
+#, c-format
+msgid "%s: Too many arguments\n"
+msgstr "%s: Prea multe argumente\n"
+
+#: lib/argp-parse.c:758
+msgid "(PROGRAM ERROR) Option should have been recognized!?"
+msgstr "(EROARE DE PROGRAM) Opțiunea ar fi trebuit recunoscută!?"
+
+#: lib/bitset/stats.c:183
+#, c-format
+msgid "%u bitset_allocs, %u freed (%.2f%%).\n"
+msgstr "%u bitset_allocs, %u eliberat (%.2f%%).\n"
+
+#: lib/bitset/stats.c:186
+#, c-format
+msgid "%u bitset_sets, %u cached (%.2f%%)\n"
+msgstr "%u bitset_sets, %u în memoria tampon (%.2f%%)\n"
+
+#: lib/bitset/stats.c:189
+#, c-format
+msgid "%u bitset_resets, %u cached (%.2f%%)\n"
+msgstr "%u bitset_resets, %u în memoria tampon (%.2f%%)\n"
+
+#: lib/bitset/stats.c:192
+#, c-format
+msgid "%u bitset_tests, %u cached (%.2f%%)\n"
+msgstr "%u bitset_tests, %u în memoria tampon (%.2f%%)\n"
+
+#: lib/bitset/stats.c:196
+#, c-format
+msgid "%u bitset_lists\n"
+msgstr "%u bitset_lists\n"
+
+# R-GC, scrie:
+# ținînd cont de referința acestui mesaj, și a
+# următoarelor două
+# mesaje(lib/bitset/stats.c),
+# am considerat că traducerea mot-a-mot a
+# mesajelor(tentantă), nu este cea corectă,
+# am început să investighez printre
+# traducerile celorlalte echipe, și cred că am
+# aflat „dezlegarea misterului”, în traducerea
+# făcută de Benno Schulenberg din echipa
+# olandeză:
+# „histogram van aantal gezette bits”
+#: lib/bitset/stats.c:198
+msgid "count log histogram"
+msgstr "histograma numărului seturilor de biți»bitset«"
+
+#: lib/bitset/stats.c:201
+msgid "size log histogram"
+msgstr "histograma dimensiunilor seturilor de biți»bitset«"
+
+#: lib/bitset/stats.c:204
+msgid "density histogram"
+msgstr "histograma densității seturilor de biți»bitset«"
+
+#: lib/bitset/stats.c:216
+msgid "Bitset statistics:"
+msgstr "Statistici set de biți»bitset«:"
+
+#: lib/bitset/stats.c:220
+#, c-format
+msgid "Accumulated runs = %u"
+msgstr "Cantitatea de execuții = %u"
+
+#: lib/bitset/stats.c:264 lib/bitset/stats.c:271 lib/bitset/stats.c:274
+msgid "cannot read stats file"
+msgstr "nu se poate citi fișierul cu statistici"
+
+#: lib/bitset/stats.c:266
+msgid "bad stats file size"
+msgstr "dimensiunea fișierului cu statistici, este necorespunzătoare"
+
+#: lib/bitset/stats.c:297 lib/bitset/stats.c:299
+msgid "cannot write stats file"
+msgstr "nu se poate scrie fișierul cu statistici"
+
+#: lib/bitset/stats.c:302
+msgid "cannot open stats file for writing"
+msgstr "nu se poate deschide fișierul cu statistici pentru scriere"
+
+#: lib/c-file-type.c:40
+msgid "regular empty file"
+msgstr "fișier gol obișnuit"
+
+#: lib/c-file-type.c:40
+msgid "regular file"
+msgstr "fișier obișnuit"
+
+#: lib/c-file-type.c:43
+msgid "directory"
+msgstr "director"
+
+#: lib/c-file-type.c:46
+msgid "symbolic link"
+msgstr "legătură simbolică"
+
+#: lib/c-file-type.c:52
+msgid "message queue"
+msgstr "coada de mesaje"
+
+#: lib/c-file-type.c:55
+msgid "semaphore"
+msgstr "semafor"
+
+#: lib/c-file-type.c:58
+msgid "shared memory object"
+msgstr "obiect de memorie partajată"
+
+# R-GC, scrie:
+# investigînd prin:
+# - http://www.opengroup.org/onlinepubs/000095399/functions/mmap.html
+# și
+# - http://www.opengroup.org/austin/papers/posix_faq.html
+# am ajuns la această traducere; cu o
+# posibilă variantă:
+# „obiect de memorie standardizat”
+# *********
+# Ideile sunt binevenite...!
+#: lib/c-file-type.c:61
+msgid "typed memory object"
+msgstr "obiect de memorie tipizat"
+
+#: lib/c-file-type.c:66
+msgid "block special file"
+msgstr "fișier special de blocuri"
+
+#: lib/c-file-type.c:69
+msgid "character special file"
+msgstr "fișier special de caractere"
+
+#: lib/c-file-type.c:72
+msgid "contiguous data"
+msgstr "date contigue"
+
+#: lib/c-file-type.c:75
+msgid "fifo"
+msgstr "primul intrat, primul ieșit(fifo)"
+
+# R-GC, scrie:
+# informații culese de la:
+# https://en.wikipedia.org/wiki/Unix_file_types#Door (adresă obținută din
+# comentariul făcut de Rafael Fontenelle, din
+# echipa braziliană, în fișierul «gnulib-*.pt_BR.po»)
+# și de la:
+# https://en.wikipedia.org/wiki/Doors_(computing) (adresă obținută prin
+# amabilitatea lui Jim Meyering, unul din
+# „băieții” din spatele proiectului «diffutils»)
+#: lib/c-file-type.c:78
+msgid "door"
+msgstr "poartă(de comunicare)"
+
+#: lib/c-file-type.c:81
+msgid "multiplexed block special file"
+msgstr "fișier special de blocuri, multiplexat"
+
+#: lib/c-file-type.c:84
+msgid "multiplexed character special file"
+msgstr "fișier special de caractere, multiplexat"
+
+#: lib/c-file-type.c:87
+msgid "multiplexed file"
+msgstr "fișier multiplexat"
+
+#: lib/c-file-type.c:90
+msgid "named file"
+msgstr "fișier numit"
+
+#: lib/c-file-type.c:93
+msgid "network special file"
+msgstr "fișier special de rețea"
+
+#: lib/c-file-type.c:96
+msgid "migrated file with data"
+msgstr "fișier migrat cu date"
+
+#: lib/c-file-type.c:99
+msgid "migrated file without data"
+msgstr "fișier migrat fără date"
+
+#: lib/c-file-type.c:102
+msgid "port"
+msgstr "port"
+
+#: lib/c-file-type.c:105
+msgid "socket"
+msgstr "soclu"
+
+# R-GC, scrie:
+# am găsit aici:
+# https://en.wikipedia.org/wiki/Union_mount
+# date despre «whiteout», folosit de UnionFS
+#: lib/c-file-type.c:108
+msgid "whiteout"
+msgstr "whiteout"
+
+#: lib/c-file-type.c:110
+msgid "weird file"
+msgstr "fișier ciudat"
+
+#: lib/c-stack.c:190
+msgid "program error"
+msgstr "eroare de program"
+
+#: lib/c-stack.c:191
+msgid "stack overflow"
+msgstr "debordare de stivă"
+
+#: lib/clean-temp-simple.c:297
+#, c-format
+msgid "cannot remove temporary file %s"
+msgstr "nu se poate elimina fișierul temporar %s"
+
+#: lib/clean-temp.c:234
+#, c-format
+msgid "cannot find a temporary directory, try setting $TMPDIR"
+msgstr "nu se poate găsi un director temporar, încercați să stabiliți variabila $TMPDIR"
+
+# R-GC, scrie:
+# după ce-a revizat fișierul, DȘ îmi spune:
+# «→ aici parcă lipsește un „se”, și ar deveni „nu se poate crea...”»
+# îmi pare rău, mi se făcuse foame de cuvinte..
+# :)
+# - corectare aplicată!
+#: lib/clean-temp.c:249
+#, c-format
+msgid "cannot create a temporary directory using template \"%s\""
+msgstr "nu se poate crea un director temporar utilizând șablonul „%s”"
+
+#: lib/clean-temp.c:370
+#, c-format
+msgid "cannot remove temporary directory %s"
+msgstr "nu se poate elimina directorul temporar %s"
+
+#: lib/closein.c:99
+msgid "error closing file"
+msgstr "eroare la închiderea fișierului"
+
+#: lib/closeout.c:121
+msgid "write error"
+msgstr "eroare de scriere"
+
+#: lib/copy-acl.c:54 lib/copy-file.c:235
+#, c-format
+msgid "preserving permissions for %s"
+msgstr "se păstrează permisiunile pentru %s"
+
+#: lib/copy-file.c:212
+#, c-format
+msgid "error while opening %s for reading"
+msgstr "eroare la deschiderea lui %s pentru citire"
+
+#: lib/copy-file.c:216
+#, c-format
+msgid "cannot open backup file %s for writing"
+msgstr "nu se poate deschide fișierul de copie de rezervă %s pentru scriere"
+
+#: lib/copy-file.c:220
+#, c-format
+msgid "error reading %s"
+msgstr "eroare la citirea din %s"
+
+#: lib/copy-file.c:224
+#, c-format
+msgid "error writing %s"
+msgstr "eroare la scrierea în %s"
+
+#: lib/copy-file.c:228
+#, c-format
+msgid "error after reading %s"
+msgstr "eroare după citirea %s"
+
+#: lib/csharpcomp.c:225 lib/csharpcomp.c:368 lib/csharpcomp.c:460
+#: lib/csharpexec.c:397 lib/cygpath.c:104 lib/javacomp.c:355
+#: lib/javaversion.c:75
+#, c-format
+msgid "fdopen() failed"
+msgstr "fdopen() a eșuat"
+
+#: lib/csharpcomp.c:360 lib/csharpcomp.c:378 lib/csharpcomp.c:452
+#: lib/csharpcomp.c:470 lib/csharpexec.c:389 lib/csharpexec.c:407
+#: lib/cygpath.c:110 lib/javacomp.c:361 lib/javaversion.c:81
+#, c-format
+msgid "%s subprocess I/O error"
+msgstr "eroare de In/Ieș a subprocesului %s"
+
+#: lib/csharpcomp.c:430 lib/csharpcomp.c:517 lib/csharpexec.c:453
+#: lib/execute.c:377 lib/spawn-pipe.c:599 lib/wait-process.c:326
+#: lib/wait-process.c:400
+#, c-format
+msgid "%s subprocess failed"
+msgstr "subprocesul %s a eșuat"
+
+#: lib/csharpcomp.c:1082
+#, c-format
+msgid "C# compiler not found, try installing mono or dotnet"
+msgstr "Nu a fost găsit compilatorul C#, încercați să instalați mono sau dotnet"
+
+#: lib/csharpexec.c:291
+#, c-format
+msgid "failed to copy '%s' to '%s'"
+msgstr "nu s-a putut copia „%s” la „%s”"
+
+#: lib/csharpexec.c:463
+#, c-format
+msgid "could not determine %s version"
+msgstr "nu s-a putut determina versiunea %s"
+
+#: lib/csharpexec.c:483 lib/javacomp.c:456
+#, c-format
+msgid "failed to create \"%s\""
+msgstr "nu s-a putut crea „%s”"
+
+#: lib/csharpexec.c:498 lib/javacomp.c:463
+#, c-format
+msgid "error while writing \"%s\" file"
+msgstr "eroare în timpul scrierii fișierului „%s”"
+
+#: lib/csharpexec.c:681
+#, c-format
+msgid "C# virtual machine not found, try installing mono or dotnet"
+msgstr "Nu a fost găsită mașina virtuală C#, încercați să instalați mono sau dotnet"
+
+#: lib/cygpath.c:59
+#, c-format
+msgid "cannot convert file name '%s' to Windows syntax"
+msgstr "nu se poate converti numele de fișier „%s” în sintaxa Windows"
+
+#: lib/cygpath.c:65
+#, c-format
+msgid "cygwin_conv_path failed"
+msgstr "funcția cygwin_conv_path() a eșuat"
+
+#: lib/cygpath.c:149
+#, c-format
+msgid "%s invocation failed"
+msgstr "invocarea %s a eșuat"
+
+#: lib/dfa.c:910
+msgid "unbalanced ["
+msgstr "„[” fără pereche"
+
+#: lib/dfa.c:1031
+msgid "invalid character class"
+msgstr "clasă de caractere nevalidă"
+
+#: lib/dfa.c:1159
+msgid "character class syntax is [[:space:]], not [:space:]"
+msgstr "sintaxa de clasă de caractere este [[:spațiu:]], nu [:spațiu]"
+
+#: lib/dfa.c:1234
+msgid "unfinished \\ escape"
+msgstr "eludare » \\ « neterminată"
+
+#: lib/dfa.c:1344
+msgid "? at start of expression"
+msgstr "? la începutul expresiei"
+
+#: lib/dfa.c:1356
+msgid "* at start of expression"
+msgstr "* la începutul expresiei"
+
+#: lib/dfa.c:1370
+msgid "+ at start of expression"
+msgstr "+ la începutul expresiei"
+
+#: lib/dfa.c:1425
+msgid "{...} at start of expression"
+msgstr "{...} la începutul expresiei"
+
+#: lib/dfa.c:1428
+msgid "invalid content of \\{\\}"
+msgstr "conținut nevalid al \\{\\}"
+
+#: lib/dfa.c:1430
+msgid "regular expression too big"
+msgstr "expresia regulată este prea lungă"
+
+#: lib/dfa.c:1580
+msgid "stray \\ before unprintable character"
+msgstr "caracter în plus „\\”, înainte de caracter neimprimabil"
+
+#: lib/dfa.c:1582
+msgid "stray \\ before white space"
+msgstr "caracter în plus „\\”, înainte de un spațiu în alb"
+
+#: lib/dfa.c:1593
+#, c-format
+msgid "stray \\ before %s"
+msgstr "caracter în plus „\\”, înainte de „%s”"
+
+#: lib/dfa.c:1594 lib/dfa.c:1597
+msgid "stray \\"
+msgstr "caracter în plus „\\”"
+
+#: lib/dfa.c:1948
+msgid "unbalanced ("
+msgstr "„(” fără pereche"
+
+#: lib/dfa.c:2065
+msgid "no syntax specified"
+msgstr "nu s-a specificat nicio sintaxă"
+
+#: lib/dfa.c:2076
+msgid "unbalanced )"
+msgstr "„)” fără pereche"
+
+#: lib/gai_strerror.c:57
+msgid "Address family for hostname not supported"
+msgstr "Familia de adrese pentru numele de gazdă nu este suportată"
+
+#: lib/gai_strerror.c:58
+msgid "Temporary failure in name resolution"
+msgstr "Eșec temporar în rezolvarea numelui"
+
+#: lib/gai_strerror.c:59
+msgid "Bad value for ai_flags"
+msgstr "Valoare greșită pentru ai_flags"
+
+#: lib/gai_strerror.c:60
+msgid "Non-recoverable failure in name resolution"
+msgstr "Eșec nerecuperabil în rezolvarea numelui"
+
+#: lib/gai_strerror.c:61
+msgid "ai_family not supported"
+msgstr "ai_family nu este suportat"
+
+#: lib/gai_strerror.c:62
+msgid "Memory allocation failure"
+msgstr "Eșec la alocarea memoriei"
+
+#: lib/gai_strerror.c:63
+msgid "No address associated with hostname"
+msgstr "Nicio adresă asociată cu numele gazdei"
+
+#: lib/gai_strerror.c:64
+msgid "Name or service not known"
+msgstr "Nume sau serviciu necunoscut"
+
+#: lib/gai_strerror.c:65
+msgid "Servname not supported for ai_socktype"
+msgstr "Nume de server nesuportat pentru ai_socktype"
+
+#: lib/gai_strerror.c:66
+msgid "ai_socktype not supported"
+msgstr "ai_socktype nu este suportat"
+
+#: lib/gai_strerror.c:67
+msgid "System error"
+msgstr "Eroare de sistem"
+
+#: lib/gai_strerror.c:68
+msgid "Argument buffer too small"
+msgstr "Memoria tampon pentru argumente este prea mică"
+
+#: lib/gai_strerror.c:70
+msgid "Processing request in progress"
+msgstr "Procesarea cererii este în curs"
+
+#: lib/gai_strerror.c:71
+msgid "Request canceled"
+msgstr "Cerere anulată"
+
+#: lib/gai_strerror.c:72
+msgid "Request not canceled"
+msgstr "Cerere neanulată"
+
+#: lib/gai_strerror.c:73
+msgid "All requests done"
+msgstr "Toate cererile au fost procesate"
+
+# R-GC, scrie:
+# o altă variantă, ar fi:
+# „Întrerupt printr-un semnal”
+# bănuiesc că se referă la un proces sau
+# un program.
+# Idei ?
+#: lib/gai_strerror.c:74
+msgid "Interrupted by a signal"
+msgstr "Întrerupt de un semnal"
+
+# R-GC, scrie:
+# după ce-a revizat fișierul, DȘ îmi spune:
+# «→ ar fi de evitat folosirea lui „e” în loc de „este”»
+# corecție aplicată!; încă o dată, foamea :) ,
+# de data asta, de litere
+#: lib/gai_strerror.c:75
+msgid "Parameter string not correctly encoded"
+msgstr "Șirul parametrului este codificat greșit"
+
+#: lib/gai_strerror.c:87
+msgid "Unknown error"
+msgstr "Eroare necunoscută"
+
+#: lib/getopt.c:282
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s: opțiunea „%s%s” este ambiguă\n"
+
+#: lib/getopt.c:288
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s: opțiunea „%s%s” este ambiguă; posibilități:"
+
+#: lib/getopt.c:322
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s: opțiune nerecunoscută „%s%s”\n"
+
+#: lib/getopt.c:348
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s: opțiunea „%s%s” nu permite un argument\n"
+
+#: lib/getopt.c:363
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s: opțiunea „%s%s” necesită un argument\n"
+
+#: lib/getopt.c:624
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: opțiune nevalidă -- „%c”\n"
+
+#: lib/getopt.c:639 lib/getopt.c:685
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: opțiunea necesită un argument -- „%c”\n"
+
+#: lib/javacomp.c:103
+#, c-format
+msgid "The java program is too old. Cannot compile Java code for this old version any more."
+msgstr "Programul java este prea vechi. Nu se mai poate compila codul Java pentru această versiune veche."
+
+#: lib/javacomp.c:147
+#, c-format
+msgid "invalid source_version argument to compile_java_class"
+msgstr "argumentul source_version nu este valid pentru compile_java_class"
+
+#: lib/javacomp.c:168
+#, c-format
+msgid "invalid target_version argument to compile_java_class"
+msgstr "argumentul target_version nu este valid pentru compile_java_class"
+
+#: lib/javacomp.c:1131
+#, c-format
+msgid "Java compiler not found, try setting $JAVAC"
+msgstr "Nu a fost găsit compilatorul Java, încercați să definiți variabila $JAVAC"
+
+#: lib/javaexec.c:309
+#, c-format
+msgid "Java virtual machine not found, try setting $JAVA"
+msgstr "Nu a fost găsită mașina virtuală Java, încercați să definiți variabila $JAVA"
+
+#: lib/mkdir-p.c:162
+#, c-format
+msgid "cannot stat %s"
+msgstr "nu se poate obține starea lui „%s”"
+
+#: lib/mkdir-p.c:190
+#, c-format
+msgid "cannot change permissions of %s"
+msgstr "nu se pot schimba permisiunile pentru %s"
+
+#: lib/mkdir-p.c:200
+#, c-format
+msgid "cannot create directory %s"
+msgstr "nu se poate crea directorul %s"
+
+#: lib/obstack.c:320 lib/obstack.c:322 lib/xalloc-die.c:34 lib/xsetenv.c:37
+#, c-format
+msgid "memory exhausted"
+msgstr "memorie epuizată"
+
+#: lib/openat-die.c:38
+#, c-format
+msgid "unable to record current working directory"
+msgstr "nu s-a putut înregistra directorul de lucru curent"
+
+#: lib/openat-die.c:57
+#, c-format
+msgid "failed to return to initial working directory"
+msgstr "întoarcerea la directorul de lucru inițial a eșuat"
+
+#: lib/os2-spawn.c:51
+#, c-format
+msgid "_open_osfhandle failed"
+msgstr "_open_osfhandle a eșuat"
+
+#: lib/os2-spawn.c:88
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr "nu se poate restaura fd %d: dup2 a eșuat"
+
+#: lib/pagealign_alloc.c:137
+#, c-format
+msgid "Failed to open /dev/zero for read"
+msgstr "Nu s-a putut deschide „/dev/zero” pentru citire"
+
+#: lib/parse-datetime.y:434 lib/parse-datetime.y:534
+#, c-format
+msgid "parsed %s part: "
+msgstr "partea %s analizată: "
+
+#: lib/parse-datetime.y:449
+#, c-format
+msgid "year: %04<PRIdMAX>"
+msgstr "anul: %04<PRIdMAX>"
+
+#: lib/parse-datetime.y:477
+#, c-format
+msgid "%s (day ordinal=%<PRIdMAX> number=%d)"
+msgstr "%s (zi ordinală=%<PRIdMAX> număr=%d)"
+
+#: lib/parse-datetime.y:508
+#, c-format
+msgid "number of seconds: %<PRIdMAX>"
+msgstr "număr de secunde: %<PRIdMAX>"
+
+#: lib/parse-datetime.y:541
+msgid "today/this/now\n"
+msgstr "azi/asta/acum\n"
+
+#: lib/parse-datetime.y:606
+msgid "number of seconds"
+msgstr "număr de secunde"
+
+#: lib/parse-datetime.y:619
+msgid "datetime"
+msgstr "data/ora"
+
+#: lib/parse-datetime.y:624
+msgid "time"
+msgstr "timp"
+
+#: lib/parse-datetime.y:629
+msgid "local_zone"
+msgstr "fus_orar"
+
+#: lib/parse-datetime.y:639
+msgid "zone"
+msgstr "zona"
+
+#: lib/parse-datetime.y:644
+msgid "date"
+msgstr "data"
+
+#: lib/parse-datetime.y:649
+msgid "day"
+msgstr "zi"
+
+#: lib/parse-datetime.y:653 lib/parse-datetime.y:760 lib/parse-datetime.y:765
+msgid "relative"
+msgstr "relativ"
+
+#: lib/parse-datetime.y:657
+msgid "number"
+msgstr "număr"
+
+#: lib/parse-datetime.y:661
+msgid "hybrid"
+msgstr "hibrid"
+
+#: lib/parse-datetime.y:819
+#, c-format
+msgid "warning: value %<PRIdMAX> has %<PRIdMAX> digits. Assuming YYYY/MM/DD\n"
+msgstr "avertisment: valoarea %<PRIdMAX> are %<PRIdMAX> cifre. Presupunând AAAA/LL/ZZ\n"
+
+#: lib/parse-datetime.y:831
+#, c-format
+msgid "warning: value %<PRIdMAX> has less than 4 digits. Assuming MM/DD/YY[YY]\n"
+msgstr "avertisment: valoarea %<PRIdMAX> are mai puțin de 4 cifre. Presupunând LL/ZZ/AA[AA]\n"
+
+#: lib/parse-datetime.y:1280
+#, c-format
+msgid "warning: adjusting year value %<PRIdMAX> to %<PRIdMAX>\n"
+msgstr "avertisment: se ajustează valoarea anului %<PRIdMAX> la %<PRIdMAX>.\n"
+
+#: lib/parse-datetime.y:1290
+#, c-format
+msgid "error: out-of-range year %<PRIdMAX>\n"
+msgstr "eroare: an în afara intervalului %<PRIdMAX>\n"
+
+#: lib/parse-datetime.y:1521
+#, c-format
+msgid "error: unknown word '%s'\n"
+msgstr "eroare: cuvânt necunoscut „%s”\n"
+
+#: lib/parse-datetime.y:1693
+msgid "error: invalid date/time value:\n"
+msgstr "eroare: valoare de dată/oră nevalidă:\n"
+
+#: lib/parse-datetime.y:1694
+#, c-format
+msgid "    user provided time: '%s'\n"
+msgstr "    ora furnizată de utilizator: „%s”\n"
+
+#: lib/parse-datetime.y:1696
+#, c-format
+msgid "       normalized time: '%s'\n"
+msgstr "       ora normalizată: „%s”\n"
+
+#: lib/parse-datetime.y:1719
+msgid "     possible reasons:\n"
+msgstr "     motive posibile:\n"
+
+#: lib/parse-datetime.y:1721
+msgid "       nonexistent due to daylight-saving time;\n"
+msgstr "       inexistent datorită orei de vară;\n"
+
+#: lib/parse-datetime.y:1723
+msgid "       invalid day/month combination;\n"
+msgstr "       combinație zi/lună nevalidă;\n"
+
+#: lib/parse-datetime.y:1724
+msgid "       numeric values overflow;\n"
+msgstr "       depășirea valorilor numerice;\n"
+
+#: lib/parse-datetime.y:1725
+msgid "incorrect timezone"
+msgstr "fus orar incorect"
+
+#: lib/parse-datetime.y:1726
+msgid "missing timezone"
+msgstr "lipsește fusul orar"
+
+#: lib/parse-datetime.y:1834
+msgid "error: initial year out of range\n"
+msgstr "eroare: anul inițial în afara intervalului\n"
+
+#: lib/parse-datetime.y:1902
+msgid "error: parsing failed\n"
+msgstr "eroare: analizarea a eșuat\n"
+
+#: lib/parse-datetime.y:1903
+#, c-format
+msgid "error: parsing failed, stopped at '%s'\n"
+msgstr "eroare: analizarea a eșuat, oprită la „%s”\n"
+
+#: lib/parse-datetime.y:1913
+msgid "input timezone: "
+msgstr "introduceți fusul orar: "
+
+#: lib/parse-datetime.y:1916
+#, c-format
+msgid "'@timespec' - always UTC"
+msgstr "„@timespec” - întotdeauna UTC"
+
+#: lib/parse-datetime.y:1918
+#, c-format
+msgid "parsed date/time string"
+msgstr "șir de dată/oră analizat"
+
+#: lib/parse-datetime.y:1922
+#, c-format
+msgid "TZ=\"%s\" in date string"
+msgstr "TZ=\"%s\" în șirul de date"
+
+#: lib/parse-datetime.y:1926
+#, c-format
+msgid "TZ=\"UTC0\" environment value or -u"
+msgstr "TZ=\"UTC0\" valoare de mediu sau „-u”"
+
+#: lib/parse-datetime.y:1929
+#, c-format
+msgid "TZ=\"%s\" environment value"
+msgstr "TZ=\"%s\" valoare de mediu"
+
+#: lib/parse-datetime.y:1932
+#, c-format
+msgid "system default"
+msgstr "valoarea implicită a sistemului"
+
+#: lib/parse-datetime.y:1974
+msgid "error: year, month, or day overflow\n"
+msgstr "eroare: depășirea anului, a lunii sau a zilei\n"
+
+#: lib/parse-datetime.y:1985
+#, c-format
+msgid "error: invalid hour %<PRIdMAX>%s\n"
+msgstr "eroare: oră nevalidă %<PRIdMAX>%s\n"
+
+#: lib/parse-datetime.y:1993
+#, c-format
+msgid "using specified time as starting value: '%s'\n"
+msgstr "folosind ora specificată ca valoare de pornire: „%s”\n"
+
+#: lib/parse-datetime.y:1994
+#, c-format
+msgid "using current time as starting value: '%s'\n"
+msgstr "folosind ora curentă ca valoare de pornire: „%s”\n"
+
+#: lib/parse-datetime.y:2048
+#, c-format
+msgid "error: tzalloc (\"%s\") failed\n"
+msgstr "eroare: tzalloc (\"%s\") a eșuat\n"
+
+#: lib/parse-datetime.y:2092
+#, c-format
+msgid "error: day '%s' (day ordinal=%<PRIdMAX> number=%d) resulted in an invalid date: '%s'\n"
+msgstr "eroare: ziua „%s” (zi ordinală=%<PRIdMAX> număr=%d) a avut ca rezultat o dată nevalidă: „%s”\n"
+
+#: lib/parse-datetime.y:2103
+#, c-format
+msgid "new start date: '%s' is '%s'\n"
+msgstr "noua dată de începere: „%s” este „%s”\n"
+
+#: lib/parse-datetime.y:2112
+#, c-format
+msgid "using current date as starting value: '%s'\n"
+msgstr "folosind data curentă ca valoare de pornire: „%s”\n"
+
+#: lib/parse-datetime.y:2116
+#, c-format
+msgid "warning: day (%s) ignored when explicit dates are given\n"
+msgstr "avertisment: ziua (%s) este ignorată atunci când se dau date explicite\n"
+
+#: lib/parse-datetime.y:2120
+#, c-format
+msgid "starting date/time: '%s'\n"
+msgstr "data/ora de începere: „%s”\n"
+
+#: lib/parse-datetime.y:2130
+msgid "warning: when adding relative months/years, it is recommended to specify the 15th of the months\n"
+msgstr "avertisment: atunci când se adaugă lunile/anii relativi, se recomandă să se precizeze data de 15 a lunilor.\n"
+
+#: lib/parse-datetime.y:2135
+msgid "warning: when adding relative days, it is recommended to specify noon\n"
+msgstr "avertisment: atunci când se adaugă zile relative, se recomandă să se precizeze ora prânzului\n"
+
+#: lib/parse-datetime.y:2145
+#, c-format
+msgid "error: %s:%d\n"
+msgstr "eroare: %s:%d\n"
+
+#: lib/parse-datetime.y:2160
+#, c-format
+msgid "error: adding relative date resulted in an invalid date: '%s'\n"
+msgstr "eroare: adăugarea unei date relative a avut ca rezultat o dată nevalidă: „%s”\n"
+
+#: lib/parse-datetime.y:2169
+#, c-format
+msgid "after date adjustment (%+<PRIdMAX> years, %+<PRIdMAX> months, %+<PRIdMAX> days),\n"
+msgstr "după ajustarea datei (%+<PRIdMAX> ani, %+<PRIdMAX> luni, %+<PRIdMAX> zile),\n"
+
+#: lib/parse-datetime.y:2173
+#, c-format
+msgid "    new date/time = '%s'\n"
+msgstr "    noua dată/oră = „%s”\n"
+
+#: lib/parse-datetime.y:2192
+msgid "warning: daylight saving time changed after date adjustment\n"
+msgstr "avertisment: ora de vară a fost modificată după ajustarea datei\n"
+
+#: lib/parse-datetime.y:2211
+msgid "warning: month/year adjustment resulted in shifted dates:\n"
+msgstr "avertisment: ajustarea lunii/anului a dus la decalarea datelor:\n"
+
+#: lib/parse-datetime.y:2214
+#, c-format
+msgid "     adjusted Y M D: %s %02d %02d\n"
+msgstr "     ajustat A L Z: %s %02d %02d\n"
+
+#: lib/parse-datetime.y:2216
+#, c-format
+msgid "   normalized Y M D: %s %02d %02d\n"
+msgstr "   normalizat A L Z: %s %02d %02d\n"
+
+#: lib/parse-datetime.y:2245
+#, c-format
+msgid "error: timezone %d caused time_t overflow\n"
+msgstr "eroare: fusul orar %d a cauzat depășirea time_t\n"
+
+#: lib/parse-datetime.y:2255
+#, c-format
+msgid "'%s' = %<PRIdMAX> epoch-seconds\n"
+msgstr "„%s” = %<PRIdMAX> secunde-epocă\n"
+
+#: lib/parse-datetime.y:2283
+msgid "error: adding relative time caused an overflow\n"
+msgstr "eroare: adăugarea timpului relativ a cauzat o depășire\n"
+
+#: lib/parse-datetime.y:2294
+#, c-format
+msgid "after time adjustment (%+<PRIdMAX> hours, %+<PRIdMAX> minutes, %+<PRIdMAX> seconds, %+d ns),\n"
+msgstr "după ajustarea timpului (%+<PRIdMAX> ore, %+<PRIdMAX> minute, %+<PRIdMAX> secunde, %+d ns),\n"
+
+#: lib/parse-datetime.y:2300
+#, c-format
+msgid "    new time = %<PRIdMAX> epoch-seconds\n"
+msgstr "    nou timp = %<PRIdMAX> epocă-secunde\n"
+
+#: lib/parse-datetime.y:2316
+msgid "warning: daylight saving time changed after time adjustment\n"
+msgstr "avertisment: ora de vară a fost modificată după ajustarea orei\n"
+
+#: lib/parse-datetime.y:2326
+msgid "timezone: system default\n"
+msgstr "fusul orar: implicit al sistemului\n"
+
+#: lib/parse-datetime.y:2328
+msgid "timezone: Universal Time\n"
+msgstr "fusul orar: Timp universal\n"
+
+#: lib/parse-datetime.y:2330
+#, c-format
+msgid "timezone: TZ=\"%s\" environment value\n"
+msgstr "fusul orar: TZ=\"%s\" valoarea de mediu\n"
+
+#: lib/parse-datetime.y:2334
+#, c-format
+msgid "final: %<PRIdMAX>.%09d (epoch-seconds)\n"
+msgstr "final: %<PRIdMAX>.%09d (secunde-epocă)\n"
+
+#: lib/parse-datetime.y:2340
+#, c-format
+msgid "final: %s (UTC)\n"
+msgstr "final: %s (UTC)\n"
+
+#: lib/parse-datetime.y:2355
+#, c-format
+msgid "final: %s (UTC%s)\n"
+msgstr "final: %s (UTC%s)\n"
+
+#: lib/parse-datetime.y:2359
+#, c-format
+msgid "final: %s (unknown time zone offset)\n"
+msgstr "final: %s (decalaj de fus orar necunoscut)\n"
+
+#: lib/pipe-filter-gi.c:152
+#, c-format
+msgid "creation of reading thread failed"
+msgstr "crearea firului de citire a eșuat"
+
+#: lib/pipe-filter-gi.c:257 lib/pipe-filter-ii.c:419
+#, c-format
+msgid "cannot set up nonblocking I/O to %s subprocess"
+msgstr "nu se poate configura In/Ieș neblocante la subprocesul %s"
+
+#: lib/pipe-filter-gi.c:335 lib/pipe-filter-ii.c:457
+#, c-format
+msgid "communication with %s subprocess failed"
+msgstr "comunicarea cu subprocesul %s a eșuat"
+
+#: lib/pipe-filter-gi.c:365 lib/pipe-filter-ii.c:345 lib/pipe-filter-ii.c:502
+#, c-format
+msgid "write to %s subprocess failed"
+msgstr "scrierea în subprocesul %s a eșuat"
+
+#: lib/pipe-filter-gi.c:405 lib/pipe-filter-ii.c:366 lib/pipe-filter-ii.c:545
+#, c-format
+msgid "read from %s subprocess failed"
+msgstr "citirea din subprocesul %s a eșuat"
+
+#: lib/pipe-filter-gi.c:458
+#, c-format
+msgid "subprocess %s terminated with exit code %d"
+msgstr "subprocesul %s a terminat cu codul de ieșire %d"
+
+#: lib/pipe-filter-ii.c:313
+#, c-format
+msgid "creation of threads failed"
+msgstr "crearea firelor a eșuat"
+
+#: lib/pipe-filter-ii.c:577
+#, c-format
+msgid "%s subprocess terminated with exit code %d"
+msgstr "subprocesul %s a terminat cu codul de ieșire %d"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:354
+msgid "`"
+msgstr "„"
+
+#: lib/quotearg.c:355
+msgid "'"
+msgstr "”"
+
+#: lib/regcomp.c:122
+msgid "Success"
+msgstr "Succes"
+
+#: lib/regcomp.c:125
+msgid "No match"
+msgstr "Nicio potrivire"
+
+#: lib/regcomp.c:128
+msgid "Invalid regular expression"
+msgstr "Expresie regulată nevalidă"
+
+#: lib/regcomp.c:131
+msgid "Invalid collation character"
+msgstr "Caracter de colaționare nevalid"
+
+#: lib/regcomp.c:134
+msgid "Invalid character class name"
+msgstr "Nume de clasă de caracter nevalid"
+
+#: lib/regcomp.c:137
+msgid "Trailing backslash"
+msgstr "Bară oblică inversă la sfârșit"
+
+#: lib/regcomp.c:140
+msgid "Invalid back reference"
+msgstr "Referință anterioară nevalidă"
+
+#: lib/regcomp.c:143
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "[, [^, [:, [., sau [= fără pereche"
+
+#: lib/regcomp.c:146
+msgid "Unmatched ( or \\("
+msgstr "( sau \\( fără pereche"
+
+#: lib/regcomp.c:149
+msgid "Unmatched \\{"
+msgstr "\\{ fără pereche"
+
+#: lib/regcomp.c:152
+msgid "Invalid content of \\{\\}"
+msgstr "Conținut nevalid al \\{\\}"
+
+#: lib/regcomp.c:155
+msgid "Invalid range end"
+msgstr "Sfârșit de interval nevalid"
+
+#: lib/regcomp.c:158
+msgid "Memory exhausted"
+msgstr "Memorie epuizată"
+
+#: lib/regcomp.c:161
+msgid "Invalid preceding regular expression"
+msgstr "Expresie regulată precedentă nevalidă"
+
+#: lib/regcomp.c:164
+msgid "Premature end of regular expression"
+msgstr "Terminare prematură a expresiei regulate"
+
+#: lib/regcomp.c:167
+msgid "Regular expression too big"
+msgstr "Expresie regulată prea lungă"
+
+#: lib/regcomp.c:170
+msgid "Unmatched ) or \\)"
+msgstr ") sau \\) fără pereche"
+
+#: lib/regcomp.c:650
+msgid "No previous regular expression"
+msgstr "Nu există o expresie regulată precedentă"
+
+#. TRANSLATORS: A regular expression testing for an affirmative answer
+#. (english: "yes").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^yesexpr='
+#: lib/rpmatch.c:149
+msgid "^[yY]"
+msgstr "^[dDyY]"
+
+#. TRANSLATORS: A regular expression testing for a negative answer
+#. (english: "no").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^noexpr='
+#: lib/rpmatch.c:162
+msgid "^[nN]"
+msgstr "^[nN]"
+
+#: lib/set-acl.c:46
+#, c-format
+msgid "setting permissions for %s"
+msgstr "se stabilesc permisiunile pentru %s"
+
+# R-GC, scrie:
+# - http://en.wikipedia.org/wiki/SIGHUP
+# aici, la sfîrșitul articolului, explicația/moti-
+# vația pentru traducerea aleasă.
+#: lib/siglist.h:31
+msgid "Hangup"
+msgstr "Terminare anormală(Hangup)"
+
+#: lib/siglist.h:34
+msgid "Interrupt"
+msgstr "Întrerupe"
+
+#: lib/siglist.h:37
+msgid "Quit"
+msgstr "Termină"
+
+#: lib/siglist.h:40
+msgid "Illegal instruction"
+msgstr "Instrucțiune ilegală"
+
+#: lib/siglist.h:43
+msgid "Trace/breakpoint trap"
+msgstr "Capturare punct de întrerupere/traseul(execuției)"
+
+#: lib/siglist.h:46
+msgid "Aborted"
+msgstr "Renuțare"
+
+#: lib/siglist.h:49
+msgid "Floating point exception"
+msgstr "Excepție de virgulă mobilă"
+
+#: lib/siglist.h:52
+msgid "Killed"
+msgstr "Omorît"
+
+#: lib/siglist.h:55
+msgid "Bus error"
+msgstr "Eroare de magistrală de date(bus)"
+
+#: lib/siglist.h:58
+msgid "Segmentation fault"
+msgstr "Eroare de segmentare"
+
+# R-GC, scrie:
+# mi s-a părut cea mai bună descriere a
+# termenilor din mesaj.
+# - Idei?
+#: lib/siglist.h:61
+msgid "Broken pipe"
+msgstr "Linie de conectare întreruptă"
+
+#: lib/siglist.h:64
+msgid "Alarm clock"
+msgstr "Ceas cu alarmă"
+
+#: lib/siglist.h:67
+msgid "Terminated"
+msgstr "Terminat"
+
+#: lib/siglist.h:70
+msgid "Urgent I/O condition"
+msgstr "Condiție In/Ieș urgentă"
+
+#: lib/siglist.h:73
+msgid "Stopped (signal)"
+msgstr "Oprit (semnal)"
+
+#: lib/siglist.h:76
+msgid "Stopped"
+msgstr "Oprit"
+
+#: lib/siglist.h:79
+msgid "Continued"
+msgstr "Continuare"
+
+#: lib/siglist.h:82
+msgid "Child exited"
+msgstr "Procesul copil a terminat"
+
+#: lib/siglist.h:85
+msgid "Stopped (tty input)"
+msgstr "Oprit (intrare tty)"
+
+#: lib/siglist.h:88
+msgid "Stopped (tty output)"
+msgstr "Oprit (ieșire tty)"
+
+#: lib/siglist.h:91
+msgid "I/O possible"
+msgstr "In/Ieș posibilă"
+
+#: lib/siglist.h:94
+msgid "CPU time limit exceeded"
+msgstr "S-a depășit limita de timp CPU"
+
+#: lib/siglist.h:97
+msgid "File size limit exceeded"
+msgstr "S-a depășit limita de dimensiune a fișierului"
+
+#: lib/siglist.h:100
+msgid "Virtual timer expired"
+msgstr "Cronometrul virtual a expirat"
+
+#: lib/siglist.h:103
+msgid "Profiling timer expired"
+msgstr "Cronometrul de creare a profilului a expirat"
+
+#: lib/siglist.h:106
+msgid "Window changed"
+msgstr "Fereastra s-a schimbat"
+
+#: lib/siglist.h:109
+msgid "User defined signal 1"
+msgstr "Semnalul »1« definit de utilizator"
+
+#: lib/siglist.h:112
+msgid "User defined signal 2"
+msgstr "Semnalul »2« definit de utilizator"
+
+# R-GC, scrie:
+# Traducere „copiată” de la italieni, cu
+# explicația aferentă:
+# http://en.wikipedia.org/wiki/SIGEMT
+#: lib/siglist.h:117
+msgid "EMT trap"
+msgstr "Detectare EMT"
+
+#: lib/siglist.h:120
+msgid "Bad system call"
+msgstr "Apel de sistem greșit"
+
+#: lib/siglist.h:123
+msgid "Stack fault"
+msgstr "Eroare de stivă"
+
+#: lib/siglist.h:126
+msgid "Information request"
+msgstr "Cerere de informații"
+
+#: lib/siglist.h:128
+msgid "Power failure"
+msgstr "Pană de curent"
+
+#: lib/siglist.h:131
+msgid "Resource lost"
+msgstr "Resursă pierdută"
+
+#: lib/sigpipe-die.c:37
+msgid "error writing to a closed pipe or socket"
+msgstr "eroare de scriere într-o linie de conectare închisă sau într-un soclu închis"
+
+#: lib/spawn-pipe.c:218 lib/spawn-pipe.c:221
+#, c-format
+msgid "cannot create pipe"
+msgstr "nu se poate crea linia de conectare"
+
+#: lib/strsignal.c:114
+#, c-format
+msgid "Real-time signal %d"
+msgstr "Semnal în timp real %d"
+
+#: lib/strsignal.c:118
+#, c-format
+msgid "Unknown signal %d"
+msgstr "Semnal necunoscut %d"
+
+#: lib/timevar.c:316
+msgid "Execution times (seconds)"
+msgstr "Timpi de execuție (secunde)"
+
+#: lib/timevar.c:318
+msgid "CPU user"
+msgstr "CPU utilizator"
+
+#: lib/timevar.c:318
+msgid "CPU system"
+msgstr "CPU sistem"
+
+# R-GC, scrie:
+# traducere inspirată în munca echipelor
+# italiene și olandeze; traducerea mot-a-mot:
+# „ceas de perete”, nu mă convingea, Acum,
+# realizez că intenția autorului era de:
+# ceas etalon(aproximativ ca GMT).
+#: lib/timevar.c:318
+msgid "wall clock"
+msgstr "timpul real"
+
+#: lib/unicodeio.c:102
+msgid "iconv function not usable"
+msgstr "funcție «iconv» inutilizabilă"
+
+#: lib/unicodeio.c:104
+msgid "iconv function not available"
+msgstr "funcție «iconv» indisponibilă"
+
+#: lib/unicodeio.c:111
+msgid "character out of range"
+msgstr "caracter în afara intervalului"
+
+# R-GC, scrie:
+# varianta inițială, a traducerii acestui mesaj,
+# era:
+# „"U+%04X nu poate fi convertit în setul de caractere local”
+#: lib/unicodeio.c:191
+#, c-format
+msgid "cannot convert U+%04X to local character set"
+msgstr "nu se poate converti U+%04X în setul de caractere local"
+
+#: lib/unicodeio.c:193
+#, c-format
+msgid "cannot convert U+%04X to local character set: %s"
+msgstr "nu se poate converti U+%04X în setul de caractere local: %s"
+
+#: lib/userspec.c:165
+msgid "invalid spec"
+msgstr "specificație nevalidă"
+
+#: lib/userspec.c:174
+msgid "invalid user"
+msgstr "utilizator nevalid"
+
+#: lib/userspec.c:207
+msgid "invalid group"
+msgstr "grup nevalid"
+
+#: lib/userspec.c:279
+msgid "warning: '.' should be ':'"
+msgstr "avertisment: în loc de „.\" trebuie sa fie \":\""
+
+#: lib/version-etc.c:73
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "Împachetat de %s (%s)\n"
+
+#: lib/version-etc.c:76
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "Împachetat de %s\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:83
+msgid "(C)"
+msgstr "©"
+
+#. TRANSLATORS: The %s placeholder is the web address of the GPL license.
+#: lib/version-etc.c:88
+#, c-format
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <%s>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"Licența GPLv3+: GNU GPL versiunea 3 sau mai mare <%s>.\n"
+"Acesta este software liber: sunteți liber să îl modificați și să îl redistribuiți.\n"
+"NU există NICIO GARANȚIE, în măsura permisă de lege.\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:105
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Scris de %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:109
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Scris de %s și %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:113
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Scris de %s, %s și %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:120
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Scris de %s, %s, %s\n"
+"și %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:127
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Scris de %s, %s, %s,\n"
+"%s, și %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:134
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Scris de %s, %s, %s,\n"
+"%s, %s, și %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:142
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Scris de %s, %s, %s,\n"
+"%s, %s, %s, și %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:150
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Scris de %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"și %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:159
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Scris de %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, și %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:170
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Scris de %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, și alții.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:249
+#, c-format
+msgid "Report bugs to: %s\n"
+msgstr "Raportați erorile la %s.\n"
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "Raportați erorile %s la: %s\n"
+
+#: lib/version-etc.c:255 lib/version-etc.c:257
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "%s pagina principală: <%s>\n"
+
+#: lib/version-etc.c:260
+#, c-format
+msgid "General help using GNU software: <%s>\n"
+msgstr "Ajutor general utilizând software GNU: <%s>\n"
+
+#: lib/wait-process.c:267 lib/wait-process.c:299 lib/wait-process.c:361
+#, c-format
+msgid "%s subprocess"
+msgstr "subprocesul %s"
+
+#: lib/wait-process.c:318 lib/wait-process.c:390
+#, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "subprocesul %s a primit semnalul fatal %d"
+
+# R_GC, scrie:
+# altă posibilă traducere a mesajului, ar fi:
+# „nu s-a putut stabili modul de text/binar al descriptorului de fișier”
+# Opinii/Idei ?
+# ===========================
+# La sugestia făcută de DȘ, după revizarea
+# fișierului, a rămas mesaj valabil, traducerea
+# inițială a mesajului:
+# „nu s-a putut stabili descriptorul de fișier în modul text/binar”
+#: lib/xbinary-io.c:36
+#, c-format
+msgid "failed to set file descriptor text/binary mode"
+msgstr "nu s-a putut stabili descriptorul de fișier în modul text/binar"
+
+#: lib/xfreopen.c:34
+msgid "stdin"
+msgstr "stdin»intrarea standard«"
+
+#: lib/xfreopen.c:35
+msgid "stdout"
+msgstr "stdout»ieșirea standard«"
+
+#: lib/xfreopen.c:36
+msgid "stderr"
+msgstr "stderr»ieșirea standard de erori«"
+
+#: lib/xfreopen.c:37
+msgid "unknown stream"
+msgstr "flux necunoscut"
+
+#: lib/xfreopen.c:38
+#, c-format
+msgid "failed to reopen %s with mode %s"
+msgstr "nu s-a putut redeschide %s în modul %s"
+
+#: lib/xmemcoll.c:39
+#, c-format
+msgid "string comparison failed"
+msgstr "compararea șirurilor a eșuat"
+
+#: lib/xmemcoll.c:40
+#, c-format
+msgid "Set LC_ALL='C' to work around the problem."
+msgstr "Stabiliți LC_ALL='C' pentru a rezolva problema."
+
+#: lib/xmemcoll.c:42
+#, c-format
+msgid "The strings compared were %s and %s."
+msgstr "Șirurile comparate au fost %s și %s."
+
+#: lib/xprintf.c:52 lib/xprintf.c:78
+#, c-format
+msgid "cannot perform formatted output"
+msgstr "nu se poate afișa ieșirea formatată"
+
+#: lib/xstdopen.c:34
+#, c-format
+msgid "standard file descriptors"
+msgstr "descriptoare de fișier standard"
+
+#: lib/xstrerror.c:51
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+# R-GC, scrie:
+# traducerea acestui mesaj, și a celor două
+# mesaje următoare, a fost inspirată de
+# traducerile făcute de echipa italiană și cea
+# spaniolă.
+# Colegul de TP al echipei italiene, motivează
+# astfel traducerea făcută:
+# =========================
+# „(ndt)»italian«
+# quello che viene sostituito pare sia:
+#   * il primo, hypens (con valore '--')
+#   * il secondo, option
+#   * il terzo, arg
+# quindi qualche cosa del genere:
+#  invalid --option argument 'arg'
+# #
+# (altre idee sono benvenute!)”
+#: lib/xstrtol-error.c:64
+#, c-format
+msgid "invalid %s%s argument '%s'"
+msgstr "argumentul „%3$s” al %1$s%2$s nu este valid"
+
+#: lib/xstrtol-error.c:69
+#, c-format
+msgid "invalid suffix in %s%s argument '%s'"
+msgstr "sufixul din argumentul „%3$s” al %1$s%2$s nu este valid"
+
+#: lib/xstrtol-error.c:73
+#, c-format
+msgid "%s%s argument '%s' too large"
+msgstr "argumentul „%3$s” al %1$s%2$s este prea lung"
+
+#~ msgid "unable to display error message"
+#~ msgstr "imposibil de afișat mesajul de eroare"
