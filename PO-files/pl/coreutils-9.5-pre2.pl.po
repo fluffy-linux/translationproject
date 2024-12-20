@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: coreutils 9.5-pre2\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2024-03-26 21:45+0000\n"
-"PO-Revision-Date: 2024-11-19 16:30+0200\n"
+"PO-Revision-Date: 2024-12-21 00:00+0100\n"
 "Last-Translator: Rafał Maszkowski <rzm@icm.edu.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -1069,7 +1069,7 @@ msgstr "brak rodzaju kodowania"
 #: src/cat.c:47 src/cp.c:43 src/df.c:44 src/du.c:52 src/factor.c:121
 #: src/split.c:51
 msgid "Torbjorn Granlund"
-msgstr "Torbjorn Granlund"
+msgstr "Torbjörn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:48 src/comm.c:36 src/ls.c:130 src/rm.c:40 src/split.c:52
@@ -6750,7 +6750,7 @@ msgstr "błędne uprawnienia"
 #: src/mkfifo.c:164 src/mknod.c:161
 #, c-format
 msgid "mode must specify only file permission bits"
-msgstr "mogą być podane ylko bity uprawnień"
+msgstr "mogą być podane tylko bity uprawnień"
 
 #: src/mkfifo.c:178 src/mknod.c:274
 #, c-format
