@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: make 4.4.0.90\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2023-01-14 14:08-0500\n"
-"PO-Revision-Date: 2024-10-08 15:44-0400\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"PO-Revision-Date: 2025-01-19 08:46+0800\n"
+"Last-Translator: Zhanhaoxiang Zhang <zzhx2006@outlook.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -70,7 +70,7 @@ msgstr "无法打开库“%s”以寻找成员，状态 %d"
 #: src/arscan.c:402 src/arscan.c:406
 #, c-format
 msgid "Invalid %s for archive %s member %s"
-msgstr ""
+msgstr "无效的 %s 对于归档 %s 的成员 %s"
 
 #: src/arscan.c:995
 #, c-format
@@ -148,10 +148,9 @@ msgid "# %s: could not be stat'd.\n"
 msgstr "# %s：无法对其进行 stat 操作。\n"
 
 #: src/dir.c:1123
-#, fuzzy, c-format
-#| msgid "# %s (key %s, mtime %I64u): could not be opened.\n"
+#, c-format
 msgid "# %s (key %s, mtime %s): could not be opened.\n"
-msgstr "# %s (关键字 %s，修改时间 %I64u)：无法打开。\n"
+msgstr "# %s (关键字 %s，修改时间 %s)：无法打开。\n"
 
 #: src/dir.c:1127
 #, c-format
@@ -164,10 +163,9 @@ msgid "# %s (device %ld, inode %ld): could not be opened.\n"
 msgstr "# %s (设备 %ld，i-节点 %ld)：无法打开。\n"
 
 #: src/dir.c:1156
-#, fuzzy, c-format
-#| msgid "# %s (key %s, mtime %I64u): "
+#, c-format
 msgid "# %s (key %s, mtime %s): "
-msgstr "# %s (关键字 %s，修改时间 %I64u)："
+msgstr "# %s (关键字 %s，修改时间 %s)："
 
 #: src/dir.c:1160
 #, c-format
@@ -207,7 +205,7 @@ msgstr " 不可能在 %lu 目录中。\n"
 #: src/expand.c:113
 #, c-format
 msgid "%s:%lu: not recursively expanding %s to export to shell function\n"
-msgstr ""
+msgstr "%s:%lu: 不会递归扩展 %s 以导出到shell函数\n"
 
 #: src/expand.c:149
 #, c-format
@@ -329,10 +327,8 @@ msgid "#  File is a prerequisite of .NOTINTERMEDIATE."
 msgstr "#  文件是 .NOTINTERMEDIATE 的前提。"
 
 #: src/file.c:1110
-#, fuzzy
-#| msgid "#  Phony target (prerequisite of .PHONY)."
 msgid "#  File is secondary (prerequisite of .SECONDARY)."
-msgstr "#  假目标 (.PHONY的前提)。"
+msgstr "#  文件被标记为次要 (.PHONY的前提)。"
 
 #: src/file.c:1114
 msgid "#  Also makes:"
@@ -421,10 +417,8 @@ msgid "%s: '%s' out of range"
 msgstr "%s：“%s”超出范围"
 
 #: src/function.c:800
-#, fuzzy
-#| msgid "non-numeric first argument to 'word' function"
 msgid "invalid first argument to 'word' function"
-msgstr "“word”函数的第一个参数不是数字"
+msgstr "“word”函数的第一个参数无效"
 
 #: src/function.c:803
 #, c-format
@@ -432,28 +426,20 @@ msgid "first argument to 'word' function must be greater than 0"
 msgstr "“word”函数的第一个参数必须大于 0"
 
 #: src/function.c:821
-#, fuzzy
-#| msgid "non-numeric first argument to 'wordlist' function"
 msgid "invalid first argument to 'wordlist' function"
-msgstr "“wordlist”函数的第一个参数不是数字"
+msgstr "“wordlist”函数的第一个参数无效"
 
 #: src/function.c:822
-#, fuzzy
-#| msgid "non-numeric second argument to 'wordlist' function"
 msgid "invalid second argument to 'wordlist' function"
-msgstr "“wordlist”函数的第二个参数不是数字"
+msgstr "“wordlist”函数的第二个参数无效"
 
 #: src/function.c:1328
-#, fuzzy
-#| msgid "non-numeric first argument to 'wordlist' function"
 msgid "non-numeric first argument to 'intcmp' function"
-msgstr "“wordlist”函数的第一个参数不是数字"
+msgstr "“intcmp”函数的第一个参数不是数字"
 
 #: src/function.c:1329
-#, fuzzy
-#| msgid "non-numeric second argument to 'wordlist' function"
 msgid "non-numeric second argument to 'intcmp' function"
-msgstr "“wordlist”函数的第二个参数不是数字"
+msgstr "“intcmp”函数的第二个参数不是数字"
 
 # 程序员的函数名提示，还是不要动吧。
 #: src/function.c:1684
@@ -672,10 +658,9 @@ msgid "Trying harder.\n"
 msgstr "正在进一步尝试。\n"
 
 #: src/implicit.c:501
-#, fuzzy, c-format
-#| msgid "Trying pattern rule with stem '%.*s'.\n"
+#, c-format
 msgid "Trying pattern rule '%s' with stem '%.*s'.\n"
-msgstr "用主干“%.*s”尝试匹配模式规则。\n"
+msgstr "尝试将模式规则“%s”与主干“%.*s”匹配。\n"
 
 #: src/implicit.c:506
 #, c-format
@@ -718,22 +703,19 @@ msgid "Using compatibility rule '%s' due to '%s'.\n"
 msgstr "使用兼容规则“%s”，因为“%s”。\n"
 
 #: src/implicit.c:856
-#, fuzzy, c-format
-#| msgid "Prerequisite '%s' of target '%s' does not exist.\n"
+#, c-format
 msgid "Prerequisite '%s' of rule '%s' does not qualify as ought to exist.\n"
-msgstr "目标“%2$s”的前提“%1$s”不存在。\n"
+msgstr "规则“%2$s”的前提“%1$s”不符合应存在的条件。\n"
 
 #: src/implicit.c:870
-#, fuzzy, c-format
-#| msgid "Found prerequisite '%s' as VPATH '%s'\n"
+#, c-format
 msgid "Found prerequisite '%s' as VPATH '%s'.\n"
-msgstr "前提“%s”在 VPATH“%s”中发现\n"
+msgstr "前提“%s”在 VPATH“%s”中发现。\n"
 
 #: src/implicit.c:885
-#, fuzzy, c-format
-#| msgid "Looking for a rule with intermediate file '%s'.\n"
+#, c-format
 msgid "Looking for a rule with explicit file '%s'.\n"
-msgstr "正在寻找包含中间文件“%s”的规则。\n"
+msgstr "正在寻找显式指定文件“%s”的规则。\n"
 
 #: src/implicit.c:886
 #, c-format
@@ -741,10 +723,9 @@ msgid "Looking for a rule with intermediate file '%s'.\n"
 msgstr "正在寻找包含中间文件“%s”的规则。\n"
 
 #: src/implicit.c:927
-#, fuzzy, c-format
-#| msgid "Rejecting impossible rule prerequisite '%s'.\n"
+#, c-format
 msgid "Rejecting rule '%s' due to impossible prerequisite '%s'.\n"
-msgstr "拒绝不可能的规则前提“%s”。\n"
+msgstr "由于前提 '%s' 无法满足，因此拒绝规则 '%s'。\n"
 
 #: src/implicit.c:931
 #, c-format
@@ -752,10 +733,9 @@ msgid "Not found '%s'.\n"
 msgstr "找不到 '%s'。\n"
 
 #: src/implicit.c:1144
-#, fuzzy, c-format
-#| msgid "Found an implicit rule for '%s'.\n"
+#, c-format
 msgid "Found implicit rule '%s' for '%s'.\n"
-msgstr "找到一条关于“%s”的隐含规则。\n"
+msgstr "找到一条关于“%2$s”的隐含规则“%1$s”。\n"
 
 #: src/implicit.c:1151
 #, c-format
@@ -1815,10 +1795,9 @@ msgid "warning: NUL character seen; rest of line ignored"
 msgstr "警告：遇到了 NUL 字符；忽略行的剩余部分"
 
 #: src/remake.c:97
-#, fuzzy, c-format
-#| msgid "warning: overriding recipe for target '%s'"
+#, c-format
 msgid "warning: pattern recipe did not update peer target '%s'."
-msgstr "警告：覆盖关于目标“%s”的配方"
+msgstr "警告：模式配方未更新同级目标 '%s'。"
 
 #: src/remake.c:254
 #, c-format
@@ -1881,10 +1860,9 @@ msgid "*** Warning: .LOW_RESOLUTION_TIME file '%s' has a high resolution time st
 msgstr "*** 警告: .LOW_RESOLUTION_TIME 文件 `%s' 有一个高精度的的时间标志"
 
 #: src/remake.c:538
-#, fuzzy, c-format
-#| msgid "Prerequisite '%s' of target '%s' does not exist.\n"
+#, c-format
 msgid "Grouped target peer '%s' of file '%s' does not exist.\n"
-msgstr "目标“%2$s”的前提“%1$s”不存在。\n"
+msgstr "文件 '%2$s' 对应的分组目标 '%1$s' 不存在。\n"
 
 #: src/remake.c:558
 #, c-format
@@ -2013,7 +1991,7 @@ msgstr "用户不希望导出：%s\n"
 
 #: src/rule.c:357
 msgid "warning: ignoring prerequisites on suffix rule definition"
-msgstr ""
+msgstr "警告：在后缀规则定义上忽略前提"
 
 #: src/rule.c:592
 msgid ""
