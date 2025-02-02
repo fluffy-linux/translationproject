@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gnulib-20241209\n"
 "Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
 "POT-Creation-Date: 2024-12-09 10:23-0800\n"
-"PO-Revision-Date: 2025-01-16 19:40+0100\n"
+"PO-Revision-Date: 2025-02-02 11:52+0100\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <(nothing)>\n"
 "Language: sr\n"
@@ -411,7 +411,7 @@ msgstr "„cygwin_conv_path“ није успело"
 #: lib/cygpath.c:149
 #, c-format
 msgid "%s invocation failed"
-msgstr "„%s“ призивање није успело"
+msgstr "%s призивање није успело"
 
 #: lib/dfa.c:910
 msgid "unbalanced ["
@@ -912,7 +912,7 @@ msgstr "након дотеривања датума (%+<PRIdMAX> година/�
 #: lib/parse-datetime.y:2173
 #, c-format
 msgid "    new date/time = '%s'\n"
-msgstr "    нов датум/време = '%s'\n"
+msgstr "    нов датум/време = „%s“\n"
 
 #: lib/parse-datetime.y:2192
 msgid "warning: daylight saving time changed after date adjustment\n"
@@ -940,7 +940,7 @@ msgstr "грешка: временска зона %d је довела до „t
 #: lib/parse-datetime.y:2255
 #, c-format
 msgid "'%s' = %<PRIdMAX> epoch-seconds\n"
-msgstr ""
+msgstr "'%s' = %<PRIdMAX> епоха-секунде\n"
 
 #: lib/parse-datetime.y:2283
 msgid "error: adding relative time caused an overflow\n"
