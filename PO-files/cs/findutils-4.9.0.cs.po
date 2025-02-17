@@ -2,14 +2,14 @@
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the findutils package.
 # Petr Pisar <petr.pisar@atlas.cz>, 2008, 2009, 2010, 2012, 2013, 2014, 2015.
-# Petr Pisar <petr.pisar@atlas.cz>, 2022.
+# Petr Pisar <petr.pisar@atlas.cz>, 2022, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: findutils 4.9.0\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2022-02-02 01:18+0100\n"
-"PO-Revision-Date: 2022-11-13 13:26+01:00\n"
+"PO-Revision-Date: 2025-02-17 19:11+01:00\n"
 "Last-Translator: Petr Pisar <petr.pisar@atlas.cz>\n"
 "Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
 "Language: cs\n"
@@ -1061,7 +1061,7 @@ msgstr "Vaše proměnné prostředí zabírají %'<PRIuMAX> bajtů\n"
 #: xargs/xargs.c:778
 #, c-format
 msgid "POSIX upper limit on argument length (this system): %<PRIuMAX>\n"
-msgstr "Horní mez délky argumentů dle POSIXU (tento sytém): %'<PRIuMAX>\n"
+msgstr "Horní mez délky argumentů dle POSIXU (tento systém): %'<PRIuMAX>\n"
 
 #: xargs/xargs.c:781
 #, c-format
@@ -1090,12 +1090,12 @@ msgid ""
 "Execution of xargs will continue now, and it will try to read its input and run commands; if this is not what you wanted to happen, please type the end-of-file keystroke.\n"
 msgstr ""
 "\n"
-"Vykonávání xargs bude nyní pokračovat. Bude se pokoušet číst svůj vstup a spouštět příkazy. Pokud to není to, co chcete, aby se dělo, prosím, stiskněte klávesy konce souboru.\n"
+"Vykonávání xargs bude nyní pokračovat. Bude čten vstup a spouštěny příkazy. Pokud to není to, co chcete, aby se dělo, prosím, stiskněte klávesy konce souboru.\n"
 
 #: xargs/xargs.c:804
 #, c-format
 msgid "Warning: %s will be run at least once.  If you do not want that to happen, then press the interrupt keystroke.\n"
-msgstr "Varování: %s bude spuštěn alespoň jednou. Pokud nechcete, aby se stalo, pak stiskněte klávesy přerušení.\n"
+msgstr "Varování: příkaz %s bude spuštěn alespoň jednou. Pokud nechcete, aby se tak stalo, pak stiskněte klávesy přerušení.\n"
 
 # XXX: unmatched {single|double} quote
 #: xargs/xargs.c:933 xargs/xargs.c:1028
