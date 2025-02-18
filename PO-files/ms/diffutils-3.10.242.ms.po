@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.10.242\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2025-01-03 09:48-0800\n"
-"PO-Revision-Date: 2025-01-23 19:38+0800\n"
+"PO-Revision-Date: 2025-02-18 21:38+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -600,20 +600,17 @@ msgid "Exit status is 0 if inputs are the same, 1 if different, 2 if trouble."
 msgstr "Status keluar adalah 0 jika masukan adalah sama, 1 jika berbeza, 2 jika bermasalah."
 
 #: src/cmp.c:243
-#, fuzzy, c-format
-#| msgid "invalid --bytes value '%s'"
+#, c-format
 msgid "invalid --bytes value %s"
-msgstr "nilai --bytes '%s' tidak sah"
+msgstr "nilai --bytes %s tidak sah"
 
 #: src/cmp.c:268 src/diff.c:875 src/diff3.c:328 src/sdiff.c:561
-#, fuzzy, c-format
-#| msgid "missing operand after '%s'"
+#, c-format
 msgid "missing operand after %s"
-msgstr "operan hilang selepas '%s'"
+msgstr "operan hilang selepas %s"
 
 #: src/cmp.c:280 src/diff.c:877 src/diff3.c:330 src/sdiff.c:563
-#, fuzzy, c-format
-#| msgid "extra operand '%s'"
+#, c-format
 msgid "extra operand %s"
 msgstr "operan tambahan %s"
 
@@ -668,10 +665,9 @@ msgid "Len Tower"
 msgstr "Len Tower"
 
 #: src/diff.c:376
-#, fuzzy, c-format
-#| msgid "invalid context length '%s'"
+#, c-format
 msgid "invalid context length %s"
-msgstr "panjang konteks '%s' tidak sah"
+msgstr "panjang konteks %s tidak sah"
 
 #: src/diff.c:493
 #, c-format
@@ -684,10 +680,9 @@ msgid "too many file label options"
 msgstr "terlalu banyak pilihan label fail"
 
 #: src/diff.c:587
-#, fuzzy, c-format
-#| msgid "invalid width '%s'"
+#, c-format
 msgid "invalid width %s"
-msgstr "lebar '%s' tidak sah"
+msgstr "lebar %s tidak sah"
 
 #: src/diff.c:591
 msgid "conflicting width options"
