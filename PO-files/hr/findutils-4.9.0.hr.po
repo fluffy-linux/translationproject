@@ -4,13 +4,13 @@
 #
 # Hrvoje Niksic <hniksic@xemacs.org>, 2002.
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2019, 2022.
+# Božidar Putanec <bozidarp@yahoo.com>, 2019-2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: findutils 4.9.0\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2022-02-02 01:18+0100\n"
-"PO-Revision-Date: 2024-03-31 18:43-0700\n"
+"PO-Revision-Date: 2025-02-19 19:38-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -62,8 +62,8 @@ msgstr "nepoznat"
 #, c-format
 msgid "Symbolic link %s is part of a loop in the directory hierarchy; we have already visited the directory to which it points."
 msgstr ""
-"Simbolična poveznica %s je dio (beskonačne) petlje u hijerarhiji direktorija;\n"
-"ciljani direktorij već je bio posjećen."
+"Simbolični link %s je dio (beskonačne) petlje u hijerarhiji direktorija;\n"
+"ciljani direktorij bio je već posjećen."
 
 #: find/ftsfind.c:245
 #, c-format
@@ -223,7 +223,7 @@ msgstr "upozorenje: -%s %s neće pronaći ništa jer završava s /."
 #: find/parser.c:1878
 #, c-format
 msgid "invalid mode %s"
-msgstr "nevaljana prava pristupa „%s“"
+msgstr "nevaljani način %s"
 
 #: find/parser.c:1896
 #, c-format
@@ -236,7 +236,7 @@ msgstr ""
 #: find/parser.c:2069
 #, c-format
 msgid "failed to compile regular expression '%s': %s"
-msgstr "nije uspjelo kompilirati regularni izraz „%s“: %s"
+msgstr "nije uspjelo kompilirati regularni izraz „%s”: %s"
 
 #: find/parser.c:2098
 msgid "invalid null argument to -size"
@@ -245,18 +245,18 @@ msgstr "nevaljani prazni (null) argument za -size"
 #: find/parser.c:2148
 #, c-format
 msgid "invalid -size type `%c'"
-msgstr "nevaljani tip „%c“ za -size"
+msgstr "nevaljani tip „%c” za -size"
 
 #: find/parser.c:2158
 #, c-format
 msgid "Invalid argument `%s%s' to -size"
-msgstr "Nevaljani argument „%s%s“ za -size"
+msgstr "Nevaljani argument „%s%s” za -size"
 
 #: find/parser.c:2340
 msgid "The -show-control-chars option takes a single argument which must be 'literal' or 'safe'"
 msgstr ""
 "Opciji -show-control-chars potreban je jedinstveni argument\n"
-"koji mora biti ili „literal“ (doslovan) ili „safe“ (siguran)"
+"koji mora biti ili „literal” (doslovan) ili „safe” (siguran)"
 
 #: find/parser.c:2454
 #, c-format
@@ -290,7 +290,7 @@ msgstr "Argument za %s mora sadržati barem jedno slovo"
 #, c-format
 msgid "%s %c is not supported because symbolic links are not supported on the platform find was compiled on."
 msgstr ""
-"%s %c nije podržano jer simbolične poveznice nisu podržane na platformi na kojoj je\n"
+"%s %c nije podržano jer simbolični linkovi nisu podržani na platformi na kojoj je\n"
 "‘find’ kompiliran."
 
 #: find/parser.c:2729
@@ -322,7 +322,7 @@ msgstr "Nepoznati argument za %s: %c"
 #: find/parser.c:2773
 #, c-format
 msgid "Duplicate file type '%c' in the argument list to %s."
-msgstr "Duplikat datoteke tipa „%c“ na popisu argumenata za %s."
+msgstr "Duplikat datoteke tipa „%c” na popisu argumenata za %s."
 
 #: find/parser.c:2789
 #, c-format
@@ -341,7 +341,7 @@ msgstr ""
 "Varijabla okoline PATH sadrži trenutni direktorij;\n"
 "to nije sigurno u kombinaciji s akcijom %s od find.\n"
 "Zbog toga valja ukloniti trenutni direktorij iz $PATH (odnosno, uklonite\n"
-"„.“, duple dvotočke, ili dvotočke na početku (leading) ili na kraju (trailing)."
+"„.”, duple dvotočke, ili dvotočke na početku (leading) ili na kraju (trailing)."
 
 #: find/parser.c:2869
 #, c-format
@@ -416,12 +416,12 @@ msgstr "getfilecon() nije uspjela: %s"
 #: find/print.c:335
 #, c-format
 msgid "warning: escape `\\' followed by nothing at all"
-msgstr "upozorenje: nakon maske (kontrolnog znaka escape) „\\“ nema ničega"
+msgstr "upozorenje: nakon maske (kontrolnog znaka escape) „\\” nema ničega"
 
 #: find/print.c:354
 #, c-format
 msgid "warning: unrecognized escape `\\%c'"
-msgstr "upozorenje: neprepoznata maska (kontrolni znak escape) „\\%c“"
+msgstr "upozorenje: neprepoznata maska (kontrolni znak escape) „\\%c”"
 
 #: find/print.c:374 find/print.c:1260
 #, c-format
@@ -431,17 +431,17 @@ msgstr "greška: %s na kraju stringa formata"
 #: find/print.c:398
 #, c-format
 msgid "error: the format directive `%%%c' is reserved for future use"
-msgstr "greška: format direktive „%%%c“ je rezerviran za buduću uporabu"
+msgstr "greška: format direktive „%%%c” je rezerviran za buduću uporabu"
 
 #: find/print.c:406
 #, c-format
 msgid "warning: format directive `%%%c' should be followed by another character"
-msgstr "upozorenje: nakon formata direktive „%%%c“ mora slijediti jedan dodatni znak"
+msgstr "upozorenje: nakon formata direktive „%%%c” mora slijediti jedan dodatni znak"
 
 #: find/print.c:414
 #, c-format
 msgid "warning: unrecognized format directive `%%%c'"
-msgstr "upozorenje: neprepoznat format direktive „%%%c“"
+msgstr "upozorenje: neprepoznat format direktive „%%%c”"
 
 #: find/tree.c:115 find/tree.c:120 find/tree.c:226 find/tree.c:265
 msgid "invalid expression"
@@ -450,33 +450,33 @@ msgstr "izraz nije valjan"
 #: find/tree.c:126
 #, c-format
 msgid "invalid expression; you have used a binary operator '%s' with nothing before it."
-msgstr "izraz nije valjan: nema ništa ispred binarnog operator „%s“."
+msgstr "izraz nije valjan: nema ništa ispred binarnog operator „%s”."
 
 #: find/tree.c:135 find/tree.c:194
 #, c-format
 msgid "invalid expression: expected expression before closing parentheses '%s'."
-msgstr "nevaljani izraz: očekivan je izraz prije zatvaranja zagrada „%s“."
+msgstr "nevaljani izraz: očekivan je izraz prije zatvaranja zagrada „%s”."
 
 #: find/tree.c:145
 #, c-format
 msgid "expected an expression between '%s' and ')'"
-msgstr "očekivao se izraz između „%s“ i „)“"
+msgstr "očekivao se izraz između „%s” i „)”"
 
 #: find/tree.c:155
 #, c-format
 msgid "expected an expression after '%s'"
-msgstr "očekivao se izraz nakon „%s“"
+msgstr "očekivao se izraz nakon „%s”"
 
 #: find/tree.c:160
 msgid "invalid expression; you have too many ')'"
-msgstr "izraz nije valjan: ima previše „)“"
+msgstr "izraz nije valjan: ima previše „)”"
 
 #: find/tree.c:183
 #, c-format
 msgid "invalid expression; expected to find a ')' but didn't see one. Perhaps you need an extra predicate after '%s'"
 msgstr ""
-"nevaljani izraz; očekivana je „)“, ali je nema.\n"
-"Možda vam treba dodatni predikat nakon „%s“"
+"nevaljani izraz; očekivana je „)”, ali je nema.\n"
+"Možda vam treba dodatni predikat nakon „%s”"
 
 #: find/tree.c:198
 msgid "invalid expression; empty parentheses are not allowed."
@@ -484,7 +484,7 @@ msgstr "izraz nije valjan: prazne zagrade nisu dopuštene."
 
 #: find/tree.c:204
 msgid "invalid expression; I was expecting to find a ')' somewhere but did not see one."
-msgstr "izraz nije valjan: nema očekivane „)“."
+msgstr "izraz nije valjan: nema očekivane „)”."
 
 #: find/tree.c:211 find/tree.c:835
 msgid "oops -- invalid expression type!"
@@ -499,47 +499,47 @@ msgstr "uh -- nevaljani tip izraza (%d)!"
 #, c-format
 msgid "warning: there is no entry in the predicate evaluation cost table for predicate %s; please report this as a bug"
 msgstr ""
-"**interna greška**: nema stavki u „predicate evaluation cost table“\n"
+"**interna greška**: nema stavki u „predicate evaluation cost table”\n"
 "za predikat %s; prijavite ovaj bug"
 
 #: find/tree.c:1286
 #, c-format
 msgid "paths must precede expression: `%s'"
-msgstr "staze moraju biti ispred izraza: „%s“"
+msgstr "staze moraju biti ispred izraza: „%s”"
 
 #: find/tree.c:1288
 #, c-format
 msgid "possible unquoted pattern after predicate `%s'?"
-msgstr "mogući uzorak bez navodnika nakon predikata „%s“?"
+msgstr "mogući uzorak bez navodnika nakon predikata „%s”?"
 
 #: find/tree.c:1298
 #, c-format
 msgid "unknown predicate `%s'"
-msgstr "nepoznati predikat „%s“"
+msgstr "nepoznati predikat „%s”"
 
 #: find/tree.c:1318
 #, c-format
 msgid "invalid predicate `%s'"
-msgstr "nevaljani predikat „%s“"
+msgstr "nevaljani predikat „%s”"
 
 #: find/tree.c:1322
 #, c-format
 msgid "invalid argument `%s' to `%s'"
-msgstr "nevaljani argument „%s“ za „%s“"
+msgstr "nevaljani argument „%s” za „%s”"
 
 #: find/tree.c:1329
 #, c-format
 msgid "missing argument to `%s'"
-msgstr "nema argumenta za „%s“"
+msgstr "nema argumenta za „%s”"
 
 #: find/tree.c:1405
 msgid "you have too many ')'"
-msgstr "ima previše „)“"
+msgstr "ima previše „)”"
 
 #: find/tree.c:1411
 #, c-format
 msgid "unexpected extra predicate '%s'"
-msgstr "neočekivani suvišni predikat „%s“"
+msgstr "neočekivani suvišni predikat „%s”"
 
 #: find/tree.c:1413
 msgid "unexpected extra predicate"
@@ -556,7 +556,7 @@ msgstr "Valjani argumenti za -D:\n"
 #: find/util.c:163 locate/frcode.c:142 locate/locate.c:1365 xargs/xargs.c:1702
 #, c-format
 msgid "Try '%s --help' for more information.\n"
-msgstr "Pokušajte s „%s --help“ za pomoć i više informacija.\n"
+msgstr "Pokušajte s „%s --help” za pomoć i više informacija.\n"
 
 #: find/util.c:169
 #, c-format
@@ -675,7 +675,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Korisite „-D help“ za opis opcije, ili pogledajte find(1)\n"
+"Korisite „-D help” za opis opcije, ili pogledajte find(1)\n"
 "\n"
 
 #: find/util.c:475
@@ -952,7 +952,7 @@ msgstr ""
 #: locate/locate.c:1108
 #, c-format
 msgid "%s is an slocate database.  Turning on the '-e' option."
-msgstr "%s je slocate baza podataka; aktivira se opcija „-e“."
+msgstr "%s je slocate baza podataka; aktivira se opcija „-e”."
 
 #: locate/locate.c:1146
 #, c-format
@@ -1098,7 +1098,7 @@ msgstr "upozorenje: vrijednost %ld za opciju -s je prevelika, umjesto te, korist
 #: xargs/xargs.c:687
 #, c-format
 msgid "option --%s may not be set to a value which includes `='"
-msgstr "vrijednost za opciju --%s ne smije sadržavati „=“"
+msgstr "vrijednost za opciju --%s ne smije sadržavati „=”"
 
 #: xargs/xargs.c:699
 #, c-format
@@ -1269,7 +1269,7 @@ msgstr "%s: završeno signalom %d"
 #: xargs/xargs.c:1671
 #, c-format
 msgid "%s: invalid number \"%s\" for -%c option\n"
-msgstr "%s: nevaljani broj „%s“ for opciju -%c\n"
+msgstr "%s: nevaljani broj „%s” for opciju -%c\n"
 
 #: xargs/xargs.c:1678
 #, c-format
