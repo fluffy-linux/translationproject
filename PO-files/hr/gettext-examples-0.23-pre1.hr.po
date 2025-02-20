@@ -7,13 +7,13 @@
 # as such.
 #
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2018, 2021, 2022, 2023.
+# Božidar Putanec <bozidarp@yahoo.com>, 2018-2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: gettext-examples-0.23-pre1\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2024-07-22 13:17+0200\n"
-"PO-Revision-Date: 2024-10-26 22:16-0700\n"
+"PO-Revision-Date: 2025-02-20 11:59-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -54,21 +54,24 @@ msgid "This program is running as process number %d."
 msgstr "Ovaj program se vrši kao proces broj %d."
 
 #: hello-c-gnome3/hello.c:84
-#, c-format
+#, fuzzy, c-format
+#| msgid "This program is running as process number %d."
 msgid ""
 "<big>Hello world!</big>\n"
 "This program is running as process number <b>%d</b>."
-msgstr ""
-"<big>Pozdrav, svijete!</big>\n"
-"Ovaj program se vrši kao proces broj <b>%d</b>."
+msgstr "Ovaj program se vrši kao proces broj %d."
 
 #: hello-c-gnome3/hello.c:89
+#, fuzzy
+#| msgid "This is another text"
 msgid "<big><u>This is another text</u></big>"
-msgstr "<big><u>Ovo je drukčiji tekst</u></big>"
+msgstr "Ovo je drugi tekst"
 
 #: hello-c-gnome3/hello.c:91
+#, fuzzy
+#| msgid "This is yet another text"
 msgid "<big><i>This is yet another text</i></big>"
-msgstr "<big><i>A ovo je još drukčiji tekst</i></big>"
+msgstr "Ovo je još jedan tekst"
 
 #: hello-c-gnome3/hello.desktop.in.in:4
 msgid "Hello"
@@ -84,11 +87,11 @@ msgstr "Osvježavanje teksta"
 
 #: hello-c-gnome3/hello.gschema.xml:8
 msgid "Use XML markup"
-msgstr "Uporaba XML oznaka"
+msgstr "Uporaba XML markup oznaka"
 
 #: hello-c-gnome3/hello.gschema.xml:9
 msgid "Whether to use XML markup in the text."
-msgstr "Koristiti li XML oznaku u tekstu."
+msgstr "Treba li koristiti XML markup oznaku u tekstu."
 
 #: hello-c++20/hello.cc:37
 msgid "This program is running as process number {:d}."
@@ -134,3 +137,17 @@ msgstr "Ovaj program se vrši kao proces broj {0}."
 #, perl-brace-format
 msgid "This program is running as process number {pid}."
 msgstr "Ovaj program se vrši kao proces broj {pid}."
+
+#~ msgid "Hello world!"
+#~ msgstr "Pozdrav svijete!"
+
+#, c-format
+#~ msgid "This program is running as process number %s."
+#~ msgstr "Ovaj program se vrši kao proces broj %s."
+
+#~ msgid "This program is running as process number {}."
+#~ msgstr "Ovaj program se vrši kao proces broj {}."
+
+#, ruby-format
+#~ msgid "This program is running as process number %{pid}."
+#~ msgstr "Ovaj program se vrši kao proces broj %{pid}."
