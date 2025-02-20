@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the diffutils package.
 #
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2019, 2021, 2022, 2025.
+# Božidar Putanec <bozidarp@yahoo.com>, 2019-2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU diffutils 3.10.242\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2025-01-03 09:48-0800\n"
-"PO-Revision-Date: 2025-01-04 18:23-0800\n"
+"PO-Revision-Date: 2025-02-19 17:19-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -48,7 +48,7 @@ msgstr "direktorij"
 
 #: lib/c-file-type.c:46
 msgid "symbolic link"
-msgstr "simbolična poveznica"
+msgstr "simbolični link"
 
 #: lib/c-file-type.c:52
 msgid "message queue"
@@ -141,7 +141,7 @@ msgstr "prekoračenje stȏga"
 #: lib/diagnose.c:51
 #, c-format
 msgid "Try '%s --help' for more information."
-msgstr "Pokušajte s „%s --help“ za pomoć i više informacija."
+msgstr "Pokušajte s „%s --help” za pomoć i više informacija."
 
 #: lib/error.c:208
 msgid "Unknown system error"
@@ -150,37 +150,37 @@ msgstr "Nepoznata greška sustava"
 #: lib/getopt.c:282
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija „-%s%s“ je dvosmislen\n"
+msgstr "%s: opcija „-%s%s” je dvosmislen\n"
 
 #: lib/getopt.c:288
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija „%s%s“ je dvosmislena; mogućnosti su:"
+msgstr "%s: opcija „%s%s” je dvosmislena; mogućnosti su:"
 
 #: lib/getopt.c:322
 #, c-format
 msgid "%s: unrecognized option '%s%s'\n"
-msgstr "%s: neprepoznata opcija „%s%s“\n"
+msgstr "%s: neprepoznata opcija „%s%s”\n"
 
 #: lib/getopt.c:348
 #, c-format
 msgid "%s: option '%s%s' doesn't allow an argument\n"
-msgstr "%s: opcija „%s%s“ ne dopušta argument\n"
+msgstr "%s: opcija „%s%s” ne dopušta argument\n"
 
 #: lib/getopt.c:363
 #, c-format
 msgid "%s: option '%s%s' requires an argument\n"
-msgstr "%s: opcija „%s%s“ zahtijeva argument\n"
+msgstr "%s: opcija „%s%s” zahtijeva argument\n"
 
 #: lib/getopt.c:624
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: nevaljana opcija -- „%c“\n"
+msgstr "%s: nevaljana opcija -- „%c”\n"
 
 #: lib/getopt.c:639 lib/getopt.c:685
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: opcija zahtijeva argument -- „%c“\n"
+msgstr "%s: opcija zahtijeva argument -- „%c”\n"
 
 #: lib/openat-die.c:38
 msgid "unable to record current working directory"
@@ -217,7 +217,7 @@ msgstr "„"
 
 #: lib/quotearg.c:355
 msgid "'"
-msgstr "“"
+msgstr "”"
 
 #: lib/regcomp.c:122
 msgid "Success"
@@ -241,7 +241,7 @@ msgstr "Nevaljano ime klase znakova"
 
 #: lib/regcomp.c:137
 msgid "Trailing backslash"
-msgstr "Zaostala obratna kosa crta („\\“, backslash)"
+msgstr "Zaostala obratna kosa crta („\\”, backslash)"
 
 #: lib/regcomp.c:140
 msgid "Invalid back reference"
@@ -596,7 +596,7 @@ msgstr ""
 
 #: src/cmp.c:198
 msgid "If a FILE is '-' or missing, read standard input."
-msgstr "Ako DATOTEKA nije navedena ili je „-“, čita standardni ulaz."
+msgstr "Ako DATOTEKA nije navedena ili je „-”, čita standardni ulaz."
 
 #: src/cmp.c:199 src/diff.c:1060 src/sdiff.c:221
 msgid "Exit status is 0 if inputs are the same, 1 if different, 2 if trouble."
@@ -793,7 +793,7 @@ msgstr ""
 
 #: src/diff.c:987
 msgid "-l, --paginate                pass output through 'pr' to paginate it"
-msgstr "-l, --paginate                proslijedi izlaz na paginaciju kroz „pr“"
+msgstr "-l, --paginate                proslijedi izlaz na paginaciju kroz „pr”"
 
 #: src/diff.c:989
 msgid "-r, --recursive                 recursively compare any subdirectories found"
@@ -801,7 +801,7 @@ msgstr "-r, --recursive               rekurzivno uspoređuje sve poddirektorije"
 
 #: src/diff.c:990
 msgid "    --no-dereference            don't follow symbolic links"
-msgstr "    --no-dereference          ne slijedi simbolične poveznice"
+msgstr "    --no-dereference          ne slijedi simbolične linkove"
 
 #: src/diff.c:991
 msgid "-N, --new-file                  treat absent files as empty"
@@ -905,7 +905,7 @@ msgstr "    --binary                    čita i piše podatke u binarnom načinu
 msgid "-D, --ifdef=NAME                output merged file with '#ifdef NAME' diffs"
 msgstr ""
 "-D, --ifdef=IME                 pokaže spojenu datoteku s prikazanim\n"
-"                                  razlikama u „#ifdef IME“"
+"                                  razlikama u „#ifdef IME”"
 
 #: src/diff.c:1018
 msgid "    --GTYPE-group-format=GFMT   format GTYPE input groups with GFMT"
@@ -930,8 +930,8 @@ msgstr ""
 #: src/diff.c:1023
 msgid "  LTYPE is 'old', 'new', or 'unchanged'.  GTYPE is LTYPE or 'changed'."
 msgstr ""
-"  LTYPE je jedan od „old“, „new“ ili „unchanged“.\n"
-"  GTYPE je jedan od LTYPE ili „changed“."
+"  LTYPE je jedan od „old”, „new” ili „unchanged”.\n"
+"  GTYPE je jedan od LTYPE ili „changed”."
 
 #: src/diff.c:1024
 msgid ""
@@ -1028,8 +1028,8 @@ msgstr "-v, --version            informira o inačici ovog programa i iziđe"
 #: src/diff.c:1057
 msgid "FILES are 'FILE1 FILE2' or 'DIR1 DIR2' or 'DIR FILE' or 'FILE DIR'."
 msgstr ""
-"DATOTEKE su „DATOTEKA1 DATOTEKA2“ ili „DIR1 DIR2“ ili „DIR DATOTEKA“ ili\n"
-" „DATOTEKA DIR“."
+"DATOTEKE su „DATOTEKA1 DATOTEKA2” ili „DIR1 DIR2” ili „DIR DATOTEKA” ili\n"
+" „DATOTEKA DIR”."
 
 #: src/diff.c:1058
 msgid "If --from-file or --to-file is given, there are no restrictions on FILE(s)."
@@ -1037,7 +1037,7 @@ msgstr "Ako je dano --from-file ili --to-file, onda nema restrikcija na  DATOTEK
 
 #: src/diff.c:1059 src/diff3.c:478 src/sdiff.c:220
 msgid "If a FILE is '-', read standard input."
-msgstr "Ako je DATOTEKA „-“, čita standardni ulaz."
+msgstr "Ako je DATOTEKA „-”, čita standardni ulaz."
 
 #: src/diff.c:1067
 #, c-format
@@ -1091,11 +1091,11 @@ msgstr "Datoteka %s je %s dok datoteka %s je %s\n"
 #: src/diff.c:1281
 #, c-format
 msgid "Symbolic links %s -> %s and %s -> %s differ\n"
-msgstr "Simbolične poveznice %s -> %s i %s -> %s se razlikuju\n"
+msgstr "Simbolični linkovi %s -> %s i %s -> %s se razlikuju\n"
 
 #: src/diff.c:1564
 msgid "cannot compare '-' to a directory"
-msgstr "nije moguće usporediti „-“ s direktorijem"
+msgstr "nije moguće usporediti „-” s direktorijem"
 
 #: src/diff.c:1651
 #, c-format
@@ -1113,7 +1113,7 @@ msgstr "nekompatibilne opcije"
 
 #: src/diff3.c:363
 msgid "'-' specified for more than one input file"
-msgstr "„-“ je navedena za više od jedne ulazne datoteke"
+msgstr "„-” je navedena za više od jedne ulazne datoteke"
 
 #: src/diff3.c:405 src/diff3.c:1183 src/diff3.c:1569 src/diff3.c:1625
 #: src/sdiff.c:307 src/sdiff.c:831 src/sdiff.c:841
@@ -1154,7 +1154,7 @@ msgstr "-X                          kao -x plus konflikte u uglatim zagradama"
 
 #: src/diff3.c:435
 msgid "-i                          append 'w' and 'q' commands to ed scripts"
-msgstr "-i                          pripoji naredbe „w“ i „q“ u ed-scripts"
+msgstr "-i                          pripoji naredbe „w” i „q” u ed-scripts"
 
 #: src/diff3.c:437
 msgid ""
@@ -1429,13 +1429,13 @@ msgstr "nije moguće razabrati vrijednost za --palette"
 #~ msgstr "standardni deskriptori datoteka"
 
 #~ msgid "invalid %s%s argument '%s'"
-#~ msgstr "nevaljani %s%s argument „%s“"
+#~ msgstr "nevaljani %s%s argument „%s”"
 
 #~ msgid "invalid suffix in %s%s argument '%s'"
-#~ msgstr "nevaljani sufiks u %s%s argumentu „%s“"
+#~ msgstr "nevaljani sufiks u %s%s argumentu „%s”"
 
 #~ msgid "%s%s argument '%s' too large"
-#~ msgstr "%s%s argument „%s“ je prevelik"
+#~ msgstr "%s%s argument „%s” je prevelik"
 
 #~ msgid "%s home page: <https://www.gnu.org/software/%s/>\n"
 #~ msgstr "Mrežna stranica za %s: <http://www.gnu.org/software/%s/>\n"
