@@ -7,13 +7,13 @@
 # as such.
 #
 # # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025.
+# Božidar Putanec <bozidarp@yahoo.com>, 2017-2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 9.6-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2025-01-13 14:11+0000\n"
-"PO-Revision-Date: 2025-01-14 09:11-0800\n"
+"PO-Revision-Date: 2025-02-19 17:12-0800\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -52,7 +52,7 @@ msgstr "direktorij"
 
 #: lib/c-file-type.c:46
 msgid "symbolic link"
-msgstr "simbolična poveznica"
+msgstr "simbolični link"
 
 #: lib/c-file-type.c:52
 msgid "message queue"
@@ -630,7 +630,7 @@ msgstr "nevaljana grupa"
 
 #: lib/userspec.c:279
 msgid "warning: '.' should be ':'"
-msgstr "upozorenje: ‘.’ treba biti „:“"
+msgstr "upozorenje: ‘.’ treba biti „:”"
 
 #: lib/version-etc.c:73
 #, c-format
@@ -1233,9 +1233,9 @@ msgid ""
 "                         the default), rather than the symbolic link itself\n"
 "  -h, --no-dereference   affect symbolic links instead of any referenced file\n"
 msgstr ""
-"      --dereference      djeluje na referenciju svake simbolične poveznice\n"
-"                           (to je zadano), a ne na samu simboličnu poveznicu\n"
-"  -h, --no-dereference   djeluje na simbolične poveznice umjesto na\n"
+"      --dereference      djeluje na referenciju svakog simboličnog linka\n"
+"                           (to je zadano), a ne na sam simbolični link\n"
+"  -h, --no-dereference   djeluje na simbolične linkove umjesto na\n"
 "                           ciljane datoteke\n"
 
 #: src/chcon.c:369
@@ -1292,10 +1292,10 @@ msgstr ""
 "Opcije koje slijede modificiraju prolaz kroz hijerarhiju kad je navedena\n"
 "i opcija -R. Ako je navedeno nekoliko opcija, aktivna je samo posljednja.\n"
 "\n"
-"  -H                     ako je argument na naredbenom retku simbolična\n"
-"                           poveznica na direktorij, proputuje ga\n"
-"  -L                     proputuje svaku simboličnu poveznicu na direktorij\n"
-"  -P                     ne slijedi simbolične poveznice (zadano)\n"
+"  -H                     ako je argument na naredbenom retku simbolični\n"
+"                           link na direktorij, proputuje ga\n"
+"  -L                     proputuje svaki simbolični link na direktorij\n"
+"  -P                     ne slijedi simbolične linkove (zadano)\n"
 "\n"
 
 #: src/chcon.c:517 src/chmod.c:586 src/chown.c:275
@@ -1341,7 +1341,7 @@ msgstr "dobivamo nove atribute od %s"
 #: src/chmod.c:165 src/chown-core.c:162
 #, c-format
 msgid "neither symbolic link %s nor referent has been changed\n"
-msgstr "ni simbolična poveznica %s ni njezina meta (ciljana datoteka) nije promijenjena\n"
+msgstr "ni simbolični link %s ni njezina meta (ciljana datoteka) nisu promijenjeni\n"
 
 #: src/chmod.c:170
 #, c-format
@@ -1366,12 +1366,12 @@ msgstr "práva pristupa na %s su ostala ista: %04lo (%s)\n"
 #: src/chmod.c:258
 #, c-format
 msgid "cannot operate on dangling symlink %s"
-msgstr "ne može raditi s lažnom simboličnom poveznicom %s"
+msgstr "ne može raditi s lažnim,  visećim simboličnim linkom %s"
 
 #: src/chmod.c:271 src/chown-core.c:390
 #, c-format
 msgid "cannot dereference %s"
-msgstr "ne može slijediti simboličnu poveznicu %s"
+msgstr "ne može slijediti simbolični linik %s"
 
 #: src/chmod.c:320
 #, c-format
@@ -1420,9 +1420,9 @@ msgid ""
 "                           rather than the symbolic link itself\n"
 "  -h, --no-dereference   affect each symbolic link, rather than the referent\n"
 msgstr ""
-"      --dereference      djeluje na referenta svake simbolične poveznice,\n"
-"                           a ne na samu simboličnu poveznicu\n"
-"  -h, --no-dereference   djeluje na svaku simboličnu poveznicu umjesto na\n"
+"      --dereference      djeluje na referenta svakog simboličnog linka,\n"
+"                           a ne na sam simbolični link\n"
+"  -h, --no-dereference   djeluje na svakog simboličnog linka umjesto na\n"
 "                           na referenta\n"
 
 #: src/chmod.c:438
@@ -1432,7 +1432,7 @@ msgid ""
 msgstr ""
 "      --reference=REFDATOTEKA koristi práva iz REFDATOTEKE umjesto eksplicitnog\n"
 "                                specificiranja práva. Ako je REFDATOTEKA\n"
-"                                simbolična poveznica, uvijek je dereferencirana\n"
+"                                simbolični link, uvijek je dereferencirana\n"
 
 #: src/chmod.c:442
 msgid "  -R, --recursive        change files and directories recursively\n"
@@ -1565,7 +1565,7 @@ msgid ""
 "                         ownership of a symlink)\n"
 msgstr ""
 "                         (korisno samo u sustavima koji mogu izmijeniti\n"
-"                           vlasnika simbolične poveznice)\n"
+"                           vlasnika simboličnog linka)\n"
 
 #: src/chown.c:112
 msgid ""
@@ -1588,7 +1588,7 @@ msgid ""
 msgstr ""
 "      --reference=REFDATOTEKA  koristi REFDATOTEKU umjesto eksplicitnog\n"
 "                         specificiranja vrijednosti. Ako je REFDATOTEKA\n"
-"                         simbolična poveznica, uvijek je dereferencirana.\n"
+"                         simbolični link, uvijek je dereferencirana.\n"
 
 #: src/chown.c:134
 msgid ""
@@ -1989,7 +1989,7 @@ msgstr "osvježujemo vremena za %s"
 #: src/copy.c:1478
 #, c-format
 msgid "not writing through dangling symlink %s"
-msgstr "ne pišemo preko lažne simbolične poveznice %s"
+msgstr "ne pišemo preko lažnog, visećeg simboličnog linka %s"
 
 #: src/copy.c:1499
 #, c-format
@@ -2035,7 +2035,7 @@ msgstr "nije uspjelo obnoviti zadani kontekst stvaranja datoteke"
 #: src/copy.c:2132
 #, c-format
 msgid "cannot create hard link %s to %s"
-msgstr "ne može stvoriti čvrstu poveznicu %s na %s"
+msgstr "ne može stvoriti čvrsti link %s na %s"
 
 #: src/copy.c:2252
 #, c-format
@@ -2090,7 +2090,7 @@ msgstr "ne može napraviti osiguranje (sigurnosne kopije) %s"
 #: src/copy.c:2579
 #, c-format
 msgid "will not copy %s through just-created symlink %s"
-msgstr "nećemo kopirati %s preko upravo stvorene simbolične poveznice %s"
+msgstr "nećemo kopirati %s preko upravo stvorenog simboličnog linka %s"
 
 #: src/copy.c:2661
 #, c-format
@@ -2105,7 +2105,7 @@ msgstr "upozorenje: izvor (direktorij) %s naveden je više od jedanput"
 #: src/copy.c:2698
 #, c-format
 msgid "will not create hard link %s to directory %s"
-msgstr "nećemo stvoriti čvrstu poveznicu %s na direktorij %s"
+msgstr "nećemo stvoriti čvrsti link %s na direktorij %s"
 
 #: src/copy.c:2727
 #, c-format
@@ -2150,7 +2150,7 @@ msgstr "kopirano %s -> %s"
 #: src/copy.c:2889
 #, c-format
 msgid "cannot copy cyclic symbolic link %s"
-msgstr "ne može kopirati cikličku simboličnu poveznicu %s"
+msgstr "ne može kopirati ciklični simbolični link %s"
 
 #: src/copy.c:2952
 #, c-format
@@ -2160,12 +2160,12 @@ msgstr "kreiran je direktorij %s\n"
 #: src/copy.c:3016
 #, c-format
 msgid "%s: can make relative symbolic links only in current directory"
-msgstr "%s: relativne simbolične poveznice su moguće samo unutar trenutnog direktorija"
+msgstr "%s: relativni simbolični linkovi su moguće samo unutar trenutnog direktorija"
 
 #: src/copy.c:3026
 #, c-format
 msgid "cannot create symbolic link %s to %s"
-msgstr "ne može stvoriti simboličnu poveznicu %s na %s"
+msgstr "ne može stvoriti simbolični link %s na %s"
 
 #: src/copy.c:3084 src/mkfifo.c:173
 #, c-format
@@ -2180,12 +2180,12 @@ msgstr "ne može stvoriti specijalnu datoteku %s"
 #: src/copy.c:3104 src/ls.c:3696 src/stat.c:1525
 #, c-format
 msgid "cannot read symbolic link %s"
-msgstr "ne može pročitati simboličnu poveznicu %s"
+msgstr "ne može pročitati simbolični link %s"
 
 #: src/copy.c:3131
 #, c-format
 msgid "cannot create symbolic link %s"
-msgstr "ne može stvoriti simboličnu poveznicu %s"
+msgstr "ne može stvoriti simbolični link %s"
 
 #: src/copy.c:3165
 #, c-format
@@ -2283,14 +2283,14 @@ msgstr ""
 "                                 (zanemareno, ako koristite s opcijom -n)\n"
 "  -i, --interactive            pita prije nego prebriše postojeće datoteke\n"
 "                                 (poništi prethodnu -n opciju)\n"
-"  -H                           slijedi simbolične poveznice navedene u IZVORU\n"
+"  -H                           slijedi simbolične linkove navedene u IZVORU\n"
 
 #: src/cp.c:193
 msgid ""
 "  -l, --link                   hard link files instead of copying\n"
 "  -L, --dereference            always follow symbolic links in SOURCE\n"
 msgstr ""
-"  -l, --link                   umjesto kopija pravi čvrste simbolične poveznice\n"
+"  -l, --link                   umjesto kopija pravi čvrste simbolične linkove\n"
 "  -L, --dereference            uvijek slijedi simbolične navedene u IZVORU\n"
 
 #: src/cp.c:197
@@ -2304,7 +2304,7 @@ msgstr ""
 
 #: src/cp.c:201
 msgid "  -P, --no-dereference         never follow symbolic links in SOURCE\n"
-msgstr "  -P, --no-dereference         ne slijedi simbolične poveznice u IZVORU\n"
+msgstr "  -P, --no-dereference         ne slijedi simbolične linkove u IZVORU\n"
 
 #: src/cp.c:204
 msgid ""
@@ -2353,7 +2353,7 @@ msgid ""
 "  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY\n"
 "  -T, --no-target-directory    treat DEST as a normal file\n"
 msgstr ""
-"  -s, --symbolic-link          pravi simbolične poveznice umjesto kopija\n"
+"  -s, --symbolic-link          pravi simbolične linkove umjesto kopija\n"
 "  -S, --suffix=SUFIKS          koristi ovaj SUFIKS za sigurnosne kopije\n"
 "  -t, --target-directory=DIREKTORIJ  kopira sve argumente IZVORA u DIREKTORIJ\n"
 "  -T, --no-target-directory    tretira ODREDIŠTE kao regularnu datoteku\n"
@@ -2374,7 +2374,7 @@ msgstr "  -v, --verbose                objašnjava što se radi\n"
 
 #: src/cp.c:237
 msgid "      --keep-directory-symlink  follow existing symlinks to directories\n"
-msgstr "      --keep-directory-symlink  slijedi postojeće poveznice na direktorije\n"
+msgstr "      --keep-directory-symlink  slijedi postojeće sim-linkove na direktorije\n"
 
 #: src/cp.c:240
 msgid "  -x, --one-file-system        stay on this file system\n"
@@ -2404,7 +2404,7 @@ msgstr ""
 "\n"
 "ATTR_LIST je popis atributa, odvojenih zarezima. Atributi su ‘mode’za práva\n"
 "pristupa (uključujući sva ACL i xattr práva), ‘ownership’ za korisnika i grupu\n"
-"i ‘timestamps’ za vremenske oznake datoteke, ‘links’ za čvrste poveznice,\n"
+"i ‘timestamps’ za vremenske oznake datoteke, ‘links’ za čvrste linkove,\n"
 "‘context’ za sigurnosni kontekst, ‘xattr’ za proširene atribute, i ‘all’ za sve\n"
 "atribute.\n"
 
@@ -2522,7 +2522,7 @@ msgstr "upozorenje: opcija --context je zanemarena; zahtijeva SELinux-enabled ke
 #: src/cp.c:1204
 #, c-format
 msgid "cannot make both hard and symbolic links"
-msgstr "istovremeno ne može praviti čvrste i simbolične poveznice"
+msgstr "istovremeno ne može praviti čvrste i simbolične linkove"
 
 #: src/cp.c:1216
 #, c-format
@@ -3115,7 +3115,7 @@ msgid ""
 msgstr ""
 "\n"
 "Iza bilo koje zastavice dolazi neobvezni decimalni broj za širinu polja;\n"
-"zatim neobvezni modifikator, ‘E’ ili „O“\n"
+"zatim neobvezni modifikator, ‘E’ ili „O”\n"
 "E: rabiti lokaliziranu alternativu ako postoji, ili\n"
 "O: rabiti lokalizirane numeričke simbole ako postoje.\n"
 
@@ -3382,11 +3382,11 @@ msgstr "  noctty    datoteka nije kontrolni terminal\n"
 
 #: src/dd.c:628
 msgid "  nofollow  do not follow symlinks\n"
-msgstr "  nofollow  ne slijedi simbolične poveznice\n"
+msgstr "  nofollow  ne slijedi simbolične linkove\n"
 
 #: src/dd.c:630
 msgid "  nolinks   fail if multiply-linked\n"
-msgstr "  nolinks   završi s greškom ako datoteka ima nekoliko čvrstih poveznica\n"
+msgstr "  nolinks   završi s greškom ako datoteka ima nekoliko čvrstih linkova\n"
 
 #: src/dd.c:632
 msgid "  binary    use binary I/O for data\n"
@@ -3768,8 +3768,8 @@ msgid ""
 msgstr ""
 "\n"
 "LISTA_POLJA je zarezom odvojena lista imena stupaca za ispis. Valjana imena\n"
-"za polja su: ‘source’, „fstype“, „itotal“, „iused“, „iavail“, „ipcent“,\n"
-"‘size’, „used“, „avail“, „pcent“, „file“ i „target“ (više u „info df“).\n"
+"za polja su: ‘source’, „fstype”, „itotal”, „iused”, „iavail”, „ipcent”,\n"
+"‘size’, „used”, „avail”, „pcent”, „file” i „target” (više u „info df”).\n"
 
 #: src/df.c:1596
 #, c-format
@@ -3951,7 +3951,7 @@ msgstr ""
 "                               v. niže za format VELIČINE\n"
 "  -b, --bytes           isto kao ‘--apparent-size --block-size=1’\n"
 "  -c, --total           samo sveukupne vrijednosti bez detalja\n"
-"  -D, --dereference-args  slijedi samo simbolične poveznice navedene\n"
+"  -D, --dereference-args  slijedi samo simbolične linkove navedene\n"
 "                            na naredbenom retku\n"
 "  -d, --max-depth=N     sažetak za direktorij (ili datoteku s --all)\n"
 "                          samo ako je N ili manje razina ispod argumenta\n"
@@ -3982,9 +3982,9 @@ msgid ""
 "  -m                    like --block-size=1M\n"
 msgstr ""
 "  -k                    isto kao --block-size=1K\n"
-"  -L, --dereference     slijedi sve simbolične poveznice\n"
+"  -L, --dereference     slijedi sve simbolične linkove\n"
 "  -l, --count-links     broji veličinu svih datoteka, čak i ako se pojave\n"
-"                          kao čvrste poveznice (zbraja svaku pojavu)\n"
+"                          kao čvrsti linkovi (zbraja svaku pojavu)\n"
 "  -m                    isto kao --block-size=1M\n"
 
 #: src/du.c:330
@@ -3994,7 +3994,7 @@ msgid ""
 "      --si              like -h, but use powers of 1000 not 1024\n"
 "  -s, --summarize       display only a total for each argument\n"
 msgstr ""
-"  -P, --no-dereference  ne slijedi simbolične poveznice (zadano stanje)\n"
+"  -P, --no-dereference  ne slijedi simbolične linkove (zadano stanje)\n"
 "  -S, --separate-dirs   za direktorije isključi veličine poddirektorija\n"
 "      --si              isto kao -h, ali s bazom 1000 umjesto 1024\n"
 "  -s, --summarize       samo sažetak za svaki argument\n"
@@ -4258,7 +4258,7 @@ msgid ""
 "comma-separated.  An empty SIG argument is a no-op.\n"
 msgstr ""
 "\n"
-"SIG može biti ime signala npr. ‘PIPE’ ili broj signala npr. „13“.\n"
+"SIG može biti ime signala npr. ‘PIPE’ ili broj signala npr. „13”.\n"
 "Bez danog SIG, svi poznati signali su uključeni.\n"
 "Više signala mogu se navesti kao zarezom odvojeni popis signala.\n"
 "Prazni SIG argument nije dopušten.\n"
@@ -4406,7 +4406,7 @@ msgstr "pomaci tabulatora moraju striktno rasti"
 #: src/expand-common.c:248
 #, c-format
 msgid "'/' specifier is mutually exclusive with '+'"
-msgstr "specifikatori ‘/’ i „+“ se međusobno isključuju"
+msgstr "specifikatori ‘/’ i „+” se međusobno isključuju"
 
 #: src/expand-common.c:318 src/expand.c:154 src/unexpand.c:221
 #, c-format
@@ -4553,7 +4553,7 @@ msgid ""
 "  ( EXPRESSION )             value of EXPRESSION\n"
 msgstr ""
 "  + TOKEN                    interpretiraj TOKEN kao da je string, iako je\n"
-"                               ‘keyword’ kao „match“ ili operator kao „/“\n"
+"                               ‘keyword’ kao „match” ili operator kao „/”\n"
 "\n"
 "  ( IZRAZ )             vrijednost IZRAZA\n"
 
@@ -5249,7 +5249,7 @@ msgstr ""
 #: src/install.c:670 src/unlink.c:83
 #, c-format
 msgid "cannot unlink %s"
-msgstr "poveznicu %s ne može ukloniti (unlink)"
+msgstr "link %s ne može ‘unlink’ (odvezati)"
 
 #: src/install.c:752
 #, c-format
@@ -5492,7 +5492,7 @@ msgid ""
 "PID is an integer; if negative it identifies a process group.\n"
 msgstr ""
 "\n"
-"SIGNAL može biti ime signala npr. ‘HUP’ ili broj signala npr. „1“,\n"
+"SIGNAL može biti ime signala npr. ‘HUP’ ili broj signala npr. „1”,\n"
 "ili izlazni status procesa okončan signalom.\n"
 "PID je cijeli broj; ako je negativan, PID identificira grupu procesa.\n"
 
@@ -5560,17 +5560,17 @@ msgstr ""
 msgid ""
 "Call the link function to create a link named FILE2 to an existing FILE1.\n"
 "\n"
-msgstr "Napravi čvrstu poveznicu s imenom DATOTEKA1 na postojeću DATOTEKU2.\n"
+msgstr "Napravi čvrsti link s imenom DATOTEKA1 na postojeću DATOTEKU2.\n"
 
 #: src/link.c:87
 #, c-format
 msgid "cannot create link %s to %s"
-msgstr "ne može stvoriti poveznicu %s na %s"
+msgstr "ne može stvoriti link %s na %s"
 
 #: src/ln.c:205
 #, c-format
 msgid "%s: hard link not allowed for directory"
-msgstr "%s: čvrsta poveznica na direktorij nije dopuštena"
+msgstr "%s: čvrsti link na direktorij nije dopušten"
 
 #: src/ln.c:230
 #, c-format
@@ -5585,27 +5585,27 @@ msgstr "%s: zamijeniti s %s? "
 #: src/ln.c:375
 #, c-format
 msgid "failed to create symbolic link %s"
-msgstr "nije uspjelo stvoriti simboličnu poveznicu %s"
+msgstr "nije uspjelo stvoriti simbolični link %s"
 
 #: src/ln.c:376
 #, c-format
 msgid "failed to create symbolic link %s -> %s"
-msgstr "nije uspjelo stvoriti simboličnu poveznicu %s -> %s"
+msgstr "nije uspjelo stvoriti simbolični link %s -> %s"
 
 #: src/ln.c:378
 #, c-format
 msgid "failed to create hard link to %.0s%s"
-msgstr "nije uspjelo stvoriti čvrstu poveznicu %.0s%s"
+msgstr "nije uspjelo stvoriti čvrsti link %.0s%s"
 
 #: src/ln.c:381
 #, c-format
 msgid "failed to create hard link %s"
-msgstr "nije uspjelo stvoriti čvrstu poveznicu %s"
+msgstr "nije uspjelo stvoriti čvrsti link %s"
 
 #: src/ln.c:382
 #, c-format
 msgid "failed to create hard link %s => %s"
-msgstr "nije uspjelo stvoriti čvrstu poveznicu %s => %s"
+msgstr "nije uspjelo stvoriti čvrsti link %s => %s"
 
 #: src/ln.c:408
 #, c-format
@@ -5615,7 +5615,7 @@ msgid ""
 "  or:  %s [OPTION]... TARGET... DIRECTORY\n"
 "  or:  %s [OPTION]... -t DIRECTORY TARGET...\n"
 msgstr ""
-"Uporaba: %s [OPCIJA]... [-T] CILJ IME_POVEZNICE\n"
+"Uporaba: %s [OPCIJA]... [-T] CILJ IME_LINKA\n"
 "   ili:  %s [OPCIJA]... CILJ\n"
 "   ili:  %s [OPCIJA]... CILJ... DIREKTORIJ\n"
 "   ili:  %s [OPCIJA]... -t DIREKTORIJ CILJ...\n"
@@ -5631,14 +5631,14 @@ msgid ""
 "can hold arbitrary text; if later resolved, a relative link is\n"
 "interpreted in relation to its parent directory.\n"
 msgstr ""
-"1. forma stvori poveznicu na CILJ s imenom IME_POVEZNICE.\n"
-"2. forma stvori poveznicu na CILJ (pod istim imenom u trenutnom direktoriju).\n"
-"3. i 4. forma stvaraju poveznice na svaki CILJ u DIREKTORIJU.\n"
-"Zadano se stvaraju čvrste poveznice, a simbolične sa -s ili --symbolic.\n"
-"Zadano je da svako odredište (ime nove poveznice) ne bi smjelo već postojati.\n"
-"Za stvaranje čvrstih poveznica svaki CILJ već mora postojati. Simbolične\n"
-"poveznice mogu sadržavati bilo koji tekst; ako se relativna poveznica\n"
-"razriješi, interpretira se u odnosu na direktorij koji sadrži poveznicu.\n"
+"1. forma stvori link na CILJ s imenom IME_LINKA.\n"
+"2. forma stvori link na CILJ (pod istim imenom u trenutnom direktoriju).\n"
+"3. i 4. forma stvaraju linkove na svaki CILJ u DIREKTORIJU.\n"
+"Zadano, stvara čvrste linkove, a simbolične sa --symbolic ili -s.\n"
+"Zadano, svako odredište (ime novog linka) ne bi smjelo već postojati.\n"
+"Za stvaranje čvrstih linkova svaki CILJ već mora postojati. Simbolični\n"
+"linkovi mogu sadržavati bilo koji tekst; ako se relativni link\n"
+"razriješi, interpretira se u odnosu na direktorij koji sadrži link.\n"
 
 #: src/ln.c:428
 msgid ""
@@ -5652,7 +5652,7 @@ msgstr ""
 "      --backup[=METODA]       stvori kopije svih postojećih datoteka\n"
 "  -b                          isto kao --backup, ali ne prihvaća argument\n"
 "  -d, -F, --directory         administratoru se dopušta da pokuša praviti čvrste\n"
-"                                poveznice na direktorije (vjerojatno ne će\n"
+"                                linkove na direktorije (vjerojatno ne će\n"
 "                                uspjeti zbog restrikcija za administratore)\n"
 "  -f, --force                 izbriše postojeće datoteke na odredištu\n"
 
@@ -5667,16 +5667,15 @@ msgid ""
 "  -s, --symbolic              make symbolic links instead of hard links\n"
 msgstr ""
 "  -i, --interactive           pita prije brisanja odredišta\n"
-"  -L, --logical               ako su CILJevi simbolične poveznice, pravi čvrste\n"
-"                                poveznice na ciljane datoteke\n"
-"  -n, --no-dereference        IME_POVEZNICE tretira kao normalnu datoteku ako je\n"
-"                                ona (IME_POVEZNICE) simbolična poveznica na\n"
-"                                 direktorij\n"
-"  -P, --physical              pravi čvrste poveznice izravno na simbolične\n"
-"                                poveznice\n"
-"  -r, --relative              sa -s stvara simbolične poveznice u odnosu na\n"
-"                                mjesto poveznice\n"
-"  -s, --symbolic              pravi simbolične umjesto čvrstih poveznica\n"
+"  -L, --logical               ako su CILJevi simbolični linkovi, pravi čvrste\n"
+"                                linkove na ciljane datoteke\n"
+"  -n, --no-dereference        IME_LINKA tretira kao normalnu datoteku ako je\n"
+"                                (IME_LINKA) simbolični link na direktorij\n"
+"  -P, --physical              pravi čvrste linkove izravno na simbolične\n"
+"                                linkove\n"
+"  -r, --relative              sa -s stvara simbolične linkove u odnosu na\n"
+"                                mjesto linka\n"
+"  -s, --symbolic              pravi simbolične umjesto čvrstih linkova\n"
 
 #: src/ln.c:445
 msgid ""
@@ -5687,8 +5686,8 @@ msgid ""
 "  -v, --verbose               print name of each linked file\n"
 msgstr ""
 "  -S, --suffix=SUFIKS         redefinira uobičajeni sufiks osiguranja\n"
-"  -t, --target-directory=DIREKTORIJ  DIREKTORIJ u kojem će se stvarati poveznice\n"
-"  -T, --no-target-directory   IME_POVEZNICE tretira uvijek kao normalnu datoteku\n"
+"  -t, --target-directory=DIREKTORIJ  DIREKTORIJ u kojem će se stvarati linkovi\n"
+"  -T, --no-target-directory   IME_LINKA tretira uvijek kao normalnu datoteku\n"
 "  -v, --verbose               ispiše ime svake povezane datoteka\n"
 
 #: src/ln.c:455
@@ -5700,7 +5699,7 @@ msgid ""
 msgstr ""
 "\n"
 "Ako se rabi -s, onda su -L i -P zanemareni. Inače, samo zadnja od navedenih\n"
-"opcija -L ili -P je aktivna kad je CILJ simbolična poveznica; zadano djeluje %s.\n"
+"opcija -L ili -P je aktivna kad je CILJ simbolični link; zadano djeluje %s.\n"
 
 #: src/ln.c:539
 #, c-format
@@ -5962,8 +5961,8 @@ msgid ""
 "  -H, --dereference-command-line\n"
 "                             follow symbolic links listed on the command line\n"
 msgstr ""
-"  -H, --dereference-command-line  slijedi simbolične poveznice navedene\n"
-"                                    u naredbi\n"
+"  -H, --dereference-command-line\n"
+"                            slijedi simbolične linkove navedene u naredbi\n"
 
 #: src/ls.c:5446
 msgid ""
@@ -5972,9 +5971,9 @@ msgid ""
 "                             that points to a directory\n"
 "\n"
 msgstr ""
-"      --dereference-command-line-symlink-to-dir  slijedi svaku poveznicu na\n"
-"                                                   na naredbenom retku koja\n"
-"                                                   cilja direktorij\n"
+"      --dereference-command-line-symlink-to-dir\n"
+"                             slijedi svaki simbolični link na naredbenom retku\n"
+"                             koji cilja direktorij\n"
 "\n"
 
 #: src/ls.c:5452
@@ -6034,8 +6033,8 @@ msgid ""
 "                             references rather than for the link itself\n"
 "\n"
 msgstr ""
-"  -L, --dereference          umjesto informacije o simboličnoj poveznici pokaže\n"
-"                               informaciju o datoteci na koju cilja poveznica\n"
+"  -L, --dereference          umjesto informacije o simboličnom linku pokaže\n"
+"                               informaciju o datoteci na koju cilja link\n"
 "\n"
 
 #: src/ls.c:5488
@@ -6693,7 +6692,7 @@ msgid ""
 "otherwise, as decimal.  TYPE may be:\n"
 msgstr ""
 "\n"
-"Kad je TIP ‘b’, „c“ ili „u“ obvezno se moraju specificirati i MAJOR (glavni)\n"
+"Kad je TIP ‘b’, „c” ili „u” obvezno se moraju specificirati i MAJOR (glavni)\n"
 "i MINOR (podređeni), a kad je TIP ‘p’ oba se moraju ispustiti. Ako MAJOR ili\n"
 "MINOR započinju s 0x ili 0X interpretira se kao heksadecimalni, a ako\n"
 "započinju s 0 interpretira se kao oktalni, a inače kao decimalni broj.\n"
@@ -7641,7 +7640,7 @@ msgstr ""
 "operanda) s brojkom. Operand ODMAK znači -j ODMAK. LABEL je pseudo-adresa\n"
 "pri prvom ispisanom bajtu (u zagradama) i uvećava se s progresom ispisa.\n"
 "Za ODMAK i LABEL prefiks 0x ili 0X indicira heksadecimalni broj; sufiksi mogu\n"
-"biti ‘.’ za oktalni i „b“ za množenje s 512.\n"
+"biti ‘.’ za oktalni i „b” za množenje s 512.\n"
 
 #: src/od.c:380
 msgid ""
@@ -8568,11 +8567,11 @@ msgstr "Ispiše puno ime trenutnog radnog direktorija.\n"
 
 #: src/pwd.c:60
 msgid "  -L, --logical   use PWD from environment, even if it contains symlinks\n"
-msgstr "  -L, --logical   rabi PWD iz okoline, čak i ako sadrži simbolične poveznice\n"
+msgstr "  -L, --logical   rabi PWD iz okoline, čak i ako sadrži simbolične linkove\n"
 
 #: src/pwd.c:63
 msgid "  -P, --physical  resolve all symlinks\n"
-msgstr "  -P, --physical  razriješi sve simbolične poveznice\n"
+msgstr "  -P, --physical  razriješi sve simbolične linkove\n"
 
 #: src/pwd.c:68
 msgid ""
@@ -8618,7 +8617,7 @@ msgid ""
 "Print value of a symbolic link or canonical file name\n"
 "\n"
 msgstr ""
-"Ispiše vrijednost simbolične poveznice ili kanonizirano ime datoteke\n"
+"Ispiše vrijednost simboličnog linka ili kanonsko ime datoteke\n"
 "\n"
 
 #: src/readlink.c:64
@@ -8631,10 +8630,10 @@ msgid ""
 "                                all components must exist\n"
 msgstr ""
 "  -f, --canonicalize            kanonizira tako da rekurzivno slijedi svaku\n"
-"                                  komponentu u imenu dane simbolične poveznice;\n"
+"                                  komponentu u imenu danog simboličnog linka;\n"
 "                                  sve komponente, osim zadnje, moraju postojati\n"
 "  -e, --canonicalize-existing   kanonizira tako da rekurzivno slijedi svaku\n"
-"                                  komponentu u imenu dane simbolične poveznice;\n"
+"                                  komponentu u imenu danog simboličnog linka;\n"
 "                                  sve komponente moraju postojati\n"
 
 #: src/readlink.c:74
@@ -8649,7 +8648,7 @@ msgid ""
 "  -z, --zero                    end each output line with NUL, not newline\n"
 msgstr ""
 "  -m, --canonicalize-missing    kanonizira tako da rekurzivno slijedi svaku\n"
-"                                  komponentu u imenu dane simbolične poveznice\n"
+"                                  komponentu u imenu danog simboličnog linka\n"
 "                                  bez potrebe da komponente postoje\n"
 "  -n, --no-newline              ne završi s novim retkom\n"
 "  -q, --quiet,\n"
@@ -8686,12 +8685,12 @@ msgid ""
 msgstr ""
 "  -e, --canonicalize-existing  sve komponente staze moraju postojati\n"
 "  -m, --canonicalize-missing   ni komponente ni direktorij ne treba postojati\n"
-"  -L, --logical                razriješi ‘..’ prije simboličnih poveznica\n"
-"  -P, --physical               riješi simbolične poveznice kako nailaze (zadano)\n"
+"  -L, --logical                razriješi ‘..’ prije simboličnih linkova\n"
+"  -P, --physical               riješi simbolične linkove kako nailaze (zadano)\n"
 "  -q, --quiet                  izostavi većinu poruka o greškama\n"
 "      --relative-to=DIR        ispiše razriješenu stazu relativno s DIR\n"
 "      --relative-base=DIR      ispiše apsolutnu stazu ako nije ispod DIR\n"
-"  -s, --strip, --no-symlinks   ne proširuje simbolične poveznice\n"
+"  -s, --strip, --no-symlinks   ne proširuje simbolične linkove\n"
 "  -z, --zero                   svaki redak završi s NUL a ne s novim retkom\n"
 
 #: src/relpath.c:130
@@ -8954,7 +8953,7 @@ msgstr "  -v, --verbose     ispiše dijagnostiku za svaki procesiran direktorij\
 #: src/rmdir.c:276
 #, c-format
 msgid "failed to remove %s: Symbolic link not followed"
-msgstr "nije uspjelo ukloniti %s: simbolična poveznica se ne slijedi"
+msgstr "nije uspjelo ukloniti %s: ne slijedi simbolični link"
 
 #: src/runcon.c:76
 #, c-format
@@ -9533,7 +9532,7 @@ msgstr ""
 "  -g, --general-numeric-sort  usporedba u skladu s općim\n"
 "                                numeričkim vrijednostima\n"
 "  -i, --ignore-nonprinting    uzima u obzir samo ispisive znakove\n"
-"  -M, --month-sort            poredak: (nepoznato) < ‘JAN’ < ... < „DEC“;\n"
+"  -M, --month-sort            poredak: (nepoznato) < ‘JAN’ < ... < „DEC”;\n"
 
 #: src/sort.c:444
 msgid "  -h, --human-numeric-sort    compare human readable numbers (e.g., 2K 1G)\n"
@@ -9849,7 +9848,7 @@ msgstr[2] "opcije ‘-%s’ su zanemarene"
 #: src/sort.c:2662
 #, c-format
 msgid "option '-r' only applies to last-resort comparison"
-msgstr "opcija ‘-r’ vrijedi samo za „last-resort“ usporedbu"
+msgstr "opcija ‘-r’ vrijedi samo za „last-resort” usporedbu"
 
 #: src/sort.c:2939 src/sort.c:2948
 msgid "write failed"
@@ -10300,7 +10299,7 @@ msgid ""
 "  -L, --dereference     follow links\n"
 "  -f, --file-system     display file system status instead of file status\n"
 msgstr ""
-"  -L, --dereference     slijedi simbolične poveznice\n"
+"  -L, --dereference     slijedi simbolične linkove\n"
 "  -f, --file-system     status datotečnog sustava umjesto datoteke\n"
 
 #: src/stat.c:1767
@@ -10397,11 +10396,11 @@ msgid ""
 "  %t   major device type in hex, for character/block device special files\n"
 "  %T   minor device type in hex, for character/block device special files\n"
 msgstr ""
-"  %h   broj čvrstih poveznica\n"
+"  %h   broj čvrstih linkova\n"
 "  %i   inode broj\n"
 "  %m   montirano na\n"
 "  %n   ime datoteke\n"
-"  %N   citirano ime datoteke (plus cilj sa simboličnom poveznicom)\n"
+"  %N   citirano ime datoteke (plus cilj sa simboličnim linkom)\n"
 "  %o   savjet za optimalnu veličinu U/I bloka\n"
 "  %s   ukupna veličina u bajtovima\n"
 "  %R   tip uređaja u hex obliku (st_rdev)\n"
@@ -10562,7 +10561,7 @@ msgstr ""
 "\n"
 "NAPOMENA: Ako sama NAREDBA prilagođuje svoje tokove (kao npr. ‘tee’), onda\n"
 "korespondentne postavke ‘stdbuf’ nemaju učinka. Osim toga, neki filtri\n"
-"(kao ‘dd’, „cat“, itd.) uopće ne koristi tokove za svoje U/I operacije, pa\n"
+"(kao ‘dd’, „cat”, itd.) uopće ne koristi tokove za svoje U/I operacije, pa\n"
 "prema tome postavke ‘stdbuf’ nemaju utjecaja na njih.\n"
 
 #: src/stdbuf.c:244
@@ -10975,11 +10974,11 @@ msgstr "   [-]echonl     odjekne novi redak čak ako ne odjekne ostale znakove\n
 
 #: src/stty.c:846
 msgid " * [-]echoprt    echo erased characters backward, between '\\' and '/'\n"
-msgstr " * [-]echoprt    odjekne izbrisani znak unatrag, između ‘\\’ i „/“\n"
+msgstr " * [-]echoprt    odjekne izbrisani znak unatrag, između ‘\\’ i „/”\n"
 
 #: src/stty.c:851
 msgid " * [-]extproc    enable \"LINEMODE\"; useful with high latency links\n"
-msgstr " * [-]extproc    omogući ‘LINEMODE’; korisno za poveznice s velikim zadrškom\n"
+msgstr " * [-]extproc    omogući ‘LINEMODE’; korisno za linkove s visokom latencijom\n"
 
 #: src/stty.c:856
 msgid " * [-]flusho     discard output\n"
@@ -11435,11 +11434,11 @@ msgstr ""
 "navedena i -R opcija. Ako je navedeno nekoliko ovih opcija, onda samo zadnja\n"
 "ima učinak a ostale su zanemarene. ‘%s’ je zadana postavka.\n"
 "\n"
-"  -H                     ako je argument na naredbenom retku simbolična\n"
-"                           poveznica na direktorij, proputuje ga\n"
-"  -L                     proputuje svaku pronađenu simboličnu poveznicu\n"
+"  -H                     ako je argument na naredbenom retku simbolični\n"
+"                           link na direktorij, proputuje ga\n"
+"  -L                     proputuje svaki pronađeni simbolični link\n"
 "                           na direktorije\n"
-"  -P                     ne proputuje simbolične poveznice\n"
+"  -P                     ne proputuje simbolične linkove\n"
 "\n"
 
 #: src/system.h:623
@@ -11687,7 +11686,7 @@ msgstr "ne može odrediti lokaciju %s, povratak na metodu anketiranja"
 #: src/tail.c:1000
 #, c-format
 msgid "%s has been replaced with an untailable symbolic link"
-msgstr "%s je zamijenjen sa simboličnom poveznicom koju je nemoguće tail"
+msgstr "%s je zamijenjen sa simboličnim linkom koji je nemoguće tail"
 
 #: src/tail.c:1015
 #, c-format
@@ -12081,7 +12080,7 @@ msgid ""
 "  -r FILE     FILE exists and the user has read access\n"
 "  -s FILE     FILE exists and has a size greater than zero\n"
 msgstr ""
-"  -L DATOTEKA     DATOTEKA postoji i simbolična poveznica je (isto kao -h)\n"
+"  -L DATOTEKA     DATOTEKA postoji i simbolični link je (isto kao -h)\n"
 "  -N FILE         DATOTEKA postoji i izmijenjena je od posljedneg čitanja\n"
 "  -O DATOTEKA     DATOTEKA postoji i vlasništvo je efektivnog korisnika ID\n"
 "  -p DATOTEKA     DATOTEKA postoji i imenovana cijev je\n"
@@ -12111,7 +12110,7 @@ msgid ""
 msgstr ""
 "\n"
 "Osim za -h i -L, svi testovi povezani s DATOTEKOM\n"
-"dereferenciraju simbolične poveznice.\n"
+"dereferenciraju simbolične linkove.\n"
 "Pazite, zagrade za ljuske moraju se maskirati (npr., s ‘\\’).\n"
 "INTEGER može također biti -l STRING koji procjenjuje duljinu STRING-a.\n"
 
@@ -12248,7 +12247,7 @@ msgid ""
 msgstr ""
 "\n"
 "TRAJANJE je decimalni broj s neobveznim sufiksom:\n"
-"‘s’ za sekunde (zadano), „m“ za minute, „h“ za sate ili „d“ za dane.\n"
+"‘s’ za sekunde (zadano), „m” za minute, „h” za sate ili „d” za dane.\n"
 "Trajanje 0 isključuje odgovarajući tajmout.\n"
 
 #: src/timeout.c:300
@@ -12377,9 +12376,9 @@ msgid ""
 "                         timestamps of a symlink)\n"
 "  -m                     change only the modification time\n"
 msgstr ""
-"  -h, --no-dereference   djeluje na svaku simboličnu poveznicu umjesto na\n"
+"  -h, --no-dereference   djeluje na svaki simbolični link umjesto na\n"
 "                           koju ciljanu datoteku (samo ako sustav može\n"
-"                           mijenjati vremenske oznake simboličnih poveznica)\n"
+"                           mijenjati vremenske oznake simboličnih linkova)\n"
 "  -m                     izmijeni samo vrijeme promijene datoteke\n"
 
 #: src/touch.c:240
@@ -12617,7 +12616,7 @@ msgid ""
 "when translating, the only character classes that may appear in\n"
 "string2 are 'upper' and 'lower'"
 msgstr ""
-"prilikom pretvaranja, samo ‘uper’ i „lower“ klase znakova\n"
+"prilikom pretvaranja, samo ‘uper’ i „lower” klase znakova\n"
 "smiju se pojaviti u stringu2"
 
 #: src/tr.c:1479
@@ -12715,8 +12714,8 @@ msgid ""
 msgstr ""
 "\n"
 "VELIČINA može imati jedan of ovih prefiksa sa značenjem:\n"
-"‘+’ poveća za, ‘-’ smanji za, „<“ ne više, „>“ ne manje,\n"
-"‘/’ zaokruži nadolje na višekratnik od, „%“ zaokruži nagore na višekratnik od.\n"
+"‘+’ poveća za, ‘-’ smanji za, „<” ne više, „>” ne manje,\n"
+"‘/’ zaokruži nadolje na višekratnik od, „%” zaokruži nagore na višekratnik od.\n"
 
 #: src/truncate.c:123
 #, c-format
@@ -13312,7 +13311,7 @@ msgstr ""
 "Ako DATOTEKA nije navedena, rabi se %s.\n"
 "Upotreba %s kao DATOTEKA je česta.\n"
 "Ako su navedeni oba ARG1 ARG2, onda -m smatra da su kombinacije\n"
-"‘am i’ ili „mom likes“ uobičajene.\n"
+"‘am i’ ili „mom likes” uobičajene.\n"
 
 #: src/whoami.c:43
 msgid ""
@@ -13560,12 +13559,12 @@ msgstr "Redovito ispisuje redak sa svim navedenim STRING(ovima) ili ‘y’.\n"
 #~ msgstr ""
 #~ "  -f                         popis svih zapisa po redoslijedu direktorija\n"
 #~ "  -F, --classify[=KAD]       pripoji na zapise znak (jedan od */=>@|)\n"
-#~ "                               KAD može biti ‘always’ (zadano), „auto“, ili\n"
+#~ "                               KAD može biti ‘always’ (zadano), „auto”, ili\n"
 #~ "                               ‘never’\n"
 #~ "      --file-type            isto kao -F, ali ne pripoji ‘*’\n"
-#~ "      --format=RIJEČ         RIJEČ je jedna od: ‘commas’ (-m), „accross“ ili\n"
-#~ "                               ‘horizontal’ (-x), „vertical“ (-C), „long“ ili\n"
-#~ "                               ‘verbose’ (-l), „single-column“ (-1)\n"
+#~ "      --format=RIJEČ         RIJEČ je jedna od: ‘commas’ (-m), „accross” ili\n"
+#~ "                               ‘horizontal’ (-x), „vertical” (-C), „long” ili\n"
+#~ "                               ‘verbose’ (-l), „single-column” (-1)\n"
 #~ "      --full-time            isto kao -l --time-style=full-iso\n"
 
 #~ msgid ""
@@ -13591,7 +13590,7 @@ msgstr "Redovito ispisuje redak sa svim navedenim STRING(ovima) ili ‘y’.\n"
 #~ "                               (default if omitted), 'auto', or 'never'\n"
 #~ msgstr ""
 #~ "      --hyperlink[=KAD]     hyperlink iz imena datoteke; KAD može biti\n"
-#~ "                               ‘always’ (zadano), „auto“ ili „never“\n"
+#~ "                               ‘always’ (zadano), „auto” ili „never”\n"
 
 #~ msgid "%s: file too long"
 #~ msgstr "%s: datoteka je prevelika"
