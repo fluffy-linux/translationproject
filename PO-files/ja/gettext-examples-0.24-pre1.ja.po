@@ -92,6 +92,7 @@ msgid "Whether to use XML markup in the text."
 msgstr "テキスト内でXMLマークアップを使うか否か"
 
 #: hello-c++20/hello.cc:50 hello-c++20/hello.cc:53
+#, c++-format
 msgid "This program is running as process number {:d}."
 msgstr "このプログラムはプロセス番号 {:d} で動いています."
 
@@ -127,6 +128,7 @@ msgid "This program is running as process number ~D."
 msgstr "このプログラムはプロセス番号 ~D で動いています."
 
 #: hello-rust/src/main.rs.in:31
+#, rust-format
 msgid "This program is running as process number {}."
 msgstr "このプログラムはプロセス番号 {} で動いています."
 
