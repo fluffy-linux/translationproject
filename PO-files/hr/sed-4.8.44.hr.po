@@ -4,13 +4,13 @@
 #
 # Denis Lacković <delacko@fly.srk.fer.hr>, 2002.
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2018, 2020, 2022.
+# Božidar Putanec <bozidarp@yahoo.com>, 2018-2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: sed-4.8.44\n"
 "Report-Msgid-Bugs-To: bug-gnu-utils@gnu.org\n"
 "POT-Creation-Date: 2022-10-16 22:21-0700\n"
-"PO-Revision-Date: 2024-03-31 18:45-0700\n"
+"PO-Revision-Date: 2025-03-26 20:59-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -72,7 +72,7 @@ msgstr "regularni izraz je preveliki"
 
 #: lib/dfa.c:1555
 msgid "stray \\ before unprintable character"
-msgstr "zalutala obratna kosa crta \\ ispred znaka koji se ne može ispisati"
+msgstr "zalutala obratna kosa crta \\ ispred znaka koji nije moguće ispisati"
 
 #: lib/dfa.c:1557
 msgid "stray \\ before white space"
@@ -134,7 +134,7 @@ msgstr "„"
 
 #: lib/quotearg.c:355
 msgid "'"
-msgstr "“"
+msgstr "”"
 
 #: lib/regcomp.c:122
 msgid "Success"
@@ -158,7 +158,7 @@ msgstr "Nevaljano ime klase znakova"
 
 #: lib/regcomp.c:137
 msgid "Trailing backslash"
-msgstr "Zaostala obratna kosa crta („\\“, backslash)"
+msgstr "Zaostala obratna kosa crta („\\”, backslash)"
 
 #: lib/regcomp.c:140
 msgid "Invalid back reference"
@@ -365,7 +365,7 @@ msgstr ""
 #: lib/version-etc.c:251
 #, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr "Prijavite greške „%s“ na <%s>\n"
+msgstr "Prijavite greške „%s” na <%s>\n"
 
 #: lib/version-etc.c:255 lib/version-etc.c:257
 #, c-format
@@ -379,11 +379,11 @@ msgstr "Općenita pomoć za korištenje GNU softvera: <%s>\n"
 
 #: sed/compile.c:146
 msgid "multiple `!'s"
-msgstr "višestruki „!“"
+msgstr "višestruki „!”"
 
 #: sed/compile.c:147
 msgid "unexpected `,'"
-msgstr "neočekivani „,“"
+msgstr "neočekivani „,”"
 
 #: sed/compile.c:149
 msgid "invalid usage of +N or ~N as first address"
@@ -391,11 +391,11 @@ msgstr "nevaljana uporaba +N ili ~N kao prve adrese"
 
 #: sed/compile.c:150
 msgid "unmatched `{'"
-msgstr "nesparena „{“"
+msgstr "nesparena „{”"
 
 #: sed/compile.c:151
 msgid "unexpected `}'"
-msgstr "neočekivana „}“"
+msgstr "neočekivana „}”"
 
 #: sed/compile.c:153
 msgid "extra characters after command"
@@ -403,15 +403,15 @@ msgstr "suvišni znakovi nakon naredbe"
 
 #: sed/compile.c:155
 msgid "expected \\ after `a', `c' or `i'"
-msgstr "očekivana je „\\“ nakon „a“, „c“ ili „i“"
+msgstr "očekivana je „\\” nakon „a”, „c” ili „i”"
 
 #: sed/compile.c:157
 msgid "`}' doesn't want any addresses"
-msgstr "„}“ ne prihvaća nikakve adrese"
+msgstr "„}” ne prihvaća nikakve adrese"
 
 #: sed/compile.c:159
 msgid ": doesn't want any addresses"
-msgstr "„:“ ne prihvaća nikakve adrese"
+msgstr "„:” ne prihvaća nikakve adrese"
 
 #: sed/compile.c:161
 msgid "comments don't accept any addresses"
@@ -419,7 +419,7 @@ msgstr "komentari ne prihvaćaju adrese"
 
 #: sed/compile.c:162
 msgid "missing command"
-msgstr "nedostaje naredba"
+msgstr "nema naredbe"
 
 #: sed/compile.c:163
 msgid "command only uses one address"
@@ -431,35 +431,35 @@ msgstr "nezavršeni regularni izraz adrese"
 
 #: sed/compile.c:166
 msgid "unterminated `s' command"
-msgstr "nezavršena naredba „s“"
+msgstr "nezavršena naredba „s”"
 
 #: sed/compile.c:167
 msgid "unterminated `y' command"
-msgstr "nezavršena naredba „y“"
+msgstr "nezavršena naredba „y”"
 
 #: sed/compile.c:168
 msgid "unknown option to `s'"
-msgstr "nepoznata opcija za „s“"
+msgstr "nepoznata opcija za „s”"
 
 #: sed/compile.c:170
 msgid "multiple `p' options to `s' command"
-msgstr "višestruke opcije „p“ za naredbu „s“"
+msgstr "višestruke opcije „p” za naredbu „s”"
 
 #: sed/compile.c:172
 msgid "multiple `g' options to `s' command"
-msgstr "višestruke opcije „g“ za naredbu „s“"
+msgstr "višestruke opcije „g” za naredbu „s”"
 
 #: sed/compile.c:174
 msgid "multiple number options to `s' command"
-msgstr "višestruke numeričke opcije za naredbu „s“"
+msgstr "višestruke numeričke opcije za naredbu „s”"
 
 #: sed/compile.c:176
 msgid "number option to `s' command may not be zero"
-msgstr "numerička opcija za naredbu „s“ ne smije biti nula"
+msgstr "numerička opcija za naredbu „s” ne smije biti nula"
 
 #: sed/compile.c:178
 msgid "strings for `y' command are different lengths"
-msgstr "stringovi za naredbu „y“ su različitih duljina"
+msgstr "stringovi za naredbu „y” su različitih duljina"
 
 #: sed/compile.c:180
 msgid "delimiter character is not a single-byte character"
@@ -476,7 +476,7 @@ msgstr "nevaljano korištenje adrese retka 0"
 #: sed/compile.c:185
 #, c-format
 msgid "unknown command: `%c'"
-msgstr "nepoznata naredba: „%c“"
+msgstr "nepoznata naredba: „%c”"
 
 #: sed/compile.c:187
 msgid "incomplete command"
@@ -492,7 +492,7 @@ msgstr "rekurzivno maskiranje (escaping) nakon \\c nije dopušteno"
 
 #: sed/compile.c:193
 msgid "e/r/w commands disabled in sandbox mode"
-msgstr "e/r/w naredbe su onemogućene u „sandbox“ modu (u izoliranom načinu rada)"
+msgstr "e/r/w naredbe su onemogućene u „sandbox” modu (u izoliranom načinu rada)"
 
 #: sed/compile.c:218
 #, c-format
@@ -507,7 +507,7 @@ msgstr "%s: -e izraz #%lu, znak %lu: %s\n"
 #: sed/compile.c:1625
 #, c-format
 msgid "can't find label for jump to `%s'"
-msgstr "nije moguće naći etiketu za skok na „%s“"
+msgstr "nije moguće naći etiketu za skok na „%s”"
 
 #: sed/execute.c:253 sed/execute.c:270
 #, c-format
@@ -550,11 +550,11 @@ msgstr "greška u potprocesu"
 
 #: sed/execute.c:1172
 msgid "option `e' not supported"
-msgstr "opcija „e“ nije podržana"
+msgstr "opcija „e” nije podržana"
 
 #: sed/execute.c:1350
 msgid "`e' command not supported"
-msgstr "naredba „e“ nije podržana"
+msgstr "naredba „e” nije podržana"
 
 #: sed/execute.c:1672
 msgid "no input files"
@@ -567,7 +567,7 @@ msgstr "nema prethodnog regularnog izraza"
 #: sed/regexp.c:125
 #, c-format
 msgid "invalid reference \\%d on `s' command's RHS"
-msgstr "nevaljana referencija \\%d na desnoj strani naredbe „s“"
+msgstr "nevaljana referencija \\%d na desnoj strani naredbe „s”"
 
 #: sed/regexp.c:196
 msgid "regex input buffer length larger than INT_MAX"
@@ -701,7 +701,7 @@ msgid ""
 "                 specify the desired line-wrap length for the `l' command\n"
 msgstr ""
 "  -l N, --line-length=BROJ         na poziciji BROJ prelama (mota) retke\n"
-"                                     za „l“ naredbu\n"
+"                                     za „l” naredbu\n"
 
 #: sed/sed.c:159
 #, c-format
@@ -806,7 +806,7 @@ msgstr "nije bilo moguće pridružiti na %s: %s"
 #: sed/utils.c:207
 #, c-format
 msgid "failed to set binary mode on '%s'"
-msgstr "nije uspjelo postaviti binarni način rada na „%s“"
+msgstr "nije uspjelo postaviti binarni način rada na „%s”"
 
 #: sed/utils.c:228
 #, c-format
@@ -837,25 +837,25 @@ msgid "cannot rename %s: %s"
 msgstr "ne može se preimenovati %s: %s"
 
 #~ msgid "%s: option '%s%s' is ambiguous\n"
-#~ msgstr "%s: opcija „%s%s“ nije jednoznačna\n"
+#~ msgstr "%s: opcija „%s%s” nije jednoznačna\n"
 
 #~ msgid "%s: option '%s%s' is ambiguous; possibilities:"
-#~ msgstr "%s: opcija „%s%s“ nije jednoznačna; mogućnosti su:"
+#~ msgstr "%s: opcija „%s%s” nije jednoznačna; mogućnosti su:"
 
 #~ msgid "%s: unrecognized option '%s%s'\n"
-#~ msgstr "%s: neprepoznata opcija „%s%s“\n"
+#~ msgstr "%s: neprepoznata opcija „%s%s”\n"
 
 #~ msgid "%s: option '%s%s' doesn't allow an argument\n"
-#~ msgstr "%s: opcija „%s%s“ ne dopušta argument\n"
+#~ msgstr "%s: opcija „%s%s” ne dopušta argument\n"
 
 #~ msgid "%s: option '%s%s' requires an argument\n"
-#~ msgstr "%s: opcija „%s%s“ zahtijeva argument\n"
+#~ msgstr "%s: opcija „%s%s” zahtijeva argument\n"
 
 #~ msgid "%s: invalid option -- '%c'\n"
-#~ msgstr "%s: nevaljana opcija -- „%c“\n"
+#~ msgstr "%s: nevaljana opcija -- „%c”\n"
 
 #~ msgid "%s: option requires an argument -- '%c'\n"
-#~ msgstr "%s: opcija zahtijeva argument -- „%c“\n"
+#~ msgstr "%s: opcija zahtijeva argument -- „%c”\n"
 
 #~ msgid "cannot remove %s: %s"
 #~ msgstr "nije moguće ukloniti %s: %s"
@@ -864,7 +864,7 @@ msgstr "ne može se preimenovati %s: %s"
 #~ msgstr "ne može se dobiti status od %s: %s"
 
 #~ msgid "%s home page: <https://www.gnu.org/software/%s/>\n"
-#~ msgstr "Web stranica od „%s“: <https://www.gnu.org/software/%s/>\n"
+#~ msgstr "Web stranica od „%s”: <https://www.gnu.org/software/%s/>\n"
 
 #~ msgid ""
 #~ "  -R, --regexp-perl\n"
