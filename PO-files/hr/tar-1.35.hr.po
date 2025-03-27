@@ -13,14 +13,14 @@
 #
 # Mirsad Todorovac <mtodorov_69@yahoo.com>, 2002.
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2016, 2017, 2018, 2019, 2022, 2023.
+# Božidar Putanec <bozidarp@yahoo.com>, 2016-2025.
 #: src/create.c:1579
 msgid ""
 msgstr ""
 "Project-Id-Version: tar-1.35\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2023-07-18 09:55+0300\n"
-"PO-Revision-Date: 2024-03-31 18:46-0700\n"
+"PO-Revision-Date: 2025-03-26 20:59-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -2158,7 +2158,7 @@ msgstr "STRING"
 
 #: src/tar.c:758
 msgid "backup before removal, override usual suffix ('~' unless overridden by environment variable SIMPLE_BACKUP_SUFFIX)"
-msgstr "osiguranje (sigurnosne kopije) napravi prije uklanjanja, redefina uobičajeni sufiks „~” (ako nije promijenjen varijablom okoline SIMPLE_BACKUP_SUFFIX) u STRING"
+msgstr "osiguranje (sigurnosne kopije) napravi prije uklanjanja, redefina uobičajeni sufiks „~” (ako nije promijenjen varijablom okruženja SIMPLE_BACKUP_SUFFIX) u STRING"
 
 #: src/tar.c:762
 msgid "File name transformations:"
@@ -2553,7 +2553,7 @@ msgstr "Deformirana opcija pax: %s"
 #: src/xheader.c:206
 #, c-format
 msgid "Pattern %s cannot be used"
-msgstr "Uzorak %s se ne može rabiti"
+msgstr "Uzorak %s nije moguće rabiti"
 
 #: src/xheader.c:220
 #, c-format
@@ -2708,7 +2708,7 @@ msgstr "ODMAK"
 
 #: tests/genfile.c:149
 msgid "Seek to the given offset before writing data"
-msgstr "Otiđe na zadani odmak prije pisanja podataka"
+msgstr "Otiđe na zadani pomak prije pisanja podataka"
 
 #: tests/genfile.c:152
 msgid "Suppress non-fatal diagnostic messages"
