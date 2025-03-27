@@ -4,13 +4,13 @@
 #
 # Hrvoje Niksic <hniksic@xemacs.org>, 2002.
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2016, 2018, 2019, 2020, 2022, 2023.
+# Božidar Putanec <bozidarp@yahoo.com>, 2016-2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: make 4.4.0.90\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2023-01-14 14:08-0500\n"
-"PO-Revision-Date: 2024-03-31 18:44-0700\n"
+"PO-Revision-Date: 2025-03-27 09:03-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: src/ar.c:47
 #, c-format
 msgid "attempt to use unsupported feature: '%s'"
-msgstr "pokušaj upotrebe nepodržane značajke „%s“"
+msgstr "pokušaj upotrebe nepodržane značajke „%s”"
 
 #: src/ar.c:127
 #, c-format
@@ -34,22 +34,22 @@ msgstr "u VMS sustavu nije moguće promijeniti vremenske oznake članu arhive"
 #: src/ar.c:151
 #, c-format
 msgid "touch: Archive '%s' does not exist"
-msgstr "touch: arhiva „%s“ ne postoji"
+msgstr "touch: arhiva „%s” ne postoji"
 
 #: src/ar.c:154
 #, c-format
 msgid "touch: '%s' is not a valid archive"
-msgstr "touch: „%s“ nije valjana arhiva"
+msgstr "touch: „%s” nije valjana arhiva"
 
 #: src/ar.c:161
 #, c-format
 msgid "touch: Member '%s' does not exist in '%s'"
-msgstr "touch: član arhive „%s“ ne postoji u arhivi „%s“"
+msgstr "touch: član arhive „%s” ne postoji u arhivi „%s”"
 
 #: src/ar.c:168
 #, c-format
 msgid "touch: Bad return code from ar_member_touch on '%s'"
-msgstr "touch: ar_member_touch() na „%s“ nije uspjela"
+msgstr "touch: ar_member_touch() na „%s” nije uspjela"
 
 #: src/arscan.c:130
 #, c-format
@@ -64,7 +64,7 @@ msgstr "lbr$ini_control() nije uspjela, status = %d"
 #: src/arscan.c:261
 #, c-format
 msgid "unable to open library '%s' to lookup member status %d"
-msgstr "nemoguće je otvoriti biblioteku „%s“ radi uvida u status člana %d"
+msgstr "nemoguće je otvoriti biblioteku „%s” radi uvida u status člana %d"
 
 #: src/arscan.c:402 src/arscan.c:406
 #, c-format
@@ -74,7 +74,7 @@ msgstr "Nevaljani %s za arhivu %s, član %s"
 #: src/arscan.c:995
 #, c-format
 msgid "Member '%s'%s: %ld bytes at %ld (%ld).\n"
-msgstr "Član arhive „%s“%s: %ld bajtova na adresi %ld (%ld).\n"
+msgstr "Član arhive „%s”%s: %ld bajtova na adresi %ld (%ld).\n"
 
 #: src/arscan.c:996
 msgid " (name might be truncated)"
@@ -102,22 +102,22 @@ msgstr "*** Prekid.\n"
 #: src/commands.c:629
 #, c-format
 msgid "*** [%s] Archive member '%s' may be bogus; not deleted"
-msgstr "*** [%s] Član arhive „%s“ je možda lažan; nije izbrisan"
+msgstr "*** [%s] Član arhive „%s” je možda lažan; nije izbrisan"
 
 #: src/commands.c:633
 #, c-format
 msgid "*** Archive member '%s' may be bogus; not deleted"
-msgstr "*** Član arhive „%s“ je možda lažan; nije izbrisan"
+msgstr "*** Član arhive „%s” je možda lažan; nije izbrisan"
 
 #: src/commands.c:647
 #, c-format
 msgid "*** [%s] Deleting file '%s'"
-msgstr "*** [%s] Brišemo datoteku „%s“"
+msgstr "*** [%s] Brišemo datoteku „%s”"
 
 #: src/commands.c:649
 #, c-format
 msgid "*** Deleting file '%s'"
-msgstr "*** Brišemo datoteku „%s“"
+msgstr "*** Brišemo datoteku „%s”"
 
 #: src/commands.c:685
 msgid "#  recipe to execute"
@@ -130,7 +130,7 @@ msgstr " (ugrađeno):"
 #: src/commands.c:690
 #, c-format
 msgid " (from '%s', line %lu):\n"
-msgstr " (iz „%s“, redak %lu):\n"
+msgstr " (iz „%s”, redak %lu):\n"
 
 #: src/dir.c:1108
 msgid ""
@@ -210,7 +210,7 @@ msgstr "%s:%lu: %s se ne proširuje rekurzivno za izvoz ljuskinoj funkciji\n"
 #: src/expand.c:149
 #, c-format
 msgid "Recursive variable '%s' references itself (eventually)"
-msgstr "Rekurzivna varijabla „%s“ pokazuje na samu sebe (eventualno)"
+msgstr "Rekurzivna varijabla „%s” pokazuje na samu sebe (eventualno)"
 
 #: src/expand.c:295
 #, c-format
@@ -220,37 +220,37 @@ msgstr "nedovršena referencija na varijablu"
 #: src/file.c:269
 #, c-format
 msgid "Recipe was specified for file '%s' at %s:%lu,"
-msgstr "Recept za datoteku „%s“ bio je naveden u %s:%lu,"
+msgstr "Recept za datoteku „%s” bio je naveden u %s:%lu,"
 
 #: src/file.c:274
 #, c-format
 msgid "Recipe for file '%s' was found by implicit rule search,"
-msgstr "Recept za datoteku „%s“ je pronađen u implicitnim pravilima,"
+msgstr "Recept za datoteku „%s” je pronađen u implicitnim pravilima,"
 
 #: src/file.c:278
 #, c-format
 msgid "but '%s' is now considered the same file as '%s'."
-msgstr "ali se „%s“ sada smatra istom datotekom kao i „%s“."
+msgstr "ali se „%s” sada smatra istom datotekom kao i „%s”."
 
 #: src/file.c:281
 #, c-format
 msgid "Recipe for '%s' will be ignored in favor of the one for '%s'."
-msgstr "Recept za „%s“ je zanemaren u korist ovog za „%s“."
+msgstr "Recept za „%s” je zanemaren u korist ovog za „%s”."
 
 #: src/file.c:301
 #, c-format
 msgid "can't rename single-colon '%s' to double-colon '%s'"
-msgstr "ne može se preimenovati „%s“ s jednom dvotočkom u „%s“ s dvije dvotočke"
+msgstr "ne može se preimenovati „%s” s jednom dvotočkom u „%s” s dvije dvotočke"
 
 #: src/file.c:307
 #, c-format
 msgid "can't rename double-colon '%s' to single-colon '%s'"
-msgstr "ne može se preimenovati „%s“ s dvije dvotočke u „%s“ s jednom dvotočkom"
+msgstr "ne može se preimenovati „%s” s dvije dvotočke u „%s” s jednom dvotočkom"
 
 #: src/file.c:404
 #, c-format
 msgid "*** Deleting intermediate file '%s'"
-msgstr "*** Brišemo privremenu posredničku datoteku „%s“"
+msgstr "*** Brišemo privremenu posredničku datoteku „%s”"
 
 #: src/file.c:408
 #, c-format
@@ -317,7 +317,7 @@ msgstr "#  Nije provedeno pretraživanje pomoću implicitnih pravila."
 #: src/file.c:1104
 #, c-format
 msgid "#  Implicit/static pattern stem: '%s'\n"
-msgstr "#  Implicitni ili statički korijen uzorka: „%s“\n"
+msgstr "#  Implicitni ili statički korijen uzorka: „%s”\n"
 
 #: src/file.c:1106
 msgid "#  File is an intermediate prerequisite."
@@ -405,7 +405,7 @@ msgstr ""
 #: src/file.c:1193
 #, c-format
 msgid "%s: Field '%s' not cached: %s"
-msgstr "%s: Polja „%s“ nema u predmemoriji (nije cached): %s"
+msgstr "%s: Polja „%s” nema u predmemoriji (nije cached): %s"
 
 #: src/function.c:779 src/function.c:1284
 #, c-format
@@ -424,7 +424,7 @@ msgstr "nevaljani prvi argument za ‘word’ funkciju"
 #: src/function.c:803
 #, c-format
 msgid "first argument to 'word' function must be greater than 0"
-msgstr "prvi argument funkcije „word“ mora biti veći od 0"
+msgstr "prvi argument funkcije „word” mora biti veći od 0"
 
 #: src/function.c:821
 msgid "invalid first argument to 'wordlist' function"
@@ -495,7 +495,7 @@ msgstr "file: previše argumenata"
 #: src/function.c:2404
 #, c-format
 msgid "file: Failed to open '%s': %s\n"
-msgstr "file: nije moguće otvoriti „%s“: %s\n"
+msgstr "file: nije moguće otvoriti „%s”: %s\n"
 
 #: src/function.c:2422
 #, c-format
@@ -515,12 +515,12 @@ msgstr "nedovoljan broj argumenata (%u) za funkciju ‘%s’"
 #: src/function.c:2564
 #, c-format
 msgid "unimplemented on this platform: function '%s'"
-msgstr "nije realizirana na ovoj platformi: funkcija „%s“"
+msgstr "nije realizirana na ovoj platformi: funkcija „%s”"
 
 #: src/function.c:2633
 #, c-format
 msgid "unterminated call to function '%s': missing '%c'"
-msgstr "nedovršeni poziv funkciji „%s“: nedostaje %c"
+msgstr "nedovršeni poziv funkciji „%s”: nema %c"
 
 #: src/function.c:2816
 #, c-format
@@ -550,32 +550,32 @@ msgstr "Nevaljani maksimalni broj argumenata (%u) za funkciju %s"
 #: src/getopt.c:663
 #, c-format
 msgid "%s: option '%s' is ambiguous\n"
-msgstr "%s: opcija „%s“ dvosmislena\n"
+msgstr "%s: opcija „%s” dvosmislena\n"
 
 #: src/getopt.c:688
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: opcija „--%s“ ne dopušta argument\n"
+msgstr "%s: opcija „--%s” ne dopušta argument\n"
 
 #: src/getopt.c:693
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: opcija „%c%s“ ne dopušta argument\n"
+msgstr "%s: opcija „%c%s” ne dopušta argument\n"
 
 #: src/getopt.c:710 src/getopt.c:883
 #, c-format
 msgid "%s: option '%s' requires an argument\n"
-msgstr "%s: opcija „%s“ zahtijeva argument\n"
+msgstr "%s: opcija „%s” zahtijeva argument\n"
 
 #: src/getopt.c:739
 #, c-format
 msgid "%s: unrecognized option '--%s'\n"
-msgstr "%s: neprepoznata opcija „--%s“\n"
+msgstr "%s: neprepoznata opcija „--%s”\n"
 
 #: src/getopt.c:743
 #, c-format
 msgid "%s: unrecognized option '%c%s'\n"
-msgstr "%s: neprepoznata opcija „%c%s“\n"
+msgstr "%s: neprepoznata opcija „%c%s”\n"
 
 # * 1003.2 specifies the format of this message.  */
 # 	      fprintf (stderr, _("%s: illegal option -- %c\n"),
@@ -597,22 +597,22 @@ msgstr "%s: opcija zahtijeva argument -- %c\n"
 #: src/getopt.c:849
 #, c-format
 msgid "%s: option '-W %s' is ambiguous\n"
-msgstr "%s: opcija „-W %s“ je dvosmislena\n"
+msgstr "%s: opcija „-W %s” je dvosmislena\n"
 
 #: src/getopt.c:867
 #, c-format
 msgid "%s: option '-W %s' doesn't allow an argument\n"
-msgstr "%s: opcija „-W %s“ ne dopušta argument\n"
+msgstr "%s: opcija „-W %s” ne dopušta argument\n"
 
 #: src/guile.c:58
 #, c-format
 msgid "guile: Expanding '%s'\n"
-msgstr "guile: Proširivanje „%s“\n"
+msgstr "guile: Proširivanje „%s”\n"
 
 #: src/guile.c:74
 #, c-format
 msgid "guile: Evaluating '%s'\n"
-msgstr "guile: Procjenjivanje „%s“\n"
+msgstr "guile: Procjenjivanje „%s”\n"
 
 #: src/hash.c:50
 #, c-format
@@ -638,12 +638,12 @@ msgstr "Sudari=%lu/%lu=%.0f%%"
 #: src/implicit.c:41
 #, c-format
 msgid "Looking for an implicit rule for '%s'.\n"
-msgstr "Potraga za implicitnim pravilom za „%s“.\n"
+msgstr "Potraga za implicitnim pravilom za „%s”.\n"
 
 #: src/implicit.c:57
 #, c-format
 msgid "Looking for archive-member implicit rule for '%s'.\n"
-msgstr "Tražimo implicitno pravilo za člana arhive za „%s“\n"
+msgstr "Tražimo implicitno pravilo za člana arhive za „%s”\n"
 
 #: src/implicit.c:61
 #, c-format
@@ -668,7 +668,7 @@ msgstr "Pravilo uzorka ‘%s’ s iskušano s osnovom ‘%.*s’.\n"
 #: src/implicit.c:506
 #, c-format
 msgid "Stem too long: '%s%.*s'.\n"
-msgstr "Predugi korijen uzorka: „%s%.*s“.\n"
+msgstr "Predugi korijen uzorka: „%s%.*s”.\n"
 
 #: src/implicit.c:768
 #, c-format
@@ -683,12 +683,12 @@ msgstr "Odbijamo pravilo ‘%s’ s nemogućim implicitnim zahtjevom ‘%s’.\n
 #: src/implicit.c:787
 #, c-format
 msgid "Trying rule prerequisite '%s'.\n"
-msgstr "Isprobavamo pravilo preduvjeta „%s“.\n"
+msgstr "Isprobavamo pravilo preduvjeta „%s”.\n"
 
 #: src/implicit.c:788
 #, c-format
 msgid "Trying implicit prerequisite '%s'.\n"
-msgstr "Isprobavamo implicitni preduvjet „%s“.\n"
+msgstr "Isprobavamo implicitni preduvjet „%s”.\n"
 
 #: src/implicit.c:827
 #, c-format
@@ -713,42 +713,42 @@ msgstr "Preduvjet ‘%s’ pravila ‘%s’ ne ispunjava ono što bi trebalo pos
 #: src/implicit.c:870
 #, c-format
 msgid "Found prerequisite '%s' as VPATH '%s'.\n"
-msgstr "Nađeni preduvjet „%s“ kao VPATH „%s“\n"
+msgstr "Nađeni preduvjet „%s” kao VPATH „%s”\n"
 
 #: src/implicit.c:885
 #, c-format
 msgid "Looking for a rule with explicit file '%s'.\n"
-msgstr "Potraga za pravilom s eksplicitnom datotekom „%s“.\n"
+msgstr "Potraga za pravilom s eksplicitnom datotekom „%s”.\n"
 
 #: src/implicit.c:886
 #, c-format
 msgid "Looking for a rule with intermediate file '%s'.\n"
-msgstr "Potraga za pravilom s posredničkom datotekom „%s“.\n"
+msgstr "Potraga za pravilom s posredničkom datotekom „%s”.\n"
 
 #: src/implicit.c:927
 #, c-format
 msgid "Rejecting rule '%s' due to impossible prerequisite '%s'.\n"
-msgstr "Odbijamo pravilo „%s“ s nemogućim implicitnim zahtjevom „%s“.\n"
+msgstr "Odbijamo pravilo „%s” s nemogućim implicitnim zahtjevom „%s”.\n"
 
 #: src/implicit.c:931
 #, c-format
 msgid "Not found '%s'.\n"
-msgstr "Nije pronađeno „%s“.\n"
+msgstr "Nije pronađeno „%s”.\n"
 
 #: src/implicit.c:1144
 #, c-format
 msgid "Found implicit rule '%s' for '%s'.\n"
-msgstr "Nađeno je implicitno pravilo „%s“ za „%s“.\n"
+msgstr "Nađeno je implicitno pravilo „%s” za „%s”.\n"
 
 #: src/implicit.c:1151
 #, c-format
 msgid "Searching for a compatibility rule for '%s'.\n"
-msgstr "Potraga za kompatibilnim pravilom za „%s“.\n"
+msgstr "Potraga za kompatibilnim pravilom za „%s”.\n"
 
 #: src/implicit.c:1157
 #, c-format
 msgid "No implicit rule found for '%s'.\n"
-msgstr "Nijedno implicitno pravilo nije nađeno za „%s“.\n"
+msgstr "Nijedno implicitno pravilo nije nađeno za „%s”.\n"
 
 #: src/job.c:377
 msgid "Cannot create a temporary file"
@@ -848,22 +848,22 @@ msgstr "Dobiveni je token za potomka (dijete-procesa) %p (%s).\n"
 #: src/job.c:1905
 #, c-format
 msgid "%s: update target '%s' due to: target is .PHONY"
-msgstr "%s: osvježava cilj „%s“ za potrebe: cilj je .PHONY"
+msgstr "%s: osvježava cilj „%s” za potrebe: cilj je .PHONY"
 
 #: src/job.c:1909
 #, c-format
 msgid "%s: update target '%s' due to: target does not exist"
-msgstr "%s: osvježava cilj „%s“ za potrebe: cilj ne postoji"
+msgstr "%s: osvježava cilj „%s” za potrebe: cilj ne postoji"
 
 #: src/job.c:1916 src/job.c:1944
 #, c-format
 msgid "%s: update target '%s' due to: %s"
-msgstr "%s: osvježava cilj „%s“ za potrebe: %s"
+msgstr "%s: osvježava cilj „%s” za potrebe: %s"
 
 #: src/job.c:1932
 #, c-format
 msgid "%s: update target '%s' due to: unknown reasons"
-msgstr "%s: osvježava cilj „%s“ zbog: nepoznati razlozi"
+msgstr "%s: osvježava cilj „%s” zbog: nepoznati razlozi"
 
 #: src/job.c:2140
 #, c-format
@@ -921,7 +921,7 @@ msgstr "spawnvpe: može biti da u okolini nema dovoljno prostora"
 #: src/job.c:2913
 #, c-format
 msgid "$SHELL changed (was '%s', now '%s')\n"
-msgstr "Varijabla $SHELL se promijenila (prije „%s“, sada „%s“)\n"
+msgstr "Varijabla $SHELL se promijenila (prije „%s”, sada „%s”)\n"
 
 #: src/job.c:3356 src/job.c:3560
 #, c-format
@@ -959,7 +959,7 @@ msgstr "Otvaranje globalne tablice simbola nije uspio: %s"
 #: src/load.c:93
 #, c-format
 msgid "Loaded shared object %s\n"
-msgstr "Učitan dijeljeni (zajednički) objekt %s\n"
+msgstr "Učitan je zajednički objekt %s\n"
 
 #: src/load.c:99
 #, c-format
@@ -989,7 +989,7 @@ msgstr "Istovar (unloading) dijeljenog (shared) objekta %s\n"
 #: src/load.c:251
 #, c-format
 msgid "The 'load' operation is not supported on this platform"
-msgstr "Operacija „load“ nije podržana na ovoj platformi"
+msgstr "Operacija „load” nije podržana na ovoj platformi"
 
 #: src/main.c:319
 msgid "Options:\n"
@@ -1025,7 +1025,7 @@ msgid ""
 "                              Environment variables override makefiles.\n"
 msgstr ""
 "  -e, --environment-overrides\n"
-"                              Redefinira makefile s varijablama okružja\n"
+"                              Redefinira makefile s varijablama okruženja\n"
 
 #: src/main.c:334
 msgid "  -E STRING, --eval=STRING    Evaluate STRING as a makefile statement.\n"
@@ -1113,7 +1113,7 @@ msgstr ""
 
 #: src/main.c:366
 msgid "  -p, --print-data-base       Print make's internal database.\n"
-msgstr "  -p, --print-data-base       ispiše internu bazu podataka „make“ programa\n"
+msgstr "  -p, --print-data-base       ispiše internu bazu podataka „make” programa\n"
 
 #: src/main.c:368
 msgid "  -q, --question              Run no recipe; exit status says if up to date.\n"
@@ -1156,7 +1156,7 @@ msgstr ""
 #: src/main.c:384
 msgid "  -t, --touch                 Touch targets instead of remaking them.\n"
 msgstr ""
-"  -t, --touch                 „touch“ (osvježi vrijeme) ciljeve umjesto\n"
+"  -t, --touch                 „touch” (osvježi vrijeme) ciljeve umjesto\n"
 "                                da ih iznova napravi\n"
 
 #: src/main.c:386
@@ -1200,12 +1200,12 @@ msgstr "prazni string nije valjano ime datoteke"
 #: src/main.c:841
 #, c-format
 msgid "unknown debug level specification '%s'"
-msgstr "nepoznata specifikacija „%s“ za razinu dijagnostike"
+msgstr "nepoznata specifikacija „%s” za razinu dijagnostike"
 
 #: src/main.c:881
 #, c-format
 msgid "unknown output-sync type '%s'"
-msgstr "nepoznati tip sinkronizacije izlaza „%s“"
+msgstr "nepoznati tip sinkronizacije izlaza „%s”"
 
 #: src/main.c:905
 #, c-format
@@ -1287,7 +1287,7 @@ msgstr "unlink (privremena datoteka): "
 msgid "warning: jobserver unavailable: using -j1.  Add '+' to parent make rule."
 msgstr ""
 "upozorenje: jobserver nije dostupni: koristi se -j1.\n"
-"Dodajte „+“ make pravilu pretka (parent)"
+"Dodajte „+” make pravilu pretka (parent)"
 
 #: src/main.c:1856
 #, c-format
@@ -1332,7 +1332,7 @@ msgstr "Koristimo %s kontroler jobserver-a\n"
 #: src/main.c:2268
 #, c-format
 msgid "Using output-sync mutex %s\n"
-msgstr "Koristimo zaključavanje (mutex) izlazne sinkronizacije „%s“\n"
+msgstr "Koristimo zaključavanje (mutex) izlazne sinkronizacije „%s”\n"
 
 #: src/main.c:2273
 #, c-format
@@ -1352,7 +1352,7 @@ msgstr "Osvježavamo Makefiles....\n"
 #: src/main.c:2415
 #, c-format
 msgid "Makefile '%s' might loop; not remaking it.\n"
-msgstr "Makefile „%s“ bi mogao ući u petlju; ne obnavljamo ga.\n"
+msgstr "Makefile „%s” bi mogao ući u petlju; ne obnavljamo ga.\n"
 
 #: src/main.c:2461 src/main.c:2517 src/output.c:523
 #, c-format
@@ -1367,17 +1367,17 @@ msgstr "%s: učitavanje nije uspjelo"
 #: src/main.c:2546
 #, c-format
 msgid "Failed to remake makefile '%s'."
-msgstr "Nije uspjelo preraditi Makefile „%s“."
+msgstr "Nije uspjelo preraditi Makefile „%s”."
 
 #: src/main.c:2566
 #, c-format
 msgid "Included makefile '%s' was not found."
-msgstr "„%s“ uključeni Makefile nije pronađen."
+msgstr "„%s” uključeni Makefile nije pronađen."
 
 #: src/main.c:2570
 #, c-format
 msgid "Makefile '%s' was not found"
-msgstr "Makefile „%s“ nije pronađen"
+msgstr "Makefile „%s” nije pronađen"
 
 #: src/main.c:2718
 #, c-format
@@ -1441,7 +1441,7 @@ msgid ""
 "%sThis is free software: you are free to change and redistribute it.\n"
 "%sThere is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
-"%sLicenca GPLv3+: GNU GPL v. 3 ili kasnija <https://gnu.org/licenses/gpl.html>\n"
+"%sLicencija GPLv3+: GNU GPL v. 3 ili kasnija <https://gnu.org/licenses/gpl.html>\n"
 "%sOvo je slobodan softver: slobodno ga mijenjajte i dijelite.\n"
 "%sNEMA JAMSTVA do granica dopuštenih zakonom.\n"
 
@@ -1452,7 +1452,7 @@ msgid ""
 "# Make data base, printed on %s"
 msgstr ""
 "\n"
-"# „Make“ baza podataka, ispisana na %s"
+"# „Make” baza podataka, ispisana na %s"
 
 #: src/main.c:3762
 #, c-format
@@ -1461,7 +1461,7 @@ msgid ""
 "# Finished Make data base on %s\n"
 msgstr ""
 "\n"
-"# Gotova „Make“ baza podataka je spremna na %s\n"
+"# Gotova „Make” baza podataka je spremna na %s\n"
 
 #: src/misc.c:601
 #, c-format
@@ -1476,7 +1476,7 @@ msgstr "%s vrijednost %s: nije direktorij"
 #: src/misc.c:612
 #, c-format
 msgid "using default temporary directory '%s'"
-msgstr "rabimo zadani (default) privremeni direktorij „%s“"
+msgstr "rabimo zadani (default) privremeni direktorij „%s”"
 
 #: src/misc.c:654
 #, c-format
@@ -1521,12 +1521,12 @@ msgstr "%s: Izlazimo iz nepoznatog direktorija\n"
 #: src/output.c:100
 #, c-format
 msgid "%s: Entering directory '%s'\n"
-msgstr "%s: Ulazimo u direktorij „%s“\n"
+msgstr "%s: Ulazimo u direktorij „%s”\n"
 
 #: src/output.c:102
 #, c-format
 msgid "%s: Leaving directory '%s'\n"
-msgstr "%s: Izlazimo iz direktorija „%s“\n"
+msgstr "%s: Izlazimo iz direktorija „%s”\n"
 
 #: src/output.c:106
 #, c-format
@@ -1541,12 +1541,12 @@ msgstr "%s[%u]: Izlazimo iz nepoznatog direktorija\n"
 #: src/output.c:111
 #, c-format
 msgid "%s[%u]: Entering directory '%s'\n"
-msgstr "%s[%u]: Ulazimo u direktorij „%s“\n"
+msgstr "%s[%u]: Ulazimo u direktorij „%s”\n"
 
 #: src/output.c:113
 #, c-format
 msgid "%s[%u]: Leaving directory '%s'\n"
-msgstr "%s[%u]: Izlazimo iz direktorija „%s“\n"
+msgstr "%s[%u]: Izlazimo iz direktorija „%s”\n"
 
 #: src/output.c:252
 #, c-format
@@ -1575,7 +1575,7 @@ msgstr "nije moguće otvoriti jobserver %s: %s"
 #: src/posixos.c:193 src/w32/w32os.c:219
 #, c-format
 msgid "unknown jobserver auth style '%s'"
-msgstr "nepoznati stil autorizacije jobservera „%s“"
+msgstr "nepoznati stil autorizacije jobservera „%s”"
 
 # In computer science, an anonymous pipe is a simplex FIFO communication channel that may be used for one-way interprocess communication (IPC). An implementation is often integrated into the operating system's file IO subsystem.
 #: src/posixos.c:197
@@ -1594,7 +1594,7 @@ msgstr "inicijalizacija cijevi jobservera"
 #: src/posixos.c:273
 #, c-format
 msgid "invalid --jobserver-auth string '%s'"
-msgstr "nevaljani string „%s“ za --jobserver-auth"
+msgstr "nevaljani string „%s” za --jobserver-auth"
 
 # Što bi ovdje trebalo ići?
 # bp: iz izvornog kȏda, možda ovo.
@@ -1618,7 +1618,7 @@ msgstr "čitanje iz cijevi poslova"
 #: src/posixos.c:684
 #, c-format
 msgid "invalid --sync-mutex string '%s'"
-msgstr "nevaljani string „%s“ za --sync-mutex"
+msgstr "nevaljani string „%s” za --sync-mutex"
 
 #: src/posixos.c:693
 #, c-format
@@ -1628,7 +1628,7 @@ msgstr "nije moguće otvoriti bravu (mutex) %s za izlaznu sinkronizaciju: %s"
 #: src/posixos.c:867
 #, c-format
 msgid "Cannot open '%s' with O_TMPFILE: %s.\n"
-msgstr "Nije moguće otvoriti „%s“ s O_TMPFILE: %s.\n"
+msgstr "Nije moguće otvoriti „%s” s O_TMPFILE: %s.\n"
 
 #: src/read.c:184
 #, c-format
@@ -1638,7 +1638,7 @@ msgstr "Čitamo Makefiles...\n"
 #: src/read.c:322
 #, c-format
 msgid "Reading makefile '%s'"
-msgstr "Čitamo Makefile „%s“"
+msgstr "Čitamo Makefile „%s”"
 
 #: src/read.c:324
 #, c-format
@@ -1663,7 +1663,7 @@ msgstr " (bez proširenja znaka ~)"
 #: src/read.c:657
 #, c-format
 msgid "Skipping UTF-8 BOM in makefile '%s'\n"
-msgstr "Preskačemo UTF-8 BOM u Makefile „%s“\n"
+msgstr "Preskačemo UTF-8 BOM u Makefile „%s”\n"
 
 #: src/read.c:660
 #, c-format
@@ -1693,7 +1693,7 @@ msgstr "nema separatora (Mislili ste TAB umjesto 8 razmaka?)"
 #: src/read.c:1156
 #, c-format
 msgid "missing separator (ifeq/ifneq must be followed by whitespace)"
-msgstr "nedostaje separatora (iza ifeq/ifneq mora slijediti bjelina)"
+msgstr "nema separatora (iza ifeq/ifneq mora slijediti bjelina)"
 
 # Grr, živjela engleska množina!  I što sad da radim s onim %s-om?
 #: src/read.c:1159
@@ -1714,12 +1714,12 @@ msgstr "nekoliko uzoraka za cilj"
 #: src/read.c:1309
 #, c-format
 msgid "target pattern contains no '%%'"
-msgstr "uzorak cilja ne sadrži „%%“"
+msgstr "uzorak cilja ne sadrži „%%”"
 
 #: src/read.c:1352
 #, c-format
 msgid "missing 'endif'"
-msgstr "nema „endif“"
+msgstr "nema „endif”"
 
 #: src/read.c:1391 src/read.c:1436 src/variable.c:1753
 #, c-format
@@ -1729,32 +1729,32 @@ msgstr "prazno ime varijable"
 #: src/read.c:1426
 #, c-format
 msgid "extraneous text after 'define' directive"
-msgstr "suvišni tekst nakon direktive „define“"
+msgstr "suvišni tekst nakon direktive „define”"
 
 #: src/read.c:1451
 #, c-format
 msgid "missing 'endef', unterminated 'define'"
-msgstr "nema „endef“, nedovršeni „define“"
+msgstr "nema „endef”, nedovršeni „define”"
 
 #: src/read.c:1479
 #, c-format
 msgid "extraneous text after 'endef' directive"
-msgstr "suvišni tekst nakon direktive „endef“"
+msgstr "suvišni tekst nakon direktive „endef”"
 
 #: src/read.c:1551
 #, c-format
 msgid "extraneous text after '%s' directive"
-msgstr "suvišni tekst nakon „%s“ direktive"
+msgstr "suvišni tekst nakon „%s” direktive"
 
 #: src/read.c:1552
 #, c-format
 msgid "extraneous '%s'"
-msgstr "suvišni „%s“"
+msgstr "suvišni „%s”"
 
 #: src/read.c:1580
 #, c-format
 msgid "only one 'else' per conditional"
-msgstr "samo jedan „else“ po uvjetnom izrazu"
+msgstr "samo jedan „else” po uvjetnom izrazu"
 
 #: src/read.c:1856
 #, c-format
@@ -1794,28 +1794,28 @@ msgstr "pomiješana su implicitna i normalna pravila"
 #: src/read.c:2158
 #, c-format
 msgid "target '%s' doesn't match the target pattern"
-msgstr "cilj „%s“ se ne podudara s uzorkom cilja"
+msgstr "cilj „%s” se ne podudara s uzorkom cilja"
 
 #: src/read.c:2173 src/read.c:2224
 #, c-format
 msgid "target file '%s' has both : and :: entries"
-msgstr "ciljna datoteka „%s“ sadrži „:“ i  „::“"
+msgstr "ciljna datoteka „%s” sadrži „:” i  „::”"
 
 #: src/read.c:2179
 #, c-format
 msgid "target '%s' given more than once in the same rule"
-msgstr "cilj „%s“ je naveden više od jedanput u istom pravilu"
+msgstr "cilj „%s” je naveden više od jedanput u istom pravilu"
 
 # prebrisati> brišući ukloniti, brišući poništiti, prebrisati dio teksta, odbaciti
 #: src/read.c:2189
 #, c-format
 msgid "warning: overriding recipe for target '%s'"
-msgstr "upozorenje: zanemaren je recept za cilj „%s“"
+msgstr "upozorenje: zanemaren je recept za cilj „%s”"
 
 #: src/read.c:2192
 #, c-format
 msgid "warning: ignoring old recipe for target '%s'"
-msgstr "upozorenje: zanemarujemo stari recept za cilj „%s“"
+msgstr "upozorenje: zanemarujemo stari recept za cilj „%s”"
 
 #: src/read.c:2311
 #, c-format
@@ -1826,7 +1826,7 @@ msgstr "*** pomiješana su implicitna i normalna pravila: to je zastarjela sinta
 #: src/read.c:2328
 #, c-format
 msgid "warning: overriding group membership for target '%s'"
-msgstr "upozorenje: zanemareno je članstvo grupe za cilj „%s“"
+msgstr "upozorenje: zanemareno je članstvo grupe za cilj „%s”"
 
 #: src/read.c:2686
 #, c-format
@@ -1837,79 +1837,79 @@ msgstr "upozorenje: pročitan je NUL znak; ostatak retka je zanemaren"
 #: src/remake.c:97
 #, c-format
 msgid "warning: pattern recipe did not update peer target '%s'."
-msgstr "upozorenje: recept uzorka nije ažurirao cilj partnera „%s“."
+msgstr "upozorenje: recept uzorka nije ažurirao cilj partnera „%s”."
 
 #: src/remake.c:254
 #, c-format
 msgid "Nothing to be done for '%s'."
-msgstr "Ništa se ne može napraviti za„%s”."
+msgstr "Ništa nije moguće napraviti za„%s”."
 
 #: src/remake.c:255
 #, c-format
 msgid "'%s' is up to date."
-msgstr "„%s“ je osvježena."
+msgstr "„%s” je osvježena."
 
 #: src/remake.c:350
 #, c-format
 msgid "Pruning file '%s'.\n"
-msgstr "Čistimo datoteku „%s“.\n"
+msgstr "Čistimo datoteku „%s”.\n"
 
 #: src/remake.c:416
 #, c-format
 msgid "%sNo rule to make target '%s', needed by '%s'%s"
-msgstr "%sNema pravila za izradu cilja „%s“ koji je potreban za „%s“%s"
+msgstr "%sNema pravila za izradu cilja „%s” koji je potreban za „%s”%s"
 
 #: src/remake.c:426
 #, c-format
 msgid "%sNo rule to make target '%s'%s"
-msgstr "%sNema pravila za izradu cilja „%s“%s"
+msgstr "%sNema pravila za izradu cilja „%s”%s"
 
 #: src/remake.c:452
 #, c-format
 msgid "Considering target file '%s'.\n"
-msgstr "Razmatramo ciljnu datoteku „%s“.\n"
+msgstr "Razmatramo ciljnu datoteku „%s”.\n"
 
 #: src/remake.c:459
 #, c-format
 msgid "Recently tried and failed to update file '%s'.\n"
-msgstr "Nedavni pokušaj osvježavanja datoteke „%s“ nije uspio.\n"
+msgstr "Nedavni pokušaj osvježavanja datoteke „%s” nije uspio.\n"
 
 #: src/remake.c:471
 #, c-format
 msgid "File '%s' was considered already.\n"
-msgstr "Datoteka „%s“ je već bila razmatrana.\n"
+msgstr "Datoteka „%s” je već bila razmatrana.\n"
 
 #: src/remake.c:481
 #, c-format
 msgid "Still updating file '%s'.\n"
-msgstr "Datoteka „%s“ se još uvijek osvježava.\n"
+msgstr "Datoteka „%s” se još uvijek osvježava.\n"
 
 #: src/remake.c:484
 #, c-format
 msgid "Finished updating file '%s'.\n"
-msgstr "Osvježavanje datoteke „%s“ je završeno.\n"
+msgstr "Osvježavanje datoteke „%s” je završeno.\n"
 
 #: src/remake.c:513
 #, c-format
 msgid "File '%s' does not exist.\n"
-msgstr "Datoteka „%s“ ne postoji.\n"
+msgstr "Datoteka „%s” ne postoji.\n"
 
 #: src/remake.c:520
 #, c-format
 msgid "*** Warning: .LOW_RESOLUTION_TIME file '%s' has a high resolution time stamp"
 msgstr ""
-"*** Upozorenje: .LOW_RESOLUTION_TIME datoteka „%s“ ima\n"
+"*** Upozorenje: .LOW_RESOLUTION_TIME datoteka „%s” ima\n"
 "                vremenski žig visoke rezolucije"
 
 #: src/remake.c:538
 #, c-format
 msgid "Grouped target peer '%s' of file '%s' does not exist.\n"
-msgstr "Grupni ciljni partner „%s“ iz datoteke „%s“ ne postoji.\\\n"
+msgstr "Grupni ciljni partner „%s” iz datoteke „%s” ne postoji.\\\n"
 
 #: src/remake.c:558
 #, c-format
 msgid "Using default recipe for '%s'.\n"
-msgstr "Rabimo zadani recept za „%s“.\n"
+msgstr "Rabimo zadani recept za „%s”.\n"
 
 #: src/remake.c:603 src/remake.c:1166
 #, c-format
@@ -1919,22 +1919,22 @@ msgstr "Kružna ovisnost %s <- %s je odbačena."
 #: src/remake.c:737
 #, c-format
 msgid "Finished prerequisites of target file '%s'.\n"
-msgstr "Preduvjeti za ciljnu datoteku „%s“ su ispunjeni.\n"
+msgstr "Preduvjeti za ciljnu datoteku „%s” su ispunjeni.\n"
 
 #: src/remake.c:743
 #, c-format
 msgid "The prerequisites of '%s' are being made.\n"
-msgstr "Preduvjeti za „%s“ se izrađuju.\n"
+msgstr "Preduvjeti za „%s” se izrađuju.\n"
 
 #: src/remake.c:757
 #, c-format
 msgid "Giving up on target file '%s'.\n"
-msgstr "Odustajemo od izrade ciljne datoteke „%s“.\n"
+msgstr "Odustajemo od izrade ciljne datoteke „%s”.\n"
 
 #: src/remake.c:762
 #, c-format
 msgid "Target '%s' not remade because of errors."
-msgstr "Cilj „%s“ nije bio ponovno izrađen zbog grešaka."
+msgstr "Cilj „%s” nije bio ponovno izrađen zbog grešaka."
 
 # Nisam siguran da sam ovo ispravno shvatio.
 # bp:  impose a specific ordering on the rules to be invoked without forcing the target to be updated if one of those rules is executed
@@ -1942,97 +1942,97 @@ msgstr "Cilj „%s“ nije bio ponovno izrađen zbog grešaka."
 #, c-format
 msgid "Prerequisite '%s' is order-only for target '%s'.\n"
 msgstr ""
-"Preduvjet „%s“ je order-only za cilj „%s“.\n"
-"order-only: make neće preraditi (remake) „normalne“ recepte ako se izmjeni\n"
+"Preduvjet „%s” je order-only za cilj „%s”.\n"
+"order-only: make neće preraditi (remake) „normalne” recepte ako se izmjeni\n"
 "vremenski žig na order-only cilju (normalno, make uvijek preradi\n"
 "recepte kad god se izmjeni vremenski žig na bilo kojem objektu).\n"
 
 #: src/remake.c:819
 #, c-format
 msgid "Prerequisite '%s' of target '%s' does not exist.\n"
-msgstr "Preduvjet „%s“ za cilj „%s“ ne postoji.\n"
+msgstr "Preduvjet „%s” za cilj „%s” ne postoji.\n"
 
 #: src/remake.c:824
 #, c-format
 msgid "Prerequisite '%s' is newer than target '%s'.\n"
-msgstr "Preduvjet „%s“ je noviji nego od od njega ovisni cilj „%s“.\n"
+msgstr "Preduvjet „%s” je noviji nego od od njega ovisni cilj „%s”.\n"
 
 #: src/remake.c:827
 #, c-format
 msgid "Prerequisite '%s' is older than target '%s'.\n"
-msgstr "Preduvjet „%s“ je stariji nego od od njega ovisni cilj „%s“.\n"
+msgstr "Preduvjet „%s” je stariji nego od od njega ovisni cilj „%s”.\n"
 
 #: src/remake.c:845
 #, c-format
 msgid "Target '%s' is double-colon and has no prerequisites.\n"
-msgstr "Cilj „%s“ je s dvije dvotočke i nema preduvjeta.\n"
+msgstr "Cilj „%s” je s dvije dvotočke i nema preduvjeta.\n"
 
 #: src/remake.c:852
 #, c-format
 msgid "No recipe for '%s' and no prerequisites actually changed.\n"
-msgstr "Nema recepta za „%s“ i zapravo nijedan od preduvjeta nije promijenjen.\n"
+msgstr "Nema recepta za „%s” i zapravo nijedan od preduvjeta nije promijenjen.\n"
 
 #: src/remake.c:857
 #, c-format
 msgid "Making '%s' due to always-make flag.\n"
-msgstr "„%s“ se zbog zastavice always-make ponovno izrađuje.\n"
+msgstr "„%s” se zbog zastavice always-make ponovno izrađuje.\n"
 
 #: src/remake.c:865
 #, c-format
 msgid "No need to remake target '%s'"
-msgstr "Nema potrebe preraditi cilj „%s“"
+msgstr "Nema potrebe preraditi cilj „%s”"
 
 #: src/remake.c:867
 #, c-format
 msgid "; using VPATH name '%s'"
-msgstr "; rabimo naziv „%s“ za VPATH"
+msgstr "; rabimo naziv „%s” za VPATH"
 
 #: src/remake.c:892
 #, c-format
 msgid "Must remake target '%s'.\n"
-msgstr "Cilj „%s“ se mora preraditi.\n"
+msgstr "Cilj „%s” se mora preraditi.\n"
 
 #: src/remake.c:898
 #, c-format
 msgid "  Ignoring VPATH name '%s'.\n"
-msgstr "  Zanemareni naziv „%s“ za VPATH.\n"
+msgstr "  Zanemareni naziv „%s” za VPATH.\n"
 
 #: src/remake.c:907
 #, c-format
 msgid "Recipe of '%s' is being run.\n"
-msgstr "Recept za „%s“ se upravo izvršava.\n"
+msgstr "Recept za „%s” se upravo izvršava.\n"
 
 #: src/remake.c:914
 #, c-format
 msgid "Failed to remake target file '%s'.\n"
-msgstr "Prerada ciljne datoteke „%s“ nije uspjela.\n"
+msgstr "Prerada ciljne datoteke „%s” nije uspjela.\n"
 
 #: src/remake.c:917
 #, c-format
 msgid "Successfully remade target file '%s'.\n"
-msgstr "Ciljna datoteka „%s“ je uspješno prerađena.\n"
+msgstr "Ciljna datoteka „%s” je uspješno prerađena.\n"
 
 #: src/remake.c:920
 #, c-format
 msgid "Target file '%s' needs to be remade under -q.\n"
-msgstr "Ciljnu datoteku „%s“ treba ponovno preraditi s opcijom -q.\n"
+msgstr "Ciljnu datoteku „%s” treba ponovno preraditi s opcijom -q.\n"
 
 #: src/remake.c:1119
 #, c-format
 msgid "Using default commands for '%s'.\n"
-msgstr "Rabimo zadane naredbe za „%s“.\n"
+msgstr "Rabimo zadane naredbe za „%s”.\n"
 
 #: src/remake.c:1502
 #, c-format
 msgid "Warning: File '%s' has modification time %s s in the future"
 msgstr ""
-"Upozorenje: Vremenski žig modifikacije datoteke „%s“ je za\n"
+"Upozorenje: Vremenski žig modifikacije datoteke „%s” je za\n"
 "            %s sekunda u budućnosti"
 
 #: src/remake.c:1750
 #, c-format
 msgid ".LIBPATTERNS element '%s' is not a pattern"
-msgstr ".LIBPATTERNS član „%s“ nije uzorak"
+msgstr ".LIBPATTERNS član „%s” nije uzorak"
 
 # Customs' is literal (a library name). See README.customs.
 #: src/remote-cstms.c:118
@@ -2077,7 +2077,7 @@ msgstr "PROGRAMSKA GREŠKA: pogrešna num_pattern_rules!  %u != %u"
 #: src/shuffle.c:93
 #, c-format
 msgid "invalid shuffle mode: %s: '%s'"
-msgstr "nevaljani način miješanja: %s: „%s“"
+msgstr "nevaljani način miješanja: %s: „%s”"
 
 #: src/signame.c:84
 msgid "unknown signal"
@@ -2333,7 +2333,7 @@ msgstr "‘override’ direktiva (direktiva s redefinicijama)"
 #: src/variable.c:1872
 #, c-format
 msgid " (from '%s', line %lu)"
-msgstr " (iz „%s“, redak %lu)"
+msgstr " (iz „%s”, redak %lu)"
 
 # https://en.wikipedia.org/wiki/Hash_table
 #: src/variable.c:1935
@@ -2418,7 +2418,7 @@ msgstr ""
 
 #: src/vpath.c:599
 msgid "# No 'vpath' search paths."
-msgstr "# Nema „vpath“ staze za pretraživanje."
+msgstr "# Nema „vpath” staze za pretraživanje."
 
 #: src/vpath.c:601
 #, c-format
@@ -2427,7 +2427,7 @@ msgid ""
 "# %u 'vpath' search paths.\n"
 msgstr ""
 "\n"
-"# %u „vpath“ staza za pretraživanje.\n"
+"# %u „vpath” staza za pretraživanje.\n"
 
 #: src/vpath.c:604
 msgid ""
@@ -2435,7 +2435,7 @@ msgid ""
 "# No general ('VPATH' variable) search path."
 msgstr ""
 "\n"
-"# Nema opće („VPATH“ varijable) staze za pretraživanje."
+"# Nema opće („VPATH” varijable) staze za pretraživanje."
 
 #: src/vpath.c:610
 msgid ""
@@ -2444,7 +2444,7 @@ msgid ""
 "# "
 msgstr ""
 "\n"
-"# Općenita („VPATH“ varijabla) staza za pretraživanje:\n"
+"# Općenita („VPATH” varijabla) staza za pretraživanje:\n"
 "# "
 
 # If the ‘-j’ option is followed by an integer, this is the number of recipes to execute at once; this is called the number of job slots. If there is nothing looking like an integer after the ‘-j’ option, there is no limit on the number of job slots. The default number of job slots is one, which means serial execution (one thing at a time).
@@ -2461,7 +2461,7 @@ msgstr "stvaranje semafora jobservera: (Greška %ld: %s)"
 #: src/w32/w32os.c:259
 #, c-format
 msgid "unable to open jobserver semaphore '%s': (Error %ld: %s)"
-msgstr "nije moguće otvoriti semafor jobservera „%s“: (Greška %ld: %s)"
+msgstr "nije moguće otvoriti semafor jobservera „%s”: (Greška %ld: %s)"
 
 #: src/w32/w32os.c:264
 #, c-format
@@ -2539,7 +2539,7 @@ msgstr "nevaljano zaključavanje (mutex) sinkronizacije izlaza: %s"
 #~ msgstr "Nepoznata greška %d"
 
 #~ msgid "Warning: File '%s' has modification time in the future"
-#~ msgstr "Upozorenje: Vremenska oznaka modifikacije datoteke „%s“ je u budućnosti"
+#~ msgstr "Upozorenje: Vremenska oznaka modifikacije datoteke „%s” je u budućnosti"
 
 #~ msgid " terminal."
 #~ msgstr " terminal."
@@ -2650,7 +2650,7 @@ msgstr "nevaljano zaključavanje (mutex) sinkronizacije izlaza: %s"
 #~ msgstr "neispravna direktiva `override'"
 
 #~ msgid "no file name for `%sinclude'"
-#~ msgstr "nedostaje naziv spisa za `%sinclude'"
+#~ msgstr "nema naziv spisa za `%sinclude'"
 
 #~ msgid "target `%s' leaves prerequisite pattern empty"
 #~ msgstr "meta `%s' ostavlja prerekvizitni uzorak praznim"
