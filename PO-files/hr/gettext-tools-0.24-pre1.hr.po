@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gettext-tools-0.24-pre1\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2025-02-19 07:43+0100\n"
-"PO-Revision-Date: 2025-02-20 17:20-0800\n"
+"PO-Revision-Date: 2025-03-26 20:56-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -856,11 +856,11 @@ msgstr "greška"
 
 #: src/if-error.c:52
 msgid "<unformattable warning message>"
-msgstr "<poruka upozorenja koja se ne može oblikovati>"
+msgstr "<poruka upozorenja koju nije moguće oblikovati>"
 
 #: src/if-error.c:53
 msgid "<unformattable error message>"
-msgstr "poruka upozorenja koja se ne može oblikovati"
+msgstr "poruka upozorenja koju nije moguće oblikovati"
 
 #: src/its.c:96
 #, c-format
@@ -1431,7 +1431,7 @@ msgstr "  ref.pot                     referencije na izvorne podatke\n"
 #: src/msgcmp.c:239 src/msgmerge.c:613
 #, c-format
 msgid "Operation modifiers:\n"
-msgstr "Operativni modifikatori\n"
+msgstr "Operacijski modifikatori\n"
 
 #: src/msgcmp.c:241 src/msgmerge.c:615
 #, c-format
@@ -2314,7 +2314,7 @@ msgid ""
 "This is necessary so you can test your translations.\n"
 msgstr ""
 "Vaš lokalitet (jezik) nije određeno.\n"
-"Postavite vašu LANG varijablu okružja, kako je opisano u\n"
+"Postavite vašu LANG varijablu okruženja, kako je opisano u\n"
 "<%s>.\n"
 "To je neophodno za provjeru vaših prijevoda.\n"
 
@@ -3524,12 +3524,12 @@ msgstr "previše otvorenih zagrada"
 #: src/x-c.c:1134
 #, c-format
 msgid "hexadecimal escape sequence in wide string literal is unsupported; use \\u instead of \\x if you meant to designate a Unicode character"
-msgstr "maskirani (escaped) heksadecimalni niz nije podržan u širokom literalnom stringu; koristite \\u umjesto \\x ako ste mislili označiti Unicode znak"
+msgstr "maskirani (escaped) heksadekadski niz nije podržan u širokom literalnom stringu; koristite \\u umjesto \\x ako ste mislili označiti Unicode znak"
 
 #: src/x-c.c:1138 src/x-scheme.c:776 src/x-scheme.c:836 src/x-vala.c:564
 #, c-format
 msgid "hexadecimal escape sequence out of range"
-msgstr "maskirani (escaped) heksadecimalni niz je izvan opsega"
+msgstr "maskirani (escaped) heksadekadski niz je izvan opsega"
 
 #: src/x-c.c:1228 src/x-csharp.c:1341 src/x-python.c:1137 src/x-tcl.c:804
 #: src/x-vala.c:650
@@ -4382,7 +4382,7 @@ msgstr "(izlaz is ‘%s’)"
 #: src/x-rust.c:478
 #, c-format
 msgid "invalid escape sequence in string"
-msgstr "maskirani (escaped) heksadecimalni niz je izvan opsega"
+msgstr "maskirani (escaped) heksadekadski niz je izvan opsega"
 
 #: src/x-rust.c:608 src/x-rust.c:646 src/x-rust.c:791 src/x-rust.c:881
 #: src/x-rust.c:1086
@@ -4403,17 +4403,17 @@ msgstr "String pri \"%s\" nije kodiran u UTF-8."
 #: src/x-scheme.c:769
 #, c-format
 msgid "hexadecimal escape sequence with too few digits"
-msgstr "maskirani (escaped) heksadecimalni niz je izvan opsega"
+msgstr "maskirani (escaped) heksadekadski niz je izvan opsega"
 
 #: src/x-scheme.c:829
 #, c-format
 msgid "hexadecimal escape sequence with no digits"
-msgstr "maskirani (escaped) heksadecimalni niz je izvan opsega"
+msgstr "maskirani (escaped) heksadekadski niz je izvan opsega"
 
 #: src/x-scheme.c:844
 #, c-format
 msgid "hexadecimal escape sequence not terminated with a semicolon"
-msgstr "maskirani (escaped) heksadecimalni niz nije završen s točka-zarezom"
+msgstr "maskirani (escaped) heksadekadski niz nije završen s točka-zarezom"
 
 #: src/x-scheme.c:1475
 #, c-format
@@ -4621,7 +4621,7 @@ msgstr "neočekivani kraj dokumenta: %s"
 
 #, c-format
 #~ msgid "C# compiler not found, try installing mono or dotnet"
-#~ msgstr "C# kompajler nije nađen, instalirajte mono, ili dotnet"
+#~ msgstr "C# kompilator nije nađen, instalirajte mono, ili dotnet"
 
 #, c-format
 #~ msgid "failed to copy '%s' to '%s'"
@@ -4737,7 +4737,7 @@ msgstr "neočekivani kraj dokumenta: %s"
 
 #, c-format
 #~ msgid "Java compiler not found, try setting $JAVAC"
-#~ msgstr "Java kompajler nije nađen; pokušajte postaviti $JAVAC"
+#~ msgstr "Java kompilator nije nađen; pokušajte postaviti $JAVAC"
 
 #, c-format
 #~ msgid "Java virtual machine not found, try setting $JAVA"
