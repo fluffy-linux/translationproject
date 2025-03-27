@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: coreutils 9.6-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2025-01-13 14:11+0000\n"
-"PO-Revision-Date: 2025-02-19 17:12-0800\n"
+"PO-Revision-Date: 2025-03-26 20:56-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -596,7 +596,7 @@ msgstr "Nepoznati signal %d"
 
 #: lib/unicodeio.c:102
 msgid "iconv function not usable"
-msgstr "iconv() funkcija se ne može koristiti"
+msgstr "funkcija iconv() nije upotrebljiva"
 
 #: lib/unicodeio.c:104
 msgid "iconv function not available"
@@ -1900,7 +1900,7 @@ msgstr "greška pri pisanju %s"
 #: src/copy.c:457
 #, c-format
 msgid "overflow reading %s"
-msgstr "prelijevanje pri čitanju %s"
+msgstr "preljev pri čitanju %s"
 
 #: src/copy.c:605
 #, c-format
@@ -2728,12 +2728,12 @@ msgstr ""
 "\n"
 "Svaki UZORAK može biti jedan od:\n"
 "  CIJELI_BROJ        do navedenog retka, isključivši ovaj red\n"
-"  /REGEXP/[ODMAK]    kopira do, isključivši podudarni red\n"
-"  %REGEXP%[ODMAK]    preskoči do, isključivši podudarni red\n"
+"  /REGEXP/[POMAK]    kopira do, isključivši podudarni red\n"
+"  %REGEXP%[POMAK]    preskoči do, isključivši podudarni red\n"
 "  {CIJELI_BROJ}      ponovi prethodni uzorak navedeni broj puta\n"
 "  {*}                ponovi prethodni uzorak što je moguće više puta\n"
 "\n"
-"ODMAK retka je pozitivni cijeli broj kojeg možete predznačiti s ‘+’ ili ‘-’.\n"
+"POMAK retka je pozitivni cijeli broj kojeg možete predznačiti s ‘+’ ili ‘-’.\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cut.c:42 src/paste.c:50
@@ -3114,7 +3114,7 @@ msgid ""
 "O to use the locale's alternate numeric symbols if available.\n"
 msgstr ""
 "\n"
-"Iza bilo koje zastavice dolazi neobvezni decimalni broj za širinu polja;\n"
+"Iza bilo koje zastavice dolazi neobvezni dekadski broj za širinu polja;\n"
 "zatim neobvezni modifikator, ‘E’ ili „O”\n"
 "E: rabiti lokaliziranu alternativu ako postoji, ili\n"
 "O: rabiti lokalizirane numeričke simbole ako postoje.\n"
@@ -3550,7 +3550,7 @@ msgstr "prekoračenje odmaka (offset) za vrijeme čitanja datoteke %s"
 
 #: src/dd.c:1944
 msgid "warning: invalid file offset after failed read"
-msgstr "upozorenje: nevaljani odmak (offset) datoteke nakon neuspjelog čitanja"
+msgstr "upozorenje: nevaljani pomak (offset) datoteke nakon neuspjelog čitanja"
 
 #: src/dd.c:1948
 msgid "cannot work around kernel bug after all"
@@ -3564,7 +3564,7 @@ msgstr "postavljanje zastavice (flags) za %s"
 #: src/dd.c:2128
 #, c-format
 msgid "%s: cannot skip to specified offset"
-msgstr "%s: ne može skočiti na dati odmak"
+msgstr "%s: ne može skočiti na dati pomak"
 
 #: src/dd.c:2359 src/dd.c:2517
 #, c-format
@@ -3589,7 +3589,7 @@ msgstr "nije uspjelo otvoriti %s"
 #: src/dd.c:2480
 #, c-format
 msgid "offset too large: cannot truncate to a length of seek=%jd (%td-byte) blocks"
-msgstr "preveliki odmak: ne može skratiti na seek=%jd (%td-bajt) blokova"
+msgstr "preveliki pomak: ne može skratiti na seek=%jd (%td-bajt) blokova"
 
 #: src/dd.c:2540 src/dd.c:2546
 #, c-format
@@ -3809,7 +3809,7 @@ msgid ""
 "  -p, --print-database        output defaults\n"
 "      --print-ls-colors       output fully escaped colors for display\n"
 msgstr ""
-"Predoči naredbe za postavljanje varijable okoline LS_COLORS.\n"
+"Predoči naredbe za postavljanje varijable okruženja LS_COLORS.\n"
 "\n"
 "Određivanje formata izlaza:\n"
 "  -b, --sh, --bourne-shell    Bourne shell kodovi za LS_COLORS\n"
@@ -3865,7 +3865,7 @@ msgstr "operandi datoteka ne smiju se kombinirati s --print-database (-p)"
 #: src/dircolors.c:508
 #, c-format
 msgid "no SHELL environment variable, and no shell type option given"
-msgstr "nije zadana ni varijabla okoline LJUSKE ni vrsta interpretatora (shell)"
+msgstr "nije zadana ni varijabla okruženja LJUSKE ni vrsta interpretatora (shell)"
 
 #: src/dirname.c:49
 #, c-format
@@ -4168,7 +4168,7 @@ msgid ""
 "  \\xHH    byte with hexadecimal value HH (1 to 2 digits)\n"
 msgstr ""
 "  \\0NNN   bajt s oktalnom vrijednošću NNN (1 do 3 znamenke)\n"
-"  \\xHH    bajt s heksadecimalnom vrijednošću HH (1 do 2 znamenke)\n"
+"  \\xHH    bajt s heksadekadskom vrijednošću NHH (1 do 2 znamenke)\n"
 
 #: src/echo.c:84
 msgid ""
@@ -4192,7 +4192,7 @@ msgstr "Uporaba: %s [OPCIJA]... [-] [IME=VRIJEDNOST]... [NAREDBA [ARG]...]\n"
 
 #: src/env.c:116
 msgid "Set each NAME to VALUE in the environment and run COMMAND.\n"
-msgstr "Postavi svako IME okoline na VRIJEDNOST i izvrši NAREDBU.\n"
+msgstr "Postavi svako IME okruženja na VRIJEDNOST i izvrši NAREDBU.\n"
 
 #: src/env.c:122
 msgid "  -a, --argv0=ARG      pass ARG as the zeroth argument of COMMAND\n"
@@ -4891,12 +4891,12 @@ msgstr "%s: datoteka se previše skratila"
 #: src/head.c:230 src/tail.c:492
 #, c-format
 msgid "%s: cannot seek to offset %jd"
-msgstr "%s: ne može skočiti na odmak (offset) %jd"
+msgstr "%s: ne može skočiti na pomak (offset) %jd"
 
 #: src/head.c:231 src/tail.c:496
 #, c-format
 msgid "%s: cannot seek to relative offset %jd"
-msgstr "%s: ne može skočiti na relativni odmak %jd"
+msgstr "%s: ne može skočiti na relativni pomak %jd"
 
 #: src/head.c:904 src/split.c:1412 src/split.c:1420 src/tail.c:2230
 msgid "invalid number of lines"
@@ -4919,7 +4919,7 @@ msgid ""
 "\n"
 msgstr ""
 "Uporaba: %s [OPCIJA]\n"
-"Ispiše numerički (heksadecimalni) identifikator trenutnog računala.\n"
+"Ispiše numerički (heksadekadski) identifikator trenutnog računala.\n"
 "\n"
 
 #: src/hostname.c:58
@@ -6085,7 +6085,7 @@ msgstr ""
 "                               RIJEČ može biti: literal, locale, shell,\n"
 "                               shell-always, shell-escape,\n"
 "                               shell-escape-always, c, escape\n"
-"                               (poništi varijablu okoline QUOTING_STYLE)\n"
+"                               (poništi varijablu okruženja QUOTING_STYLE)\n"
 
 #: src/ls.c:5518
 msgid ""
@@ -6203,7 +6203,7 @@ msgstr ""
 "FORMAT se interpretira kao u date(1). Ako je FORMAT: FORMAT1<newline>FORMAT2,\n"
 "onda se FORMAT1 primijeni na starije, a FORMAT2 na novije datoteke.\n"
 "TIME_STYLE s prefiksom ‘posix-’ ima efekta samo izvan POSIX locale.\n"
-"Također, TIME_STYLE varijabla okoline postavlja zadani stil za upotrebu.\n"
+"Također, TIME_STYLE varijabla okruženja postavlja zadani stil za upotrebu.\n"
 
 #: src/ls.c:5581
 msgid ""
@@ -6224,7 +6224,7 @@ msgstr ""
 "\n"
 "Upotreba boje za razlikovanje vrsta datoteka je onemogućena (zadano) ili s\n"
 "opcijom --color=never. S opcijom --color=auto, ls emitira boju samo kad je\n"
-"standardni izlaz spojen na terminal. S varijablom okoline LS_COLORS mogu se\n"
+"standardni izlaz spojen na terminal. S varijablom okruženja LS_COLORS mogu se\n"
 "promijeniti postavke. Rabite dircolors(1) naredbu da ih postavite.\n"
 
 #: src/ls.c:5592
@@ -6300,7 +6300,7 @@ msgstr "  -a, --algorithm=TIP  odabrati tip sažetka; v. DIGEST (sažetak) niže
 
 #: src/digest.c:455
 msgid "      --base64          emit base64-encoded digests, not hexadecimal\n"
-msgstr "  -b, --base64         kontrolne sume kodirati u base64, ne heksadecimalno\n"
+msgstr "  -b, --base64         kontrolne sume kodirati u base64, ne heksadekadsko\n"
 
 #: src/digest.c:463
 msgid "  -b, --binary          read in binary mode (default unless reading tty stdin)\n"
@@ -6324,7 +6324,7 @@ msgstr ""
 
 #: src/digest.c:482
 msgid "      --raw             emit a raw binary digest, not hexadecimal\n"
-msgstr "      --raw             kontrolne sume kodirati binarno, ne heksadecimalno\n"
+msgstr "      --raw             kontrolne sume kodirati binarno, ne heksadekadsko\n"
 
 #: src/digest.c:486
 msgid "      --tag             create a BSD-style checksum (the default)\n"
@@ -6694,8 +6694,8 @@ msgstr ""
 "\n"
 "Kad je TIP ‘b’, „c” ili „u” obvezno se moraju specificirati i MAJOR (glavni)\n"
 "i MINOR (podređeni), a kad je TIP ‘p’ oba se moraju ispustiti. Ako MAJOR ili\n"
-"MINOR započinju s 0x ili 0X interpretira se kao heksadecimalni, a ako\n"
-"započinju s 0 interpretira se kao oktalni, a inače kao decimalni broj.\n"
+"MINOR započinju s 0x ili 0X interpretira se kao heksadekadski, a ako\n"
+"započinju s 0 interpretira se kao oktalni, a inače kao dekadski broj.\n"
 "TIP može biti:\n"
 
 #: src/mknod.c:78
@@ -7257,7 +7257,7 @@ msgid ""
 "      --format=FORMAT  use printf style floating-point FORMAT;\n"
 "                         see FORMAT below for details\n"
 msgstr ""
-"      --format=FORMAT  rabi FORMAT u prinf stilu za decimalne brojeve;\n"
+"      --format=FORMAT  rabi FORMAT u prinf stilu za dekadske brojeve;\n"
 "                         v. niže za FORMAT\n"
 
 #: src/numfmt.c:895
@@ -7499,7 +7499,7 @@ msgstr "specifikacija formata %s nema %% direktive"
 #: src/numfmt.c:1076
 #, c-format
 msgid "--format padding overriding --padding"
-msgstr "ispuna iz opcije --format zamijenila je značenje --padding"
+msgstr "dopuna iz opcije --format zamijenila je značenje --padding"
 
 #: src/numfmt.c:1094 src/seq.c:266
 #, c-format
@@ -7639,7 +7639,7 @@ msgstr ""
 "drugi oblik uporabe ako zadnji operand počinje s ‘+’ ili (ako postoje dva\n"
 "operanda) s brojkom. Operand ODMAK znači -j ODMAK. LABEL je pseudo-adresa\n"
 "pri prvom ispisanom bajtu (u zagradama) i uvećava se s progresom ispisa.\n"
-"Za ODMAK i LABEL prefiks 0x ili 0X indicira heksadecimalni broj; sufiksi mogu\n"
+"Za ODMAK i LABEL prefiks 0x ili 0X indicira heksadekadski broj; sufiksi mogu\n"
 "biti ‘.’ za oktalni i „b” za množenje s 512.\n"
 
 #: src/od.c:380
@@ -7691,7 +7691,7 @@ msgstr ""
 "  -a   isto kao -t a,  imenovani znakovi, zanemari najznačajniji bit\n"
 "  -b   isto kao -t o1, oktalni bajtovi\n"
 "  -c   isto kao -t c,  ispisivi znakovi ili kontrolne sekvencije s escape \\\n"
-"  -d   isto kao -t u2, decimalna dvo-bajtna jedinica bez predznaka\n"
+"  -d   isto kao -t u2, dekadska dvo-bajtna jedinica bez predznaka\n"
 
 #: src/od.c:407
 msgid ""
@@ -7703,11 +7703,11 @@ msgid ""
 "  -x   same as -t x2, select hexadecimal 2-byte units\n"
 msgstr ""
 "  -f   isto kao -t fF, brojevi s pomičnim zarezom, ‘floats’\n"
-"  -i   isto kao -t dI, decimalni cijeli brojevi\n"
-"  -l   isto kao -t dL, decimalni ‘long’ cijeli brojevi\n"
+"  -i   isto kao -t dI, dekadski cijeli brojevi\n"
+"  -l   isto kao -t dL, dekadski ‘long’ cijeli brojevi\n"
 "  -o   isto kao -t o2, oktalna dvo-bajtna jedinica\n"
-"  -s   isto kao -t d2, decimalna dvo-bajtna jedinica\n"
-"  -x   isto kao -t x2, heksadecimalna dvo-bajtna jedinica\n"
+"  -s   isto kao -t d2, dekadska dvo-bajtna jedinica\n"
+"  -x   isto kao -t x2, heksadekadska dvo-bajtna jedinica\n"
 
 #: src/od.c:415
 msgid ""
@@ -7732,11 +7732,11 @@ msgid ""
 "  u[SIZE]    unsigned decimal, SIZE bytes per integer\n"
 "  x[SIZE]    hexadecimal, SIZE bytes per integer\n"
 msgstr ""
-"  d[VELIČINA]   decimalni broj s predznakom, VELIČINA bajtova po cijelom broju\n"
+"  d[VELIČINA]   dekadski broj s predznakom, VELIČINA bajtova po cijelom broju\n"
 "  f[VELIČINA]   broj s pomičnim zarezom (float), VELIČINA bajtova po broju\n"
 "  o[VELIČINA]   oktalni broj, VELIČINA bajtova po cijelom broju\n"
-"  u[VELIČINA]   decimalni broj bez predznaka, VELIČINA bajtova po cijelom broju\n"
-"  x[VELIČINA]   heksadecimalni broj, VELIČINA bajtova po cijelom broju\n"
+"  u[VELIČINA]   dekadski broj bez predznaka, VELIČINA bajtova po cijelom broju\n"
+"  x[VELIČINA]   heksadekadski broj, VELIČINA bajtova po cijelom broju\n"
 
 #: src/od.c:429
 msgid ""
@@ -7779,7 +7779,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"BAJT je heksadecimalni s prefiksom 0x ili 0X,\n"
+"BAJT je heksadekadski s prefiksom 0x ili 0X,\n"
 "a može imati sufiks koji služi kao množitelj:\n"
 "  b = 512, KB = 1000, K = 1024, MB = 1000*1000, M = 1024*1024,\n"
 "  GB = 1000*1000*1000, G = 1024*1024*1024\n"
@@ -8087,7 +8087,7 @@ msgstr "nevaljani početni broj retka u ‘-N BROJ’"
 
 #: src/pr.c:1000
 msgid "'-o MARGIN' invalid line offset"
-msgstr "nevaljani odmak retka u ‘-o MARGINA’"
+msgstr "nevaljani pomak retka u ‘-o MARGINA’"
 
 #: src/pr.c:1037
 msgid "'-w PAGE_WIDTH' invalid number of characters"
@@ -8260,7 +8260,7 @@ msgid ""
 "                    omit warning when a file cannot be opened\n"
 msgstr ""
 "  -o, --indent=MARGINA\n"
-"                    odmak svakog retka je MARGINA (nula) razmaka, ne utječe\n"
+"                    pomak svakog retka je MARGINA (nula) razmaka, ne utječe\n"
 "                    na -w or -W, MARGINA se dodaje ŠIRINA_STRANICE\n"
 "  -r, --no-file-warnings\n"
 "                    bez upozoravanja ako se datoteka ne može otvoriti\n"
@@ -8341,7 +8341,7 @@ msgid ""
 "\n"
 msgstr ""
 "Uporaba: %s [OPCIJA]... [VARIJABLA]...\n"
-"Ispiše vrijednosti navedenih VARIJABLI okoline.\n"
+"Ispiše vrijednosti navedenih VARIJABLI okruženja.\n"
 "Ako nijedna VARIJABLA nije navedena, ispiše sve parove ime=vrijednost.\n"
 "\n"
 
@@ -8391,7 +8391,7 @@ msgid ""
 "  \\UHHHHHHHH  Unicode character with hex value HHHHHHHH (8 digits)\n"
 msgstr ""
 "  \\NNN    bajt s oktalnom vrijednošću NNN (1 do 3 brojke)\n"
-"  \\xHH    bajt s heksadecimalnom vrijednošću HH (1 do 2 brojke)\n"
+"  \\xHH    bajt s heksadekadskom vrijednošću HH (1 do 2 brojke)\n"
 "  \\uHHHH  Unikodni (ISO/IEC 10646) znak s HHHH hex vrijednošću (4 brojke)\n"
 "  \\UHHHHHHHH  Unikodni znak s hex vrijednošću HHHHHHHH (8 brojki)\n"
 
@@ -8430,7 +8430,7 @@ msgstr "%s: vrijednost nije u potpunosti pretvorena"
 #: src/printf.c:232 src/printf.c:259
 #, c-format
 msgid "missing hexadecimal number in escape"
-msgstr "nema heksadecimalnog broja u maski (escape)"
+msgstr "nema heksadekadskog broja u maski (escape)"
 
 #: src/printf.c:266
 #, c-format
@@ -8567,7 +8567,7 @@ msgstr "Ispiše puno ime trenutnog radnog direktorija.\n"
 
 #: src/pwd.c:60
 msgid "  -L, --logical   use PWD from environment, even if it contains symlinks\n"
-msgstr "  -L, --logical   rabi PWD iz okoline, čak i ako sadrži simbolične linkove\n"
+msgstr "  -L, --logical   rabi PWD iz okruženja, čak i ako sadrži simbolične linkove\n"
 
 #: src/pwd.c:63
 msgid "  -P, --physical  resolve all symlinks\n"
@@ -9112,7 +9112,7 @@ msgid ""
 "decimal numbers with maximum precision PREC, and to %g otherwise.\n"
 msgstr ""
 "FORMAT mora biti prikladan za ispisivanje jednog argumenta tipa ‘double’;\n"
-"zadani format je %.PRECf ako su i PRVI, i PRIRAST, i ZADNJI decimalni brojevi\n"
+"zadani format je %.PRECf ako su i PRVI, i PRIRAST, i ZADNJI dekadski brojevi\n"
 "s fiksiranim brojem decimala maksimalne preciznosti PREC, u protivnom\n"
 "format je %g.\n"
 
@@ -9168,7 +9168,7 @@ msgstr "nevaljani opadajući raspon"
 #: src/set-fields.c:257
 #, c-format
 msgid "byte/character offset %s is too large"
-msgstr "bajt/znak odmak (offset) %s je prevelik"
+msgstr "bajt/znak pomak (offset) %s je prevelik"
 
 #: src/set-fields.c:258
 #, c-format
@@ -9518,7 +9518,7 @@ msgid ""
 "  -d, --dictionary-order      consider only blanks and alphanumeric characters\n"
 "  -f, --ignore-case           fold lower case to upper case characters\n"
 msgstr ""
-"  -b, --ignore-leading-blanks  zanemari vodeće bjeline\n"
+"  -b, --ignore-leading-blanks zanemari vodeće bjeline\n"
 "  -d, --dictionary-order      uzima u obzir samo bjeline i\n"
 "                                alfanumeričke znakove\n"
 "  -f, --ignore-case           sortira kao da su sva slova velika\n"
@@ -9689,7 +9689,7 @@ msgstr ""
 "% 1% memorije, b 1, K 1024 (zadano), itd. za M, G, T, P, E, Z, Y, R, Q.\n"
 "\n"
 "*** UPOZORENJE ***\n"
-"Lokalizacija okoline utječe na redoslijed sortiranja.\n"
+"Lokalizacija okruženja utječe na redoslijed sortiranja.\n"
 "Postavite LC_ALL=C da dobijete tradicionalni redoslijed sortiranja koji rabi\n"
 "izvorne vrijednosti za bajtove.\n"
 
@@ -9811,7 +9811,7 @@ msgstr "separator polja %s se tretira kao separator grupa u brojevima"
 #: src/sort.c:2604
 #, c-format
 msgid "field separator %s is treated as a decimal point in numbers"
-msgstr "separator polja %s se tretira kao decimalna točka u brojevima"
+msgstr "separator polja %s se tretira kao dekadska točka u brojevima"
 
 #: src/sort.c:2612
 #, c-format
@@ -9826,7 +9826,7 @@ msgstr "separator polja %s se tretira kao plus (znak) u brojevima"
 #: src/sort.c:2631
 #, c-format
 msgid "%snumbers use %s as a decimal point in this locale"
-msgstr "%sbrojevi koriste %s kao decimalna točka u ovom ‘locale’"
+msgstr "%sbrojevi koriste %s kao dekadska točka u ovom ‘locale’"
 
 #: src/sort.c:2632
 msgid "note "
@@ -9909,7 +9909,7 @@ msgstr "broj polja je nula"
 
 #: src/sort.c:4593
 msgid "character offset is zero"
-msgstr "odmak znaka je nula"
+msgstr "pomak znaka je nula"
 
 #: src/sort.c:4608
 msgid "invalid number after ','"
@@ -10051,7 +10051,7 @@ msgstr "%s bi prepisao ulaz -- operacija se prekida"
 #: src/split.c:507
 #, c-format
 msgid "failed to set FILE environment variable"
-msgstr "postavljanje varijable okoline FILE nije uspjelo"
+msgstr "postavljanje varijable okruženja FILE nije uspjelo"
 
 #: src/split.c:509
 #, c-format
@@ -10153,7 +10153,7 @@ msgstr "%s: nevaljana početna vrijednost za numerički sufiks"
 #: src/split.c:1516
 #, c-format
 msgid "%s: invalid start value for hexadecimal suffix"
-msgstr "%s: nevaljana početna vrijednost za heksadecimalni sufiks"
+msgstr "%s: nevaljana početna vrijednost za heksadekadski sufiks"
 
 #: src/split.c:1542
 msgid "invalid IO block size"
@@ -10371,11 +10371,11 @@ msgid ""
 "  %g   group ID of owner\n"
 "  %G   group name of owner\n"
 msgstr ""
-"  %d   broj uređaja, decimalni (st_dev)\n"
-"  %D   broj uređaja, heksadecimalni (st_dev)\n"
-"  %Hd  glavni (major) broj uređaja, decimalni\n"
-"  %Ld  podređeni (minor) broj uređaja, decimalni\n"
-"  %f   sirovi (raw) način, heksadecimalni\n"
+"  %d   broj uređaja, dekadski (st_dev)\n"
+"  %D   broj uređaja, heksadekadski (st_dev)\n"
+"  %Hd  glavni (major) broj uređaja, dekadski\n"
+"  %Ld  podređeni (minor) broj uređaja, dekadski\n"
+"  %f   sirovi (raw) način, heksadekadski\n"
 "  %F   vrsta datoteke\n"
 "  %g   ID grupe vlasnika\n"
 "  %G   ime grupe vlasnika\n"
@@ -10404,9 +10404,9 @@ msgstr ""
 "  %o   savjet za optimalnu veličinu U/I bloka\n"
 "  %s   ukupna veličina u bajtovima\n"
 "  %R   tip uređaja u hex obliku (st_rdev)\n"
-"  %Hr  major tip uređaja u decimalnom obliku,\n"
+"  %Hr  major tip uređaja u dekadskom obliku,\n"
 "za znak/blok specijalnih datoteka uređaja\n"
-"  %Lr  minor tip uređaja u decimalnom obliku,\n"
+"  %Lr  minor tip uređaja u dekadskom obliku,\n"
 "za znak/blok specijalnih datoteka uređaja\n"
 "  %t   major tip u hex notaciji uređaja, za speijalne znak-/blok-datoteke\n"
 "  %T   minor tip u hex notaciji uređaja, za specijalne znak-/blok-datoteke\n"
@@ -10466,12 +10466,12 @@ msgid ""
 "  %t   file system type in hex\n"
 "  %T   file system type in human readable form\n"
 msgstr ""
-"  %i   ID datotečnog sustava, heksadecimalni\n"
+"  %i   ID datotečnog sustava, heksadekadski\n"
 "  %l   maksimalna dužina imena datoteka\n"
 "  %n   ime datoteke\n"
 "  %s   optimalna veličina bloka (za brži prijenos)\n"
 "  %S   veličina osnovnog bloka (za brojenje blokova)\n"
-"  %t   vrsta datotečnog sustava, heksadecimalni\n"
+"  %t   vrsta datotečnog sustava, heksadekadski\n"
 "  %T   vrsta datotečnog sustava u čitljivom obliku\n"
 
 #: src/stat.c:1856
@@ -11356,7 +11356,7 @@ msgid ""
 msgstr ""
 "\n"
 "Veličine se ispisuju u jedinicama prve raspoložive VELIČINE u --block-size, i\n"
-"varijabla okoline %s_BLOCK_SIZE, BLOCK_SIZE i BLOCKSIZE.\n"
+"varijabla okruženja %s_BLOCK_SIZE, BLOCK_SIZE i BLOCKSIZE.\n"
 "Inače, jedinice su (zadano) 1024 bajta (ili 512 ako je aktivna\n"
 "postavka POSIXLY_CORRECT).\n"
 
@@ -11397,7 +11397,7 @@ msgstr ""
 "Zadani sufiks za sigurnosne kopije je ‘~’, osim ako ga se ne promijeni\n"
 "s opcijom --suffix ili SIMPLE_BACKUP_SUFFIX.\n"
 "METODA: omogućuje odabir varijante sigurnosnih kopija pomoću --backup opcije\n"
-"ili zadavanjem varijable okoline VERSION_CONTROL.\n"
+"ili zadavanjem varijable okruženja VERSION_CONTROL.\n"
 "Mogući parametri za METODU su jedan od:\n"
 "\n"
 
@@ -11676,7 +11676,7 @@ msgstr "zatvara se %s (fd=%d)"
 #: src/tail.c:501
 #, c-format
 msgid "%s: cannot seek to end-relative offset %jd"
-msgstr "%s: ne može skočiti na relativni odmak %jd od kraja"
+msgstr "%s: ne može skočiti na relativni pomak %jd od kraja"
 
 #: src/tail.c:955
 #, c-format
@@ -12246,7 +12246,7 @@ msgid ""
 "A duration of 0 disables the associated timeout.\n"
 msgstr ""
 "\n"
-"TRAJANJE je decimalni broj s neobveznim sufiksom:\n"
+"TRAJANJE je dekadski broj s neobveznim sufiksom:\n"
 "‘s’ za sekunde (zadano), „m” za minute, „h” za sate ili „d” za dane.\n"
 "Trajanje 0 isključuje odgovarajući tajmout.\n"
 
@@ -12286,7 +12286,7 @@ msgstr ""
 #: src/timeout.c:384 src/timeout.c:441
 #, c-format
 msgid "warning: sigprocmask"
-msgstr "upozorenje: sigprocmask (signal se ne može deblokirati)"
+msgstr "upozorenje: sigprocmask (signal nije moguće deblokirati)"
 
 #: src/timeout.c:463
 #, c-format
@@ -12509,7 +12509,7 @@ msgstr ""
 "  [:punct:]       svi znakovi za interpunkcije\n"
 "  [:space:]       sve horizontalne i vertikalne bjeline\n"
 "  [:upper:]       sva velika slova\n"
-"  [:xdigit:]      sve heksadecimalne znamenke\n"
+"  [:xdigit:]      sve heksadekadske znamenke\n"
 "  [=ZNAK=]        svi znakovi koji su ekvivalentni ZNAKU\n"
 
 #: src/tr.c:340
@@ -12982,7 +12982,7 @@ msgstr "nevaljani broj bajtova za usporediti"
 #: src/uniq.c:624
 #, c-format
 msgid "--group is mutually exclusive with -c/-d/-D/-u"
-msgstr "opcija --group se ne može koristiti s opcijama c/-d/-D/-u"
+msgstr "opcija --group se međusobno isključuje s opcijama c/-d/-D/-u"
 
 #: src/uniq.c:631
 #, c-format
@@ -13719,7 +13719,7 @@ msgstr "Redovito ispisuje redak sa svim navedenim STRING(ovima) ili ‘y’.\n"
 #~ "a to može omogućiti da se kasnije rekonstruira izrezuckana datoteka.\n"
 
 #~ msgid "overflow rounding up size of file %s"
-#~ msgstr "prelijevanje pri zaokruživanju veličine datoteke %s na gore"
+#~ msgstr "preljev pri zaokruživanju veličine datoteke %s na gore"
 
 #~ msgid ""
 #~ "\n"
