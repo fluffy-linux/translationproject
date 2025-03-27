@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: findutils 4.9.0\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2022-02-02 01:18+0100\n"
-"PO-Revision-Date: 2025-02-19 19:38-0800\n"
+"PO-Revision-Date: 2025-03-26 20:56-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -193,7 +193,7 @@ msgstr ""
 #: find/parser.c:1399
 #, c-format
 msgid "Expected a positive decimal integer argument to %s, but got %s"
-msgstr "Za argument od %s očekuje se decimalni prirodni broj, ali dobiven je %s"
+msgstr "Za argument od %s očekuje se dekadski prirodni broj, ali dobiven je %s"
 
 #: find/parser.c:1564
 #, c-format
@@ -338,7 +338,7 @@ msgstr "Nema zadnjeg tipa datoteke u popisu argumenata za %s, tj. popis završav
 #, c-format
 msgid "The current directory is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove the current directory from your $PATH (that is, remove \".\", doubled colons, or leading or trailing colons)"
 msgstr ""
-"Varijabla okoline PATH sadrži trenutni direktorij;\n"
+"Varijabla okruženja PATH sadrži trenutni direktorij;\n"
 "to nije sigurno u kombinaciji s akcijom %s od find.\n"
 "Zbog toga valja ukloniti trenutni direktorij iz $PATH (odnosno, uklonite\n"
 "„.”, duple dvotočke, ili dvotočke na početku (leading) ili na kraju (trailing)."
@@ -347,7 +347,7 @@ msgstr ""
 #, c-format
 msgid "The relative path %s is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove that entry from $PATH"
 msgstr ""
-"Varijabla okoline PATH sadrži relativnu stazu %s;\n"
+"Varijabla okruženja PATH sadrži relativnu stazu %s;\n"
 "to nije sigurno u kombinaciji s akcijom %s od find.\n"
 "Zbog toga valja uklonite tu relativnu stazu iz $PATH"
 
@@ -370,7 +370,7 @@ msgstr "U %s mora se %s pojaviti samostalno, ali vi ste naveli %s"
 
 #: find/parser.c:3035
 msgid "The environment is too large for exec()."
-msgstr "Okolina je prevelika za exec()."
+msgstr "Okolina je preveliko za exec()."
 
 #: find/parser.c:3204
 #, c-format
@@ -726,8 +726,8 @@ msgstr "Nema argumenta nakon opciju -D."
 #: find/util.c:1044
 msgid "The environment variable FIND_BLOCK_SIZE is not supported, the only thing that affects the block size is the POSIXLY_CORRECT environment variable"
 msgstr ""
-"Varijabla okoline FIND_BLOCK_SIZE nije podržana.\n"
-"Samo varijabla okoline POSIXLY_CORRECT utječe na veličinu bloka."
+"Varijabla okruženja FIND_BLOCK_SIZE nije podržana.\n"
+"Samo varijabla okruženja POSIXLY_CORRECT utječe na veličinu bloka."
 
 #: lib/bugreports.c:28
 #, c-format
@@ -764,7 +764,7 @@ msgstr "predugi popis argumenata"
 #: lib/buildcmd.c:612
 #, c-format
 msgid "Environment variable %s is not set to a valid decimal number"
-msgstr "Varijabla okoline %s nije postavljena na valjani decimalni broj"
+msgstr "Varijabla okruženja %s nije postavljena na valjani dekadski broj"
 
 #: lib/fdleak.c:391
 #, c-format
@@ -915,7 +915,7 @@ msgstr ""
 msgid "Some filenames may have been filtered out, so we cannot compute the compression ratio.\n"
 msgstr ""
 "Neka imena datoteka su možda filtrirana,\n"
-"pa se ne može izračunati razmjer kompresije.\n"
+"pa nije moguće izračunati razmjer kompresije.\n"
 
 #: locate/locate.c:896
 #, c-format
@@ -946,7 +946,7 @@ msgstr ""
 #, c-format
 msgid "You specified the -E option, but that option cannot be used with slocate-format databases with a non-zero security level.  No results will be generated for this database.\n"
 msgstr ""
-"Navedena je opcija -E koja se ne može koristiti s bazama podataka u\n"
+"Navedena je opcija -E koja nije moguće koristiti s bazama podataka u\n"
 "slocate-formatu sa sigurnosnom razinom različitom od nule. Za ovu bazu podataka neće biti generirani rezultati.\n"
 
 #: locate/locate.c:1108
@@ -1081,7 +1081,7 @@ msgstr ""
 
 #: xargs/xargs.c:354
 msgid "environment is too large for exec"
-msgstr "okolina je prevelika za exec()"
+msgstr "okolina je preveliko za exec()"
 
 #: xargs/xargs.c:391
 #, c-format
@@ -1103,7 +1103,7 @@ msgstr "vrijednost za opciju --%s ne smije sadržavati „=”"
 #: xargs/xargs.c:699
 #, c-format
 msgid "failed to unset environment variable %s"
-msgstr "nije uspjelo ukloniti varijablu okoline %s"
+msgstr "nije uspjelo ukloniti varijablu okruženja %s"
 
 #: xargs/xargs.c:712
 #, c-format
@@ -1128,7 +1128,7 @@ msgstr "Nije moguće otvoriti ulaznu datoteku %s"
 #: xargs/xargs.c:775
 #, c-format
 msgid "Your environment variables take up %<PRIuMAX> bytes\n"
-msgstr "Varijable okoline zauzimaju %<PRIuMAX> bajtova\n"
+msgstr "Varijable okruženja zauzimaju %<PRIuMAX> bajtova\n"
 
 #: xargs/xargs.c:778
 #, c-format
@@ -1196,7 +1196,7 @@ msgstr "jednostruk"
 msgid "WARNING: a NUL character occurred in the input.  It cannot be passed through in the argument list.  Did you mean to use the --null option?"
 msgstr ""
 "UPOZORENJE: na ulazu se pojavio znak NUL;\n"
-"To se ne može proslijediti na popis argumenata.\n"
+"To nije moguće proslijediti na popis argumenata.\n"
 "Možda ste mislili koristiti opciju --null?"
 
 #: xargs/xargs.c:1059 xargs/xargs.c:1124
@@ -1218,7 +1218,7 @@ msgstr "Nije uspjelo čitati iz standardnog izlaza"
 #: xargs/xargs.c:1205
 #, c-format
 msgid "failed to set environment variable %s"
-msgstr "nije uspjelo postaviti varijablu okoline %s"
+msgstr "nije uspjelo postaviti varijablu okruženja %s"
 
 #: xargs/xargs.c:1259
 msgid "failed to redirect standard input of the child process"
@@ -1406,7 +1406,7 @@ msgstr "  -p, --interactive            pita prije izvršavanja naredbi\n"
 #: xargs/xargs.c:1742
 msgid "      --process-slot-var=VAR   set environment variable VAR in child processes\n"
 msgstr ""
-"      --process-slot-var=VAR   postavi varijablu okoline VAR u potomačkim\n"
+"      --process-slot-var=VAR   postavi varijablu okruženja VAR u potomačkim\n"
 "                                 procesima (djeci-procesima)\n"
 
 #: xargs/xargs.c:1743
