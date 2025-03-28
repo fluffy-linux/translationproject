@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.10.242\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2025-01-03 09:48-0800\n"
-"PO-Revision-Date: 2025-02-18 21:38+0800\n"
+"PO-Revision-Date: 2025-03-28 09:12+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -185,7 +185,6 @@ msgid "unable to record current working directory"
 msgstr ""
 
 #: lib/openat-die.c:57
-#, fuzzy
 msgid "failed to return to initial working directory"
 msgstr "gagal untuk kembali ke direktori kerja pemulaan"
 
@@ -505,10 +504,9 @@ msgid "David MacKenzie"
 msgstr "David MacKenzie"
 
 #: src/cmp.c:143
-#, fuzzy, c-format
-#| msgid "invalid --ignore-initial value '%s'"
+#, c-format
 msgid "invalid --ignore-initial value %s"
-msgstr "nilai '%s' --ignore-initial tidak sah"
+msgstr "nilai %s --ignore-initial tidak sah"
 
 #: src/cmp.c:153
 #, c-format
@@ -630,19 +628,19 @@ msgid "cmp: EOF on %s which is empty\n"
 msgstr "cmp: EOF pada %s yang kosong\n"
 
 #: src/cmp.c:626
-#, c-format
+#, fuzzy, c-format
 msgid "cmp: EOF on %s after byte %<PRIdMAX>\n"
-msgstr ""
+msgstr "cmp: EOF pada %s selepas byte %<PRIdMAX>, baris %<PRIdMAX>\n"
 
 #: src/cmp.c:628
 #, c-format
 msgid "cmp: EOF on %s after byte %<PRIdMAX>, line %<PRIdMAX>\n"
-msgstr ""
+msgstr "cmp: EOF pada %s selepas byte %<PRIdMAX>, baris %<PRIdMAX>\n"
 
 #: src/cmp.c:630
 #, c-format
 msgid "cmp: EOF on %s after byte %<PRIdMAX>, in line %<PRIdMAX>\n"
-msgstr ""
+msgstr "cmp: EOF pada %s selepas byte %<PRIdMAX>, dalam baris %<PRIdMAX>\n"
 
 #: src/diff.c:60
 msgid "Paul Eggert"
@@ -1054,7 +1052,7 @@ msgstr "Fail %s adalah %s manakala fail %s adalah %s\n"
 #: src/diff.c:1281
 #, c-format
 msgid "Symbolic links %s -> %s and %s -> %s differ\n"
-msgstr ""
+msgstr "Pautan simbolik %s -> %s dan %s -> %s berbeza\n"
 
 #: src/diff.c:1564
 msgid "cannot compare '-' to a directory"
