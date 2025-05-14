@@ -1,14 +1,14 @@
 # Spanish translations for gdbm.
-# Copyright (C) 2018, 2022, 2023, 2024 Free Software Foundation, Inc.
+# Copyright (C) 2018, 2022, 2023, 2024, 2025 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gdbm package.
 # Francisco Javier Serrador <fserrador@gmail.com>, 2018
-# Cristian Othón Martínez Vera <cfuga@cfuga.mx>, 2022, 2023, 2024
+# Cristian Othón Martínez Vera <cfuga@cfuga.mx>, 2022, 2023, 2024, 2025
 msgid ""
 msgstr ""
 "Project-Id-Version: gdbm 1.23.90\n"
 "Report-Msgid-Bugs-To: bug-gdbm@gnu.org\n"
 "POT-Creation-Date: 2024-06-17 17:56+0300\n"
-"PO-Revision-Date: 2024-06-18 12:21-0600\n"
+"PO-Revision-Date: 2025-05-14 13:59-0600\n"
 "Last-Translator: Cristian Othón Martínez Vera <cfuga@cfuga.mx>\n"
 "Language-Team: Spanish <es@tp.org.es>\n"
 "Language: es\n"
@@ -622,7 +622,7 @@ msgstr "sin cubo actual\n"
 #: tools/gdbmshell.c:893
 #, c-format
 msgid "bucket number out of range (0..%lu)"
-msgstr "el número de cubo está fuera del rango (0..%lu)"
+msgstr "el número de cubo está fuera del intervalo (0..%lu)"
 
 #: tools/gdbmshell.c:936 tools/gdbmshell.c:948
 #, c-format
@@ -1329,7 +1329,7 @@ msgstr " (cerca de %s)"
 #: tools/parseopt.c:320
 #, c-format
 msgid "error in ARGP_HELP_FMT: %s value is out of range\n"
-msgstr "error en ARGP_HELP_FMT: el valor %s está fuera de rango\n"
+msgstr "error en ARGP_HELP_FMT: el valor %s está fuera de intervalo\n"
 
 #: tools/parseopt.c:331
 #, c-format
