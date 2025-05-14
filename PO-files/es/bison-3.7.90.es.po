@@ -1,5 +1,5 @@
 # Mensajes en español para GNU Bison.
-# Copyright (C) 1998, 2022 Free Software Foundation, Inc.
+# Copyright (C) 1998, 2013, 2014, 2022, 2025 Free Software Foundation, Inc.
 # This file is distributed under the same license as the bison package.
 #
 # Corregido por:
@@ -29,13 +29,13 @@
 # Nicolás García-Pedrajas <npedrajas@gmail.com>, 1998.
 # Santiago Vila Doncel <sanvila@unex.es>, 2013.
 # Nicolás García-Pedrajas <npedrajas@gmail.com>, 2014.
-# Cristian Othón Martínez Vera <cfuga@cfuga.mx>, 2022.
+# Cristian Othón Martínez Vera <cfuga@cfuga.mx>, 2022, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: bison 3.7.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
 "POT-Creation-Date: 2021-08-13 08:22+0200\n"
-"PO-Revision-Date: 2022-04-06 10:17-0500\n"
+"PO-Revision-Date: 2025-05-14 14:30-0600\n"
 "Last-Translator: Cristian Othón Martínez Vera <cfuga@cfuga.mx>\n"
 "Language-Team: Spanish <es@tp.org.es>\n"
 "Language: es\n"
@@ -1110,7 +1110,7 @@ msgstr ", no se puede acceder desde una acción en una regla interna en $%d"
 #: src/scan-code.l:416 src/scan-gram.l:879
 #, c-format
 msgid "integer out of range: %s"
-msgstr "entero fuera de rango: %s"
+msgstr "entero fuera de intervalo: %s"
 
 #: src/scan-code.l:505
 #, c-format
@@ -1799,7 +1799,7 @@ msgstr "asociatividad inútil para %s, use %%precedence"
 #~ msgstr "salto de línea en constante sin secuencia de escape"
 
 #~ msgid "octal value outside range 0...255: '\\%o'"
-#~ msgstr "valor octal fuera del rango 0...255: '\\%o'"
+#~ msgstr "valor octal fuera del intervalo 0...255: '\\%o'"
 
 #~ msgid "hexadecimal value above 255: '\\x%x'"
 #~ msgstr "valor hexadecimal mayor que 255: '\\x%x'"
