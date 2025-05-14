@@ -1,7 +1,7 @@
 # Mensajes en español para gnulib 20241209.
-# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2022, 2023, 2024 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnulib package.
-# Cristian Othón Martínez Vera <cfuga@cfuga.mx>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2022, 2023, 2024.
+# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2022, 2023, 2024, 2025 Free Software Foundation, Inc.
+# This file is distributed under the LGPLv2+ license.
+# Cristian Othón Martínez Vera <cfuga@cfuga.mx>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2022, 2023, 2024, 2025.
 #
 # Los mensajes iniciales de esta traducción provienen de la traducción
 # de mailutils.
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gnulib 20241209\n"
 "Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
 "POT-Creation-Date: 2024-12-09 10:23-0800\n"
-"PO-Revision-Date: 2024-12-11 09:56-0600\n"
+"PO-Revision-Date: 2025-05-14 14:15-0600\n"
 "Last-Translator: Cristian Othón Martínez Vera <cfuga@cfuga.mx>\n"
 "Language-Team: Spanish <es@tp.org.es>\n"
 "Language: es\n"
@@ -751,7 +751,7 @@ msgstr "aviso: se ajusta el valor de año %<PRIdMAX> a %<PRIdMAX>\n"
 #: lib/parse-datetime.y:1290
 #, c-format
 msgid "error: out-of-range year %<PRIdMAX>\n"
-msgstr "error: año %<PRIdMAX> fuera de rango\n"
+msgstr "error: año %<PRIdMAX> fuera de intervalo\n"
 
 #: lib/parse-datetime.y:1521
 #, c-format
@@ -798,7 +798,7 @@ msgstr "falta la zona horaria"
 
 #: lib/parse-datetime.y:1834
 msgid "error: initial year out of range\n"
-msgstr "error: año inicial fuera de rango\n"
+msgstr "error: año inicial fuera de intervalo\n"
 
 #: lib/parse-datetime.y:1902
 msgid "error: parsing failed\n"
@@ -1116,7 +1116,7 @@ msgstr "Contenido inválido de \\{\\}"
 
 #: lib/regcomp.c:155
 msgid "Invalid range end"
-msgstr "Fin de rango inválido"
+msgstr "Fin de intervalo inválido"
 
 #: lib/regcomp.c:158
 msgid "Memory exhausted"
@@ -1350,7 +1350,7 @@ msgstr "la función iconv no está disponible"
 
 #: lib/unicodeio.c:111
 msgid "character out of range"
-msgstr "carácter fuera de rango"
+msgstr "carácter fuera de intervalo"
 
 #: lib/unicodeio.c:191
 #, c-format
