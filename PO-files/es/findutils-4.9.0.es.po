@@ -1,16 +1,16 @@
 # Mensajes en español para GNU findutils.
-# Copyright (C) 1996, 2001, 2004, 2014, 2022 Free Software Foundation, Inc.
+# Copyright (C) 1996, 2001, 2004, 2014, 2022, 2023, 2024, 2025 Free Software Foundation, Inc.
 # This file is distributed under the same license as the findutils package.
 # Iñaky Pérez González <inaky@peloncho.fis.ucm.es>, 1996.
 # Santiago Vila Doncel <sanvila@unex.es>, 2001, 2004, 2014.
-# Cristian Othón Martínez Vera <cfuga@cfuga.mx>, 2022.
+# Cristian Othón Martínez Vera <cfuga@cfuga.mx>, 2022, 2023, 2024, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU findutils 4.9.0\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
 "POT-Creation-Date: 2022-02-02 01:18+0100\n"
-"PO-Revision-Date: 2022-11-03 09:50-0600\n"
+"PO-Revision-Date: 2025-05-14 12:52-0600\n"
 "Last-Translator: Cristian Othón Martínez Vera <cfuga@cfuga.mx>\n"
 "Language-Team: Spanish <es@tp.org.es>\n"
 "Language: es\n"
@@ -941,7 +941,7 @@ msgstr "Debe especificar un nivel de seguridad como entero decimal."
 #: locate/frcode.c:177
 #, c-format
 msgid "Security level %s is outside the convertible range."
-msgstr "El nivel de seguridad %s está fuera del rango convertible."
+msgstr "El nivel de seguridad %s está fuera del intervalo convertible."
 
 #: locate/frcode.c:185
 #, c-format
@@ -1556,42 +1556,53 @@ msgstr "  -t, --verbose                muestra las órdenes antes de ejecutarlas
 msgid "  -x, --exit                   exit if the size (see -s) is exceeded\n"
 msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\n"
 
+#, c-format
 #~ msgid "cannot stat current directory"
 #~ msgstr "no se puede efectuar 'stat' sobre el directorio actual"
 
+#, c-format
 #~ msgid "Cannot read list of mounted devices."
 #~ msgstr "No se puede leer la lista de dispositivos montados."
 
+#, c-format
 #~ msgid "WARNING: file system %s has recently been unmounted."
 #~ msgstr "ATENCIÓN: el sistema de ficheros %s ha sido desmontado recientemente."
 
+#, c-format
 #~ msgid "WARNING: file system %s has recently been mounted."
 #~ msgstr "ATENCIÓN: el sistema de ficheros %s ha sido montado recientemente."
 
+#, c-format
 #~ msgid "%s%s changed during execution of %s (old device number %ld, new device number %ld, file system type is %s) [ref %ld]"
 #~ msgstr ""
 #~ "%s%s ha cambiado durante la ejecución de %s (número de dispositivo antiguo %ld,\n"
 #~ "número de dispositivo nuevo %ld, el tipo de sistema de ficheros es %s [ref %ld]"
 
+#, c-format
 #~ msgid "%s%s changed during execution of %s (old inode number %<PRIuMAX>, new inode number %<PRIuMAX>, file system type is %s) [ref %ld]"
 #~ msgstr ""
 #~ "%s%s ha cambiado durante la ejecución de %s (número de nodo-i antiguo %<PRIuMAX>,\n"
 #~ "número de nodo-i nuevo %<PRIuMAX>, tipo de sistema de ficheros %s) [ref %ld]"
 
+#, c-format
 #~ msgid "failed to return to parent directory"
 #~ msgstr "fallo al volver al directorio padre"
 
+#, c-format
 #~ msgid "Failed to safely change directory into %s"
 #~ msgstr "Fallo al cambiar de directorio a %s de forma segura"
 
+#, c-format
 #~ msgid "Filesystem loop detected; %s has the same device number and inode as a directory which is %d level higher in the file system hierarchy"
 #~ msgid_plural "Filesystem loop detected; %s has the same device number and inode as a directory which is %d levels higher in the file system hierarchy"
 #~ msgstr[0] "Se ha detectado un bucle en el sistema de ficheros; %s tiene el mismo número de dispositivo y nodo-i que un directorio que está %d nivel más arriba en la jerarquía del sistema de ficheros"
 #~ msgstr[1] "Se ha detectado un bucle en el sistema de ficheros; %s tiene el mismo número de dispositivo y nodo-i que un directorio que está %d niveles más arriba en la jerarquía del sistema de ficheros\""
 
+#, c-format
 #~ msgid "warning: not following the symbolic link %s"
 #~ msgstr "atención: no se sigue el enlace simbólico %s"
 
+#, c-format
 #~ msgid "WARNING: Hard link count is wrong for %s (saw only st_nlink=%<PRIuMAX> but we already saw %<PRIuMAX> subdirectories): this may be a bug in your file system driver.  Automatically turning on find's -noleaf option.  Earlier results may have failed to include directories that should have been searched."
 #~ msgstr "ATENCIÓN: La cuenta de enlaces duros para %s es errónea (st_nlink=%<PRIuMAX> pero ya se han visto %<PRIuMAX> subdirectorios): esto puede ser un `bug' en el controlador del sistema de ficheros. Se activa automáticamente la opción -noleaf de find. Los resultados anteriores pueden no haber incluído directorios que deberían haberse explorado."
 
@@ -1609,6 +1620,7 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ msgid "      -context CONTEXT\n"
 #~ msgstr "      -context CONTEXTO\n"
 
+#, c-format
 #~ msgid "warning: Unix filenames usually don't contain slashes (though pathnames do).  That means that '%s %s' will probably evaluate to false all the time on this system.  You might find the '-wholename' test more useful, or perhaps '-samefile'.  Alternatively, if you are using GNU grep, you could use 'find ... -print0 | grep -FzZ %s'."
 #~ msgstr "atención: Los nombres de ficheros en Unix normalmente no contienen barras (aunque las rutas sí). Esto quiere decir que '%s %s' probablemente siempre valdrá false en este sistema. Puede que encuentre más útil la opción '-wholename', o tal vez '-samefile'. Alternativamente, si está usando GNU grep, podría usar 'find ... -print0 | grep -FzZ %s'."
 
@@ -1617,12 +1629,15 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #  ¡Olé! Gracias a tos los de es@li.org que me habeis dado "ruta de acceso".
 #  No se qué significado tendría mi vida sin vuestra ayuda ;), snif ... :~)
 #  IPG
+#, c-format
 #~ msgid "] [path...] [expression]\n"
 #~ msgstr "] [ruta-de-acceso...] [expresión]\n"
 
+#, c-format
 #~ msgid "invalid argument %s for %s"
 #~ msgstr "argumento %s inválido para %s"
 
+#, c-format
 #~ msgid "ambiguous argument %s for %s"
 #~ msgstr "argumento %s ambiguo para %s"
 
@@ -1632,42 +1647,55 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ msgid "Unknown system error"
 #~ msgstr "Error del sistema desconocido"
 
+#, c-format
 #~ msgid "%s: option '%s' is ambiguous; possibilities:"
 #~ msgstr "%s: la opción '%s' es ambigua; posibilidades:"
 
+#, c-format
 #~ msgid "%s: option '--%s' doesn't allow an argument\n"
 #~ msgstr "%s: la opción '--%s' no admite ningún argumento\n"
 
+#, c-format
 #~ msgid "%s: option '%c%s' doesn't allow an argument\n"
 #~ msgstr "%s: la opción '%c%s' no admite ningún argumento\n"
 
+#, c-format
 #~ msgid "%s: option '--%s' requires an argument\n"
 #~ msgstr "%s: la opción '--%s' necesita un argumento\n"
 
+#, c-format
 #~ msgid "%s: unrecognized option '--%s'\n"
 #~ msgstr "%s: opción no reconocida '--%s'\n"
 
+#, c-format
 #~ msgid "%s: unrecognized option '%c%s'\n"
 #~ msgstr "%s: opción no reconocida '%c%s'\n"
 
+#, c-format
 #~ msgid "%s: invalid option -- '%c'\n"
 #~ msgstr "%s: opción inválida -- '%c'\n"
 
+#, c-format
 #~ msgid "%s: option requires an argument -- '%c'\n"
 #~ msgstr "%s: la opción necesita un argumento -- '%c'\n"
 
+#, c-format
 #~ msgid "%s: option '-W %s' is ambiguous\n"
 #~ msgstr "%s: la opción '-W %s' es ambigua\n"
 
+#, c-format
 #~ msgid "%s: option '-W %s' doesn't allow an argument\n"
 #~ msgstr "%s: la opción '-W %s' no admite ningún argumento\n"
 
+#, c-format
 #~ msgid "%s: option '-W %s' requires an argument\n"
 #~ msgstr "%s: la opción '-W %s' necesita un argumento\n"
 
+#, c-format
 #~ msgid "unable to record current working directory"
 #~ msgstr "no se puede registrar el directorio actual de trabajo"
 
+#, c-format
 #~ msgid "failed to return to initial working directory"
 #~ msgstr "fallo al volver al directorio de trabajo inicial"
 
@@ -1685,9 +1713,11 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ msgid "^[nN]"
 #~ msgstr "^[nN]"
 
+#, c-format
 #~ msgid "Packaged by %s (%s)\n"
 #~ msgstr "Empaquetado por %s (%s)\n"
 
+#, c-format
 #~ msgid "Packaged by %s\n"
 #~ msgstr "Empaquetado por %s\n"
 
@@ -1708,15 +1738,19 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ "No hay NINGUNA GARANTÍA, hasta donde permite la ley.\n"
 #~ "\n"
 
+#, c-format
 #~ msgid "Written by %s.\n"
 #~ msgstr "Escrito por %s.\n"
 
+#, c-format
 #~ msgid "Written by %s and %s.\n"
 #~ msgstr "Escrito por %s y %s.\n"
 
+#, c-format
 #~ msgid "Written by %s, %s, and %s.\n"
 #~ msgstr "Escrito por %s, %s, y %s.\n"
 
+#, c-format
 #~ msgid ""
 #~ "Written by %s, %s, %s,\n"
 #~ "and %s.\n"
@@ -1724,6 +1758,7 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ "Escrito por %s, %s, %s,\n"
 #~ "y %s.\n"
 
+#, c-format
 #~ msgid ""
 #~ "Written by %s, %s, %s,\n"
 #~ "%s, and %s.\n"
@@ -1731,6 +1766,7 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ "Escrito por %s, %s, %s,\n"
 #~ "%s, y %s.\n"
 
+#, c-format
 #~ msgid ""
 #~ "Written by %s, %s, %s,\n"
 #~ "%s, %s, and %s.\n"
@@ -1738,6 +1774,7 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ "Escrito por %s, %s, %s,\n"
 #~ "%s, %s, y %s.\n"
 
+#, c-format
 #~ msgid ""
 #~ "Written by %s, %s, %s,\n"
 #~ "%s, %s, %s, and %s.\n"
@@ -1745,6 +1782,7 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ "Escrito por %s, %s, %s,\n"
 #~ "%s, %s, %s, y %s.\n"
 
+#, c-format
 #~ msgid ""
 #~ "Written by %s, %s, %s,\n"
 #~ "%s, %s, %s, %s,\n"
@@ -1754,6 +1792,7 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ "%s, %s, %s, %s,\n"
 #~ "y %s.\n"
 
+#, c-format
 #~ msgid ""
 #~ "Written by %s, %s, %s,\n"
 #~ "%s, %s, %s, %s,\n"
@@ -1763,6 +1802,7 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ "%s, %s, %s, %s,\n"
 #~ "%s, y %s.\n"
 
+#, c-format
 #~ msgid ""
 #~ "Written by %s, %s, %s,\n"
 #~ "%s, %s, %s, %s,\n"
@@ -1778,6 +1818,7 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 # Edsger W. Dijkstra, "On the cruelty of really teaching computing science"
 #
 # http://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1036.html
+#, c-format
 #~ msgid ""
 #~ "\n"
 #~ "Report bugs to: %s\n"
@@ -1785,12 +1826,15 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ "\n"
 #~ "Comunicar errores a: %s\n"
 
+#, c-format
 #~ msgid "Report %s bugs to: %s\n"
 #~ msgstr "Comunicar errores en %s a: %s\n"
 
+#, c-format
 #~ msgid "%s home page: <%s>\n"
 #~ msgstr "Página inicial de %s: <%s>\n"
 
+#, c-format
 #~ msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
 #~ msgstr "Página inicial de %s: <http://www.gnu.org/software/%s/>\n"
 
@@ -1800,15 +1844,19 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ msgid "memory exhausted"
 #~ msgstr "memoria agotada"
 
+#, c-format
 #~ msgid "invalid %s%s argument '%s'"
 #~ msgstr "argumento %s%s inválido '%s'"
 
+#, c-format
 #~ msgid "invalid suffix in %s%s argument '%s'"
 #~ msgstr "sufijo inválido en el argumento %s%s '%s'"
 
+#, c-format
 #~ msgid "%s%s argument '%s' too large"
 #~ msgstr "%s%s: argumento '%s' demasiado grande"
 
+#, c-format
 #~ msgid ""
 #~ "Usage: %s [--version | --help]\n"
 #~ "or     %s most_common_bigrams < file-list > locate-database\n"
@@ -1823,8 +1871,10 @@ msgstr "  -x, --exit                   termina si se excede el tamaño (vea -s)\
 #~ "\n"
 #~ "Comunicar errores a <bug-findutils@gnu.org>.\n"
 
+#, c-format
 #~ msgid "%s is an slocate database.  Support for these is new, expect problems for now."
 #~ msgstr "%s es una base de datos de slocate. El soporte para estas bases de datos es nuevo, puede que tenga problemas por ahora."
 
+#, c-format
 #~ msgid "unable to allocate memory"
 #~ msgstr "no se puede reservar memoria"
