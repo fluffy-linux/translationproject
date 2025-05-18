@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: diffutils 3.10.242\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2025-01-03 09:48-0800\n"
-"PO-Revision-Date: 2025-03-28 09:12+0800\n"
+"PO-Revision-Date: 2025-05-18 18:46+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "Language: ms\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #: lib/argmatch.c:145
 #, c-format
@@ -182,7 +182,7 @@ msgstr "%s: pilihan memerlukan hujah -- '%c'\n"
 
 #: lib/openat-die.c:38
 msgid "unable to record current working directory"
-msgstr ""
+msgstr "tidak dapat merekodkan direktori kerja semasa"
 
 #: lib/openat-die.c:57
 msgid "failed to return to initial working directory"
@@ -478,7 +478,7 @@ msgstr "gagal membuka semula %s dengan mod %s"
 #: lib/xstdopen.c:37
 #, c-format
 msgid "failed to open all three standard file descriptors; maybe %s or %s are not working right?"
-msgstr ""
+msgstr "gagal membuka ketiga-tiga deskriptor fail standard; mungkin %s atau %s tidak berfungsi dengan betul?"
 
 #: src/analyze.c:445 src/diff.c:1330
 #, c-format
@@ -615,12 +615,12 @@ msgstr "operan tambahan %s"
 #: src/cmp.c:551
 #, c-format
 msgid "%s %s differ: byte %<PRIdMAX>, line %<PRIdMAX>\n"
-msgstr ""
+msgstr "%s %s berbeza: byte %<PRIdMAX>, baris %<PRIdMAX>\n"
 
 #: src/cmp.c:567
 #, c-format
 msgid "%s %s differ: byte %<PRIdMAX>, line %<PRIdMAX> is %3o %s %3o %s\n"
-msgstr ""
+msgstr "%s %s berbeza: byte %<PRIdMAX>, baris %<PRIdMAX> adalah %3o %s %3o %s\n"
 
 #: src/cmp.c:624
 #, c-format
@@ -628,9 +628,9 @@ msgid "cmp: EOF on %s which is empty\n"
 msgstr "cmp: EOF pada %s yang kosong\n"
 
 #: src/cmp.c:626
-#, fuzzy, c-format
+#, c-format
 msgid "cmp: EOF on %s after byte %<PRIdMAX>\n"
-msgstr "cmp: EOF pada %s selepas byte %<PRIdMAX>, baris %<PRIdMAX>\n"
+msgstr "cmp: EOF pada %s selepas byte %<PRIdMAX>\n"
 
 #: src/cmp.c:628
 #, c-format
