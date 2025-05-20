@@ -1,4 +1,4 @@
-# Serbian translation of grep
+# Serbian translation of grep.
 # Copyright © 2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the grep package.
 # Danilo Segan <dsegan@gmx.net>, 2003.
