@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: GNU coreutils 9.4-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2023-08-22 13:38+0100\n"
-"PO-Revision-Date: 2025-08-24 22:55-0400\n"
+"PO-Revision-Date: 2025-09-14 22:59-0400\n"
 "Last-Translator: Zachary Winnerman <zacharyw09264@gmail.com>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "Language: ja\n"
@@ -4975,7 +4975,7 @@ msgid "cannot print \"only\" of more than one choice"
 msgstr "単一項目のみ表示するオプションを複数指定できません"
 
 #: src/id.c:201
-#, fuzzy, c-format
+#, c-format
 msgid "cannot print only names or real IDs in default format"
 msgstr "標準の形式では, 名前または ID だけを表示することはできません"
 
@@ -5000,22 +5000,22 @@ msgid "cannot find name for user ID %s"
 msgstr "ユーザー ID %s に対するユーザー名が見つかりません"
 
 #: src/id.c:358
-#, fuzzy, c-format
+#, c-format
 msgid "uid=%s"
 msgstr "uid=%s"
 
 #: src/id.c:363
-#, fuzzy, c-format
+#, c-format
 msgid " gid=%s"
 msgstr " gid=%s"
 
 #: src/id.c:370
-#, fuzzy, c-format
+#, c-format
 msgid " euid=%s"
 msgstr " euid=%s"
 
 #: src/id.c:378
-#, fuzzy, c-format
+#, c-format
 msgid " egid=%s"
 msgstr " egid=%s"
 
@@ -5341,7 +5341,6 @@ msgid "  -z, --zero-terminated  line delimiter is NUL, not newline\n"
 msgstr "  -z, --zero-terminated  行の区切りを改行でなく NUL にする\n"
 
 #: src/join.c:234
-#, fuzzy
 msgid ""
 "\n"
 "Unless -t CHAR is given, leading blanks separate fields and are ignored,\n"
@@ -5378,7 +5377,7 @@ msgstr ""
 "警告メッセージが表示されます。\n"
 
 #: src/join.c:418
-#, fuzzy, c-format
+#, c-format
 msgid "%s:%<PRIuMAX>: is not sorted: %.*s"
 msgstr "%s:%<PRIuMAX>: ソートされていません: %.*s"
 
@@ -5496,9 +5495,9 @@ msgid "invalid buffering mode %s for %s\n"
 msgstr "%2$s に対するバッファリングモード %1$s は無効です\n"
 
 #: src/libstdbuf.c:121
-#, fuzzy, c-format
+#, c-format
 msgid "failed to allocate a %<PRIuMAX> byte stdio buffer\n"
-msgstr "%<PRIuMAX> バイトの標準入出力バッファの割り当てに失敗しました\n"
+msgstr "%<PRIuMAX> バイトのstdioバッファの割り当てに失敗しました\n"
 
 #: src/libstdbuf.c:131
 #, c-format
@@ -5609,7 +5608,6 @@ msgstr ""
 "ものとして解釈されます。\n"
 
 #: src/ln.c:428
-#, fuzzy
 msgid ""
 "      --backup[=CONTROL]      make a backup of each existing destination file\n"
 "  -b                          like --backup but does not accept an argument\n"
@@ -5622,7 +5620,7 @@ msgstr ""
 "  -b                          --backup と同様だが引数を取らない\n"
 "  -d, -F, --directory         スーパーユーザがディレクトリに対するハードリンク\n"
 "                                を作成することを許可する。(備考: スーパーユーザ\n"
-"                                であってもシステムの制限で失敗することがある)\n"
+"                                であってもシステムの制限で失敗する可能性が高い)\n"
 "  -f, --force                 対象ファイルが存在する時に削除する\n"
 
 #: src/ln.c:436
@@ -5873,7 +5871,6 @@ msgstr ""
 "  -D, --dired                Emacs の dired モード用の出力を生成する\n"
 
 #: src/ls.c:5457
-#, fuzzy
 msgid ""
 "  -f                         list all entries in directory order\n"
 "  -F, --classify[=WHEN]      append indicator (one of */=>@|) to entries WHEN\n"
@@ -5885,7 +5882,6 @@ msgstr ""
 "      --file-type            上と同様だが '*' を付与しない\n"
 
 #: src/ls.c:5462
-#, fuzzy
 msgid ""
 "      --format=WORD          across -x, commas -m, horizontal -x, long -l,\n"
 "                             single-column -1, verbose -l, vertical -C\n"
@@ -6072,14 +6068,13 @@ msgid "  -S                         sort by file size, largest first\n"
 msgstr "  -S                         ファイルサイズ順にソートする。大きいものから表示される\n"
 
 #: src/ls.c:5571
-#, fuzzy
 msgid ""
 "      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),\n"
 "                             time (-t), version (-v), extension (-X), width\n"
 "\n"
 msgstr ""
 "      --sort=WORD            名前順の代わりに次の WORD で指定した順でソートする: none (-U),\n"
-"                               size (-S), time (-t), version (-v), extension (-X), width\n"
+"                               size (-S), time (-t), version (-v), extension (-X), widthと同じ\n"
 "\n"
 
 #: src/ls.c:5577
@@ -6131,9 +6126,8 @@ msgstr ""
 "\n"
 
 #: src/ls.c:5601
-#, fuzzy
 msgid "  -U                         do not sort; list entries in directory order\n"
-msgstr "  -U                         ソートをしない。ディレクトリに含まれている要素順で表示する\n"
+msgstr "  -U                         ソートをしない。ディレクトリ順序で表示する\n"
 
 #: src/ls.c:5604
 msgid "  -v                         natural sort of (version) numbers within text\n"
@@ -6265,7 +6259,6 @@ msgstr ""
 "                    512 バイトのブロックが使用されます\n"
 
 #: src/digest.c:443
-#, fuzzy
 msgid "  -a, --algorithm=TYPE  select the digest type to use.  See DIGEST below.\n"
 msgstr "  -a, --algorithm=TYPE  使用するダイジェスト種別を指定する。下記の DIGEST の説明を参照。\n"
 
@@ -6350,7 +6343,6 @@ msgid "      --debug           indicate which implementation used\n"
 msgstr "      --debug           どの実装が使用されたかを表示する\n"
 
 #: src/digest.c:522
-#, fuzzy
 msgid ""
 "\n"
 "DIGEST determines the digest algorithm and default output format:\n"
@@ -6392,7 +6384,6 @@ msgstr ""
 "チェックサムは %s に記載されている通りに計算されます。\n"
 
 #: src/digest.c:542
-#, fuzzy
 msgid ""
 "When checking, the input should be a former output of this program.\n"
 "The default mode is to print a line with: checksum, a space,\n"
@@ -6406,7 +6397,7 @@ msgstr ""
 "示す文字 (バイナリの場合は '*'、テキストの場合やバイナリかどうかが\n"
 "重要でない場合は ' ')、ファイル名で構成されます。\n"
 "\n"
-"注意: GNU システムではバイナリーモードとテキストモードで違いはありません。\n"
+"備考: GNU システムではバイナリーモードとテキストモードで違いはありません。\n"
 
 #: src/digest.c:552
 msgid ""
@@ -6422,7 +6413,7 @@ msgid "%s: too many checksum lines"
 msgstr "%s: チェックサム行が多すぎます"
 
 #: src/digest.c:1208
-#, fuzzy, c-format
+#, c-format
 msgid "%s: %<PRIuMAX>: improperly formatted %s checksum line"
 msgstr "%s: %<PRIuMAX>: %s チェックサム行として不適切な書式です"
 
@@ -6444,19 +6435,19 @@ msgid "%s: no properly formatted checksum lines found"
 msgstr "%s: チェックサムとして適切な書式の行がありませんでした"
 
 #: src/digest.c:1304
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: %<PRIuMAX> line is improperly formatted"
 msgid_plural "WARNING: %<PRIuMAX> lines are improperly formatted"
 msgstr[0] "警告: 書式が不適切な行が %<PRIuMAX> 行あります"
 
 #: src/digest.c:1312
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: %<PRIuMAX> listed file could not be read"
 msgid_plural "WARNING: %<PRIuMAX> listed files could not be read"
 msgstr[0] "警告: 一覧にある %<PRIuMAX> 個のファイルが読み込めませんでした"
 
 #: src/digest.c:1320
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: %<PRIuMAX> computed checksum did NOT match"
 msgid_plural "WARNING: %<PRIuMAX> computed checksums did NOT match"
 msgstr[0] "警告: %<PRIuMAX> 個の計算したチェックサムが一致しませんでした"
@@ -6491,7 +6482,7 @@ msgid "maximum digest length for %s is %d bits"
 msgstr "%s のダイジェストの最大長は %d ビットです"
 
 #: src/digest.c:1507
-#, fuzzy, c-format
+#, c-format
 msgid "--check is not supported with --algorithm={bsd,sysv,crc}"
 msgstr "--check は --algorithm={bsd,sysv,crc} と一緒には使用できません"
 
@@ -6565,7 +6556,6 @@ msgid "Create the DIRECTORY(ies), if they do not already exist.\n"
 msgstr "ディレクトリが存在しない場合に、ディレクトリを作成します。\n"
 
 #: src/mkdir.c:64
-#, fuzzy
 msgid ""
 "  -m, --mode=MODE   set file mode (as in chmod), not a=rwx - umask\n"
 "  -p, --parents     no error if existing, make parent directories as needed,\n"
@@ -7324,7 +7314,6 @@ msgid "  none       no auto-scaling is done; suffixes will trigger an error\n"
 msgstr "  none       自動スケーリングを行わない。接尾辞があるとエラーが発生する。\n"
 
 #: src/numfmt.c:970
-#, fuzzy
 msgid ""
 "  auto       accept optional single/two letter suffix:\n"
 "               1K = 1000,\n"
@@ -7339,7 +7328,6 @@ msgstr ""
 "               1Mi = 1048576,\n"
 
 #: src/numfmt.c:976
-#, fuzzy
 msgid ""
 "  si         accept optional single letter suffix:\n"
 "               1K = 1000,\n"
@@ -7352,7 +7340,6 @@ msgstr ""
 "               ...\n"
 
 #: src/numfmt.c:981
-#, fuzzy
 msgid ""
 "  iec        accept optional single letter suffix:\n"
 "               1K = 1024,\n"
@@ -7365,7 +7352,6 @@ msgstr ""
 "               ...\n"
 
 #: src/numfmt.c:986
-#, fuzzy
 msgid ""
 "  iec-i      accept optional two-letter suffix:\n"
 "               1Ki = 1024,\n"
@@ -7436,7 +7422,7 @@ msgstr ""
 "ステータスは 0 になります。\n"
 
 #: src/numfmt.c:1019
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "Examples:\n"
@@ -7513,7 +7499,7 @@ msgid "invalid suffix in input %s: %s"
 msgstr "入力 %s に無効な接尾辞があります: %s"
 
 #: src/numfmt.c:1225
-#, fuzzy, c-format
+#, c-format
 msgid "value/precision too large to be printed: '%Lg/%<PRIuMAX>' (consider using --to)"
 msgstr "値/精度が表示するには大きすぎます: '%Lg/%<PRIuMAX>' (--to を使うことを検討してください)"
 
@@ -7720,7 +7706,6 @@ msgstr ""
 "  x[サイズ]    16 進数           1 整数 (integer) のサイズ指定\n"
 
 #: src/od.c:399
-#, fuzzy
 msgid ""
 "\n"
 "SIZE is a number.  For TYPE in [doux], SIZE may also be C for\n"
@@ -7861,7 +7846,6 @@ msgid "delimiter list ends with an unescaped backslash: %s"
 msgstr "区切り文字 LIST がエスケープされていないバックスラッシュで終了しています: %s"
 
 #: src/pathchk.c:88
-#, fuzzy
 msgid ""
 "Diagnose invalid or unportable file names.\n"
 "\n"
@@ -7869,12 +7853,12 @@ msgid ""
 "  -P                  check for empty names and leading \"-\"\n"
 "      --portability   check for all POSIX systems (equivalent to -p -P)\n"
 msgstr ""
-"ファイル名の有効性や可搬性を診断します。\n"
+"ファイル名の無効や可搬性を診断します。\n"
 "\n"
 "  -p                  ほとんどの POSIX システムに合うかどうか確認する\n"
 "  -P                  名前が空であるか、先頭に \"-\" があるかを確認する\n"
 "      --portability   全ての POSIX システムに合うかどうかを確認する\n"
-"                        (-p -P と等価)\n"
+"                        (-p -P と同じ)\n"
 
 #: src/pathchk.c:168
 #, c-format
@@ -7882,7 +7866,7 @@ msgid "leading '-' in a component of file name %s"
 msgstr "ファイル名 %s の要素の先頭に '-' があります"
 
 #: src/pathchk.c:194
-#, fuzzy, c-format
+#, c-format
 msgid "nonportable character %s in file name %s"
 msgstr "ファイル名 %2$s の中に可搬性のない文字 %1$s があります。"
 
@@ -8101,7 +8085,7 @@ msgid "page width too narrow"
 msgstr "ページ幅が狭すぎます"
 
 #: src/pr.c:2357
-#, fuzzy, c-format
+#, c-format
 msgid "starting page number %<PRIuMAX> exceeds page count %<PRIuMAX>"
 msgstr "開始ページ番号 %<PRIuMAX> は総ページ番号 %<PRIuMAX> を超過しています"
 
@@ -8111,7 +8095,7 @@ msgid "page number overflow"
 msgstr "ページ番号が溢れました"
 
 #: src/pr.c:2389
-#, fuzzy, c-format
+#, c-format
 msgid "Page %<PRIuMAX>"
 msgstr "%<PRIuMAX> ページ"
 
@@ -8376,7 +8360,6 @@ msgstr ""
 "  \\UHHHHHHHH  16 進数で表現した Unicode スカラー値 HHHHHHHH (8 文字)\n"
 
 #: src/printf.c:127
-#, fuzzy
 msgid ""
 "  %%      a single %\n"
 "  %b      ARGUMENT as a string with '\\' escapes interpreted,\n"
@@ -8543,7 +8526,6 @@ msgstr ""
 "\n"
 
 #: src/pwd.c:60
-#, fuzzy
 msgid ""
 "  -L, --logical   use PWD from environment, even if it contains symlinks\n"
 "  -P, --physical  avoid all symlinks\n"
@@ -8839,7 +8821,6 @@ msgstr ""
 "  %s ./-foo\n"
 
 #: src/rm.c:177
-#, fuzzy
 msgid ""
 "\n"
 "Note that if you use rm to remove a file, it might be possible to recover\n"
@@ -8849,7 +8830,7 @@ msgstr ""
 "\n"
 "ファイルの削除に rm を使った場合、十分な専門性と時間があれば、ファイル内容\n"
 "の一部を復元できるかもしれないということには留意してください。もしファイル\n"
-"内容を本当に復元不可能にする保証を得たければ、shred(1) の利用を考えてください。\n"
+"内容を本当に復元不可能にする確率を上げるには、shred(1) の利用を考えてください。\n"
 
 #: src/rm.c:295
 #, c-format
@@ -8862,13 +8843,13 @@ msgid "unrecognized --preserve-root argument: %s"
 msgstr "認識できない --preserve-root の引数です: %s"
 
 #: src/rm.c:355
-#, fuzzy, c-format
+#, c-format
 msgid "%s: remove %<PRIuMAX> argument recursively? "
 msgid_plural "%s: remove %<PRIuMAX> arguments recursively? "
 msgstr[0] "%s: %<PRIuMAX> 引数を再帰的に削除しますか? "
 
 #: src/rm.c:358
-#, fuzzy, c-format
+#, c-format
 msgid "%s: remove %<PRIuMAX> argument? "
 msgid_plural "%s: remove %<PRIuMAX> arguments? "
 msgstr[0] "%s: %<PRIuMAX> 引数を削除しますか? "
@@ -9272,7 +9253,7 @@ msgid "%s: pass %lu/%lu (%s)..."
 msgstr "%s: 経過 %lu/%lu (%s)..."
 
 #: src/shred.c:503
-#, fuzzy, c-format
+#, c-format
 msgid "%s: error writing at offset %s"
 msgstr "%s: オフセット %s で書き込みエラーが発生しました"
 
@@ -9439,7 +9420,7 @@ msgid "no lines to repeat"
 msgstr "繰り返す行がありません"
 
 #: src/sleep.c:42
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Usage: %s NUMBER[SUFFIX]...\n"
 "  or:  %s OPTION\n"
@@ -9454,7 +9435,7 @@ msgstr ""
 "NUMBER 秒間停止します。 SUFFIX には、秒を表す 's' (デフォルト)、\n"
 "分を表す 'm'、時を表す 'h'、日を表す 'd' を指定します。\n"
 "NUMBER は整数である必要はありません。\n"
-"2 個以上の引数を指定した場合、指定した値の合計の時間だけ停止します。\n"
+"2 個以上の引数を指定した場合、指定した値の合計の時間が停止します。\n"
 "\n"
 
 #: src/sleep.c:130 src/timeout.c:364
@@ -9504,7 +9485,6 @@ msgid "  -h, --human-numeric-sort    compare human readable numbers (e.g., 2K 1G
 msgstr "  -h, --human-numeric-sort    人間が読むことができる形式の数値を比較する (例: 2K 1G)\n"
 
 #: src/sort.c:446
-#, fuzzy
 msgid ""
 "  -n, --numeric-sort          compare according to string numerical value\n"
 "  -R, --random-sort           shuffle, but group identical keys.  See shuf(1)\n"
@@ -9596,7 +9576,7 @@ msgstr ""
 "  -S, --buffer-size=SIZE    主記憶のバッファの大きさとして SIZE を使用する\n"
 
 #: src/sort.c:492
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "  -t, --field-separator=SEP  use SEP instead of non-blank to blank transition\n"
 "  -T, --temporary-directory=DIR  use DIR for temporaries, not $TMPDIR or %s;\n"
@@ -9713,7 +9693,7 @@ msgid "--%s argument %s too large"
 msgstr "--%s の引数の値 %s は大きすぎます"
 
 #: src/sort.c:1374
-#, fuzzy, c-format
+#, c-format
 msgid "maximum --%s argument with current rlimit is %s"
 msgstr "現在の rlimit に基づいた --%s の引数の最大値は %s です"
 
@@ -9786,7 +9766,7 @@ msgid "field separator %s is treated as a plus sign in numbers"
 msgstr "フィールド区切り文字 %s は、数値のプラス符号として扱われます"
 
 #: src/sort.c:2570
-#, fuzzy, c-format
+#, c-format
 msgid "%snumbers use %s as a decimal point in this locale"
 msgstr "%sこのロケールでは %s を数値の小数点として使用します"
 
@@ -10294,7 +10274,6 @@ msgstr ""
 "'default' はキャッシュされた属性の扱いをファイルシステムに任せます。\n"
 
 #: src/stat.c:1788
-#, fuzzy
 msgid ""
 "\n"
 "The valid format sequences for files (without --file-system):\n"
@@ -10654,7 +10633,6 @@ msgstr ""
 "  N              入出力の速度を N ボーに設定\n"
 
 #: src/stty.c:634
-#, fuzzy
 msgid ""
 " * cols N        tell the kernel that the terminal has N columns\n"
 " * columns N     same as cols N\n"
@@ -10692,12 +10670,11 @@ msgstr ""
 "   ospeed N      出力速度を N に設定\n"
 
 #: src/stty.c:655
-#, fuzzy
 msgid ""
 " * rows N        tell the kernel that the terminal has N rows\n"
 " * size          print the number of rows and columns according to the kernel\n"
 msgstr ""
-" * rows N        タームなるが N 行であることをカーネルに通知\n"
+" * rows N        ターミナルが N 行であることをカーネルに通知\n"
 " * size          カーネルに対応した行数と桁数を表示\n"
 
 #: src/stty.c:660
@@ -11241,7 +11218,7 @@ msgid "--data needs at least one argument"
 msgstr "--data には少なくとも 1 つの引数が必要です"
 
 #: src/system.h:355
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "NOTE: your shell may have its own version of %s, which usually supersedes\n"
@@ -11306,7 +11283,6 @@ msgstr ""
 "イト)。\n"
 
 #: src/system.h:616
-#, fuzzy
 msgid ""
 "\n"
 "UPDATE controls which existing files in the destination are replaced.\n"
@@ -11526,13 +11502,12 @@ msgstr ""
 "                             このオプションが役に立つことはほとんどない\n"
 
 #: src/tail.c:300
-#, fuzzy
 msgid ""
 "      --pid=PID            with -f, terminate after process ID, PID dies\n"
 "  -q, --quiet, --silent    never output headers giving file names\n"
 "      --retry              keep trying to open a file if it is inaccessible\n"
 msgstr ""
-"      --pid=PID            -f と併せて使用し、プロセス ID が PID のプロセスが\n"
+"      --pid=PID            -f と併せて使用し、プロセス ID （PID） のプロセスが\n"
 "                             終了すると終了する\n"
 "  -q, --quiet, --silent    指定したファイル名を示すヘッダを出力しない\n"
 "      --retry              ファイルがアクセスできない場合に、ファイルのオープンを\n"
@@ -13234,7 +13209,7 @@ msgstr ""
 "\n"
 
 #: src/whoami.c:84
-#, fuzzy, c-format
+#, c-format
 msgid "cannot find name for user ID %lu"
 msgstr "ユーザー ID %lu に対するユーザー名が見つかりません"
 
