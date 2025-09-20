@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
+# Georgian translations for diffutils.
 # Copyright (C) 2002 Free Software Foundation, Inc.
 # This file is distributed under the same license as the diffutils package.
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022.
