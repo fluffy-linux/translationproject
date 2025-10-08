@@ -1,0 +1,774 @@
+# Kabyle translation of GNU grep.
+# Copyright (C) 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the grep package.
+# ZiriSut <zirisut@proton.me>, 2025.
+# Athmane MOKRAOUI <butterflyoffire@protonmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: grep 3.11.68\n"
+"Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
+"POT-Creation-Date: 2025-04-04 14:26-0700\n"
+"PO-Revision-Date: 2025-10-08 10:27+0000\n"
+"Last-Translator: Athmane MOKRAOUI <butterflyoffire@protonmail.com>\n"
+"Language-Team: Kabyle <kab-l10n@lists.fedoraproject.org>\n"
+"Language: kab\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.13.2\n"
+
+#: lib/argmatch.c:145
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "afukel %s d arameɣtu i %s"
+
+#: lib/argmatch.c:146
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "afukel %s d amsullas i %s"
+
+#: lib/argmatch.c:165 lib/argmatch.h:242
+msgid "Valid arguments are:"
+msgstr "Ifukal imeɣta d:"
+
+#: lib/c-stack.c:190
+msgid "program error"
+msgstr "tuccḍa n wahil"
+
+#: lib/c-stack.c:191
+msgid "stack overflow"
+msgstr "afaḍi n tbursa"
+
+#: lib/closeout.c:121 src/grep.c:1352
+msgid "write error"
+msgstr "tuccḍa deg tira"
+
+#: lib/dfa.c:910
+msgid "unbalanced ["
+msgstr "[ ur yezgi ara"
+
+#: lib/dfa.c:1031
+msgid "invalid character class"
+msgstr "asmil n yisekkilen d arameɣtu"
+
+#: lib/dfa.c:1159
+msgid "character class syntax is [[:space:]], not [:space:]"
+msgstr "taseddast n usmel n yisekkilen d [[:space:]], mačči d [:space:]"
+
+#: lib/dfa.c:1234
+msgid "unfinished \\ escape"
+msgstr "tagzemt n usenser \\ ur tfukk ara"
+
+#: lib/dfa.c:1344
+msgid "? at start of expression"
+msgstr "? deg tazwara n tenfalit"
+
+#: lib/dfa.c:1356
+msgid "* at start of expression"
+msgstr "* deg tazwara n tenfalit"
+
+#: lib/dfa.c:1370
+msgid "+ at start of expression"
+msgstr "+ deg tazwara n tenfalit"
+
+#: lib/dfa.c:1425
+msgid "{...} at start of expression"
+msgstr "{...} deg tazwara n tenfalit"
+
+#: lib/dfa.c:1428
+msgid "invalid content of \\{\\}"
+msgstr "agbur n \\{\\} d arameɣtu"
+
+#: lib/dfa.c:1430
+msgid "regular expression too big"
+msgstr "tanfalit tameɣẓant meqqret aṭas"
+
+#: lib/dfa.c:1580
+msgid "stray \\ before unprintable character"
+msgstr "yettwaɛzel \\ send asekki ur yettwasiggazen ara"
+
+#: lib/dfa.c:1582
+msgid "stray \\ before white space"
+msgstr "yettwaɛzel \\ send tallunt"
+
+#: lib/dfa.c:1593
+#, c-format
+msgid "stray \\ before %s"
+msgstr "yettwaɛzel \\ send %s"
+
+#: lib/dfa.c:1594 lib/dfa.c:1597
+msgid "stray \\"
+msgstr "yettwaɛzel \\"
+
+#: lib/dfa.c:1948
+msgid "unbalanced ("
+msgstr "( ur yezgi ara"
+
+#: lib/dfa.c:2065
+msgid "no syntax specified"
+msgstr "ulac taseddast i d-yettwammlen"
+
+#: lib/dfa.c:2076
+msgid "unbalanced )"
+msgstr ") ur yezgi ara"
+
+#: lib/error.c:208
+msgid "Unknown system error"
+msgstr "Tuccḍa n unagraw tarussint"
+
+#: lib/getopt.c:282
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s : taxtiṛt « %s%s » d tamsullast\n"
+
+#: lib/getopt.c:288
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s: taxti;ṛt '%s%s' yebnubek; tignatin:"
+
+#: lib/getopt.c:322
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s: taxtiṛt '%s%s' d tarussint\n"
+
+#: lib/getopt.c:348
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s: taxtiṛt '%s%s' ur tessirig ara afukel\n"
+
+#: lib/getopt.c:363
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s: taxtiṛt '%s%s' tesra afukel\n"
+
+#: lib/getopt.c:624
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: taxtiṛt d tarameɣtut -- '%c'\n"
+
+#: lib/getopt.c:639 lib/getopt.c:685
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: taxtiṛt tesra afukel -- '%c'\n"
+
+#: lib/obstack.c:320 lib/obstack.c:322 lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "takatut teččur"
+
+#: lib/openat-die.c:38
+msgid "unable to record current working directory"
+msgstr "d awezɣi asekles n ukaram n umahil amiran"
+
+#: lib/openat-die.c:57
+msgid "failed to return to initial working directory"
+msgstr "tecceḍ tuɣalin ɣer ukaram agejdan n umahil"
+
+#: lib/xbinary-io.c:36
+#, c-format
+msgid "failed to set file descriptor text/binary mode"
+msgstr "yecceḍ usbadu n uskar n uḍris/imisin n unaglam n ufaylu"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:354
+msgid "`"
+msgstr "`"
+
+#: lib/quotearg.c:355
+msgid "'"
+msgstr "'"
+
+#: lib/regcomp.c:122
+msgid "Success"
+msgstr "Yedda"
+
+#: lib/regcomp.c:125
+msgid "No match"
+msgstr "Ulac amṣada"
+
+#: lib/regcomp.c:128
+msgid "Invalid regular expression"
+msgstr "Tanfalit talugent d tarameɣtut"
+
+#: lib/regcomp.c:131
+msgid "Invalid collation character"
+msgstr "Amizwer n yisekkilen d arameɣtu"
+
+#: lib/regcomp.c:134
+msgid "Invalid character class name"
+msgstr "Isem n usmil n yisekkilen d arameɣtu"
+
+#: lib/regcomp.c:137
+msgid "Trailing backslash"
+msgstr ""
+
+#: lib/regcomp.c:140
+msgid "Invalid back reference"
+msgstr "Tamselɣut timendeffirt d tarameɣtut"
+
+#: lib/regcomp.c:143
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "Ur mṣadan ara [, [^, [:, [., or [="
+
+#: lib/regcomp.c:146
+msgid "Unmatched ( or \\("
+msgstr "Ur mṣadan ara ( neɣ \\("
+
+#: lib/regcomp.c:149
+msgid "Unmatched \\{"
+msgstr "Ur mṣadan ara \\{"
+
+#: lib/regcomp.c:152
+msgid "Invalid content of \\{\\}"
+msgstr "Agbur n \\{\\} d arameɣtu"
+
+#: lib/regcomp.c:155
+msgid "Invalid range end"
+msgstr "Taggara n tseddaṛy d tarameɣtut"
+
+#: lib/regcomp.c:158
+msgid "Memory exhausted"
+msgstr "Takatut teččur"
+
+#: lib/regcomp.c:161
+msgid "Invalid preceding regular expression"
+msgstr "Tanfalit talugant i yezrin d tarameɣtut"
+
+#: lib/regcomp.c:164
+msgid "Premature end of regular expression"
+msgstr "Taggara tinnegzit n tenfalit talugant"
+
+#: lib/regcomp.c:167
+msgid "Regular expression too big"
+msgstr "tanfalit talugent meqqret aṭas"
+
+#: lib/regcomp.c:170
+msgid "Unmatched ) or \\)"
+msgstr "Ur mṣadan ara ) neɣ \\)"
+
+#: lib/regcomp.c:650
+msgid "No previous regular expression"
+msgstr "Ulac tanfalit talugent yezrin"
+
+#: lib/version-etc.c:73
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "Yettwakbel sɣur %s (%s)\n"
+
+#: lib/version-etc.c:76
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "Yettwakbel sɣur %s\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:83
+msgid "(C)"
+msgstr "©"
+
+#. TRANSLATORS: The %s placeholder is the web address of the GPL license.
+#: lib/version-etc.c:88
+#, c-format
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <%s>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"Turagt GPLv3+: GNU GPL lqem 3 neɣ ticki <%s>.\n"
+"D aseɣẓan ilelli: d ilelli ma tebɣiḍ ad t-tbeddeld syen ad t-tzuzreḍ.\n"
+"Ulac akk TADMAWT, deg tilas yettwasirgen sɣur usaḍuf.\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:105
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Yura-t %s\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:109
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Yura-t %s akked %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:113
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Yura-t %s, %s, akked %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:120
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Yura-t %s, %s, %s,\n"
+"akked %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:127
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Yura-t %s, %s, %s,\n"
+"%s, akked %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:134
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Yura-t %s, %s, %s,\n"
+"%s, %s, akked %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:142
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Yura-t %s, %s, %s,\n"
+"%s, %s, %s, akked %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:150
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Yura-t %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"akked %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:159
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Yura-t %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, akked %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:170
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Yura-t %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, akked wiyyaḍ.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:249
+#, c-format
+msgid "Report bugs to: %s\n"
+msgstr "Mel ibugen ɣer: %s\n"
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "Mmel abugen n %s ɣer: %s\n"
+
+#: lib/version-etc.c:255 lib/version-etc.c:257
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "Asebter agejdan n %s : <%s>\n"
+
+#: lib/version-etc.c:260
+#, c-format
+msgid "General help using GNU software: <%s>\n"
+msgstr "Tallalt tamatut ɣef useqdec n iseɣẓanen n GNU: %s\n"
+
+#: src/dfasearch.c:57
+#, c-format
+msgid "warning: %s"
+msgstr "ɣur-k: %s"
+
+#: src/grep.c:657
+msgid "(standard input)"
+msgstr "(anekcum alugen)"
+
+#: src/grep.c:838
+msgid "invalid context length argument"
+msgstr "afukel n teɣzi n ugbur d arameɣtu"
+
+#: src/grep.c:911
+msgid "input is too large to count"
+msgstr "teɣzi n yisefka deg unekcum ɣezzifit aṭas i usmiḍen"
+
+#: src/grep.c:1654
+#, c-format
+msgid "%s: binary file matches"
+msgstr "%s: ifuyla imisinen mṣadan"
+
+#: src/grep.c:1692
+#, c-format
+msgid "%s: warning: recursive directory loop"
+msgstr "%s: alɣu: taneddict n ukaram d tasnalast"
+
+#: src/grep.c:1912
+#, c-format
+msgid "%s: input file is also the output"
+msgstr "%s: afaylu n unekcum d netta s timmad-is d win n tuffɣa"
+
+#: src/grep.c:1974 src/grep.c:1981
+#, c-format
+msgid "Usage: %s [OPTION]... PATTERNS [FILE]...\n"
+msgstr "Aseqdec: %s [OPTION]... IZENZAƔEN [FILE]...\n"
+
+#: src/grep.c:1976
+#, c-format
+msgid "Try '%s --help' for more information.\n"
+msgstr "Ɛreḍ '%s --help' i wugar n telɣut.\n"
+
+#: src/grep.c:1982
+#, c-format
+msgid "Search for PATTERNS in each FILE.\n"
+msgstr "Nadi IZENZAƔEN deg yal AFAYLU.\n"
+
+#: src/grep.c:1983
+#, c-format
+msgid ""
+"Example: %s -i 'hello world' menu.h main.c\n"
+"PATTERNS can contain multiple patterns separated by newlines.\n"
+"\n"
+"Pattern selection and interpretation:\n"
+msgstr ""
+"Amedya: %s -i 'azul ay amaḍal' menu.h main.c\n"
+"IZENZAƔEN zemrent ad gebrent aṭas n yizenzaɣen yebḍan s uneggez n yizirig.\n"
+"\n"
+"Tafrant d usuɣel n uzenzaɣ:\n"
+
+#: src/grep.c:1988
+#, c-format
+msgid ""
+"  -E, --extended-regexp     PATTERNS are extended regular expressions\n"
+"  -F, --fixed-strings       PATTERNS are strings\n"
+"  -G, --basic-regexp        PATTERNS are basic regular expressions\n"
+"  -P, --perl-regexp         PATTERNS are Perl regular expressions\n"
+msgstr ""
+"  -E, --extended-regexp     IZENZAƔEN d tinfaliyin tiluganin ɣezzifen\n"
+"  -F, --fixed-strings       IZENZAƔEN d izriren\n"
+"  -G, --basic-regexp        IZENZAƔEN d tinfaliyin tiluganin tisadurin\n"
+"  -P, --perl-regexp         IZENZAƔEN d tinfaliyin tiluganin Perl\n"
+
+#: src/grep.c:1994
+#, c-format
+msgid ""
+"  -e, --regexp=PATTERNS     use PATTERNS for matching\n"
+"  -f, --file=FILE           take PATTERNS from FILE\n"
+"  -i, --ignore-case         ignore case distinctions in patterns and data\n"
+"      --no-ignore-case      do not ignore case distinctions (default)\n"
+"  -w, --word-regexp         match only whole words\n"
+"  -x, --line-regexp         match only whole lines\n"
+"  -z, --null-data           a data line ends in 0 byte, not newline\n"
+msgstr ""
+"  -e, --regexp=IZENZAƔEN     seqdec IZENZAƔEN i usemṣada\n"
+"  -f, --file=AFAYLU           sali IZENZAƔEN seg UFAYLU\n"
+"  -i, --ignore-case         anef i umgired n truẓi deg izenzaɣen d yisefka\n"
+"      --no-ignore-case      ur ttanef ara i umgired n truẓi (s wudem amezwar)\n"
+"  -w, --word-regexp         semṣadi kan awalen ummiden\n"
+"  -x, --line-regexp         semṣadi kan izirigen yemmden\n"
+"  -z, --null-data           izirig n yisefka yettfakk s 0 yibit, mačči d izirig amaynut\n"
+
+#: src/grep.c:2002
+#, c-format
+msgid ""
+"\n"
+"Miscellaneous:\n"
+"  -s, --no-messages         suppress error messages\n"
+"  -v, --invert-match        select non-matching lines\n"
+"  -V, --version             display version information and exit\n"
+"      --help                display this help text and exit\n"
+msgstr ""
+"\n"
+"Ayen niḍen:\n"
+"  -s, --no-messages         kkes iznan n tuccḍiwin\n"
+"  -v, --invert-match        fren izirigen ur yemṣadan ara\n"
+"  -V, --version             sken talɣut n lqem syen ffeɣ\n"
+"      --help                sken aḍris n tallalt syen ffeɣ\n"
+
+#: src/grep.c:2009
+#, c-format
+msgid ""
+"\n"
+"Output control:\n"
+"  -m, --max-count=NUM       stop after NUM selected lines\n"
+"  -b, --byte-offset         print the byte offset with output lines\n"
+"  -n, --line-number         print line number with output lines\n"
+"      --line-buffered       flush output on every line\n"
+"  -H, --with-filename       print file name with output lines\n"
+"  -h, --no-filename         suppress the file name prefix on output\n"
+"      --label=LABEL         use LABEL as the standard input file name prefix\n"
+msgstr ""
+"\n"
+"Asenqed n tuffɣa :\n"
+"  -m, --max-count=NOMBRE    ḥbes seld AMḌAN n yizizrigen i yettwafernen\n"
+"  -b, --byte-offset         sken tarusi s yibiten s yizirig n tuffɣa\n"
+"  -n, --line-number         sken amḍan n yizirigen s yizirigen n tuffɣa\n"
+"      --line-buffered       silem tuffɣa deg yal izirig\n"
+"  -H, --with-filename       sken isem n ufaylu s yizirigen n tuffɣa\n"
+"  -h, --no-filename         kkes azwir n yisem n ufaylu deg tuffɣa\n"
+"      --label=ÉTIQUETTE     seqdec TABZIMT d azwir n yisem n ufaylu n tuffɣa alugan\n"
+
+#: src/grep.c:2020
+#, c-format
+msgid ""
+"  -o, --only-matching       show only nonempty parts of lines that match\n"
+"  -q, --quiet, --silent     suppress all normal output\n"
+"      --binary-files=TYPE   assume that binary files are TYPE;\n"
+"                            TYPE is 'binary', 'text', or 'without-match'\n"
+"  -a, --text                equivalent to --binary-files=text\n"
+msgstr ""
+"  -o, --only-matching       sken kan iḥricen n yizirigen yemṣadan\n"
+"  -q, --quiet, --silent     kkes akk tuffɣiwin timugna\n"
+"      --binary-files=TYPE   dmu ifuyla imisinen seg WANAW;\n"
+"                            ANAW d 'binary', 'text', neɣ 'without-match'\n"
+"  -a, --text                d agdazal akked --binary-files=text\n"
+
+#: src/grep.c:2027
+#, c-format
+msgid ""
+"  -I                        equivalent to --binary-files=without-match\n"
+"  -d, --directories=ACTION  how to handle directories;\n"
+"                            ACTION is 'read', 'recurse', or 'skip'\n"
+"  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;\n"
+"                            ACTION is 'read' or 'skip'\n"
+"  -r, --recursive           like --directories=recurse\n"
+"  -R, --dereference-recursive  likewise, but follow all symlinks\n"
+msgstr ""
+"  -I                        d agdazal akked --binary-files=without-match\n"
+"  -d, --directories=ACTION  amek i ttwasesfaren yikaramen;\n"
+"                            TIGAWT d 'read', 'recurse', neɣ 'skip'\n"
+"  -D, --devices=ACTION      amek ttwasesfaren yibenkan, FIFOs akked sockets;\n"
+"                            TIGAWT d 'read' neɣ 'skip'\n"
+"  -r, --recursive           like --directories=recurse\n"
+"  -R, --dereference-recursive  kifkif-iten, maca ḍfer iseɣwan izamalen\n"
+
+#: src/grep.c:2036
+#, c-format
+msgid ""
+"      --include=GLOB        search only files that match GLOB (a file pattern)\n"
+"      --exclude=GLOB        skip files that match GLOB\n"
+"      --exclude-from=FILE   skip files that match any file pattern from FILE\n"
+"      --exclude-dir=GLOB    skip directories that match GLOB\n"
+msgstr ""
+"      --include=GLOB        nadi kan ifuyla i yemṣadan akked GLOB (azenzaɣ n ufaylu)\n"
+"      --exclude=GLOB        zgel ifuyla i yemṣadan akked GLOB\n"
+"      --exclude-from=FILE   zgel ifuyla i yemṣadan d yizenzaɣen n yifuyla seg UFAYLU\n"
+"      --exclude-dir=GLOB    zgel ikaramen i yemṣadan akked GLOB\n"
+
+#: src/grep.c:2043
+#, c-format
+msgid ""
+"  -L, --files-without-match  print only names of FILEs with no selected lines\n"
+"  -l, --files-with-matches  print only names of FILEs with selected lines\n"
+"  -c, --count               print only a count of selected lines per FILE\n"
+"  -T, --initial-tab         make tabs line up (if needed)\n"
+"  -Z, --null                print 0 byte after FILE name\n"
+msgstr ""
+"  -L, --files-without-match  sken kan ismawen n YIFUYLA s yizirigen ur yettusefraken ara\n"
+"  -l, --files-with-matches  sken kan ismawen n YIFUYLA s yizirigen i yettusefraken\n"
+"  -c, --count               sken kan amḍan n yizirigen i yettwafernen almend UFAYLU\n"
+"  -T, --initial-tab         err tirigliwin (ma yettwasra)\n"
+"  -Z, --null                sken 0 yibit seld isem n UFAYLU\n"
+
+#: src/grep.c:2049
+#, c-format
+msgid ""
+"\n"
+"Context control:\n"
+"  -B, --before-context=NUM  print NUM lines of leading context\n"
+"  -A, --after-context=NUM   print NUM lines of trailing context\n"
+"  -C, --context=NUM         print NUM lines of output context\n"
+msgstr ""
+"\n"
+"Asenqed n usatal:\n"
+"  -B, --before-context=NUM  sken MḌN n yizirigen n usatal n uqerru \n"
+"  -A, --after-context=NUM   sken MḌN n yizirigen n usatal n taggara\n"
+"  -C, --context=NUM         sken MḌN n yizirigen n usatal n tuffɣa\n"
+
+#: src/grep.c:2056
+#, c-format
+msgid ""
+"  -NUM                      same as --context=NUM\n"
+"      --group-separator=SEP  print SEP on line between matches with context\n"
+"      --no-group-separator  do not print separator for matches with context\n"
+"      --color[=WHEN],\n"
+"      --colour[=WHEN]       use markers to highlight the matching strings;\n"
+"                            WHEN is 'always', 'never', or 'auto'\n"
+"  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)\n"
+"\n"
+msgstr ""
+"  -NUM                      kifkif akked --context=NUM\n"
+"      --group-separator=SEP  sken SEP ɣef yizirig gar yimṣadiyen akked usatal\n"
+"      --no-group-separator  ur skanay ara anabraz i yimṣadiyen akked usatal\n"
+"      --color[=WHEN],\n"
+"      --colour[=WHEN]       seqdec ticraḍ i usebruraq n yizirigen i yemṣadan;\n"
+"                            MI ARA 'always', 'never', neɣ 'auto'\n"
+"  -U, --binary              ur ittekkes ara isekkilen CR deg EOL (MSDOS/Windows)\n"
+"\n"
+
+#: src/grep.c:2065
+#, c-format
+msgid ""
+"When FILE is '-', read standard input.  If no FILE is given, read standard\n"
+"input, but with -r, recursively search the working directory instead.  With\n"
+"fewer than two FILEs, assume -h.  Exit status is 0 if any line is selected,\n"
+"1 otherwise; if any error occurs and -q is not given, the exit status is 2.\n"
+msgstr ""
+"Ma yella AFAYLU d '-', ɣeṛ anekcum alugan.  Ma yella ulac AFAYLU i d-yettwamudden, ɣeṛ anekcum\n"
+"alugan, maca s -r, anadi asnalas deg ukaram n umahil.  S\n"
+"udun n sin YIFUYLA, seqdec -h.  Addad n tuffɣa d 0 ma yella izirig yettwafren,\n"
+"1 neɣ; ma tella-d kra n tuccḍa, -q ur d-yettwamudd ara, addad n tuffɣa d 2.\n"
+
+#: src/grep.c:2108
+msgid "conflicting matchers specified"
+msgstr "amgired n yimezgayen ttwakksen-d"
+
+#: src/grep.c:2115
+msgid "Perl matching not supported in a --disable-perl-regexp build"
+msgstr "Amṣada n Perl ur yettwasefrak ara deg lebni n --disable-perl-regexp"
+
+#: src/grep.c:2117
+#, c-format
+msgid "invalid matcher %s"
+msgstr "amezgay %s d arameɣtu"
+
+#: src/grep.c:2539
+msgid "unknown devices method"
+msgstr "tarrayt n yibenkan d tarussint"
+
+#: src/grep.c:2688
+msgid "invalid max count"
+msgstr "Asmiḍen afellay d arameɣtu"
+
+#: src/grep.c:2745
+msgid "unknown binary-files type"
+msgstr "anaw n yifuyla isinen d arussin"
+
+#: src/grep.c:2830
+msgid ""
+"Written by Mike Haertel and others; see\n"
+"<https://git.savannah.gnu.org/cgit/grep.git/tree/AUTHORS>."
+msgstr ""
+"Yura-t Mike Haertel d wiyaḍ; wali\n"
+"<https://git.savannah.gnu.org/cgit/grep.git/tree/AUTHORS>."
+
+#: src/grep.c:2937
+#, c-format
+msgid "warning: GREP_COLOR='%s' is deprecated; use GREP_COLORS='mt=%s'"
+msgstr "alɣu: GREP_COLOR='%s' d aqbur; use GREP_COLORS='mt=%s'"
+
+#: src/pcresearch.c:89
+#, c-format
+msgid ""
+"\n"
+"grep -P uses PCRE2 %s\n"
+msgstr ""
+"\n"
+"grep -P yesseqdac PCRE2 %s\n"
+
+#: src/pcresearch.c:167
+msgid "-P supports only unibyte locales on this platform"
+msgstr "-P yessefrak kan idigan n aynibit ɣef tɣerɣert-a"
+
+#: src/pcresearch.c:169
+msgid "-P supports only unibyte and UTF-8 locales"
+msgstr "-P yessefrak kan idigan n aynibit akked UTF-8"
+
+#: src/pcresearch.c:192
+msgid "the -P option only supports a single pattern"
+msgstr "taxtiṛt -P tessefrak kan yiwet n azenaɣ tasuft"
+
+#: src/pcresearch.c:288
+msgid "exceeded PCRE's line length limit"
+msgstr "talasat n teɣzi n yizirig n PCRE, tɛedda"
+
+#: src/pcresearch.c:366
+#, c-format
+msgid "%s: memory exhausted"
+msgstr "%s: teččur tkatut"
+
+#: src/pcresearch.c:369
+#, c-format
+msgid "%s: exhausted PCRE JIT stack"
+msgstr "%s: tabursa PCRE JIT tfukk"
+
+#: src/pcresearch.c:373
+#, c-format
+msgid "%s: exceeded PCRE's backtracking limit"
+msgstr "%s: talast n tuɣalin ɣer deffir n PCRE, tɛedda"
+
+#: src/pcresearch.c:378
+#, c-format
+msgid "%s: exceeded PCRE's nested backtracking limit"
+msgstr "%s: talasat n tuɣalin ɣer deffir n PCRE yesddegirten, tɛedda"
+
+#: src/pcresearch.c:382
+#, c-format
+msgid "%s: PCRE detected recurse loop"
+msgstr "%s: PCRE yufa taneddict n n usniles"
+
+#: src/pcresearch.c:387
+#, c-format
+msgid "%s: exceeded PCRE's heap limit"
+msgstr "%s: talast n tirect PCRE, tɛedda"
+
+#: src/pcresearch.c:396
+#, c-format
+msgid "%s: internal PCRE error: %d"
+msgstr "%s: tuccḍa n PCRE tadigant: %d"
