@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: GNU coreutils 9.8-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2025-09-17 21:53+0100\n"
-"PO-Revision-Date: 2025-09-22 23:59-0400\n"
+"PO-Revision-Date: 2025-10-14 23:59-0400\n"
 "Last-Translator: Zachary Winnerman <zacharyw09264@gmail.com>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "Language: ja\n"
@@ -2516,9 +2516,9 @@ msgid "cannot make both hard and symbolic links"
 msgstr "ハードリンクもシンボリックリンクも作成できません"
 
 #: src/cp.c:1216
-#, fuzzy, c-format
+#, c-format
 msgid "--backup is mutually exclusive with -n or --update=none-fail"
-msgstr "--group は -c/-d/-D/-u と一緒に使うことはできません"
+msgstr "--backupは-nや--update=none-failと同時に使用できません"
 
 #: src/cp.c:1222
 #, c-format
@@ -2971,19 +2971,14 @@ msgstr ""
 "  %e   スペースで字幅調整された月の中の何日目かを表す値。%_d と同様\n"
 
 #: src/date.c:205
-#, fuzzy
-#| msgid ""
-#| "  %F   full date; like %+4Y-%m-%d\n"
-#| "  %g   last two digits of year of ISO week number (see %G)\n"
-#| "  %G   year of ISO week number (see %V); normally useful only with %V\n"
 msgid ""
 "  %F   full date; like %+4Y-%m-%d\n"
 "  %g   last two digits of year of ISO week number (ambiguous; 00-99); see %G\n"
 "  %G   year of ISO week number; normally useful only with %V\n"
 msgstr ""
 "  %F   完全形式の日付。 %+4Y-%m-%d と同様\n"
-"  %g   ISO 週番号の最後の2桁 (%G 参照)\n"
-"  %G   ISO 週番号の年部分 (%V 参照)。通常は %V と同時に使用される\n"
+"  %g   ISO 週番号の最後の2桁。曖昧な時があります。(例: 00-99) (%G 参照)\n"
+"  %G   ISO 週番号の年部分。通常は %V と同時に使用される\n"
 
 #: src/date.c:210
 msgid ""
@@ -3054,21 +3049,15 @@ msgstr ""
 "  %W   月曜日を週初めとした週番号 (00..53)\n"
 
 #: src/date.c:244
-#, fuzzy
-#| msgid ""
-#| "  %x   locale's date representation (e.g., 12/31/99)\n"
-#| "  %X   locale's time representation (e.g., 23:13:48)\n"
-#| "  %y   last two digits of year (00..99)\n"
-#| "  %Y   year\n"
 msgid ""
 "  %x   locale's date (can be ambiguous; e.g., 12/31/99)\n"
 "  %X   locale's time representation (e.g., 23:13:48)\n"
 "  %y   last two digits of year (ambiguous; 00..99)\n"
 "  %Y   year\n"
 msgstr ""
-"  %x   ロケール表示での日付 (例: 12/31/99)\n"
+"  %x   ロケール表示での日付 (曖昧な時があります。例: 12/31/99)\n"
 "  %X   ロケール表示での時刻 (例: 23:13:48)\n"
-"  %y   西暦での年の下2桁 (00..99)\n"
+"  %y   西暦での年の下2桁 (曖昧な時があります。例: 00..99)\n"
 "  %Y   年\n"
 
 #: src/date.c:250
@@ -4169,19 +4158,14 @@ msgstr ""
 "  \\xHH    16 進数の数値 HH (1 または 2 個の数字)\n"
 
 #: src/echo.c:84
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "NOTE: printf(1) is a preferred alternative,\n"
-#| "which does not have issues outputting option-like strings.\n"
 msgid ""
 "\n"
 "Consider using the printf(1) command instead,\n"
 "as it avoids problems when outputting option-like strings.\n"
 msgstr ""
 "\n"
-"注記: printf(1) の方がより良い代替手段です。\n"
-"こちらにはオプション風の文字列の出力に関する問題がありません。\n"
+"printf(1) の方の使用を考えてください。\n"
+"こちらにはオプション風の文字列の出力に関する問題が防げます。\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/env.c:35 src/printenv.c:45 src/whoami.c:33
@@ -4311,9 +4295,9 @@ msgid "failed to set signal action for signal %d"
 msgstr "シグナル %d のシグナル動作を設定できませんでした"
 
 #: src/env.c:664
-#, fuzzy, c-format
+#, c-format
 msgid "failed to block signal %d"
-msgstr "ファイル %s が見つかりませんでした"
+msgstr "シグナル%dを遮断ことを失敗しました"
 
 #: src/env.c:686 src/env.c:727
 #, c-format
@@ -4351,9 +4335,9 @@ msgid "must specify command with --chdir (-C)"
 msgstr "--chdir (-C) と一緒にコマンドを指定する必要があります"
 
 #: src/env.c:879
-#, fuzzy, c-format
+#, c-format
 msgid "must specify command with --argv0 (-a)"
-msgstr "--chdir (-C) と一緒にコマンドを指定する必要があります"
+msgstr "--argv0 (-a) と一緒にコマンドを指定する必要があります"
 
 #: src/env.c:904
 #, c-format
@@ -5011,10 +4995,9 @@ msgid "cannot print \"only\" of more than one choice"
 msgstr "単一項目のみ表示するオプションを複数指定できません"
 
 #: src/id.c:201
-#, fuzzy, c-format
-#| msgid "cannot print only names or real IDs in default format"
+#, c-format
 msgid "printing only names or real IDs requires -u, -g, or -G"
-msgstr "標準の形式では, 名前または ID だけを表示することはできません"
+msgstr "標準の形式では, 名前または ID だけを表示するには -u, -g, また -G が必要です。"
 
 #: src/id.c:205
 #, c-format
@@ -5911,17 +5894,12 @@ msgstr ""
 "      --file-type            上と同様だが '*' を付与しない\n"
 
 #: src/ls.c:5434
-#, fuzzy
-#| msgid ""
-#| "      --format=WORD          across -x, commas -m, horizontal -x, long -l,\n"
-#| "                             single-column -1, verbose -l, vertical -C\n"
-#| "\n"
 msgid ""
 "      --format=WORD          across,horizontal (-x), commas (-m), long (-l),\n"
 "                             single-column (-1), verbose (-l), vertical (-C)\n"
 "\n"
 msgstr ""
-"      --format=WORD          WORD が across は -x, commas は -m, horizontal は -x, long は -l,\n"
+"      --format=WORD          WORD が acrossや水平 は -x, commas は -m, long は -l,\n"
 "                               single-column は -1, verbose は -l, vertical は -C と同じ\n"
 
 #: src/ls.c:5439
@@ -6094,11 +6072,6 @@ msgid "  -S                         sort by file size, largest first\n"
 msgstr "  -S                         ファイルサイズ順にソートする。大きいものから表示される\n"
 
 #: src/ls.c:5540
-#, fuzzy
-#| msgid ""
-#| "      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),\n"
-#| "                             time (-t), version (-v), extension (-X), width\n"
-#| "\n"
 msgid ""
 "      --sort=WORD            change default 'name' sort to WORD:\n"
 "                               none (-U), size (-S), time (-t),\n"
@@ -6106,7 +6079,7 @@ msgid ""
 "\n"
 msgstr ""
 "      --sort=WORD            名前順の代わりに次の WORD で指定した順でソートする: none (-U),\n"
-"                               size (-S), time (-t), version (-v), extension (-X), widthと同じ\n"
+"                               size (-S), time (-t), version (-v), extension (-X), name, width\n"
 "\n"
 
 #: src/ls.c:5546
@@ -6158,10 +6131,8 @@ msgstr ""
 "\n"
 
 #: src/ls.c:5570
-#, fuzzy
-#| msgid "  -U                         do not sort; list entries in directory order\n"
 msgid "  -U                         do not sort directory entries\n"
-msgstr "  -U                         ソートをしない。ディレクトリ順序で表示する\n"
+msgstr "  -U                         ディレクトリの要素をソートをしない\n"
 
 #: src/ls.c:5573
 msgid "  -v                         natural sort of (version) numbers within text\n"
@@ -6313,17 +6284,14 @@ msgid "  -c, --check           read checksums from the FILEs and check them\n"
 msgstr "  -c, --check           FILE からチェックサムを読み込み、照合する\n"
 
 #: src/digest.c:532
-#, fuzzy
-#| msgid ""
-#| "  -l, --length=BITS     digest length in bits; must not exceed the max for\n"
-#| "                          the blake2 algorithm and must be a multiple of 8\n"
 msgid ""
 "  -l, --length=BITS     digest length in bits; must not exceed the max size\n"
 "                          and must be a multiple of 8 for blake2b;\n"
 "                          must be 224, 256, 384, or 512 for sha2 or sha3\n"
 msgstr ""
-"  -l, --length=BITS     ビット単位のダイジェストの長さ; blake2 アルゴリズムの\n"
-"                          最大値を超えてはならず、 8 の倍数でなければならない\n"
+"  -l, --length=BITS     ビット単位のダイジェストの長さ; 最大値を超えてはならず、                          blake2 アルゴリズムなら8 の倍数でなければならない;\n"
+"                          sha2やsha3アルゴリズムなら224, 256, 384, また \n"
+"                          512の倍数でなければならない\n"
 
 #: src/digest.c:539
 msgid "      --raw             emit a raw binary digest, not hexadecimal\n"
@@ -8601,15 +8569,10 @@ msgstr ""
 "\n"
 
 #: src/pwd.c:60
-#, fuzzy
-#| msgid ""
-#| "  -L, --logical   use PWD from environment, even if it contains symlinks\n"
-#| "  -P, --physical  avoid all symlinks\n"
 msgid "  -L, --logical   use PWD from environment, even if it contains symlinks\n"
 msgstr ""
 "  -L, --logical   環境から PWD を取得して使用する。シンボリックリンクは\n"
 "                  そのまま使用する\n"
-"  -P, --physical  全てのシンボリックリンクを辿る\n"
 
 #: src/pwd.c:63
 msgid "  -P, --physical  resolve all symlinks\n"
@@ -8679,16 +8642,6 @@ msgstr ""
 "                                ばいけない\n"
 
 #: src/readlink.c:74
-#, fuzzy
-#| msgid ""
-#| "  -m, --canonicalize-missing    canonicalize by following every symlink in\n"
-#| "                                every component of the given name recursively,\n"
-#| "                                without requirements on components existence\n"
-#| "  -n, --no-newline              do not output the trailing delimiter\n"
-#| "  -q, --quiet\n"
-#| "  -s, --silent                  suppress most error messages (on by default)\n"
-#| "  -v, --verbose                 report error messages\n"
-#| "  -z, --zero                    end each output line with NUL, not newline\n"
 msgid ""
 "  -m, --canonicalize-missing    canonicalize by following every symlink in\n"
 "                                every component of the given name recursively,\n"
@@ -8706,8 +8659,9 @@ msgstr ""
 "  -n, --no-newline              末尾に区切り文字を出力しない\n"
 "  -q, --quiet\n"
 "  -s, --silent                  ほとんどのエラーメッセージ出力を抑止する\n"
-"                                (デフォルトで有効)\n"
+"                                (POSIXLY_CORRECTを設定しない限りデフォルトで有効)\n"
 "  -v, --verbose                 エラーメッセージを報告する\n"
+"                                (POSIXLY_CORRECTを設定している限りデフォルトで有効)\n"
 "  -z, --zero                    行の区切りとして改行文字ではなく NUL を使用する\n"
 
 #: src/readlink.c:153
@@ -8716,29 +8670,10 @@ msgid "ignoring --no-newline with multiple arguments"
 msgstr "複数の引数の場合には --no-newline を無視します"
 
 #: src/realpath.c:71
-#, fuzzy
-#| msgid ""
-#| "Print the resolved absolute file name;\n"
-#| "all but the last component must exist\n"
-#| "\n"
 msgid "Print the resolved absolute file name.\n"
-msgstr ""
-"展開された絶対パスを表示します。\n"
-"最後以外のパスの構成要素は存在していなければいけません。\n"
-"\n"
+msgstr "展開された絶対パスを表示します。\n"
 
 #: src/realpath.c:74
-#, fuzzy
-#| msgid ""
-#| "  -e, --canonicalize-existing  all components of the path must exist\n"
-#| "  -m, --canonicalize-missing   no path components need exist or be a directory\n"
-#| "  -L, --logical                resolve '..' components before symlinks\n"
-#| "  -P, --physical               resolve symlinks as encountered (default)\n"
-#| "  -q, --quiet                  suppress most error messages\n"
-#| "      --relative-to=DIR        print the resolved path relative to DIR\n"
-#| "      --relative-base=DIR      print absolute paths unless paths below DIR\n"
-#| "  -s, --strip, --no-symlinks   don't expand symlinks\n"
-#| "  -z, --zero                   end each output line with NUL, not newline\n"
 msgid ""
 "  -E, --canonicalize           all but the last component must exist (default)\n"
 "  -e, --canonicalize-existing  all components of the path must exist\n"
@@ -8751,6 +8686,7 @@ msgid ""
 "  -s, --strip, --no-symlinks   don't expand symlinks\n"
 "  -z, --zero                   end each output line with NUL, not newline\n"
 msgstr ""
+"  -E, --canonicalize           パスの最後の構成要素以外が存在していなければならない(デフォルト)\n"
 "  -e, --canonicalize-existing  パスの構成要素が全て存在していなければならない\n"
 "  -m, --canonicalize-missing   パスの構成要素が存在している必要はない\n"
 "  -L, --logical                シンボリックリンクの前にある '..' 要素を展開する\n"
@@ -8935,12 +8871,6 @@ msgstr ""
 "  %s ./-foo\n"
 
 #: src/rm.c:182
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Note that if you use rm to remove a file, it might be possible to recover\n"
-#| "some of its contents, given sufficient expertise and/or time.  For greater\n"
-#| "assurance that the contents are truly unrecoverable, consider using shred(1).\n"
 msgid ""
 "\n"
 "If you use rm to remove a file, it might be possible to recover\n"
@@ -8949,8 +8879,8 @@ msgid ""
 msgstr ""
 "\n"
 "ファイルの削除に rm を使った場合、十分な専門性と時間があれば、ファイル内容\n"
-"の一部を復元できるかもしれないということには留意してください。もしファイル\n"
-"内容を本当に復元不可能にする確率を上げるには、shred(1) の利用を考えてください。\n"
+"の一部を復元できる可能性があります。もしファイル内容を復元不可能にする確率を\n"
+"上げるには、shred(1) の利用を考えてください。\n"
 
 #: src/rm.c:300
 #, c-format
@@ -8963,20 +8893,16 @@ msgid "unrecognized --preserve-root argument: %s"
 msgstr "認識できない --preserve-root の引数です: %s"
 
 #: src/rm.c:360
-#, fuzzy, c-format
-#| msgid "%s: remove %<PRIuMAX> argument recursively? "
-#| msgid_plural "%s: remove %<PRIuMAX> arguments recursively? "
+#, c-format
 msgid "%s: remove %ju argument recursively? "
 msgid_plural "%s: remove %ju arguments recursively? "
-msgstr[0] "%s: %<PRIuMAX> 引数を再帰的に削除しますか? "
+msgstr[0] "%s: %ju 引数を再帰的に削除しますか? "
 
 #: src/rm.c:363
-#, fuzzy, c-format
-#| msgid "%s: remove %<PRIuMAX> argument? "
-#| msgid_plural "%s: remove %<PRIuMAX> arguments? "
+#, c-format
 msgid "%s: remove %ju argument? "
 msgid_plural "%s: remove %ju arguments? "
-msgstr[0] "%s: %<PRIuMAX> 引数を削除しますか? "
+msgstr[0] "%s: %ju 引数を削除しますか? "
 
 #: src/rmdir.c:132 src/rmdir.c:245
 #, c-format
@@ -9382,10 +9308,9 @@ msgid "%s: pass %lu/%lu (%s)..."
 msgstr "%s: 経過 %lu/%lu (%s)..."
 
 #: src/shred.c:501
-#, fuzzy, c-format
-#| msgid "%s: error writing at offset %s"
+#, c-format
 msgid "%s: error writing at offset %ju"
-msgstr "%s: オフセット %s で書き込みエラーが発生しました"
+msgstr "%s: オフセット %ju で書き込みエラーが発生しました"
 
 #: src/shred.c:522
 #, c-format
@@ -9550,15 +9475,7 @@ msgid "no lines to repeat"
 msgstr "繰り返す行がありません"
 
 #: src/sleep.c:42
-#, fuzzy, c-format
-#| msgid ""
-#| "Usage: %s NUMBER[SUFFIX]...\n"
-#| "  or:  %s OPTION\n"
-#| "Pause for NUMBER seconds.  SUFFIX may be 's' for seconds (the default),\n"
-#| "'m' for minutes, 'h' for hours or 'd' for days.  NUMBER need not be an\n"
-#| "integer.  Given two or more arguments, pause for the amount of time\n"
-#| "specified by the sum of their values.\n"
-#| "\n"
+#, c-format
 msgid ""
 "Usage: %s NUMBER[SUFFIX]...\n"
 "  or:  %s OPTION\n"
@@ -9569,10 +9486,10 @@ msgid ""
 msgstr ""
 "使用法: %s NUMBER[SUFFIX]...\n"
 "または: %s OPTION\n"
-"NUMBER 秒間停止します。 SUFFIX には、秒を表す 's' (デフォルト)、\n"
-"分を表す 'm'、時を表す 'h'、日を表す 'd' を指定します。\n"
-"NUMBER は整数である必要はありません。\n"
-"2 個以上の引数を指定した場合、指定した値の合計の時間だけ停止します。\n"
+"NUMBER 秒間停止します。 NUMBERは整数や不動小数点でなければなりません。\n"
+"SUFFIX には、秒を表す 's' (デフォルト)、分を表す 'm'、時を表す 'h'、\n"
+"日を表す 'd' を指定します。\n"
+"複数の引数を指定した場合、指定した値の合計の時間だけ停止します。\n"
 "\n"
 
 #: src/sleep.c:131 src/timeout.c:371
@@ -9622,30 +9539,19 @@ msgid "  -h, --human-numeric-sort    compare human readable numbers (e.g., 2K 1G
 msgstr "  -h, --human-numeric-sort    人間が読むことができる形式の数値を比較する (例: 2K 1G)\n"
 
 #: src/sort.c:447
-#, fuzzy
 msgid ""
 "  -n, --numeric-sort          compare according to string numerical value;\n"
 "                                see full documentation for supported strings\n"
 msgstr ""
 "  -n, --numeric-sort          文字列を数値とみなして比較する\n"
-"  -R, --random-sort           シャッフルする。但し、同じキーはグルーピングされる。\n"
-"                                shuf(1) 参照。\n"
-"      --random-source=FILE    ランダムなバイトを FILE から取得する\n"
-"  -r, --reverse               比較結果を逆順にする\n"
+"                              対応のストリングスなら完全な文書を参考\n"
 
 #: src/sort.c:451
-#, fuzzy
-#| msgid ""
-#| "  -n, --numeric-sort          compare according to string numerical value\n"
-#| "  -R, --random-sort           shuffle, but group identical keys.  See shuf(1)\n"
-#| "      --random-source=FILE    get random bytes from FILE\n"
-#| "  -r, --reverse               reverse the result of comparisons\n"
 msgid ""
 "  -R, --random-sort           shuffle, but group identical keys.  See shuf(1)\n"
 "      --random-source=FILE    get random bytes from FILE\n"
 "  -r, --reverse               reverse the result of comparisons\n"
 msgstr ""
-"  -n, --numeric-sort          文字列を数値とみなして比較する\n"
 "  -R, --random-sort           シャッフルする。但し、同じキーはグルーピングされる。\n"
 "                                shuf(1) 参照。\n"
 "      --random-source=FILE    ランダムなバイトを FILE から取得する\n"
@@ -9696,13 +9602,6 @@ msgstr ""
 "                                 PROG -d を使用して展開する\n"
 
 #: src/sort.c:479
-#, fuzzy
-#| msgid ""
-#| "      --debug               annotate the part of the line used to sort,\n"
-#| "                              and warn about questionable usage to stderr\n"
-#| "      --files0-from=F       read input from the files specified by\n"
-#| "                            NUL-terminated names in file F;\n"
-#| "                            If F is - then read names from standard input\n"
 msgid ""
 "      --debug               annotate the part of the line used to sort, and\n"
 "                              warn about questionable usage to standard error\n"
@@ -9737,14 +9636,7 @@ msgstr ""
 "  -S, --buffer-size=SIZE    主記憶のバッファの大きさとして SIZE を使用する\n"
 
 #: src/sort.c:496
-#, fuzzy, c-format
-#| msgid ""
-#| "  -t, --field-separator=SEP  use SEP instead of non-blank to blank transition\n"
-#| "  -T, --temporary-directory=DIR  use DIR for temporaries, not $TMPDIR or %s;\n"
-#| "                              multiple options specify multiple directories\n"
-#| "      --parallel=N          change the number of sorts run concurrently to N\n"
-#| "  -u, --unique              with -c, check for strict ordering;\n"
-#| "                              without -c, output only the first of an equal run\n"
+#, c-format
 msgid ""
 "  -t, --field-separator=SEP  use SEP instead of non-blank to blank transition\n"
 "  -T, --temporary-directory=DIR  use DIR for temporaries, not $TMPDIR or %s;\n"
@@ -9758,8 +9650,8 @@ msgstr ""
 "                              DIR を使用する。オプションを複数指定すると、\n"
 "                              複数のディレクトリを指定できる\n"
 "      --parallel=N          同時に実行するソートの数を N に変更する\n"
-"  -u, --unique              -c と併せて使用した場合、厳密に順序を確認する。\n"
-"                              -c を付けずに使用した場合、最初の同一行のみ出力する\n"
+"  -u, --unique              最初の同一行のみ出力する。\n"
+"                            -c と併せて使用した場合、厳密に順序を確認する。\n"
 
 #: src/sort.c:509
 msgid ""
@@ -9861,10 +9753,9 @@ msgid "--%s argument %s too large"
 msgstr "--%s の引数の値 %s は大きすぎます"
 
 #: src/sort.c:1376
-#, fuzzy, c-format
-#| msgid "maximum --%s argument with current rlimit is %s"
+#, c-format
 msgid "maximum --%s argument with current rlimit is %u"
-msgstr "現在の rlimit に基づいた --%s の引数の最大値は %s です"
+msgstr "現在の rlimit に基づいた --%s の引数の最大値は %u です"
 
 #: src/sort.c:1457
 #, c-format
@@ -9885,7 +9776,7 @@ msgid "string transformation failed"
 msgstr "文字列の変換に失敗しました"
 
 #: src/sort.c:2186
-#, fuzzy, c-format
+#, c-format
 msgid "the original string was %s"
 msgstr "変換前の文字列は %s です"
 
@@ -9935,10 +9826,9 @@ msgid "field separator %s is treated as a plus sign in numbers"
 msgstr "フィールド区切り文字 %s は、数値のプラス符号として扱われます"
 
 #: src/sort.c:2642
-#, fuzzy, c-format
-#| msgid "%snumbers use %s as a decimal point in this locale"
+#, c-format
 msgid "numbers use %s as a decimal point in this locale"
-msgstr "%sこのロケールでは %s を数値の小数点として使用します"
+msgstr "このロケールでは %s を数値の小数点として使用します"
 
 #: src/sort.c:2650
 #, c-format
@@ -9961,10 +9851,9 @@ msgid "write failed"
 msgstr "書き込みに失敗しました"
 
 #: src/sort.c:3000
-#, fuzzy, c-format
-#| msgid "%s: %s:%s: disorder: "
+#, c-format
 msgid "%s: %s:%ju: disorder: "
-msgstr "%s: %s:%s: 順序が不規則: "
+msgstr "%s: %s:%ju: 順序が不規則: "
 
 #: src/sort.c:3002
 msgid "standard error"
@@ -10116,16 +10005,6 @@ msgid ""
 msgstr "      --verbose           各出力ファイルを開く前に診断メッセージを表示する\n"
 
 #: src/split.c:262
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "CHUNKS may be:\n"
-#| "  N       split into N files based on size of input\n"
-#| "  K/N     output Kth of N to stdout\n"
-#| "  l/N     split into N files without splitting lines/records\n"
-#| "  l/K/N   output Kth of N to stdout without splitting lines/records\n"
-#| "  r/N     like 'l' but use round robin distribution\n"
-#| "  r/K/N   likewise but only output Kth of N to stdout\n"
 msgid ""
 "\n"
 "CHUNKS may be:\n"
@@ -10272,8 +10151,7 @@ msgid "invalid IO block size"
 msgstr "無効な IO ブロックサイズです"
 
 #: src/split.c:1561
-#, fuzzy, c-format
-#| msgid "--filter does not process a chunk extracted to stdout"
+#, c-format
 msgid "--filter does not process a chunk extracted to standard output"
 msgstr "--filter は標準出力に出力された塊を処理しません"
 
@@ -10455,16 +10333,6 @@ msgstr ""
 "'default' はキャッシュされた属性の扱いをファイルシステムに任せます。\n"
 
 #: src/stat.c:1789
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "The valid format sequences for files (without --file-system):\n"
-#| "\n"
-#| "  %a   permission bits in octal (note '#' and '0' printf flags)\n"
-#| "  %A   permission bits and file type in human readable form\n"
-#| "  %b   number of blocks allocated (see %B)\n"
-#| "  %B   the size in bytes of each block reported by %b\n"
-#| "  %C   SELinux security context string\n"
 msgid ""
 "\n"
 "The valid format sequences for files (without --file-system):\n"
@@ -10478,7 +10346,7 @@ msgstr ""
 "\n"
 "ファイルに対して有効なフォーマット列 (--file-system なしの場合) は以下の通りです:\n"
 "\n"
-"  %a   許可ビットの 8 進数表記\n"
+"  %a   許可ビットの 8 進数表記(printfの'#'と'0'のフラッグを参照)\n"
 "  %A   許可ビットとファイル種別の人間が読める形式での表記\n"
 "  %b   割り当てられたブロック数 (%B 参照)\n"
 "  %B   %b によって報告された各ブロックの大きさ (バイト単位)\n"
@@ -10695,8 +10563,7 @@ msgid "failed to update the environment with %s"
 msgstr "環境を %s に更新することができませんでした"
 
 #: src/stdbuf.c:346
-#, fuzzy, c-format
-#| msgid "line buffering stdin is meaningless"
+#, c-format
 msgid "line buffering standard input is meaningless"
 msgstr "標準入力に対する行モードのバッファ設定は意味がありません"
 
@@ -10721,11 +10588,6 @@ msgid "Print or change terminal characteristics.\n"
 msgstr "端末設定の表示や変更を行います。\n"
 
 #: src/stty.c:557
-#, fuzzy
-#| msgid ""
-#| "  -a, --all          print all current settings in human-readable form\n"
-#| "  -g, --save         print all current settings in a stty-readable form\n"
-#| "  -F, --file=DEVICE  open and use the specified DEVICE instead of stdin\n"
 msgid ""
 "  -a, --all          print all current settings in human-readable form\n"
 "  -g, --save         print all current settings in a stty-readable form\n"
@@ -10831,15 +10693,11 @@ msgstr ""
 "  N              入出力の速度を N ボーに設定\n"
 
 #: src/stty.c:635
-#, fuzzy
-#| msgid ""
-#| " * cols N        tell the kernel that the terminal has N columns\n"
-#| " * columns N     same as cols N\n"
 msgid ""
 "   cols N        tell the kernel that the terminal has N columns\n"
 " * columns N     same as cols N\n"
 msgstr ""
-" * cols N        ターミナルが N 桁であることをカーネルに通知\n"
+"   cols N        ターミナルが N 桁であることをカーネルに通知\n"
 " * columns N     cols N と同じ\n"
 
 #: src/stty.c:640
@@ -10872,16 +10730,12 @@ msgstr ""
 "   ospeed N      出力速度を N に設定\n"
 
 #: src/stty.c:656
-#, fuzzy
-#| msgid ""
-#| " * rows N        tell the kernel that the terminal has N rows\n"
-#| " * size          print the number of rows and columns according to the kernel\n"
 msgid ""
 "   rows N        tell the kernel that the terminal has N rows\n"
 "   size          print the number of rows and columns according to the kernel\n"
 msgstr ""
-" * rows N        ターミナルが N 行であることをカーネルに通知\n"
-" * size          カーネルに対応した行数と桁数を表示\n"
+"   rows N        ターミナルが N 行であることをカーネルに通知\n"
+"   size          カーネルに対応した行数と桁数を表示\n"
 
 #: src/stty.c:661
 msgid ""
@@ -11424,12 +11278,7 @@ msgid "--data needs at least one argument"
 msgstr "--data には少なくとも 1 つの引数が必要です"
 
 #: src/system.h:331
-#, fuzzy, c-format
-#| msgid ""
-#| "\n"
-#| "NOTE: your shell may have its own version of %s, which usually supersedes\n"
-#| "the version described here.  Please refer to your shell's documentation\n"
-#| "for details about the options it supports.\n"
+#, c-format
 msgid ""
 "\n"
 "Your shell may have its own version of %s, which usually supersedes\n"
@@ -11437,7 +11286,7 @@ msgid ""
 "for details about the options it supports.\n"
 msgstr ""
 "\n"
-"注意: 使用しているシェルによっては組み込みコマンドとして %s を持っている\n"
+"使用しているシェルによっては組み込みコマンドとして %s を持っている\n"
 "場合があり、通常はここで説明しているバージョンより優先的に使用されます。\n"
 "シェルの文書を参照してオプションなどの詳細を確認してください。\n"
 
@@ -11494,16 +11343,6 @@ msgstr ""
 "イト)。\n"
 
 #: src/system.h:576
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "UPDATE controls which existing files in the destination are replaced.\n"
-#| "'all' is the default operation when an --update option is not specified,\n"
-#| "and results in all existing files in the destination being replaced.\n"
-#| "'none' is similar to the --no-clobber option, in that no files in the\n"
-#| "destination are replaced, but also skipped files do not induce a failure.\n"
-#| "'older' is the default operation when --update is specified, and results\n"
-#| "in files being replaced if they're older than the corresponding source file.\n"
 msgid ""
 "\n"
 "UPDATE controls which existing files in the destination are replaced.\n"
@@ -11556,7 +11395,7 @@ msgstr ""
 "  simple, never   常に簡易バックアップを作成\n"
 
 #: src/system.h:611
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "The following options modify how a hierarchy is traversed when the -R\n"
@@ -11573,13 +11412,13 @@ msgstr ""
 "\n"
 "以下のオプションを使うと、-R オプションが併せて指定されたときにどのように\n"
 "階層を辿るかの動作を変更できます。複数のオプションが指定された場合は、\n"
-"最後に指定されたオプションだけが有効になります。\n"
+"最後に指定されたオプションだけが有効になります。デフォルトは%sです。\n"
 "\n"
 "  -H                     コマンドライン引数がディレクトリに対するシンボ\n"
 "                         リックリンクの場合に、リンクを辿る\n"
 "  -L                     ディレクトリに対するシンボリックリンクに遭遇した\n"
 "                         時には、そのリンクを全て辿る\n"
-"  -P                     シンボリックリンクを一切辿らない (デフォルト)\n"
+"  -P                     シンボリックリンクを一切辿らない\n"
 "\n"
 
 #: src/system.h:629
@@ -11751,19 +11590,13 @@ msgstr ""
 "                             このオプションが役に立つことはほとんどない\n"
 
 #: src/tail.c:316
-#, fuzzy
-#| msgid ""
-#| "      --pid=PID            with -f, terminate after process ID, PID dies\n"
-#| "  -q, --quiet, --silent    never output headers giving file names\n"
-#| "      --retry              keep trying to open a file if it is inaccessible\n"
 msgid ""
 "      --pid=PID            with -f, exit after PID no longer exists;\n"
 "                             can be repeated to watch multiple processes\n"
 "  -q, --quiet, --silent    never output headers giving file names\n"
 "      --retry              keep trying to open a file if it is inaccessible\n"
 msgstr ""
-"      --pid=PID            -f と併せて使用し、プロセス ID （PID） のプロセスが\n"
-"                             終了すると終了する\n"
+"      --pid=PID            -f と併せて使用し、プロセス ID （PID）が                             存在がしなくなると終了する\n"
 "  -q, --quiet, --silent    指定したファイル名を示すヘッダを出力しない\n"
 "      --retry              ファイルがアクセスできない場合に、ファイルのオープンを\n"
 "                             継続して試みる。\n"
@@ -11817,9 +11650,9 @@ msgstr ""
 "ファイルの末尾を追跡するようになります。\n"
 
 #: src/tail.c:398
-#, fuzzy, c-format
+#, c-format
 msgid "%s: cannot seek to end-relative offset %jd"
-msgstr "%s: ファイル終端からの相対オフセット %s まで探査 (seek) できません"
+msgstr "%s: ファイル終端からの相対オフセット %jd まで探査 (seek) できません"
 
 #: src/tail.c:434
 #, c-format
@@ -11989,7 +11822,6 @@ msgstr ""
 "  -i, --ignore-interrupts   割込みシグナルを無視\n"
 
 #: src/tee.c:94
-#, fuzzy
 msgid ""
 "  -p                        operate in a more appropriate MODE with pipes\n"
 "      --output-error[=MODE]   set behavior on write error.  See MODE below\n"
