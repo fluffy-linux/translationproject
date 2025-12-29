@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: GNU coreutils 9.9-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2025-11-10 02:48+0000\n"
-"PO-Revision-Date: 2025-12-22 22:00-0400\n"
+"PO-Revision-Date: 2025-12-28 22:00-0400\n"
 "Last-Translator: Zachary Winnerman <zacharyw09264@gmail.com>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "Language: ja\n"
@@ -7835,7 +7835,7 @@ msgstr "入力の終端を越えて読みとばすことはできません"
 #: src/od.c:1254
 #, c-format
 msgid "pseudo address too large for input"
-msgstr ""
+msgstr "疑似アドレスは入力には大き過ぎます"
 
 #: src/od.c:1699
 #, c-format
@@ -8047,7 +8047,7 @@ msgstr ""
 
 #: src/pinky.c:513
 msgid "      --lookup    attempt to canonicalize hostnames via DNS\n"
-msgstr ""
+msgstr "      --lookup      正式なホスト名を DNS から取得するように試みる\n"
 
 #: src/pinky.c:518
 #, c-format
@@ -8584,7 +8584,7 @@ msgstr ""
 
 #: src/pwd.c:63
 msgid "  -P, --physical  resolve all symlinks\n"
-msgstr ""
+msgstr "  -P, --physical  シンボリックリンクを展開する\n"
 
 #: src/pwd.c:68
 msgid ""
@@ -8860,6 +8860,8 @@ msgid ""
 "Any attempt to remove a file whose last file name component is '.' or '..'\n"
 "is rejected with a diagnostic.\n"
 msgstr ""
+"\n"
+"'.'や'..'で終わるファイルを削除しようとするならは警告で拒否されます。\n"
 
 #: src/rm.c:173
 #, c-format
@@ -10070,7 +10072,7 @@ msgstr "FILE=%s で実行しています\n"
 #: src/split.c:526
 #, c-format
 msgid "posix_spawn initialization failed"
-msgstr ""
+msgstr "posix_spawnの初期化に失敗しました"
 
 #: src/split.c:529
 #, c-format
@@ -10080,7 +10082,7 @@ msgstr "パイプの作成に失敗しました"
 #: src/split.c:549
 #, c-format
 msgid "posix_spawn setup failed"
-msgstr ""
+msgstr "posix_spawnのセットアップに失敗しました"
 
 #: src/split.c:561
 #, c-format
@@ -12173,6 +12175,10 @@ msgid ""
 "                   allow COMMAND to read from the TTY and get TTY signals;\n"
 "                   in this mode, children of COMMAND will not be timed out\n"
 msgstr ""
+"  -f, --foreground\n"
+"                 シェルプロンプトから直接実行されていない場合、COMMAND\n"
+"                 が TTY から読み込みを行い、TTY シグナルを受信できるようにする。\n"
+"                 このモードでは COMMAND の子プロセスはタイムアウトしない。\n"
 
 #: src/timeout.c:271
 msgid ""
@@ -12180,6 +12186,9 @@ msgid ""
 "                 also send a KILL signal if COMMAND is still running\n"
 "                   this long after the initial signal was sent\n"
 msgstr ""
+"  -k, --kill-after=DURATION\n"
+"                   最初にシグナルを送ってから DURATION を経過しても COMMAND \n"
+"                   がまだ動作している場合は KILL シグナルを送る。\n"
 
 #: src/timeout.c:276
 msgid ""
@@ -12187,6 +12196,9 @@ msgid ""
 "                 exit with the same status as COMMAND,\n"
 "                   even when the command times out\n"
 msgstr ""
+"  -p, --preserve-status\n"
+"                 コマンドがタイムアウトした場合であっても、\n"
+"                 COMMAND の終了ステータスを返す\n"
 
 #: src/timeout.c:281
 msgid ""
@@ -12195,6 +12207,10 @@ msgid ""
 "                   SIGNAL may be a name like 'HUP' or a number;\n"
 "                   see 'kill -l' for a list of signals\n"
 msgstr ""
+"  -s, --signal=SIGNAL\n"
+"                   タイムアウト時に送るシグナルを指定する。SIGNAL には\n"
+"                   'HUP' のようなシグナル名かシングル番号を使用可能。\n"
+"                   シグナル一覧については 'kill -l' を参照\n"
 
 #: src/timeout.c:287
 msgid "  -v, --verbose  diagnose to standard error any signal sent upon timeout\n"
@@ -12363,6 +12379,9 @@ msgid ""
 "                           access time (-a): 'access', 'atime', 'use';\n"
 "                           modification time (-m): 'modify', 'mtime'\n"
 msgstr ""
+"      --time=WORD        どのようなタイムスタンプを変更するかを設定する:\n"
+"                           アクセス時間 (-a): 'access', 'atime', 'use';\n"
+"                           ファイルの更新時間 (-m): 'modify', 'mtime'\n"
 
 #: src/touch.c:338
 #, c-format
