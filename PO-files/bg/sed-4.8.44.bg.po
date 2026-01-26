@@ -1,14 +1,14 @@
 # Bulgarian translation of sed.
-# Copyright (C) 2009, 2016, 2018, 2020, 2022 Free Software Foundation, Inc.
+# Copyright (C) 2009, 2016, 2018, 2020, 2022, 2026 Free Software Foundation, Inc.
 # This file is distributed under the same license as the sed package.
-# Alexander Shopov <ash@kambanaria.org>, 2016, 2018, 2020, 2022.
+# Alexander Shopov <ash@kambanaria.org>, 2016, 2018, 2020, 2022, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: sed 4.8.44\n"
 "Report-Msgid-Bugs-To: bug-gnu-utils@gnu.org\n"
 "POT-Creation-Date: 2022-10-16 22:21-0700\n"
-"PO-Revision-Date: 2023-06-18 17:56+0300\n"
+"PO-Revision-Date: 2026-01-26 22:13+0100\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -69,11 +69,11 @@ msgstr "прекалено голям регулярен израз"
 
 #: lib/dfa.c:1555
 msgid "stray \\ before unprintable character"
-msgstr "излишен знак „\\“ пред знак, който не се печата"
+msgstr "излишен знак „\\“ пред непечатим знак"
 
 #: lib/dfa.c:1557
 msgid "stray \\ before white space"
-msgstr "излишен знак „\\“ пред празен знак"
+msgstr "излишен знак „\\“ пред интервал"
 
 #: lib/dfa.c:1561
 #, c-format
