@@ -1,13 +1,13 @@
 # Bulgarian translation of GNU gnulib po-file.
-# Copyright (C) 2019, 2024 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnulib package.
-# Alexander Shopov <ash@kambanaria.org>, 2019, 2024.
+# Copyright (C) 2019, 2024, 2026 Free Software Foundation, Inc.
+# This file is distributed under the LGPLv2+ license.
+# Alexander Shopov <ash@kambanaria.org>, 2019, 2024, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU gnulib 20241209\n"
 "Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
 "POT-Creation-Date: 2024-12-09 10:23-0800\n"
-"PO-Revision-Date: 2024-12-15 10:47+0100\n"
+"PO-Revision-Date: 2026-01-26 21:23+0100\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -432,19 +432,19 @@ msgstr "незавършена екранираща последователно
 
 #: lib/dfa.c:1344
 msgid "? at start of expression"
-msgstr "„?“ в началото на регулярен израз"
+msgstr "„?“ в началото на израз"
 
 #: lib/dfa.c:1356
 msgid "* at start of expression"
-msgstr "„*“ в началото на регулярен израз"
+msgstr "„*“ в началото на израз"
 
 #: lib/dfa.c:1370
 msgid "+ at start of expression"
-msgstr "„+“ в началото на регулярен израз"
+msgstr "„+“ в началото на израз"
 
 #: lib/dfa.c:1425
 msgid "{...} at start of expression"
-msgstr "„{…}“ в началото на регулярен израз"
+msgstr "„{…}“ в началото на израз"
 
 #: lib/dfa.c:1428
 msgid "invalid content of \\{\\}"
