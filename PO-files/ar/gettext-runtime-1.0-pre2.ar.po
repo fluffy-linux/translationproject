@@ -1,0 +1,554 @@
+# Translation of gettext-runtime to ِArabic
+# Copyright (C) 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gettext package.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: gettext-runtime 1.0-pre2\n"
+"Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
+"POT-Creation-Date: 2025-12-19 21:46+0100\n"
+"PO-Revision-Date: 2026-01-31 20:09+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <(nothing)>\n"
+"Language: ar\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: src/envsubst.c:112 src/gettext.c:136 src/ngettext.c:123
+#: src/printf_gettext.c:109 src/printf_ngettext.c:114
+#, c-format, no-wrap
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"License GPLv3+: GNU GPL version 3 or later <%s>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"حقوق الطبع (ج) %s مؤسسة البرمجيات الحرة.\n"
+"الترخيص GPLv3+: رخصة GNU GPL الإصدار 3 أو لاحق <%s>\n"
+"هذا برنامج حر: أنت حر في تعديله وإعادة توزيعه.\n"
+"لا يوجد أي ضمان، ضمن الحدود التي يسمح بها القانون.\n"
+
+#: src/envsubst.c:118 src/gettext.c:142 src/ngettext.c:129
+#: src/printf_gettext.c:115 src/printf_ngettext.c:120
+#, c-format
+msgid "Written by %s.\n"
+msgstr "كتبه %s.\n"
+
+#. This is a proper name. See the gettext manual, section Names.
+#: src/envsubst.c:118 src/printf_gettext.c:115 src/printf_ngettext.c:120
+msgid "Bruno Haible"
+msgstr "برونو هايبل"
+
+#: src/envsubst.c:127 src/gettext.c:160 src/ngettext.c:141
+#, c-format
+msgid "too many arguments"
+msgstr "عدد وسائط كبير جداً"
+
+#: src/envsubst.c:138 src/gettext.c:170 src/ngettext.c:153
+#: src/printf_ngettext.c:131
+#, c-format
+msgid "missing arguments"
+msgstr "وسائط ناقصة"
+
+#: src/envsubst.c:176 src/gettext.c:247 src/ngettext.c:212
+#: src/printf_gettext.c:167 src/printf_ngettext.c:199
+#, c-format
+msgid "Try '%s --help' for more information.\n"
+msgstr "جرب '%s --help' للمزيد من المعلومات.\n"
+
+#: src/envsubst.c:181
+#, c-format, no-wrap
+msgid "Usage: %s [OPTION] [SHELL-FORMAT]\n"
+msgstr "طريقة الاستخدام: %s [خيار] [تنسيق-الصدفة]\n"
+
+#: src/envsubst.c:186
+#, c-format, no-wrap
+msgid "Substitutes the values of environment variables.\n"
+msgstr "يحل قيم متغيرات البيئة محلّها.\n"
+
+#: src/envsubst.c:190
+#, c-format, no-wrap
+msgid "Operation mode:\n"
+msgstr "نمط التشغيل:\n"
+
+#: src/envsubst.c:193
+#, c-format, no-wrap
+msgid "  -v, --variables             output the variables occurring in SHELL-FORMAT\n"
+msgstr "  -v, --variables             يخرج المتغيرات الواردة في تنسيق-الصدفة\n"
+
+#: src/envsubst.c:197 src/gettext.c:278 src/ngettext.c:244
+#: src/printf_gettext.c:190 src/printf_ngettext.c:226
+#, c-format, no-wrap
+msgid "Informative output:\n"
+msgstr "خرج معلوماتي:\n"
+
+#: src/envsubst.c:200
+#, c-format, no-wrap
+msgid "  -h, --help                  display this help and exit\n"
+msgstr "  -h, --help                  يعرض هذه المساعدة ويخرج\n"
+
+#: src/envsubst.c:203
+#, c-format, no-wrap
+msgid "  -V, --version               output version information and exit\n"
+msgstr "  -V, --version               يخرج معلومات الإصدار ويخرج\n"
+
+#: src/envsubst.c:207
+#, c-format, no-wrap
+msgid ""
+"In normal operation mode, standard input is copied to standard output,\n"
+"with references to environment variables of the form $VARIABLE or ${VARIABLE}\n"
+"being replaced with the corresponding values.  If a SHELL-FORMAT is given,\n"
+"only those environment variables that are referenced in SHELL-FORMAT are\n"
+"substituted; otherwise all environment variables references occurring in\n"
+"standard input are substituted.\n"
+msgstr ""
+"في نمط التشغيل العادي، يُنسخ الدخل القياسي إلى الخرج القياسي،\n"
+"مع استبدال الإشارات إلى متغيرات البيئة من الشكل $VARIABLE أو ${VARIABLE}\n"
+"بقيمها المقابلة. إذا وُزّع تنسيق-صدفة،\n"
+"فقط متغيرات البيئة المشار إليها في تنسيق-الصدفة هي التي\n"
+"تُستبدل؛ وإلا فكل إشارات متغيرات البيئة الموجودة في\n"
+"الدخل القياسي تُستبدل.\n"
+
+#: src/envsubst.c:216
+#, c-format, no-wrap
+msgid ""
+"When --variables is used, standard input is ignored, and the output consists\n"
+"of the environment variables that are referenced in SHELL-FORMAT, one per line.\n"
+msgstr ""
+"عند استخدام --variables، يتجاهل الدخل القياسي، ويتألف الخرج\n"
+"من متغيرات البيئة المشار إليها في تنسيق-الصدفة، واحد في كل سطر.\n"
+
+#. TRANSLATORS: The first placeholder is the web address of the Savannah
+#. project of this package.  The second placeholder is the bug-reporting
+#. email address for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: src/envsubst.c:225 src/gettext.c:302 src/ngettext.c:265
+#: src/printf_gettext.c:279 src/printf_ngettext.c:315
+#, c-format
+msgid ""
+"Report bugs in the bug tracker at <%s>\n"
+"or by email to <%s>.\n"
+msgstr ""
+"أبلغ عن العلل في متعقب العلل على <%s>\n"
+"أو بالبريد الإلكتروني إلى <%s>.\n"
+"أبلغ عن علل الترجمة إلى <team@arabic-translation.org>.\n"
+
+#: src/envsubst.c:443
+#, c-format
+msgid "error while reading \"%s\""
+msgstr "خطأ أثناء قراءة \"%s\""
+
+#: src/envsubst.c:443
+msgid "standard input"
+msgstr "الدخل القياسي"
+
+#. This is a proper name. See the gettext manual, section Names.
+#: src/gettext.c:142 src/ngettext.c:129
+msgid "Ulrich Drepper"
+msgstr "أولريش دريبر"
+
+#: src/gettext.c:252
+#, c-format, no-wrap
+msgid ""
+"Usage: %s [OPTION] [[TEXTDOMAIN] MSGID]\n"
+"or:    %s [OPTION] -s [MSGID]...\n"
+msgstr ""
+"طريقة الاستخدام: %s [خيار] [[نطاق-نصي] MSGID]\n"
+"أو:    %s [خيار] -s [MSGID]...\n"
+
+#: src/gettext.c:258
+#, c-format, no-wrap
+msgid "Display native language translation of a textual message.\n"
+msgstr "يعرض ترجمة بلغة محلية لرسالة نصية.\n"
+
+#: src/gettext.c:261 src/ngettext.c:226 src/printf_gettext.c:181
+#: src/printf_ngettext.c:213
+#, c-format
+msgid "Options and arguments:\n"
+msgstr "الخيارات والوسائط:\n"
+
+#: src/gettext.c:264
+#, c-format, no-wrap
+msgid "  -d, --domain=TEXTDOMAIN   retrieve translated messages from TEXTDOMAIN\n"
+msgstr "  -d, --domain=TEXTDOMAIN   يسترجع الرسائل المترجمة من نطاق-نصي\n"
+
+#: src/gettext.c:266 src/ngettext.c:231
+#, c-format
+msgid "  -c, --context=CONTEXT     specify context for MSGID\n"
+msgstr "  -c, --context=CONTEXT     يحدد السياق لـ MSGID\n"
+
+#: src/gettext.c:268 src/ngettext.c:233
+#, c-format
+msgid "  -e                        enable expansion of some escape sequences\n"
+msgstr "  -e                        يفعل توسيع بعض تسلسلات الهروب\n"
+
+#: src/gettext.c:270
+#, c-format
+msgid "  -n                        suppress trailing newline\n"
+msgstr "  -n                        يكبح سطر جديد ختامي\n"
+
+#: src/gettext.c:272 src/ngettext.c:235
+#, c-format
+msgid "  -E                        (ignored for compatibility)\n"
+msgstr "  -E                        (يتجاهل لأجل التوافقية)\n"
+
+#: src/gettext.c:274
+#, c-format
+msgid ""
+"  [TEXTDOMAIN] MSGID        retrieve translated message corresponding\n"
+"                            to MSGID from TEXTDOMAIN\n"
+msgstr ""
+"  [نطاق-نصي] MSGID        يسترجع الرسالة المترجمة المقابلة\n"
+"                            لـ MSGID من نطاق-نصي\n"
+
+#: src/gettext.c:280 src/ngettext.c:246 src/printf_gettext.c:192
+#: src/printf_ngettext.c:228
+#, c-format
+msgid "  -h, --help                display this help and exit\n"
+msgstr "  -h, --help                يعرض هذه المساعدة ويخرج\n"
+
+#: src/gettext.c:282 src/ngettext.c:248 src/printf_gettext.c:194
+#: src/printf_ngettext.c:230
+#, c-format
+msgid "  -V, --version             display version information and exit\n"
+msgstr "  -V, --version             يعرض معلومات الإصدار ويخرج\n"
+
+#: src/gettext.c:286
+#, c-format, no-wrap
+msgid ""
+"If the TEXTDOMAIN parameter is not given, the domain is determined from the\n"
+"environment variable TEXTDOMAIN.  If the message catalog is not found in the\n"
+"regular directory, another location can be specified with the environment\n"
+"variable TEXTDOMAINDIR.\n"
+"When used with the -s option the program behaves like the 'echo' command.\n"
+"But it does not simply copy its arguments to stdout.  Instead those messages\n"
+"found in the selected catalog are translated.\n"
+"Standard search directory: %s\n"
+msgstr ""
+"إذا لم يُعطَ معامل نطاق-نصي، يُحدد النطاق من\n"
+"متغير البيئة TEXTDOMAIN. إذا لم يُعثر على كتالوج الرسائل في\n"
+"الدليل الاعتيادي، يمكن تحديد موقع آخر باستخدام متغير البيئة\n"
+"TEXTDOMAINDIR.\n"
+"عند استخدامه مع خيار -s يتصرف البرنامج كأمر 'echo'.\n"
+"لكنه لا ينسخ ببساطة وسائطه إلى stdout. بل تلك الرسائل\n"
+"الموجودة في الكتالوج المحدد تُترجم.\n"
+"دليل البحث القياسي: %s\n"
+
+#: src/ngettext.c:217
+#, c-format, no-wrap
+msgid "Usage: %s [OPTION] [TEXTDOMAIN] MSGID MSGID-PLURAL COUNT\n"
+msgstr "طريقة الاستخدام: %s [خيار] [نطاق-نصي] MSGID جمع-MSGID عد\n"
+
+#: src/ngettext.c:222
+#, c-format, no-wrap
+msgid ""
+"Display native language translation of a textual message whose grammatical\n"
+"form depends on a number.\n"
+msgstr ""
+"يعرض ترجمة بلغة محلية لرسالة نصية يعتمد شكلها النحوي\n"
+"على عدد.\n"
+
+#: src/ngettext.c:229
+#, c-format, no-wrap
+msgid "  -d, --domain=TEXTDOMAIN   retrieve translated message from TEXTDOMAIN\n"
+msgstr "  -d, --domain=TEXTDOMAIN   يسترجع الرسالة المترجمة من نطاق-نصي\n"
+
+#: src/ngettext.c:237
+#, c-format
+msgid "  [TEXTDOMAIN]              retrieve translated message from TEXTDOMAIN\n"
+msgstr "  [نطاق-نصي]              يسترجع الرسالة المترجمة من نطاق-نصي\n"
+
+#: src/ngettext.c:239
+#, c-format
+msgid "  MSGID MSGID-PLURAL        translate MSGID (singular) / MSGID-PLURAL (plural)\n"
+msgstr "  MSGID جمع-MSGID        يترجم MSGID (مفرد) / جمع-MSGID (جمع)\n"
+
+#: src/ngettext.c:241 src/printf_ngettext.c:221
+#, c-format
+msgid "  COUNT                     choose singular/plural form based on this value\n"
+msgstr "  عد                     يختار صيغة المفرد/الجمع بناءً على هذه القيمة\n"
+
+#: src/ngettext.c:252
+#, c-format, no-wrap
+msgid ""
+"If the TEXTDOMAIN parameter is not given, the domain is determined from the\n"
+"environment variable TEXTDOMAIN.  If the message catalog is not found in the\n"
+"regular directory, another location can be specified with the environment\n"
+"variable TEXTDOMAINDIR.\n"
+"Standard search directory: %s\n"
+msgstr ""
+"إذا لم يُعطَ معامل نطاق-نصي، يُحدد النطاق من\n"
+"متغير البيئة TEXTDOMAIN. إذا لم يُعثر على كتالوج الرسائل في\n"
+"الدليل الاعتيادي، يمكن تحديد موقع آخر باستخدام متغير البيئة\n"
+"TEXTDOMAINDIR.\n"
+"دليل البحث القياسي: %s\n"
+
+#: src/printf-command.c:154
+#, c-format
+msgid "In the directive number %zu, the argument number 0 is not a positive integer."
+msgstr "في التوجيه رقم %zu، وسيط الرقم 0 ليس عدداً صحيحاً موجباً."
+
+#: src/printf-command.c:237
+#, c-format
+msgid "The string ends in the middle of a directive."
+msgstr "تنتهي السلسلة في منتصف توجيه."
+
+#: src/printf-command.c:242
+#, c-format
+msgid "In the directive number %zu, the character '%c' is not a valid conversion specifier."
+msgstr "في التوجيه رقم %zu، المحرف '%c' ليس محدد تحويل صالح."
+
+#: src/printf-command.c:246
+#, c-format
+msgid "The character that terminates the directive number %zu is not a valid conversion specifier."
+msgstr "المحرف الذي ينهي التوجيه رقم %zu ليس محدد تحويل صالح."
+
+#: src/printf-command.c:255 src/printf-command.c:259
+#, c-format
+msgid "In the directive number %zu, the flag '%c' is invalid for the conversion '%c'."
+msgstr "في التوجيه رقم %zu، العلامة '%c' غير صالحة للتحويل '%c'."
+
+#: src/printf-command.c:278 src/printf-command.c:292
+#, c-format
+msgid "The string refers to arguments both through absolute argument numbers and through unnumbered argument specifications."
+msgstr "تشير السلسلة إلى الوسائط عبر أرقام وسائط مطلقة وعبر مواصفات وسائط غير مرقمة."
+
+#: src/printf-command.c:394
+#, c-format
+msgid "The string ends in the middle of an escape sequence."
+msgstr "تنتهي السلسلة في منتصف تسلسل هروب."
+
+#: src/printf-command.c:402
+#, c-format
+msgid "The escape sequence '%c%c' is unsupported (not in POSIX)."
+msgstr "تسلسل الهروب '%c%c' غير مدعوم (ليس في POSIX)."
+
+#: src/printf-command.c:403
+#, c-format
+msgid "The escape sequence '%c%c' is invalid."
+msgstr "تسلسل الهروب '%c%c' غير صالح."
+
+#: src/printf-command.c:407
+#, c-format
+msgid "This escape sequence is invalid."
+msgstr "تسلسل الهروب هذا غير صالح."
+
+#: src/printf-command.c:453 src/printf-command.c:499 src/printf-command.c:566
+#: src/printf-command.c:636 src/printf-command.c:689
+#, c-format
+msgid "write error"
+msgstr "خطأ كتابة"
+
+#: src/printf-command.c:527 src/printf-command.c:554 src/printf-command.c:595
+#: src/printf-command.c:624 src/printf-command.c:677
+#, c-format
+msgid "%s: expected a numeric value"
+msgstr "%s: كان متوقعاً قيمة رقمية"
+
+#: src/printf-command.c:548 src/printf-command.c:618 src/printf-command.c:671
+#, c-format
+msgid "%s: value not completely converted"
+msgstr "%s: القيمة لم تُحوَّل كلياً"
+
+#: src/printf-command.c:715
+#, c-format
+msgid "The translated format string consumes %zu arguments, whereas the original format string consumes only %zu arguments."
+msgstr "سلسلة التنسيق المترجمة تستهلك %zu وسيطاً، بينما سلسلة التنسيق الأصلية تستهلك %zu وسيطاً فقط."
+
+#: src/printf-command.c:726
+#, c-format
+msgid "warning: ignoring excess arguments, starting with %s"
+msgstr "تحذير: تجاهل الوسائط الفائضة، بدءاً من %s"
+
+#: src/printf_gettext.c:126
+#, c-format
+msgid "missing format string"
+msgstr "سلسلة تنسيق ناقصة"
+
+#: src/printf_gettext.c:172
+#, c-format, no-wrap
+msgid "Usage: %s [OPTION] FORMAT [ARGUMENT]...\n"
+msgstr "طريقة الاستخدام: %s [خيار] تنسيق [وسيط]...\n"
+
+#: src/printf_gettext.c:177
+#, c-format, no-wrap
+msgid ""
+"Produces formatted output, applying the native language translation of FORMAT\n"
+"to the ARGUMENTs.\n"
+msgstr ""
+"ينتج خرجاً منسقاً، بتطبيق الترجمة المحلية للغة للتنسيق\n"
+"على الوسائط.\n"
+
+#: src/printf_gettext.c:183 src/printf_ngettext.c:215
+#, c-format
+msgid "  -c, --context=CONTEXT     specify context for FORMAT\n"
+msgstr "  -c, --context=CONTEXT     يحدد السياق للتنسيق\n"
+
+#: src/printf_gettext.c:185
+#, c-format
+msgid "  FORMAT                    format string\n"
+msgstr "  تنسيق                    سلسلة تنسيق\n"
+
+#: src/printf_gettext.c:187 src/printf_ngettext.c:223
+#, c-format
+msgid "  ARGUMENT                  string or numeric argument\n"
+msgstr "  وسيط                  وسيط نصي أو رقمي\n"
+
+#: src/printf_gettext.c:198
+#, c-format, no-wrap
+msgid ""
+"The format string consists of\n"
+"  - plain text,\n"
+"  - directives, that start with '%c',\n"
+"  - escape sequences, that start with a backslash.\n"
+msgstr ""
+"تتألف سلسلة التنسيق من\n"
+"  - نص عادي،\n"
+"  - توجيهات، تبدأ بـ '%c'،\n"
+"  - تسلسلات هروب، تبدأ بشرطة مائلة عكسية.\n"
+
+#: src/printf_gettext.c:206 src/printf_ngettext.c:242
+#, c-format, no-wrap
+msgid ""
+"A directive that consumes an argument\n"
+"  - starts with '%s' or '%s' where %s is a positive integer,\n"
+"  - is optionally followed by any of the characters '%c', '%c', '%c', '%c', '%c',\n"
+"    each of which acts as a flag,\n"
+"  - is optionally followed by a width specification (a nonnegative integer),\n"
+"  - is optionally followed by '%c' and a precision specification (an optional\n"
+"    nonnegative integer),\n"
+"  - is finished by a specifier\n"
+"      - '%c', that prints a character,\n"
+"      - '%c', that prints a string,\n"
+"      - '%c', '%c', that print an integer,\n"
+"      - '%c', '%c', '%c', '%c', that print an unsigned (nonnegative) integer,\n"
+"      - '%c', '%c', that print a floating-point number in scientific notation,\n"
+"      - '%c', '%c', that print a floating-point number without an exponent,\n"
+"      - '%c', '%c', that print a floating-point number in general notation,\n"
+"      - '%c', '%c', that print a floating-point number in hexadecimal notation.\n"
+"Additionally there is the directive '%s', that prints a single '%c'.\n"
+msgstr ""
+"توجيه يستهلك وسيطاً\n"
+"  - يبدأ بـ '%s' أو '%s' حيث %s عدد صحيح موجب،\n"
+"  - يتبعه اختيارياً أي من المحارف '%c', '%c', '%c', '%c', '%c'،\n"
+"    يعمل كل منها كعلامة،\n"
+"  - يتبعه اختيارياً مواصفات عرض (عدد صحيح غير سالب)،\n"
+"  - يتبعه اختيارياً '%c' ومواصفات دقة (عدد صحيح غير سالب\n"
+"    اختياري)،\n"
+"  - يُنهي بمحدد\n"
+"      - '%c'، يطبع محرفاً،\n"
+"      - '%c'، يطبع سلسلة،\n"
+"      - '%c', '%c'، يطبعان عدداً صحيحاً،\n"
+"      - '%c', '%c', '%c', '%c'، تطبع عدداً صحيحاً غير موقَّع (غير سالب)،\n"
+"      - '%c', '%c'، تطبعان عدداً بكسر عائم بالتدوين العلمي،\n"
+"      - '%c', '%c'، تطبعان عدداً بكسر عائم دون أس،\n"
+"      - '%c', '%c'، تطبعان عدداً بكسر عائم بالتدوين العام،\n"
+"      - '%c', '%c'، تطبعان عدداً بكسر عائم بالتدوين الست عشري.\n"
+"بالإضافة لذلك يوجد التوجيه '%s'، الذي يطبع '%c' واحداً.\n"
+
+#: src/printf_gettext.c:235 src/printf_ngettext.c:271
+#, c-format, no-wrap
+msgid ""
+"If a directive specifies the argument by its number ('%s' notation),\n"
+"all directives that consume an argument must do so.\n"
+msgstr ""
+"إذا حدد توجيه الوسيط برقمه (تدوين '%s')،\n"
+"يجب على كل التوجيهات التي تستهلك وسيطاً أن تفعل ذلك.\n"
+
+#. TRANSLATORS: Most of the placeholders expand to 2 characters.
+#. The last placeholder expands to 4 characters.
+#: src/printf_gettext.c:242 src/printf_ngettext.c:278
+#, c-format
+msgid ""
+"The escape sequences are:\n"
+"\n"
+"  %s      backslash\n"
+"  %s      alert (BEL)\n"
+"  %s      backspace (BS)\n"
+"  %s      form feed (FF)\n"
+"  %s      new line (LF)\n"
+"  %s      carriage return (CR)\n"
+"  %s      horizontal tab (HT)\n"
+"  %s      vertical tab (VT)\n"
+"  %s    octal number with 1 to 3 octal digits\n"
+msgstr ""
+"تسلسلات الهروب هي:\n"
+"\n"
+"  %s      شرطة مائلة عكسية\n"
+"  %s      تنبيه (BEL)\n"
+"  %s      مسافة خلفية (BS)\n"
+"  %s      تقديم صفحة (FF)\n"
+"  %s      سطر جديد (LF)\n"
+"  %s      إرجاع الناقل (CR)\n"
+"  %s      جدولة أفقية (HT)\n"
+"  %s      جدولة عمودية (VT)\n"
+"  %s    رقم ثماني بـ 1 إلى 3 خانات ثمانية\n"
+
+#: src/printf_gettext.c:257 src/printf_ngettext.c:293
+#, c-format
+msgid "Environment variables:\n"
+msgstr "متغيرات البيئة:\n"
+
+#: src/printf_gettext.c:261 src/printf_ngettext.c:297
+#, c-format, no-wrap
+msgid ""
+"The translation of the format string is looked up in the translation domain\n"
+"given by the environment variable %s.\n"
+msgstr ""
+"يبحث عن ترجمة سلسلة التنسيق في نطاق الترجمة\n"
+"المعطى بواسطة متغير البيئة %s.\n"
+
+#: src/printf_gettext.c:266 src/printf_ngettext.c:302
+#, c-format, no-wrap
+msgid ""
+"It is looked up in the catalogs directory given by the environment variable\n"
+"%s or, if not present, in the default catalogs directory.\n"
+"This binary is configured to use the default catalogs directory:\n"
+"%s\n"
+msgstr ""
+"يبحث عنه في دليل الكتالوجات المعطى بواسطة متغير البيئة\n"
+"%s أو، إذا لم يكن موجوداً، في دليل الكتالوجات المبدئي.\n"
+"هذا الملف الثنائي مُهيَّأ لاستخدام دليل الكتالوجات المبدئي:\n"
+"%s\n"
+
+#: src/printf_ngettext.c:204
+#, c-format, no-wrap
+msgid "Usage: %s [OPTION] FORMAT FORMAT-PLURAL COUNT [ARGUMENT]...\n"
+msgstr "طريقة الاستخدام: %s [خيار] تنسيق جمع-التنسيق عد [وسيط]...\n"
+
+#: src/printf_ngettext.c:209
+#, c-format, no-wrap
+msgid ""
+"Produces formatted output, applying the native language translation of FORMAT\n"
+"and FORMAT-PLURAL, depending on COUNT, to the ARGUMENTs.\n"
+msgstr ""
+"ينتج خرجاً منسقاً، بتطبيق الترجمة المحلية للغة للتنسيق\n"
+"وجمع-التنسيق، اعتماداً على العد، على الوسائط.\n"
+
+#: src/printf_ngettext.c:217
+#, c-format
+msgid "  FORMAT                    English singular form of format string\n"
+msgstr "  تنسيق                    صيغة المفرد الإنجليزية لسلسلة التنسيق\n"
+
+#: src/printf_ngettext.c:219
+#, c-format
+msgid "  FORMAT-PLURAL             English plural form of format string\n"
+msgstr "  جمع-التنسيق             صيغة الجمع الإنجليزية لسلسلة التنسيق\n"
+
+#: src/printf_ngettext.c:234
+#, c-format, no-wrap
+msgid ""
+"Each format string consists of\n"
+"  - plain text,\n"
+"  - directives, that start with '%c',\n"
+"  - escape sequences, that start with a backslash.\n"
+msgstr ""
+"تتألف كل سلسلة تنسيق من\n"
+"  - نص عادي،\n"
+"  - توجيهات، تبدأ بـ '%c'،\n"
+"  - تسلسلات هروب، تبدأ بشرطة مائلة عكسية.\n"
