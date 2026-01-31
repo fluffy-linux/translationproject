@@ -1,0 +1,773 @@
+# Translation of grep to ِArabic
+# Copyright (C) 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the grep package.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: grep 3.11.68\n"
+"Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
+"POT-Creation-Date: 2025-04-04 14:26-0700\n"
+"PO-Revision-Date: 2026-01-31 19:19+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <(nothing)>\n"
+"Language: ar\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: lib/argmatch.c:145
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "معطى %s غير صالح لـ %s"
+
+#: lib/argmatch.c:146
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "معطى %s غامض لـ %s"
+
+#: lib/argmatch.c:165 lib/argmatch.h:242
+msgid "Valid arguments are:"
+msgstr "المعطيات الصالحة هي:"
+
+#: lib/c-stack.c:190
+msgid "program error"
+msgstr "خطأ في البرنامج"
+
+#: lib/c-stack.c:191
+msgid "stack overflow"
+msgstr "فيض المكدس"
+
+#: lib/closeout.c:121 src/grep.c:1352
+msgid "write error"
+msgstr "خطأ في الكتابة"
+
+#: lib/dfa.c:910
+msgid "unbalanced ["
+msgstr "[ غير متوازنة"
+
+#: lib/dfa.c:1031
+msgid "invalid character class"
+msgstr "فئة محارف غير صالحة"
+
+#: lib/dfa.c:1159
+msgid "character class syntax is [[:space:]], not [:space:]"
+msgstr "صيغة فئة المحارف هي [[:space:]] وليس [:space:]"
+
+#: lib/dfa.c:1234
+msgid "unfinished \\ escape"
+msgstr "هروب \\ غير مكتمل"
+
+#: lib/dfa.c:1344
+msgid "? at start of expression"
+msgstr "? في بداية التعبير"
+
+#: lib/dfa.c:1356
+msgid "* at start of expression"
+msgstr "* في بداية التعبير"
+
+#: lib/dfa.c:1370
+msgid "+ at start of expression"
+msgstr "+ في بداية التعبير"
+
+#: lib/dfa.c:1425
+msgid "{...} at start of expression"
+msgstr "{...} في بداية التعبير"
+
+#: lib/dfa.c:1428
+msgid "invalid content of \\{\\}"
+msgstr "محتوى \\{\\} غير صالح"
+
+#: lib/dfa.c:1430
+msgid "regular expression too big"
+msgstr "التعبير النمطي كبير جداً"
+
+#: lib/dfa.c:1580
+msgid "stray \\ before unprintable character"
+msgstr "\\ ضالة قبل محرف غير قابل للطباعة"
+
+#: lib/dfa.c:1582
+msgid "stray \\ before white space"
+msgstr "\\ ضالة قبل مسافة فارغة"
+
+#: lib/dfa.c:1593
+#, c-format
+msgid "stray \\ before %s"
+msgstr "\\ ضالة قبل %s"
+
+#: lib/dfa.c:1594 lib/dfa.c:1597
+msgid "stray \\"
+msgstr "\\ ضالة"
+
+#: lib/dfa.c:1948
+msgid "unbalanced ("
+msgstr "( غير متوازنة"
+
+#: lib/dfa.c:2065
+msgid "no syntax specified"
+msgstr "لم تحدد صيغة"
+
+#: lib/dfa.c:2076
+msgid "unbalanced )"
+msgstr ") غير متوازنة"
+
+#: lib/error.c:208
+msgid "Unknown system error"
+msgstr "خطأ نظام غير معروف"
+
+#: lib/getopt.c:282
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s: الخيار '%s%s' غامض\n"
+
+#: lib/getopt.c:288
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s: الخيار '%s%s' غامض؛ الاحتمالات:"
+
+#: lib/getopt.c:322
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s: خيار غير معروف '%s%s'\n"
+
+#: lib/getopt.c:348
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s: الخيار '%s%s' لا يسمح بمعطى\n"
+
+#: lib/getopt.c:363
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s: الخيار '%s%s' يتطلب معطى\n"
+
+#: lib/getopt.c:624
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: خيار غير صالح -- '%c'\n"
+
+#: lib/getopt.c:639 lib/getopt.c:685
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: الخيار يتطلب معطى -- '%c'\n"
+
+#: lib/obstack.c:320 lib/obstack.c:322 lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "نفدت الذاكرة"
+
+#: lib/openat-die.c:38
+msgid "unable to record current working directory"
+msgstr "تعذر تسجيل دليل العمل الحالي"
+
+#: lib/openat-die.c:57
+msgid "failed to return to initial working directory"
+msgstr "فشل العودة إلى دليل العمل المبدئي"
+
+#: lib/xbinary-io.c:36
+#, c-format
+msgid "failed to set file descriptor text/binary mode"
+msgstr "فشل ضبط واصف الملف لوضع نصي/ثنائي"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:354
+msgid "`"
+msgstr "«"
+
+#: lib/quotearg.c:355
+msgid "'"
+msgstr "»"
+
+#: lib/regcomp.c:122
+msgid "Success"
+msgstr "نجاح"
+
+#: lib/regcomp.c:125
+msgid "No match"
+msgstr "لا يوجد تطابق"
+
+#: lib/regcomp.c:128
+msgid "Invalid regular expression"
+msgstr "تعبير نمطي غير صالح"
+
+#: lib/regcomp.c:131
+msgid "Invalid collation character"
+msgstr "محرف ترتيب غير صالح"
+
+#: lib/regcomp.c:134
+msgid "Invalid character class name"
+msgstr "اسم فئة محارف غير صالح"
+
+#: lib/regcomp.c:137
+msgid "Trailing backslash"
+msgstr "شرطة مائلة خلفية في النهاية"
+
+#: lib/regcomp.c:140
+msgid "Invalid back reference"
+msgstr "مرجع خلفي غير صالح"
+
+#: lib/regcomp.c:143
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "[, [^, [:, [., أو [= بلا مقابل"
+
+#: lib/regcomp.c:146
+msgid "Unmatched ( or \\("
+msgstr "( أو \\( بلا مقابل"
+
+#: lib/regcomp.c:149
+msgid "Unmatched \\{"
+msgstr "\\{ بلا مقابل"
+
+#: lib/regcomp.c:152
+msgid "Invalid content of \\{\\}"
+msgstr "محتوى \\{\\} غير صالح"
+
+#: lib/regcomp.c:155
+msgid "Invalid range end"
+msgstr "نهاية نطاق غير صالحة"
+
+#: lib/regcomp.c:158
+msgid "Memory exhausted"
+msgstr "نفدت الذاكرة"
+
+#: lib/regcomp.c:161
+msgid "Invalid preceding regular expression"
+msgstr "التعبير النمطي السابق غير صالح"
+
+#: lib/regcomp.c:164
+msgid "Premature end of regular expression"
+msgstr "نهاية مبكرة للتعبير النمطي"
+
+#: lib/regcomp.c:167
+msgid "Regular expression too big"
+msgstr "التعبير النمطي كبير جداً"
+
+#: lib/regcomp.c:170
+msgid "Unmatched ) or \\)"
+msgstr ") أو \\) بلا مقابل"
+
+#: lib/regcomp.c:650
+msgid "No previous regular expression"
+msgstr "لا يوجد تعبير نمطي سابق"
+
+#: lib/version-etc.c:73
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "حزّمه %s (%s)\n"
+
+#: lib/version-etc.c:76
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "حزّمه %s\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:83
+msgid "(C)"
+msgstr "©"
+
+#. TRANSLATORS: The %s placeholder is the web address of the GPL license.
+#: lib/version-etc.c:88
+#, c-format
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <%s>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"الرخصة GPLv3+‎: رخصة جنو العمومية الإصدار 3 أو أحدث <%s>.\n"
+"هذا برمجية حرة: يمكنك تغييرها وإعادة توزيعها.\n"
+"لا يوجد أي ضمان، إلى المدى الذي يسمح به القانون.\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:105
+#, c-format
+msgid "Written by %s.\n"
+msgstr "كتبه %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:109
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "كتبه %s و %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:113
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "كتبه %s، و%s، و%s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:120
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"كتبه %s، و%s، و%s،\n"
+"و%s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:127
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"كتبه %s، و%s، و%s،\n"
+"%s، و%s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:134
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"كتبه %s، و%s، و%s،\n"
+"%s، و%s، و%s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:142
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"كتبه %s، و%s، و%s،\n"
+"%s، و%s، و%s، و%s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:150
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"كتبه %s، و%s، و%s،\n"
+"%s، و%s، و%s، و%s،\n"
+"و%s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:159
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"كتبه %s، و%s، و%s،\n"
+"%s، و%s، و%s، و%s،\n"
+"%s، و%s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:170
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"كتبه %s، و%s، و%s،\n"
+"%s، و%s، و%s، و%s،\n"
+"%s، و%s، وآخرون.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:249
+#, c-format
+msgid "Report bugs to: %s\n"
+msgstr "أبلغ عن العلات إلى: %s\n"
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "أبلغ عن علات %s إلى: %s\n"
+
+#: lib/version-etc.c:255 lib/version-etc.c:257
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "صفحة %s الرئيسية: <%s>\n"
+
+#: lib/version-etc.c:260
+#, c-format
+msgid "General help using GNU software: <%s>\n"
+msgstr "مساعدة عامة في استخدام برمجيات غنو: <%s>\n"
+
+#: src/dfasearch.c:57
+#, c-format
+msgid "warning: %s"
+msgstr "تحذير: %s"
+
+#: src/grep.c:657
+msgid "(standard input)"
+msgstr "(المدخل القياسي)"
+
+#: src/grep.c:838
+msgid "invalid context length argument"
+msgstr "معطى طول السياق غير صالح"
+
+#: src/grep.c:911
+msgid "input is too large to count"
+msgstr "المدخلات كبيرة جداً بحيث لا يمكن عدها"
+
+#: src/grep.c:1654
+#, c-format
+msgid "%s: binary file matches"
+msgstr "%s: ملف ثنائي متطابق"
+
+#: src/grep.c:1692
+#, c-format
+msgid "%s: warning: recursive directory loop"
+msgstr "%s: تحذير: حلقة دليل تكرارية"
+
+#: src/grep.c:1912
+#, c-format
+msgid "%s: input file is also the output"
+msgstr "%s: ملف المدخلات هو نفسه ملف المخرجات"
+
+#: src/grep.c:1974 src/grep.c:1981
+#, c-format
+msgid "Usage: %s [OPTION]... PATTERNS [FILE]...\n"
+msgstr "الاستخدام: %s [خيار]... أنماط [ملف]...\n"
+
+#: src/grep.c:1976
+#, c-format
+msgid "Try '%s --help' for more information.\n"
+msgstr "جرب '%s --help' لمزيد من المعلومات.\n"
+
+#: src/grep.c:1982
+#, c-format
+msgid "Search for PATTERNS in each FILE.\n"
+msgstr "ابحث عن الأنماط في كل ملف.\n"
+
+#: src/grep.c:1983
+#, c-format
+msgid ""
+"Example: %s -i 'hello world' menu.h main.c\n"
+"PATTERNS can contain multiple patterns separated by newlines.\n"
+"\n"
+"Pattern selection and interpretation:\n"
+msgstr ""
+"مثال: %s -i 'hello world' menu.h main.c\n"
+"يمكن أن تحتوي الأنماط على عدة أنماط مفصولة بأسطر جديدة.\n"
+"\n"
+"اختيار الأنماط وتفسيرها:\n"
+
+#: src/grep.c:1988
+#, c-format
+msgid ""
+"  -E, --extended-regexp     PATTERNS are extended regular expressions\n"
+"  -F, --fixed-strings       PATTERNS are strings\n"
+"  -G, --basic-regexp        PATTERNS are basic regular expressions\n"
+"  -P, --perl-regexp         PATTERNS are Perl regular expressions\n"
+msgstr ""
+"  -E, --extended-regexp     الأنماط هي تعابير نمطية ممتدة\n"
+"  -F, --fixed-strings       الأنماط هي سلاسل نصية\n"
+"  -G, --basic-regexp        الأنماط هي تعابير نمطية أساسية\n"
+"  -P, --perl-regexp         الأنماط هي تعابير نمطية بيرل (Perl)\n"
+
+#: src/grep.c:1994
+#, c-format
+msgid ""
+"  -e, --regexp=PATTERNS     use PATTERNS for matching\n"
+"  -f, --file=FILE           take PATTERNS from FILE\n"
+"  -i, --ignore-case         ignore case distinctions in patterns and data\n"
+"      --no-ignore-case      do not ignore case distinctions (default)\n"
+"  -w, --word-regexp         match only whole words\n"
+"  -x, --line-regexp         match only whole lines\n"
+"  -z, --null-data           a data line ends in 0 byte, not newline\n"
+msgstr ""
+"  -e, --regexp=PATTERNS     استخدم الأنماط للمطابقة\n"
+"  -f, --file=FILE           خذ الأنماط من الملف\n"
+"  -i, --ignore-case         تجاهل حالة الأحرف في الأنماط والبيانات\n"
+"      --no-ignore-case      لا تتجاهل حالة الأحرف (مبدئي)\n"
+"  -w, --word-regexp         طابق الكلمات الكاملة فقط\n"
+"  -x, --line-regexp         طابق الأسطر الكاملة فقط\n"
+"  -z, --null-data           ينتهي سطر البيانات بـ 0 بايت، وليس بسطر جديد\n"
+
+#: src/grep.c:2002
+#, c-format
+msgid ""
+"\n"
+"Miscellaneous:\n"
+"  -s, --no-messages         suppress error messages\n"
+"  -v, --invert-match        select non-matching lines\n"
+"  -V, --version             display version information and exit\n"
+"      --help                display this help text and exit\n"
+msgstr ""
+"\n"
+"متفرقات:\n"
+"  -s, --no-messages         اكتم رسائل الخطأ\n"
+"  -v, --invert-match        اختر الأسطر غير المتطابقة\n"
+"  -V, --version             اعرض معلومات الإصدار واخرج\n"
+"      --help                اعرض نص المساعدة هذا واخرج\n"
+
+#: src/grep.c:2009
+#, c-format
+msgid ""
+"\n"
+"Output control:\n"
+"  -m, --max-count=NUM       stop after NUM selected lines\n"
+"  -b, --byte-offset         print the byte offset with output lines\n"
+"  -n, --line-number         print line number with output lines\n"
+"      --line-buffered       flush output on every line\n"
+"  -H, --with-filename       print file name with output lines\n"
+"  -h, --no-filename         suppress the file name prefix on output\n"
+"      --label=LABEL         use LABEL as the standard input file name prefix\n"
+msgstr ""
+"\n"
+"التحكم في المخرجات:\n"
+"  -m, --max-count=NUM       توقف بعد اختيار عدد NUM من الأسطر\n"
+"  -b, --byte-offset         اطبع إزاحة البايت مع أسطر المخرجات\n"
+"  -n, --line-number         اطبع رقم السطر مع أسطر المخرجات\n"
+"      --line-buffered       فرغ المخرجات عند كل سطر\n"
+"  -H, --with-filename       اطبع اسم الملف مع أسطر المخرجات\n"
+"  -h, --no-filename         اكتم بادئة اسم الملف في المخرجات\n"
+"      --label=LABEL         استخدم LABEL كبادئة لاسم ملف المدخل القياسي\n"
+
+#: src/grep.c:2020
+#, c-format
+msgid ""
+"  -o, --only-matching       show only nonempty parts of lines that match\n"
+"  -q, --quiet, --silent     suppress all normal output\n"
+"      --binary-files=TYPE   assume that binary files are TYPE;\n"
+"                            TYPE is 'binary', 'text', or 'without-match'\n"
+"  -a, --text                equivalent to --binary-files=text\n"
+msgstr ""
+"  -o, --only-matching       اعرض فقط الأجزاء غير الفارغة من الأسطر المتطابقة\n"
+"  -q, --quiet, --silent     اكتم جميع المخرجات العادية\n"
+"      --binary-files=TYPE   افترض أن الملفات الثنائية هي من نوع TYPE؛\n"
+"                            النوع هو 'binary' أو 'text' أو 'without-match'\n"
+"  -a, --text                يكافئ الخيار --binary-files=text\n"
+
+#: src/grep.c:2027
+#, c-format
+msgid ""
+"  -I                        equivalent to --binary-files=without-match\n"
+"  -d, --directories=ACTION  how to handle directories;\n"
+"                            ACTION is 'read', 'recurse', or 'skip'\n"
+"  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;\n"
+"                            ACTION is 'read' or 'skip'\n"
+"  -r, --recursive           like --directories=recurse\n"
+"  -R, --dereference-recursive  likewise, but follow all symlinks\n"
+msgstr ""
+"  -I                        يكافئ الخيار --binary-files=without-match\n"
+"  -d, --directories=ACTION  كيفية التعامل مع الأدلة؛\n"
+"                            الإجراء هو 'read' أو 'recurse' أو 'skip'\n"
+"  -D, --devices=ACTION      كيفية التعامل مع الأجهزة والـ FIFOs والمقابس؛\n"
+"                            الإجراء هو 'read' أو 'skip'\n"
+"  -r, --recursive           مثل --directories=recurse\n"
+"  -R, --dereference-recursive  كذلك، ولكن اتبع جميع الروابط الرمزية\n"
+
+#: src/grep.c:2036
+#, c-format
+msgid ""
+"      --include=GLOB        search only files that match GLOB (a file pattern)\n"
+"      --exclude=GLOB        skip files that match GLOB\n"
+"      --exclude-from=FILE   skip files that match any file pattern from FILE\n"
+"      --exclude-dir=GLOB    skip directories that match GLOB\n"
+msgstr ""
+"      --include=GLOB        ابحث فقط في الملفات التي تطابق GLOB (نمط ملف)\n"
+"      --exclude=GLOB        تخط الملفات التي تطابق GLOB\n"
+"      --exclude-from=FILE   تخط الملفات التي تطابق أي نمط ملف من FILE\n"
+"      --exclude-dir=GLOB    تخط الأدلة التي تطابق GLOB\n"
+
+#: src/grep.c:2043
+#, c-format
+msgid ""
+"  -L, --files-without-match  print only names of FILEs with no selected lines\n"
+"  -l, --files-with-matches  print only names of FILEs with selected lines\n"
+"  -c, --count               print only a count of selected lines per FILE\n"
+"  -T, --initial-tab         make tabs line up (if needed)\n"
+"  -Z, --null                print 0 byte after FILE name\n"
+msgstr ""
+"  -L, --files-without-match  اطبع فقط أسماء الملفات التي لا تحتوي على أسطر مختارة\n"
+"  -l, --files-with-matches   اطبع فقط أسماء الملفات التي تحتوي على أسطر مختارة\n"
+"  -c, --count               اطبع فقط عدد الأسطر المختارة لكل ملف\n"
+"  -T, --initial-tab         اجعل الألسنة تصطف (إذا لزم الأمر)\n"
+"  -Z, --null                اطبع 0 بايت بعد اسم الملف\n"
+
+#: src/grep.c:2049
+#, c-format
+msgid ""
+"\n"
+"Context control:\n"
+"  -B, --before-context=NUM  print NUM lines of leading context\n"
+"  -A, --after-context=NUM   print NUM lines of trailing context\n"
+"  -C, --context=NUM         print NUM lines of output context\n"
+msgstr ""
+"\n"
+"التحكم في السياق:\n"
+"  -B, --before-context=NUM  اطبع عدد NUM من أسطر السياق السابقة\n"
+"  -A, --after-context=NUM   اطبع عدد NUM من أسطر السياق اللاحقة\n"
+"  -C, --context=NUM         اطبع عدد NUM من أسطر سياق المخرجات\n"
+
+#: src/grep.c:2056
+#, c-format
+msgid ""
+"  -NUM                      same as --context=NUM\n"
+"      --group-separator=SEP  print SEP on line between matches with context\n"
+"      --no-group-separator  do not print separator for matches with context\n"
+"      --color[=WHEN],\n"
+"      --colour[=WHEN]       use markers to highlight the matching strings;\n"
+"                            WHEN is 'always', 'never', or 'auto'\n"
+"  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)\n"
+"\n"
+msgstr ""
+"  -NUM                      مثل --context=NUM\n"
+"      --group-separator=SEP  اطبع SEP في سطر بين التطابقات مع السياق\n"
+"      --no-group-separator  لا تطبع فاصلاً للتطابقات مع السياق\n"
+"      --color[=WHEN],\n"
+"      --colour[=WHEN]       استخدم علامة لتمييز السلاسل المتطابقة؛\n"
+"                            القيمة هي 'always' أو 'never' أو 'auto' (آلي)\n"
+"  -U, --binary              لا تنزع محارف CR عند نهاية السطر (MSDOS/ويندوز)\n"
+"\n"
+
+#: src/grep.c:2065
+#, c-format
+msgid ""
+"When FILE is '-', read standard input.  If no FILE is given, read standard\n"
+"input, but with -r, recursively search the working directory instead.  With\n"
+"fewer than two FILEs, assume -h.  Exit status is 0 if any line is selected,\n"
+"1 otherwise; if any error occurs and -q is not given, the exit status is 2.\n"
+msgstr ""
+"عندما يكون الملف '-'، اقرأ المدخل القياسي. إذا لم يعط ملف، اقرأ المدخل\n"
+"القياسي، ولكن مع الخيار -r، ابحث تكرارياً في دليل العمل بدلاً من ذلك. مع\n"
+"أقل من ملفين، افترض الخيار -h. حالة الخروج هي 0 إذا اختير أي سطر،\n"
+"و 1 خلاف ذلك؛ إذا حدث أي خطأ ولم يعط الخيار -q، فإن حالة الخروج هي 2.\n"
+
+#: src/grep.c:2108
+msgid "conflicting matchers specified"
+msgstr "حددت أدوات مطابقة متضاربة"
+
+#: src/grep.c:2115
+msgid "Perl matching not supported in a --disable-perl-regexp build"
+msgstr "مطابقة بيرل (Perl) غير مدعومة في بناء تم فيه --disable-perl-regexp"
+
+#: src/grep.c:2117
+#, c-format
+msgid "invalid matcher %s"
+msgstr "أداة مطابقة غير صالحة %s"
+
+#: src/grep.c:2539
+msgid "unknown devices method"
+msgstr "طريقة أجهزة غير معروفة"
+
+#: src/grep.c:2688
+msgid "invalid max count"
+msgstr "أقصى عدد غير صالح"
+
+#: src/grep.c:2745
+msgid "unknown binary-files type"
+msgstr "نوع ملفات ثنائية غير معروف"
+
+#: src/grep.c:2830
+msgid ""
+"Written by Mike Haertel and others; see\n"
+"<https://git.savannah.gnu.org/cgit/grep.git/tree/AUTHORS>."
+msgstr ""
+"كتبه مايك هارتل وآخرون؛ انظر\n"
+"<https://git.savannah.gnu.org/cgit/grep.git/tree/AUTHORS>."
+
+#: src/grep.c:2937
+#, c-format
+msgid "warning: GREP_COLOR='%s' is deprecated; use GREP_COLORS='mt=%s'"
+msgstr "تحذير: GREP_COLOR='%s' مهجور؛ استخدم GREP_COLORS='mt=%s'"
+
+#: src/pcresearch.c:89
+#, c-format
+msgid ""
+"\n"
+"grep -P uses PCRE2 %s\n"
+msgstr ""
+"\n"
+"grep -P يستخدم PCRE2 %s\n"
+
+#: src/pcresearch.c:167
+msgid "-P supports only unibyte locales on this platform"
+msgstr "-P يدعم محليات البايت الواحد فقط على هذه المنصة"
+
+#: src/pcresearch.c:169
+msgid "-P supports only unibyte and UTF-8 locales"
+msgstr "-P يدعم محليات البايت الواحد و UTF-8 فقط"
+
+#: src/pcresearch.c:192
+msgid "the -P option only supports a single pattern"
+msgstr "الخيار -P يدعم نمطاً واحداً فقط"
+
+#: src/pcresearch.c:288
+msgid "exceeded PCRE's line length limit"
+msgstr "تجاوز حد طول السطر في PCRE"
+
+#: src/pcresearch.c:366
+#, c-format
+msgid "%s: memory exhausted"
+msgstr "%s: نفدت الذاكرة"
+
+#: src/pcresearch.c:369
+#, c-format
+msgid "%s: exhausted PCRE JIT stack"
+msgstr "%s: نفدت مكدسة PCRE JIT"
+
+#: src/pcresearch.c:373
+#, c-format
+msgid "%s: exceeded PCRE's backtracking limit"
+msgstr "%s: تجاوز حد التراجع لـ PCRE"
+
+#: src/pcresearch.c:378
+#, c-format
+msgid "%s: exceeded PCRE's nested backtracking limit"
+msgstr "%s: تجاوز حد التراجع المتداخل لـ PCRE"
+
+#: src/pcresearch.c:382
+#, c-format
+msgid "%s: PCRE detected recurse loop"
+msgstr "%s: اكتشف PCRE حلقة تكرارية"
+
+#: src/pcresearch.c:387
+#, c-format
+msgid "%s: exceeded PCRE's heap limit"
+msgstr "%s: تجاوز حد كومة PCRE"
+
+#: src/pcresearch.c:396
+#, c-format
+msgid "%s: internal PCRE error: %d"
+msgstr "%s: خطأ داخلي في PCRE: %d"
