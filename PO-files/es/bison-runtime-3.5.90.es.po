@@ -1,0 +1,98 @@
+# Mensajes en español para GNU bison-runtime.
+# Copyright (C) 1998 - 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the bison package.
+#
+# Corregido por:
+#
+# cll - Carlos Linares López        clinares@acm.org
+# clinares@delicias.dia.fi.upm.es
+#
+# Notas:
+#
+# 1. Nicolás, en algunas ocasiones notarás que algunos `msgstr' no están
+# indentados como los `msgid'. No te preocupes, eso es porque yo utilizo
+# el `po-mode' de Emacs, ... Él es el responsable de esas indentaciones
+# del `msgstr' :)
+#
+# 2. Todos los comentarios que contengan "Duda:" debieran revisarse.
+#
+# --------------------------------------------------------------------
+# En mi opinión has hecho un excelente trabajo y te animo a que sigas
+# manteniendo esta traducción y a que lo intentes con otras.
+#
+# (¡te lo dice el tío que ha traducido el paquete más grande: 1406
+# mensajes en el clisp!)
+#
+# Carlos Linares
+# --------------------------------------------------------------------
+#
+# Nicolás García-Pedrajas <ngarcia-pedrajas@acm.org>, 1998.
+# Santiago Vila Doncel <sanvila@unex.es>, 2013.
+# Francisco Javier Serrador <fserrador@gmail.com>, 2018.
+# Cristian Othón Martínez Vera <cfuga@cfuga.mx>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: bison-runtime 3.5.90\n"
+"Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
+"POT-Creation-Date: 2020-04-18 10:42+0200\n"
+"PO-Revision-Date: 2026-02-27 15:27-0600\n"
+"Last-Translator: Cristian Othón Martínez Vera <cfuga@cfuga.mx>\n"
+"Language-Team: Spanish <es@tp.org.es>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+
+#: data/skeletons/glr.c:893 data/skeletons/yacc.c:739
+msgid "syntax error: cannot back up"
+msgstr "error de sintaxis: no se puede regresar hacia arriba"
+
+#: data/skeletons/glr.c:1802
+msgid "syntax is ambiguous"
+msgstr "la sintaxis es ambigua"
+
+#: data/skeletons/glr.c:2213 data/skeletons/glr.c:2239
+#: data/skeletons/glr.c:2292 data/skeletons/glr.c:2530
+#: data/skeletons/lalr1.cc:1073 data/skeletons/lalr1.cc:1490
+#: data/skeletons/yacc.c:1408 data/skeletons/yacc.c:1915
+#: data/skeletons/yacc.c:1919
+msgid "syntax error"
+msgstr "error de sintaxis"
+
+#: data/skeletons/glr.c:2240 data/skeletons/lalr1.cc:1491
+#: data/skeletons/yacc.c:1409
+#, c-format
+msgid "syntax error, unexpected %s"
+msgstr "error de sintaxis, %s inesperado"
+
+#: data/skeletons/glr.c:2241 data/skeletons/lalr1.cc:1492
+#: data/skeletons/yacc.c:1410
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s"
+msgstr "error de sintaxis, %s inesperado, se esperaba %s"
+
+#: data/skeletons/glr.c:2242 data/skeletons/lalr1.cc:1493
+#: data/skeletons/yacc.c:1411
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s"
+msgstr "error de sintaxis, %s inesperado, se esperaba %s o %s"
+
+#: data/skeletons/glr.c:2243 data/skeletons/lalr1.cc:1494
+#: data/skeletons/yacc.c:1412
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s"
+msgstr "error de sintaxis, %s inesperado, se esperaba %s o %s o %s"
+
+#: data/skeletons/glr.c:2244 data/skeletons/lalr1.cc:1495
+#: data/skeletons/yacc.c:1413
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
+msgstr "error de sintaxis, %s inesperado, se esperaba %s o %s o %s o %s"
+
+#: data/skeletons/glr.c:2589 data/skeletons/yacc.c:1492
+#: data/skeletons/yacc.c:1494 data/skeletons/yacc.c:1669
+#: data/skeletons/yacc.c:2070
+msgid "memory exhausted"
+msgstr "memoria agotada"
