@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: coreutils 9.10-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2026-01-27 17:59+0000\n"
-"PO-Revision-Date: 2026-02-05 03:41+0800\n"
+"PO-Revision-Date: 2026-02-28 21:16+0800\n"
 "Last-Translator: Wenbin Lv <wenbin816@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -9462,28 +9462,26 @@ msgid "Paginate or columnate FILE(s) for printing.\n"
 msgstr "对 <文件> 进行分页或分列以便后续打印使用。\n"
 
 #: src/pr.c:2777
-#, fuzzy
 msgid ""
 "\n"
 "  +FIRST_PAGE[:LAST_PAGE], --pages=FIRST_PAGE[:LAST_PAGE]\n"
 "         begin [stop] printing with page FIRST_[LAST_]PAGE\n"
 msgstr ""
+"\n"
 "  +首页[:末页], --pages=首页[:末页]\n"
-"                    在指定的首页/末页处开始/停止打印\n"
+"         在指定的首页/末页处开始/停止打印\n"
 
 #: src/pr.c:2781
-#, fuzzy
 msgid ""
 "  -COLS, --columns=COLS\n"
 "         output COLS columns and print columns down, unless -a is used.\n"
 "         Balance number of lines in the columns on each page\n"
 msgstr ""
 "  -列数, --columns=列数\n"
-"                    将输出分为 <列数> 列，且从上到下打印，除非指定\n"
-"                    了 -a 选项。程序会自动平衡每一页中每列占用的行数。\n"
+"         将输出分为 <列数> 列，且从上到下打印，除非指定了 -a 选项。\n"
+"         自动平衡每一页中每列占用的行数。\n"
 
 #: src/pr.c:2786
-#, fuzzy
 msgid ""
 "  -a, --across\n"
 "         print columns across rather than down, used together with -COLUMN\n"
@@ -9492,44 +9490,38 @@ msgstr ""
 "         从左到右打印，而不是从上到下。须和 \"-列数\" 选项同时使用\n"
 
 #: src/pr.c:2790
-#, fuzzy
 msgid ""
 "  -c, --show-control-chars\n"
 "         use hat notation (^G) and octal backslash notation\n"
 msgstr ""
 "  -c, --show-control-chars\n"
-"                    使用帽子表示法（如 ^G）和八进制反斜杠表示法表示控制字符\n"
+"         使用帽子表示法（如 ^G）和八进制反斜杠表示法表示控制字符\n"
 
 #: src/pr.c:2794
-#, fuzzy
 msgid ""
 "  -d, --double-space\n"
 "         double space the output\n"
 msgstr ""
 "  -d, --double-space\n"
-"                    使用双倍行距进行输出\n"
+"         使用双倍行距进行输出\n"
 
 #: src/pr.c:2798
-#, fuzzy
 msgid ""
 "  -D, --date-format=FORMAT\n"
 "         use FORMAT for the header date\n"
 msgstr ""
 "  -D, --date-format=格式\n"
-"                    指定页眉日期的 <格式>\n"
+"         指定页眉日期的 <格式>\n"
 
 #: src/pr.c:2802
-#, fuzzy
 msgid ""
 "  -e[CHAR[WIDTH]], --expand-tabs[=CHAR[WIDTH]]\n"
 "         expand input CHARs (TABs) to tab WIDTH (8)\n"
 msgstr ""
 "  -e[字符[宽度]], --expand-tabs[=字符[宽度]]\n"
-"                    使用指定的制表符 <宽度>（默认为 8）展开输入中的 <字符>\n"
-"                    （默认为制表符）\n"
+"         以指定的制表符 <宽度>（默认为 8）展开输入中的 <字符>（默认为制表符）\n"
 
 #: src/pr.c:2806
-#, fuzzy
 msgid ""
 "  -F, -f, --form-feed\n"
 "         use form feeds instead of newlines to separate pages\n"
@@ -9537,43 +9529,38 @@ msgid ""
 "         and trailer without -F)\n"
 msgstr ""
 "  -F, -f, --form-feed\n"
-"                    使用换页符代替换行符作为页面分隔符\n"
-"                    （使用 -F 选项时页眉为 3 行，不使用时页眉和页脚为 5 行）\n"
+"         使用换页符代替换行符作为页面分隔符\n"
+"         （使用 -F 选项时页眉为 3 行，不使用时页眉和页脚为 5 行）\n"
 
 #: src/pr.c:2812
-#, fuzzy
 msgid ""
 "  -h, --header=HEADER\n"
 "         use a centered HEADER instead of filename in page header,\n"
 "         -h \"\" prints a blank line, don't use -h\"\"\n"
 msgstr ""
 "  -h, --header=页眉\n"
-"                    居中打印 <页眉> 作为页眉，而不是打印文件名，\n"
-"                    使用 -h \"\" 打印一个空行，不要使用 -h\"\"\n"
+"         居中打印 <页眉> 作为页眉，而不是打印文件名，\n"
+"         使用 -h \"\" 打印一个空行，不要使用 -h\"\"\n"
 
 #: src/pr.c:2817
-#, fuzzy
 msgid ""
 "  -i[CHAR[WIDTH]], --output-tabs[=CHAR[WIDTH]]\n"
 "         replace spaces with CHARs (TABs) to tab WIDTH (8)\n"
 msgstr ""
 "  -i[字符[宽度]], --output-tabs[=字符[宽度]]\n"
-"                    使用指定的制表符 <宽度>（默认为 8）将空格换成 <字符>\n"
-"                    （默认为制表符）\n"
+"         以指定的制表符 <宽度>（默认为 8）将空格换成 <字符>（默认为制表符）\n"
 
 #: src/pr.c:2821
-#, fuzzy
 msgid ""
 "  -J, --join-lines\n"
 "         merge full lines, turns off -W line truncation,\n"
 "         no column alignment, --sep-string[=STRING] sets separators\n"
 msgstr ""
 "  -J, --join-lines\n"
-"                    完整地合并行，关闭 -W 选项的行截断，不使用列对齐，使用\n"
-"                    --sep-string[=字符串] 设置分隔符\n"
+"         完整地合并行，关闭 -W 选项的行截断，\n"
+"         不使用列对齐，使用 --sep-string[=字符串] 设置分隔符\n"
 
 #: src/pr.c:2826
-#, fuzzy
 msgid ""
 "  -l, --length=PAGE_LENGTH\n"
 "         set the page length to PAGE_LENGTH (66) lines\n"
@@ -9581,64 +9568,58 @@ msgid ""
 "         implies -t if PAGE_LENGTH <= 10\n"
 msgstr ""
 "  -l, --length=页面长度\n"
-"                    设置页面长度为 <页面长度> 行（默认为 66）\n"
-"                    （默认文本行数为 56，当启用 -F 时为 63）。\n"
-"                    如果 <页面长度> 小于或等于 10，则隐含启用 -t\n"
+"         设置页面长度为 <页面长度> 行（默认为 66）\n"
+"         （默认文本行数为 56，当启用 -F 时为 63）。\n"
+"         如果 <页面长度> 小于或等于 10，则隐含启用 -t\n"
 
 #: src/pr.c:2832
-#, fuzzy
 msgid ""
 "  -m, --merge\n"
 "         print all files in parallel, one in each column,\n"
 "         truncate lines, but join lines of full length with -J\n"
 msgstr ""
 "  -m, --merge\n"
-"         并排打印所有文件，每个文件占用一列，会截断行，但是如果\n"
-"                    指定了 -J，则完整地合并行\n"
+"         并排打印所有文件，每个文件占用一列，\n"
+"         会截断行，但是如果指定了 -J，则完整地合并行\n"
 
 #: src/pr.c:2837
-#, fuzzy
 msgid ""
 "  -n[SEP[DIGITS]], --number-lines[=SEP[DIGITS]]\n"
 "         number lines, use DIGITS (5) digits, then SEP (TAB),\n"
 "         default counting starts with 1st line of input file\n"
 msgstr ""
 "  -n[分隔符[位数]], --number-lines[=分隔符[位数]]\n"
-"                    显示行号，使用指定的 <位数>（默认为 5），后接 <分隔符>\n"
-"                    （默认为制表符），默认从输入文件的第一行开始计数\n"
+"         显示行号，使用指定的 <位数>（默认为 5），后接 <分隔符>\n"
+"         （默认为制表符），默认从输入文件的第一行开始计数\n"
 
 #: src/pr.c:2842
-#, fuzzy
 msgid ""
 "  -N, --first-line-number=NUMBER\n"
 "         start counting with NUMBER at 1st line of first\n"
 "         page printed (see +FIRST_PAGE)\n"
 msgstr ""
 "  -N, --first-line-number=编号\n"
-"                    从打印的首页的首行以指定的 <编号> 开始计数（参见 \"+首页\"）\n"
+"         从打印的首页的首行以指定的 <编号> 开始计数（参见 \"+首页\"）\n"
 
 #: src/pr.c:2847
-#, fuzzy
 msgid ""
 "  -o, --indent=MARGIN\n"
 "         offset each line with MARGIN (zero) spaces, do not\n"
 "         affect -w or -W, MARGIN will be added to PAGE_WIDTH\n"
 msgstr ""
 "  -o, --indent=页边距\n"
-"                    将每行缩进 <页边距>（默认为 0）个空格，不影响 -w\n"
-"                    或 -W，<页边距> 的值会被加进 <页面宽度> 中\n"
+"         将每行缩进 <页边距>（默认为 0）个空格，\n"
+"         不影响 -w 或 -W，<页边距> 的值会被加进 <页面宽度> 中\n"
 
 #: src/pr.c:2852
-#, fuzzy
 msgid ""
 "  -r, --no-file-warnings\n"
 "         omit warning when a file cannot be opened\n"
 msgstr ""
 "  -r, --no-file-warnings\n"
-"                    当文件无法打开时不显示警告\n"
+"         当文件无法打开时不显示警告\n"
 
 #: src/pr.c:2856
-#, fuzzy
 msgid ""
 "  -s[CHAR], --separator[=CHAR]\n"
 "         separate columns by a single character, default for CHAR\n"
@@ -9647,12 +9628,11 @@ msgid ""
 "         options (-COLUMN|-a -COLUMN|-m) except -w is set\n"
 msgstr ""
 "  -s[字符], --separator[=字符]\n"
-"                    由单个 <字符> 分隔各列，未使用 -w 时默认为制表符，使用 -w\n"
-"                    时默认没有分隔符。除非使用了 -w，否则 -s[字符] 会禁用全部\n"
-"                    3 种分列选项（-列数|-a -列数|-m）的行截断\n"
+"         由单个 <字符> 分隔各列，未使用 -w 时默认为制表符，使用 -w\n"
+"         时默认没有分隔符。除非使用了 -w，否则 -s[字符] 会禁用全部\n"
+"         3 种分列选项（-列数|-a -列数|-m）的行截断\n"
 
 #: src/pr.c:2864
-#, fuzzy
 msgid ""
 "  -S[STRING], --sep-string[=STRING]\n"
 "         separate columns by STRING,\n"
@@ -9660,52 +9640,46 @@ msgid ""
 "         otherwise (same as -S\" \"), no effect on column options\n"
 msgstr ""
 "  -S[字符串], --sep-string[=字符串]\n"
-"                    使用 <字符串> 分隔各列，\n"
-"                    不使用 -S 时：使用 -J 时，使用默认的制表符作为分隔符，\n"
-"                    否则使用空格作为分隔符（等于 -S\" \"），对分列选项无影响\n"
+"         使用 <字符串> 分隔各列，\n"
+"         不使用 -S 时：使用 -J 时，使用默认的制表符作为分隔符，\n"
+"         否则使用空格作为分隔符（等于 -S\" \"），对分列选项无影响\n"
 
 #: src/pr.c:2870
-#, fuzzy
 msgid ""
 "  -t, --omit-header\n"
 "         omit page headers and trailers; implied if PAGE_LENGTH <= 10\n"
 msgstr ""
 "  -t, --omit-header\n"
-"         省略页眉和页脚；\n"
-"                     在 <页长> 小于或等于 10 时被隐含启用\n"
+"         省略页眉和页脚；在 <页面长度> <= 10 时被隐含启用\n"
 
 #: src/pr.c:2874
-#, fuzzy
 msgid ""
 "  -T, --omit-pagination\n"
 "         omit page headers and trailers,\n"
 "         eliminate any pagination by form feeds set in input files\n"
 msgstr ""
 "  -T, --omit-pagination\n"
-"                    省略页眉和页脚，并消除输入文件中的换页符引起的分页\n"
+"         省略页眉和页脚，并消除输入文件中的换页符引起的分页\n"
 
 #: src/pr.c:2879
-#, fuzzy
 msgid ""
 "  -v, --show-nonprinting\n"
 "         use octal backslash notation\n"
 msgstr ""
 "  -v, --show-nonprinting\n"
-"                    使用八进制反斜杠表示法表示不可打印字符\n"
+"         使用八进制反斜杠表示法\n"
 
 #: src/pr.c:2883
-#, fuzzy
 msgid ""
 "  -w, --width=PAGE_WIDTH\n"
 "         set page width to PAGE_WIDTH (72) characters for\n"
 "         multiple text-column output only, -s[char] turns off (72)\n"
 msgstr ""
 "  -w, --width=页面宽度\n"
-"                    仅将多列文本输出的页宽设置为 <页面宽度>（默认为 72）个\n"
-"                    字符，-s[字符] 选项会禁用此选项默认的页宽限制 72。\n"
+"         仅将多列文本输出的页宽设置为 <页面宽度>（默认为 72）\n"
+"         个字符，-s[字符] 选项会禁用此选项默认的页宽限制 72。\n"
 
 #: src/pr.c:2888
-#, fuzzy
 msgid ""
 "  -W, --page-width=PAGE_WIDTH\n"
 "         set page width to PAGE_WIDTH (72) characters always,\n"
@@ -9713,8 +9687,8 @@ msgid ""
 "         no interference with -S or -s\n"
 msgstr ""
 "  -W, --page-width=页面宽度\n"
-"                    将所有情况下的页宽设置为 <页面宽度>（默认为 72）个字符，\n"
-"                    除非使用了 -J 选项，否则会截断行。不受 -S 或 -s 影响\n"
+"         将所有情况下的页宽设置为 <页面宽度>（默认为 72）个字符，\n"
+"         除非使用了 -J 选项，否则会截断行。不受 -S 或 -s 影响\n"
 
 #: src/printenv.c:62
 #, c-format
@@ -9931,9 +9905,8 @@ msgid "  -r, --references               first field of each line is a reference\
 msgstr "  -r, --references               将每行的第一个字段改为参照\n"
 
 #: src/ptx.c:1729
-#, fuzzy
 msgid "  -t, --typeset-mode             change the default width from 72 to 100\n"
-msgstr "  -t, --typeset-mode               - 此功能尚未实现 -\n"
+msgstr "  -t, --typeset-mode             将默认宽度从 72 改成 100\n"
 
 #: src/ptx.c:1732
 msgid "  -w, --width=NUMBER             output width in columns, reference excluded\n"
@@ -9958,18 +9931,20 @@ msgstr ""
 "\n"
 
 #: src/pwd.c:60
-#, fuzzy
 msgid ""
 "  -L, --logical\n"
 "         use PWD from environment, even if it contains symlinks\n"
-msgstr "  -L, --logical   使用环境变量 PWD 的值，即使其中包含符号链接\n"
+msgstr ""
+"  -L, --logical\n"
+"         使用环境变量 PWD 的值，即使其中包含符号链接\n"
 
 #: src/pwd.c:64
-#, fuzzy
 msgid ""
 "  -P, --physical\n"
 "         resolve all symlinks\n"
-msgstr "  -P, --physical  解析所有符号链接\n"
+msgstr ""
+"  -P, --physical\n"
+"         解析所有符号链接\n"
 
 #: src/pwd.c:70
 msgid ""
@@ -10019,7 +9994,6 @@ msgstr ""
 "\n"
 
 #: src/readlink.c:64
-#, fuzzy
 msgid ""
 "  -f, --canonicalize\n"
 "         canonicalize by following every symlink\n"
@@ -10027,12 +10001,11 @@ msgid ""
 "         all but the last component must exist\n"
 msgstr ""
 "  -f, --canonicalize\n"
-"         通过递归地跟随指定文件名的各个组成部分的\n"
-"                                符号链接来规范化文件名，\n"
-"                                除最后一部分外，文件名的所有组成部分必须存在\n"
+"         通过递归地跟随指定文件名的\n"
+"         各个组成部分的符号链接来规范化文件名；\n"
+"         除最后一部分外，文件名的所有组成部分必须存在\n"
 
 #: src/readlink.c:70
-#, fuzzy
 msgid ""
 "  -e, --canonicalize-existing\n"
 "         canonicalize by following every symlink\n"
@@ -10040,12 +10013,11 @@ msgid ""
 "         all components must exist\n"
 msgstr ""
 "  -e, --canonicalize-existing\n"
-"         通过递归地跟随指定文件名的各个组成部分的\n"
-"                                符号链接来规范化文件名，\n"
-"                                文件名的所有组成部分必须存在\n"
+"         通过递归地跟随指定文件名的\n"
+"         各个组成部分的符号链接来规范化文件名；\n"
+"         文件名的所有组成部分必须存在\n"
 
 #: src/readlink.c:76
-#, fuzzy
 msgid ""
 "  -m, --canonicalize-missing\n"
 "         canonicalize by following every symlink\n"
@@ -10053,9 +10025,9 @@ msgid ""
 "         without requirements on components existence\n"
 msgstr ""
 "  -m, --canonicalize-missing\n"
-"         通过递归地跟随指定文件名的各个组成部分的\n"
-"                                符号链接来规范化文件名，\n"
-"                                但不对各个组成部分的存在性作出要求\n"
+"         通过递归地跟随指定文件名的\n"
+"         各个组成部分的符号链接来规范化文件名，\n"
+"         但不对各个组成部分的存在性作出要求\n"
 
 #: src/readlink.c:82
 msgid ""
@@ -10070,26 +10042,24 @@ msgid "  -q, --quiet\n"
 msgstr "  -q, --quiet\n"
 
 #: src/readlink.c:89
-#, fuzzy
 msgid ""
 "  -s, --silent\n"
 "         suppress most error messages\n"
 "         (on by default if POSIXLY_CORRECT is not set)\n"
 msgstr ""
 "  -s, --silent\n"
-"         不输出大多数的错误消息（当 POSIXLY_CORRECT\n"
-"                                未设置时，默认启用）\n"
+"         不输出大多数的错误消息\n"
+"         （当 POSIXLY_CORRECT 未设置时，默认启用）\n"
 
 #: src/readlink.c:94
-#, fuzzy
 msgid ""
 "  -v, --verbose\n"
 "         report error messages\n"
 "         (on by default if POSIXLY_CORRECT is set)\n"
 msgstr ""
 "  -v, --verbose\n"
-"         报告错误消息（当 POSIXLY_CORRECT\n"
-"                                已设置时，默认启用）\n"
+"         报告错误消息\n"
+"         （当 POSIXLY_CORRECT 已设置时，默认启用）\n"
 
 #: src/readlink.c:169
 #, c-format
@@ -10245,7 +10215,6 @@ msgstr ""
 "         每次删除前询问\n"
 
 #: src/rm.c:144
-#, fuzzy
 msgid ""
 "  -I\n"
 "         prompt once before removing more than three files,\n"
@@ -10253,11 +10222,10 @@ msgid ""
 "         while still giving protection against most mistakes\n"
 msgstr ""
 "  -I\n"
-"         在删除超过三个文件或者递归删除前询问一次；此选项比 -i\n"
-"                          提示次数更少，但仍可以避免大多数错误的发生\n"
+"         在删除超过三个文件或者递归删除前询问一次；\n"
+"         此选项比 -i 提示次数更少，但仍可以避免大多数错误的发生\n"
 
 #: src/rm.c:150
-#, fuzzy
 msgid ""
 "      --interactive[=WHEN]\n"
 "         prompt according to WHEN: never, once (-I), or always (-i);\n"
@@ -10265,10 +10233,9 @@ msgid ""
 msgstr ""
 "      --interactive[=何时]\n"
 "         根据 <何时> 的值进行询问：never、once（同 -I）或者\n"
-"                          always（同 -i）；如果省略 <何时>，则默认为 always\n"
+"         always（同 -i）；如果省略 <何时>，则默认为 always\n"
 
 #: src/rm.c:155
-#, fuzzy
 msgid ""
 "      --one-file-system\n"
 "         when removing a hierarchy recursively,\n"
@@ -10277,7 +10244,7 @@ msgid ""
 msgstr ""
 "      --one-file-system\n"
 "         递归删除目录时，跳过所有和该目录所对应的命令行参\n"
-"                          数不在同一个文件系统上的目录\n"
+"         数不在同一个文件系统上的目录\n"
 
 #: src/rm.c:161
 msgid ""
@@ -10288,7 +10255,6 @@ msgstr ""
 "         不要对 \"/\" 特殊处理\n"
 
 #: src/rm.c:165
-#, fuzzy
 msgid ""
 "      --preserve-root[=all]\n"
 "         do not remove '/' (default);\n"
@@ -10297,15 +10263,16 @@ msgid ""
 msgstr ""
 "      --preserve-root[=all]\n"
 "         不要删除 \"/\"（默认行为）；\n"
-"                              如添加了 \"all\" 参数，将拒绝处理与其父目录位于\n"
-"                              不同设备上的命令行参数\n"
+"         如添加了 \"all\" 参数，将拒绝处理与其父目录位于\n"
+"         不同设备上的命令行参数\n"
 
 #: src/rm.c:171
-#, fuzzy
 msgid ""
 "  -r, -R, --recursive\n"
 "         remove directories and their contents recursively\n"
-msgstr "  -r, -R, --recursive   递归删除目录及其内容\n"
+msgstr ""
+"  -r, -R, --recursive\n"
+"         递归删除目录及其内容\n"
 
 #: src/rm.c:175
 msgid ""
@@ -10408,16 +10375,14 @@ msgid ""
 msgstr "若 <目录> 为空，则删除 <目录>。\n"
 
 #: src/rmdir.c:177
-#, fuzzy
 msgid ""
 "      --ignore-fail-on-non-empty\n"
 "         ignore each failure to remove a non-empty directory\n"
 msgstr ""
 "      --ignore-fail-on-non-empty\n"
-"                    忽略所有删除非空目录时产生的错误\n"
+"         忽略所有删除非空目录时产生的错误\n"
 
 #: src/rmdir.c:181
-#, fuzzy
 msgid ""
 "  -p, --parents\n"
 "         remove DIRECTORY and its ancestors;\n"
@@ -10425,15 +10390,15 @@ msgid ""
 msgstr ""
 "  -p, --parents\n"
 "         删除 <目录> 及其父目录；\n"
-"                    例如，\"rmdir -p a/b\" 与 \"rmdir a/b a\" 类似\n"
-"\n"
+"         例如，\"rmdir -p a/b\" 与 \"rmdir a/b a\" 类似\n"
 
 #: src/rmdir.c:186
-#, fuzzy
 msgid ""
 "  -v, --verbose\n"
 "         output a diagnostic for every directory processed\n"
-msgstr "  -v, --verbose     为每个处理的目录输出一条诊断信息\n"
+msgstr ""
+"  -v, --verbose\n"
+"         为每个处理的目录输出一条诊断信息\n"
 
 #: src/rmdir.c:275
 #, c-format
@@ -10441,13 +10406,13 @@ msgid "failed to remove %s: Symbolic link not followed"
 msgstr "无法删除 %s：未跟随符号链接"
 
 #: src/runcon.c:76
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Usage: %s [CONTEXT COMMAND [ARG]...]\n"
 "  or:  %s [-c] [-u USER] [-r ROLE] [-t TYPE] [-l RANGE] COMMAND [ARG]...\n"
 msgstr ""
-"用法: %s 上下文 命令 [参数]\n"
-"　或: %s [ -c ] [-u 用户] [-r 角色] [-t 类型] [-l 范围] 命令 [参数]\n"
+"用法：%s [上下文 命令 [参数]...]\n"
+"　或：%s [-c] [-u 用户] [-r 角色] [-t 类型] [-l 范围] 命令 [参数]...\n"
 
 #: src/runcon.c:80
 msgid ""
@@ -10777,23 +10742,22 @@ msgstr ""
 "         类似 -u，但可以控制 <如何> 删除；参见下文\n"
 
 #: src/shred.c:206
-#, fuzzy
 msgid ""
 "  -v, --verbose\n"
 "         show details of data and metadata operations performed\n"
 msgstr ""
 "  -v, --verbose\n"
-"         为每个处理的文件输出一条诊断信息\n"
+"         显示已执行的数据操作和元数据操作的详细信息\n"
 
 #: src/shred.c:210
-#, fuzzy
 msgid ""
 "  -x, --exact\n"
 "         do not round file sizes up to the next full block;\n"
 "         this is the default for non-regular files\n"
 msgstr ""
 "  -x, --exact\n"
-"         不将文件大小增加至最接近的块大小；对于非普通文件，此为默认值\n"
+"         不将文件大小增加至最接近的块大小；\n"
+"         对于非普通文件，此为默认值\n"
 
 #: src/shred.c:215
 msgid ""
@@ -11073,13 +11037,12 @@ msgstr ""
 "\n"
 
 #: src/sort.c:436
-#, fuzzy
 msgid ""
 "  -b, --ignore-leading-blanks\n"
 "         ignore leading blanks when finding sort keys in each line\n"
 msgstr ""
 "  -b, --ignore-leading-blanks\n"
-"         忽略前导的空白字符\n"
+"         在每行中查找排序键时，忽略前导的空白字符\n"
 
 #: src/sort.c:440
 msgid ""
@@ -11123,14 +11086,14 @@ msgstr ""
 "                                 LC_ALL=C 时：（未知）< \"JAN\" < ... < \"DEC\"\n"
 
 #: src/sort.c:460
-#, fuzzy
 msgid ""
 "  -h, --human-numeric-sort\n"
 "         compare human readable numbers (e.g., 2K 1G)\n"
-msgstr "  -h, --human-numeric-sort    对可读性较好的数字（例如：2K 1G）进行排序\n"
+msgstr ""
+"  -h, --human-numeric-sort\n"
+"         对人类可读的数字（例如：2K 1G）进行排序\n"
 
 #: src/sort.c:464
-#, fuzzy
 msgid ""
 "  -n, --numeric-sort\n"
 "         compare according to string numerical value;\n"
@@ -11138,10 +11101,9 @@ msgid ""
 msgstr ""
 "  -n, --numeric-sort\n"
 "         根据字符串表示的数字的值进行排序；\n"
-"                                支持的字符串请参见完整文档\n"
+"         支持的字符串请参见完整文档\n"
 
 #: src/sort.c:469
-#, fuzzy
 msgid ""
 "  -R, --random-sort\n"
 "         shuffle, but group identical keys.  See also shuf(1)\n"
@@ -11158,7 +11120,6 @@ msgstr ""
 "         逆序输出排序结果\n"
 
 #: src/sort.c:481
-#, fuzzy
 msgid ""
 "      --sort=WORD\n"
 "         sort according to WORD:\n"
@@ -11167,66 +11128,60 @@ msgid ""
 msgstr ""
 "      --sort=关键字\n"
 "         按照 <关键字> 指定的方式排序：\n"
-"                                general-numeric 同 -g、human-numeric 同 -h、\n"
-"                                month 同 -M、numeric 同 -n、random 同 -R、\n"
-"                                version 同 -V\n"
+"           general-numeric 同 -g、human-numeric 同 -h、month 同 -M、\n"
+"           numeric 同 -n、random 同 -R、version 同 -V\n"
 
 #: src/sort.c:487
-#, fuzzy
 msgid ""
 "  -V, --version-sort\n"
 "         natural sort of (version) numbers within text\n"
 msgstr ""
 "  -V, --version-sort\n"
 "         对文本中的数字（或版本号）进行自然排序\n"
-"\n"
 
 #: src/sort.c:491
-#, fuzzy
 msgid ""
 "\n"
 "Other options:\n"
 "\n"
 msgstr ""
+"\n"
 "其他选项：\n"
 "\n"
 
 #: src/sort.c:496
-#, fuzzy
 msgid ""
 "      --batch-size=NMERGE\n"
 "         merge at most NMERGE inputs at once; for more use temp files\n"
 msgstr ""
 "      --batch-size=归并数\n"
-"         一次最多归并 <归并数> 个输入；如果需要归并\n"
-"                            更多的输入，则使用临时文件\n"
+"         一次最多归并 <归并数> 个输入；如果需要归并更多的输入，则使用临时文件\n"
 
 #: src/sort.c:500
-#, fuzzy
 msgid ""
 "  -c, --check, --check=diagnose-first\n"
 "         check for sorted input; do not sort\n"
-msgstr "  -c, --check, --check=diagnose-first  检查输入是否有序；不进行排序\n"
+msgstr ""
+"  -c, --check, --check=diagnose-first\n"
+"         检查输入是否有序；不进行排序\n"
 
 #: src/sort.c:504
-#, fuzzy
 msgid ""
 "  -C, --check=quiet, --check=silent\n"
 "         like -c, but do not report first bad line\n"
-msgstr "  -C, --check=quiet, --check=silent  类似 -c，但不报告第一个无序行\n"
+msgstr ""
+"  -C, --check=quiet, --check=silent\n"
+"         类似 -c，但不报告第一个无序行\n"
 
 #: src/sort.c:508
-#, fuzzy
 msgid ""
 "      --compress-program=PROG\n"
 "         compress temporaries with PROG; decompress them with PROG -d\n"
 msgstr ""
 "      --compress-program=程序\n"
-"         使用 <程序> 压缩临时文件；\n"
-"                              使用该程序的 -d 选项解压缩临时文件\n"
+"         使用 <程序> 压缩临时文件；使用 <程序> -d 解压缩临时文件\n"
 
 #: src/sort.c:512
-#, fuzzy
 msgid ""
 "      --debug\n"
 "         annotate the part of the line used to sort,\n"
@@ -11234,19 +11189,17 @@ msgid ""
 msgstr ""
 "      --debug\n"
 "         标注出每行中用于排序的部分，\n"
-"                              并对不规范的用法进行警告，并输出到标准错误\n"
+"         并对不规范的用法进行警告，并输出到标准错误\n"
 
 #: src/sort.c:517
-#, fuzzy
 msgid ""
 "      --files0-from=F\n"
 "         read input from the files specified by NUL-terminated names in file F;\n"
 "         If F is -, read names from standard input\n"
 msgstr ""
 "      --files0-from=F\n"
-"         从文件 F 中读取以 NUL 空字符分隔的文件名作为\n"
-"                           输入文件的名称；\n"
-"                           如果 F 是 \"-\"，则从标准输入读取文件名\n"
+"         从文件 F 中读取以 NUL 空字符分隔的文件名作为输入文件的名称；\n"
+"         如果 F 是 -，则从标准输入读取文件名\n"
 
 #: src/sort.c:523
 msgid ""
@@ -11298,7 +11251,7 @@ msgstr ""
 "                              作为字段分隔符\n"
 
 #: src/sort.c:547
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "  -T, --temporary-directory=DIR\n"
 "         use DIR for temporaries, not $TMPDIR or %s;\n"
@@ -11306,7 +11259,7 @@ msgid ""
 msgstr ""
 "  -T, --temporary-directory=目录\n"
 "         使用 <目录> 而非 $TMPDIR 或 %s 存放临时文件；\n"
-"                              重复使用此选项可指定多个目录\n"
+"         重复使用此选项可指定多个目录\n"
 
 #: src/sort.c:552
 msgid ""
@@ -11317,7 +11270,6 @@ msgstr ""
 "         将并发执行的排序线程数设置为 N\n"
 
 #: src/sort.c:556
-#, fuzzy
 msgid ""
 "  -u, --unique\n"
 "         output only the first of lines with equal keys;\n"
@@ -11325,7 +11277,7 @@ msgid ""
 msgstr ""
 "  -u, --unique\n"
 "         键相等的行只输出第一行；\n"
-"                              与 -c 同时使用时，检查输入是否严格递增/递减；\n"
+"         与 -c 同时使用时，检查输入是否严格递增/递减；\n"
 
 #: src/sort.c:567
 msgid ""
@@ -11737,7 +11689,6 @@ msgstr ""
 "         生成 <块数> 个输出文件。参见下面的说明。\n"
 
 #: src/split.c:285
-#, fuzzy
 msgid ""
 "  -t, --separator=SEP\n"
 "         use SEP instead of newline as the record separator;\n"
@@ -11745,7 +11696,7 @@ msgid ""
 msgstr ""
 "  -t, --separator=分隔符\n"
 "         使用 <分隔符> 而不是换行符作为记录分隔符；\n"
-"                            使用 \"\\0\"（数字 0）指定 NUL 字符\n"
+"         使用 \"\\0\"（数字 0）指定 NUL 字符\n"
 
 #: src/split.c:290
 msgid ""
@@ -11756,11 +11707,12 @@ msgstr ""
 "         立即使用 \"-n r/...\" 将输入复制到输出\n"
 
 #: src/split.c:294
-#, fuzzy
 msgid ""
 "      --verbose\n"
 "         print a diagnostic just before each output file is opened\n"
-msgstr "      --verbose           在打开每个输出文件前输出一条诊断信息\n"
+msgstr ""
+"      --verbose\n"
+"         在打开每个输出文件前输出一条诊断信息\n"
 
 #: src/split.c:301
 msgid ""
@@ -11788,6 +11740,9 @@ msgid ""
 "-n (except -nr) will buffer to $TMPDIR, defaulting to /tmp,\n"
 "if the input size cannot easily be determined.\n"
 msgstr ""
+"\n"
+"-n 选项（除 -nr 外）会在输入大小难以确定时\n"
+"将数据缓冲至 $TMPDIR（默认为 /tmp）。\n"
 
 #: src/split.c:508
 #, c-format
@@ -12057,7 +12012,6 @@ msgstr ""
 "         显示文件系统状态而非文件状态\n"
 
 #: src/stat.c:1770
-#, fuzzy
 msgid ""
 "      --cached=MODE\n"
 "         specify how to use cached attributes;\n"
@@ -12065,21 +12019,19 @@ msgid ""
 msgstr ""
 "      --cached=模式\n"
 "         指定如何使用已缓存的属性；\n"
-"                          对于远程文件系统很有用。参见下面的 <模式>\n"
+"         对于远程文件系统很有用。参见下面的 <模式>\n"
 
 #: src/stat.c:1775
-#, fuzzy
 msgid ""
 "  -c, --format=FORMAT\n"
 "         use the specified FORMAT instead of the default;\n"
 "         output a newline after each use of FORMAT\n"
 msgstr ""
-"  -c\n"
-"         --format=格式     使用指定的 <格式>，而非默认格式；\n"
-"                          每使用一次 <格式>，就输出一个换行符\n"
+"  -c, --format=格式\n"
+"         使用指定的 <格式>，而非默认格式；\n"
+"         每使用一次 <格式>，就输出一个换行符\n"
 
 #: src/stat.c:1780
-#, fuzzy
 msgid ""
 "      --printf=FORMAT\n"
 "         like --format, but interpret backslash escapes,\n"
@@ -12087,9 +12039,9 @@ msgid ""
 "         if you want a newline, include \\n in FORMAT\n"
 msgstr ""
 "      --printf=格式\n"
-"         类似 --format，但是会解释反斜杠转义序列，并且不会\n"
-"                          强制在末尾输出换行符。如果您仍希望进行换行，\n"
-"                          可以在 <格式> 中加入 \"\\n\"\n"
+"         类似 --format，但是会解释反斜杠转义序列，\n"
+"         并且不会强制在末尾输出换行符；\n"
+"         如果您希望进行换行，可以在 <格式> 中加入 \"\\n\"\n"
 
 #: src/stat.c:1786
 msgid ""
@@ -13068,18 +13020,20 @@ msgstr ""
 "版本。请查阅您的 shell 的文档以了解内置版本所支持的选项。\n"
 
 #: src/system.h:340
-#, fuzzy
 msgid ""
 "      --help\n"
 "         display this help and exit\n"
-msgstr "      --help        显示此帮助信息并退出\n"
+msgstr ""
+"      --help\n"
+"         显示此帮助信息并退出\n"
 
 #: src/system.h:342
-#, fuzzy
 msgid ""
 "      --version\n"
 "         output version information and exit\n"
-msgstr "      --version     显示版本信息并退出\n"
+msgstr ""
+"      --version\n"
+"         显示版本信息并退出\n"
 
 #: src/system.h:684
 msgid ""
@@ -13187,17 +13141,14 @@ msgstr ""
 "\n"
 
 #: src/system.h:763
-#, fuzzy
 msgid ""
 "  -H\n"
 "         if a command line argument is a symlink to a directory, traverse it\n"
 msgstr ""
 "  -H\n"
-"         如果命令行参数是一个指向目录的符号链接，则对其\n"
-"                         进行遍历\n"
+"         如果命令行参数是一个指向目录的符号链接，则对其进行遍历\n"
 
 #: src/system.h:767
-#, fuzzy
 msgid ""
 "  -L\n"
 "         traverse every symbolic link to a directory encountered\n"
@@ -13304,6 +13255,8 @@ msgid ""
 "\n"
 "Non-seekable input is buffered to $TMPDIR, defaulting to /tmp.\n"
 msgstr ""
+"\n"
+"不可寻址的输入会被缓冲到 $TMPDIR（默认为 /tmp）。\n"
 
 #: src/tac.c:216 src/tac.c:226 src/tac.c:334
 #, c-format
@@ -13345,33 +13298,32 @@ msgstr ""
 "如果指定了多个 <文件>，程序会在每个文件的开头添加文件名作为头部。\n"
 
 #: src/tail.c:295
-#, fuzzy
 msgid ""
 "  -c, --bytes=[+]NUM\n"
 "         output the last NUM bytes;\n"
 "         or use -c +NUM to output starting with byte NUM of each file\n"
 msgstr ""
 "  -c, --bytes=[+]数字\n"
-"         输出最后 <数字> 个字节；或者使用 -c +数字 以输出\n"
-"                             每个文件第 <数字> 个字节起的全部内容\n"
+"         输出最后 <数字> 个字节；\n"
+"         或者使用 -c +数字 以输出每个文件第 <数字> 个字节起的全部内容\n"
 
 #: src/tail.c:300
-#, fuzzy
 msgid ""
 "      --debug\n"
 "         indicate which --follow implementation is used\n"
-msgstr "      --debug           提示使用了哪一个实现\n"
+msgstr ""
+"      --debug\n"
+"         提示使用了哪一个 --follow 的实现\n"
 
 #: src/tail.c:304
-#, fuzzy
 msgid ""
 "  -f, --follow[={name|descriptor}]\n"
 "         output appended data as the file grows;\n"
 "         an absent option argument means 'descriptor'\n"
 msgstr ""
 "  -f, --follow[={name|descriptor}]\n"
-"                           随文件增长即时输出新增数据；\n"
-"                             若未指定选项参数，则默认使用 \"descriptor\"\n"
+"         随文件增长即时输出新增数据；\n"
+"         若未指定选项参数，则默认使用 \"descriptor\"\n"
 
 #: src/tail.c:309
 msgid ""
@@ -13382,7 +13334,7 @@ msgstr ""
 "         同 --follow=name --retry\n"
 
 #: src/tail.c:313
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "  -n, --lines=[+]NUM\n"
 "         output the last NUM lines, instead of the last %d;\n"
@@ -13390,10 +13342,10 @@ msgid ""
 msgstr ""
 "  -n, --lines=[+]数字\n"
 "         输出最后 <数字> 行，而非最后 %d 行；\n"
-"                             或者使用 -n +数字 以跳过开头的 <数字>-1 行\n"
+"         或者使用 -n +数字 以跳过开头的 <数字>-1 行\n"
 
 #: src/tail.c:318
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "      --max-unchanged-stats=N\n"
 "         with --follow=name, reopen a FILE which has not\n"
@@ -13403,14 +13355,13 @@ msgid ""
 "         with inotify, this option is rarely useful\n"
 msgstr ""
 "      --max-unchanged-stats=N\n"
-"                           和 --follow=name 同时使用时, 如果一个 <文件> 在 N 次\n"
-"                             （默认为 %d 次）迭代后没有改变大小，则重新打开它，\n"
-"                             以确认它是否已被删除或重命名（对于轮转 (rotated)\n"
-"                             日志文件而言，这种情况很常见）；\n"
-"                             如果内核支持 inotify，则此选项通常没有用处\n"
+"         和 --follow=name 同时使用时, 如果一个 <文件> 在 N 次\n"
+"         （默认为 %d 次）迭代后没有改变大小，则重新打开它，\n"
+"         以确认它是否已被删除或重命名（对于轮转 (rotated)\n"
+"         日志文件而言，这种情况很常见）；\n"
+"         如果内核支持 inotify，则此选项通常没有用处\n"
 
 #: src/tail.c:326
-#, fuzzy
 msgid ""
 "      --pid=PID\n"
 "         with -f, exit after PID no longer exists;\n"
@@ -13418,14 +13369,15 @@ msgid ""
 msgstr ""
 "      --pid=PID\n"
 "         和 -f 同时使用时，在 PID 不复存在时退出；\n"
-"                             可以多次使用，以监控多个进程\n"
+"         可以多次使用，以监控多个进程\n"
 
 #: src/tail.c:331
-#, fuzzy
 msgid ""
 "  -q, --quiet, --silent\n"
 "         never output headers giving file names\n"
-msgstr "  -q, --quiet, --silent    不输出含有文件名的头\n"
+msgstr ""
+"  -q, --quiet, --silent\n"
+"         不输出含有文件名的头\n"
 
 #: src/tail.c:335
 msgid ""
@@ -13436,7 +13388,6 @@ msgstr ""
 "         即使目标文件无法访问，仍然不断尝试打开\n"
 
 #: src/tail.c:339
-#, fuzzy
 msgid ""
 "  -s, --sleep-interval=N\n"
 "         with -f, sleep for approximately N seconds\n"
@@ -13445,10 +13396,8 @@ msgid ""
 "         check process P at least once every N seconds\n"
 msgstr ""
 "  -s, --sleep-interval=N\n"
-"         和 -f 同时使用时，在两次迭代之间睡眠约 N 秒\n"
-"                             （默认 1.0 秒）\n"
-"                             内核支持 inotify 且使用了 --pid=P 时，每 N 秒\n"
-"                             至少检查一次进程 P\n"
+"         和 -f 同时使用时，在两次迭代之间睡眠约 N 秒（默认 1.0 秒）；\n"
+"         内核支持 inotify 且使用了 --pid=P 时，每 N 秒至少检查一次进程 P\n"
 
 #: src/tail.c:346
 msgid ""
@@ -13544,14 +13493,12 @@ msgid "%s has been replaced;  following new file"
 msgstr "%s 已被替换；正在跟随新文件的末尾"
 
 #: src/tail.c:1190
-#, fuzzy
 msgid "using blocking mode"
-msgstr "%s: 无法更改非阻塞模式"
+msgstr "使用阻塞模式"
 
 #: src/tail.c:1191
-#, fuzzy
 msgid "using polling mode"
-msgstr "无效的模式"
+msgstr "使用轮询模式"
 
 #: src/tail.c:1229
 #, c-format
@@ -13590,7 +13537,7 @@ msgstr "%s 已被替换"
 
 #: src/tail.c:1629
 msgid "using notification mode"
-msgstr ""
+msgstr "使用通知模式"
 
 #: src/tail.c:1691
 #, c-format
@@ -13836,33 +13783,24 @@ msgstr ""
 "  表达式1 -o 表达式2           <表达式1> 和 <表达式2> 至少有一个为真\n"
 
 #: src/test.c:695
-#, fuzzy
 msgid "  -n STRING            the length of STRING is nonzero\n"
-msgstr ""
-"  -n 字符串            <字符串> 的长度非零\n"
-"  字符串               等价于 -n 字符串\n"
+msgstr "  -n 字符串            <字符串> 的长度非零\n"
 
 #: src/test.c:698
-#, fuzzy
 msgid "  STRING               equivalent to -n STRING\n"
-msgstr "  -t                       等价于 -vT\n"
+msgstr "  字符串               等价于 -n 字符串\n"
 
 #: src/test.c:701
-#, fuzzy
 msgid "  -z STRING            the length of STRING is zero\n"
-msgstr ""
-"  -n 字符串            <字符串> 的长度非零\n"
-"  字符串               等价于 -n 字符串\n"
+msgstr "  -z 字符串            <字符串> 的长度为零\n"
 
 #: src/test.c:704
-#, fuzzy
 msgid ""
 "  STRING1 = STRING2    the strings are equal\n"
 "  STRING1 != STRING2   the strings are not equal\n"
 "  STRING1 > STRING2    STRING1 is greater than STRING2 in the current locale\n"
 "  STRING1 < STRING2    STRING1 is less than STRING2 in the current locale\n"
 msgstr ""
-"  -z 字符串            <字符串> 的长度为零\n"
 "  字符串1 = 字符串2    两个字符串相等\n"
 "  字符串1 != 字符串2   两个字符串不等\n"
 "  字符串1 > 字符串2    在当前区域设置中，<字符串1> 大于 <字符串2>\n"
@@ -14068,7 +14006,6 @@ msgid "Start COMMAND, and kill it if still running after DURATION.\n"
 msgstr "运行 <命令>，若该命令在 <持续时间> 后仍在运行，则将其杀死。\n"
 
 #: src/timeout.c:279
-#, fuzzy
 msgid ""
 "  -f, --foreground\n"
 "         when not running timeout directly from a shell prompt,\n"
@@ -14076,34 +14013,31 @@ msgid ""
 "         in this mode, children of COMMAND will not be timed out\n"
 msgstr ""
 "      --foreground\n"
-"                 当不是直接在 shell 提示符调用 timeout 时，允许 <命令>\n"
-"                   从 TTY 读取输入并获取 TTY 信号；在此模式下，<命令>\n"
-"                   的子进程不会超时\n"
+"         当不是直接在 shell 提示符调用 timeout 时，允许 <命令>\n"
+"         从 TTY 读取输入并获取 TTY 信号；在此模式下，<命令>\n"
+"         的子进程不会超时\n"
 
 #: src/timeout.c:285
-#, fuzzy
 msgid ""
 "  -k, --kill-after=DURATION\n"
 "         also send a KILL signal if COMMAND is still running\n"
 "         this long after the initial signal was sent\n"
 msgstr ""
 "  -k, --kill-after=持续时间\n"
-"                 如果 <命令> 在首个信号发出后再经过 <持续时间> 后仍然\n"
-"                   在运行，则再向其发送一个 KILL 信号\n"
+"         如果 <命令> 在首个信号发出后再经过 <持续时间> 后仍然\n"
+"         在运行，则再向其发送一个 KILL 信号\n"
 
 #: src/timeout.c:290
-#, fuzzy
 msgid ""
 "  -p, --preserve-status\n"
 "         exit with the same status as COMMAND,\n"
 "         even when the command times out\n"
 msgstr ""
 "      --preserve-status\n"
-"                 退出时的退出状态与 <命令> 的退出状态相同，即使命令超时也\n"
-"                   如此\n"
+"         退出时的退出状态与 <命令> 的退出状态相同，\n"
+"         即使命令超时也如此\n"
 
 #: src/timeout.c:295
-#, fuzzy
 msgid ""
 "  -s, --signal=SIGNAL\n"
 "         specify the signal to be sent on timeout;\n"
@@ -14111,16 +14045,17 @@ msgid ""
 "         see 'kill -l' for a list of signals\n"
 msgstr ""
 "  -s, --signal=信号\n"
-"                 指定超时后发送的信号；\n"
-"                   <信号> 可以是如 \"HUP\" 这样的名称，也可以是一个数字；\n"
-"                   请参见 \"kill -l\" 以获取可用信号列表\n"
+"         指定超时后发送的信号；\n"
+"         <信号> 可以是如 \"HUP\" 这样的名称，也可以是一个数字；\n"
+"         请参见 \"kill -l\" 以获取可用信号列表\n"
 
 #: src/timeout.c:301
-#, fuzzy
 msgid ""
 "  -v, --verbose\n"
 "         diagnose to standard error any signal sent upon timeout\n"
-msgstr "  -v, --verbose  对任何超时后发送的信号，向标准错误输出诊断信息\n"
+msgstr ""
+"  -v, --verbose\n"
+"         对任何超时后发送的信号，向标准错误输出诊断信息\n"
 
 #: src/timeout.c:309
 msgid ""
@@ -14275,15 +14210,14 @@ msgstr ""
 "         （被忽略）\n"
 
 #: src/touch.c:245
-#, fuzzy
 msgid ""
 "  -h, --no-dereference\n"
 "         affect each symbolic link instead of any referenced file;\n"
 "         useful only on systems that can change the timestamps of a symlink\n"
 msgstr ""
 "  -h, --no-dereference\n"
-"         影响符号链接本身，而非符号链接的目标\n"
-"                         （当系统支持更改符号链接的时间戳时，此选项才有用）\n"
+"         影响符号链接本身，而非符号链接的目标；\n"
+"         仅当系统支持更改符号链接的时间戳时，此选项才有用\n"
 
 #: src/touch.c:250
 msgid ""
@@ -14302,17 +14236,16 @@ msgstr ""
 "         使用此文件的时间戳，而非当前时间\n"
 
 #: src/touch.c:258
-#, fuzzy
 msgid ""
 "  -t [[CC]YY]MMDDhhmm[.ss]\n"
 "         use specified time instead of current time,\n"
 "         with a date-time format that differs from -d's\n"
 msgstr ""
-"  -t [[CC]YY]MMDDhhmm[.ss]  使用指定的时间，而非当前时间，\n"
-"                         使用的时间格式与 -d 选项不同\n"
+"  -t [[CC]YY]MMDDhhmm[.ss]\n"
+"         使用指定的时间，而非当前时间，\n"
+"         使用的时间格式与 -d 选项不同\n"
 
 #: src/touch.c:263
-#, fuzzy
 msgid ""
 "      --time=WORD\n"
 "         specify which time to change:\n"
@@ -14321,8 +14254,8 @@ msgid ""
 msgstr ""
 "      --time=关键字\n"
 "         修改指定类型的时间：\n"
-"                           访问时间 (-a)：\"access\"、\"atime\"、\"use\"；\n"
-"                           修改时间 (-m)：\"modify\"、\"mtime\"\n"
+"         访问时间 (-a)：\"access\"、\"atime\"、\"use\"；\n"
+"         修改时间 (-m)：\"modify\"、\"mtime\"\n"
 
 #: src/touch.c:356
 #, c-format
@@ -14352,11 +14285,12 @@ msgstr ""
 "\n"
 
 #: src/tr.c:295
-#, fuzzy
 msgid ""
 "  -c, -C, --complement\n"
 "         use the complement of ARRAY1\n"
-msgstr "  -c, -C, --complement    使用 <数组1> 的补集\n"
+msgstr ""
+"  -c, -C, --complement\n"
+"         使用 <数组1> 的补集\n"
 
 #: src/tr.c:299
 msgid ""
@@ -14367,7 +14301,6 @@ msgstr ""
 "         删除 <数组1> 中的字符，不进行替换\n"
 
 #: src/tr.c:303
-#, fuzzy
 msgid ""
 "  -s, --squeeze-repeats\n"
 "         replace each sequence of a repeated character\n"
@@ -14376,7 +14309,7 @@ msgid ""
 msgstr ""
 "  -s, --squeeze-repeats\n"
 "         将最后一个 <数组> 中任何一个字符多次重复\n"
-"                            形成的序列，缩减为仅有一个这个字符\n"
+"         形成的序列，缩减为仅有一个这个字符\n"
 
 #: src/tr.c:309
 msgid ""
@@ -14457,7 +14390,6 @@ msgstr ""
 
 # ## Forward to here.
 #: src/tr.c:350
-#, fuzzy
 msgid ""
 "\n"
 "Translation occurs if -d is not given and both STRING1 and STRING2 appear.\n"
@@ -14473,7 +14405,8 @@ msgstr ""
 "仅在替换时 -t 选项才有意义。如果需要，将重复 <数组2> 的最后一个字符，\n"
 "使 <数组2> 和 <数组1> 等长。<数组2> 中多余的字符将被忽略。字符类展开的\n"
 "顺序是未指定的；在进行替换操作时，可以成对使用 [:lower:] 和 [:upper:]，\n"
-"以表示大小写转换。缩减操作将在替换或删除完成之后进行。\n"
+"以表示大小写转换。缩减操作将在替换或删除完成之后进行。类似 '[...]' 的参数\n"
+"需要加引号，以避免可能的 shell 通配符匹配。\n"
 
 #: src/tr.c:519
 #, c-format
@@ -14744,11 +14677,12 @@ msgstr ""
 "\n"
 
 #: src/tty.c:70
-#, fuzzy
 msgid ""
 "  -s, --silent, --quiet\n"
 "         print nothing, only return an exit status\n"
-msgstr "  -s, --silent, --quiet   什么也不显示，只返回退出状态值\n"
+msgstr ""
+"  -s, --silent, --quiet\n"
+"         什么也不打印，只返回退出状态值\n"
 
 #: src/tty.c:132
 #, c-format
@@ -14768,13 +14702,12 @@ msgstr ""
 "\n"
 
 #: src/uname.c:122
-#, fuzzy
 msgid ""
 "  -a, --all                print all information, in the following order,\n"
 "                             except omit -p and -i if unknown\n"
 msgstr ""
-"  -a, --all                按如下次序输出所有信息，其中若 -p 和 -i 的\n"
-"                             探测结果为未知，则省略：\n"
+"  -a, --all                按如下次序输出所有信息，\n"
+"                             除非若 -p 和 -i 未知，则省略\n"
 
 #: src/uname.c:126
 msgid "  -s, --kernel-name        print the kernel name\n"
@@ -14896,7 +14829,6 @@ msgstr ""
 "         输出所有重复的行\n"
 
 #: src/uniq.c:183
-#, fuzzy
 msgid ""
 "      --all-repeated[=METHOD]\n"
 "         like -D, but allow separating groups with an empty line;\n"
@@ -14904,17 +14836,17 @@ msgid ""
 msgstr ""
 "      --all-repeated[=方法]\n"
 "         类似 -D，但支持在每组重复的行之间添加一行空行；\n"
-"                                 方法={none（默认）,prepend,separate}\n"
+"         方法={none（默认）,prepend,separate}\n"
 
 #: src/uniq.c:188
-#, fuzzy
 msgid ""
 "  -f, --skip-fields=N\n"
 "         avoid comparing the first N fields\n"
-msgstr "  -f, --skip-fields=N   不要比较前 N 个字段\n"
+msgstr ""
+"  -f, --skip-fields=N\n"
+"         不要比较前 N 个字段\n"
 
 #: src/uniq.c:192
-#, fuzzy
 msgid ""
 "      --group[=METHOD]\n"
 "         show all items, separating groups with an empty line;\n"
@@ -14922,7 +14854,7 @@ msgid ""
 msgstr ""
 "      --group[=方法]\n"
 "         分组输出所有项目，每组之间用空行分隔；\n"
-"                          方法={separate（默认）,prepend,append,both}\n"
+"         方法={separate（默认）,prepend,append,both}\n"
 
 #: src/uniq.c:197
 msgid ""
@@ -14949,11 +14881,12 @@ msgstr ""
 "         只输出不重复（内容唯一）的行\n"
 
 #: src/uniq.c:213
-#, fuzzy
 msgid ""
 "  -w, --check-chars=N\n"
 "         compare no more than N characters in lines\n"
-msgstr "  -w, --check-chars=N   每行最多比较 N 个字符\n"
+msgstr ""
+"  -w, --check-chars=N\n"
+"         每行最多比较 N 个字符\n"
 
 #: src/uniq.c:219
 msgid ""
@@ -15148,14 +15081,14 @@ msgstr ""
 "         输出换行符数\n"
 
 #: src/wc.c:199
-#, fuzzy
 msgid ""
 "      --debug\n"
 "         indicate what line count acceleration is used\n"
-msgstr "      --debug           提示使用了哪一个实现\n"
+msgstr ""
+"      --debug\n"
+"         提示使用了哪一种加速行数统计的方式\n"
 
 #: src/wc.c:203
-#, fuzzy
 msgid ""
 "      --files0-from=F\n"
 "         read input from the files specified by\n"
@@ -15163,9 +15096,9 @@ msgid ""
 "         If F is -, read names from standard input\n"
 msgstr ""
 "      --files0-from=F\n"
-"         从文件 F 中读取以 NUL 空字符分隔的文件名作为\n"
-"                           输入文件的名称；\n"
-"                           如果 F 是 \"-\"，则从标准输入读取文件名\n"
+"         从文件 F 中读取以 NUL 空字符分隔的文件名\n"
+"         作为输入文件的名称；\n"
+"         如果 F 是 -，则从标准输入读取文件名\n"
 
 #: src/wc.c:209
 msgid ""
@@ -15184,7 +15117,6 @@ msgstr ""
 "         输出单词数\n"
 
 #: src/wc.c:217
-#, fuzzy
 msgid ""
 "      --total=WHEN\n"
 "         when to print a line with total counts;\n"
@@ -15192,7 +15124,7 @@ msgid ""
 msgstr ""
 "      --total=何时\n"
 "         何时打印含有 \"总计\" 的行；\n"
-"                           <何时> 可以是：auto、always、only、never\n"
+"         <何时> 可以是：auto、always、only、never\n"
 
 #: src/wc.c:988
 #, c-format
@@ -15358,9 +15290,8 @@ msgid "  -T, -w, --mesg    add user's message status as +, - or ?\n"
 msgstr "  -T, -w, --mesg    用 +、- 或 ? 标注用户的消息状态\n"
 
 #: src/who.c:681
-#, fuzzy
 msgid "  -u, --users       list users logged in, including idle time\n"
-msgstr "  -u, --users       列出已登录的用户\n"
+msgstr "  -u, --users       列出已登录的用户，包括空闲时间\n"
 
 #: src/who.c:684
 msgid "      --message     same as -T\n"
