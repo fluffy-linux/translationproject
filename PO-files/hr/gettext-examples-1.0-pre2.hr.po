@@ -1,5 +1,5 @@
 # Translation of gettext-examples to Croatian.
-# Copyright (C) 2003, 2004, 2014, 2015, 2019 Yoyodyne, Inc. (msgids)
+# Copyright (C) 2003, 2004, 2014, 2015, 2019, 2026 Yoyodyne, Inc. (msgids)
 # This file is distributed under the same license as the gettext package.
 # Permission is granted to freely copy and distribute
 # this file and modified versions, provided that this
@@ -7,7 +7,7 @@
 # as such.
 #
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
-# Božidar Putanec <bozidarp@yahoo.com>, 2018-2026.
+# Božidar Putanec <bozidarp@yahoo.com>, 2018, 2019, 2020, 2023, 2024, 2025, 2026.
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: GNU gettext-examples 1.0-pre2\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2025-10-01 14:01+0200\n"
-"PO-Revision-Date: 2026-01-15 20:25-0800\n"
+"PO-Revision-Date: 2026-03-08 19:25-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -72,12 +72,12 @@ msgstr "Pozdrav svijete!"
 #: hello-c++-gnome3/hello.cc:71
 #, c-format
 msgid "This program is running as process number %s."
-msgstr "Ovaj program izvršava se kao proces broj %s"
+msgstr "Ovaj program izvršava se kao proces broj %s."
 
 #: hello-c-gnome3/hello.c:84 hello-c-gnome3/hello2.c:92
 #: hello-c++-gnome3/hello.cc:75
 msgid "This is another text"
-msgstr "Ovo je drugi tekstr"
+msgstr "Ovo je drugi tekst"
 
 #: hello-c-gnome3/hello.c:86 hello-c-gnome3/hello2.c:94
 #: hello-c++-gnome3/hello.cc:77
@@ -92,7 +92,7 @@ msgstr "Pozdrav"
 #: hello-c-gnome3/hello.ui:6 hello-c-gnome3/hello2.ui:6
 #: hello-c++-gnome3/hello.ui:6
 msgid "Example Application"
-msgstr "Primjer primjene"
+msgstr "Primjer aplikacije"
 
 #: hello-c-gnome3/hello.ui:34 hello-c-gnome3/hello2.ui:34
 #: hello-c++-gnome3/hello.ui:34
@@ -101,11 +101,11 @@ msgstr "Ažuiranje teksta"
 
 #: hello-c-gnome3/hello2.gschema.xml:8
 msgid "Use XML markup"
-msgstr "Koristi XML markup oznake"
+msgstr "Koristi XML označavanje"
 
 #: hello-c-gnome3/hello2.gschema.xml:9
 msgid "Whether to use XML markup in the text."
-msgstr "Treba li koristiti XML markup u tekstu"
+msgstr "Treba li koristiti XML označavanje u tekstu."
 
 #: hello-c++20/hello.cc:50 hello-c++20/hello.cc:53
 msgid "This program is running as process number {:d}."
