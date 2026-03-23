@@ -86,7 +86,7 @@ msgstr ""
 "Project-Id-Version: GNU gettext-tools 1.0-pre2\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2026-01-13 11:57+0100\n"
-"PO-Revision-Date: 2026-01-14 20:47+0100\n"
+"PO-Revision-Date: 2026-03-23 19:20+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
 "Language: de\n"
@@ -95,7 +95,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.0\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: src/cldr-plurals.c:57
 #, c-format
@@ -146,7 +146,7 @@ msgstr ""
 "Falls sowohl LOCALE als auch REGELN angegeben sind, liest es die\n"
 "CLDR-Pluralregeln für LOCALE aus REGELN und gibt diese in einer Form\n"
 "aus, die von Gettext verarbeitet werden kann.\n"
-"Falls kein Argument angegeben ist, lieste es die CLDR-Pluralregeln\n"
+"Falls kein Argument angegeben ist, liest es die CLDR-Pluralregeln\n"
 "aus der Standardeingabe.\n"
 
 #: src/cldr-plurals.c:345 src/msgfmt.c:945 src/xgettext.c:1173
@@ -1655,7 +1655,8 @@ msgstr ""
 "Die Datei Ref.po ist die zuletzt erstellte PO- oder POT-Datei (Vorlage, i.A.\n"
 "von xgettext erstellt).  Hiermit lässt sich also überprüfen, ob die für das\n"
 "Programm notwendigen Meldungen übersetzt wurden. Wenn keine exakte Überein-\n"
-"stimmung gefunden wurde, wird mittels nicht-exakter Suche versucht, einebessere Hilfestellung zu geben.\n"
+"stimmung gefunden wurde, wird mittels nicht-exakter Suche (»fuzzy«) versucht,\n"
+"eine bessere Hilfestellung zu geben.\n"
 "\n"
 
 #: src/msgcmp.c:231
@@ -3117,7 +3118,7 @@ msgstr ""
 "erstellt). Übersetzungen und Übersetzerkommentare werden verworfen, die mit\n"
 "#. und #: gekennzeichneten Kommentare werden aber übernommen. Wo es keine\n"
 "exakte Übereinstimmung bei Meldungen gibt, wird mittels nicht-exakter Suche\n"
-"versucht, ein besseres Ergebnis zu erzielen.\n"
+"(»fuzzy«) versucht, ein besseres Ergebnis zu erzielen.\n"
 
 #: src/msgmerge.c:500
 #, c-format
