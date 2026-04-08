@@ -1,0 +1,774 @@
+# Kazakh translation for grep.
+# Copyright (C) 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the grep package.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grep 3.11.68\n"
+"Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
+"POT-Creation-Date: 2025-04-04 14:26-0700\n"
+"PO-Revision-Date: 2026-04-08 07:15+0500\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <(nothing)>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.9\n"
+
+#: lib/argmatch.c:145
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "%s аргументі %s үшін жарамсыз"
+
+#: lib/argmatch.c:146
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "%s аргументі %s үшін түсініксіз"
+
+#: lib/argmatch.c:165 lib/argmatch.h:242
+msgid "Valid arguments are:"
+msgstr "Жарамды аргументтер:"
+
+#: lib/c-stack.c:190
+msgid "program error"
+msgstr "бағдарлама қатесі"
+
+#: lib/c-stack.c:191
+msgid "stack overflow"
+msgstr "стек толып кетті"
+
+#: lib/closeout.c:121 src/grep.c:1352
+msgid "write error"
+msgstr "жазу қатесі"
+
+#: lib/dfa.c:910
+msgid "unbalanced ["
+msgstr "теңгерілмеген ["
+
+#: lib/dfa.c:1031
+msgid "invalid character class"
+msgstr "жарамсыз таңбалар класы"
+
+#: lib/dfa.c:1159
+msgid "character class syntax is [[:space:]], not [:space:]"
+msgstr "таңбалар класының синтаксисі [:space:] емес, [[:space:]] болуы керек"
+
+#: lib/dfa.c:1234
+msgid "unfinished \\ escape"
+msgstr "аяқталмаған \\ экрандау таңбасы"
+
+#: lib/dfa.c:1344
+msgid "? at start of expression"
+msgstr "өрнектің бастауында ? таңбасы тұр"
+
+#: lib/dfa.c:1356
+msgid "* at start of expression"
+msgstr "өрнектің бастауында * таңбасы тұр"
+
+#: lib/dfa.c:1370
+msgid "+ at start of expression"
+msgstr "өрнектің бастауында + таңбасы тұр"
+
+#: lib/dfa.c:1425
+msgid "{...} at start of expression"
+msgstr "өрнектің бастауында {...} тұр"
+
+#: lib/dfa.c:1428
+msgid "invalid content of \\{\\}"
+msgstr "\\{\\} мазмұны жарамсыз"
+
+#: lib/dfa.c:1430
+msgid "regular expression too big"
+msgstr "тұрақты өрнек тым үлкен"
+
+#: lib/dfa.c:1580
+msgid "stray \\ before unprintable character"
+msgstr "басып шығарылмайтын таңбаның алдындағы артық \\"
+
+#: lib/dfa.c:1582
+msgid "stray \\ before white space"
+msgstr "бос орын таңбасының алдындағы артық \\"
+
+#: lib/dfa.c:1593
+#, c-format
+msgid "stray \\ before %s"
+msgstr "%s алдындағы артық \\"
+
+#: lib/dfa.c:1594 lib/dfa.c:1597
+msgid "stray \\"
+msgstr "артық \\"
+
+#: lib/dfa.c:1948
+msgid "unbalanced ("
+msgstr "теңгерілмеген ("
+
+#: lib/dfa.c:2065
+msgid "no syntax specified"
+msgstr "синтаксис көрсетілмеген"
+
+#: lib/dfa.c:2076
+msgid "unbalanced )"
+msgstr "теңгерілмеген )"
+
+#: lib/error.c:208
+msgid "Unknown system error"
+msgstr "Белгісіз жүйелік қате"
+
+#: lib/getopt.c:282
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s: '%s%s' опциясы түсініксіз\n"
+
+#: lib/getopt.c:288
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s: '%s%s' опциясы түсініксіз; нұсқалары:"
+
+#: lib/getopt.c:322
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s: '%s%s' опциясы танылмады\n"
+
+#: lib/getopt.c:348
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s: '%s%s' опциясы аргументті талап етпейді\n"
+
+#: lib/getopt.c:363
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s: '%s%s' опциясы аргументті талап етеді\n"
+
+#: lib/getopt.c:624
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: жарамсыз опция -- '%c'\n"
+
+#: lib/getopt.c:639 lib/getopt.c:685
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: опция аргументті талап етеді -- '%c'\n"
+
+#: lib/obstack.c:320 lib/obstack.c:322 lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "жады таусылды"
+
+#: lib/openat-die.c:38
+msgid "unable to record current working directory"
+msgstr "ағымдағы жұмыс бумасын жазу мүмкін емес"
+
+#: lib/openat-die.c:57
+msgid "failed to return to initial working directory"
+msgstr "бастапқы жұмыс бумасына оралу сәтсіз аяқталды"
+
+#: lib/xbinary-io.c:36
+#, c-format
+msgid "failed to set file descriptor text/binary mode"
+msgstr "файл дескрипторының мәтін/екілік режимін орнату сәтсіз аяқталды"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:354
+msgid "`"
+msgstr "«"
+
+#: lib/quotearg.c:355
+msgid "'"
+msgstr "»"
+
+#: lib/regcomp.c:122
+msgid "Success"
+msgstr "Сәтті"
+
+#: lib/regcomp.c:125
+msgid "No match"
+msgstr "Сәйкестік жоқ"
+
+#: lib/regcomp.c:128
+msgid "Invalid regular expression"
+msgstr "Жарамсыз тұрақты өрнек"
+
+#: lib/regcomp.c:131
+msgid "Invalid collation character"
+msgstr "Жарамсыз салыстыру таңбасы"
+
+#: lib/regcomp.c:134
+msgid "Invalid character class name"
+msgstr "Жарамсыз таңбалар класының аты"
+
+#: lib/regcomp.c:137
+msgid "Trailing backslash"
+msgstr "Соңындағы кері қиғаш сызық"
+
+#: lib/regcomp.c:140
+msgid "Invalid back reference"
+msgstr "Жарамсыз кері сілтеу"
+
+#: lib/regcomp.c:143
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "[, [^, [:, [., немесе [= таңбаларына сәйкестік жоқ"
+
+#: lib/regcomp.c:146
+msgid "Unmatched ( or \\("
+msgstr "( немесе \\( таңбаларына сәйкестік жоқ"
+
+#: lib/regcomp.c:149
+msgid "Unmatched \\{"
+msgstr "\\{ таңбасына сәйкестік жоқ"
+
+#: lib/regcomp.c:152
+msgid "Invalid content of \\{\\}"
+msgstr "\\{\\} мазмұны жарамсыз"
+
+#: lib/regcomp.c:155
+msgid "Invalid range end"
+msgstr "Ауқым соңы жарамсыз"
+
+#: lib/regcomp.c:158
+msgid "Memory exhausted"
+msgstr "Жады таусылды"
+
+#: lib/regcomp.c:161
+msgid "Invalid preceding regular expression"
+msgstr "Алдындағы тұрақты өрнек жарамсыз"
+
+#: lib/regcomp.c:164
+msgid "Premature end of regular expression"
+msgstr "Тұрақты өрнек мезгілінен бұрын аяқталды"
+
+#: lib/regcomp.c:167
+msgid "Regular expression too big"
+msgstr "Тұрақты өрнек тым үлкен"
+
+#: lib/regcomp.c:170
+msgid "Unmatched ) or \\)"
+msgstr ") немесе \\) таңбаларына сәйкестік жоқ"
+
+#: lib/regcomp.c:650
+msgid "No previous regular expression"
+msgstr "Алдында тұрақты өрнек болған жоқ"
+
+#: lib/version-etc.c:73
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "%s (%s) тарапынан дестеленген\n"
+
+#: lib/version-etc.c:76
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "%s тарапынан дестеленген\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:83
+msgid "(C)"
+msgstr "(C)"
+
+#. TRANSLATORS: The %s placeholder is the web address of the GPL license.
+#: lib/version-etc.c:88
+#, c-format
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <%s>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"GPLv3+ лицензиясы: GNU GPL 3 немесе кейінгі нұсқасы <%s>.\n"
+"Бұл бос бағдарламалық қамтама: сіз оны өзгертуге және қайта таратуға еріктісіз.\n"
+"Заңмен рұқсат етілген қамту аймағында ЕШҚАНДАЙ КЕПІЛДІК БЕРІЛМЕЙДІ.\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:105
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Авторы %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:109
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Авторлары %s және %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:113
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Авторлары %s, %s және %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:120
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Авторлары %s, %s, %s\n"
+"және %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:127
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Авторлары %s, %s, %s,\n"
+"%s және %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:134
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Авторлары %s, %s, %s,\n"
+"%s, %s және %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:142
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Авторлары %s, %s, %s,\n"
+"%s, %s, %s және %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:150
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Авторлары %s, %s, %s,\n"
+"%s, %s, %s, %s\n"
+"және %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:159
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Авторлары %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s және %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:170
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Авторлары %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s және басқалар.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:249
+#, c-format
+msgid "Report bugs to: %s\n"
+msgstr "Қателер туралы мында хабарлаңыз: %s\n"
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "%s қателері туралы мында хабарлаңыз: %s\n"
+
+#: lib/version-etc.c:255 lib/version-etc.c:257
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "%s үй бумасының беті: <%s>\n"
+
+#: lib/version-etc.c:260
+#, c-format
+msgid "General help using GNU software: <%s>\n"
+msgstr "GNU бағдарламалық қамтамасын пайдалану бойынша жалпы көмек: <%s>\n"
+
+#: src/dfasearch.c:57
+#, c-format
+msgid "warning: %s"
+msgstr "ескерту: %s"
+
+#: src/grep.c:657
+msgid "(standard input)"
+msgstr "(стандартты кіріс)"
+
+#: src/grep.c:838
+msgid "invalid context length argument"
+msgstr "контекст ұзындығының аргументі жарамсыз"
+
+#: src/grep.c:911
+msgid "input is too large to count"
+msgstr "кіріс санау үшін тым үлкен"
+
+#: src/grep.c:1654
+#, c-format
+msgid "%s: binary file matches"
+msgstr "%s: екілік файл сәйкес келеді"
+
+#: src/grep.c:1692
+#, c-format
+msgid "%s: warning: recursive directory loop"
+msgstr "%s: ескерту: рекурсивті бума циклі"
+
+#: src/grep.c:1912
+#, c-format
+msgid "%s: input file is also the output"
+msgstr "%s: кіріс файлы шығыс файлымен бірдей"
+
+#: src/grep.c:1974 src/grep.c:1981
+#, c-format
+msgid "Usage: %s [OPTION]... PATTERNS [FILE]...\n"
+msgstr "Пайдалану: %s [ОПЦИЯ]... ӨРНЕКТЕР [ФАЙЛ]...\n"
+
+#: src/grep.c:1976
+#, c-format
+msgid "Try '%s --help' for more information.\n"
+msgstr "Толық ақпарат алу үшін '%s --help' командасын байқап көріңіз.\n"
+
+#: src/grep.c:1982
+#, c-format
+msgid "Search for PATTERNS in each FILE.\n"
+msgstr "Әрбір ФАЙЛ ішінен ӨРНЕКТЕРДІ іздеу.\n"
+
+#: src/grep.c:1983
+#, c-format
+msgid ""
+"Example: %s -i 'hello world' menu.h main.c\n"
+"PATTERNS can contain multiple patterns separated by newlines.\n"
+"\n"
+"Pattern selection and interpretation:\n"
+msgstr ""
+"Мысалы: %s -i 'hello world' menu.h main.c\n"
+"ӨРНЕКТЕР жаңа жолдармен бөлінген бірнеше өрнекті қамтуы мүмкін.\n"
+"\n"
+"Өрнекті таңдау және интерпретациялау:\n"
+
+#: src/grep.c:1988
+#, c-format
+msgid ""
+"  -E, --extended-regexp     PATTERNS are extended regular expressions\n"
+"  -F, --fixed-strings       PATTERNS are strings\n"
+"  -G, --basic-regexp        PATTERNS are basic regular expressions\n"
+"  -P, --perl-regexp         PATTERNS are Perl regular expressions\n"
+msgstr ""
+"  -E, --extended-regexp     ӨРНЕКТЕР кеңейтілген тұрақты өрнектер болып табылады\n"
+"  -F, --fixed-strings       ӨРНЕКТЕР - жай жолдар\n"
+"  -G, --basic-regexp        ӨРНЕКТЕР негізгі тұрақты өрнектер болып табылады\n"
+"  -P, --perl-regexp         ӨРНЕКТЕР Perl тұрақты өрнектері болып табылады\n"
+
+#: src/grep.c:1994
+#, c-format
+msgid ""
+"  -e, --regexp=PATTERNS     use PATTERNS for matching\n"
+"  -f, --file=FILE           take PATTERNS from FILE\n"
+"  -i, --ignore-case         ignore case distinctions in patterns and data\n"
+"      --no-ignore-case      do not ignore case distinctions (default)\n"
+"  -w, --word-regexp         match only whole words\n"
+"  -x, --line-regexp         match only whole lines\n"
+"  -z, --null-data           a data line ends in 0 byte, not newline\n"
+msgstr ""
+"  -e, --regexp=ӨРНЕКТЕР     сәйкестендіру үшін ӨРНЕКТЕРДІ пайдалану\n"
+"  -f, --file=ФАЙЛ           ӨРНЕКТЕРДІ ФАЙЛДАН алу\n"
+"  -i, --ignore-case         өрнектер мен деректердегі регистр айырмашылығын елемеу\n"
+"      --no-ignore-case      регистр айырмашылығын елемеу (үнсіз келісім бойынша)\n"
+"  -w, --word-regexp         тек толық сөздерді сәйкестендіру\n"
+"  -x, --line-regexp         тек толық жолдарды сәйкестендіру\n"
+"  -z, --null-data           деректер жолы жаңа жол таңбасымен емес, 0 байтымен аяқталады\n"
+
+#: src/grep.c:2002
+#, c-format
+msgid ""
+"\n"
+"Miscellaneous:\n"
+"  -s, --no-messages         suppress error messages\n"
+"  -v, --invert-match        select non-matching lines\n"
+"  -V, --version             display version information and exit\n"
+"      --help                display this help text and exit\n"
+msgstr ""
+"\n"
+"Әртүрлі:\n"
+"  -s, --no-messages         қате хабарламаларын көрсетпеу\n"
+"  -v, --invert-match        сәйкес келмейтін жолдарды таңдау\n"
+"  -V, --version             нұсқа ақпаратын көрсету және шығу\n"
+"      --help                осы көмек мәтінін көрсету және шығу\n"
+
+#: src/grep.c:2009
+#, c-format
+msgid ""
+"\n"
+"Output control:\n"
+"  -m, --max-count=NUM       stop after NUM selected lines\n"
+"  -b, --byte-offset         print the byte offset with output lines\n"
+"  -n, --line-number         print line number with output lines\n"
+"      --line-buffered       flush output on every line\n"
+"  -H, --with-filename       print file name with output lines\n"
+"  -h, --no-filename         suppress the file name prefix on output\n"
+"      --label=LABEL         use LABEL as the standard input file name prefix\n"
+msgstr ""
+"\n"
+"Шығысты басқару:\n"
+"  -m, --max-count=САН       таңдалған САН жолдан кейін тоқтату\n"
+"  -b, --byte-offset         шығыс жолдарымен бірге байттық ығысуды басып шығару\n"
+"  -n, --line-number         шығыс жолдарымен бірге жол нөмірін басып шығару\n"
+"      --line-buffered       әр жол сайын шығысты тазарту\n"
+"  -H, --with-filename       шығыс жолдарымен бірге файл атын басып шығару\n"
+"  -h, --no-filename         шығыста файл атының префиксін көрсетпеу\n"
+"      --label=ЖАПСЫРМА      ЖАПСЫРМАНЫ стандартты кіріс файлының аты префиксі ретінде пайдалану\n"
+
+#: src/grep.c:2020
+#, c-format
+msgid ""
+"  -o, --only-matching       show only nonempty parts of lines that match\n"
+"  -q, --quiet, --silent     suppress all normal output\n"
+"      --binary-files=TYPE   assume that binary files are TYPE;\n"
+"                            TYPE is 'binary', 'text', or 'without-match'\n"
+"  -a, --text                equivalent to --binary-files=text\n"
+msgstr ""
+"  -o, --only-matching       жолдардың тек сәйкес келетін бос емес бөліктерін көрсету\n"
+"  -q, --quiet, --silent     барлық қалыпты шығысты көрсетпеу\n"
+"      --binary-files=ТҮР    екілік файлдарды ТҮР деп есептеу;\n"
+"                            ТҮР: 'binary' (екілік), 'text' (мәтін) немесе 'without-match' (сәйкестіксіз)\n"
+"  -a, --text                --binary-files=text опциясына балама\n"
+
+#: src/grep.c:2027
+#, c-format
+msgid ""
+"  -I                        equivalent to --binary-files=without-match\n"
+"  -d, --directories=ACTION  how to handle directories;\n"
+"                            ACTION is 'read', 'recurse', or 'skip'\n"
+"  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;\n"
+"                            ACTION is 'read' or 'skip'\n"
+"  -r, --recursive           like --directories=recurse\n"
+"  -R, --dereference-recursive  likewise, but follow all symlinks\n"
+msgstr ""
+"  -I                        --binary-files=without-match опциясына балама\n"
+"  -d, --directories=ӘРЕКЕТ  бумаларды қалай өңдеу керек;\n"
+"                            ӘРЕКЕТ: 'read' (оқу), 'recurse' (рекурсия) немесе 'skip' (аттап кету)\n"
+"  -D, --devices=ӘРЕКЕТ      құрылғыларды, FIFO және сокеттерді қалай өңдеу керек;\n"
+"                            ӘРЕКЕТ: 'read' (оқу) немесе 'skip' (аттап кету)\n"
+"  -r, --recursive           --directories=recurse опциясы сияқты\n"
+"  -R, --dereference-recursive  солай, бірақ барлық символдық сілтемелер бойынша өту\n"
+
+#: src/grep.c:2036
+#, c-format
+msgid ""
+"      --include=GLOB        search only files that match GLOB (a file pattern)\n"
+"      --exclude=GLOB        skip files that match GLOB\n"
+"      --exclude-from=FILE   skip files that match any file pattern from FILE\n"
+"      --exclude-dir=GLOB    skip directories that match GLOB\n"
+msgstr ""
+"      --include=GLOB        тек GLOB үлгісіне (файл өрнегіне) сәйкес келетін файлдарды іздеу\n"
+"      --exclude=GLOB        GLOB үлгісіне сәйкес келетін файлдарды аттап кету\n"
+"      --exclude-from=ФАЙЛ   ФАЙЛДАҒЫ кез келген файл өрнегіне сәйкес келетін файлдарды аттап кету\n"
+"      --exclude-dir=GLOB    GLOB үлгісіне сәйкес келетін бумаларды аттап кету\n"
+
+#: src/grep.c:2043
+#, c-format
+msgid ""
+"  -L, --files-without-match  print only names of FILEs with no selected lines\n"
+"  -l, --files-with-matches  print only names of FILEs with selected lines\n"
+"  -c, --count               print only a count of selected lines per FILE\n"
+"  -T, --initial-tab         make tabs line up (if needed)\n"
+"  -Z, --null                print 0 byte after FILE name\n"
+msgstr ""
+"  -L, --files-without-match  тек таңдалған жолдары жоқ ФАЙЛДАРДЫҢ аттарын басып шығару\n"
+"  -l, --files-with-matches   тек таңдалған жолдары бар ФАЙЛДАРДЫҢ аттарын басып шығару\n"
+"  -c, --count                әр ФАЙЛ бойынша тек таңдалған жолдардың санын басып шығару\n"
+"  -T, --initial-tab          беттерді туралау (қажет болса)\n"
+"  -Z, --null                 ФАЙЛ атынан кейін 0 байтын басып шығару\n"
+
+#: src/grep.c:2049
+#, c-format
+msgid ""
+"\n"
+"Context control:\n"
+"  -B, --before-context=NUM  print NUM lines of leading context\n"
+"  -A, --after-context=NUM   print NUM lines of trailing context\n"
+"  -C, --context=NUM         print NUM lines of output context\n"
+msgstr ""
+"\n"
+"Контексті басқару:\n"
+"  -B, --before-context=САН  алдыңғы контексттің САН жолын басып шығару\n"
+"  -A, --after-context=САН   соңғы контексттің САН жолын басып шығару\n"
+"  -C, --context=САН         шығыс контекстінің САН жолын басып шығару\n"
+
+#: src/grep.c:2056
+#, c-format
+msgid ""
+"  -NUM                      same as --context=NUM\n"
+"      --group-separator=SEP  print SEP on line between matches with context\n"
+"      --no-group-separator  do not print separator for matches with context\n"
+"      --color[=WHEN],\n"
+"      --colour[=WHEN]       use markers to highlight the matching strings;\n"
+"                            WHEN is 'always', 'never', or 'auto'\n"
+"  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)\n"
+"\n"
+msgstr ""
+"  -САН                      --context=САН опциясымен бірдей\n"
+"      --group-separator=SEP  контексті бар сәйкестіктер арасындағы жолда SEP басып шығару\n"
+"      --no-group-separator  контексті бар сәйкестіктер үшін ажыратқышты басып шығармау\n"
+"      --color[=ҚАШАН],\n"
+"      --colour[=ҚАШАН]      сәйкес келетін жолдарды түспен ерекшелеу үшін маркерлерді пайдалану;\n"
+"                            ҚАШАН: 'always' (әрдайым), 'never' (ешқашан) немесе 'auto' (авто)\n"
+"  -U, --binary              жол соңындағы CR таңбаларын өшірмеу (MSDOS/Windows)\n"
+"\n"
+
+#: src/grep.c:2065
+#, c-format
+msgid ""
+"When FILE is '-', read standard input.  If no FILE is given, read standard\n"
+"input, but with -r, recursively search the working directory instead.  With\n"
+"fewer than two FILEs, assume -h.  Exit status is 0 if any line is selected,\n"
+"1 otherwise; if any error occurs and -q is not given, the exit status is 2.\n"
+msgstr ""
+"ФАЙЛ '-' болғанда, стандартты кірісті оқу. Егер ФАЙЛ берілмесе, стандартты\n"
+"кірісті оқу, бірақ -r болса, орнына жұмыс бумасын рекурсивті іздеу.\n"
+"Екі ФАЙЛДАН аз болса, -h деп есептеу. Кез келген жол таңдалса, шығу қалып-күйі - 0,\n"
+"әйтпесе - 1; егер қате орын алса және -q берілмесе, шығу қалып-күйі - 2.\n"
+
+#: src/grep.c:2108
+msgid "conflicting matchers specified"
+msgstr "қайшы келетін сәйкестендіргіштер көрсетілген"
+
+#: src/grep.c:2115
+msgid "Perl matching not supported in a --disable-perl-regexp build"
+msgstr "--disable-perl-regexp арқылы жасалған құрастырылымда Perl сәйкестендіруіне қолдау көрсетілмейді"
+
+#: src/grep.c:2117
+#, c-format
+msgid "invalid matcher %s"
+msgstr "%s сәйкестендіргіші жарамсыз"
+
+#: src/grep.c:2539
+msgid "unknown devices method"
+msgstr "құрылғылар әдісі белгісіз"
+
+#: src/grep.c:2688
+msgid "invalid max count"
+msgstr "макс. сан жарамсыз"
+
+#: src/grep.c:2745
+msgid "unknown binary-files type"
+msgstr "екілік файлдардың түрі белгісіз"
+
+#: src/grep.c:2830
+msgid ""
+"Written by Mike Haertel and others; see\n"
+"<https://git.savannah.gnu.org/cgit/grep.git/tree/AUTHORS>."
+msgstr ""
+"Авторы Mike Haertel және басқалар; қараңыз:\n"
+"<https://git.savannah.gnu.org/cgit/grep.git/tree/AUTHORS>."
+
+#: src/grep.c:2937
+#, c-format
+msgid "warning: GREP_COLOR='%s' is deprecated; use GREP_COLORS='mt=%s'"
+msgstr "ескерту: GREP_COLOR='%s' ескірген; GREP_COLORS='mt=%s' опциясын пайдаланыңыз"
+
+#: src/pcresearch.c:89
+#, c-format
+msgid ""
+"\n"
+"grep -P uses PCRE2 %s\n"
+msgstr ""
+"\n"
+"grep -P бағдарламасы PCRE2 %s нұсқасын пайдаланады\n"
+
+#: src/pcresearch.c:167
+msgid "-P supports only unibyte locales on this platform"
+msgstr "-P опциясы бұл платформада тек бір байттық локальдерді қолдайды"
+
+#: src/pcresearch.c:169
+msgid "-P supports only unibyte and UTF-8 locales"
+msgstr "-P опциясы тек бір байттық және UTF-8 локальдерін қолдайды"
+
+#: src/pcresearch.c:192
+msgid "the -P option only supports a single pattern"
+msgstr "-P опциясы тек бір өрнекті қолдайды"
+
+#: src/pcresearch.c:288
+msgid "exceeded PCRE's line length limit"
+msgstr "PCRE сызық ұзындығының шегінен асты"
+
+#: src/pcresearch.c:366
+#, c-format
+msgid "%s: memory exhausted"
+msgstr "%s: жады таусылды"
+
+#: src/pcresearch.c:369
+#, c-format
+msgid "%s: exhausted PCRE JIT stack"
+msgstr "%s: PCRE JIT стегі таусылды"
+
+#: src/pcresearch.c:373
+#, c-format
+msgid "%s: exceeded PCRE's backtracking limit"
+msgstr "%s: PCRE кері шегіну шегінен асты"
+
+#: src/pcresearch.c:378
+#, c-format
+msgid "%s: exceeded PCRE's nested backtracking limit"
+msgstr "%s: PCRE ішкі кері шегіну шегінен асты"
+
+#: src/pcresearch.c:382
+#, c-format
+msgid "%s: PCRE detected recurse loop"
+msgstr "%s: PCRE рекурсия циклін анықтады"
+
+#: src/pcresearch.c:387
+#, c-format
+msgid "%s: exceeded PCRE's heap limit"
+msgstr "%s: PCRE үйінді шегінен асты"
+
+#: src/pcresearch.c:396
+#, c-format
+msgid "%s: internal PCRE error: %d"
+msgstr "%s: PCRE ішкі қатесі: %d"
