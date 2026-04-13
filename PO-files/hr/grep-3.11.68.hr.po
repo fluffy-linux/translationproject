@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: grep-3.11.68\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2025-04-04 14:26-0700\n"
-"PO-Revision-Date: 2025-04-23 20:20-0700\n"
+"PO-Revision-Date: 2026-04-13 10:27-0700\n"
 "Last-Translator: Božidar Putanec <bozidarp@yahoo.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -27,12 +27,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Vim9.1\n"
+"X-Generator: Vim9.2\n"
+" Revised with stylistic and terminological assistance from ChatGPT.\n"
 
 #: lib/argmatch.c:145
 #, c-format
 msgid "invalid argument %s for %s"
-msgstr "nevaljani argument %s za %s"
+msgstr "neispravan argument %s za %s"
 
 #: lib/argmatch.c:146
 #, c-format
@@ -49,7 +50,7 @@ msgstr "greška u programu"
 
 #: lib/c-stack.c:191
 msgid "stack overflow"
-msgstr "prelijevanje stȏga"
+msgstr "prekoračenje stoga"
 
 #: lib/closeout.c:121 src/grep.c:1352
 msgid "write error"
@@ -57,19 +58,19 @@ msgstr "greška pri pisanju"
 
 #: lib/dfa.c:910
 msgid "unbalanced ["
-msgstr "[ nema odgovarajući par"
+msgstr "nesparena ["
 
 #: lib/dfa.c:1031
 msgid "invalid character class"
-msgstr "nevaljana znakovna klasa"
+msgstr "neispravna klasa znakova"
 
 #: lib/dfa.c:1159
 msgid "character class syntax is [[:space:]], not [:space:]"
-msgstr "sintaksa znakovne klase je [[:space]], ne [:space:]"
+msgstr "sintaksa klase znakova je [[:space:]], a ne [:space:]"
 
 #: lib/dfa.c:1234
 msgid "unfinished \\ escape"
-msgstr "nedovršena \\ escape sekvencija"
+msgstr "nedovršeno maskiranje znakom \\"
 
 #: lib/dfa.c:1344
 msgid "? at start of expression"
@@ -81,106 +82,104 @@ msgstr "* na početku izraza"
 
 #: lib/dfa.c:1370
 msgid "+ at start of expression"
-msgstr "+ na kraju izraza"
+msgstr "+ na početku izraza"
 
 #: lib/dfa.c:1425
 msgid "{...} at start of expression"
-msgstr "{...} na startu izraza"
+msgstr "{...} na početku izraza"
 
 #: lib/dfa.c:1428
 msgid "invalid content of \\{\\}"
-msgstr "nevaljani sadržaj u \\{\\}"
+msgstr "neispravan sadržaj \\{\\}"
 
 #: lib/dfa.c:1430
 msgid "regular expression too big"
-msgstr "preveliki regularni izraz"
+msgstr "regularni izraz je prevelik"
 
 #: lib/dfa.c:1580
 msgid "stray \\ before unprintable character"
-msgstr "zalutali znak \\ ispred neispisivog znaka"
+msgstr "zalutala obrnuta kosa crta \\ ispred neispisivog znaka"
 
 #: lib/dfa.c:1582
 msgid "stray \\ before white space"
-msgstr "zalutali znak \\ ispred bjeline"
+msgstr "zalutala obrnuta kosa crta \\ ispred bjeline"
 
 #: lib/dfa.c:1593
 #, c-format
 msgid "stray \\ before %s"
-msgstr "zalutali znak \\ ispred %s"
+msgstr "zalutala obrnuta kosa crta \\ ispred %s"
 
 #: lib/dfa.c:1594 lib/dfa.c:1597
 msgid "stray \\"
-msgstr "zalutali znak \\"
+msgstr "zalutala obrnuta kosa crta \\"
 
 #: lib/dfa.c:1948
 msgid "unbalanced ("
-msgstr "( nema odgovarajući par"
+msgstr "nesparena ("
 
-# ‘zadano’ je često ‘default’, pa radije ‘navedena’ ili ‘imenovana’
 #: lib/dfa.c:2065
 msgid "no syntax specified"
 msgstr "sintaksa nije navedena"
 
 #: lib/dfa.c:2076
 msgid "unbalanced )"
-msgstr ") nema odgovarajući par"
+msgstr "nesparena )"
 
 #: lib/error.c:208
 msgid "Unknown system error"
-msgstr "Nepoznata greška sustava"
+msgstr "nepoznata greška sustava"
 
 #: lib/getopt.c:282
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija ‘%s%s’ nije jednoznačna\n"
+msgstr "%s: opcija '%s%s' nije jednoznačna\n"
 
 #: lib/getopt.c:288
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija ‘%s%s’ nije jednoznačna; mogućnosti su:"
+msgstr "%s: opcija '%s%s' nije jednoznačna; moguće su ove opcije:"
 
 #: lib/getopt.c:322
 #, c-format
 msgid "%s: unrecognized option '%s%s'\n"
-msgstr "%s: neprepoznata opcija ‘%s%s’\n"
+msgstr "%s: neprepoznata opcija '%s%s'\n"
 
 #: lib/getopt.c:348
 #, c-format
 msgid "%s: option '%s%s' doesn't allow an argument\n"
-msgstr "%s: opcija ‘%s%s’ ne dopušta argument\n"
+msgstr "%s: opcija '%s%s' ne prihvaća argument\n"
 
 #: lib/getopt.c:363
 #, c-format
 msgid "%s: option '%s%s' requires an argument\n"
-msgstr "%s: opcija ‘%s%s’ zahtijeva argument\n"
+msgstr "%s: opcija '%s%s' zahtijeva argument\n"
 
 #: lib/getopt.c:624
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
-msgstr "%s: nevaljana opcija -- ‘%c’\n"
+msgstr "%s: nevaljana opcija -- '%c'\n"
 
 #: lib/getopt.c:639 lib/getopt.c:685
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
-msgstr "%s: opcija zahtijeva argument -- ‘%c’\n"
+msgstr "%s: opcija zahtijeva argument -- '%c'\n"
 
 #: lib/obstack.c:320 lib/obstack.c:322 lib/xalloc-die.c:34
 msgid "memory exhausted"
 msgstr "nema dovoljno memorije"
 
-# lingvisti: trenutni > trenutačni
 #: lib/openat-die.c:38
 msgid "unable to record current working directory"
-msgstr "nije moguće registrirati trenutni radni direktorij"
+msgstr "nije moguće zabilježiti trenutačni radni direktorij"
 
 #: lib/openat-die.c:57
 msgid "failed to return to initial working directory"
-msgstr "nije se uspjelo vratiti u početni radni direktorij"
+msgstr "neuspjeli povratak u početni radni direktorij"
 
 #: lib/xbinary-io.c:36
 #, c-format
 msgid "failed to set file descriptor text/binary mode"
-msgstr "nije uspjelo postaviti deskriptor datoteke u tekst/binarni način"
+msgstr "neuspjelo postavljanje tekstnog/binarnog načina deskriptora datoteke"
 
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
@@ -209,93 +208,89 @@ msgstr "„"
 
 #: lib/quotearg.c:355
 msgid "'"
-msgstr "”"
+msgstr "'"
 
 #: lib/regcomp.c:122
 msgid "Success"
-msgstr "Uspjeh"
+msgstr "uspjeh"
 
-# no match: _REG_NOMATCH,		/* Didn't find a match (for regexec).  */
 #: lib/regcomp.c:125
 msgid "No match"
-msgstr "Nema podudaranja"
+msgstr "nema podudaranja"
 
 #: lib/regcomp.c:128
 msgid "Invalid regular expression"
-msgstr "Nevaljani regularni izraz"
+msgstr "neispravan regularni izraz"
 
 #: lib/regcomp.c:131
 msgid "Invalid collation character"
-msgstr "Nevaljani složeni (sastavljeni) znak"
+msgstr "neispravan znak za razvrstavanje"
 
 #: lib/regcomp.c:134
 msgid "Invalid character class name"
-msgstr "Nevaljano ime za klasu znakova"
+msgstr "neispravno ime klase znakova"
 
-# obrnuta > obratna
 #: lib/regcomp.c:137
 msgid "Trailing backslash"
-msgstr "Zaostala obratna kosa crta"
+msgstr "obrnuta kosa crta na kraju"
 
-# http://ihjj.hr/ referenca > referencija
 #: lib/regcomp.c:140
 msgid "Invalid back reference"
-msgstr "Nevaljana povratna referencija"
+msgstr "neispravna povratna referenca"
 
 #: lib/regcomp.c:143
 msgid "Unmatched [, [^, [:, [., or [="
-msgstr "[, [^, [:, [., ili [= nema odgovarajući par"
+msgstr "nespareni [, [^, [:, [., ili [="
 
 #: lib/regcomp.c:146
 msgid "Unmatched ( or \\("
-msgstr "( ili \\( nema odgovarajući par"
+msgstr "nesparena ( ili \\("
 
 #: lib/regcomp.c:149
 msgid "Unmatched \\{"
-msgstr "\\{ nema odgovarajući par"
+msgstr "nesparena \\{"
 
 #: lib/regcomp.c:152
 msgid "Invalid content of \\{\\}"
-msgstr "Nevaljani sadržaj u \\{\\}"
+msgstr "neispravan sadržaj \\{\\}"
 
 #: lib/regcomp.c:155
 msgid "Invalid range end"
-msgstr "Nevaljani kraj raspona"
+msgstr "neispravan kraj raspona"
 
-# nema memorije
 #: lib/regcomp.c:158
 msgid "Memory exhausted"
-msgstr "Nema dovoljno memorije"
+msgstr "nema dovoljno memorije"
 
 #: lib/regcomp.c:161
 msgid "Invalid preceding regular expression"
-msgstr "Nevaljani prethodni regularni izraz"
+msgstr "prethodni regularni izraz nije ispravan"
 
 #: lib/regcomp.c:164
 msgid "Premature end of regular expression"
-msgstr "Nedovršeni regularni izraz (preuranjeni završetak)"
+msgstr "prerani kraj regularnog izraza"
 
 #: lib/regcomp.c:167
 msgid "Regular expression too big"
-msgstr "Preveliki regularni izraz"
+msgstr "regularni izraz je prevelik"
 
 #: lib/regcomp.c:170
 msgid "Unmatched ) or \\)"
-msgstr ") ili \\) nema odgovarajući par"
+msgstr "nesparena ) ili \\)"
 
 #: lib/regcomp.c:650
 msgid "No previous regular expression"
-msgstr "Nema prethodnog regularnog izraza"
+msgstr "nema prethodnog regularnog izraza"
 
 #: lib/version-etc.c:73
 #, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr "Spakirali %s (%s)\n"
+msgstr "Paket pripremio %s (%s)\n"
 
 #: lib/version-etc.c:76
 #, c-format
 msgid "Packaged by %s\n"
-msgstr "Spakirao %s\n"
+msgstr "Paket pripremio %s\n"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
@@ -432,20 +427,20 @@ msgstr ""
 #, c-format
 msgid "Report bugs to: %s\n"
 msgstr ""
-"Greške u programu javite na <%s>.\n"
-"Primjedbe i pogreške u prijevodu javite na <lokalizacija@linux.hr>.\n"
+"Pogreške prijavite na engleskom (LC_ALL=C) na: <%s>\n"
+"Primjedbe i pogreške u prijevodu prijavite na: <lokalizacija@linux.hr>\n"
 
-# prvi %s PACKAGE_PACKAGER,
-# drugi %s PACKAGE_PACKAGER_BUG_REPORTS
 #: lib/version-etc.c:251
 #, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr "Pogreške %s javite (na engleskom, LC_ALL=C) na <%s>\n"
+msgstr ""
+"Pogreške %s prijavite na engleskom (LC_ALL=C) na: <%s>\n"
+"Primjedbe i pogreške u prijevodu prijavite na: <lokalizacija@linux.hr>\n"
 
 #: lib/version-etc.c:255 lib/version-etc.c:257
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr "Mrežna stranica za %s: <%s>\n"
+msgstr "Početna stranica za %s: <%s>\n"
 
 #: lib/version-etc.c:260
 #, c-format
@@ -463,26 +458,26 @@ msgstr "(standardni ulaz)"
 
 #: src/grep.c:838
 msgid "invalid context length argument"
-msgstr "nevaljani argument duljine konteksta"
+msgstr "neispravan argument duljine konteksta"
 
 #: src/grep.c:911
 msgid "input is too large to count"
-msgstr "ulaz je prevelik da se prebroji"
+msgstr "ulaz je prevelik za brojanje"
 
 #: src/grep.c:1654
 #, c-format
 msgid "%s: binary file matches"
-msgstr "%s: binarna datoteka se podudara"
+msgstr "%s: binarna datoteka sadrži podudaranje"
 
 #: src/grep.c:1692
 #, c-format
 msgid "%s: warning: recursive directory loop"
-msgstr "%s upozorenje: rekurzivna petlja direktorija"
+msgstr "%s: upozorenje: rekurzivna petlja direktorija"
 
 #: src/grep.c:1912
 #, c-format
 msgid "%s: input file is also the output"
-msgstr "%s: ulazna datoteka jednaka je izlaznoj datoteci"
+msgstr "%s: ulazna datoteka ujedno je i izlazna datoteka"
 
 #: src/grep.c:1974 src/grep.c:1981
 #, c-format
@@ -492,12 +487,12 @@ msgstr "Uporaba: %s [OPCIJA]... UZORCI [DATOTEKA]...\n"
 #: src/grep.c:1976
 #, c-format
 msgid "Try '%s --help' for more information.\n"
-msgstr "Pokušajte s ‘%s --help’ za pomoć i više informacija.\n"
+msgstr "Pokušajte s '%s --help' za više informacija.\n"
 
 #: src/grep.c:1982
 #, c-format
 msgid "Search for PATTERNS in each FILE.\n"
-msgstr "Traži UZORKE u svakoj navedenoj DATOTECI.\n"
+msgstr "Traži UZORKE u svakoj DATOTECI.\n"
 
 #: src/grep.c:1983
 #, c-format
@@ -508,14 +503,9 @@ msgid ""
 "Pattern selection and interpretation:\n"
 msgstr ""
 "Primjer: %s -i 'hello world' menu.h main.c\n"
-"UZORCI mogu biti sastavljeni od više uzoraka u zasebnim redcima.\n"
 "\n"
-"Odabir i interpretacija UZORAKA:\n"
+"Odabir i tumačenje UZORAKA:\n"
 
-# engl. ‘string’ hrvatske mogućnosti: biseri, zrna i sl. nanizani na nit; niska.
-# Prijedlog je string  > niska
-# vidi http://hjp.znanje.hr/index.php?show=search_by_id&id=eF1uXRg%3D
-# ili ostavimo string = string !
 #: src/grep.c:1988
 #, c-format
 msgid ""
@@ -524,11 +514,10 @@ msgid ""
 "  -G, --basic-regexp        PATTERNS are basic regular expressions\n"
 "  -P, --perl-regexp         PATTERNS are Perl regular expressions\n"
 msgstr ""
-"  -E, --extended-regexp     UZORAK je prošireni regularni izraz (ERE)\n"
-"  -F, --fixed-strings       UZORAK je skup stringova odvojenih\n"
-"                              znakom novog retka (\\n)\n"
-"  -G, --basic-regexp        UZORAK je osnovni regularni izraz (BRE)\n"
-"  -P, --perl-regexp         UZORAK je Perl regularni izraz\n"
+"  -E, --extended-regexp     UZORCI su prošireni regularni izrazi\n"
+"  -F, --fixed-strings       UZORCI su stringovi\n"
+"  -G, --basic-regexp        UZORCI su osnovni regularni izrazi\n"
+"  -P, --perl-regexp         UZORCI su Perl regularni izrazi\n"
 
 #: src/grep.c:1994
 #, c-format
@@ -541,13 +530,13 @@ msgid ""
 "  -x, --line-regexp         match only whole lines\n"
 "  -z, --null-data           a data line ends in 0 byte, not newline\n"
 msgstr ""
-"  -e, --regexp=UZORCI       koristi UZORKE kao regularni izraz\n"
-"  -f, --file=DATOTEKA       preuzmi UZORKE iz DATOTEKE\n"
-"  -i, --ignore-case         zanemari veličinu slova u uzorcima i podacima\n"
-"      --no-ignore-case      ne zanemaruje veličinu slova (zadano)\n"
-"  -w, --word-regexp         UZORAK podudara samo cijele riječi\n"
-"  -x, --line-regexp         UZORAK podudara samo cijele redove\n"
-"  -z, --null-data           redak završava s 0-bajtom, a ne sa znakom novog retka\n"
+"  -e, --regexp=UZORCI       koristi UZORKE za podudaranje\n"
+"  -f, --file=DATOTEKA       uzima UZORKE iz DATOTEKE\n"
+"  -i, --ignore-case         zanemaruje razlike u veličini slova u uzorcima i podacima\n"
+"      --no-ignore-case      ne zanemaruje razlike u veličini slova (zadano)\n"
+"  -w, --word-regexp         podudara samo cijele riječi\n"
+"  -x, --line-regexp         podudara samo cijele retke\n"
+"  -z, --null-data           redak podataka završava nultim bajtom, a ne znakom novog retka\n"
 
 #: src/grep.c:2002
 #, c-format
@@ -561,10 +550,10 @@ msgid ""
 msgstr ""
 "\n"
 "Razno:\n"
-"  -s, --no-messages         izostavi poruke o greškama\n"
-"  -v, --invert-match        odabere redove koji se ne podudaraju\n"
-"  -V, --version             informacije o inačici ovog programa\n"
-"      --help                ova pomoć\n"
+"  -s, --no-messages         potiskuje poruke o greškama\n"
+"  -v, --invert-match        odabire retke koji se ne podudaraju\n"
+"  -V, --version             prikazuje podatke o inačici i izlazi\n"
+"      --help                prikazuje ovaj tekst pomoći i izlazi\n"
 
 #: src/grep.c:2009
 #, c-format
@@ -580,14 +569,14 @@ msgid ""
 "      --label=LABEL         use LABEL as the standard input file name prefix\n"
 msgstr ""
 "\n"
-"Opcije za izlaz:\n"
-"  -m, --max-count=BROJ      prestane nakon BROJ nađenih redaka\n"
-"  -b, --byte-offset         uz retke ispiše i poziciju u bajtovima\n"
-"  -n, --line-number         uz retke ispiše broj retka\n"
-"      --line-buffered       izravno ispiše svaki izlazni redak\n"
-"  -H, --with-filename       uz retke ispiše ime datoteke za svako podudaranje\n"
-"  -h, --no-filename         bez ispisa imena datoteke za svako podudaranje\n"
-"      --label=OZNAKA        rabi OZNAKU kao ime datoteke na standardnom ulazu\n"
+"Upravljanje izlazom:\n"
+"  -m, --max-count=BROJ      zaustavlja se nakon BROJ odabranih redaka\n"
+"  -b, --byte-offset         ispisuje pomak u bajtovima uz izlazne retke\n"
+"  -n, --line-number         ispisuje broj retka uz izlazne retke\n"
+"      --line-buffered       prazni izlaz nakon svakog retka\n"
+"  -H, --with-filename       ispisuje ime datoteke uz izlazne retke\n"
+"  -h, --no-filename         potiskuje prefiks s imenom datoteke u izlazu\n"
+"      --label=OZNAKA        koristi OZNAKU kao prefiks imena datoteke za standardni ulaz\n"
 
 #: src/grep.c:2020
 #, c-format
@@ -598,11 +587,11 @@ msgid ""
 "                            TYPE is 'binary', 'text', or 'without-match'\n"
 "  -a, --text                equivalent to --binary-files=text\n"
 msgstr ""
-"  -o, --only-matching       prikaže samo dio retka koji se podudara\n"
-"  -q, --quiet, --silent     izostavi svaki normalni izlaz (ništa ne ispiše)\n"
-"      --binary-files=VRSTA  pretpostavi binarne datoteke tipa VRSTA;\n"
-"                              VRSTA je ‘binary’, ‘text’ ili ‘without-match’\n"
-"  -a, --text                isto kao --binary-files=text\n"
+"  -o, --only-matching       prikazuje samo neprazne dijelove redaka koji se podudaraju\n"
+"  -q, --quiet, --silent     potiskuje sav uobičajeni izlaz\n"
+"      --binary-files=VRSTA  pretpostavlja da su binarne datoteke vrste VRSTA;\n"
+"                            VRSTA je 'binary', 'text' ili 'without-match'\n"
+"  -a, --text                isto je kao '--binary-files=text'\n"
 
 #: src/grep.c:2027
 #, c-format
@@ -615,16 +604,14 @@ msgid ""
 "  -r, --recursive           like --directories=recurse\n"
 "  -R, --dereference-recursive  likewise, but follow all symlinks\n"
 msgstr ""
-"  -I                        isto kao --binary-files=without-match\n"
-"  -d, --directories=AKCIJA  kako rukovati direktorijima;\n"
-"                              AKCIJA je ‘read’, ‘recurse’ ili ‘skip’\n"
-"  -D, --devices=AKCIJA      kako rukovati uređajima, FIFO uređajima\n"
-"                              i utičnicama;  AKCIJA je ‘read’ ili ‘skip’\n"
-"  -r, --recursive           isto kao --directories=recurse\n"
-"  -R, --dereference-recursive  jednako, ali slijedi svaku simboličnu poveznicu\n"
+"  -I                        isto je kao '--binary-files=without-match'\n"
+"  -d, --directories=AKCIJA  kako obrađuje direktorije;\n"
+"                            AKCIJA je 'read', 'recurse' ili 'skip'\n"
+"  -D, --devices=AKCIJA      kako obrađuje uređaje, FIFO-ove i utičnice;\n"
+"                            AKCIJA je 'read' ili 'skip'\n"
+"  -r, --recursive           isto je kao '--directories=recurse'\n"
+"  -R, --dereference-recursive  jednako, ali slijedi sve simboličke poveznice\n"
 
-# http://hjp.znanje.hr/index.php?show=kosi_oblici&id=eVxhWxI%3D
-# podudaran > koji je sukladan s čim, koji se poklapa s kim/čim
 #: src/grep.c:2036
 #, c-format
 msgid ""
@@ -633,13 +620,12 @@ msgid ""
 "      --exclude-from=FILE   skip files that match any file pattern from FILE\n"
 "      --exclude-dir=GLOB    skip directories that match GLOB\n"
 msgstr ""
-"      --include=GLOB        pretraži samo datoteke koje se podudaraju\n"
-"                              s GLOB-om (datoteka s uzorcima)\n"
-"      --exclude=GLOB        preskoči sve datoteke i direktorije koji se\n"
-"                              podudaraju s GLOB-om (datoteka s uzorcima)\n"
-"      --exclude-from=DATOTEKA  preskoči sve datoteke koje se podudaraju s\n"
-"                                 bilo kojim uzorkom u DATOTEKA\n"
-"      --exclude-dir=GLOB    preskoči direktorije koji podudaraju GLOB\n"
+"      --include=GLOB        pretražuje samo datoteke koje se podudaraju s\n"
+"                            GLOB-om (uzorkom datoteke)\n"
+"      --exclude=GLOB        preskače datoteke koje se podudaraju s GLOB-om\n"
+"      --exclude-from=DATOTEKA  preskače datoteke koje se podudaraju s bilo\n"
+"                               kojim uzorkom datoteke iz DATOTEKE\n"
+"      --exclude-dir=GLOB    preskače direktorije koji se podudaraju s GLOB-om\n"
 
 #: src/grep.c:2043
 #, c-format
@@ -650,11 +636,11 @@ msgid ""
 "  -T, --initial-tab         make tabs line up (if needed)\n"
 "  -Z, --null                print 0 byte after FILE name\n"
 msgstr ""
-"  -L, --files-without-match  ispiše samo imena DATOTEKA bez podudaranja\n"
-"  -l, --files-with-matches  ispiše samo imena DATOTEKA s podudaranjima\n"
-"  -c, --count               ispiše samo broj podudarnih redaka po DATOTECI\n"
-"  -T, --initial-tab         poravna tabove (ako je potrebno)\n"
-"  -Z, --null                ispiše 0-bajt nakon imena DATOTEKE\n"
+"  -L, --files-without-match  ispisuje samo imena DATOTEKA bez odabranih redaka\n"
+"  -l, --files-with-matches  ispisuje samo imena DATOTEKA s odabranim recima\n"
+"  -c, --count               ispisuje samo broj odabranih redaka po DATOTECI\n"
+"  -T, --initial-tab         poravnava tabove (ako je potrebno)\n"
+"  -Z, --null                ispisuje nulti bajt nakon imena DATOTEKE\n"
 
 #: src/grep.c:2049
 #, c-format
@@ -666,10 +652,10 @@ msgid ""
 "  -C, --context=NUM         print NUM lines of output context\n"
 msgstr ""
 "\n"
-"Upravljanje s kontekstom:\n"
-"  -B, --before-context=BROJ  ispiše BROJ redaka konteksta koji prethode\n"
-"  -A, --after-context=BROJ  ispiše BROJ redaka konteksta koji slijede\n"
-"  -C, --context=BROJ        ispiše BROJ redaka konteksta koji prethode/slijede\n"
+"Upravljanje kontekstom:\n"
+"  -B, --before-context=BROJ  ispisuje BROJ prethodnih redaka konteksta\n"
+"  -A, --after-context=BROJ  ispisuje BROJ sljedećih redaka konteksta\n"
+"  -C, --context=BROJ        ispisuje BROJ redaka izlaznog konteksta\n"
 
 #: src/grep.c:2056
 #, c-format
@@ -683,14 +669,14 @@ msgid ""
 "  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)\n"
 "\n"
 msgstr ""
-"  -BROJ                     isto kao --context=BROJ\n"
-"      --group-separator=SEP  ispiše SEP(arator) u retku između\n"
-"                               podudaranja s kontekstom\n"
-"      --no-group-separator  ne ispiše separator za podudaranja s kontektsom\n"
+"  -BROJ                     isto je kao '--context=BROJ'\n"
+"      --group-separator=SEP  ispisuje SEP u retku između podudaranja s\n"
+"      --no-group-separator  ne ispisuje razdjelnik između podudaranja s\n"
 "      --color[=KAD],\n"
-"      --colour[=KAD]       bojama istakne nađene stringove i markere;\n"
-"                            KAD može biti ‘always’ ili ‘never’ ili ‘auto’\n"
-"  -U, --binary              ne uklanja CqR znakove na EOL (MSDOS/Windows)\n"
+"      --colour[=KAD]       koristi oznake za isticanje stringova koji se\n"
+"                            podudaraju; KAD je 'always', 'never' ili 'auto'\n"
+"  -U, --binary              ne uklanja znakove CR na kraju retka\n"
+"                            (MSDOS/Windows)\n"
 "\n"
 
 #: src/grep.c:2065
@@ -701,38 +687,36 @@ msgid ""
 "fewer than two FILEs, assume -h.  Exit status is 0 if any line is selected,\n"
 "1 otherwise; if any error occurs and -q is not given, the exit status is 2.\n"
 msgstr ""
-"Ako je DATOTEKA ‘-’ (spojnica), čita standardni ulaz. Bez DATOTEKE također\n"
-"čita standardni ulaz, ali s ‘-r’ rekurzivno pretraži radni direktorij.\n"
-"S manje od dvije navedene DATOTEKE implicirana je opcija ‘-h’.\n"
-"\n"
-"Završi sa statusom 0, ako je odabran barem jedan redak, inače završi s 1;\n"
-"ako ima grešaka, a nije navedena opcija ‘-q’, završi sa statusom 2.\n"
+"Ako je DATOTEKA '-', čita standardni ulaz. Ako DATOTEKA nije zadana,\n"
+"također čita standardni ulaz, ali s '-r' umjesto toga rekurzivno\n"
+"pretražuje radni direktorij. S manje od dvije DATOTEKE pretpostavlja\n"
+"opciju -h. Izlazno stanje je 0 ako je odabran barem jedan redak,\n"
+"inače 1; ako dođe do greške, a '-q' nije zadana, izlazno stanje je 2.\n"
 
-# matchers su tragači (java, perl, itd.)
 #: src/grep.c:2108
 msgid "conflicting matchers specified"
-msgstr "navedeni uzorci su međusobno konfliktni"
+msgstr "zadani su međusobno isključivi načini podudaranja"
 
 #: src/grep.c:2115
 msgid "Perl matching not supported in a --disable-perl-regexp build"
-msgstr "Kompiliranje s --disable-perl-regexp ne podržava podudaranje na Perl način"
+msgstr "podudaranje u Perlu nije podržano u inačici izgrađenoj s --disable-perl-regexp"
 
 #: src/grep.c:2117
 #, c-format
 msgid "invalid matcher %s"
-msgstr "nevaljani izraz tipa  %s"
+msgstr "neispravan način podudaranja %s"
 
 #: src/grep.c:2539
 msgid "unknown devices method"
-msgstr "akcija nepoznatih uređaja"
+msgstr "nepoznat način obrade uređaja"
 
 #: src/grep.c:2688
 msgid "invalid max count"
-msgstr "nevaljani maksimalni broj"
+msgstr "neispravan najveći broj"
 
 #: src/grep.c:2745
 msgid "unknown binary-files type"
-msgstr "nepoznata vrsta binarnih datoteka"
+msgstr "nepoznata vrsta za --binary-files"
 
 #: src/grep.c:2830
 msgid ""
@@ -745,7 +729,7 @@ msgstr ""
 #: src/grep.c:2937
 #, c-format
 msgid "warning: GREP_COLOR='%s' is deprecated; use GREP_COLORS='mt=%s'"
-msgstr "upozorenje: GREP_COLOR=‘%s’ je zastarjelo; koristite GREP_COLORS=‘mt=%s’"
+msgstr "upozorenje: GREP_COLOR='%s' je zastario; koristi GREP_COLORS='mt=%s'"
 
 #: src/pcresearch.c:89
 #, c-format
@@ -754,25 +738,23 @@ msgid ""
 "grep -P uses PCRE2 %s\n"
 msgstr ""
 "\n"
-"grep -P koristi PCRE2 %s\n"
+"'grep -P' koristi PCRE2 %s\n"
 
-# bp: novi msgid
 #: src/pcresearch.c:167
 msgid "-P supports only unibyte locales on this platform"
-msgstr "-P podržava samo jednobajtna jezična područja na ovoj platformi"
+msgstr "'-P' podržava samo jednobajtna područna podešenja na ovoj platformi"
 
-# bp: novi msgid
 #: src/pcresearch.c:169
 msgid "-P supports only unibyte and UTF-8 locales"
-msgstr "-P podržava samo jednobajtna i UTF-8 jezična pordručja"
+msgstr "'-P' podržava samo jednobajtna i UTF-8 područna podešenja"
 
 #: src/pcresearch.c:192
 msgid "the -P option only supports a single pattern"
-msgstr "opcija -P podržava samo jedan uzorak"
+msgstr "opcija '-P' podržava samo jedan uzorak"
 
 #: src/pcresearch.c:288
 msgid "exceeded PCRE's line length limit"
-msgstr "premašeno je ograničenje duljine retka PCRE-a"
+msgstr "prekoračeno je ograničenje duljine retka u PCRE-u"
 
 #: src/pcresearch.c:366
 #, c-format
@@ -782,32 +764,32 @@ msgstr "%s: nema dovoljno memorije"
 #: src/pcresearch.c:369
 #, c-format
 msgid "%s: exhausted PCRE JIT stack"
-msgstr "%s: PCRE JIT stȏg je iscrpljen"
+msgstr "%s: PCRE JIT stog je iscrpljen"
 
 #: src/pcresearch.c:373
 #, c-format
 msgid "%s: exceeded PCRE's backtracking limit"
-msgstr "%s: je premašio PCRE granicu broja pokušaja"
+msgstr "%s: prekoračeno je PCRE ograničenje povratnog praćenja"
 
 #: src/pcresearch.c:378
 #, c-format
 msgid "%s: exceeded PCRE's nested backtracking limit"
-msgstr "%s: je premašio PCRE granicu broja ugniježdenih pokušaja"
+msgstr "%s: prekoračeno je PCRE ograničenje ugniježđenog povratnog praćenja"
 
 #: src/pcresearch.c:382
 #, c-format
 msgid "%s: PCRE detected recurse loop"
-msgstr "%s: PCRE je otkrio/naišao na rekurzivnu petlju"
+msgstr "%s: PCRE je otkrio rekurzivnu petlju"
 
 #: src/pcresearch.c:387
 #, c-format
 msgid "%s: exceeded PCRE's heap limit"
-msgstr "%s: je premašio PCRE granicu za hrpe (heap)"
+msgstr "%s: prekoračeno je PCRE ograničenje hrpe"
 
 #: src/pcresearch.c:396
 #, c-format
 msgid "%s: internal PCRE error: %d"
-msgstr "%s: interna PCRE greška: %d"
+msgstr "%s: **interna PCRE greška**: %d"
 
 #, c-format
 #~ msgid "warning: --unix-byte-offsets (-u) is obsolete"
