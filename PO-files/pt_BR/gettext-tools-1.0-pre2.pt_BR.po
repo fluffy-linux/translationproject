@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gettext-tools 1.0-pre2\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2026-01-13 11:57+0100\n"
-"PO-Revision-Date: 2026-01-14 15:03-0300\n"
+"PO-Revision-Date: 2026-04-22 23:19-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Gtranslator 49.0\n"
+"X-Generator: Gtranslator 50.0\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 
 #: src/cldr-plurals.c:57
@@ -1116,7 +1116,7 @@ msgstr ""
 #: src/msggrep.c:540 src/msgpre.c:475 src/msgunfmt.c:452 src/msguniq.c:347
 #, c-format
 msgid "If no input file is given or if it is -, standard input is read.\n"
-msgstr "Se nenhum arquivo de entrada for passado ou se for -, a entrada padrão é lida.\n"
+msgstr "Se nenhum arquivo de entrada for fornecido ou se for -, a entrada padrão é lida.\n"
 
 #: src/msgattrib.c:436 src/msgcat.c:391 src/msgcomm.c:387 src/msgconv.c:323
 #: src/msgen.c:332 src/msgfilter.c:434 src/msgfmt.c:978 src/msggrep.c:543
@@ -1268,8 +1268,8 @@ msgstr "Sintaxe do arquivo de entrada:\n"
 #, c-format
 msgid "  -P, --properties-input      input file is in Java .properties syntax\n"
 msgstr ""
-"  -P, --properties-input      arquivo de entrada está em sintaxe de\n"
-"                              .properties Java\n"
+"  -P, --properties-input      arquivo de entrada está na sintaxe de\n"
+"                              .properties do Java\n"
 
 #: src/msgattrib.c:489 src/msgconv.c:342 src/msgen.c:344 src/msgexec.c:299
 #: src/msgfilter.c:467 src/msggrep.c:599 src/msginit.c:415 src/msgpre.c:511
@@ -1277,8 +1277,8 @@ msgstr ""
 #, c-format
 msgid "      --stringtable-input     input file is in NeXTstep/GNUstep .strings syntax\n"
 msgstr ""
-"      --stringtable-input     arquivo de entrada está em sintaxe de\n"
-"                              .strings de NeXTstep/GNUstep\n"
+"      --stringtable-input     arquivo de entrada está na sintaxe de\n"
+"                              .strings do NeXTstep/GNUstep\n"
 
 #: src/msgattrib.c:492 src/msgcat.c:419 src/msgcomm.c:415 src/msgconv.c:345
 #: src/msgen.c:347 src/msgfilter.c:470 src/msgfmt.c:1089 src/msggrep.c:602
@@ -1286,7 +1286,7 @@ msgstr ""
 #: src/msguniq.c:372 src/xgettext.c:1303
 #, c-format
 msgid "Output details:\n"
-msgstr "Detalhes de entrada:\n"
+msgstr "Detalhes da saída:\n"
 
 #: src/msgattrib.c:494 src/msgcat.c:428 src/msgcomm.c:417 src/msgconv.c:347
 #: src/msgen.c:351 src/msgfilter.c:472 src/msggrep.c:604 src/msginit.c:424
@@ -1685,7 +1685,7 @@ msgstr "Alvo de conversão:\n"
 #: src/msgconv.c:335
 #, c-format
 msgid "The default encoding is the current locale's encoding.\n"
-msgstr "A codificação padrão é a codificação da localização atual.\n"
+msgstr "A codificação padrão é a codificação da localidade atual.\n"
 
 #: src/msgconv.c:359 src/msgen.c:363 src/msgmerge.c:580
 #, c-format
@@ -1930,7 +1930,7 @@ msgstr "%s requer especificação de um \"-d diretório\""
 #: src/msgunfmt.c:322 src/msgunfmt.c:345
 #, c-format
 msgid "%s requires a \"-l locale\" specification"
-msgstr "%s requer especificação de um \"-l localização\""
+msgstr "%s requer especificação de um \"-l localidade\""
 
 #: src/msgfmt.c:586 src/msgfmt.c:614
 #, c-format
@@ -2018,7 +2018,7 @@ msgstr "  -j, --java                  modo Java: gera uma classe ResourceBundle 
 #: src/msgfmt.c:963
 #, c-format
 msgid "      --java2                 like --java, and assume Java2 (JDK 1.2 or higher)\n"
-msgstr "      --java2                 semelhante a --java, e supõe Java2 (JDK 1.2 +)\n"
+msgstr "      --java2                 semelhante a --java, e presume Java2 (JDK 1.2 +)\n"
 
 #: src/msgfmt.c:965
 #, c-format
@@ -2060,12 +2060,12 @@ msgstr "      --strict                habilita modo Uniforum estrito\n"
 #: src/msgfmt.c:984 src/xgettext.c:1197
 #, c-format
 msgid "If output file is -, output is written to standard output.\n"
-msgstr "Se o arquivo de saída for -, a saída é escrita na saída padrão.\n"
+msgstr "Se o arquivo de saída for -, a saída é escrita para a saída padrão.\n"
 
 #: src/msgfmt.c:987
 #, c-format
 msgid "Output file location in Java mode:\n"
-msgstr "Local do arquivo de saída em modo Java:\n"
+msgstr "Local do arquivo de saída no modo Java:\n"
 
 #: src/msgfmt.c:989 src/msgfmt.c:1005 src/msgunfmt.c:457 src/msgunfmt.c:468
 #, c-format
@@ -2077,8 +2077,8 @@ msgstr "  -r, --resource=RECURSO      nome do recurso\n"
 #, c-format
 msgid "  -l, --locale=LOCALE         locale name, either language or language_COUNTRY\n"
 msgstr ""
-"  -l, --locale=LOCALIZAÇÃO    nome da localização, podendo ser o idioma ou\n"
-"                              também idioma_PAÍS\n"
+"  -l, --locale=LOCALIDADE     nome da localidade, que pode ser idioma ou\n"
+"                              idioma_PAÍS\n"
 
 #: src/msgfmt.c:993
 #, c-format
@@ -2101,21 +2101,21 @@ msgid ""
 "separated with an underscore.  The -d option is mandatory.  The class is\n"
 "written under the specified directory.\n"
 msgstr ""
-"O nome da classe é determinada pelo anexo do nome da localização ao\n"
+"O nome da classe é determinado anexando o nome da localidade ao\n"
 "nome do recurso, separados por um sublinhado. A opção -d é obrigatória.\n"
-"A classe é escrita sob o diretório especificado.\n"
+"A classe é escrita no diretório especificado.\n"
 
 #: src/msgfmt.c:1003
 #, c-format
 msgid "Output file location in C# mode:\n"
-msgstr "Local do arquivo de saída em modo C#:\n"
+msgstr "Local do arquivo de saída no modo C#:\n"
 
 #: src/msgfmt.c:1009 src/msgunfmt.c:472
 #, c-format
 msgid "  -d DIRECTORY                base directory for locale dependent .dll files\n"
 msgstr ""
 "  -d DIRETÓRIO                diretório base para arquivos .dll dependentes\n"
-"                              da localização\n"
+"                              da localidade\n"
 
 #: src/msgfmt.c:1011
 #, c-format
@@ -2124,12 +2124,12 @@ msgid ""
 "subdirectory of the specified directory whose name depends on the locale.\n"
 msgstr ""
 "As opções -l e -d são obrigatórias. O arquivo .dll é escrito em um\n"
-"subdiretório do diretório especificado, cujo nome depende da localização.\n"
+"subdiretório do diretório especificado, cujo nome depende da localidade.\n"
 
 #: src/msgfmt.c:1015
 #, c-format
 msgid "Output file location in Tcl mode:\n"
-msgstr "Local do arquivo de saída em modo Tcl:\n"
+msgstr "Local do arquivo de saída no modo Tcl:\n"
 
 #: src/msgfmt.c:1019 src/msgunfmt.c:482
 #, c-format
@@ -2148,7 +2148,7 @@ msgstr ""
 #: src/msgfmt.c:1025
 #, c-format
 msgid "Desktop Entry mode options:\n"
-msgstr "Opções de modo Desktop Entry:\n"
+msgstr "Opções do modo Desktop Entry:\n"
 
 #: src/msgfmt.c:1031
 #, c-format
@@ -2202,7 +2202,7 @@ msgid ""
 "  --replace-text              output XML with translated text replacing the\n"
 "                              original text, not augmenting the original text\n"
 msgstr ""
-"  --replace-text              saída XML com texto traduzido substituindo o\n"
+"  --replace-text              gera XML com texto traduzido substituindo o\n"
 "                              texto original, não aumentar o texto original\n"
 
 #: src/msgfmt.c:1069 src/xgettext.c:1216
@@ -2216,7 +2216,7 @@ msgid ""
 "  -c, --check                 perform all the checks implied by\n"
 "                                --check-format, --check-header, --check-domain\n"
 msgstr ""
-"  -c, --check                 realiza todas as verificações implicadas por\n"
+"  -c, --check                 executa todas as verificações implícitas por\n"
 "                                --check-format, --check-header, --check-domain\n"
 
 #: src/msgfmt.c:1074
@@ -2224,14 +2224,14 @@ msgstr ""
 msgid "      --check-format          check language dependent format strings\n"
 msgstr ""
 "      --check-format          verifica strings de formato dependente da\n"
-"                              localização\n"
+"                              localidade\n"
 
 #: src/msgfmt.c:1076
 #, c-format
 msgid "      --check-header          verify presence and contents of the header entry\n"
 msgstr ""
-"      --check-header          verifica presença e conteúdo da mensagem\n"
-"                              de cabeçalho\n"
+"      --check-header          verifica a presença e o conteúdo de entrada\n"
+"                              do cabeçalho\n"
 
 #: src/msgfmt.c:1078
 #, c-format
@@ -2239,8 +2239,8 @@ msgid ""
 "      --check-domain          check for conflicts between domain directives\n"
 "                                and the --output-file option\n"
 msgstr ""
-"      --check-domain          verifica conflitos entre diretivas de domínios\n"
-"                              e a opção --output-file\n"
+"      --check-domain          verifica se há conflitos entre as diretivas\n"
+"                              de domínios e a opção --output-file\n"
 
 #: src/msgfmt.c:1081
 #, c-format
@@ -2267,7 +2267,7 @@ msgstr "  -f, --use-fuzzy             usa entradas aproximadas na saída\n"
 #: src/msgfmt.c:1091
 #, c-format
 msgid "      --no-convert            don't convert the messages to UTF-8 encoding\n"
-msgstr "--no-convert            não converte mensagens para codificação UTF-8\n"
+msgstr "     --no-convert            não converte mensagens para codificação UTF-8\n"
 
 #: src/msgfmt.c:1093
 #, c-format
@@ -2291,7 +2291,7 @@ msgid ""
 "                                (big or little, default depends on platform)\n"
 msgstr ""
 "      --endianness=ORDEM-DE-BYTES\n"
-"                              escreve números 32-bit na ordem de bytes dada\n"
+"                              escreve números de 32 bit na ordem de bytes dada\n"
 "                              (\"big\" ou \"little\", dependendo da plataforma)\n"
 
 # "binary" de binário (compilado, .mo), e não de executável
@@ -2303,7 +2303,7 @@ msgstr "      --no-hash               arquivo binário não vai incluir a tabela
 #: src/msgfmt.c:1110
 #, c-format
 msgid "      --statistics            print statistics about translations\n"
-msgstr "      --statistics            imprime estatísticas sobre traduções\n"
+msgstr "      --statistics            mostra estatísticas sobre traduções\n"
 
 #: src/msgfmt.c:1112 src/msgmerge.c:608 src/msgunfmt.c:532 src/xgettext.c:1377
 #, c-format
@@ -2522,7 +2522,7 @@ msgid ""
 "Creates a new PO file, initializing the meta information with values from the\n"
 "user's environment.\n"
 msgstr ""
-"Cria um novo arquivo PO, inicializando as informações meta com valores do\n"
+"Cria um novo arquivo PO, inicializando as metainformações com valores do\n"
 "ambiente do usuário.\n"
 
 #: src/msginit.c:393
@@ -2557,7 +2557,7 @@ msgid ""
 "If it is -, the results are written to standard output.\n"
 msgstr ""
 "Se nenhum arquivo de saída for fornecido, ele vai depender da opção --locale\n"
-"ou da configuração de localização do usuário.\n"
+"ou da configuração de localidade do usuário.\n"
 "Se o arquivo de saída já existir, ele será mesclado com o arquivo de entrada,\n"
 "como se fosse por meio de \"%s\".\n"
 "Se ele for -, os resultados são escritos para a saída padrão.\n"
@@ -2565,12 +2565,12 @@ msgstr ""
 #: src/msginit.c:420
 #, c-format
 msgid "  -l, --locale=LL_CC[.ENCODING]  set target locale\n"
-msgstr "  -l, --locale=LL_CC[.CODIFIC]   define a localização alvo\n"
+msgstr "  -l, --locale=LL_CC[.CODIFIC]   define a localidade alvo\n"
 
 #: src/msginit.c:422
 #, c-format
 msgid "      --no-translator         assume the PO file is automatically generated\n"
-msgstr "      --no-translator         pressupõe que o arquivo PO é gerado automaticamente\n"
+msgstr "      --no-translator         presume o arquivo PO como gerado automaticamente\n"
 
 #: src/msginit.c:488
 msgid ""
@@ -2736,7 +2736,7 @@ msgstr ""
 #: src/msgl-charset.c:148
 #, c-format
 msgid "- Set LC_ALL to a locale with encoding %s.\n"
-msgstr "- Definir LC_ALL com uma localização com codificação %s.\n"
+msgstr "- Definir LC_ALL com uma localidade com codificação %s.\n"
 
 #: src/msgl-charset.c:153
 #, c-format
@@ -2757,7 +2757,7 @@ msgid ""
 "  then apply '%s',\n"
 "  then convert back to %s using 'msgconv'.\n"
 msgstr ""
-"- Definir LC_ALL com uma localização com codificação %s.\n"
+"- Definir LC_ALL com uma localidade com codificação %s.\n"
 "  converter o catálogo de tradução para %s usando \"msgconv\",\n"
 "  aplicar \"%s\" e,\n"
 "  então, converter de volta para %s usando \"msgconv\".\n"
@@ -2769,7 +2769,7 @@ msgid ""
 "Output of '%s' might be incorrect.\n"
 "A possible workaround is to set LC_ALL=C.\n"
 msgstr ""
-"O conjunto de caracteres da localização \"%s\" não é um\n"
+"O conjunto de caracteres da localidade \"%s\" não é um\n"
 "nome de codificação portável.\n"
 "Saída de \"%s\" pode estar incorreta.\n"
 "Uma solução possível é definir LC_ALL=C.\n"
@@ -3110,7 +3110,7 @@ msgid ""
 "They might be of the wrong form, be of poor quality, or reflect some biases.\n"
 msgstr ""
 "Aviso: as pré-traduções podem acabar não sendo o que você espera.\n"
-"Elas podem estar na forma errada, ser de baixa qualidade,\n"
+"Elas podem estar na forma errada, ser de baixa qualidade\n"
 "ou refletir alguns preconceitos\n"
 
 #: src/msgpre.c:488
@@ -3144,7 +3144,7 @@ msgstr "      --url=URL               Especifica a URL do servidor que fornece a
 #: src/msgpre.c:500 src/spit.c:421
 #, c-format
 msgid "  -m, --model=MODEL           Specifies the model to use.\n"
-msgstr "  -m, --model=MODELO          Especifica o modelo a usar.\n"
+msgstr "  -m, --model=MODELO          Especifica o modelo para usar.\n"
 
 #: src/msgpre.c:502
 #, c-format
@@ -3211,7 +3211,7 @@ msgid ""
 "The class name is determined by appending the locale name to the resource name,\n"
 "separated with an underscore.  The class is located using the CLASSPATH.\n"
 msgstr ""
-"O nome da classe é determinada pelo anexo do nome da localização ao\n"
+"O nome da classe é determinada pelo anexo do nome da localidade ao\n"
 "nome do recurso, separados por um sublinhado. A classe é localizada\n"
 "usando a CLASSPATH.\n"
 
@@ -3227,7 +3227,7 @@ msgid ""
 "subdirectory of the specified directory whose name depends on the locale.\n"
 msgstr ""
 "As opções -l e -d são obrigatórias. O arquivo .dll está localizado em um\n"
-"subdiretório do diretório especificado, cujo nome depende da localização.\n"
+"subdiretório do diretório especificado, cujo nome depende da localidade.\n"
 
 #: src/msgunfmt.c:478
 #, c-format
@@ -4483,7 +4483,7 @@ msgid ""
 "                              therefore should not have an influence on the\n"
 "                              'POT-Creation-Date' field in the output.\n"
 msgstr ""
-"      --reference=ARQUIVO     Declara que o ARQUIVO fornecido é gerado e,\n"
+"      --genereted=ARQUIVO     Declara que o ARQUIVO fornecido é gerado e,\n"
 "                              portanto, não deve ter influência sobre\n"
 "                              o campo \"POT-Creation-Date\" na saída.\n"
 
@@ -5052,7 +5052,7 @@ msgstr "documento terminou inesperadamente: %s"
 #~ "the output .po file through the --output-file option.\n"
 #~ msgstr ""
 #~ "Arquivo de saída %s já existe.\n"
-#~ "Por favor, especifique a localização por meio da opção --locale\n"
+#~ "Por favor, especifique a localidade por meio da opção --locale\n"
 #~ "ou do arquivo de saída .po através da opção --output-file.\n"
 
 #, c-format
