@@ -1,7 +1,7 @@
 # Polish translations for the GNU diffutils messages
-# Copyright (C) 1996, 2002, 2004, 2009, 2010, 2011, 2012, 2017, 2021, 2025 Free Software Foundation, Inc.
+# Copyright (C) 1996, 2002, 2004, 2009, 2010, 2011, 2012, 2017, 2021, 2025, 2026 Free Software Foundation, Inc.
 # This file is distributed under the same license as the diffutils package.
-# Rafał Maszkowski <rzm@icm.edu.pl> 1996, 2002, 2004, 2009-2012, 2017, 2021, 2025
+# Rafał Maszkowski <rzm@icm.edu.pl> 1996, 2002, 2004, 2009-2012, 2017, 2021, 2025, 2026
 # Contributions:
 # Paweł Krawczyk <kravietz@pipeta.chemia.pk.edu.pl>, 1996.
 # 23 corrections - Jakub Bogusz <qboosh@pld-linux.org>, 2004.
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: GNU diffutils 3.10.242\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2025-01-03 09:48-0800\n"
-"PO-Revision-Date: 2025-01-04 10:40+0100\n"
+"PO-Revision-Date: 2026-05-07 18:30+0100\n"
 "Last-Translator: Rafał Maszkowski <rzm@icm.edu.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -815,7 +815,7 @@ msgstr ""
 #: src/diff.c:993
 msgid "    --ignore-file-name-case     ignore case when comparing file names"
 msgstr ""
-"    --ignore-space-change       zignorowanie wielkości liter przy\n"
+"    --ignore-file-name-case     zignorowanie wielkości liter przy\n"
 "                                  porównywaniu nazw plików"
 
 #: src/diff.c:994
