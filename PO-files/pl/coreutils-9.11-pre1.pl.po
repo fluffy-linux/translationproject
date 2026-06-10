@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: coreutils 9.11-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2026-04-16 20:40+0100\n"
-"PO-Revision-Date: 2026-04-17 14:15+0100\n"
+"PO-Revision-Date: 2026-06-10 13:10+0100\n"
 "Last-Translator: Rafał Maszkowski <rzm@icm.edu.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -2653,7 +2653,7 @@ msgstr "nie udało się przeniesienie między urządzeniami: %s do %s; nie udał
 #: src/copy.c:2284
 #, c-format
 msgid "copied %s -> %s"
-msgstr "skopiowany %s -> %s"
+msgstr "kopiowany %s -> %s"
 
 #: src/copy.c:2319
 #, c-format
