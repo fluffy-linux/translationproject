@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: GNU coreutils 9.11-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2026-04-16 20:40+0100\n"
-"PO-Revision-Date: 2026-05-11 16:00-0400\n"
+"PO-Revision-Date: 2026-06-12 16:00-0400\n"
 "Last-Translator: Zachary Winnerman <zacharyw09264@gmail.com>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "Language: ja\n"
@@ -462,7 +462,7 @@ msgstr "終了"
 
 #: lib/siglist.h:40
 msgid "Illegal instruction"
-msgstr "Illegal instruction"
+msgstr "不正な命令"
 
 #: lib/siglist.h:43
 msgid "Trace/breakpoint trap"
@@ -486,7 +486,7 @@ msgstr "バスエラー"
 
 #: lib/siglist.h:58
 msgid "Segmentation fault"
-msgstr "Segmentation fault"
+msgstr "セグメンテーション違反"
 
 #: lib/siglist.h:61
 msgid "Broken pipe"
@@ -7283,7 +7283,9 @@ msgstr "  -N, --literal              項目名をクォートせずに表示す�
 msgid ""
 "  -o\n"
 "         like -l, but do not list group information\n"
-msgstr "  -o                         -l と同様だがグループ情報を表示しない\n"
+msgstr ""
+"  -o\n"
+"         -l と同様だがグループ情報を表示しない\n"
 
 #: src/ls.c:5501
 msgid ""
@@ -7431,17 +7433,12 @@ msgstr ""
 "         ディレクトリの要素をソートをしない\n"
 
 #: src/ls.c:5579
-#, fuzzy
-#| msgid ""
-#| "  -V, --version-sort\n"
-#| "         natural sort of (version) numbers within text\n"
-#| "\n"
 msgid ""
 "  -v\n"
 "         natural sort of (version) numbers within text\n"
 msgstr ""
-"  -V, --version-sort          自然な (バージョン) 数字順でソートする\n"
-"\n"
+"  -V, --version-sort\n"
+"         自然な (バージョン) 数字順でソートする\n"
 
 #: src/ls.c:5583
 msgid ""
@@ -7551,19 +7548,15 @@ msgstr ""
 "                    (chmod のように) MODE に設定する\n"
 
 #: src/mkdir.c:68
-#, fuzzy
-#| msgid ""
-#| "  -p, --parents\n"
-#| "         no error if existing, make parent directories as needed,\n"
-#| "                    with their file modes unaffected by any -m option\n"
 msgid ""
 "  -p, --parents\n"
 "         no error if existing, make parent directories as needed,\n"
 "         with their file modes unaffected by any -m option\n"
 msgstr ""
-"  -p, --parents     ディレクトリが存在していてもエラーを返さない\n"
-"                    必要に応じて親ディレクトリを作成する\n"
-"                    親ディレクトリのファイルのパーミッションは -m オプションの影響を受けない\n"
+"  -p, --parents\n"
+"         ディレクトリが存在していてもエラーを返さない\n"
+"         必要に応じて親ディレクトリを作成する\n"
+"         親ディレクトリのファイルのパーミッションは -m オプションの影響を受けない\n"
 
 #: src/mkdir.c:73
 msgid ""
@@ -7572,18 +7565,14 @@ msgid ""
 msgstr "  -v, --verbose     ディレクトリを作成するごとにメッセージを表示する\n"
 
 #: src/mkdir.c:77
-#, fuzzy
-#| msgid ""
-#| "  -Z\n"
-#| "         set SELinux security context of each created directory\n"
-#| "                         to the default type\n"
 msgid ""
 "  -Z\n"
 "         set SELinux security context of each created directory\n"
 "         to the default type\n"
 msgstr ""
-"  -Z, --context=CTX 作成した各ディレクトリに SELinux セキュリティコンテキスト CTX \n"
-"                    を設定する\n"
+"  -Z\n"
+"         作成した各ディレクトリに SELinux セキュリティコンテキスト\n"
+"         CTX を設定する\n"
 
 #: src/mkdir.c:234
 #, c-format
@@ -7605,12 +7594,12 @@ msgid "Create named pipes (FIFOs) with the given NAMEs.\n"
 msgstr "指定した名前 NAME の名前付きパイプ (FIFO) を作成します。\n"
 
 #: src/mkfifo.c:59 src/mknod.c:61
-#, fuzzy
-#| msgid "  -m, --mode=MODE    set file permission bits to MODE, not a=rw - umask\n"
 msgid ""
 "  -m, --mode=MODE\n"
 "         set file permission bits to MODE, not a=rw - umask\n"
-msgstr "  -m, --mode=MODE   ファイルのパーミッションを a=rw - umask ではなく、(chmod のように) MODE に設定する\n"
+msgstr ""
+"  -m, --mode=MODE\n"
+"         ファイルのパーミッションを a=rw - umask ではなく、(chmod のように) MODE に設定する\n"
 
 #: src/mkfifo.c:63 src/mknod.c:65
 msgid ""
@@ -7754,28 +7743,17 @@ msgid ""
 msgstr "  -q, --quiet         ファイルまたはディレクトリ作成失敗のメッセージを抑止する\n"
 
 #: src/mktemp.c:87
-#, fuzzy
-#| msgid ""
-#| "      --suffix=SUFF\n"
-#| "         append SUFF to TEMPLATE; SUFF must not contain a slash.\n"
-#| "                        This option is implied if TEMPLATE does not end in X\n"
 msgid ""
 "      --suffix=SUFF\n"
 "         append SUFF to TEMPLATE; SUFF must not contain a slash.\n"
 "         This option is implied if TEMPLATE does not end in X\n"
 msgstr ""
-"      --suffix=SUFF   TEMPLATE に SUFF を追加する。 SUFF にスラッシュ (/) が含まれては\n"
-"                        いけない。 TEMPLATE の最後に X が含まれていない場合、\n"
-"                        このオプションが暗黙に有効になる\n"
+"      --suffix=SUFF\n"
+"         TEMPLATE に SUFF を追加する。 SUFF にスラッシュ (/) が含まれては\n"
+"         いけない。 TEMPLATE の最後に X が含まれていない場合、\n"
+"         このオプションが暗黙に有効になる\n"
 
 #: src/mktemp.c:92
-#, fuzzy
-#| msgid ""
-#| "  -p DIR, --tmpdir[=DIR]  interpret TEMPLATE relative to DIR; if DIR is not\n"
-#| "                        specified, use $TMPDIR if set, else /tmp.  With\n"
-#| "                        this option, TEMPLATE must not be an absolute name;\n"
-#| "                        unlike with -t, TEMPLATE may contain slashes, but\n"
-#| "                        mktemp creates only the final component\n"
 msgid ""
 "  -p DIR, --tmpdir[=DIR]\n"
 "         interpret TEMPLATE relative to DIR;\n"
@@ -7784,31 +7762,27 @@ msgid ""
 "         unlike with -t, TEMPLATE may contain slashes,\n"
 "         but mktemp creates only the final component\n"
 msgstr ""
-"  -p DIR, --tmpdir[=DIR]  TEMPLATE を DIR に対する相対パスとして扱う。DIR が指定\n"
-"                        されていない場合、 $TMPDIR が設定されていれば $TMPDIR が使用され、\n"
-"                        設定されていなければ /tmp が使用される。\n"
-"                        このオプションを使用する場合、 TEMPLATE は絶対パスであってはならない。\n"
-"                        -t と異なり、 TEMPLATE にはスラッシュ (/) を含めることができるが、\n"
-"                        mktemp は最後の要素のみ作成し、途中のディレクトリは作成しない。\n"
+"  -p DIR, --tmpdir[=DIR]\n"
+"         TEMPLATE を DIR に対する相対パスとして扱う。DIR が指定\n"
+"         されていない場合、 $TMPDIR が設定されていれば $TMPDIR が使用され、\n"
+"         設定されていなければ /tmp が使用される。\n"
+"         このオプションを使用する場合、 TEMPLATE は絶対パスであってはならない。\n"
+"         -t と異なり、 TEMPLATE にはスラッシュ (/) を含めることができるが、\n"
+"         mktemp は最後の要素のみ作成し、途中のディレクトリは作成しない。\n"
 
 #: src/mktemp.c:100
-#, fuzzy
-#| msgid ""
-#| "  -t\n"
-#| "         interpret TEMPLATE as a single file name component,\n"
-#| "                        relative to a directory: $TMPDIR, if set; else the\n"
-#| "                        directory specified via -p; else /tmp [deprecated]\n"
 msgid ""
 "  -t\n"
 "         interpret TEMPLATE as a single file name component,\n"
 "         relative to a directory: $TMPDIR, if set;\n"
 "         else the directory specified via -p; else /tmp [deprecated]\n"
 msgstr ""
-"  -t                  TEMPLATE を (ディレクトリ部分を含まない) ファイル名として解釈する。\n"
-"                      $TMPDIR が設定されている場合には $TMPDIR、そうでない場合は\n"
-"                      -p オプションで指されているディレクトリが使用され、\n"
-"                      どちらも指定されていない場合は /tmp (非推奨)、\n"
-"                      からの相対パスと解釈される。\n"
+"  -t\n"
+"         TEMPLATE を (ディレクトリ部分を含まない) ファイル名として解釈する。\n"
+"         $TMPDIR が設定されている場合には $TMPDIR、そうでない場合は\n"
+"         -p オプションで指されているディレクトリが使用され、\n"
+"         どちらも指定されていない場合は /tmp (非推奨)、\n"
+"         からの相対パスと解釈される。\n"
 
 #: src/mktemp.c:218
 #, c-format
@@ -7855,12 +7829,12 @@ msgid "Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.\n"
 msgstr "ファイル名の変更、もしくは複数のファイルをディレクトリへ移動します。\n"
 
 #: src/mv.c:277
-#, fuzzy
-#| msgid "      --exchange               exchange source and destination\n"
 msgid ""
 "      --exchange\n"
 "         exchange source and destination\n"
-msgstr "      --exchange               コピー先とコピー元のファイルを交換する\n"
+msgstr ""
+"      --exchange\n"
+"         コピー先とコピー元のファイルを交換する\n"
 
 #: src/mv.c:281
 msgid ""
@@ -7875,25 +7849,16 @@ msgid ""
 msgstr "  -i, --interactive            上書きの前に確認を行う\n"
 
 #: src/mv.c:289
-#, fuzzy
-#| msgid ""
-#| "  -c, --no-create\n"
-#| "         do not create any files\n"
 msgid ""
 "  -n, --no-clobber\n"
 "         do not overwrite an existing file\n"
-msgstr "  -c, --no-create        ファイルを作成しない\n"
+msgstr ""
+"  -n, --no-clobber\n"
+"         既存のファイルを上書きしない\n"
 
 #: src/mv.c:293
-#, fuzzy
-#| msgid ""
-#| "  -n, --no-clobber\n"
-#| "         do not overwrite an existing file\n"
-#| "If you specify more than one of -i, -f, -n, only the final one takes effect.\n"
 msgid "If you specify more than one of -i, -f, -n, only the final one takes effect.\n"
-msgstr ""
-"  -n, --no-clobber             既存のファイルを上書きしない\n"
-"-i, -f, -n を一つ以上使用した場合、最後のオプションが使用されます。\n"
+msgstr "-i, -f, -n を一つ以上使用した場合、最後のオプションが使用されます。\n"
 
 #: src/mv.c:296
 msgid ""
@@ -7908,17 +7873,12 @@ msgid ""
 msgstr "  -t, --target-directory=DIRECTORY  全ての SOURCE 引数を DIRECTORY に移動する\n"
 
 #: src/mv.c:329
-#, fuzzy
-#| msgid ""
-#| "  -Z, --context\n"
-#| "         set SELinux security context of destination\n"
-#| "                                 file to default type\n"
 msgid ""
 "  -Z, --context\n"
 "         set SELinux security context of destination file to default type\n"
 msgstr ""
-"  -Z, --context                移動先ファイルの SELinux セキュリティコンテキストを\n"
-"                                 デフォルトのタイプに設定する\n"
+"  -Z, --context\n"
+"         移動先ファイルの SELinux セキュリティコンテキストをデフォルトのタイプに設定する\n"
 
 #: src/mv.c:530
 #, c-format
@@ -7943,12 +7903,12 @@ msgstr ""
 "最低優先) です。\n"
 
 #: src/nice.c:82
-#, fuzzy
-#| msgid "  -n, --adjustment=N   add integer N to the niceness (default 10)\n"
 msgid ""
 "  -n, --adjustment=N\n"
 "         add integer N to the niceness (default 10)\n"
-msgstr "  -n, --adjustment=N   優先度に整数値 N を加える (デフォルト: 10)\n"
+msgstr ""
+"  -n, --adjustment=N\n"
+"         優先度に整数値 N を加える (デフォルト: 10)\n"
 
 #: src/nice.c:181
 #, c-format
@@ -8217,26 +8177,23 @@ msgstr ""
 "\n"
 
 #: src/nproc.c:64
-#, fuzzy
-#| msgid ""
-#| "      --all\n"
-#| "         print the number of installed processors\n"
 msgid ""
 "      --all\n"
 "         print the number of installed processors,\n"
 "         disregarding any OpenMP environment variables, or CPU quotas.\n"
-msgstr "      --all      導入されているプロセッサの数を表示する\n"
+msgstr ""
+"      --all\n"
+"         OpenMPの環境変数やCPUクォータを無視して導入されているプロセッサの数を表示する\n"
 
 #: src/nproc.c:69
-#, fuzzy
-#| msgid ""
-#| "      --ignore=N\n"
-#| "         if possible, exclude N processing units\n"
 msgid ""
 "      --ignore=N\n"
 "         if possible, exclude N processing units.\n"
 "         The result is guaranteed to be at least 1.\n"
-msgstr "      --ignore=N 可能であれば N 個のプロセスユニットを無視する\n"
+msgstr ""
+"      --ignore=N\n"
+"         可能であれば N 個のプロセスユニットを無視してます。\n"
+"         値が1以上のは保証しています。\n"
 
 #: src/numfmt.c:749
 #, c-format
@@ -8280,122 +8237,90 @@ msgstr ""
 "読み込んだ数字を変換する。\n"
 
 #: src/numfmt.c:924
-#, fuzzy
-#| msgid "      --debug          print warnings about invalid input\n"
 msgid ""
 "      --debug\n"
 "         print warnings about invalid input\n"
-msgstr "      --debug          無効な入力についての警告を表示する\n"
+msgstr ""
+"      --debug\n"
+"         無効な入力についての警告を表示する\n"
 
 #: src/numfmt.c:928
-#, fuzzy
-#| msgid "  -d, --delimiter=X    use X instead of whitespace for field delimiter\n"
 msgid ""
 "  -d, --delimiter=X\n"
 "         use X instead of whitespace for field delimiter\n"
-msgstr "  -d, --delimiter=X    フィールド区切りとしてホワイトスペースではなく X を使用する\n"
+msgstr ""
+"  -d, --delimiter=X\n"
+"         フィールド区切りとしてホワイトスペースではなく X を使用する\n"
 
 #: src/numfmt.c:932
-#, fuzzy
-#| msgid ""
-#| "      --field=FIELDS\n"
-#| "         replace the numbers in these input fields (default=1);\n"
-#| "                         see FIELDS below\n"
 msgid ""
 "      --field=FIELDS\n"
 "         replace the numbers in these input fields (default=1);\n"
 "         see FIELDS below for details\n"
 msgstr ""
-"      --field=FIELDS   入力フィールド N の数字を変換する (デフォルトは 1)。\n"
-"                         下記の FIELDS の説明を参照\n"
+"      --field=FIELDS\n"
+"         入力フィールド N の数字を変換する (デフォルトは 1)。\n"
+"         下記の FIELDS の説明を参照。\n"
 
 #: src/numfmt.c:937
-#, fuzzy
-#| msgid ""
-#| "      --format=FORMAT\n"
-#| "         use printf style floating-point FORMAT;\n"
-#| "                         see FORMAT below for details\n"
 msgid ""
 "      --format=FORMAT\n"
 "         use printf style floating-point FORMAT;\n"
 "         see FORMAT below for details\n"
 msgstr ""
-"      --format=FORMAT  printf 形式の浮動小数点フォーマットとして FORMAT を使う。\n"
-"                         詳細は下記の FORMAT の説明を参照\n"
+"      --format=FORMAT\n"
+"         printf 形式の浮動小数点フォーマットとして FORMAT を使う。\n"
+"         詳細は下記の FORMAT の説明を参照。\n"
 
 #: src/numfmt.c:942
-#, fuzzy
-#| msgid ""
-#| "      --from=UNIT\n"
-#| "         auto-scale input numbers to UNITs; default is 'none';\n"
-#| "                         see UNIT below\n"
 msgid ""
 "      --from=UNIT\n"
 "         auto-scale input numbers to UNITs; default is 'none';\n"
 "         see UNIT below for details\n"
 msgstr ""
-"      --from=UNIT      入力された数字を UNIT に自動スケーリングする。\n"
-"                         デフォルトは 'none' である。下記の UNIT の項を参照\n"
+"      --from=UNIT\n"
+"         入力された数字を UNIT に自動スケーリングする。\n"
+"         デフォルトは 'none' である。下記の UNIT の項を参照\n"
 
 #: src/numfmt.c:947
-#, fuzzy
-#| msgid "      --from-unit=N    specify the input unit size (instead of the default 1)\n"
 msgid ""
 "      --from-unit=N\n"
 "         specify the input unit size (instead of the default 1)\n"
-msgstr "      --from-unit=N    入力単位のサイズの指定 (デフォルトは 1)\n"
+msgstr ""
+"      --from-unit=N\n"
+"         入力単位のサイズの指定 (デフォルトは 1)\n"
 
 #: src/numfmt.c:951
-#, fuzzy
-#| msgid ""
-#| "      --grouping\n"
-#| "         use locale-defined grouping of digits, e.g. 1,000,000\n"
-#| "                         (which means it has no effect in the C/POSIX locale)\n"
 msgid ""
 "      --grouping\n"
 "         use locale-defined grouping of digits, e.g. 1,000,000.\n"
 "         This has no effect in the C/POSIX locale\n"
 msgstr ""
-"      --grouping       ロケールで定義された桁のグルーピングを使う (例: 1,000,000)。\n"
-"                         (したがって C/POSIX ロケールではこのオプションは効果がない)\n"
+"      --grouping\n"
+"         ロケールで定義された桁のグルーピングを使う (例: 1,000,000)。\n"
+"         C/POSIX ロケールではこのオプションは無効。\n"
 
 #: src/numfmt.c:956
-#, fuzzy
-#| msgid ""
-#| "      --header[=N]\n"
-#| "         print (without converting) the first N header lines;\n"
-#| "                         N defaults to 1 if not specified\n"
 msgid ""
 "      --header[=N]\n"
 "         print (without converting) the first N header lines;\n"
 "         N defaults to 1 if not specified\n"
 msgstr ""
-"      --header[=N]     最初の N 行のヘッダーを (変換せずに) 出力する。\n"
-"                         N が指定されなかった場合 N は 1 になる\n"
+"      --header[=N]\n"
+"         最初の N 行のヘッダーを (変換せずに) 出力する。\n"
+"         N が指定されなかった場合 N は 1 になる\n"
 
 #: src/numfmt.c:961
-#, fuzzy
-#| msgid ""
-#| "      --invalid=MODE\n"
-#| "         failure mode for invalid numbers: MODE can be:\n"
-#| "                         abort (default), fail, warn, ignore\n"
 msgid ""
 "      --invalid=MODE\n"
 "         failure mode for invalid numbers;\n"
 "         MODE can be: abort (default), fail, warn, ignore\n"
 msgstr ""
-"      --invalid=MODE   無効な数字入力時の失敗モード; MODE に指定できるのは\n"
-"                         abort (デフォルト), fail, warn, ignore\n"
+"      --invalid=MODE\n"
+"         無効な数字入力時の失敗モード; MODE に指定できるのは\n"
+"         abort (デフォルト), fail, warn, ignore\n"
 
 #: src/numfmt.c:966
-#, fuzzy
-#| msgid ""
-#| "      --padding=N\n"
-#| "         pad the output to N characters; positive N will\n"
-#| "                         right-align; negative N will left-align;\n"
-#| "                         padding is ignored if the output is wider than N;\n"
-#| "                         the default is to automatically pad if a whitespace\n"
-#| "                         is found\n"
 msgid ""
 "      --padding=N\n"
 "         pad the output to N characters;\n"
@@ -8403,72 +8328,59 @@ msgid ""
 "         padding is ignored if the output is wider than N;\n"
 "         the default is to automatically pad if a whitespace is found\n"
 msgstr ""
-"      --padding=N      パディングをして出力を N 文字幅にする。\n"
-"                         正の N は右寄せ、負の N は左寄せ。\n"
-"                         出力の幅が N より大きい場合パディングは無視される。\n"
-"                         デフォルトの動作では、ホワイトスペースがあった場合に\n"
-"                         自動的にパディングが行われる\n"
+"      --padding=N\n"
+"         パディングをして出力を N 文字幅にする。\n"
+"         正の N は右寄せ、負の N は左寄せ。\n"
+"         出力の幅が N より大きい場合パディングは無視される。\n"
+"         デフォルトの動作では、ホワイトスペースがあった場合に\n"
+"         自動的にパディングが行われる\n"
 
 #: src/numfmt.c:973
-#, fuzzy
-#| msgid ""
-#| "      --round=METHOD\n"
-#| "         use METHOD for rounding when scaling; METHOD can be:\n"
-#| "                         up, down, from-zero (default), towards-zero, nearest\n"
 msgid ""
 "      --round=METHOD\n"
 "         use METHOD for rounding when scaling; METHOD can be:\n"
 "         up, down, from-zero (default), towards-zero, nearest\n"
 msgstr ""
-"      --round=METHOD   スケーリング時の丸め方法として METHOD を使用する\n"
-"                         METHOD に指定できるのは up, down,\n"
-"                         from-zero (デフォルト), towards-zero, nearest\n"
+"      --round=METHOD\n"
+"         スケーリング時の丸め方法として METHOD を使用する\n"
+"         METHOD に指定できるのは up, down,\n"
+"         from-zero (デフォルト), towards-zero, nearest\n"
 
 #: src/numfmt.c:978
-#, fuzzy
-#| msgid ""
-#| "      --suffix=SUFFIX\n"
-#| "         add SUFFIX to output numbers, and accept optional\n"
-#| "                         SUFFIX in input numbers\n"
 msgid ""
 "      --suffix=SUFFIX\n"
 "         add SUFFIX to output numbers,\n"
 "         and accept an optional SUFFIX in input numbers\n"
 msgstr ""
-"      --suffix=SUFFIX  出力する数字に SUFFIX を追加する。\n"
-"                         また、入力する数字で接尾辞 SUFFIX を受け付ける\n"
+"      --suffix=SUFFIX\n"
+"         出力する数字に SUFFIX を追加する。\n"
+"         また、入力する数字で接尾辞 SUFFIX を受け付ける\n"
 
 #: src/numfmt.c:983
-#, fuzzy
-#| msgid ""
-#| "      --unit-separator=SEP\n"
-#| "         insert SEP between number and unit on output,\n"
-#| "                         and accept optional SEP in input numbers\n"
 msgid ""
 "      --unit-separator=SEP\n"
 "         insert SEP between number and unit on output,\n"
 "         and accept an optional SEP in input numbers\n"
 msgstr ""
-"      --unit-separator=SEP  数字と単位の間にSEPを入れて\n"
-"                         また、入力する数字でSEPを受け入れる。\n"
+"      --unit-separator=SEP\n"
+"         数字と単位の間にSEPを入れて\n"
+"         また、入力する数字でSEPを受け入れる。\n"
 
 #: src/numfmt.c:988
-#, fuzzy
-#| msgid "      --to=UNIT        auto-scale output numbers to UNITs; see UNIT below\n"
 msgid ""
 "      --to=UNIT\n"
 "         auto-scale output numbers to UNITs; see UNIT below\n"
 msgstr ""
-"      --to=UNIT        出力する数字を UNIT に自動スケーリングする。\n"
-"                         下記の UNIT の項を参照\n"
+"      --to=UNIT\n"
+"         出力する数字を UNIT に自動スケーリングする。下記の UNIT の項を参照。\n"
 
 #: src/numfmt.c:992
-#, fuzzy
-#| msgid "      --to-unit=N      the output unit size (instead of the default 1)\n"
 msgid ""
 "      --to-unit=N\n"
 "         the output unit size (instead of the default 1)\n"
-msgstr "      --to-unit=N      出力単位のサイズの指定 (デフォルトは 1)\n"
+msgstr ""
+"      --to-unit=N\n"
+"         出力単位のサイズの指定 (デフォルトは 1)\n"
 
 #: src/numfmt.c:1003
 msgid ""
@@ -8784,19 +8696,15 @@ msgstr ""
 "接尾子 . は 8 進数を表します。接尾子 b は 512 倍を表します。\n"
 
 #: src/od.c:383
-#, fuzzy
-#| msgid ""
-#| "  -A, --address-radix=RADIX\n"
-#| "         output format for file offsets; RADIX is one\n"
-#| "                                of [doxn], for Decimal, Octal, Hex or None\n"
 msgid ""
 "  -A, --address-radix=RADIX\n"
 "         output format for file offsets;\n"
 "         RADIX is one of [doxn], for Decimal, Octal, Hex or None\n"
 msgstr ""
-"  -A, --address-radix=RADIX   ファイルオフセットの表示形式を指定する\n"
-"                                RADIX は [doxn] のいずれかで、\n"
-"                                それぞれ 10進、8進、16進、なし、である\n"
+"  -A, --address-radix=RADIX\n"
+"         ファイルオフセットの表示形式を指定する\n"
+"         RADIX は [doxn] のいずれかで、\n"
+"         それぞれ 10進、8進、16進、なし、である\n"
 
 #: src/od.c:388
 msgid ""
@@ -8817,18 +8725,15 @@ msgid ""
 msgstr "  -N, --read-bytes=BYTES      ダンプする範囲を入力の先頭 BYTES バイト分に限定する\n"
 
 #: src/od.c:400
-#, fuzzy
-#| msgid ""
-#| "  -S BYTES, --strings[=BYTES]  show only NUL terminated strings\n"
-#| "                                of at least BYTES (3) printable characters\n"
 msgid ""
 "  -S BYTES, --strings[=BYTES]\n"
 "         show only NUL terminated strings\n"
 "         of at least BYTES (default 3) printable characters\n"
 msgstr ""
-"  -S BYTES, --strings[=BYTES]  BYTES 個以上の印字可能な文字から構成される\n"
-"                                NUL 終端文字列のみを出力する。\n"
-"                                BYTES のデフォルト値は 3\n"
+"  -S BYTES, --strings[=BYTES]\n"
+"         BYTES 個以上の印字可能な文字から構成される\n"
+"         NUL 終端文字列のみを出力する。\n"
+"         BYTES のデフォルト値は 3\n"
 
 #: src/od.c:405
 msgid ""
@@ -8843,17 +8748,14 @@ msgid ""
 msgstr "  -v, --output-duplicates     * マークによる出力行の省略をやめる\n"
 
 #: src/od.c:413
-#, fuzzy
-#| msgid ""
-#| "  -w[BYTES], --width[=BYTES]  output BYTES bytes per output line;\n"
-#| "                                32 is implied when BYTES is not specified\n"
 msgid ""
 "  -w[BYTES], --width[=BYTES]\n"
 "         output BYTES bytes per output line;\n"
 "         32 is implied when BYTES is not specified\n"
 msgstr ""
-"  -w[BYTES], --width[=BYTES]  一行あたりの出力バイト数を BYTES バイトにする\n"
-"                                BYTES が指定されなかった場合は 32 が使用される\n"
+"  -w[BYTES], --width[=BYTES]\n"
+"         一行あたりの出力バイト数を BYTES バイトにする\n"
+"         BYTES が指定されなかった場合は 32 が使用される\n"
 
 #: src/od.c:418
 msgid ""
@@ -8872,82 +8774,42 @@ msgstr ""
 "古い書式指定を混合させてもかまいません。両方が使用されます。\n"
 
 #: src/od.c:429
-#, fuzzy
-#| msgid ""
-#| "  -a\n"
-#| "         same as -t a,  select named characters, ignoring high-order bit\n"
 msgid "  -a   same as -t a,  select named characters, ignoring high-order bit\n"
 msgstr "  -a   -t a と同様。文字名を表示する。最上位ビットは無視される\n"
 
 #: src/od.c:432
-#, fuzzy
-#| msgid ""
-#| "  -b\n"
-#| "         same as -t o1, select octal bytes\n"
 msgid "  -b   same as -t o1, select octal bytes\n"
 msgstr "  -b   -t o1 と同様。 8 進数で表示する\n"
 
 #: src/od.c:435
-#, fuzzy
-#| msgid ""
-#| "  -c\n"
-#| "         same as -t c,  select printable characters or backslash escapes\n"
 msgid "  -c   same as -t c,  select printable characters or backslash escapes\n"
 msgstr "  -c   -t c と同様。表示可能文字または \\ エスケープ文字で表示する\n"
 
 #: src/od.c:438
-#, fuzzy
-#| msgid ""
-#| "  -d\n"
-#| "         same as -t u2, select unsigned decimal 2-byte units\n"
 msgid "  -d   same as -t u2, select unsigned decimal 2-byte units\n"
 msgstr "  -d   -t u2 と同様。符号なし 10 進数 2 バイトで表示する\n"
 
 #: src/od.c:441
-#, fuzzy
-#| msgid ""
-#| "  -f\n"
-#| "         same as -t fF, select floats\n"
 msgid "  -f   same as -t fF, select floats\n"
 msgstr "  -f   -t fF と同様。浮動小数点で表示する\n"
 
 #: src/od.c:444
-#, fuzzy
-#| msgid ""
-#| "  -i\n"
-#| "         same as -t dI, select decimal ints\n"
 msgid "  -i   same as -t dI, select decimal ints\n"
 msgstr "  -i   -t dI と同様。 10 進整数で表示する\n"
 
 #: src/od.c:447
-#, fuzzy
-#| msgid ""
-#| "  -l\n"
-#| "         same as -t dL, select decimal longs\n"
 msgid "  -l   same as -t dL, select decimal longs\n"
 msgstr "  -l   -t dL と同様。 10 進長整数で表示する\n"
 
 #: src/od.c:450
-#, fuzzy
-#| msgid ""
-#| "  -o\n"
-#| "         same as -t o2, select octal 2-byte units\n"
 msgid "  -o   same as -t o2, select octal 2-byte units\n"
 msgstr "  -o   -t o2 と同様。 8 進数 2 バイトで表示する\n"
 
 #: src/od.c:453
-#, fuzzy
-#| msgid ""
-#| "  -s\n"
-#| "         same as -t d2, select decimal 2-byte units\n"
 msgid "  -s   same as -t d2, select decimal 2-byte units\n"
 msgstr "  -s   -t d2 と同様。 10 進数 2 バイトで表示する\n"
 
 #: src/od.c:456
-#, fuzzy
-#| msgid ""
-#| "  -x\n"
-#| "         same as -t x2, select hexadecimal 2-byte units\n"
 msgid "  -x   same as -t x2, select hexadecimal 2-byte units\n"
 msgstr "  -x   -t x2 と同様。 16 進数 2 バイトで表示する\n"
 
@@ -9128,26 +8990,24 @@ msgstr ""
 "最後のファイルの最後の行以外、各ファイルの各行の改行は TAB 文字に入れ替わります。\n"
 
 #: src/paste.c:467
-#, fuzzy
-#| msgid ""
-#| "  -d, --delimiters=LIST\n"
-#| "         reuse characters from LIST instead of TABs\n"
 msgid ""
 "  -d, --delimiters=LIST\n"
 "         reuse characters from LIST instead of TABs;\n"
 "         backslash escapes are supported\n"
-msgstr "  -d, --delimiters=LIST   タブ文字の代わりに LIST の文字を区切りとして使用\n"
+msgstr ""
+"  -d, --delimiters=LIST\n"
+"         タブ文字の代わりに LIST の文字を区切りとして使用\n"
+"         \\ エスケープ文字も有効\n"
 
 #: src/paste.c:472
-#, fuzzy
-#| msgid ""
-#| "  -s, --serial\n"
-#| "         paste one file at a time instead of in parallel\n"
 msgid ""
 "  -s, --serial\n"
 "         paste one file at a time instead of in parallel; the newline of\n"
 "         every line except the last line in each file is replaced with a TAB\n"
-msgstr "  -s, --serial            一行毎ではなく、一度に 1 つのファイルを貼り付ける\n"
+msgstr ""
+"  -s, --serial\n"
+"         一行毎ではなく、一度に 1 つのファイルを貼り付ける。\n"
+"         各のファイルの最後の行以外、各ファイルの各行の改行は TAB 文字に入れ替わります。\n"
 
 #: src/paste.c:542
 #, c-format
@@ -9163,20 +9023,12 @@ msgstr ""
 "\n"
 
 #: src/pathchk.c:92
-#, fuzzy
-#| msgid ""
-#| "  -p\n"
-#| "         check for most POSIX systems\n"
 msgid "  -p     check for most POSIX systems\n"
-msgstr "  -p                  ほとんどの POSIX システムに合うかどうか確認する\n"
+msgstr "  -p     ほとんどの POSIX システムに合うかどうか確認する\n"
 
 #: src/pathchk.c:95
-#, fuzzy
-#| msgid ""
-#| "  -P\n"
-#| "         check for empty names and leading \"-\"\n"
 msgid "  -P     check for empty names and leading \"-\"\n"
-msgstr "  -P                  名前が空であるか、先頭に \"-\" があるかを確認する\n"
+msgstr "  -P     名前が空であるか、先頭に \"-\" があるかを確認する\n"
 
 #: src/pathchk.c:98
 msgid ""
@@ -9300,85 +9152,48 @@ msgid "\n"
 msgstr "\n"
 
 #: src/pinky.c:487
-#, fuzzy
-#| msgid ""
-#| "  -l\n"
-#| "         produce long format output for the specified USERs\n"
 msgid "  -l     produce long format output for the specified USERs\n"
-msgstr "  -l              指定されたユーザに対して長形式で出力\n"
+msgstr "  -l     指定されたユーザに対して長形式で出力\n"
 
 #: src/pinky.c:490
-#, fuzzy
-#| msgid ""
-#| "  -b\n"
-#| "         omit the user's home directory and shell in long format\n"
 msgid "  -b     omit the user's home directory and shell in long format\n"
-msgstr "  -b              長形式でユーザのホームディレクトリとシェルを省略\n"
+msgstr "  -b     長形式でユーザのホームディレクトリとシェルを省略\n"
 
 #: src/pinky.c:493
-#, fuzzy
-#| msgid ""
-#| "  -h\n"
-#| "         omit the user's project file in long format\n"
 msgid "  -h     omit the user's project file in long format\n"
-msgstr "  -h              長形式でユーザのプロジェクトファイルを省略\n"
+msgstr "  -h     長形式でユーザのプロジェクトファイルを省略\n"
 
 #: src/pinky.c:496
-#, fuzzy
-#| msgid ""
-#| "  -p\n"
-#| "         omit the user's plan file in long format\n"
 msgid "  -p     omit the user's plan file in long format\n"
-msgstr "  -p              長形式でユーザのプランファイルを省略\n"
+msgstr "  -p     長形式でユーザのプランファイルを省略\n"
 
 #: src/pinky.c:499
-#, fuzzy
-#| msgid ""
-#| "  -s\n"
-#| "         do short format output, this is the default\n"
 msgid "  -s     do short format output, this is the default\n"
-msgstr "  -s              短形式で出力 (標準)\n"
+msgstr "  -s     短形式で出力 (標準)\n"
 
 #: src/pinky.c:502
-#, fuzzy
-#| msgid ""
-#| "  -f\n"
-#| "         omit the line of column headings in short format\n"
 msgid "  -f     omit the line of column headings in short format\n"
-msgstr "  -f              短形式でヘッダ行を省略\n"
+msgstr "  -f     短形式でヘッダ行を省略\n"
 
 #: src/pinky.c:505
-#, fuzzy
-#| msgid ""
-#| "  -w\n"
-#| "         omit the user's full name in short format\n"
 msgid "  -w     omit the user's full name in short format\n"
-msgstr "  -w              短形式でユーザのフルネームを省略する\n"
+msgstr "  -w     短形式でユーザのフルネームを省略する\n"
 
 #: src/pinky.c:508
-#, fuzzy
-#| msgid ""
-#| "  -i\n"
-#| "         omit the user's full name and remote host in short format\n"
 msgid "  -i     omit the user's full name and remote host in short format\n"
-msgstr "  -i              短形式でユーザのフルネームとログイン元を省略\n"
+msgstr "  -i     短形式でユーザのフルネームとログイン元を省略\n"
 
 #: src/pinky.c:511
-#, fuzzy
-#| msgid ""
-#| "  -q\n"
-#| "         omit the user's full name, remote host and idle time\n"
-#| "                  in short format\n"
 msgid "  -q     omit the user's full name, remote host and idle time in short format\n"
-msgstr "  -q              短形式でユーザのフルネーム, ログイン元および待機時間を省略\n"
+msgstr "  -q     短形式でユーザのフルネーム, ログイン元および待機時間を省略\n"
 
 #: src/pinky.c:514
-#, fuzzy
-#| msgid "      --lookup      attempt to canonicalize hostnames via DNS\n"
 msgid ""
 "      --lookup\n"
 "         attempt to canonicalize hostnames via DNS\n"
-msgstr "      --lookup      正式なホスト名を DNS から取得するように試みる\n"
+msgstr ""
+"      --lookup\n"
+"         正式なホスト名を DNS から取得するように試みる\n"
 
 #: src/pinky.c:520
 #, c-format
@@ -9486,106 +9301,69 @@ msgid "Paginate or columnate FILE(s) for printing.\n"
 msgstr "印刷用に、ページ付けや段組を行ないます。\n"
 
 #: src/pr.c:2777
-#, fuzzy
-#| msgid ""
-#| "  +FIRST_PAGE[:LAST_PAGE], --pages=FIRST_PAGE[:LAST_PAGE]\n"
-#| "                    begin [stop] printing with page FIRST_[LAST_]PAGE\n"
 msgid ""
 "\n"
 "  +FIRST_PAGE[:LAST_PAGE], --pages=FIRST_PAGE[:LAST_PAGE]\n"
 "         begin [stop] printing with page FIRST_[LAST_]PAGE\n"
 msgstr ""
+"\n"
 "  +FIRST_PAGE[:LAST_PAGE], --pages=FIRST_PAGE[:LAST_PAGE]\n"
-"                    FIRST_PAGE から印字を開始し LAST_PAGE までを印字する\n"
-"                    LAST_PAGE を省略した場合, 最後まで印字する\n"
+"         FIRST_PAGE から印字を開始し LAST_PAGE までを印字する\n"
+"         LAST_PAGE を省略した場合, 最後まで印字する\n"
 
 #: src/pr.c:2781
-#, fuzzy
-#| msgid ""
-#| "  -COLUMN, --columns=COLUMN\n"
-#| "                    output COLUMN columns and print columns down,\n"
-#| "                    unless -a is used. Balance number of lines in the\n"
-#| "                    columns on each page\n"
 msgid ""
 "  -COLS, --columns=COLS\n"
 "         output COLS columns and print columns down, unless -a is used.\n"
 "         Balance number of lines in the columns on each page\n"
 msgstr ""
-"  -COLUMN, --columns=COLUMN\n"
-"                    -a を使用しない限り、 COLUMN 段の段組を生成し、段の下方に\n"
+"  -COLUMN, --columns=COLS\n"
+"                    -a を使用しない限り、 COLS 段の段組を生成し、段の下方に\n"
 "                    向けて出力する。ページ毎にカラム内の行数を調整する\n"
 
 #: src/pr.c:2786
-#, fuzzy
-#| msgid ""
-#| "  -a, --across\n"
-#| "         print columns across rather than down, used together\n"
-#| "                    with -COLUMN\n"
 msgid ""
 "  -a, --across\n"
 "         print columns across rather than down, used together with -COLS\n"
 msgstr ""
-"  -a, --across      各行を段組の横方向へ順に出力する。-COLUMN オプションと共に\n"
-"                    使用する\n"
+"  -a, --across\n"
+"         各行を段組の横方向へ順に出力する。-COLS オプションと共に使用する\n"
 
 #: src/pr.c:2790
-#, fuzzy
-#| msgid ""
-#| "  -c, --show-control-chars\n"
-#| "                    use hat notation (^G) and octal backslash notation\n"
 msgid ""
 "  -c, --show-control-chars\n"
 "         use hat notation (^G) and octal backslash notation\n"
 msgstr ""
 "  -c, --show-control-chars\n"
-"                    制御文字にハットをつけ (例: ^G)、その他の印字不能な文字\n"
-"                    にはバックスラッシュと 8 進数で表示する\n"
+"         制御文字にハットをつけ (例: ^G)、その他の印字不能な文字\n"
+"         にはバックスラッシュと 8 進数で表示する\n"
 
 #: src/pr.c:2794
-#, fuzzy
-#| msgid ""
-#| "  -d, --double-space\n"
-#| "                    double space the output\n"
 msgid ""
 "  -d, --double-space\n"
 "         double space the output\n"
 msgstr ""
 "  -d, --double-space\n"
-"                    行間に空行を挿入する\n"
+"         行間に空行を挿入する\n"
 
 #: src/pr.c:2798
-#, fuzzy
-#| msgid ""
-#| "  -D, --date-format=FORMAT\n"
-#| "                    use FORMAT for the header date\n"
 msgid ""
 "  -D, --date-format=FORMAT\n"
 "         use FORMAT for the header date\n"
 msgstr ""
 "  -D, --date-format=FORMAT\n"
-"                    ヘッダの日付の形式として FORMAT を用いる\n"
+"         ヘッダの日付の形式として FORMAT を用いる\n"
 
 #: src/pr.c:2802
-#, fuzzy
-#| msgid ""
-#| "  -e[CHAR[WIDTH]], --expand-tabs[=CHAR[WIDTH]]\n"
-#| "                    expand input CHARs (TABs) to tab WIDTH (8)\n"
 msgid ""
 "  -e[CHAR[WIDTH]], --expand-tabs[=CHAR[WIDTH]]\n"
 "         expand input CHARs (TABs) to tab WIDTH (8)\n"
 msgstr ""
 "  -e[CHAR[WIDTH]], --expand-tabs[=CHAR[WIDTH]]\n"
-"                    入力された CHAR を幅 WIDTH の空白に拡げる\n"
-"                    CHAR, WIDTH の指定がなければ CHAR は TAB, \n"
-"                    WIDTH は 8 に変更\n"
+"         入力された CHAR を幅 WIDTH の空白に拡げる CHAR, WIDTH\n"
+"         の指定がなければ CHAR は TAB, WIDTH は 8 に変更\n"
 
 #: src/pr.c:2806
-#, fuzzy
-#| msgid ""
-#| "  -F, -f, --form-feed\n"
-#| "                    use form feeds instead of newlines to separate pages\n"
-#| "                    (by a 3-line page header with -F or a 5-line header\n"
-#| "                    and trailer without -F)\n"
 msgid ""
 "  -F, -f, --form-feed\n"
 "         use form feeds instead of newlines to separate pages\n"
@@ -9593,57 +9371,38 @@ msgid ""
 "         and trailer without -F)\n"
 msgstr ""
 "  -F, -f, --form-feed\n"
-"                    改ページの際に改行ではなく、改ページコードを使用\n"
-"                    (-f と共に 3 行分、 -f を指定しない場合 5 行分のヘッダを出力)\n"
+"         改ページの際に改行ではなく、改ページコードを使用\n"
+"         (-f と共に 3 行分、 -f を指定しない場合 5 行分のヘッダを出力)\n"
 
 #: src/pr.c:2812
-#, fuzzy
-#| msgid ""
-#| "  -h, --header=HEADER\n"
-#| "                    use a centered HEADER instead of filename in page header,\n"
-#| "                    -h \"\" prints a blank line, don't use -h\"\"\n"
 msgid ""
 "  -h, --header=HEADER\n"
 "         use a centered HEADER instead of filename in page header,\n"
 "         -h \"\" prints a blank line, don't use -h\"\"\n"
 msgstr ""
 "  -h, --header=HEADER\n"
-"                    ページヘッダとしてファイル名の代わりに中央に配置した HEADER を使用\n"
-"                    する。 -h \"\" は空行を表示する。 -h\"\" を使用してはならない\n"
+"         ページヘッダとしてファイル名の代わりに中央に配置した HEADER を使用\n"
+"         する。 -h \"\" は空行を表示する。 -h\"\" を使用してはならない\n"
 
 #: src/pr.c:2817
-#, fuzzy
-#| msgid ""
-#| "  -i[CHAR[WIDTH]], --output-tabs[=CHAR[WIDTH]]\n"
-#| "                    replace spaces with CHARs (TABs) to tab WIDTH (8)\n"
 msgid ""
 "  -i[CHAR[WIDTH]], --output-tabs[=CHAR[WIDTH]]\n"
 "         replace spaces with CHARs (TABs) to tab WIDTH (8)\n"
 msgstr ""
 "  -i[CHAR[WIDTH]], --output-tabs[=CHAR[WIDTH]]\n"
-"                    スペースをタブ幅 WIDTH (8) の CHAR (TAB) で置換する\n"
+"         スペースをタブ幅 WIDTH (8) の CHAR (TAB) で置換する\n"
 
 #: src/pr.c:2821
-#, fuzzy
-#| msgid ""
-#| "  -J, --join-lines\n"
-#| "         merge full lines, turns off -W line truncation, no column\n"
-#| "                    alignment, --sep-string[=STRING] sets separators\n"
 msgid ""
 "  -J, --join-lines\n"
 "         merge full lines, turns off -W line truncation,\n"
 "         no column alignment, --sep-string[=STRING] sets separators\n"
 msgstr ""
-"  -J, --join-lines  全ての行を併合し、-W による行切り詰めをオフ、列配置を無効、区切り\n"
-"                    文字を --sep-string[=STRING] に設定する\n"
+"  -J, --join-lines\n"
+"         全ての行を併合し、-W による行切り詰めをオフ、列配置を無効、区切り\n"
+"         文字を --sep-string[=STRING] に設定する\n"
 
 #: src/pr.c:2826
-#, fuzzy
-#| msgid ""
-#| "  -l, --length=PAGE_LENGTH\n"
-#| "                    set the page length to PAGE_LENGTH (66) lines\n"
-#| "                    (default number of lines of text 56, and with -F 63).\n"
-#| "                    implies -t if PAGE_LENGTH <= 10\n"
 msgid ""
 "  -l, --length=PAGE_LENGTH\n"
 "         set the page length to PAGE_LENGTH (66) lines\n"
@@ -9651,91 +9410,61 @@ msgid ""
 "         implies -t if PAGE_LENGTH <= 10\n"
 msgstr ""
 "  -l, --length=PAGE_LENGTH\n"
-"                    1ページの行数を PAGE_LENGTH (66) にする (デフォルトは\n"
-"                    56行で、 -F を使用したときは 63 行)\n"
-"                    PAGE_LENGTH <= 10 の場合は -t が暗黙のうちに有効になる\n"
+"         1ページの行数を PAGE_LENGTH (66) にする (デフォルトは\n"
+"         56行で、 -F を使用したときは 63 行)\n"
+"         PAGE_LENGTH <= 10 の場合は -t が暗黙のうちに有効になる\n"
 
 #: src/pr.c:2832
-#, fuzzy
-#| msgid ""
-#| "  -m, --merge\n"
-#| "         print all files in parallel, one in each column,\n"
-#| "                    truncate lines, but join lines of full length with -J\n"
 msgid ""
 "  -m, --merge\n"
 "         print all files in parallel, one in each column,\n"
 "         truncate lines, but join lines of full length with -J\n"
 msgstr ""
-"  -m, --merge       全てのファイルを並列に印刷する。 1 ファイル 1 列とし、\n"
-"                    -J オプションで行を結合した場合を除き、行を切り詰める。\n"
+"  -m, --merge\n"
+"         全てのファイルを並列に印刷する。 1 ファイル 1 列とし、\n"
+"         -J オプションで行を結合した場合を除き、行を切り詰める。\n"
 
 #: src/pr.c:2837
-#, fuzzy
-#| msgid ""
-#| "  -n[SEP[DIGITS]], --number-lines[=SEP[DIGITS]]\n"
-#| "                    number lines, use DIGITS (5) digits, then SEP (TAB),\n"
-#| "                    default counting starts with 1st line of input file\n"
 msgid ""
 "  -n[SEP[DIGITS]], --number-lines[=SEP[DIGITS]]\n"
 "         number lines, use DIGITS (5) digits, then SEP (TAB),\n"
 "         default counting starts with 1st line of input file\n"
 msgstr ""
 "  -n[SEP[DIGITS]], --number-lines[=SEP[DIGITS]]\n"
-"                    行番号を付ける。その際には DIGITS (5) 桁とし、その後\n"
-"                    に SEP (TAB) を使用する。デフォルトでは入力ファイルの\n"
-"                    1 行目から数え始める\n"
+"         行番号を付ける。その際には DIGITS (5) 桁とし、その後\n"
+"         に SEP (TAB) を使用する。デフォルトでは入力ファイルの\n"
+"         1 行目から数え始める\n"
 
 #: src/pr.c:2842
-#, fuzzy
-#| msgid ""
-#| "  -N, --first-line-number=NUMBER\n"
-#| "                    start counting with NUMBER at 1st line of first\n"
-#| "                    page printed (see +FIRST_PAGE)\n"
 msgid ""
 "  -N, --first-line-number=NUMBER\n"
 "         start counting with NUMBER at 1st line of first\n"
 "         page printed (see +FIRST_PAGE)\n"
 msgstr ""
 "  -N, --first-line-number=NUMBER\n"
-"                    表示した最初のページの 1 行目を NUMBER として数え始め\n"
-"                    る (+FIRST_PAGE を参照)\n"
+"         表示した最初のページの 1 行目を NUMBER として数え始め\n"
+"         る (+FIRST_PAGE を参照)\n"
 
 #: src/pr.c:2847
-#, fuzzy
-#| msgid ""
-#| "  -o, --indent=MARGIN\n"
-#| "                    offset each line with MARGIN (zero) spaces, do not\n"
-#| "                    affect -w or -W, MARGIN will be added to PAGE_WIDTH\n"
 msgid ""
 "  -o, --indent=MARGIN\n"
 "         offset each line with MARGIN (zero) spaces, do not\n"
 "         affect -w or -W, MARGIN will be added to PAGE_WIDTH\n"
 msgstr ""
 "  -o, --indent=MARGIN\n"
-"                    各行のオフセットを MARGIN (zero) 個のスペースとする。\n"
-"                    -w または -W には影響しない。 MARGIN は PAGE_WIDTH に\n"
-"                    加算される\n"
+"         各行のオフセットを MARGIN (zero) 個のスペースとする。\n"
+"         -w または -W には影響しない。 MARGIN は PAGE_WIDTH に\n"
+"         加算される\n"
 
 #: src/pr.c:2852
-#, fuzzy
-#| msgid ""
-#| "  -r, --no-file-warnings\n"
-#| "                    omit warning when a file cannot be opened\n"
 msgid ""
 "  -r, --no-file-warnings\n"
 "         omit warning when a file cannot be opened\n"
 msgstr ""
 "  -r, --no-file-warnings\n"
-"                    ファイルを開けなかったときに警告を表示しない\n"
+"         ファイルを開けなかったときに警告を表示しない\n"
 
 #: src/pr.c:2856
-#, fuzzy
-#| msgid ""
-#| "  -s[CHAR], --separator[=CHAR]\n"
-#| "                    separate columns by a single character, default for CHAR\n"
-#| "                    is the <TAB> character without -w and 'no char' with -w.\n"
-#| "                    -s[CHAR] turns off line truncation of all 3 column\n"
-#| "                    options (-COLUMN|-a -COLUMN|-m) except -w is set\n"
 msgid ""
 "  -s[CHAR], --separator[=CHAR]\n"
 "         separate columns by a single character, default for CHAR\n"
@@ -9744,19 +9473,13 @@ msgid ""
 "         options (-COLS|-a -COLS|-m) except -w is set\n"
 msgstr ""
 "  -s[CHAR], --separator[=CHAR]\n"
-"                    列の区切りに単一の文字 CHAR を使用する。-w を併せて指定しない\n"
-"                    場合、CHAR のデフォルトは <TAB> 文字となる。-w を併せて指定し\n"
-"                    た場合、'文字なし' となる。-s[CHAR] を指定すると、\n"
-"                    -w を指定した場合を除き、 3 列オプション (-COLUMN|-a -COLUMN|-m)\n"
-"                    での切り詰めが無効となる\n"
+"         列の区切りに単一の文字 CHAR を使用する。-w を併せて指定しない\n"
+"         場合、CHAR のデフォルトは <TAB> 文字となる。-w を併せて指定し\n"
+"         た場合、'文字なし' となる。-s[CHAR] を指定すると、\n"
+"         -w を指定した場合を除き、 3 列オプション (-COLS|-a -COLS|-m)\n"
+"         での切り詰めが無効となる\n"
 
 #: src/pr.c:2863
-#, fuzzy
-#| msgid ""
-#| "  -S[STRING], --sep-string[=STRING]\n"
-#| "                    separate columns by STRING,\n"
-#| "                    without -S: Default separator <TAB> with -J and <space>\n"
-#| "                    otherwise (same as -S\" \"), no effect on column options\n"
 msgid ""
 "  -S[STRING], --sep-string[=STRING]\n"
 "         separate columns by STRING,\n"
@@ -9764,73 +9487,49 @@ msgid ""
 "         otherwise (same as -S\" \"), no effect on column options\n"
 msgstr ""
 "  -S[STRING], --sep-string[=STRING]\n"
-"                    STRING によって列を区切る。\n"
-"                    -S なしで -J を指定した場合、デフォルトの区切り文字は <TAB>、\n"
-"                    それ以外の場合は区切り文字は <space> となる (-S\" \" と同じ)。\n"
-"                    列オプションには影響を及ぼさない\n"
+"         STRING によって列を区切る。\n"
+"         -S なしで -J を指定した場合、デフォルトの区切り文字は <TAB>、\n"
+"         それ以外の場合は区切り文字は <space> となる (-S\" \" と同じ)。\n"
+"         列オプションには影響を及ぼさない\n"
 
 #: src/pr.c:2869
-#, fuzzy
-#| msgid ""
-#| "  -t, --omit-header\n"
-#| "         omit page headers and trailers;\n"
-#| "                     implied if PAGE_LENGTH <= 10\n"
 msgid ""
 "  -t, --omit-header\n"
 "         omit page headers and trailers; implied if PAGE_LENGTH <= 10\n"
 msgstr ""
-"  -t, --omit-header  ページのヘッダーとフッターを表示しない。\n"
-"                     PAGE_LENGTH <= 10 の場合は -t が暗黙のうちに有効になる\n"
+"  -t, --omit-header\n"
+"         ページのヘッダーとフッターを表示しない。\n"
+"         PAGE_LENGTH <= 10 の場合は -t が暗黙のうちに有効になる\n"
 
 #: src/pr.c:2873
-#, fuzzy
-#| msgid ""
-#| "  -T, --omit-pagination\n"
-#| "                    omit page headers and trailers, eliminate any pagination\n"
-#| "                    by form feeds set in input files\n"
 msgid ""
 "  -T, --omit-pagination\n"
 "         omit page headers and trailers,\n"
 "         eliminate any pagination by form feeds set in input files\n"
 msgstr ""
 "  -T, --omit-pagination\n"
-"                    ヘッダや本文の余白を省略し、入力ファイル中の改ページを\n"
-"                    無視する\n"
+"         ヘッダや本文の余白を省略し、入力ファイル中の改ページを\n"
+"         無視する\n"
 
 #: src/pr.c:2878
-#, fuzzy
-#| msgid ""
-#| "  -v, --show-nonprinting\n"
-#| "                    use octal backslash notation\n"
 msgid ""
 "  -v, --show-nonprinting\n"
 "         use octal backslash notation\n"
 msgstr ""
 "  -v, --show-nonprinting\n"
-"                    バックスラッシュ(\\) エスケープの 8 進数表記を使用する\n"
+"          バックスラッシュ(\\) エスケープの 8 進数表記を使用する\n"
 
 #: src/pr.c:2882
-#, fuzzy
-#| msgid ""
-#| "  -w, --width=PAGE_WIDTH\n"
-#| "                    set page width to PAGE_WIDTH (72) characters for\n"
-#| "                    multiple text-column output only, -s[char] turns off (72)\n"
 msgid ""
 "  -w, --width=PAGE_WIDTH\n"
 "         set page width to PAGE_WIDTH (72) characters for\n"
 "         multiple text-column output only, -s[char] turns off (72)\n"
 msgstr ""
 "  -w PAGE_WIDTH, --width=PAGE_WIDTH\n"
-"                    複数列の出力時のみページ幅を PAGE_WIDTH (72)\n"
-"                    文字に設定する。 -s[char] は無効になる\n"
+"         複数列の出力時のみページ幅を PAGE_WIDTH (72)\n"
+"         文字に設定する。 -s[char] は無効になる\n"
 
 #: src/pr.c:2887
-#, fuzzy
-#| msgid ""
-#| "  -W, --page-width=PAGE_WIDTH\n"
-#| "                    set page width to PAGE_WIDTH (72) characters always,\n"
-#| "                    truncate lines, except -J option is set, no interference\n"
-#| "                    with -S or -s\n"
 msgid ""
 "  -W, --page-width=PAGE_WIDTH\n"
 "         set page width to PAGE_WIDTH (72) characters always,\n"
@@ -9838,9 +9537,9 @@ msgid ""
 "         no interference with -S or -s\n"
 msgstr ""
 "  -W, --page-width=PAGE_WIDTH\n"
-"                    -J オプションを併せて指定しない場合、ページ幅を常に \n"
-"                    PAGE_WIDTH (72) 文字に設定し、行を切り詰める。-S ま\n"
-"                    たは -s オプションには影響しない\n"
+"         -J オプションを併せて指定しない場合、ページ幅を常に \n"
+"         PAGE_WIDTH (72) 文字に設定し、行を切り詰める。-S ま\n"
+"         たは -s オプションには影響しない\n"
 
 #: src/printenv.c:62
 #, c-format
@@ -10059,10 +9758,8 @@ msgid "  -r, --references               first field of each line is a reference\
 msgstr "  -r, --references               各行の第1フィールドを参照文と見なす\n"
 
 #: src/ptx.c:1729
-#, fuzzy
-#| msgid "  -t, --typeset-mode               - not implemented -\n"
 msgid "  -t, --typeset-mode             change the default width from 72 to 100\n"
-msgstr "  -t, --typeset-mode               - 未実装 -\n"
+msgstr "  -t, --typeset-mode               デファクトの幅は７２字から１００字まで変更\n"
 
 #: src/ptx.c:1732
 msgid "  -w, --width=NUMBER             output width in columns, reference excluded\n"
@@ -10087,22 +9784,20 @@ msgstr ""
 "\n"
 
 #: src/pwd.c:60
-#, fuzzy
-#| msgid "  -L, --logical   use PWD from environment, even if it contains symlinks\n"
 msgid ""
 "  -L, --logical\n"
 "         use PWD from environment, even if it contains symlinks\n"
 msgstr ""
-"  -L, --logical   環境から PWD を取得して使用する。シンボリックリンクは\n"
-"                  そのまま使用する\n"
+"  -L, --logical\n"
+"         環境から PWD を取得して使用する。シンボリックリンクはそのまま使用する\n"
 
 #: src/pwd.c:64
-#, fuzzy
-#| msgid "  -P, --physical  resolve all symlinks\n"
 msgid ""
 "  -P, --physical\n"
 "         resolve all symlinks\n"
-msgstr "  -P, --physical  シンボリックリンクを展開する\n"
+msgstr ""
+"  -P, --physical\n"
+"         シンボリックリンクを展開する\n"
 
 #: src/pwd.c:70
 msgid ""
@@ -10152,54 +9847,37 @@ msgstr ""
 "\n"
 
 #: src/readlink.c:64
-#, fuzzy
-#| msgid ""
-#| "  -f, --canonicalize\n"
-#| "         canonicalize by following every symlink in\n"
-#| "                                every component of the given name recursively;\n"
-#| "                                all but the last component must exist\n"
 msgid ""
 "  -f, --canonicalize\n"
 "         canonicalize by following every symlink\n"
 "         in every component of the given name recursively;\n"
 "         all but the last component must exist\n"
 msgstr ""
-"  -f, --canonicalize            与えられた名前の要素中に存在するシンボリックリンクを\n"
-"                                再帰的に全て辿る。最後の要素以外は存在しなければいけ\n"
-"                                ない\n"
+"  -f, --canonicalize\n"
+"         与えられた名前の要素中に存在するシンボリックリンクを\n"
+"         再帰的に全て辿る。最後の要素以外は存在しなければいけない\n"
 
 #: src/readlink.c:70
-#, fuzzy
-#| msgid ""
-#| "  -e, --canonicalize-existing\n"
-#| "         canonicalize by following every symlink in\n"
-#| "                                every component of the given name recursively,\n"
-#| "                                all components must exist\n"
 msgid ""
 "  -e, --canonicalize-existing\n"
 "         canonicalize by following every symlink\n"
 "         in every component of the given name recursively;\n"
 "         all components must exist\n"
 msgstr ""
-"  -e, --canonicalize-existing   与えられた名前の要素中に存在するシンボリックリンクを\n"
-"                                再帰的に全て辿る。最後の要素も含めて全て存在しなけれ\n"
-"                                ばいけない\n"
+"  -e, --canonicalize-existing\n"
+"         与えられた名前の要素中に存在するシンボリックリンクを\n"
+"         再帰的に全て辿る。最後の要素も含めて全て存在しなければいけない\n"
 
 #: src/readlink.c:76
-#, fuzzy
-#| msgid ""
-#| "  -m, --canonicalize-missing\n"
-#| "         canonicalize by following every symlink in\n"
-#| "                                every component of the given name recursively,\n"
-#| "                                without requirements on components existence\n"
 msgid ""
 "  -m, --canonicalize-missing\n"
 "         canonicalize by following every symlink\n"
 "         in every component of the given name recursively,\n"
 "         without requirements on components existence\n"
 msgstr ""
-"  -m, --canonicalize-missing    与えられた名前の要素中に存在するシンボリックリンクを\n"
-"                                再帰的に全て辿る。要素が存在しなくてもよい\n"
+"  -m, --canonicalize-missing\n"
+"         与えられた名前の要素中に存在するシンボリックリンクを\n"
+"         再帰的に全て辿る。要素が存在しなくてもよい\n"
 
 #: src/readlink.c:82
 msgid ""
@@ -10212,32 +9890,24 @@ msgid "  -q, --quiet\n"
 msgstr "  -q, --quiet\n"
 
 #: src/readlink.c:89
-#, fuzzy
-#| msgid ""
-#| "  -s, --silent\n"
-#| "         suppress most error messages (on by default\n"
-#| "                                if POSIXLY_CORRECT is not set)\n"
 msgid ""
 "  -s, --silent\n"
 "         suppress most error messages\n"
 "         (on by default if POSIXLY_CORRECT is not set)\n"
 msgstr ""
-"  -s, --silent                  ほとんどのエラーメッセージ出力を抑止する\n"
-"                                (POSIXLY_CORRECTを設定しない限りデフォルトで有効)\n"
+"  -s, --silent\n"
+"         ほとんどのエラーメッセージ出力を抑止する\n"
+"         (POSIXLY_CORRECTを設定しない限りデフォルトで有効)\n"
 
 #: src/readlink.c:94
-#, fuzzy
-#| msgid ""
-#| "  -v, --verbose\n"
-#| "         report error messages (on by default if\n"
-#| "                                POSIXLY_CORRECT is set)\n"
 msgid ""
 "  -v, --verbose\n"
 "         report error messages\n"
 "         (on by default if POSIXLY_CORRECT is set)\n"
 msgstr ""
-"  -v, --verbose                 エラーメッセージを報告する\n"
-"                                (POSIXLY_CORRECTを設定している限りデフォルトで有効)\n"
+"  -v, --verbose\n"
+"         エラーメッセージを報告する\n"
+"         (POSIXLY_CORRECTを設定している限りデフォルトで有効)\n"
 
 #: src/readlink.c:169
 #, c-format
@@ -10388,54 +10058,38 @@ msgid ""
 msgstr "  -i                    削除の前に確認を行う\n"
 
 #: src/rm.c:144
-#, fuzzy
-#| msgid ""
-#| "  -I\n"
-#| "         prompt once before removing more than three files, or\n"
-#| "                          when removing recursively; less intrusive than -i,\n"
-#| "                          while still giving protection against most mistakes\n"
 msgid ""
 "  -I\n"
 "         prompt once before removing more than three files,\n"
 "         or when removing recursively; less intrusive than -i,\n"
 "         while still giving protection against most mistakes\n"
 msgstr ""
-"  -I                    3 個を超えるファイルを削除するか、ディレクトリを再帰的に\n"
-"                          削除する場合は一度だけ確認をする。\n"
-"                          多くの間違いを防ぎながらも\n"
-"                          -i よりは確認回数が少なくなる\n"
+"  -I\n"
+"         3 個を超えるファイルを削除するか、ディレクトリを再帰的\n"
+"         に削除する場合は一度だけ確認をする。多くの間違いを防ぎながらも\n"
+"         -i よりは確認回数が少なくなる\n"
 
 #: src/rm.c:150
-#, fuzzy
-#| msgid ""
-#| "      --interactive[=WHEN]\n"
-#| "         prompt according to WHEN: never, once (-I), or\n"
-#| "                          always (-i); without WHEN, prompt always\n"
 msgid ""
 "      --interactive[=WHEN]\n"
 "         prompt according to WHEN: never, once (-I), or always (-i);\n"
 "         without WHEN, prompt always\n"
 msgstr ""
-"      --interactive[=WHEN]  WHEN に指定した時に確認を行う。WHEN は次の通り:\n"
-"                            never, once (-I) または  always (-i)。\n"
-"                            WHEN を省略した場合は always とみなす\n"
+"      --interactive[=WHEN]\n"
+"         WHEN に指定した時に確認を行う。WHEN は次の通り:\n"
+"         never, once (-I) または  always (-i)。\n"
+"         WHEN を省略した場合は always とみなす\n"
 
 #: src/rm.c:155
-#, fuzzy
-#| msgid ""
-#| "      --one-file-system\n"
-#| "         when removing a hierarchy recursively, skip any\n"
-#| "                          directory that is on a file system different from\n"
-#| "                          that of the corresponding command line argument\n"
 msgid ""
 "      --one-file-system\n"
 "         when removing a hierarchy recursively,\n"
 "         skip any directory that is on a file system different\n"
 "         from that of the corresponding command line argument\n"
 msgstr ""
-"      --one-file-system  階層を再帰的に削除するときに、コマンドライン引数と\n"
-"                          異なったファイルシステムにあるディレクトリをス\n"
-"                          キップする\n"
+"      --one-file-system\n"
+"         階層を再帰的に削除するときに、コマンドライン引数と\n"
+"         異なったファイルシステムにあるディレクトリをスキップする\n"
 
 #: src/rm.c:161
 msgid ""
@@ -10444,29 +10098,24 @@ msgid ""
 msgstr "      --no-preserve-root  '/' を特別なものとして扱わない\n"
 
 #: src/rm.c:165
-#, fuzzy
-#| msgid ""
-#| "      --preserve-root[=all]\n"
-#| "         do not remove '/' (default);\n"
-#| "                              with 'all', reject any command line argument\n"
-#| "                              on a separate device from its parent\n"
 msgid ""
 "      --preserve-root[=all]\n"
 "         do not remove '/' (default);\n"
 "         with 'all', reject any command line argument\n"
 "         on a separate device from its parent\n"
 msgstr ""
-"      --preserve-root[=all]  '/' を削除しない (デフォルト);\n"
-"                              'all' が指定された場合、親と異なるデバイスに\n"
-"                              存在するコマンドライン引数を拒否する\n"
+"      --preserve-root[=all]\n"
+"         '/' を削除しない (デフォルト);\n"
+"         'all' が指定された場合、親と異なるデバイスに\n"
+"         存在するコマンドライン引数を拒否する\n"
 
 #: src/rm.c:171
-#, fuzzy
-#| msgid "  -r, -R, --recursive   remove directories and their contents recursively\n"
 msgid ""
 "  -r, -R, --recursive\n"
 "         remove directories and their contents recursively\n"
-msgstr "  -r, -R, --recursive   ディレクトリとその中身を再帰的に削除する\n"
+msgstr ""
+"  -r, -R, --recursive\n"
+"         ディレクトリとその中身を再帰的に削除する\n"
 
 #: src/rm.c:175
 msgid ""
@@ -10568,39 +10217,30 @@ msgstr ""
 "\n"
 
 #: src/rmdir.c:177
-#, fuzzy
-#| msgid ""
-#| "      --ignore-fail-on-non-empty\n"
-#| "                    ignore each failure to remove a non-empty directory\n"
 msgid ""
 "      --ignore-fail-on-non-empty\n"
 "         ignore each failure to remove a non-empty directory\n"
 msgstr ""
 "      --ignore-fail-on-non-empty\n"
-"                  空でないディレクトリの削除の失敗については無視する\n"
+"         空でないディレクトリの削除の失敗については無視する\n"
 
 #: src/rmdir.c:181
-#, fuzzy
-#| msgid ""
-#| "  -p, --parents\n"
-#| "         remove DIRECTORY and its ancestors;\n"
-#| "                    e.g., 'rmdir -p a/b' is similar to 'rmdir a/b a'\n"
-#| "\n"
 msgid ""
 "  -p, --parents\n"
 "         remove DIRECTORY and its ancestors;\n"
 "         e.g., 'rmdir -p a/b' is similar to 'rmdir a/b a'\n"
 msgstr ""
-"  -p, --parents   DIRECTORY とその親ディレクトリを削除する。\n"
-"                    例えば 'rmdir -p a/b' は 'rmdir a/b a' と同様である\n"
+"  -p, --parents\n"
+"         DIRECTORY とその親ディレクトリを削除する。\n"
+"         例えば 'rmdir -p a/b' は 'rmdir a/b a' と同様である\n"
 
 #: src/rmdir.c:186
-#, fuzzy
-#| msgid "  -v, --verbose     output a diagnostic for every directory processed\n"
 msgid ""
 "  -v, --verbose\n"
 "         output a diagnostic for every directory processed\n"
-msgstr "  -v, --verbose     ディレクトリを処理するごとに診断メッセージを表示する\n"
+msgstr ""
+"  -v, --verbose\n"
+"         ディレクトリを処理するごとに診断メッセージを表示する\n"
 
 #: src/rmdir.c:273
 #, c-format
@@ -10608,16 +10248,13 @@ msgid "failed to remove %s: Symbolic link not followed"
 msgstr "%s を削除できません: シンボリックリンクを辿れません"
 
 #: src/runcon.c:76
-#, fuzzy, c-format
-#| msgid ""
-#| "Usage: %s CONTEXT COMMAND [args]\n"
-#| "  or:  %s [ -c ] [-u USER] [-r ROLE] [-t TYPE] [-l RANGE] COMMAND [args]\n"
+#, c-format
 msgid ""
 "Usage: %s [CONTEXT COMMAND [ARG]...]\n"
 "  or:  %s [-c] [-u USER] [-r ROLE] [-t TYPE] [-l RANGE] COMMAND [ARG]...\n"
 msgstr ""
-"使用法: %s CONTEXT COMMAND [args]\n"
-"または: %s [ -c ] [-u USER] [-r ROLE] [-t TYPE] [-l RANGE] COMMAND [args]\n"
+"使用法: %s [CONTEXT COMMAND [ARG]...]\n"
+"または: %s [-c] [-u USER] [-r ROLE] [-t TYPE] [-l RANGE] COMMAND [ARG]...\n"
 
 #: src/runcon.c:80
 msgid ""
@@ -10910,15 +10547,12 @@ msgid ""
 msgstr "  -n, --iterations=N  N 回上書きを繰り返す (デフォルト: %d 回)\n"
 
 #: src/shred.c:190 src/sort.c:474
-#, fuzzy
 msgid ""
 "      --random-source=FILE\n"
 "         get random bytes from FILE\n"
 msgstr ""
-"#-#-#-#-#  - (GNU coreutils 9.9-pre1)  #-#-#-#-#\n"
-"      --random-source=FILE  ランダムバイトのソースを FILE にする\n"
-"#-#-#-#-#  - (GNU coreutils 9.9-pre1)  #-#-#-#-#\n"
-"      --random-source=FILE    ランダムなバイトを FILE から取得する\n"
+"      --random-source=FILE\n"
+"         ランダムなバイトを FILE から取得する\n"
 
 #: src/shred.c:194
 msgid ""
@@ -10941,28 +10575,22 @@ msgid ""
 msgstr "      --remove[=HOW]  -u と同様だが、削除の方法を HOW で制御できる。下記参照\n"
 
 #: src/shred.c:206
-#, fuzzy
-#| msgid ""
-#| "  -v, --verbose\n"
-#| "         output a diagnostic for every file processed\n"
 msgid ""
 "  -v, --verbose\n"
 "         show details of data and metadata operations performed\n"
-msgstr "  -v, --verbose          処理した各ファイルについて診断メッセージを出力する\n"
+msgstr ""
+"  -v, --verbose\n"
+"         データとメタデータのオペレーションについて具体的な情報を示す\n"
 
 #: src/shred.c:210
-#, fuzzy
-#| msgid ""
-#| "  -x, --exact\n"
-#| "         do not round file sizes up to the next full block;\n"
-#| "                   this is the default for non-regular files\n"
 msgid ""
 "  -x, --exact\n"
 "         do not round file sizes up to the next full block;\n"
 "         this is the default for non-regular files\n"
 msgstr ""
-"  -x, --exact    ブロックを満たすようにファイルサイズを切り上げない。通常\n"
-"                   ファイル以外ではこれがデフォルトの動作\n"
+"  -x, --exact\n"
+"         ブロックを満たすようにファイルサイズを切り上げない。通常\n"
+"         ファイル以外ではこれがデフォルトの動作\n"
 
 #: src/shred.c:215
 msgid ""
@@ -11245,14 +10873,12 @@ msgstr ""
 "\n"
 
 #: src/sort.c:437
-#, fuzzy
-#| msgid ""
-#| "  -b, --ignore-leading-blanks\n"
-#| "         ignore leading blanks\n"
 msgid ""
 "  -b, --ignore-leading-blanks\n"
 "         ignore leading blanks when finding sort keys in each line\n"
-msgstr "  -b, --ignore-leading-blanks  先頭の空白を無視する\n"
+msgstr ""
+"  -b, --ignore-leading-blanks\n"
+"         各行のソートキーを探している時、先頭の空白を無視する\n"
 
 #: src/sort.c:441
 msgid ""
@@ -11285,38 +10911,31 @@ msgid ""
 msgstr "  -M, --month-sort            月名でソートする。(不明) < 'JAN' < ... < 'DEC' の順\n"
 
 #: src/sort.c:461
-#, fuzzy
-#| msgid "  -h, --human-numeric-sort    compare human readable numbers (e.g., 2K 1G)\n"
 msgid ""
 "  -h, --human-numeric-sort\n"
 "         compare human readable numbers (e.g., 2K 1G)\n"
-msgstr "  -h, --human-numeric-sort    人間が読むことができる形式の数値を比較する (例: 2K 1G)\n"
+msgstr ""
+"  -h, --human-numeric-sort\n"
+"         人間が読むことができる形式の数値を比較する (例: 2K 1G)\n"
 
 #: src/sort.c:465
-#, fuzzy
-#| msgid ""
-#| "  -n, --numeric-sort\n"
-#| "         compare according to string numerical value;\n"
-#| "                                see full documentation for supported strings\n"
 msgid ""
 "  -n, --numeric-sort\n"
 "         compare according to string numerical value;\n"
 "         see full documentation for supported strings\n"
 msgstr ""
-"  -n, --numeric-sort          文字列を数値とみなして比較する\n"
-"                              対応のストリングスなら完全な文書を参考\n"
+"  -n, --numeric-sort\n"
+"         文字列を数値とみなして比較する\n"
+"         対応のストリングスなら完全な文書を参考\n"
 
 #: src/sort.c:470
-#, fuzzy
-#| msgid ""
-#| "  -R, --random-sort\n"
-#| "         shuffle, but group identical keys.  See shuf(1)\n"
 msgid ""
 "  -R, --random-sort\n"
 "         shuffle, but group identical keys.  See also shuf(1)\n"
 msgstr ""
-"  -R, --random-sort           シャッフルする。但し、同じキーはグルーピングされる。\n"
-"                                shuf(1) 参照。\n"
+"  -R, --random-sort\n"
+"         シャッフルする。但し、同じキーはグルーピングされる。\n"
+"         shuf(1) 参照。\n"
 
 #: src/sort.c:478
 msgid ""
@@ -11325,122 +10944,89 @@ msgid ""
 msgstr "  -r, --reverse               比較結果を逆順にする\n"
 
 #: src/sort.c:482
-#, fuzzy
-#| msgid ""
-#| "      --sort=WORD\n"
-#| "         sort according to WORD:\n"
-#| "                                general-numeric -g, human-numeric -h, month -M,\n"
-#| "                                numeric -n, random -R, version -V\n"
 msgid ""
 "      --sort=WORD\n"
 "         sort according to WORD:\n"
 "           general-numeric -g, human-numeric -h, month -M,\n"
 "           numeric -n, random -R, version -V\n"
 msgstr ""
-"      --sort=WORD             WORD に応じてソートする。WORD の候補は次の通り:\n"
-"                                general-numeric -g, human-numeric -h, month -M,\n"
-"                                numeric -n, random -R, version -V\n"
+"      --sort=WORD\n"
+"         WORD に応じてソートする。WORD の候補は次の通り:\n"
+"         general-numeric -g, human-numeric -h, month -M,\n"
+"         numeric -n, random -R, version -V\n"
 
 #: src/sort.c:488
-#, fuzzy
-#| msgid ""
-#| "  -V, --version-sort\n"
-#| "         natural sort of (version) numbers within text\n"
-#| "\n"
 msgid ""
 "  -V, --version-sort\n"
 "         natural sort of (version) numbers within text\n"
 msgstr ""
-"  -V, --version-sort          自然な (バージョン) 数字順でソートする\n"
-"\n"
+"  -V, --version-sort\n"
+"         自然な (バージョン) 数字順でソートする\n"
 
 #: src/sort.c:492
-#, fuzzy
-#| msgid ""
-#| "Other options:\n"
-#| "\n"
 msgid ""
 "\n"
 "Other options:\n"
 "\n"
 msgstr ""
+"\n"
 "そのほかのオプション:\n"
 "\n"
 
 #: src/sort.c:497
-#, fuzzy
-#| msgid ""
-#| "      --batch-size=NMERGE\n"
-#| "         merge at most NMERGE inputs at once;\n"
-#| "                            for more use temp files\n"
 msgid ""
 "      --batch-size=NMERGE\n"
 "         merge at most NMERGE inputs at once; for more use temp files\n"
 msgstr ""
-"      --batch-size=NMERGE   一度に最大 NMERGE 行、併合を行う。\n"
-"                            それ以上の場合は一時ファイルが使用される\n"
+"      --batch-size=NMERGE\n"
+"         一度に最大 NMERGE 行、併合を行う。\n"
+"         それ以上の場合は一時ファイルが使用される\n"
 
 #: src/sort.c:501
-#, fuzzy
-#| msgid "  -c, --check, --check=diagnose-first  check for sorted input; do not sort\n"
 msgid ""
 "  -c, --check, --check=diagnose-first\n"
 "         check for sorted input; do not sort\n"
 msgstr ""
-"  -c, --check, --check=diagnose-first  入力がソートされているかを確認する。\n"
-"                                         ソートは行わない\n"
+"  -c, --check, --check=diagnose-first\n"
+"         入力がソートされているかを確認する。\n"
+"         ソートは行わない\n"
 
 #: src/sort.c:505
-#, fuzzy
-#| msgid "  -C, --check=quiet, --check=silent  like -c, but do not report first bad line\n"
 msgid ""
 "  -C, --check=quiet, --check=silent\n"
 "         like -c, but do not report first bad line\n"
 msgstr ""
-"  -C, --check=quiet, --check=silent  -c と同様だが、正しくソートされていない\n"
-"                                       最初の行を出力しない\n"
+"  -C, --check=quiet, --check=silent\n"
+"         -c と同様だが、正しくソートされていない\n"
+"         最初の行を出力しない\n"
 
 #: src/sort.c:509
-#, fuzzy
-#| msgid ""
-#| "      --compress-program=PROG\n"
-#| "         compress temporaries with PROG;\n"
-#| "                              decompress them with PROG -d\n"
 msgid ""
 "      --compress-program=PROG\n"
 "         compress temporaries with PROG; decompress them with PROG -d\n"
 msgstr ""
-"      --compress-program=PROG  PROG を使用して一時ファイルを圧縮し、\n"
-"                                 PROG -d を使用して展開する\n"
+"      --compress-program=PROG\n"
+"         PROG を使用して一時ファイルを圧縮し、PROG -d を使用して展開する\n"
 
 #: src/sort.c:513
-#, fuzzy
-#| msgid ""
-#| "      --debug\n"
-#| "         annotate the part of the line used to sort, and\n"
-#| "                              warn about questionable usage to standard error\n"
 msgid ""
 "      --debug\n"
 "         annotate the part of the line used to sort,\n"
 "         and warn about questionable usage to standard error\n"
 msgstr ""
-"      --debug               ソートに使用されている行の一部に注釈をつけて、不確かな\n"
-"                              使用方法について標準エラー出力に警告を表示する\n"
+"      --debug\n"
+"         ソートに使用されている行の一部に注釈をつけて、不確かな\n"
+"         使用方法について標準エラー出力に警告を表示する\n"
 
 #: src/sort.c:518
-#, fuzzy
-#| msgid ""
-#| "      --files0-from=F\n"
-#| "         read input from the files specified by\n"
-#| "                           NUL-terminated names in file F;\n"
-#| "                           If F is - then read names from standard input\n"
 msgid ""
 "      --files0-from=F\n"
 "         read input from the files specified by NUL-terminated names in file F;\n"
 "         If F is -, read names from standard input\n"
 msgstr ""
-"      --files0-from=F    入力として NULL 文字で区切られたファイル F を使用\n"
-"                           する。F が - の場合は名前を標準入力から読み込む\n"
+"      --files0-from=F\n"
+"         入力として NULL 文字で区切られたファイル F を使用\n"
+"         する。F が - の場合は名前を標準入力から読み込む\n"
 
 #: src/sort.c:524
 msgid ""
@@ -11481,19 +11067,16 @@ msgid ""
 msgstr "  -t, --field-separator=SEP フィールド区切り文字として空白の代わりに SEP を使用する\n"
 
 #: src/sort.c:548
-#, fuzzy, c-format
-#| msgid ""
-#| "  -T, --temporary-directory=DIR\n"
-#| "         use DIR for temporaries, not $TMPDIR or %s;\n"
-#| "                              multiple options specify multiple directories\n"
+#, c-format
 msgid ""
 "  -T, --temporary-directory=DIR\n"
 "         use DIR for temporaries, not $TMPDIR or %s;\n"
 "         multiple options specify multiple directories\n"
 msgstr ""
-"  -T, --temporary-directory=DIR  一時ディレクトリとして $TMPDIR または %s ではなく\n"
-"                              DIR を使用する。オプションを複数指定すると、\n"
-"                              複数のディレクトリを指定できる\n"
+"  -T, --temporary-directory=DIR\n"
+"         一時ディレクトリとして $TMPDIR または %s ではなく\n"
+"         DIR を使用する。オプションを複数指定すると、\n"
+"         複数のディレクトリを指定できる\n"
 
 #: src/sort.c:553
 msgid ""
@@ -11502,18 +11085,13 @@ msgid ""
 msgstr "      --parallel=N          同時に実行するソートの数を N に変更する\n"
 
 #: src/sort.c:557
-#, fuzzy
-#| msgid ""
-#| "  -u, --unique\n"
-#| "         output only the first of lines with equal keys;\n"
-#| "                              with -c, check for strict ordering\n"
 msgid ""
 "  -u, --unique\n"
 "         output only the first of lines with equal keys;\n"
 "         with -c, check for strict ordering\n"
 msgstr ""
-"  -u, --unique              最初の同一行のみ出力する。\n"
-"                            -c と併せて使用した場合、厳密に順序を確認する。\n"
+"  -u, --unique\n"
+"         最初の同一行のみ出力する。-c と併せて使用した場合、厳密に順序を確認する。\n"
 
 #: src/sort.c:568
 msgid ""
@@ -11904,18 +11482,14 @@ msgid ""
 msgstr "  -n, --number=CHUNKS     作成する出力ファイル数を CHUNKS 個にする。下記の説明を参照\n"
 
 #: src/split.c:286
-#, fuzzy
-#| msgid ""
-#| "  -t, --separator=SEP\n"
-#| "         use SEP instead of newline as the record separator;\n"
-#| "                            '\\0' (zero) specifies the NUL character\n"
 msgid ""
 "  -t, --separator=SEP\n"
 "         use SEP instead of newline as the record separator;\n"
 "         '\\0' (zero) specifies the NUL character\n"
 msgstr ""
-"  -t, --separator=SEP     レコードの区切りとして改行ではなく SEP を使用する。\n"
-"                            '\\0' (zero) は NUL 文字を意味する\n"
+"  -t, --separator=SEP\n"
+"         レコードの区切りとして改行ではなく SEP を使用する。\n"
+"         '\\0' (zero) は NUL 文字を意味する\n"
 
 #: src/split.c:291
 msgid ""
@@ -11924,14 +11498,12 @@ msgid ""
 msgstr "  -u, --unbuffered        '-n r/...' を使用した時に、すぐに入力を出力にコピーする\n"
 
 #: src/split.c:295
-#, fuzzy
-#| msgid ""
-#| "      --verbose           print a diagnostic just before each\n"
-#| "                            output file is opened\n"
 msgid ""
 "      --verbose\n"
 "         print a diagnostic just before each output file is opened\n"
-msgstr "      --verbose           各出力ファイルを開く前に診断メッセージを表示する\n"
+msgstr ""
+"      --verbose\n"
+"         各出力ファイルを開く前に診断メッセージを表示する\n"
 
 #: src/split.c:302
 msgid ""
@@ -12224,50 +11796,37 @@ msgid ""
 msgstr "  -f, --file-system     ファイル情報ではなくファイルシステム情報を表示する\n"
 
 #: src/stat.c:1770
-#, fuzzy
-#| msgid ""
-#| "      --cached=MODE\n"
-#| "         specify how to use cached attributes;\n"
-#| "                          useful on remote file systems. See MODE below\n"
 msgid ""
 "      --cached=MODE\n"
 "         specify how to use cached attributes;\n"
 "         useful on remote file systems. See MODE below\n"
 msgstr ""
-"      --cached=MODE     キャッシュされた属性の使用方法を指定する;\n"
-"                          リモートファイルシステムの場合に役立つ;\n"
-"                          下記の MODE を参照\n"
+"      --cached=MODE\n"
+"         キャッシュされた属性の使用方法を指定する;\n"
+"         リモートファイルシステムの場合に役立つ;\n"
+"         下記の MODE を参照\n"
 
 #: src/stat.c:1775
-#, fuzzy
-#| msgid ""
-#| "  -c\n"
-#| "         --format=FORMAT   use the specified FORMAT instead of the default;\n"
-#| "                          output a newline after each use of FORMAT\n"
 msgid ""
 "  -c, --format=FORMAT\n"
 "         use the specified FORMAT instead of the default;\n"
 "         output a newline after each use of FORMAT\n"
 msgstr ""
-"  -c  --format=FORMAT   デフォルトの代わりに FORMAT で指定した書式で表示する。\n"
-"                          FORMAT が適用後には改行文字を毎回出力する\n"
+"  -c  --format=FORMAT\n"
+"         デフォルトの代わりに FORMAT で指定した書式で表示する。\n"
+"         FORMAT が適用後には改行文字を毎回出力する\n"
 
 #: src/stat.c:1780
-#, fuzzy
-#| msgid ""
-#| "      --printf=FORMAT\n"
-#| "         like --format, but interpret backslash escapes,\n"
-#| "                          and do not output a mandatory trailing newline;\n"
-#| "                          if you want a newline, include \\n in FORMAT\n"
 msgid ""
 "      --printf=FORMAT\n"
 "         like --format, but interpret backslash escapes,\n"
 "         and do not output a mandatory trailing newline;\n"
 "         if you want a newline, include \\n in FORMAT\n"
 msgstr ""
-"      --printf=FORMAT   --format と同様だが、バックスラッシュによるエスケープを\n"
-"                          解釈し、最後に改行文字を出力しない。改行が必要な場合は\n"
-"                          FORMAT に \\n を含める必要がある\n"
+"      --printf=FORMAT\n"
+"         --format と同様だが、バックスラッシュによるエスケープを\n"
+"         解釈し、最後に改行文字を出力しない。改行が必要な場合は\n"
+"         FORMAT に \\n を含める必要がある\n"
 
 #: src/stat.c:1786
 msgid ""
@@ -13252,20 +12811,20 @@ msgstr ""
 "シェルの文書を参照してオプションなどの詳細を確認してください。\n"
 
 #: src/system.h:378
-#, fuzzy
-#| msgid "      --help        display this help and exit\n"
 msgid ""
 "      --help\n"
 "         display this help and exit\n"
-msgstr "      --help       使い方を表示して終了する\n"
+msgstr ""
+"      --help\n"
+"         使い方を表示して終了する\n"
 
 #: src/system.h:380
-#, fuzzy
-#| msgid "      --version     output version information and exit\n"
 msgid ""
 "      --version\n"
 "         output version information and exit\n"
-msgstr "      --version    バージョン情報を表示して終了する\n"
+msgstr ""
+"      --version\n"
+"         バージョン情報を表示して終了する\n"
 
 #: src/system.h:743
 msgid ""
@@ -13379,30 +12938,20 @@ msgstr ""
 "\n"
 
 #: src/system.h:822
-#, fuzzy
-#| msgid ""
-#| "  -H\n"
-#| "         if a command line argument is a symbolic link\n"
-#| "                         to a directory, traverse it\n"
 msgid ""
 "  -H\n"
 "         if a command line argument is a symlink to a directory, traverse it\n"
 msgstr ""
-"  -H                     コマンドライン引数がディレクトリに対するシンボ\n"
-"                         リックリンクの場合に、リンクを辿る\n"
+"  -H\n"
+"         コマンドライン引数がディレクトリに対するシンボリックリンクの場合に、リンクを辿る\n"
 
 #: src/system.h:826
-#, fuzzy
-#| msgid ""
-#| "  -L\n"
-#| "         traverse every symbolic link to a directory\n"
-#| "                         encountered\n"
 msgid ""
 "  -L\n"
 "         traverse every symbolic link to a directory encountered\n"
 msgstr ""
-"  -L                     ディレクトリに対するシンボリックリンクに遭遇した\n"
-"                         時には、そのリンクを全て辿る\n"
+"  -L\n"
+"         ディレクトリに対するシンボリックリンクに遭遇した時には、そのリンクを全て辿る\n"
 
 #: src/system.h:830
 msgid ""
@@ -13543,41 +13092,32 @@ msgstr ""
 "た場合、ファイル名がヘッダ情報として出力されます。\n"
 
 #: src/tail.c:295
-#, fuzzy
-#| msgid ""
-#| "  -c, --bytes=[+]NUM\n"
-#| "         output the last NUM bytes; or use -c +NUM to\n"
-#| "                             output starting with byte NUM of each file\n"
 msgid ""
 "  -c, --bytes=[+]NUM\n"
 "         output the last NUM bytes;\n"
 "         or use -c +NUM to output starting with byte NUM of each file\n"
 msgstr ""
-"  -c, --bytes=[+]NUM       最後の NUM バイトを出力する。 -c +NUM の場合は、\n"
-"                           各ファイルの先頭から NUM 番目のバイト以降を出力する\n"
+"  -c, --bytes=[+]NUM\n"
+"         最後の NUM バイトを出力する。 -c +NUM の場合は、\n"
+"         各ファイルの先頭から NUM 番目のバイト以降を出力する\n"
 
 #: src/tail.c:300
-#, fuzzy
-#| msgid "      --debug           indicate which implementation used\n"
 msgid ""
 "      --debug\n"
 "         indicate which --follow implementation is used\n"
-msgstr "      --debug           どの実装が使用されたかを表示する\n"
+msgstr ""
+"      --debug\n"
+"         どの --follow の実装が使用されたかを表示する\n"
 
 #: src/tail.c:304
-#, fuzzy
-#| msgid ""
-#| "  -f, --follow[={name|descriptor}]\n"
-#| "                           output appended data as the file grows;\n"
-#| "                             an absent option argument means 'descriptor'\n"
 msgid ""
 "  -f, --follow[={name|descriptor}]\n"
 "         output appended data as the file grows;\n"
 "         an absent option argument means 'descriptor'\n"
 msgstr ""
 "  -f, --follow[={name|descriptor}]\n"
-"                           ファイルが大きくなるのに合わせて追加されたデータを出力する。\n"
-"                           オプションの引数が指定されなかった場合は 'descriptor' になる\n"
+"         ファイルが大きくなるのに合わせて追加されたデータを出力する。\n"
+"         オプションの引数が指定されなかった場合は 'descriptor' になる\n"
 
 #: src/tail.c:309
 msgid ""
@@ -13586,28 +13126,18 @@ msgid ""
 msgstr "  -F                       --follow=name --retry と等価\n"
 
 #: src/tail.c:313
-#, fuzzy, c-format
-#| msgid ""
-#| "  -n, --lines=[+]NUM\n"
-#| "         output the last NUM lines, instead of the last %d;\n"
-#| "                             or use -n +NUM to skip NUM-1 lines at the start\n"
+#, c-format
 msgid ""
 "  -n, --lines=[+]NUM\n"
 "         output the last NUM lines, instead of the last %d;\n"
 "         or use -n +NUM to skip NUM-1 lines at the start\n"
 msgstr ""
-"  -n, --lines=[+]NUM       最後の %d 行ではなく最後の NUM 行を出力する。\n"
-"                           -n +NUM の場合は、先頭の NUM-1 行をスキップする\n"
+"  -n, --lines=[+]NUM\n"
+"         最後の %d 行ではなく最後の NUM 行を出力する。\n"
+"         -n +NUM の場合は、先頭の NUM-1 行をスキップする\n"
 
 #: src/tail.c:318
-#, fuzzy, c-format
-#| msgid ""
-#| "      --max-unchanged-stats=N\n"
-#| "                           with --follow=name, reopen a FILE which has not\n"
-#| "                             changed size after N (default %d) iterations\n"
-#| "                             to see if it has been unlinked or renamed\n"
-#| "                             (this is the usual case of rotated log files);\n"
-#| "                             with inotify, this option is rarely useful\n"
+#, c-format
 msgid ""
 "      --max-unchanged-stats=N\n"
 "         with --follow=name, reopen a FILE which has not\n"
@@ -13617,32 +13147,29 @@ msgid ""
 "         with inotify, this option is rarely useful\n"
 msgstr ""
 "      --max-unchanged-stats=N\n"
-"                           --follow=name と併せて使用し、N 回 (デフォルトでは %d 回)\n"
-"                             stat を繰り返してもファイルサイズが変わっていない場合は、\n"
-"                             ファイルの削除や名前の変更が行われていないかを確認するために\n"
-"                             FILE を再オープンする (ログファイルがローテートされた時には\n"
-"                             通常このような状態になります)。 inotify と併せて使う場合、\n"
-"                             このオプションが役に立つことはほとんどない\n"
+"          --follow=name と併せて使用し、N 回 (デフォルトでは %d 回)\n"
+"         stat を繰り返してもファイルサイズが変わっていない場合は、\n"
+"         ファイルの削除や名前の変更が行われていないかを確認するために\n"
+"         FILE を再オープンする (ログファイルがローテートされた時には\n"
+"         通常このような状態になります)。 inotify と併せて使う場合、\n"
+"         このオプションが役に立つことはほとんどない\n"
 
 #: src/tail.c:326
-#, fuzzy
-#| msgid ""
-#| "      --pid=PID\n"
-#| "         with -f, exit after PID no longer exists;\n"
-#| "                             can be repeated to watch multiple processes\n"
 msgid ""
 "      --pid=PID\n"
 "         with -f, exit after PID no longer exists;\n"
 "         can be repeated to watch multiple processes\n"
-msgstr "      --pid=PID            -f と併せて使用し、プロセス ID （PID）が                             存在がしなくなると終了する\n"
+msgstr ""
+"      --pid=PID\n"
+"         -f と併せて使用し、プロセス ID （PID）が存在がしなくなると終了する\n"
 
 #: src/tail.c:331
-#, fuzzy
-#| msgid "  -q, --quiet, --silent    never output headers giving file names\n"
 msgid ""
 "  -q, --quiet, --silent\n"
 "         never output headers giving file names\n"
-msgstr "  -q, --quiet, --silent    指定したファイル名を示すヘッダを出力しない\n"
+msgstr ""
+"  -q, --quiet, --silent\n"
+"         指定したファイル名を示すヘッダを出力しない\n"
 
 #: src/tail.c:335
 msgid ""
@@ -13653,13 +13180,6 @@ msgstr ""
 "                             継続して試みる。\n"
 
 #: src/tail.c:339
-#, fuzzy
-#| msgid ""
-#| "  -s, --sleep-interval=N\n"
-#| "         with -f, sleep for approximately N seconds\n"
-#| "                             (default 1.0) between iterations;\n"
-#| "                             with inotify and --pid=P, check process P at\n"
-#| "                             least once every N seconds\n"
 msgid ""
 "  -s, --sleep-interval=N\n"
 "         with -f, sleep for approximately N seconds\n"
@@ -13667,10 +13187,11 @@ msgid ""
 "         with inotify and --pid=P,\n"
 "         check process P at least once every N seconds\n"
 msgstr ""
-"  -s, --sleep-interval=N   -f と併せて使用し、繰り返しの間隔を約 N 秒\n"
-"                             (デフォルト: 1.0 秒) に設定する。\n"
-"                             inotify および --pid=P と併せて使用した場合、\n"
-"                             最低 N 秒間に 1 回、プロセス P の確認を行う。\n"
+"  -s, --sleep-interval=N\n"
+"         -f と併せて使用し、繰り返しの間隔を約 N 秒\n"
+"         (デフォルト: 1.0 秒) に設定する。\n"
+"         inotify および --pid=P と併せて使用した場合、\n"
+"         最低 N 秒間に 1 回、プロセス P の確認を行う。\n"
 
 #: src/tail.c:346
 msgid ""
@@ -14278,12 +13799,6 @@ msgid "Start COMMAND, and kill it if still running after DURATION.\n"
 msgstr "COMMAND を開始し、DURATION 経過後も実行中の場合は終了させます。\n"
 
 #: src/timeout.c:279
-#, fuzzy
-#| msgid ""
-#| "  -f, --foreground\n"
-#| "                 when not running timeout directly from a shell prompt,\n"
-#| "                   allow COMMAND to read from the TTY and get TTY signals;\n"
-#| "                   in this mode, children of COMMAND will not be timed out\n"
 msgid ""
 "  -f, --foreground\n"
 "         when not running timeout directly from a shell prompt,\n"
@@ -14291,47 +13806,31 @@ msgid ""
 "         in this mode, children of COMMAND will not be timed out\n"
 msgstr ""
 "  -f, --foreground\n"
-"                 シェルプロンプトから直接実行されていない場合、COMMAND\n"
-"                 が TTY から読み込みを行い、TTY シグナルを受信できるようにする。\n"
-"                 このモードでは COMMAND の子プロセスはタイムアウトしない。\n"
+"         シェルプロンプトから直接実行されていない場合、COMMAND\n"
+"         が TTY から読み込みを行い、TTY シグナルを受信できるようにする。\n"
+"         このモードでは COMMAND の子プロセスはタイムアウトしない。\n"
 
 #: src/timeout.c:285
-#, fuzzy
-#| msgid ""
-#| "  -k, --kill-after=DURATION\n"
-#| "                 also send a KILL signal if COMMAND is still running\n"
-#| "                   this long after the initial signal was sent\n"
 msgid ""
 "  -k, --kill-after=DURATION\n"
 "         also send a KILL signal if COMMAND is still running\n"
 "         this long after the initial signal was sent\n"
 msgstr ""
 "  -k, --kill-after=DURATION\n"
-"                   最初にシグナルを送ってから DURATION を経過しても COMMAND \n"
-"                   がまだ動作している場合は KILL シグナルを送る。\n"
+"         最初にシグナルを送ってから DURATION を経過しても COMMAND \n"
+"         がまだ動作している場合は KILL シグナルを送る。\n"
 
 #: src/timeout.c:290
-#, fuzzy
-#| msgid ""
-#| "  -p, --preserve-status\n"
-#| "                 exit with the same status as COMMAND,\n"
-#| "                   even when the command times out\n"
 msgid ""
 "  -p, --preserve-status\n"
 "         exit with the same status as COMMAND,\n"
 "         even when the command times out\n"
 msgstr ""
 "  -p, --preserve-status\n"
-"                 コマンドがタイムアウトした場合であっても、\n"
-"                 COMMAND の終了ステータスを返す\n"
+"         コマンドがタイムアウトした場合であっても、\n"
+"         COMMAND の終了ステータスを返す\n"
 
 #: src/timeout.c:295
-#, fuzzy
-#| msgid ""
-#| "  -s, --signal=SIGNAL\n"
-#| "                 specify the signal to be sent on timeout;\n"
-#| "                   SIGNAL may be a name like 'HUP' or a number;\n"
-#| "                   see 'kill -l' for a list of signals\n"
 msgid ""
 "  -s, --signal=SIGNAL\n"
 "         specify the signal to be sent on timeout;\n"
@@ -14339,17 +13838,17 @@ msgid ""
 "         see 'kill -l' for a list of signals\n"
 msgstr ""
 "  -s, --signal=SIGNAL\n"
-"                   タイムアウト時に送るシグナルを指定する。SIGNAL には\n"
-"                   'HUP' のようなシグナル名かシングル番号を使用可能。\n"
-"                   シグナル一覧については 'kill -l' を参照\n"
+"         タイムアウト時に送るシグナルを指定する。SIGNAL には\n"
+"         'HUP' のようなシグナル名かシングル番号を使用可能。\n"
+"         シグナル一覧については 'kill -l' を参照\n"
 
 #: src/timeout.c:301
-#, fuzzy
-#| msgid "  -v, --verbose  diagnose to standard error any signal sent upon timeout\n"
 msgid ""
 "  -v, --verbose\n"
 "         diagnose to standard error any signal sent upon timeout\n"
-msgstr "  -v, --verbose  タイムアウト時に送信されたシグナル情報を標準エラーに出力する\n"
+msgstr ""
+"  -v, --verbose\n"
+"         タイムアウト時に送信されたシグナル情報を標準エラーに出力する\n"
 
 #: src/timeout.c:309
 msgid ""
@@ -14499,20 +13998,15 @@ msgid ""
 msgstr "  -f                     (無視される)\n"
 
 #: src/touch.c:245
-#, fuzzy
-#| msgid ""
-#| "  -h, --no-dereference\n"
-#| "         affect each symbolic link instead of any referenced\n"
-#| "                         file (useful only on systems that can change the\n"
-#| "                         timestamps of a symlink)\n"
 msgid ""
 "  -h, --no-dereference\n"
 "         affect each symbolic link instead of any referenced file;\n"
 "         useful only on systems that can change the timestamps of a symlink\n"
 msgstr ""
-"  -h, --no-dereference   シンボリックリンク参照先ではなくシンボリック自体に\n"
-"                         影響を与える (シンボリックリンクのタイムスタンプを\n"
-"                         変更できるシステムのみ有効)\n"
+"  -h, --no-dereference\n"
+"         シンボリックリンク参照先ではなくシンボリック自体に\n"
+"         影響を与える。シンボリックリンクのタイムスタンプを\n"
+"         変更できるシステムのみ有効。\n"
 
 #: src/touch.c:250
 msgid ""
@@ -14527,34 +14021,26 @@ msgid ""
 msgstr "  -r, --reference=FILE   現在時刻の代わりに FILE のタイムスタンプを使用する\n"
 
 #: src/touch.c:258
-#, fuzzy
-#| msgid ""
-#| "  -t [[CC]YY]MMDDhhmm[.ss]  use specified time instead of current time,\n"
-#| "                         with a date-time format that differs from -d's\n"
 msgid ""
 "  -t [[CC]YY]MMDDhhmm[.ss]\n"
 "         use specified time instead of current time,\n"
 "         with a date-time format that differs from -d's\n"
 msgstr ""
-"  -t [[CC]YY]MMDDhhmm[.ss]   -d の時間の形式と異なる形式で\n"
-"                         現在の時間の代わりに指定された時間を使う\n"
+"  -t [[CC]YY]MMDDhhmm[.ss]\n"
+"         -d の時間の形式と異なる形式で\n"
+"         現在の時間の代わりに指定された時間を使う\n"
 
 #: src/touch.c:263
-#, fuzzy
-#| msgid ""
-#| "      --time=WORD\n"
-#| "         specify which time to change:\n"
-#| "                           access time (-a): 'access', 'atime', 'use';\n"
-#| "                           modification time (-m): 'modify', 'mtime'\n"
 msgid ""
 "      --time=WORD\n"
 "         specify which time to change:\n"
 "         access time (-a): 'access', 'atime', 'use';\n"
 "         modification time (-m): 'modify', 'mtime'\n"
 msgstr ""
-"      --time=WORD        どのようなタイムスタンプを変更するかを設定する:\n"
-"                           アクセス時間 (-a): 'access', 'atime', 'use';\n"
-"                           ファイルの更新時間 (-m): 'modify', 'mtime'\n"
+"      --time=WORD\n"
+"         どのようなタイムスタンプを変更するかを設定する:\n"
+"         アクセス時間 (-a): 'access', 'atime', 'use';\n"
+"         ファイルの更新時間 (-m): 'modify', 'mtime'\n"
 
 #: src/touch.c:352
 #, c-format
@@ -14583,12 +14069,12 @@ msgstr ""
 "\n"
 
 #: src/tr.c:295
-#, fuzzy
-#| msgid "  -c, -C, --complement    use the complement of ARRAY1\n"
 msgid ""
 "  -c, -C, --complement\n"
 "         use the complement of ARRAY1\n"
-msgstr "  -c, --complement        ARRAY1 の補集合を使用する\n"
+msgstr ""
+"  -c, --complement\n"
+"         ARRAY1 の補集合を使用する\n"
 
 #: src/tr.c:299
 msgid ""
@@ -14597,20 +14083,15 @@ msgid ""
 msgstr "  -d, --delete            ARRAY1 中の文字を削除する。置換は行わない\n"
 
 #: src/tr.c:303
-#, fuzzy
-#| msgid ""
-#| "  -s, --squeeze-repeats\n"
-#| "         replace each sequence of a repeated character\n"
-#| "                            that is listed in the last specified ARRAY,\n"
-#| "                            with a single occurrence of that character\n"
 msgid ""
 "  -s, --squeeze-repeats\n"
 "         replace each sequence of a repeated character\n"
 "         that is listed in the last specified ARRAY,\n"
 "         with a single occurrence of that character\n"
 msgstr ""
-"  -s, --squeeze-repeats   最後に指定された ARRAY に含まれる 1 つの文字が連続\n"
-"                            している場合、1 個に置換する\n"
+"  -s, --squeeze-repeats\n"
+"         最後に指定された ARRAY に含まれる 1 つの文字が連続\n"
+"         している場合、1 個に置換する\n"
 
 #: src/tr.c:309
 msgid ""
@@ -14690,15 +14171,6 @@ msgstr ""
 "  [=CHAR=]        全ての CHAR と等価な文字\n"
 
 #: src/tr.c:350
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Translation occurs if -d is not given and both STRING1 and STRING2 appear.\n"
-#| "-t is only significant when translating.  ARRAY2 is extended to length of\n"
-#| "ARRAY1 by repeating its last character as necessary.  Excess characters\n"
-#| "of ARRAY2 are ignored.  Character classes expand in unspecified order;\n"
-#| "while translating, [:lower:] and [:upper:] may be used in pairs to\n"
-#| "specify case conversion.  Squeezing occurs after translation or deletion.\n"
 msgid ""
 "\n"
 "Translation occurs if -d is not given and both STRING1 and STRING2 appear.\n"
@@ -14714,9 +14186,9 @@ msgstr ""
 "された場合です。 -t が意味を持つのは置換の時のみです。 ARRAY2 は必要に応じて\n"
 "ARRAY1 の長さまで拡張されます。その場合は ARRAY1 の最後の文字が使用されます。\n"
 "ARRAY2 の ARRAY1 より長い部分の文字は無視されます。文字クラスの展開の順序は\n"
-"規定されていません。置換の際、 '[:lower:]'' と '[:upper:]'' を対として使用することで、\n"
+"規定されていません。置換の際、 '[:lower:]' と '[:upper:]' を対として使用することで、\n"
 "大文字、小文字の変換を行なえます。切り詰めは、置換や削除の後に行われます。\n"
-"'[...]' のような引数はシェルのグロッブを防ぐため、引用されるべきです。"
+"'[...]' のような引数はシェルのグロッブを防ぐため、引用されるべきです。\n"
 
 #: src/tr.c:519
 #, c-format
@@ -14991,12 +14463,12 @@ msgstr ""
 "\n"
 
 #: src/tty.c:70
-#, fuzzy
-#| msgid "  -s, --silent, --quiet   print nothing, only return an exit status\n"
 msgid ""
 "  -s, --silent, --quiet\n"
 "         print nothing, only return an exit status\n"
-msgstr "  -s, --silent, --quiet   何も出力しない。終了ステータスのみ返す\n"
+msgstr ""
+"  -s, --silent, --quiet\n"
+"         何も出力しない。終了ステータスのみ返す\n"
 
 #: src/tty.c:130
 #, c-format
@@ -15016,10 +14488,6 @@ msgstr ""
 "\n"
 
 #: src/uname.c:122
-#, fuzzy
-#| msgid ""
-#| "  -a, --all                print all information, in the following order,\n"
-#| "                             except omit -p and -i if unknown:\n"
 msgid ""
 "  -a, --all                print all information, in the following order,\n"
 "                             except omit -p and -i if unknown\n"
@@ -15136,41 +14604,32 @@ msgid ""
 msgstr "  -D                    重複する行を全て出力する\n"
 
 #: src/uniq.c:183
-#, fuzzy
-#| msgid ""
-#| "      --all-repeated[=METHOD]\n"
-#| "         like -D, but allow separating groups\n"
-#| "                                 with an empty line;\n"
-#| "                                 METHOD={none(default),prepend,separate}\n"
 msgid ""
 "      --all-repeated[=METHOD]\n"
 "         like -D, but allow separating groups with an empty line;\n"
 "         METHOD={none(default),prepend,separate}\n"
 msgstr ""
-"      --all-repeated[=METHOD]  -D と同様ですが、重複行のグループの区切り方法を指定できる\n"
-"                                 METHOD={none(デフォルト),prepend,separate}\n"
+"      --all-repeated[=METHOD]\n"
+"         -D と同様ですが、重複行のグループの区切り方法を指定できる\n"
+"         METHOD={none(デフォルト),prepend,separate}\n"
 
 #: src/uniq.c:188
-#, fuzzy
-#| msgid "  -f, --skip-fields=N   avoid comparing the first N fields\n"
 msgid ""
 "  -f, --skip-fields=N\n"
 "         avoid comparing the first N fields\n"
-msgstr "  -f, --skip-fields=N   最初の N 個のフィールドを比較しない\n"
+msgstr ""
+"  -f, --skip-fields=N\n"
+"         最初の N 個のフィールドを比較しない\n"
 
 #: src/uniq.c:192
-#, fuzzy
-#| msgid ""
-#| "      --group[=METHOD]\n"
-#| "         show all items, separating groups with an empty line;\n"
-#| "                          METHOD={separate(default),prepend,append,both}\n"
 msgid ""
 "      --group[=METHOD]\n"
 "         show all items, separating groups with an empty line;\n"
 "         METHOD={separate(default),prepend,append,both}\n"
 msgstr ""
-"      --group[=METHOD]  すべての行を表示し、グループ間に区切りとして空行が置かれる\n"
-"                          METHOD={separate(デフォルト),prepend,append,both}\n"
+"      --group[=METHOD]\n"
+"         すべての行を表示し、グループ間に区切りとして空行が置かれる\n"
+"         METHOD={separate(デフォルト),prepend,append,both}\n"
 
 #: src/uniq.c:197
 msgid ""
@@ -15191,12 +14650,12 @@ msgid ""
 msgstr "  -u, --unique          重複していない行のみ出力する\n"
 
 #: src/uniq.c:213
-#, fuzzy
-#| msgid "  -w, --check-chars=N   compare no more than N characters in lines\n"
 msgid ""
 "  -w, --check-chars=N\n"
 "         compare no more than N characters in lines\n"
-msgstr "  -w, --check-chars=N   行の比較を最初の N 文字で行う\n"
+msgstr ""
+"  -w, --check-chars=N\n"
+"         行の比較を最初の N 文字で行う\n"
 
 #: src/uniq.c:219
 msgid ""
@@ -15406,20 +14865,15 @@ msgid ""
 msgstr "      --debug           どの実装が使用されたかを表示する\n"
 
 #: src/wc.c:223
-#, fuzzy
-#| msgid ""
-#| "      --files0-from=F\n"
-#| "         read input from the files specified by\n"
-#| "                           NUL-terminated names in file F;\n"
-#| "                           If F is - then read names from standard input\n"
 msgid ""
 "      --files0-from=F\n"
 "         read input from the files specified by\n"
 "         NUL-terminated names in file F;\n"
 "         If F is -, read names from standard input\n"
 msgstr ""
-"      --files0-from=F    入力として NULL 文字で区切られたファイル F を使用\n"
-"                           する。F が - の場合は名前を標準入力から読み込む\n"
+"      --files0-from=F\n"
+"         入力として NULL 文字で区切られたファイル F を使用\n"
+"         する。F が - の場合は名前を標準入力から読み込む\n"
 
 #: src/wc.c:229
 msgid ""
@@ -15434,18 +14888,14 @@ msgid ""
 msgstr "  -w, --words            単語数を表示する\n"
 
 #: src/wc.c:237
-#, fuzzy
-#| msgid ""
-#| "      --total=WHEN\n"
-#| "         when to print a line with total counts;\n"
-#| "                           WHEN can be: auto, always, only, never\n"
 msgid ""
 "      --total=WHEN\n"
 "         when to print a line with total counts;\n"
 "         WHEN can be: auto, always, only, never\n"
 msgstr ""
-"      --total=WHEN       合計カウントの行をいつ出力するか\n"
-"                           WHEN に指定できるのは auto, always, only, never\n"
+"      --total=WHEN\n"
+"         合計カウントの行をいつ出力するか\n"
+"         WHEN に指定できるのは auto, always, only, never\n"
 
 #: src/wc.c:1011
 #, c-format
