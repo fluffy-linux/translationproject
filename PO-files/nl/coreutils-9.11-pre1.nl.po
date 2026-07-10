@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: coreutils 9.11-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2026-04-16 20:40+0100\n"
-"PO-Revision-Date: 2026-06-23 16:00+0200\n"
+"PO-Revision-Date: 2026-07-10 11:56+0200\n"
 "Last-Translator: Benno Schulenberg <vertaling@coevern.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -93,15 +93,15 @@ msgstr "door"
 
 #: lib/c-file-type.c:81
 msgid "multiplexed block special file"
-msgstr "gemultiplexed blok-apparaat"
+msgstr "gemultiplext blok-apparaat"
 
 #: lib/c-file-type.c:84
 msgid "multiplexed character special file"
-msgstr "gemultiplexed byte-apparaat"
+msgstr "gemultiplext byte-apparaat"
 
 #: lib/c-file-type.c:87
 msgid "multiplexed file"
-msgstr "gemultiplexed bestand"
+msgstr "gemultiplext bestand"
 
 #: lib/c-file-type.c:90
 msgid "named file"
@@ -2124,7 +2124,7 @@ msgstr "ongeldige lengte"
 #: src/cksum.c:1706
 #, c-format
 msgid "--length is only supported with --algorithm blake2b, sha2, or sha3"
-msgstr "optie '--length' wordt alleen ondersteund met algotimes blake2b, sha2, of sha3"
+msgstr "optie '--length' wordt alleen ondersteund met algoritmes blake2b, sha2, of sha3"
 
 #: src/cksum.c:1712
 #, c-format
@@ -3021,7 +3021,7 @@ msgstr ""
 "\n"
 "Standaard (of met '--reflink=auto') probeert 'cp' een lichtgewicht kopieeroperatie\n"
 "uit te voeren, waar datablokken alleen gekopieerd worden als ze worden gewijzigd.\n"
-"Als dat niet mogelijk is, dan wordt teruggevallen op standaard kopieëren.  Met\n"
+"Als dat niet mogelijk is, dan wordt teruggevallen op standaard kopiëren.  Met\n"
 "'--reflink[=always]' mislukt het kopiëren als kopiëren-bij-wijzigen (Cow) niet\n"
 "ondersteund wordt, terwijl '--reflink=never' standaard kopiëren afdwingt.\n"
 
@@ -8642,7 +8642,7 @@ msgid ""
 "  c          printable character or backslash escape\n"
 msgstr ""
 "\n"
-"TYPE bestaat uit één of meer van de volgende aanduidigen:\n"
+"TYPE bestaat uit één of meer van de volgende aanduidingen:\n"
 "  a          tekennaam, het hoogste bit negerend\n"
 "  c          ASCII-teken of backslash-code\n"
 
@@ -12710,7 +12710,7 @@ msgid ""
 msgstr ""
 "\n"
 "Het reservekopie-achtervoegsel is '~', tenzij anders ingesteld met '--suffix'\n"
-"of via omgevingsvariable SIMPLE_BACKUP_SUFFIX.  Het versiebeheer kan worden\n"
+"of via omgevingsvariabele SIMPLE_BACKUP_SUFFIX.  Het versiebeheer kan worden\n"
 "ingesteld met de optie '--backup' of via omgevingsvariabele VERSION_CONTROL;\n"
 "dit zijn de mogelijke waarden (methodes):\n"
 "\n"
@@ -15972,7 +15972,7 @@ msgstr ""
 #~ "  -x, --one-file-system   mappen op andere bestandssystemen overslaan\n"
 #~ "  -X, --exclude-from=LST  bestanden uitsluiten die overeenkomen met een\n"
 #~ "                          patroon uit het bestand LST\n"
-#~ "      --exclude=PATROON   bestanden uitluiten die overeenkomen met PATROON\n"
+#~ "      --exclude=PATROON   bestanden uitsluiten die overeenkomen met PATROON\n"
 #~ "  -d, --max-depth=GETAL   het totaal voor een map of bestand alleen tonen als\n"
 #~ "                          deze GETAL of minder niveaus onder het begin ligt;\n"
 #~ "                          '--max-depth=0' is hetzelfde als '--summarize'\n"
