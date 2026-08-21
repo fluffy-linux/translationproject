@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: GNU coreutils 9.11-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2026-04-16 20:40+0100\n"
-"PO-Revision-Date: 2026-07-22 16:00+0900\n"
+"PO-Revision-Date: 2026-08-21 16:00+0900\n"
 "Last-Translator: Zachary Winnerman <zacharyw09264@gmail.com>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "Language: ja\n"
@@ -153,7 +153,7 @@ msgstr "不明なシステムエラー"
 
 #: lib/gai_strerror.c:57
 msgid "Address family for hostname not supported"
-msgstr "ホスト名に対する Address family がサポートされていません。"
+msgstr "ホスト名に対するアドレスファミリーがサポートされていません。"
 
 #: lib/gai_strerror.c:58
 msgid "Temporary failure in name resolution"
@@ -777,7 +777,7 @@ msgstr ""
 #, c-format
 msgid "Report bugs to: %s\n"
 msgstr ""
-"バグを発見したら <%s> に報告して下さい。\n"
+"バグのレポートは <%s> までお寄せ下さい。\n"
 "翻訳に関するバグは<translation-team-ja@lists.sourceforge.net>に報告してください。\n"
 
 #: lib/version-etc.c:250
@@ -793,7 +793,7 @@ msgstr "%s のホームページ: <%s>\n"
 #: lib/version-etc.c:259
 #, c-format
 msgid "General help using GNU software: <%s>\n"
-msgstr "GNU ソフトウェアを使用する際の一般的なヘルプ: <%s>\n"
+msgstr "一般的な GNU ソフトウェア使用に関するヘルプは: <%s>\n"
 
 #: lib/xbinary-io.c:35
 #, c-format
@@ -965,7 +965,7 @@ msgid ""
 "         file- and url-safe base64 (RFC4648 section 5)\n"
 msgstr ""
 "      --base64url\n"
-"         ファイル名と URL で使えるアルファベットを使った base64\n"
+"         ファイル名と URL で安全に使える英数字を使った base64\n"
 "         (RFC4648 section 5)\n"
 
 #: src/basenc.c:128
@@ -1280,8 +1280,8 @@ msgid ""
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
 "使用法: %s [OPTION]... CONTEXT FILE...\n"
-"または:  %s [OPTION]... [-u USER] [-r ROLE] [-l RANGE] [-t TYPE] FILE...\n"
-"または:  %s [OPTION]... --reference=RFILE FILE...\n"
+"または: %s [OPTION]... [-u USER] [-r ROLE] [-l RANGE] [-t TYPE] FILE...\n"
+"または: %s [OPTION]... --reference=RFILE FILE...\n"
 
 #: src/chcon.c:360
 msgid ""
@@ -1722,8 +1722,8 @@ msgid ""
 msgstr ""
 "\n"
 "例:\n"
-"  %s staff /u      /u のグループを \"staff\" に変更する。\n"
-"  %s -hR staff /u  /u とその配下のファイルのグループを \"staff\" に変更する。\n"
+"  %s staff /u      /u のグループを \"staff\" に変更します。\n"
+"  %s -hR staff /u  /u とその配下のファイルのグループを \"staff\" に変更します。\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/chroot.c:37
@@ -1875,7 +1875,7 @@ msgstr "%s チェックサムを表示または照合します。\n"
 
 #: src/cksum.c:504 src/cksum.c:519
 msgid "Legacy interface to the cksum utility.\n"
-msgstr ""
+msgstr "cksum ユーティリティへの旧形式インタフェース。\n"
 
 #: src/cksum.c:509
 msgid ""
@@ -1912,7 +1912,7 @@ msgid ""
 "         select the digest type to use.  See DIGEST below\n"
 msgstr ""
 "  -a, --algorithm=TYPE\n"
-"         使用するダイジェスト種別を指定する。下記の DIGEST の説明を参照\n"
+"         使用するダイジェスト種別を指定る。下記の DIGEST の説明を参照\n"
 
 #: src/cksum.c:545
 msgid ""
@@ -1928,7 +1928,7 @@ msgid ""
 "         read in binary mode (default unless reading tty stdin)\n"
 msgstr ""
 "  -b, --binary\n"
-"         バイナリモードで読み込む (tty 標準入力以外から読み込む時のデフォルト)\n"
+"         バイナリモードで読み込みます (tty 標準入力以外から読み込む時のデフォルト)\n"
 
 #: src/cksum.c:561
 msgid ""
@@ -1944,7 +1944,7 @@ msgid ""
 "         read checksums from the FILEs and check them\n"
 msgstr ""
 "  -c, --check\n"
-"         FILE からチェックサムを読み込み、照合する\n"
+"         FILE からチェックサムを読み込み、照合します\n"
 
 #: src/cksum.c:576
 msgid ""
@@ -1955,9 +1955,9 @@ msgid ""
 msgstr ""
 "  -l, --length=BITS\n"
 "         ビット単位のダイジェストの長さ; 最大値を超えてはならず、\n"
-"         blake2 アルゴリズムなら8 の倍数でなければならない;\n"
+"         blake2 アルゴリズムなら8 の倍数でなければなりません;\n"
 "         sha2やsha3アルゴリズムなら224, 256, 384, また \n"
-"         512の倍数でなければならない\n"
+"         512の倍数でなければなりません\n"
 
 #: src/cksum.c:585
 msgid ""
@@ -1965,7 +1965,7 @@ msgid ""
 "         emit a raw binary digest, not hexadecimal\n"
 msgstr ""
 "      --raw\n"
-"         16 進数ではなく生の 2 進数のダイジェストを出力する\n"
+"         16 進数ではなく生の 2 進数のダイジェストを出力します\n"
 
 #: src/cksum.c:590 src/cksum.c:605
 msgid ""
@@ -1973,7 +1973,7 @@ msgid ""
 "         create a BSD-style checksum\n"
 msgstr ""
 "      --tag\n"
-"         BSD 形式のチェックサムを作成する\n"
+"         BSD 形式のチェックサムを作成します。\n"
 
 #: src/cksum.c:595
 msgid ""
@@ -1981,7 +1981,7 @@ msgid ""
 "         create a BSD-style checksum (the default)\n"
 msgstr ""
 "      --tag\n"
-"         BSD 形式のチェックサムを作成する (デフォルト)\n"
+"         BSD 形式のチェックサムを作成します (デフォルト)\n"
 
 #: src/cksum.c:600
 msgid ""
@@ -1989,7 +1989,7 @@ msgid ""
 "         create a reversed style checksum, without digest type\n"
 msgstr ""
 "      --untagged\n"
-"         ダイジェスト種別を含まないチェックサムを作成する\n"
+"         ダイジェスト種別を含まないチェックサムを作成します\n"
 
 #: src/cksum.c:615
 msgid ""
@@ -1997,7 +1997,7 @@ msgid ""
 "         read in text mode (default if reading tty stdin)\n"
 msgstr ""
 "  -t, --text\n"
-"         テキストモードで読み込む (tty 標準入力から読み込む時のデフォルト)\n"
+"         テキストモードで読み込みます (tty 標準入力から読み込む時のデフォルト)\n"
 
 #: src/cksum.c:620
 msgid ""
@@ -2005,7 +2005,7 @@ msgid ""
 "         read in text mode (default)\n"
 msgstr ""
 "  -t, --text\n"
-"         テキストモードで読み込む (デフォルト)\n"
+"         テキストモードで読み込みます (デフォルト)。\n"
 
 #: src/cksum.c:627
 msgid ""
@@ -2015,7 +2015,7 @@ msgid ""
 msgstr ""
 "  -z, --zero\n"
 "         出力行の区切りとして改行文字ではなく NUL を使用し、\n"
-"         ファイル名のエスケープを行わない\n"
+"         ファイル名のエスケープを行ないません。\n"
 
 #: src/cksum.c:632
 msgid ""
@@ -2029,13 +2029,13 @@ msgstr ""
 msgid ""
 "      --ignore-missing\n"
 "         don't fail or report status for missing files\n"
-msgstr "      --ignore-missing  ファイルが存在しない場合に失敗もせずステータスも表示しない\n"
+msgstr "      --ignore-missing  ファイルが存在しない場合に失敗もせずステータスも表示しません\n"
 
 #: src/cksum.c:640
 msgid ""
 "      --quiet\n"
 "         don't print OK for each successfully verified file\n"
-msgstr "      --quiet           ファイルのチェックサムの照合が成功したときに OK を表示しない\n"
+msgstr "      --quiet           ファイルのチェックサムの照合が成功したときに OK を表示しません\n"
 
 #: src/cksum.c:644
 msgid ""
@@ -2047,7 +2047,7 @@ msgstr "      --status          何も出力しない。終了コードで結果
 msgid ""
 "      --strict\n"
 "         exit non-zero for improperly formatted checksum lines\n"
-msgstr "      --strict          不正な形式のチェックサム行の場合に 0 以外のコードで終了する\n"
+msgstr "      --strict          不正な形式のチェックサム行の場合に 0 以外のコードで終了します\n"
 
 #: src/cksum.c:652
 msgid ""
@@ -2055,7 +2055,7 @@ msgid ""
 "         warn about improperly formatted checksum lines\n"
 msgstr ""
 "  -w, --warn\n"
-"         チェックサム行の書式が不正な場合に警告を行う\n"
+"         チェックサム行の書式が不正な場合に警告を行います\n"
 
 #: src/cksum.c:659
 msgid ""
@@ -2063,7 +2063,7 @@ msgid ""
 "         indicate which implementation used\n"
 msgstr ""
 "      --debug\n"
-"         どの実装が使用されたかを表示する\n"
+"         どの実装が使用されたかを表示します\n"
 
 #: src/cksum.c:668
 msgid ""
@@ -2351,7 +2351,7 @@ msgstr ""
 
 #: src/comm.c:123
 msgid "  -1     suppress column 1 (lines unique to FILE1)\n"
-msgstr "  -1                     1 列目を抑止する (FILE1 のみに含まれる行)\n"
+msgstr "  -1                     1 列目を抑止します (FILE1 のみに含まれる行)\n"
 
 #: src/comm.c:126
 msgid "  -2     suppress column 2 (lines unique to FILE2)\n"
@@ -2359,7 +2359,7 @@ msgstr "  -2     2 列目を抑止する (FILE2 のみに含まれる行)\n"
 
 #: src/comm.c:129
 msgid "  -3     suppress column 3 (lines that appear in both files)\n"
-msgstr "  -3                     3 列目を抑止する (両方のファイルに含まれる行)\n"
+msgstr "  -3                     3 列目を抑止します (両方のファイルに含まれる行)\n"
 
 #: src/comm.c:132
 msgid ""
@@ -2369,7 +2369,7 @@ msgid ""
 msgstr ""
 "  --check-order\n"
 "         入力行の組み合わせが全て存在していたとしても、入力\n"
-"         が正しく並べ替えられているかを確認する\n"
+"         が正しく並べ替えられているかを確認します\n"
 
 #: src/comm.c:137 src/join.c:252
 msgid ""
@@ -2377,7 +2377,7 @@ msgid ""
 "         do not check that the input is correctly sorted\n"
 msgstr ""
 "      --nocheck-order\n"
-"         入力が正しくソートされているかを確認しない\n"
+"         入力が正しく整列されているかを確認しません\n"
 
 #: src/comm.c:141
 msgid ""
@@ -2385,7 +2385,7 @@ msgid ""
 "         separate columns with STR\n"
 msgstr ""
 "      --output-delimiter=STR\n"
-"         列を STR で分割する\n"
+"         列を STR で分割します\n"
 
 #: src/comm.c:145
 msgid ""
@@ -2393,7 +2393,7 @@ msgid ""
 "         output a summary\n"
 msgstr ""
 "      --total\n"
-"         サマリーを表示する\n"
+"         サマリを表示します\n"
 
 #: src/comm.c:149 src/cut.c:234 src/head.c:138 src/join.c:261 src/numfmt.c:996
 #: src/paste.c:478 src/sort.c:562 src/tail.c:350 src/uniq.c:209
@@ -2402,7 +2402,7 @@ msgid ""
 "         line delimiter is NUL, not newline\n"
 msgstr ""
 "  -z, --zero-terminated\n"
-"         行の区切りとして改行文字ではなく NUL を使用する\n"
+"         行の区切りとして改行文字ではなく NUL を使用します\n"
 
 #: src/comm.c:155
 msgid ""
@@ -2423,7 +2423,7 @@ msgstr ""
 "\n"
 "例:\n"
 "  %s -12 file1 file2  file1 と file2 の両方に存在する行のみを表示する\n"
-"  %s -3  file1 file2  file1 にのみ存在する行と file2 のみに存在する行を表示する\n"
+"  %s -3  file1 file2  file1 にのみ存在する行と file2 のみに存在する行を表示します\n"
 
 #: src/comm.c:244
 #, c-format
@@ -2437,7 +2437,7 @@ msgstr "合計"
 #: src/comm.c:417 src/join.c:1226
 #, c-format
 msgid "input is not in sorted order"
-msgstr "入力がソートされていません"
+msgstr "入力が整列されていません"
 
 #: src/comm.c:466
 #, c-format
@@ -2793,7 +2793,7 @@ msgid ""
 "Execute the PROGRAM_NAME built-in program with the given PARAMETERS.\n"
 "\n"
 msgstr ""
-"組み込みプログラム PROGRAM_NAME を指定されたパラメーター PARAMETERS で実行する。\n"
+"組み込みプログラム PROGRAM_NAME を指定されたパラメーター PARAMETERS で実行します。\n"
 "\n"
 
 #: src/coreutils.c:84
@@ -2804,7 +2804,7 @@ msgid ""
 msgstr ""
 "\n"
 "各プログラムのヘルプを表示するには\n"
-"'%s --coreutils-prog=PROGRAM_NAME --help' を使用すること。\n"
+"'%s --coreutils-prog=PROGRAM_NAME --help' を使用してください。\n"
 
 #: src/coreutils.c:184
 #, c-format
@@ -2836,7 +2836,7 @@ msgstr "  -a, --archive                -dR --preserve=all と同様\n"
 msgid ""
 "      --attributes-only\n"
 "         don't copy the file data, just the attributes\n"
-msgstr "      --attributes-only        ファイルのデータをコピーせず、ファイルの属性のみコピーする\n"
+msgstr "      --attributes-only        ファイルのデータをコピーせず、ファイルの属性のみコピーします\n"
 
 #: src/cp.c:180 src/install.c:615 src/ln.c:441 src/mv.c:265
 msgid ""
@@ -2844,7 +2844,7 @@ msgid ""
 "         make a backup of each existing destination file\n"
 msgstr ""
 "      --backup[=CONTROL]\n"
-"         コピー先ファイルが存在する時にバックアップを作成する\n"
+"         コピー先ファイルが存在する時にバックアップを作成します\n"
 
 #: src/cp.c:184 src/install.c:619 src/ln.c:445 src/mv.c:269
 msgid ""
@@ -2852,13 +2852,13 @@ msgid ""
 "         like --backup but does not accept an argument\n"
 msgstr ""
 "  -b\n"
-"         --backup と同様だが引数を受け付けない\n"
+"         --backup と同様だが引数を受け付けません\n"
 
 #: src/cp.c:188
 msgid ""
 "      --copy-contents\n"
 "         copy contents of special files when recursive\n"
-msgstr "      --copy-contents          再帰時に特殊ファイルの内容をコピーする\n"
+msgstr "      --copy-contents          再帰時に特殊ファイルの内容をコピーします\n"
 
 #: src/cp.c:192
 msgid ""
@@ -2872,7 +2872,7 @@ msgid ""
 "         explain how a file is copied.  Implies -v\n"
 msgstr ""
 "      --debug\n"
-"         ファイルコピー時の詳細を出力する。 -v が暗黙で指定される\n"
+"         ファイルコピー時の詳細を出力します。 -v が暗黙で指定されます\n"
 
 #: src/cp.c:200
 msgid ""
@@ -2882,8 +2882,8 @@ msgid ""
 msgstr ""
 "  -f, --force\n"
 "         コピー先にファイルが存在し、開くことができない場合、\n"
-"         削除してから再度試みる (-n オプションも指定した\n"
-"         場合はこのオプションは無視される)\n"
+"         削除してから再度試みます (-n オプションも指定した\n"
+"         場合はこのオプションは無視されます)\n"
 
 #: src/cp.c:205
 msgid ""
@@ -2891,20 +2891,20 @@ msgid ""
 "         prompt before overwrite (overrides a previous -n option)\n"
 msgstr ""
 "  -i, --interactive\n"
-"         上書きする前に確認する (前に指定した -n オプション\n"
-"         を上書きする)\n"
+"         上書きする前に確認します (前に指定した -n オプション\n"
+"         を上書きします)\n"
 
 #: src/cp.c:209
 msgid ""
 "  -H\n"
 "         follow command-line symbolic links in SOURCE\n"
-msgstr "  -H                           SOURCE にあるコマンド行のシンボリックリンクをたどる\n"
+msgstr "  -H                           SOURCE にあるコマンド行のシンボリックリンクをたどります\n"
 
 #: src/cp.c:213
 msgid ""
 "  -L, --dereference\n"
 "         always follow symbolic links in SOURCE\n"
-msgstr "  -L, --dereference            SOURCE にあるシンボリックリンクを常にたどる\n"
+msgstr "  -L, --dereference            SOURCE にあるシンボリックリンクを常にたどります\n"
 
 #: src/cp.c:217
 msgid ""
@@ -2920,7 +2920,7 @@ msgid ""
 "         follow existing symlinks to directories\n"
 msgstr ""
 "      --keep-directory-symlink\n"
-"         ディレクトリへのシンボリックリンクをたどる\n"
+"         ディレクトリへのシンボリックリンクをたどります\n"
 
 #: src/cp.c:225
 msgid ""
@@ -2953,7 +2953,7 @@ msgstr "      --preserve[=ATTR_LIST]   指定された属性を保持する\n"
 msgid ""
 "      --no-preserve=ATTR_LIST\n"
 "         don't preserve the specified attributes\n"
-msgstr "      --no-preserve=ATTR_LIST  指定した属性を保持しない\n"
+msgstr "      --no-preserve=ATTR_LIST  指定した属性を保持しません\n"
 
 #: src/cp.c:245
 msgid ""
@@ -2967,7 +2967,7 @@ msgid ""
 "         copy directories recursively\n"
 msgstr ""
 "  -R, -r, --recursive\n"
-"          再帰的にディレクトリをコピーする\n"
+"          再帰的にディレクトリをコピーします\n"
 
 #: src/cp.c:253
 msgid ""
@@ -2982,8 +2982,8 @@ msgid ""
 "         (contrast with --force)\n"
 msgstr ""
 "      --remove-destination\n"
-"         コピー先にファイルが存在する場合、開く前に削除する\n"
-"         (--force と反対の動作になる)\n"
+"         コピー先にファイルが存在する場合、開く前に削除します\n"
+"         (--force と反対の動作になります)\n"
 
 #: src/cp.c:262
 msgid ""
@@ -2995,19 +2995,19 @@ msgstr "      --sparse=WHEN            スパースファイル作成を制御�
 msgid ""
 "      --strip-trailing-slashes\n"
 "         remove any trailing slashes from each SOURCE argument\n"
-msgstr "      --strip-trailing-slashes  各 SOURCE 引数から末尾のスラッシュを全て削除する\n"
+msgstr "      --strip-trailing-slashes  各 SOURCE 引数から末尾のスラッシュを全て削除します\n"
 
 #: src/cp.c:270
 msgid ""
 "  -s, --symbolic-link\n"
 "         make symbolic links instead of copying\n"
-msgstr "  -s, --symbolic-link          コピーの代わりにシンボリックリンクを作成する\n"
+msgstr "  -s, --symbolic-link          コピーの代わりにシンボリックリンクを作成します\n"
 
 #: src/cp.c:274 src/install.c:673 src/ln.c:483 src/mv.c:304
 msgid ""
 "  -S, --suffix=SUFFIX\n"
 "         override the usual backup suffix\n"
-msgstr "  -S, --suffix=SUFFIX          通常のバックアップ接尾辞を上書きする\n"
+msgstr "  -S, --suffix=SUFFIX          通常のバックアップ接尾辞を上書きします\n"
 
 #: src/cp.c:278 src/install.c:677
 msgid ""
@@ -3019,7 +3019,7 @@ msgstr "  -t, --target-directory=DIRECTORY  全ての SOURCE 引数を DIRECTORY
 msgid ""
 "  -T, --no-target-directory\n"
 "         treat DEST as a normal file\n"
-msgstr "  -T, --no-target-directory    DEST を通常ファイルとして扱う\n"
+msgstr "  -T, --no-target-directory    DEST を通常ファイルとして扱います\n"
 
 #: src/cp.c:286 src/mv.c:316
 msgid ""
@@ -3028,7 +3028,7 @@ msgid ""
 "         UPDATE={all,none,none-fail,older(default)}\n"
 msgstr ""
 "      --update[=UPDATE]\n"
-"         既存のファイルを更新するかを制御する\n"
+"         既存のファイルを更新するかを制御します\n"
 "         UPDATE={all,none,none-fail,older(デフォルト)}.\n"
 
 #: src/cp.c:291 src/mv.c:321
@@ -3043,7 +3043,7 @@ msgid ""
 "         explain what is being done\n"
 msgstr ""
 "  -v, --verbose\n"
-"         実行中の動作を表示する\n"
+"         実行中の動作を表示します\n"
 
 #: src/cp.c:299
 msgid ""
@@ -3051,7 +3051,7 @@ msgid ""
 "         stay on this file system\n"
 msgstr ""
 "  -x, --one-file-system\n"
-"         このファイルシステムだけで実行する\n"
+"         このファイルシステムだけで実行します\n"
 
 #: src/cp.c:303
 msgid ""
@@ -3059,7 +3059,7 @@ msgid ""
 "         set SELinux security context of destination file to default type\n"
 msgstr ""
 "  -Z\n"
-"         SELinux セキュリティコンテキストをデフォルトタイプに設定する\n"
+"         SELinux セキュリティコンテキストをデフォルトタイプに設定します\n"
 
 #: src/cp.c:307 src/install.c:698 src/mkdir.c:82 src/mkfifo.c:67 src/mknod.c:69
 msgid ""
@@ -3371,13 +3371,13 @@ msgstr ""
 msgid ""
 "  -b, --suffix-format=FORMAT\n"
 "         use sprintf FORMAT instead of %02d\n"
-msgstr "  -b, --suffix-format=FORMAT  %02d の代わりに sprintf の FORMAT を使用する\n"
+msgstr "  -b, --suffix-format=FORMAT  %02d の代わりに sprintf の FORMAT を使用します\n"
 
 #: src/csplit.c:1420
 msgid ""
 "  -f, --prefix=PREFIX\n"
 "         use PREFIX instead of 'xx'\n"
-msgstr "  -f, --prefix=PREFIX        接頭辞として 'xx' の代わりに PREFIX を使用する\n"
+msgstr "  -f, --prefix=PREFIX        接頭辞として 'xx' の代わりに PREFIX を使用します\n"
 
 #: src/csplit.c:1424
 msgid ""
@@ -3391,7 +3391,7 @@ msgid ""
 "         suppress the lines matching PATTERN\n"
 msgstr ""
 "      --suppress-matched\n"
-"         PATTERN に一致する行を表示しない\n"
+"         PATTERN に一致する行を表示しません\n"
 
 #: src/csplit.c:1432
 msgid ""
@@ -3405,7 +3405,7 @@ msgid ""
 "         do not print counts of output file sizes\n"
 msgstr ""
 "  -s, --quiet, --silent\n"
-"         出力ファイルの大きさを表示しない\n"
+"         出力ファイルの大きさを表示しません\n"
 
 #: src/csplit.c:1440
 msgid ""
@@ -3455,7 +3455,7 @@ msgid ""
 "         select only these byte positions\n"
 msgstr ""
 "  -b, --bytes=LIST\n"
-"         バイトで数えた LIST を選択する\n"
+"         バイトで数えた LIST を選択します\n"
 
 #: src/cut.c:195
 msgid ""
@@ -3471,7 +3471,7 @@ msgid ""
 "         complement the set of selected bytes, characters or fields\n"
 msgstr ""
 "      --complement\n"
-"         選択されたバイト数、文字数またはフィールド数の組を補足する\n"
+"         選択されたバイト数、文字数またはフィールド数の組を補足します\n"
 
 #: src/cut.c:203
 msgid ""
@@ -3488,8 +3488,8 @@ msgid ""
 "         no delimiter character, unless the -s option is specified\n"
 msgstr ""
 "  -f, --fields=LIST\n"
-"         LIST のフィールドのみを選択する。-s オプションが\n"
-"         指定されない限り、区切り文字を含まない行も表示する\n"
+"         LIST のフィールドのみを選択します。-s オプションが\n"
+"         指定されない限り、区切り文字を含まない行も表示します\n"
 
 #: src/cut.c:212
 #, fuzzy
@@ -3507,7 +3507,7 @@ msgid ""
 "         with -b, don't output partial multi-byte characters\n"
 msgstr ""
 "  -n, --no-partial\n"
-"         -b と一緒に使うならマルチバイト文字を出力しない\n"
+"         -b と一緒に使う場合マルチバイト文字を出力しません\n"
 
 #: src/cut.c:220
 msgid ""
@@ -3523,7 +3523,7 @@ msgstr ""
 msgid ""
 "  -s, --only-delimited\n"
 "         do not print lines not containing delimiters\n"
-msgstr "  -s, --only-delimited    区切り文字を含まない行を出力しない\n"
+msgstr "  -s, --only-delimited    区切り文字を含まない行を出力しません\n"
 
 #: src/cut.c:229
 msgid ""
@@ -3614,7 +3614,7 @@ msgid ""
 "         display time described by STRING, not 'now'\n"
 msgstr ""
 "  -d, --date=STRING\n"
-"         現在時刻ではなく STRING で指定された時刻を表示する\n"
+"         現在時刻ではなく STRING で指定された時刻を表示します\n"
 
 #: src/date.c:139
 msgid ""
@@ -3624,7 +3624,7 @@ msgid ""
 msgstr ""
 "      --debug\n"
 "         日付の解釈についての注釈と疑わしい用法に\n"
-"         関する警告を標準エラーに出力する\n"
+"         関する警告を標準エラーに出力します\n"
 
 #: src/date.c:144
 msgid ""
@@ -3645,9 +3645,9 @@ msgid ""
 "         Example: 2006-08-14T02:34:56-06:00\n"
 msgstr ""
 "  -I[FMT], --iso-8601[=FMT]\n"
-"         日付/時刻を ISO 8601 形式で出力する。\n"
+"         日付/時刻を ISO 8601 形式で出力します。\n"
 "         FMT は日付と時刻の表示精度で、\n"
-"         'date' (デフォルト), 'hours', 'minutes', 'seconds', 'ns' が指定できる。\n"
+"         'date' (デフォルト), 'hours', 'minutes', 'seconds', 'ns' が指定できます。\n"
 "         例: 2006-08-14T02:34:56-06:00\n"
 
 #: src/date.c:156
@@ -3657,7 +3657,7 @@ msgid ""
 "         Example: 0.000000001\n"
 msgstr ""
 "  --resolution\n"
-"         利用可能なタイムスタンプの解像度を表示する\n"
+"         利用可能なタイムスタンプの解像度を表示します\n"
 "         例: 0.000000001\n"
 
 #: src/date.c:161
@@ -3667,7 +3667,7 @@ msgid ""
 "         Example: Mon, 14 Aug 2006 02:34:56 +0000\n"
 msgstr ""
 "  -R, --rfc-email\n"
-"         RFC 5322 形式で日付と時刻を出力する\n"
+"         RFC 5322 形式で日付と時刻を出力します\n"
 "         例: Mon, 14 Aug 2006 02:34:56 -0600\n"
 
 #: src/date.c:166
@@ -3681,7 +3681,7 @@ msgstr ""
 "      --rfc-3339=FMT\n"
 "         RFC 3339 形式で日付と時刻を出力する\n"
 "         FMT は日付と時刻の表示精度で、\n"
-"         'date', 'seconds', 'ns' が使用できる。\n"
+"         'date', 'seconds', 'ns' が使用できます。\n"
 "         例: 2006-08-14 02:34:56-06:00\n"
 
 #: src/date.c:173
@@ -3690,13 +3690,13 @@ msgid ""
 "         display the last modification time of FILE\n"
 msgstr ""
 "  -r, --reference=FILE\n"
-"         FILE の最終更新時刻を表示する\n"
+"         FILE の最終更新時刻を表示します\n"
 
 #: src/date.c:177
 msgid ""
 "  -s, --set=STRING\n"
 "         set time described by STRING\n"
-msgstr "  -s, --set=STRING           STRING で指定される時間に設定する\n"
+msgstr "  -s, --set=STRING           STRING で指定される時間に設定します\n"
 
 #: src/date.c:181
 msgid ""
@@ -4005,47 +4005,47 @@ msgstr ""
 
 #: src/dd.c:539
 msgid "  cbs=BYTES       convert BYTES bytes at a time\n"
-msgstr "  cbs=BYTES       一回に BYTES バイト変換する\n"
+msgstr "  cbs=BYTES       一回に BYTES バイト変換します\n"
 
 #: src/dd.c:542
 msgid "  conv=CONVS      convert the file as per the comma separated symbol list\n"
-msgstr "  conv=CONVS      コンマで区切られたシンボルリストとしてファイルを変換する\n"
+msgstr "  conv=CONVS      コンマで区切られたシンボルリストとしてファイルを変換します\n"
 
 #: src/dd.c:545
 msgid "  count=N         copy only N input blocks\n"
-msgstr "  count=N         入力ブロック N 個分だけコピーする\n"
+msgstr "  count=N         入力ブロック N 個分だけコピーします\n"
 
 #: src/dd.c:548
 msgid "  ibs=BYTES       read up to BYTES bytes at a time (default: 512)\n"
-msgstr "  ibs=BYTES       一回に BYTES バイトずつ読み込む (デフォルト: 512)\n"
+msgstr "  ibs=BYTES       一回に BYTES バイトずつ読み込みます (デフォルト: 512)\n"
 
 #: src/dd.c:551
 msgid "  if=FILE         read from FILE instead of standard input\n"
-msgstr "  if=FILE         標準入力の代わりに FILE から読み込む\n"
+msgstr "  if=FILE         標準入力の代わりに FILE から読み込みます\n"
 
 #: src/dd.c:554
 msgid "  iflag=FLAGS     read as per the comma separated symbol list\n"
-msgstr "  iflag=FLAGS     コンマで区切られたシンボルリストとして読み込む\n"
+msgstr "  iflag=FLAGS     コンマで区切られたシンボルリストとして読み込みます\n"
 
 #: src/dd.c:557
 msgid "  obs=BYTES       write BYTES bytes at a time (default: 512)\n"
-msgstr "  obs=BYTES       一回に BYTES バイトずつ書き込む (デフォルト: 512)\n"
+msgstr "  obs=BYTES       一回に BYTES バイトずつ書き込みます (デフォルト: 512)\n"
 
 #: src/dd.c:560
 msgid "  of=FILE         write to FILE instead of standard output\n"
-msgstr "  of=FILE         標準出力の代わりに FILE に書き込む\n"
+msgstr "  of=FILE         標準出力の代わりに FILE に書き込みます\n"
 
 #: src/dd.c:563
 msgid "  oflag=FLAGS     write as per the comma separated symbol list\n"
-msgstr "  oflag=FLAGS     コンマで区切られたシンボルリストとして書き込む\n"
+msgstr "  oflag=FLAGS     コンマで区切られたシンボルリストとして書き込みます\n"
 
 #: src/dd.c:566
 msgid "  seek=N          (or oseek=N) skip N obs sized output blocks\n"
-msgstr "  seek=N          (または oseek=N) サイズ obs の出力ブロック N 個をスキップする\n"
+msgstr "  seek=N          (または oseek=N) サイズ obs の出力ブロック N 個をスキップします\n"
 
 #: src/dd.c:569
 msgid "  skip=N          (or iseek=N) skip N ibs sized input blocks\n"
-msgstr "  skip=N          (または iseek=N) サイズ ibs の入力ブロック N 個をスキップする\n"
+msgstr "  skip=N          (または iseek=N) サイズ ibs の入力ブロック N 個をスキップします\n"
 
 #: src/dd.c:572
 msgid ""
@@ -4055,9 +4055,9 @@ msgid ""
 "                  'progress' shows periodic transfer statistics\n"
 msgstr ""
 "  status=LEVEL    標準エラーに出力する情報の LEVEL。\n"
-"                  'none' はエラーメッセージ以外のすべてを出力しない。\n"
-"                  'noxfer' は最後の転送統計情報を出力しない。\n"
-"                  'progress' は定期的に転送統計情報を出力する。\n"
+"                  'none' はエラーメッセージ以外のすべてを出力ません。\n"
+"                  'noxfer' は最後の転送統計情報を出力しません。\n"
+"                  'progress' は定期的に転送統計情報を出力します。\n"
 
 #: src/dd.c:578
 msgid ""
@@ -12816,7 +12816,7 @@ msgid ""
 "         display this help and exit\n"
 msgstr ""
 "      --help\n"
-"         使い方を表示して終了する\n"
+"         使い方を表示して終了します。\n"
 
 #: src/system.h:380
 msgid ""
@@ -12824,7 +12824,7 @@ msgid ""
 "         output version information and exit\n"
 msgstr ""
 "      --version\n"
-"         バージョン情報を表示して終了する\n"
+"         バージョン情報を表示して終了します。\n"
 
 #: src/system.h:743
 msgid ""
@@ -12840,7 +12840,7 @@ msgid ""
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
 "\n"
-"長いオプションで必須となっている引数は短いオプションでも必須です。\n"
+"長いオプションに必須の引数は、短いオプションにも必須です。\n"
 
 #: src/system.h:758
 msgid ""
