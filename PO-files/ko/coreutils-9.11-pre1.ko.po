@@ -1,16 +1,21 @@
 # Korean translation for GNU coreutils
 # Copyright (C) 1996, 1997, 2001, 2002, 2021, 2022, 2023, 2025, 2026 Free Software Foundation, Inc.
 # This file is distributed under the same license as the coreutils package.
+#
+# translation mistypo reporter
+# Ys Cho <yscho041011@gmail.com>, 2026.
+#
 # Bang Jun-Young <bangjy@nownuri.nowcom.co.kr>, 1996-1997.
 # Changwoo Ryu <cwryu@debian.org>, 2001-2002.
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2021-2025, 2026.
+#
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 9.11-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2026-04-16 20:40+0100\n"
-"PO-Revision-Date: 2026-04-17 16:17+0900\n"
+"PO-Revision-Date: 2026-08-27 22:11+0900\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean <translation-team-ko@googlegroups.com>\n"
 "Language: ko\n"
@@ -19,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.7\n"
 
 #: lib/argmatch.c:141
 #, c-format
@@ -61,11 +66,11 @@ msgstr "세마포어"
 
 #: lib/c-file-type.c:58
 msgid "shared memory object"
-msgstr "공유 메모리 오브젝트"
+msgstr "공유 메모리 개체"
 
 #: lib/c-file-type.c:61
 msgid "typed memory object"
-msgstr "형식 지정 메모리 오브젝트"
+msgstr "형식 지정 메모리 개체"
 
 #: lib/c-file-type.c:66
 msgid "block special file"
@@ -356,7 +361,7 @@ msgstr "부적절한 문자 클래스 이름"
 
 #: lib/regcomp.c:137
 msgid "Trailing backslash"
-msgstr "백 슬래시 문자가 따라옴"
+msgstr "백슬래시 문자가 따라옴"
 
 #: lib/regcomp.c:140
 msgid "Invalid back reference"
@@ -1425,7 +1430,7 @@ msgstr "%s의 모드를 %04lo (%s)에서 %04lo (%s)(으)로 바꾸기 실패\n"
 #: src/chmod.c:196
 #, c-format
 msgid "mode of %s retained as %04lo (%s)\n"
-msgstr "%s의 모드를 %04lo(%s)으로 보존하였습니다\n"
+msgstr "%s의 모드를 %04lo (%s)으로 보존하였습니다\n"
 
 #: src/chmod.c:258
 #, c-format
@@ -1600,7 +1605,7 @@ msgstr "%s의 소유권 바꾸는 중"
 #: src/chown-core.c:475
 #, c-format
 msgid "changing group of %s"
-msgstr "%s 그룹 바꾸는 중"
+msgstr "%s의 그룹 바꾸는 중"
 
 #: src/chown.c:79
 #, c-format
@@ -2089,7 +2094,7 @@ msgid ""
 "The sums are computed as described in %s.\n"
 msgstr ""
 "\n"
-"%s에 설명한대로 검사합을 계산합니다.\n"
+"%s에 설명한 대로 검사합을 계산합니다.\n"
 
 #: src/cksum.c:687
 msgid ""
@@ -2112,7 +2117,7 @@ msgid ""
 "When checking, the input should be a former output of this program,\n"
 "or equivalent standalone program.\n"
 msgstr ""
-"검사할 때 입력을 이 프로그램의 출력 앞에 지정하거나,\n"
+"검사할 때, 입력을 이 프로그램의 출력 앞에 지정하거나,\n"
 "대응 독립 프로그램으로 지정해야 합니다.\n"
 
 #: src/cksum.c:1385 src/cksum.c:1893 src/date.c:417 src/dd.c:2438
@@ -2591,7 +2596,7 @@ msgstr "%s 건너뜀\n"
 #: src/copy.c:1907 src/ln.c:238
 #, c-format
 msgid "will not overwrite just-created %s with %s"
-msgstr "바로 만든 %s을(를) %s(으)로 덮어쓰기 하지 않음"
+msgstr "방금 만든 %s을(를) %s(으)로 덮어쓰기 하지 않음"
 
 #: src/copy.c:1934
 #, c-format
@@ -2631,7 +2636,7 @@ msgstr "%s 디렉터리에 %s 하드 링크를 만들지 않음"
 #: src/copy.c:2157
 #, c-format
 msgid "exchanged %s <-> %s"
-msgstr "%s <-> %s 맞교환함"
+msgstr "%s <-> %s 맞교환"
 
 #: src/copy.c:2158
 #, c-format
@@ -3007,8 +3012,6 @@ msgid ""
 msgstr ""
 "  -t, --target-directory=<디렉터리>\n"
 "         모든 <원본> 인자를 <디렉터리>로 복사합니다\n"
-"#-#-#-#-#  - (coreutils 9.9-pre1)  #-#-#-#-#\n"
-"  -t, --target-directory=<디렉터리>  모든 <원본> 인자를 <디렉터리>에 복사합니다\n"
 
 #: src/cp.c:282 src/install.c:681 src/mv.c:312
 msgid ""
@@ -3568,7 +3571,7 @@ msgstr "구분자는 단일 문자여야 합니다"
 
 #: src/cut.c:1374
 msgid "you must specify a list of bytes, characters, or fields"
-msgstr "바이트, 문자, 또는 필드로 된 목록을 지정해야 합니다"
+msgstr "바이트, 문자 또는 필드로 구성한 목록을 지정해야 합니다"
 
 #: src/cut.c:1379
 msgid ""
@@ -3644,9 +3647,8 @@ msgid ""
 "         Example: 2006-08-14T02:34:56-06:00\n"
 msgstr ""
 "  -I[<형식>], --iso-8601[=<형식>]\n"
-"         ISO 8601 형식으로 일시를 출력합니다.\n"
-"         <형식>='date' 값은 날짜만 출력합니다 (기본값).\n"
-"         'hours', 'minutes', 'seconds', 'ns'로\n"
+"         ISO 8601 형식으로 날짜/시각을 출력합니다.\n"
+"         <형식>='date'(기본값),'hours', 'minutes', 'seconds', 'ns'로\n"
 "         지시 단위의 정밀도에 따라 날짜와 시각을 나타냅니다.\n"
 "         예: 2006-08-14T18:34:56+09:00\n"
 
@@ -11723,7 +11725,7 @@ msgstr "  -L, --dereference     링크를 따라갑니다\n"
 msgid ""
 "  -f, --file-system\n"
 "         display file system status instead of file status\n"
-msgstr "  -f, --file-system     파일 상태 대신 파일 시스테 상태를 나타냅니다\n"
+msgstr "  -f, --file-system     파일 상태 대신 파일 시스템 상태를 나타냅니다\n"
 
 #: src/stat.c:1770
 msgid ""
@@ -13227,7 +13229,7 @@ msgstr "%s: 논 블로킹 모드로 전환할 수 없음"
 #: src/tail.c:1283 src/tail.c:1457
 #, c-format
 msgid "%s: file truncated"
-msgstr "%s: 파일이 잘렸음"
+msgstr "%s: 파일이 잘림"
 
 #: src/tail.c:1322 src/tail.c:1650
 #, c-format
@@ -13252,7 +13254,7 @@ msgstr "%s 관찰 불가"
 #: src/tail.c:1617
 #, c-format
 msgid "%s was replaced"
-msgstr "%s이(가) 필요합니다"
+msgstr "%s을(를) 바꿈"
 
 #: src/tail.c:1629
 msgid "using notification mode"
@@ -13421,7 +13423,7 @@ msgstr "부적절한 정수 %s"
 #: src/test.c:258
 #, c-format
 msgid "%s expected"
-msgstr "%s이(가) 와야함"
+msgstr "%s을(를) 기대함"
 
 #: src/test.c:261
 #, c-format
@@ -14818,7 +14820,7 @@ msgstr ""
 #: src/wc.c:1011
 #, c-format
 msgid "total lines"
-msgstr "총 행 갯수"
+msgstr "전체 행 갯수"
 
 #: src/wc.c:1017
 #, c-format
