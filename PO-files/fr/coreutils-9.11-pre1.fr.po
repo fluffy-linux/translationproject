@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: coreutils-9.11-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2026-04-16 20:40+0100\n"
-"PO-Revision-Date: 2026-04-17 10:10+0200\n"
+"PO-Revision-Date: 2026-08-28 07:28+0200\n"
 "Last-Translator: Frédéric Marchal <fmarchal@perso.be>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -5179,7 +5179,7 @@ msgstr ""
 "\n"
 "L'argument --time=STYLE peut être full-iso, long-iso, iso ou +FORMAT.\n"
 "FORMAT est interprété comme avec date(1).\n"
-"La variable d'environnement TIME_STYME défini le style par défaut à utiliser.\n"
+"La variable d'environnement TIME_STYLE défini le style par défaut à utiliser.\n"
 
 #: src/du.c:742
 #, c-format
@@ -7835,7 +7835,7 @@ msgstr ""
 "appliqué aux fichiers récents.\n"
 "Un STYLE_TEMPS préfixé avec « posix- » est uniquement effectif hors de la locale\n"
 "POSIX.\n"
-"La variable d'environnement TIME_STYME défini le style par défaut à utiliser.\n"
+"La variable d'environnement TIME_STYLE défini le style par défaut à utiliser.\n"
 
 #: src/ls.c:5618
 msgid ""
