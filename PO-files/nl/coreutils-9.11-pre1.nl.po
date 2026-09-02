@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: coreutils 9.11-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2026-04-16 20:40+0100\n"
-"PO-Revision-Date: 2026-07-10 11:56+0200\n"
+"PO-Revision-Date: 2026-09-02 11:45+0200\n"
 "Last-Translator: Benno Schulenberg <vertaling@coevern.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -4544,14 +4544,12 @@ msgstr ""
 "\n"
 
 #: src/dircolors.c:108
-#, fuzzy
 msgid ""
 "  -b, --sh, --bourne-shell\n"
 "         output Bourne shell code to set LS_COLORS\n"
 msgstr "  -b, --sh, --bourne-shell    Bourne shell-code tonen\n"
 
 #: src/dircolors.c:112
-#, fuzzy
 msgid ""
 "  -c, --csh, --c-shell\n"
 "         output C shell code to set LS_COLORS\n"
@@ -4663,15 +4661,10 @@ msgid "Summarize device usage of the set of FILEs, recursively for directories.\
 msgstr "Vat het apparaatgebruik samen van elk gegeven BESTAND, recursief voor mappen.\n"
 
 #: src/du.c:289 src/env.c:130 src/printenv.c:69
-#, fuzzy
 msgid ""
 "  -0, --null\n"
 "         end each output line with NUL, not newline\n"
-msgstr ""
-"#-#-#-#-#  - (coreutils 9.9-pre1)  #-#-#-#-#\n"
-"  -0, --null              elke regel afsluiten met 0-byte, niet met nieuweregel\n"
-"#-#-#-#-#  - (coreutils 9.9-pre1)  #-#-#-#-#\n"
-"  -0, --null            elke regel afsluiten met een 0-byte, niet met nieuweregel\n"
+msgstr "  -0, --null              elke regel afsluiten met 0-byte, niet met nieuweregel\n"
 
 #: src/du.c:293
 msgid ""
@@ -4680,7 +4673,6 @@ msgid ""
 msgstr "  -a, --all               waardes tonen voor alle bestanden, niet alleen mappen\n"
 
 #: src/du.c:297
-#, fuzzy
 msgid ""
 "  -A, --apparent-size\n"
 "         print apparent sizes rather than device usage;\n"
@@ -4695,17 +4687,11 @@ msgstr ""
 "                          fragmentatie, indirecte blokken en dergelijke\n"
 
 #: src/du.c:304
-#, fuzzy
 msgid ""
 "  -B, --block-size=SIZE\n"
 "         scale sizes by SIZE before printing them; See SIZE format below;\n"
 "         E.g., '-BM' prints sizes in units of 1,048,576 bytes\n"
 msgstr ""
-"#-#-#-#-#  - (coreutils 9.9-pre1)  #-#-#-#-#\n"
-"  -B, --block-size=GROOTTE  de te tonen groottes schalen naar deze waarde;\n"
-"                              '-BM' bijvoorbeeld toont de groottes in eenheden\n"
-"                              van 1.048.576 bytes; zie hieronder voor meer info\n"
-"#-#-#-#-#  - (coreutils 9.9-pre1)  #-#-#-#-#\n"
 "  -B, --block-size=GROOTTE  de te tonen groottes schalen naar deze waarde;\n"
 "                            '-BM' bijvoorbeeld toont de groottes in eenheden\n"
 "                            van 1.048.576 bytes; zie hieronder voor meer info\n"
@@ -4723,14 +4709,12 @@ msgid ""
 msgstr "  -c, --total             een eindtotaal tonen\n"
 
 #: src/du.c:317
-#, fuzzy
 msgid ""
 "  -D, --dereference-args\n"
 "         dereference only symlinks that are listed on the command line\n"
 msgstr "  -D, --dereference-args  alleen direct gegeven symbolische koppelingen volgen\n"
 
 #: src/du.c:321
-#, fuzzy
 msgid ""
 "  -d, --max-depth=N\n"
 "         print the total for a directory (or file, with --all)\n"
@@ -4743,7 +4727,6 @@ msgstr ""
 "                          hetzelfde als '--summarize'\n"
 
 #: src/du.c:327
-#, fuzzy
 msgid ""
 "      --files0-from=F\n"
 "         summarize device usage of the NUL-terminated file names\n"
@@ -4814,7 +4797,6 @@ msgid ""
 msgstr "  -s, --summarize         voor elk gegeven argument alleen een totaal tonen\n"
 
 #: src/du.c:376
-#, fuzzy
 msgid ""
 "  -t, --threshold=SIZE\n"
 "         exclude entries smaller than SIZE if positive,\n"
@@ -4824,7 +4806,6 @@ msgstr ""
 "                            positief, of groter dan GROOTTE indien negatief\n"
 
 #: src/du.c:381
-#, fuzzy
 msgid ""
 "      --time\n"
 "         show time of the last modification of any file in the directory,\n"
@@ -4832,7 +4813,6 @@ msgid ""
 msgstr "      --time              tijden van laatste wijziging tonen\n"
 
 #: src/du.c:386
-#, fuzzy
 msgid ""
 "      --time=WORD\n"
 "         show time as WORD instead of modification time:\n"
@@ -4843,7 +4823,6 @@ msgstr ""
 "                          'ctime' of 'status'\n"
 
 #: src/du.c:391
-#, fuzzy
 msgid ""
 "      --time-style=STYLE\n"
 "         time/date format with --time; see TIME_STYLE below\n"
@@ -4943,39 +4922,37 @@ msgid ""
 msgstr ""
 "Gebruik:  %s [KORTE_OPTIE...] [TEKST...]\n"
 "     of:  %s LANGE_OPTIE\n"
+"\n"
 
 #: src/echo.c:47
 msgid ""
 "Echo the STRING(s) to standard output.\n"
 "\n"
 msgstr ""
-"Stuurt de gegeven TEKENREEKS(en) naar standaarduitvoer.\n"
+"Stuurt de gegeven TEKST(en) naar standaarduitvoer.\n"
 "\n"
 
 #: src/echo.c:51
-#, fuzzy
 msgid "  -n     do not output the trailing newline\n"
-msgstr "  -n    geen nieuweregel-teken achtervoegen\n"
+msgstr "  -n      geen nieuweregel-teken achtervoegen\n"
 
 #: src/echo.c:55
-#, fuzzy
 msgid "  -e     enable interpretation of backslash escapes (default)\n"
-msgstr "  -e    interpretatie van onderstaande codes inschakelen (standaard)\n"
+msgstr "  -e      interpretatie van onderstaande codes inschakelen (standaard)\n"
 
 #: src/echo.c:58
-#, fuzzy
 msgid "  -e     enable interpretation of backslash escapes\n"
-msgstr "  -e    interpretatie van backslash escape-tekens inschakelen\n"
+msgstr "  -e      interpretatie van backslash escape-tekens inschakelen\n"
 
 #: src/echo.c:62
-#, fuzzy
 msgid "  -E     disable interpretation of backslash escapes\n"
-msgstr "  -E    interpretatie van onderstaande codes uitschakelen\n"
+msgstr "  -E      interpretatie van onderstaande codes uitschakelen\n"
 
 #: src/echo.c:65
-#, fuzzy
 msgid "  -E     disable interpretation of backslash escapes (default)\n"
-msgstr "  -E    interpretatie van backslash escape-tekens uitschakelen (standaard)\n"
+msgstr ""
+"  -E      interpretatie van backslash escape-tekens uitschakelen (standaard)\n"
+"\n"
 
 #: src/echo.c:70
 msgid ""
