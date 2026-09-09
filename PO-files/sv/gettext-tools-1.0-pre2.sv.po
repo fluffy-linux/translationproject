@@ -5,13 +5,13 @@
 # Jan Djärv <jan.h.d@swipnet.se>, 1998, 2001, 2002, 2003, 2006, 2007, 2010, 2013, 2014
 # Göran Uddeborg <goeran@uddeborg.se>, 2016, 2019, 2020, 2021, 2023, 2024, 2025, 2026.
 #
-# $Revision: 1.30 $
+# $Revision: 1.31 $
 msgid ""
 msgstr ""
 "Project-Id-Version: gettext-tools 1.0-pre2\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2026-01-13 11:57+0100\n"
-"PO-Revision-Date: 2026-01-19 12:27+0100\n"
+"PO-Revision-Date: 2026-09-09 22:28+0200\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -383,7 +383,7 @@ msgstr "I direktiv nummer %zu är det första argumenttalet större än det andr
 #: src/format-d.c:1653
 #, c-format
 msgid "In the directive number %zu, the compound specifier consumes a variable number of arguments."
-msgstr "I direktiv nummer %zu konsumerar den sammansättningsspecificeraren ett variabelt antal argument."
+msgstr "I direktiv nummer %zu konsumerar sammansättningsspecificeraren ett variabelt antal argument."
 
 #: src/format-d.c:1656
 #, c-format
@@ -392,7 +392,7 @@ msgstr "I direktiv nummer %zu konsumerar sammansättningsspecificeraren %zu argu
 
 #: src/format-d.c:1659
 msgid "Found '%|' outside of '%(...%)'."
-msgstr "Hittadet ”%|” utanför ”%{…%}”."
+msgstr "Hittade ”%|” utanför ”%{…%}”."
 
 #: src/format-d.c:1662
 msgid "The string ends in the middle of a compound specifier."
@@ -401,7 +401,7 @@ msgstr "Strängen avslutas mitt i en sammansättningsspecificerare."
 #: src/format-d.c:1665
 #, c-format
 msgid "In the directive number %zu, there is an invalid directive in the delimiter part of a compound specifier."
-msgstr "I direktiv nummer %zu finns ett ett felaktigt direktiv i den avgränsande delen av en sammansättningsspecificerare."
+msgstr "I direktiv nummer %zu finns ett felaktigt direktiv i den avgränsande delen av en sammansättningsspecificerare."
 
 #: src/format-d.c:1668 src/format-ocaml.c:767
 #, c-format
@@ -3810,7 +3810,7 @@ msgstr "för många startparenteser"
 #: src/x-c.c:1126
 #, c-format
 msgid "hexadecimal escape sequence in wide string literal is unsupported; use \\u instead of \\x if you meant to designate a Unicode character"
-msgstr "hexadecimal styreskvens i en bred literal stödjs inte; använd \\u istället för \\x om du avsåg att beteckna ett Unicode-tecken"
+msgstr "hexadecimal styrsekvens i en bred litteral stödjs inte; använd \\u istället för \\x om du avsåg att beteckna ett Unicode-tecken"
 
 #: src/x-c.c:1130 src/x-scheme.c:770 src/x-scheme.c:826 src/x-vala.c:557
 #, c-format
@@ -3846,7 +3846,7 @@ msgstr "oavslutad teckenkonstant"
 #: src/x-c.c:1732 src/x-modula2.c:436 src/x-vala.c:971
 #, c-format
 msgid "unterminated string literal"
-msgstr "oavslutad strängliteral"
+msgstr "oavslutad stränglitteral"
 
 #: src/x-csharp.c:225 src/xg-encoding.c:156 src/xg-encoding.c:169
 #: src/xg-encoding.c:212 src/xg-encoding.c:226
@@ -3999,12 +3999,12 @@ msgstr "ASCII-punkt (”%c”) istället för Unicode"
 #: src/xg-check.c:429
 #, c-format
 msgid "Message contains an embedded URL.  Better move it out of the translatable string, see %s"
-msgstr "Meddelandet innehåller in inbäddad URL. Det är bättre att flytta ut den ur den översättningsbara strängen, se %s"
+msgstr "Meddelandet innehåller en inbäddad URL. Det är bättre att flytta ut den ur den översättningsbara strängen, se %s"
 
 #: src/xg-check.c:521
 #, c-format
 msgid "Message contains an embedded email address.  Better move it out of the translatable string, see %s"
-msgstr "Meddelandet innehåller in inbäddad e-postadress. Det är bättre att flytta ut den ur den översättningsbara strängen, se %s"
+msgstr "Meddelandet innehåller en inbäddad e-postadress. Det är bättre att flytta ut den ur den översättningsbara strängen, se %s"
 
 #: src/xg-encoding.c:75
 #, c-format
@@ -4201,7 +4201,7 @@ msgid ""
 "      --no-check=NAME         don't perform syntax check on messages\n"
 "                                (url, email)\n"
 msgstr ""
-"      --check=NAMN            utför inte syntaxkontroll av meddelanden\n"
+"      --no-check=NAMN         utför inte syntaxkontroll av meddelanden\n"
 "                                (url, email)\n"
 
 #: src/xgettext.c:1242
@@ -4285,7 +4285,7 @@ msgid ""
 "      --tag=WORD:FORMAT       defines the behaviour of tagged template literals\n"
 "                              with tag WORD\n"
 msgstr ""
-"      --tag=ORD:FORMAT        definierar beteendet hos taggade malliteraler\n"
+"      --tag=ORD:FORMAT        definierar beteendet hos taggade mallitteraler\n"
 "                              med taggen ORD\n"
 
 #: src/xgettext.c:1278
@@ -4355,7 +4355,7 @@ msgid ""
 "                              reproducible 'POT-Creation-Date' field in the\n"
 "                              output.\n"
 msgstr ""
-"      --no-git                använd inte programmet git program för att skapa\n"
+"      --no-git                använd inte programmet git för att skapa\n"
 "                              ett reproducerbart fält ”POT-Creation-Date” i\n"
 "                              utdatan.\n"
 
@@ -4580,7 +4580,7 @@ msgstr ""
 #: src/x-javascript.c:1090
 #, c-format
 msgid "invalid RegExp literal"
-msgstr "felaktig RegExp-literal"
+msgstr "felaktig RegExp-litteral"
 
 #: src/x-javascript.c:1133
 #, c-format
@@ -4590,7 +4590,7 @@ msgstr "RegExp-uttryck avslutas för tidigt"
 #: src/x-javascript.c:1139
 #, c-format
 msgid "RegExp literal lacks a ']' to match the '['"
-msgstr "RegExp-literalen saknar en ”]” för att matcha ”]”"
+msgstr "RegExp-litteralen saknar en ”]” för att matcha ”[”"
 
 #: src/x-javascript.c:1280
 #, c-format
@@ -4666,7 +4666,7 @@ msgstr "oavslutat uttryck i heredoc, en ”%c” förväntades"
 #: src/x-php.c:1000
 #, c-format
 msgid "unterminated expression in string literal, expected a '%c'"
-msgstr "oavslutat uttryck i strängliteral, en ”%c” förväntades"
+msgstr "oavslutat uttryck i stränglitteral, en ”%c” förväntades"
 
 #: src/x-php.c:1029
 #, c-format
@@ -4676,7 +4676,7 @@ msgstr "ett oavslutat uttryck i heredoc innehåller obalanserad ”%c”"
 #: src/x-php.c:1030
 #, c-format
 msgid "unterminated expression in string literal contains unbalanced '%c'"
-msgstr "ett oavsluttat utryck i strängliteral innehåller obalanserad ”%c”"
+msgstr "ett oavsluttat utryck i stränglitteral innehåller obalanserad ”%c”"
 
 #: src/x-po.c:215
 #, c-format
