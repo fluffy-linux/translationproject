@@ -2,7 +2,7 @@
 # Copyright (C) 2025 Free Software Foundation, Inc.
 # This file is distributed under the same license as the tar package.
 #
-# “Hoeperdepoep!”
+# “Tap, tap, tap, atap, BANG!”
 #
 # Erwin Poeze <erwin.poeze@gmail.com>, 2009.
 # Elros Cyriatan <cyriatan@fastmail.fm>, 2004.
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: tar-1.35.90\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2025-10-19 09:40+0300\n"
-"PO-Revision-Date: 2025-10-23 13:31+0200\n"
+"PO-Revision-Date: 2026-09-14 15:41+0200\n"
 "Last-Translator: Benno Schulenberg <vertaling@coevern.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -2103,7 +2103,7 @@ msgstr "TEKENREEKS"
 
 #: src/tar.c:847
 msgid "backup before removal, override usual suffix ('~' unless overridden by environment variable SIMPLE_BACKUP_SUFFIX)"
-msgstr "voor verwijdering een reservekopie maken, met TEKENREEKS als achtervoegsel (in plaats van '~', die standaard is tenzij door omgevingsvariable SIMPLE_BACKUP_SUFFIX veranderd)"
+msgstr "voor verwijdering een reservekopie maken, met TEKENREEKS als achtervoegsel (in plaats van '~', die standaard is tenzij door omgevingsvariabele SIMPLE_BACKUP_SUFFIX veranderd)"
 
 #: src/tar.c:851
 msgid "File name transformations:"
