@@ -8,13 +8,13 @@
 # Ivo Timmermans <ivo@o2w.nl>, 2000.
 # Freek de Kruijf <f.de.kruijf@hetnet.nl>, 2004, 2005.
 # Erwin Poeze <erwin.poeze@gmail.com>, 2009, 2010.
-# Benno Schulenberg <benno@vertaalt.nl>, 2007, 2008, 2010, 2011, 2019, 2024.
+# Benno Schulenberg <vertaling@coevern.nl>, 2007, 2008, 2010, 2011, 2019, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnulib-20241209\n"
 "Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
 "POT-Creation-Date: 2024-12-09 10:23-0800\n"
-"PO-Revision-Date: 2025-01-02 17:52+0100\n"
+"PO-Revision-Date: 2026-09-14 15:41+0200\n"
 "Last-Translator: Benno Schulenberg <vertaling@coevern.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -249,15 +249,15 @@ msgstr "door"
 
 #: lib/c-file-type.c:81
 msgid "multiplexed block special file"
-msgstr "gemultiplexed blok-apparaat"
+msgstr "gemultiplext blok-apparaat"
 
 #: lib/c-file-type.c:84
 msgid "multiplexed character special file"
-msgstr "gemultiplexed byte-apparaat"
+msgstr "gemultiplext byte-apparaat"
 
 #: lib/c-file-type.c:87
 msgid "multiplexed file"
-msgstr "gemultiplexed bestand"
+msgstr "gemultiplext bestand"
 
 #: lib/c-file-type.c:90
 msgid "named file"
