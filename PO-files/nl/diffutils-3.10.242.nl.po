@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: diffutils-3.10.242\n"
 "Report-Msgid-Bugs-To: bug-diffutils@gnu.org\n"
 "POT-Creation-Date: 2025-01-03 09:48-0800\n"
-"PO-Revision-Date: 2025-01-04 11:52+0100\n"
+"PO-Revision-Date: 2026-09-14 15:41+0200\n"
 "Last-Translator: Benno Schulenberg <vertaling@coevern.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -90,15 +90,15 @@ msgstr "door"
 
 #: lib/c-file-type.c:81
 msgid "multiplexed block special file"
-msgstr "gemultiplexed blok-apparaat"
+msgstr "gemultiplext blok-apparaat"
 
 #: lib/c-file-type.c:84
 msgid "multiplexed character special file"
-msgstr "gemultiplexed byte-apparaat"
+msgstr "gemultiplext byte-apparaat"
 
 #: lib/c-file-type.c:87
 msgid "multiplexed file"
-msgstr "gemultiplexed bestand"
+msgstr "gemultiplext bestand"
 
 #: lib/c-file-type.c:90
 msgid "named file"
