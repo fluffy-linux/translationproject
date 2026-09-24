@@ -1,0 +1,1103 @@
+# Traditional Chinese Messages for m4.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the m4 package.
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2005, 2013.
+# Alang Hsu <alang.hsu@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: m4 1.4.21\n"
+"Report-Msgid-Bugs-To: bug-m4@gnu.org\n"
+"POT-Creation-Date: 2026-02-06 13:55-0600\n"
+"PO-Revision-Date: 2026-09-24 16:30+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@lists.slat.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+
+#: lib/clean-temp.c:230
+#, c-format
+msgid "cannot find a temporary directory, try setting $TMPDIR"
+msgstr "找不到暫存目錄，請嘗試設定 $TMPDIR"
+
+#: lib/clean-temp.c:245
+#, c-format
+msgid "cannot create a temporary directory using template \"%s\""
+msgstr "無法使用模板「%s」建立暫存目錄"
+
+#: lib/clean-temp.c:364
+#, c-format
+msgid "cannot remove temporary directory %s"
+msgstr "無法移除暫存目錄 %s"
+
+#: lib/closein.c:99
+msgid "error closing file"
+msgstr "關閉檔案時發生錯誤"
+
+#: lib/closeout.c:121
+msgid "write error"
+msgstr "寫入發生錯誤"
+
+#: lib/c-stack.c:190
+msgid "program error"
+msgstr "程式錯誤"
+
+#: lib/c-stack.c:191
+msgid "stack overflow"
+msgstr "堆疊超出容量"
+
+#: lib/clean-temp-simple.c:266
+#, c-format
+msgid "cannot remove temporary file %s"
+msgstr "無法移除暫存檔案 %s"
+
+#: lib/error.c:208
+msgid "Unknown system error"
+msgstr "未知的系統錯誤"
+
+#: lib/execute.c:378 lib/spawn-pipe.c:597 lib/wait-process.c:325
+#: lib/wait-process.c:396
+#, c-format
+msgid "%s subprocess failed"
+msgstr "%s 子處理程序失敗"
+
+#: lib/getopt.c:283
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s：選項「%s%s」不明確\n"
+
+#: lib/getopt.c:289
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s：選項「%s%s」不明確；可能選項為："
+
+#: lib/getopt.c:323
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s：無法識別的選項「%s%s」\n"
+
+#: lib/getopt.c:349
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s：「%s%s」選項不接受引數\n"
+
+#: lib/getopt.c:364
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s：「%s%s」選項需要個引數\n"
+
+#: lib/getopt.c:624
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: 無效的選項 -- \"%c\"\n"
+
+#: lib/getopt.c:639 lib/getopt.c:685
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: 選項需要一個引數 -- \"%c\"\n"
+
+#: lib/obstack.c:351 lib/obstack.c:353 lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "記憶體耗盡"
+
+#: lib/openat-die.c:38
+#, c-format
+msgid "unable to record current working directory"
+msgstr "無法記錄現行工作目錄"
+
+#: lib/openat-die.c:57
+#, c-format
+msgid "failed to return to initial working directory"
+msgstr "無法返回原本的工作目錄"
+
+#: lib/os2-spawn.c:51
+#, c-format
+msgid "_open_osfhandle failed"
+msgstr "_open_osfhandle 失敗"
+
+#: lib/os2-spawn.c:88
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr "無法還原檔案描述項 %d：dup2 失敗"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:357
+msgid "`"
+msgstr "`"
+
+#: lib/quotearg.c:358
+msgid "'"
+msgstr "'"
+
+#: lib/regcomp.c:122
+msgid "Success"
+msgstr "成功"
+
+#: lib/regcomp.c:125
+msgid "No match"
+msgstr "沒有符合的字串"
+
+#: lib/regcomp.c:128
+msgid "Invalid regular expression"
+msgstr "無效的正規表示式"
+
+#: lib/regcomp.c:131
+msgid "Invalid collation character"
+msgstr "無效的 collation 字元"
+
+#: lib/regcomp.c:134
+msgid "Invalid character class name"
+msgstr "無效的字元種類名稱"
+
+#: lib/regcomp.c:137
+msgid "Trailing backslash"
+msgstr "末端有多餘的反斜號"
+
+#: lib/regcomp.c:140
+msgid "Invalid back reference"
+msgstr "無效的 back reference"
+
+#: lib/regcomp.c:143
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "沒有對應的 [，[^，[:，[. 或 [="
+
+#: lib/regcomp.c:146
+msgid "Unmatched ( or \\("
+msgstr "沒有對應的 ( 或 \\("
+
+#: lib/regcomp.c:149
+msgid "Unmatched \\{"
+msgstr "沒有對應的 \\{"
+
+#: lib/regcomp.c:152
+msgid "Invalid content of \\{\\}"
+msgstr "\\{\\} 中的內容無效"
+
+#: lib/regcomp.c:155
+msgid "Invalid range end"
+msgstr "範圍末端字元無效"
+
+#: lib/regcomp.c:158
+msgid "Memory exhausted"
+msgstr "記憶體耗盡"
+
+#: lib/regcomp.c:161
+msgid "Invalid preceding regular expression"
+msgstr "之前的正規表示式無效"
+
+#: lib/regcomp.c:164
+msgid "Premature end of regular expression"
+msgstr "正規表示式過早結束"
+
+#: lib/regcomp.c:167
+msgid "Regular expression too big"
+msgstr "正規表示式過長"
+
+#: lib/regcomp.c:170
+msgid "Unmatched ) or \\)"
+msgstr "沒有對應的 ) 或 \\)"
+
+#: lib/regcomp.c:650
+msgid "No previous regular expression"
+msgstr "之前沒有任何正規表示式"
+
+#: lib/siglist.h:31
+msgid "Hangup"
+msgstr "掛斷"
+
+#: lib/siglist.h:34
+msgid "Interrupt"
+msgstr "中斷"
+
+#: lib/siglist.h:37
+msgid "Quit"
+msgstr "退出"
+
+#: lib/siglist.h:40
+msgid "Illegal instruction"
+msgstr "無效指令"
+
+#: lib/siglist.h:43
+msgid "Trace/breakpoint trap"
+msgstr "追蹤 / 斷點陷阱"
+
+#: lib/siglist.h:46
+msgid "Aborted"
+msgstr "中止"
+
+#: lib/siglist.h:49
+msgid "Floating point exception"
+msgstr "浮點數例外"
+
+#: lib/siglist.h:52
+msgid "Killed"
+msgstr "強制結束"
+
+#: lib/siglist.h:55
+msgid "Bus error"
+msgstr "匯流排錯誤"
+
+#: lib/siglist.h:58
+msgid "Segmentation fault"
+msgstr "程式記憶體區段錯誤"
+
+#: lib/siglist.h:61
+msgid "Broken pipe"
+msgstr "管線損壞"
+
+#: lib/siglist.h:64
+msgid "Alarm clock"
+msgstr "鬧鐘"
+
+#: lib/siglist.h:67
+msgid "Terminated"
+msgstr "終止"
+
+#: lib/siglist.h:70
+msgid "Urgent I/O condition"
+msgstr "緊急 I/O 條件"
+
+#: lib/siglist.h:73
+msgid "Stopped (signal)"
+msgstr "停止（信號）"
+
+#: lib/siglist.h:76
+msgid "Stopped"
+msgstr "停止"
+
+#: lib/siglist.h:79
+msgid "Continued"
+msgstr "繼續"
+
+#: lib/siglist.h:82
+msgid "Child exited"
+msgstr "子處理程序退出"
+
+#: lib/siglist.h:85
+msgid "Stopped (tty input)"
+msgstr "停止（tty 輸入）"
+
+#: lib/siglist.h:88
+msgid "Stopped (tty output)"
+msgstr "停止（tty 輸出）"
+
+#: lib/siglist.h:91
+msgid "I/O possible"
+msgstr "可能 I/O"
+
+#: lib/siglist.h:94
+msgid "CPU time limit exceeded"
+msgstr "到達 CPU 時間上限"
+
+#: lib/siglist.h:97
+msgid "File size limit exceeded"
+msgstr "到達檔案大小上限"
+
+#: lib/siglist.h:100
+msgid "Virtual timer expired"
+msgstr "虛擬計時器過期"
+
+#: lib/siglist.h:103
+msgid "Profiling timer expired"
+msgstr "分析計時器過期"
+
+#: lib/siglist.h:106
+msgid "Window changed"
+msgstr "已變更視窗"
+
+#: lib/siglist.h:109
+msgid "User defined signal 1"
+msgstr "使用者定義信號 1"
+
+#: lib/siglist.h:112
+msgid "User defined signal 2"
+msgstr "使用者定義信號 2"
+
+#: lib/siglist.h:117
+msgid "EMT trap"
+msgstr "EMT 陷阱"
+
+#: lib/siglist.h:120
+msgid "Bad system call"
+msgstr "無效系統呼叫"
+
+#: lib/siglist.h:123
+msgid "Stack fault"
+msgstr "堆疊錯誤"
+
+#: lib/siglist.h:126
+msgid "Information request"
+msgstr "資訊請求"
+
+#: lib/siglist.h:128
+msgid "Power failure"
+msgstr "電源錯誤"
+
+#: lib/siglist.h:131
+msgid "Resource lost"
+msgstr "資源遺失"
+
+#: lib/spawn-pipe.c:218 lib/spawn-pipe.c:221
+#, c-format
+msgid "cannot create pipe"
+msgstr "無法建立管線"
+
+#: lib/strsignal.c:114
+#, c-format
+msgid "Real-time signal %d"
+msgstr "即時信號 %d"
+
+#: lib/strsignal.c:118
+#, c-format
+msgid "Unknown signal %d"
+msgstr "未知信號 %d"
+
+#: lib/version-etc.c:73
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "套件由 %s (%s) 所打包\n"
+
+#: lib/version-etc.c:76
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "套件由 %s 所打包\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:83
+msgid "(C)"
+msgstr "(C)"
+
+#. TRANSLATORS: The %s placeholder is the web address of the GPL license.
+#: lib/version-etc.c:88
+#, c-format
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <%s>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"授權條款 GPLv3+：GNU GPL 第 3 版或更新版 <%s>。\n"
+"這是自由軟體：您可自由修改或散布。\n"
+"在法律准許範圍內不附帶保證。\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:105
+#, c-format
+msgid "Written by %s.\n"
+msgstr "由 %s 編寫。\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:109
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "由 %s 和 %s 編寫。\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:113
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "由 %s、%s 和 %s 編寫。\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:120
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"由 %s、%s、%s、\n"
+"和 %s 編寫。\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:127
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"由 %s、%s、%s、\n"
+"%s 和 %s 編寫。\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:134
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"由 %s、%s、%s、\n"
+"%s、%s 和 %s 編寫。\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:142
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"由 %s、%s、%s、\n"
+"%s、%s、%s 和 %s 編寫。\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:150
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"由 %s、%s、%s、\n"
+"%s、%s、%s、%s、\n"
+"和 %s 編寫。\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:159
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"由 %s、%s、%s、\n"
+"%s、%s、%s、%s、\n"
+"%s 和 %s 編寫。\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:170
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"由 %s、%s、%s、\n"
+"%s、%s、%s、%s、\n"
+"%s 和 %s 等人編寫。\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:248
+#, c-format
+msgid "Report bugs to: %s\n"
+msgstr "回報臭蟲至：%s\n"
+
+#: lib/version-etc.c:250
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "回報 %s bug 到: %s\n"
+
+#: lib/version-etc.c:254 lib/version-etc.c:256
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "%s 首頁: <%s>\n"
+
+#: lib/version-etc.c:259
+#, c-format
+msgid "General help using GNU software: <%s>\n"
+msgstr "GNU 軟體用法的一般說明：<%s>\n"
+
+#: lib/wait-process.c:266 lib/wait-process.c:298 lib/wait-process.c:357
+#, c-format
+msgid "%s subprocess"
+msgstr "%s 子處理程序"
+
+#: lib/wait-process.c:317 lib/wait-process.c:386
+#, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "%s 子處理程序收到嚴重訊號 %d"
+
+#: lib/xprintf.c:47 lib/xprintf.c:68
+#, c-format
+msgid "cannot perform formatted output"
+msgstr "無法執行格式化輸出"
+
+#: src/builtin.c:264
+#, c-format
+msgid "--warn-macro-sequence: bad regular expression `%s': %s"
+msgstr "--warn-macro-sequence：不當的正規表示式「%s」：%s"
+
+#: src/builtin.c:298
+#, c-format
+msgid "truncating macro `%s' definition to INT_MAX bytes"
+msgstr "正在將巨集「%s」的定義截斷至 INT_MAX 位元組"
+
+#: src/builtin.c:333
+#, c-format
+msgid "Warning: definition of `%s' contains sequence `%s'"
+msgstr "警告：巨集「%s」的定義包含序列「%s」"
+
+#: src/builtin.c:340
+#, c-format
+msgid "error checking --warn-macro-sequence for macro `%s'"
+msgstr "正在檢查巨集「%s」的 --warn-macro-sequence 時發生錯誤"
+
+#: src/builtin.c:401
+#, c-format
+msgid "Warning: too few arguments to builtin `%s'"
+msgstr "警告：內建「%s」的引數太少"
+
+#: src/builtin.c:407
+#, c-format
+msgid "Warning: excess arguments to builtin `%s' ignored"
+msgstr "警告：內建「%s」的多餘引數已忽略"
+
+#: src/builtin.c:428 src/builtin.c:1155
+#, c-format
+msgid "empty string treated as 0 in builtin `%s'"
+msgstr "空字串在內建「%s」中被視為 0"
+
+#: src/builtin.c:438 src/builtin.c:1285
+#, c-format
+msgid "non-numeric argument to builtin `%s'"
+msgstr "提供了非數值引數給內建「%s」"
+
+#: src/builtin.c:444
+#, c-format
+msgid "leading whitespace ignored in builtin `%s'"
+msgstr "前導空白字元在內建「%s」中被忽略"
+
+#: src/builtin.c:448
+#, c-format
+msgid "numeric overflow detected in builtin `%s'"
+msgstr "偵測到內建「%s」的數值溢位"
+
+#: src/builtin.c:566 src/builtin.c:829 src/builtin.c:870
+#, c-format
+msgid "Warning: %s: invalid macro name ignored"
+msgstr "警告：%s：已忽略無效的巨集名稱"
+
+#: src/builtin.c:765 src/builtin.c:877
+#, c-format
+msgid "undefined macro `%s'"
+msgstr "未定義的巨集「%s」"
+
+#: src/builtin.c:836
+#, c-format
+msgid "undefined builtin `%s'"
+msgstr "未定義的內建「%s」"
+
+#: src/builtin.c:928 src/builtin.c:2260
+#, c-format
+msgid "builtin `%s' requested by frozen file is not supported"
+msgstr "已凍結檔案要求的內建「%s」未受支援"
+
+#: src/builtin.c:932
+#, c-format
+msgid "Warning: cannot concatenate builtin `%s'"
+msgstr "警告：無法串接內建「%s」"
+
+#: src/builtin.c:1003 src/builtin.c:1053 src/builtin.c:1066 src/builtin.c:1101
+#, c-format
+msgid "cannot run command `%s'"
+msgstr "無法執行命令「%s」"
+
+#: src/builtin.c:1089
+msgid "cannot read pipe"
+msgstr "無法讀取管線"
+
+#: src/builtin.c:1140
+#, c-format
+msgid "radix %d in builtin `%s' out of range"
+msgstr "內建「%2$s」中的基數 %1$d 超出範圍"
+
+#: src/builtin.c:1149
+#, c-format
+msgid "negative width to builtin `%s'"
+msgstr "提供給內建「%s」的寬度為負值"
+
+#: src/builtin.c:1294
+#, c-format
+msgid "error undiverting `%s'"
+msgstr "無法還原轉向「%s」時發生錯誤"
+
+#: src/builtin.c:1298
+#, c-format
+msgid "cannot undivert `%s'"
+msgstr "無法還原轉向「%s」"
+
+#: src/builtin.c:1408 src/freeze.c:115 src/m4.c:382
+#, c-format
+msgid "cannot open `%s'"
+msgstr "無法開啟「%s」"
+
+#: src/builtin.c:1471
+#, c-format
+msgid "%s: cannot create tempfile `%s'"
+msgstr "%s：無法建立暫存檔案「%s」"
+
+#: src/builtin.c:1507
+msgid "recommend using mkstemp instead"
+msgstr "建議改用 mkstemp"
+
+#: src/builtin.c:1600
+#, c-format
+msgid "exit status out of range: `%d'"
+msgstr "結束狀態超出範圍：「%d」"
+
+#: src/builtin.c:1726
+#, c-format
+msgid "Debugmode: bad debug flags: `%s'"
+msgstr "除錯模式：不當的除錯旗標：「%s」"
+
+#: src/builtin.c:1767 src/m4.c:633 src/m4.c:700
+#, c-format
+msgid "cannot set debug file `%s'"
+msgstr "無法設定除錯檔案「%s」"
+
+#: src/builtin.c:2034
+msgid "Warning: \\0 will disappear, use \\& instead in replacements"
+msgstr "警告：\\0 將會消失，請在取代時改用 \\&"
+
+#: src/builtin.c:2057
+#, c-format
+msgid "Warning: sub-expression %d not present"
+msgstr "警告：子運算式 %d 不存在"
+
+#: src/builtin.c:2066
+msgid "Warning: trailing \\ ignored in replacement"
+msgstr "警告：在取代中已忽略尾隨的 \\"
+
+#: src/builtin.c:2132
+#, c-format
+msgid "bad regular expression: `%s': %s"
+msgstr "不當的正規表示式：「%s」：%s"
+
+#: src/builtin.c:2144 src/builtin.c:2214
+#, c-format
+msgid "error matching regular expression `%s'"
+msgstr "比對正規表示式「%s」時發生錯誤"
+
+#: src/builtin.c:2192 src/input.c:795
+#, c-format
+msgid "bad regular expression `%s': %s"
+msgstr "不當的正規表示式：「%s」：%s"
+
+#: src/debug.c:136 src/debug.c:157
+msgid "error writing to debug stream"
+msgstr "寫入除錯串流時發生錯誤"
+
+#: src/eval.c:485
+msgid "Warning: recommend ==, not =, for equality operator"
+msgstr "警告：建議使用 == 而非 = 作為等號運算子"
+
+#: src/eval.c:569
+#, c-format
+msgid "bad expression in eval (missing right parenthesis): %s"
+msgstr "eval 中的運算式不當（缺少右側括號）：%s"
+
+#: src/eval.c:574
+#, c-format
+msgid "bad expression in eval: %s"
+msgstr "eval 中的運算式不當：%s"
+
+#: src/eval.c:579
+#, c-format
+msgid "bad expression in eval (bad input): %s"
+msgstr "eval 中的運算式不當（輸入不當）：%s"
+
+#: src/eval.c:584
+#, c-format
+msgid "bad expression in eval (excess input): %s"
+msgstr "eval 中的運算式不當（輸入過多）：%s"
+
+#: src/eval.c:588
+#, c-format
+msgid "invalid number in eval: %s"
+msgstr "eval 中的數值無效：%s"
+
+#: src/eval.c:592
+#, c-format
+msgid "invalid operator in eval: %s"
+msgstr "eval 中的運算子無效：%s"
+
+#: src/eval.c:597
+#, c-format
+msgid "divide by zero in eval: %s"
+msgstr "eval 中被零除：%s"
+
+#: src/eval.c:601
+#, c-format
+msgid "modulo by zero in eval: %s"
+msgstr "eval 中計算對零取餘數：%s"
+
+#: src/eval.c:605
+#, c-format
+msgid "negative exponent in eval: %s"
+msgstr "eval 中的指數為負值：%s"
+
+#: src/format.c:39 src/format.c:63 src/format.c:87
+msgid "empty string treated as 0"
+msgstr "空字串被視為 0"
+
+#: src/format.c:45 src/format.c:69 src/format.c:93
+#, c-format
+msgid "non-numeric argument %s"
+msgstr "%s 的引數非數值"
+
+#: src/format.c:47 src/format.c:71 src/format.c:95
+msgid "leading whitespace ignored"
+msgstr "已忽略前導空白字元"
+
+#: src/format.c:49 src/format.c:73 src/format.c:97
+msgid "numeric overflow detected"
+msgstr "偵測到數值溢位"
+
+#: src/format.c:309
+#, c-format
+msgid "Warning: unrecognized specifier in `%s'"
+msgstr "警告：「%s」中有無法辨識的指定符"
+
+#: src/freeze.c:157
+msgid "unable to create frozen state"
+msgstr "無法建立凍結狀態"
+
+#: src/freeze.c:168
+msgid "expecting line feed in frozen file"
+msgstr "預期在凍結檔案中有換列字元"
+
+#: src/freeze.c:170
+#, c-format
+msgid "expecting character `%c' in frozen file"
+msgstr "預期在凍結檔案中有「%c」字元"
+
+#: src/freeze.c:216
+msgid "integer overflow in frozen file"
+msgstr "凍結檔案中的整數溢位"
+
+#: src/freeze.c:258
+msgid "premature end of frozen file"
+msgstr "凍結檔案提前結束"
+
+#: src/freeze.c:271
+#, c-format
+msgid "cannot open %s"
+msgstr "無法開啟 %s"
+
+#: src/freeze.c:286
+#, c-format
+msgid "frozen file version %d greater than max supported of 1"
+msgstr "凍結檔案版本 %d 大於最大值 1"
+
+#: src/freeze.c:289
+msgid "ill-formed frozen file, version directive expected"
+msgstr "格式不良的凍結檔案，預期有版本指示詞"
+
+#: src/freeze.c:298
+msgid "ill-formed frozen file"
+msgstr "格式不良的凍結檔案"
+
+#: src/freeze.c:387
+msgid "unable to read frozen state"
+msgstr "無法讀取凍結狀態"
+
+#: src/input.c:359
+msgid "read error"
+msgstr "讀取錯誤"
+
+#: src/input.c:366
+msgid "error reading file"
+msgstr "讀取檔案時發生錯誤"
+
+#: src/input.c:590
+msgid "Warning: end of file treated as newline"
+msgstr "警告：檔案結尾被視為換列字元"
+
+#: src/input.c:899
+msgid "ERROR: end of file in comment"
+msgstr "錯誤：註解中有檔案結尾（EOF）"
+
+#: src/input.c:1023
+msgid "ERROR: end of file in string"
+msgstr "錯誤：字串中有檔案結尾（EOF）"
+
+#. TRANSLATORS: This is a non-ASCII name: The first name is (with
+#. Unicode escapes) "Ren\u00e9" or (with HTML entities) "Ren&eacute;".
+#. This is a proper name. See the gettext manual, section Names.
+#: src/m4.c:41
+msgid "Rene' Seindal"
+msgstr "Rene' Seindal"
+
+#: src/m4.c:207
+#, c-format
+msgid "Try `%s --help' for more information."
+msgstr "請嘗試執行「%s --help」以取得更多資訊。"
+
+#: src/m4.c:213
+#, c-format
+msgid "Usage: %s [OPTION]... [FILE]...\n"
+msgstr "用法：%s [選項]… [檔案]…\n"
+
+#: src/m4.c:214
+msgid ""
+"Process macros in FILEs.  If no FILE or if FILE is `-', standard input\n"
+"is read.\n"
+msgstr ""
+"處理 FILE 中的巨集。如果未提供 FILE 或 FILE 為「-」，\n"
+"則讀取標準輸入。\n"
+
+#: src/m4.c:219
+msgid ""
+"Mandatory or optional arguments to long options are mandatory or optional\n"
+"for short options too.\n"
+msgstr "長選項的強制或選用引數，對短選項也同樣適用。\n"
+
+#: src/m4.c:224
+msgid ""
+"Operation modes:\n"
+"      --help                   display this help and exit\n"
+"      --version                output version information and exit\n"
+msgstr ""
+"作業模式：\n"
+"      --help                   顯示此說明並退出\n"
+"      --version                輸出版本資訊並退出\n"
+
+#: src/m4.c:229
+msgid ""
+"  -E, --fatal-warnings         once: warnings become errors, twice: stop\n"
+"                                 execution at first error\n"
+"  -i, --interactive            unbuffer output, ignore interrupts\n"
+"  -P, --prefix-builtins        force a `m4_' prefix to all builtins\n"
+"  -Q, --quiet, --silent        suppress some warnings for builtins\n"
+msgstr ""
+"  -E, --fatal-warnings         單次：警告變為錯誤，兩次：\n"
+"                                 在第一個錯誤時停止執行\n"
+"  -i, --interactive            不緩衝輸出，忽略插斷訊號\n"
+"  -P, --prefix-builtins        強制在所有內建加上「m4_」前置碼\n"
+"  -Q, --quiet, --silent        抑制部分關於內建的警告\n"
+
+#: src/m4.c:236
+#, c-format
+msgid ""
+"      --warn-macro-sequence[=REGEXP]\n"
+"                               warn if macro definition matches REGEXP,\n"
+"                                 default %s\n"
+msgstr ""
+"      --warn-macro-sequence[=REGEXP]\n"
+"                               如果巨集定義符合 REGEXP，則發出警告，\n"
+"                                 預設為 %s\n"
+
+#: src/m4.c:242
+msgid "  -W, --word-regexp=REGEXP     use REGEXP for macro name syntax\n"
+msgstr "  -W, --word-regexp=REGEXP     使用 REGEXP 作為巨集名稱語法\n"
+
+#: src/m4.c:247
+msgid ""
+"Preprocessor features:\n"
+"  -D, --define=NAME[=VALUE]    define NAME as having VALUE, or empty\n"
+"  -I, --include=DIRECTORY      append DIRECTORY to include path\n"
+"  -s, --synclines              generate `#line NUM \"FILE\"' lines\n"
+"  -U, --undefine=NAME          undefine NAME\n"
+msgstr ""
+"前置處理器功能：\n"
+"  -D, --define=NAME[=VALUE]    將 NAME 定義為 VALUE 或空值\n"
+"  -I, --include=DIRECTORY      將 DIRECTORY 附加至含入路徑\n"
+"  -s, --synclines              產生「#line NUM \"FILE\"」列\n"
+"  -U, --undefine=NAME          取消定義 NAME\n"
+
+#: src/m4.c:255
+#, c-format
+msgid ""
+"Limits control:\n"
+"  -g, --gnu                    override -G to re-enable GNU extensions\n"
+"  -G, --traditional            suppress all GNU extensions\n"
+"  -H, --hashsize=PRIME         set symbol lookup hash table size [%d]\n"
+"  -L, --nesting-limit=NUMBER   change nesting limit, 0 for unlimited [%d]\n"
+msgstr ""
+"限制控制：\n"
+"  -g, --gnu                    覆蓋 -G 以重新啟用 GNU 擴充功能\n"
+"  -G, --traditional            抑制所有 GNU 擴充功能\n"
+"  -H, --hashsize=PRIME         設定符號查找雜湊表大小 [%d]\n"
+"  -L, --nesting-limit=NUMBER   變更巢狀限制，0 為無限制 [%d]\n"
+
+#: src/m4.c:263
+msgid ""
+"Frozen state files:\n"
+"  -F, --freeze-state=FILE      produce a frozen state on FILE at end\n"
+"  -R, --reload-state=FILE      reload a frozen state from FILE at start\n"
+msgstr ""
+"凍結狀態檔案：\n"
+"  -F, --freeze-state=FILE      結束時在 FILE 上產生凍結狀態\n"
+"  -R, --reload-state=FILE      開始時從 FILE 重新載入凍結狀態\n"
+
+#: src/m4.c:269
+msgid ""
+"Debugging:\n"
+"  -d, --debug[=FLAGS]          set debug level (no FLAGS implies `aeq')\n"
+"      --debugfile[=FILE]       redirect debug and trace output to FILE\n"
+"                                 (default stderr, discard if empty string)\n"
+"  -l, --arglength=NUM          restrict macro tracing size\n"
+"  -t, --trace=NAME             trace NAME when it is defined\n"
+msgstr ""
+"除錯：\n"
+"  -d, --debug[=FLAGS]          設定除錯等級（無 FLAGS 表示「aeq」）\n"
+"      --debugfile[=FILE]       將除錯和追蹤輸出重新導向至 FILE\n"
+"                                 （預設 stderr，空字串則丟棄）\n"
+"  -l, --arglength=NUM          限制巨集追蹤大小\n"
+"  -t, --trace=NAME             在定義 NAME 時追蹤\n"
+
+#: src/m4.c:278
+msgid ""
+"FLAGS is any of:\n"
+"  a   show actual arguments\n"
+"  c   show before collect, after collect and after call\n"
+"  e   show expansion\n"
+"  f   say current input file name\n"
+"  i   show changes in input files\n"
+msgstr ""
+"FLAGS 可以是下列任一：\n"
+"  a   顯示實際引數\n"
+"  c   在收集前後和呼叫後顯示\n"
+"  e   顯示展開結果\n"
+"  f   顯示目前輸入檔案名稱\n"
+"  i   顯示輸入檔案中的變更\n"
+
+#: src/m4.c:286
+msgid ""
+"  l   say current input line number\n"
+"  p   show results of path searches\n"
+"  q   quote values as necessary, with a or e flag\n"
+"  t   trace for all macro calls, not only traceon'ed\n"
+"  x   add a unique macro call id, useful with c flag\n"
+"  V   shorthand for all of the above flags\n"
+msgstr ""
+"  l   顯示目前輸入列號\n"
+"  p   顯示路徑搜尋結果\n"
+"  q   必要時加上引號，搭配 a 或 e 旗標\n"
+"  t   追蹤所有巨集呼叫，不僅是已追蹤者\n"
+"  x   加入獨一的巨集呼叫 ID，搭配 c 旗標很有用\n"
+"  V   代表上述所有旗標的簡寫\n"
+
+#: src/m4.c:295
+msgid ""
+"If defined, the environment variable `M4PATH' is a colon-separated list\n"
+"of directories included after any specified by `-I'.\n"
+msgstr ""
+"如果已定義，環境變數「M4PATH」是以冒號分隔的目錄清單，\n"
+"在「-I」指定的目錄之後含入。\n"
+
+#: src/m4.c:300
+msgid ""
+"Exit status is 0 for success, 1 for failure, 63 for frozen file version\n"
+"mismatch, or whatever value was passed to the m4exit macro.\n"
+msgstr ""
+"結束狀態 0 為成功，1 為失敗，63 為凍結檔案版本\n"
+"不相等，或傳遞給 m4exit 巨集的其他值。\n"
+
+#: src/m4.c:443
+#, c-format
+msgid "internal error detected; please report this bug to <%s>"
+msgstr "偵測到內部錯誤；請將此臭蟲回報至 <%s>"
+
+#: src/m4.c:497
+#, c-format
+msgid "warning: `m4 -%c' may be removed in a future release"
+msgstr "警告：「m4 -%c」可能在未來版本中移除"
+
+#: src/m4.c:504
+#, c-format
+msgid "warning: `m4 %s' is deprecated"
+msgstr "警告：「m4 %s」已淘汰"
+
+#: src/m4.c:580
+#, c-format
+msgid "bad debug flags: `%s'"
+msgstr "不當的除錯旗標：「%s」"
+
+#: src/m4.c:586
+#, c-format
+msgid "warning: `m4 -e' is deprecated, use `-i' instead"
+msgstr "警告：「m4 -e」已淘汰，請改用「-i」"
+
+#: src/m4.c:701
+msgid "stderr"
+msgstr "stderr"
+
+#: src/macro.c:178 src/macro.c:225
+msgid "Warning: cannot concatenate builtin tokens"
+msgstr "警告：無法串接內建詞元"
+
+#: src/macro.c:205
+msgid "ERROR: end of file in argument list"
+msgstr "錯誤：引數清單中有檔案結尾（EOF）"
+
+#: src/macro.c:348
+#, c-format
+msgid "recursion limit of %d exceeded, use -L<N> to change it"
+msgstr "超出 %d 的遞迴限制，使用 -L<N> 來變更"
+
+#: src/output.c:178 src/output.c:933 src/output.c:936
+msgid "cannot clean temporary file for diversion"
+msgstr "無法清理轉向用的暫存檔案"
+
+#: src/output.c:230 src/output.c:239 src/output.c:273 src/output.c:370
+msgid "cannot create temporary file for diversion"
+msgstr "無法建立轉向用的暫存檔案"
+
+#: src/output.c:258 src/output.c:265 src/output.c:277
+msgid "cannot seek within diversion"
+msgstr "無法在轉向內尋訪"
+
+#: src/output.c:350 src/output.c:363 src/output.c:512 src/output.c:768
+msgid "cannot close temporary file for diversion"
+msgstr "無法關閉轉向用的暫存檔案"
+
+#: src/output.c:484
+msgid "ERROR: cannot flush diversion to temporary file"
+msgstr "錯誤：無法將轉向資料清空至暫存檔案"
+
+#: src/output.c:579
+msgid "ERROR: copying inserted file"
+msgstr "錯誤：正在複製插入的檔案"
+
+#: src/output.c:851
+msgid "error reading inserted file"
+msgstr "錯誤：正在讀取插入的檔案"
+
+#: src/output.c:1018
+msgid "cannot stat diversion"
+msgstr "無法取得轉向狀態"
+
+#: src/output.c:1022
+msgid "diversion too large"
+msgstr "轉向資料過大"
