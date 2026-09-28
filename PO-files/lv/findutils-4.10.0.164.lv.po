@@ -1,0 +1,1465 @@
+# Latvian Translation for findutils.
+# Copyright (C) 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the findutils package.
+# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: findutils 4.10.0.164\n"
+"Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
+"POT-Creation-Date: 2026-06-28 18:33+0100\n"
+"PO-Revision-Date: 2026-09-28 14:33+0300\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"Language: lv\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==0 || (n%100>=11 && n%100<=19) ? 0 : n%10==1 && n%100!=11 ? 1 : 2);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: find/exec.c:121
+#, c-format
+msgid "Failed to save working directory in order to run a command on %s"
+msgstr "Neizdevās saglabāt darba direktoriju, lai izpildītu komandu %s"
+
+#: find/exec.c:241
+#, c-format
+msgid "Cannot close standard input"
+msgstr "Neizdevās aizvērt standarta ievadi"
+
+#: find/exec.c:273
+#, c-format
+msgid "Failed to change directory to %s"
+msgstr "Neizdevās mainīt direktoriju uz %s"
+
+#: find/exec.c:277
+#, c-format
+msgid "Failed to change directory"
+msgstr "Neizdevās mainīt direktoriju"
+
+#. TRANSLATORS: fork is the name of a system call, and so it
+#. * doesn't necessarily require a translation.  But to make the
+#. * error message more easily understandable you might translate
+#. * this message as something like "cannot create a new process
+#. * because the system call 'fork' failed".
+#.
+#: find/exec.c:328 xargs/xargs.c:1370
+#, c-format
+msgid "cannot fork"
+msgstr "neizdevās izveidot sazarojumu"
+
+#: find/exec.c:360
+#, c-format
+msgid "error waiting for the command we executed for %s"
+msgstr "kļūda, gaidot komandas izpildi priekš %s"
+
+#: find/exec.c:369
+#, c-format
+msgid "%s terminated by signal %d"
+msgstr "%s pārtraukts ar signālu %d"
+
+#: find/fstype.c:236
+#, c-format
+msgid "Cannot read mounted file system list"
+msgstr "Nevar nolasīt piemontēto failu sistēmu sarakstu"
+
+#. TRANSLATORS: The "unknown" here is a placeholder for the type of
+#. * a file system which we were not able to identify.  File system
+#. * names are typically short, so something like "file system of
+#. * unknown type" would be longer than ideal.
+#.
+#: find/fstype.c:271
+msgid "unknown"
+msgstr "nezināms"
+
+#: find/ftsfind.c:208
+#, c-format
+msgid "Symbolic link %s is part of a loop in the directory hierarchy; we have already visited the directory to which it points."
+msgstr "Simboliskā saite %s ir daļa no cikla direktoriju hierarhijas; mēs jau esam apmeklējuši direktoriju, uz kuru tā norāda."
+
+#: find/ftsfind.c:222
+#, c-format
+msgid "File system loop detected; the following directory is part of the cycle: %s"
+msgstr "Konstatēts failu sistēmas cikls; šī direktorija ir daļa no cikla: %s"
+
+#: find/ftsfind.c:374 find/util.c:261
+#, c-format
+msgid "WARNING: file %s appears to have mode 0000"
+msgstr "BRĪDINĀJUMS: failam %s, šķiet, ir režīms 0000"
+
+#: find/ftsfind.c:492
+#, c-format
+msgid "cannot search %s"
+msgstr "neizdevās meklēt %s"
+
+#: find/ftsfind.c:538
+#, c-format
+msgid "failed to restore working directory after searching %s"
+msgstr "neizdevās atjaunot darba direktoriju pēc %s meklēšanas"
+
+#: find/ftsfind.c:565
+#, c-format
+msgid "extra operand %s"
+msgstr "papildu operands %s"
+
+#: find/ftsfind.c:567
+#, c-format
+msgid "file operands cannot be combined with -files0-from"
+msgstr "failu operandus nevar apvienot ar -files0-from"
+
+#: find/ftsfind.c:578
+#, c-format
+msgid "when -ok or -okdir is in use, the option -files0-from cannot also read from standard input"
+msgstr "ja tiek izmantota -ok vai -okdir, opcija -files0-from nevar arī lasīt no standarta ievades"
+
+#: find/ftsfind.c:580
+msgid "(standard input)"
+msgstr "(standarta ievade)"
+
+#: find/ftsfind.c:589
+#, c-format
+msgid "cannot open %s for reading"
+msgstr "neizdevās atvērt %s lasīšanai"
+
+#: find/ftsfind.c:609
+#, c-format
+msgid "when -ok or -okdir is in use, the option -files0-from cannot also read from standard input, but the file (%s) used for -files0-from appears to refer to the same file as the standard input"
+msgstr "ja tiek izmantota opcija -ok vai -okdir, opcija -files0-from nevar arī lasīt no standarta ievades, bet fails (%s), kas tiek izmantots opcijai -files0-from, šķiet, atsaucas uz to pašu failu, kas ir standarta ievade"
+
+#: find/ftsfind.c:651
+#, c-format
+msgid "%s: read error"
+msgstr "%s: lasīšanas kļūda"
+
+#: find/ftsfind.c:678
+msgid "invalid zero-length file name"
+msgstr "nederīgs tukšs faila nosaukums"
+
+#: find/ftsfind.c:702
+#, c-format
+msgid "error reading %s"
+msgstr "neizdevās nolasīt %s"
+
+#: find/ftsfind.c:737
+#, c-format
+msgid "Failed to initialize shared-file hash table"
+msgstr "Neizdevās inicializēt koplietojamo failu haštabulu"
+
+#: find/ftsfind.c:752 locate/frcode.c:218 locate/locate.c:1564
+#: xargs/xargs.c:433
+#, c-format
+msgid "The atexit library function failed"
+msgstr "Neizdevās izsaukt atexit bibliotēkas funkciju"
+
+#: find/parser.c:440
+#, c-format
+msgid "The -delete action automatically turns on -depth, but -prune does nothing when -depth is in effect.  If you want to carry on anyway, just explicitly use the -depth option."
+msgstr "Darbība -delete automātiski ieslēdz -depth, bet -prune neko nedara, ja ir aktīvs -depth.  Ja tomēr vēlaties turpināt, skaidri norādiet opciju -depth."
+
+#: find/parser.c:598
+#, c-format
+msgid "warning: you have specified the global option %s after the argument %s, but global options are not positional, i.e., %s affects tests specified before it as well as those specified after it.  Please specify global options before other arguments."
+msgstr "brīdinājums: esat norādījis globālo opciju %s pēc argumenta %s, taču globālās opcijas nav pozicionālas, t.i., %s ietekmē gan testus, kas norādīti pirms tās, gan arī tos, kas norādīti pēc tās. Lūdzu, norādiet globālās opcijas pirms citiem argumentiem."
+
+#: find/parser.c:658
+#, c-format
+msgid "warning: operator '%s' (with leading dash '-') will no longer be accepted in future findutils releases!"
+msgstr "brīdinājums: operators '%s' (ar sākuma domuzīmi '-') nākotnē vairs netiks pieņemts findutils laidienos!"
+
+#: find/parser.c:915
+#, c-format
+msgid "warning: the -d option is deprecated; please use -depth instead, because the latter is a POSIX-compliant feature."
+msgstr "brīdinājums: opcija -d ir novecojusi; lūdzu, izmantojiet -depth, jo tā ir atbilstoša POSIX standartam."
+
+#: find/parser.c:1159
+#, c-format
+msgid "invalid group name or GID argument to -group: %s"
+msgstr "nederīgs grupas nosaukuma vai GID arguments opcijai -group: %s"
+
+#: find/parser.c:1232
+#, c-format
+msgid "basic correctness check of the fnmatch() library function failed."
+msgstr "neizdevās veikt fnmatch() bibliotēkas funkcijas pamatpārbaudi."
+
+#: find/parser.c:1247
+#, c-format
+msgid "warning: %s matches against basenames only, but the given pattern contains a directory separator (%s), thus the expression will evaluate to false all the time.  Did you mean %s?"
+msgstr "brīdinājums: %s atbilst tikai pamatnosaukumiem, bet norādītais paraugs satur direktorijas atdalītāju (%s), tāpēc izteiksme vienmēr tiks novērtēta kā nepatiesa.  Vai jūs domājāt %s?"
+
+#: find/parser.c:1361
+#, c-format
+msgid "Expected a positive decimal integer argument to %s, but got %s"
+msgstr "Opcijai %s nepieciešams pozitīvs decimāls vesels skaitlis, bet saņemts %s"
+
+#: find/parser.c:1520
+#, c-format
+msgid "This system does not provide a way to find the birth time of a file."
+msgstr "Šī sistēma nenodrošina iespēju noteikt faila izveides laiku."
+
+#: find/parser.c:1541
+#, c-format
+msgid "The %s test needs to be followed by an argument"
+msgstr "Pēc %s testa ir jānorāda arguments"
+
+#: find/parser.c:1578
+#, c-format
+msgid "I cannot figure out how to interpret %s as a date or time"
+msgstr "Neizdevās saprast, kā interpretēt %s kā datumu vai laiku"
+
+#: find/parser.c:1595
+#, c-format
+msgid "Cannot obtain birth time of file %s"
+msgstr "Neizdevās iegūt faila %s izveides laiku"
+
+#. TRANSLATORS: the first argument here (-%s) expands to the a test
+#. * which the user specified on the command line. The second is the
+#. * argument they gave for it.   These might be, for example:
+#. *
+#. * warning: -ipath foo/ will not match anything...
+#. * warning: -path z/q/ will not match anything...
+#.
+#: find/parser.c:1746
+#, c-format
+msgid "warning: -%s %s will not match anything because it ends with /."
+msgstr "brīdinājums: -%s %s neatradīs nevienu atbilstību, jo beidzas ar /."
+
+#. TRANSLATORS: "mode" here is used in the same sense as we use
+#. * for the "chmod" program.
+#.
+#: find/parser.c:1845
+#, c-format
+msgid "invalid file mode %s"
+msgstr "nederīgs faila režīms %s"
+
+#: find/parser.c:1864
+#, c-format
+msgid "warning: you have specified a mode pattern %s (which is equivalent to /000). The meaning of -perm /000 was changed in 2007 to be consistent with -perm -000; that is, while it used to match no files, it now matches all files. This warning message will be removed in a future findutils release."
+msgstr "brīdinājums: esat norādījis režīma paraugu %s (kas ir līdzvērtīgs /000). Opcijas -perm /000 nozīme tika mainīta 2007. gadā, lai tā būtu saskaņota ar -perm -000; proti, ja iepriekš tā neatbilda nevienam failam, tad tagad tā atbilst visiem failiem. Šis brīdinājums tiks noņemts kādā no nākamajiem findutils laidieniem."
+
+#: find/parser.c:2039
+#, c-format
+msgid "failed to compile regular expression '%s': %s"
+msgstr "neizdevās kompilēt regulāro izteiksmi '%s': %s"
+
+#: find/parser.c:2069
+#, c-format
+msgid "invalid null argument to -size"
+msgstr "nederīgs tukšs arguments opcijai -size"
+
+#: find/parser.c:2119
+#, c-format
+msgid "invalid -size type `%c'"
+msgstr "nederīgs -size veids `%c`"
+
+#: find/parser.c:2129
+#, c-format
+msgid "Invalid argument `%s%s' to -size"
+msgstr "Nederīgs arguments `%s%s` opcijai -size"
+
+#: find/parser.c:2378
+#, c-format
+msgid "Invalid argument %s to -used"
+msgstr "Nederīgs arguments %s opcijai -used"
+
+#: find/parser.c:2411
+#, c-format
+msgid "invalid user name or UID argument to -user: %s"
+msgstr "nederīgs lietotājvārds vai UID arguments opcijai -user: %s"
+
+#: find/parser.c:2433
+#, c-format
+msgid "Features enabled: "
+msgstr "Iespējotās funkcijas: "
+
+#: find/parser.c:2479
+#, c-format
+msgid "invalid predicate -context: SELinux is not enabled."
+msgstr "nederīgs predikāts -context: SELinux nav iespējots."
+
+#: find/parser.c:2547
+#, c-format
+msgid "Arguments to %s should contain at least one letter"
+msgstr "Argumentos %s jābūt vismaz vienam burtam"
+
+#: find/parser.c:2612
+#, c-format
+msgid "%s %c is not supported because symbolic links are not supported on the platform find was compiled on."
+msgstr "%s %c nav atbalstīts, jo simboliskās saites nav atbalstītas platformā, kurā tika kompilēts find."
+
+#: find/parser.c:2624
+#, c-format
+msgid "%s %c is not supported because FIFOs are not supported on the platform find was compiled on."
+msgstr "%s %c nav atbalstīts, jo FIFO nav atbalstīti platformā, kurā tika kompilēts find."
+
+#: find/parser.c:2636
+#, c-format
+msgid "%s %c is not supported because named sockets are not supported on the platform find was compiled on."
+msgstr "%s %c nav atbalstīts, jo nosauktās ligzdas nav atbalstītas platformā, kurā tika kompilēts find."
+
+#: find/parser.c:2652
+#, c-format
+msgid "%s %c is not supported because Solaris doors are not supported on the platform find was compiled on."
+msgstr "%s %c nav atbalstīts, jo Solaris durvis nav atbalstītas platformā, kurā tika kompilēts find."
+
+#: find/parser.c:2660
+#, c-format
+msgid "Unknown argument to %s: %c"
+msgstr "Nezināms arguments opcijai %s: %c"
+
+#: find/parser.c:2668
+#, c-format
+msgid "Duplicate file type '%c' in the argument list to %s."
+msgstr "Dublēts faila tips '%c' %s argumentu sarakstā."
+
+#: find/parser.c:2684
+#, c-format
+msgid "Must separate multiple arguments to %s using: ','"
+msgstr "Vairāki argumenti opcijai %s jāatdala ar ','"
+
+#: find/parser.c:2693
+#, c-format
+msgid "Last file type in list argument to %s is missing, i.e., list is ending on: ','"
+msgstr "Trūkst pēdējā faila tipa opcijas %s saraksta argumentā, t.i., saraksts beidzas ar ','"
+
+#: find/parser.c:2752
+#, c-format
+msgid "The current directory is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove the current directory from your $PATH (that is, remove \".\", doubled colons, or leading or trailing colons)"
+msgstr "Pašreizējā direktorija ir iekļauta PATH vides mainīgajā, kas kombinācijā ar find darbību %s ir nedroši.  Lūdzu, noņemiet pašreizējo direktoriju no sava $PATH (t.i., noņemiet \".\", dubultkolus vai kolus sākumā vai beigās)."
+
+#: find/parser.c:2764
+#, c-format
+msgid "The relative path %s is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove that entry from $PATH"
+msgstr "Relatīvais ceļš %s ir iekļauts PATH vides mainīgajā, kas kombinācijā ar find darbību %s ir nedroši. Lūdzu, noņemiet šo ierakstu no $PATH"
+
+#: find/parser.c:2883
+#, c-format
+msgid "You may not use {} within the utility name for -execdir and -okdir, because this is a potential security problem."
+msgstr "Nedrīkst izmantot {} utilītas nosaukumā opcijām -execdir un -okdir, jo tā ir potenciāla drošības problēma."
+
+#: find/parser.c:2909
+#, c-format
+msgid "Only one instance of {} is supported with -exec%s ... +"
+msgstr "Ar -exec%s ... + tiek atbalstīts tikai viens {} eksemplārs"
+
+#: find/parser.c:2919
+#, c-format
+msgid "In %s the %s must appear by itself, but you specified %s"
+msgstr "Opcijā %s arguments %s jānorāda atsevišķi, bet jūs norādījāt %s"
+
+#: find/parser.c:2938
+#, c-format
+msgid "The environment is too large for exec()."
+msgstr "Vide ir pārāk liela funkcijai exec()."
+
+#: find/parser.c:3048
+#, c-format
+msgid "invalid not-a-number argument: `%s'"
+msgstr "nederīgs neskaitlisks arguments: `%s'"
+
+#: find/parser.c:3113
+#, c-format
+msgid "arithmetic overflow while converting %s days to a number of seconds"
+msgstr "aritmētiska pārplūde, pārvēršot %s dienas sekundēs"
+
+#: find/parser.c:3137
+#, c-format
+msgid "arithmetic overflow when trying to calculate the end of today"
+msgstr "aritmētiska pārplūde, mēģinot aprēķināt šodienas beigas"
+
+#: find/parser.c:3287
+#, c-format
+msgid "non-numeric argument to %s: %s"
+msgstr "neskaitlisks arguments opcijai %s: %s"
+
+#: find/parser.c:3306
+msgid "standard error"
+msgstr "standarta kļūdu izvade"
+
+#: find/parser.c:3311
+msgid "standard output"
+msgstr "standarta izvade"
+
+#: find/pred.c:233
+#, c-format
+msgid "cannot delete %s"
+msgstr "neizdevās dzēst %s"
+
+#: find/pred.c:605
+#, c-format
+msgid "WARNING: cannot determine birth time of file %s"
+msgstr "BRĪDINĀJUMS: neizdevās noteikt faila %s izveides laiku"
+
+#: find/pred.c:653
+#, c-format
+msgid "< %s ... %s > ? "
+msgstr "< %s ... %s > ? "
+
+#: find/pred.c:655
+#, c-format
+msgid "Failed to write prompt for -ok"
+msgstr "Neizdevās izvadīt uzvedni opcijai -ok"
+
+#: find/pred.c:1131 find/print.c:1236
+#, c-format
+msgid "getfilecon failed: %s"
+msgstr "neizdevās iegūt faila kontekstu: %s"
+
+#: find/print.c:333
+#, c-format
+msgid "warning: escape `\\' followed by nothing at all"
+msgstr "brīdinājums: pēc atsoļa simbola `\\' nekas neseko"
+
+#: find/print.c:352
+#, c-format
+msgid "warning: unrecognized escape `\\%c'"
+msgstr "brīdinājums: neatpazīta atsoļa sekvence `\\%c'"
+
+#: find/print.c:372 find/print.c:1258
+#, c-format
+msgid "error: %s at end of format string"
+msgstr "kļūda: %s formāta virknes beigās"
+
+#: find/print.c:396
+#, c-format
+msgid "error: the format directive `%%%c' is reserved for future use"
+msgstr "kļūda: formāta direktīva `%%%c` ir rezervēta turpmākai lietošanai"
+
+#: find/print.c:404
+#, c-format
+msgid "warning: format directive `%%%c' should be followed by another character"
+msgstr "brīdinājums: formāta direktīvai `%%%c` jāseko citai rakstzīmei"
+
+#: find/print.c:412
+#, c-format
+msgid "warning: unrecognized format directive `%%%c'"
+msgstr "brīdinājums: neatpazīta formāta direktīva `%%%c'"
+
+#: find/tree.c:113 find/tree.c:118 find/tree.c:224 find/tree.c:263
+#, c-format
+msgid "invalid expression"
+msgstr "nederīga izteiksme"
+
+#: find/tree.c:124
+#, c-format
+msgid "invalid expression; you have used a binary operator '%s' with nothing before it."
+msgstr "nederīga izteiksme; binārais operators '%s' ir lietots bez vērtības pirms tā."
+
+#: find/tree.c:133 find/tree.c:192
+#, c-format
+msgid "invalid expression: expected expression before closing parentheses '%s'."
+msgstr "nederīga izteiksme: pirms noslēdzošās iekavas '%s' trūkst izteiksmes."
+
+#: find/tree.c:143
+#, c-format
+msgid "expected an expression between '%s' and ')'"
+msgstr "starp '%s' un ')' trūkst izteiksmes"
+
+#: find/tree.c:153
+#, c-format
+msgid "expected an expression after '%s'"
+msgstr "pēc '%s' ir nepieciešama izteiksme"
+
+#: find/tree.c:158
+#, c-format
+msgid "invalid expression; you have too many ')'"
+msgstr "nederīga izteiksme; norādīts pārāk daudz ')'"
+
+#: find/tree.c:181
+#, c-format
+msgid "invalid expression; expected to find a ')' but didn't see one. Perhaps you need an extra predicate after '%s'"
+msgstr "nederīga izteiksme; trūkst noslēdzošās iekavas ')'. Iespējams, pēc '%s' ir nepieciešams papildu predikāts"
+
+#: find/tree.c:196
+#, c-format
+msgid "invalid expression; empty parentheses are not allowed."
+msgstr "nederīga izteiksme; tukšas iekavas nav atļautas."
+
+#: find/tree.c:202
+#, c-format
+msgid "invalid expression; I was expecting to find a ')' somewhere but did not see one."
+msgstr "nederīga izteiksme; netika atrasta noslēdzošā iekava ')'."
+
+#: find/tree.c:209
+#, c-format
+msgid "oops -- invalid expression type! This is probably a bug."
+msgstr "ups — nederīgs izteiksmes veids! Iespējams, tā ir kļūda."
+
+#: find/tree.c:281
+#, c-format
+msgid "oops -- invalid expression type (%d)!  This is probably a bug."
+msgstr "ups — nederīgs izteiksmes tips (%d)!  Iespējams, tā ir kļūda."
+
+#: find/tree.c:837
+#, c-format
+msgid "oops -- invalid expression type!  This is probably a bug."
+msgstr "ups — nederīgs izteiksmes tips!  Droši vien tā ir kļūda."
+
+#: find/tree.c:1092
+#, c-format
+msgid "failed to sort the costlookup array"
+msgstr "neizdevās sakārtot costlookup masīvu"
+
+#: find/tree.c:1114
+#, c-format
+msgid "warning: there is no entry in the predicate evaluation cost table for predicate %s; please report this as a bug"
+msgstr "brīdinājums: predikāta %s novērtēšanas izmaksu tabulā nav ieraksta; lūdzu, ziņojiet par šo kā par kļūdu"
+
+#: find/tree.c:1288
+#, c-format
+msgid "paths must precede expression: `%s'"
+msgstr "ceļiem jāatrodas pirms izteiksmes: `%s'"
+
+#: find/tree.c:1290
+#, c-format
+msgid "possible unquoted pattern after predicate `%s'?"
+msgstr "iespējams, neiekavēts šablons pēc predikāta `%s'?"
+
+#: find/tree.c:1300
+#, c-format
+msgid "unknown predicate `%s'"
+msgstr "nezināms predikāts `%s'"
+
+#: find/tree.c:1320
+#, c-format
+msgid "invalid predicate `%s'"
+msgstr "nederīgs predikāts `%s'"
+
+#: find/tree.c:1324
+#, c-format
+msgid "invalid argument `%s' to `%s'"
+msgstr "nederīgs arguments '%s' predikātam '%s'"
+
+#: find/tree.c:1331
+#, c-format
+msgid "missing argument to `%s'"
+msgstr "trūkst argumenta predikātam `%s`"
+
+#: find/tree.c:1407
+#, c-format
+msgid "you have too many ')'"
+msgstr "pārāk daudz ')'"
+
+#: find/tree.c:1413
+#, c-format
+msgid "unexpected extra predicate '%s'"
+msgstr "negaidīts papildu predikāts '%s'"
+
+#: find/tree.c:1415
+#, c-format
+msgid "unexpected extra predicate"
+msgstr "negaidīts papildu predikāts"
+
+#: find/tree.c:1538
+#, c-format
+msgid "oops -- invalid default insertion of and!  This is probably a bug."
+msgstr "ups! -- nederīga noklusējuma 'and' ievietošana!  Tā, visticamāk, ir kļūda."
+
+#: find/util.c:137
+msgid "Valid arguments for -D:\n"
+msgstr "Derīgie argumenti opcijai -D:\n"
+
+#: find/util.c:161 locate/frcode.c:138 locate/locate.c:1361 xargs/xargs.c:1767
+#, c-format
+msgid "Try '%s --help' for more information.\n"
+msgstr "Izmēģiniet '%s --help', lai iegūtu vairāk informācijas.\n"
+
+#: find/util.c:167
+#, c-format
+msgid "Usage: %s [-H] [-L] [-P] [-Olevel] [-D debugopts] [path...] [expression]\n"
+msgstr "Lietošana: %s [-H] [-L] [-P] [-Olevel] [-D debugopts] [ceļš...] [izteiksme]\n"
+
+#: find/util.c:171
+msgid ""
+"\n"
+"Default path is the current directory; default expression is -print.\n"
+"Expression may consist of: operators, options, tests, and actions.\n"
+msgstr ""
+"\n"
+"Noklusējuma ceļš ir pašreizējā direktorija; noklusējuma izteiksme ir -print.\n"
+"Izteiksme var sastāvēt no: operatoriem, opcijām, pārbaudēm un darbībām.\n"
+
+#: find/util.c:174
+msgid ""
+"\n"
+"Operators (decreasing precedence; -and is implicit where no others are given):\n"
+"      ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2\n"
+"      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1 , EXPR2\n"
+msgstr ""
+"\n"
+"Operatori (dilstošā prioritātē; -and tiek pieņemts pēc noklusējuma, ja nav norādīts cits):\n"
+"      ( IZTEIKSME )   ! IZTEIKSME   -not IZTEIKSME   IZTEIKSME1 -a IZTEIKSME2   IZTEIKSME1 -and IZTEIKSME2\n"
+"      IZTEIKSME1 -o IZTEIKSME2   IZTEIKSME1 -or IZTEIKSME2   IZTEIKSME1 , IZTEIKSME2\n"
+
+#: find/util.c:178
+msgid ""
+"\n"
+"Positional options (always true):\n"
+"      -daystart -follow -nowarn -regextype -warn\n"
+msgstr ""
+"\n"
+"Pozicionālās opcijas (vienmēr patiesas):\n"
+"      -daystart -follow -nowarn -regextype -warn\n"
+
+#: find/util.c:181
+msgid ""
+"\n"
+"Normal options (always true, specified before other expressions):\n"
+"      -depth -files0-from FILE -maxdepth LEVELS -mindepth LEVELS\n"
+"      -mount -noleaf -xdev -ignore_readdir_race -noignore_readdir_race\n"
+msgstr ""
+"\n"
+"Parastās opcijas (vienmēr patiesas, jānorāda pirms citām izteiksmēm):\n"
+"      -depth -files0-from FAILS -maxdepth LĪMEŅI -mindepth LĪMEŅI\n"
+"      -mount -noleaf -xdev -ignore_readdir_race -noignore_readdir_race\n"
+
+#: find/util.c:185
+msgid ""
+"\n"
+"Tests (N can be +N or -N or N):\n"
+"      -amin N -anewer FILE -atime N -cmin N -cnewer FILE -context CONTEXT\n"
+"      -ctime N -empty -false -fstype TYPE -gid N -group NAME -ilname PATTERN\n"
+"      -iname PATTERN -inum N -iwholename PATTERN -iregex PATTERN\n"
+"      -links N -lname PATTERN -mmin N -mtime N -name PATTERN -newer FILE\n"
+"      -newerXY REFERENCE -nouser -nogroup -path PATTERN -perm [-/]MODE\n"
+"      -regex PATTERN -readable -writable -executable\n"
+"      -wholename PATTERN -size N[bcwkMG] -true -type [bcdpflsD] -uid N\n"
+"      -used N -user NAME -xtype [bcdpfls]\n"
+msgstr ""
+"\n"
+"Pārbaudes (N var būt +N vai -N vai N):\n"
+"      -amin N -anewer FAILS -atime N -cmin N -cnewer FAILS -context CONTEXT\n"
+"      -ctime N -empty -false -fstype TYPE -gid N -group NAME -ilname ŠABLONS\n"
+"      -iname ŠABLONS -inum N -iwholename ŠABLONS -iregex ŠABLONS\n"
+"      -links N -lname ŠABLONS -mmin N -mtime N -name ŠABLONS -newer FAILS\n"
+"      -newerXY ATSAUCE -nouser -nogroup -path ŠABLONS -perm [-/]REŽĪMS\n"
+"      -regex ŠABLONS -readable -writable -executable\n"
+"      -wholename ŠABLONS -size N[bcwkMG] -true -type [bcdpflsD] -uid N\n"
+"      -used N -user NAME -xtype [bcdpfls]\n"
+
+#: find/util.c:195
+msgid ""
+"\n"
+"Actions:\n"
+"      -delete -print0 -printf FORMAT -fprintf FILE FORMAT -print \n"
+"      -fprint0 FILE -fprint FILE -ls -fls FILE -prune -quit\n"
+"      -exec COMMAND ; -exec COMMAND {} + -ok COMMAND ;\n"
+"      -execdir COMMAND ; -execdir COMMAND {} + -okdir COMMAND ;\n"
+msgstr ""
+"\n"
+"Darbības:\n"
+"      -delete -print0 -printf FORMĀTS -fprintf FAILS FORMĀTS -print \n"
+"      -fprint0 FAILS -fprint FAILS -ls -fls FAILS -prune -quit\n"
+"      -exec KOMANDA ; -exec KOMANDA {} + -ok KOMANDA ;\n"
+"      -execdir KOMANDA ; -execdir KOMANDA {} + -okdir KOMANDA ;\n"
+
+#: find/util.c:202
+msgid ""
+"\n"
+"Other common options:\n"
+msgstr ""
+"\n"
+"Citas biežāk izmantotās opcijas:\n"
+
+#: find/util.c:204 xargs/xargs.c:1816
+msgid "      --help                   display this help and exit\n"
+msgstr "      --help                   parādīt šo palīdzību un iziet\n"
+
+#: find/util.c:205 xargs/xargs.c:1817
+msgid ""
+"      --version                output version information and exit\n"
+"\n"
+msgstr ""
+"      --version                izvadīt versijas informāciju un iziet\n"
+"\n"
+
+#: find/util.c:207
+msgid ""
+"\n"
+"In -newerXY, XY stands for the combination [aBcm][aBcmt]; see find(1).\n"
+"\n"
+msgstr ""
+"\n"
+"Opcijā -newerXY, XY apzīmē kombināciju [aBcm][aBcmt]; skatiet find(1).\n"
+"\n"
+
+#: find/util.c:212
+msgid ""
+"\n"
+"Use '-D help' for a description of the options, or see find(1).\n"
+"\n"
+msgstr ""
+"\n"
+"Lai iegūtu opciju aprakstu, izmantojiet '-D help' vai skatiet find(1).\n"
+"\n"
+
+#: find/util.c:481
+#, c-format
+msgid "Failed to save initial working directory %s"
+msgstr "Neizdevās saglabāt sākotnējo darba direktoriju %s"
+
+#: find/util.c:486
+#, c-format
+msgid "Failed to save initial working directory"
+msgstr "Neizdevās saglabāt sākotnējo darba direktoriju"
+
+#: find/util.c:506
+#, c-format
+msgid "Failed to restore initial working directory %s"
+msgstr "Neizdevās atjaunot sākotnējo darba direktoriju %s"
+
+#: find/util.c:510
+#, c-format
+msgid "Failed to restore initial working directory"
+msgstr "Neizdevās atjaunot sākotnējo darba direktoriju"
+
+#: find/util.c:848
+#, c-format
+msgid "Ignoring unrecognised debug flag %s"
+msgstr "Ignorē neatpazītu atkļūdošanas karogu %s"
+
+#: find/util.c:855
+#, c-format
+msgid "Empty argument to the -D option."
+msgstr "Tukšs arguments opcijai -D."
+
+#: find/util.c:872
+#, c-format
+msgid "The -O option must be immediately followed by a decimal integer"
+msgstr "Aiz opcijas -O nekavējoties jānorāda decimāls vesels skaitlis"
+
+#: find/util.c:882 find/util.c:893
+#, c-format
+msgid "Please specify a decimal number immediately after -O"
+msgstr "Lūdzu, norādiet decimālskaitli tieši aiz -O"
+
+#: find/util.c:898 find/util.c:903
+#, c-format
+msgid "Invalid optimisation level %s"
+msgstr "Nederīgs optimizācijas līmenis %s"
+
+#: find/util.c:911
+#, c-format
+msgid "Optimisation level %lu is too high.  If you want to find files very quickly, consider using GNU locate."
+msgstr "Optimizācijas līmenis %lu ir pārāk augsts.  Ja vēlaties ļoti ātri atrast failus, apsveriet GNU locate izmantošanu."
+
+#: find/util.c:957
+#, c-format
+msgid "Missing argument after the -D option."
+msgstr "Trūkst argumenta pēc opcijas -D."
+
+#: find/util.c:1043
+#, c-format
+msgid "The environment variable FIND_BLOCK_SIZE is not supported, the only thing that affects the block size is the POSIXLY_CORRECT environment variable"
+msgstr "Vides mainīgais FIND_BLOCK_SIZE nav atbalstīts; vienīgais, kas ietekmē bloka izmēru, ir vides mainīgais POSIXLY_CORRECT"
+
+#: lib/bugreports.c:28
+#, c-format
+msgid ""
+"Please see also the documentation at %s.\n"
+"You can report (and track progress on fixing) bugs in the \"%s\"\n"
+"program via the %s bug-reporting page at\n"
+"%s or, if\n"
+"you have no web access, by sending email to <%s>.\n"
+msgstr ""
+"Lūdzu, skatiet arī dokumentāciju vietnē %s.\n"
+"Jūs varat ziņot (un sekot līdzi labošanas progresam) par kļūdām programmā \"%s\",\n"
+"izmantojot %s kļūdu ziņošanas lapu vietnē\n"
+"%s vai, ja\n"
+"jums nav piekļuves tīmeklim, nosūtot e-pastu uz <%s>.\n"
+
+#: lib/buildcmd.c:143
+#, c-format
+msgid "command too long"
+msgstr "komanda pārāk gara"
+
+#: lib/buildcmd.c:283
+#, c-format
+msgid "can't call exec() due to argument size restrictions"
+msgstr "neizdevās izsaukt exec() argumentu izmēra ierobežojumu dēļ"
+
+#: lib/buildcmd.c:349
+#, c-format
+msgid "cannot fit single argument within argument list size limit"
+msgstr "nevar ietilpināt vienu argumentu argumentu saraksta izmēra limitā"
+
+#: lib/buildcmd.c:357
+#, c-format
+msgid "argument list too long"
+msgstr "argumentu saraksts ir pārāk garš"
+
+#: lib/buildcmd.c:615
+#, c-format
+msgid "Environment variable %s is not set to a valid decimal number"
+msgstr "Vides mainīgais %s nav iestatīts uz derīgu decimālskaitli"
+
+#: lib/fdleak.c:390
+#, c-format
+msgid "File descriptor %d will leak; please report this as a bug, remembering to include a detailed description of the simplest way to reproduce this problem."
+msgstr "Faila deskriptors %d noplūdīs; lūdzu, ziņojiet par šo kā par kļūdu, neaizmirstot iekļaut detalizētu aprakstu par vienkāršāko veidu, kā šo problēmu reproducēt."
+
+#. TRANSLATORS: This is a proper name.
+#: lib/findutils-version.c:50
+msgid "Eric B. Decker"
+msgstr "Ēriks B. Dekers"
+
+#. TRANSLATORS: This is a proper name.
+#: lib/findutils-version.c:52
+msgid "James Youngman"
+msgstr "Džeimss Jangmens"
+
+#. TRANSLATORS: This is a proper name.
+#: lib/findutils-version.c:54
+msgid "Bernhard Voelker"
+msgstr "Bernhards Fēlkers"
+
+#. TRANSLATORS: This is a proper name.
+#: lib/findutils-version.c:56
+msgid "Kevin Dalley"
+msgstr "Kevins Deilijs"
+
+#: lib/listfile.c:452
+#, c-format
+msgid "Failed to write output (at stage %d)"
+msgstr "Neizdevās ierakstīt izvadi (posmā %d)"
+
+#: lib/regextype.c:97
+#, c-format
+msgid "Unknown regular expression type %s; valid types are %s."
+msgstr "Nezināms regulārās izteiksmes tips %s; derīgie tipi ir %s."
+
+#: lib/safe-atoi.c:67
+#, c-format
+msgid "Unexpected suffix %s on %s"
+msgstr "Negaidīts piedēklis %s pie %s"
+
+#. TRANSLATORS: the argument here is the thing we actually got
+#. * instead of the integer we expected.
+#.
+#: lib/safe-atoi.c:76
+#, c-format
+msgid "Expected an integer: %s"
+msgstr "Gaidīts vesels skaitlis: %s"
+
+#: locate/frcode.c:143
+#, c-format
+msgid "Usage: %s [-0 | --null] [--version] [--help]\n"
+msgstr "Lietošana: %s [-0 | --null] [--version] [--help]\n"
+
+#: locate/frcode.c:165
+#, c-format
+msgid "You need to specify a security level as a decimal integer."
+msgstr "Jums jānorāda drošības līmenis kā decimāls vesels skaitlis."
+
+#: locate/frcode.c:173
+#, c-format
+msgid "Security level %s is outside the convertible range."
+msgstr "Drošības līmenis %s atrodas ārpus konvertējamā diapazona."
+
+#: locate/frcode.c:181
+#, c-format
+msgid "Security level %s has unexpected suffix %s."
+msgstr "Drošības līmenim %s ir negaidīts piedēklis %s."
+
+#: locate/frcode.c:195
+#, c-format
+msgid "write error"
+msgstr "rakstīšanas kļūda"
+
+#: locate/frcode.c:242
+#, c-format
+msgid "slocate security level %ld is unsupported."
+msgstr "slocate drošības līmenis %ld netiek atbalstīts."
+
+#: locate/frcode.c:261
+#, c-format
+msgid "no argument expected."
+msgstr "nav gaidīti argumenti."
+
+#: locate/frcode.c:278
+#, c-format
+msgid "Failed to write to standard output"
+msgstr "Neizdevās rakstīt standarta izvadē"
+
+#: locate/frcode.c:287
+#, c-format
+msgid "The input file should end with the delimiter"
+msgstr "Ievades failam jābeidzas ar atdalītāju"
+
+#: locate/locate.c:110
+msgid "days"
+msgstr "dienas"
+
+#: locate/locate.c:158
+#, c-format
+msgid "The argument for option --max-database-age must not be empty"
+msgstr "Opcijas --max-database-age arguments nedrīkst būt tukšs"
+
+#: locate/locate.c:174 locate/locate.c:181
+#, c-format
+msgid "Invalid argument %s for option --max-database-age"
+msgstr "Nederīgs arguments %s opcijai --max-database-age"
+
+#: locate/locate.c:431
+#, c-format
+msgid "locate database %s contains a filename longer than locate can handle"
+msgstr "locate datubāze %s satur faila nosaukumu, kas ir garāks, nekā locate spēj apstrādāt"
+
+#: locate/locate.c:542 locate/locate.c:561
+#, c-format
+msgid "locate database %s is corrupt or invalid"
+msgstr "locate datubāze %s ir bojāta vai nederīga"
+
+#: locate/locate.c:846
+#, c-format
+msgid "Database was last modified at %s.%09ld"
+msgstr "Datubāze pēdējo reizi modificēta %s.%09ld"
+
+#: locate/locate.c:854
+#, c-format
+msgid "Locate database size: %s byte\n"
+msgid_plural "Locate database size: %s bytes\n"
+msgstr[0] "“Locate” datubāzes izmērs: %s baitu\n"
+msgstr[1] "“Locate” datubāzes izmērs: %s baits\n"
+msgstr[2] "“Locate” datubāzes izmērs: %s baiti\n"
+
+#: locate/locate.c:860
+#, c-format
+msgid "Matching Filenames: %s\n"
+msgstr "Atbilstošie failu nosaukumi: %s\n"
+
+#: locate/locate.c:861
+#, c-format
+msgid "All Filenames: %s\n"
+msgstr "Visi failu nosaukumi: %s\n"
+
+#: locate/locate.c:867
+#, c-format
+msgid ""
+"File names have a cumulative length of %s bytes.\n"
+"Of those file names,\n"
+"\n"
+"\t%s contain whitespace, \n"
+"\t%s contain newline characters, \n"
+"\tand %s contain characters with the high bit set.\n"
+msgstr ""
+"Failu nosaukumu kopējais garums ir %s baiti.\n"
+"No šiem failu nosaukumiem:\n"
+"\n"
+"\t%s satur tukšumzīmes, \n"
+"\t%s satur jaunrindas rakstzīmes, \n"
+"\tun %s satur rakstzīmes ar iestatītu augstāko bitu.\n"
+
+#: locate/locate.c:881
+#, c-format
+msgid "Some filenames may have been filtered out, so we cannot compute the compression ratio.\n"
+msgstr "Iespējams, daži failu nosaukumi tika nofiltrēti, tādēļ nevar aprēķināt kompresijas attiecību.\n"
+
+#: locate/locate.c:894
+#, c-format
+msgid "Compression ratio %4.2f%% (higher is better)\n"
+msgstr "Kompresijas attiecība %4.2f%% (jo augstāka, jo labāk)\n"
+
+#: locate/locate.c:901
+#, c-format
+msgid "Compression ratio is undefined\n"
+msgstr "Kompresijas attiecība nav noteikta\n"
+
+#: locate/locate.c:956
+#, c-format
+msgid "locate database %s looks like an slocate database but it seems to have security level %c, which GNU findutils does not currently support"
+msgstr "locate datubāze %s izskatās pēc slocate datubāzes, bet tai, šķiet, ir drošības līmenis %c, ko GNU findutils pašlaik neatbalsta"
+
+#: locate/locate.c:1078
+#, c-format
+msgid "%s is an slocate database of unsupported security level %d; skipping it."
+msgstr "%s ir slocate datubāze ar neatbalstītu drošības līmeni %d; to izlaiž."
+
+#: locate/locate.c:1095
+#, c-format
+msgid "You specified the -E option, but that option cannot be used with slocate-format databases with a non-zero security level.  No results will be generated for this database.\n"
+msgstr "Jūs norādījāt opciju -E, bet šo opciju nevar izmantot ar slocate formāta datubāzēm, kuru drošības līmenis nav nulle. Šai datubāzei netiks ģenerēti rezultāti.\n"
+
+#: locate/locate.c:1106
+#, c-format
+msgid "%s is an slocate database.  Turning on the '-e' option."
+msgstr "%s ir slocate datubāze.  Ieslēdz opciju '-e'."
+
+#: locate/locate.c:1144
+#, c-format
+msgid "Old-format locate database %s is too short to be valid"
+msgstr "Vecformāta locate datubāze %s ir pārāk īsa, lai būtu derīga"
+
+#: locate/locate.c:1296
+#, c-format
+msgid "Database %s is in the %s format.\n"
+msgstr "Datubāze %s ir %s formātā.\n"
+
+#: locate/locate.c:1323
+msgid "The database has little-endian machine-word encoding.\n"
+msgstr "Datubāzei ir mazā gala mašīnvārda kodējums.\n"
+
+#: locate/locate.c:1325
+msgid "The database has big-endian machine-word encoding.\n"
+msgstr "Datubāzei ir lielā gala mašīnvārda kodējums.\n"
+
+#: locate/locate.c:1338
+#, c-format
+msgid "The database machine-word encoding order is not obvious.\n"
+msgstr "Datubāzes mašīnvārda kodējuma secība nav acīmredzama.\n"
+
+#: locate/locate.c:1365
+#, c-format
+msgid ""
+"Usage: %s [-d path | --database=path] [-e | -E | --[non-]existing]\n"
+"      [-i | --ignore-case] [-w | --wholename] [-b | --basename] \n"
+"      [--limit=N | -l N] [-S | --statistics] [-0 | --null] [-c | --count]\n"
+"      [-P | -H | --nofollow] [-L | --follow] [-m | --mmap] [-s | --stdio]\n"
+"      [-A | --all] [-p | --print] [-r | --regex] [--regextype=TYPE]\n"
+"      [--max-database-age D] [--version] [--help]\n"
+"      pattern...\n"
+msgstr ""
+"Lietošana: %s [-d ceļš | --database=ceļš] [-e | -E | --[non-]existing]\n"
+"      [-i | --ignore-case] [-w | --wholename] [-b | --basename] \n"
+"      [--limit=N | -l N] [-S | --statistics] [-0 | --null] [-c | --count]\n"
+"      [-P | -H | --nofollow] [-L | --follow] [-m | --mmap] [-s | --stdio]\n"
+"      [-A | --all] [-p | --print] [-r | --regex] [--regextype=TYPE]\n"
+"      [--max-database-age D] [--version] [--help]\n"
+"      šablons...\n"
+
+#: locate/locate.c:1431
+msgid "failed to drop group privileges"
+msgstr "neizdevās atsaukt grupas privilēģijas"
+
+#: locate/locate.c:1449
+msgid "failed to drop setuid privileges"
+msgstr "neizdevās atsaukt setuid privilēģijas"
+
+#: locate/locate.c:1463
+msgid "Failed to fully drop privileges"
+msgstr "Neizdevās pilnībā atsaukt privilēģijas"
+
+#: locate/locate.c:1481
+msgid "failed to drop setgid privileges"
+msgstr "neizdevās atsaukt setgid privilēģijas"
+
+#: locate/locate.c:1718
+#, c-format
+msgid "pattern argument expected"
+msgstr "nepieciešams šablona arguments"
+
+#: locate/locate.c:1759
+#, c-format
+msgid "warning: the locate database can only be read from standard input once."
+msgstr "brīdinājums: locate datu bāzi var nolasīt tikai vienu reizi no standarta ievades."
+
+#: locate/locate.c:1832
+#, c-format
+msgid "time system call failed"
+msgstr "neizdevās laika sistēmas izsaukums"
+
+#: locate/locate.c:1843
+#, c-format
+msgid "warning: database %s is more than %u %s old (actual age is %.1f %s)"
+msgstr "brīdinājums: datu bāze %s ir vecāka nekā %u %s (faktiskais vecums ir %.1f %s)"
+
+#: locate/word_io.c:75
+#, c-format
+msgid "WARNING: locate database %s was built with a different byte order"
+msgstr "BRĪDINĀJUMS: locate datu bāze %s ir izveidota ar citu baitu secību"
+
+#: locate/word_io.c:121
+#, c-format
+msgid "unexpected end-of-file in %s"
+msgstr "neparedzētas faila beigas failā %s"
+
+#: locate/word_io.c:124
+#, c-format
+msgid "error reading a word from %s"
+msgstr "neizdevās nolasīt vārdu no %s"
+
+#: xargs/xargs.c:253
+#, c-format
+msgid "Invalid escape sequence %s in input delimiter specification."
+msgstr "Nederīga atbēgšanas virkne %s ievades atdalītāja specifikācijā."
+
+#: xargs/xargs.c:271
+#, c-format
+msgid "Invalid escape sequence %s in input delimiter specification; character values must not exceed %lx."
+msgstr "Nederīga atbēgšanas virkne %s ievades atdalītāja specifikācijā; rakstzīmju vērtības nedrīkst pārsniegt %lx."
+
+#: xargs/xargs.c:278
+#, c-format
+msgid "Invalid escape sequence %s in input delimiter specification; character values must not exceed %lo."
+msgstr "Nederīga atbēgšanas virkne %s ievades atdalītāja specifikācijā; rakstzīmju vērtības nedrīkst pārsniegt %lo."
+
+#: xargs/xargs.c:288
+#, c-format
+msgid "Invalid escape sequence %s in input delimiter specification; trailing characters %s not recognised."
+msgstr "Nederīga atbēgšanas virkne %s ievades atdalītāja specifikācijā; beigu rakstzīmes %s netika atpazītas."
+
+#: xargs/xargs.c:334
+#, c-format
+msgid "Invalid input delimiter specification %s: the delimiter must be either a single character or an escape sequence starting with \\."
+msgstr "Nederīga ievades atdalītāja specifikācija %s: atdalītājam jābūt vai nu vienai rakstzīmei, vai escape sekvencei, kas sākas ar \\."
+
+#: xargs/xargs.c:353
+#, c-format
+msgid "environment is too large for exec"
+msgstr "vide ir pārāk liela exec izpildei"
+
+#: xargs/xargs.c:390
+#, c-format
+msgid "warning: options %s and %s are mutually exclusive, ignoring previous %s value"
+msgstr "brīdinājums: opcijas %s un %s ir savstarpēji izslēdzošas, tiek ignorēta iepriekšējā %s vērtība"
+
+#: xargs/xargs.c:635
+#, c-format
+msgid "warning: value %ld for -s option is too large, using %ld instead"
+msgstr "brīdinājums: vērtība %ld opcijai -s ir pārāk liela, tā vietā tiek izmantota %ld"
+
+#: xargs/xargs.c:675
+#, c-format
+msgid "SIGUSR1 and SIGUSR2 are not both defined, so the -P option does nothing."
+msgstr "SIGUSR1 un SIGUSR2 nav abi definēti, tāpēc opcijai -P nav ietekmes."
+
+#: xargs/xargs.c:692
+#, c-format
+msgid "option --%s may not be set to a value which includes `='"
+msgstr "opcijai --%s nevar iestatīt vērtību, kas satur `='."
+
+#: xargs/xargs.c:704
+#, c-format
+msgid "failed to unset environment variable %s"
+msgstr "neizdevās noņemt vides mainīgo %s"
+
+#: xargs/xargs.c:718
+#, c-format
+msgid "warning: the -E option has no effect if -0 or -d is used.\n"
+msgstr "brīdinājums: opcijai -E nav iedarbības, ja tiek izmantota -0 vai -d.\n"
+
+#: xargs/xargs.c:744
+#, c-format
+msgid "Cannot set SIGUSR1 signal handler"
+msgstr "Neizdevās iestatīt SIGUSR1 signāla apstrādātāju"
+
+#: xargs/xargs.c:750
+#, c-format
+msgid "Cannot set SIGUSR2 signal handler"
+msgstr "Neizdevās iestatīt SIGUSR2 signāla apstrādātāju"
+
+#: xargs/xargs.c:766
+#, c-format
+msgid "Cannot open input file %s"
+msgstr "Neizdevās atvērt ievades failu %s"
+
+#: xargs/xargs.c:785
+#, c-format
+msgid "Your environment variables take up %<PRIuMAX> bytes\n"
+msgstr "Jūsu vides mainīgie aizņem %<PRIuMAX> baitus\n"
+
+#: xargs/xargs.c:788
+#, c-format
+msgid "POSIX upper limit on argument length (this system): %<PRIuMAX>\n"
+msgstr "POSIX augšējā argumenta garuma robeža (šī sistēma): %<PRIuMAX>\n"
+
+#: xargs/xargs.c:791
+#, c-format
+msgid "POSIX smallest allowable upper limit on argument length (all systems): %<PRIuMAX>\n"
+msgstr "POSIX mazākā pieļaujamā argumenta garuma augšējā robeža (visās sistēmās): %<PRIuMAX>\n"
+
+#: xargs/xargs.c:794
+#, c-format
+msgid "Maximum length of command we could actually use: %<PRIuMAX>\n"
+msgstr "Maksimālais komandas garums, ko varētu izmantot: %<PRIuMAX>\n"
+
+#: xargs/xargs.c:797
+#, c-format
+msgid "Size of command buffer we are actually using: %<PRIuMAX>\n"
+msgstr "Faktiski izmantotā komandu bufera izmērs: %<PRIuMAX>\n"
+
+#: xargs/xargs.c:800
+#, c-format
+msgid "Maximum parallelism (--max-procs must be no greater): %<PRIuMAX>\n"
+msgstr "Maksimālais paralēlisms (--max-procs nedrīkst pārsniegt): %<PRIuMAX>\n"
+
+#: xargs/xargs.c:806
+#, c-format
+msgid ""
+"\n"
+"Execution of xargs will continue now, and it will try to read its input and run commands; if this is not what you wanted to happen, please type the end-of-file keystroke.\n"
+msgstr ""
+"\n"
+"xargs izpilde turpināsies tagad, un tas mēģinās nolasīt savu ievadi un palaist komandas; ja tas nav tas, ko vēlējāties, lūdzu, ievadiet faila beigu taustiņu.\n"
+
+#: xargs/xargs.c:814
+#, c-format
+msgid "Warning: %s will be run at least once.  If you do not want that to happen, then press the interrupt keystroke.\n"
+msgstr "Brīdinājums: %s tiks izpildīts vismaz vienu reizi.  Ja nevēlaties, lai tas notiktu, nospiediet pārtraukšanas taustiņu.\n"
+
+#: xargs/xargs.c:946 xargs/xargs.c:1042
+#, c-format
+msgid "unmatched %s quote; by default quotes are special to xargs unless you use the -0 option"
+msgstr "nesaskaņota %s pēdiņa; pēc noklusējuma pēdiņas xargs uzskata par īpašām, ja vien neizmanto opciju -0"
+
+#: xargs/xargs.c:948 xargs/xargs.c:1044
+msgid "double"
+msgstr "dubultās"
+
+#: xargs/xargs.c:948 xargs/xargs.c:1044
+msgid "single"
+msgstr "vienas"
+
+#: xargs/xargs.c:1063
+#, c-format
+msgid "WARNING: a NUL character occurred in the input.  It cannot be passed through in the argument list.  Did you mean to use the --null option?"
+msgstr "BRĪDINĀJUMS: ievadē atrasta NUL rakstzīme.  To nevar nodot tālāk argumentu sarakstā.  Vai domājāt izmantot opciju --null?"
+
+#: xargs/xargs.c:1073 xargs/xargs.c:1140
+#, c-format
+msgid "argument line too long"
+msgstr "argumentu rinda ir pārāk gara"
+
+#: xargs/xargs.c:1168 xargs/xargs.c:1192
+#, c-format
+msgid "Failed to write to standard error"
+msgstr "Neizdevās rakstīt standarta kļūdu izvadē"
+
+#: xargs/xargs.c:1182
+#, c-format
+msgid "failed to open /dev/tty for reading"
+msgstr "neizdevās atvērt /dev/tty lasīšanai"
+
+#: xargs/xargs.c:1199
+#, c-format
+msgid "Failed to read from standard input"
+msgstr "Neizdevās nolasīt no standarta ievades"
+
+#: xargs/xargs.c:1235
+#, c-format
+msgid "failed to set environment variable %s"
+msgstr "neizdevās iestatīt vides mainīgo %s"
+
+#: xargs/xargs.c:1289
+#, c-format
+msgid "failed to redirect standard input of the child process"
+msgstr "neizdevās novirzīt apakšprocesa standarta ievadi"
+
+#. TRANSLATORS: The pipe being referred to is an
+#. * operating-system object for communicating between
+#. * processes (created by the "pipe" system call), not a
+#. * piece of plumbing.  These just happen to have the same
+#. * name in English.  Similarly, fork is also the name of a
+#. * specific system call (named by analogy to English idioms
+#. * such as "fork in the road") not a thing you might eat
+#. * with.
+#.
+#: xargs/xargs.c:1351
+#, c-format
+msgid "could not create pipe before fork"
+msgstr "neizdevās izveidot cauruļvadu pirms atzarojuma"
+
+#: xargs/xargs.c:1405
+#, c-format
+msgid "failed to run command %s"
+msgstr "neizdevās palaist komandu %s"
+
+#: xargs/xargs.c:1435
+#, c-format
+msgid "errno-buffer safe_read failed in xargs_do_exec (this is probably a bug, please report it)"
+msgstr "errno-buffer safe_read neizdevās xargs_do_exec (iespējams, šī ir kļūda, lūdzu, ziņojiet par to)"
+
+#: xargs/xargs.c:1566
+#, c-format
+msgid "error waiting for child process"
+msgstr "kļūda, gaidot pakārtoto procesu"
+
+#: xargs/xargs.c:1599
+#, c-format
+msgid "WARNING: Lost track of %lu child processes"
+msgstr "BRĪDINĀJUMS: zaudēta uzskaite par %lu pakārtotajiem procesiem"
+
+#: xargs/xargs.c:1627
+#, c-format
+msgid "%s: exited with status 255; aborting"
+msgstr "%s: izgāja ar statusu 255; darbība tiek pārtraukta"
+
+#: xargs/xargs.c:1632
+#, c-format
+msgid "%s: stopped by signal %d"
+msgstr "%s: apturēts ar signālu %d"
+
+#: xargs/xargs.c:1638
+#, c-format
+msgid "%s: terminated by signal %d"
+msgstr "%s: pārtraukts ar signālu %d"
+
+#: xargs/xargs.c:1736
+#, c-format
+msgid "%s: invalid number \"%s\" for -%c option\n"
+msgstr "%s: nederīgs skaitlis \"%s\" opcijai -%c\n"
+
+#: xargs/xargs.c:1743
+#, c-format
+msgid "%s: value %s for -%c option should be >= %ld\n"
+msgstr "%s: vērtībai %s opcijai -%c ir jābūt >= %ld\n"
+
+#: xargs/xargs.c:1752
+#, c-format
+msgid "%s: value %s for -%c option should be <= %ld\n"
+msgstr "%s: vērtībai %s opcijai -%c jābūt <= %ld\n"
+
+#: xargs/xargs.c:1772
+#, c-format
+msgid "Usage: %s [OPTION]... [COMMAND [INITIAL-ARGS]...]\n"
+msgstr "Lietošana: %s [OPCIJA]... [KOMANDA [SĀKOTNĒJIE-ARGUMENTI]...]\n"
+
+#: xargs/xargs.c:1777
+msgid ""
+"Run COMMAND with arguments INITIAL-ARGS and more arguments read from input.\n"
+"\n"
+msgstr ""
+"Palaist KOMANDU ar argumentiem SĀKTONĒJIE-ARGUMENTI un papildu argumentiem, kas nolasīti no ievades.\n"
+"\n"
+
+#: xargs/xargs.c:1779
+msgid ""
+"Mandatory and optional arguments to long options are also\n"
+"mandatory or optional for the corresponding short option.\n"
+msgstr ""
+"Obligātie un neobligātie argumenti garajām opcijām ir arī\n"
+"obligāti vai neobligāti attiecīgajām īsajām opcijām.\n"
+
+#: xargs/xargs.c:1781
+msgid ""
+"  -0, --null                   items are separated by a null, not whitespace;\n"
+"                                 disables quote and backslash processing and\n"
+"                                 logical EOF processing\n"
+msgstr ""
+"  -0, --null                   elementi ir atdalīti ar nulles rakstzīmi, nevis tukšumzīmēm;\n"
+"                                 atspējo pēdiņu un atpakaļsvītras apstrādi un\n"
+"                                 loģiskās EOF apstrādi\n"
+
+#: xargs/xargs.c:1784
+msgid "  -a, --arg-file=FILE          read arguments from FILE, not standard input\n"
+msgstr "  -a, --arg-file=FAILS          nolasīt argumentus no FAILA, nevis no standarta ievades\n"
+
+#: xargs/xargs.c:1785
+msgid ""
+"  -d, --delimiter=CHARACTER    items in input stream are separated by CHARACTER,\n"
+"                                 not by whitespace; disables quote and backslash\n"
+"                                 processing and logical EOF processing\n"
+msgstr ""
+"  -d, --delimiter=RAKSTZĪME    ievades straumes elementi tiek atdalīti ar RAKSTZĪMI,\n"
+"                                 nevis ar tukšumzīmēm; atspējo pēdiņu un atpakaļsvītras\n"
+"                                 apstrādi un loģiskās EOF apstrādi\n"
+
+#: xargs/xargs.c:1788
+msgid ""
+"  -E END                       set logical EOF string; if END occurs as a line\n"
+"                                 of input, the rest of the input is ignored\n"
+"                                 (ignored if -0 or -d was specified)\n"
+msgstr ""
+"  -E END                       iestatīt loģisko EOF virkni; ja END parādās kā ievades rindiņa,\n"
+"                                 pārējā ievade tiek ignorēta\n"
+"                                 (tiek ignorēts, ja norādīts -0 vai -d)\n"
+
+#: xargs/xargs.c:1791
+msgid ""
+"  -e, --eof[=END]              equivalent to -E END if END is specified;\n"
+"                                 otherwise, there is no end-of-file string\n"
+msgstr ""
+"  -e, --eof[=END]              ekvivalents -E END, ja ir norādīts END;\n"
+"                                 pretējā gadījumā faila beigu virknes nav\n"
+
+#: xargs/xargs.c:1793
+msgid "  -I R                         same as --replace=R\n"
+msgstr "  -I R                         tas pats, kas --replace=R\n"
+
+#: xargs/xargs.c:1794
+msgid ""
+"  -i, --replace[=R]            replace R in INITIAL-ARGS with names read\n"
+"                                 from standard input, split at newlines;\n"
+"                                 if R is unspecified, assume {}\n"
+msgstr ""
+"  -i, --replace[=R]            aizstāt R sākotnējos argumentos ar nosaukumiem, kas nolasīti\n"
+"                                 no standarta ievades, sadalot pēc jaunām rindām;\n"
+"                                 ja R nav norādīts, tiek pieņemts {}\n"
+
+#: xargs/xargs.c:1797
+msgid ""
+"  -L, --max-lines=MAX-LINES    use at most MAX-LINES non-blank input lines per\n"
+"                                 command line\n"
+msgstr ""
+"  -L, --max-lines=MAX-RINDAS    izmantot ne vairāk kā MAX-RINDAS netukšas ievades rindas katrā\n"
+"                                 komandrindā\n"
+
+#: xargs/xargs.c:1799
+msgid ""
+"  -l[MAX-LINES]                similar to -L but defaults to at most one non-\n"
+"                                 blank input line if MAX-LINES is not specified\n"
+msgstr ""
+"  -l[MAX-RINDAS]                līdzīgs -L, bet pēc noklusējuma izmanto ne vairāk kā vienu netukšu\n"
+"                                 ievades rindu, ja MAX-RINDAS nav norādīts\n"
+
+#: xargs/xargs.c:1801
+msgid "  -n, --max-args=MAX-ARGS      use at most MAX-ARGS arguments per command line\n"
+msgstr "  -n, --max-args=MAX-ARGS      izmantot ne vairāk kā MAX-ARGS argumentus katrā komandrindā\n"
+
+#: xargs/xargs.c:1802
+msgid ""
+"  -o, --open-tty               Reopen standard input as /dev/tty in the child\n"
+"                                 process before executing the command; useful to\n"
+"                                 run an interactive application.\n"
+msgstr ""
+"  -o, --open-tty               Atkārtoti atvērt standarta ievadi kā /dev/tty pakārtotajā\n"
+"                                 procesā pirms komandas izpildes; noderīgi, lai\n"
+"                                 palaistu interaktīvu lietotni.\n"
+
+#: xargs/xargs.c:1805
+msgid "  -P, --max-procs=MAX-PROCS    run at most MAX-PROCS processes at a time\n"
+msgstr "  -P, --max-procs=MAX-PROCS    vienlaicīgi palaist ne vairāk kā MAX-PROCS procesus\n"
+
+#: xargs/xargs.c:1806
+msgid "  -p, --interactive            prompt before running commands\n"
+msgstr "  -p, --interactive            vaicāt pirms komandu izpildes\n"
+
+#: xargs/xargs.c:1807
+msgid "      --process-slot-var=VAR   set environment variable VAR in child processes\n"
+msgstr "      --process-slot-var=VAR   iestatīt vides mainīgo VAR pakārtotajos procesos\n"
+
+#: xargs/xargs.c:1808
+msgid ""
+"  -r, --no-run-if-empty        if there are no arguments, then do not run COMMAND;\n"
+"                                 if this option is not given, COMMAND will be\n"
+"                                 run at least once\n"
+msgstr ""
+"  -r, --no-run-if-empty        ja nav argumentu, tad neizpildīt KOMANDU;\n"
+"                                 ja šī opcija nav norādīta, KOMANDA tiks\n"
+"                                 izpildīta vismaz vienu reizi\n"
+
+#: xargs/xargs.c:1811
+msgid "  -s, --max-chars=MAX-CHARS    limit length of command line to MAX-CHARS\n"
+msgstr "  -s, --max-chars=MAX-RAKSTZĪMES    ierobežot komandrindas garumu līdz MAX-RAKSTZĪMĒM\n"
+
+#: xargs/xargs.c:1812
+msgid "      --show-limits            show limits on command-line length\n"
+msgstr "      --show-limits            parādīt komandrindas garuma ierobežojumus\n"
+
+#: xargs/xargs.c:1813
+msgid "  -t, --verbose                print commands before executing them\n"
+msgstr "  -t, --verbose                izdrukāt komandas pirms to izpildes\n"
+
+#: xargs/xargs.c:1814
+msgid "  -x, --exit                   exit if the size (see -s) is exceeded\n"
+msgstr "  -x, --exit                   iziet, ja tiek pārsniegts izmērs (skat. -s)\n"
+
+#: xargs/xargs.c:1818
+msgid ""
+"If COMMAND is omitted, the default is 'echo'.\n"
+"\n"
+msgstr ""
+"Ja KOMANDA nav norādīta, noklusējuma vērtība ir 'echo'.\n"
+"\n"
