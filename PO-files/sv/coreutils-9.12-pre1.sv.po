@@ -6,14 +6,14 @@
 # Daniel Resare <daniel@resare.com> 1999, 2000.
 # Göran Uddeborg <goeran@uddeborg.se>, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2020, 2021, 2023, 2024, 2025, 2026.
 #
-# $Revision: 1.240 $
+# $Revision: 1.241 $
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 9.12-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2026-09-07 18:15+0100\n"
-"PO-Revision-Date: 2026-09-17 21:13+0200\n"
+"PO-Revision-Date: 2026-09-29 13:24+0200\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -368,7 +368,7 @@ msgstr "varning: värdet %<PRIdMAX> har %<PRIdMAX> siffror. Antar ÅÅÅÅ/MM/DD
 #: lib/parse-datetime.y:843
 #, c-format
 msgid "warning: value %<PRIdMAX> has less than 4 digits. Assuming MM/DD/YY[YY]\n"
-msgstr "varning: värdet %<PRIdMAX> har mindre än 4 siffror. Antar MM/DD/ÅÅ[ÅÅ]\n"
+msgstr "varning: värdet %<PRIdMAX> har färre än 4 siffror. Antar MM/DD/ÅÅ[ÅÅ]\n"
 
 #: lib/parse-datetime.y:1305
 #, c-format
@@ -417,7 +417,7 @@ msgstr "       felaktig kombination dag/månad;\n"
 
 #: lib/parse-datetime.y:1756
 msgid "       numeric values overflow;\n"
-msgstr "       numeriskt värde spiller över;\n"
+msgstr "       numeriska värden spiller över;\n"
 
 #: lib/parse-datetime.y:1757
 msgid "incorrect timezone"
@@ -1239,7 +1239,7 @@ msgid ""
 "         remove a trailing SUFFIX; implies -a\n"
 msgstr ""
 "  -s, --suffix=ÄNDELSE\n"
-"         ta bort ett avslutande ÄNDELSE, implicerar -a\n"
+"         ta bort en avslutande ÄNDELSE, medför -a\n"
 
 #: src/basename.c:70 src/dirname.c:61 src/readlink.c:103
 msgid ""
@@ -1391,7 +1391,7 @@ msgid ""
 "         when decoding, ignore non-alphabet characters\n"
 msgstr ""
 "  -i, --ignore-garbage\n"
-"         vid avkodning, bortse från ickealfabetiska tecken\n"
+"         vid avkodning, ignorera ickealfabetiska tecken\n"
 
 #: src/basenc.c:160
 msgid ""
@@ -1884,7 +1884,7 @@ msgid ""
 "         affect each symbolic link, rather than the referent\n"
 msgstr ""
 "  -h, --no-dereference\n"
-"         ändra varje symbolisk länk, istället för refererensen\n"
+"         ändra varje symbolisk länk, istället för referensen\n"
 
 #: src/chmod.c:474
 msgid ""
@@ -2248,7 +2248,7 @@ msgstr "Skriv eller kontrollera %s-kontrollsummor.\n"
 
 #: src/cksum.c:504 src/cksum.c:519
 msgid "Legacy interface to the cksum(1) utility.\n"
-msgstr "Gammant gränssnitt till verktyget cksum(1).\n"
+msgstr "Gammalt gränssnitt till verktyget cksum(1).\n"
 
 #: src/cksum.c:509
 msgid ""
@@ -2269,7 +2269,7 @@ msgid ""
 "         use BSD sum algorithm (the default), use 1K blocks\n"
 msgstr ""
 "  -r\n"
-"         använd BSD summeringsalgoritm (standard), använd 1 k block\n"
+"         använd BSD:s summeringsalgoritm (standard), använd 1 k block\n"
 
 #: src/cksum.c:530
 msgid ""
@@ -2328,8 +2328,8 @@ msgid ""
 msgstr ""
 "  -l, --length=BITAR\n"
 "         kontrollsummelängd i bitar; får inte överskrida den maximala\n"
-"         storleken och måste vara och måste vara en multipel av 8 för\n"
-"         blake2b; måste vara 224, 256, 384 eller 512 för sha2 eller sha3\n"
+"         storleken och måste vara en multipel av 8 för blake2b;\n"
+"         måste vara 224, 256, 384 eller 512 för sha2 eller sha3\n"
 
 #: src/cksum.c:585
 msgid ""
@@ -2471,7 +2471,7 @@ msgstr ""
 "  md5       (likvärdigt med md5sum)\n"
 "  sha1      (likvärdigt med sha1sum)\n"
 "  sha2      (likvärdigt med sha{224,256,384,512}sum)\n"
-"  sha3      (endaast tillgängligt via cksum)\n"
+"  sha3      (endast tillgängligt via cksum)\n"
 "  blake2b   (likvärdigt med b2sum)\n"
 "  sm3       (endast tillgängligt genom cksum)\n"
 "\n"
@@ -2483,7 +2483,7 @@ msgid ""
 "The sums are computed as described in %s.\n"
 msgstr ""
 "\n"
-"Summorna beräknas som beskrivs i %s.\n"
+"Summorna beräknas som det beskrivs i %s.\n"
 
 #: src/cksum.c:687
 msgid ""
@@ -2506,7 +2506,7 @@ msgid ""
 "When checking, the input should be a former output of this program,\n"
 "or equivalent standalone program.\n"
 msgstr ""
-"Vid kontroll skall indata vara den tidigare utdatan av detta program,\n"
+"Vid kontroll skall indata vara en tidigare utdata från detta program,\n"
 "eller ett likvärdigt fristående program.\n"
 
 #: src/cksum.c:1382 src/cksum.c:1892 src/date.c:510 src/dd.c:2462
@@ -2542,7 +2542,7 @@ msgstr "OK"
 #: src/cksum.c:1517
 #, c-format
 msgid "%s: no properly formatted checksum lines found"
-msgstr "%s: inga korrekt formaterade kontrollsummerader funna"
+msgstr "%s: inga korrekt formaterade kontrollsummerader hittades"
 
 #: src/cksum.c:1527
 #, c-format
@@ -3362,7 +3362,7 @@ msgid ""
 "         use full source file name under DIRECTORY\n"
 msgstr ""
 "      --parents\n"
-"         lägg till källsökvägen till KATALOG\n"
+"         använd den fullständiga sökvägen till källfilen under KATALOG\n"
 
 #: src/cp.c:249
 msgid ""
@@ -3925,7 +3925,7 @@ msgid ""
 "         like -f, but also implies -w and -O ' '\n"
 msgstr ""
 "  -F LISTA\n"
-"         som -f, men implicerar även -w och -O ' '\n"
+"         som -f, men medför även -w och -O ' '\n"
 
 #: src/cut.c:217
 msgid ""
@@ -3961,7 +3961,7 @@ msgid ""
 msgstr ""
 "  -w, --whitespace-delimited[=trimmed]\n"
 "         använd en följd av blanktecken som fältavgränsare;\n"
-"         med ”trimmed”, ignorera inledande och avslutande blanka\n"
+"         med ”trimmed”, ignorera inledande och avslutande blanktecken\n"
 
 #: src/cut.c:241
 msgid ""
@@ -4090,7 +4090,7 @@ msgid ""
 "         Example: 0.000000001\n"
 msgstr ""
 "      --resolution\n"
-"         skriv ut den möjligaupplösningen på tidsstämplar.\n"
+"         skriv ut den möjliga upplösningen på tidsstämplar.\n"
 "         Exempel: 0.000000001\n"
 
 #: src/date.c:161
@@ -4123,7 +4123,7 @@ msgid ""
 "         display the last modification time of FILE\n"
 msgstr ""
 "  -r, --reference=FIL\n"
-"         visa den tidpunkt då FIL senast modifierades\n"
+"         visa den tidpunkt då FIL senast ändrades\n"
 
 #: src/date.c:177
 msgid ""
@@ -4171,7 +4171,7 @@ msgstr ""
 
 #: src/date.c:201
 msgid "  %%    %           a literal %\n"
-msgstr "  %%    %           ett litteralt %\n"
+msgstr "  %%    %           ett bokstavligt %\n"
 
 #: src/date.c:204
 #, c-format
@@ -4295,7 +4295,7 @@ msgstr "  %s    1970010100  sekunder sedan epoken (1970-01-01 00.00 UTC)\n"
 #: src/date.c:294
 #, c-format
 msgid "  %p    PM          locale's equivalent of AM or PM; blank if not known\n"
-msgstr "  %p    <blank>     lokolens ekvivalent till fm eller em; blank om okänd\n"
+msgstr "  %p    <blank>     lokalens motsvarighet till fm eller em; blank om okänd\n"
 
 #: src/date.c:297
 msgid "  %P    am          like %p, but lower case\n"
@@ -4566,10 +4566,10 @@ msgid ""
 "                  'noxfer' suppresses the final transfer statistics,\n"
 "                  'progress' shows periodic transfer statistics\n"
 msgstr ""
-"  status=NIVÅ     NIVÅ med information som skall utelämnas från standard fel;\n"
+"  status=NIVÅ     NIVÅ av information som skall utelämnas från standard fel;\n"
 "                  ”none” utelämnar allt utom felmeddelanden,\n"
 "                  ”noxfer” utelämnar den avslutande överföringsstatistiken,\n"
-"                  ”progress” visar periodiskt överföringsstatistik\n"
+"                  ”progress” visar periodisk överföringsstatistik\n"
 
 #: src/dd.c:578
 msgid ""
@@ -4616,9 +4616,9 @@ msgstr ""
 "  ucase     ändra gemena till versaler\n"
 "  sparse    försök att söka snarare än skriva utdata bara NOLLOR\n"
 "  swab      byt plats på varje par av byte i indata\n"
-"  sync      fyll ut varje indatablock med nulltecken till ibs-storlek; när\n"
+"  sync      fyll ut varje indatablock med NOLLtecken till ibs-storlek; när\n"
 "            det används med block eller unblock, fyll ut med blanktecken\n"
-"            istället för nulltecken\n"
+"            istället för NOLLtecken\n"
 
 #: src/dd.c:602
 msgid ""
@@ -4634,7 +4634,7 @@ msgstr ""
 "  notrunc   hugg inte av utfilen\n"
 "  noerror   fortsätt efter läsfel\n"
 "  fdatasync  skriv fysiskt data till utfilen före avslut\n"
-"  fsync     d:o, men skriv även metadata\n"
+"  fsync     dito, men skriv även metadata\n"
 
 #: src/dd.c:610
 msgid ""
@@ -4667,7 +4667,7 @@ msgstr "  dsync     använd synkroniserad I/O för data\n"
 
 #: src/dd.c:624
 msgid "  sync      likewise, but also for metadata\n"
-msgstr "  sync      d:o, men även för metadata\n"
+msgstr "  sync      dito, men även för metadata\n"
 
 #: src/dd.c:625
 msgid "  fullblock  accumulate full blocks of input (iflag only)\n"
@@ -5070,7 +5070,7 @@ msgid ""
 "         do not invoke sync before getting usage info (default)\n"
 msgstr ""
 "      --no-sync\n"
-"         anropa inte sync innan information hämtas (normalfall)\n"
+"         anropa inte sync innan information hämtas (standard)\n"
 
 #: src/df.c:1541
 msgid ""
@@ -5096,7 +5096,7 @@ msgid ""
 "         invoke sync before getting usage info\n"
 msgstr ""
 "      --sync\n"
-"         anropa sync för användningsinformation inhämtas\n"
+"         anropa sync innan användningsinformation inhämtas\n"
 
 #: src/df.c:1554
 msgid ""
@@ -5352,7 +5352,7 @@ msgid ""
 "         E.g., '-BM' prints sizes in units of 1,048,576 bytes\n"
 msgstr ""
 "  -B, --block-size=STRL\n"
-"         skala storlekar med STRL före de skrivs ut; se format på STRL nedan;\n"
+"         skala storlekar med STRL innan de skrivs ut; se format på STRL nedan;\n"
 "         t.ex. skriver ”-BM” storlekar i enheter av 1 048 576 byte;\n"
 
 #: src/du.c:313
@@ -5455,7 +5455,7 @@ msgid ""
 "         don't follow any symbolic links (this is the default)\n"
 msgstr ""
 "  -P, --no-dereference\n"
-"         följ inga symboliska länkar (detta är normalfallet)\n"
+"         följ inga symboliska länkar (detta är standard)\n"
 
 #: src/du.c:368
 msgid ""
@@ -5508,7 +5508,7 @@ msgid ""
 "         atime, access, use, ctime or status\n"
 msgstr ""
 "      --time=ORD\n"
-"         visa tid som ORD istället för modifieringstid:\n"
+"         visa tid som ORD istället för ändringstid:\n"
 "         atime, access, use, ctime eller status\n"
 
 #: src/du.c:395
@@ -5738,7 +5738,7 @@ msgid ""
 "         read NUL-delimited environment entries from FILE\n"
 msgstr ""
 "      --env0-from=FIL\n"
-"         läs NUL-avgränsade miljöposter från FIL\n"
+"         läs NOLL-avgränsade miljöposter från FIL\n"
 
 #: src/env.c:163
 msgid ""
@@ -5796,7 +5796,7 @@ msgid ""
 "         list non default signal handling to standard error\n"
 msgstr ""
 "      --list-signal-handling\n"
-"         lista icke standardhantering av signaler till standard fel\n"
+"         lista icke-standardhantering av signaler till standard fel\n"
 
 #: src/env.c:192
 msgid ""
@@ -5854,7 +5854,7 @@ msgstr "kan inte läsa %s"
 #: src/env.c:345
 #, c-format
 msgid "%s: file must end with a NUL byte"
-msgstr "%s: filen måste sluta med en NUL-byte"
+msgstr "%s: filen måste sluta med en NOLL-byte"
 
 #: src/env.c:369
 #, c-format
@@ -6372,7 +6372,7 @@ msgid ""
 "         reattaching the prefix to reformatted lines\n"
 msgstr ""
 "  -p, --prefix=STRÄNG\n"
-"         formatera bara om rader som börjar med STRÄNG\n"
+"         formatera bara om rader som börjar med STRÄNG,\n"
 "         sätt tillbaka prefixet på omformaterade rader\n"
 
 #: src/fmt.c:286
@@ -6447,7 +6447,7 @@ msgid ""
 "         count characters rather than columns\n"
 msgstr ""
 "  -c, --characters\n"
-"         räkna tecken snarare än kolumner\n"
+"         räkna tecken istället för än kolumner\n"
 
 #: src/fold.c:95
 msgid ""
@@ -7000,7 +7000,7 @@ msgid ""
 "         to corresponding destination files\n"
 msgstr ""
 "  -p, --preserve-timestamps\n"
-"         sätt KÄLLors åtkomst- och modifikationstid på\n"
+"         sätt KÄLLors åtkomst- och ändringstid på\n"
 "         motsvarande målfiler\n"
 
 #: src/install.c:665
@@ -7174,7 +7174,7 @@ msgid ""
 "         like -a FILENUM, but suppress joined output lines\n"
 msgstr ""
 "  -v FILNUM\n"
-"         som -a FILNUM, men undertrycker förenade utmatade rader\n"
+"         som -a FILNUM, men utelämna sammanslagna utdatarader\n"
 
 #: src/join.c:239
 msgid ""
@@ -7907,7 +7907,7 @@ msgid ""
 "         likewise, but use powers of 1000 not 1024\n"
 msgstr ""
 "      --si\n"
-"         d:o, men använd potenser av 1000, inte 1024\n"
+"         dito, men använd potenser av 1000, inte 1024\n"
 
 #: src/ls.c:5488
 msgid ""
@@ -8109,7 +8109,7 @@ msgid ""
 "         sort by file size, largest first\n"
 msgstr ""
 "  -S\n"
-"         sort efter filstorlek, störst först\n"
+"         sortera efter filstorlek, störst först\n"
 
 #: src/ls.c:5589
 msgid ""
@@ -8138,7 +8138,7 @@ msgstr ""
 "         välj vilka tidsstämplar som används för att visa eller sortera:\n"
 "           åtkomsttid (-u): atime, access, use;\n"
 "           metadataändringstid (-c): ctime, status;\n"
-"           modifieringstid (standard); mtime, modification;\n"
+"           ändringstid (standard); mtime, modification;\n"
 "           födelsetid: birth, creation;\n"
 "         med -l avgör ORD vilken tid att visa;\n"
 "         med --sort=time, sortera enligt ORD (nyast först)\n"
@@ -8201,7 +8201,7 @@ msgid ""
 "         set output width to COLS.  0 means no limit\n"
 msgstr ""
 "  -w, --width=KOL\n"
-"         ange utmatningsbredd till KOL, 0 betyder ingen gräns\n"
+"         ange utmatningsbredd till KOL. 0 betyder ingen gräns\n"
 
 #: src/ls.c:5635
 msgid ""
@@ -9014,7 +9014,7 @@ msgid ""
 "         use X instead of whitespace for field delimiter\n"
 msgstr ""
 "  -d, --delimiter=X\n"
-"         använd X istället för blanka som fältseparator\n"
+"         använd X istället för blanktecken som fältseparator\n"
 
 #: src/numfmt.c:933
 msgid ""
@@ -9473,8 +9473,7 @@ msgid ""
 "         swap input bytes according the specified order\n"
 msgstr ""
 "      --endian={big|little}\n"
-"         byt plats på indatabyte:ar enligt angiven\n"
-"                                byteordning\n"
+"         byt plats på indatabyte:ar enligt angiven byteordning\n"
 
 #: src/od.c:392
 msgid ""
@@ -9499,7 +9498,7 @@ msgid ""
 "         of at least BYTES (default 3) printable characters\n"
 msgstr ""
 "  -S BYTE, --strings[=BYTE]\n"
-"         visa endast NUL-avslutade strängar\n"
+"         visa endast NOLL-avslutade strängar\n"
 "         med åtminstone BYTE (3 som standard) skrivbara tecken\n"
 
 #: src/od.c:405
@@ -10597,7 +10596,7 @@ msgid ""
 "         use PWD from environment, even if it contains symlinks\n"
 msgstr ""
 "  -L, --logical\n"
-"         använd PWD från omgivningen, även om den innehåller symlänkar\n"
+"         använd PWD från miljön, även om den innehåller symlänkar\n"
 
 #: src/pwd.c:64
 msgid ""
@@ -10729,7 +10728,7 @@ msgstr "ignorerar --no-newline med flera argument"
 
 #: src/realpath.c:73
 msgid "Print the resolved absolute file name.\n"
-msgstr "Skriv de upplösta absoluta filnamnen.\n"
+msgstr "Skriv det upplösta absoluta filnamnet.\n"
 
 #: src/realpath.c:76
 msgid "  -E, --canonicalize           all but the last component must exist (default)\n"
@@ -10885,7 +10884,7 @@ msgid ""
 "         while still giving protection against most mistakes\n"
 msgstr ""
 "  -I\n"
-"         fråga en gång före mer än tre filer tas bort,\n"
+"         fråga en gång innan fler än tre filer tas bort,\n"
 "         eller vid rekursiv borttagning; mindre påträngande än -i,\n"
 "         men skyddar ändå mot de flesta misstag\n"
 
@@ -11397,7 +11396,7 @@ msgid ""
 "         shred this many bytes (suffixes like K, M, G accepted)\n"
 msgstr ""
 "  -s, --size=N\n"
-"         strimla detta antal byte (ändelse som K, M, G fungerar)\n"
+"         strimla detta antal byte (ändelser som K, M, G fungerar)\n"
 
 #: src/shred.c:197
 msgid ""
@@ -12744,7 +12743,7 @@ msgid ""
 "         print the information in terse form\n"
 msgstr ""
 "  -t, --terse\n"
-"         skriv informationen på kortfattad form\n"
+"         skriv informationen kortfattat\n"
 
 #: src/stat.c:1798
 msgid ""
@@ -12852,8 +12851,8 @@ msgstr ""
 "  %W   filens födelsetid, sekunder sedan Epok, eller 0 om okänd\n"
 "  %x   senaste åtkomsttid, läsbar för människa\n"
 "  %X   senaste åtkomsttid, sekunder sedan Epok\n"
-"  %y   senaste datamodifieringstid, läsbar för människa\n"
-"  %Y   senaste datamodifieringstid, sekunder sedan Epok\n"
+"  %y   senaste dataändringstid, läsbar för människa\n"
+"  %Y   senaste dataändringstid, sekunder sedan Epok\n"
 "  %z   senaste statusändringstid, läsbar för människa\n"
 "  %Z   senaste statusändringstid, sekunder sedan Epok\n"
 "\n"
@@ -14884,7 +14883,7 @@ msgid ""
 "A FILE argument string of - is handled specially and causes touch to\n"
 "change the times of the file associated with standard output.\n"
 msgstr ""
-"Uppdatera åtkomst- och modifieringstiderna på varje fil till aktuell tid.\n"
+"Uppdatera åtkomst- och ändringstiderna på varje fil till aktuell tid.\n"
 "\n"
 "Ett FIL-argument som inte finns skapas tomt, om inte -c eller -h anges.\n"
 "\n"
@@ -14940,7 +14939,7 @@ msgid ""
 "         change only the modification time\n"
 msgstr ""
 "  -m\n"
-"         ändra bara modifikationstiden\n"
+"         ändra bara ändringstiden\n"
 
 #: src/touch.c:254
 msgid ""
@@ -15583,7 +15582,7 @@ msgid ""
 "         only print duplicate lines, one for each group\n"
 msgstr ""
 "  -d, --repeated\n"
-"         skriv endast repeterade rader, en för varje grupp\n"
+"         skriv endast upprepade rader, en för varje grupp\n"
 
 #: src/uniq.c:180
 msgid ""
@@ -15618,7 +15617,7 @@ msgid ""
 "         METHOD={separate(default),prepend,append,both}\n"
 msgstr ""
 "      --group[=METOD]\n"
-"         visa alla saker, separera grupper med en tom rad;\n"
+"         visa alla objekt, separera grupper med en tom rad;\n"
 "         METOD={separate(standard),prepend,append,both}\n"
 
 #: src/uniq.c:198
@@ -15651,7 +15650,7 @@ msgid ""
 "         compare no more than N characters in lines\n"
 msgstr ""
 "  -w, --check-chars=N\n"
-"         jämför inte mer än N tecken i rader\n"
+"         jämför inte fler än N tecken i rader\n"
 
 #: src/uniq.c:220
 msgid ""
@@ -16057,7 +16056,7 @@ msgstr "  -s, --short       skriv endast namn, linje och tid (standard)\n"
 
 #: src/who.c:670
 msgid "  -t, --time        print last system clock change\n"
-msgstr "  -t, --time        skriv alla ändringar av systemklockan\n"
+msgstr "  -t, --time        skriv senaste ändringen av systemklockan\n"
 
 #: src/who.c:673
 msgid "  -T, -w, --mesg    add user's message status as +, - or ?\n"
