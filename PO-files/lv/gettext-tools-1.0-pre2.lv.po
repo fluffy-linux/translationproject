@@ -1,0 +1,4929 @@
+# Latvian translation for gettext-tools.
+# Copyright (C) 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gettext package.
+# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gettext-tools 1.0-pre2\n"
+"Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
+"POT-Creation-Date: 2026-01-13 11:57+0100\n"
+"PO-Revision-Date: 2026-10-05 10:23+0300\n"
+"Last-Translator: Rihards Priedītis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"Language: lv\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==0 || (n%100>=11 && n%100<=19) ? 0 : n%10==1 && n%100!=11 ? 1 : 2);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: src/cldr-plurals.c:57
+#, c-format
+msgid "Could not parse file %s as XML"
+msgstr "Neizdevās parsēt failu %s kā XML"
+
+#: src/cldr-plurals.c:68
+#, c-format
+msgid "The root element must be <%s>"
+msgstr "Saknes elementam jābūt <%s>"
+
+#: src/cldr-plurals.c:91
+#, c-format
+msgid "The element <%s> does not contain a <%s> element"
+msgstr "Elements <%s> nesatur <%s> elementu"
+
+#: src/cldr-plurals.c:106 src/cldr-plurals.c:142
+#, c-format
+msgid "The element <%s> does not have attribute <%s>"
+msgstr "Elementam <%s> nav atribūta <%s>"
+
+#: src/cldr-plurals.c:327 src/hostname.c:217 src/msgattrib.c:411
+#: src/msgcat.c:356 src/msgcmp.c:208 src/msgcomm.c:353 src/msgconv.c:299
+#: src/msgen.c:304 src/msgexec.c:255 src/msgfilter.c:410 src/msgfmt.c:932
+#: src/msggrep.c:517 src/msginit.c:374 src/msgmerge.c:474 src/msgpre.c:450
+#: src/msgunfmt.c:422 src/msguniq.c:318 src/recode-sr-latin.c:139
+#: src/spit.c:394 src/urlget.c:166 src/xgettext.c:1160
+#, c-format
+msgid "Try '%s --help' for more information.\n"
+msgstr "Lai iegūtu vairāk informācijas, mēģiniet '%s --help'.\n"
+
+#: src/cldr-plurals.c:331
+#, c-format
+msgid "Usage: %s [OPTION...] [LOCALE RULES]...\n"
+msgstr "Lietošana: %s [OPCIJA...] [LOKĀLES NOTEIKUMI]...\n"
+
+#: src/cldr-plurals.c:336
+#, c-format, no-wrap
+msgid ""
+"Extract or convert Unicode CLDR plural rules.\n"
+"\n"
+"If both LOCALE and RULES are specified, it reads CLDR plural rules for\n"
+"LOCALE from RULES and print them in a form suitable for gettext use.\n"
+"If no argument is given, it reads CLDR plural rules from the standard input.\n"
+msgstr ""
+"Iegūst vai pārveido Unicode CLDR daudzskaitļa noteikumus.\n"
+"\n"
+"Ja norādīti gan LOKĀLE, gan NOTEIKUMI, tas nolasa CLDR daudzskaitļa noteikumus\n"
+"LOKĀLEI no NOTEIKUMIEM un izdrukā tos formātā, kas piemērots gettext lietošanai.\n"
+"Ja nav norādīts neviens arguments, tas nolasa CLDR daudzskaitļa noteikumus no standarta ievades.\n"
+
+#: src/cldr-plurals.c:345 src/msgfmt.c:945 src/xgettext.c:1173
+#, c-format, no-wrap
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too.\n"
+"Similarly for optional arguments.\n"
+msgstr ""
+"Obligātie argumenti garajām opcijām ir obligāti arī īsajām opcijām.\n"
+"Tas pats attiecas uz neobligātajiem argumentiem.\n"
+
+#: src/cldr-plurals.c:350
+#, c-format
+msgid "  -c, --cldr                  print plural rules in the CLDR format\n"
+msgstr "  -c, --cldr                  izdrukāt daudzskaitļa noteikumus CLDR formātā\n"
+
+#: src/cldr-plurals.c:352 src/hostname.c:240 src/msgattrib.c:530
+#: src/msgcat.c:464 src/msgcmp.c:259 src/msgcomm.c:455 src/msgconv.c:383
+#: src/msgen.c:387 src/msgexec.c:304 src/msgfilter.c:510 src/msgfmt.c:1106
+#: src/msggrep.c:640 src/msginit.c:442 src/msgmerge.c:604 src/msgpre.c:548
+#: src/msgunfmt.c:528 src/msguniq.c:415 src/recode-sr-latin.c:160
+#: src/urlget.c:182 src/xgettext.c:1373
+#, c-format, no-wrap
+msgid "  -h, --help                  display this help and exit\n"
+msgstr "  -h, --help                  parādīt šo palīdzību un iziet\n"
+
+#: src/cldr-plurals.c:354 src/hostname.c:242 src/msgattrib.c:532
+#: src/msgcat.c:466 src/msgcmp.c:261 src/msgcomm.c:457 src/msgconv.c:385
+#: src/msgen.c:389 src/msgexec.c:306 src/msgfilter.c:512 src/msgfmt.c:1108
+#: src/msggrep.c:642 src/msginit.c:444 src/msgmerge.c:606 src/msgpre.c:550
+#: src/msgunfmt.c:530 src/msguniq.c:417 src/recode-sr-latin.c:163
+#: src/urlget.c:184 src/xgettext.c:1375
+#, c-format, no-wrap
+msgid "  -V, --version               output version information and exit\n"
+msgstr "  -V, --version               izvadīt versijas informāciju un iziet\n"
+
+#. TRANSLATORS: The first placeholder is the web address of the Savannah
+#. project of this package.  The second placeholder is the bug-reporting
+#. email address for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: src/cldr-plurals.c:362 src/hostname.c:250 src/msgattrib.c:540
+#: src/msgcat.c:474 src/msgcmp.c:269 src/msgcomm.c:465 src/msgconv.c:393
+#: src/msgen.c:397 src/msgexec.c:314 src/msgfilter.c:520 src/msgfmt.c:1120
+#: src/msggrep.c:650 src/msginit.c:452 src/msgmerge.c:618 src/msgpre.c:560
+#: src/msgunfmt.c:540 src/msguniq.c:425 src/recode-sr-latin.c:171
+#: src/spit.c:444 src/urlget.c:194 src/xgettext.c:1385
+#, c-format
+msgid ""
+"Report bugs in the bug tracker at <%s>\n"
+"or by email to <%s>.\n"
+msgstr ""
+"Ziņojiet par kļūdām kļūdu izsekotājā <%s>\n"
+"vai pa e-pastu uz <%s>.\n"
+
+#: src/cldr-plurals.c:436 src/hostname.c:188 src/msgattrib.c:346
+#: src/msgcat.c:285 src/msgcmp.c:171 src/msgcomm.c:280 src/msgconv.c:237
+#: src/msgen.c:240 src/msgexec.c:179 src/msgfilter.c:282 src/msgfmt.c:451
+#: src/msggrep.c:422 src/msginit.c:257 src/msgmerge.c:303 src/msgpre.c:304
+#: src/msgunfmt.c:259 src/msguniq.c:257 src/recode-sr-latin.c:106
+#: src/spit.c:548 src/urlget.c:137 src/xgettext.c:795
+#, c-format, no-wrap
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"License GPLv3+: GNU GPL version 3 or later <%s>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"Autortiesības (C) %s Free Software Foundation, Inc.\n"
+"Licence GPLv3+: GNU GPL versija 3 vai jaunāka <%s>\n"
+"Šī ir brīvā programmatūra: jūs drīkstat to mainīt un pārizplatīt.\n"
+"NETIEK SNIEGTA NEKĀDA GARANTIJA, ciktāl to atļauj likums.\n"
+
+#: src/cldr-plurals.c:442 src/hostname.c:194 src/msgattrib.c:352
+#: src/msgcat.c:291 src/msgcmp.c:177 src/msgcomm.c:286 src/msgconv.c:243
+#: src/msgen.c:246 src/msgexec.c:185 src/msgfilter.c:288 src/msgfmt.c:457
+#: src/msggrep.c:428 src/msginit.c:263 src/msgmerge.c:309 src/msgpre.c:310
+#: src/msgunfmt.c:265 src/msguniq.c:263 src/spit.c:554 src/urlget.c:143
+#: src/xgettext.c:801
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Autors: %s.\n"
+
+#. This is a proper name. See the gettext manual, section Names.
+#: src/cldr-plurals.c:442
+msgid "Daiki Ueno"
+msgstr "Daiki Ueno"
+
+#: src/cldr-plurals.c:460
+#, c-format
+msgid "%s cannot be read"
+msgstr "Neizdevās nolasīt %s"
+
+#: src/cldr-plurals.c:466
+#, c-format
+msgid "cannot extract rules for %s"
+msgstr "neizdevās iegūt noteikumus lokālei %s"
+
+#: src/cldr-plurals.c:485
+#, c-format
+msgid "cannot parse CLDR rule"
+msgstr "neizdevās parsēt CLDR noteikumu"
+
+#: src/cldr-plurals.c:517
+#, c-format
+msgid "extra operand %s"
+msgstr "lieks operands %s"
+
+#: src/file-list.c:47 src/msggrep.c:241 src/open-catalog.c:120
+#: src/read-mo.c:250 src/read-tcl.c:116 src/urlget.c:210
+#: src/write-desktop.c:168 src/xgettext.c:1987 src/xgettext.c:2000
+#: src/xgettext.c:2017 src/xgettext.c:2048 src/xgettext.c:2058
+#: src/xgettext.c:2075
+#, c-format
+msgid "error while opening \"%s\" for reading"
+msgstr "kļūda, atverot \"%s\" lasīšanai"
+
+#: src/format-awk.c:517 src/format-boost.c:629 src/format-c++-brace.c:942
+#: src/format-elisp.c:357 src/format-gcc-internal.c:782 src/format-go.c:582
+#: src/format-java-printf.c:558 src/format-javascript.c:380
+#: src/format-kde.c:214 src/format-librep.c:321 src/format-lua.c:225
+#: src/format-modula2.c:196 src/format-ocaml.c:900 src/format-pascal.c:378
+#: src/format-perl.c:586 src/format-php.c:359 src/format-qt.c:170
+#: src/format-rust.c:494 src/format-sh-printf.c:470 src/format-smalltalk.c:145
+#: src/format-tcl.c:396
+#, c-format
+msgid "a format specification for argument %zu, as in '%s', doesn't exist in '%s'"
+msgstr "argumentam %zu nav formāta specifikācijas (kā '%s') virknē '%s'"
+
+#: src/format-awk.c:529 src/format-boost.c:641 src/format-c++-brace.c:954
+#: src/format-elisp.c:369 src/format-gcc-internal.c:794 src/format-go.c:594
+#: src/format-java-printf.c:570 src/format-javascript.c:392
+#: src/format-kde.c:226 src/format-librep.c:333 src/format-lua.c:233
+#: src/format-modula2.c:204 src/format-ocaml.c:912 src/format-pascal.c:390
+#: src/format-perl.c:598 src/format-php.c:371 src/format-qt.c:166
+#: src/format-rust.c:506 src/format-sh-printf.c:482 src/format-smalltalk.c:141
+#: src/format-tcl.c:408
+#, c-format
+msgid "a format specification for argument %zu doesn't exist in '%s'"
+msgstr "trūkst formāta specifikācijas argumentam %zu virknē '%s'"
+
+#: src/format-awk.c:553 src/format-boost.c:665 src/format-c.c:147
+#: src/format-elisp.c:393 src/format-gcc-internal.c:818
+#: src/format-gfc-internal.c:352 src/format-go.c:618
+#: src/format-java-printf.c:594 src/format-javascript.c:419
+#: src/format-librep.c:357 src/format-lua.c:247 src/format-modula2.c:218
+#: src/format-ocaml.c:945 src/format-pascal.c:414 src/format-perl.c:622
+#: src/format-php.c:395 src/format-python.c:546 src/format-ruby.c:964
+#: src/format-sh-printf.c:506 src/format-tcl.c:432
+#, c-format
+msgid "format specifications in '%s' and '%s' for argument %zu are not the same"
+msgstr "formāta specifikācijas '%s' un '%s' argumentam %zu atšķiras"
+
+#: src/format-boost.c:451
+#, c-format
+msgid "The directive number %zu starts with | but does not end with |."
+msgstr "Direktīvas numurs %zu sākas ar |, bet nebeidzas ar |."
+
+#: src/format.c:159
+#, c-format
+msgid "'%s' is not a valid %s format string, unlike '%s'. Reason: %s"
+msgstr "'%s' nav derīga %s formāta virkne, atšķirībā no '%s'. Iemesls: %s"
+
+#: src/format-c++-brace.c:251
+#, c-format
+msgid "In the directive number %zu, the arg-id is too large."
+msgstr "Direktīvā %zu: argumenta ID ir pārāk liels."
+
+#: src/format-c++-brace.c:367 src/format-c++-brace.c:462
+#, c-format
+msgid "In the directive number %zu, the width's arg-id is too large."
+msgstr "Direktīvā %zu platuma argumenta ID ir pārāk liels."
+
+#: src/format-c++-brace.c:422
+#, c-format
+msgid "In the directive number %zu, the width's arg-id is not terminated through '}'."
+msgstr "Direktīvas numurā %zu platuma argumenta ID nav noslēgts ar '}'."
+
+#: src/format-c++-brace.c:517
+#, c-format
+msgid "In the directive number %zu, the precision's arg-id is not terminated through '}'."
+msgstr "Direktīvas numurā %zu precizitātes argumenta ID nav noslēgts ar '}'."
+
+#: src/format-c++-brace.c:579
+#, c-format
+msgid "In the directive number %zu, the character '%c' is not a standard type specifier."
+msgstr "Direktīvā %zu simbols '%c' nav standarta tipa specifikators."
+
+#: src/format-c++-brace.c:580
+#, c-format
+msgid "The character that terminates the directive number %zu is not a standard type specifier."
+msgstr "Direktīvu %zu noslēdzošais simbols nav standarta tipa specifikators."
+
+#: src/format-c++-brace.c:588
+#, c-format
+msgid "In the directive number %zu, the sign specification is incompatible with the type specifier '%c'."
+msgstr "Direktīvas numurā %zu zīmes specifikācija nesader ar tipa specifikatoru '%c'."
+
+#: src/format-c++-brace.c:596
+#, c-format
+msgid "In the directive number %zu, the '#' option is incompatible with the type specifier '%c'."
+msgstr "%zu. direktīvā karodziņš '#' nav saderīgs ar tipa specifikatoru '%c'."
+
+#: src/format-c++-brace.c:604
+#, c-format
+msgid "In the directive number %zu, the '0' option is incompatible with the type specifier '%c'."
+msgstr "Direktīvas numurā %zu opcija '0' nesader ar tipa specifikatoru '%c'."
+
+#: src/format-c++-brace.c:612
+#, c-format
+msgid "In the directive number %zu, the precision specification is incompatible with the type specifier '%c'."
+msgstr "Direktīvas numurā %zu norādītā precizitāte nav saderīga ar tipa specifikatoru '%c'."
+
+#: src/format-c++-brace.c:620
+#, c-format
+msgid "In the directive number %zu, the 'L' option is incompatible with the type specifier '%c'."
+msgstr "Direktīvā %zu opcija 'L' nav saderīga ar tipa specifikatoru '%c'."
+
+#: src/format-c++-brace.c:721
+#, c-format
+msgid "The directive number %zu, with all of its options, is not applicable to any type."
+msgstr "Direktīva %zu ar visām tās opcijām nav piemērojama nevienam tipam."
+
+#: src/format-c++-brace.c:733
+#, c-format
+msgid "The string ends in the middle of the directive number %zu."
+msgstr "Virkne beidzas direktīvas numura %zu vidū."
+
+#: src/format-c++-brace.c:741
+#, c-format
+msgid "The directive number %zu is not terminated through '}'."
+msgstr "Direktīva %zu nav noslēgta ar '}'."
+
+#: src/format-c++-brace.c:763 src/format-csharp.c:154 src/format-java.c:343
+msgid "The string starts in the middle of a directive: found '}' without matching '{'."
+msgstr "Virkne sākas direktīvas vidū: atrasts “}” bez atbilstošā “{”."
+
+#: src/format-c++-brace.c:764 src/format-csharp.c:155
+#, c-format
+msgid "The string contains a lone '}' after directive number %zu."
+msgstr "Virknē aiz %zu. direktīvas ir viena pati '}'."
+
+#: src/format-c++-brace.c:983
+#, c-format
+msgid "The format specification for argument %zu in '%s' is applicable to the types %s, but the format specification for argument %zu in '%s' is not."
+msgstr "Formāta specifikācija argumentam %zu '%s' der tipiem %s, bet argumentam %zu '%s' — nē."
+
+#: src/format-c++-brace.c:996
+#, c-format
+msgid "The format specification for argument %zu in '%s' uses a different presentation than the format specification for argument %zu in '%s'."
+msgstr "Formāta specifikācija argumentam %zu '%s' izmanto atšķirīgu noformējumu nekā formāta specifikācija argumentam %zu '%s'."
+
+#: src/format-c.c:34
+#, c-format
+msgid "In the directive number %zu, the token after '<' is not the name of a format specifier macro. The valid macro names are listed in ISO C 99 section 7.8.1."
+msgstr "Direktīvā Nr. %zu simbols aiz '<' nav formāta specifikatora makro nosaukums. Derīgie makro nosaukumi ir uzskaitīti ISO C 99 7.8.1. sadaļā."
+
+#: src/format-c.c:37
+#, c-format
+msgid "In the directive number %zu, the token after '<' is not followed by '>'."
+msgstr "Direktīvā Nr. %zu aiz '<' sekojošajam simbolam neseko '>'."
+
+#: src/format-c.c:40
+#, c-format
+msgid "In the directive number %zu, the argument size specifier is invalid."
+msgstr "Direktīvā Nr. %zu argumenta izmēra specifikators nav derīgs."
+
+#: src/format-c.c:43 src/format-gfc-internal.c:273
+#, c-format
+msgid "The string refers to argument number %zu but ignores argument number %zu."
+msgstr "Virkne atsaucas uz %zu. argumentu, bet ignorē %zu. argumentu."
+
+#: src/format-c.c:137 src/format-csharp.c:200 src/format-gfc-internal.c:342
+#: src/format-python.c:533 src/format-qt-plural.c:108 src/format-ruby.c:954
+#, c-format
+msgid "number of format specifications in '%s' and '%s' does not match"
+msgstr "formāta specifikāciju skaits virknēs '%s' un '%s' nesakrīt"
+
+#: src/format-csharp.c:81 src/format-java.c:202
+#, c-format
+msgid "In the directive number %zu, '{' is not followed by an argument number."
+msgstr "Direktīvā numurā %zu, simbolam '{' neseko argumenta numurs."
+
+#: src/format-csharp.c:102
+#, c-format
+msgid "In the directive number %zu, ',' is not followed by a number."
+msgstr "Direktīvā numurā %zu pēc ',' neseko skaitlis."
+
+#: src/format-csharp.c:123 src/format-java.c:184
+msgid "The string ends in the middle of a directive: found '{' without matching '}'."
+msgstr "Virkne beidzas direktīvas vidū: atrasts '{' bez atbilstošā '}'."
+
+#: src/format-csharp.c:132
+#, c-format
+msgid "The directive number %zu ends with an invalid character '%c' instead of '}'."
+msgstr "Direktīva %zu beidzas ar nederīgu simbolu '%c', nevis '}'."
+
+#: src/format-csharp.c:133
+#, c-format
+msgid "The directive number %zu ends with an invalid character instead of '}'."
+msgstr "Direktīva %zu beidzas ar nederīgu rakstzīmi, nevis '}'."
+
+#: src/format-d.c:1650
+#, c-format
+msgid "In the directive number %zu, the first argument number is greater than the second argument number."
+msgstr "Direktīvā %zu: pirmais argumenta numurs ir lielāks par otro."
+
+#: src/format-d.c:1653
+#, c-format
+msgid "In the directive number %zu, the compound specifier consumes a variable number of arguments."
+msgstr "Direktīvā numurā %zu saliktais specifikators patērē mainīgu argumentu skaitu."
+
+#: src/format-d.c:1656
+#, c-format
+msgid "In the directive number %zu, the compound specifier consumes %zu arguments."
+msgstr "Direktīvā %zu saliktais specifikators patērē %zu argumentus."
+
+#: src/format-d.c:1659
+msgid "Found '%|' outside of '%(...%)'."
+msgstr "Atrasts '%|' ārpus '%(...%)'."
+
+#: src/format-d.c:1662
+msgid "The string ends in the middle of a compound specifier."
+msgstr "Virkne beidzas salikta specifikatora vidū."
+
+#: src/format-d.c:1665
+#, c-format
+msgid "In the directive number %zu, there is an invalid directive in the delimiter part of a compound specifier."
+msgstr "Direktīvas %zu saliktā specifikatora atdalītājdaļa satur nederīgu direktīvu."
+
+#: src/format-d.c:1668 src/format-ocaml.c:767
+#, c-format
+msgid "Found '%%%c' without matching '%%%c'."
+msgstr "Atrasts '%%%c' bez atbilstošā '%%%c'."
+
+#: src/format-d.c:1671
+#, c-format
+msgid "The directive number %zu references an argument after the last argument."
+msgstr "Direktīva %zu atsaucas uz argumentu aiz pēdējā argumenta."
+
+#: src/format-d.c:1675 src/format-lisp.c:3418 src/format-scheme.c:3340
+msgid "The string refers to some argument in incompatible ways."
+msgstr "Virkne atsaucas uz kādu argumentu nesaderīgā veidā."
+
+#: src/format-d.c:2245 src/format-lisp.c:3461 src/format-scheme.c:3383
+#, c-format
+msgid "format specifications in '%s' and '%s' are not equivalent"
+msgstr "formāta specifikācijas iekš '%s' un '%s' nav ekvivalentas"
+
+#: src/format-d.c:2262 src/format-lisp.c:3478 src/format-scheme.c:3400
+#, c-format
+msgid "format specifications in '%s' are not a subset of those in '%s'"
+msgstr "formāta specifikācijas '%s' nav '%s' specifikāciju apakškopa."
+
+#: src/format-gcc-internal.c:227
+#, c-format
+msgid "The directive number %zu opens a quote group, but the previous one is not terminated."
+msgstr "Direktīva %zu atver pēdiņu grupu, bet iepriekšējā nav noslēgta."
+
+#: src/format-gcc-internal.c:237 src/format-gcc-internal.c:247
+#: src/format-gcc-internal.c:257
+#, c-format
+msgid "The directive number %zu does not match a preceding '%%%c'."
+msgstr "Direktīva %zu neatbilst iepriekšējai '%%%c'."
+
+#: src/format-gcc-internal.c:343
+#, c-format
+msgid "In the directive number %zu, the flags combination is invalid."
+msgstr "Direktīvā %zu karogu kombinācija ir nederīga."
+
+#: src/format-gcc-internal.c:384
+#, c-format
+msgid "In the directive number %zu, a precision is not allowed before '%c'."
+msgstr "Direktīvā %zu precizitāte nav atļauta pirms '%c'."
+
+#: src/format-gcc-internal.c:425
+#, c-format
+msgid "In the directive number %zu, the argument number for the precision must be equal to %zu."
+msgstr "Direktīvā %zu precizitātes argumenta numuram jābūt vienādam ar %zu."
+
+#: src/format-gcc-internal.c:489
+#, c-format
+msgid "In the directive number %zu, a precision specification is not allowed before '%c'."
+msgstr "Direktīvā %zu precizitātes specifikācija nav atļauta pirms '%c'."
+
+#: src/format-gcc-internal.c:497
+#, c-format
+msgid "In the directive number %zu, the precision specification is invalid."
+msgstr "Direktīvā %zu precizitātes specifikācija ir nederīga."
+
+#: src/format-gcc-internal.c:523
+#, c-format
+msgid "The directive number %zu opens a color group, but the previous one is not terminated."
+msgstr "Direktīva %zu atver krāsu grupu, bet iepriekšējā nav noslēgta."
+
+#: src/format-gcc-internal.c:534
+#, c-format
+msgid "The directive number %zu opens a URL group, but the previous one is not terminated."
+msgstr "Direktīva %zu atver URL grupu, bet iepriekšējā nav noslēgta."
+
+#: src/format-gcc-internal.c:662
+#, c-format
+msgid "The quote group opened by the directive number %zu is not terminated."
+msgstr "Direktīvas %zu atvērtā pēdiņu grupa nav noslēgta."
+
+#: src/format-gcc-internal.c:667
+#, c-format
+msgid "The color group opened by the directive number %zu is not terminated."
+msgstr "Direktīvas %zu atvērtā krāsu grupa nav noslēgta."
+
+#: src/format-gcc-internal.c:672
+#, c-format
+msgid "The URL group opened by the directive number %zu is not terminated."
+msgstr "Direktīvas %zu atvērtā URL grupa nav noslēgta."
+
+#: src/format-gcc-internal.c:839
+#, c-format
+msgid "'%s' uses %%m but '%s' doesn't"
+msgstr "'%s' izmanto %%m, bet '%s' neizmanto"
+
+#: src/format-gcc-internal.c:843
+#, c-format
+msgid "'%s' does not use %%m but '%s' uses %%m"
+msgstr "'%s' neizmanto %%m, bet '%s' izmanto %%m"
+
+#: src/format-gcc-internal.c:856 src/format-gfc-internal.c:364
+#, c-format
+msgid "'%s' uses %%C but '%s' doesn't"
+msgstr "'%s' izmanto %%C, bet '%s' neizmanto"
+
+#: src/format-gcc-internal.c:860 src/format-gfc-internal.c:368
+#, c-format
+msgid "'%s' does not use %%C but '%s' uses %%C"
+msgstr "'%s' neizmanto %%C, bet '%s' izmanto %%C"
+
+#: src/format-go.c:114 src/format-rust.c:171
+#, c-format
+msgid "In the directive number %zu, the argument number is too large."
+msgstr "Direktīvā ar numuru %zu argumenta numurs ir pārāk liels."
+
+#: src/format-go.c:220
+#, c-format
+msgid "In the directive number %zu, the width is too large."
+msgstr "Direktīvā ar numuru %zu platums ir pārāk liels."
+
+#: src/format-go.c:325
+#, c-format
+msgid "In the directive number %zu, the precision is too large."
+msgstr "Direktīvā ar numuru %zu precizitāte ir pārāk liela."
+
+#: src/format-invalid.h:22
+msgid "The string ends in the middle of a directive."
+msgstr "Virkne beidzas direktīvas vidū."
+
+#: src/format-invalid.h:25
+msgid "The string refers to arguments both through absolute argument numbers and through unnumbered argument specifications."
+msgstr "Virkne atsaucas uz argumentiem gan ar absolūtiem argumentu numuriem, gan ar nenumurētām argumentu specifikācijām."
+
+#: src/format-invalid.h:28
+#, c-format
+msgid "In the directive number %zu, the precision is missing."
+msgstr "Direktīvā ar numuru %zu trūkst precizitātes."
+
+#: src/format-invalid.h:31
+#, c-format
+msgid "In the directive number %zu, the argument number 0 is not a positive integer."
+msgstr "Direktīvā ar numuru %zu argumenta numurs 0 nav pozitīvs vesels skaitlis."
+
+#: src/format-invalid.h:33
+#, c-format
+msgid "In the directive number %zu, the width's argument number 0 is not a positive integer."
+msgstr "Direktīvā ar numuru %zu platuma argumenta numurs 0 nav pozitīvs vesels skaitlis."
+
+#: src/format-invalid.h:35
+#, c-format
+msgid "In the directive number %zu, the precision's argument number 0 is not a positive integer."
+msgstr "Direktīvā ar numuru %zu precizitātes argumenta numurs 0 nav pozitīvs vesels skaitlis."
+
+#: src/format-invalid.h:39
+#, c-format
+msgid "In the directive number %zu, the character '%c' is not a valid conversion specifier."
+msgstr "Direktīvā ar numuru %zu simbols '%c' nav derīgs konversijas specifikators."
+
+#: src/format-invalid.h:40
+#, c-format
+msgid "The character that terminates the directive number %zu is not a valid conversion specifier."
+msgstr "Simbols, kas pārtrauc direktīvu ar numuru %zu, nav derīgs konversijas specifikators."
+
+#: src/format-invalid.h:43
+#, c-format
+msgid "In the directive number %zu, the flag '%c' is invalid for the conversion '%c'."
+msgstr "Direktīvā ar numuru %zu karogs '%c' ir nederīgs konversijai '%c'."
+
+#: src/format-invalid.h:46
+#, c-format
+msgid "The string refers to argument number %zu in incompatible ways."
+msgstr "Virkne atsaucas uz argumentu ar numuru %zu nesaderīgos veidos."
+
+#: src/format-java.c:237
+#, c-format
+msgid "In the directive number %zu, the substring \"%s\" is not a valid date/time style."
+msgstr "Direktīvā ar numuru %zu apakšvirkne \"%s\" nav derīgs datuma/laika stils."
+
+#: src/format-java.c:248 src/format-java.c:282 src/format-java.c:311
+#, c-format
+msgid "In the directive number %zu, \"%s\" is not followed by a comma."
+msgstr "Direktīvā ar numuru %zu pēc \"%s\" neseko komats."
+
+#: src/format-java.c:271
+#, c-format
+msgid "In the directive number %zu, the substring \"%s\" is not a valid number style."
+msgstr "Direktīvā ar numuru %zu apakšvirkne \"%s\" nav derīgs skaitļa stils."
+
+#: src/format-java.c:320
+#, c-format
+msgid "In the directive number %zu, the argument number is not followed by a comma and one of \"%s\", \"%s\", \"%s\", \"%s\"."
+msgstr "Direktīvā ar numuru %zu pēc argumenta numura neseko komats un kāds no \"%s\", \"%s\", \"%s\", \"%s\"."
+
+#: src/format-java.c:565
+#, c-format
+msgid "In the directive number %zu, a choice contains no number."
+msgstr "Direktīvā ar numuru %zu izvēlē nav skaitļa."
+
+#: src/format-java.c:576
+#, c-format
+msgid "In the directive number %zu, a choice contains a number that is not followed by '<', '#' or '%s'."
+msgstr "Direktīvā ar numuru %zu izvēlē ir skaitlis, kuram neseko '<', '#' vai '%s'."
+
+#: src/format-java.c:737
+#, c-format
+msgid "a format specification for argument {%zu}, as in '%s', doesn't exist in '%s'"
+msgstr "formāta specifikācija argumentam {%zu}, kā '%s', neeksistē iekš '%s'"
+
+#: src/format-java.c:749
+#, c-format
+msgid "a format specification for argument {%zu} doesn't exist in '%s'"
+msgstr "trūkst formāta specifikācijas argumentam {%zu} virknē '%s'"
+
+#: src/format-java.c:773
+#, c-format
+msgid "format specifications in '%s' and '%s' for argument {%zu} are not the same"
+msgstr "formāta specifikācijas '%s' un '%s' argumentam {%zu} nav vienādas"
+
+#: src/format-java-printf.c:130
+#, c-format
+msgid "In the directive number %zu, the reference to the argument of the previous directive is invalid."
+msgstr "Direktīvā %zu, atsauce uz iepriekšējās direktīvas argumentu ir nederīga."
+
+#: src/format-java-printf.c:133
+#, c-format
+msgid "In the directive number %zu, a width is invalid for the conversion '%c'."
+msgstr "Direktīvā %zu norādītais platums ir nederīgs konversijai '%c'."
+
+#: src/format-java-printf.c:136
+#, c-format
+msgid "In the directive number %zu, a precision is invalid for the conversion '%c'."
+msgstr "Direktīvā %zu konversijai '%c' norādīta nederīga precizitāte."
+
+#: src/format-java-printf.c:140
+#, c-format
+msgid "In the directive number %zu, for the conversion '%c', the character '%c' is not a valid conversion suffix."
+msgstr "Direktīvā %zu, konversijai '%c', rakstzīme '%c' nav derīgs konversijas piedēklis."
+
+#: src/format-java-printf.c:141
+#, c-format
+msgid "The character that terminates the directive number %zu, for the conversion '%c', is not a valid conversion suffix."
+msgstr "Rakstzīme, kas noslēdz direktīvas numuru %zu konversijai '%c', nav derīgs konversijas sufikss."
+
+#: src/format-kde.c:148
+#, c-format
+msgid "The string refers to argument number %zu but ignores the arguments %zu and %zu."
+msgstr "Virkne atsaucas uz %zu. argumentu, bet ignorē argumentus %zu un %zu."
+
+#: src/format-kde.c:235 src/format-rust.c:515
+#, c-format
+msgid "a format specification for arguments %zu and %zu doesn't exist in '%s', only one argument may be ignored"
+msgstr "trūkst formāta specifikācijas argumentiem %zu un %zu virknē '%s' , var ignorēt tikai vienu argumentu"
+
+#: src/format-kde-kuit.c:250 src/format-kde-kuit.c:271
+#: src/format-kde-kuit.c:281
+#, c-format
+msgid "error while parsing: %s"
+msgstr "parsēšanas kļūda: %s"
+
+#: src/format-lisp.c:2334 src/format-lisp.c:2346 src/format-scheme.c:2360
+#: src/format-scheme.c:2372
+#, c-format
+msgid "In the directive number %zu, parameter %zu is of type '%s' but a parameter of type '%s' is expected."
+msgstr "Direktīvā %zu parametram %zu ir '%s' tips, bet gaidītais tips ir '%s'."
+
+#: src/format-lisp.c:2369 src/format-scheme.c:2395
+#, c-format
+msgid "In the directive number %zu, too many parameters are given; expected at most %zu parameter."
+msgid_plural "In the directive number %zu, too many parameters are given; expected at most %zu parameters."
+msgstr[0] "Direktīvā numurā %zu, norādīts pārāk daudz parametru; paredzēts ne vairāk kā %zu parametru."
+msgstr[1] "Direktīvā numurā %zu, norādīts pārāk daudz parametru; paredzēts ne vairāk kā %zu parametrs."
+msgstr[2] "Direktīvā numurā %zu, norādīts pārāk daudz parametru; paredzēts ne vairāk kā %zu parametri."
+
+#: src/format-lisp.c:2491 src/format-scheme.c:2493
+#, c-format
+msgid "In the directive number %zu, '%c' is not followed by a digit."
+msgstr "Direktīvā numurā %zu aiz '%c' neseko cipars."
+
+#: src/format-lisp.c:2733 src/format-scheme.c:2750
+#, c-format
+msgid "In the directive number %zu, the argument %d is negative."
+msgstr "Direktīvā %zu arguments %d ir negatīvs."
+
+#: src/format-lisp.c:2802
+msgid "The string ends in the middle of a ~/.../ directive."
+msgstr "Virkne beidzas direktīvas ~/…/ vidū."
+
+#: src/format-lisp.c:2840 src/format-lisp.c:3096 src/format-lisp.c:3213
+#: src/format-lisp.c:3273 src/format-lisp.c:3385 src/format-scheme.c:2836
+#: src/format-scheme.c:3092 src/format-scheme.c:3209 src/format-scheme.c:3307
+#, c-format
+msgid "Found '~%c' without matching '~%c'."
+msgstr "Atrasts “~%c” bez atbilstošā “~%c”."
+
+#: src/format-lisp.c:2860 src/format-scheme.c:2856
+#, c-format
+msgid "In the directive number %zu, both the @ and the : modifiers are given."
+msgstr "Direktīvā %zu norādīti gan \"@\", gan \":\" modifikatori."
+
+#: src/format-lisp.c:2969 src/format-scheme.c:2965
+#, c-format
+msgid "In the directive number %zu, '~:[' is not followed by two clauses, separated by '~;'."
+msgstr "Direktīvā %zu aiz “~:[” neseko divas ar “~;” atdalītas klauzulas."
+
+#: src/format-lisp.c:3314 src/format-scheme.c:3250
+#, c-format
+msgid "In the directive number %zu, '~;' is used in an invalid position."
+msgstr "Direktīvā Nr. %zu simboli '~;' atrodas nepareizā pozīcijā."
+
+#: src/format-ocaml.c:561 src/format-ocaml.c:660
+#, c-format
+msgid "Found '%s' without matching '%s'."
+msgstr "Atrasts '%s' bez atbilstošā '%s'."
+
+#: src/format-perl-brace.c:193 src/format-python-brace.c:554
+#: src/format-python.c:485 src/format-ruby.c:909 src/format-rust.c:460
+#: src/format-sh.c:294
+#, c-format
+msgid "a format specification for argument '%s' doesn't exist in '%s'"
+msgstr "Formāta virknē '%s' nav specifikācijas argumentam '%s'"
+
+#: src/format-perl.c:425
+#, c-format
+msgid "In the directive number %zu, the size specifier is incompatible with the conversion specifier '%c'."
+msgstr "Direktīvā Nr. %zu izmēra specifikators nav saderīgs ar konversijas specifikatoru '%c'."
+
+#: src/format-python-brace.c:191
+#, c-format
+msgid "In the directive number %zu, '%c' cannot start a getattr argument."
+msgstr "Direktīvā Nr. %zu getattr arguments nevar sākties ar '%c'."
+
+#: src/format-python-brace.c:193
+#, c-format
+msgid "In the directive number %zu, a getattr argument starts with a character that is not alphabetical or underscore."
+msgstr "Direktīvā Nr. %zu getattr arguments sākas ar rakstzīmi, kas nav burts vai pasvītra."
+
+#: src/format-python-brace.c:215
+#, c-format
+msgid "In the directive number %zu, '%c' cannot start a getitem argument."
+msgstr "Direktīvā Nr. %zu getitem arguments nevar sākties ar '%c'."
+
+#: src/format-python-brace.c:217
+#, c-format
+msgid "In the directive number %zu, a getitem argument starts with a character that is not alphanumerical or underscore."
+msgstr "Direktīvā Nr. %zu getitem arguments sākas ar rakstzīmi, kas nav burtciparu vai pasvītra."
+
+#: src/format-python-brace.c:227
+#, c-format
+msgid "In the directive number %zu, there is an unterminated getitem argument."
+msgstr "Direktīvā Nr. %zu ir nenobeigts getitem arguments."
+
+#: src/format-python-brace.c:250
+#, c-format
+msgid "In the directive number %zu, '%c' cannot start a field name."
+msgstr "Direktīvā Nr. %zu lauka nosaukums nevar sākties ar '%c'."
+
+#: src/format-python-brace.c:252
+#, c-format
+msgid "In the directive number %zu, a field name starts with a character that is not alphanumerical or underscore."
+msgstr "Direktīvā Nr. %zu lauka nosaukums sākas ar rakstzīmi, kas nav burtciparu vai pasvītra."
+
+#: src/format-python-brace.c:265
+#, c-format
+msgid "In the directive number %zu, no more nesting is allowed in a format specifier."
+msgstr "Direktīvā Nr. %zu formāta specifikatorā vairs nav atļauta ligzdošana."
+
+#: src/format-python-brace.c:301 src/format-python-brace.c:354
+#: src/format-rust.c:260 src/format-rust.c:317
+#, c-format
+msgid "The directive number %zu is unterminated."
+msgstr "Direktīva Nr. %zu ir nenobeigta."
+
+#: src/format-python-brace.c:371 src/format-python-brace.c:388
+msgid "The string refers to arguments both through absolute argument numbers and through unnamed argument specifications."
+msgstr "Virkne atsaucas uz argumentiem gan ar absolūtiem argumentu numuriem, gan ar nenosauktām argumentu specifikācijām."
+
+#: src/format-python-brace.c:542 src/format-python.c:473 src/format-ruby.c:897
+#: src/format-rust.c:448 src/format-sh.c:282
+#, c-format
+msgid "a format specification for argument '%s', as in '%s', doesn't exist in '%s'"
+msgstr "formāta specifikācija argumentam '%s' (kā '%s') neeksistē '%s'"
+
+#: src/format-python.c:111 src/format-ruby.c:128
+msgid "The string refers to arguments both through argument names and through unnamed argument specifications."
+msgstr "Virkne atsaucas uz argumentiem gan ar argumentu nosaukumiem, gan ar nenosauktām argumentu specifikācijām."
+
+#: src/format-python.c:357 src/format-ruby.c:781
+#, c-format
+msgid "The string refers to the argument named '%s' in incompatible ways."
+msgstr "Virkne atsaucas uz argumentu ar nosaukumu '%s' nesaderīgos veidos."
+
+#: src/format-python.c:440
+#, c-format
+msgid "format specifications in '%s' expect a mapping, those in '%s' expect a tuple"
+msgstr "formāta specifikācijas '%s' sagaida kartējumu, bet '%s' — kortežu"
+
+#: src/format-python.c:448
+#, c-format
+msgid "format specifications in '%s' expect a tuple, those in '%s' expect a mapping"
+msgstr "formāta specifikācijas '%s' sagaida kortežu, bet '%s' — kartējumu"
+
+#: src/format-python.c:512 src/format-ruby.c:933
+#, c-format
+msgid "format specifications in '%s' and '%s' for argument '%s' are not the same"
+msgstr "formāta specifikācijas '%s' un '%s' argumentam '%s' nav identiskas"
+
+#: src/format-qt.c:147
+#, c-format
+msgid "'%s' is a simple format string, but '%s' is not: it contains an 'L' flag or a double-digit argument number"
+msgstr "'%s' ir vienkārša formāta virkne, bet '%s' nav: tā satur 'L' karogu vai divciparu argumenta numuru"
+
+#: src/format-ruby.c:131
+#, c-format
+msgid "In the directive number %zu, two names are given for the same argument."
+msgstr "Direktīvā Nr. %zu vienam un tam pašam argumentam ir doti divi nosaukumi."
+
+#: src/format-ruby.c:134
+#, c-format
+msgid "In the directive number %zu, two numbers are given for the same argument."
+msgstr "Direktīvā Nr. %zu vienam un tam pašam argumentam ir norādīti divi numuri."
+
+#: src/format-ruby.c:137
+#, c-format
+msgid "In the directive number %zu, a flag is given after the width."
+msgstr "Direktīvā numurā %zu pēc platuma norādīts karogs."
+
+#: src/format-ruby.c:140
+#, c-format
+msgid "In the directive number %zu, a flag is given after the precision."
+msgstr "Direktīvā numurā %zu pēc precizitātes norādīts karogs."
+
+#: src/format-ruby.c:143
+#, c-format
+msgid "In the directive number %zu, the width is given after the precision."
+msgstr "Direktīvā numurā %zu platums norādīts pēc precizitātes."
+
+#: src/format-ruby.c:146
+#, c-format
+msgid "In the directive number %zu, a width is given twice."
+msgstr "Direktīvā numurā %zu platums norādīts divreiz."
+
+#: src/format-ruby.c:149
+#, c-format
+msgid "In the directive number %zu, a precision is given twice."
+msgstr "Direktīvā numurā %zu precizitāte norādīta divreiz."
+
+#: src/format-ruby.c:864
+#, c-format
+msgid "format specifications in '%s' expect a hash table, those in '%s' expect individual arguments"
+msgstr "formāta specifikācijas iekš '%s' paredz heša tabulu, savukārt tās iekš '%s' paredz atsevišķus argumentus"
+
+#: src/format-ruby.c:872
+#, c-format
+msgid "format specifications in '%s' expect individual arguments, those in '%s' expect a hash table"
+msgstr "formāta specifikācijas '%s' sagaida atsevišķus argumentus, bet '%s' — heša tabula"
+
+#: src/format-sh.c:76
+msgid "The string refers to a shell variable with a non-ASCII name."
+msgstr "Virkne atsaucas uz čaulas mainīgo ar ne-ASCII nosaukumu."
+
+#: src/format-sh.c:78
+msgid "The string refers to a shell variable with complex shell brace syntax. This syntax is unsupported here due to security reasons."
+msgstr "Virkne atsaucas uz čaulas mainīgo ar sarežģītu čaulas figūriekavu sintaksi. Šī sintakse šeit nav atbalstīta drošības apsvērumu dēļ."
+
+#: src/format-sh.c:80
+msgid "The string refers to a shell variable whose value may be different inside shell functions."
+msgstr "Virkne atsaucas uz čaulas mainīgo, kura vērtība var atšķirties čaulas funkcijās."
+
+#: src/format-sh.c:82
+msgid "The string refers to a shell variable with an empty name."
+msgstr "Virkne atsaucas uz čaulas mainīgo ar tukšu nosaukumu."
+
+#: src/format-sh-printf.c:334
+msgid "The string ends in the middle of an escape sequence."
+msgstr "Virkne beidzas atstarpes secības vidū."
+
+#: src/format-sh-printf.c:344
+#, c-format
+msgid "The escape sequence '%c%c' is unsupported (not in POSIX)."
+msgstr "Vadzīmes secība „%c%c“ netiek atbalstīta (nav iekļauta POSIX)."
+
+#: src/format-sh-printf.c:345
+#, c-format
+msgid "The escape sequence '%c%c' is invalid."
+msgstr "Vadzīmes secība „%c%c“ nav derīga."
+
+#: src/format-sh-printf.c:346
+msgid "This escape sequence is invalid."
+msgstr "Šī vadzīmes secība nav derīga."
+
+#: src/format-smalltalk.c:87
+#, c-format
+msgid "In the directive number %zu, the character '%c' is not a digit between 1 and 9."
+msgstr "Direktīvā numurā %zu rakstzīme '%c' nav cipars no 1 līdz 9."
+
+#: src/format-smalltalk.c:88
+#, c-format
+msgid "The character that terminates the directive number %zu is not a digit between 1 and 9."
+msgstr "Direktīvu %zu noslēdzošā rakstzīme nav cipars no 1 līdz 9."
+
+#. This is a proper name. See the gettext manual, section Names.
+#: src/hostname.c:194 src/msgattrib.c:352 src/msgcat.c:291 src/msgconv.c:243
+#: src/msgen.c:246 src/msgexec.c:185 src/msgfilter.c:288 src/msggrep.c:428
+#: src/msginit.c:263 src/msgpre.c:310 src/msguniq.c:263
+#: src/recode-sr-latin.c:117 src/spit.c:554 src/urlget.c:143
+msgid "Bruno Haible"
+msgstr "Bruno Haible"
+
+#: src/hostname.c:204 src/msginit.c:273 src/msgpre.c:320
+#: src/recode-sr-latin.c:126 src/spit.c:564
+#, c-format
+msgid "too many arguments"
+msgstr "pārāk daudz argumentu"
+
+#: src/hostname.c:221 src/msginit.c:378 src/recode-sr-latin.c:144
+#, c-format, no-wrap
+msgid "Usage: %s [OPTION]\n"
+msgstr "Lietošana: %s [OPCIJA]\n"
+
+#: src/hostname.c:225
+#, c-format
+msgid "Print the machine's hostname.\n"
+msgstr "Izdrukā resursdatora nosaukumu.\n"
+
+#: src/hostname.c:228
+#, c-format
+msgid "Output format:\n"
+msgstr "Izvades formāts:\n"
+
+#: src/hostname.c:230
+#, c-format
+msgid "  -s, --short                 short host name\n"
+msgstr "  -s, --short                 īss resursdatora nosaukums\n"
+
+#: src/hostname.c:232
+#, c-format
+msgid ""
+"  -f, --fqdn, --long          long host name, includes fully qualified domain\n"
+"                                name, and aliases\n"
+msgstr ""
+"  -f, --fqdn, --long          garš resursdatora nosaukums, ietver pilnībā kvalificētu domēna\n"
+"                                nosaukumu un aliasus\n"
+
+#: src/hostname.c:235
+#, c-format
+msgid "  -i, --ip-address            addresses for the hostname\n"
+msgstr "  -i, --ip-address            resursdatora nosaukuma adreses\n"
+
+#: src/hostname.c:238 src/msgattrib.c:528 src/msgcat.c:462 src/msgcmp.c:257
+#: src/msgcomm.c:453 src/msgconv.c:381 src/msgen.c:385 src/msgexec.c:302
+#: src/msgfilter.c:508 src/msgfmt.c:1104 src/msggrep.c:638 src/msginit.c:440
+#: src/msgmerge.c:602 src/msgpre.c:546 src/msgunfmt.c:526 src/msguniq.c:413
+#: src/recode-sr-latin.c:157 src/spit.c:431 src/urlget.c:180
+#: src/xgettext.c:1371
+#, c-format, no-wrap
+msgid "Informative output:\n"
+msgstr "Informatīva izvade:\n"
+
+#: src/hostname.c:268 src/hostname.c:274 src/hostname.c:281
+#, c-format
+msgid "could not get host name"
+msgstr "neizdevās iegūt resursdatora nosaukumu"
+
+#: src/if-error.c:43 src/msgl-cat.c:450 src/msgl-cat.c:456 src/msgl-cat.c:473
+#: src/msgl-charset.c:140 src/msgl-charset.c:175 src/xerror-handler.c:118
+#: src/xerror-handler.c:143 src/xgettext.c:657 src/xgettext.c:2217
+#: src/xgettext.c:2350 src/xg-message.c:328
+#, c-format
+msgid "warning: "
+msgstr "brīdinājums: "
+
+#: src/if-error.c:43
+msgid "error: "
+msgstr "kļūda: "
+
+#: src/if-error.c:48
+msgid "<unformattable warning message>"
+msgstr "<neformatējams brīdinājuma ziņojums>"
+
+#: src/if-error.c:49
+msgid "<unformattable error message>"
+msgstr "<neformatējams kļūdas ziņojums>"
+
+#: src/its.c:99
+#, c-format
+msgid "%s error: %s"
+msgstr "%s kļūda: %s"
+
+#: src/its.c:348
+#, c-format
+msgid "selector is not specified"
+msgstr "selektors nav norādīts"
+
+#: src/its.c:355 src/its.c:1749
+#, c-format
+msgid "cannot create XPath context"
+msgstr "neizdevās izveidot XPath kontekstu"
+
+#: src/its.c:372
+#, c-format
+msgid "cannot evaluate XPath expression: %s"
+msgstr "neizdevās novērtēt XPath izteiksmi: %s"
+
+#: src/its.c:694
+#, c-format
+msgid "\"%s\" node does not contain \"%s\""
+msgstr "\"%s\" mezglā nav \"%s\""
+
+#: src/its.c:1109
+#, c-format
+msgid "invalid attribute value \"%s\" for \"%s\""
+msgstr "nederīga vērtība \"%s\" atribūtam \"%s\""
+
+#: src/its.c:1526
+#, c-format
+msgid "the root element is not \"rules\" under namespace %s"
+msgstr "nosaukumvietas %s saknes elements nav \"rules\""
+
+#: src/its.c:1565 src/its.c:1603 src/its.c:2008 src/its.c:3032
+#: src/locating-rules.c:174
+#, c-format
+msgid "cannot read %s: %s"
+msgstr "neizdevās nolasīt %s: %s"
+
+#: src/its.c:1771
+#, c-format
+msgid "cannot evaluate XPath location path: %s"
+msgstr "neizdevās novērtēt XPath atrašanās ceļu: %s"
+
+#: src/locating-rules.c:96
+#, c-format
+msgid "cannot find attribute %s on %s"
+msgstr "neizdevās atrast atribūtu %s mezglā %s"
+
+#: src/locating-rules.c:113 src/locating-rules.c:307
+#, c-format
+msgid "cannot locate root element"
+msgstr "neizdevās atrast saknes elementu"
+
+#: src/locating-rules.c:236
+#, c-format
+msgid "\"%s\" node does not have \"%s\""
+msgstr "mezglam \"%s\" nav \"%s\""
+
+#: src/locating-rules.c:300
+#, c-format
+msgid "cannot read XML file %s"
+msgstr "neizdevās nolasīt XML failu %s"
+
+#: src/locating-rules.c:319
+#, c-format
+msgid "the root element is not \"locatingRules\""
+msgstr "saknes elements nav \"locatingRules\""
+
+#: src/msgattrib.c:367 src/msgconv.c:259 src/msgexec.c:145 src/msgfilter.c:188
+#: src/msggrep.c:444 src/msginit.c:185 src/msgpre.c:182 src/msguniq.c:279
+#, c-format
+msgid "at most one input file allowed"
+msgstr "atļauts tikai viens ievades fails"
+
+#: src/msgattrib.c:373 src/msgcat.c:307 src/msgcomm.c:296 src/msgconv.c:265
+#: src/msgen.c:268 src/msgfilter.c:303 src/msgfmt.c:512 src/msgfmt.c:526
+#: src/msgfmt.c:541 src/msgfmt.c:563 src/msggrep.c:450 src/msgmerge.c:334
+#: src/msgmerge.c:339 src/msgmerge.c:344 src/msgmerge.c:349 src/msgmerge.c:370
+#: src/msgpre.c:334 src/msgunfmt.c:298 src/msguniq.c:285 src/xgettext.c:811
+#: src/xgettext.c:818 src/xgettext.c:821 src/xgettext.c:824 src/xgettext.c:848
+#, c-format
+msgid "%s and %s are mutually exclusive"
+msgstr "%s un %s ir savstarpēji izslēdzoši"
+
+#: src/msgattrib.c:415 src/msgconv.c:303 src/msggrep.c:521 src/msguniq.c:322
+#, c-format
+msgid "Usage: %s [OPTION] [INPUTFILE]\n"
+msgstr "Lietošana: %s [OPCIJA] [IEVADESFAILS]\n"
+
+#: src/msgattrib.c:420
+#, c-format, no-wrap
+msgid ""
+"Filters the messages of a translation catalog according to their attributes,\n"
+"and manipulates the attributes.\n"
+msgstr ""
+"Filtrē tulkošanas kataloga ziņojumus pēc to atribūtiem,\n"
+"un pārveido atribūtus.\n"
+
+#: src/msgattrib.c:424 src/msgcat.c:377 src/msgcmp.c:226 src/msgcomm.c:373
+#: src/msgconv.c:311 src/msgen.c:320 src/msgexec.c:283 src/msgfilter.c:422
+#: src/msggrep.c:531 src/msginit.c:388 src/msgmerge.c:495 src/msgpre.c:466
+#: src/msgunfmt.c:434 src/msguniq.c:338
+#, c-format
+msgid "Mandatory arguments to long options are mandatory for short options too.\n"
+msgstr "Obligātie argumenti garajām opcijām ir obligāti arī īsajām opcijām.\n"
+
+#: src/msgattrib.c:427 src/msgcat.c:380 src/msgcmp.c:229 src/msgcomm.c:376
+#: src/msgconv.c:314 src/msgen.c:323 src/msgexec.c:286 src/msgfilter.c:425
+#: src/msgfmt.c:950 src/msggrep.c:534 src/msginit.c:391 src/msgmerge.c:498
+#: src/msgpre.c:469 src/msgunfmt.c:448 src/msguniq.c:341 src/xgettext.c:1178
+#, c-format
+msgid "Input file location:\n"
+msgstr "Ievades faila atrašanās vieta:\n"
+
+#: src/msgattrib.c:429 src/msgconv.c:316 src/msggrep.c:536 src/msguniq.c:343
+#, c-format
+msgid "  INPUTFILE                   input PO file\n"
+msgstr "  IEVADESFAILS                ievades PO fails\n"
+
+#: src/msgattrib.c:431 src/msgcat.c:386 src/msgcmp.c:235 src/msgcomm.c:382
+#: src/msgconv.c:318 src/msgen.c:327 src/msgexec.c:290 src/msgfilter.c:429
+#: src/msgfmt.c:954 src/msggrep.c:538 src/msgmerge.c:504 src/msgpre.c:473
+#: src/msguniq.c:345 src/xgettext.c:1184
+#, c-format
+msgid "  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search\n"
+msgstr "  -D, --directory=DIREKTORIJA   pievienot DIREKTORIJU ievades failu meklēšanas sarakstam\n"
+
+#: src/msgattrib.c:433 src/msgconv.c:320 src/msgexec.c:292 src/msgfilter.c:431
+#: src/msggrep.c:540 src/msgpre.c:475 src/msgunfmt.c:452 src/msguniq.c:347
+#, c-format
+msgid "If no input file is given or if it is -, standard input is read.\n"
+msgstr "Ja nav norādīts ievades fails vai tas ir -, tiek nolasīta standarta ievade.\n"
+
+#: src/msgattrib.c:436 src/msgcat.c:391 src/msgcomm.c:387 src/msgconv.c:323
+#: src/msgen.c:332 src/msgfilter.c:434 src/msgfmt.c:978 src/msggrep.c:543
+#: src/msginit.c:399 src/msgmerge.c:516 src/msgpre.c:478 src/msgunfmt.c:488
+#: src/msguniq.c:350 src/xgettext.c:1189
+#, c-format
+msgid "Output file location:\n"
+msgstr "Izvades faila atrašanās vieta:\n"
+
+#: src/msgattrib.c:438 src/msgcat.c:393 src/msgcomm.c:389 src/msgconv.c:325
+#: src/msgen.c:334 src/msgfilter.c:436 src/msgfmt.c:980 src/msgfmt.c:1029
+#: src/msgfmt.c:1048 src/msggrep.c:545 src/msgmerge.c:518 src/msgpre.c:480
+#: src/msgunfmt.c:490 src/msguniq.c:352
+#, c-format
+msgid "  -o, --output-file=FILE      write output to specified file\n"
+msgstr "  -o, --output-file=FAILS      rakstīt izvadi norādītajā failā\n"
+
+#: src/msgattrib.c:440 src/msgcat.c:395 src/msgcomm.c:391 src/msgconv.c:327
+#: src/msgen.c:336 src/msgfilter.c:438 src/msggrep.c:547 src/msgmerge.c:520
+#: src/msgpre.c:482 src/msgunfmt.c:492 src/msguniq.c:354
+#, c-format
+msgid ""
+"The results are written to standard output if no output file is specified\n"
+"or if it is -.\n"
+msgstr ""
+"Rezultāti tiek rakstīti standarta izvadē, ja nav norādīts izvades fails\n"
+"vai tas ir -.\n"
+
+#: src/msgattrib.c:444 src/msgcat.c:399 src/msgcomm.c:395 src/msgpre.c:486
+#: src/msguniq.c:358
+#, c-format
+msgid "Message selection:\n"
+msgstr "Ziņojumu atlase:\n"
+
+#: src/msgattrib.c:446
+#, c-format
+msgid "      --translated            keep translated, remove untranslated messages\n"
+msgstr "      --translated            saglabāt tulkotos, noņemt netulkotos ziņojumus\n"
+
+#: src/msgattrib.c:448
+#, c-format
+msgid "      --untranslated          keep untranslated, remove translated messages\n"
+msgstr "      --untranslated          saglabāt netulkotos, noņemt tulkotos ziņojumus\n"
+
+#: src/msgattrib.c:450
+#, c-format
+msgid "      --no-fuzzy              remove 'fuzzy' marked messages\n"
+msgstr "      --no-fuzzy              noņemt 'fuzzy' atzīmētos ziņojumus\n"
+
+#: src/msgattrib.c:452
+#, c-format
+msgid "      --only-fuzzy            keep 'fuzzy' marked messages\n"
+msgstr "      --only-fuzzy            saglabāt tikai 'fuzzy' atzīmētos ziņojumus\n"
+
+#: src/msgattrib.c:454
+#, c-format
+msgid "      --no-obsolete           remove obsolete #~ messages\n"
+msgstr "      --no-obsolete           noņemt novecojušos #~ ziņojumus\n"
+
+#: src/msgattrib.c:456
+#, c-format
+msgid "      --only-obsolete         keep obsolete #~ messages\n"
+msgstr "      --only-obsolete         saglabāt tikai novecojušos #~ ziņojumus\n"
+
+#: src/msgattrib.c:459
+#, c-format
+msgid "Attribute manipulation:\n"
+msgstr "Atribūtu manipulācija:\n"
+
+#: src/msgattrib.c:461
+#, c-format
+msgid "      --set-fuzzy             set all messages 'fuzzy'\n"
+msgstr "      --set-fuzzy             atzīmēt visus ziņojumus kā 'fuzzy'\n"
+
+#: src/msgattrib.c:463
+#, c-format
+msgid "      --clear-fuzzy           set all messages non-'fuzzy'\n"
+msgstr "      --clear-fuzzy           noņemt 'fuzzy' atzīmi visiem ziņojumiem\n"
+
+#: src/msgattrib.c:465
+#, c-format
+msgid "      --set-obsolete          set all messages obsolete\n"
+msgstr "      --set-obsolete          atzīmēt visus ziņojumus kā novecojušus\n"
+
+#: src/msgattrib.c:467
+#, c-format
+msgid "      --clear-obsolete        set all messages non-obsolete\n"
+msgstr "      --clear-obsolete        noņemt novecojušo atzīmi visiem ziņojumiem\n"
+
+#: src/msgattrib.c:469
+#, c-format
+msgid ""
+"      --previous              when setting 'fuzzy', keep previous msgids\n"
+"                              of translated messages.\n"
+msgstr ""
+"      --previous              iestatot 'fuzzy', saglabāt tulkoto ziņojumu\n"
+"                              iepriekšējos msgid.\n"
+
+#: src/msgattrib.c:472
+#, c-format
+msgid "      --clear-previous        remove the \"previous msgid\" from all messages\n"
+msgstr "      --clear-previous        noņemt \"iepriekšējo msgid\" no visiem ziņojumiem\n"
+
+#: src/msgattrib.c:474
+#, c-format
+msgid "      --empty                 when removing 'fuzzy', also set msgstr empty\n"
+msgstr "      --empty                 noņemot 'fuzzy', arī iestatīt msgstr kā tukšu\n"
+
+#: src/msgattrib.c:476
+#, c-format
+msgid "      --only-file=FILE.po     manipulate only entries listed in FILE.po\n"
+msgstr "      --only-file=FAILS.po     apstrādāt tikai tos ierakstus, kas uzskaitīti FAILS.po\n"
+
+#: src/msgattrib.c:478
+#, c-format
+msgid "      --ignore-file=FILE.po   manipulate only entries not listed in FILE.po\n"
+msgstr "      --ignore-file=FAILS.po   apstrādāt tikai tos ierakstus, kas nav uzskaitīti FAILS.po\n"
+
+#: src/msgattrib.c:480
+#, c-format
+msgid "      --fuzzy                 synonym for --only-fuzzy --clear-fuzzy\n"
+msgstr "      --fuzzy                 sinonīms --only-fuzzy --clear-fuzzy\n"
+
+#: src/msgattrib.c:482
+#, c-format
+msgid "      --obsolete              synonym for --only-obsolete --clear-obsolete\n"
+msgstr "      --obsolete              sinonīms --only-obsolete --clear-obsolete\n"
+
+#: src/msgattrib.c:485 src/msgcat.c:411 src/msgcmp.c:249 src/msgcomm.c:407
+#: src/msgconv.c:338 src/msgen.c:340 src/msgexec.c:295 src/msgfilter.c:463
+#: src/msgfmt.c:1061 src/msggrep.c:595 src/msginit.c:411 src/msgmerge.c:556
+#: src/msgpre.c:507 src/msguniq.c:365
+#, c-format
+msgid "Input file syntax:\n"
+msgstr "Ievades faila sintakse:\n"
+
+#: src/msgattrib.c:487 src/msgconv.c:340 src/msgen.c:342 src/msgexec.c:297
+#: src/msgfilter.c:465 src/msggrep.c:597 src/msginit.c:413 src/msgpre.c:509
+#: src/msguniq.c:367
+#, c-format
+msgid "  -P, --properties-input      input file is in Java .properties syntax\n"
+msgstr "  -P, --properties-input      ievades fails ir Java .properties sintaksē\n"
+
+#: src/msgattrib.c:489 src/msgconv.c:342 src/msgen.c:344 src/msgexec.c:299
+#: src/msgfilter.c:467 src/msggrep.c:599 src/msginit.c:415 src/msgpre.c:511
+#: src/msguniq.c:369
+#, c-format
+msgid "      --stringtable-input     input file is in NeXTstep/GNUstep .strings syntax\n"
+msgstr "      --stringtable-input     ievades fails ir NeXTstep/GNUstep .strings sintaksē\n"
+
+#: src/msgattrib.c:492 src/msgcat.c:419 src/msgcomm.c:415 src/msgconv.c:345
+#: src/msgen.c:347 src/msgfilter.c:470 src/msgfmt.c:1089 src/msggrep.c:602
+#: src/msginit.c:418 src/msgmerge.c:564 src/msgpre.c:514 src/msgunfmt.c:496
+#: src/msguniq.c:372 src/xgettext.c:1303
+#, c-format
+msgid "Output details:\n"
+msgstr "Izvades informācija:\n"
+
+#: src/msgattrib.c:494 src/msgcat.c:428 src/msgcomm.c:417 src/msgconv.c:347
+#: src/msgen.c:351 src/msgfilter.c:472 src/msggrep.c:604 src/msginit.c:424
+#: src/msgmerge.c:568 src/msgpre.c:516 src/msgunfmt.c:498 src/msguniq.c:379
+#: src/xgettext.c:1305
+#, c-format
+msgid ""
+"      --color                 use colors and other text attributes always\n"
+"      --color=WHEN            use colors and other text attributes if WHEN.\n"
+"                              WHEN may be 'always', 'never', 'auto', or 'html'.\n"
+msgstr ""
+"      --color                vienmēr izmantot krāsas un citus teksta atribūtus\n"
+"      --color=WHEN            izmantot krāsas un citus teksta atribūtus atbilstoši nosacījumam WHEN.\n"
+"                              WHEN var būt 'always', 'never', 'auto' vai 'html'.\n"
+
+#: src/msgattrib.c:498 src/msgcat.c:432 src/msgcomm.c:421 src/msgconv.c:351
+#: src/msgen.c:355 src/msgfilter.c:476 src/msggrep.c:608 src/msginit.c:428
+#: src/msgmerge.c:572 src/msgpre.c:520 src/msgunfmt.c:502 src/msguniq.c:383
+#: src/xgettext.c:1309
+#, c-format
+msgid "      --style=STYLEFILE       specify CSS style rule file for --color\n"
+msgstr "      --style=STILAFAILS       norādīt CSS stila noteikumu failu opcijai --color\n"
+
+#: src/msgattrib.c:500 src/msgcat.c:434 src/msgcomm.c:423 src/msgconv.c:353
+#: src/msgen.c:357 src/msgmerge.c:574 src/msgunfmt.c:504 src/msguniq.c:385
+#: src/xgettext.c:1311
+#, c-format
+msgid "  -e, --no-escape             do not use C escapes in output (default)\n"
+msgstr "  -e, --no-escape             neizmantot C vadības sekvences izvadē (noklusējums)\n"
+
+#: src/msgattrib.c:502 src/msgcat.c:436 src/msgcomm.c:425 src/msgconv.c:355
+#: src/msgen.c:359 src/msgfilter.c:480 src/msgmerge.c:576 src/msgunfmt.c:506
+#: src/msguniq.c:387 src/xgettext.c:1313
+#, c-format
+msgid "  -E, --escape                use C escapes in output, no extended chars\n"
+msgstr "  -E, --escape                izmantot C vadības sekvences izvadē, bez paplašinātām rakstzīmēm\n"
+
+#: src/msgattrib.c:504 src/msgcat.c:438 src/msgcomm.c:427 src/msgconv.c:357
+#: src/msgen.c:361 src/msgfilter.c:482 src/msggrep.c:614 src/msgmerge.c:578
+#: src/msgpre.c:522 src/msgunfmt.c:508 src/msguniq.c:389 src/xgettext.c:1315
+#, c-format
+msgid "      --force-po              write PO file even if empty\n"
+msgstr "      --force-po              rakstīt PO failu pat tad, ja tas ir tukšs\n"
+
+#: src/msgattrib.c:506 src/msgcat.c:440 src/msgcomm.c:429 src/msguniq.c:391
+#: src/xgettext.c:1317
+#, c-format
+msgid "  -i, --indent                write the .po file using indented style\n"
+msgstr "  -i, --indent                rakstīt .po failu ar atkāpēm\n"
+
+#: src/msgattrib.c:508 src/msgcat.c:442 src/msgcomm.c:431 src/msguniq.c:393
+#: src/xgettext.c:1319
+#, c-format
+msgid "      --no-location           do not write '#: filename:line' lines\n"
+msgstr "      --no-location           nerakstīt '#: failanosaukums:rinda' rindas\n"
+
+#: src/msgattrib.c:510 src/msgcat.c:444 src/msgcomm.c:433 src/msguniq.c:395
+#: src/xgettext.c:1321
+#, c-format
+msgid "  -n, --add-location          generate '#: filename:line' lines (default)\n"
+msgstr "  -n, --add-location          ģenerēt '#: failanosaukums:rinda' rindas (noklusējums)\n"
+
+#: src/msgattrib.c:512 src/msgcat.c:446 src/msgcomm.c:435 src/msguniq.c:397
+#: src/xgettext.c:1323
+#, c-format
+msgid "      --strict                write out strict Uniforum conforming .po file\n"
+msgstr "      --strict                izvadīt stingri Uniforum standartam atbilstošu .po failu\n"
+
+#: src/msgattrib.c:514 src/msgcat.c:448 src/msgcomm.c:437 src/msgconv.c:367
+#: src/msgen.c:371 src/msgfilter.c:494 src/msggrep.c:624 src/msginit.c:430
+#: src/msgmerge.c:588 src/msgpre.c:532 src/msgunfmt.c:514 src/msguniq.c:399
+#, c-format
+msgid "  -p, --properties-output     write out a Java .properties file\n"
+msgstr "  -p, --properties-output     izvadīt Java .properties failu\n"
+
+#: src/msgattrib.c:516 src/msgcat.c:450 src/msgcomm.c:439 src/msgconv.c:369
+#: src/msgen.c:373 src/msgfilter.c:496 src/msggrep.c:626 src/msginit.c:432
+#: src/msgmerge.c:590 src/msgpre.c:534 src/msgunfmt.c:516 src/msguniq.c:401
+#: src/xgettext.c:1327
+#, c-format
+msgid "      --stringtable-output    write out a NeXTstep/GNUstep .strings file\n"
+msgstr "      --stringtable-output    izvadīt NeXTstep/GNUstep .strings failu\n"
+
+#: src/msgattrib.c:518 src/msgcat.c:452 src/msgcomm.c:441 src/msgconv.c:371
+#: src/msgen.c:375 src/msgfilter.c:498 src/msggrep.c:628 src/msginit.c:434
+#: src/msgmerge.c:592 src/msgpre.c:536 src/msgunfmt.c:518 src/msguniq.c:403
+#: src/xgettext.c:1331
+#, c-format
+msgid "  -w, --width=NUMBER          set output page width\n"
+msgstr "  -w, --width=NUMURS          iestatīt izvades lapas platumu\n"
+
+#: src/msgattrib.c:520 src/msgcat.c:454 src/msgcomm.c:443 src/msgconv.c:373
+#: src/msgen.c:377 src/msgfilter.c:500 src/msggrep.c:630 src/msginit.c:436
+#: src/msgmerge.c:594 src/msgpre.c:538 src/msgunfmt.c:520 src/msguniq.c:405
+#: src/xgettext.c:1333
+#, c-format
+msgid ""
+"      --no-wrap               do not break long message lines, longer than\n"
+"                              the output page width, into several lines\n"
+msgstr ""
+"      --no-wrap               nelauzt garas ziņojumu rindas, kas ir garākas par\n"
+"                              izvades lapas platumu, vairākās rindās\n"
+
+#: src/msgattrib.c:523 src/msgcat.c:457 src/msgcomm.c:446 src/msgconv.c:376
+#: src/msgen.c:380 src/msgfilter.c:503 src/msgpre.c:541 src/msgunfmt.c:523
+#: src/msguniq.c:408
+#, c-format
+msgid "  -s, --sort-output           generate sorted output\n"
+msgstr "  -s, --sort-output           ģenerēt sakārtotu izvadi\n"
+
+#: src/msgattrib.c:525 src/msgcat.c:459 src/msgcomm.c:448 src/msgconv.c:378
+#: src/msgen.c:382 src/msgfilter.c:505 src/msgmerge.c:599 src/msgpre.c:543
+#: src/msguniq.c:410 src/xgettext.c:1338
+#, c-format
+msgid "  -F, --sort-by-file          sort output by file location\n"
+msgstr "  -F, --sort-by-file          kārtot izvadi pēc faila atrašanās vietas\n"
+
+#: src/msgcat.c:313 src/msgcomm.c:323
+#, c-format
+msgid "impossible selection criteria specified (%d < n < %d)"
+msgstr "norādīti neiespējami atlases kritēriji (%d < n < %d)"
+
+#: src/msgcat.c:360 src/msgcomm.c:357 src/xgettext.c:1164
+#, c-format
+msgid "Usage: %s [OPTION] [INPUTFILE]...\n"
+msgstr "Lietošana: %s [OPCIJA] [IEVADFAILS]...\n"
+
+#: src/msgcat.c:365
+#, c-format, no-wrap
+msgid ""
+"Concatenates and merges the specified PO files.\n"
+"Find messages which are common to two or more of the specified PO files.\n"
+"By using the --more-than option, greater commonality may be requested\n"
+"before messages are printed.  Conversely, the --less-than option may be\n"
+"used to specify less commonality before messages are printed (i.e.\n"
+"--less-than=2 will only print the unique messages).  Translations,\n"
+"comments, extracted comments, and file positions will be cumulated, except\n"
+"that if --use-first is specified, they will be taken from the first PO file\n"
+"to define them.\n"
+msgstr ""
+"Sasaista un apvieno norādītos PO failus.\n"
+"Atrod ziņojumus, kas ir kopīgi diviem vai vairākiem norādītajiem PO failiem.\n"
+"Izmantojot opciju --more-than, var pieprasīt lielāku kopību,\n"
+"pirms ziņojumi tiek izvadīti. Savukārt opciju --less-than var izmantot,\n"
+"lai norādītu mazāku kopību (piem., --less-than=2 izvadīs tikai unikālos\n"
+"ziņojumus). Tulkojumi, komentāri, izvilktie komentāri un failu pozīcijas\n"
+"tiek apkopotas, izņemot, ja norādīta opcija --use-first; tādā gadījumā\n"
+"tās tiek ņemtas no pirmā PO faila, kurā tās ir definētas.\n"
+
+#: src/msgcat.c:382 src/msgcomm.c:378 src/xgettext.c:1180
+#, c-format
+msgid "  INPUTFILE ...               input files\n"
+msgstr "  IEVADFAILS ...               ievades faili\n"
+
+#: src/msgcat.c:384 src/msgcomm.c:380 src/xgettext.c:1182
+#, c-format
+msgid "  -f, --files-from=FILE       get list of input files from FILE\n"
+msgstr "  -f, --files-from=FAILS       iegūt ievades failu sarakstu no FAILS\n"
+
+#: src/msgcat.c:388 src/msgcomm.c:384 src/msgen.c:329 src/msgfmt.c:956
+#: src/xgettext.c:1186
+#, c-format
+msgid "If input file is -, standard input is read.\n"
+msgstr "Ja ievades fails ir -, tiek lasīta standarta ievade.\n"
+
+#: src/msgcat.c:401 src/msgcomm.c:397
+#, c-format
+msgid ""
+"  -<, --less-than=NUMBER      print messages with less than this many\n"
+"                              definitions, defaults to infinite if not set\n"
+msgstr ""
+"  -<, --less-than=SKAITS      drukāt ziņojumus ar mazāk par šo definīciju skaitu;\n"
+"                              ja nav norādīts, noklusējums ir bezgalība\n"
+
+#: src/msgcat.c:404
+#, c-format
+msgid ""
+"  ->, --more-than=NUMBER      print messages with more than this many\n"
+"                              definitions, defaults to 0 if not set\n"
+msgstr ""
+"  ->, --more-than=SKAITS      drukāt ziņojumus ar vairāk par šo definīciju skaitu;\n"
+"                              ja nav norādīts, noklusējums ir 0\n"
+
+#: src/msgcat.c:407 src/msgcomm.c:403
+#, c-format
+msgid ""
+"  -u, --unique                shorthand for --less-than=2, requests\n"
+"                              that only unique messages be printed\n"
+msgstr ""
+"  -u, --unique                saīsinājums opcijai --less-than=2; izdrukā\n"
+"                              tikai unikālos ziņojumus\n"
+
+#: src/msgcat.c:413 src/msgcmp.c:251 src/msgcomm.c:409 src/msgfmt.c:1063
+#: src/msgmerge.c:558
+#, c-format
+msgid "  -P, --properties-input      input files are in Java .properties syntax\n"
+msgstr "  -P, --properties-input      ievades faili ir Java .properties sintaksē\n"
+
+#: src/msgcat.c:415 src/msgcmp.c:253 src/msgcomm.c:411 src/msgfmt.c:1065
+#: src/msgmerge.c:560
+#, c-format
+msgid ""
+"      --stringtable-input     input files are in NeXTstep/GNUstep .strings\n"
+"                              syntax\n"
+msgstr ""
+"      --stringtable-input     ievades faili ir NeXTstep/GNUstep .strings\n"
+"                              sintaksē\n"
+
+#: src/msgcat.c:421 src/msgconv.c:333 src/msguniq.c:374
+#, c-format
+msgid "  -t, --to-code=NAME          encoding for output\n"
+msgstr "  -t, --to-code=VĀRDS         izvades kodējums\n"
+
+#: src/msgcat.c:423 src/msguniq.c:376
+#, c-format
+msgid ""
+"      --use-first             use first available translation for each\n"
+"                              message, don't merge several translations\n"
+msgstr ""
+"      --use-first             izmanto pirmo pieejamo tulkojumu katram\n"
+"                              ziņojumam; nesavieno vairākus tulkojumus\n"
+
+#: src/msgcat.c:426 src/msgen.c:349 src/msgmerge.c:566
+#, c-format
+msgid "      --lang=CATALOGNAME      set 'Language' field in the header entry\n"
+msgstr "      --lang=KATALOGA_VĀRDS   iestata lauku 'Language' galvenes ierakstā\n"
+
+#. This is a proper name. See the gettext manual, section Names.
+#: src/msgcmp.c:177 src/msgcomm.c:286 src/msgmerge.c:309
+msgid "Peter Miller"
+msgstr "Peter Miller"
+
+#: src/msgcmp.c:188 src/msgmerge.c:320
+#, c-format
+msgid "no input files given"
+msgstr "nav norādīti ievades faili"
+
+#: src/msgcmp.c:193 src/msgmerge.c:325
+#, c-format
+msgid "exactly 2 input files required"
+msgstr "nepieciešami tieši 2 ievades faili"
+
+#: src/msgcmp.c:212 src/msgmerge.c:478
+#, c-format
+msgid "Usage: %s [OPTION] def.po ref.pot\n"
+msgstr "Lietojums: %s [OPCIJA] def.po ref.pot\n"
+
+#: src/msgcmp.c:217
+#, c-format, no-wrap
+msgid ""
+"Compare two Uniforum style .po files to check that both contain the same\n"
+"set of msgid strings.  The def.po file is an existing PO file with the\n"
+"translations.  The ref.pot file is the last created PO file, or a PO Template\n"
+"file (generally created by xgettext).  This is useful for checking that\n"
+"you have translated each and every message in your program.  Where an exact\n"
+"match cannot be found, fuzzy matching is used to produce better diagnostics.\n"
+msgstr ""
+"Salīdzina divus Uniforum stila .po failus, lai pārbaudītu, vai abos ir\n"
+"vienāda msgid virkņu kopa. Fails def.po ir PO fails ar tulkojumiem.\n"
+"Fails ref.pot ir pēdējais izveidotais PO fails vai PO veidnes fails\n"
+"(parasti izveidots ar xgettext). Tas ir noderīgi, lai pārbaudītu, vai\n"
+"esat pārtulkojis katru programmas ziņojumu. Ja precīzu atbilstību\n"
+"neizdodas atrast, tiek izmantota aptuvenā saskaņošana, lai iegūtu labāku\n"
+"diagnostiku.\n"
+
+#: src/msgcmp.c:231
+#, c-format
+msgid "  def.po                      translations\n"
+msgstr "  def.po                      tulkojumi\n"
+
+#: src/msgcmp.c:233
+#, c-format
+msgid "  ref.pot                     references to the sources\n"
+msgstr "  ref.pot                     atsauces uz avotiem\n"
+
+#: src/msgcmp.c:238 src/msgmerge.c:544
+#, c-format
+msgid "Operation modifiers:\n"
+msgstr "Darbības modifikatori:\n"
+
+#: src/msgcmp.c:240 src/msgmerge.c:546
+#, c-format
+msgid "  -m, --multi-domain          apply ref.pot to each of the domains in def.po\n"
+msgstr "  -m, --multi-domain          pielieto ref.pot katram domēnam failā def.po\n"
+
+#: src/msgcmp.c:242 src/msgmerge.c:551
+#, c-format
+msgid "  -N, --no-fuzzy-matching     do not use fuzzy matching\n"
+msgstr "  -N, --no-fuzzy-matching     neizmanto aptuveno saskaņošanu\n"
+
+#: src/msgcmp.c:244
+#, c-format
+msgid "      --use-fuzzy             consider fuzzy entries\n"
+msgstr "      --use-fuzzy             ņem vērā aptuvenos ierakstus\n"
+
+#: src/msgcmp.c:246
+#, c-format
+msgid "      --use-untranslated      consider untranslated entries\n"
+msgstr "      --use-untranslated      ņemt vērā netulkotus ierakstus\n"
+
+#: src/msgcmp.c:323
+msgid "this message is untranslated"
+msgstr "šis ziņojums nav tulkots"
+
+#: src/msgcmp.c:329
+msgid "this message needs to be reviewed by the translator"
+msgstr "šis ziņojums ir jāpārbauda tulkotājam"
+
+#: src/msgcmp.c:369 src/msgl-merge.c:915
+msgid "this message is used but not defined"
+msgstr "šis ziņojums tiek izmantots, bet nav definēts"
+
+#: src/msgcmp.c:371 src/msgl-merge.c:917
+msgid "but this definition is similar"
+msgstr "bet šī definīcija ir līdzīga"
+
+#: src/msgcmp.c:377 src/msgl-merge.c:942
+#, c-format
+msgid "this message is used but not defined in %s"
+msgstr "šis ziņojums tiek izmantots, bet nav definēts %s"
+
+#: src/msgcmp.c:537
+msgid "warning: this message is not used"
+msgstr "brīdinājums: šis ziņojums netiek izmantots"
+
+#: src/msgcmp.c:544 src/msgfmt.c:804 src/msgfmt.c:1638 src/xgettext.c:1126
+#, c-format
+msgid "found %d fatal error"
+msgid_plural "found %d fatal errors"
+msgstr[0] "atrasta %d fatālu kļūdu"
+msgstr[1] "atrastas %d fatāla kļūda"
+msgstr[2] "atrastas %d fatālas kļūdas"
+
+#: src/msgcomm.c:312
+#, c-format
+msgid "at least two files must be specified"
+msgstr "jānorāda vismaz divi faili"
+
+#: src/msgcomm.c:362
+#, c-format, no-wrap
+msgid ""
+"Find messages which are common to two or more of the specified PO files.\n"
+"By using the --more-than option, greater commonality may be requested\n"
+"before messages are printed.  Conversely, the --less-than option may be\n"
+"used to specify less commonality before messages are printed (i.e.\n"
+"--less-than=2 will only print the unique messages).  Translations,\n"
+"comments and extracted comments will be preserved, but only from the first\n"
+"PO file to define them.  File positions from all PO files will be\n"
+"cumulated.\n"
+msgstr ""
+"Atrod ziņojumus, kas ir kopīgi diviem vai vairāk norādītajiem PO failiem.\n"
+"Izmantojot opciju --more-than, var pieprasīt lielāku kopību,\n"
+"pirms ziņojumi tiek izdrukāti.  Savukārt, opciju --less-than var izmantot,\n"
+"lai norādītu mazāku kopību pirms ziņojumu izdrukāšanas (t.i.,\n"
+"--less-than=2 izdrukās tikai unikālos ziņojumus).  Tulkojumi,\n"
+"komentāri un izvilktie komentāri tiks saglabāti, bet tikai no pirmā\n"
+"PO faila, kas tos definē.  Failu pozīcijas no visiem PO failiem tiks\n"
+"apkopotas.\n"
+
+#: src/msgcomm.c:400
+#, c-format
+msgid ""
+"  ->, --more-than=NUMBER      print messages with more than this many\n"
+"                              definitions, defaults to 1 if not set\n"
+msgstr ""
+"  ->, --more-than=SKAITS      izdrukāt ziņojumus ar vairāk nekā norādīto definīciju skaitu,\n"
+"                              pēc noklusējuma 1, ja nav norādīts\n"
+
+#: src/msgcomm.c:450 src/xgettext.c:1340
+#, c-format
+msgid "      --omit-header           don't write header with 'msgid \"\"' entry\n"
+msgstr "      --omit-header           nerakstīt galveni ar 'msgid \"\"' ierakstu\n"
+
+#: src/msgconv.c:307
+#, c-format
+msgid "Converts a translation catalog to a different character encoding.\n"
+msgstr "Pārvērš tulkošanas katalogu citā rakstzīmju kodējumā.\n"
+
+#: src/msgconv.c:331
+#, c-format
+msgid "Conversion target:\n"
+msgstr "Pārvēršanas mērķis:\n"
+
+#: src/msgconv.c:335
+#, c-format
+msgid "The default encoding is the current locale's encoding.\n"
+msgstr "Noklusējuma kodējums ir pašreizējās lokāles kodējums.\n"
+
+#: src/msgconv.c:359 src/msgen.c:363 src/msgmerge.c:580
+#, c-format
+msgid "  -i, --indent                indented output style\n"
+msgstr "  -i, --indent                izvade ar atkāpēm\n"
+
+#: src/msgconv.c:361 src/msgen.c:365 src/msgfilter.c:488 src/msggrep.c:618
+#: src/msgmerge.c:582 src/msgpre.c:526
+#, c-format
+msgid "      --no-location           suppress '#: filename:line' lines\n"
+msgstr "      --no-location           neiekļaut '#: failanosaukums:rinda' rindas\n"
+
+#: src/msgconv.c:363 src/msgen.c:367 src/msgfilter.c:490 src/msggrep.c:620
+#: src/msgmerge.c:584 src/msgpre.c:528
+#, c-format
+msgid "  -n, --add-location          preserve '#: filename:line' lines (default)\n"
+msgstr "  -n, --add-location          saglabāt '#: failanosaukums:rinda' rindas (noklusējums)\n"
+
+#: src/msgconv.c:365 src/msgen.c:369 src/msgfilter.c:492 src/msggrep.c:622
+#: src/msgmerge.c:586 src/msgpre.c:530
+#, c-format
+msgid "      --strict                strict Uniforum output style\n"
+msgstr "      --strict                stingrs Uniforum izvades stils\n"
+
+#: src/msgen.c:257 src/msgfmt.c:470 src/xgettext.c:841
+#, c-format
+msgid "no input file given"
+msgstr "nav norādīts ievades fails"
+
+#: src/msgen.c:262
+#, c-format
+msgid "exactly one input file required"
+msgstr "nepieciešams tieši viens ievades fails"
+
+#: src/msgen.c:308
+#, c-format
+msgid "Usage: %s [OPTION] INPUTFILE\n"
+msgstr "Lietošana: %s [OPCIJA] IEVADESFAILS\n"
+
+#: src/msgen.c:313
+#, c-format, no-wrap
+msgid ""
+"Creates an English translation catalog.  The input file is the last\n"
+"created English PO file, or a PO Template file (generally created by\n"
+"xgettext).  Untranslated entries are assigned a translation that is\n"
+"identical to the msgid.\n"
+msgstr ""
+"Izveido angļu valodas tulkojumu katalogu.  Ievades fails ir pēdējais\n"
+"izveidotais angļu PO fails vai PO veidnes fails (parasti izveidots ar\n"
+"xgettext).  Netulkotajiem ierakstiem tiek piešķirts tulkojums, kas ir\n"
+"identisks msgid.\n"
+
+#: src/msgen.c:325
+#, c-format
+msgid "  INPUTFILE                   input PO or POT file\n"
+msgstr "  IEVADESFAILS                   ievades PO vai POT fails\n"
+
+#: src/msgexec.c:195
+#, c-format
+msgid "missing command name"
+msgstr "trūkst komandas nosaukuma"
+
+#: src/msgexec.c:259
+#, c-format
+msgid "Usage: %s [OPTION] COMMAND [COMMAND-OPTION]\n"
+msgstr "Lietošana: %s [OPCIJA] KOMANDA [KOMANDAS-OPCIJA]\n"
+
+#: src/msgexec.c:264
+#, c-format, no-wrap
+msgid ""
+"Applies a command to all translations of a translation catalog.\n"
+"The COMMAND can be any program that reads a translation from standard\n"
+"input.  It is invoked once for each translation.  Its output becomes\n"
+"msgexec's output.  msgexec's return code is the maximum return code\n"
+"across all invocations.\n"
+msgstr ""
+"Piemēro komandu visiem tulkojumiem tulkošanas katalogā.\n"
+"KOMANDA var būt jebkura programma, kas nolasa tulkojumu no standarta\n"
+"ievades.  Tā tiek izsaukta katram tulkojumam. Tās izvade kļūst par\n"
+"msgexec izvadi.  msgexec atgriešanas kods ir maksimālais atgriešanas kods\n"
+"starp visiem izsaukumiem.\n"
+
+#: src/msgexec.c:273
+#, c-format, no-wrap
+msgid ""
+"A special builtin command called '0' outputs the translation, followed by a\n"
+"null byte.  The output of \"msgexec 0\" is suitable as input for \"xargs -0\".\n"
+msgstr ""
+"Īpaša iebūvēta komanda ar nosaukumu '0' izvada tulkojumu, kam seko\n"
+"nulles baits.  \"msgexec 0\" izvade ir piemērota kā ievade komandai \"xargs -0\".\n"
+
+#: src/msgexec.c:278
+#, c-format
+msgid "Command input:\n"
+msgstr "Komandas ievade:\n"
+
+#: src/msgexec.c:280
+#, c-format
+msgid "  --newline                   add newline at the end of input\n"
+msgstr "  --newline                   pievieno jaunu rindu ievades beigās\n"
+
+#: src/msgexec.c:288 src/msgfilter.c:427 src/msgpre.c:471
+#, c-format
+msgid "  -i, --input=INPUTFILE       input PO file\n"
+msgstr "  -i, --input=IEVADESFAILS       ievades PO fails\n"
+
+#: src/msgexec.c:357
+#, c-format
+msgid "write to stdout failed"
+msgstr "neizdevās rakstīt standarta izvadē"
+
+#: src/msgexec.c:427
+#, c-format
+msgid "write to %s subprocess failed"
+msgstr "neizdevās rakstīt uz %s apakšprocesu"
+
+#: src/msgfilter.c:298
+#, c-format
+msgid "missing filter name"
+msgstr "trūkst filtra nosaukuma"
+
+#: src/msgfilter.c:321
+#, c-format
+msgid "at least one sed script must be specified"
+msgstr "jānorāda vismaz viens sed skripts"
+
+#: src/msgfilter.c:414
+#, c-format
+msgid "Usage: %s [OPTION] FILTER [FILTER-OPTION]\n"
+msgstr "Lietošana: %s [OPCIJA] FILTRS [FILTRA-OPCIJA]\n"
+
+#: src/msgfilter.c:418
+#, c-format
+msgid "Applies a filter to all translations of a translation catalog.\n"
+msgstr "Piemēro filtru visiem tulkojumiem tulkošanas katalogā.\n"
+
+#: src/msgfilter.c:442
+#, c-format
+msgid ""
+"The FILTER can be any program that reads a translation from standard input\n"
+"and writes a modified translation to standard output.\n"
+msgstr ""
+"FILTRS var būt jebkura programma, kas nolasa tulkojumu no standarta ievades\n"
+"un raksta modificētu tulkojumu standarta izvadē.\n"
+
+#: src/msgfilter.c:447
+#, c-format
+msgid "Filter input and output:\n"
+msgstr "Filtra ievade un izvade:\n"
+
+#: src/msgfilter.c:449
+#, c-format
+msgid ""
+"  --newline                   add a newline at the end of input and\n"
+"                                remove a newline from the end of output"
+msgstr ""
+"  --newline                   pievieno jaunu rindu ievades beigās un\n"
+"                                noņem jaunu rindu no izvades beigām"
+
+#: src/msgfilter.c:453
+#, c-format
+msgid "Useful FILTER-OPTIONs when the FILTER is 'sed':\n"
+msgstr "Noderīgas FILTRA-OPCIJAS, kad FILTRS ir 'sed':\n"
+
+#: src/msgfilter.c:455
+#, c-format
+msgid "  -e, --expression=SCRIPT     add SCRIPT to the commands to be executed\n"
+msgstr "  -e, --expression=SKRIPTS     pievienot SKRIPTU izpildāmajām komandām\n"
+
+#: src/msgfilter.c:457
+#, c-format
+msgid ""
+"  -f, --file=SCRIPTFILE       add the contents of SCRIPTFILE to the commands\n"
+"                                to be executed\n"
+msgstr ""
+"  -f, --file=SKRIPTUFAILS       pievienot SKRIPTUFAILA saturu izpildāmajām\n"
+"                                komandām\n"
+
+#: src/msgfilter.c:460
+#, c-format
+msgid "  -n, --quiet, --silent       suppress automatic printing of pattern space\n"
+msgstr "  -n, --quiet, --silent       neizvadīt automātiski raksta laukumu\n"
+
+#: src/msgfilter.c:478 src/msggrep.c:610
+#, c-format
+msgid "      --no-escape             do not use C escapes in output (default)\n"
+msgstr "      --no-escape             neizmantot C atsoļu sekvences izvadē (pēc noklusējuma)\n"
+
+#: src/msgfilter.c:484 src/msggrep.c:616 src/msgpre.c:524
+#, c-format
+msgid "      --indent                indented output style\n"
+msgstr "      --indent                izvades stils ar atkāpēm\n"
+
+#: src/msgfilter.c:486
+#, c-format
+msgid "      --keep-header           keep header entry unmodified, don't filter it\n"
+msgstr "      --keep-header           saglabāt galvenes ierakstu nemodificētu, to nefiltrēt\n"
+
+#: src/msgfilter.c:664
+#, c-format
+msgid "filter output is not terminated with a newline"
+msgstr "filtra izvade nebeidzas ar jaunrindu"
+
+#: src/msgfmt.c:369
+#, c-format
+msgid "the argument to %s should be a single punctuation character"
+msgstr "argumentam %s jābūt vienai pieturzīmei"
+
+#: src/msgfmt.c:415
+#, c-format
+msgid "invalid endianness: %s"
+msgstr "nederīga baitu secība: %s"
+
+#. This is a proper name. See the gettext manual, section Names.
+#: src/msgfmt.c:457 src/msgunfmt.c:265 src/xgettext.c:801
+msgid "Ulrich Drepper"
+msgstr "Ulrich Drepper"
+
+#: src/msgfmt.c:478
+#, c-format
+msgid "no input file should be given if %s and %s are specified"
+msgstr "nevajadzētu norādīt ievades failu, ja ir norādīti %s un %s"
+
+#: src/msgfmt.c:518 src/msgmerge.c:357 src/msgmerge.c:363
+#, c-format
+msgid "%s is only valid with %s"
+msgstr "%s ir derīgs tikai ar %s"
+
+#: src/msgfmt.c:532 src/msgfmt.c:554 src/msgfmt.c:576 src/msgunfmt.c:329
+#: src/msgunfmt.c:352
+#, c-format
+msgid "%s requires a \"-d directory\" specification"
+msgstr "%s nepieciešama norāde \"-d direktorija\""
+
+#: src/msgfmt.c:547 src/msgfmt.c:569 src/msgfmt.c:604 src/msgfmt.c:636
+#: src/msgunfmt.c:322 src/msgunfmt.c:345
+#, c-format
+msgid "%s requires a \"-l locale\" specification"
+msgstr "%s nepieciešama norāde \"-l lokāle\""
+
+#: src/msgfmt.c:586 src/msgfmt.c:614
+#, c-format
+msgid "%s requires a \"--template template\" specification"
+msgstr "%s nepieciešama norāde \"--template veidne\""
+
+#: src/msgfmt.c:593 src/msgfmt.c:621
+#, c-format
+msgid "%s requires a \"-o file\" specification"
+msgstr "%s nepieciešama norāde \"-o fails\""
+
+#: src/msgfmt.c:599 src/msgfmt.c:627 src/msgfmt.c:631
+#, c-format
+msgid "%s and %s are mutually exclusive in %s"
+msgstr "%s un %s ir savstarpēji izslēdzoši %s"
+
+#: src/msgfmt.c:645 src/msgunfmt.c:361 src/msgunfmt.c:367
+#, c-format
+msgid "%s is only valid with %s or %s"
+msgstr "%s ir derīgs tikai ar %s vai %s"
+
+#: src/msgfmt.c:651 src/msgfmt.c:657
+#, c-format
+msgid "%s is only valid with %s, %s or %s"
+msgstr "%s ir derīgs tikai ar %s, %s vai %s"
+
+#: src/msgfmt.c:734
+#, c-format
+msgid "cannot locate ITS rules for %s"
+msgstr "neizdevās atrast ITS noteikumus %s"
+
+#. TRANSLATORS: The prefix before a statistics message.  The argument
+#. is a file name or a comma separated list of file names.
+#: src/msgfmt.c:903
+#, c-format
+msgid "%s: "
+msgstr "%s: "
+
+#: src/msgfmt.c:906
+#, c-format
+msgid "%d translated message"
+msgid_plural "%d translated messages"
+msgstr[0] "%d tulkoto ziņu"
+msgstr[1] "%d tulkotā ziņa"
+msgstr[2] "%d tulkotās ziņas"
+
+#: src/msgfmt.c:911
+#, c-format
+msgid ", %d fuzzy translation"
+msgid_plural ", %d fuzzy translations"
+msgstr[0] ", %d aptuveno tulkojumu"
+msgstr[1] ", %d aptuvenais tulkojums"
+msgstr[2] ", %d aptuvenie tulkojumi"
+
+#: src/msgfmt.c:916
+#, c-format
+msgid ", %d untranslated message"
+msgid_plural ", %d untranslated messages"
+msgstr[0] ", %d netulkoto ziņu"
+msgstr[1] ", %d netulkotā ziņa"
+msgstr[2] ", %d netulkotās ziņas"
+
+#: src/msgfmt.c:936
+#, c-format
+msgid "Usage: %s [OPTION] filename.po ...\n"
+msgstr "Lietošana: %s [OPCIJA] failavārds.po ...\n"
+
+#: src/msgfmt.c:940
+#, c-format
+msgid "Generate binary message catalog from textual translation description.\n"
+msgstr "Ģenerē bināro ziņojumu katalogu no tekstuāla tulkojuma apraksta.\n"
+
+#: src/msgfmt.c:952
+#, c-format
+msgid "  filename.po ...             input files\n"
+msgstr "  failavārds.po ...         ievades faili\n"
+
+#: src/msgfmt.c:959 src/msgmerge.c:510 src/msgunfmt.c:437 src/xgettext.c:1224
+#, c-format
+msgid "Operation mode:\n"
+msgstr "Darbības režīms:\n"
+
+#: src/msgfmt.c:961
+#, c-format
+msgid "  -j, --java                  Java mode: generate a Java ResourceBundle class\n"
+msgstr "  -j, --java                  Java režīms: ģenerē Java ResourceBundle klasi\n"
+
+#: src/msgfmt.c:963
+#, c-format
+msgid "      --java2                 like --java, and assume Java2 (JDK 1.2 or higher)\n"
+msgstr "      --java2                 līdzīgi --java; pieņem Java2 (JDK 1.2 vai jaunāku)\n"
+
+#: src/msgfmt.c:965
+#, c-format
+msgid "      --csharp                C# mode: generate a .NET .dll file\n"
+msgstr "      --csharp                C# režīms: ģenerē .NET .dll failu\n"
+
+#: src/msgfmt.c:967
+#, c-format
+msgid "      --csharp-resources      C# resources mode: generate a .NET .resources file\n"
+msgstr "      --csharp-resources      C# resursu režīms: ģenerē .NET .resources failu\n"
+
+#: src/msgfmt.c:969
+#, c-format
+msgid "      --tcl                   Tcl mode: generate a tcl/msgcat .msg file\n"
+msgstr "      --tcl                   Tcl režīms: ģenerē tcl/msgcat .msg failu\n"
+
+#: src/msgfmt.c:971
+#, c-format
+msgid "      --qt                    Qt mode: generate a Qt .qm file\n"
+msgstr "      --qt                    Qt režīms: ģenerē Qt .qm failu\n"
+
+#: src/msgfmt.c:973
+#, c-format
+msgid "      --desktop               Desktop Entry mode: generate a .desktop file\n"
+msgstr "      --desktop               Desktop Entry režīms: ģenerē .desktop failu\n"
+
+#: src/msgfmt.c:975
+#, c-format
+msgid "      --xml                   XML mode: generate XML file\n"
+msgstr "      --xml                   XML režīms: ģenerē XML failu\n"
+
+#: src/msgfmt.c:982
+#, c-format
+msgid "      --strict                enable strict Uniforum mode\n"
+msgstr "      --strict                ieslēdz strikto Uniforum režīmu\n"
+
+#: src/msgfmt.c:984 src/xgettext.c:1197
+#, c-format
+msgid "If output file is -, output is written to standard output.\n"
+msgstr "Ja izvades fails ir -, izvade tiek rakstīta standarta izvadē.\n"
+
+#: src/msgfmt.c:987
+#, c-format
+msgid "Output file location in Java mode:\n"
+msgstr "Izvades faila atrašanās vieta Java režīmā:\n"
+
+#: src/msgfmt.c:989 src/msgfmt.c:1005 src/msgunfmt.c:457 src/msgunfmt.c:468
+#, c-format
+msgid "  -r, --resource=RESOURCE     resource name\n"
+msgstr "  -r, --resource=RESURS     resursa nosaukums\n"
+
+#: src/msgfmt.c:991 src/msgfmt.c:1007 src/msgfmt.c:1017 src/msgfmt.c:1027
+#: src/msgfmt.c:1044 src/msgunfmt.c:459 src/msgunfmt.c:470 src/msgunfmt.c:480
+#, c-format
+msgid "  -l, --locale=LOCALE         locale name, either language or language_COUNTRY\n"
+msgstr "  -l, --locale=LOKĀLE         lokāles nosaukums; valoda vai valoda_VALSTS\n"
+
+#: src/msgfmt.c:993
+#, c-format
+msgid "      --source                produce a .java file, instead of a .class file\n"
+msgstr "      --source                izveido .java failu, nevis .class failu\n"
+
+#: src/msgfmt.c:995
+#, c-format
+msgid "  -d DIRECTORY                base directory of classes directory hierarchy\n"
+msgstr "  -d DIREKTORIJA              klašu direktoriju hierarhijas bāzes direktorija\n"
+
+#: src/msgfmt.c:997
+#, c-format
+msgid ""
+"The class name is determined by appending the locale name to the resource name,\n"
+"separated with an underscore.  The -d option is mandatory.  The class is\n"
+"written under the specified directory.\n"
+msgstr ""
+"Klases nosaukumu veido, resursa nosaukumam pievienojot lokalizācijas nosaukumu\n"
+"un atdalot ar apakšsvītru.  Opcija -d ir obligāta.  Klasi ieraksta\n"
+"norādītajā direktorijā.\n"
+
+#: src/msgfmt.c:1003
+#, c-format
+msgid "Output file location in C# mode:\n"
+msgstr "Izvades faila atrašanās vieta C# režīmā:\n"
+
+#: src/msgfmt.c:1009 src/msgunfmt.c:472
+#, c-format
+msgid "  -d DIRECTORY                base directory for locale dependent .dll files\n"
+msgstr "  -d DIREKTORIJA                bāzes direktorija no lokalizācijas atkarīgiem .dll failiem\n"
+
+#: src/msgfmt.c:1011
+#, c-format
+msgid ""
+"The -l and -d options are mandatory.  The .dll file is written in a\n"
+"subdirectory of the specified directory whose name depends on the locale.\n"
+msgstr ""
+"Opcijas -l un -d ir obligātas.  .dll failu ieraksta norādītās direktorijas\n"
+"apakšdirektorijā, kuras nosaukums ir atkarīgs no lokalizācijas.\n"
+
+#: src/msgfmt.c:1015
+#, c-format
+msgid "Output file location in Tcl mode:\n"
+msgstr "Izvades faila atrašanās vieta Tcl režīmā:\n"
+
+#: src/msgfmt.c:1019 src/msgunfmt.c:482
+#, c-format
+msgid "  -d DIRECTORY                base directory of .msg message catalogs\n"
+msgstr "  -d DIREKTORIJA                bāzes direktorija .msg ziņu katalogiem\n"
+
+#: src/msgfmt.c:1021
+#, c-format
+msgid ""
+"The -l and -d options are mandatory.  The .msg file is written in the\n"
+"specified directory.\n"
+msgstr ""
+"Opcijas -l un -d ir obligātas.  .msg failu ieraksta\n"
+"norādītajā direktorijā.\n"
+
+#: src/msgfmt.c:1025
+#, c-format
+msgid "Desktop Entry mode options:\n"
+msgstr "Desktop Entry režīma opcijas:\n"
+
+#: src/msgfmt.c:1031
+#, c-format
+msgid "  --template=TEMPLATE         a .desktop file used as a template\n"
+msgstr "  --template=VEIDNE         .desktop fails, ko izmanto kā veidni\n"
+
+#: src/msgfmt.c:1033 src/msgfmt.c:1052
+#, c-format
+msgid "  -d DIRECTORY                base directory of .po files\n"
+msgstr "  -d DIREKTORIJA                bāzes direktorija .po failiem\n"
+
+#: src/msgfmt.c:1035 src/xgettext.c:1257
+#, c-format
+msgid ""
+"  -kWORD, --keyword=WORD      look for WORD as an additional keyword\n"
+"  -k, --keyword               do not to use default keywords\n"
+msgstr ""
+"  -kWORD, --keyword=VĀRDS      meklēt VĀRDU kā papildu atslēgvārdu\n"
+"  -k, --keyword               neizmantot noklusētos atslēgvārdus\n"
+
+#: src/msgfmt.c:1038 src/msgfmt.c:1057
+#, c-format
+msgid ""
+"The -l, -o, and --template options are mandatory.  If -D is specified, input\n"
+"files are read from the directory instead of the command line arguments.\n"
+msgstr ""
+"Opcijas -l, -o un --template ir obligātas.  Ja norādīta opcija -D,ievades failus\n"
+"nolasa no direktorijas, nevis no komandrindas argumentiem.\n"
+
+#: src/msgfmt.c:1042
+#, c-format
+msgid "XML mode options:\n"
+msgstr "XML režīma opcijas:\n"
+
+#: src/msgfmt.c:1046
+#, c-format
+msgid "  -L, --language=NAME         recognise the specified XML language\n"
+msgstr "  -L, --language=NOSAUKUMS         atpazīt norādīto XML valodu\n"
+
+#: src/msgfmt.c:1050
+#, c-format
+msgid "  --template=TEMPLATE         an XML file used as a template\n"
+msgstr "  --template=VEIDNE         XML fails, ko izmanto kā veidni\n"
+
+#: src/msgfmt.c:1054
+#, c-format
+msgid ""
+"  --replace-text              output XML with translated text replacing the\n"
+"                              original text, not augmenting the original text\n"
+msgstr ""
+"  --replace-text             izvadīt XML ar tulkoto tekstu, aizvietojot\n"
+"                              oriģinālo tekstu, nevis papildinot to\n"
+
+#: src/msgfmt.c:1069 src/xgettext.c:1216
+#, c-format
+msgid "Input file interpretation:\n"
+msgstr "Ievades faila interpretācija:\n"
+
+#: src/msgfmt.c:1071
+#, c-format
+msgid ""
+"  -c, --check                 perform all the checks implied by\n"
+"                                --check-format, --check-header, --check-domain\n"
+msgstr ""
+"  -c, --check                 veikt visas pārbaudes, ko ietver\n"
+"                                --check-format, --check-header, --check-domain\n"
+
+#: src/msgfmt.c:1074
+#, c-format
+msgid "      --check-format          check language dependent format strings\n"
+msgstr "      --check-format          pārbaudīt no valodas atkarīgas formāta virknes\n"
+
+#: src/msgfmt.c:1076
+#, c-format
+msgid "      --check-header          verify presence and contents of the header entry\n"
+msgstr "      --check-header          pārbaudīt galvenes ieraksta esamību un saturu\n"
+
+#: src/msgfmt.c:1078
+#, c-format
+msgid ""
+"      --check-domain          check for conflicts between domain directives\n"
+"                                and the --output-file option\n"
+msgstr ""
+"      --check-domain          pārbaudīt konfliktus starp domēna direktīvām\n"
+"                                un --output-file opciju\n"
+
+#: src/msgfmt.c:1081
+#, c-format
+msgid "  -C, --check-compatibility   check that GNU msgfmt behaves like X/Open msgfmt\n"
+msgstr "  -C, --check-compatibility   pārbaudīt, vai GNU msgfmt darbojas kā X/Open msgfmt\n"
+
+#: src/msgfmt.c:1083
+#, c-format
+msgid ""
+"      --check-accelerators[=CHAR]  check presence of keyboard accelerators for\n"
+"                                menu items\n"
+msgstr ""
+"      --check-accelerators[=CHAR]  pārbaudīt, vai izvēlņu elementiem ir tastatūras\n"
+"                                paātrinātāji\n"
+
+#: src/msgfmt.c:1086
+#, c-format
+msgid "  -f, --use-fuzzy             use fuzzy entries in output\n"
+msgstr "  -f, --use-fuzzy             izmantot neskaidros ierakstus izvadē\n"
+
+#: src/msgfmt.c:1091
+#, c-format
+msgid "      --no-convert            don't convert the messages to UTF-8 encoding\n"
+msgstr "      --no-convert            nepārveidot ziņojumus UTF-8 kodējumā\n"
+
+#: src/msgfmt.c:1093
+#, c-format
+msgid ""
+"      --no-redundancy         don't pre-expand ISO C 99 <inttypes.h>\n"
+"                                format string directive macros\n"
+msgstr ""
+"      --no-redundancy         neizvērst ISO C 99 <inttypes.h>\n"
+"                                formāta virknes direktīvu makrosus iepriekš\n"
+
+#: src/msgfmt.c:1096
+#, c-format
+msgid "  -a, --alignment=NUMBER      align strings to NUMBER bytes (default: %d)\n"
+msgstr "  -a, --alignment=SKAITS      izlīdzināt virknes pēc SKAITA baitiem (noklusējums: %d)\n"
+
+#: src/msgfmt.c:1098
+#, c-format
+msgid ""
+"      --endianness=BYTEORDER  write out 32-bit numbers in the given byte order\n"
+"                                (big or little, default depends on platform)\n"
+msgstr ""
+"      --endianness=BYTEORDER  izvadīt 32 bitu skaitļus dotajā baitu secībā\n"
+"                                (big vai little, noklusējums atkarīgs no platformas)\n"
+
+#: src/msgfmt.c:1101
+#, c-format
+msgid "      --no-hash               binary file will not include the hash table\n"
+msgstr "      --no-hash               binārajā failā netiks iekļauta heša tabula\n"
+
+#: src/msgfmt.c:1110
+#, c-format
+msgid "      --statistics            print statistics about translations\n"
+msgstr "      --statistics            izvadīt statistiku par tulkojumiem\n"
+
+#: src/msgfmt.c:1112 src/msgmerge.c:608 src/msgunfmt.c:532 src/xgettext.c:1377
+#, c-format
+msgid "  -v, --verbose               increase verbosity level\n"
+msgstr "  -v, --verbose               palielināt detalizācijas līmeni\n"
+
+#: src/msgfmt.c:1226
+#, c-format
+msgid "warning: PO file header missing or invalid\n"
+msgstr "brīdinājums: PO faila galvene trūkst vai ir nederīga\n"
+
+#: src/msgfmt.c:1228
+#, c-format
+msgid "warning: charset conversion will not work\n"
+msgstr "brīdinājums: rakstzīmju kopas konvertēšana nedarbosies\n"
+
+#: src/msgfmt.c:1251
+#, c-format
+msgid "domain name \"%s\" not suitable as file name"
+msgstr "domēna nosaukums \"%s\" nav piemērots faila nosaukumam"
+
+#: src/msgfmt.c:1256
+#, c-format
+msgid "domain name \"%s\" not suitable as file name: will use prefix"
+msgstr "domēna nosaukums \"%s\" nav piemērots faila nosaukumam: tiks izmantots prefikss"
+
+#: src/msgfmt.c:1272
+#, c-format
+msgid "'domain %s' directive ignored"
+msgstr "direktīva 'domain %s' ignorēta"
+
+#: src/msgfmt.c:1332
+#, c-format
+msgid "empty 'msgstr' entry ignored"
+msgstr "tukšs 'msgstr' ieraksts ignorēts"
+
+#: src/msgfmt.c:1333
+#, c-format
+msgid "fuzzy 'msgstr' entry ignored"
+msgstr "neskaidrs 'msgstr' ieraksts ignorēts"
+
+#: src/msgfmt.c:1381
+#, c-format
+msgid "%s: warning: source file contains fuzzy translation"
+msgstr "%s: brīdinājums: avota failā ir neskaidrs tulkojums"
+
+#: src/msgfmt.c:1496
+#, c-format
+msgid "%s does not exist"
+msgstr "%s neeksistē"
+
+#: src/msgfmt.c:1501
+#, c-format
+msgid "%s exists but cannot read"
+msgstr "%s eksistē, bet to neizdevās nolasīt"
+
+#: src/msggrep.c:252 src/read-desktop.c:116 src/read-mo.c:84
+#: src/read-po-lex.c:862 src/read-properties.c:596 src/read-stringtable.c:95
+#: src/x-awk.c:139 src/x-c.c:606 src/x-csharp.c:164 src/x-d.c:1694
+#: src/x-elisp.c:144 src/x-go.c:3584 src/x-java.c:204 src/x-javascript.c:277
+#: src/x-librep.c:145 src/x-lisp.c:207 src/x-lua.c:174 src/x-modula2.c:152
+#: src/x-ocaml.c:920 src/x-perl.c:365 src/x-perl.c:444 src/x-perl.c:528
+#: src/x-php.c:262 src/x-python.c:180 src/x-rst.c:219 src/x-rst.c:273
+#: src/x-rust.c:1134 src/x-scheme.c:191 src/x-sh.c:173 src/x-smalltalk.c:86
+#: src/x-tcl.c:151 src/x-typescript-impl.h:992 src/x-vala.c:228 src/x-ycp.c:91
+#, c-format
+msgid "error while reading \"%s\""
+msgstr "kļūda, nolasot \"%s\"."
+
+#: src/msggrep.c:506
+#, c-format
+msgid "option '%c' cannot be used before 'J' or 'K' or 'T' or 'C' or 'X' has been specified"
+msgstr "opciju '%c' nevar izmantot, pirms nav norādīta 'J' vai 'K' vai 'T' vai 'C' vai 'X'"
+
+#: src/msggrep.c:526
+#, c-format, no-wrap
+msgid ""
+"Extracts all messages of a translation catalog that match a given pattern\n"
+"or belong to some given source files.\n"
+msgstr ""
+"Atlasa visus tulkošanas kataloga ziņojumus, kas atbilst dotam šablonam\n"
+"vai pieder kādiem dotiem avota failiem.\n"
+
+#: src/msggrep.c:552
+#, c-format, no-wrap
+msgid ""
+"Message selection:\n"
+"  [-N SOURCEFILE]... [-M DOMAINNAME]...\n"
+"  [-J MSGCTXT-PATTERN] [-K MSGID-PATTERN] [-T MSGSTR-PATTERN]\n"
+"  [-C COMMENT-PATTERN] [-X EXTRACTED-COMMENT-PATTERN]\n"
+"  [-W WORKFLOW-FLAG] [-S STICKY-FLAG]\n"
+"A message is selected if it comes from one of the specified source files,\n"
+"or if it comes from one of the specified domains,\n"
+"or if -J is given and its context (msgctxt) matches MSGCTXT-PATTERN,\n"
+"or if -K is given and its key (msgid or msgid_plural) matches MSGID-PATTERN,\n"
+"or if -T is given and its translation (msgstr) matches MSGSTR-PATTERN,\n"
+"or if -C is given and the translator's comment matches COMMENT-PATTERN,\n"
+"or if -X is given and the extracted comment matches EXTRACTED-COMMENT-PATTERN,\n"
+"or if -W is given and its flags contain WORKFLOW-FLAG,\n"
+"or if -S is given and its flags contain STICKY-FLAG.\n"
+"\n"
+"When more than one selection criterion is specified, the set of selected\n"
+"messages is the union of the selected messages of each criterion.\n"
+"\n"
+"MSGCTXT-PATTERN or MSGID-PATTERN or MSGSTR-PATTERN or COMMENT-PATTERN or\n"
+"EXTRACTED-COMMENT-PATTERN syntax:\n"
+"  [-E | -F] [-e PATTERN | -f FILE]...\n"
+"PATTERNs are basic regular expressions by default, or extended regular\n"
+"expressions if -E is given, or fixed strings if -F is given.\n"
+"\n"
+"  -N, --location=SOURCEFILE   select messages extracted from SOURCEFILE\n"
+"  -M, --domain=DOMAINNAME     select messages belonging to domain DOMAINNAME\n"
+"  -J, --msgctxt               start of patterns for the msgctxt\n"
+"  -K, --msgid                 start of patterns for the msgid\n"
+"  -T, --msgstr                start of patterns for the msgstr\n"
+"  -C, --comment               start of patterns for the translator's comment\n"
+"  -X, --extracted-comment     start of patterns for the extracted comment\n"
+"  -E, --extended-regexp       PATTERN is an extended regular expression\n"
+"  -F, --fixed-strings         PATTERN is a set of newline-separated strings\n"
+"  -e, --regexp=PATTERN        use PATTERN as a regular expression\n"
+"  -f, --file=FILE             obtain PATTERN from FILE\n"
+"  -i, --ignore-case           ignore case distinctions\n"
+"  -W, --workflow-flag=FLAG    select messages with FLAG\n"
+"  -S, --sticky-flag=FLAG      select messages with FLAG\n"
+"  -v, --invert-match          output only the messages that do not match any\n"
+"                              selection criterion\n"
+msgstr ""
+"Ziņojumu atlase:\n"
+"  [-N AVOTA_FAILS]... [-M DOMĒNA_VĀRDS]...\n"
+"  [-J ZIŅ_KONTEKSTA_ŠABLONS] [-K ZIŅ_ID_ŠABLONS] [-T ZIŅ_STR_ŠABLONS]\n"
+"  [-C KOMENTĀRA_ŠABLONS] [-X IZVILKTĀ_KOMENTĀRA_ŠABLONS]\n"
+"  [-W DARBA_PLŪSMAS_KAROGS] [-S FIKSĒTAIS_KAROGS]\n"
+"Ziņojums tiek atlasīts, ja tas ir no viena no norādītajiem avota failiem,\n"
+"vai ja tas ir no viena no norādītajiem domēniem,\n"
+"vai ja ir norādīts -J un tā konteksts (msgctxt) atbilst ZIŅ_KONTEKSTA_ŠABLONAM,\n"
+"vai ja ir norādīts -K un tā atslēga (msgid vai msgid_plural) atbilst ZIŅ_ID_ŠABLONAM,\n"
+"vai ja ir norādīts -T un tā tulkojums (msgstr) atbilst ZIŅ_STR_ŠABLONAM,\n"
+"vai ja ir norādīts -C un tulkotāja komentārs atbilst KOMENTĀRA_ŠABLONAM,\n"
+"vai ja ir norādīts -X un izvilktais komentārs atbilst IZVILKTĀ_KOMENTĀRA_ŠABLONAM,\n"
+"vai ja ir norādīts -W un tā karogi satur DARBA_PLŪSMAS_KAROGU,\n"
+"vai ja ir norādīts -S un tā karogi satur FIKSĒTO_KAROGU.\n"
+"\n"
+"Ja ir norādīts vairāk nekā viens atlases kritērijs, atlasīto ziņojumu\n"
+"kopums ir visu kritēriju atlasīto ziņojumu apvienojums.\n"
+"\n"
+"ZIŅ_KONTEKSTA_ŠABLONA vai ZIŅ_ID_ŠABLONA, vai ZIŅ_STR_ŠABLONA, vai KOMENTĀRA_ŠABLONA,\n"
+"vai IZVILKTĀ_KOMENTĀRA_ŠABLONA sintakse:\n"
+"  [-E | -F] [-e ŠABLONS | -f FAILS]...\n"
+"ŠABLONI pēc noklusējuma ir parastās regulārās izteiksmes, vai paplašinātās\n"
+"regulārās izteiksmes, ja ir norādīts -E, vai fiksētas virknes, ja ir norādīts -F.\n"
+"\n"
+"  -N, --location=AVOTA_FAILS   atlasīt no AVOTA_FAILA izvilktos ziņojumus\n"
+"  -M, --domain=DOMĒNA_VĀRDS    atlasīt ziņojumus, kas pieder DOMĒNA_VĀRDAM\n"
+"  -J, --msgctxt                šablona sākums msgctxt laukam\n"
+"  -K, --msgid                  šablona sākums msgid laukam\n"
+"  -T, --msgstr                 šablona sākums msgstr laukam\n"
+"  -C, --comment                šablona sākums tulkotāja komentāram\n"
+"  -X, --extracted-comment      šablona sākums izvilktajam komentāram\n"
+"  -E, --extended-regexp        ŠABLONS ir paplašināta regulārā izteiksme\n"
+"  -F, --fixed-strings          ŠABLONS ir ar rindiņu plūsmu atdalītu virkņu kopums\n"
+"  -e, --regexp=ŠABLONS         izmantot ŠABLONU kā regulāro izteiksmi\n"
+"  -f, --file=FAILS             iegūt ŠABLONU no FAILA\n"
+"  -i, --ignore-case            ignorēt reģistra atšķirības\n"
+"  -W, --workflow-flag=KAROGS   atlasīt ziņojumus ar KAROGU\n"
+"  -S, --sticky-flag=KAROGS     atlasīt ziņojumus ar KAROGU\n"
+"  -v, --invert-match           izvadīt tikai tos ziņojumus, kas neatbilst nevienam\n"
+"                               atlases kritērijam\n"
+
+#: src/msggrep.c:612
+#, c-format
+msgid "      --escape                use C escapes in output, no extended chars\n"
+msgstr "      --escape                izmantot C atsoļu sekvences izvadē, bez paplašinātām rakstzīmēm\n"
+
+#: src/msggrep.c:633
+#, c-format
+msgid "      --sort-output           generate sorted output\n"
+msgstr "      --sort-output           ģenerēt sakārtotu izvadi\n"
+
+#: src/msggrep.c:635
+#, c-format
+msgid "      --sort-by-file          sort output by file location\n"
+msgstr "      --sort-by-file          sakārtot izvadi pēc faila atrašanās vietas\n"
+
+#: src/msginit.c:288
+#, c-format
+msgid ""
+"You are in a language indifferent environment.  Please set\n"
+"your LANG environment variable, as described in\n"
+"<%s>.\n"
+"This is necessary so you can test your translations.\n"
+msgstr ""
+"Jūs atrodaties no valodas neatkarīgā vidē.  Lūdzu, iestatiet\n"
+"savu LANG vides mainīgo, kā aprakstīts\n"
+"<%s>.\n"
+"Tas ir nepieciešams, lai jūs varētu pārbaudīt savus tulkojumus.\n"
+
+#: src/msginit.c:363
+#, c-format
+msgid "Created %s.\n"
+msgstr "Izveidots %s.\n"
+
+#: src/msginit.c:383
+#, c-format, no-wrap
+msgid ""
+"Creates a new PO file, initializing the meta information with values from the\n"
+"user's environment.\n"
+msgstr "Izveido jaunu PO failu, inicializējot metainformāciju ar vērtībām no lietotāja vides.\n"
+
+#: src/msginit.c:393
+#, c-format
+msgid "  -i, --input=INPUTFILE       input POT file\n"
+msgstr "  -i, --input=IEVADESFAILS       ievades POT fails\n"
+
+#: src/msginit.c:395
+#, c-format
+msgid ""
+"If no input file is given, the current directory is searched for the POT file.\n"
+"If it is -, standard input is read.\n"
+msgstr ""
+"Ja nav norādīts ievades fails, tiek meklēts POT fails pašreizējā direktorijā.\n"
+"Ja tas ir -, tiek nolasīta standarta ievade.\n"
+
+#: src/msginit.c:401
+#, c-format
+msgid "  -o, --output-file=FILE      write output to specified PO file\n"
+msgstr "  -o, --output-file=FAILS      rakstīt izvadi norādītajā PO failā\n"
+
+#: src/msginit.c:403
+#, c-format
+msgid ""
+"If no output file is given, it depends on the --locale option or the user's\n"
+"locale setting.\n"
+"If the output file already exists, it is merged with the input file,\n"
+"as if through '%s'.\n"
+"If it is -, the results are written to standard output.\n"
+msgstr ""
+"Ja nav norādīts izvades fails, tas ir atkarīgs no --locale opcijas vai lietotāja\n"
+"lokāles iestatījuma.\n"
+"Ja izvades fails jau eksistē, tas tiek apvienots ar ievades failu,\n"
+"it kā izmantojot '%s'.\n"
+"Ja tas ir -, rezultāti tiek rakstīti standarta izvadē.\n"
+
+#: src/msginit.c:420
+#, c-format
+msgid "  -l, --locale=LL_CC[.ENCODING]  set target locale\n"
+msgstr "  -l, --locale=LL_CC[.ENCODING]  iestatīt mērķa lokāli\n"
+
+#: src/msginit.c:422
+#, c-format
+msgid "      --no-translator         assume the PO file is automatically generated\n"
+msgstr "      --no-translator         pieņemt, ka PO fails ir automātiski ģenerēts\n"
+
+#: src/msginit.c:488
+msgid ""
+"Found more than one .pot file.\n"
+"Please specify the input .pot file through the --input option.\n"
+msgstr ""
+"Atrasts vairāk nekā viens .pot fails.\n"
+"Lūdzu, norādiet ievades .pot failu, izmantojot opciju --input.\n"
+
+#: src/msginit.c:496 src/msginit.c:501
+#, c-format
+msgid "error reading current directory"
+msgstr "neizdevās nolasīt pašreizējo direktoriju"
+
+#: src/msginit.c:508
+msgid ""
+"Found no .pot file in the current directory.\n"
+"Please specify the input .pot file through the --input option.\n"
+msgstr ""
+"Pašreizējā direktorijā nav atrasts .pot fails.\n"
+"Lūdzu, norādiet ievades .pot failu, izmantojot opciju --input.\n"
+
+#: src/msginit.c:907 src/msginit.c:984 src/msginit.c:1154 src/msginit.c:1264
+#: src/msginit.c:1422 src/read-csharp.c:70 src/read-java.c:67
+#: src/read-resources.c:71 src/read-tcl.c:99 src/write-resources.c:75
+#: src/x-ruby.c:134
+#, c-format
+msgid "fdopen() failed"
+msgstr "fdopen() neizdevās"
+
+#: src/msginit.c:916 src/msginit.c:993 src/msginit.c:1163 src/msginit.c:1431
+#, c-format
+msgid "%s subprocess I/O error"
+msgstr "%s apakšprocesa I/O kļūda"
+
+#: src/msginit.c:930 src/msginit.c:1007 src/msginit.c:1177 src/msginit.c:1288
+#: src/msginit.c:1451 src/read-csharp.c:82 src/read-java.c:79
+#: src/read-resources.c:83 src/read-tcl.c:118 src/write-resources.c:101
+#: src/x-ruby.c:146
+#, c-format
+msgid "%s subprocess failed with exit code %d"
+msgstr "%s apakšprocess neizdevās ar izejas kodu %d"
+
+#: src/msginit.c:1138
+msgid ""
+"The new message catalog should contain your email address, so that users can\n"
+"give you feedback about the translations, and so that maintainers can contact\n"
+"you in case of unexpected technical problems.\n"
+msgstr ""
+"Jaunajā ziņu katalogā jābūt jūsu e-pasta adresei, lai lietotāji varētu\n"
+"sniegt atsauksmes par tulkojumiem un lai uzturētāji varētu sazināties\n"
+"ar jums neparedzētu tehnisko problēmu gadījumā.\n"
+
+#. TRANSLATORS: "English" needs to be replaced by your language.
+#. For example in it.po write "Traduzioni italiani ...",
+#. *not* "Traduzioni inglesi ...".
+#: src/msginit.c:1637
+#, c-format
+msgid "English translations for %s package"
+msgstr "Latviešu tulkojums %s pakotnei"
+
+#: src/msgl-cat.c:170 src/msgl-charset.c:132 src/msgl-iconv.c:280
+#, c-format
+msgid "present charset \"%s\" is not a portable encoding name"
+msgstr "pašreizējā rakstzīmju kopa \"%s\" nav pārnēsājams kodējuma nosaukums"
+
+#: src/msgl-cat.c:180 src/msgl-iconv.c:291
+#, c-format
+msgid "two different charsets \"%s\" and \"%s\" in input file"
+msgstr "divas dažādas rakstzīmju kopas \"%s\" un \"%s\" ievades failā"
+
+#: src/msgl-cat.c:195
+#, c-format
+msgid "input file '%s' doesn't contain a header entry with a charset specification"
+msgstr "ievades fails '%s' nesatur galvenes ierakstu ar rakstzīmju kopas norādi"
+
+#: src/msgl-cat.c:199
+#, c-format
+msgid "domain \"%s\" in input file '%s' doesn't contain a header entry with a charset specification"
+msgstr "domēns \"%s\" ievades failā '%s' nesatur galvenes ierakstu ar rakstzīmju kopas norādi"
+
+#: src/msgl-cat.c:290 src/xg-message.c:330
+#, c-format
+msgid "msgid '%s' is used without plural and with plural."
+msgstr "msgid '%s' tiek izmantots bez daudzskaitļa un ar daudzskaitli."
+
+#: src/msgl-cat.c:391 src/msgl-iconv.c:382
+#, c-format
+msgid "target charset \"%s\" is not a portable encoding name."
+msgstr "mērķa rakstzīmju kopa \"%s\" nav pārnēsājams kodējuma nosaukums."
+
+#: src/msgl-cat.c:399 src/msgl-iconv.c:391
+#, c-format
+msgid "Cannot write the control characters that protect file names with spaces in the %s encoding"
+msgstr "Neizdevās ierakstīt kontrolrakstzīmes, kas aizsargā failu nosaukumus ar atstarpēm %s kodējumā"
+
+#: src/msgl-cat.c:451
+#, c-format
+msgid ""
+"Input files contain messages in different encodings, UTF-8 among others.\n"
+"Converting the output to UTF-8.\n"
+msgstr ""
+"Ievades faili satur ziņojumus dažādos kodējumos, tostarp UTF-8.\n"
+"Izvade tiek konvertēta uz UTF-8.\n"
+
+#: src/msgl-cat.c:457
+#, c-format
+msgid ""
+"Input files contain messages in different encodings, %s and %s among others.\n"
+"Converting the output to UTF-8.\n"
+"To select a different output encoding, use the --to-code option.\n"
+msgstr ""
+"Ievades faili satur ziņojumus dažādos kodējumos, tostarp %s un %s.\n"
+"Izvade tiek konvertēta uz UTF-8.\n"
+"Lai atlasītu citu izvades kodējumu, lietojiet opciju --to-code.\n"
+
+#: src/msgl-cat.c:474
+#, c-format
+msgid ""
+"Input files contain messages referenced in file names with spaces.\n"
+"Converting the output to %s.\n"
+msgstr ""
+"Ievades faili satur ziņojumus, uz kuriem ir atsauces failu nosaukumos ar atstarpēm.\n"
+"Izvade tiek konvertēta uz %s.\n"
+
+#: src/msgl-cat.c:511
+#, c-format
+msgid ""
+"Conversion of file %s from %s encoding to %s encoding\n"
+"changes some msgids or msgctxts.\n"
+"Either change all msgids and msgctxts to be pure ASCII, or ensure they are\n"
+"UTF-8 encoded from the beginning, i.e. already in your source code files.\n"
+msgstr ""
+"Faila %s konvertēšana no %s kodējuma uz %s kodējumu\n"
+"izmaina dažus msgid vai msgctxt.\n"
+"Vai nu nomainiet visus msgid un msgctxt uz tīru ASCII, vai nodrošiniet, ka tie ir\n"
+"UTF-8 kodēti jau no paša sākuma, t.i., jau jūsu pirmkoda failos.\n"
+
+#: src/msgl-charset.c:84
+#, c-format
+msgid "%s: The present charset \"%s\" is not a portable encoding name."
+msgstr "%s: Pašreizējā rakstzīmju kopa \"%s\" nav pārnēsājams kodējuma nosaukums."
+
+#: src/msgl-charset.c:89
+#, c-format
+msgid "%s: The file contains non-ASCII characters but the present charset \"%s\" is not %s."
+msgstr "%s: Fails satur rakstzīmes, kas nav ASCII, bet pašreizējā rakstzīmju kopa \"%s\" nav %s."
+
+#: src/msgl-charset.c:141
+#, c-format
+msgid ""
+"Locale charset \"%s\" is different from\n"
+"input file charset \"%s\".\n"
+"Output of '%s' might be incorrect.\n"
+"Possible workarounds are:\n"
+msgstr ""
+"Lokāles rakstzīmju kopa \"%s\" atšķiras no\n"
+"ievades faila rakstzīmju kopas \"%s\".\n"
+"'%s' izvade var būt nepareiza.\n"
+"Iespējamie risinājumi ir šādi:\n"
+
+#: src/msgl-charset.c:148
+#, c-format
+msgid "- Set LC_ALL to a locale with encoding %s.\n"
+msgstr "- Iestatiet LC_ALL lokālei ar kodējumu %s.\n"
+
+#: src/msgl-charset.c:153
+#, c-format
+msgid ""
+"- Convert the translation catalog to %s using 'msgconv',\n"
+"  then apply '%s',\n"
+"  then convert back to %s using 'msgconv'.\n"
+msgstr ""
+"- Konvertējiet tulkojumu katalogu uz %s, izmantojot 'msgconv',\n"
+"  tad lietojiet '%s',\n"
+"  tad konvertējiet atpakaļ uz %s, izmantojot 'msgconv'.\n"
+
+#: src/msgl-charset.c:162
+#, c-format
+msgid ""
+"- Set LC_ALL to a locale with encoding %s,\n"
+"  convert the translation catalog to %s using 'msgconv',\n"
+"  then apply '%s',\n"
+"  then convert back to %s using 'msgconv'.\n"
+msgstr ""
+"- Iestatiet LC_ALL uz lokālu ar kodējumu %s,\n"
+"  konvertējiet tulkojumu katalogu uz %s, izmantojot 'msgconv',\n"
+"  tad lietojiet '%s',\n"
+"  tad konvertējiet atpakaļ uz %s, izmantojot 'msgconv'.\n"
+
+#: src/msgl-charset.c:176
+#, c-format
+msgid ""
+"Locale charset \"%s\" is not a portable encoding name.\n"
+"Output of '%s' might be incorrect.\n"
+"A possible workaround is to set LC_ALL=C.\n"
+msgstr ""
+"Lokāla rakstzīmju kopa \"%s\" nav pārnesama kodējuma nosaukums.\n"
+"'%s' izvade var būt nepareiza.\n"
+"Iespējamais risinājums ir iestatīt LC_ALL=C.\n"
+
+#: src/msgl-check.c:109
+msgid "plural expression can produce division by zero"
+msgstr "daudzskaitļa izteiksme var izraisīt dalīšanu ar nulli"
+
+#: src/msgl-check.c:112
+msgid "plural expression can produce integer overflow"
+msgstr "daudzskaitļa izteiksme var izraisīt vesela skaitļa pārplūdi"
+
+#: src/msgl-check.c:115
+msgid "plural expression can produce stack overflow"
+msgstr "daudzskaitļa izteiksme var izraisīt steka pārplūdi"
+
+#: src/msgl-check.c:129
+msgid "plural expression can produce negative values"
+msgstr "daudzskaitļa izteiksme var radīt negatīvas vērtības"
+
+#: src/msgl-check.c:136
+#, c-format
+msgid "nplurals = %lu but plural expression can produce values as large as %lu"
+msgstr "nplurals = %lu, bet daudzskaitļa izteiksme var radīt vērtības, kas ir tik lielas kā %lu"
+
+#: src/msgl-check.c:211
+#, c-format
+msgid "Try using the following, valid for %s:"
+msgstr "Mēģiniet izmantot tālāk norādīto, kas ir derīgs %s:"
+
+#: src/msgl-check.c:296 src/msgl-check.c:320
+msgid "message catalog has plural form translations"
+msgstr "ziņojumu katalogā ir daudzskaitļa formu tulkojumi"
+
+#: src/msgl-check.c:298
+msgid "but header entry lacks a \"plural=EXPRESSION\" attribute"
+msgstr "bet galvenes ierakstam trūkst atribūta \"plural=IZTEIKSME\""
+
+#: src/msgl-check.c:322
+msgid "but header entry lacks a \"nplurals=INTEGER\" attribute"
+msgstr "bet galvenes ierakstam trūkst atribūta \"nplurals=VESALSSKAITLIS\""
+
+#: src/msgl-check.c:355
+msgid "invalid nplurals value"
+msgstr "nederīga nplurals vērtība"
+
+#: src/msgl-check.c:382
+msgid "invalid plural expression"
+msgstr "nederīga daudzskaitļa izteiksme"
+
+#: src/msgl-check.c:414 src/msgl-check.c:430
+#, c-format
+msgid "nplurals = %lu"
+msgstr "nplurals = %lu"
+
+#: src/msgl-check.c:416
+#, c-format
+msgid "but some messages have only one plural form"
+msgid_plural "but some messages have only %lu plural forms"
+msgstr[0] "bet dažiem ziņojumiem ir tikai %lu daudzskaitļu formu"
+msgstr[1] "bet dažiem ziņojumiem ir tikai %lu daudzskaitļu forma"
+msgstr[2] "bet dažiem ziņojumiem ir tikai %lu daudzskaitļu formas"
+
+#: src/msgl-check.c:432
+#, c-format
+msgid "but some messages have one plural form"
+msgid_plural "but some messages have %lu plural forms"
+msgstr[0] "bet dažiem ziņojumiem ir %lu daudzskaitļu formu"
+msgstr[1] "bet dažiem ziņojumiem ir %lu daudzskaitļu forma"
+msgstr[2] "bet dažiem ziņojumiem ir %lu daudzskaitļu formas"
+
+#: src/msgl-check.c:456
+msgid "message catalog has plural form translations, but lacks a header entry with \"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\""
+msgstr "ziņojumu katalogā ir daudzskaitļa formu tulkojumi, bet trūkst galvenes ieraksta ar \"Plural-Forms: nplurals=VESELSSKAITLIS; plural=IZTEIKSME;\""
+
+#: src/msgl-check.c:508 src/read-po-lex.c:80 src/read-po-lex.c:101
+msgid "memory exhausted"
+msgstr "atmiņa izsmelta"
+
+#: src/msgl-check.c:559
+msgid "'msgid' and 'msgid_plural' entries do not both begin with '\\n'"
+msgstr "Ieraksti 'msgid' un 'msgid_plural' abi nesākas ar '\\n'"
+
+#: src/msgl-check.c:568
+#, c-format
+msgid "'msgid' and 'msgstr[%u]' entries do not both begin with '\\n'"
+msgstr "Ieraksti 'msgid' un 'msgstr[%u]' abi nesākas ar '\\n'"
+
+#: src/msgl-check.c:584
+msgid "'msgid' and 'msgstr' entries do not both begin with '\\n'"
+msgstr "Ieraksti 'msgid' un 'msgstr' abi nesākas ar '\\n'"
+
+#: src/msgl-check.c:602
+msgid "'msgid' and 'msgid_plural' entries do not both end with '\\n'"
+msgstr "Ne abi ('msgid' un 'msgid_plural') ieraksti beidzas ar '\\n'"
+
+#: src/msgl-check.c:611
+#, c-format
+msgid "'msgid' and 'msgstr[%u]' entries do not both end with '\\n'"
+msgstr "Ne abi ('msgid' un 'msgstr[%u]') ieraksti beidzas ar '\\n'"
+
+#: src/msgl-check.c:627
+msgid "'msgid' and 'msgstr' entries do not both end with '\\n'"
+msgstr "Ne abi ('msgid' un 'msgstr') ieraksti beidzas ar '\\n'"
+
+#: src/msgl-check.c:640
+msgid "plural handling is a GNU gettext extension"
+msgstr "daudzskaitļa apstrāde ir GNU gettext paplašinājums"
+
+#: src/msgl-check.c:680
+#, c-format
+msgid "msgstr lacks the keyboard accelerator mark '%c'"
+msgstr "Ierakstā 'msgstr' trūkst tastatūras paātrinātāja zīmes '%c'."
+
+#: src/msgl-check.c:691
+#, c-format
+msgid "msgstr has too many keyboard accelerator marks '%c'"
+msgstr "Ierakstā 'msgstr' ir pārāk daudz tastatūras paātrinātāja zīmju '%c'."
+
+#: src/msgl-check.c:764
+#, c-format
+msgid "header field '%s' still has the initial default value\n"
+msgstr "galvenes laukam '%s' joprojām ir sākotnējā noklusējuma vērtība.\n"
+
+#: src/msgl-check.c:781
+#, c-format
+msgid "header field '%s' missing in header\n"
+msgstr "galvenē trūkst lauka '%s'.\n"
+
+#: src/msgl-iconv.c:66
+#, c-format
+msgid "%s: input is not valid in \"%s\" encoding"
+msgstr "%s: ievade nav derīga kodējumā \"%s\""
+
+#: src/msgl-iconv.c:70
+#, c-format
+msgid "%s: error while converting from \"%s\" encoding to \"%s\" encoding"
+msgstr "%s: kļūda, konvertējot no kodējuma \"%s\" uz kodējumu \"%s\""
+
+#: src/msgl-iconv.c:307
+msgid "input file doesn't contain a header entry with a charset specification"
+msgstr "ievades fails nesatur galvenes ierakstu ar rakstzīmju kopas norādi"
+
+#: src/msgl-iconv.c:319 src/recode-sr-latin.c:283 src/recode-sr-latin.c:287
+#: src/xgettext.c:926 src/x-python.c:622
+#, c-format
+msgid "Cannot convert from \"%s\" to \"%s\". %s relies on iconv(), and iconv() does not support this conversion."
+msgstr "Nav iespējams konvertēt no \"%s\" uz \"%s\". %s izmanto iconv(), un iconv() neatbalsta šo konvertēšanu."
+
+#: src/msgl-iconv.c:348
+#, c-format
+msgid "Conversion from \"%s\" to \"%s\" introduces duplicates: some different msgids become equal."
+msgstr "Konvertēšana no \"%s\" uz \"%s\" rada dublikātus: daži atšķirīgi msgid kļūst vienādi."
+
+#: src/msgl-iconv.c:352 src/recode-sr-latin.c:295 src/xgettext.c:932
+#: src/x-python.c:628
+#, c-format
+msgid "Cannot convert from \"%s\" to \"%s\". %s relies on iconv(). This version was built without iconv()."
+msgstr "Nav iespējams konvertēt no \"%s\" uz \"%s\". %s izmanto iconv(). Šī versija ir veidota bez iconv()."
+
+#: src/msgl-merge.c:1019
+msgid "this message should define plural forms"
+msgstr "šim ziņojumam ir jādefinē daudzskaitļa formas"
+
+#: src/msgl-merge.c:1044
+msgid "this message should not define plural forms"
+msgstr "šim ziņojumam nav jādefinē daudzskaitļa formas"
+
+#: src/msgl-merge.c:1439
+#, c-format
+msgid "%sRead %ld old + %ld reference, merged %ld, fuzzied %ld, missing %ld, obsolete %ld.\n"
+msgstr "%sNolasīti %ld vecie + %ld atsauces, apvienoti %ld, neskaidri %ld, trūkstoši %ld, novecojuši %ld.\n"
+
+#: src/msgl-merge.c:1447 src/urlget.c:295 src/urlget.c:341 src/urlget.c:382
+#: src/urlget.c:423
+#, c-format
+msgid " done.\n"
+msgstr " pabeigts.\n"
+
+#: src/msgmerge.c:375 src/xgettext.c:853
+#, c-format
+msgid "The option '%s' is deprecated."
+msgstr "Opcija '%s' ir novecojusi."
+
+#: src/msgmerge.c:444
+msgid "backup type"
+msgstr "rezerves kopijas veids"
+
+#: src/msgmerge.c:483
+#, c-format, no-wrap
+msgid ""
+"Merges two Uniforum style .po files together.  The def.po file is an\n"
+"existing PO file with translations which will be taken over to the newly\n"
+"created file as long as they still match; comments will be preserved,\n"
+"but extracted comments and file positions will be discarded.  The ref.pot\n"
+"file is the last created PO file with up-to-date source references but\n"
+"old translations, or a PO Template file (generally created by xgettext);\n"
+"any translations or comments in the file will be discarded, however dot\n"
+"comments and file positions will be preserved.  Where an exact match\n"
+"cannot be found, fuzzy matching is used to produce better results.\n"
+msgstr ""
+"Apvieno divus Uniforum stila .po failus. Fails def.po ir esošs PO\n"
+"fails ar tulkojumiem, kas tiks pārnesti uz jaunizveidoto failu, ja tie\n"
+"joprojām atbilst;komentāri tiks saglabāti, bet ekstrahētie komentāri\n"
+"un failu pozīcijas tiks atmestas. Fails ref.pot ir pēdējais izveidotais PO\n"
+"fails ar aktuālām avota atsaucēm, bet veciem tulkojumiem, vai arī PO\n"
+"veidnes fails (parasti izveidots ar xgettext); jebkuri tulkojumi vai\n"
+"komentāri failā tiks atmesti, taču punktu komentāri un failu pozīcijas\n"
+" tiks saglabātas. Ja precīzu atbilstību nevar atrast, tiek izmantota aptuvenā\n"
+" saskaņošana, lai iegūtu labākus rezultātus.\n"
+
+#: src/msgmerge.c:500
+#, c-format
+msgid "  def.po                      translations referring to old sources\n"
+msgstr "  def.po                      tulkojumi, kas atsaucas uz veciem avotiem\n"
+
+#: src/msgmerge.c:502
+#, c-format
+msgid "  ref.pot                     references to new sources\n"
+msgstr "  ref.pot                     atsauces uz jauniem avotiem\n"
+
+#: src/msgmerge.c:506
+#, c-format
+msgid ""
+"  -C, --compendium=FILE       additional library of message translations,\n"
+"                              may be specified more than once\n"
+msgstr ""
+"  -C, --compendium=FAILS      ziņojumu tulkojumu papildu bibliotēka,\n"
+"                              var norādīt vairākas reizes\n"
+
+#: src/msgmerge.c:512
+#, c-format
+msgid ""
+"  -U, --update                update def.po,\n"
+"                              do nothing if def.po already up to date\n"
+msgstr ""
+"  -U, --update                atjaunina def.po,\n"
+"                              neko nedara, ja def.po jau ir aktuāls\n"
+
+#: src/msgmerge.c:524
+#, c-format
+msgid "Output file location in update mode:\n"
+msgstr "Izvades faila atrašanās vieta atjaunināšanas režīmā:\n"
+
+#: src/msgmerge.c:526
+#, c-format
+msgid "The result is written back to def.po.\n"
+msgstr "Rezultāts tiek ierakstīts atpakaļ failā def.po.\n"
+
+#: src/msgmerge.c:528
+#, c-format
+msgid "      --backup=CONTROL        make a backup of def.po\n"
+msgstr "      --backup=KONTROLE       izveidot def.po rezerves kopiju\n"
+
+#: src/msgmerge.c:530
+#, c-format
+msgid "      --suffix=SUFFIX         override the usual backup suffix\n"
+msgstr "      --suffix=PIEDĒKLIS      aizstāt parasto rezerves kopijas piedēkli\n"
+
+#: src/msgmerge.c:532
+#, c-format
+msgid ""
+"The version control method may be selected via the --backup option or through\n"
+"the VERSION_CONTROL environment variable.  Here are the values:\n"
+"  none, off       never make backups (even if --backup is given)\n"
+"  numbered, t     make numbered backups\n"
+"  existing, nil   numbered if numbered backups exist, simple otherwise\n"
+"  simple, never   always make simple backups\n"
+msgstr ""
+"Versiju kontroles metodi var izvēlēties ar opciju --backup vai ar vides mainīgo\n"
+"VERSION_CONTROL.  Iespējamās vērtības:\n"
+"  none, off       nekad neveidot rezerves kopijas (pat ja norādīta opcija --backup)\n"
+"  numbered, t     veidot numurētas rezerves kopijas\n"
+"  existing, nil   numurētas, ja tādas jau pastāv, citādi — vienkāršas\n"
+"  simple, never   vienmēr veidot vienkāršas rezerves kopijas\n"
+
+#: src/msgmerge.c:539
+#, c-format
+msgid ""
+"The backup suffix is '~', unless set with --suffix or the SIMPLE_BACKUP_SUFFIX\n"
+"environment variable.\n"
+msgstr ""
+"Rezerves kopijas piedēklis ir “~”, ja vien tas nav iestatīts ar opciju --suffix vai vides\n"
+"mainīgo SIMPLE_BACKUP_SUFFIX.\n"
+
+#: src/msgmerge.c:548
+#, c-format
+msgid "      --for-msgfmt            produce output for '%s', not for a translator\n"
+msgstr "      --for-msgfmt            sagatavot izvadi programmai '%s', nevis tulkotājam\n"
+
+#: src/msgmerge.c:553
+#, c-format
+msgid "      --previous              keep previous msgids of translated messages\n"
+msgstr "      --previous              saglabāt tulkoto ziņojumu iepriekšējos msgid\n"
+
+#: src/msgmerge.c:597 src/xgettext.c:1336
+#, c-format
+msgid "  -s, --sort-output           generate sorted output (deprecated)\n"
+msgstr "  -s, --sort-output           ģenerēt sakārtotu izvadi (novecojis)\n"
+
+#: src/msgmerge.c:610 src/msgpre.c:552 src/urlget.c:186
+#, c-format
+msgid "  -q, --quiet, --silent       suppress progress indicators\n"
+msgstr "  -q, --quiet, --silent       nerādīt progresa indikatorus\n"
+
+#: src/msgpre.c:324 src/spit.c:568
+#, c-format
+msgid "invalid value for %s option: %s"
+msgstr "nederīga vērtība opcijai %s: %s"
+
+#: src/msgpre.c:329 src/spit.c:573
+#, c-format
+msgid "missing %s option"
+msgstr "trūkst opcijas %s"
+
+#: src/msgpre.c:386
+#, c-format
+msgid "The input does not have a header entry."
+msgstr "Ievadei nav galvenes ieraksta."
+
+#: src/msgpre.c:390
+#, c-format
+msgid "The input's header entry does not contain the '%s' header field."
+msgstr "Ievades galvenes ierakstā nav '%s' galvenes lauka."
+
+#: src/msgpre.c:454 src/spit.c:398
+#, c-format
+msgid "Usage: %s [OPTION...]\n"
+msgstr "Lietošana: %s [OPCIJA...]\n"
+
+#: src/msgpre.c:458
+#, c-format
+msgid "Pretranslates a translation catalog.\n"
+msgstr "Iepriekšpārtulko tulkošanas katalogu.\n"
+
+#: src/msgpre.c:462
+#, c-format
+msgid ""
+"Warning: The pretranslations might not be what you expect.\n"
+"They might be of the wrong form, be of poor quality, or reflect some biases.\n"
+msgstr ""
+"Brīdinājums: Iepriekšpārtulkojumi var nebūt tādi, kādus gaidāt.\n"
+"Tie var būt nepareizā formā, sliktas kvalitātes vai atspoguļot noteiktus aizspriedumus.\n"
+
+#: src/msgpre.c:488
+#, c-format
+msgid ""
+"      --keep-fuzzy            Keep fuzzy messages unmodified.\n"
+"                              Pretranslate only untranslated messages.\n"
+msgstr ""
+"      --keep-fuzzy            Atstāt neskaidros ziņojumus nemainītus.\n"
+"                              Iepriekšpārtulkot tikai nepārtulkotos ziņojumus.\n"
+
+#: src/msgpre.c:492
+#, c-format
+msgid "Large Language Model (LLM) options:\n"
+msgstr "Lielo valodu modeļu (LLM) opcijas:\n"
+
+#: src/msgpre.c:494 src/spit.c:415
+#, c-format
+msgid ""
+"      --species=TYPE          Specifies the type of LLM.  The default and only\n"
+"                              valid value is '%s'.\n"
+msgstr ""
+"      --species=TIPS          Norāda LLM veidu. Noklusējuma un vienīgā\n"
+"                              derīgā vērtība ir '%s'.\n"
+
+#: src/msgpre.c:498 src/spit.c:419
+#, c-format
+msgid "      --url=URL               Specifies the URL of the server that runs the LLM.\n"
+msgstr "      --url=URL               Norāda servera URL, kurā darbojas LLM.\n"
+
+#: src/msgpre.c:500 src/spit.c:421
+#, c-format
+msgid "  -m, --model=MODEL           Specifies the model to use.\n"
+msgstr "  -m, --model=MODELIS         Norāda izmantojamo modeli.\n"
+
+#: src/msgpre.c:502
+#, c-format
+msgid "      --prompt=TEXT           Specifies the prompt to use before standard input.\n"
+msgstr "      --prompt=TEXT           Norāda uzvedni, ko izmantot pirms standarta ievades.\n"
+
+#: src/msgpre.c:504 src/spit.c:428
+#, c-format
+msgid "      --postprocess=COMMAND   Specifies a command to post-process the output.\n"
+msgstr "      --postprocess=COMMAND   Norāda komandu izvades pēcapstrādei.\n"
+
+#: src/msgunfmt.c:307 src/msgunfmt.c:316 src/msgunfmt.c:339
+#, c-format
+msgid "%s and explicit file names are mutually exclusive"
+msgstr "%s un tieši norādīti failu nosaukumi ir savstarpēji izslēdzoši"
+
+#: src/msgunfmt.c:426
+#, c-format
+msgid "Usage: %s [OPTION] [FILE]...\n"
+msgstr "Lietošana: %s [OPCIJA] [FAILI]...\n"
+
+#: src/msgunfmt.c:430
+#, c-format
+msgid "Convert binary message catalog to Uniforum style .po file.\n"
+msgstr "Pārveido bināro ziņojumu katalogu par Uniforum stila .po failu.\n"
+
+#: src/msgunfmt.c:439
+#, c-format
+msgid "  -j, --java                  Java mode: input is a Java ResourceBundle class\n"
+msgstr "  -j, --java                  Java režīms: ievade ir Java ResourceBundle klase\n"
+
+#: src/msgunfmt.c:441
+#, c-format
+msgid "      --csharp                C# mode: input is a .NET .dll file\n"
+msgstr "      --csharp                C# režīms: ievade ir .NET .dll fails\n"
+
+#: src/msgunfmt.c:443
+#, c-format
+msgid "      --csharp-resources      C# resources mode: input is a .NET .resources file\n"
+msgstr "      --csharp-resources      C# resursu režīms: ievade ir .NET .resources fails\n"
+
+#: src/msgunfmt.c:445
+#, c-format
+msgid "      --tcl                   Tcl mode: input is a tcl/msgcat .msg file\n"
+msgstr "      --tcl                   Tcl režīms: ievade ir tcl/msgcat .msg fails\n"
+
+#: src/msgunfmt.c:450
+#, c-format
+msgid "  FILE ...                    input .mo files\n"
+msgstr "  FAILI ...                   ievades .mo faili\n"
+
+#: src/msgunfmt.c:455
+#, c-format
+msgid "Input file location in Java mode:\n"
+msgstr "Ievades faila atrašanās vieta Java režīmā:\n"
+
+#: src/msgunfmt.c:461
+#, c-format
+msgid ""
+"The class name is determined by appending the locale name to the resource name,\n"
+"separated with an underscore.  The class is located using the CLASSPATH.\n"
+msgstr ""
+"Klases nosaukums tiek noteikts, resursa nosaukumam pievienojot lokalizācijas nosaukumu,\n"
+"kas atdalīts ar pasvītrojumu. Klase tiek atrasta, izmantojot CLASSPATH.\n"
+
+#: src/msgunfmt.c:466
+#, c-format
+msgid "Input file location in C# mode:\n"
+msgstr "Ievades faila atrašanās vieta C# režīmā:\n"
+
+#: src/msgunfmt.c:474
+#, c-format
+msgid ""
+"The -l and -d options are mandatory.  The .dll file is located in a\n"
+"subdirectory of the specified directory whose name depends on the locale.\n"
+msgstr ""
+"Opcijas -l un -d ir obligātas.  .dll fails atrodas norādītās direktorijas\n"
+"apakšdirektorijā, kuras nosaukums atkarīgs no lokāles.\n"
+
+#: src/msgunfmt.c:478
+#, c-format
+msgid "Input file location in Tcl mode:\n"
+msgstr "Ievada faila atrašanās vieta Tcl režīmā:\n"
+
+#: src/msgunfmt.c:484
+#, c-format
+msgid ""
+"The -l and -d options are mandatory.  The .msg file is located in the\n"
+"specified directory.\n"
+msgstr ""
+"Opcijas -l un -d ir obligātas.  Fails .msg atrodas\n"
+"norādītajā katalogā.\n"
+
+#: src/msgunfmt.c:510
+#, c-format
+msgid "  -i, --indent                write indented output style\n"
+msgstr "  -i, --indent               rakstīt ar atkāpēm formatētu izvadi\n"
+
+#: src/msgunfmt.c:512
+#, c-format
+msgid "      --strict                write strict uniforum style\n"
+msgstr "      --strict               rakstīt stingrā uniforum stilā\n"
+
+#: src/msguniq.c:327
+#, c-format, no-wrap
+msgid ""
+"Unifies duplicate translations in a translation catalog.\n"
+"Finds duplicate translations of the same message ID.  Such duplicates are\n"
+"invalid input for other programs like msgfmt, msgmerge or msgcat.  By\n"
+"default, duplicates are merged together.  When using the --repeated option,\n"
+"only duplicates are output, and all other messages are discarded.  Comments\n"
+"and extracted comments will be cumulated, except that if --use-first is\n"
+"specified, they will be taken from the first translation.  File positions\n"
+"will be cumulated.  When using the --unique option, duplicates are discarded.\n"
+msgstr ""
+"Apvieno tulkojumu dublikātus tulkošanas katalogā.\n"
+"Atrod tulkojumu dublikātus ar vienādu ziņojuma ID.  Šādi dublikāti ir\n"
+"nederīga ievade citām programmām, piemēram, msgfmt, msgmerge vai msgcat.  Pēc\n"
+"noklusējuma dublikāti tiek apvienoti. Izmantojot opciju --repeated,\n"
+"tiek izvadīti tikai dublikāti, un visi pārējie ziņojumi tiek atmesti.  Komentāri\n"
+"un izvilktie komentāri tiek uzkrāti, bet, ja norādīta opcija --use-first,\n"
+"tie tiek ņemti no pirmā tulkojuma.  Faila pozīcijas\n"
+"tiek uzkrātas. Izmantojot opciju --unique, dublikāti tiek atmesti.\n"
+
+#: src/msguniq.c:360
+#, c-format
+msgid "  -d, --repeated              print only duplicates\n"
+msgstr "  -d, --repeated             izvadīt tikai dublikātus\n"
+
+#: src/msguniq.c:362
+#, c-format
+msgid "  -u, --unique                print only unique messages, discard duplicates\n"
+msgstr "  -u, --unique                izvadīt tikai unikālus ziņojumus, atmetot dublikātus\n"
+
+#: src/open-catalog.c:47 libgettextpo/gettext-po.c:101
+msgid "<stdin>"
+msgstr "<stdin>"
+
+#: src/read-catalog.c:338 src/xgettext.c:1402
+msgid "this file may not contain domain directives"
+msgstr "šis fails nedrīkst saturēt domēna direktīvas"
+
+#: src/read-catalog.c:384
+msgid "duplicate message definition"
+msgstr "dublēta ziņojuma definīcija"
+
+#: src/read-catalog.c:388
+msgid "this is the location of the first definition"
+msgstr "šī ir pirmās definīcijas atrašanās vieta"
+
+#: src/read-desktop.c:238
+msgid "unterminated group name"
+msgstr "nenoslēgts grupas nosaukums"
+
+#: src/read-desktop.c:264
+msgid "invalid non-blank character"
+msgstr "nederīga netukša zīme"
+
+#: src/read-desktop.c:371
+#, c-format
+msgid "missing '=' after \"%s\""
+msgstr "trūkst “=” pēc “%s”"
+
+#: src/read-desktop.c:445
+msgid "invalid non-blank line"
+msgstr "nederīga netukša rinda"
+
+#: src/read-mo.c:103 src/read-mo.c:125 src/read-mo.c:153 src/read-mo.c:177
+#, c-format
+msgid "file \"%s\" is truncated"
+msgstr "datne \"%s\" ir aprauta"
+
+#: src/read-mo.c:129
+#, c-format
+msgid "file \"%s\" contains a not NUL terminated string"
+msgstr "failā \"%s\" ir ar NUL neterminēta virkne"
+
+#: src/read-mo.c:163
+#, c-format
+msgid "file \"%s\" contains a not NUL terminated system dependent string"
+msgstr "fails \"%s\" satur ar NUL nenobeigtu, sistēmatkarīgu virkni"
+
+#: src/read-mo.c:169 src/read-mo.c:275
+#, c-format
+msgid "file \"%s\" is not in GNU .mo format"
+msgstr "fails \"%s\" nav GNU .mo formātā"
+
+#: src/read-mo.c:183
+#, c-format
+msgid "file \"%s\" contains a not NUL terminated string, at %s"
+msgstr "failā \"%s\" pozīcijā %s ir virkne, kas nav terminēta ar NUL"
+
+#: src/read-mo.c:312
+#, c-format
+msgid "file \"%s\" is not in GNU .mo format: The array of messages is not sorted."
+msgstr "fails \"%s\" nav GNU .mo formātā: ziņojumu masīvs nav sakārtots."
+
+#: src/read-mo.c:324
+#, c-format
+msgid "file \"%s\" is not in GNU .mo format: The hash table size is invalid."
+msgstr "fails \"%s\" nav GNU .mo formātā: heštabulas izmērs ir nederīgs."
+
+#: src/read-mo.c:340
+#, c-format
+msgid "file \"%s\" is not in GNU .mo format: The hash table contains invalid entries."
+msgstr "fails \"%s\" nav GNU .mo formātā: heštabula satur nederīgus ierakstus."
+
+#: src/read-mo.c:347
+#, c-format
+msgid "file \"%s\" is not in GNU .mo format: Some messages are not present in the hash table."
+msgstr "fails \"%s\" nav GNU .mo formātā: daži ziņojumi nav atrodami heštabulā."
+
+#: src/read-mo.c:368
+#, c-format
+msgid "file \"%s\" is not in GNU .mo format: Some messages are at a wrong index in the hash table."
+msgstr "fails \"%s\" nav GNU .mo formātā: daži ziņojumi heštabulā ir ar nepareizu indeksu."
+
+#: src/read-po-gram.y:43
+msgid "inconsistent use of #~"
+msgstr "neatbilstoša #~ lietošana"
+
+#: src/read-po-gram.y:203
+msgid "missing 'msgstr[]' section"
+msgstr "trūkst 'msgstr[]' sadaļas"
+
+#: src/read-po-gram.y:212
+msgid "missing 'msgid_plural' section"
+msgstr "trūkst 'msgid_plural' sadaļas"
+
+#: src/read-po-gram.y:220
+msgid "missing 'msgstr' section"
+msgstr "trūkst 'msgstr' sadaļas"
+
+#: src/read-po-gram.y:359
+msgid "first plural form has nonzero index"
+msgstr "pirmajai daudzskaitļa formai ir nenulles indekss"
+
+#: src/read-po-gram.y:361
+msgid "plural form has wrong index"
+msgstr "daudzskaitļa formai ir nepareizs indekss"
+
+#: src/read-po-lex.c:89 src/read-po-lex.c:109
+msgid "too many errors, aborting"
+msgstr "pārāk daudz kļūdu, darbība tiek pārtraukta"
+
+#: src/read-po-lex.c:165
+#, c-format
+msgid ""
+"Charset \"%s\" is not a portable encoding name.\n"
+"Message conversion to user's charset might not work.\n"
+msgstr ""
+"Rakstzīmju kopa \"%s\" nav pārnēsājams kodējuma nosaukums.\n"
+"Ziņojumu konvertēšana uz lietotāja rakstzīmju kopu var nedarboties.\n"
+
+#: src/read-po-lex.c:232
+#, c-format
+msgid ""
+"Charset \"%s\" is not supported. %s relies on iconv(),\n"
+"and iconv() does not support \"%s\".\n"
+msgstr ""
+"Rakstzīmju kopa \"%s\" nav atbalstīta. %s paļaujas uz iconv(),\n"
+"un iconv() neatbalsta \"%s\".\n"
+
+#: src/read-po-lex.c:239 src/read-po-lex.c:290
+msgid ""
+"Installing GNU libiconv and then reinstalling GNU gettext\n"
+"would fix this problem.\n"
+msgstr ""
+"Instalējot GNU libiconv un pēc tam pārinstalējot GNU gettext,\n"
+"šī problēma tiktu novērsta.\n"
+
+#: src/read-po-lex.c:254 src/read-po-lex.c:294
+msgid "Continuing anyway, expect parse errors."
+msgstr "Tomēr turpina; gaidāmas parsēšanas kļūdas."
+
+#: src/read-po-lex.c:256
+msgid "Continuing anyway."
+msgstr "Tomēr turpina."
+
+#: src/read-po-lex.c:285
+#, c-format
+msgid ""
+"Charset \"%s\" is not supported. %s relies on iconv().\n"
+"This version was built without iconv().\n"
+msgstr ""
+"Rakstzīmju kopa \"%s\" nav atbalstīta. %s paļaujas uz iconv().\n"
+"Šī versija ir kompilēta bez iconv().\n"
+
+#: src/read-po-lex.c:322
+msgid ""
+"Charset missing in header.\n"
+"Message conversion to user's charset will not work.\n"
+msgstr ""
+"Galvenē nav norādīta rakstzīmju kopa.\n"
+"Ziņojumu konvertēšana uz lietotāja rakstzīmju kopu nedarbosies.\n"
+
+#: src/read-po-lex.c:627 src/read-po-lex.c:694 src/write-po.c:793
+#: src/write-po.c:935
+msgid "invalid multibyte sequence"
+msgstr "nederīga daudzbaitu secība"
+
+#: src/read-po-lex.c:655
+msgid "incomplete multibyte sequence at end of file"
+msgstr "nepabeigta daudzbaitu secība faila beigās"
+
+#: src/read-po-lex.c:664
+msgid "incomplete multibyte sequence at end of line"
+msgstr "nepabeigta daudzbaitu secība rindas beigās"
+
+#: src/read-po-lex.c:675 src/x-csharp.c:318 src/x-javascript.c:429
+#: src/x-python.c:359
+msgid "iconv failure"
+msgstr "iconv kļūme"
+
+#: src/read-po-lex.c:949
+#, c-format
+msgid "keyword \"%s\" unknown"
+msgstr "atslēgvārds \"%s\" nav zināms"
+
+#: src/read-po-lex.c:1061
+msgid "invalid control sequence"
+msgstr "nederīga vadības secība"
+
+#: src/read-po-lex.c:1195
+msgid "end-of-file within string"
+msgstr "faila beigas virknes iekšienē"
+
+#: src/read-po-lex.c:1201
+msgid "end-of-line within string"
+msgstr "rindas beigas virknes iekšienē"
+
+#: src/read-po-lex.c:1222
+msgid "context separator <EOT> within string"
+msgstr "konteksta atdalītājs <EOT> virknes iekšienē"
+
+#: src/read-properties.c:354
+msgid "warning: invalid \\uxxxx syntax for Unicode character"
+msgstr "brīdinājums: nederīga \\uxxxx sintakse Unicode rakstzīmei"
+
+#: src/read-properties.c:425
+#, c-format
+msgid "warning: lone surrogate U+%04X"
+msgstr "brīdinājums: atsevišķs surogāts U+%04X"
+
+#: src/read-properties.c:493 src/read-properties.c:524
+msgid "warning: invalid Unicode character"
+msgstr "brīdinājums: nederīga Unicode rakstzīme"
+
+#: src/read-stringtable.c:783
+msgid "warning: unterminated string"
+msgstr "brīdinājums: nepabeigta virkne"
+
+#: src/read-stringtable.c:791
+msgid "warning: syntax error"
+msgstr "brīdinājums: sintakses kļūda"
+
+#: src/read-stringtable.c:851 src/read-stringtable.c:876
+msgid "warning: unterminated key/value pair"
+msgstr "brīdinājums: nepabeigts atslēgas/vērtības pāris"
+
+#: src/read-stringtable.c:924
+msgid "warning: syntax error, expected ';' after string"
+msgstr "brīdinājums: sintakses kļūda, pēc virknes jābūt ';'"
+
+#: src/read-stringtable.c:933
+msgid "warning: syntax error, expected '=' or ';' after string"
+msgstr "brīdinājums: sintakses kļūda, pēc virknes jābūt '=' vai ';'"
+
+#: src/recode-sr-latin.c:112
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Autori: %s un %s.\n"
+
+#. TRANSLATORS: This is a proper name. The last name is
+#. (with Unicode escapes) "\u0160egan" or (with HTML entities)
+#. "&Scaron;egan".
+#. This is a proper name. See the gettext manual, section Names.
+#: src/recode-sr-latin.c:116
+msgid "Danilo Segan"
+msgstr "Danilo Segan"
+
+#: src/recode-sr-latin.c:149
+#, c-format, no-wrap
+msgid "Recode Serbian text from Cyrillic to Latin script.\n"
+msgstr "Pārkodēt serbu tekstu no kirilicas uz latīņu rakstu.\n"
+
+#: src/recode-sr-latin.c:152
+#, c-format, no-wrap
+msgid ""
+"The input text is read from standard input.  The converted text is output to\n"
+"standard output.\n"
+msgstr "Ievades teksts tiek nolasīts no standarta ievades. Pārveidotais teksts tiek izvadīts standarta izvadē.\n"
+
+#: src/recode-sr-latin.c:325
+#, c-format
+msgid "input is not valid in \"%s\" encoding"
+msgstr "ievade nav derīga \"%s\" kodējumā"
+
+#: src/recode-sr-latin.c:355
+#, c-format
+msgid "error while converting from \"%s\" encoding to \"%s\" encoding"
+msgstr "kļūda, konvertējot no \"%s\" kodējuma uz \"%s\" kodējumu"
+
+#: src/spit.c:135
+msgid "curl error"
+msgstr "curl kļūda"
+
+#: src/spit.c:169
+#, c-format
+msgid "write to subprocess failed"
+msgstr "neizdevās rakstīt apakšprocesam"
+
+#: src/spit.c:356
+#, c-format
+msgid "curl error %u: %s"
+msgstr "curl kļūda %u: %s"
+
+#: src/spit.c:402
+#, c-format
+msgid ""
+"Passes standard input to a Large Language Model (LLM) instance and prints\n"
+"the response.\n"
+"With the %s option, it translates standard input to the specified language\n"
+"through a Large Language Model (LLM) and prints the translation.\n"
+msgstr ""
+"Nodod standarta ievadi liela valodu modeļa (LLM) instancei un izvada\n"
+"atbildi.\n"
+"Ar opciju %s tas pārtulko standarta ievadi norādītajā valodā,\n"
+"izmantojot lielu valodu modeli (LLM), un izvada tulkojumu.\n"
+
+#: src/spit.c:409
+#, c-format
+msgid ""
+"Warning: The output might not be what you expect.\n"
+"It might be of the wrong form, be of poor quality, or reflect some biases.\n"
+msgstr ""
+"Brīdinājums: Izvade var nebūt tāda, kādu gaidījāt.\n"
+"Tā var būt nepareizā formā, sliktas kvalitātes vai atspoguļot noteiktus aizspriedumus.\n"
+
+#: src/spit.c:413
+#, c-format
+msgid "Options:\n"
+msgstr "Opcijas:\n"
+
+#: src/spit.c:423
+#, c-format
+msgid "      --to=LANGUAGE           Specifies the target language.\n"
+msgstr "      --to=VALODA           Norāda mērķvalodu.\n"
+
+#: src/spit.c:425
+#, c-format
+msgid ""
+"      --prompt=TEXT           Specifies the prompt to use before standard input.\n"
+"                              This option overrides the --to option.\n"
+msgstr ""
+"      --prompt=TEKSTS       Norāda uzvedni, ko lietot pirms standarta ievades.\n"
+"                              Šī opcija pārraksta opciju --to.\n"
+
+#: src/spit.c:434
+#, c-format
+msgid "  -h, --help                  Display this help and exit.\n"
+msgstr "  -h, --help                  Parāda šo palīdzību un iziet.\n"
+
+#: src/spit.c:436
+#, c-format
+msgid "  -V, --version               Output version information and exit.\n"
+msgstr "  -V, --version               Izvada versijas informāciju un iziet.\n"
+
+#: src/spit.c:585
+#, c-format
+msgid "error reading standard input"
+msgstr "neizdevās nolasīt standarta ievadi"
+
+#: src/urlget.c:153
+#, c-format
+msgid "expected two arguments"
+msgstr "paredzēti divi argumenti"
+
+#: src/urlget.c:170
+#, c-format
+msgid "Usage: %s [OPTION] URL FILE\n"
+msgstr "Lietošana: %s [OPCIJA] URL FAILS\n"
+
+#: src/urlget.c:175
+#, c-format, no-wrap
+msgid ""
+"Fetches and outputs the contents of an URL.  If the URL cannot be accessed,\n"
+"the locally accessible FILE is used instead.\n"
+msgstr ""
+"Iegūst un izvada URL saturu. Ja neizdodas piekļūt URL,\n"
+"tā vietā tiek izmantots vietēji pieejamais FAILS.\n"
+
+#: src/urlget.c:225
+#, c-format
+msgid "error reading \"%s\""
+msgstr "neizdevās nolasīt \"%s\""
+
+#: src/urlget.c:231
+#, c-format
+msgid "error writing stdout"
+msgstr "neizdevās rakstīt standarta izvadē"
+
+#: src/urlget.c:235
+#, c-format
+msgid "error after reading \"%s\""
+msgstr "kļūda pēc \"%s\" nolasīšanas"
+
+#: src/urlget.c:265
+#, c-format
+msgid "Retrieving %s..."
+msgstr "Iegūst %s..."
+
+#: src/urlget.c:297
+#, c-format
+msgid " timed out.\n"
+msgstr " iestājās noildze.\n"
+
+#: src/urlget.c:431
+#, c-format
+msgid " failed.\n"
+msgstr " neizdevās.\n"
+
+#: src/write-catalog.c:119
+msgid "Cannot output multiple translation domains into a single file with the specified output format. Try using PO file syntax instead."
+msgstr "Nav iespējams izvadīt vairākus tulkojumu domēnus vienā failā ar norādīto izvades formātu. Mēģiniet izmantot PO faila sintaksi."
+
+#: src/write-catalog.c:122
+msgid "Cannot output multiple translation domains into a single file with the specified output format."
+msgstr "Nav iespējams izvadīt vairākus tulkojumu domēnus vienā failā ar norādīto izvades formātu."
+
+#: src/write-catalog.c:149
+msgid "message catalog has context dependent translations, but the output format does not support them."
+msgstr "ziņu katalogā ir no konteksta atkarīgi tulkojumi, bet izvades formāts tos neatbalsta."
+
+#: src/write-catalog.c:177
+msgid "message catalog has plural form translations, but the output format does not support them. Try generating a Java class using \"msgfmt --java\", instead of a properties file."
+msgstr "ziņu katalogā ir daudzskaitļa formu tulkojumi, bet izvades formāts tos neatbalsta. Mēģiniet ģenerēt Java klasi, izmantojot \"msgfmt --java\", nevis properties failu."
+
+#: src/write-catalog.c:182
+msgid "message catalog has plural form translations, but the output format does not support them."
+msgstr "ziņu katalogā ir daudzskaitļa formu tulkojumi, bet izvades formāts tos neatbalsta."
+
+#: src/write-catalog.c:208 src/write-catalog.c:249 src/write-xml.c:56
+#, c-format
+msgid "cannot create output file \"%s\""
+msgstr "neizdevās izveidot izvades failu \"%s\""
+
+#: src/write-catalog.c:216 src/write-catalog.c:257
+msgid "standard output"
+msgstr "standarta izvade"
+
+#: src/write-catalog.c:232 src/write-catalog.c:300 src/write-csharp.c:696
+#: src/write-desktop.c:178 src/write-java.c:1106 src/write-java.c:1144
+#: src/write-mo.c:1125 src/write-mo.c:1147 src/write-qt.c:724
+#: src/write-tcl.c:312 src/write-xml.c:75
+#, c-format
+msgid "error while writing \"%s\" file"
+msgstr "kļūda, rakstot failā \"%s\""
+
+#: src/write-csharp.c:651
+#, c-format
+msgid "failed to create directory \"%s\""
+msgstr "neizdevās izveidot direktoriju \"%s\""
+
+#: src/write-csharp.c:687 src/write-java.c:1090 src/write-java.c:1098
+#: src/write-java.c:1123 src/write-java.c:1135
+#, c-format
+msgid "failed to create \"%s\""
+msgstr "neizdevās izveidot \"%s\""
+
+#: src/write-csharp.c:717
+#, c-format
+msgid "compilation of C# class failed, please try --verbose"
+msgstr "neizdevās C# klases kompilācija, lūdzu, mēģiniet izmantot --verbose"
+
+#: src/write-csharp.c:719
+#, c-format
+msgid "compilation of C# class failed"
+msgstr "neizdevās C# klases kompilācija"
+
+#: src/write-desktop.c:158 src/write-mo.c:1138 src/write-qt.c:714
+#: src/write-tcl.c:302
+#, c-format
+msgid "error while opening \"%s\" for writing"
+msgstr "kļūda, atverot \"%s\" rakstīšanai"
+
+#: src/write-java.c:1042
+#, c-format
+msgid "not a valid Java class name: %s"
+msgstr "nav derīgs Java klases nosaukums: %s"
+
+#: src/write-java.c:1160
+#, c-format
+msgid "compilation of Java class failed, please try --verbose or set $JAVAC"
+msgstr "neizdevās Java klases kompilācija, lūdzu, izmēģiniet --verbose vai iestatiet $JAVAC"
+
+#: src/write-java.c:1163
+#, c-format
+msgid "compilation of Java class failed, please try to set $JAVAC"
+msgstr "neizdevās Java klases kompilācija, lūdzu, mēģiniet iestatīt $JAVAC"
+
+#: src/write-po.c:803
+msgid "incomplete multibyte sequence"
+msgstr "nepilnīga daudzbaitu secība"
+
+#: src/write-po.c:870
+#, c-format
+msgid "internationalized messages should not contain the '\\%c' escape sequence"
+msgstr "lokalizētie ziņojumi nedrīkst saturēt '\\%c' vadzīmes secību"
+
+#: src/write-po.c:1316 src/write-po.c:1481
+#, c-format
+msgid ""
+"The following msgctxt contains non-ASCII characters.\n"
+"This will cause problems to translators who use a character encoding\n"
+"different from yours. Consider using a pure ASCII msgctxt instead.\n"
+"%s\n"
+msgstr ""
+"Šis msgctxt satur ne-ASCII rakstzīmes.\n"
+"Tas radīs problēmas tulkotājiem, kuri izmanto no jūsu atšķirīgu rakstzīmju kodējumu.\n"
+"Apsveriet iespēju tā vietā izmantot tīru ASCII msgctxt.\n"
+"%s\n"
+
+#: src/write-po.c:1328 src/write-po.c:1493
+#, c-format
+msgid ""
+"The following msgid contains non-ASCII characters.\n"
+"This will cause problems to translators who use a character encoding\n"
+"different from yours. Consider using a pure ASCII msgid instead.\n"
+"%s\n"
+msgstr ""
+"Šis msgid satur ne-ASCII rakstzīmes.\n"
+"Tas radīs problēmas tulkotājiem, kuri izmanto no jūsu atšķirīgu rakstzīmju kodējumu.\n"
+"Apsveriet iespēju tā vietā izmantot tīru ASCII msgid.\n"
+"%s\n"
+
+#: src/write-qt.c:647
+msgid ""
+"message catalog has plural form translations\n"
+"but the Qt message catalog format doesn't support plural handling\n"
+msgstr ""
+"ziņojumu katalogs satur daudzskaitļa formas tulkojumus,\n"
+"bet Qt ziņojumu kataloga formāts neatbalsta daudzskaitļa apstrādi\n"
+
+#: src/write-qt.c:671
+msgid ""
+"message catalog has msgctxt strings containing characters outside ISO-8859-1\n"
+"but the Qt message catalog format supports Unicode only in the translated\n"
+"strings, not in the context strings\n"
+msgstr ""
+"ziņojumu katalogs satur msgctxt virknes ar rakstzīmēm, kas neietilpst ISO-8859-1,\n"
+"bet Qt ziņojumu kataloga formāts atbalsta Unicode tikai tulkotajās virknēs, nevis konteksta virknēs\n"
+
+#: src/write-qt.c:691
+msgid ""
+"message catalog has msgid strings containing characters outside ISO-8859-1\n"
+"but the Qt message catalog format supports Unicode only in the translated\n"
+"strings, not in the untranslated strings\n"
+msgstr ""
+"ziņojumu katalogs satur msgid virknes ar rakstzīmēm, kas neietilpst ISO-8859-1,\n"
+"bet Qt ziņojumu kataloga formāts atbalsta Unicode tikai tulkotajās virknēs, nevis netulkotajās virknēs\n"
+
+#: src/write-resources.c:91
+#, c-format
+msgid "error while writing to %s subprocess"
+msgstr "kļūda, rakstot %s apakšprocesam"
+
+#: src/write-resources.c:126
+msgid ""
+"message catalog has context dependent translations\n"
+"but the C# .resources format doesn't support contexts\n"
+msgstr ""
+"ziņojumu katalogs satur no konteksta atkarīgus tulkojumus,\n"
+"bet C# .resources formāts neatbalsta kontekstus\n"
+
+#: src/write-resources.c:143
+msgid ""
+"message catalog has plural form translations\n"
+"but the C# .resources format doesn't support plural handling\n"
+msgstr ""
+"ziņojumu katalogs satur daudzskaitļa formas tulkojumus,\n"
+"bet C# .resources formāts neatbalsta daudzskaitļa apstrādi\n"
+
+#: src/write-tcl.c:248
+msgid ""
+"message catalog has context dependent translations\n"
+"but the Tcl message catalog format doesn't support contexts\n"
+msgstr ""
+"ziņojumu katalogs satur no konteksta atkarīgus tulkojumus,\n"
+"bet Tcl ziņojumu kataloga formāts neatbalsta kontekstus\n"
+
+#: src/write-tcl.c:265
+msgid ""
+"message catalog has plural form translations\n"
+"but the Tcl message catalog format doesn't support plural handling\n"
+msgstr ""
+"ziņojumu katalogs satur daudzskaitļa formas tulkojumus,\n"
+"bet Tcl ziņojumu kataloga formāts neatbalsta daudzskaitļa apstrādi\n"
+
+#: src/x-awk.c:327 src/x-javascript.c:880 src/x-python.c:895
+#, c-format
+msgid "unterminated string"
+msgstr "nepabeigta virkne"
+
+#: src/x-awk.c:573
+#, c-format
+msgid "unterminated regular expression"
+msgstr "nepabeigts regulārais izteiciens"
+
+#: src/x-awk.c:797 src/x-c.c:2337 src/x-csharp.c:2018 src/x-go.c:3190
+#: src/x-go.c:3224 src/x-go.c:3370 src/x-java.c:1788 src/x-javascript.c:1888
+#: src/x-lua.c:1075 src/x-modula2.c:683 src/x-ocaml.c:764 src/x-ocaml.c:796
+#: src/x-php.c:1760 src/x-python.c:1765 src/x-vala.c:1407 src/x-ycp.c:657
+#: src/x-ycp.c:732
+#, c-format
+msgid "too many open parentheses"
+msgstr "pārāk daudz atvērtu iekavu"
+
+#: src/x-c.c:1126
+#, c-format
+msgid "hexadecimal escape sequence in wide string literal is unsupported; use \\u instead of \\x if you meant to designate a Unicode character"
+msgstr "heksadecimālā atsoļa sekvence plašas virknes literālī netiek atbalstīta; lietojiet \\u \\x vietā, ja vēlaties norādīt Unicode rakstzīmi"
+
+#: src/x-c.c:1130 src/x-scheme.c:770 src/x-scheme.c:826 src/x-vala.c:557
+#, c-format
+msgid "hexadecimal escape sequence out of range"
+msgstr "heksadecimālā atsoļa sekvence ārpus diapazona"
+
+#: src/x-c.c:1218 src/x-csharp.c:1332 src/x-python.c:1128 src/x-sh.c:1101
+#: src/x-tcl.c:800 src/x-vala.c:641
+#, c-format
+msgid "invalid Unicode character"
+msgstr "nederīga Unicode rakstzīme"
+
+#: src/x-c.c:1423
+#, c-format
+msgid "a double-quote in the delimiter of a raw string literal is unsupported"
+msgstr "neapstrādātas virknes literāļa atdalītājs nedrīkst saturēt pēdiņas (\"\")"
+
+#: src/x-c.c:1498
+#, c-format
+msgid "unterminated raw string literal"
+msgstr "nepabeigts neapstrādāts virknes literālis"
+
+#: src/x-c.c:1507
+#, c-format
+msgid "invalid raw string literal syntax"
+msgstr "nederīga neapstrādātas virknes literāļa sintakse"
+
+#: src/x-c.c:1693 src/x-csharp.c:1451 src/x-java.c:697 src/x-vala.c:873
+#, c-format
+msgid "unterminated character constant"
+msgstr "nenobeigta rakstzīmes konstante"
+
+#: src/x-c.c:1732 src/x-modula2.c:436 src/x-vala.c:971
+#, c-format
+msgid "unterminated string literal"
+msgstr "nenobeigts virknes literālis"
+
+#: src/x-csharp.c:225 src/xg-encoding.c:156 src/xg-encoding.c:169
+#: src/xg-encoding.c:212 src/xg-encoding.c:226
+msgid "Please specify the source encoding through --from-code."
+msgstr "Lūdzu, norādiet avota kodējumu, izmantojot --from-code."
+
+#: src/x-csharp.c:272
+#, c-format
+msgid ""
+"%s:%d: Invalid multibyte sequence.\n"
+"Please specify the correct source encoding through --from-code.\n"
+msgstr ""
+"%s:%d: Nederīga daudzbaitu secība.\n"
+"Lūdzu, norādiet pareizo avota kodējumu, izmantojot --from-code.\n"
+
+#: src/x-csharp.c:286
+#, c-format
+msgid ""
+"%s:%d: Long incomplete multibyte sequence.\n"
+"Please specify the correct source encoding through --from-code.\n"
+msgstr ""
+"%s:%d: Gara nepilnīga daudzbaitu secība.\n"
+"Lūdzu, norādiet pareizo avota kodējumu, izmantojot --from-code.\n"
+
+#: src/x-csharp.c:298
+#, c-format
+msgid ""
+"%s:%d: Incomplete multibyte sequence at end of file.\n"
+"Please specify the correct source encoding through --from-code.\n"
+msgstr ""
+"%s:%d: Nepilnīga daudzbaitu secība faila beigās.\n"
+"Lūdzu, norādiet pareizo avota kodējumu, izmantojot --from-code.\n"
+
+#: src/x-csharp.c:307
+#, c-format
+msgid ""
+"%s:%d: Incomplete multibyte sequence at end of line.\n"
+"Please specify the correct source encoding through --from-code.\n"
+msgstr ""
+"%s:%d: Nepilnīga daudzbaitu secība rindas beigās.\n"
+"Lūdzu, norādiet pareizo avota kodējumu, izmantojot --from-code.\n"
+
+#: src/x-csharp.c:340
+#, c-format
+msgid ""
+"%s:%d: Invalid multibyte sequence.\n"
+"Please specify the source encoding through --from-code.\n"
+msgstr ""
+"%s:%d: Nederīga daudzbaitu secība.\n"
+"Lūdzu, norādiet avota kodējumu, izmantojot --from-code.\n"
+
+#: src/x-csharp.c:1455 src/x-java.c:701
+#, c-format
+msgid "unterminated string constant"
+msgstr "nenobeigta virknes konstante"
+
+#: src/x-csharp.c:2043 src/x-java.c:1833
+#, c-format
+msgid "')' found where '}' was expected"
+msgstr "atrasts ')', kur bija jābūt '}'"
+
+#: src/x-csharp.c:2052 src/x-java.c:1842 src/x-javascript.c:1959
+#: src/x-tcl.c:888
+#, c-format
+msgid "too many open braces"
+msgstr "pārāk daudz atvērtu figūriekavu"
+
+#: src/x-csharp.c:2077 src/x-java.c:1867
+#, c-format
+msgid "'}' found where ')' was expected"
+msgstr "atrasts '}', kur bija jābūt ')'"
+
+#: src/x-d.c:659 src/x-go.c:1187 src/x-ocaml.c:562 src/x-rust.c:474
+#: src/x-typescript-impl.h:631
+#, c-format
+msgid "invalid escape sequence in string"
+msgstr "nederīga vadības sekvence virknē"
+
+#: src/x-d.c:953 src/x-d.c:1043 src/x-d.c:1081 src/x-d.c:1134 src/x-d.c:1232
+#: src/x-d.c:1280 src/x-d.c:1411 src/x-d.c:1464 src/x-d.c:1502 src/x-d.c:1636
+#: src/x-ocaml.c:865 src/x-rust.c:612 src/x-rust.c:649 src/x-rust.c:792
+#: src/x-rust.c:881 src/x-rust.c:1080 src/x-typescript-impl.h:801
+#: src/x-typescript-impl.h:838 src/x-typescript-impl.h:939
+#, c-format
+msgid "too many open parentheses, brackets, or braces"
+msgstr "pārāk daudz atvērtu iekavu, kvadrātiekavu vai figūriekavu"
+
+#: src/x-d.c:1699 src/x-go.c:3589 src/x-ocaml.c:925 src/x-rust.c:1139
+#: src/x-typescript-impl.h:997
+#, c-format
+msgid "file \"%s\" is unsupported because too large"
+msgstr "fails \"%s\" netiek atbalstīts, jo ir pārāk liels"
+
+#: src/x-d.c:1780
+#, c-format
+msgid "file \"%s\" is unsupported because not UTF-8 or UTF-16 or UTF-32 encoded"
+msgstr "fails \"%s\" netiek atbalstīts, jo nav kodēts UTF-8, UTF-16 vai UTF-32"
+
+#: src/x-elisp.c:444
+#, c-format
+msgid "too deeply nested escape sequence"
+msgstr "pārāk dziļi ligzdota vadības sekvence"
+
+#: src/x-elisp.c:639 src/x-librep.c:602 src/x-lisp.c:925 src/x-scheme.c:1012
+#, c-format
+msgid "too deeply nested objects"
+msgstr "pārāk dziļi ligzdoti objekti"
+
+#: src/xg-arglist-parser.c:370
+#, c-format
+msgid "ambiguous argument specification for keyword '%.*s'"
+msgstr "neskaidra argumenta specifikācija atslēgvārdam '%.*s'"
+
+#: src/xg-arglist-parser.c:423
+#, c-format
+msgid "missing context for keyword '%.*s'"
+msgstr "trūkst konteksta atslēgvārdam '%.*s'"
+
+#: src/xg-arglist-parser.c:445
+#, c-format
+msgid "missing context for plural argument of keyword '%.*s'"
+msgstr "trūkst konteksta atslēgvārda '%.*s' daudzskaitļa argumentam."
+
+#: src/xg-arglist-parser.c:463
+#, c-format
+msgid "context mismatch between singular and plural form"
+msgstr "konteksta neatbilstība starp vienskaitļa un daudzskaitļa formām"
+
+#: src/xg-check.c:92
+msgid "ASCII ellipsis ('...') instead of Unicode"
+msgstr "Unicode daudzpunktes vietā izmantota ASCII daudzpunkte ('...')"
+
+#: src/xg-check.c:181
+msgid "space before ellipsis found in user visible string"
+msgstr "lietotājam redzamā virknē atrasta atstarpe pirms daudzpunktes"
+
+#: src/xg-check.c:207
+msgid "ASCII double quote used instead of Unicode"
+msgstr "Unicode pēdiņu vietā izmantotas ASCII pēdiņas"
+
+#: src/xg-check.c:213
+msgid "ASCII single quote used instead of Unicode"
+msgstr "Unicode apostrofa vietā izmantots ASCII apostrofs"
+
+#: src/xg-check.c:333
+#, c-format
+msgid "ASCII bullet ('%c') instead of Unicode"
+msgstr "Unicode aizzīmes vietā izmantota ASCII aizzīme ('%c')"
+
+#: src/xg-check.c:429
+#, c-format
+msgid "Message contains an embedded URL.  Better move it out of the translatable string, see %s"
+msgstr "Ziņojums satur iegultu URL. Ieteicams to pārvietot ārpus tulkojamās virknes, skatiet %s"
+
+#: src/xg-check.c:521
+#, c-format
+msgid "Message contains an embedded email address.  Better move it out of the translatable string, see %s"
+msgstr "Ziņojums satur iegultu e-pasta adresi. Ieteicams to pārvietot ārpus tulkojamās virknes, skatiet %s"
+
+#: src/xg-encoding.c:75
+#, c-format
+msgid "Non-ASCII character at %s%s."
+msgstr "Ne-ASCII rakstzīme pozīcijā %s%s."
+
+#: src/xg-encoding.c:79
+#, c-format
+msgid "Non-ASCII comment at or before %s%s."
+msgstr "Ne-ASCII komentārs pozīcijā %s%s vai pirms tās."
+
+#: src/xg-encoding.c:84
+#, c-format
+msgid "Non-ASCII string at %s%s."
+msgstr "Ne-ASCII virkne pozīcijā %s%s."
+
+#: src/xg-encoding.c:89
+#, c-format
+msgid "Non-ASCII XML tag at %s%s."
+msgstr "Ne-ASCII XML tags pozīcijā %s%s."
+
+#: src/xg-encoding.c:114
+#, c-format
+msgid "Character at %s%s is not UTF-8 encoded."
+msgstr "Rakstzīme pozīcijā %s%s nav kodēta UTF-8."
+
+#: src/xg-encoding.c:119
+#, c-format
+msgid "Comment at or before %s%s is not UTF-8 encoded."
+msgstr "Komentārs pozīcijā %s%s vai pirms tās nav kodēts UTF-8."
+
+#: src/xg-encoding.c:124
+#, c-format
+msgid "String at %s%s is not UTF-8 encoded."
+msgstr "Virkne pozīcijā %s%s nav kodēta UTF-8."
+
+#: src/xg-encoding.c:130
+#, c-format
+msgid "XML tag at %s%s is not UTF-8 encoded."
+msgstr "XML tags pozīcijā %s%s nav kodēts UTF-8."
+
+#: src/xgettext.c:658
+#, c-format
+msgid "'%s' is not a valid encoding name.  Using ASCII as fallback.\n"
+msgstr "'%s' nav derīgs kodējuma nosaukums. Kā aizstājējs tiek izmantots ASCII.\n"
+
+#: src/xgettext.c:730 src/xgettext.c:746
+#, c-format
+msgid "syntax check '%s' unknown"
+msgstr "sintakses pārbaude '%s' nav zināma"
+
+#: src/xgettext.c:756
+#, c-format
+msgid "sentence end type '%s' unknown"
+msgstr "teikuma beigu tips '%s' nav zināms"
+
+#: src/xgettext.c:829
+#, c-format
+msgid "--join-existing cannot be used when output is written to stdout"
+msgstr "--join-existing nevar lietot, ja izvade tiek rakstīta uz stdout"
+
+#: src/xgettext.c:833
+#, c-format
+msgid "xgettext cannot work without keywords to look for"
+msgstr "xgettext nevar darboties bez meklēšanas atslēgvārdiem"
+
+#: src/xgettext.c:979
+#, c-format
+msgid "warning: ITS rule file '%s' does not exist"
+msgstr "brīdinājums: ITS noteikumu fails '%s' neeksistē"
+
+#: src/xgettext.c:1049
+#, c-format
+msgid "warning: a fallback ITS rule file '%s' is used; it may not be in sync with the upstream"
+msgstr "brīdinājums: tiek izmantots rezerves ITS noteikumu fails '%s'; tas var nebūt sinhronizēts ar augšupstraumes versiju"
+
+#: src/xgettext.c:1059
+#, c-format
+msgid "warning: ITS rule file '%s' does not exist; check your gettext installation"
+msgstr "brīdinājums: ITS noteikumu fails '%s' neeksistē; pārbaudiet savu gettext instalāciju"
+
+#: src/xgettext.c:1077
+#, c-format
+msgid "warning: file '%s' extension '%s' is unknown; will try C"
+msgstr "brīdinājums: faila '%s' paplašinājums '%s' nav zināms; tiks mēģināts C"
+
+#: src/xgettext.c:1168
+#, c-format
+msgid "Extract translatable strings from given input files.\n"
+msgstr "Izvilkt tulkojamās virknes no norādītajiem ievades failiem.\n"
+
+#: src/xgettext.c:1191
+#, c-format
+msgid "  -d, --default-domain=NAME   use NAME.po for output (instead of messages.po)\n"
+msgstr "  -d, --default-domain=NOSAUKUMS   lietot NOSAUKUMS.po izvadei (ziņas.po vietā)\n"
+
+#: src/xgettext.c:1193
+#, c-format
+msgid "  -o, --output=FILE           write output to specified file\n"
+msgstr "  -o, --output=FAILS           rakstīt izvadi norādītajā failā\n"
+
+#: src/xgettext.c:1195
+#, c-format
+msgid "  -p, --output-dir=DIR        output files will be placed in directory DIR\n"
+msgstr "  -p, --output-dir=DIR        izvades faili tiks ievietoti direktorijā DIR\n"
+
+#: src/xgettext.c:1200
+#, c-format
+msgid "Choice of input file language:\n"
+msgstr "Ievades faila valodas izvēle:\n"
+
+#: src/xgettext.c:1202
+#, c-format
+msgid ""
+"  -L, --language=NAME         recognise the specified language\n"
+"                                (C, C++, ObjectiveC, PO, Python, Java,\n"
+"                                JavaProperties, C#, JavaScript, TypeScript, TSX,\n"
+"                                Scheme, Guile, Lisp, EmacsLisp, librep, Rust,\n"
+"                                Go, Ruby, Shell, awk, Lua, Modula-2, D, OCaml,\n"
+"                                Smalltalk, Vala, Tcl, Perl, PHP, GCC-source,\n"
+"                                YCP, NXStringTable, RST, RSJ, Glade, GSettings,\n"
+"                                Desktop)\n"
+msgstr ""
+"  -L, --language=VALODA         atpazīt norādīto valodu\n"
+"                                (C, C++, ObjectiveC, PO, Python, Java,\n"
+"                                JavaProperties, C#, JavaScript, TypeScript, TSX,\n"
+"                                Scheme, Guile, Lisp, EmacsLisp, librep, Rust,\n"
+"                                Go, Ruby, Shell, awk, Lua, Modula-2, D, OCaml,\n"
+"                                Smalltalk, Vala, Tcl, Perl, PHP, GCC-source,\n"
+"                                YCP, NXStringTable, RST, RSJ, Glade, GSettings,\n"
+"                                Desktop)\n"
+
+#: src/xgettext.c:1211
+#, c-format
+msgid "  -C, --c++                   shorthand for --language=C++\n"
+msgstr "  -C, --c++                   saīsinājums opcijai --language=C++\n"
+
+#: src/xgettext.c:1213
+#, c-format
+msgid "By default the language is guessed depending on the input file name extension.\n"
+msgstr "Pēc noklusējuma valoda tiek noteikta atkarībā no ievades faila paplašinājuma.\n"
+
+#: src/xgettext.c:1218
+#, c-format
+msgid ""
+"      --from-code=NAME        encoding of input files\n"
+"                                (except for Python, Tcl, Glade)\n"
+msgstr ""
+"    --from-code=NOSAUKUMS        ievades failu kodējums\n"
+"                                (izņemot Python, Tcl, Glade)\n"
+
+#: src/xgettext.c:1221
+#, c-format
+msgid "By default the input files are assumed to be in ASCII.\n"
+msgstr "Pēc noklusējuma tiek pieņemts, ka ievades faili ir ASCII formātā.\n"
+
+#: src/xgettext.c:1226
+#, c-format
+msgid "  -j, --join-existing         join messages with existing file\n"
+msgstr "  -j, --join-existing         pievienot ziņojumus esošam failam\n"
+
+#: src/xgettext.c:1228
+#, c-format
+msgid "  -x, --exclude-file=FILE.po  entries from FILE.po are not extracted\n"
+msgstr "  -x, --exclude-file=FAILS.po  ieraksti no FAILS.po netiek izvilkti\n"
+
+#: src/xgettext.c:1230
+#, c-format
+msgid ""
+"  -cTAG, --add-comments=TAG   place comment blocks starting with TAG and\n"
+"                                preceding keyword lines in output file\n"
+"  -c, --add-comments          place all comment blocks preceding keyword lines\n"
+"                                in output file\n"
+msgstr ""
+"  -cTAG, --add-comments=TAG   ievietot komentāru blokus, kas sākas ar TAG un\n"
+"                                atrodas pirms atslēgvārdu rindām izvades failā\n"
+"  -c, --add-comments          ievietot visus komentāru blokus, kas atrodas pirms\n"
+"                                atslēgvārdu rindām izvades failā\n"
+
+#: src/xgettext.c:1235
+#, c-format
+msgid ""
+"      --check=NAME            perform syntax check on messages\n"
+"                                (ellipsis-unicode, space-ellipsis,\n"
+"                                 quote-unicode, bullet-unicode)\n"
+msgstr ""
+"      --check=NOSAUKUMS            veikt sintakses pārbaudi ziņojumiem\n"
+"                                (ellipsis-unicode, space-ellipsis,\n"
+"                                 quote-unicode, bullet-unicode)\n"
+
+#: src/xgettext.c:1239
+#, c-format
+msgid ""
+"      --no-check=NAME         don't perform syntax check on messages\n"
+"                                (url, email)\n"
+msgstr ""
+"      --no-check=NOSAUKUMS          neveikt sintakses pārbaudi ziņojumiem\n"
+"                                (url, email)\n"
+
+#: src/xgettext.c:1242
+#, c-format
+msgid ""
+"      --sentence-end=TYPE     type describing the end of sentence\n"
+"                                (single-space, which is the default, \n"
+"                                 or double-space)\n"
+msgstr ""
+"      --sentence-end=TIPS     tips, kas nosaka teikuma beigas\n"
+"                                (single-space, kas ir noklusējums, \n"
+"                                 vai double-space)\n"
+
+#: src/xgettext.c:1247
+#, c-format
+msgid "Language specific options:\n"
+msgstr "Valodas specifiskās opcijas:\n"
+
+#: src/xgettext.c:1249
+#, c-format
+msgid "  -a, --extract-all           extract all strings\n"
+msgstr "  -a, --extract-all           izvilkt visas virknes\n"
+
+#: src/xgettext.c:1251
+#, c-format
+msgid ""
+"                                (only languages C, C++, ObjectiveC, Python,\n"
+"                                Java, C#, JavaScript, TypeScript, TSX, Scheme,\n"
+"                                Guile, Lisp, EmacsLisp, librep, Rust, Go, Shell,\n"
+"                                awk, Lua, Modula-2, D, OCaml, Vala, Tcl, Perl,\n"
+"                                PHP, GCC-source, Glade, GSettings)\n"
+msgstr ""
+"                                (tikai valodas C, C++, ObjectiveC, Python,\n"
+"                                Java, C#, JavaScript, TypeScript, TSX, Scheme,\n"
+"                                Guile, Lisp, EmacsLisp, librep, Rust, Go, Shell,\n"
+"                                awk, Lua, Modula-2, D, OCaml, Vala, Tcl, Perl,\n"
+"                                PHP, GCC-source, Glade, GSettings)\n"
+
+#: src/xgettext.c:1260
+#, c-format
+msgid ""
+"                                (only languages C, C++, ObjectiveC, Python,\n"
+"                                Java, C#, JavaScript, TypeScript, TSX, Scheme,\n"
+"                                Guile, Lisp, EmacsLisp, librep, Rust, Go, Shell,\n"
+"                                awk, Lua, Modula-2, D, OCaml, Vala, Tcl, Perl,\n"
+"                                PHP, GCC-source, Glade, GSettings, Desktop)\n"
+msgstr ""
+"                                (tikai valodas C, C++, ObjectiveC, Python,\n"
+"                                Java, C#, JavaScript, TypeScript, TSX, Scheme,\n"
+"                                Guile, Lisp, EmacsLisp, librep, Rust, Go, Shell,\n"
+"                                awk, Lua, Modula-2, D, OCaml, Vala, Tcl, Perl,\n"
+"                                PHP, GCC-source, Glade, GSettings, Desktop)\n"
+
+#: src/xgettext.c:1266
+#, c-format
+msgid ""
+"      --flag=WORD:ARG:FLAG    additional flag for strings inside the argument\n"
+"                              number ARG of keyword WORD\n"
+msgstr ""
+"      --flag=WORD:ARG:FLAG    papildu karogi virknēm atslēgvārda WORD\n"
+"                              argumentā ar numuru ARG\n"
+
+#: src/xgettext.c:1269
+#, c-format
+msgid ""
+"                                (only languages C, C++, ObjectiveC, Python,\n"
+"                                Java, C#, JavaScript, TypeScript, TSX, Scheme,\n"
+"                                Guile, Lisp, EmacsLisp, librep, Rust, Go, Shell,\n"
+"                                awk, Lua, Modula-2, D, OCaml, Vala, Tcl, Perl,\n"
+"                                PHP, GCC-source, YCP)\n"
+msgstr ""
+"                                (tikai valodas C, C++, ObjectiveC, Python,\n"
+"                                Java, C#, JavaScript, TypeScript, TSX, Scheme,\n"
+"                                Guile, Lisp, EmacsLisp, librep, Rust, Go, Shell,\n"
+"                                awk, Lua, Modula-2, D, OCaml, Vala, Tcl, Perl,\n"
+"                                PHP, GCC-source, YCP)\n"
+
+#: src/xgettext.c:1275
+#, c-format
+msgid ""
+"      --tag=WORD:FORMAT       defines the behaviour of tagged template literals\n"
+"                              with tag WORD\n"
+msgstr ""
+"                                (tag=WORD:FORMAT        definē atzīmētu veidnes literāļu uzvedību\n"
+"                              ar atzīmi WORD\n"
+
+#: src/xgettext.c:1278
+#, c-format
+msgid "                                (only language JavaScript)\n"
+msgstr "                                (tikai valodai JavaScript)\n"
+
+#: src/xgettext.c:1280
+#, c-format
+msgid "  -T, --trigraphs             understand ANSI C trigraphs for input\n"
+msgstr "  -T, --trigraphs             saprast ANSI C trigrāfus ievadei\n"
+
+#: src/xgettext.c:1282
+#, c-format
+msgid "                                (deprecated; only languages C, C++, ObjectiveC)\n"
+msgstr "                                (novecojis; tikai valodas C, C++, ObjectiveC)\n"
+
+#: src/xgettext.c:1284
+#, c-format
+msgid "      --its=FILE              apply ITS rules from FILE\n"
+msgstr "      --its=FAILS              piemērot ITS noteikumus no FAILA\n"
+
+#: src/xgettext.c:1286
+#, c-format
+msgid "                                (only XML based languages)\n"
+msgstr "                                (tikai XML bāzes valodām)\n"
+
+#: src/xgettext.c:1288
+#, c-format
+msgid "      --qt                    recognize Qt format strings\n"
+msgstr "      --qt                    atpazīt Qt formāta virknes\n"
+
+#: src/xgettext.c:1290 src/xgettext.c:1294 src/xgettext.c:1298
+#, c-format
+msgid "                                (only language C++)\n"
+msgstr "                                (tikai valodai C++)\n"
+
+#: src/xgettext.c:1292
+#, c-format
+msgid "      --kde                   recognize KDE 4 format strings\n"
+msgstr "      --kde                   atpazīt KDE 4 formāta virknes\n"
+
+#: src/xgettext.c:1296
+#, c-format
+msgid "      --boost                 recognize Boost format strings\n"
+msgstr "      --boost                 atpazīt Boost formāta virknes\n"
+
+#: src/xgettext.c:1300
+#, c-format
+msgid "      --debug                 more detailed formatstring recognition result\n"
+msgstr "      --debug                 detalizētāks formāta virkņu atpazīšanas rezultāts\n"
+
+#: src/xgettext.c:1325
+#, c-format
+msgid "      --properties-output     write out a Java .properties file\n"
+msgstr "      --properties-output     izvadīt Java .properties failu\n"
+
+#: src/xgettext.c:1329
+#, c-format
+msgid "      --itstool               write out itstool comments\n"
+msgstr "      --tstool               izvadīt itstool komentārus\n"
+
+#: src/xgettext.c:1342
+#, c-format
+msgid ""
+"      --no-git                don't use the git program to produce a\n"
+"                              reproducible 'POT-Creation-Date' field in the\n"
+"                              output.\n"
+msgstr ""
+"      --no-git                neizmantot git programmu, lai izveidotu\n"
+"                              reproducējamu 'POT-Creation-Date' lauku\n"
+"                              izvadē.\n"
+
+#: src/xgettext.c:1346
+#, c-format
+msgid "      --copyright-holder=STRING  set copyright holder in output\n"
+msgstr "      --copyright-holder=VIRKNE  norādīt autortiesību turētāju izvadē\n"
+
+#: src/xgettext.c:1348
+#, c-format
+msgid "      --foreign-user          omit FSF copyright in output for foreign user\n"
+msgstr "      --foreign-user          izlaist FSF autortiesības izvadē ārpusprojekta lietotājiem\n"
+
+#: src/xgettext.c:1350
+#, c-format
+msgid "      --package-name=PACKAGE  set package name in output\n"
+msgstr "      --package-name=PAKOTNE  norādīt pakotnes nosaukumu izvadē\n"
+
+#: src/xgettext.c:1352
+#, c-format
+msgid "      --package-version=VERSION  set package version in output\n"
+msgstr "      ----package-version=VERSIJA  norādīt pakotnes versiju izvadē\n"
+
+#: src/xgettext.c:1354
+#, c-format
+msgid "      --msgid-bugs-address=EMAIL@ADDRESS  set report address for msgid bugs\n"
+msgstr "      --msgid-bugs-address=EMAIL@ADDRESS  norādīt adresi ziņošanai par msgid kļūdām\n"
+
+#: src/xgettext.c:1356
+#, c-format
+msgid ""
+"      --generated=FILE        Declares that the given FILE is generated and\n"
+"                              therefore should not have an influence on the\n"
+"                              'POT-Creation-Date' field in the output.\n"
+msgstr ""
+"      --generated=FAILS        Norāda, ka dotais fails ir ģenerēts un\n"
+"                              tāpēc tam nevajadzētu ietekmēt\n"
+"                              'POT-Creation-Date' lauku izvadē.\n"
+
+#: src/xgettext.c:1360
+#, c-format
+msgid ""
+"      --reference=FILE        Declares that the output depends on the contents\n"
+"                              of the given FILE.  This has an influence on the\n"
+"                              'POT-Creation-Date' field in the output.\n"
+msgstr ""
+"      ----reference=FAILS        Norāda, ka izvade ir atkarīga no dotā\n"
+"                              faila satura. Tas ietekmē\n"
+"                              'POT-Creation-Date' lauku izvadē.\n"
+
+#: src/xgettext.c:1364
+#, c-format
+msgid ""
+"  -m[STRING], --msgstr-prefix[=STRING]  use STRING or \"\" as prefix for msgstr\n"
+"                                values\n"
+msgstr ""
+"  -m[VIRKNE], --msgstr-prefix[=VIRKNE]  izmantot VIRKNI vai \"\" kā prefiksu msgstr\n"
+"                                vērtībām\n"
+
+#: src/xgettext.c:1367
+#, c-format
+msgid ""
+"  -M[STRING], --msgstr-suffix[=STRING]  use STRING or \"\" as suffix for msgstr\n"
+"                                values\n"
+msgstr ""
+"  -M[VIRKNE], --msgstr-suffix[=VIRKNE]  izmantot VIRKNI vai \"\" kā sufiksu msgstr\n"
+"                                vērtībām\n"
+
+#: src/xgettext.c:1877
+#, c-format
+msgid "A --flag argument doesn't have the <keyword>:<argnum>:[pass-]<flag> syntax: %s"
+msgstr "--flag argumentam nav <keyword>:<argnum>:[pass-]<flag> sintakses: %s"
+
+#: src/xgettext.c:2036
+msgid "standard input"
+msgstr "standarta ievade"
+
+#: src/xgettext.c:2218
+msgid ""
+"The option --msgid-bugs-address was not specified.\n"
+"If you are using a 'Makevars' file, please specify\n"
+"the MSGID_BUGS_ADDRESS variable there; otherwise please\n"
+"specify an --msgid-bugs-address command line option.\n"
+msgstr ""
+"Opcija --msgid-bugs-address netika norādīta.\n"
+"Ja izmantojat 'Makevars' failu, lūdzu, norādiet\n"
+"mainīgo MSGID_BUGS_ADDRESS tajā; pretējā gadījumā\n"
+"lūdzu, norādiet --msgid-bugs-address komandrindas opciju.\n"
+
+#: src/xgettext.c:2351
+#, c-format
+msgid ""
+"Determining the POT-Creation-Date through the\n"
+"version-control (git) history took %.2f seconds.\n"
+"If you want to speed this up and produce a less\n"
+"reproducible POT-Creation-Date instead, without 'git',\n"
+"pass the option '%s'.\n"
+msgstr ""
+"POT-Creation-Date noteikšana, izmantojot versiju\n"
+"kontroles (git) vēsturi, aizņēma %.2f sekundes.\n"
+"Ja vēlaties šo procesu paātrināt un izveidot mazāk\n"
+"reproducējamu POT-Creation-Date, neizmantojot 'git',\n"
+"norādiet opciju '%s'.\n"
+
+#: src/xgettext.c:2568
+#, c-format
+msgid "language '%s' unknown"
+msgstr "valoda '%s' nav zināma"
+
+#: src/xg-message.c:66
+#, c-format
+msgid "Although being used in a format string position, the %s is not a valid %s format string. Reason: %s\n"
+msgstr "Lai gan tiek izmantots formāta virknes pozīcijā, %s nav derīga %s formāta virkne. Iemesls: %s\n"
+
+#: src/xg-message.c:67
+#, c-format
+msgid "Although declared as such, the %s is not a valid %s format string. Reason: %s\n"
+msgstr "Lai gan deklarēts kā tāds, %s nav derīga %s formāta virkne. Iemesls: %s\n"
+
+#: src/xg-message.c:246
+#, c-format
+msgid ""
+"'%s' format string with unnamed arguments cannot be properly localized:\n"
+"The translator cannot reorder the arguments.\n"
+"Please consider using a format string with named arguments,\n"
+"and a mapping instead of a tuple for the arguments.\n"
+msgstr ""
+"'%s' formāta virkni ar nenosauktiem argumentiem nevar pareizi lokalizēt:\n"
+"Tulkotājs nevar pārkārtot argumentus.\n"
+"Lūdzu, apsveriet iespēju izmantot formāta virkni ar nosauktiem argumentiem\n"
+"un argumentiem izmantot kartējumu, nevis kortežu.\n"
+
+#: src/xg-message.c:293
+#, c-format
+msgid ""
+"Empty msgid.  It is reserved by GNU gettext:\n"
+"gettext(\"\") returns the header entry with\n"
+"meta information, not the empty string.\n"
+msgstr ""
+"Tukšs msgid.  To rezervē GNU gettext:\n"
+"gettext(\"\") atgriež galvenes ierakstu ar\n"
+"metainformāciju, nevis tukšu virkni.\n"
+
+#: src/xg-message.c:332
+#, c-format
+msgid "%s%s: Here is the occurrence without plural."
+msgstr "%s%s: Šeit ir gadījums bez daudzskaitļa."
+
+#: src/xg-message.c:334
+#, c-format
+msgid "%s%s: Here is the occurrence with plural."
+msgstr "%s%s: Šeit ir gadījums ar daudzskaitli."
+
+#: src/xg-message.c:336
+msgid "Workaround: If the msgid is a sentence, change the wording of the sentence; otherwise, use contexts for disambiguation."
+msgstr "Apeja: Ja msgid ir teikums, mainiet tā formulējumu; pretējā gadījumā izmantojiet kontekstus viennozīmīgošanai."
+
+#: src/xg-mixed-string.c:514 src/x-typescript-impl.h:346
+#, c-format
+msgid "lone surrogate U+%04X"
+msgstr "nepārīgs surogāts U+%04X"
+
+#: src/x-go.c:3596 src/x-ocaml.c:932 src/x-rust.c:1146
+#, c-format
+msgid "file \"%s\" is invalid because not UTF-8 encoded"
+msgstr "fails \"%s\" ir nederīgs, jo nav kodēts UTF-8"
+
+#: src/x-java.c:1196 src/x-java.c:1239
+#, c-format
+msgid "unterminated text block"
+msgstr "nenoslēgts teksta bloks"
+
+#: src/x-java.c:1208
+#, c-format
+msgid "invalid syntax in text block"
+msgstr "nederīga sintakse teksta blokā"
+
+#: src/x-javascript.c:336
+msgid "Please specify the source encoding through --from-code\n"
+msgstr "Lūdzu, norādiet avotkodējumu, izmantojot --from-code\n"
+
+#: src/x-javascript.c:383
+#, c-format
+msgid ""
+"%s:%d: Invalid multibyte sequence.\n"
+"Please specify the correct source encoding through --from-code\n"
+msgstr ""
+"%s:%d: Nederīga daudzbaitu secība.\n"
+"Lūdzu, norādiet pareizo avota kodējumu ar --from-code\n"
+
+#: src/x-javascript.c:397
+#, c-format
+msgid ""
+"%s:%d: Long incomplete multibyte sequence.\n"
+"Please specify the correct source encoding through --from-code\n"
+msgstr ""
+"%s:%d: Gara nepilnīga daudzbaitu secība.\n"
+"Lūdzu, norādiet pareizo avota kodējumu ar --from-code\n"
+
+#: src/x-javascript.c:409
+#, c-format
+msgid ""
+"%s:%d: Incomplete multibyte sequence at end of file.\n"
+"Please specify the correct source encoding through --from-code\n"
+msgstr ""
+"%s:%d: Nepilnīga daudzbaitu secība faila beigās.\n"
+"Lūdzu, norādiet pareizo avota kodējumu, izmantojot --from-code\n"
+
+#: src/x-javascript.c:418
+#, c-format
+msgid ""
+"%s:%d: Incomplete multibyte sequence at end of line.\n"
+"Please specify the correct source encoding through --from-code\n"
+msgstr ""
+"%s:%d: Nepilnīga daudzbaitu secība rindas beigās.\n"
+"Lūdzu, norādiet pareizo avota kodējumu ar --from-code\n"
+
+#: src/x-javascript.c:451
+#, c-format
+msgid ""
+"%s:%d: Invalid multibyte sequence.\n"
+"Please specify the source encoding through --from-code\n"
+msgstr ""
+"%s:%d: Nederīga daudzbaitu secība.\n"
+"Lūdzu, norādiet avota kodējumu ar --from-code\n"
+
+#: src/x-javascript.c:1090
+#, c-format
+msgid "invalid RegExp literal"
+msgstr "nederīgs RegExp literālis"
+
+#: src/x-javascript.c:1133
+#, c-format
+msgid "RegExp literal terminated too early"
+msgstr "RegExp literālis noslēgts pārāk agri"
+
+#: src/x-javascript.c:1139
+#, c-format
+msgid "RegExp literal lacks a ']' to match the '['"
+msgstr "RegExp literālim trūkst '[' atbilstošā ']'."
+
+#: src/x-javascript.c:1280
+#, c-format
+msgid "%s is not allowed"
+msgstr "Nav atļauts: %s"
+
+#: src/x-javascript.c:1292
+#, c-format
+msgid "unterminated XML markup"
+msgstr "nenoslēgts XML marķējums"
+
+#: src/x-javascript.c:1522
+#, c-format
+msgid "ignoring CDATA section"
+msgstr "ignorē CDATA sadaļu"
+
+#: src/x-javascript.c:1929 src/x-lua.c:1106 src/x-php.c:1801
+#: src/x-python.c:1806 src/x-tcl.c:769
+#, c-format
+msgid "too many open brackets"
+msgstr "pārāk daudz atvērto iekavu"
+
+#: src/x-javascript.c:2058
+#, c-format
+msgid "too many open XML elements"
+msgstr "pārāk daudz atvērtu XML elementu"
+
+#: src/x-perl.c:451
+#, c-format
+msgid "can't find string terminator \"%s\" anywhere before EOF"
+msgstr "neizdevās atrast virknes terminātoru \"%s\" pirms faila beigām"
+
+#: src/x-perl.c:1099
+#, c-format
+msgid "missing right brace on \\x{HEXNUMBER}"
+msgstr "trūkst labās figūriekavas pie \\x{HEXNUMBER}"
+
+#: src/x-perl.c:1218
+#, c-format
+msgid "unsupported interpolation (\"\\l\") of 8bit character \"%c\""
+msgstr "neatbalstīta interpolācija (\"\\l\") 8 bitu rakstzīmei \"%c\""
+
+#: src/x-perl.c:1237
+#, c-format
+msgid "unsupported interpolation (\"\\u\") of 8bit character \"%c\""
+msgstr "neatbalstīta interpolācija (\"\\u\") 8 bitu rakstzīmei \"%c\""
+
+#: src/x-perl.c:1270
+#, c-format
+msgid "unsupported variable interpolation at \"%c\""
+msgstr "neatbalstīta mainīgā interpolācija pie \"%c\""
+
+#: src/x-perl.c:1282
+#, c-format
+msgid "unsupported interpolation (\"\\L\") of 8bit character \"%c\""
+msgstr "neatbalstīta interpolācija (\"\\L\") 8 bitu rakstzīmei \"%c\""
+
+#: src/x-perl.c:1298
+#, c-format
+msgid "unsupported interpolation (\"\\U\") of 8bit character \"%c\""
+msgstr "neatbalstīta interpolācija (\"\\U\") 8 bitu rakstzīmei \"%c\""
+
+#: src/x-perl.c:1686 src/x-perl.c:2855 src/x-perl.c:3221
+#, c-format
+msgid "too deeply nested expressions"
+msgstr "pārāk dziļi ligzdotas izteiksmes"
+
+#: src/x-php.c:999
+#, c-format
+msgid "unterminated expression in heredoc, expected a '%c'"
+msgstr "nepabeigta izteiksme heredoc, gaidīts '%c'"
+
+#: src/x-php.c:1000
+#, c-format
+msgid "unterminated expression in string literal, expected a '%c'"
+msgstr "nepabeigta izteiksme virknes literālī, gaidīts '%c'"
+
+#: src/x-php.c:1029
+#, c-format
+msgid "unterminated expression in heredoc contains unbalanced '%c'"
+msgstr "nepabeigta izteiksme heredoc satur nelīdzsvarotu '%c'"
+
+#: src/x-php.c:1030
+#, c-format
+msgid "unterminated expression in string literal contains unbalanced '%c'"
+msgstr "nepabeigta izteiksme virknes literālī satur nelīdzsvarotu '%c'"
+
+#: src/x-po.c:215
+#, c-format
+msgid "%s: input file doesn't contain a header entry with a charset specification"
+msgstr "%s: ievades failā nav galvenes ieraksta ar rakstzīmju kopas norādi"
+
+#: src/x-python.c:282
+msgid ""
+"Please specify the source encoding through --from-code or through a comment\n"
+"as specified in https://www.python.org/peps/pep-0263.html.\n"
+msgstr ""
+"Lūdzu, norādiet avota kodējumu, izmantojot --from-code vai komentāru,\n"
+"kā norādīts https://www.python.org/peps/pep-0263.html.\n"
+
+#: src/x-python.c:340
+#, c-format
+msgid ""
+"%s:%d: Long incomplete multibyte sequence.\n"
+"Please specify the correct source encoding through --from-code or through a\n"
+"comment as specified in https://www.python.org/peps/pep-0263.html.\n"
+msgstr ""
+"%s:%d: Pārāk gara nepilnīga daudzbaitsecība.\n"
+"Lūdzu, norādiet pareizo avota kodējumu, izmantojot --from-code vai komentāru,\n"
+"kā norādīts https://www.python.org/peps/pep-0263.html.\n"
+
+#: src/x-python.c:493
+#, c-format
+msgid ""
+"%s:%d: Invalid multibyte sequence.\n"
+"Please specify the correct source encoding through --from-code or through a\n"
+"comment as specified in https://www.python.org/peps/pep-0263.html.\n"
+msgstr ""
+"%s:%d: Nederīga daudzbaitsecība.\n"
+"Lūdzu, norādiet pareizo avota kodējumu, izmantojot --from-code vai komentāru,\n"
+"kā norādīts https://www.python.org/peps/pep-0263.html.\n"
+
+#: src/x-python.c:502
+#, c-format
+msgid ""
+"%s:%d: Incomplete multibyte sequence at end of file.\n"
+"Please specify the correct source encoding through --from-code or through a\n"
+"comment as specified in https://www.python.org/peps/pep-0263.html.\n"
+msgstr ""
+"%s:%d: Nepilnīga daudzbaitsecība faila beigās.\n"
+"Lūdzu, norādiet pareizo avota kodējumu, izmantojot --from-code vai komentāru,\n"
+"kā norādīts https://www.python.org/peps/pep-0263.html.\n"
+
+#: src/x-python.c:511
+#, c-format
+msgid ""
+"%s:%d: Incomplete multibyte sequence at end of line.\n"
+"Please specify the correct source encoding through --from-code or through a\n"
+"comment as specified in https://www.python.org/peps/pep-0263.html.\n"
+msgstr ""
+"%s:%d: Nepilnīga daudzbaitsecība rindas beigās.\n"
+"Lūdzu, norādiet pareizo avota kodējumu, izmantojot --from-code vai komentāru,\n"
+"kā norādīts https://www.python.org/peps/pep-0263.html.\n"
+
+#: src/x-python.c:677
+#, c-format
+msgid "Unknown encoding \"%s\". Proceeding with ASCII instead."
+msgstr "Nezināms kodējums \"%s\". Tā vietā tiks izmantots ASCII."
+
+#: src/x-rst.c:112
+#, c-format
+msgid "invalid string definition"
+msgstr "nederīga virknes definīcija"
+
+#: src/x-rst.c:171
+#, c-format
+msgid "missing number after #"
+msgstr "trūkst skaitļa aiz #"
+
+#: src/x-rst.c:198
+#, c-format
+msgid "invalid string expression"
+msgstr "nederīga virknes izteiksme"
+
+#: src/x-rst.c:666
+#, c-format
+msgid "invalid JSON syntax"
+msgstr "nederīga JSON sintakse"
+
+#: src/x-rst.c:672
+#, c-format
+msgid "invalid RSJ syntax"
+msgstr "nederīga RSJ sintakse"
+
+#: src/x-rst.c:678
+#, c-format
+msgid "invalid RSJ version. Only version 1 is supported."
+msgstr "nederīga RSJ versija. Tiek atbalstīta tikai 1. versija."
+
+#: src/x-ruby.c:91
+#, c-format
+msgid "(output from '%s')"
+msgstr "(izvade no '%s')"
+
+#: src/x-scheme.c:763
+#, c-format
+msgid "hexadecimal escape sequence with too few digits"
+msgstr "hexadecimal escape sequence with too few digits"
+
+#: src/x-scheme.c:819
+#, c-format
+msgid "hexadecimal escape sequence with no digits"
+msgstr "seksdecimālā vadzīmes secība nesatur ciparus"
+
+#: src/x-scheme.c:834
+#, c-format
+msgid "hexadecimal escape sequence not terminated with a semicolon"
+msgstr "seksdecimālā vadzīmes secība nav noslēgta ar semikolu"
+
+#: src/x-scheme.c:1460
+#, c-format
+msgid "Unsupported Guile directive \"%s\"."
+msgstr "Neatbalstīta Guile direktīva \"%s\"."
+
+#: src/x-sh.c:1152
+#, c-format
+msgid "the syntax $\"...\" is deprecated due to security reasons; use eval_gettext instead"
+msgstr "sintakse $\"...\" ir novecojusi drošības apsvērumu dēļ; tās vietā lietojiet eval_gettext"
+
+#: src/x-sh.c:1504
+#, c-format
+msgid "too deeply nested command list"
+msgstr "pārāk dziļi ligzdots komandu saraksts"
+
+#: src/x-typescript-impl.h:1003
+#, c-format
+msgid "file \"%s\" is unsupported because not UTF-8 encoded"
+msgstr "fails \"%s\" nav atbalstīts, jo nav kodēts UTF-8"
+
+#: src/x-vala.c:689
+#, c-format
+msgid "regular expression literal terminated too early"
+msgstr "regulārās izteiksmes literālis pārtraukts pārāk agri"
+
+#: libgettextpo/gettext-po.c:83
+msgid "<unnamed>"
+msgstr "<nenosaukts>"
+
+#: libgettextpo/markup.c:361 libgettextpo/markup.c:449
+msgid "invalid UTF-8 sequence"
+msgstr "nederīga UTF-8 secība"
+
+#: libgettextpo/markup.c:377
+#, c-format
+msgid "'%s' is not a valid name: %c"
+msgstr "'%s' nav derīgs nosaukums: %c"
+
+#: libgettextpo/markup.c:395
+#, c-format
+msgid "'%s' is not a valid name: '%c'"
+msgstr "'%s' nav derīgs nosaukums: '%c'"
+
+#: libgettextpo/markup.c:523 libgettextpo/markup.c:532
+#: libgettextpo/markup.c:553
+#, c-format
+msgid "invalid character reference: %s"
+msgstr "nederīga rakstzīmes atsauce: %s"
+
+#: libgettextpo/markup.c:524
+msgid "not a valid number specification"
+msgstr "nederīga skaitļa specifikācija"
+
+#: libgettextpo/markup.c:533 libgettextpo/markup.c:597
+msgid "no ending ';'"
+msgstr "nav noslēdzošā ';'"
+
+#: libgettextpo/markup.c:554
+msgid "non-permitted character"
+msgstr "neatļauta rakstzīme"
+
+#: libgettextpo/markup.c:590
+msgid "empty"
+msgstr "tukšs"
+
+#: libgettextpo/markup.c:595
+msgid "unknown"
+msgstr "nezināms"
+
+#: libgettextpo/markup.c:600
+#, c-format
+msgid "invalid entity reference: %s"
+msgstr "derīga entītijas atsauce: %s"
+
+#: libgettextpo/markup.c:945
+msgid "document must begin with an element"
+msgstr "dokumentam jāsākas ar elementu"
+
+#: libgettextpo/markup.c:979 libgettextpo/markup.c:1285
+#: libgettextpo/markup.c:1314
+#, c-format
+msgid "invalid character after '%s'"
+msgstr "nederīga rakstzīme pēc '%s'"
+
+#: libgettextpo/markup.c:1016 libgettextpo/markup.c:1092
+#, c-format
+msgid "missing '%c'"
+msgstr "trūkst '%c'"
+
+#: libgettextpo/markup.c:1125 libgettextpo/markup.c:1161
+#, c-format
+msgid "missing '%c' or '%c'"
+msgstr "trūkst '%c' vai '%c'"
+
+#: libgettextpo/markup.c:1315
+msgid "a close element name"
+msgstr "aizverošais elementa nosaukums"
+
+#: libgettextpo/markup.c:1321 libgettextpo/markup.c:1326
+msgid "element is closed"
+msgstr "elements ir aizvērts"
+
+#: libgettextpo/markup.c:1452
+msgid "empty document"
+msgstr "tukšs dokuments"
+
+#: libgettextpo/markup.c:1466
+msgid "after '<'"
+msgstr "pēc '<'"
+
+#: libgettextpo/markup.c:1473 libgettextpo/markup.c:1505
+msgid "elements still open"
+msgstr "elementi joprojām atvērti"
+
+#: libgettextpo/markup.c:1478
+msgid "missing '>'"
+msgstr "trūkst '>'"
+
+#: libgettextpo/markup.c:1482
+msgid "inside an element name"
+msgstr "elementa nosaukuma iekšpusē"
+
+#: libgettextpo/markup.c:1487
+msgid "inside an attribute name"
+msgstr "atribūta nosaukuma iekšpusē"
+
+#: libgettextpo/markup.c:1491
+msgid "inside an open tag"
+msgstr "atvērta taga iekšpusē"
+
+#: libgettextpo/markup.c:1495
+msgid "after '='"
+msgstr "pēc '='"
+
+#: libgettextpo/markup.c:1500
+msgid "inside an attribute value"
+msgstr "atribūta vērtībā"
+
+#: libgettextpo/markup.c:1511
+msgid "inside the close tag"
+msgstr "aizvēršanas tagā"
+
+#: libgettextpo/markup.c:1515
+msgid "inside a comment or processing instruction"
+msgstr "komentārā vai apstrādes instrukcijā"
+
+#: libgettextpo/markup.c:1526
+#, c-format
+msgid "document ended unexpectedly: %s"
+msgstr "dokuments negaidīti beidzās: %s"
