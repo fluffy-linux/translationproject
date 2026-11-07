@@ -1,24 +1,23 @@
 # Latvian translation for coreutils.
 # Copyright (C) 2026 Free Software Foundation, Inc.
 # This file is distributed under the same license as the coreutils package.
-# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+# Rihards Priedītis <rprieditis@gmail.com>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 9.12-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2026-09-07 18:15+0100\n"
-"PO-Revision-Date: 2026-10-21 20:55+0300\n"
+"PO-Revision-Date: 2026-11-07 20:28+0200\n"
 "Last-Translator: Rihards Priedītis <rprieditis@gmail.com>\n"
-"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"Language-Team: Latvian <translation-team-lv@googlegroups.com>\n"
 "Language: lv\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==0 || (n%100>=11 && n%100<=19) ? 0 : n%10==1 && n%100!=11 ? 1 : 2);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 
 #: lib/argmatch.c:141
 #, c-format
@@ -154,7 +153,7 @@ msgstr "Resursdatora nosaukuma adrešu saime netiek atbalstīta"
 
 #: lib/gai_strerror.c:58
 msgid "Temporary failure in name resolution"
-msgstr "Pagaidu kļūme nosaukumu izšķiršanā"
+msgstr "Pagaidu kļūme nosaukumu atrisināšanā"
 
 #: lib/gai_strerror.c:59
 msgid "Bad value for ai_flags"
@@ -162,7 +161,7 @@ msgstr "Nederīga ai_flags vērtība"
 
 #: lib/gai_strerror.c:60
 msgid "Non-recoverable failure in name resolution"
-msgstr "Neatgriezeniska kļūme nosaukumu izšķiršanā"
+msgstr "Neatgriezeniska kļūme nosaukumu atrisināšanā"
 
 #: lib/gai_strerror.c:61
 msgid "ai_family not supported"
@@ -170,7 +169,7 @@ msgstr "ai_family netiek atbalstīta"
 
 #: lib/gai_strerror.c:62
 msgid "Memory allocation failure"
-msgstr "Atmiņas piešķiršanas kļūme"
+msgstr "Atmiņas izdalīšanas kļūme"
 
 #: lib/gai_strerror.c:63
 msgid "No address associated with hostname"
@@ -702,7 +701,7 @@ msgstr "Nederīga regulārā izteiksme"
 
 #: lib/regcomp.c:137
 msgid "Invalid collation character"
-msgstr "Nederīga salīdzināšanas rakstzīme"
+msgstr "Nederīga kārtošanas rakstzīme"
 
 #: lib/regcomp.c:140
 msgid "Invalid character class name"
@@ -710,7 +709,7 @@ msgstr "Nederīgs rakstzīmju klases nosaukums"
 
 #: lib/regcomp.c:143
 msgid "Trailing backslash"
-msgstr "Noslēdzoša apgrieztā slīpsvītra"
+msgstr "Noslēdzošā atpakaļvērstā slīpsvītra"
 
 #: lib/regcomp.c:146
 msgid "Invalid back reference"
@@ -718,15 +717,15 @@ msgstr "Nederīga atpakaļatsauce"
 
 #: lib/regcomp.c:149
 msgid "Unmatched [, [^, [:, [., or [="
-msgstr "Nesapārots [, [^, [:, [., vai [="
+msgstr "Nesapārota [, [^, [:, [., vai [="
 
 #: lib/regcomp.c:152
 msgid "Unmatched ( or \\("
-msgstr "Nesapārots ( vai \\("
+msgstr "Nesapārota ( vai \\("
 
 #: lib/regcomp.c:155
 msgid "Unmatched \\{"
-msgstr "Nesapārots \\{"
+msgstr "Nesapārota \\{"
 
 #: lib/regcomp.c:158
 msgid "Invalid content of \\{\\}"
@@ -758,7 +757,7 @@ msgstr "Nesapārota ) vai \\)"
 
 #: lib/regcomp.c:669
 msgid "No previous regular expression"
-msgstr "Nav iepriekšējas regulārās izteiksmes"
+msgstr "Nav iepriekšējās regulārās izteiksmes"
 
 #: lib/root-dev-ino.h:37
 #, c-format
@@ -810,7 +809,7 @@ msgstr "Pārtraukums"
 
 #: lib/siglist.h:37
 msgid "Quit"
-msgstr "Iziešana"
+msgstr "Iziet"
 
 #: lib/siglist.h:40
 msgid "Illegal instruction"
@@ -818,7 +817,7 @@ msgstr "Neatļauta instrukcija"
 
 #: lib/siglist.h:43
 msgid "Trace/breakpoint trap"
-msgstr "Trasēšanas/pārtraukumpunkta slazds"
+msgstr "Izsekošanas/pārtraukumpunkta slazds"
 
 #: lib/siglist.h:46
 msgid "Aborted"
@@ -830,7 +829,7 @@ msgstr "Peldošā komata izņēmums"
 
 #: lib/siglist.h:52
 msgid "Killed"
-msgstr "Nokauts"
+msgstr "Nobeigts"
 
 #: lib/siglist.h:55
 msgid "Bus error"
@@ -842,7 +841,7 @@ msgstr "Segmentācijas kļūda"
 
 #: lib/siglist.h:61
 msgid "Broken pipe"
-msgstr "Pārrauts kanāls"
+msgstr "Pārrauts cauruļvads"
 
 #: lib/siglist.h:64
 msgid "Alarm clock"
@@ -850,7 +849,7 @@ msgstr "Modinātājs"
 
 #: lib/siglist.h:67
 msgid "Terminated"
-msgstr "Pārtraukts"
+msgstr "Izbeigts"
 
 #: lib/siglist.h:70
 msgid "Urgent I/O condition"
@@ -870,7 +869,7 @@ msgstr "Turpināts"
 
 #: lib/siglist.h:82
 msgid "Child exited"
-msgstr "Bērna process beidzis darbu"
+msgstr "Bērnprocess beidzis darbu"
 
 #: lib/siglist.h:85
 msgid "Stopped (tty input)"
@@ -902,7 +901,7 @@ msgstr "Beidzies profilēšanas taimera laiks"
 
 #: lib/siglist.h:106
 msgid "Window changed"
-msgstr "Logs mainījies"
+msgstr "Logs mainīts"
 
 #: lib/siglist.h:109
 msgid "User defined signal 1"
@@ -922,7 +921,7 @@ msgstr "Nederīgs sistēmas izsaukums"
 
 #: lib/siglist.h:123
 msgid "Stack fault"
-msgstr "Steka kļūme"
+msgstr "Steka kļūda"
 
 #: lib/siglist.h:126
 msgid "Information request"
@@ -1017,7 +1016,7 @@ msgstr ""
 #: lib/version-etc.c:106
 #, c-format
 msgid "Written by %s.\n"
-msgstr "Autors %s.\n"
+msgstr "Autors: %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: lib/version-etc.c:110
@@ -1040,7 +1039,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"Autori: %s, %s, %s,\n"
+"Autori: %s, %s, %s\n"
 "un %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -1090,7 +1089,7 @@ msgid ""
 "and %s.\n"
 msgstr ""
 "Autori: %s, %s, %s,\n"
-"%s, %s, %s, %s,\n"
+"%s, %s, %s, %s\n"
 "un %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -1128,7 +1127,9 @@ msgstr ""
 #: lib/version-etc.c:249
 #, c-format
 msgid "Report bugs to: <%s>.\n"
-msgstr "Ziņot par kļūdām: <%s>.\n"
+msgstr ""
+"Ziņot par kļūdām: <%s>.\n"
+"Ziņot par tulkošanas kļūdām: <translation-team-lv@googlegroups.com>.\n"
 
 #: lib/version-etc.c:259
 #, c-format
@@ -1178,7 +1179,7 @@ msgstr "nederīgs %s%s arguments %s"
 #: lib/xstrtol-error.c:66
 #, c-format
 msgid "invalid suffix in %s%s argument %s"
-msgstr "nederīgs sufikss %s%s argumentā %s"
+msgstr "nederīgs piedēklis %s%s argumentā %s"
 
 #: lib/xstrtol-error.c:70
 #, c-format
@@ -1198,7 +1199,7 @@ msgstr "%s%s arguments %s ir pārāk liels"
 #: src/unexpand.c:51 src/uniq.c:42 src/uptime.c:36 src/users.c:34 src/wc.c:50
 #: src/who.c:49 src/yes.c:36
 msgid "David MacKenzie"
-msgstr "Deivids Makenzijs"
+msgstr "David MacKenzie"
 
 #: src/basename.c:50
 #, c-format
@@ -1284,12 +1285,12 @@ msgstr "lieks operands %s"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/basenc.c:36 src/basenc.c:39
 msgid "Simon Josefsson"
-msgstr "Simons Jozefsons"
+msgstr "Simon Josefsson"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/basenc.c:37 src/env.c:44 src/numfmt.c:43
 msgid "Assaf Gordon"
-msgstr "Asafs Gordons"
+msgstr "Assaf Gordon"
 
 #: src/basenc.c:102 src/dircolors.c:102 src/uptime.c:149 src/users.c:102
 #, c-format
@@ -1469,13 +1470,13 @@ msgstr "trūkst kodēšanas tipa"
 #: src/cat.c:50 src/cp.c:43 src/df.c:44 src/du.c:52 src/factor.c:98
 #: src/split.c:52
 msgid "Torbjorn Granlund"
-msgstr "Torbjorns Granlunds"
+msgstr "Torbjorn Granlund"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cat.c:51 src/comm.c:36 src/ls.c:127 src/rm.c:40 src/split.c:53
 #: src/tee.c:37 src/uniq.c:41
 msgid "Richard M. Stallman"
-msgstr "Ričards M. Stolmens"
+msgstr "Richard M. Stallman"
 
 #: src/cat.c:93 src/cksum.c:495 src/df.c:1498 src/expand.c:70 src/fold.c:76
 #: src/head.c:108 src/ls.c:5391 src/nl.c:181 src/paste.c:453 src/pr.c:2768
@@ -1636,7 +1637,8 @@ msgid ""
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
 "Lietošana: %s [OPCIJA]... KONTEKSTS FAILS...\n"
-"  vai:  %s [OPCIJA]... [-u LIETOTĀJS] [-r LOMA] [-l DIAPAZONS] [-t TIPS] FAILS...\n"
+"  vai:  %s [OPCIJA]... [-u LIETOTĀJS] [-r LOMA] [-l DIAPAZONS] [-t TIPS]\n"
+"        FAILS...\n"
 "  vai:  %s [OPCIJA]... --reference=RFAILS FAILS...\n"
 
 #: src/chcon.c:370
@@ -1784,7 +1786,7 @@ msgstr "ne simboliskā saite %s, ne tās mērķis nav mainīts\n"
 #: src/chmod.c:175
 #, c-format
 msgid "%s could not be accessed\n"
-msgstr "%s neizdevās piekļūt\n"
+msgstr "neizdevās piekļūt %s\n"
 
 #: src/chmod.c:195
 #, c-format
@@ -1804,12 +1806,12 @@ msgstr "%s režīms saglabāts kā %04lo (%s)\n"
 #: src/chmod.c:267
 #, c-format
 msgid "cannot operate on dangling symlink %s"
-msgstr "nevar darboties ar karājošos simbolisko saiti %s"
+msgstr "nevar darboties ar karājošo simbolisko saiti %s"
 
 #: src/chmod.c:283 src/chown-core.c:393
 #, c-format
 msgid "cannot dereference %s"
-msgstr "nevar atcelt norādi uz %s"
+msgstr "neizdevās atrisināt %s"
 
 #: src/chmod.c:335
 #, c-format
@@ -1840,6 +1842,7 @@ msgid ""
 msgstr ""
 "Maina katra FAILA režīmu uz norādīto REŽĪMU.\n"
 "Ar --reference maina katra FAILA režīmu uz ATSAUCES_FAILA režīmu.\n"
+"\n"
 
 #: src/chmod.c:445 src/chown.c:98
 msgid ""
@@ -1883,7 +1886,7 @@ msgid ""
 msgstr ""
 "      --reference=RFILE\n"
 "         izmantot RFILE režīmu, nevis norādīt MODE vērtības.\n"
-"         ja RFILE ir simboliskā saite, vienmēr tiek sekots saitei.\n"
+"         Ja RFILE ir simboliskā saite, vienmēr tiek sekots saitei.\n"
 
 #: src/chmod.c:479
 msgid ""
@@ -2000,7 +2003,8 @@ msgid ""
 "\n"
 msgstr ""
 "Mainīt katra FAILA īpašnieku un/vai grupu uz ĪPAŠNIEKU un/vai GRUPU.\n"
-"Ar --reference mainīt katra FAILA īpašnieku un grupu uz RFILE īpašnieku un grupu.\n"
+"Ar --reference mainīt katra FAILA īpašnieku un grupu uz RFILE īpašnieku un\n"
+"grupu.\n"
 "\n"
 
 #: src/chown.c:93
@@ -2055,9 +2059,9 @@ msgid ""
 "OWNER and GROUP may be numeric as well as symbolic.\n"
 msgstr ""
 "\n"
-"Īpašnieks netiek mainīts, ja tas nav norādīts.  Grupa netiek mainīta, ja tā nav norādīta, bet tiek mainīta\n"
-"uz pieteikšanās grupu, ja to norāda ':' aiz simboliskā ĪPAŠNIEKA.\n"
-"ĪPAŠNIEKS un GRUPA var būt gan skaitliski, gan simboliski.\n"
+"Īpašnieks netiek mainīts, ja tas nav norādīts.  Grupa netiek mainīta, ja tā nav\n"
+"norādīta, bet tiek mainīta uz pieteikšanās grupu, ja to norāda ':' aiz\n"
+"simboliskā ĪPAŠNIEKA. ĪPAŠNIEKS un GRUPA var būt gan skaitliski, gan simboliski.\n"
 
 #: src/chown.c:156
 #, c-format
@@ -2090,7 +2094,7 @@ msgstr ""
 #. This is a proper name. See the gettext manual, section Names.
 #: src/chroot.c:36
 msgid "Roland McGrath"
-msgstr "Rolands Makgrāts"
+msgstr "Roland McGrath"
 
 #: src/chroot.c:136 src/install.c:576
 #, c-format
@@ -2105,7 +2109,7 @@ msgstr "nederīgs grupu saraksts %s"
 #: src/chroot.c:184
 #, c-format
 msgid "Usage: %s [OPTION]... NEWROOT [COMMAND [ARG]...]\n"
-msgstr "Lietojums: %s [OPCIJA]... JAUNĀ_SAKNE [KOMANDA [ARG]...]\n"
+msgstr "Lietošana: %s [OPCIJA]... JAUNĀ_SAKNE [KOMANDA [ARG]...]\n"
 
 #: src/chroot.c:187
 msgid ""
@@ -2289,7 +2293,8 @@ msgid ""
 "         read in binary mode (default unless reading tty stdin)\n"
 msgstr ""
 "  -b, --binary\n"
-"         lasīt binārā režīmā (noklusējums, ja vien nelasa no tty standarta ievades)\n"
+"         lasīt binārā režīmā (noklusējums, ja vien nelasa no tty standarta\n"
+"         ievades)\n"
 
 #: src/cksum.c:561
 msgid ""
@@ -2415,7 +2420,8 @@ msgid ""
 "         exit non-zero for improperly formatted checksum lines\n"
 msgstr ""
 "      --strict\n"
-"         beigt darbību ar nenulles kodu, ja kontrolsummas rindas ir nepareizi formatētas\n"
+"         beigt darbību ar nenulles kodu, ja kontrolsummas rindas ir nepareizi\n"
+"         formatētas\n"
 
 #: src/cksum.c:652
 msgid ""
@@ -2461,6 +2467,7 @@ msgstr ""
 "  sha3      (pieejams tikai ar cksum)\n"
 "  blake2b   (līdzvērtīgs b2sum)\n"
 "  sm3       (pieejams tikai ar cksum)\n"
+"\n"
 
 #: src/cksum.c:684
 #, c-format
@@ -2621,27 +2628,27 @@ msgstr "opcijām --binary un --text nav nozīmes, pārbaudot kontrolsummas"
 #: src/cksum.c:1805
 #, c-format
 msgid "the --ignore-missing option is meaningful only when verifying checksums"
-msgstr "opcijai --ignore-missing ir nozīme tikai, pārbaudot kontrolsummas"
+msgstr "opcijai --ignore-missing ir nozīme tikai kontrolsummu pārbaudē"
 
 #: src/cksum.c:1813
 #, c-format
 msgid "the --status option is meaningful only when verifying checksums"
-msgstr "opcijai --status ir nozīme tikai, pārbaudot kontrolsummas"
+msgstr "opcijai --status ir nozīme tikai kontrolsummu pārbaudē"
 
 #: src/cksum.c:1820
 #, c-format
 msgid "the --warn option is meaningful only when verifying checksums"
-msgstr "opcijai --warn ir nozīme tikai, pārbaudot kontrolsummas"
+msgstr "opcijai --warn ir nozīme tikai kontrolsummu pārbaudē"
 
 #: src/cksum.c:1827
 #, c-format
 msgid "the --quiet option is meaningful only when verifying checksums"
-msgstr "opcijai --quiet ir nozīme tikai, pārbaudot kontrolsummas"
+msgstr "opcijai --quiet ir nozīme tikai kontrolsummu pārbaudē"
 
 #: src/cksum.c:1834
 #, c-format
 msgid "the --strict option is meaningful only when verifying checksums"
-msgstr "opcijai --strict ir nozīme tikai, pārbaudot kontrolsummas"
+msgstr "opcijai --strict ir nozīme tikai kontrolsummu pārbaudē"
 
 #: src/cksum.c:1849
 #, c-format
@@ -2692,7 +2699,7 @@ msgstr "izmanto vmull aparatūras atbalstu"
 
 #: src/cksum_crc.c:217
 msgid "vmull support not detected"
-msgstr "vmull atbalsts nav atrasts"
+msgstr "vmull atbalsts nav konstatēts"
 
 #: src/comm.c:106 src/join.c:195
 #, c-format
@@ -2720,8 +2727,8 @@ msgid ""
 msgstr ""
 "\n"
 "Bez opcijām veidot trīs kolonnu izvadi. Pirmajā kolonnā ir\n"
-"rindas, kas ir unikālas FAILS1, otrajā kolonnā ir rindas, kas ir unikālas FAILS2,\n"
-"un trešajā kolonnā ir rindas, kas ir kopīgas abiem failiem.\n"
+"rindas, kas ir unikālas FAILS1, otrajā kolonnā ir rindas, kas ir unikālas\n"
+"FAILS2, un trešajā kolonnā ir rindas, kas ir kopīgas abiem failiem.\n"
 
 #: src/comm.c:123
 msgid "  -1     suppress column 1 (lines unique to FILE1)\n"
@@ -2796,7 +2803,8 @@ msgid ""
 msgstr ""
 "\n"
 "Piemēri:\n"
-"  %s -12 fails1 fails2  Izvadīt tikai rindas, kas ir abos failos fails1 un fails2.\n"
+"  %s -12 fails1 fails2  Izvadīt tikai rindas, kas ir abos failos fails1 un\n"
+"                        fails2.\n"
 "  %s -3 fails1 fails2  Izvadīt rindas no fails1, kuru nav fails2, un otrādi.\n"
 
 #: src/comm.c:244
@@ -2895,7 +2903,7 @@ msgstr "atjaunina %s laikus"
 #: src/copy.c:970
 #, c-format
 msgid "not writing through dangling symlink %s"
-msgstr "neraksta caur karājošos simbolisko saiti %s"
+msgstr "neraksta caur karājošo simbolisko saiti %s"
 
 #: src/copy.c:991
 #, c-format
@@ -3026,7 +3034,7 @@ msgstr "pārdēvēts %s -> %s"
 #: src/copy.c:2187
 #, c-format
 msgid "cannot move %s to a subdirectory of itself, %s"
-msgstr "nevar pārvietot %s uz tās pašas apakšdirektoriju, %s"
+msgstr "nevar pārvietot %s uz paša apakšdirektoriju, %s"
 
 #: src/copy.c:2231
 #, c-format
@@ -3101,12 +3109,12 @@ msgstr "%s ir nezināms faila tips"
 #: src/copy.c:2757 src/ln.c:401
 #, c-format
 msgid "cannot un-backup %s"
-msgstr "nevar atjaunot %s no rezerves kopijas"
+msgstr "nevar atjaunot %s no dublējuma"
 
 #: src/copy.c:2761
 #, c-format
 msgid "%s -> %s (unbackup)\n"
-msgstr "%s -> %s (atjaunots no rezerves kopijas)\n"
+msgstr "%s -> %s (atjaunots no dublējuma)\n"
 
 #: src/copy-file-data.c:72 src/copy-file-data.c:450 src/copy-file-data.c:555
 #, c-format
@@ -3155,12 +3163,12 @@ msgstr "neizdevās paplašināt %s"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/coreutils.c:46
 msgid "Alex Deymo"
-msgstr "Alekss Deimo"
+msgstr "Alex Deymo"
 
 #: src/coreutils.c:63
 #, c-format
 msgid "Usage: %s --coreutils-prog=PROGRAM_NAME [PARAMETERS]... \n"
-msgstr "Lietošana: %s --coreutils-prog=PROGRAMMAS_NOSAUKUMS [PARAMETRI]...\n"
+msgstr "Lietošana: %s --coreutils-prog=PROGRAMMAS_NOSAUKUMS [PARAMETRI]... \n"
 
 #: src/coreutils.c:66
 msgid ""
@@ -3177,7 +3185,8 @@ msgid ""
 "Use: '%s --coreutils-prog=PROGRAM_NAME --help' for individual program help.\n"
 msgstr ""
 "\n"
-"Lietojiet: '%s --coreutils-prog=PROGRAMMAS_NOSAUKUMS --help', lai saņemtu palīdzību par atsevišķu programmu.\n"
+"Lietojiet: '%s --coreutils-prog=PROGRAMMAS_NOSAUKUMS --help', lai saņemtu\n"
+"palīdzību par atsevišķu programmu.\n"
 
 #: src/coreutils.c:184
 #, c-format
@@ -3221,7 +3230,7 @@ msgid ""
 "         make a backup of each existing destination file\n"
 msgstr ""
 "      --backup[=CONTROL]\n"
-"         veidot rezerves kopiju katram esošajam mērķa failam\n"
+"         veidot dublējumu katram esošajam mērķa failam\n"
 
 #: src/cp.c:184 src/install.c:619 src/ln.c:445 src/mv.c:269
 msgid ""
@@ -3271,7 +3280,8 @@ msgid ""
 "         prompt before overwrite (overrides a previous -n option)\n"
 msgstr ""
 "  -i, --interactive\n"
-"         prasīt apstiprinājumu pirms pārrakstīšanas (atceļ iepriekšējo -n opciju)\n"
+"         prasīt apstiprinājumu pirms pārrakstīšanas (atceļ iepriekšējo -n\n"
+"         opciju)\n"
 
 #: src/cp.c:209
 msgid ""
@@ -3409,7 +3419,7 @@ msgid ""
 "         override the usual backup suffix\n"
 msgstr ""
 "  -S, --suffix=PIEDĒKLIS\n"
-"         aizstāt parasto rezerves kopijas piedēkli\n"
+"         aizstāt parasto dublējuma piedēkli\n"
 
 #: src/cp.c:278 src/install.c:677
 msgid ""
@@ -3489,9 +3499,9 @@ msgid ""
 "attributes.\n"
 msgstr ""
 "\n"
-"ATTR_SARAKSTS ir ar komatiem atdalīts atribūtu saraksts. Atribūti ir 'mode' tiesībām\n"
-"(ieskaitot jebkuras ACL un xattr tiesības), 'ownership' lietotājam un grupai,\n"
-"'timestamps' faila laika zīmēm, 'links' cietajām saitēm, 'context'\n"
+"ATTR_SARAKSTS ir ar komatiem atdalīts atribūtu saraksts. Atribūti ir 'mode'\n"
+"tiesībām (ieskaitot jebkuras ACL un xattr tiesības), 'ownership' lietotājam un\n"
+"grupai, 'timestamps' faila laika zīmēm, 'links' cietajām saitēm, 'context'\n"
 "drošības kontekstam, 'xattr' paplašinātajiem atribūtiem un 'all'\n"
 "visiem atribūtiem.\n"
 
@@ -3505,10 +3515,10 @@ msgid ""
 "Use --sparse=never to inhibit creation of sparse files.\n"
 msgstr ""
 "\n"
-"Pēc noklusējuma retie AVOTA faili tiek noteikti ar vienkāršu heiristiku un atbilstošais\n"
-"MĒRĶA fails arī tiek izveidots kā rets.  Tāda ir uzvedība, ko atlasa --sparse=auto.\n"
-"Norādiet --sparse=always, lai izveidotu retu MĒRĶA failu ikreiz, kad AVOTA fails satur\n"
-"pietiekami garu nulles baitu secību.\n"
+"Pēc noklusējuma retie AVOTA faili tiek noteikti ar vienkāršu heiristiku un\n"
+"atbilstošais MĒRĶA fails arī tiek izveidots kā rets.  Tāda ir uzvedība, ko\n"
+"atlasa --sparse=auto. Norādiet --sparse=always, lai izveidotu retu MĒRĶA failu\n"
+"ikreiz, kad AVOTA fails satur pietiekami garu nulles baitu secību.\n"
 "Izmantojiet --sparse=never, lai novērstu reto failu veidošanu.\n"
 
 #: src/cp.c:331
@@ -3520,10 +3530,11 @@ msgid ""
 "supported, while --reflink=never ensures a standard copy is performed.\n"
 msgstr ""
 "\n"
-"Pēc noklusējuma vai ar --reflink=auto cp mēģinās veikt vieglo kopēšanu, kur datu bloki\n"
-"tiek kopēti tikai tad, kad tie ir modificēti, atkāpjoties uz standarta kopēšanu,\n"
-"ja tas nav iespējams. Ar --reflink[=always] cp beigsies ar kļūdu, ja CoW netiek\n"
-"atbalstīts, savukārt --reflink=never nodrošina standarta kopēšanas veikšanu.\n"
+"Pēc noklusējuma vai ar --reflink=auto cp mēģinās veikt vieglo kopēšanu, kur datu\n"
+"bloki tiek kopēti tikai tad, kad tie ir modificēti, atkāpjoties uz standarta\n"
+"kopēšanu, ja tas nav iespējams. Ar --reflink[=always] cp beigsies ar kļūdu, ja\n"
+"CoW netiek atbalstīts, savukārt --reflink=never nodrošina standarta kopēšanas\n"
+"veikšanu.\n"
 
 #: src/cp.c:339
 msgid ""
@@ -3620,7 +3631,7 @@ msgstr "--reflink var izmantot tikai kopā ar --sparse=auto"
 
 #: src/cp.c:1280 src/install.c:983 src/ln.c:669 src/mv.c:536
 msgid "backup type"
-msgstr "rezerves kopijas veids"
+msgstr "dublējuma veids"
 
 #: src/cp.c:1304 src/install.c:990
 #, c-format
@@ -3640,7 +3651,7 @@ msgstr "nevar saglabāt paplašinātos atribūtus, cp ir būvēts bez xattr atba
 #. This is a proper name. See the gettext manual, section Names.
 #: src/csplit.c:43 src/dd.c:42
 msgid "Stuart Kemp"
-msgstr "Stjuarts Kemps"
+msgstr "Stuart Kemp"
 
 #: src/csplit.c:629 src/csplit.c:641
 #, c-format
@@ -3786,8 +3797,8 @@ msgid ""
 "  -f, --prefix=PREFIX\n"
 "         use PREFIX instead of 'xx'\n"
 msgstr ""
-"  -f, --prefix=PREFIKSS\n"
-"         izmantot PREFIKSU 'xx' vietā\n"
+"  -f, --prefix=PRIEDĒKLIS\n"
+"         izmantot PRIEDĒKLI 'xx' vietā\n"
 
 #: src/csplit.c:1424
 msgid ""
@@ -3819,7 +3830,7 @@ msgid ""
 "         do not print counts of output file sizes\n"
 msgstr ""
 "  -s, --quiet, --silent\n"
-"         neizvadīt izvades failu izmēru skaitu\n"
+"         neizvadīt izvades failu izmērus\n"
 
 #: src/csplit.c:1440
 msgid ""
@@ -3843,10 +3854,10 @@ msgid ""
 msgstr ""
 "\n"
 "Katrs ŠABLONS var būt:\n"
-"  INTEGER           kopēt līdz norādītajam rindas numuram (neieskaitot)\n"
+"  INTEGER            kopēt līdz norādītajam rindas numuram (neieskaitot)\n"
 "  /REGEXP/[NOBĪDE]   kopēt līdz atbilstošajai rindai (neieskaitot)\n"
 "  %REGEXP%[NOBĪDE]   izlaist līdz atbilstošajai rindai (neieskaitot)\n"
-"  {INTEGER}         atkārtot iepriekšējo šablonu norādīto reižu skaitu\n"
+"  {INTEGER}          atkārtot iepriekšējo šablonu norādīto reižu skaitu\n"
 "  {*}                atkārtot iepriekšējo šablonu pēc iespējas vairāk reižu\n"
 "\n"
 "Rindas NOBĪDE ir vesels skaitlis, pirms kura var būt '+' vai '-'\n"
@@ -3854,7 +3865,7 @@ msgstr ""
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cut.c:46 src/paste.c:51
 msgid "David M. Ihnat"
-msgstr "Deivids M. Inats"
+msgstr "David M. Ihnat"
 
 #: src/cut.c:181
 #, c-format
@@ -3959,9 +3970,9 @@ msgid ""
 "in the same order that it is read, and is written exactly once.\n"
 msgstr ""
 "\n"
-"Izmantot tikai vienu no opcijām -b, -c, -f vai -F.  Katrs SARAKSTS sastāv no viena\n"
-"diapazona vai vairākiem ar komatiem atdalītiem diapazoniem.  Atlasītā ievade tiek izvadīta\n"
-"tādā pašā secībā, kādā nolasīta, un tieši vienu reizi.\n"
+"Izmantot tikai vienu no opcijām -b, -c, -f vai -F.  Katrs SARAKSTS sastāv no\n"
+"viena diapazona vai vairākiem ar komatiem atdalītiem diapazoniem.  Atlasītā\n"
+"ievade tiek izvadīta tādā pašā secībā, kādā nolasīta, un tieši vienu reizi.\n"
 
 #: src/cut.c:247
 msgid ""
@@ -4212,7 +4223,7 @@ msgstr "  %h    Okt         tāds pats kā %b\n"
 
 #: src/date.c:243
 msgid "  %B    March       locale's full month name\n"
-msgstr "  %B    Oktobris     lokāles pilnais mēneša nosaukums\n"
+msgstr "  %B    Oktobris    lokāles pilnais mēneša nosaukums\n"
 
 #: src/date.c:246
 #, c-format
@@ -4329,7 +4340,9 @@ msgstr "  %U    52          gada nedēļa; svētdiena kā nedēļas pirmā diena
 
 #: src/date.c:330
 msgid "  %V    52          ISO week number; Monday as first day of week (01..53)\n"
-msgstr "  %V    52          ISO nedēļas numurs; pirmdiena kā nedēļas pirmā diena (01..53)\n"
+msgstr ""
+"  %V    52          ISO nedēļas numurs; pirmdiena kā nedēļas pirmā diena\n"
+"                    (01..53)\n"
 
 #: src/date.c:333
 msgid "  %W    52          week of year; Monday as first day of week (00..53)\n"
@@ -4500,8 +4513,8 @@ msgid ""
 "  bs=BYTES        read and write up to BYTES bytes at a time (default: 512);\n"
 "                  overrides ibs and obs\n"
 msgstr ""
-"  bs=BAITI        lasīt un rakstīt līdz BAITI baitiem vienlaikus (noklusējums: 512);\n"
-"                  aizstāj ibs un obs\n"
+"  bs=BAITI        lasīt un rakstīt līdz BAITI baitiem vienlaikus (noklusējums:\n"
+"                  512); aizstāj ibs un obs\n"
 
 #: src/dd.c:539
 msgid "  cbs=BYTES       convert BYTES bytes at a time\n"
@@ -4509,7 +4522,9 @@ msgstr "  cbs=BAITI       konvertēt BAITI baitus vienlaikus\n"
 
 #: src/dd.c:542
 msgid "  conv=CONVS      convert the file as per the comma separated symbol list\n"
-msgstr "  conv=CONVS      konvertēt failu atbilstoši ar komatiem atdalītajam simbolu sarakstam\n"
+msgstr ""
+"  conv=CONVS      konvertēt failu atbilstoši ar komatiem atdalītajam simbolu\n"
+"                  sarakstam\n"
 
 #: src/dd.c:545
 msgid "  count=N         copy only N input blocks\n"
@@ -4554,7 +4569,7 @@ msgid ""
 "                  'noxfer' suppresses the final transfer statistics,\n"
 "                  'progress' shows periodic transfer statistics\n"
 msgstr ""
-"  status=LĪMENIS    informācijas līmenis LĪMENIS, ko izvadīt standarta kļūdu izvadē;\n"
+"  status=LĪMENIS  informācijas LĪMENIS, ko izvadīt standarta kļūdu izvadē;\n"
 "                  'none' paslēpj visu, izņemot kļūdu ziņojumus,\n"
 "                  'noxfer' paslēpj nobeiguma pārsūtīšanas statistiku,\n"
 "                  'progress' rāda periodisku pārsūtīšanas statistiku\n"
@@ -4572,10 +4587,10 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Aiz N un BAITI var sekot šādi reizinātāju sufiksi:\n"
+"Aiz N un BAITI var sekot šādi reizinātāju piedēkļi:\n"
 "c=1, w=2, b=512, kB=1000, K=1024, MB=1000*1000, M=1024*1024, xM=M,\n"
 "GB=1000*1000*1000, G=1024*1024*1024, un tā tālāk: T, P, E, Z, Y, R, Q.\n"
-"Var izmantot arī bināros prefiksus: KiB=K, MiB=M un tā tālāk.\n"
+"Var izmantot arī bināros priedēkļus: KiB=K, MiB=M un tā tālāk.\n"
 "Ja N beidzas ar 'B', tas skaita baitus, nevis blokus.\n"
 "\n"
 "Katrs CONV simbols var būt:\n"
@@ -4598,14 +4613,15 @@ msgstr ""
 "  ascii     no EBCDIC uz ASCII\n"
 "  ebcdic    no ASCII uz EBCDIC\n"
 "  ibm       no ASCII uz alternatīvo EBCDIC\n"
-"  block     papildināt ar jaunrindas rakstzīmi noslēgtus ierakstus ar atstarpēm līdz cbs izmēram\n"
+"  block     papildināt ar jaunrindas rakstzīmi noslēgtus ierakstus ar atstarpēm\n"
+"            līdz cbs izmēram\n"
 "  unblock   aizstāt beigu atstarpes cbs izmēra ierakstos ar jaunu rindu\n"
 "  lcase     pārveidot lielos burtus par mazajiem\n"
 "  ucase     pārveidot mazos burtus par lielajiem\n"
 "  sparse    mēģināt pozicionēt, nevis rakstīt tikai NUL saturošus izvades blokus\n"
 "  swab      samainīt vietām katru ievades baitu pāri\n"
 "  sync      papildināt katru ievades bloku ar NUL līdz ibs izmēram; ja izmanto\n"
-"  swab          ar block vai unblock, papildināt ar atstarpēm, nevis NUL\n"
+"            ar block vai unblock, papildināt ar atstarpēm, nevis NUL\n"
 
 #: src/dd.c:602
 msgid ""
@@ -4765,7 +4781,7 @@ msgstr "aizverot ievades failu %s"
 #: src/dd.c:942
 #, c-format
 msgid "closing output file %s"
-msgstr "aizver izvades failu %s"
+msgstr "aizverot izvades failu %s"
 
 #: src/dd.c:1180
 #, c-format
@@ -4899,7 +4915,7 @@ msgstr "Paul Eggert"
 
 #: src/df.c:179
 msgid "Filesystem"
-msgstr "Failusistēma"
+msgstr "Failu sistēma"
 
 #: src/df.c:182
 msgid "Type"
@@ -5009,8 +5025,8 @@ msgid ""
 "         E.g., '-BM' prints sizes in units of 1,048,576 bytes\n"
 msgstr ""
 "  -B, --block-size=IZMĒRS\n"
-"         mērogot izmērus pēc IZMĒRA pirms to izvadīšanas; skatīt IZMĒRA formātu zemāk;\n"
-"         Piem., '-BM' izvada izmērus 1 048 576 baitu vienībās\n"
+"         mērogot izmērus pēc IZMĒRA pirms to izvadīšanas; skatīt IZMĒRA formātu\n"
+"         zemāk; Piem., '-BM' izvada izmērus 1 048 576 baitu vienībās\n"
 
 #: src/df.c:1517
 msgid ""
@@ -5092,7 +5108,7 @@ msgid ""
 "         elide all entries insignificant to available space,\n"
 "         and produce a grand total\n"
 msgstr ""
-"      ----total\n"
+"      --total\n"
 "         izlaist visus ierakstus, kas nav būtiski pieejamajai vietai,\n"
 "         un izvadīt kopsummu\n"
 
@@ -5271,8 +5287,9 @@ msgid ""
 "removed; if NAME contains no /'s, output '.' (meaning the current directory).\n"
 "\n"
 msgstr ""
-"Izvadīt katru NOSAUKUMU, atmetot tā pēdējo komponenti, kas nav slīpsvītra, un beigu slīpsvītras;\n"
-"ja NOSAUKUMS nesatur '/', izvadīt '.' (apzīmē pašreizējo direktoriju).\n"
+"Izvadīt katru NOSAUKUMU, atmetot tā pēdējo komponenti, kas nav slīpsvītra,\n"
+"un beigu slīpsvītras; ja NOSAUKUMS nesatur '/', izvadīt '.' (apzīmē\n"
+"pašreizējo direktoriju).\n"
 "\n"
 
 #: src/dirname.c:67
@@ -5340,8 +5357,8 @@ msgid ""
 "         E.g., '-BM' prints sizes in units of 1,048,576 bytes\n"
 msgstr ""
 "  -B, --block-size=IZMĒRS\n"
-"         mērogot izmērus pēc IZMĒRA pirms to izvadīšanas; skatīt IZMĒRA formātu zemāk;\n"
-"         piem., '-BM' izvada izmērus 1 048 576 baitu vienībās\n"
+"         mērogot izmērus pēc IZMĒRA pirms to izvadīšanas; skatīt IZMĒRA formātu\n"
+"         zemāk; piem., '-BM' izvada izmērus 1 048 576 baitu vienībās\n"
 
 #: src/du.c:313
 msgid ""
@@ -5387,7 +5404,8 @@ msgid ""
 msgstr ""
 "      --files0-from=F\n"
 "         apkopot ierīces izmantojumu failā F norādītajiem,\n"
-"         ar NUL noslēgtajiem failu nosaukumiem;  ja F ir -, lasīt nosaukumus no standarta ievades\n"
+"         ar NUL noslēgtajiem failu nosaukumiem;  ja F ir -, lasīt nosaukumus no\n"
+"         standarta ievades\n"
 
 #: src/du.c:336
 msgid ""
@@ -5539,8 +5557,8 @@ msgid ""
 "Also the TIME_STYLE environment variable sets the default style to use.\n"
 msgstr ""
 "\n"
-"Argumentam --time-style STILS var būt vērtības full-iso, long-iso, iso vai +FORMĀTS.\n"
-"FORMĀTS tiek interpretēts tāpat kā date(1).\n"
+"Argumentam --time-style STILS var būt vērtības full-iso, long-iso, iso vai\n"
+"+FORMĀTS. FORMĀTS tiek interpretēts tāpat kā date(1).\n"
 "Arī vides mainīgais TIME_STYLE nosaka noklusējuma stilu.\n"
 
 #: src/du.c:754
@@ -5594,12 +5612,12 @@ msgstr "nederīgs nulles garuma faila nosaukums"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/echo.c:28
 msgid "Brian Fox"
-msgstr "Braiens Fokss"
+msgstr "Brian Fox"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/echo.c:29
 msgid "Chet Ramey"
-msgstr "Čets Reimijs"
+msgstr "Chet Ramey"
 
 #: src/echo.c:43
 #, c-format
@@ -5624,7 +5642,9 @@ msgstr "  -n     neizvadīt beigu jauno rindu\n"
 
 #: src/echo.c:55
 msgid "  -e     enable interpretation of backslash escapes (default)\n"
-msgstr "  -e     iespējot atpakaļsvītras īpašo rakstzīmju interpretāciju (pēc noklusējuma)\n"
+msgstr ""
+"  -e     iespējot atpakaļsvītras īpašo rakstzīmju interpretāciju (pēc\n"
+"         noklusējuma)\n"
 
 #: src/echo.c:58
 msgid "  -e     enable interpretation of backslash escapes\n"
@@ -5636,7 +5656,9 @@ msgstr "  -E     atspējot atpakaļsvītras īpašo rakstzīmju interpretāciju\
 
 #: src/echo.c:65
 msgid "  -E     disable interpretation of backslash escapes (default)\n"
-msgstr "  -E     atspējot atpakaļsvītras īpašo rakstzīmju interpretāciju (pēc noklusējuma)\n"
+msgstr ""
+"  -E     atspējot atpakaļsvītras īpašo rakstzīmju interpretāciju (pēc\n"
+"         noklusējuma)\n"
 
 #: src/echo.c:70
 msgid ""
@@ -5710,7 +5732,7 @@ msgid ""
 "         pass ARG as the zeroth argument of COMMAND\n"
 msgstr ""
 "  -a, --argv0=ARG\n"
-"         padot ARG kā KOMANDAS nullto argumentu\n"
+"         padot ARG kā KOMANDAS nulto argumentu\n"
 
 #: src/env.c:151
 msgid ""
@@ -5810,8 +5832,8 @@ msgid ""
 "comma-separated.  An empty SIG argument is a no-op.\n"
 msgstr ""
 "\n"
-"SIG var būt signāla nosaukums, piemēram, 'PIPE', vai signāla numurs, piemēram, '13'.\n"
-"Bez SIG tiek iekļauti visi zināmie signāli.  Vairākus signālus var\n"
+"SIG var būt signāla nosaukums, piemēram, 'PIPE', vai signāla numurs, piemēram,\n"
+"'13'. Bez SIG tiek iekļauti visi zināmie signāli.  Vairākus signālus var\n"
 "atdalīt ar komatiem.  Tukšs SIG arguments neko nedara.\n"
 
 #: src/env.c:227 src/env.c:273
@@ -5847,7 +5869,7 @@ msgstr "%s: failam jābeidzas ar NUL baitu"
 #: src/env.c:369
 #, c-format
 msgid "invalid variable specification %s in %s"
-msgstr "nederīga mainīgā specifikācija %s iekš %s"
+msgstr "nederīga mainīgā specifikācija %s failā %s"
 
 #: src/env.c:419
 #, c-format
@@ -5897,7 +5919,7 @@ msgstr "sadala -S:  %s\n"
 #: src/env.c:798
 #, c-format
 msgid " into:     %s\n"
-msgstr " par:     %s\n"
+msgstr " par:       %s\n"
 
 #: src/env.c:800
 #, c-format
@@ -6040,7 +6062,7 @@ msgstr "tabulācijas izmēriem jābūt augošā secībā"
 #: src/expand-common.c:256
 #, c-format
 msgid "'/' specifier is mutually exclusive with '+'"
-msgstr "'/' norādītājs ir savstarpēji izslēdzošs ar '+'"
+msgstr "specifikators '/' ir savstarpēji izslēdzošs ar '+'"
 
 #: src/expand-common.c:326 src/expand.c:172 src/unexpand.c:241
 #, c-format
@@ -6063,11 +6085,12 @@ msgid ""
 "         can be used to align remaining tab stops relative to\n"
 "         the last specified tab stop instead of the first column\n"
 msgstr ""
-"         Pēdējā norādītā pozīcija var būt ar prefiksu '/',\n"
+"         Pēdējā norādītā pozīcija var būt ar priedēkli '/',\n"
 "         lai norādītu tabulācijas izmēru, ko izmantot pēc pēdējās\n"
-"         tieši norādītās tabulācijas pozīcijas.  Arī prefiksu '+'\n"
+"         tieši norādītās tabulācijas pozīcijas.  Arī priedēkli '+'\n"
 "         var izmantot, lai izlīdzinātu atlikušās tabulācijas pozīcijas\n"
-"         attiecībā pret pēdējo norādīto tabulācijas pozīciju, nevis pirmo kolonnu\n"
+"         attiecībā pret pēdējo norādīto tabulācijas pozīciju, nevis pirmo\n"
+"         kolonnu\n"
 
 #: src/expand.c:74
 msgid "Convert tabs in each FILE to spaces, writing to standard output.\n"
@@ -6092,12 +6115,12 @@ msgstr ""
 #. This is a proper name. See the gettext manual, section Names.
 #: src/expr.c:51 src/ln.c:43 src/mv.c:42 src/tee.c:36
 msgid "Mike Parker"
-msgstr "Maiks Pārkers"
+msgstr "Mike Parker"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/expr.c:52 src/groups.c:36
 msgid "James Youngman"
-msgstr "Džeimss Jangmens"
+msgstr "James Youngman"
 
 #: src/expr.c:232
 #, c-format
@@ -6124,7 +6147,8 @@ msgstr ""
 "\n"
 "  ARG1 | ARG2       ARG1, ja tas nav ne null, ne 0, pretējā gadījumā ARG2\n"
 "\n"
-"  ARG1 & ARG2       ARG1, ja neviens arguments nav ne null, ne 0, pretējā gadījumā 0\n"
+"  ARG1 & ARG2       ARG1, ja neviens arguments nav ne null, ne 0, pretējā\n"
+"                    gadījumā 0\n"
 
 #: src/expr.c:249
 msgid ""
@@ -6178,11 +6202,12 @@ msgid ""
 "  length STRING              length of STRING\n"
 msgstr ""
 "\n"
-"  STRING : REGEXP   fiksēta REGEXP šablona meklēšana virknē VIRKNE\n"
+"  VIRKNE : REGEXP   REGEXP piesaistīta šablona atbilstība VIRKNĒ\n"
 "\n"
 "  match VIRKNE REGEXP        tas pats, kas VIRKNE : REGEXP\n"
 "  substr VIRKNE POZ GARUMS   VIRKNES apakšvirkne, POZ skaitot no 1\n"
-"  index VIRKNE RAKST         indekss virknē VIRKNES, kur atrodama kāda no RAKSTZĪMĒM, vai 0\n"
+"  index VIRKNE RAKST         indekss VIRKNĒ, kur atrasta kāda no RAKST\n"
+"                             rakstzīmēm, vai 0\n"
 "  length VIRKNE              VIRKNES garums\n"
 
 #: src/expr.c:280
@@ -6192,10 +6217,11 @@ msgid ""
 "\n"
 "  ( EXPRESSION )             value of EXPRESSION\n"
 msgstr ""
-"  + TOKEN                    interpretēt TOKEN kā virkni, pat ja tas ir\n"
-"                               atslēgvārds, piemēram, 'match', vai operators, piemēram, '/'\n"
+"  + ELEMENTS                 interpretēt ELEMENTU kā virkni, pat ja tas ir\n"
+"                               atslēgvārds, piemēram, 'match', vai operators,\n"
+"                               piemēram, '/'\n"
 "\n"
-"  ( EXPRESSION )             EXPRESSION vērtība\n"
+"  ( IZTEIKSME )              IZTEIKSMES vērtība\n"
 
 #: src/expr.c:286
 msgid ""
@@ -6207,9 +6233,10 @@ msgid ""
 msgstr ""
 "\n"
 "Ņemiet vērā, ka čaulā daudzi operatori ir jāekranē vai jāliek pēdiņās.\n"
-"Salīdzinājumi ir aritmētiski, ja abi ARG ir skaitļi, pretējā gadījumā — leksikogrāfiski.\n"
-"Šablona sakritības atgriež virkni, kas sakrīt starp \\( un \\), vai null; ja\n"
-"\\( un \\) netiek lietoti, tiek atgriezts atbilstošo rakstzīmju skaits vai 0.\n"
+"Salīdzinājumi ir aritmētiski, ja abi ARG ir skaitļi, pretējā gadījumā —\n"
+"leksikogrāfiski. Šablona sakritības atgriež virkni, kas sakrīt starp \\( un \\),\n"
+"vai null; ja \\( un \\) netiek lietoti, tiek atgriezts atbilstošo rakstzīmju\n"
+"skaits vai 0.\n"
 
 #: src/expr.c:293
 msgid ""
@@ -6218,8 +6245,8 @@ msgid ""
 "or 0, 2 if EXPRESSION is syntactically invalid, and 3 if an error occurred.\n"
 msgstr ""
 "\n"
-"Izejas statuss ir 0, ja EXPRESSION nav ne null, ne 0; 1, ja EXPRESSION ir null\n"
-"vai 0; 2, ja EXPRESSION ir sintaktiski nederīga, un 3, ja radās kļūda.\n"
+"Izpildes statuss ir 0, ja IZTEIKSME nav ne null, ne 0; 1, ja IZTEIKSME ir null\n"
+"vai 0; 2, ja IZTEIKSME ir sintaktiski nederīga, un 3, ja radās kļūda.\n"
 
 #: src/expr.c:337
 #, c-format
@@ -6292,7 +6319,7 @@ msgid ""
 "are specified on the command line, read them from standard input.\n"
 "\n"
 msgstr ""
-"Izvadīt katra norādītā veselā skaitļa SKAITĻA pirmreizinātājus.  Ja\n"
+"Izvadīt katra norādītā veselā SKAITĻA pirmreizinātājus.  Ja\n"
 "komandrindā neviens nav norādīts, lasīt no standarta ievades.\n"
 "\n"
 
@@ -6359,7 +6386,7 @@ msgid ""
 msgstr ""
 "  -p, --prefix=VIRKNE\n"
 "         pārformatē tikai rindas, kas sākas ar VIRKNI,\n"
-"         no jauna pievienojot prefiksu pārformatētajām rindām\n"
+"         no jauna pievienojot priedēkli pārformatētajām rindām\n"
 
 #: src/fmt.c:286
 msgid ""
@@ -6367,7 +6394,7 @@ msgid ""
 "         split long lines, but do not refill\n"
 msgstr ""
 "  -s, --split-only\n"
-"         sadala garās rindas, bet nepārformatē\n"
+"         sadalīt garās rindas, bet nepārformatēt\n"
 
 #: src/fmt.c:290
 msgid ""
@@ -6465,7 +6492,8 @@ msgid ""
 "Output platform dependent limits in a format useful for shell scripts.\n"
 "\n"
 msgstr ""
-"Izvada no platformas atkarīgus ierobežojumus formātā, kas ir noderīgs čaulas skriptiem.\n"
+"Izvada no platformas atkarīgus ierobežojumus formātā, kas ir noderīgs čaulas\n"
+"skriptiem.\n"
 "\n"
 
 #: src/group-list.c:67 src/id.c:400
@@ -6481,12 +6509,12 @@ msgstr "neizdevās iegūt pašreizējā procesa grupas"
 #: src/group-list.c:104
 #, c-format
 msgid "cannot find name for group ID %jd"
-msgstr "neizdevās atrast nosaukumu grupas ID %jd"
+msgstr "neizdevās atrast nosaukumu grupai ar ID %jd"
 
 #: src/group-list.c:109
 #, c-format
 msgid "cannot find name for group ID %ju"
-msgstr "neizdevās atrast nosaukumu grupas ID %ju"
+msgstr "neizdevās atrast nosaukumu grupai ar ID %ju"
 
 #: src/groups.c:53
 #, c-format
@@ -6528,7 +6556,8 @@ msgid ""
 "With more than one FILE, precede each with a header giving the file name.\n"
 msgstr ""
 "Izvada pirmās %d rindas no katra FAILA standarta izvadē.\n"
-"Ja ir norādīts vairāk nekā viens FAILS, pirms katra izvada virsrakstu ar faila nosaukumu.\n"
+"Ja ir norādīts vairāk nekā viens FAILS, pirms katra izvada virsrakstu ar faila\n"
+"nosaukumu.\n"
 
 #: src/head.c:120
 msgid ""
@@ -6579,7 +6608,7 @@ msgstr ""
 "SKAITAM var būt reizinātāja piedēklis:\n"
 "b 512, kB 1000, K 1024, MB 1000*1000, M 1024*1024,\n"
 "GB 1000*1000*1000, G 1024*1024*1024, un tā tālāk T, P, E, Z, Y, R, Q.\n"
-"Var izmantot arī bināros prefiksus: KiB=K, MiB=M un tā tālāk.\n"
+"Var izmantot arī bināros priedēkļus: KiB=K, MiB=M un tā tālāk.\n"
 
 #: src/head.c:171
 #, c-format
@@ -6646,7 +6675,7 @@ msgstr "neizdevās noteikt resursdatora nosaukumu"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/id.c:39 src/touch.c:41
 msgid "Arnold Robbins"
-msgstr "Arnolds Robins"
+msgstr "Arnold Robbins"
 
 #: src/id.c:94 src/pinky.c:482
 #, c-format
@@ -6780,7 +6809,7 @@ msgstr "neizdevās iegūt efektīvo UID"
 #: src/id.c:342 src/whoami.c:82
 #, c-format
 msgid "cannot find name for user ID %ju"
-msgstr "neizdevās atrast vārdu lietotāja ID %ju"
+msgstr "neizdevās atrast vārdu lietotājam ar ID %ju"
 
 #: src/id.c:361
 #, c-format
@@ -6884,7 +6913,7 @@ msgid ""
 "  or:  %s [OPTION]... -t DIRECTORY SOURCE...\n"
 "  or:  %s [OPTION]... -d DIRECTORY...\n"
 msgstr ""
-"Lietojums: %s [OPCIJA]... [-T] AVOTS MĒRĶIS\n"
+"Lietošana: %s [OPCIJA]... [-T] AVOTS MĒRĶIS\n"
 "  vai:  %s [OPCIJA]... AVOTS... DIREKTORIJA\n"
 "  vai:  %s [OPCIJA]... -t DIREKTORIJA AVOTS...\n"
 "  vai:  %s [OPCIJA]... -d DIREKTORIJA...\n"
@@ -6958,7 +6987,7 @@ msgid ""
 "  -g, --group=GROUP\n"
 "         set group ownership, instead of process' current group\n"
 msgstr ""
-"  -g, --group=GROUP\n"
+"  -g, --group=GRUPA\n"
 "         iestatīt grupas piederību, nevis procesa pašreizējo grupu\n"
 
 #: src/install.c:652
@@ -6966,7 +6995,7 @@ msgid ""
 "  -m, --mode=MODE\n"
 "         set permission mode (as in chmod), instead of rwxr-xr-x\n"
 msgstr ""
-"  -m, --mode=MODE\n"
+"  -m, --mode=REŽĪMS\n"
 "         iestatīt piekļuves režīmu (kā chmod), nevis rwxr-xr-x\n"
 
 #: src/install.c:656
@@ -6974,7 +7003,7 @@ msgid ""
 "  -o, --owner=OWNER\n"
 "         set ownership (super-user only)\n"
 msgstr ""
-"  -o, --owner=OWNER\n"
+"  -o, --owner=ĪPAŠNIEKS\n"
 "         iestatīt īpašnieku (tikai superlietotājam)\n"
 
 #: src/install.c:660
@@ -7000,7 +7029,7 @@ msgid ""
 "      --strip-program=PROGRAM\n"
 "         program used to strip binaries\n"
 msgstr ""
-"  --strip-program=PROGRAMMA\n"
+"      --strip-program=PROGRAMMA\n"
 "         programma, ko izmanto bināro failu simbolu noņemšanai\n"
 
 #: src/install.c:685
@@ -7082,7 +7111,7 @@ msgstr "opcija --compare (-C) tiek ignorēta, ja norāda režīmu ar bitiem, kas
 #. This is a proper name. See the gettext manual, section Names.
 #: src/join.c:40 src/sort.c:69
 msgid "Mike Haertel"
-msgstr "Maiks Hērtels"
+msgstr "Mike Haertel"
 
 #: src/join.c:199
 msgid ""
@@ -7090,7 +7119,8 @@ msgid ""
 "standard output.  The default join field is the first, delimited by blanks.\n"
 msgstr ""
 "Katram ievades rindu pārim ar identiskiem savienošanas laukiem izvadīt rindu\n"
-"standarta izvadē.  Noklusētais savienošanas lauks ir pirmais, atdalīts ar tukšumzīmēm.\n"
+"standarta izvadē.  Noklusētais savienošanas lauks ir pirmais, atdalīts ar\n"
+"tukšumzīmēm.\n"
 
 #: src/join.c:204
 msgid ""
@@ -7106,9 +7136,9 @@ msgid ""
 "         also print unpairable lines from file FILENUM,\n"
 "         where FILENUM is 1 or 2, corresponding to FILE1 or FILE2\n"
 msgstr ""
-"  -a FILENUM\n"
-"         izvadīt arī nesavienojamās rindas no faila FILENUM,\n"
-"         kur FILENUM ir 1 vai 2, kas atbilst FAILS1 vai FAILS2\n"
+"  -a FAILANR\n"
+"         izvadīt arī nesavienojamās rindas no faila FAILANR,\n"
+"         kur FAILANR ir 1 vai 2, kas atbilst FAILAM1 vai FAILAM2\n"
 
 #: src/join.c:214
 msgid ""
@@ -7117,7 +7147,7 @@ msgid ""
 "         I.e., missing fields specified with '-12jo' options\n"
 msgstr ""
 "  -e VIRKNE\n"
-"         aizstāt trūkstošos (tukšos) ievades laukus ar VIRKNE;\n"
+"         aizstāt trūkstošos (tukšos) ievades laukus ar VIRKNI;\n"
 "         t. i., trūkstošos laukus, kas norādīti ar opcijām '-12jo'\n"
 
 #: src/join.c:219
@@ -7157,8 +7187,8 @@ msgid ""
 "  -v FILENUM\n"
 "         like -a FILENUM, but suppress joined output lines\n"
 msgstr ""
-"  -v FILENUM\n"
-"         līdzīgi kā -a FILENUM, bet neizvadīt savienotās izvades rindas\n"
+"  -v FAILANR\n"
+"         līdzīgi kā -a FAILANR, bet neizvadīt savienotās izvades rindas\n"
 
 #: src/join.c:239
 msgid ""
@@ -7216,11 +7246,11 @@ msgid ""
 msgstr ""
 "\n"
 "Ja nav norādīts -t RAKSTZĪME, sākuma atstarpes atdala laukus un tiek ignorētas,\n"
-"pretējā gadījumā laukus atdala RAKSTZĪME.  Jebkurš LAUKS ir lauka numurs, skaitot\n"
-"no 1.  FORMĀTS ir viena vai vairākas ar komatu vai atstarpi atdalītas specifikācijas,\n"
-"katra ir 'FAILANR.LAUKS' vai '0'.  Noklusējuma FORMĀTS izvada savienošanas lauku,\n"
-"atlikušos laukus no FAILA1, atlikušos laukus no FAILA2, visus\n"
-"atdalot ar RAKSTZĪMI.  Ja FORMĀTS ir atslēgvārds 'auto', tad pirmā\n"
+"pretējā gadījumā laukus atdala RAKSTZĪME.  Jebkurš LAUKS ir lauka numurs,\n"
+"skaitot no 1.  FORMĀTS ir viena vai vairākas ar komatu vai atstarpi atdalītas\n"
+"specifikācijas, katra ir 'FAILANR.LAUKS' vai '0'.  Noklusējuma FORMĀTS izvada\n"
+"savienošanas lauku, atlikušos laukus no FAILA1, atlikušos laukus no FAILA2,\n"
+"visus atdalot ar RAKSTZĪMI.  Ja FORMĀTS ir atslēgvārds 'auto', tad pirmā\n"
 "rinda katrā failā nosaka izvadāmo lauku skaitu katrai rindai.\n"
 "\n"
 "Svarīgi: FAILAM1 un FAILAM2 jābūt sakārtotiem pēc savienošanas laukiem.\n"
@@ -7300,7 +7330,7 @@ msgid ""
 "  -s, --signal=SIGNAL, -SIGNAL\n"
 "         specify the name or number of the signal to be sent\n"
 msgstr ""
-"  -s, --signal=SIGNAL, -SIGNAL\n"
+"  -s, --signal=SIGNĀLS, -SIGNĀLS\n"
 "         norādīt nosūtāmā signāla nosaukumu vai numuru\n"
 
 #: src/kill.c:75
@@ -7309,7 +7339,8 @@ msgid ""
 "         list signal names, or convert signal names to/from numbers\n"
 msgstr ""
 "  -l, --list\n"
-"         uzskaitīt signālu nosaukumus vai pārveidot signālu nosaukumus uz numuriem un otrādi\n"
+"         uzskaitīt signālu nosaukumus vai pārveidot signālu nosaukumus uz\n"
+"         numuriem un otrādi\n"
 
 #: src/kill.c:79
 msgid ""
@@ -7327,8 +7358,8 @@ msgid ""
 "PID is an integer; if negative it identifies a process group.\n"
 msgstr ""
 "\n"
-"SIGNĀLS var būt signāla nosaukums, piemēram, 'HUP', vai signāla numurs, piemēram, '1',\n"
-"vai ar signālu pārtraukta procesa iziešanas statuss.\n"
+"SIGNĀLS var būt signāla nosaukums, piemēram, 'HUP', vai signāla numurs,\n"
+"piemēram, '1', vai ar signālu pārtraukta procesa izpildes statuss.\n"
 "PID ir vesels skaitlis; ja negatīvs, tas identificē procesu grupu.\n"
 
 #: src/kill.c:200
@@ -7379,7 +7410,7 @@ msgstr "neizdevās iestatīt %s buferēšanu režīmā %s\n"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/link.c:34 src/unlink.c:34 src/who.c:50
 msgid "Michael Stone"
-msgstr "Maikls Stouns"
+msgstr "Michael Stone"
 
 #: src/link.c:43
 #, c-format
@@ -7471,9 +7502,9 @@ msgstr ""
 "Otrajā veidā izveido saiti uz MĒRĶI pašreizējā direktorijā.\n"
 "Trešajā un ceturtajā veidā izveido saites uz katru MĒRĶI DIREKTORIJĀ.\n"
 "Pēc noklusējuma veido cietās saites, simboliskās saites ar --symbolic.\n"
-"Pēc noklusējuma nevienam galamērķim (jaunās saites nosaukumam) nevajadzētu jau eksistēt.\n"
-"Veidojot cietās saites, katram MĒRĶIM ir jāeksistē.  Simboliskās saites\n"
-"var saturēt patvaļīgu tekstu; ja vēlāk atrisināta, relatīvā saite tiek\n"
+"Pēc noklusējuma nevienam galamērķim (jaunās saites nosaukumam) nevajadzētu jau\n"
+"eksistēt. Veidojot cietās saites, katram MĒRĶIM ir jāeksistē.  Simboliskās\n"
+"saites var saturēt patvaļīgu tekstu; ja vēlāk atrisināta, relatīvā saite tiek\n"
 "interpretēta attiecībā pret tās vecākdirektoriju.\n"
 
 #: src/ln.c:449
@@ -7661,7 +7692,7 @@ msgstr "nederīgs laika stila formāts %s"
 #: src/ls.c:2810
 #, c-format
 msgid "unrecognized prefix: %s"
-msgstr "neatpazīts prefikss: %s"
+msgstr "neatpazīts priedēklis: %s"
 
 #: src/ls.c:2838
 #, c-format
@@ -7709,7 +7740,8 @@ msgid ""
 "Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.\n"
 msgstr ""
 "Parādīt informāciju par FAILIEM (pēc noklusējuma par pašreizējo direktoriju).\n"
-"Kārtot ierakstus alfabēta secībā, ja nav norādīts neviens no -cftuvSUX, nedz --sort.\n"
+"Kārtot ierakstus alfabēta secībā, ja nav norādīts neviens no -cftuvSUX, nedz\n"
+"--sort.\n"
 
 #: src/ls.c:5399
 msgid ""
@@ -7903,7 +7935,8 @@ msgid ""
 "         follow each command line symbolic link that points to a directory\n"
 msgstr ""
 "      --dereference-command-line-symlink-to-dir\n"
-"         sekot katrai komandrindas simboliskajai saitei, kas norāda uz direktoriju\n"
+"         sekot katrai komandrindas simboliskajai saitei, kas norāda uz\n"
+"         direktoriju\n"
 
 #: src/ls.c:5496
 msgid ""
@@ -7912,7 +7945,7 @@ msgid ""
 "         (overridden by -a or -A)\n"
 msgstr ""
 "      --hide=ŠABLONS\n"
-"         nerādīt netiešos ierakstus, kas atbilst čaulas ŠABLONS\n"
+"         nerādīt netiešos ierakstus, kas atbilst čaulas ŠABLONAM\n"
 "         (atceļ ar -a vai -A)\n"
 
 #: src/ls.c:5501
@@ -7931,7 +7964,8 @@ msgid ""
 msgstr ""
 "      --indicator-style=VĀRDS\n"
 "         pievienot indikatoru ar stilu VĀRDU ierakstu nosaukumiem:\n"
-"           none (noklusējums), slash (-p), file-type (--file-type), classify (-F)\n"
+"           none (noklusējums), slash (-p), file-type (--file-type), classify\n"
+"           (-F)\n"
 
 #: src/ls.c:5510
 msgid ""
@@ -7947,7 +7981,7 @@ msgid ""
 "         do not list implied entries matching shell PATTERN\n"
 msgstr ""
 "  -I, --ignore=ŠABLONS\n"
-"         nerādīt netiešos ierakstus, kas atbilst čaulas ŠABLONS\n"
+"         nerādīt netiešos ierakstus, kas atbilst čaulas ŠABLONAM\n"
 
 #: src/ls.c:5518
 msgid ""
@@ -8025,7 +8059,7 @@ msgid ""
 "         print ? instead of nongraphic characters\n"
 msgstr ""
 "  -q, --hide-control-chars\n"
-"         izvadīt ? nevis negrafiskās rakstzīmes\n"
+"         izvadīt ?, nevis negrafiskās rakstzīmes\n"
 
 #: src/ls.c:5557
 msgid ""
@@ -8099,7 +8133,7 @@ msgid ""
 "           version (-v), extension (-X), name, width\n"
 msgstr ""
 "      --sort=VĀRDS\n"
-"         maina noklusēto 'name' kārtošanu uz VĀRDS:\n"
+"         maina noklusēto 'name' kārtošanu uz VĀRDU:\n"
 "           none (-U), size (-S), time (-t),\n"
 "           version (-v), extension (-X), name, width\n"
 
@@ -8121,7 +8155,7 @@ msgstr ""
 "           modificēšanas laiks (noklusējums): mtime, modification;\n"
 "           izveides laiks: birth, creation;\n"
 "         ar -l VĀRDS nosaka, kuru laiku rādīt;\n"
-"         ar --sort=time kārto pēc VĀRDS (vispirms jaunākos)\n"
+"         ar --sort=time kārto pēc VĀRDA (vispirms jaunākos)\n"
 
 #: src/ls.c:5605
 msgid ""
@@ -8234,10 +8268,11 @@ msgid ""
 msgstr ""
 "\n"
 "TIME_STYLE arguments var būt full-iso, long-iso, iso, locale vai +FORMĀTS.\n"
-"FORMĀTS tiek interpretēts tāpat kā date(1). Ja FORMĀTS ir FORMĀTS1<newline>FORMĀTS2,\n"
-"tad FORMĀTS1 attiecas uz senākiem failiem un FORMĀTS2 uz nesenajiem failiem.\n"
-"TIME_STYLE ar prefiksu 'posix-' darbojas tikai ārpus POSIX lokāles.\n"
-"Arī TIME_STYLE vides mainīgais nosaka noklusēto stilu, ko izmantot.\n"
+"FORMĀTS tiek interpretēts tāpat kā date(1). Ja FORMĀTS ir\n"
+"FORMĀTS1<newline>FORMĀTS2, tad FORMĀTS1 attiecas uz senākiem failiem un FORMĀTS2\n"
+"uz nesenajiem failiem. TIME_STYLE ar priedēkli 'posix-' darbojas tikai ārpus\n"
+"POSIX lokāles. Arī TIME_STYLE vides mainīgais nosaka noklusēto stilu, ko\n"
+"izmantot.\n"
 
 #: src/ls.c:5666
 msgid ""
@@ -8270,7 +8305,7 @@ msgid ""
 " 2  if serious trouble (e.g., cannot access command-line argument).\n"
 msgstr ""
 "\n"
-"Iziešanas statuss:\n"
+"Izpildes statuss:\n"
 " 0  ja viss kārtībā,\n"
 " 1  ja nelielas problēmas (piem., nevar piekļūt apakšdirektorijai),\n"
 " 2  ja nopietnas problēmas (piem., nevar piekļūt komandrindas argumentam).\n"
@@ -8289,7 +8324,7 @@ msgid ""
 "  -m, --mode=MODE\n"
 "         set file mode (as in chmod), not a=rwx - umask\n"
 msgstr ""
-"  -m, --mode=MODE\n"
+"  -m, --mode=REŽĪMS\n"
 "         iestatīt faila režīmu (kā chmod), nevis a=rwx - umask\n"
 
 #: src/mkdir.c:68
@@ -8299,8 +8334,8 @@ msgid ""
 "         with their file modes unaffected by any -m option\n"
 msgstr ""
 "  -p, --parents\n"
-"         neziņot par kļūdu, ja eksistē; izveidot vecākdirektorijas pēc vajadzības,\n"
-"         to failu režīmus neietekmē opcija -m\n"
+"         neziņot par kļūdu, ja eksistē; izveidot vecākdirektorijas pēc\n"
+"         vajadzības, to failu režīmus neietekmē opcija -m\n"
 
 #: src/mkdir.c:73
 msgid ""
@@ -8344,8 +8379,8 @@ msgid ""
 "  -m, --mode=MODE\n"
 "         set file permission bits to MODE, not a=rw - umask\n"
 msgstr ""
-"  -m, --mode=MODE\n"
-"         iestatīt faila piekļuves bitus uz MODE, nevis a=rw - umask\n"
+"  -m, --mode=REŽĪMS\n"
+"         iestatīt faila piekļuves bitus uz REŽĪMU, nevis a=rw - umask\n"
 
 #: src/mkfifo.c:63 src/mknod.c:65
 msgid ""
@@ -8373,7 +8408,7 @@ msgstr "neizdevās iestatīt %s piekļuves tiesības"
 #: src/mknod.c:53
 #, c-format
 msgid "Usage: %s [OPTION]... NAME TYPE [MAJOR MINOR]\n"
-msgstr "Lietojums: %s [OPCIJA]... NOSAUKUMS TIPS [MAJORAIS MINORAIS]\n"
+msgstr "Lietošana: %s [OPCIJA]... NOSAUKUMS TIPS [MAJORAIS MINORAIS]\n"
 
 #: src/mknod.c:55
 msgid "Create the special file NAME of the given TYPE.\n"
@@ -8446,7 +8481,7 @@ msgstr "nederīgs ierīces tips %s"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/mktemp.c:35
 msgid "Eric Blake"
-msgstr "Ēriks Bleiks"
+msgstr "Eric Blake"
 
 #: src/mktemp.c:65
 #, c-format
@@ -8465,7 +8500,9 @@ msgstr ""
 
 #: src/mktemp.c:71
 msgid "Files are created u+rw, and directories u+rwx, minus umask restrictions.\n"
-msgstr "Faili tiek izveidoti ar u+rw un direktorijas ar u+rwx, atskaitot umask ierobežojumus.\n"
+msgstr ""
+"Faili tiek izveidoti ar u+rw un direktorijas ar u+rwx, atskaitot umask\n"
+"ierobežojumus.\n"
 
 #: src/mktemp.c:75
 msgid ""
@@ -8512,8 +8549,8 @@ msgid ""
 msgstr ""
 "  -p DIR, --tmpdir[=DIR]\n"
 "         interpretēt VEIDNI attiecībā pret DIR;\n"
-"         ja DIR nav norādīts, izmantot $TMPDIR, ja tas ir iestatīts, citādi /tmp.\n"
-"         Ar šo opciju VEIDNE nedrīkst būt absolūts nosaukums;\n"
+"         ja DIR nav norādīts, izmantot $TMPDIR, ja tas ir iestatīts, citādi\n"
+"         /tmp. Ar šo opciju VEIDNE nedrīkst būt absolūts nosaukums;\n"
 "         atšķirībā no -t VEIDNE var saturēt slīpsvītras,\n"
 "         bet mktemp izveido tikai pēdējo komponentu\n"
 
@@ -8542,7 +8579,7 @@ msgstr "ar --suffix veidnei %s jābeidzas ar X"
 #: src/mktemp.c:263 src/split.c:1454
 #, c-format
 msgid "invalid suffix %s, contains directory separator"
-msgstr "nederīgs sufikss %s, satur direktoriju atdalītāju"
+msgstr "nederīgs piedēklis %s, satur direktoriju atdalītāju"
 
 #: src/mktemp.c:272
 #, c-format
@@ -8615,7 +8652,7 @@ msgid ""
 "         move all SOURCE arguments into DIRECTORY\n"
 msgstr ""
 "  -t, --target-directory=DIREKTORIJA\n"
-"         pārvietot visus AVOTS argumentus uz DIREKTORIJU\n"
+"         pārvietot visus AVOTU argumentus uz DIREKTORIJU\n"
 
 #: src/mv.c:329
 msgid ""
@@ -8633,7 +8670,7 @@ msgstr "nevar kombinēt --backup ar --exchange, -n vai --update=none-fail"
 #: src/nice.c:72
 #, c-format
 msgid "Usage: %s [OPTION] [COMMAND [ARG]...]\n"
-msgstr "Lietojums: %s [OPCIJA] [KOMANDA [ARG]...]\n"
+msgstr "Lietošana: %s [OPCIJA] [KOMANDA [ARG]...]\n"
 
 #: src/nice.c:73
 #, c-format
@@ -8643,8 +8680,8 @@ msgid ""
 "%d (most favorable to the process) to %d (least favorable to the process).\n"
 msgstr ""
 "Palaist KOMANDU ar pielāgotu prioritāti, kas ietekmē procesu plānošanu.\n"
-"Ja KOMANDA nav norādīta, izvadīt pašreizējo prioritāti.  Prioritātes vērtības ir no\n"
-"%d (vislabvēlīgākā procesam) līdz %d (visnelabvēlīgākā procesam).\n"
+"Ja KOMANDA nav norādīta, izvadīt pašreizējo prioritāti.  Prioritātes vērtības ir\n"
+"no %d (vislabvēlīgākā procesam) līdz %d (visnelabvēlīgākā procesam).\n"
 
 #: src/nice.c:82
 msgid ""
@@ -8701,19 +8738,19 @@ msgstr "  -h, --header-numbering=STILS    izmantot STILU galvenes rindu numerāc
 
 #: src/nl.c:204
 msgid "  -i, --line-increment=NUMBER     line number increment at each line\n"
-msgstr "  -i, --line-increment=CIPARS     rindas numura pieaugums katrā rindā\n"
+msgstr "  -i, --line-increment=SKAITS     rindas numura pieaugums katrā rindā\n"
 
 #: src/nl.c:207
 msgid "  -l, --join-blank-lines=NUMBER   group of NUMBER empty lines counted as one\n"
-msgstr "  -l, --join-blank-lines=CIPARS   CIPARS tukšu rindu grupu skaitīt kā vienu\n"
+msgstr "  -l, --join-blank-lines=SKAITS   SKAITS tukšu rindu grupu skaitīt kā vienu\n"
 
 #: src/nl.c:210
 msgid "  -n, --number-format=FORMAT      insert line numbers according to FORMAT\n"
-msgstr "  -n, --number-format=FORMĀTS      ievietot rindu numurus saskaņā ar FORMĀTU\n"
+msgstr "  -n, --number-format=FORMĀTS     ievietot rindu numurus saskaņā ar FORMĀTU\n"
 
 #: src/nl.c:213
 msgid "  -p, --no-renumber               do not reset line numbers for each section\n"
-msgstr "  -p, --no-renumber               neatstatīt rindu numurus katrā sadaļā\n"
+msgstr "  -p, --no-renumber               neatiestatīt rindu numurus katrā sadaļā\n"
 
 #: src/nl.c:216
 msgid "  -s, --number-separator=STRING   add STRING after (possible) line number\n"
@@ -8721,11 +8758,11 @@ msgstr "  -s, --number-separator=VIRKNE   pievienot VIRKNI pēc (iespējamā) ri
 
 #: src/nl.c:219
 msgid "  -v, --starting-line-number=NUMBER  first line number for each section\n"
-msgstr "  -v, --starting-line-number=CIPARS  pirmās rindas numurs katrā sadaļā\n"
+msgstr "  -v, --starting-line-number=SKAITS  pirmās rindas numurs katrā sadaļā\n"
 
 #: src/nl.c:222
 msgid "  -w, --number-width=NUMBER       use NUMBER columns for line numbers\n"
-msgstr "  -w, --number-width=CIPARS       izmantot CIPARU kolonnas rindu numuriem\n"
+msgstr "  -w, --number-width=SKAITS       izmantot SKAITS kolonnu rindu numuriem\n"
 
 #: src/nl.c:227
 msgid ""
@@ -8853,8 +8890,8 @@ msgid ""
 msgstr ""
 "\n"
 "Ja standarta ievade ir terminālis, novirzīt to no nelasāma faila.\n"
-"Ja standarta izvade ir terminālis, pievienot izvadi failam 'nohup.out', ja iespējams,\n"
-"pretējā gadījumā '$HOME/nohup.out'.\n"
+"Ja standarta izvade ir terminālis, pievienot izvadi failam 'nohup.out', ja\n"
+"iespējams, pretējā gadījumā '$HOME/nohup.out'.\n"
 "Ja standarta kļūdu izvade ir terminālis, novirzīt to uz standarta izvadi.\n"
 "Lai saglabātu izvadi FAILĀ, izmantojiet '%s KOMANDA > FAILS'.\n"
 
@@ -8950,17 +8987,17 @@ msgstr "nederīgs skaitlis: %s"
 #: src/numfmt.c:758
 #, c-format
 msgid "rejecting suffix in input: %s (consider using --from)"
-msgstr "noraida sufiksu ievadē: %s (apsveriet iespēju izmantot --from)"
+msgstr "noraida piedēkli ievadē: %s (apsveriet iespēju izmantot --from)"
 
 #: src/numfmt.c:762
 #, c-format
 msgid "invalid suffix in input: %s"
-msgstr "nederīgs sufikss ievadē: %s"
+msgstr "nederīgs piedēklis ievadē: %s"
 
 #: src/numfmt.c:766
 #, c-format
 msgid "missing 'i' suffix in input: %s (e.g Ki/Mi/Gi)"
-msgstr "ievadē trūkst sufiksa 'i': %s (piemēram, Ki/Mi/Gi)"
+msgstr "ievadē trūkst piedēkļa 'i': %s (piemēram, Ki/Mi/Gi)"
 
 #: src/numfmt.c:903
 #, c-format
@@ -8974,7 +9011,9 @@ msgstr "Lietošana: %s [OPCIJA]... [SKAITLIS]...\n"
 
 #: src/numfmt.c:921
 msgid "Reformat NUMBER(s), or the numbers from standard input if none are specified.\n"
-msgstr "Pārformatēt SKAITLI(-ĻUS) vai skaitļus no standarta ievades, ja neviens nav norādīts.\n"
+msgstr ""
+"Pārformatēt SKAITLI(-ĻUS) vai skaitļus no standarta ievades, ja neviens nav\n"
+"norādīts.\n"
 
 #: src/numfmt.c:925
 msgid ""
@@ -9019,8 +9058,8 @@ msgid ""
 "         see UNIT below for details\n"
 msgstr ""
 "      --from=VIENĪBA\n"
-"         automātiski mērogot ievades skaitļus uz VIENĪBĀM; noklusējums ir 'none';\n"
-"         sīkāku informāciju skatiet zemāk pie VIENĪBA\n"
+"         automātiski mērogot ievades skaitļus uz VIENĪBĀM; noklusējums ir\n"
+"         'none'; sīkāku informāciju skatiet zemāk pie VIENĪBA\n"
 
 #: src/numfmt.c:948
 msgid ""
@@ -9090,9 +9129,9 @@ msgid ""
 "         add SUFFIX to output numbers,\n"
 "         and accept an optional SUFFIX in input numbers\n"
 msgstr ""
-"      --suffix=SUFIKSS\n"
-"         pievienot SUFIKSU izvades skaitļiem,\n"
-"         un pieņemt neobligātu SUFIKSU ievades skaitļos\n"
+"      --suffix=PIEDĒKLIS\n"
+"         pievienot PIEDĒKLI izvades skaitļiem,\n"
+"         un pieņemt neobligātu PIEDĒKLI ievades skaitļos\n"
 
 #: src/numfmt.c:984
 msgid ""
@@ -9110,7 +9149,7 @@ msgid ""
 "         auto-scale output numbers to UNITs; see UNIT below\n"
 msgstr ""
 "      --to=VIENĪBA\n"
-"         automātiski mērogot izvades skaitļus uz VIENĪBU vienībām; skatīt VIENĪBU zemāk\n"
+"         automātiski mērogot izvades skaitļus uz VIENĪBĀM; skatīt VIENĪBA zemāk\n"
 
 #: src/numfmt.c:993
 msgid ""
@@ -9130,7 +9169,7 @@ msgstr ""
 
 #: src/numfmt.c:1007
 msgid "  none       no auto-scaling is done; suffixes will trigger an error\n"
-msgstr "  none       automātiskā mērogošana netiek veikta; sufiksi izraisīs kļūdu\n"
+msgstr "  none       automātiskā mērogošana netiek veikta; piedēkļi izraisīs kļūdu\n"
 
 #: src/numfmt.c:1010
 msgid ""
@@ -9140,7 +9179,7 @@ msgid ""
 "               1M = 1000000,\n"
 "               1Mi = 1048576,\n"
 msgstr ""
-"  auto       pieņemt neobligātu viena/divu burtu sufiksu:\n"
+"  auto       pieņemt neobligātu viena/divu burtu piedēkli:\n"
 "               1K = 1000, 1k = 1000,\n"
 "               1Ki = 1024,\n"
 "               1M = 1000000,\n"
@@ -9153,7 +9192,7 @@ msgid ""
 "               1M = 1000000,\n"
 "               ...\n"
 msgstr ""
-"  si         pieņemt neobligātu viena burta sufiksu:\n"
+"  si         pieņemt neobligātu viena burta piedēkli:\n"
 "               1k = 1000, 1K = 1000,\n"
 "               1M = 1000000,\n"
 "               ...\n"
@@ -9165,7 +9204,7 @@ msgid ""
 "               1M = 1048576,\n"
 "               ...\n"
 msgstr ""
-"  iec        pieņemt neobligātu viena burta sufiksu:\n"
+"  iec        pieņemt neobligātu viena burta piedēkli:\n"
 "               1K = 1024, 1k = 1024,\n"
 "               1M = 1048576,\n"
 "               ...\n"
@@ -9177,7 +9216,7 @@ msgid ""
 "               1Mi = 1048576,\n"
 "               ...\n"
 msgstr ""
-"  iec-i      pieņemt neobligātu divu burtu sufiksu:\n"
+"  iec-i      pieņemt neobligātu divu burtu piedēkli:\n"
 "               1Ki = 1024, 1ki = 1024,\n"
 "               1Mi = 1048576,\n"
 "               ...\n"
@@ -9215,9 +9254,10 @@ msgstr ""
 "\n"
 "FORMĀTAM jābūt piemērotam viena peldošā komata argumenta '%f' izvadīšanai.\n"
 "Neobligāta pēdiņa (%'f) iespējos --grouping (ja to atbalsta pašreizējā lokāle).\n"
-"Neobligāta platuma vērtība (%10f) aizpildīs izvadi. Neobligāts nulles platums (%010f)\n"
-"aizpildīs skaitli ar nullēm. Neobligātas negatīvas vērtības (%-10f) izlīdzinās pa kreisi.\n"
-"Neobligāta precizitāte (%.1f) aizstās ievadē noteikto precizitāti.\n"
+"Neobligāta platuma vērtība (%10f) aizpildīs izvadi. Neobligāts nulles platums\n"
+"(%010f) aizpildīs skaitli ar nullēm. Neobligātas negatīvas vērtības (%-10f)\n"
+"izlīdzinās pa kreisi. Neobligāta precizitāte (%.1f) aizstās ievadē noteikto\n"
+"precizitāti.\n"
 
 #: src/numfmt.c:1050
 #, c-format
@@ -9231,12 +9271,12 @@ msgid ""
 "errors are not diagnosed and the exit status is 0.\n"
 msgstr ""
 "\n"
-"Iziešanas statuss ir 0, ja visi ievades skaitļi tika veiksmīgi konvertēti.\n"
-"Pēc noklusējuma %s apstāsies pie pirmās konvertēšanas kļūdas ar iziešanas statusu 2.\n"
-"Ar --invalid='fail' katrai konvertēšanas kļūdai tiek izvadīts brīdinājums\n"
-"un iziešanas statuss ir 2.  Ar --invalid='warn' katra konvertēšanas kļūda tiek\n"
-"diagnosticēta, bet iziešanas statuss ir 0.  Ar --invalid='ignore' konvertēšanas\n"
-"kļūdas netiek diagnosticētas un iziešanas statuss ir 0.\n"
+"Izpildes statuss ir 0, ja visi ievades skaitļi tika veiksmīgi konvertēti.\n"
+"Pēc noklusējuma %s apstāsies pie pirmās konvertēšanas kļūdas ar izpildes statusu\n"
+"2. Ar --invalid='fail' katrai konvertēšanas kļūdai tiek izvadīts brīdinājums\n"
+"un izpildes statuss ir 2.  Ar --invalid='warn' katra konvertēšanas kļūda tiek\n"
+"diagnosticēta, bet izpildes statuss ir 0.  Ar --invalid='ignore' konvertēšanas\n"
+"kļūdas netiek diagnosticētas un izpildes statuss ir 0.\n"
 
 #: src/numfmt.c:1059
 #, c-format
@@ -9308,7 +9348,7 @@ msgstr "formātam %s ir pārāk daudz %% direktīvu"
 #: src/numfmt.c:1229
 #, c-format
 msgid "invalid suffix in input %s: %s"
-msgstr "nederīgs sufikss ievadē %s: %s"
+msgstr "nederīgs piedēklis ievadē %s: %s"
 
 #: src/numfmt.c:1257
 #, c-format
@@ -9399,7 +9439,8 @@ msgid ""
 msgstr ""
 "Lietošana: %s [OPCIJA]... [FAILS]...\n"
 "  vai:  %s [-abcdfilosx]... [FAILS] [[+]NOBĪDE[.][b]]\n"
-"  vai:  %s --traditional [OPCIJA]... [FAILS] [[+]NOBĪDE[.][b] [+][IEZĪME][.][b]]\n"
+"  vai:  %s --traditional [OPCIJA]... [FAILS] [[+]NOBĪDE[.][b]\n"
+"        [+][ETIĶETE][.][b]]\n"
 
 #: src/od.c:363
 msgid ""
@@ -9409,7 +9450,7 @@ msgid ""
 "concatenate them in the listed order to form the input.\n"
 msgstr ""
 "\n"
-"Izvadīt FAILS viennozīmīgu attēlojumu (pēc noklusējuma oktālos baitos)\n"
+"Izvadīt FAILA viennozīmīgu attēlojumu (pēc noklusējuma oktālos baitos)\n"
 "standarta izvadē.  Ja norādīts vairāk nekā viens FAILS arguments,\n"
 "savienot tos norādītajā secībā, lai veidotu ievadi.\n"
 
@@ -9424,11 +9465,11 @@ msgid ""
 "suffixes may be . for octal and b for multiply by 512.\n"
 msgstr ""
 "\n"
-"Ja ir spēkā gan pirmais, gan otrais izsaukšanas formāts, tiek pieņemts otrais formāts,\n"
-"ja pēdējais operands sākas ar + vai (ja ir 2 operandi) ar ciparu.\n"
-"Operands NOBĪDE nozīmē -j NOBĪDE.  MARĶĒJUMS ir pseidoadrese\n"
+"Ja ir spēkā gan pirmais, gan otrais izsaukšanas formāts, tiek pieņemts otrais\n"
+"formāts, ja pēdējais operands sākas ar + vai (ja ir 2 operandi) ar ciparu.\n"
+"Operands NOBĪDE nozīmē -j NOBĪDE.  ETIĶETE ir pseidoadrese\n"
 "pirmajam izvadītajam baitam, kas tiek palielināta izvades gaitā.\n"
-"NOBĪDEI un MARĶĒJUMAM prefikss 0x vai 0X norāda heksadecimālu skaitli;\n"
+"NOBĪDEI un ETIĶETEI priedēklis 0x vai 0X norāda heksadecimālu skaitli;\n"
 "piedēkļi var būt . oktālajam un b reizināšanai ar 512.\n"
 
 #: src/od.c:383
@@ -9521,7 +9562,9 @@ msgstr ""
 
 #: src/od.c:429
 msgid "  -a   same as -t a,  select named characters, ignoring high-order bit\n"
-msgstr "  -a   tas pats, kas -t a,  atlasīt nosauktās rakstzīmes, ignorējot augstākās kārtas bitu\n"
+msgstr ""
+"  -a   tas pats, kas -t a,  atlasīt nosauktās rakstzīmes, ignorējot augstākās\n"
+"       kārtas bitu\n"
 
 #: src/od.c:432
 msgid "  -b   same as -t o1, select octal bytes\n"
@@ -9529,7 +9572,9 @@ msgstr "  -b   tas pats, kas -t o1, atlasīt oktālos baitus\n"
 
 #: src/od.c:435
 msgid "  -c   same as -t c,  select printable characters or backslash escapes\n"
-msgstr "  -c   tas pats, kas -t c, atlasīt drukājamās rakstzīmes vai atpakaļvērstās slīpsvītras atsoļus\n"
+msgstr ""
+"  -c   tas pats, kas -t c,  atlasīt drukājamās rakstzīmes vai atpakaļvērstās\n"
+"       slīpsvītras atsoļus\n"
 
 #: src/od.c:438
 msgid "  -d   same as -t u2, select unsigned decimal 2-byte units\n"
@@ -9557,7 +9602,7 @@ msgstr "  -s   tas pats, kas -t d2, atlasīt decimālās 2 baitu vienības\n"
 
 #: src/od.c:456
 msgid "  -x   same as -t x2, select hexadecimal 2-byte units\n"
-msgstr "  -x   tas pats, kas -t x2, izvēlēties heksadecimālas 2 baitu vienības\n"
+msgstr "  -x   tas pats, kas -t x2, atlasīt heksadecimālās 2 baitu vienības\n"
 
 #: src/od.c:459
 msgid ""
@@ -9570,8 +9615,8 @@ msgstr ""
 "\n"
 "\n"
 "TIPS sastāv no vienas vai vairākām šādām specifikācijām:\n"
-"  a          nosaukts simbols, ignorējot vecāko bitu\n"
-"  c          drukājams simbols vai atpakaļsvītras atsojums\n"
+"  a          nosaukta rakstzīme, ignorējot vecāko bitu\n"
+"  c          drukājama rakstzīme vai atpakaļsvītras atsolis\n"
 
 #: src/od.c:466
 msgid ""
@@ -9581,11 +9626,11 @@ msgid ""
 "  u[SIZE]    unsigned decimal, SIZE bytes per integer\n"
 "  x[SIZE]    hexadecimal, SIZE bytes per integer\n"
 msgstr ""
-"  d[IZMĒRS]    decimāls ar zīmi, IZMĒRS baiti uz veselu skaitli\n"
-"  f[IZMĒRS]    peldošais komats, IZMĒRS baiti uz peldošo skaitli\n"
-"  o[IZMĒRS]    oktāls, IZMĒRS baiti uz veselu skaitli\n"
-"  u[IZMĒRS]    decimāls bez zīmes, IZMĒRS baiti uz veselu skaitli\n"
-"  x[IZMĒRS]    heksadecimāls, IZMĒRS baiti uz veselu skaitli\n"
+"  d[IZMĒRS]  decimāls ar zīmi, IZMĒRS baiti uz veselu skaitli\n"
+"  f[IZMĒRS]  peldošais komats, IZMĒRS baiti uz peldošo skaitli\n"
+"  o[IZMĒRS]  oktāls, IZMĒRS baiti uz veselu skaitli\n"
+"  u[IZMĒRS]  decimāls bez zīmes, IZMĒRS baiti uz veselu skaitli\n"
+"  x[IZMĒRS]  heksadecimāls, IZMĒRS baiti uz veselu skaitli\n"
 
 #: src/od.c:473
 msgid ""
@@ -9610,7 +9655,7 @@ msgid ""
 "each output line.\n"
 msgstr ""
 "\n"
-"Pievienojot jebkuram tipam sufiksu z, katras izvades rindas beigās tiek\n"
+"Pievienojot jebkuram tipam piedēkli z, katras izvades rindas beigās tiek\n"
 "parādīti drukājamie simboli.\n"
 
 #: src/od.c:486
@@ -9628,14 +9673,15 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"BAITI ir heksadecimāls lielums ar 0x vai 0X prefiksu, un tam var būt reizinātāja sufikss:\n"
+"BAITI ir heksadecimāls lielums ar 0x vai 0X priedēkli, un tam var būt\n"
+"reizinātāja piedēklis:\n"
 "  b    512\n"
 "  KB   1000\n"
 "  K    1024\n"
 "  MB   1000*1000\n"
 "  M    1024*1024\n"
 "un tā tālāk ar G, T, P, E, Z, Y, R, Q.\n"
-"Var izmantot arī bināros prefiksus: KiB=K, MiB=M un tā tālāk.\n"
+"Var izmantot arī bināros priedēkļus: KiB=K, MiB=M un tā tālāk.\n"
 
 #: src/od.c:797 src/od.c:909
 #, c-format
@@ -9668,7 +9714,7 @@ msgstr "šī sistēma nenodrošina %s peldošā komata tipu"
 #: src/od.c:993
 #, c-format
 msgid "invalid character '%c' in type string %s"
-msgstr "nederīgs simbols '%c' tipa virknē %s"
+msgstr "nederīga rakstzīme '%c' tipa virknē %s"
 
 #: src/od.c:1227
 #, c-format
@@ -9683,7 +9729,7 @@ msgstr "pseidoadrese ir pārāk liela ievadei"
 #: src/od.c:1740
 #, c-format
 msgid "invalid output address radix '%c'; it must be one character from [doxn]"
-msgstr "nederīga izvades adreses bāze '%c'; tai jābūt vienam simbolam no [doxn]"
+msgstr "nederīga izvades adreses bāze '%c'; tai jābūt vienai rakstzīmei no [doxn]"
 
 #: src/od.c:1877
 #, c-format
@@ -9922,7 +9968,9 @@ msgstr "  -i     izlaist lietotāja pilno vārdu un attālo resursdatoru īsajā
 
 #: src/pinky.c:510
 msgid "  -q     omit the user's full name, remote host and idle time in short format\n"
-msgstr "  -q     izlaist lietotāja pilno vārdu, attālo resursdatoru un dīkstāves laiku īsajā formātā\n"
+msgstr ""
+"  -q     izlaist lietotāja pilno vārdu, attālo resursdatoru un dīkstāves laiku\n"
+"         īsajā formātā\n"
 
 #: src/pinky.c:513
 msgid ""
@@ -9979,7 +10027,7 @@ msgstr "'-l LAPPUSES_GARUMS' nederīgs rindu skaits"
 
 #: src/pr.c:995
 msgid "'-N NUMBER' invalid starting line number"
-msgstr "'-N CIPARS' nederīgs sākuma rindas numurs"
+msgstr "'-N SKAITLIS' nederīgs sākuma rindas numurs"
 
 #: src/pr.c:999
 msgid "'-o MARGIN' invalid line offset"
@@ -10054,8 +10102,8 @@ msgid ""
 "         Balance number of lines in the columns on each page\n"
 msgstr ""
 "  -COLS, --columns=KOLONNAS\n"
-"         izvadīt KOLONNAS kolonnas un drukāt kolonnas uz leju, ja vien netiek lietots -a.\n"
-"         Līdzsvarot rindu skaitu kolonnās katrā lappusē\n"
+"         izvadīt KOLONNAS kolonnas un drukāt kolonnas uz leju, ja vien netiek\n"
+"         lietots -a. Līdzsvarot rindu skaitu kolonnās katrā lappusē\n"
 
 #: src/pr.c:2789
 msgid ""
@@ -10071,7 +10119,8 @@ msgid ""
 "         use hat notation (^G) and octal backslash notation\n"
 msgstr ""
 "  -c, --show-control-chars\n"
-"         lietot jumtiņa pierakstu (^G) un oktālo apgrieztās slīpsvītras pierakstu\n"
+"         lietot jumtiņa pierakstu (^G) un oktālo apgrieztās slīpsvītras\n"
+"         pierakstu\n"
 
 #: src/pr.c:2797
 msgid ""
@@ -10125,7 +10174,8 @@ msgid ""
 "         replace spaces with CHARs (TABs) to tab WIDTH (8)\n"
 msgstr ""
 "  -i[RAKSTZĪME[PLATUMS]], --output-tabs[=RAKSTZĪME[PLATUMS]]\n"
-"         aizstāt atstarpes ar RAKSTZĪMĒM (tabulācijām) līdz tabulācijas PLATUMAM (8)\n"
+"         aizstāt atstarpes ar RAKSTZĪMĒM (tabulācijām) līdz tabulācijas PLATUMAM\n"
+"         (8)\n"
 
 #: src/pr.c:2824
 msgid ""
@@ -10166,7 +10216,7 @@ msgid ""
 "         default counting starts with 1st line of input file\n"
 msgstr ""
 "  -n[SEP[CIPARI]], --number-lines[=SEP[CIPARI]]\n"
-"         numurēt rindas, izmantot CIPARUS (5) cipariem, tad SEP (TAB),\n"
+"         numurēt rindas, izmantojot CIPARI (5) ciparus, tad SEP (TAB),\n"
 "         pēc noklusējuma skaitīšana sākas no ievades faila 1. rindas\n"
 
 #: src/pr.c:2845
@@ -10187,7 +10237,7 @@ msgid ""
 msgstr ""
 "  -o, --indent=NOBĪDE\n"
 "         nobīdīt katru rindu par NOBĪDI (nulle) atstarpēm; neietekmē\n"
-"         -w vai -W, NOBĪDE tiks pieskaitīts pie LAPPUSES_PLATUMA\n"
+"         -w vai -W, NOBĪDE tiks pieskaitīta pie LAPPUSES_PLATUMA\n"
 
 #: src/pr.c:2855
 msgid ""
@@ -10219,7 +10269,7 @@ msgid ""
 "         otherwise (same as -S\" \"), no effect on column options\n"
 msgstr ""
 "  -S[VIRKNE], --sep-string[=VIRKNE]\n"
-"         atdalīt kolonnas ar VIRKNE,\n"
+"         atdalīt kolonnas ar VIRKNI,\n"
 "         bez -S: noklusējuma atdalītājs ir <TAB> ar -J un <atstarpe>\n"
 "         citādi (tāpat kā -S\" \"), neietekmē kolonnu opcijas\n"
 
@@ -10229,7 +10279,8 @@ msgid ""
 "         omit page headers and trailers; implied if PAGE_LENGTH <= 10\n"
 msgstr ""
 "  -t, --omit-header\n"
-"         izlaist lapas galvenes un kājenes; tiek pieņemts, ja LAPPUSE_GARUMS <= 10\n"
+"         izlaist lapas galvenes un kājenes; tiek pieņemts, ja LAPPUSES_GARUMS <=\n"
+"         10\n"
 
 #: src/pr.c:2876
 msgid ""
@@ -10267,7 +10318,7 @@ msgid ""
 "         no interference with -S or -s\n"
 msgstr ""
 "  -W, --page-width=LAPPUSES_PLATUMS\n"
-"         iestatīt lapas platumu uz LAPPUSES_PLATUMS(72) rakstzīmēm vienmēr,\n"
+"         iestatīt lapas platumu uz LAPPUSES_PLATUMS (72) rakstzīmēm vienmēr,\n"
 "         apcirpt rindas, izņemot, ja ir iestatīta opcija -J,\n"
 "         neietekmē -S vai -s\n"
 
@@ -10281,7 +10332,8 @@ msgid ""
 msgstr ""
 "Lietošana: %s [OPCIJA] [MAINĪGAIS]...\n"
 "Izvadīt norādīto vides MAINĪGO vērtības.\n"
-"Ja nav norādīts neviens MAINĪGAIS, izvadīt nosaukumu un vērtību pārus visiem mainīgajiem.\n"
+"Ja nav norādīts neviens MAINĪGAIS, izvadīt nosaukumu un vērtību pārus visiem\n"
+"mainīgajiem.\n"
 "\n"
 
 #: src/printf.c:44
@@ -10327,7 +10379,8 @@ msgid ""
 msgstr ""
 "  \\NNN    baits ar oktālo vērtību NNN (1 līdz 3 cipari)\n"
 "  \\xHH    baits ar heksadecimālo vērtību HH (1 līdz 2 cipari)\n"
-"  \\uHHHH  Unicode (ISO/IEC 10646) rakstzīme ar heksadecimālo vērtību HHHH (4 cipari)\n"
+"  \\uHHHH  Unicode (ISO/IEC 10646) rakstzīme ar heksadecimālo vērtību HHHH (4\n"
+"          cipari)\n"
 "  \\UHHHHHHHH  Unicode rakstzīme ar heksadecimālo vērtību HHHHHHHH (8 cipari)\n"
 
 #: src/printf.c:88
@@ -10345,12 +10398,13 @@ msgstr ""
 "\n"
 "  %%      viena % zīme\n"
 "  %b      ARGUMENTS kā virkne ar interpretētām '\\' atsoļa sekvencēm,\n"
-"          izņemot to, ka oktālajām atsoļa sekvencēm jāsākas ar 0, piemēram, \\0NNN\n"
-"  %q      ARGUMENTS tiek izvadīts formātā, ko var atkārtoti izmantot kā čaulas ievadi,\n"
-"          ekranējot nedrukājamās rakstzīmes ar POSIX $'' sintaksi\n"
+"          izņemot to, ka oktālajām atsoļa sekvencēm jāsākas ar 0, piemēram,\n"
+"          \\0NNN\n"
+"  %q      ARGUMENTS tiek izvadīts formātā, ko var atkārtoti izmantot kā čaulas\n"
+"          ievadi, ekranējot nedrukājamās rakstzīmes ar POSIX $'' sintaksi\n"
 "\n"
-"un visas C printf(3) formāta specifikācijas, kas beidzas ar kādu no diouxXfaAeEgGcs,\n"
-"vispirms pārveidojot ARGUMENTUS atbilstošajā tipā.\n"
+"un visas C printf(3) formāta specifikācijas, kas beidzas ar kādu no\n"
+"diouxXfaAeEgGcs, vispirms pārveidojot ARGUMENTUS atbilstošajā tipā.\n"
 
 #: src/printf.c:99
 msgid "FORMAT is reused to convert all specified arguments.\n"
@@ -10379,9 +10433,9 @@ msgid ""
 "  %q          '%q ' 'a' \\;b $'c\\n'        a ';b' 'c'$'\\n'\n"
 msgstr ""
 "Šajā tabulā parādīti atbalstītie pārveidošanas specifikatori,\n"
-"ar piemēriem, tostarp platuma, precizitātes un karodziņu izmantošanu.\n"
+"ar piemēriem, tostarp platuma, precizitātes un karogu izmantošanu.\n"
 "\n"
-"  KONVERSIJA  Čaulas formāta piemērs        Izvade\n"
+"  KONVERSIJA  Čaulas formāta piemērs      Izvade\n"
 "  %s          '[%10s]' 'left pad'         [  left pad]\n"
 "  %s          '[%-10s]' 'right pad'       [right pad ]\n"
 "  %c %s       '%c %.3s' un unibyte        u uni\n"
@@ -10444,7 +10498,7 @@ msgstr "brīdinājums: tiek ignorēti liekie argumenti, sākot ar %s"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/ptx.c:41
 msgid "F. Pinard"
-msgstr "F. Pinard"
+msgstr "François Pinard"
 
 #: src/ptx.c:409
 #, c-format
@@ -10519,15 +10573,19 @@ msgstr "  -f, --ignore-case              kārtošanai pārveidot mazos burtus pa
 
 #: src/ptx.c:1721
 msgid "  -g, --gap-size=NUMBER          gap size in columns between output fields\n"
-msgstr "  -g, --gap-size=SKAITLIS          atstarpes lielums kolonnās starp izvades laukiem\n"
+msgstr ""
+"  -g, --gap-size=SKAITLIS        atstarpes lielums kolonnās starp izvades\n"
+"                                 laukiem\n"
 
 #: src/ptx.c:1724
 msgid "  -i, --ignore-file=FILE         read ignore word list from FILE\n"
-msgstr "  -i, --ignore-file=FAILS         nolasīt ignorējamo vārdu sarakstu no FAILA\n"
+msgstr "  -i, --ignore-file=FAILS        nolasīt ignorējamo vārdu sarakstu no FAILA\n"
 
 #: src/ptx.c:1727
 msgid "  -o, --only-file=FILE           read only word list from this FILE\n"
-msgstr "  -o, --only-file=FAILS           nolasīt tikai atļauto vārdu sarakstu no šī FAILA\n"
+msgstr ""
+"  -o, --only-file=FAILS          nolasīt tikai atļauto vārdu sarakstu no šī\n"
+"                                 FAILA\n"
 
 #: src/ptx.c:1730
 msgid "  -r, --references               first field of each line is a reference\n"
@@ -10539,7 +10597,7 @@ msgstr "  -t, --typeset-mode             mainīt noklusējuma platumu no 72 uz 1
 
 #: src/ptx.c:1736
 msgid "  -w, --width=NUMBER             output width in columns, reference excluded\n"
-msgstr "  -w, --width=CIPARS             izvades platums kolonnās, neieskaitot atsauci\n"
+msgstr "  -w, --width=SKAITLIS           izvades platums kolonnās, neieskaitot atsauci\n"
 
 #: src/ptx.c:1834
 #, c-format
@@ -10606,7 +10664,7 @@ msgstr "tiek ignorēti argumenti, kas nav opcijas"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/readlink.c:32
 msgid "Dmitry V. Levin"
-msgstr "Dmitrijs V. Levins"
+msgstr "Dmitry V. Levin"
 
 #: src/readlink.c:65 src/realpath.c:72 src/shred.c:169 src/stat.c:1760
 #: src/touch.c:216
@@ -10701,7 +10759,9 @@ msgstr "Izvadīt atrisināto absolūto faila nosaukumu.\n"
 
 #: src/realpath.c:76
 msgid "  -E, --canonicalize           all but the last component must exist (default)\n"
-msgstr "  -E, --canonicalize           visām komponentēm, izņemot pēdējo, jāeksistē (noklusējums)\n"
+msgstr ""
+"  -E, --canonicalize           visām komponentēm, izņemot pēdējo, jāeksistē\n"
+"                               (noklusējums)\n"
 
 #: src/realpath.c:80
 msgid "  -e, --canonicalize-existing  all components of the path must exist\n"
@@ -10709,15 +10769,21 @@ msgstr "  -e, --canonicalize-existing  visām ceļa komponentēm jāeksistē\n"
 
 #: src/realpath.c:83
 msgid "  -m, --canonicalize-missing   no path components need exist or be a directory\n"
-msgstr "  -m, --canonicalize-missing   nevienai ceļa komponentei nav jāeksistē vai jābūt direktorijai\n"
+msgstr ""
+"  -m, --canonicalize-missing   nevienai ceļa komponentei nav jāeksistē vai jābūt\n"
+"                               direktorijai\n"
 
 #: src/realpath.c:87
 msgid "  -L, --logical                resolve '..' components before symlinks\n"
-msgstr "  -L, --logical                atrisināt '..' komponentes pirms simboliskajām saitēm\n"
+msgstr ""
+"  -L, --logical                atrisināt '..' komponentes pirms simboliskajām\n"
+"                               saitēm\n"
 
 #: src/realpath.c:90
 msgid "  -P, --physical               resolve symlinks as encountered (default)\n"
-msgstr "  -P, --physical               atrisināt simboliskās saites to sastapšanas brīdī (noklusējums)\n"
+msgstr ""
+"  -P, --physical               atrisināt simboliskās saites to sastapšanas brīdī\n"
+"                               (noklusējums)\n"
 
 #: src/realpath.c:93
 msgid "  -q, --quiet                  suppress most error messages\n"
@@ -10737,7 +10803,9 @@ msgstr "  -s, --strip, --no-symlinks   neizvērst simboliskās saites\n"
 
 #: src/realpath.c:105
 msgid "  -z, --zero                   end each output line with NUL, not newline\n"
-msgstr "  -z, --zero                   beigt katru izvades rindu ar NUL, nevis jaunu rindu\n"
+msgstr ""
+"  -z, --zero                   beigt katru izvades rindu ar NUL, nevis jaunu\n"
+"                               rindu\n"
 
 #: src/relpath.c:130
 msgid "generating relative path"
@@ -10766,12 +10834,12 @@ msgstr "%s: mēģināt dzēst nepieejamo direktoriju %s? "
 #: src/remove.c:316
 #, c-format
 msgid "%s: remove write-protected %s %s? "
-msgstr "%s: dzēst rakstaizsargāto %s %s? "
+msgstr "%1$s: dzēst pret rakstīšanu aizsargāto %3$s (%2$s)? "
 
 #: src/remove.c:317
 #, c-format
 msgid "%s: remove %s %s? "
-msgstr "%s: dzēst %s %s? "
+msgstr "%1$s: dzēst %3$s (%2$s)? "
 
 #: src/remove.c:399
 #, c-format
@@ -10860,8 +10928,8 @@ msgid ""
 "         without WHEN, prompt always\n"
 msgstr ""
 "      --interactive[=KAD]\n"
-"         prasīt apstiprinājumu atbilstoši KAD: never (nekad), once (-I) vai always (-i);\n"
-"         bez KAD prasīt apstiprinājumu vienmēr\n"
+"         prasīt apstiprinājumu atbilstoši KAD: never (nekad), once (-I) vai\n"
+"         always (-i); bez KAD prasīt apstiprinājumu vienmēr\n"
 
 #: src/rm.c:155
 msgid ""
@@ -10918,8 +10986,8 @@ msgid ""
 "option to remove each listed directory, too, along with all of its contents.\n"
 msgstr ""
 "\n"
-"Pēc noklusējuma rm nedzēš direktorijas. Izmantojiet opciju --recursive (-r vai -R),\n"
-"lai dzēstu arī katru norādīto direktoriju kopā ar visu tās saturu.\n"
+"Pēc noklusējuma rm nedzēš direktorijas. Izmantojiet opciju --recursive (-r vai\n"
+"-R), lai dzēstu arī katru norādīto direktoriju kopā ar visu tās saturu.\n"
 
 #: src/rm.c:190
 msgid ""
@@ -10928,8 +10996,8 @@ msgid ""
 "is rejected with a diagnostic.\n"
 msgstr ""
 "\n"
-"Jebkurš mēģinājums dzēst failu, kura nosaukuma pēdējais komponents ir '.' vai '..',\n"
-"tiek noraidīts ar diagnostikas ziņojumu.\n"
+"Jebkurš mēģinājums dzēst failu, kura nosaukuma pēdējais komponents ir '.' vai\n"
+"'..', tiek noraidīts ar diagnostikas ziņojumu.\n"
 
 #: src/rm.c:195
 #, c-format
@@ -11047,7 +11115,8 @@ msgid ""
 "  or:  %s [-c] [-u USER] [-r ROLE] [-t TYPE] [-l RANGE] COMMAND [ARG]...\n"
 msgstr ""
 "Lietošana: %s [KONTEKSTS KOMANDA [ARG]...]\n"
-"  vai:  %s [-c] [-u LIETOTĀJS] [-r LOMA] [-t TIPS] [-l DIAPAZONS] KOMANDA [ARG]...\n"
+"  vai:  %s [-c] [-u LIETOTĀJS] [-r LOMA] [-t TIPS] [-l DIAPAZONS] KOMANDA\n"
+"        [ARG]...\n"
 
 #: src/runcon.c:80
 msgid ""
@@ -11059,7 +11128,7 @@ msgstr ""
 
 #: src/runcon.c:87
 msgid "  CONTEXT            Complete security context\n"
-msgstr "  KONTEKSTS            Pilns drošības konteksts\n"
+msgstr "  KONTEKSTS          Pilns drošības konteksts\n"
 
 #: src/runcon.c:90
 msgid "  -c, --compute      compute process transition context before modifying\n"
@@ -11071,7 +11140,7 @@ msgstr "  -t, --type=TIPS    tips (tādai pašai lomai kā vecākam)\n"
 
 #: src/runcon.c:96
 msgid "  -u, --user=USER    user identity\n"
-msgstr "  -u, --user=LIETOTĀJS    lietotāja identitāte\n"
+msgstr "  -u, --user=LIETOTĀJS  lietotāja identitāte\n"
 
 #: src/runcon.c:99
 msgid "  -r, --role=ROLE    role\n"
@@ -11203,11 +11272,11 @@ msgid ""
 "INCREMENT must not be 0; none of FIRST, INCREMENT and LAST may be NaN.\n"
 msgstr ""
 "\n"
-"Ja PIRMAIS vai SOLIS nav norādīts, tiek izmantota noklusējuma vērtība 1. Tas nozīmē, ka\n"
-"izlaistais SOLIS pēc noklusējuma ir 1, pat ja PĒDĒJAIS ir mazāks par PIRMO.\n"
-"Skaitļu secība beidzas, kad pašreizējā skaitļa un SOĻA summa kļūtu lielāka par PĒDĒJO.\n"
-"PIRMAIS, SOLIS un PĒDĒJAIS tiek interpretēti kā peldošā komata vērtības.\n"
-"SOLIS parasti ir pozitīvs, ja PIRMAIS ir mazāks par PĒDĒJO, un\n"
+"Ja PIRMAIS vai SOLIS nav norādīts, tiek izmantota noklusējuma vērtība 1. Tas\n"
+"nozīmē, ka izlaistais SOLIS pēc noklusējuma ir 1, pat ja PĒDĒJAIS ir mazāks par\n"
+"PIRMO. Skaitļu secība beidzas, kad pašreizējā skaitļa un SOĻA summa kļūtu\n"
+"lielāka par PĒDĒJO. PIRMAIS, SOLIS un PĒDĒJAIS tiek interpretēti kā peldošā\n"
+"komata vērtības. SOLIS parasti ir pozitīvs, ja PIRMAIS ir mazāks par PĒDĒJO, un\n"
 "SOLIS parasti ir negatīvs, ja PIRMAIS ir lielāks par PĒDĒJO.\n"
 "SOLIS nedrīkst būt 0; neviens no PIRMĀ, SOĻA un PĒDĒJĀ nedrīkst būt NaN.\n"
 
@@ -11311,7 +11380,7 @@ msgstr "fprintftime kļūda"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/shred.c:74
 msgid "Colin Plumb"
-msgstr "Kolins Plambs"
+msgstr "Colin Plumb"
 
 #: src/shred.c:170
 msgid ""
@@ -11360,7 +11429,7 @@ msgid ""
 "         shred this many bytes (suffixes like K, M, G accepted)\n"
 msgstr ""
 "  -s, --size=N\n"
-"         iznīcināt šādu baitu skaitu (var izmantot sufiksus kā K, M, G)\n"
+"         iznīcināt šādu baitu skaitu (var izmantot piedēkļus kā K, M, G)\n"
 
 #: src/shred.c:197
 msgid ""
@@ -11435,7 +11504,9 @@ msgstr ""
 "'unlink' => izmantot standarta unlink izsaukumu.\n"
 "'wipe' => arī vispirms aizklāt baitus nosaukumā.\n"
 "'wipesync' => arī sinhronizēt katru aizklāto baitu ar ierīci.\n"
-"Noklusētais režīms ir 'wipesync', bet ņemiet vērā, ka tas var būt resursietilpīgs.\n"
+"Noklusētais režīms ir 'wipesync', bet ņemiet vērā, ka tas var būt\n"
+"resursietilpīgs.\n"
+"\n"
 
 #: src/shred.c:237
 msgid ""
@@ -11444,10 +11515,10 @@ msgid ""
 "and mirrors may contain unremovable copies that will let a shredded file\n"
 "be recovered later.  See the GNU coreutils manual for details.\n"
 msgstr ""
-"BRĪDINĀJUMS: shred pieņem, ka failu sistēma un aparatūra pārraksta datus tajā pašā vietā.\n"
-"Lai gan tas ir ierasti, daudzas platformas darbojas citādi. Arī rezerves kopijas\n"
-"un spoguļi var saturēt nenoņemamas kopijas, kas vēlāk ļautu atgūt iznīcinātu failu.\n"
-"Sīkāku informāciju skatiet GNU coreutils rokasgrāmatā.\n"
+"BRĪDINĀJUMS: shred pieņem, ka failu sistēma un aparatūra pārraksta datus tajā\n"
+"pašā vietā. Lai gan tas ir ierasti, daudzas platformas darbojas citādi. Arī\n"
+"dublējumi un spoguļi var saturēt nenoņemamas kopijas, kas vēlāk ļautu atgūt\n"
+"iznīcinātu failu. Sīkāku informāciju skatiet GNU coreutils rokasgrāmatā.\n"
 
 #: src/shred.c:336
 #, c-format
@@ -11467,7 +11538,7 @@ msgstr "%s: nevar pārtīt uz sākumu"
 #: src/shred.c:480
 #, c-format
 msgid "%s: pass %lu/%lu (%s)..."
-msgstr "%s: pāreja %lu/%lu (%s)..."
+msgstr "%s: caurgājiens %lu/%lu (%s)..."
 
 #: src/shred.c:529
 #, c-format
@@ -11487,12 +11558,12 @@ msgstr "%s: fails ir pārāk liels"
 #: src/shred.c:584
 #, c-format
 msgid "%s: pass %lu/%lu (%s)...%s"
-msgstr "%s: pāreja %lu/%lu (%s)...%s"
+msgstr "%s: caurgājiens %lu/%lu (%s)...%s"
 
 #: src/shred.c:600
 #, c-format
 msgid "%s: pass %lu/%lu (%s)...%s/%s %d%%"
-msgstr "%s: pāreja %lu/%lu (%s)...%s/%s %d%%"
+msgstr "%s: caurgājiens %lu/%lu (%s)...%s/%s %d%%"
 
 #: src/shred.c:857
 #, c-format
@@ -11527,7 +11598,7 @@ msgstr "%s: nevar iznīcināt tikai pievienošanas faila deskriptoru"
 #: src/shred.c:1075
 #, c-format
 msgid "%s: removing"
-msgstr "%s: noņem"
+msgstr "%s: dzēš"
 
 #: src/shred.c:1100
 #, c-format
@@ -11537,12 +11608,12 @@ msgstr "%s: pārdēvēts par %s"
 #: src/shred.c:1109
 #, c-format
 msgid "%s: failed to remove"
-msgstr "%s: neizdevās noņemt"
+msgstr "%s: neizdevās dzēst"
 
 #: src/shred.c:1113
 #, c-format
 msgid "%s: removed"
-msgstr "%s: noņemts"
+msgstr "%s: dzēsts"
 
 #: src/shred.c:1120 src/shred.c:1177
 #, c-format
@@ -11579,7 +11650,7 @@ msgid ""
 "  or:  %s -e [OPTION]... [ARG]...\n"
 "  or:  %s -i LO-HI [OPTION]...\n"
 msgstr ""
-"Lietojums: %s [OPCIJA]... [FAILS]\n"
+"Lietošana: %s [OPCIJA]... [FAILS]\n"
 "  vai:  %s -e [OPCIJA]... [ARG]...\n"
 "  vai:  %s -i LO-HI [OPCIJA]...\n"
 
@@ -11593,15 +11664,19 @@ msgstr "  -e, --echo                uzskatīt katru ARG par ievades rindu\n"
 
 #: src/shuf.c:72
 msgid "  -i, --input-range=LO-HI   treat each number LO through HI as an input line\n"
-msgstr "  -i, --input-range=LO-HI   uzskatīt katru skaitli no LO līdz HI par ievades rindu\n"
+msgstr ""
+"  -i, --input-range=LO-HI   uzskatīt katru skaitli no LO līdz HI par ievades\n"
+"                            rindu\n"
 
 #: src/shuf.c:75
 msgid "  -n, --head-count=COUNT    output at most COUNT lines\n"
-msgstr "  -n, --head-count=SKAITS    izvadīt ne vairāk kā SKAITA rindas\n"
+msgstr "  -n, --head-count=SKAITS   izvadīt ne vairāk kā SKAITS rindas\n"
 
 #: src/shuf.c:78
 msgid "  -o, --output=FILE         write result to FILE instead of standard output\n"
-msgstr "  -o, --output=FAILS         ierakstīt rezultātu failā FAILS, nevis standarta izvadē\n"
+msgstr ""
+"  -o, --output=FAILS        ierakstīt rezultātu failā FAILS, nevis standarta\n"
+"                            izvadē\n"
 
 #: src/shuf.c:81
 msgid "      --random-source=FILE  get random bytes from FILE\n"
@@ -11661,9 +11736,9 @@ msgid ""
 msgstr ""
 "Lietošana: %s SKAITLIS[PIEDĒKLIS]...\n"
 "  vai:  %s OPCIJA\n"
-"Nogaidīt SKAITLIS sekundes, kur SKAITLIS ir vesels skaitlis vai peldošā komata skaitlis.\n"
-"PIEDĒKLIS var būt 's', 'm', 'h' vai 'd' (sekundes, minūtes, stundas, dienas).\n"
-"Ja norādīti vairāki argumenti, nogaidīt to vērtību summu.\n"
+"Nogaidīt SKAITLIS sekundes, kur SKAITLIS ir vesels skaitlis vai peldošā komata\n"
+"skaitlis. PIEDĒKLIS var būt 's', 'm', 'h' vai 'd' (sekundes, minūtes, stundas,\n"
+"dienas). Ja norādīti vairāki argumenti, nogaidīt to vērtību summu.\n"
 "\n"
 
 #: src/sleep.c:131 src/timeout.c:386
@@ -11806,7 +11881,8 @@ msgid ""
 "         merge at most NMERGE inputs at once; for more use temp files\n"
 msgstr ""
 "      --batch-size=NMERGE\n"
-"         apvienot ne vairāk kā NMERGE ievades vienlaikus; lielākam skaitam izmantot pagaidu failus\n"
+"         apvienot ne vairāk kā NMERGE ievades vienlaikus; lielākam skaitam\n"
+"         izmantot pagaidu failus\n"
 
 #: src/sort.c:511
 msgid ""
@@ -11829,7 +11905,7 @@ msgid ""
 "      --compress-program=PROG\n"
 "         compress temporaries with PROG; decompress them with PROG -d\n"
 msgstr ""
-"  --compress-program=PROG\n"
+"      --compress-program=PROG\n"
 "         saspiest pagaidu failus ar PROG; atspiest tos ar PROG -d\n"
 
 #: src/sort.c:523
@@ -11849,8 +11925,8 @@ msgid ""
 "         If F is -, read names from standard input\n"
 msgstr ""
 "      --files0-from=F\n"
-"         lasīt ievadi no failiem, kuru ar NUL noslēgtie nosaukumi norādīti failā F;\n"
-"         ja F ir -, lasīt nosaukumus no standarta ievades\n"
+"         lasīt ievadi no failiem, kuru ar NUL noslēgtie nosaukumi norādīti failā\n"
+"         F; ja F ir -, lasīt nosaukumus no standarta ievades\n"
 
 #: src/sort.c:534
 msgid ""
@@ -11882,7 +11958,7 @@ msgid ""
 "         stabilize sort by disabling last-resort comparison\n"
 msgstr ""
 "  -s, --stable\n"
-"         stabilizēt kārtošanu, atslēdzot pēdējās iespējas salīdzinājumu\n"
+"         stabilizēt kārtošanu, atspējojot pēdējās iespējas salīdzinājumu\n"
 
 #: src/sort.c:550
 msgid ""
@@ -11949,7 +12025,8 @@ msgstr ""
 "rakstzīmes laukā tiek skaitītas no iepriekšējo atstarpju sākuma. OPTS ir viena\n"
 "vai vairākas vienburta kārtošanas opcijas [bdfgiMhnRrV], kas aizstāj globālās\n"
 "kārtošanas opcijas šai atslēgai. Ja atslēga nav norādīta, kā atslēga tiek\n"
-"izmantota visa rinda. Izmantojiet --debug, lai noteiktu nepareizu atslēgas lietojumu.\n"
+"izmantota visa rinda. Izmantojiet --debug, lai noteiktu nepareizu atslēgas\n"
+"lietojumu.\n"
 "\n"
 "Aiz IZMĒRA var sekot šādi reizinošie piedēkļi:\n"
 
@@ -11962,7 +12039,8 @@ msgid ""
 "Set LC_ALL=C to get the traditional sort order that uses\n"
 "native byte values.\n"
 msgstr ""
-"% 1% no atmiņas, b 1, K 1024 (pēc noklusējuma), un tāpat M, G, T, P, E, Z, Y, R, Q.\n"
+"% 1% no atmiņas, b 1, K 1024 (pēc noklusējuma), un tāpat M, G, T, P, E, Z, Y, R,\n"
+"Q.\n"
 "\n"
 "*** BRĪDINĀJUMS ***\n"
 "Vidē norādītā lokāle ietekmē kārtošanas secību.\n"
@@ -12229,20 +12307,20 @@ msgstr "papildu operands %s nav atļauts ar -%c"
 #: src/split.c:210
 #, c-format
 msgid "the suffix length needs to be at least %d"
-msgstr "sufiksa garumam jābūt vismaz %d"
+msgstr "piedēkļa garumam jābūt vismaz %d"
 
 #: src/split.c:226
 #, c-format
 msgid "Usage: %s [OPTION]... [FILE [PREFIX]]\n"
-msgstr "Lietošana: %s [OPCIJA]... [FAILS [PREFIKSS]]\n"
+msgstr "Lietošana: %s [OPCIJA]... [FAILS [PRIEDĒKLIS]]\n"
 
 #: src/split.c:230
 msgid ""
 "Output pieces of FILE to PREFIXaa, PREFIXab, ...;\n"
 "default size is 1000 lines, and default PREFIX is 'x'.\n"
 msgstr ""
-"Izvadīt FAILS fragmentus failos PREFIKSSaa, PREFIKSSab, ...;\n"
-"noklusējuma izmērs ir 1000 rindas, un noklusētais PREFIKSS ir 'x'.\n"
+"Izvadīt FAILA fragmentus failos PRIEDĒKLISaa, PRIEDĒKLISab, ...;\n"
+"noklusējuma izmērs ir 1000 rindas, un noklusētais PRIEDĒKLIS ir 'x'.\n"
 
 #: src/split.c:238
 #, c-format
@@ -12251,15 +12329,15 @@ msgid ""
 "         generate suffixes of length N (default %d)\n"
 msgstr ""
 "  -a, --suffix-length=N\n"
-"         ģenerēt N garuma sufiksus (noklusējums: %d)\n"
+"         ģenerēt N garuma piedēkļus (noklusējums: %d)\n"
 
 #: src/split.c:242
 msgid ""
 "      --additional-suffix=SUFFIX\n"
 "         append an additional SUFFIX to file names\n"
 msgstr ""
-"      --additional-suffix=SUFIKS\n"
-"         pievienot papildu SUFIKSU failu nosaukumiem\n"
+"      --additional-suffix=PIEDĒKLIS\n"
+"         pievienot papildu PIEDĒKLI failu nosaukumiem\n"
 
 #: src/split.c:246
 msgid ""
@@ -12275,7 +12353,7 @@ msgid ""
 "         put at most SIZE bytes of records per output file\n"
 msgstr ""
 "  -C, --line-bytes=IZMĒRS\n"
-"         ierakstīt ne vairāk kā IZMĒRU ierakstu baitu katrā izvades failā\n"
+"         ierakstīt ne vairāk kā IZMĒRS ierakstu baitu katrā izvades failā\n"
 
 #: src/split.c:254
 msgid ""
@@ -12283,7 +12361,7 @@ msgid ""
 "         use numeric suffixes starting at 0, not alphabetic\n"
 msgstr ""
 "  -d\n"
-"         lietot ciparu sufiksus, sākot ar 0, nevis burtu\n"
+"         lietot ciparu piedēkļus, sākot ar 0, nevis burtu\n"
 
 #: src/split.c:258
 msgid ""
@@ -12299,7 +12377,7 @@ msgid ""
 "         use hex suffixes starting at 0, not alphabetic\n"
 msgstr ""
 "  -x\n"
-"         lietot heksadecimālos sufiksus, sākot ar 0, nevis burtu\n"
+"         lietot heksadecimālos piedēkļus, sākot ar 0, nevis burtu\n"
 
 #: src/split.c:266
 msgid ""
@@ -12322,8 +12400,8 @@ msgid ""
 "      --filter=COMMAND\n"
 "         write to shell COMMAND; file name is $FILE\n"
 msgstr ""
-"      --filter=KOMMANDA\n"
-"         rakstīt čaulas komandā KOMMANDU; faila nosaukums ir $FILE\n"
+"      --filter=KOMANDA\n"
+"         rakstīt čaulas KOMANDAI; faila nosaukums ir $FILE\n"
 
 #: src/split.c:278
 msgid ""
@@ -12331,7 +12409,7 @@ msgid ""
 "         put NUMBER lines/records per output file\n"
 msgstr ""
 "  -l, --lines=SKAITLIS\n"
-"         ierakstīt SKAITLI rindas/ierakstus katrā izvades failā\n"
+"         ierakstīt SKAITLIS rindas/ierakstus katrā izvades failā\n"
 
 #: src/split.c:282
 msgid ""
@@ -12400,7 +12478,7 @@ msgstr ""
 #: src/split.c:509
 #, c-format
 msgid "output file suffixes exhausted"
-msgstr "izvades failu sufiksi ir izsmelti"
+msgstr "izvades failu piedēkļi ir izsmelti"
 
 #: src/split.c:521
 #, c-format
@@ -12430,7 +12508,7 @@ msgstr "neizdevās inicializēt posix_spawn"
 #: src/split.c:572
 #, c-format
 msgid "failed to create pipe"
-msgstr "neizdevās izveidot cauruli"
+msgstr "neizdevās izveidot cauruļvadu"
 
 #: src/split.c:592
 #, c-format
@@ -12445,7 +12523,7 @@ msgstr "neizdevās palaist komandu: \"%s -c %s\""
 #: src/split.c:611
 #, c-format
 msgid "failed to close input pipe"
-msgstr "neizdevās aizvērt ievades cauruli"
+msgstr "neizdevās aizvērt ievades cauruļvadu"
 
 #: src/split.c:646
 #, c-format
@@ -12460,7 +12538,7 @@ msgstr "ar FILE=%s, signāls %s no komandas: %s"
 #: src/split.c:664
 #, c-format
 msgid "with FILE=%s, exit %d from command: %s"
-msgstr "ar FILE=%s, izejas kods %d no komandas: %s"
+msgstr "ar FILE=%s, izpildes statuss %d no komandas: %s"
 
 #: src/split.c:671
 #, c-format
@@ -12470,7 +12548,7 @@ msgstr "nezināms statuss no komandas (0x%X)"
 #: src/split.c:1353
 #, c-format
 msgid "cannot split in more than one way"
-msgstr "nevar sadalīt vairāk kā vienā veidā"
+msgstr "nevar sadalīt vairāk nekā vienā veidā"
 
 #: src/split.c:1396 src/split.c:1402
 msgid "invalid number of chunks"
@@ -12482,7 +12560,7 @@ msgstr "nederīgs fragmenta numurs"
 
 #: src/split.c:1444
 msgid "invalid suffix length"
-msgstr "nederīgs sufiksa garums"
+msgstr "nederīgs piedēkļa garums"
 
 #: src/split.c:1514
 #, c-format
@@ -12502,12 +12580,12 @@ msgstr "norādītas vairākas atdalītāja rakstzīmes"
 #: src/split.c:1577
 #, c-format
 msgid "%s: invalid start value for numerical suffix"
-msgstr "%s: nederīga sākuma vērtība skaitliskajam sufiksam"
+msgstr "%s: nederīga sākuma vērtība skaitliskajam piedēklim"
 
 #: src/split.c:1578
 #, c-format
 msgid "%s: invalid start value for hexadecimal suffix"
-msgstr "%s: nederīga sākuma vērtība heksadecimālajam sufiksam"
+msgstr "%s: nederīga sākuma vērtība heksadecimālajam piedēklim"
 
 #: src/split.c:1604
 msgid "invalid IO block size"
@@ -12526,7 +12604,7 @@ msgstr "nederīgs rindu skaits: %s"
 #: src/split.c:1664
 #, c-format
 msgid "numerical suffix start value is too large for the suffix length"
-msgstr "skaitliskā sufiksa sākuma vērtība ir pārāk liela sufiksa garumam"
+msgstr "skaitliskā piedēkļa sākuma vērtība ir pārāk liela piedēkļa garumam"
 
 #: src/split.c:1701
 #, c-format
@@ -12536,7 +12614,7 @@ msgstr "%s: nevar noteikt faila lielumu"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/stat.c:190
 msgid "Michael Meskes"
-msgstr "Maikls Meskes"
+msgstr "Michael Meskes"
 
 #: src/stat.c:1027
 #, c-format
@@ -12608,13 +12686,13 @@ msgstr ""
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1707
 msgid "Device: %Hd,%Ld\tInode: %-10i  Links: %-5h Device type: %Hr,%Lr\n"
-msgstr "Ierīce: %Hd,%Ld\tI-mezgli: %-10i  Saites: %-5h Ierīces tips: %Hr,%Lr\n"
+msgstr "Ierīce: %Hd,%Ld\tI-mezgls: %-10i  Saites: %-5h Ierīces tips: %Hr,%Lr\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
 #: src/stat.c:1715
 msgid "Device: %Hd,%Ld\tInode: %-10i  Links: %h\n"
-msgstr "Ierīce: %Hd,%Ld\tI-mezgli: %-10i  Saites: %h\n"
+msgstr "Ierīce: %Hd,%Ld\tI-mezgls: %-10i  Saites: %h\n"
 
 #. TRANSLATORS: This string uses format specifiers from
 #. 'stat --help' without --file-system, and NOT from printf.
@@ -12692,8 +12770,8 @@ msgid ""
 "         if you want a newline, include \\n in FORMAT\n"
 msgstr ""
 "      --printf=FORMĀTS\n"
-"         tāpat kā --format, bet interpretēt apgrieztās slīpsvītras vadības virknes,\n"
-"         un neizvadīt obligātu jaunu rindu beigās;\n"
+"         tāpat kā --format, bet interpretēt apgrieztās slīpsvītras vadības\n"
+"         virknes, un neizvadīt obligātu jaunu rindu beigās;\n"
 "         ja vēlaties jaunu rindu, iekļaujiet \\n parametrā FORMĀTS\n"
 
 #: src/stat.c:1791
@@ -12780,15 +12858,20 @@ msgstr ""
 "  %m   montēšanas punkts\n"
 "  %n   faila nosaukums\n"
 "  %Qn  pēdiņās ievietots faila nosaukums\n"
-"  %N   pēdiņās ievietots faila nosaukums ar atsauces atrisināšanu, ja simboliskā saite\n"
+"  %N   pēdiņās ievietots faila nosaukums ar atsauces atrisināšanu, ja simboliskā\n"
+"       saite\n"
 "  %o   optimālā I/O pārsūtīšanas lieluma ieteikums\n"
 "  %s   kopējais izmērs baitos\n"
 "  %r   ierīces tips decimālajā sistēmā (st_rdev)\n"
 "  %R   ierīces tips heksadecimālajā sistēmā (st_rdev)\n"
-"  %Hr  galvenais ierīces tips decimālajā sistēmā, rakstzīmju/bloku ierīču speciālajiem failiem\n"
-"  %Lr  pakārtotais ierīces tips decimālajā sistēmā, rakstzīmju/bloku ierīču speciālajiem failiem\n"
-"  %t   galvenais ierīces tips heksadecimālajā sistēmā, rakstzīmju/bloku ierīču speciālajiem failiem\n"
-"  %T   pakārtotais ierīces tips heksadecimālajā sistēmā, rakstzīmju/bloku ierīču speciālajiem failiem\n"
+"  %Hr  galvenais ierīces tips decimālajā sistēmā, rakstzīmju/bloku ierīču\n"
+"       speciālajiem failiem\n"
+"  %Lr  pakārtotais ierīces tips decimālajā sistēmā, rakstzīmju/bloku ierīču\n"
+"       speciālajiem failiem\n"
+"  %t   galvenais ierīces tips heksadecimālajā sistēmā, rakstzīmju/bloku ierīču\n"
+"       speciālajiem failiem\n"
+"  %T   pakārtotais ierīces tips heksadecimālajā sistēmā, rakstzīmju/bloku ierīču\n"
+"       speciālajiem failiem\n"
 
 #: src/stat.c:1840
 msgid ""
@@ -12814,6 +12897,7 @@ msgstr ""
 "  %Y   pēdējās datu modifikācijas laiks, sekundes kopš Epoch\n"
 "  %z   pēdējās statusa maiņas laiks, cilvēkam lasāms\n"
 "  %Z   pēdējās statusa maiņas laiks, sekundes kopš Epoch\n"
+"\n"
 
 #: src/stat.c:1854
 #, c-format
@@ -12885,15 +12969,15 @@ msgstr "Palaist KOMANDU ar modificētu tās standarta straumju buferizāciju.\n"
 
 #: src/stdbuf.c:90
 msgid "  -i, --input=MODE   adjust standard input stream buffering\n"
-msgstr "  -i, --input=REŽĪMS   pielāgot standarta ievades straumes buferizāciju\n"
+msgstr "  -i, --input=REŽĪMS pielāgot standarta ievades straumes buferizāciju\n"
 
 #: src/stdbuf.c:93
 msgid "  -o, --output=MODE  adjust standard output stream buffering\n"
-msgstr "  -o, --output=REŽĪMS  pielāgot standarta izvades straumes buferizāciju\n"
+msgstr "  -o, --output=REŽĪMS pielāgot standarta izvades straumes buferizāciju\n"
 
 #: src/stdbuf.c:96
 msgid "  -e, --error=MODE   adjust standard error stream buffering\n"
-msgstr "  -e, --error=REŽĪMS   pielāgot standarta kļūdu straumes buferizāciju\n"
+msgstr "  -e, --error=REŽĪMS pielāgot standarta kļūdu straumes buferizāciju\n"
 
 #: src/stdbuf.c:101
 msgid ""
@@ -12925,7 +13009,7 @@ msgstr ""
 "\n"
 "Citādi REŽĪMS ir skaitlis, kuram var sekot viens no šiem:\n"
 "KB 1000, K 1024, MB 1000*1000, M 1024*1024, un tā tālāk ar G,T,P,E,Z,Y,R,Q.\n"
-"Var izmantot arī bināros prefiksus: KiB=K, MiB=M un tā tālāk.\n"
+"Var izmantot arī bināros priedēkļus: KiB=K, MiB=M un tā tālāk.\n"
 "Šajā gadījumā attiecīgā straume tiks pilnībā buferizēta ar bufera\n"
 "izmēru, kas iestatīts uz REŽĪMA baitiem.\n"
 
@@ -12938,8 +13022,8 @@ msgid ""
 "and are thus unaffected by 'stdbuf' settings.\n"
 msgstr ""
 "\n"
-"PIEZĪME: Ja KOMANDA pielāgo savu standarta straumju buferizāciju (kā, piemēram, 'tee'),\n"
-"tas aizstās attiecīgās 'stdbuf' izmaiņas.\n"
+"PIEZĪME: Ja KOMANDA pielāgo savu standarta straumju buferizāciju (kā, piemēram,\n"
+"'tee'), tas aizstās attiecīgās 'stdbuf' izmaiņas.\n"
 "Arī daži filtri (piemēram, 'dd' un 'cat' utt.) neizmanto straumes I/O,\n"
 "un tāpēc 'stdbuf' iestatījumi tos neietekmē.\n"
 
@@ -12980,7 +13064,9 @@ msgstr "Izvadīt vai mainīt termināļa raksturlielumus.\n"
 
 #: src/stty.c:557
 msgid "  -a, --all          print all current settings in human-readable form\n"
-msgstr "  -a, --all          izvadīt visus pašreizējos iestatījumus cilvēkam lasāmā formā\n"
+msgstr ""
+"  -a, --all          izvadīt visus pašreizējos iestatījumus cilvēkam lasāmā\n"
+"                     formā\n"
 
 #: src/stty.c:560
 msgid "  -g, --save         print all current settings in a stty-readable form\n"
@@ -13010,23 +13096,25 @@ msgstr ""
 
 #: src/stty.c:577
 msgid " * discard CHAR  CHAR will toggle discarding of output\n"
-msgstr " * discard RAKSTZĪME  RAKSTZĪME pārslēgs izvades atmešanu\n"
+msgstr " * discard ZĪME  ZĪME pārslēgs izvades atmešanu\n"
 
 #: src/stty.c:582
 msgid " * dsusp CHAR    CHAR will send a terminal stop signal once input flushed\n"
-msgstr " * dsusp RAKSTZĪME    RAKSTZĪME nosūtīs termināļa apturēšanas signālu pēc ievades iztukšošanas\n"
+msgstr ""
+" * dsusp ZĪME    ZĪME nosūtīs termināļa apturēšanas signālu pēc ievades\n"
+"                 iztukšošanas\n"
 
 #: src/stty.c:586
 msgid ""
 "   eof CHAR      CHAR will send an end of file (terminate the input)\n"
 "   eol CHAR      CHAR will end the line\n"
 msgstr ""
-"   eof RAKSTZĪME      RAKSTZĪME nosūtīs faila beigas (pārtrauks ievadi)\n"
-"   eol RAKSTZĪME      RAKSTZĪME noslēgs rindu\n"
+"   eof ZĪME      ZĪME nosūtīs faila beigas (pārtrauks ievadi)\n"
+"   eol ZĪME      ZĪME noslēgs rindu\n"
 
 #: src/stty.c:591
 msgid " * eol2 CHAR     alternate CHAR for ending the line\n"
-msgstr " * eol2 RAKSTZĪME     alternatīva RAKSTZĪME rindas noslēgšanai\n"
+msgstr " * eol2 ZĪME     alternatīva ZĪME rindas noslēgšanai\n"
 
 #: src/stty.c:595
 msgid ""
@@ -13034,25 +13122,25 @@ msgid ""
 "   intr CHAR     CHAR will send an interrupt signal\n"
 "   kill CHAR     CHAR will erase the current line\n"
 msgstr ""
-"   erase RAKSTZĪME    RAKSTZĪME dzēsīs pēdējo ievadīto rakstzīmi\n"
-"   intr RAKSTZĪME     RAKSTZĪME nosūtīs pārtraukuma signālu\n"
-"   kill RAKSTZĪME     RAKSTZĪME dzēsīs pašreizējo rindu\n"
+"   erase ZĪME    ZĪME dzēsīs pēdējo ievadīto rakstzīmi\n"
+"   intr ZĪME     ZĪME nosūtīs pārtraukuma signālu\n"
+"   kill ZĪME     ZĪME dzēsīs pašreizējo rindu\n"
 
 #: src/stty.c:601
 msgid " * lnext CHAR    CHAR will enter the next character quoted\n"
-msgstr " * lnext RAKSTZĪME    RAKSTZĪME ievadīs nākamo rakstzīmi burtiski\n"
+msgstr " * lnext ZĪME    ZĪME ievadīs nākamo rakstzīmi burtiski\n"
 
 #: src/stty.c:606
 msgid " * status CHAR   CHAR will send an info signal\n"
-msgstr " * status RAKSTZĪME   RAKSTZĪME nosūtīs informācijas signālu\n"
+msgstr " * status ZĪME   ZĪME nosūtīs informācijas signālu\n"
 
 #: src/stty.c:610
 msgid "   quit CHAR     CHAR will send a quit signal\n"
-msgstr "    quit RAKSTZĪME     RAKSTZĪME nosūtīs iziešanas signālu\n"
+msgstr "   quit ZĪME     ZĪME nosūtīs iziešanas signālu\n"
 
 #: src/stty.c:614
 msgid " * rprnt CHAR    CHAR will redraw the current line\n"
-msgstr " * rprnt RAKSTZĪME    RAKSTZĪME pārzīmēs pašreizējo rindu\n"
+msgstr " * rprnt ZĪME    ZĪME pārzīmēs pašreizējo rindu\n"
 
 #: src/stty.c:618
 msgid ""
@@ -13060,17 +13148,17 @@ msgid ""
 "   stop CHAR     CHAR will stop the output\n"
 "   susp CHAR     CHAR will send a terminal stop signal\n"
 msgstr ""
-"   start RAKSTZĪME    RAKSTZĪME atsāks izvadi pēc tās apturēšanas\n"
-"   stop RAKSTZĪME     RAKSTZĪME apturēs izvadi\n"
-"   susp RAKSTZĪME     RAKSTZĪME nosūtīs termināļa apturēšanas signālu\n"
+"   start ZĪME    ZĪME atsāks izvadi pēc tās apturēšanas\n"
+"   stop ZĪME     ZĪME apturēs izvadi\n"
+"   susp ZĪME     ZĪME nosūtīs termināļa apturēšanas signālu\n"
 
 #: src/stty.c:624
 msgid " * swtch CHAR    CHAR will switch to a different shell layer\n"
-msgstr " * swtch RAKSTZĪME    RAKSTZĪME pārslēgs uz citu čaulas slāni\n"
+msgstr " * swtch ZĪME    ZĪME pārslēgs uz citu čaulas slāni\n"
 
 #: src/stty.c:629
 msgid " * werase CHAR   CHAR will erase the last word typed\n"
-msgstr " * werase RAKSTZĪME   RAKSTZĪME dzēsīs pēdējo ievadīto vārdu\n"
+msgstr " * werase ZĪME   ZĪME dzēsīs pēdējo ievadīto vārdu\n"
 
 #: src/stty.c:633
 msgid ""
@@ -13093,7 +13181,9 @@ msgstr ""
 #: src/stty.c:644
 #, c-format
 msgid " * [-]drain      wait for transmission before applying settings (%s by default)\n"
-msgstr " * [-]drain      gaidīt pārraidi pirms iestatījumu piemērošanas (%s pēc noklusējuma)\n"
+msgstr ""
+" * [-]drain      gaidīt pārraidi pirms iestatījumu piemērošanas (%s pēc\n"
+"                 noklusējuma)\n"
 
 #: src/stty.c:646
 msgid "on"
@@ -13132,8 +13222,9 @@ msgid ""
 "   speed         print the terminal speed\n"
 "   time N        with -icanon, set read timeout of N tenths of a second\n"
 msgstr ""
-"    speed         izvadīt termināļa ātrumu\n"
-"   time N        ar -icanon, iestatīt nolasīšanas noildzi uz N sekundes desmitdaļām\n"
+"   speed         izvadīt termināļa ātrumu\n"
+"   time N        ar -icanon, iestatīt nolasīšanas noildzi uz N sekundes\n"
+"                 desmitdaļām\n"
 
 #: src/stty.c:669
 msgid ""
@@ -13168,7 +13259,8 @@ msgid ""
 "   [-]parodd     set odd parity (or even parity with '-')\n"
 msgstr ""
 "   [-]cstopb     izmantot divus stopbitus katrai rakstzīmei (vienu ar '-')\n"
-"   [-]hup        nosūtīt savienojuma pārtraukšanas signālu, kad pēdējais process aizver tty\n"
+"   [-]hup        nosūtīt savienojuma pārtraukšanas signālu, kad pēdējais process\n"
+"                 aizver tty\n"
 "   [-]hupcl      tas pats, kas [-]hup\n"
 "   [-]parenb     ģenerēt paritātes bitu izvadē un sagaidīt paritātes bitu ievadē\n"
 "   [-]parodd     iestatīt nepāra paritāti (vai pāra paritāti ar '-')\n"
@@ -13219,7 +13311,9 @@ msgstr " * [-]iuclc      pārvērst lielos burtus mazajos\n"
 
 #: src/stty.c:730
 msgid " * [-]ixany      let any character restart output, not only start character\n"
-msgstr " * [-]ixany      ļaut jebkurai rakstzīmei atsākt izvadi, ne tikai sākuma rakstzīmei\n"
+msgstr ""
+" * [-]ixany      ļaut jebkurai rakstzīmei atsākt izvadi, ne tikai sākuma\n"
+"                 rakstzīmei\n"
 
 #: src/stty.c:734
 msgid ""
@@ -13263,11 +13357,15 @@ msgstr " * [-]ocrnl      pārvērst karietes atgriešanu par jaunu rindu\n"
 
 #: src/stty.c:770
 msgid " * [-]ofdel      use delete characters for fill instead of NUL characters\n"
-msgstr " * [-]ofdel      izmantot dzēšanas rakstzīmes aizpildīšanai, nevis NUL rakstzīmes\n"
+msgstr ""
+" * [-]ofdel      izmantot dzēšanas rakstzīmes aizpildīšanai, nevis NUL\n"
+"                 rakstzīmes\n"
 
 #: src/stty.c:775
 msgid " * [-]ofill      use fill (padding) characters instead of timing for delays\n"
-msgstr " * [-]ofill      izmantot aizpildīšanas (papildināšanas) rakstzīmes, nevis laika aizkaves\n"
+msgstr ""
+" * [-]ofill      izmantot aizpildīšanas (papildināšanas) rakstzīmes, nevis laika\n"
+"                 aizkaves\n"
 
 #: src/stty.c:780
 msgid " * [-]olcuc      translate lowercase characters to uppercase\n"
@@ -13287,7 +13385,7 @@ msgstr " * [-]onocr      nedrukāt karietes atgriešanas pirmajā kolonnā\n"
 
 #: src/stty.c:799
 msgid "   [-]opost      postprocess output\n"
-msgstr " [-]opost      pēcapstrādēt izvadi\n"
+msgstr "   [-]opost      pēcapstrādēt izvadi\n"
 
 #: src/stty.c:803
 msgid ""
@@ -13311,7 +13409,8 @@ msgid ""
 msgstr ""
 "\n"
 "Lokālie iestatījumi:\n"
-"   [-]crterase   atbalsot dzēšanas rakstzīmes kā atpakaļatkāpe-atstarpe-atpakaļatkāpe\n"
+"   [-]crterase   atbalsot dzēšanas rakstzīmes kā\n"
+"                 atpakaļatkāpe-atstarpe-atpakaļatkāpe\n"
 
 #: src/stty.c:820
 msgid ""
@@ -13355,7 +13454,7 @@ msgstr " * [-]echoprt    atbalsot dzēstās rakstzīmes atpakaļ, starp '\\' un 
 
 #: src/stty.c:856
 msgid " * [-]extproc    enable \"LINEMODE\"; useful with high latency links\n"
-msgstr " * [-]extproc    ieslēgt \"LINEMODE\"; noderīgi augstas aizkaves savienojumos\n"
+msgstr " * [-]extproc    iespējot \"LINEMODE\"; noderīgi augstas aizkaves savienojumos\n"
 
 #: src/stty.c:861
 msgid " * [-]flusho     discard output\n"
@@ -13367,16 +13466,18 @@ msgid ""
 "   [-]icanon     enable special characters: %s\n"
 "   [-]iexten     enable non-POSIX special characters\n"
 msgstr ""
-"   [-]icanon     ieslēgt īpašās rakstzīmes: %s\n"
-"   [-]iexten     ieslēgt ne-POSIX īpašās rakstzīmes\n"
+"   [-]icanon     iespējot īpašās rakstzīmes: %s\n"
+"   [-]iexten     iespējot ne-POSIX īpašās rakstzīmes\n"
 
 #: src/stty.c:876
 msgid ""
 "   [-]isig       enable interrupt, quit, and suspend special characters\n"
 "   [-]noflsh     disable flushing after interrupt and quit special characters\n"
 msgstr ""
-"   [-]isig       ieslēgt pārtraukuma, iziešanas un apturēšanas īpašās rakstzīmes\n"
-"   [-]noflsh     atslēgt iztukšošanu pēc pārtraukuma un iziešanas īpašajām rakstzīmēm\n"
+"   [-]isig       iespējot pārtraukuma, iziešanas un apturēšanas\n"
+"                 īpašās rakstzīmes\n"
+"   [-]noflsh     atspējot iztukšošanu pēc pārtraukuma un iziešanas\n"
+"                 īpašajām rakstzīmēm\n"
 
 #: src/stty.c:881
 msgid " * [-]prterase   same as [-]echoprt\n"
@@ -13524,8 +13625,8 @@ msgstr ""
 "\n"
 "Apstrādāt tty līniju, kas savienota ar standarta ievadi. Bez argumentiem\n"
 "izvada bodu ātrumu, līnijas disciplīnu un novirzes no stty sane. Iestatījumos\n"
-"CHAR tiek uztverts burtiski vai kodēts kā ^c, 0x37, 0177 vai 127; īpašās vērtības\n"
-"^- vai undef tiek izmantotas, lai atspējotu īpašās rakstzīmes.\n"
+"ZĪME tiek uztverta burtiski vai kodēta kā ^c, 0x37, 0177 vai 127; īpašās\n"
+"vērtības ^- vai undef tiek izmantotas, lai atspējotu īpašās rakstzīmes.\n"
 
 #: src/stty.c:1113
 #, c-format
@@ -13632,10 +13733,13 @@ msgstr ""
 "\n"
 "Ja norādīts viens vai vairāki faili, sinhronizēt tikai tos\n"
 "vai tos saturošās failu sistēmas.\n"
+"\n"
 
 #: src/sync.c:71
 msgid "  -d, --data             sync only file data, no unneeded metadata\n"
-msgstr "  -d, --data             sinhronizēt tikai faila datus, nevis nevajadzīgos metadatus\n"
+msgstr ""
+"  -d, --data             sinhronizēt tikai faila datus, nevis nevajadzīgos\n"
+"                         metadatus\n"
 
 #: src/sync.c:74
 msgid "  -f, --file-system      sync the file systems that contain the files\n"
@@ -13714,9 +13818,9 @@ msgid ""
 "Binary prefixes can be used, too: KiB=K, MiB=M, and so on.\n"
 msgstr ""
 "\n"
-"SIZE arguments ir vesels skaitlis un neobligāta vienība (piemēram: 10K ir 10*1024).\n"
-"Vienības ir K,M,G,T,P,E,Z,Y,R,Q (1024 pakāpes) vai KB,MB,... (1000 pakāpes).\n"
-"Var izmantot arī bināros prefiksus: KiB=K, MiB=M un tā tālāk.\n"
+"IZMĒRA arguments ir vesels skaitlis un neobligāta vienība (piemēram: 10K ir\n"
+"10*1024). Vienības ir K,M,G,T,P,E,Z,Y,R,Q (1024 pakāpes) vai KB,MB,... (1000\n"
+"pakāpes). Var izmantot arī bināros priedēkļus: KiB=K, MiB=M un tā tālāk.\n"
 
 #: src/system.h:773
 #, c-format
@@ -13727,9 +13831,10 @@ msgid ""
 "Otherwise, units default to 1024 bytes (or 512 if POSIXLY_CORRECT is set).\n"
 msgstr ""
 "\n"
-"Attēlotās vērtības ir izteiktas pirmā pieejamā SIZE vienībās no --block-size\n"
+"Attēlotās vērtības ir izteiktas pirmā pieejamā IZMĒRA vienībās no --block-size\n"
 "un %s_BLOCK_SIZE, BLOCK_SIZE un BLOCKSIZE vides mainīgajiem.\n"
-"Pretējā gadījumā vienība pēc noklusējuma ir 1024 baiti (vai 512, ja ir iestatīts POSIXLY_CORRECT).\n"
+"Pretējā gadījumā vienība pēc noklusējuma ir 1024 baiti (vai 512, ja ir iestatīts\n"
+"POSIXLY_CORRECT).\n"
 
 #: src/system.h:783
 msgid ""
@@ -13764,9 +13869,9 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Dublējuma sufikss ir '~', ja nav norādīts ar --suffix vai SIMPLE_BACKUP_SUFFIX.\n"
-"Versiju kontroles metodi var izvēlēties, izmantojot --backup opciju vai\n"
-"VERSION_CONTROL vides mainīgo. Šeit ir vērtības:\n"
+"Dublējuma piedēklis ir '~', ja vien tas nav iestatīts ar --suffix vai\n"
+"SIMPLE_BACKUP_SUFFIX. Versiju kontroles metodi var izvēlēties, izmantojot\n"
+"--backup opciju vai VERSION_CONTROL vides mainīgo. Šeit ir vērtības:\n"
 "\n"
 
 #: src/system.h:807
@@ -13778,7 +13883,8 @@ msgid ""
 msgstr ""
 "  none, off       nekad neveidot dublējumus (pat ja ir norādīta --backup opcija)\n"
 "  numbered, t     veidot numurētus dublējumus\n"
-"  existing, nil   numurēti, ja numurēti dublējumi jau pastāv, pretējā gadījumā vienkārši\n"
+"  existing, nil   numurēti, ja numurēti dublējumi jau pastāv, pretējā gadījumā\n"
+"                  vienkārši\n"
 "  simple, never   vienmēr veidot vienkāršus dublējumus\n"
 
 #: src/system.h:820
@@ -13832,11 +13938,11 @@ msgid ""
 "  -    the exit status of COMMAND otherwise\n"
 msgstr ""
 "\n"
-"Iziešanas statuss:\n"
+"Izpildes statuss:\n"
 "  125  ja pati %s komanda neizdodas\n"
 "  126  ja KOMANDA ir atrasta, bet to nevar izsaukt\n"
 "  127  ja KOMANDU nevar atrast\n"
-"  -    citādi KOMANDAS iziešanas statuss\n"
+"  -    citādi KOMANDAS izpildes statuss\n"
 
 #: src/system.h:882
 #, c-format
@@ -13879,7 +13985,7 @@ msgstr "Derīgie argumenti ir:\n"
 
 #: src/system.h:1058
 msgid "  - +FORMAT (e.g., +%H:%M) for a 'date'-style format\n"
-msgstr "  - +FORMAT (piemēram, +%H:%M) 'date' stila formātam\n"
+msgstr "  - +FORMĀTS (piemēram, +%H:%M) 'date' stila formātam\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/tac.c:56
@@ -13938,7 +14044,7 @@ msgstr "atdalītājs nevar būt tukšs"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/tail.c:74
 msgid "Ian Lance Taylor"
-msgstr "Ians Lenss Teilors"
+msgstr "Ian Lance Taylor"
 
 #: src/tail.c:287
 #, c-format
@@ -13947,7 +14053,8 @@ msgid ""
 "With more than one FILE, precede each with a header giving the file name.\n"
 msgstr ""
 "Izvadīt katra FAILA pēdējās %d rindas standarta izvadē.\n"
-"Ja norādīts vairāk nekā viens FAILS, pirms katra pievienot galveni ar faila nosaukumu.\n"
+"Ja norādīts vairāk nekā viens FAILS, pirms katra pievienot galveni ar faila\n"
+"nosaukumu.\n"
 
 #: src/tail.c:295
 msgid ""
@@ -13956,8 +14063,9 @@ msgid ""
 "         or use -c +NUM to output starting with byte NUM of each file\n"
 msgstr ""
 "  -c, --bytes=[+]SKAITLIS\n"
-"         izvadīt pēdējos SKAITĻA baitus;\n"
-"         vai izmantot -c +SKAITLIS, lai izvadītu, sākot ar katra faila SKAITĻU baitu\n"
+"         izvadīt pēdējos SKAITLIS baitus;\n"
+"         vai izmantot -c +SKAITLIS, lai izvadītu katru failu, sākot ar baitu nr.\n"
+"         SKAITLIS\n"
 
 #: src/tail.c:300
 msgid ""
@@ -13993,7 +14101,7 @@ msgid ""
 "         or use -n +NUM to skip NUM-1 lines at the start\n"
 msgstr ""
 "  -n, --lines=[+]SKAITLIS\n"
-"         izvadīt pēdējās SKAITĻA rindas, nevis pēdējās %d;\n"
+"         izvadīt pēdējās SKAITLIS rindas, nevis pēdējās %d;\n"
 "         vai izmantot -n +SKAITLIS, lai sākumā izlaistu SKAITLIS-1 rindas\n"
 
 #: src/tail.c:318
@@ -14071,10 +14179,11 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"NUM var saturēt reizinātāja sufiksu:\n"
+"SKAITLIM var būt reizinātāja piedēklis:\n"
 "b 512, kB 1000, K 1024, MB 1000*1000, M 1024*1024,\n"
 "GB 1000*1000*1000, G 1024*1024*1024 un tā tālāk: T, P, E, Z, Y, R, Q.\n"
-"Var izmantot arī bināros prefiksus: KiB=K, MiB=M un tā tālāk.\n"
+"Var izmantot arī bināros priedēkļus: KiB=K, MiB=M un tā tālāk.\n"
+"\n"
 
 #: src/tail.c:364
 msgid ""
@@ -14088,9 +14197,10 @@ msgstr ""
 "Izmantojot --follow (-f), tail pēc noklusējuma seko faila deskriptoram, kas\n"
 "nozīmē, ka pat tad, ja izsekotais fails tiek pārdēvēts, tail turpinās izsekot\n"
 "tā beigām. Šāda noklusējuma rīcība nav vēlama, ja patiešām vēlaties\n"
-"izsekot faila faktiskajam nosaukumam, nevis faila deskriptoram (piemēram, žurnālu\n"
-"rotācijā). Šādā gadījumā izmantojiet --follow=name. Tas liek tail izsekot\n"
-"norādītajam failam tā, lai pielāgotos pārdēvēšanai, dzēšanai un izveidošanai.\n"
+"izsekot faila faktiskajam nosaukumam, nevis faila deskriptoram (piemēram,\n"
+"žurnālu rotācijā). Šādā gadījumā izmantojiet --follow=name. Tas liek tail\n"
+"izsekot norādītajam failam tā, lai pielāgotos pārdēvēšanai, dzēšanai un\n"
+"izveidošanai.\n"
 
 #: src/tail.c:420
 #, c-format
@@ -14191,7 +14301,7 @@ msgstr "%s tika aizstāts"
 
 #: src/tail.c:1629
 msgid "using notification mode"
-msgstr "izmantojot paziņojumu režīmu"
+msgstr "izmanto paziņojumu režīmu"
 
 #: src/tail.c:1691
 #, c-format
@@ -14206,7 +14316,7 @@ msgstr "kļūda, nolasot inotify notikumu"
 #: src/tail.c:1728
 #, c-format
 msgid "directory containing watched file was removed"
-msgstr "direktorijs, kurā atrodas novērotais fails, tika dzēsts"
+msgstr "direktorija, kurā atrodas novērotais fails, tika dzēsta"
 
 #: src/tail.c:2055
 #, c-format
@@ -14298,7 +14408,7 @@ msgid ""
 "      --output-error[=MODE]\n"
 "         set behavior on write error.  See MODE below\n"
 msgstr ""
-"  --output-error[=REŽĪMS]\n"
+"      --output-error[=REŽĪMS]\n"
 "         iestatīt uzvedību rakstīšanas kļūdas gadījumā. Skatīt REŽĪMU zemāk\n"
 
 #: src/tee.c:110
@@ -14322,8 +14432,8 @@ msgstr ""
 "  exit           iziet kļūdas gadījumā, rakstot jebkurā izvadē\n"
 "  exit-nopipe    iziet kļūdas gadījumā, rakstot izvadē, kas nav cauruļvads\n"
 "Noklusējuma REŽĪMS opcijai -p ir 'warn-nopipe'.\n"
-"Ar \"nopipe\" REŽĪMIEM nekavējoties iziet, ja visas izvades kļūst par pārrautiem cauruļvadiem.\n"
-"Noklusējuma darbība, ja --output-error nav norādīts, ir\n"
+"Ar \"nopipe\" REŽĪMIEM nekavējoties iziet, ja visas izvades kļūst par pārrautiem\n"
+"cauruļvadiem. Noklusējuma darbība, ja --output-error nav norādīts, ir\n"
 "nekavējoties iziet kļūdas gadījumā, rakstot cauruļvadā, un diagnosticēt\n"
 "kļūdas, rakstot izvadēs, kas nav cauruļvadi.\n"
 
@@ -14421,7 +14531,7 @@ msgid ""
 msgstr ""
 "\n"
 "Izlaista IZTEIKSME pēc noklusējuma ir nepatiesa. Pretējā gadījumā,\n"
-"IZTEIKSME ir patiesa vai nepatiesa un nosaka iziešanas statusu. Tā ir viena no:\n"
+"IZTEIKSME ir patiesa vai nepatiesa un nosaka izpildes statusu. Tā ir viena no:\n"
 
 #: src/test.c:679
 msgid ""
@@ -14432,10 +14542,10 @@ msgid ""
 "  EXPRESSION1 -o EXPRESSION2   either EXPRESSION1 or EXPRESSION2 is true\n"
 msgstr ""
 "\n"
-"  ( IZTEIKSME )               IZTEIKSME ir patiesa\n"
-"  ! IZTEIKSME                 IZTEIKSME ir nepatiesa\n"
-"  IZTEIKSME1 -a IZTEIKSME2    gan IZTEIKSME1, gan IZTEIKSME2 ir patiesa\n"
-"  IZTEIKSME1 -o IZTEIKSME2    vai nu IZTEIKSME1, vai IZTEIKSME2 ir patiesa\n"
+"  ( IZTEIKSME )                IZTEIKSME ir patiesa\n"
+"  ! IZTEIKSME                  IZTEIKSME ir nepatiesa\n"
+"  IZTEIKSME1 -a IZTEIKSME2     gan IZTEIKSME1, gan IZTEIKSME2 ir patiesas\n"
+"  IZTEIKSME1 -o IZTEIKSME2     vai nu IZTEIKSME1, vai IZTEIKSME2 ir patiesa\n"
 
 #: src/test.c:689
 msgid "  -n STRING            the length of STRING is nonzero\n"
@@ -14463,27 +14573,27 @@ msgstr ""
 
 #: src/test.c:707
 msgid "  INTEGER1 -eq INTEGER2   INTEGER1 is equal to INTEGER2\n"
-msgstr "  SKAITLIS1 -eq SKAITLIS2   SKAITLIS1 ir vienāds ar SKAITLIS2\n"
+msgstr "  SKAITLIS1 -eq SKAITLIS2  SKAITLIS1 ir vienāds ar SKAITLIS2\n"
 
 #: src/test.c:710
 msgid "  INTEGER1 -ge INTEGER2   INTEGER1 is greater than or equal to INTEGER2\n"
-msgstr "  SKAITLIS1 -ge SKAITLIS2   SKAITLIS1 ir lielāks vai vienāds ar SKAITLIS2\n"
+msgstr "  SKAITLIS1 -ge SKAITLIS2  SKAITLIS1 ir lielāks vai vienāds ar SKAITLIS2\n"
 
 #: src/test.c:713
 msgid "  INTEGER1 -gt INTEGER2   INTEGER1 is greater than INTEGER2\n"
-msgstr "  SKAITLIS1 -gt SKAITLIS2   SKAITLIS1 ir lielāks par SKAITLIS2\n"
+msgstr "  SKAITLIS1 -gt SKAITLIS2  SKAITLIS1 ir lielāks par SKAITLIS2\n"
 
 #: src/test.c:716
 msgid "  INTEGER1 -le INTEGER2   INTEGER1 is less than or equal to INTEGER2\n"
-msgstr "  SKAITLIS1 -le SKAITLIS2   SKAITLIS1 ir mazāks vai vienāds ar SKAITLIS2\n"
+msgstr "  SKAITLIS1 -le SKAITLIS2  SKAITLIS1 ir mazāks vai vienāds ar SKAITLIS2\n"
 
 #: src/test.c:719
 msgid "  INTEGER1 -lt INTEGER2   INTEGER1 is less than INTEGER2\n"
-msgstr "  SKAITLIS1 -lt SKAITLIS2   SKAITLIS1 ir mazāks par SKAITLIS2\n"
+msgstr "  SKAITLIS1 -lt SKAITLIS2  SKAITLIS1 ir mazāks par SKAITLIS2\n"
 
 #: src/test.c:722
 msgid "  INTEGER1 -ne INTEGER2   INTEGER1 is not equal to INTEGER2\n"
-msgstr "  SKAITLIS1 -ne SKAITLIS2   SKAITLIS1 nav vienāds ar SKAITLIS2\n"
+msgstr "  SKAITLIS1 -ne SKAITLIS2  SKAITLIS1 nav vienāds ar SKAITLIS2\n"
 
 #: src/test.c:728
 msgid "  FILE1 -ef FILE2   FILE1 and FILE2 have the same device and inode numbers\n"
@@ -14523,43 +14633,43 @@ msgstr "  -g FAILS    FAILS eksistē un tam ir iestatīts set-group-ID bits\n"
 
 #: src/test.c:758
 msgid "  -G FILE     FILE exists and is owned by the effective group ID\n"
-msgstr "  -G FAILS    FAILS eksistē un pieder efektīvās grupas ID\n"
+msgstr "  -G FAILS    FAILS eksistē un pieder efektīvajam grupas ID\n"
 
 #: src/test.c:761
 msgid "  -h FILE     FILE exists and is a symbolic link (same as -L)\n"
-msgstr "  -h FAILS     FAILS eksistē un ir simboliskā saite (tāpat kā -L)\n"
+msgstr "  -h FAILS    FAILS eksistē un ir simboliskā saite (tāpat kā -L)\n"
 
 #: src/test.c:764
 msgid "  -k FILE     FILE exists and has its sticky bit set\n"
-msgstr "  -k FAILS     FAILS eksistē un tam ir iestatīts fiksācijas bits\n"
+msgstr "  -k FAILS    FAILS eksistē un tam ir iestatīts fiksācijas bits\n"
 
 #: src/test.c:767
 msgid "  -L FILE     FILE exists and is a symbolic link (same as -h)\n"
-msgstr "  -L FAILS     FAILS eksistē un ir simboliskā saite (tāpat kā -h)\n"
+msgstr "  -L FAILS    FAILS eksistē un ir simboliskā saite (tāpat kā -h)\n"
 
 #: src/test.c:770
 msgid "  -N FILE     FILE exists and has been modified since it was last read\n"
-msgstr "  -N FAILS     FAILS eksistē un ir modificēts kopš pēdējās nolasīšanas\n"
+msgstr "  -N FAILS    FAILS eksistē un ir modificēts kopš pēdējās nolasīšanas\n"
 
 #: src/test.c:773
 msgid "  -O FILE     FILE exists and is owned by the effective user ID\n"
-msgstr "  -O FAILS     FAILS eksistē un tas pieder efektīvajam lietotāja ID\n"
+msgstr "  -O FAILS    FAILS eksistē un tas pieder efektīvajam lietotāja ID\n"
 
 #: src/test.c:776
 msgid "  -p FILE     FILE exists and is a named pipe\n"
-msgstr "  -p FAILS     FAILS eksistē un ir vārdots kanāls\n"
+msgstr "  -p FAILS    FAILS eksistē un ir nosaukts cauruļvads\n"
 
 #: src/test.c:779
 msgid "  -r FILE     FILE exists and the user has read access\n"
-msgstr "  -r FAILS     FAILS eksistē un lietotājam ir lasīšanas piekļuve\n"
+msgstr "  -r FAILS    FAILS eksistē un lietotājam ir lasīšanas piekļuve\n"
 
 #: src/test.c:782
 msgid "  -s FILE     FILE exists and has a size greater than zero\n"
-msgstr "  -s FAILS     FAILS eksistē un tā izmērs ir lielāks par nulli\n"
+msgstr "  -s FAILS    FAILS eksistē un tā izmērs ir lielāks par nulli\n"
 
 #: src/test.c:785
 msgid "  -S FILE     FILE exists and is a socket\n"
-msgstr "  -S FAILS     FAILS eksistē un ir ligzda\n"
+msgstr "  -S FAILS    FAILS eksistē un ir ligzda\n"
 
 #: src/test.c:788
 msgid "  -t FD       file descriptor FD is opened on a terminal\n"
@@ -14567,15 +14677,15 @@ msgstr "  -t FD       faila deskriptors FD ir atvērts terminālī\n"
 
 #: src/test.c:791
 msgid "  -u FILE     FILE exists and its set-user-ID bit is set\n"
-msgstr "  -u FAILS     FAILS eksistē un tam ir iestatīts set-user-ID bits\n"
+msgstr "  -u FAILS    FAILS eksistē un tam ir iestatīts set-user-ID bits\n"
 
 #: src/test.c:794
 msgid "  -w FILE     FILE exists and the user has write access\n"
-msgstr "  -w FAILS     FAILS eksistē un lietotājam ir rakstīšanas piekļuve\n"
+msgstr "  -w FAILS    FAILS eksistē un lietotājam ir rakstīšanas piekļuve\n"
 
 #: src/test.c:797
 msgid "  -x FILE     FILE exists and the user has execute (or search) access\n"
-msgstr "  -x FAILS     FAILS eksistē un lietotājam ir izpildes (vai meklēšanas) piekļuve\n"
+msgstr "  -x FAILS    FAILS eksistē un lietotājam ir izpildes (vai meklēšanas) piekļuve\n"
 
 #: src/test.c:800
 msgid ""
@@ -14586,8 +14696,8 @@ msgid ""
 msgstr ""
 "\n"
 "Izņemot -h un -L, visi ar FAILU saistītie testi seko simboliskajām saitēm.\n"
-"Ņemiet vērā, ka čaulās iekavas ir jāekranē (piemēram, ar atpakaļvērstajām slīpsvītrām).\n"
-"VESALAIS_SKAITLIS var būt arī -l VIRKNE, kas dod VIRKNES garumu.\n"
+"Ņemiet vērā, ka čaulās iekavas ir jāekranē (piemēram, ar atpakaļvērstajām\n"
+"slīpsvītrām). SKAITLIS var būt arī -l VIRKNE, kas dod VIRKNES garumu.\n"
 
 #: src/test.c:806
 msgid ""
@@ -14596,8 +14706,8 @@ msgid ""
 "or 'test EXPR1 || test EXPR2' instead.\n"
 msgstr ""
 "\n"
-"Binārie -a un -o ir neviennozīmīgi. Tā vietā lietojiet 'test EXPR1 && test EXPR2'\n"
-"vai 'test EXPR1 || test EXPR2'.\n"
+"Binārie -a un -o ir neviennozīmīgi. Tā vietā lietojiet 'test EXPR1 && test\n"
+"EXPR2' vai 'test EXPR1 || test EXPR2'.\n"
 
 #: src/test.c:811
 msgid ""
@@ -14605,7 +14715,7 @@ msgid ""
 "'[' honors --help and --version, but 'test' treats them as STRINGs.\n"
 msgstr ""
 "\n"
-"'[' respektē --help un --version, bet 'test' tos uztver kā VIRKNI.\n"
+"'[' respektē --help un --version, bet 'test' tos uztver kā VIRKNES.\n"
 
 #: src/test.c:815
 msgid "test and/or ["
@@ -14614,12 +14724,12 @@ msgstr "test un/vai ["
 #. This is a proper name. See the gettext manual, section Names.
 #: src/test.c:827
 msgid "Kevin Braunsdorf"
-msgstr "Kevins Braunsdorfs"
+msgstr "Kevin Braunsdorf"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/test.c:828
 msgid "Matthew Bradburn"
-msgstr "Metjū Bredbērns"
+msgstr "Matthew Bradburn"
 
 #: src/test.c:882
 #, c-format
@@ -14658,7 +14768,7 @@ msgstr "Lietošana: %s [OPCIJA]... ILGUMS KOMANDA [ARG]...\n"
 
 #: src/timeout.c:273
 msgid "Start COMMAND, and kill it if still running after DURATION.\n"
-msgstr "Palaist KOMANDU un nogalināt to, ja tā joprojām darbojas pēc ILGUMA.\n"
+msgstr "Palaist KOMANDU un nobeigt to, ja tā joprojām darbojas pēc ILGUMA.\n"
 
 #: src/timeout.c:279
 msgid ""
@@ -14720,9 +14830,9 @@ msgid ""
 "A duration of 0 disables the associated timeout.\n"
 msgstr ""
 "\n"
-"ILGUMS ir peldošā komata skaitlis ar neobligātu sufiksu:\n"
+"ILGUMS ir peldošā komata skaitlis ar neobligātu piedēkli:\n"
 "'s' sekundēm (noklusējums), 'm' minūtēm, 'h' stundām vai 'd' dienām.\n"
-"Ilgums 0 atspējo saistīto taimautu.\n"
+"Ilgums 0 atspējo saistīto noilgumu.\n"
 
 #: src/timeout.c:314
 msgid ""
@@ -14748,13 +14858,14 @@ msgid ""
 "  -    the exit status of COMMAND otherwise\n"
 msgstr ""
 "\n"
-"Iziešanas statuss:\n"
+"Izpildes statuss:\n"
 "  124  ja iestājas KOMANDAS noilgums un --preserve-status nav norādīts\n"
 "  125  ja pati timeout komanda neizdodas\n"
 "  126  ja KOMANDA ir atrasta, bet to nevar izsaukt\n"
 "  127  ja KOMANDA nav atrasta\n"
-"  137  ja KOMANDAI (vai pašai timeout komandai) tiek nosūtīts KILL (9) signāls (128+9)\n"
-"  -    citos gadījumos — KOMANDAS iziešanas statuss\n"
+"  137  ja KOMANDAI (vai pašai timeout komandai) tiek nosūtīts KILL (9) signāls\n"
+"       (128+9)\n"
+"  -    citos gadījumos — KOMANDAS izpildes statuss\n"
 
 #: src/timeout.c:400 src/timeout.c:481
 #, c-format
@@ -14784,7 +14895,7 @@ msgstr "kļūda, gaidot komandu"
 #: src/timeout.c:664
 #, c-format
 msgid "the monitored command dumped core"
-msgstr "uzraudzītā komanda izveidoja atmiņas izgāzumu"
+msgstr "uzraudzītā komanda izveidoja atmiņas izmeti"
 
 #: src/timeout.c:682
 #, c-format
@@ -14794,12 +14905,12 @@ msgstr "nezināms komandas statuss (%d)"
 #. This is a proper name. See the gettext manual, section Names.
 #: src/touch.c:42
 msgid "Jim Kingdon"
-msgstr "Džims Kingdons"
+msgstr "Jim Kingdon"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/touch.c:44
 msgid "Randy Smith"
-msgstr "Rendijs Smits"
+msgstr "Randy Smith"
 
 #: src/touch.c:113 src/touch.c:326
 #, c-format
@@ -14828,9 +14939,11 @@ msgid ""
 msgstr ""
 "Atjaunināt katra FAILA piekļuves un modifikācijas laikus uz pašreizējo laiku.\n"
 "\n"
-"FAILA arguments, kas neeksistē, tiek izveidots tukšs, ja vien nav norādīts -c vai -h.\n"
+"FAILA arguments, kas neeksistē, tiek izveidots tukšs, ja vien nav norādīts\n"
+"-c vai -h.\n"
 "\n"
-"FAILA argumenta virkne \"-\" tiek apstrādāta īpaši un liek touch mainīt ar standarta izvadi saistītā faila laikus.\n"
+"FAILA argumenta virkne \"-\" tiek apstrādāta īpaši un liek touch mainīt\n"
+"ar standarta izvadi saistītā faila laikus.\n"
 
 #: src/touch.c:229
 msgid ""
@@ -14925,7 +15038,7 @@ msgstr "brīdinājums: 'touch %s' ir novecojis; izmantojiet 'touch -t %04ld%02d%
 #: src/tr.c:285
 #, c-format
 msgid "Usage: %s [OPTION]... STRING1 [STRING2]\n"
-msgstr "Lietojums: %s [OPCIJA]... VIRKNE1 [VIRKNE2]\n"
+msgstr "Lietošana: %s [OPCIJA]... VIRKNE1 [VIRKNE2]\n"
 
 #: src/tr.c:289
 msgid ""
@@ -14934,7 +15047,7 @@ msgid ""
 "characters ARRAY1 and ARRAY2 that control the action.\n"
 "\n"
 msgstr ""
-"Tulko, saspiež un/vai dzēš rakstzīmes no standarta ievades,\n"
+"Aizstāt, saspiest un/vai dzēst rakstzīmes no standarta ievades,\n"
 "rakstot standarta izvadē. VIRKNE1 un VIRKNE2 norāda rakstzīmju masīvus\n"
 "MASĪVS1 un MASĪVS2, kas nosaka darbību.\n"
 "\n"
@@ -14945,7 +15058,7 @@ msgid ""
 "         use the complement of ARRAY1\n"
 msgstr ""
 "  -c, -C, --complement\n"
-"         izmanto MASĪVS1 papildinājumu\n"
+"         izmantot MASĪVS1 papildinājumu\n"
 
 #: src/tr.c:299
 msgid ""
@@ -14953,7 +15066,7 @@ msgid ""
 "         delete characters in ARRAY1, do not translate\n"
 msgstr ""
 "  -d, --delete\n"
-"         dzēš MASĪVS1 rakstzīmes, netulko\n"
+"         dzēst MASĪVS1 rakstzīmes, neaizstāt\n"
 
 #: src/tr.c:303
 msgid ""
@@ -14963,7 +15076,7 @@ msgid ""
 "         with a single occurrence of that character\n"
 msgstr ""
 "  -s, --squeeze-repeats\n"
-"         aizstāj katru atkārtotas rakstzīmes secību,\n"
+"         aizstāt katru atkārtotas rakstzīmes secību,\n"
 "         kas norādīta pēdējā norādītajā MASĪVĀ,\n"
 "         ar vienu šādu rakstzīmi\n"
 
@@ -14973,7 +15086,7 @@ msgid ""
 "         first truncate ARRAY1 to length of ARRAY2\n"
 msgstr ""
 "  -t, --truncate-set1\n"
-"         vispirms saīsina MASĪVS1 līdz MASĪVS2 garumam\n"
+"         vispirms saīsināt MASĪVS1 līdz MASĪVS2 garumam\n"
 
 #: src/tr.c:315
 msgid ""
@@ -15016,9 +15129,9 @@ msgid ""
 "  [:digit:]       all digits\n"
 msgstr ""
 "  \\v              vertikālā tabulācija\n"
-"  RAKST1-RAKST2     visas rakstzīmes no RAKST1 līdz RAKST2 augošā secībā\n"
-"  [RAKST*]         masīvā MASĪVS2 — RAKST kopijas līdz MASĪVS1 garumam\n"
-"  [RAKST*ATKĀRTOT]   ATKĀRTOT skaita RAKST kopijas; ATKĀRTOT ir oktāls, ja sākas ar 0\n"
+"  RAKST1-RAKST2   visas rakstzīmes no RAKST1 līdz RAKST2 augošā secībā\n"
+"  [RAKST*]        masīvā MASĪVS2 — RAKST kopijas līdz MASĪVS1 garumam\n"
+"  [RAKST*REIZES]  REIZES RAKST kopijas; REIZES ir oktāls, ja sākas ar 0\n"
 "  [:alnum:]       visi burti un cipari\n"
 "  [:alpha:]       visi burti\n"
 "  [:blank:]       visas horizontālās atstarpes\n"
@@ -15043,7 +15156,7 @@ msgstr ""
 "  [:space:]       visas horizontālās vai vertikālās atstarpes\n"
 "  [:upper:]       visi lielie burti\n"
 "  [:xdigit:]      visi heksadecimālie cipari\n"
-"  [=RAKST=]        visas rakstzīmes, kas ir ekvivalentas RAKST\n"
+"  [=RAKST=]       visas rakstzīmes, kas ir ekvivalentas RAKST\n"
 
 #: src/tr.c:350
 msgid ""
@@ -15057,12 +15170,14 @@ msgid ""
 "Arguments like '[...]' should be quoted, to avoid potential shell globbing.\n"
 msgstr ""
 "\n"
-"Tulkošana notiek, ja nav norādīts -d un ir norādītas gan VIRKNE1, gan VIRKNE2.\n"
-"-t ir nozīme tikai tulkošanas laikā. MASĪVS2 tiek paplašināts līdz MASĪVS1 garumam,\n"
-"atkārtojot tā pēdējo rakstzīmi pēc vajadzības. MASĪVS2 liekās rakstzīmes tiek ignorētas.\n"
-"Rakstzīmju klases izvēršas nenoteiktā secībā; tulkojot '[:lower:]' un '[:upper:]'\n"
-"var izmantot pa pāriem, lai norādītu reģistra pārveidošanu. Saspiešana notiek pēc tulkošanas vai dzēšanas.\n"
-"Tādus argumentus kā '[...]' ieteicams likt pēdiņās, lai izvairītos no iespējamas čaulas šablonu izvēršanas.\n"
+"Aizstāšana notiek, ja nav norādīts -d un ir norādītas gan VIRKNE1, gan VIRKNE2.\n"
+"-t ir nozīme tikai aizstājot.  MASĪVS2 tiek paplašināts līdz MASĪVS1 garumam,\n"
+"pēc vajadzības atkārtojot tā pēdējo rakstzīmi.  MASĪVS2 liekās rakstzīmes\n"
+"tiek ignorētas.  Rakstzīmju klases izvēršas nenoteiktā secībā; aizstājot\n"
+"'[:lower:]' un '[:upper:]' var izmantot pa pāriem, lai norādītu reģistra\n"
+"pārveidošanu.  Saspiešana notiek pēc aizstāšanas vai dzēšanas.\n"
+"Tādus argumentus kā '[...]' ieteicams likt pēdiņās, lai izvairītos no\n"
+"iespējamas čaulas šablonu izvēršanas.\n"
 
 #: src/tr.c:519
 #, c-format
@@ -15070,13 +15185,13 @@ msgid ""
 "warning: the ambiguous octal escape \\%c%c%c is being\n"
 "\tinterpreted as the 2-byte sequence \\0%c%c, %c"
 msgstr ""
-"brīdinājums: divdomīgā oktālā vadības secība \\%c%c%c tiek\n"
+"brīdinājums: neviennozīmīgā oktālā vadības secība \\%c%c%c tiek\n"
 "\tinterpretēta kā 2 baitu secība \\0%c%c, %c"
 
 #: src/tr.c:528
 #, c-format
 msgid "warning: an unescaped backslash at end of string is not portable"
-msgstr "brīdinājums: neizolēta atpakaļsvītra virknes beigās var darboties nepareizi citās sistēmās"
+msgstr "brīdinājums: neekranēta atpakaļsvītra virknes beigās nav pārnesama"
 
 #: src/tr.c:676
 #, c-format
@@ -15154,7 +15269,7 @@ msgstr ""
 #: src/tr.c:1482
 #, c-format
 msgid "when not truncating set1, string2 must be non-empty"
-msgstr "neapgriežot kopu1, virkne2 nedrīkst būt tukša"
+msgstr "ja kopa1 netiek saīsināta, virkne2 nedrīkst būt tukša"
 
 #: src/tr.c:1491
 #, c-format
@@ -15315,7 +15430,7 @@ msgid ""
 "Usage: %s [OPTION] [FILE]\n"
 "Write totally ordered list consistent with the partial ordering in FILE.\n"
 msgstr ""
-"Lietojums: %s [OPCIJA] [FAILS]\n"
+"Lietošana: %s [OPCIJA] [FAILS]\n"
 "Izvadīt pilnīgi sakārtotu sarakstu, kas atbilst daļējam sakārtojumam FAILĀ.\n"
 
 #: src/tsort.c:472
@@ -15342,7 +15457,7 @@ msgid ""
 "         print nothing, only return an exit status\n"
 msgstr ""
 "  -s, --silent, --quiet\n"
-"         neko neizvadīt, tikai atgriezt izejas statusu\n"
+"         neko neizvadīt, tikai atgriezt izpildes statusu\n"
 
 #: src/tty.c:130
 #, c-format
@@ -15358,7 +15473,7 @@ msgid ""
 "Print certain system information.  With no OPTION, same as -s.\n"
 "\n"
 msgstr ""
-"Izvadīt noteiktu sistēmas informāciju.  Bez OPCIJAS tas pats kas -s.\n"
+"Izvadīt noteiktu sistēmas informāciju.  Bez OPCIJAS tas pats, kas -s.\n"
 "\n"
 
 #: src/uname.c:125
@@ -15374,8 +15489,8 @@ msgid ""
 "  -A, --all-labeled        print all information, one labeled field per line,\n"
 "                             except omit -p and -i if unknown\n"
 msgstr ""
-"  -A, --all-labeled        izvadīt visu informāciju, vienu marķētu lauku katrā rindā,\n"
-"                             izņemot -p un -i, ja tie nav zināmi\n"
+"  -A, --all-labeled        izvadīt visu informāciju, vienu marķētu lauku katrā\n"
+"                             rindā, izņemot -p un -i, ja tie nav zināmi\n"
 
 #: src/uname.c:133
 msgid "  -s, --kernel-name        print the kernel name\n"
@@ -15606,7 +15721,8 @@ msgid ""
 msgstr ""
 "\n"
 "'uniq' neatklāj atkārtotas rindas, ja vien tās nav blakus.\n"
-"Iespējams, vispirms vēlēsities sakārtot ievadi vai izmantot 'sort -u' bez 'uniq'.\n"
+"Iespējams, vispirms vēlēsities sakārtot ievadi vai izmantot 'sort -u' bez\n"
+"'uniq'.\n"
 
 #: src/uniq.c:450
 #, c-format
@@ -15654,8 +15770,8 @@ msgid ""
 "Call the unlink function to remove the specified FILE.\n"
 "\n"
 msgstr ""
-"Izsaukt funkciju unlink, lai noņemtu norādīto FAILU.\n"
-"zn\n"
+"Izsaukt funkciju unlink, lai dzēstu norādīto FAILU.\n"
+"\n"
 
 #: src/uptime.c:59
 #, c-format
@@ -15759,9 +15875,10 @@ msgid ""
 "more than one FILE is specified.  A word is a nonempty sequence of non white\n"
 "space delimited by white space characters or by start or end of input.\n"
 msgstr ""
-"Izvada jauno rindu, vārdu un baitu skaitu katram FAILAM un kopsavilkuma rindu,\n"
-"ja norādīts vairāk nekā viens FAILS. Vārds ir netukša rakstzīmju, kas nav atstarpes,\n"
-"secība, ko atdala atstarpju rakstzīmes vai ievades sākums vai beigas.\n"
+"Izvada jauno rindu, vārdu un baitu skaitu katram FAILAM un kopsummas\n"
+"rindu, ja norādīts vairāk nekā viens FAILS.  Vārds ir netukša\n"
+"ne-atstarpes rakstzīmju virkne, ko atdala atstarpju rakstzīmes vai\n"
+"ievades sākums vai beigas.\n"
 
 #: src/wc.c:203
 msgid ""
@@ -15770,8 +15887,9 @@ msgid ""
 "the following order: newline, word, character, byte, maximum line length.\n"
 msgstr ""
 "\n"
-"Zemāk norādītās opcijas var izmantot, lai izvēlētos, kuras vērtības tiek izvadītas, vienmēr\n"
-"šādā secībā: jauna rinda, vārds, rakstzīme, baits, maksimālais rindas garums.\n"
+"Zemāk norādītās opcijas var izmantot, lai izvēlētos, kuras vērtības izvadīt,\n"
+"vienmēr šādā secībā: jaunas rindas, vārdi, rakstzīmes, baiti,\n"
+"maksimālais rindas garums.\n"
 
 #: src/wc.c:208
 msgid ""
@@ -15943,7 +16061,7 @@ msgstr "Lietošana: %s [OPCIJA]... [ FAILS | ARG1 ARG2 ]\n"
 
 #: src/who.c:631
 msgid "Print information about users who are currently logged in.\n"
-msgstr "Parādīt informāciju par lietotājiem, kuri pašlaik ir pierakstījušies.\n"
+msgstr "Parādīt informāciju par lietotājiem, kuri pašlaik ir pieteikušies.\n"
 
 #: src/who.c:637
 msgid "  -a, --all         same as -b -d --login -p -r -t -T -u\n"
@@ -15951,7 +16069,7 @@ msgstr "  -a, --all         tas pats, kas -b -d --login -p -r -t -T -u\n"
 
 #: src/who.c:640
 msgid "  -b, --boot        time of last system boot\n"
-msgstr "  -b, --boot        pēdējās sistēmas ielādes laiks\n"
+msgstr "  -b, --boot        pēdējās sistēmas sāknēšanas laiks\n"
 
 #: src/who.c:643
 msgid "  -d, --dead        print dead processes\n"
@@ -15963,7 +16081,7 @@ msgstr "  -H, --heading     parādīt kolonnu virsrakstu rindu\n"
 
 #: src/who.c:649
 msgid "  -l, --login       print system login processes\n"
-msgstr "  -l, --login       parādīt sistēmas pierakstīšanās procesus\n"
+msgstr "  -l, --login       parādīt sistēmas pieteikšanās procesus\n"
 
 #: src/who.c:652
 msgid "      --lookup      attempt to canonicalize hostnames via DNS\n"
@@ -15971,7 +16089,9 @@ msgstr "      --lookup      mēģināt kanonizēt resursdatoru nosaukumus, izman
 
 #: src/who.c:655
 msgid "  -m                only hostname and user associated with standard input\n"
-msgstr "  -m                tikai resursdatora nosaukums un lietotājs, kas saistīts ar standarta ievadi\n"
+msgstr ""
+"  -m                tikai resursdatora nosaukums un lietotājs, kas saistīts ar\n"
+"                    standarta ievadi\n"
 
 #: src/who.c:658
 msgid "  -p, --process     print active processes spawned by init\n"
@@ -15983,7 +16103,7 @@ msgstr "  -q, --count       visi pieteikvārdi un pieteikušos lietotāju skaits
 
 #: src/who.c:664
 msgid "  -r, --runlevel    print current runlevel\n"
-msgstr "  -r, --runlevel    parādīt pašreizējo darbības līmeni\n"
+msgstr "  -r, --runlevel    parādīt pašreizējo izpildes līmeni\n"
 
 #: src/who.c:667
 msgid "  -s, --short       print only name, line, and time (default)\n"
@@ -16036,7 +16156,7 @@ msgid ""
 "Usage: %s [STRING]...\n"
 "  or:  %s OPTION\n"
 msgstr ""
-"Lietojums: %s [VIRKNE]...\n"
+"Lietošana: %s [VIRKNE]...\n"
 "  vai:  %s OPCIJA\n"
 
 #: src/yes.c:51
