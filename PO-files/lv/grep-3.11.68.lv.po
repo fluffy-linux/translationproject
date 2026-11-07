@@ -1,34 +1,33 @@
 # grep Latvian translation.
 # Copyright (C) 2026 Free Software Foundation, Inc.
 # This file is distributed under the same license as the grep package.
-# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+# Rihards Priedītis <rprieditis@gmail.com>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: grep 3.11.68\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2025-04-04 14:26-0700\n"
-"PO-Revision-Date: 2026-09-18 11:01+0300\n"
-"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
-"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2026-11-07 20:26+0200\n"
+"Last-Translator: Rihards Priedītis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <translation-team-lv@googlegroups.com>\n"
 "Language: lv\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==0 || (n%100>=11 && n%100<=19) ? 0 : n%10==1 && n%100!=11 ? 1 : 2);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 
 #: lib/argmatch.c:145
 #, c-format
 msgid "invalid argument %s for %s"
-msgstr "nederīgs arguments %s priekš %s"
+msgstr "nederīgs arguments %s opcijai %s"
 
 #: lib/argmatch.c:146
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "nevienozīmīgs arguments %s priekš %s"
+msgstr "neviennozīmīgs arguments %s opcijai %s"
 
 #: lib/argmatch.c:165 lib/argmatch.h:242
 msgid "Valid arguments are:"
@@ -48,7 +47,7 @@ msgstr "rakstīšanas kļūda"
 
 #: lib/dfa.c:910
 msgid "unbalanced ["
-msgstr "neatbilstoša ["
+msgstr "nesapārota ["
 
 #: lib/dfa.c:1031
 msgid "invalid character class"
@@ -60,7 +59,7 @@ msgstr "rakstzīmju klases sintakse ir [[:space:]], nevis [:space:]"
 
 #: lib/dfa.c:1234
 msgid "unfinished \\ escape"
-msgstr "nepabeigts \\ aizbēgums"
+msgstr "nepabeigta \\ atsoļa sekvence"
 
 #: lib/dfa.c:1344
 msgid "? at start of expression"
@@ -105,7 +104,7 @@ msgstr "lieka \\"
 
 #: lib/dfa.c:1948
 msgid "unbalanced ("
-msgstr "neatbilstoša ("
+msgstr "nesapārota ("
 
 #: lib/dfa.c:2065
 msgid "no syntax specified"
@@ -113,7 +112,7 @@ msgstr "nav norādīta sintakse"
 
 #: lib/dfa.c:2076
 msgid "unbalanced )"
-msgstr "neatbilstoša )"
+msgstr "nesapārota )"
 
 #: lib/error.c:208
 msgid "Unknown system error"
@@ -122,12 +121,12 @@ msgstr "Nezināma sistēmas kļūda"
 #: lib/getopt.c:282
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija '%s%s' nav viennozīmīga\n"
+msgstr "%s: opcija '%s%s' ir neviennozīmīga\n"
 
 #: lib/getopt.c:288
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija '%s%s' nav viennozīmīga; iespējas:"
+msgstr "%s: opcija '%s%s' ir neviennozīmīga; iespējas:"
 
 #: lib/getopt.c:322
 #, c-format
@@ -202,7 +201,7 @@ msgstr "”"
 
 #: lib/regcomp.c:122
 msgid "Success"
-msgstr "Izdevās"
+msgstr "Veiksmīgi"
 
 #: lib/regcomp.c:125
 msgid "No match"
@@ -214,7 +213,7 @@ msgstr "Nederīga regulārā izteiksme"
 
 #: lib/regcomp.c:131
 msgid "Invalid collation character"
-msgstr "Nederīga kolācijas rakstzīme"
+msgstr "Nederīga kārtošanas rakstzīme"
 
 #: lib/regcomp.c:134
 msgid "Invalid character class name"
@@ -222,7 +221,7 @@ msgstr "Nederīgs rakstzīmju klases nosaukums"
 
 #: lib/regcomp.c:137
 msgid "Trailing backslash"
-msgstr "Beigu atpakaļvērstā slīpsvītra"
+msgstr "Noslēdzošā atpakaļvērstā slīpsvītra"
 
 #: lib/regcomp.c:140
 msgid "Invalid back reference"
@@ -230,15 +229,15 @@ msgstr "Nederīga atpakaļatsauce"
 
 #: lib/regcomp.c:143
 msgid "Unmatched [, [^, [:, [., or [="
-msgstr "Neatbilstoši [, [^, [:, [., vai [="
+msgstr "Nesapārota [, [^, [:, [., vai [="
 
 #: lib/regcomp.c:146
 msgid "Unmatched ( or \\("
-msgstr "Neatbilstoša ( vai \\("
+msgstr "Nesapārota ( vai \\("
 
 #: lib/regcomp.c:149
 msgid "Unmatched \\{"
-msgstr "Neatbilstoša \\{"
+msgstr "Nesapārota \\{"
 
 #: lib/regcomp.c:152
 msgid "Invalid content of \\{\\}"
@@ -254,7 +253,7 @@ msgstr "Atmiņa izsmelta"
 
 #: lib/regcomp.c:161
 msgid "Invalid preceding regular expression"
-msgstr "Nederīga iepriekš esošā regulārā izteiksme"
+msgstr "Nederīga iepriekšējā regulārā izteiksme"
 
 #: lib/regcomp.c:164
 msgid "Premature end of regular expression"
@@ -266,11 +265,11 @@ msgstr "Regulārā izteiksme ir pārāk liela"
 
 #: lib/regcomp.c:170
 msgid "Unmatched ) or \\)"
-msgstr "Neatbilstoša ) vai \\)"
+msgstr "Nesapārota ) vai \\)"
 
 #: lib/regcomp.c:650
 msgid "No previous regular expression"
-msgstr "Nav iepriekšējas regulārās izteiksmes"
+msgstr "Nav iepriekšējās regulārās izteiksmes"
 
 #: lib/version-etc.c:73
 #, c-format
@@ -328,7 +327,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"Autori: %s, %s, %s,\n"
+"Autori: %s, %s, %s\n"
 "un %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -416,7 +415,9 @@ msgstr ""
 #: lib/version-etc.c:249
 #, c-format
 msgid "Report bugs to: %s\n"
-msgstr "Ziņojiet par kļūdām uz: %s\n"
+msgstr ""
+"Ziņojiet par kļūdām uz: %s\n"
+"Ziņot par tulkošanas kļūdām: <translation-team-lv@googlegroups.com>.\n"
 
 #: lib/version-etc.c:251
 #, c-format
@@ -426,7 +427,7 @@ msgstr "Ziņojiet par %s kļūdām uz: %s\n"
 #: lib/version-etc.c:255 lib/version-etc.c:257
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr "%s mājalapa: <%s>\n"
+msgstr "%s mājaslapa: <%s>\n"
 
 #: lib/version-etc.c:260
 #, c-format
@@ -458,7 +459,7 @@ msgstr "%s: atrasta sakritība binārajā failā"
 #: src/grep.c:1692
 #, c-format
 msgid "%s: warning: recursive directory loop"
-msgstr "%s: brīdinājums: rekursīva direktoriju cilpa"
+msgstr "%s: brīdinājums: rekursīvs direktoriju cikls"
 
 #: src/grep.c:1912
 #, c-format
@@ -489,7 +490,7 @@ msgid ""
 "Pattern selection and interpretation:\n"
 msgstr ""
 "Piemērs: %s -i 'hello world' menu.h main.c\n"
-"ŠABLONI var saturēt vairākus šabloniem, kas atdalīti ar jaunām rindām.\n"
+"ŠABLONI var saturēt vairākus šablonus, kas atdalīti ar jaunām rindām.\n"
 "\n"
 "Šablonu izvēle un interpretācija:\n"
 
@@ -517,12 +518,12 @@ msgid ""
 "  -x, --line-regexp         match only whole lines\n"
 "  -z, --null-data           a data line ends in 0 byte, not newline\n"
 msgstr ""
-"  -e, --regexp=ŠABLONI      izmantot ŠABLONUS meklēšanai/atbilstībai\n"
+"  -e, --regexp=ŠABLONI      izmantot ŠABLONUS atbilstības meklēšanai\n"
 "  -f, --file=FAILS          ņemt ŠABLONUS no FAILA\n"
 "  -i, --ignore-case         ignorēt reģistra atšķirības šablonos un datos\n"
-"        --no-ignore-case    neignorēt reģistra atšķirības (pēc noklusējuma)\n"
-"  -w, --word-regexp         atrast tikai pilnus vārdus\n"
-"  -x, --line-regexp         atrast tikai pilnas rindas\n"
+"      --no-ignore-case      neignorēt reģistra atšķirības (noklusējums)\n"
+"  -w, --word-regexp         atbilst tikai veseliem vārdiem\n"
+"  -x, --line-regexp         atbilst tikai veselām rindām\n"
 "  -z, --null-data           datu rinda beidzas ar 0 baitu, nevis jaunu rindu\n"
 
 #: src/grep.c:2002
@@ -557,13 +558,14 @@ msgid ""
 msgstr ""
 "\n"
 "Izvades vadība:\n"
-"  -m, --max-count=SKAITS    apstāties pēc SKAITA atlasītajām rindām\n"
-"  -b, --byte-offset         drukāt baita nobīdi kopā ar izvades rindām\n"
-"  -n, --line-number         drukāt rindas numuru kopā ar izvades rindām\n"
-"        --line-buffered     notīrīt (izvadīt) buferi katrā rindā\n"
-"  -H, --with-filename       drukāt faila nosaukumu kopā ar izvades rindām\n"
-"  -h, --no-filename         nestrādāt ar / nomākt faila nosaukuma prefiksu izvadē\n"
-"        --label=ETIĶETE     izmantot ETIĶETI kā standarta ievades faila nosaukuma prefiksu\n"
+"  -m, --max-count=SKAITS    apstāties pēc SKAITS atlasītajām rindām\n"
+"  -b, --byte-offset         izvadīt baita nobīdi kopā ar izvades rindām\n"
+"  -n, --line-number         izvadīt rindas numuru kopā ar izvades rindām\n"
+"      --line-buffered       iztukšot izvadi pēc katras rindas\n"
+"  -H, --with-filename       izvadīt faila nosaukumu kopā ar izvades rindām\n"
+"  -h, --no-filename         neizvadīt faila nosaukuma priedēkli\n"
+"      --label=ETIĶETE       izmantot ETIĶETI kā standarta ievades faila\n"
+"                            nosaukuma priedēkli\n"
 
 #: src/grep.c:2020
 #, c-format
@@ -574,11 +576,11 @@ msgid ""
 "                            TYPE is 'binary', 'text', or 'without-match'\n"
 "  -a, --text                equivalent to --binary-files=text\n"
 msgstr ""
-"  -o, --only-matching       parādīt tikai rindu netukšās daļas, kas atbilst šablonam\n"
-"  -q, --quiet, --silent     nomākt visu parasto izvadi\n"
-"        --binary-files=TIPS uzskatīt, ka binārie faili ir TIPS;\n"
-"                            TIPS ir 'binary' (binārs), 'text' (teksts) vai 'without-match' (bez atbilstības)\n"
-"  -a, --text                līdzvērtīgs --binary-files=text\n"
+"  -o, --only-matching       rādīt tikai netukšās rindu daļas, kas atbilst\n"
+"  -q, --quiet, --silent     nerādīt nekādu parasto izvadi\n"
+"      --binary-files=TIPS   uzskatīt, ka binārie faili ir TIPS;\n"
+"                            TIPS ir 'binary', 'text' vai 'without-match'\n"
+"  -a, --text                tas pats, kas --binary-files=text\n"
 
 #: src/grep.c:2027
 #, c-format
@@ -591,13 +593,13 @@ msgid ""
 "  -r, --recursive           like --directories=recurse\n"
 "  -R, --dereference-recursive  likewise, but follow all symlinks\n"
 msgstr ""
-"  -I                        līdzvērtīgs --binary-files=without-match\n"
-"  -d, --directories=DARBĪBA kā rīkoties ar direktorijām;\n"
-"                            DARBĪBA ir 'read' (lasīt), 'recurse' (rekursīvi) vai 'skip' (izlaist)\n"
-"  -D, --devices=DARBĪBA     kā rīkoties ar ierīcēm, FIFO un ligzdām (sockets);\n"
+"  -I                        tas pats, kas --binary-files=without-match\n"
+"  -d, --directories=DARBĪBA kā apstrādāt direktorijas;\n"
+"                            DARBĪBA ir 'read', 'recurse' vai 'skip'\n"
+"  -D, --devices=DARBĪBA     kā apstrādāt ierīces, FIFO un ligzdas;\n"
 "                            DARBĪBA ir 'read' vai 'skip'\n"
 "  -r, --recursive           tāpat kā --directories=recurse\n"
-"  -R, --dereference-recursive tāpat, bet sekot visām simboliskajām saitēm\n"
+"  -R, --dereference-recursive  tāpat, bet sekot visām simboliskajām saitēm\n"
 
 #: src/grep.c:2036
 #, c-format
@@ -607,10 +609,12 @@ msgid ""
 "      --exclude-from=FILE   skip files that match any file pattern from FILE\n"
 "      --exclude-dir=GLOB    skip directories that match GLOB\n"
 msgstr ""
-"        --include=GLOB      meklēt tikai failos, kas atbilst GLOB (faila šablonam)\n"
-"        --exclude=GLOB      izlaist failus, kas atbilst GLOB\n"
-"        --exclude-from=FAILSAK izlaist failus, kas atbilst jebkuram faila šablonam no FAILA\n"
-"        --exclude-dir=GLOB  izlaist direktorijas, kas atbilst GLOB\n"
+"      --include=GLOB        meklēt tikai failos, kas atbilst GLOB (faila\n"
+"                            šablonam)\n"
+"      --exclude=GLOB        izlaist failus, kas atbilst GLOB\n"
+"      --exclude-from=FAILS  izlaist failus, kas atbilst jebkuram faila šablonam\n"
+"                            no FAILA\n"
+"      --exclude-dir=GLOB    izlaist direktorijas, kas atbilst GLOB\n"
 
 #: src/grep.c:2043
 #, c-format
@@ -621,11 +625,13 @@ msgid ""
 "  -T, --initial-tab         make tabs line up (if needed)\n"
 "  -Z, --null                print 0 byte after FILE name\n"
 msgstr ""
-"  -L, --files-without-match izdrukāt tikai to FAILU nosaukumus, kuros nav atlasīto līniju/rindu\n"
-"  -l, --files-with-matches  izdrukāt tikai to FAILU nosaukumus, kuros ir atlasītās rindas\n"
-"  -c, --count               izdrukāt tikai atlasīto rindu skaitu katrā FAILĀ\n"
-"  -T, --initial-tab         izlīdzināt tabulācijas zīmes (ja nepieciešams)\n"
-"  -Z, --null                drukāt 0 baitu pēc FAILA nosaukuma\n"
+"  -L, --files-without-match  izvadīt tikai to FAILU nosaukumus, kuros nav\n"
+"                             atlasītu rindu\n"
+"  -l, --files-with-matches  izvadīt tikai to FAILU nosaukumus, kuros ir\n"
+"                            atlasītas rindas\n"
+"  -c, --count               izvadīt tikai atlasīto rindu skaitu katram FAILAM\n"
+"  -T, --initial-tab         izlīdzināt tabulācijas (ja nepieciešams)\n"
+"  -Z, --null                izvadīt 0 baitu pēc FAILA nosaukuma\n"
 
 #: src/grep.c:2049
 #, c-format
@@ -638,9 +644,9 @@ msgid ""
 msgstr ""
 "\n"
 "Konteksta vadība:\n"
-"**  -B, --before-context=SKAITS drukāt SKAITA norādīto rindu skaitu kā iepriekšējo kontekstu\n"
-"**  -A, --after-context=SKAITS  drukāt SKAITA norādīto rindu skaitu kā turpmāko kontekstu\n"
-"**  -C, --context=SKAITS        drukāt SKAITA norādīto rindu skaitu kā izvades kontekstu\n"
+"  -B, --before-context=SKAITS izvadīt SKAITS iepriekšējā konteksta rindas\n"
+"  -A, --after-context=SKAITS izvadīt SKAITS sekojošā konteksta rindas\n"
+"  -C, --context=SKAITS      izvadīt SKAITS izvades konteksta rindas\n"
 
 #: src/grep.c:2056
 #, c-format
@@ -654,13 +660,15 @@ msgid ""
 "  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)\n"
 "\n"
 msgstr ""
-"  -NUM                      tāpat kā --context=SKAITS\n"
-"        --group-separator=ATDALĪTĀJS drukāt ATDALĪTĀJU rindā starp atbilstībām ar kontekstu\n"
-"        --no-group-separator    nedrukāt atdalītāju atbilstībām ar kontekstu\n"
-"        --color[=KAD],\n"
-"        --colour[=KAD]          izmantot marķierus, lai izceltu atbilstošās virknes;\n"
-"                                KAD ir 'always' (vienmēr), 'never' (nekad) vai 'auto' (automātiski)\n"
-"  -U, --binary              nenoņemt CR rakstzīmes rindu beigās (EOL) (MSDOS/Windows)\n"
+"  -SKAITS                   tas pats, kas --context=SKAITS\n"
+"      --group-separator=ATDALĪTĀJS  izvadīt ATDALĪTĀJU rindā starp atbilstībām\n"
+"                                    ar kontekstu\n"
+"      --no-group-separator  neizvadīt atdalītāju atbilstībām ar kontekstu\n"
+"      --color[=KAD],\n"
+"      --colour[=KAD]        izmantot marķierus, lai izceltu atbilstošās virknes;\n"
+"                            KAD ir 'always', 'never' vai 'auto'\n"
+"  -U, --binary              nenoņemt CR rakstzīmes rindu beigās (MSDOS/Windows)\n"
+"\n"
 
 #: src/grep.c:2065
 #, c-format
@@ -672,8 +680,9 @@ msgid ""
 msgstr ""
 "Ja FAILS ir '-', lasīt standarta ievadi.  Ja FAILS nav norādīts, lasīt standarta\n"
 "ievadi, bet ar -r tās vietā rekursīvi meklēt darba direktorijā.  Ja ir\n"
-"mazāk par diviem FAILIEM, pieņemt -h.  Izejas statuss ir 0, ja tiek atlasīta jebkura rinda,\n"
-"pretējā gadījumā — 1; ja rodas kļūda un nav norādīts -q, izejas statuss ir 2.\n"
+"mazāk par diviem FAILIEM, pieņemt -h.  Izpildes statuss ir 0, ja tiek atlasīta\n"
+"jebkura rinda, pretējā gadījumā — 1; ja rodas kļūda un nav norādīts -q, izpildes\n"
+"statuss ir 2.\n"
 
 #: src/grep.c:2108
 msgid "conflicting matchers specified"
@@ -705,7 +714,7 @@ msgid ""
 "Written by Mike Haertel and others; see\n"
 "<https://git.savannah.gnu.org/cgit/grep.git/tree/AUTHORS>."
 msgstr ""
-"Autors Mike Haertel un citi; skatīt\n"
+"Autori: Mike Haertel un citi; skatiet\n"
 "<https://git.savannah.gnu.org/cgit/grep.git/tree/AUTHORS>."
 
 #: src/grep.c:2937
