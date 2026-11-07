@@ -1,24 +1,23 @@
 # Latvian translation for gettext.
 # Copyright (C) 2026 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gettext package.
-# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+# Rihards Priedītis <rprieditis@gmail.com>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: gettext-runtime 1.0-pre2\n"
 "Report-Msgid-Bugs-To: bug-gettext@gnu.org\n"
 "POT-Creation-Date: 2025-12-19 21:46+0100\n"
-"PO-Revision-Date: 2026-09-16 09:39+0300\n"
-"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
-"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2026-11-07 20:06+0200\n"
+"Last-Translator: Rihards Priedītis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <translation-team-lv@googlegroups.com>\n"
 "Language: lv\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==0 || (n%100>=11 && n%100<=19) ? 0 : n%10==1 && n%100!=11 ? 1 : 2);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 
 #: src/envsubst.c:112 src/gettext.c:136 src/ngettext.c:123
 #: src/printf_gettext.c:109 src/printf_ngettext.c:114
@@ -38,7 +37,7 @@ msgstr ""
 #: src/printf_gettext.c:115 src/printf_ngettext.c:120
 #, c-format
 msgid "Written by %s.\n"
-msgstr "Autors%s.\n"
+msgstr "Autors: %s.\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/envsubst.c:118 src/printf_gettext.c:115 src/printf_ngettext.c:120
@@ -54,7 +53,7 @@ msgstr "pārāk daudz argumentu"
 #: src/printf_ngettext.c:131
 #, c-format
 msgid "missing arguments"
-msgstr "trūkst argumenti"
+msgstr "trūkst argumentu"
 
 #: src/envsubst.c:176 src/gettext.c:247 src/ngettext.c:212
 #: src/printf_gettext.c:167 src/printf_ngettext.c:199
@@ -136,8 +135,9 @@ msgid ""
 "Report bugs in the bug tracker at <%s>\n"
 "or by email to <%s>.\n"
 msgstr ""
-"Par kļūdām ziņojiet kļūdu izsekošanas sistēmā vietnē <%s>\n"
-"vai sūtot e-pastu uz <%s>.\n"
+"Ziņojiet par kļūdām kļūdu izsekošanas sistēmā vietnē <%s>\n"
+"vai pa e-pastu uz <%s>.\n"
+"Ziņot par tulkošanas kļūdām: <translation-team-lv@googlegroups.com>.\n"
 
 #: src/envsubst.c:443
 #, c-format
@@ -159,8 +159,8 @@ msgid ""
 "Usage: %s [OPTION] [[TEXTDOMAIN] MSGID]\n"
 "or:    %s [OPTION] -s [MSGID]...\n"
 msgstr ""
-"Lietojums: %s [OPCIJA] [[TEKSTDOMĒNS] MSGID]\n"
-"vai:    %s [OPCIJA] -s [MSGID]...\n"
+"Lietošana: %s [OPCIJA] [[TEKSTA_DOMĒNS] MSGID]\n"
+"vai:       %s [OPCIJA] -s [MSGID]...\n"
 
 #: src/gettext.c:258
 #, c-format, no-wrap
@@ -176,17 +176,17 @@ msgstr "Opcijas un argumenti:\n"
 #: src/gettext.c:264
 #, c-format, no-wrap
 msgid "  -d, --domain=TEXTDOMAIN   retrieve translated messages from TEXTDOMAIN\n"
-msgstr "  -d, --domain=TEKSTA-DOMĒNS   iegūt tulkotos ziņojumus no TEKSTA-DOMĒNA\n"
+msgstr "  -d, --domain=TEKSTA_DOMĒNS iegūt tulkotos ziņojumus no TEKSTA_DOMĒNA\n"
 
 #: src/gettext.c:266 src/ngettext.c:231
 #, c-format
 msgid "  -c, --context=CONTEXT     specify context for MSGID\n"
-msgstr "  -c, --context=KONTEKSTS     norādīt kontekstu priekš MSGID\n"
+msgstr "  -c, --context=KONTEKSTS   norādīt kontekstu ziņojumam MSGID\n"
 
 #: src/gettext.c:268 src/ngettext.c:233
 #, c-format
 msgid "  -e                        enable expansion of some escape sequences\n"
-msgstr "  -e                        ieslēgt dažu atsoļa secību izvēršanu\n"
+msgstr "  -e                        iespējot dažu atsoļa secību izvēršanu\n"
 
 #: src/gettext.c:270
 #, c-format
@@ -204,8 +204,8 @@ msgid ""
 "  [TEXTDOMAIN] MSGID        retrieve translated message corresponding\n"
 "                            to MSGID from TEXTDOMAIN\n"
 msgstr ""
-"  [TEKSTA_DOMĒNS] MSGID         iegūst TEKSTA_DOMĒNA\n"
-"                            ziņojumu, kas atbilst MSGID\n"
+"  [TEKSTA_DOMĒNS] MSGID     iegūt TEKSTA_DOMĒNA ziņojuma tulkojumu,\n"
+"                            kas atbilst MSGID\n"
 
 #: src/gettext.c:280 src/ngettext.c:246 src/printf_gettext.c:192
 #: src/printf_ngettext.c:228
@@ -231,19 +231,19 @@ msgid ""
 "found in the selected catalog are translated.\n"
 "Standard search directory: %s\n"
 msgstr ""
-"Ja parametrs TEKSTA-DOMĒNS nav norādīts, domēnu nosaka no\n"
+"Ja parametrs TEKSTA_DOMĒNS nav norādīts, domēnu nosaka no\n"
 "vides mainīgā TEXTDOMAIN.  Ja ziņojumu katalogs netiek atrasts\n"
 "parastajā direktorijā, citu atrašanās vietu var norādīt ar vides\n"
 "mainīgo TEXTDOMAINDIR.\n"
 "Izmantojot kopā ar opciju -s, programma darbojas līdzīgi kā komanda 'echo'.\n"
-"Taču tā nevis vienkārši nokopē savus argumentus uz standarta izvadi,  bet tā vietā tiek\n"
-"iztulkoti tie ziņojumi, kas atrasti atlasītajā katalogā.\n"
+"Taču tā nevis vienkārši nokopē savus argumentus standarta izvadē, bet gan\n"
+"iztulko tos ziņojumus, kas atrasti atlasītajā katalogā.\n"
 "Standarta meklēšanas direktorija: %s\n"
 
 #: src/ngettext.c:217
 #, c-format, no-wrap
 msgid "Usage: %s [OPTION] [TEXTDOMAIN] MSGID MSGID-PLURAL COUNT\n"
-msgstr "Lietojums: %s [OPCIJA] [TEKSTA-DOMĒNS] MSGID MSGID-DAUDZSKAITLIS SKAITS\n"
+msgstr "Lietošana: %s [OPCIJA] [TEKSTA_DOMĒNS] MSGID MSGID-DAUDZSKAITLIS SKAITS\n"
 
 #: src/ngettext.c:222
 #, c-format, no-wrap
@@ -257,22 +257,26 @@ msgstr ""
 #: src/ngettext.c:229
 #, c-format, no-wrap
 msgid "  -d, --domain=TEXTDOMAIN   retrieve translated message from TEXTDOMAIN\n"
-msgstr "  -d, --domain=TEKSTA-DOMĒNS   iegūst tulkoto ziņojumu no TEKSTA-DOMĒNA\n"
+msgstr "  -d, --domain=TEKSTA_DOMĒNS iegūt tulkoto ziņojumu no TEKSTA_DOMĒNA\n"
 
 #: src/ngettext.c:237
 #, c-format
 msgid "  [TEXTDOMAIN]              retrieve translated message from TEXTDOMAIN\n"
-msgstr "  [TEKSTA-DOMĒNS]              iegūst tulkoto ziņojumu no TEKSTA-DOMĒNA\n"
+msgstr "  [TEKSTA_DOMĒNS]          iegūt tulkoto ziņojumu no TEKSTA_DOMĒNA\n"
 
 #: src/ngettext.c:239
 #, c-format
 msgid "  MSGID MSGID-PLURAL        translate MSGID (singular) / MSGID-PLURAL (plural)\n"
-msgstr "  MSGID MSGID-DAUDZSKAITLIS        tulko MSGID (vienskaitlis) / MSGID-DAUDZSKAITLIS (daudzskaitlis)\n"
+msgstr ""
+"  MSGID MSGID-DAUDZSKAITLIS tulkot MSGID (vienskaitlis) / MSGID-DAUDZSKAITLIS\n"
+"  (daudzskaitlis)\n"
 
 #: src/ngettext.c:241 src/printf_ngettext.c:221
 #, c-format
 msgid "  COUNT                     choose singular/plural form based on this value\n"
-msgstr "  SKAITS                     izvēlēties vienskaitļa/daudzskaitļa formu atkarībā no šīs vērtības\n"
+msgstr ""
+"  SKAITS                    izvēlēties vienskaitļa/daudzskaitļa formu atkarībā\n"
+"                            no šīs vērtības\n"
 
 #: src/ngettext.c:252
 #, c-format, no-wrap
@@ -374,7 +378,7 @@ msgstr "trūkst formāta virkne"
 #: src/printf_gettext.c:172
 #, c-format, no-wrap
 msgid "Usage: %s [OPTION] FORMAT [ARGUMENT]...\n"
-msgstr "Lietojums: %s [OPCIJA] FORMĀTS [ARGUMENT]...\n"
+msgstr "Lietošana: %s [OPCIJA] FORMĀTS [ARGUMENTS]...\n"
 
 #: src/printf_gettext.c:177
 #, c-format, no-wrap
@@ -388,17 +392,17 @@ msgstr ""
 #: src/printf_gettext.c:183 src/printf_ngettext.c:215
 #, c-format
 msgid "  -c, --context=CONTEXT     specify context for FORMAT\n"
-msgstr "  -c, --context=KONTEKSTS     norādīt kontekstu priekš FORMĀTA\n"
+msgstr "  -c, --context=KONTEKSTS   norādīt kontekstu FORMĀTAM\n"
 
 #: src/printf_gettext.c:185
 #, c-format
 msgid "  FORMAT                    format string\n"
-msgstr "  FORMĀTS                    formāta virkne\n"
+msgstr "  FORMĀTS                   formāta virkne\n"
 
 #: src/printf_gettext.c:187 src/printf_ngettext.c:223
 #, c-format
 msgid "  ARGUMENT                  string or numeric argument\n"
-msgstr "  ARGUMENTS                  teksta vai skaitlisks arguments\n"
+msgstr "  ARGUMENTS                 virknes vai skaitlisks arguments\n"
 
 #: src/printf_gettext.c:198
 #, c-format, no-wrap
@@ -408,9 +412,9 @@ msgid ""
 "  - directives, that start with '%c',\n"
 "  - escape sequences, that start with a backslash.\n"
 msgstr ""
-"Formāta virkne sastāv no  \n"
-"  - parasta teksta,  \n"
-"  - direktīvām, kas sākas ar '%c',  \n"
+"Formāta virkne sastāv no\n"
+"  - parasta teksta,\n"
+"  - direktīvām, kas sākas ar '%c',\n"
 "  - atsoļa secībām, kas sākas ar atpakaļvērsto slīpsvītru.\n"
 
 #: src/printf_gettext.c:206 src/printf_ngettext.c:242
@@ -445,7 +449,7 @@ msgstr ""
 "      - '%c', kas izvada rakstzīmi,\n"
 "      - '%c', kas izvada virkni,\n"
 "      - '%c', '%c', kas izvada veselu skaitli,\n"
-"      - '%c', '%c', '%c', '%c', kas izvada neparakstītu (nenegatīvu) veselu skaitli,\n"
+"      - '%c', '%c', '%c', '%c', kas izvada bezzīmes (nenegatīvu) veselu skaitli,\n"
 "      - '%c', '%c', kas izvada peldošā komata skaitli zinātniskajā pierakstā,\n"
 "      - '%c', '%c', kas izvada peldošā komata skaitli bez eksponenta,\n"
 "      - '%c', '%c', kas izvada peldošā komata skaitli vispārīgajā pierakstā,\n"
@@ -512,15 +516,15 @@ msgid ""
 "This binary is configured to use the default catalogs directory:\n"
 "%s\n"
 msgstr ""
-"Tā tiek meklēta katalogu mapē, ko norāda vides mainīgais\n"
-"%s, vai, ja tā nav iestatīta, noklusējuma katalogu mapē.\n"
-"Šis izpildāmais fails ir konfigurēts izmantot noklusējuma katalogu mapi:\n"
+"Tas tiek meklēts katalogu direktorijā, ko norāda vides mainīgais\n"
+"%s, vai, ja tas nav iestatīts, noklusējuma katalogu direktorijā.\n"
+"Šis izpildāmais fails ir konfigurēts izmantot noklusējuma katalogu direktoriju:\n"
 "%s\n"
 
 #: src/printf_ngettext.c:204
 #, c-format, no-wrap
 msgid "Usage: %s [OPTION] FORMAT FORMAT-PLURAL COUNT [ARGUMENT]...\n"
-msgstr "Lietojums: %s [OPCIJA] FORMĀTS FORMĀTS-DAUDZSKAITLĪ SKAITS [ARGUMENTS]...\n"
+msgstr "Lietošana: %s [OPCIJA] FORMĀTS FORMĀTS-DAUDZSKAITLĪ SKAITS [ARGUMENTS]...\n"
 
 #: src/printf_ngettext.c:209
 #, c-format, no-wrap
@@ -534,12 +538,12 @@ msgstr ""
 #: src/printf_ngettext.c:217
 #, c-format
 msgid "  FORMAT                    English singular form of format string\n"
-msgstr "  FORMĀTS             forma angļu valodas vienskaitlī\n"
+msgstr "  FORMĀTS                   formāta virknes vienskaitļa forma angļu valodā\n"
 
 #: src/printf_ngettext.c:219
 #, c-format
 msgid "  FORMAT-PLURAL             English plural form of format string\n"
-msgstr "  FORMĀTS-DAUDZSKAITLĪ             forma angļu valodas daudzskaitlī\n"
+msgstr "  FORMĀTS-DAUDZSKAITLĪ      formāta virknes daudzskaitļa forma angļu valodā\n"
 
 #: src/printf_ngettext.c:234
 #, c-format, no-wrap
@@ -549,7 +553,7 @@ msgid ""
 "  - directives, that start with '%c',\n"
 "  - escape sequences, that start with a backslash.\n"
 msgstr ""
-"Katrs formatēšanas virkne sastāv no\n"
+"Katra formāta virkne sastāv no\n"
 "  - parasta teksta,\n"
 "  - direktīvām, kas sākas ar '%c',\n"
 "  - atsoļa secībām, kas sākas ar atpakaļvērsto slīpsvītru.\n"
