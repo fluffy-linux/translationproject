@@ -1,35 +1,34 @@
 # Latvian translation of tar.
 # Copyright (C) 2026 Free Software Foundation, Inc.
 # This file is distributed under the same license as the tar package.
-# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+# Rihards Priedītis <rprieditis@gmail.com>, 2026.
 #
 #: src/create.c:1539
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: tar 1.35.90\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2025-10-19 09:40+0300\n"
-"PO-Revision-Date: 2026-09-29 10:54+0300\n"
-"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
-"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2026-11-07 20:26+0200\n"
+"Last-Translator: Rihards Priedītis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <translation-team-lv@googlegroups.com>\n"
 "Language: lv\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==0 || (n%100>=11 && n%100<=19) ? 0 : n%10==1 && n%100!=11 ? 1 : 2);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 
 #: gnu/argmatch.c:145
 #, c-format
 msgid "invalid argument %s for %s"
-msgstr "nederīgs arguments %s priekš %s"
+msgstr "nederīgs arguments %s opcijai %s"
 
 #: gnu/argmatch.c:146
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "neskaidrs arguments %s priekš %s"
+msgstr "neviennozīmīgs arguments %s opcijai %s"
 
 #: gnu/argmatch.c:165
 msgid "Valid arguments are:"
@@ -53,7 +52,7 @@ msgstr "%.*s: Nezināms ARGP_HELP_FMT parametrs"
 #: gnu/argp-help.c:250
 #, c-format
 msgid "Garbage in ARGP_HELP_FMT: %s"
-msgstr "Nevēlama ievade ARGP_HELP_FMT: %s"
+msgstr "Nederīgi dati ARGP_HELP_FMT: %s"
 
 #: gnu/argp-help.c:1368
 msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
@@ -112,7 +111,7 @@ msgstr "gaidīt SEKUNDES sekundes (noklusējums 3600)"
 
 #: gnu/argp-parse.c:142
 msgid "print program version"
-msgstr "drukāt programmas versiju"
+msgstr "parādīt programmas versiju"
 
 #: gnu/argp-parse.c:159
 msgid "(PROGRAM ERROR) No version known!?"
@@ -125,7 +124,7 @@ msgstr "%s: Pārāk daudz argumentu\n"
 
 #: gnu/argp-parse.c:758
 msgid "(PROGRAM ERROR) Option should have been recognized!?"
-msgstr "(PROGRAMMAS KĻŪDA) Opcija jābūt bija atpazīstamai?"
+msgstr "(PROGRAMMAS KĻŪDA) Opcijai vajadzēja būt atpazītai!?"
 
 #: gnu/closeout.c:121
 msgid "write error"
@@ -134,12 +133,12 @@ msgstr "rakstīšanas kļūda"
 #: gnu/getopt.c:282
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija '%s%s' ir neskaidra\n"
+msgstr "%s: opcija '%s%s' ir neviennozīmīga\n"
 
 #: gnu/getopt.c:288
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija '%s%s' ir neskaidra; iespējamās opcijas:"
+msgstr "%s: opcija '%s%s' ir neviennozīmīga; iespējamās opcijas:"
 
 #: gnu/getopt.c:322
 #, c-format
@@ -173,7 +172,7 @@ msgstr "atmiņa izsmelta"
 #: gnu/openat-die.c:38
 #, c-format
 msgid "unable to record current working directory"
-msgstr "neizdevās ierakstīt pašreizējo darba direktoriju"
+msgstr "neizdevās saglabāt pašreizējo darba direktoriju"
 
 #: gnu/openat-die.c:57
 #, c-format
@@ -203,11 +202,11 @@ msgstr "neizdevās atgriezties sākotnējā darba direktorijā"
 #. and use glyphs suitable for your language.
 #: gnu/quotearg.c:354
 msgid "`"
-msgstr "`"
+msgstr "“"
 
 #: gnu/quotearg.c:355
 msgid "'"
-msgstr "'"
+msgstr "”"
 
 #. TRANSLATORS: A regular expression testing for an affirmative answer
 #. (english: "yes").  Testing the first character may be sufficient.
@@ -232,12 +231,12 @@ msgstr "^[nN]"
 #: gnu/version-etc.c:73
 #, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr "Sagatavotājs: %s (%s)\n"
+msgstr "Pakotni sagatavoja %s (%s)\n"
 
 #: gnu/version-etc.c:76
 #, c-format
 msgid "Packaged by %s\n"
-msgstr "Sagatavotājs: %s\n"
+msgstr "Pakotni sagatavoja %s\n"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
@@ -262,19 +261,19 @@ msgstr ""
 #: gnu/version-etc.c:105
 #, c-format
 msgid "Written by %s.\n"
-msgstr "Autors %s.\n"
+msgstr "Autors: %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: gnu/version-etc.c:109
 #, c-format
 msgid "Written by %s and %s.\n"
-msgstr "Autori %s un %s.\n"
+msgstr "Autori: %s un %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: gnu/version-etc.c:113
 #, c-format
 msgid "Written by %s, %s, and %s.\n"
-msgstr "Autori %s, %s un %s.\n"
+msgstr "Autori: %s, %s un %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -285,7 +284,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"Autori %s, %s, %s,\n"
+"Autori: %s, %s, %s\n"
 "un %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -297,7 +296,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
-"Autori %s, %s, %s,\n"
+"Autori: %s, %s, %s,\n"
 "%s un %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -309,7 +308,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, and %s.\n"
 msgstr ""
-"Autori %s, %s, %s,\n"
+"Autori: %s, %s, %s,\n"
 "%s, %s un %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -321,7 +320,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, %s, and %s.\n"
 msgstr ""
-"Autori %s, %s, %s,\n"
+"Autori: %s, %s, %s,\n"
 "%s, %s, %s un %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -334,8 +333,8 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"Autori %s, %s, %s,\n"
-"%s, %s, %s, %s,\n"
+"Autori: %s, %s, %s,\n"
+"%s, %s, %s, %s\n"
 "un %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -348,7 +347,7 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
-"Autori %s, %s, %s,\n"
+"Autori: %s, %s, %s,\n"
 "%s, %s, %s, %s,\n"
 "%s un %s.\n"
 
@@ -362,7 +361,7 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, %s, and others.\n"
 msgstr ""
-"Autori %s, %s, %s,\n"
+"Autori: %s, %s, %s,\n"
 "%s, %s, %s, %s,\n"
 "%s, %s un citi.\n"
 
@@ -373,7 +372,9 @@ msgstr ""
 #: gnu/version-etc.c:249
 #, c-format
 msgid "Report bugs to: %s\n"
-msgstr "Ziņot par kļūdām uz: %s\n"
+msgstr ""
+"Ziņot par kļūdām uz: %s\n"
+"Ziņot par tulkošanas kļūdām: <translation-team-lv@googlegroups.com>.\n"
 
 #: gnu/version-etc.c:251
 #, c-format
@@ -388,7 +389,7 @@ msgstr "%s mājaslapa: <%s>\n"
 #: gnu/version-etc.c:260
 #, c-format
 msgid "General help using GNU software: <%s>\n"
-msgstr "Vispārīga palīdzība par GNU programmatūru: <%s>\n"
+msgstr "Vispārīga palīdzība GNU programmatūras lietošanā: <%s>\n"
 
 #. TRANSLATORS: %s after `Cannot' is a function name, e.g. `Cannot open'.
 #. Directly translating this to another language will not work, first because
@@ -427,8 +428,8 @@ msgstr "%s: Neizdevās izveidot cieto saiti uz %s"
 #, c-format
 msgid "%s: Read error at byte %jd, while reading %td byte"
 msgid_plural "%s: Read error at byte %jd, while reading %td bytes"
-msgstr[0] "%s: Lasīšanas kļūda pie baita %jd, lasot %td baitus"
-msgstr[1] "%s: Lasīšanas kļūda pie baita %jd, lasot %td baitus"
+msgstr[0] "%s: Lasīšanas kļūda pie baita %jd, lasot %td baitu"
+msgstr[1] "%s: Lasīšanas kļūda pie baita %jd, lasot %td baitu"
 msgstr[2] "%s: Lasīšanas kļūda pie baita %jd, lasot %td baitus"
 
 #: lib/paxerror.c:296
@@ -451,26 +452,26 @@ msgstr "%s: Neizdevās izveidot simbolisko saiti uz %s"
 msgid "%s: Wrote only %td of %td byte"
 msgid_plural "%s: Wrote only %td of %td bytes"
 msgstr[0] "%s: Ierakstīti tikai %td no %td baitiem"
-msgstr[1] "%s: Ierakstīti tikai %td no %td baitiem"
+msgstr[1] "%s: Ierakstīti tikai %td no %td baita"
 msgstr[2] "%s: Ierakstīti tikai %td no %td baitiem"
 
 #: lib/paxnames.c:125
 #, c-format
 msgid "Removing leading `%s' from member names"
-msgstr "Noņem vadošo `%s' no dalībnieku nosaukumiem"
+msgstr "Noņem sākuma `%s' no elementu nosaukumiem"
 
 #: lib/paxnames.c:126
 #, c-format
 msgid "Removing leading `%s' from hard link targets"
-msgstr "Noņem vadošo `%s' no cieto saišu mērķiem"
+msgstr "Noņem sākuma `%s' no cieto saišu mērķiem"
 
 #: lib/paxnames.c:139
 msgid "Substituting `.' for empty member name"
-msgstr "Aizvieto `.' ar tukšu dalībnieka nosaukumu"
+msgstr "Tukšs elementa nosaukums aizvietots ar `.'"
 
 #: lib/paxnames.c:140
 msgid "Substituting `.' for empty hard link target"
-msgstr "Aizvieto `.' ar tukšu cietās saites mērķi"
+msgstr "Tukšs cietās saites mērķis aizvietots ar `.'"
 
 #: lib/rtapelib.c:271
 #, c-format
@@ -504,19 +505,19 @@ msgstr "Neizdevās izpildīt attālināto čaulu"
 
 #: rmt/rmt.c:437
 msgid "Seek direction out of range"
-msgstr "Meklēšanas virziens ārpus diapazona"
+msgstr "Pārvietošanās virziens ārpus diapazona"
 
 #: rmt/rmt.c:443
 msgid "Invalid seek direction"
-msgstr "Nederīgs meklēšanas virziens"
+msgstr "Nederīgs pārvietošanās virziens"
 
 #: rmt/rmt.c:451
 msgid "Invalid seek offset"
-msgstr "Nederīga meklēšanas nobīde"
+msgstr "Nederīga pārvietošanās nobīde"
 
 #: rmt/rmt.c:457
 msgid "Seek offset out of range"
-msgstr "Meklēšanas nobīde ārpus diapazona"
+msgstr "Pārvietošanās nobīde ārpus diapazona"
 
 #: rmt/rmt.c:495 rmt/rmt.c:543 rmt/rmt.c:608
 msgid "Invalid byte count"
@@ -528,7 +529,7 @@ msgstr "Baitu skaits ārpus diapazona"
 
 #: rmt/rmt.c:558
 msgid "Premature eof"
-msgstr "Pāragrs faila beigu marķieris"
+msgstr "Priekšlaicīgs EOF"
 
 #: rmt/rmt.c:599
 msgid "Invalid operation code"
@@ -605,19 +606,19 @@ msgstr "Kopējais dzēsto baitu skaits"
 
 #: src/buffer.c:664
 msgid "(pipe)"
-msgstr "(caurule)"
+msgstr "(cauruļvads)"
 
 #: src/buffer.c:686
 msgid "Refusing to read archive contents from terminal (missing -f option?)"
-msgstr "Atteikšanās lasīt arhīva saturu no termināļa (trūkst -f opcijas?)"
+msgstr "Atsakās lasīt arhīva saturu no termināļa (trūkst -f opcijas?)"
 
 #: src/buffer.c:688
 msgid "Refusing to write archive contents to terminal (missing -f option?)"
-msgstr "Atteikšanās rakstīt arhīva saturu uz termināli (trūkst -f opcijas?)"
+msgstr "Atsakās rakstīt arhīva saturu terminālī (trūkst -f opcijas?)"
 
 #: src/buffer.c:741
 msgid "Invalid value for record_size"
-msgstr "Nederīga vērtība record_size"
+msgstr "Nederīga record_size vērtība"
 
 #: src/buffer.c:744
 msgid "No archive name given"
@@ -638,11 +639,11 @@ msgstr "Neizdevās atjaunināt saspiestus arhīvus"
 
 #: src/buffer.c:941
 msgid "At beginning of tape, quitting now"
-msgstr "Lentes sākumā, pārtrauc darbu"
+msgstr "Lentes sākumā, darbs tiek pārtraukts"
 
 #: src/buffer.c:947
 msgid "Too many errors, quitting"
-msgstr "Pārāk daudz kļūdu, pārtrauc darbu"
+msgstr "Pārāk daudz kļūdu, darbs tiek pārtraukts"
 
 #: src/buffer.c:977
 #, c-format
@@ -656,17 +657,17 @@ msgstr[2] "Ieraksta izmērs = %td bloki"
 #, c-format
 msgid "Unaligned block (%td byte) in archive"
 msgid_plural "Unaligned block (%td bytes) in archive"
-msgstr[0] "Nesaskaņots bloks (%td baitu) arhīvā"
-msgstr[1] "Nesaskaņots bloks (%td baits) arhīvā"
-msgstr[2] "Nesaskaņots bloks (%td baiti) arhīvā"
+msgstr[0] "Nenolīdzināts bloks (%td baitu) arhīvā"
+msgstr[1] "Nenolīdzināts bloks (%td baits) arhīvā"
+msgstr[2] "Nenolīdzināts bloks (%td baiti) arhīvā"
 
 #: src/buffer.c:1078
 msgid "Cannot backspace archive file; it may be unreadable without -i"
-msgstr "Neizdevās atgriezties arhīva failā; tas var būt nelasāms bez -i"
+msgstr "Neizdevās pārvietoties atpakaļ arhīva failā; tas var būt nelasāms bez -i"
 
 #: src/buffer.c:1117
 msgid "rmtlseek not stopped at a record boundary"
-msgstr "rmtlseek nav apstādināts pie ieraksta robežas"
+msgstr "rmtlseek neapstājās pie ieraksta robežas"
 
 #: src/buffer.c:1178
 #, c-format
@@ -676,7 +677,7 @@ msgstr "%s: satur nederīgu sējuma numuru"
 #: src/buffer.c:1225
 #, c-format
 msgid "Prepare volume #%jd for %s and hit return: "
-msgstr "Sagatavojiet sējumu #%jd priekš %s un nospiediet atgriešanas taustiņu: "
+msgstr "Sagatavojiet sējumu #%jd arhīvam %s un nospiediet Enter: "
 
 #: src/buffer.c:1231
 msgid "EOF where user reply was expected"
@@ -693,9 +694,10 @@ msgid ""
 " q             Abort tar\n"
 " y or newline  Continue operation\n"
 msgstr ""
-" n nosaukums    Norādiet jaunu faila nosaukumu nākamajam (un turpmākajiem) sējumiem\n"
+" n nosaukums   Norādīt jaunu faila nosaukumu nākamajam (un turpmākajiem)\n"
+"               sējumam(-iem)\n"
 " q             Pārtraukt tar\n"
-" y vai jauna rinda  Turpināt darbību\n"
+" y vai Enter   Turpināt darbību\n"
 
 #: src/buffer.c:1255
 #, c-format
@@ -705,15 +707,15 @@ msgstr " !             Palaist apakščaulu\n"
 #: src/buffer.c:1256
 #, c-format
 msgid " ?             Print this list\n"
-msgstr " ?             Drukāt šo sarakstu\n"
+msgstr " ?             Parādīt šo sarakstu\n"
 
 #: src/buffer.c:1263
 msgid "No new volume; exiting.\n"
-msgstr "Nav jauna sējuma; iziešana.\n"
+msgstr "Nav jauna sējuma; iziet.\n"
 
 #: src/buffer.c:1297
 msgid "File name not specified. Try again.\n"
-msgstr "Fails nav norādīts. Mēģiniet vēlreiz.\n"
+msgstr "Faila nosaukums nav norādīts. Mēģiniet vēlreiz.\n"
 
 #: src/buffer.c:1309
 #, c-format
@@ -742,7 +744,7 @@ msgstr "%s, iespējams, turpinās šajā sējumā: galvenē ir saīsināts nosau
 #: src/buffer.c:1565
 #, c-format
 msgid "%s is the wrong size (%jd != %jd + %jd)"
-msgstr "%s ir nepareizs izmērs (%jd != %jd + %jd)"
+msgstr "%s izmērs ir nepareizs (%jd != %jd + %jd)"
 
 #: src/buffer.c:1576
 #, c-format
@@ -752,7 +754,7 @@ msgstr "Šis sējums ir nepareizā secībā (%jd - %jd != %jd)"
 #: src/buffer.c:1641 src/buffer.c:1659
 #, c-format
 msgid "Archive not labeled to match %s"
-msgstr "Arhīvs nav marķēts, lai atbilstu %s"
+msgstr "Arhīvam nav etiķetes, kas atbilstu %s"
 
 #: src/buffer.c:1663
 #, c-format
@@ -766,15 +768,15 @@ msgstr "%s: faila nosaukums ir pārāk garš, lai to saglabātu GNU daudzsējumu
 
 #: src/buffer.c:1920
 msgid "write did not end on a block boundary"
-msgstr "rakstīšana nebeidzās uz bloka robežas"
+msgstr "rakstīšana nebeidzās pie bloka robežas"
 
 #: src/compare.c:101
 #, c-format
 msgid "Could read only %td of %td byte"
 msgid_plural "Could read only %td of %td bytes"
-msgstr[0] "Varēja nolasīt tikai %td no %td baitiem"
-msgstr[1] "Varēja nolasīt tikai %td no %td baitiem"
-msgstr[2] "Varēja nolasīt tikai %td no %td baitiem"
+msgstr[0] "Izdevās nolasīt tikai %td no %td baitiem"
+msgstr[1] "Izdevās nolasīt tikai %td no %td baita"
+msgstr[2] "Izdevās nolasīt tikai %td no %td baitiem"
 
 #: src/compare.c:111 src/compare.c:391
 msgid "Contents differ"
@@ -783,7 +785,7 @@ msgstr "Saturs atšķiras"
 #: src/compare.c:133 src/extract.c:1346 src/incremen.c:1519 src/list.c:483
 #: src/list.c:1400 src/xheader.c:794
 msgid "Unexpected EOF in archive"
-msgstr "Negaidīta arhīva beigas"
+msgstr "Negaidītas arhīva beigas"
 
 #: src/compare.c:175 src/compare.c:191 src/compare.c:305 src/compare.c:412
 msgid "File type differs"
@@ -812,7 +814,7 @@ msgstr "Izmērs atšķiras"
 #: src/compare.c:257
 #, c-format
 msgid "Not linked to %s"
-msgstr "Nav saistīts ar %s"
+msgstr "Nav saites uz %s"
 
 #: src/compare.c:282
 msgid "Symlink differs"
@@ -825,7 +827,7 @@ msgstr "Ierīces numurs atšķiras"
 #: src/compare.c:463
 #, c-format
 msgid "Verify "
-msgstr "Pārbaudīt "
+msgstr "Pārbauda "
 
 #: src/compare.c:470
 #, c-format
@@ -834,7 +836,7 @@ msgstr "%s: Nezināms faila tips '%c', salīdzināts kā parasts fails"
 
 #: src/compare.c:523
 msgid "Archive contains file names with leading prefixes removed."
-msgstr "Arhīvā ir failu nosaukumi ar noņemtiem sākuma prefiksiem."
+msgstr "Arhīvā ir failu nosaukumi ar noņemtiem sākuma priedēkļiem."
 
 #: src/compare.c:528
 msgid "Archive contains transformed file names."
@@ -865,7 +867,7 @@ msgstr "%s: satur kešatmiņas direktorijas tagu %s; %s"
 #: src/create.c:245
 #, c-format
 msgid "value %s%ju out of %s range %jd..%ju; substituting %s%ju"
-msgstr "vērtība %s%ju ārpus %s diapazona %jd..%ju; aizvietojot ar %s%ju"
+msgstr "vērtība %s%ju ārpus %s diapazona %jd..%ju; aizvieto ar %s%ju"
 
 #: src/create.c:251
 #, c-format
@@ -922,7 +924,7 @@ msgstr "%s: arhīvs nevar saturēt sevi; nav saglabāts"
 
 #: src/create.c:1711 src/incremen.c:654
 msgid "directory not dumped"
-msgstr "katalogs netika iekļauts arhīvā"
+msgstr "direktorija nav saglabāta"
 
 #: src/create.c:1805
 #, c-format
@@ -932,20 +934,20 @@ msgstr "%s: fails mainījās, kamēr to lasījām"
 #: src/create.c:1880
 #, c-format
 msgid "%s: socket ignored"
-msgstr "%s: ligzdas fails ignorēts"
+msgstr "%s: ligzda ignorēta"
 
 #: src/create.c:1885
 #, c-format
 msgid "%s: door ignored"
-msgstr "%s: durvju fails ignorēts"
+msgstr "%s: durvis ignorētas"
 
 #: src/delete.c:212 src/list.c:287 src/update.c:191
 msgid "Skipping to next header"
-msgstr "Pārlecu uz nākamo galveni"
+msgstr "Pāriet uz nākamo galveni"
 
 #: src/delete.c:351
 msgid "Deleting non-header from archive"
-msgstr "Dzēš ne-galveni no arhīva"
+msgstr "Dzēš no arhīva datus, kas nav galvene"
 
 #: src/extract.c:372
 #, c-format
@@ -970,20 +972,20 @@ msgstr "%s: izlaiž esošo failu"
 #: src/extract.c:1028
 #, c-format
 msgid "%s: Directory renamed before its status could be extracted"
-msgstr "%s: Direktorija pārdēvēta, pirms tās statusu varēja iegūt"
+msgstr "%s: Direktorija pārdēvēta, pirms varēja izgūt tās statusu"
 
 #: src/extract.c:1229
 msgid "Extracting contiguous files as regular files"
-msgstr "Atspiest blakus esošos failus kā parastos failus"
+msgstr "Izgūst nepārtrauktos (contiguous) failus kā parastos failus"
 
 #: src/extract.c:1615
 msgid "Attempting extraction of symbolic links as hard links"
-msgstr "Mēģina atspiest simboliskās saites kā cietās saites"
+msgstr "Mēģina izgūt simboliskās saites kā cietās saites"
 
 #: src/extract.c:1755
 #, c-format
 msgid "%s: Cannot extract -- file is continued from another volume"
-msgstr "%s: Neizdevās atspiest -- fails turpinās no cita sējuma"
+msgstr "%s: Neizdevās izgūt -- fails turpinās no cita sējuma"
 
 #: src/extract.c:1761 src/list.c:1150
 msgid "Unexpected long name header"
@@ -992,7 +994,7 @@ msgstr "Negaidīta garā nosaukuma galvene"
 #: src/extract.c:1766
 #, c-format
 msgid "%s: Unknown file type '%c', extracted as normal file"
-msgstr "%s: Nezināms faila tips '%c', atspiest kā parasts fails"
+msgstr "%s: Nezināms faila tips '%c', izgūts kā parasts fails"
 
 #: src/extract.c:1795
 #, c-format
@@ -1002,7 +1004,7 @@ msgstr "Pašreizējais %s ir jaunāks vai tāda paša vecuma"
 #: src/extract.c:1822
 #, c-format
 msgid "%s: Member name contains '..'"
-msgstr "%s: Dalībnieka nosaukums satur '..'"
+msgstr "%s: Elementa nosaukums satur '..'"
 
 #: src/extract.c:1853
 #, c-format
@@ -1027,7 +1029,7 @@ msgstr "%s: Direktorija ir jauna"
 #: src/incremen.c:618
 #, c-format
 msgid "%s: directory is on a different filesystem; not dumped"
-msgstr "%s: direktorija atrodas uz citas failu sistēmas; nav arhivēta"
+msgstr "%s: direktorija atrodas citā failu sistēmā; nav saglabāta"
 
 #: src/incremen.c:638
 #, c-format
@@ -1052,7 +1054,7 @@ msgstr "Nederīgs ierīces numurs"
 
 #: src/incremen.c:1114
 msgid "Invalid inode number"
-msgstr "Nederīgs inoda numurs"
+msgstr "Nederīgs i-mezgla numurs"
 
 #: src/incremen.c:1165
 #, c-format
@@ -1061,7 +1063,7 @@ msgstr "%s: baits %jd: %s %.*s... pārāk garš"
 
 #: src/incremen.c:1181 src/incremen.c:1228 src/incremen.c:1289
 msgid "Unexpected EOF in snapshot file"
-msgstr "Negaidīts faila beigu indikators (EOF) momentuzņēmuma failā"
+msgstr "Negaidīts EOF momentuzņēmuma failā"
 
 #: src/incremen.c:1188
 #, c-format
@@ -1103,32 +1105,32 @@ msgstr "Neatbalstīta inkrementālā formāta versija: %s"
 #: src/incremen.c:1558
 #, c-format
 msgid "Malformed dumpdir: expected '%c' but found %#3o"
-msgstr "Nekorekts dumpdir: gaidīts '%c', bet atrasts %#3o"
+msgstr "Kļūdains dumpdir: gaidīts '%c', bet atrasts %#3o"
 
 #: src/incremen.c:1567
 msgid "Malformed dumpdir: 'X' duplicated"
-msgstr "Nekorekts dumpdir: 'X' dublēts"
+msgstr "Kļūdains dumpdir: 'X' dublēts"
 
 #: src/incremen.c:1579
 msgid "Malformed dumpdir: empty name in 'R'"
-msgstr "Nekorekts dumpdir: tukšs nosaukums 'R'"
+msgstr "Kļūdains dumpdir: tukšs nosaukums 'R'"
 
 #: src/incremen.c:1591
 msgid "Malformed dumpdir: 'T' not preceded by 'R'"
-msgstr "Nekorekts dumpdir: 'T' nav pirms 'R'"
+msgstr "Kļūdains dumpdir: pirms 'T' nav 'R'"
 
 #: src/incremen.c:1596
 msgid "Malformed dumpdir: empty name in 'T'"
-msgstr "Nekorekts dumpdir: tukšs nosaukums 'T'"
+msgstr "Kļūdains dumpdir: tukšs nosaukums 'T'"
 
 #: src/incremen.c:1615
 #, c-format
 msgid "Malformed dumpdir: expected '%c' but found end of data"
-msgstr "Nekorekts dumpdir: gaidīja '%c', bet atrasti dati beidzās"
+msgstr "Kļūdains dumpdir: gaidīts '%c', bet sasniegtas datu beigas"
 
 #: src/incremen.c:1620
 msgid "Malformed dumpdir: 'X' never used"
-msgstr "Nekorekts dumpdir: 'X' nekad netika izmantots"
+msgstr "Kļūdains dumpdir: 'X' nekad netika izmantots"
 
 #: src/incremen.c:1663
 #, c-format
@@ -1138,7 +1140,7 @@ msgstr "Neizdevās izveidot pagaidu direktoriju, izmantojot veidni %s"
 #: src/incremen.c:1724
 #, c-format
 msgid "%s: Not purging directory: unable to stat"
-msgstr "%s: Neiztīra katalogu: nevar iegūt faila informāciju (stat)"
+msgstr "%s: Direktorija netiek iztīrīta: neizdevās izpildīt stat"
 
 #: src/incremen.c:1736
 #, c-format
@@ -1163,7 +1165,7 @@ msgstr "%s: Izlaiž"
 #: src/list.c:240
 #, c-format
 msgid "block %jd: ** Block of NULs **\n"
-msgstr "bloks %jd: ** NUL bloki **\n"
+msgstr "bloks %jd: ** NUL bloks **\n"
 
 #: src/list.c:261
 #, c-format
@@ -1192,7 +1194,7 @@ msgstr "Galvenē tukšas vietas, kur paredzēta skaitliskā %s vērtība"
 #: src/list.c:814
 #, c-format
 msgid "Archive octal value %.*s is out of %s range; assuming two's complement"
-msgstr "Arhīva oktālā vērtība %.*s ir ārpus %s diapazona; pieņemot divu komplementu"
+msgstr "Arhīva oktālā vērtība %.*s ir ārpus %s diapazona; pieņem divnieka papildkodu"
 
 #. TRANSLATORS: Second %s is a type name
 #. (gid_t, uid_t, etc.).
@@ -1208,7 +1210,7 @@ msgstr "Arhīvā ir novecojušas bāzes-64 galvenes"
 #: src/list.c:864
 #, c-format
 msgid "Archive signed base-64 string %s is out of %s range"
-msgstr "Arhīva parakstītā bāzes-64 virkne %s ir ārpus %s diapazona"
+msgstr "Arhīva zīmes bāzes-64 virkne %s ir ārpus %s diapazona"
 
 #: src/list.c:896
 #, c-format
@@ -1279,7 +1281,7 @@ msgstr "Pārdēvē %s atpakaļ uz %s\n"
 #: src/misc.c:1201
 #, c-format
 msgid "%s: File removed before we read it"
-msgstr "%s: Fails dzēsts, pirms mēs to nolasījām"
+msgstr "%s: Fails dzēsts, pirms to nolasījām"
 
 #: src/misc.c:1215
 msgid "child process"
@@ -1303,11 +1305,11 @@ msgstr "DIREKTORIJA"
 
 #: src/names.c:82
 msgid "change to directory DIR"
-msgstr "pārslēgties uz direktoriju DIREKTORIJA"
+msgstr "pāriet uz direktoriju DIREKTORIJA"
 
 #: src/names.c:84
 msgid "get names to extract or create from FILE"
-msgstr "iegūt nosaukumus, ko atspiest vai izveidot no FAILA"
+msgstr "iegūt no FAILA nosaukumus izgūšanai vai izveidei"
 
 #: src/names.c:86
 msgid "-T reads null-terminated names; implies --verbatim-files-from"
@@ -1319,15 +1321,15 @@ msgstr "atspējot iepriekšējās --null opcijas efektu"
 
 #: src/names.c:91
 msgid "unquote input file or member names (default)"
-msgstr "noņemt pēdiņas no ievades faila vai dalībnieku nosaukumiem (noklusējums)"
+msgstr "noņemt pēdiņas no ievades failu vai elementu nosaukumiem (noklusējums)"
 
 #: src/names.c:93
 msgid "do not unquote input file or member names"
-msgstr "nenoņemt pēdiņas no ievades faila vai dalībnieku nosaukumiem"
+msgstr "nenoņemt pēdiņas no ievades failu vai elementu nosaukumiem"
 
 #: src/names.c:95
 msgid "-T reads file names verbatim (no escape or option handling)"
-msgstr "-T nolasa failu nosaukumus burtiski (bez atkāpju vai opciju apstrādes)"
+msgstr "-T nolasa failu nosaukumus burtiski (bez atsoļa sekvenču vai opciju apstrādes)"
 
 #: src/names.c:97
 msgid "-T treats file names starting with dash as options (default)"
@@ -1347,7 +1349,7 @@ msgstr "izslēgt šablonus, kas uzskaitīti FAILĀ"
 
 #: src/names.c:104
 msgid "exclude contents of directories containing CACHEDIR.TAG, except for the tag file itself"
-msgstr "izslēgt katalogu saturu, kas satur CACHEDIR.TAG, izņemot pašu birkas failu"
+msgstr "izslēgt to direktoriju saturu, kas satur CACHEDIR.TAG, izņemot pašu taga failu"
 
 #: src/names.c:107
 msgid "exclude everything under directories containing CACHEDIR.TAG"
@@ -1359,7 +1361,7 @@ msgstr "izslēgt direktorijas, kas satur CACHEDIR.TAG"
 
 #: src/names.c:112
 msgid "exclude contents of directories containing FILE, except for FILE itself"
-msgstr "izslēgt direktoriju saturu, kas satur FAILU, izņemot pašu FAILU"
+msgstr "izslēgt to direktoriju saturu, kas satur FAILU, izņemot pašu FAILU"
 
 #: src/names.c:115
 msgid "read exclude patterns for each directory from FILE, if it exists"
@@ -1387,7 +1389,7 @@ msgstr "nolasīt izslēgšanas šablonus no VCS ignorēšanas failiem"
 
 #: src/names.c:129
 msgid "exclude backup and lock files"
-msgstr "izslēgt rezerves kopiju un bloķēšanas failus"
+msgstr "izslēgt dublējumu un bloķēšanas failus"
 
 #: src/names.c:131
 msgid "recurse into directories (default)"
@@ -1395,7 +1397,7 @@ msgstr "rekursīvi iet direktorijās (noklusējums)"
 
 #: src/names.c:133
 msgid "avoid descending automatically in directories"
-msgstr "izvairīties automātiski iet direktorijās"
+msgstr "neiet automātiski direktorijās"
 
 #: src/names.c:136
 msgid "File name matching options (affect both exclude and include patterns):"
@@ -1415,7 +1417,7 @@ msgstr "ignorēt reģistru"
 
 #: src/names.c:145
 msgid "case sensitive matching (default)"
-msgstr "reģistrjutīga atbilstība (pēc noklusējuma)"
+msgstr "reģistrjutīga atbilstība (noklusējums)"
 
 #: src/names.c:147
 msgid "use wildcards (default for exclusion)"
@@ -1486,7 +1488,7 @@ msgstr "Failu nosaukumos izmantotas rakstzīmes atbilstības meklēšanai"
 
 #: src/names.c:1443
 msgid "Use --wildcards to enable pattern matching, or --no-wildcards to suppress this warning"
-msgstr "Izmantojiet --wildcards, lai ieslēgtu atbilstības meklēšanu, vai --no-wildcards, lai apspiestu šo brīdinājumu"
+msgstr "Izmantojiet --wildcards, lai iespējotu atbilstības meklēšanu, vai --no-wildcards, lai apspiestu šo brīdinājumu"
 
 #: src/names.c:1462 src/names.c:1478
 #, c-format
@@ -1544,7 +1546,7 @@ msgstr ""
 "Piemēri:\n"
 "  tar -cf archive.tar foo bar  # Izveido archive.tar no failiem foo un bar.\n"
 "  tar -tvf archive.tar         # Detalizēti uzskaita visus failus archive.tar.\n"
-"  tar -xf archive.tar          # Izvelk visus failus no archive.tar.\n"
+"  tar -xf archive.tar          # Izgūst visus failus no archive.tar.\n"
 
 #: src/tar.c:448
 msgid ""
@@ -1556,7 +1558,8 @@ msgid ""
 "  nil, existing   numbered if numbered backups exist, simple otherwise\n"
 "  never, simple   always make simple backups\n"
 msgstr ""
-"Dublējuma sufikss ir '~', ja vien nav iestatīts ar --suffix vai SIMPLE_BACKUP_SUFFIX.\n"
+"Dublējuma piedēklis ir '~', ja vien nav iestatīts ar --suffix vai\n"
+"SIMPLE_BACKUP_SUFFIX.\n"
 "Versiju kontroli var iestatīt ar --backup vai VERSION_CONTROL, vērtības ir:\n"
 "\n"
 "  none, off       nekad neveidot dublējumus\n"
@@ -1574,7 +1577,7 @@ msgstr "uzskaitīt arhīva saturu"
 
 #: src/tar.c:536
 msgid "extract files from an archive"
-msgstr "atspiest failus no arhīva"
+msgstr "izgūt failus no arhīva"
 
 #: src/tar.c:539
 msgid "create a new archive"
@@ -1590,7 +1593,7 @@ msgstr "pievienot failus arhīva beigās"
 
 #: src/tar.c:546
 msgid "only append files newer than copy in archive"
-msgstr "pievienot tikai jaunākus failus nekā arhīvā esošie"
+msgstr "pievienot tikai failus, kas ir jaunāki par arhīvā esošo kopiju"
 
 #: src/tar.c:548
 msgid "append tar files to an archive"
@@ -1598,7 +1601,7 @@ msgstr "pievienot tar failus arhīvam"
 
 #: src/tar.c:551
 msgid "delete from the archive (not on mag tapes!)"
-msgstr "dzēst no arhīva (nevis uz magnētiskajām lentēm!)"
+msgstr "dzēst no arhīva (ne magnētiskajās lentēs!)"
 
 #: src/tar.c:553
 msgid "test the archive volume label and exit"
@@ -1618,7 +1621,7 @@ msgstr "TIPS"
 
 #: src/tar.c:561
 msgid "technique to detect holes"
-msgstr "tehnika caurumu noteikšanai"
+msgstr "caurumu noteikšanas tehnika"
 
 #: src/tar.c:562
 msgid "MAJOR[.MINOR]"
@@ -1626,7 +1629,7 @@ msgstr "GALVENĀ[.APAKŠVERSIJA]"
 
 #: src/tar.c:563
 msgid "set version of the sparse format to use (implies --sparse)"
-msgstr "iestatīt retinātā formāta versiju (ietver --sparse)"
+msgstr "iestatīt izmantojamo retinātā formāta versiju (nozīmē --sparse)"
 
 #: src/tar.c:566
 msgid "handle old GNU-format incremental backup"
@@ -1642,27 +1645,27 @@ msgstr "dublēšanas līmenis izveidotajam saraksta inkrementālajam arhīvam"
 
 #: src/tar.c:572
 msgid "do not exit with nonzero on unreadable files"
-msgstr "neiziet ar statusu, kas nav nulle, ja ir neizlasāmi faili"
+msgstr "nebeigt darbu ar nenulles izpildes statusu nelasāmu failu dēļ"
 
 #: src/tar.c:574
 msgid "process only the NUMBERth occurrence of each file in the archive; this option is valid only in conjunction with one of the subcommands --delete, --diff, --extract or --list and when a list of files is given either on the command line or via the -T option; NUMBER defaults to 1"
-msgstr "apstrādāt tikai katra faila NUMURA gadījumu arhīvā; šī opcija ir derīga tikai kombinācijā ar kādu no apakškomandām --delete, --diff, --extract vai --list un ja failu saraksts ir norādīts vai nu komandrindā, vai izmantojot -T opciju; NUMURS noklusējuma vērtība ir 1"
+msgstr "apstrādāt tikai katra faila SKAITS. gadījumu arhīvā; šī opcija ir derīga tikai kopā ar kādu no apakškomandām --delete, --diff, --extract vai --list un ja failu saraksts ir norādīts komandrindā vai ar opciju -T; SKAITS pēc noklusējuma ir 1"
 
 #: src/tar.c:580
 msgid "archive is seekable"
-msgstr "arhīvs ir meklējams"
+msgstr "arhīvā var pārvietoties"
 
 #: src/tar.c:582
 msgid "archive is not seekable"
-msgstr "arhīvs nav meklējams"
+msgstr "arhīvā nevar pārvietoties"
 
 #: src/tar.c:584
 msgid "do not check device numbers when creating incremental archives"
-msgstr "neapstrādāt ierīču numurus, veidojot inkrementālos arhīvus"
+msgstr "nepārbaudīt ierīču numurus, veidojot inkrementālos arhīvus"
 
 #: src/tar.c:587
 msgid "check device numbers when creating incremental archives (default)"
-msgstr "apstrādāt ierīču numurus, veidojot inkrementālos arhīvus (noklusējums)"
+msgstr "pārbaudīt ierīču numurus, veidojot inkrementālos arhīvus (noklusējums)"
 
 #: src/tar.c:591
 msgid "Overwrite control:"
@@ -1678,11 +1681,11 @@ msgstr "dzēst failus pēc to pievienošanas arhīvam"
 
 #: src/tar.c:598
 msgid "don't replace existing files when extracting, treat them as errors"
-msgstr "neaizstāt esošos failus, veicot atspiešanu; uzskatīt tos par kļūdām"
+msgstr "neaizstāt esošos failus, izgūstot; uzskatīt tos par kļūdām"
 
 #: src/tar.c:601
 msgid "don't replace existing files when extracting, silently skip over them"
-msgstr "neaizstāt esošos failus, veicot atspiešanu; klusi tos izlaist"
+msgstr "neaizstāt esošos failus, izgūstot; klusi tos izlaist"
 
 #: src/tar.c:604
 msgid "don't replace existing files that are newer than their archive copies"
@@ -1690,15 +1693,15 @@ msgstr "neaizstāt esošos failus, kas ir jaunāki par to arhīva kopijām"
 
 #: src/tar.c:606
 msgid "overwrite existing files when extracting"
-msgstr "pārrakstīt esošos failus, veicot atspiešanu"
+msgstr "pārrakstīt esošos failus, izgūstot"
 
 #: src/tar.c:608
 msgid "remove each file prior to extracting over it"
-msgstr "dzēst katru failu pirms tā atspiešanas"
+msgstr "dzēst katru failu pirms tā izgūšanas"
 
 #: src/tar.c:610
 msgid "empty hierarchies prior to extracting directory"
-msgstr "iztukšot hierarhijas pirms direktorijas atpakošanas"
+msgstr "iztukšot hierarhijas pirms direktorijas izgūšanas"
 
 #: src/tar.c:612
 msgid "preserve metadata of existing directories"
@@ -1706,15 +1709,15 @@ msgstr "saglabāt esošo direktoriju metadatus"
 
 #: src/tar.c:614
 msgid "overwrite metadata of existing directories when extracting (default)"
-msgstr "pārrakstīt esošo direktoriju metadatus, veicot atspiešanu (noklusējums)"
+msgstr "pārrakstīt esošo direktoriju metadatus, izgūstot (noklusējums)"
 
 #: src/tar.c:617
 msgid "preserve existing symlinks to directories when extracting"
-msgstr "saglabāt esošās simboliskās saites uz direktorijām, veicot atspiešanu"
+msgstr "saglabāt esošās simboliskās saites uz direktorijām, izgūstot"
 
 #: src/tar.c:620
 msgid "create a subdirectory to avoid having loose files extracted"
-msgstr "izveidot apakšdirektoriju, lai izvairītos no izkliedētu failu atspiešanu"
+msgstr "izveidot apakšdirektoriju, lai izvairītos no izkliedētu failu izgūšanas"
 
 #: src/tar.c:624
 msgid "Select output stream:"
@@ -1722,7 +1725,7 @@ msgstr "Atlasīt izvades straumi:"
 
 #: src/tar.c:627
 msgid "extract files to standard output"
-msgstr "atspiest failus uz standarta izvadi"
+msgstr "izgūt failus uz standarta izvadi"
 
 #: src/tar.c:628 src/tar.c:650 src/tar.c:737 src/tar.c:740 tests/genfile.c:197
 msgid "COMMAND"
@@ -1730,7 +1733,7 @@ msgstr "KOMANDA"
 
 #: src/tar.c:629
 msgid "pipe extracted files to another program"
-msgstr "novirzīt atspiesto failu plūsmu uz citu programmu"
+msgstr "nosūtīt izgūtos failus caur cauruļvadu citai programmai"
 
 #: src/tar.c:631
 msgid "ignore exit codes of children"
@@ -1746,11 +1749,11 @@ msgstr "Failu atribūtu apstrāde:"
 
 #: src/tar.c:639
 msgid "force NAME as owner for added files"
-msgstr "uzspiest VĀRDU kā īpašnieku pievienotajiem failiem"
+msgstr "uzspiest NOSAUKUMU kā īpašnieku pievienotajiem failiem"
 
 #: src/tar.c:641
 msgid "force NAME as group for added files"
-msgstr "uzspiest VĀRDU kā grupu pievienotajiem failiem"
+msgstr "uzspiest NOSAUKUMU kā grupu pievienotajiem failiem"
 
 #: src/tar.c:643
 msgid "use FILE to map file owner UIDs and names"
@@ -1798,19 +1801,19 @@ msgstr "METODE"
 
 #: src/tar.c:659
 msgid "preserve access times on dumped files, either by restoring the times after reading (METHOD='replace'; default) or by not setting the times in the first place (METHOD='system')"
-msgstr "saglabāt piekļuves laikus izvadītajiem failiem, vai nu atjaunojot laikus pēc nolasīšanas (METODE='replace'; noklusējums), vai arī neiestatot laikus vispār (METODE='system')"
+msgstr "saglabāt arhivēto failu piekļuves laikus, vai nu atjaunojot laikus pēc nolasīšanas (METODE='replace'; noklusējums), vai arī vispār neiestatot laikus (METODE='system')"
 
 #: src/tar.c:663
 msgid "don't extract file modified time"
-msgstr "neatpakot faila modifikācijas laiku"
+msgstr "neizgūt faila modifikācijas laiku"
 
 #: src/tar.c:665
 msgid "try extracting files with the same ownership as exists in the archive (default for superuser)"
-msgstr "mēģināt atpakot failus ar tādu pašu piederību, kāda ir arhīvā (superlietotājam pēc noklusējuma)"
+msgstr "mēģināt izgūt failus ar tādu pašu piederību, kāda ir arhīvā (superlietotājam pēc noklusējuma)"
 
 #: src/tar.c:667
 msgid "extract files as yourself (default for ordinary users)"
-msgstr "atpakot failus kā sevi (noklusējums parastajiem lietotājiem)"
+msgstr "izgūt failus kā sevi (parastajiem lietotājiem pēc noklusējuma)"
 
 #: src/tar.c:669
 msgid "always use numbers for user/group names"
@@ -1818,19 +1821,19 @@ msgstr "vienmēr izmantot skaitļus lietotāju/grupu nosaukumiem"
 
 #: src/tar.c:671
 msgid "extract information about file permissions (default for superuser)"
-msgstr "atpakot informāciju par failu atļaujām (superlietotājam pēc noklusējuma)"
+msgstr "izgūt informāciju par failu atļaujām (superlietotājam pēc noklusējuma)"
 
 #: src/tar.c:675
 msgid "apply the user's umask when extracting permissions from the archive (default for ordinary users)"
-msgstr "piemērot lietotāja umask, atpakojot atļaujas no arhīva (parastajiem lietotājiem pēc noklusējuma)"
+msgstr "piemērot lietotāja umask, izgūstot atļaujas no arhīva (parastajiem lietotājiem pēc noklusējuma)"
 
 #: src/tar.c:677
 msgid "member arguments are listed in the same order as the files in the archive"
-msgstr "dalībnieku argumenti ir uzskaitīti tādā pašā secībā kā faili arhīvā"
+msgstr "elementu argumenti ir uzskaitīti tādā pašā secībā kā faili arhīvā"
 
 #: src/tar.c:681
 msgid "delay setting modification times and permissions of extracted directories until the end of extraction"
-msgstr "atlikt atpakoto katalogu modifikācijas laiku un atļauju iestatīšanu līdz atpakošanas beigām"
+msgstr "atlikt izgūto direktoriju modifikācijas laiku un atļauju iestatīšanu līdz izgūšanas beigām"
 
 #: src/tar.c:684
 msgid "cancel the effect of --delay-directory-restore option"
@@ -1842,11 +1845,11 @@ msgstr "SECĪBA"
 
 #: src/tar.c:687
 msgid "directory sorting order: none (default), name or inode"
-msgstr "direktoriju kārtošanas secība: nav (noklusējums), nosaukums vai inods"
+msgstr "direktoriju kārtošanas secība: none (noklusējums), name vai inode"
 
 #: src/tar.c:689
 msgid "directory sorting order: none (default) or name"
-msgstr "direktoriju kārtošanas secība: nav (noklusējums) vai nosaukums"
+msgstr "direktoriju kārtošanas secība: none (noklusējums) vai name"
 
 #: src/tar.c:694
 msgid "Handling of extended file attributes:"
@@ -1870,7 +1873,7 @@ msgstr "norādīt iekļaušanas šablonu xattr atslēgām"
 
 #: src/tar.c:703
 msgid "specify the exclude pattern for xattr keys"
-msgstr "norādīt izslēgšanas šabolonu xattr atslēgām"
+msgstr "norādīt izslēgšanas šablonu xattr atslēgām"
 
 #: src/tar.c:705
 msgid "Enable the SELinux context support"
@@ -1918,15 +1921,15 @@ msgstr "izmantot attālo KOMANDU rsh vietā"
 
 #: src/tar.c:745
 msgid "create/list/extract multi-volume archive"
-msgstr "izveidot/uzskaitīt/atspiest daudzsējumu arhīvu"
+msgstr "izveidot/uzskaitīt/izgūt daudzsējumu arhīvu"
 
 #: src/tar.c:748
 msgid "change tape after writing NUMBER x 1024 bytes"
-msgstr "nomainīt lenti pēc NUMURS x 1024 baitu ierakstīšanas"
+msgstr "nomainīt lenti pēc SKAITS x 1024 baitu ierakstīšanas"
 
 #: src/tar.c:751
 msgid "run script at end of each tape (implies -M)"
-msgstr "palaist skriptu katras lentes beigās (ietver -M)"
+msgstr "palaist skriptu katras lentes beigās (nozīmē -M)"
 
 #: src/tar.c:755
 msgid "use/update the volume number in FILE"
@@ -1934,7 +1937,7 @@ msgstr "izmantot/atjaunināt sējuma numuru FAILĀ"
 
 #: src/tar.c:759
 msgid "Device blocking:"
-msgstr "Ierīces bloķēšana:"
+msgstr "Ierīces bloku veidošana:"
 
 #: src/tar.c:761
 msgid "BLOCKS"
@@ -1946,7 +1949,7 @@ msgstr "BLOKI x 512 baiti uz ierakstu"
 
 #: src/tar.c:764
 msgid "NUMBER of bytes per record, multiple of 512"
-msgstr "NUMURS baitu ierakstā, 512 daudzkārtnis"
+msgstr "SKAITS baitu ierakstā, 512 daudzkārtnis"
 
 #: src/tar.c:766
 msgid "ignore zeroed blocks in archive (means EOF)"
@@ -1954,7 +1957,7 @@ msgstr "ignorēt nulles blokus arhīvā (nozīmē EOF)"
 
 #: src/tar.c:768
 msgid "reblock as we read (for 4.2BSD pipes)"
-msgstr "pārbloķēt, lasot (4.2BSD caurulēm)"
+msgstr "pārbloķēt lasīšanas laikā (4.2BSD cauruļvadiem)"
 
 #: src/tar.c:771
 msgid "Archive format selection:"
@@ -2014,7 +2017,7 @@ msgstr "TEKSTS"
 
 #: src/tar.c:798
 msgid "create archive with volume name TEXT; at list/extract time, use TEXT as a globbing pattern for volume name"
-msgstr "izveidot arhīvu ar sējuma nosaukumu TEKSTS; saraksta veidošanas/atpakošanas laikā izmantot TEKSTUS kā globēšanas šablonu sējuma nosaukumam"
+msgstr "izveidot arhīvu ar sējuma nosaukumu TEKSTS; uzskaitot/izgūstot izmantot TEKSTU kā globēšanas šablonu sējuma nosaukumam"
 
 #: src/tar.c:802
 msgid "Compression options:"
@@ -2022,11 +2025,11 @@ msgstr "Saspiešanas opcijas:"
 
 #: src/tar.c:804
 msgid "use archive suffix to determine the compression program"
-msgstr "izmantot arhīva sufiksu, lai noteiktu saspiešanas programmu"
+msgstr "izmantot arhīva piedēkli, lai noteiktu saspiešanas programmu"
 
 #: src/tar.c:807
 msgid "do not use archive suffix to determine the compression program"
-msgstr "neizmantot arhīva sufiksu, lai noteiktu saspiešanas programmu"
+msgstr "neizmantot arhīva piedēkli, lai noteiktu saspiešanas programmu"
 
 #: src/tar.c:809
 msgid "PROG"
@@ -2050,19 +2053,19 @@ msgstr "nenoņemt sākuma '/' no failu nosaukumiem"
 
 #: src/tar.c:831
 msgid "follow symlinks; archive and dump the files they point to"
-msgstr "sekot simboliskajām saitēm; arhivēt un dublēt failus, uz kuriem tās norāda"
+msgstr "sekot simboliskajām saitēm; arhivēt un izmest failus, uz kuriem tās norāda"
 
 #: src/tar.c:834
 msgid "follow hard links; archive and dump the files they refer to"
-msgstr "sekot cietajām saitēm; arhivēt un dublēt failus, uz kuriem tās norāda"
+msgstr "sekot cietajām saitēm; arhivēt un izmest failus, uz kuriem tās norāda"
 
 #: src/tar.c:836
 msgid "MEMBER-NAME"
-msgstr "DALĪBNIEKA-NOSAUKUMS"
+msgstr "ELEMENTA-NOSAUKUMS"
 
 #: src/tar.c:837
 msgid "begin at member MEMBER-NAME when reading the archive"
-msgstr "sākt ar dalībnieku DALĪBNIEKA-NOSAUKUMS, lasot arhīvu"
+msgstr "sākt ar elementu ELEMENTA-NOSAUKUMS, lasot arhīvu"
 
 #: src/tar.c:840
 msgid "only store files newer than DATE-OR-FILE"
@@ -2090,7 +2093,7 @@ msgstr "TEKSTS"
 
 #: src/tar.c:847
 msgid "backup before removal, override usual suffix ('~' unless overridden by environment variable SIMPLE_BACKUP_SUFFIX)"
-msgstr "veidot dublējumu pirms dzēšanas, ignorēt parasto piedēkli ('~', ja vien nav pārrakstīts ar vides mainīgo SIMPLE_BACKUP_SUFFIX)"
+msgstr "veidot dublējumu pirms dzēšanas, aizstāt parasto piedēkli ('~', ja vien tas nav aizstāts ar vides mainīgo SIMPLE_BACKUP_SUFFIX)"
 
 #: src/tar.c:851
 msgid "File name transformations:"
@@ -2098,7 +2101,7 @@ msgstr "Failu nosaukumu transformācijas:"
 
 #: src/tar.c:853
 msgid "strip NUMBER leading components from file names on extraction"
-msgstr "atpakošanas laikā no failu nosaukumiem noņemt NUMURS sākuma komponentes"
+msgstr "izgūšanas laikā no failu nosaukumiem noņemt SKAITS sākuma komponentes"
 
 #: src/tar.c:855
 msgid "EXPRESSION"
@@ -2110,11 +2113,11 @@ msgstr "izmantot sed aizstāšanas IZTEIKSMI, lai pārveidotu failu nosaukumus"
 
 #: src/tar.c:861
 msgid "Informative output:"
-msgstr "Informējoša izvade:"
+msgstr "Informatīvā izvade:"
 
 #: src/tar.c:864
 msgid "display progress messages every NUMBERth record (default 10)"
-msgstr "parādīt Progresa ziņojumus katrā NUMURS. ierakstā (noklusējums 10)"
+msgstr "parādīt progresa ziņojumus katrā SKAITS. ierakstā (noklusējums 10)"
 
 #: src/tar.c:866
 msgid "ACTION"
@@ -2126,7 +2129,7 @@ msgstr "izpildīt DARBĪBU katrā kontrolpunktā"
 
 #: src/tar.c:870
 msgid "print a message if not all links are dumped"
-msgstr "izvadīt ziņojumu, ja ne visas saites ir dublētas"
+msgstr "izvadīt ziņojumu, ja ne visas saites ir izmestas"
 
 #: src/tar.c:871
 msgid "SIGNAL"
@@ -2134,15 +2137,15 @@ msgstr "SIGNĀLS"
 
 #: src/tar.c:872
 msgid "print total bytes after processing the archive; with an argument - print total bytes when this SIGNAL is delivered; Allowed signals are: SIGHUP, SIGQUIT, SIGINT, SIGUSR1 and SIGUSR2; the names without SIG prefix are also accepted"
-msgstr "izdrukāt kopējo baitu skaitu pēc arhīva apstrādes; ar argumentu - izdrukāt kopējo baitu skaitu, kad tiek piegādāts šis SIGNĀLS; Atļautie signāli ir: SIGHUP, SIGQUIT, SIGINT, SIGUSR1 un SIGUSR2; pieņemami arī nosaukumi bez SIG prefiksa"
+msgstr "izvadīt kopējo baitu skaitu pēc arhīva apstrādes; ar argumentu — izvadīt kopējo baitu skaitu, kad tiek saņemts šis SIGNĀLS; atļautie signāli ir: SIGHUP, SIGQUIT, SIGINT, SIGUSR1 un SIGUSR2; tiek pieņemti arī nosaukumi bez SIG priedēkļa"
 
 #: src/tar.c:877
 msgid "print file modification times in UTC"
-msgstr "izdrukāt failu modificēšanas laikus UTC"
+msgstr "izvadīt failu modificēšanas laikus UTC"
 
 #: src/tar.c:879
 msgid "print file time to its full resolution"
-msgstr "izdrukāt faila laiku pilnā izšķirtspējā"
+msgstr "izvadīt faila laiku pilnā izšķirtspējā"
 
 #: src/tar.c:881
 msgid "send verbose output to FILE"
@@ -2162,7 +2165,7 @@ msgstr "rādīt derīgos diapazonus momentuzņēmuma faila laukiem"
 
 #: src/tar.c:889
 msgid "when listing or extracting, list each directory that does not match search criteria"
-msgstr "uzskaitot vai atarhivējot, uzskaitīt katru katalogu, kas neatbilst meklēšanas kritērijiem"
+msgstr "uzskaitot vai izgūstot, uzskaitīt katru direktoriju, kas neatbilst meklēšanas kritērijiem"
 
 #: src/tar.c:891
 msgid "show file or archive names after transformation"
@@ -2178,11 +2181,11 @@ msgstr "iestatīt nosaukumu pēdiņu stilu; derīgas STILS vērtības skatīt ze
 
 #: src/tar.c:897
 msgid "additionally quote characters from STRING"
-msgstr "papildus ielikt pēdiņās rakstzīmes no VIRKNES"
+msgstr "papildus likt pēdiņās rakstzīmes no TEKSTS"
 
 #: src/tar.c:899
 msgid "disable quoting for characters from STRING"
-msgstr "atslēgt pēdiņu likšanu rakstzīmēm no VIRKNES"
+msgstr "atspējot pēdiņu likšanu rakstzīmēm no TEKSTS"
 
 #: src/tar.c:901
 msgid "ask for confirmation for every action"
@@ -2206,7 +2209,7 @@ msgstr "Saderības opcijas:"
 
 #: src/tar.c:912
 msgid "when creating, same as --old-archive; when extracting, same as --no-same-owner"
-msgstr "izveidojot, tas pats, kas --old-archive; izvelkot, tas pats, kas --no-same-owner"
+msgstr "izveidojot — tas pats, kas --old-archive; izgūstot — tas pats, kas --no-same-owner"
 
 #: src/tar.c:915
 msgid "Other options:"
@@ -2214,7 +2217,7 @@ msgstr "Citas opcijas:"
 
 #: src/tar.c:918
 msgid "disable use of some potentially harmful options"
-msgstr "atslēgt dažu potenciāli kaitīgu opciju lietošanu"
+msgstr "atspējot dažu potenciāli kaitīgu opciju lietošanu"
 
 #. TRANSLATORS: Both %s in this statement are replaced with
 #. option names.
@@ -2274,7 +2277,7 @@ msgstr "Nederīgs īpašnieka vai grupas ID"
 
 #: src/tar.c:1464
 msgid "Invalid blocking factor"
-msgstr "Nederīgs bloķēšanas faktors"
+msgstr "Nederīgs bloku faktors"
 
 #: src/tar.c:1524
 #, c-format
@@ -2428,7 +2431,7 @@ msgstr "--xattrs var izmantot tikai POSIX arhīvos"
 
 #: src/tar.c:2686
 msgid "Cannot deduce top-level directory name; please set it explicitly with --one-top-level=DIR"
-msgstr "Neizdevās noteikt augšējā līmeņa direktorijas nosaukumu; lūdzu, norādiet to tieši ar --one-top-level=DIR"
+msgstr "Neizdevās noteikt augšējā līmeņa direktorijas nosaukumu; lūdzu, norādiet to eksplicīti ar --one-top-level=DIR"
 
 #: src/tar.c:2719
 msgid "Volume length cannot be less than record size"
@@ -2607,7 +2610,7 @@ msgstr "-T nolasa nosaukumus, kas beidzas ar nulli"
 
 #: tests/genfile.c:135
 msgid "Fill the file with the given PATTERN. PATTERN is 'default' or 'zeros'"
-msgstr "Aizpildīt failu ar norādīto ŠABLONU. ŠABLONS ir 'noklusējums' vai 'nulles'"
+msgstr "Aizpildīt failu ar norādīto ŠABLONU. ŠABLONS ir 'default' vai 'zeros'"
 
 #: tests/genfile.c:138
 msgid "Size of a block for sparse file"
@@ -2635,11 +2638,11 @@ msgstr "Failu statistikas opcijas:"
 
 #: tests/genfile.c:153
 msgid "Print contents of struct stat for each given file. Default FORMAT is: "
-msgstr "Izdrukāt struct stat saturu katram norādītajam failam. Noklusējuma FORMĀTS ir: "
+msgstr "Parādīt struct stat saturu katram norādītajam failam. Noklusējuma FORMĀTS ir: "
 
 #: tests/genfile.c:157
 msgid "stat symbolic links instead of referenced files"
-msgstr "statistikā izmantot simboliskās saites, nevis atsauces failus"
+msgstr "izpildīt stat simboliskajām saitēm, nevis to norādītajiem failiem"
 
 #: tests/genfile.c:161
 msgid "Set access and modification times of the files to the time supplied by --date option"
@@ -2659,7 +2662,7 @@ msgstr "Izpildīt ARGS. Aktivizēt kontrolpunktus ik pēc N-tā ieraksta (noklus
 
 #: tests/genfile.c:174
 msgid "Perform given action (see below) upon reaching checkpoint NUMBER"
-msgstr "Veikt norādīto darbību (skatīt zemāk), sasniedzot kontrolpunktu CIPARS"
+msgstr "Veikt norādīto darbību (skatīt zemāk), sasniedzot kontrolpunktu SKAITS"
 
 #: tests/genfile.c:177
 msgid "Set date for next --touch option"
@@ -2679,7 +2682,7 @@ msgstr "Saīsināt FAILU līdz izmēram, kas norādīts ar iepriekšējo --lengt
 
 #: tests/genfile.c:192
 msgid "Append SIZE bytes to FILE. SIZE is given by previous --length option."
-msgstr "Pievienot IZMĒRA baitus FAILAM. IZMĒRS ir norādīts ar iepriekšējo --length opciju."
+msgstr "Pievienot FAILAM IZMĒRS baitus. IZMĒRS ir norādīts ar iepriekšējo --length opciju."
 
 #: tests/genfile.c:195
 msgid "Update the access and modification times of FILE"
@@ -2746,7 +2749,7 @@ msgstr "neizdevās atvērt `%s'"
 
 #: tests/genfile.c:452
 msgid "cannot seek"
-msgstr "nevar mainīt pozīciju"
+msgstr "neizdevās pārvietoties"
 
 #: tests/genfile.c:472
 #, c-format
@@ -2821,7 +2824,7 @@ msgstr "Komanda apturēta ar signālu %d\n"
 #: tests/genfile.c:972
 #, c-format
 msgid "Command dumped core\n"
-msgstr "Komanda izveidoja atmiņas kopiju\n"
+msgstr "Komanda izveidoja core izmeti\n"
 
 #: tests/genfile.c:975
 #, c-format
