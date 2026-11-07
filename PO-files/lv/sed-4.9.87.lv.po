@@ -1,24 +1,23 @@
 # Latvian translation of sed.
 # Copyright (C) 2026 Free Software Foundation, Inc.
 # This file is distributed under the same license as the sed package.
-# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+# Rihards Priedītis <rprieditis@gmail.com>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sed 4.9.87\n"
 "Report-Msgid-Bugs-To: bug-gnu-utils@gnu.org\n"
 "POT-Creation-Date: 2026-04-20 16:59-0700\n"
-"PO-Revision-Date: 2026-09-18 12:26+0300\n"
-"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
-"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2026-11-07 20:12+0200\n"
+"Last-Translator: Rihards Priedītis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <translation-team-lv@googlegroups.com>\n"
 "Language: lv\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==0 || (n%100>=11 && n%100<=19) ? 0 : n%10==1 && n%100!=11 ? 1 : 2);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 
 #: lib/copy-acl.c:55
 #, c-format
@@ -27,7 +26,7 @@ msgstr "saglabā %s atļaujas"
 
 #: lib/dfa.c:905
 msgid "unbalanced ["
-msgstr "neatbilstoša ["
+msgstr "nesapārota ["
 
 #: lib/dfa.c:1026
 msgid "invalid character class"
@@ -39,7 +38,7 @@ msgstr "rakstzīmju klases sintakse ir [[:space:]], nevis [:space:]"
 
 #: lib/dfa.c:1229
 msgid "unfinished \\ escape"
-msgstr "nepabeigts \\ aizbēgums"
+msgstr "nepabeigta \\ atsoļa sekvence"
 
 #: lib/dfa.c:1339
 msgid "? at start of expression"
@@ -84,7 +83,7 @@ msgstr "lieka \\"
 
 #: lib/dfa.c:1943
 msgid "unbalanced ("
-msgstr "neatbilstoša ("
+msgstr "nesapārota ("
 
 #: lib/dfa.c:2062
 msgid "no syntax specified"
@@ -92,7 +91,7 @@ msgstr "nav norādīta sintakse"
 
 #: lib/dfa.c:2073
 msgid "unbalanced )"
-msgstr "neatbilstoša )"
+msgstr "nesapārota )"
 
 #: lib/error.c:208
 msgid "Unknown system error"
@@ -101,12 +100,12 @@ msgstr "Nezināma sistēmas kļūda"
 #: lib/getopt.c:283
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
-msgstr "%s: opcija '%s%s' nav viennozīmīga\n"
+msgstr "%s: opcija '%s%s' ir neviennozīmīga\n"
 
 #: lib/getopt.c:289
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
-msgstr "%s: opcija '%s%s' nav viennozīmīga; iespējas:"
+msgstr "%s: opcija '%s%s' ir neviennozīmīga; iespējas:"
 
 #: lib/getopt.c:323
 #, c-format
@@ -168,7 +167,7 @@ msgstr "”"
 
 #: lib/regcomp.c:122
 msgid "Success"
-msgstr "Izdevās"
+msgstr "Veiksmīgi"
 
 #: lib/regcomp.c:125
 msgid "No match"
@@ -180,7 +179,7 @@ msgstr "Nederīga regulārā izteiksme"
 
 #: lib/regcomp.c:131
 msgid "Invalid collation character"
-msgstr "Nederīga kolācijas rakstzīme"
+msgstr "Nederīga kārtošanas rakstzīme"
 
 #: lib/regcomp.c:134
 msgid "Invalid character class name"
@@ -188,7 +187,7 @@ msgstr "Nederīgs rakstzīmju klases nosaukums"
 
 #: lib/regcomp.c:137
 msgid "Trailing backslash"
-msgstr "Beigu atpakaļvērstā slīpsvītra"
+msgstr "Noslēdzošā atpakaļvērstā slīpsvītra"
 
 #: lib/regcomp.c:140
 msgid "Invalid back reference"
@@ -196,15 +195,15 @@ msgstr "Nederīga atpakaļatsauce"
 
 #: lib/regcomp.c:143
 msgid "Unmatched [, [^, [:, [., or [="
-msgstr "Neatbilstoši [, [^, [:, [., vai [="
+msgstr "Nesapārota [, [^, [:, [., vai [="
 
 #: lib/regcomp.c:146
 msgid "Unmatched ( or \\("
-msgstr "Neatbilstoša ( vai \\("
+msgstr "Nesapārota ( vai \\("
 
 #: lib/regcomp.c:149
 msgid "Unmatched \\{"
-msgstr "Neatbilstoša \\{"
+msgstr "Nesapārota \\{"
 
 #: lib/regcomp.c:152
 msgid "Invalid content of \\{\\}"
@@ -220,7 +219,7 @@ msgstr "Atmiņa izsmelta"
 
 #: lib/regcomp.c:161
 msgid "Invalid preceding regular expression"
-msgstr "Nederīga iepriekš esošā regulārā izteiksme"
+msgstr "Nederīga iepriekšējā regulārā izteiksme"
 
 #: lib/regcomp.c:164
 msgid "Premature end of regular expression"
@@ -232,11 +231,11 @@ msgstr "Regulārā izteiksme ir pārāk liela"
 
 #: lib/regcomp.c:170
 msgid "Unmatched ) or \\)"
-msgstr "Neatbilstoša ) vai \\)"
+msgstr "Nesapārota ) vai \\)"
 
 #: lib/regcomp.c:650
 msgid "No previous regular expression"
-msgstr "Nav iepriekšējas regulārās izteiksmes"
+msgstr "Nav iepriekšējās regulārās izteiksmes"
 
 #: lib/set-acl.c:46
 #, c-format
@@ -246,12 +245,12 @@ msgstr "iestata %s atļaujas"
 #: lib/version-etc.c:73
 #, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr "Sagatavotājs: %s (%s)\n"
+msgstr "Pakotni sagatavoja %s (%s)\n"
 
 #: lib/version-etc.c:76
 #, c-format
 msgid "Packaged by %s\n"
-msgstr "Sagatavotājs: %s\n"
+msgstr "Pakotni sagatavoja %s\n"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
@@ -299,7 +298,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"Autori: %s, %s, %s,\n"
+"Autori: %s, %s, %s\n"
 "un %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -387,7 +386,9 @@ msgstr ""
 #: lib/version-etc.c:248
 #, c-format
 msgid "Report bugs to: %s\n"
-msgstr "Ziņojiet par kļūdām uz: %s\n"
+msgstr ""
+"Ziņojiet par kļūdām: %s\n"
+"Ziņot par tulkošanas kļūdām: <translation-team-lv@googlegroups.com>.\n"
 
 #: lib/version-etc.c:250
 #, c-format
@@ -397,7 +398,7 @@ msgstr "Ziņojiet par %s kļūdām uz: %s\n"
 #: lib/version-etc.c:254 lib/version-etc.c:256
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr "%s mājalapa: <%s>\n"
+msgstr "%s mājaslapa: <%s>\n"
 
 #: lib/version-etc.c:259
 #, c-format
@@ -442,7 +443,7 @@ msgstr "%s: brīdinājums: \"\\%c\" izmantošana 's' komandā nav pārnēsājama
 #: sed/compile.c:531 sed/compile.c:538 sed/compile.c:544 sed/compile.c:588
 #, c-format
 msgid "unknown option to 's'"
-msgstr "nezināma opcija 's'"
+msgstr "nezināma 's' opcija"
 
 #: sed/compile.c:550
 #, c-format
@@ -467,7 +468,7 @@ msgstr "skaitļa opcija 's' komandai nedrīkst būt nulle"
 #: sed/compile.c:839
 #, c-format
 msgid "unterminated address regex"
-msgstr "neapgriezta adrešu regulārā izteiksme"
+msgstr "nepabeigta adreses regulārā izteiksme"
 
 #: sed/compile.c:939
 #, c-format
@@ -517,22 +518,22 @@ msgstr "neparedzēta '}'"
 #: sed/compile.c:1024
 #, c-format
 msgid "'}' doesn't want any addresses"
-msgstr "'}' nevēlas nekādas adreses"
+msgstr "'}' nepieņem nekādas adreses"
 
 #: sed/compile.c:1052 sed/compile.c:1059
 #, c-format
 msgid "expected \\ after 'a', 'c' or 'i'"
-msgstr "expected \\ after 'a', 'c' or 'i'"
+msgstr "pēc 'a', 'c' vai 'i' gaidīta \\"
 
 #: sed/compile.c:1069
 #, c-format
 msgid ": doesn't want any addresses"
-msgstr ": nevēlas nekādas adreses"
+msgstr ": nepieņem nekādas adreses"
 
 #: sed/compile.c:1073
 #, c-format
 msgid "\":\" lacks a label"
-msgstr "\":\" nav norādīta etiķete"
+msgstr "\":\" trūkst etiķetes"
 
 #: sed/compile.c:1164 sed/compile.c:1166
 #, c-format
@@ -552,7 +553,7 @@ msgstr "'y' komandas virkņu garumi atšķiras"
 #: sed/compile.c:1289
 #, c-format
 msgid "missing command"
-msgstr "trūkst komanda"
+msgstr "trūkst komandas"
 
 #: sed/compile.c:1301
 #, c-format
@@ -562,7 +563,7 @@ msgstr "nepilnīga komanda"
 #: sed/compile.c:1381
 #, c-format
 msgid "recursive escaping after \\c not allowed"
-msgstr "rekursīva aizvietošana pēc \\c nav atļauta"
+msgstr "rekursīva atsološana pēc \\c nav atļauta"
 
 #: sed/compile.c:1524
 #, c-format
@@ -587,12 +588,12 @@ msgstr "%s: nevar nolasīt %s: %s\n"
 #: sed/execute.c:594
 #, c-format
 msgid "couldn't edit %s: is a terminal"
-msgstr "nevarēja rediģēt %s: ir terminālis"
+msgstr "neizdevās rediģēt %s: tas ir terminālis"
 
 #: sed/execute.c:599
 #, c-format
 msgid "couldn't edit %s: not a regular file"
-msgstr "nevarēja rediģēt %s: nav parasts fails"
+msgstr "neizdevās rediģēt %s: nav parasts fails"
 
 #: sed/execute.c:610
 #, c-format
@@ -607,7 +608,7 @@ msgstr "%s: brīdinājums: neizdevās iegūt %s drošības kontekstu: %s"
 #: sed/execute.c:636 sed/utils.c:220
 #, c-format
 msgid "couldn't open temporary file %s: %s"
-msgstr "nevarēja atvērt pagaidu failu %s: %s"
+msgstr "neizdevās atvērt pagaidu failu %s: %s"
 
 #: sed/execute.c:752
 #, c-format
@@ -624,7 +625,7 @@ msgstr "opcija 'e' netiek atbalstīta"
 
 #: sed/execute.c:1352
 msgid "'e' command not supported"
-msgstr "Komanda 'e' netiek atbalstīta"
+msgstr "komanda 'e' netiek atbalstīta"
 
 #: sed/execute.c:1673
 msgid "no input files"
@@ -643,7 +644,7 @@ msgstr "tukšai regulārajai izteiksmei nevar norādīt modifikatorus"
 #: sed/regexp.c:174
 #, c-format
 msgid "no previous regular expression"
-msgstr "nav iepriekšējas regulārās izteiksmes"
+msgstr "nav iepriekšējās regulārās izteiksmes"
 
 #: sed/regexp.c:181
 msgid "regex input buffer length overflow"
@@ -651,15 +652,15 @@ msgstr "regulārās izteiksmes ievades bufera garuma pārpilde"
 
 #: sed/sed.c:38
 msgid "Jay Fenlason"
-msgstr "Džejs Fenlasons"
+msgstr "Jay Fenlason"
 
 #: sed/sed.c:39
 msgid "Tom Lord"
-msgstr "Toms Lords"
+msgstr "Tom Lord"
 
 #: sed/sed.c:40
 msgid "Ken Pizzini"
-msgstr "Kens Picīni"
+msgstr "Ken Pizzini"
 
 #: sed/sed.c:41
 msgid "Paolo Bonzini"
@@ -667,11 +668,11 @@ msgstr "Paolo Bonzini"
 
 #: sed/sed.c:42
 msgid "Jim Meyering"
-msgstr "Džims Mejerings"
+msgstr "Jim Meyering"
 
 #: sed/sed.c:43
 msgid "Assaf Gordon"
-msgstr "Assafs Gordons"
+msgstr "Assaf Gordon"
 
 #: sed/sed.c:104
 #, c-format
@@ -680,12 +681,13 @@ msgid ""
 "General help using GNU software: <https://www.gnu.org/gethelp/>.\n"
 msgstr ""
 "GNU sed mājaslapa: <https://www.gnu.org/software/sed/>.\n"
-"Vispārīga palīdzība, izmantojot GNU programmatūru: <https://www.gnu.org/gethelp/>.\n"
+"Vispārīga palīdzība GNU programmatūras lietošanā:\n"
+"<https://www.gnu.org/gethelp/>.\n"
 
 #: sed/sed.c:110
 #, c-format
 msgid "E-mail bug reports to: <%s>.\n"
-msgstr "Sūta kļūdu ziņojumus uz: <%s>.\n"
+msgstr "Sūtiet kļūdu ziņojumus uz: <%s>.\n"
 
 #: sed/sed.c:118
 msgid "This sed program was built with SELinux support."
@@ -709,7 +711,7 @@ msgid ""
 "Usage: %s [OPTION]... {script-only-if-no-other-script} [input-file]...\n"
 "\n"
 msgstr ""
-"Lietojums: %s [OPCIJA]... {script-only-if-no-other-script} [ievades-fails]...\n"
+"Lietošana: %s [OPCIJA]... {script-only-if-no-other-script} [ievades-fails]...\n"
 "\n"
 
 #: sed/sed.c:138
@@ -764,7 +766,8 @@ msgid ""
 "                 edit files in place (makes backup if SUFFIX supplied)\n"
 msgstr ""
 "  -i[PIEDĒKLIS], --in-place[=PIEDĒKLIS]\n"
-"                 rediģēt failus vietā (izveido dublējumu, ja ir norādīta PIEDĒKLIS)\n"
+"                 rediģēt failus vietā (izveido dublējumu, ja ir norādīts\n"
+"                 PIEDĒKLIS)\n"
 
 #: sed/sed.c:154
 #, c-format
@@ -782,7 +785,7 @@ msgid ""
 "                 specify the desired line-wrap length for the 'l' command\n"
 msgstr ""
 "  -l N, --line-length=N\n"
-"                 norādīt vēlamo rindas aplaušanas garumu 'l' komandai\n"
+"                 norādīt vēlamo rindu pārnešanas garumu 'l' komandai\n"
 
 #: sed/sed.c:160
 #, c-format
@@ -791,7 +794,7 @@ msgid ""
 "                 disable all GNU extensions.\n"
 msgstr ""
 "  --posix\n"
-"                 atspējot visas GNU paplašinājumu iespējas.\n"
+"                 atspējot visus GNU paplašinājumus.\n"
 
 #: sed/sed.c:162
 #, c-format
@@ -882,7 +885,7 @@ msgstr "neizdevās iestatīt bināro režīmu STDOUT"
 #: sed/utils.c:129
 #, c-format
 msgid "couldn't open file %s: %s"
-msgstr "nevarēja atvērt failu %s: %s"
+msgstr "neizdevās atvērt failu %s: %s"
 
 #: sed/utils.c:148
 #, c-format
@@ -898,19 +901,19 @@ msgstr "neizdevās iestatīt bināro režīmu '%s'"
 #, c-format
 msgid "couldn't write %jd item to %s: %s"
 msgid_plural "couldn't write %jd items to %s: %s"
-msgstr[0] "nevarēja ierakstīt %jd vienumus %s: %s"
-msgstr[1] "nevarēja ierakstīt %jd vienumu %s: %s"
-msgstr[2] "nevarēja ierakstīt %jd vienumus %s: %s"
+msgstr[0] "neizdevās ierakstīt %jd vienumu failā %s: %s"
+msgstr[1] "neizdevās ierakstīt %jd vienumu failā %s: %s"
+msgstr[2] "neizdevās ierakstīt %jd vienumus failā %s: %s"
 
 #: sed/utils.c:245 sed/utils.c:258
 #, c-format
 msgid "read error on %s: %s"
-msgstr "kļūda lasot %s: %s"
+msgstr "kļūda, lasot %s: %s"
 
 #: sed/utils.c:254
 #, c-format
 msgid "read error on %s"
-msgstr "kļūda lasot %s"
+msgstr "kļūda, lasot %s"
 
 #: sed/utils.c:357
 #, c-format
@@ -920,7 +923,7 @@ msgstr "neizdevās nolasīt simbolisko saiti %s: %s"
 #: sed/utils.c:360
 #, c-format
 msgid "couldn't follow symlink %s: %s"
-msgstr "nevarēja izsekot simboliskajai saitei %s: %s"
+msgstr "neizdevās sekot simboliskajai saitei %s: %s"
 
 #: sed/utils.c:407
 #, c-format
