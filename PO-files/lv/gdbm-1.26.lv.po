@@ -1,0 +1,1416 @@
+# Latvian translation of gdbm.
+# Copyright (C) 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gdbm package.
+# Rihards Priedītis <rprieditis@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gdbm 1.26\n"
+"Report-Msgid-Bugs-To: bug-gdbm@gnu.org\n"
+"POT-Creation-Date: 2025-07-30 13:18+0300\n"
+"PO-Revision-Date: 2026-11-10 19:26+0200\n"
+"Last-Translator: Rihards Priedītis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <translation-team-lv@googlegroups.com>\n"
+"Language: lv\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==0 || (n%100>=11 && n%100<=19) ? 0 : n%10==1 && n%100!=11 ? 1 : 2);\n"
+"X-Generator: Poedit 3.10\n"
+
+#: src/bucket.c:399 src/bucket.c:685 src/falloc.c:211 src/falloc.c:337
+#: src/findkey.c:124 src/gdbmstore.c:168 src/update.c:36 src/update.c:76
+msgid "lseek error"
+msgstr "lseek kļūda"
+
+#: src/bucket.c:534
+msgid "directory overflow"
+msgstr "direktorijas pārpilde"
+
+#: src/bucket.c:545 src/falloc.c:302 src/findkey.c:97 src/findkey.c:113
+msgid "malloc error"
+msgstr "malloc kļūda"
+
+#: src/falloc.c:201
+msgid "malloc failed"
+msgstr "malloc neizdevās"
+
+#: src/gdbmerrno.c:102
+msgid "No error"
+msgstr "Nav kļūdu"
+
+#: src/gdbmerrno.c:103
+msgid "Malloc error"
+msgstr "Malloc kļūda"
+
+#: src/gdbmerrno.c:104
+msgid "Block size error"
+msgstr "Bloka izmēra kļūda"
+
+#: src/gdbmerrno.c:105
+msgid "File open error"
+msgstr "Faila atvēršanas kļūda"
+
+#: src/gdbmerrno.c:106
+msgid "File write error"
+msgstr "Faila rakstīšanas kļūda"
+
+#: src/gdbmerrno.c:107
+msgid "File seek error"
+msgstr "Faila pozicionēšanas kļūda"
+
+#: src/gdbmerrno.c:108
+msgid "File read error"
+msgstr "Faila lasīšanas kļūda"
+
+#: src/gdbmerrno.c:109
+msgid "Bad magic number"
+msgstr "Slikts maģiskais skaitlis"
+
+#: src/gdbmerrno.c:110
+msgid "Empty database"
+msgstr "Tukša datubāze"
+
+#: src/gdbmerrno.c:111
+msgid "Can't be reader"
+msgstr "Nevar būt lasītājs"
+
+#: src/gdbmerrno.c:112
+msgid "Can't be writer"
+msgstr "Nevar būt rakstītājs"
+
+#: src/gdbmerrno.c:113
+msgid "Reader can't delete"
+msgstr "Lasītājs nevar dzēst"
+
+#: src/gdbmerrno.c:114
+msgid "Reader can't store"
+msgstr "Lasītājs nevar saglabāt"
+
+#: src/gdbmerrno.c:115
+msgid "Reader can't reorganize"
+msgstr "Lasītājs nevar reorganizēt"
+
+#: src/gdbmerrno.c:116
+msgid "Should not happen: unused error code"
+msgstr "Tā nedrīkstētu notikt: neizmantots kļūdas kods"
+
+#: src/gdbmerrno.c:117
+msgid "Item not found"
+msgstr "Vienums nav atrasts"
+
+#: src/gdbmerrno.c:118
+msgid "Reorganize failed"
+msgstr "Reorganizācija neizdevās"
+
+#: src/gdbmerrno.c:119
+msgid "Cannot replace"
+msgstr "Nevar aizstāt"
+
+#: src/gdbmerrno.c:120
+msgid "Malformed data"
+msgstr "Nepareizi veidoti dati"
+
+#: src/gdbmerrno.c:121
+msgid "Option already set"
+msgstr "Opcija jau iestatīta"
+
+#: src/gdbmerrno.c:122
+msgid "Bad option value"
+msgstr "Slikta opcijas vērtība"
+
+#: src/gdbmerrno.c:123
+msgid "Byte-swapped file"
+msgstr "Fails ar apmainītiem baitiem"
+
+#: src/gdbmerrno.c:124
+msgid "File header assumes wrong off_t size"
+msgstr "Faila galvene pieņem nepareizu off_t izmēru"
+
+#: src/gdbmerrno.c:125
+msgid "Bad file flags"
+msgstr "Slikti faila karogi"
+
+#: src/gdbmerrno.c:126
+msgid "Cannot stat file"
+msgstr "Nevar izpildīt stat failam"
+
+#: src/gdbmerrno.c:127
+msgid "Unexpected end of file"
+msgstr "Negaidītas faila beigas"
+
+#: src/gdbmerrno.c:128
+msgid "Database name not given"
+msgstr "Nav norādīts datubāzes nosaukums"
+
+#: src/gdbmerrno.c:129
+msgid "Failed to restore file owner"
+msgstr "Neizdevās atjaunot faila īpašnieku"
+
+#: src/gdbmerrno.c:130
+msgid "Failed to restore file mode"
+msgstr "Neizdevās atjaunot faila režīmu"
+
+#: src/gdbmerrno.c:131
+msgid "Database needs recovery"
+msgstr "Datubāzei nepieciešama atkopšana"
+
+#: src/gdbmerrno.c:132
+msgid "Failed to create backup copy"
+msgstr "Neizdevās izveidot rezerves kopiju"
+
+#: src/gdbmerrno.c:133
+msgid "Bucket directory overflow"
+msgstr "Spaiņu direktorijas pārpilde"
+
+#: src/gdbmerrno.c:134
+msgid "Malformed bucket header"
+msgstr "Nepareizi veidota spaiņa galvene"
+
+#: src/gdbmerrno.c:135
+msgid "Malformed database file header"
+msgstr "Nepareizi veidota datubāzes faila galvene"
+
+#. TRANSLATORS: avail_block is a field name. Don't translate it.
+#: src/gdbmerrno.c:137
+msgid "Malformed avail_block"
+msgstr "Nepareizi veidots avail_block"
+
+#: src/gdbmerrno.c:138
+msgid "Malformed hash table"
+msgstr "Nepareizi veidota jaucējtabula"
+
+#: src/gdbmerrno.c:139
+msgid "Invalid directory entry"
+msgstr "Nederīgs direktorijas ieraksts"
+
+#: src/gdbmerrno.c:140
+msgid "Error closing file"
+msgstr "Kļūda, aizverot failu"
+
+#: src/gdbmerrno.c:141
+msgid "Error synchronizing file"
+msgstr "Kļūda, sinhronizējot failu"
+
+#: src/gdbmerrno.c:142
+msgid "Error truncating file"
+msgstr "Kļūda, saīsinot failu"
+
+#: src/gdbmerrno.c:143
+msgid "Bucket cache corrupted"
+msgstr "Spaiņu kešatmiņa ir bojāta"
+
+#: src/gdbmerrno.c:144
+msgid "Malformed bucket hash entry"
+msgstr "Nepareizi veidots spaiņa jaucējieraksts"
+
+#: src/gdbmerrno.c:145
+msgid "Reflink failed"
+msgstr "Reflink neizdevās"
+
+#: src/gdbmerrno.c:146
+msgid "Failed to resolve real path name"
+msgstr "Neizdevās atrisināt reālo ceļa nosaukumu"
+
+#: src/gdbmerrno.c:147
+msgid "Function usage error"
+msgstr "Funkcijas lietošanas kļūda"
+
+#: src/recover.c:270
+#, c-format
+msgid "can't read bucket #%d: %s"
+msgstr "nevar nolasīt spaini #%d: %s"
+
+#: src/recover.c:298
+#, c-format
+msgid "can't read key pair %d:%d (%lu:%d): %s"
+msgstr "nevar nolasīt atslēgu pāri %d:%d (%lu:%d): %s"
+
+#: src/recover.c:328
+#, c-format
+msgid "ignoring duplicate key %d:%d (%lu:%d)"
+msgstr "ignorē dublētu atslēgu %d:%d (%lu:%d)"
+
+#: src/recover.c:338
+#, c-format
+msgid "fatal: can't store element %d:%d (%lu:%d): %s"
+msgstr "fatāla kļūda: nevar saglabāt elementu %d:%d (%lu:%d): %s"
+
+#: tools/datconv.c:291
+msgid "(not enough data)"
+msgstr "(nepietiek datu)"
+
+#: tools/datconv.c:391
+msgid "cannot convert"
+msgstr "nevar pārveidot"
+
+#: tools/datconv.c:400
+#, c-format
+msgid "cannot convert value #%d: %s"
+msgstr "nevar pārveidot vērtību #%d: %s"
+
+#: tools/datconv.c:426 tools/datconv.c:475
+msgid "mixing tagged and untagged values is not allowed"
+msgstr "marķētu un nemarķētu vērtību jaukšana nav atļauta"
+
+#: tools/datconv.c:480
+#, c-format
+msgid "%s: no such field in datum"
+msgstr "%s: datos nav šāda lauka"
+
+#: tools/gdbm_dump.c:22
+msgid "dump a GDBM database to a file"
+msgstr "izmest GDBM datubāzi failā"
+
+#: tools/gdbm_dump.c:23
+msgid "DB_FILE [FILE]"
+msgstr "DB_FAILS [FAILS]"
+
+#: tools/gdbm_dump.c:25
+msgid "select dump format"
+msgstr "izvēlēties izmešanas formātu"
+
+#: tools/gdbm_dump.c:67 tools/gdbm_dump.c:79
+msgid "unknown dump format"
+msgstr "nezināms izmešanas formāts"
+
+#: tools/gdbm_dump.c:86 tools/gdbm_load.c:225
+msgid "unknown option"
+msgstr "nezināma opcija"
+
+#: tools/gdbm_dump.c:102 tools/gdbm_load.c:241
+#, c-format
+msgid "too many arguments; try `%s -h' for more info"
+msgstr "pārāk daudz argumentu; plašākai informācijai mēģiniet `%s -h'"
+
+#: tools/gdbm_dump.c:122 tools/gdbm_load.c:267
+#, c-format
+msgid "cannot open %s"
+msgstr "neizdevās atvērt %s"
+
+#: tools/gdbm_dump.c:130 tools/gdbm_load.c:277
+msgid "gdbm_open failed"
+msgstr "gdbm_open neizdevās"
+
+#: tools/gdbm_dump.c:137
+#, c-format
+msgid "%s: dump error"
+msgstr "%s: izmešanas kļūda"
+
+#: tools/gdbm_load.c:32
+msgid "load a GDBM database from a file"
+msgstr "ielādēt GDBM datubāzi no faila"
+
+#: tools/gdbm_load.c:33
+msgid "FILE [DB_FILE]"
+msgstr "FAILS [DB_FAILS]"
+
+#: tools/gdbm_load.c:35
+msgid "replace records in the existing database (needs -U)"
+msgstr "aizstāt ierakstus esošajā datubāzē (nepieciešams -U)"
+
+#: tools/gdbm_load.c:36
+msgid "MODE"
+msgstr "REŽĪMS"
+
+#: tools/gdbm_load.c:36
+msgid "set file mode"
+msgstr "iestatīt faila režīmu"
+
+#: tools/gdbm_load.c:37
+msgid "update the existing database"
+msgstr "atjaunināt esošo datubāzi"
+
+#: tools/gdbm_load.c:38
+msgid "NAME|UID[:NAME|GID]"
+msgstr "NOSAUKUMS|UID[:NOSAUKUMS|GID]"
+
+#: tools/gdbm_load.c:38
+msgid "set file owner"
+msgstr "iestatīt faila īpašnieku"
+
+#: tools/gdbm_load.c:39
+msgid "do not attempt to set file meta-data"
+msgstr "nemēģināt iestatīt faila metadatus"
+
+#: tools/gdbm_load.c:40
+msgid "use memory mapping"
+msgstr "izmantot atmiņas attēlošanu"
+
+#: tools/gdbm_load.c:41 tools/gdbm_load.c:42
+msgid "NUM"
+msgstr "SKAITS"
+
+#: tools/gdbm_load.c:41
+msgid "set the cache size"
+msgstr "iestatīt kešatmiņas izmēru"
+
+#: tools/gdbm_load.c:42
+msgid "set the block size"
+msgstr "iestatīt bloka izmēru"
+
+#: tools/gdbm_load.c:80
+#, c-format
+msgid "invalid number: %s"
+msgstr "nederīgs skaitlis: %s"
+
+#: tools/gdbm_load.c:85
+#, c-format
+msgid "invalid number: %s: %s"
+msgstr "nederīgs skaitlis: %s: %s"
+
+#: tools/gdbm_load.c:137
+#, c-format
+msgid "invalid octal number"
+msgstr "nederīgs oktālskaitlis"
+
+#: tools/gdbm_load.c:167
+#, c-format
+msgid "invalid user name: %s"
+msgstr "nederīgs lietotājvārds: %s"
+
+#: tools/gdbm_load.c:186
+#, c-format
+msgid "invalid group name: %s"
+msgstr "nederīgs grupas nosaukums: %s"
+
+#: tools/gdbm_load.c:198
+#, c-format
+msgid "no such UID: %lu"
+msgstr "nav šāda UID: %lu"
+
+#: tools/gdbm_load.c:247
+msgid "-r is useless without -U"
+msgstr "-r ir nelietderīgs bez -U"
+
+#: tools/gdbm_load.c:283
+#, c-format
+msgid "gdbm_setopt failed: %s"
+msgstr "gdbm_setopt neizdevās: %s"
+
+#: tools/gdbm_load.c:297 tools/gdbm_load.c:315
+#, c-format
+msgid "error restoring metadata: %s (%s)"
+msgstr "kļūda, atjaunojot metadatus: %s (%s)"
+
+#: tools/gdbm_load.c:306 tools/gdbmshell.c:1810
+#, c-format
+msgid "cannot load from %s"
+msgstr "nevar ielādēt no %s"
+
+#: tools/gdbm_load.c:323
+msgid "gdbm_setopt failed"
+msgstr "gdbm_setopt neizdevās"
+
+#: tools/gdbmshell.c:65 tools/gdbmshell.c:158 tools/gdbmshell.c:331
+#: tools/gdbmshell.c:467 tools/gdbmshell.c:856 tools/gdbmshell.c:890
+#: tools/gdbmshell.c:899
+#, c-format
+msgid "%s failed"
+msgstr "%s neizdevās"
+
+#: tools/gdbmshell.c:121
+#, c-format
+msgid "database %s already exists; overwrite"
+msgstr "datubāze %s jau eksistē; pārrakstīt"
+
+#: tools/gdbmshell.c:152
+#, c-format
+msgid "cannot open database %s"
+msgstr "nevar atvērt datubāzi %s"
+
+#: tools/gdbmshell.c:247
+#, c-format
+msgid "Bucket #%d"
+msgstr "Spainis #%d"
+
+#: tools/gdbmshell.c:250
+#, c-format
+msgid ""
+"address     = %lu\n"
+"depth       = %d\n"
+"hash prefix = %08x\n"
+"references  = %u"
+msgstr ""
+"adrese          = %lu\n"
+"dziļums         = %d\n"
+"jaucējprefikss  = %08x\n"
+"atsauces        = %u"
+
+#: tools/gdbmshell.c:265
+#, c-format
+msgid ""
+"count       = %d\n"
+"load factor = %3d\n"
+msgstr ""
+"skaits          = %d\n"
+"noslodzes koef. = %3d\n"
+
+#: tools/gdbmshell.c:270
+msgid "Hash Table:\n"
+msgstr "Jaucējtabula:\n"
+
+#: tools/gdbmshell.c:272
+msgid "    #    hash value     key size    data size     data adr home  key start\n"
+msgstr "    #      jaucējv.    atsl.izm.    datu izm.    datu adr. māja  atsl.sāk.\n"
+
+#: tools/gdbmshell.c:290
+#, c-format
+msgid ""
+"\n"
+"Avail count = %d\n"
+msgstr ""
+"\n"
+"Pieejamo skaits = %d\n"
+
+#: tools/gdbmshell.c:291
+msgid "Address           size\n"
+msgstr "Adrese            izmērs\n"
+
+#: tools/gdbmshell.c:317
+msgid "header block"
+msgstr "galvenes bloks"
+
+#: tools/gdbmshell.c:319
+#, c-format
+msgid "block = %lu"
+msgstr "bloks = %lu"
+
+#: tools/gdbmshell.c:320
+#, c-format
+msgid ""
+"\n"
+"size  = %d\n"
+"count = %d\n"
+msgstr ""
+"\n"
+"izmērs = %d\n"
+"skaits = %d\n"
+
+#: tools/gdbmshell.c:344
+#, c-format
+msgid ""
+"Bucket Cache (size %zu/%zu):\n"
+"  Index:         Address  Changed  Data_Hash \n"
+msgstr ""
+"Spaiņu kešatmiņa (izmērs %zu/%zu):\n"
+"  Indekss:        Adrese   Mainīts  Datu_jauc. \n"
+
+#: tools/gdbmshell.c:351
+msgid "True"
+msgstr "Patiess"
+
+#: tools/gdbmshell.c:351
+msgid "False"
+msgstr "Nepatiess"
+
+#: tools/gdbmshell.c:356
+msgid "Bucket cache is empty."
+msgstr "Spaiņu kešatmiņa ir tukša."
+
+#: tools/gdbmshell.c:433
+msgid "nothing to close"
+msgstr "nav ko aizvērt"
+
+#: tools/gdbmshell.c:476
+msgid "count buffer overflow"
+msgstr "skaitītāja bufera pārpilde"
+
+#: tools/gdbmshell.c:479
+#, c-format
+msgid "There is %s item in the database.\n"
+msgid_plural "There are %s items in the database.\n"
+msgstr[0] "Datubāzē ir %s vienumu.\n"
+msgstr[1] "Datubāzē ir %s vienums.\n"
+msgstr[2] "Datubāzē ir %s vienumi.\n"
+
+#: tools/gdbmshell.c:496 tools/gdbmshell.c:520 tools/gdbmshell.c:601
+msgid "No such item found"
+msgstr "Šāds vienums nav atrasts"
+
+#: tools/gdbmshell.c:499
+msgid "Can't delete"
+msgstr "Nevar dzēst"
+
+#: tools/gdbmshell.c:523
+msgid "Can't fetch data"
+msgstr "Nevar izgūt datus"
+
+#: tools/gdbmshell.c:536
+msgid "Item not inserted"
+msgstr "Vienums nav ievietots"
+
+#: tools/gdbmshell.c:565
+msgid "No such item found.\n"
+msgstr "Šāds vienums nav atrasts.\n"
+
+#: tools/gdbmshell.c:568
+msgid "Can't find first key"
+msgstr "Nevar atrast pirmo atslēgu"
+
+#: tools/gdbmshell.c:605
+msgid "Can't find next key"
+msgstr "Nevar atrast nākamo atslēgu"
+
+#: tools/gdbmshell.c:616
+msgid "Reorganization failed"
+msgstr "Reorganizācija neizdevās"
+
+#: tools/gdbmshell.c:620
+msgid "Reorganization succeeded."
+msgstr "Reorganizācija izdevās."
+
+#: tools/gdbmshell.c:673 tools/gdbmshell.c:722 tools/gdbmshell.c:1735
+#: tools/gdbmshell.c:1771
+#, c-format
+msgid "unrecognized argument: %s"
+msgstr "neatpazīts arguments: %s"
+
+#: tools/gdbmshell.c:681
+#, c-format
+msgid "%s: bad argument type"
+msgstr "%s: slikts argumenta tips"
+
+#: tools/gdbmshell.c:686
+msgid "unexpected compound statement"
+msgstr "negaidīts salikts priekšraksts"
+
+#: tools/gdbmshell.c:695 tools/gdbmshell.c:705 tools/gdbmshell.c:715
+#: tools/gdbmshell.c:796 tools/gdbmshell.c:805
+#, c-format
+msgid "not a number (stopped near %s)"
+msgstr "nav skaitlis (apstājās pie %s)"
+
+#: tools/gdbmshell.c:728
+msgid "unexpected datum"
+msgstr "negaidīti dati"
+
+#: tools/gdbmshell.c:738
+msgid "Recovery succeeded."
+msgstr "Atkopšana izdevās."
+
+#: tools/gdbmshell.c:742
+#, c-format
+msgid "Keys recovered: %lu, failed: %lu, duplicate: %lu\n"
+msgstr "Atkoptās atslēgas: %lu, neizdevās: %lu, dublētas: %lu\n"
+
+#: tools/gdbmshell.c:747
+#, c-format
+msgid "Buckets recovered: %lu, failed: %lu\n"
+msgstr "Atkoptie spaiņi: %lu, neizdevās: %lu\n"
+
+#: tools/gdbmshell.c:755
+#, c-format
+msgid "Original database preserved in file %s"
+msgstr "Sākotnējā datubāze saglabāta failā %s"
+
+#: tools/gdbmshell.c:763
+msgid "Recovery failed"
+msgstr "Atkopšana neizdevās"
+
+#: tools/gdbmshell.c:783 tools/gdbmshell.c:1696
+msgid "no current bucket"
+msgstr "nav pašreizējā spaiņa"
+
+#: tools/gdbmshell.c:823
+#, c-format
+msgid "bucket number out of range (0..%lu)"
+msgstr "spaiņa numurs ārpus diapazona (0..%lu)"
+
+#: tools/gdbmshell.c:874
+#, c-format
+msgid "no current bucket\n"
+msgstr "nav pašreizējā spaiņa\n"
+
+#: tools/gdbmshell.c:884 tools/gdbmshell.c:896
+#, c-format
+msgid "no sibling\n"
+msgstr "nav blakusspaiņa\n"
+
+#: tools/gdbmshell.c:927
+msgid "Hash table directory."
+msgstr "Jaucējtabulas direktorija."
+
+#: tools/gdbmshell.c:929
+#, c-format
+msgid ""
+"  Size =  %d.  Capacity = %lu.  Bits = %d,  Buckets = %zu.\n"
+"\n"
+msgstr ""
+"  Izmērs =  %d.  Ietilpība = %lu.  Biti = %d,  Spaiņi = %zu.\n"
+"\n"
+
+#: tools/gdbmshell.c:936
+msgid "Index"
+msgstr "Indekss"
+
+#: tools/gdbmshell.c:936
+msgid "Hash Pfx"
+msgstr "Jauc. pref."
+
+#: tools/gdbmshell.c:936
+msgid "Bucket address"
+msgstr "Spaiņa adrese"
+
+#: tools/gdbmshell.c:972
+msgid ""
+"\n"
+"File Header: \n"
+"\n"
+msgstr ""
+"\n"
+"Faila galvene: \n"
+"\n"
+
+#: tools/gdbmshell.c:973
+#, c-format
+msgid "  type            = %s\n"
+msgstr "  tips                 = %s\n"
+
+#: tools/gdbmshell.c:974
+#, c-format
+msgid "  directory start = %lu\n"
+msgstr "  direktorijas sākums  = %lu\n"
+
+#: tools/gdbmshell.c:976
+#, c-format
+msgid "  directory size  = %d\n"
+msgstr "  direktorijas izmērs  = %d\n"
+
+#: tools/gdbmshell.c:977
+#, c-format
+msgid "  directory depth = %d\n"
+msgstr "  direktorijas dziļums = %d\n"
+
+#: tools/gdbmshell.c:978
+#, c-format
+msgid "  block size      = %d\n"
+msgstr "  bloka izmērs         = %d\n"
+
+#: tools/gdbmshell.c:979
+#, c-format
+msgid "  bucket elems    = %d\n"
+msgstr "  spaiņa elementi      = %d\n"
+
+#: tools/gdbmshell.c:980
+#, c-format
+msgid "  bucket size     = %d\n"
+msgstr "  spaiņa izmērs        = %d\n"
+
+#: tools/gdbmshell.c:981
+#, c-format
+msgid "  header magic    = %x\n"
+msgstr "  galvenes maģija      = %x\n"
+
+#: tools/gdbmshell.c:982
+#, c-format
+msgid "  next block      = %lu\n"
+msgstr "  nākamais bloks       = %lu\n"
+
+#: tools/gdbmshell.c:985
+#, c-format
+msgid "  avail size      = %d\n"
+msgstr "  avail izmērs         = %d\n"
+
+#: tools/gdbmshell.c:986
+#, c-format
+msgid "  avail count     = %d\n"
+msgstr "  avail skaits         = %d\n"
+
+#: tools/gdbmshell.c:987
+#, c-format
+msgid "  avail next block= %lu\n"
+msgstr "  avail nāk. bloks     = %lu\n"
+
+#: tools/gdbmshell.c:992
+msgid ""
+"\n"
+"Extended Header: \n"
+"\n"
+msgstr ""
+"\n"
+"Paplašinātā galvene: \n"
+"\n"
+
+#: tools/gdbmshell.c:993
+#, c-format
+msgid "      version = %d\n"
+msgstr "      versija = %d\n"
+
+#: tools/gdbmshell.c:994
+#, c-format
+msgid "      numsync = %u\n"
+msgstr "      numsync = %u\n"
+
+#: tools/gdbmshell.c:1108
+msgid "bad file mode"
+msgstr "slikts faila režīms"
+
+#: tools/gdbmshell.c:1118
+msgid "insufficient precision"
+msgstr "nepietiekama precizitāte"
+
+#. TRANSLATORS: Stands for "Not Available".
+#: tools/gdbmshell.c:1131
+msgid "N/A"
+msgstr "N/A"
+
+#: tools/gdbmshell.c:1140 tools/gdbmshell.c:1145
+msgid "can't open database"
+msgstr "nevar atvērt datubāzi"
+
+#: tools/gdbmshell.c:1150
+msgid "not a regular file"
+msgstr "nav parasts fails"
+
+#: tools/gdbmshell.c:1155
+msgid "ERROR"
+msgstr "KĻŪDA"
+
+#: tools/gdbmshell.c:1165
+#, c-format
+msgid "%s: ERROR: can't stat: %s"
+msgstr "%s: KĻŪDA: nevar izpildīt stat: %s"
+
+#: tools/gdbmshell.c:1190
+msgid "Invalid arguments in call to gdbm_latest_snapshot"
+msgstr "Nederīgi argumenti gdbm_latest_snapshot izsaukumā"
+
+#: tools/gdbmshell.c:1195
+msgid "Function is not implemented: GDBM is built without crash-tolerance support"
+msgstr "Funkcija nav realizēta: GDBM ir būvēts bez avāriju noturības atbalsta"
+
+#: tools/gdbmshell.c:1203
+msgid "Selected the most recent snapshot"
+msgstr "Izvēlēts jaunākais momentuzņēmums"
+
+#: tools/gdbmshell.c:1207
+msgid "Neither snapshot is readable"
+msgstr "Neviens momentuzņēmums nav lasāms"
+
+#: tools/gdbmshell.c:1212
+msgid "Error selecting snapshot"
+msgstr "Kļūda, izvēloties momentuzņēmumu"
+
+#: tools/gdbmshell.c:1217
+msgid "Snapshot modes and dates are the same"
+msgstr "Momentuzņēmumu režīmi un datumi ir vienādi"
+
+#: tools/gdbmshell.c:1222
+msgid "Snapshot sync counters differ by more than 1"
+msgstr "Momentuzņēmumu sinhronizācijas skaitītāji atšķiras vairāk nekā par 1"
+
+#: tools/gdbmshell.c:1250
+#, c-format
+msgid "unexpected error code: %d"
+msgstr "negaidīts kļūdas kods: %d"
+
+#: tools/gdbmshell.c:1270
+#, c-format
+msgid "hash value = %x, bucket #%u, slot %u"
+msgstr "jaucējvērtība = %x, spainis #%u, slots %u"
+
+#: tools/gdbmshell.c:1276
+#, c-format
+msgid "hash value = %x"
+msgstr "jaucējvērtība = %x"
+
+#: tools/gdbmshell.c:1313
+#, c-format
+msgid "unrecognized parameter: %s\n"
+msgstr "neatpazīts parametrs: %s\n"
+
+#: tools/gdbmshell.c:1320
+msgid "select bucket first\n"
+msgstr "vispirms izvēlieties spaini\n"
+
+#: tools/gdbmshell.c:1345
+#, c-format
+msgid "error reading entry %d"
+msgstr "kļūda, lasot ierakstu %d"
+
+#: tools/gdbmshell.c:1354 tools/gdbmshell.c:1392
+msgid "the key was:"
+msgstr "atslēga bija:"
+
+#: tools/gdbmshell.c:1590
+#, c-format
+msgid "Bucket #%d, collisions: %d"
+msgstr "Spainis #%d, sadursmes: %d"
+
+#: tools/gdbmshell.c:1609
+msgid "error reading entry"
+msgstr "kļūda, lasot ierakstu"
+
+#: tools/gdbmshell.c:1688
+#, c-format
+msgid "%s(%d) failed"
+msgstr "%s(%d) neizdevās"
+
+#: tools/gdbmshell.c:1744
+msgid "error dumping database"
+msgstr "kļūda, izmetot datubāzi"
+
+#: tools/gdbmshell.c:1803
+msgid "error restoring metadata"
+msgstr "kļūda, atjaunojot metadatus"
+
+#: tools/gdbmshell.c:1836
+#, c-format
+msgid "Database file: %s\n"
+msgstr "Datubāzes fails: %s\n"
+
+#: tools/gdbmshell.c:1838
+msgid "Database is open"
+msgstr "Datubāze ir atvērta"
+
+#: tools/gdbmshell.c:1840
+msgid "Database is not open"
+msgstr "Datubāze nav atvērta"
+
+#: tools/gdbmshell.c:1895
+#, c-format
+msgid "unknown debug flag: %s"
+msgstr "nezināms atkļūdošanas karogs: %s"
+
+#: tools/gdbmshell.c:1898
+#, c-format
+msgid "invalid type of argument %d"
+msgstr "nederīgs argumenta %d tips"
+
+#: tools/gdbmshell.c:1903
+msgid "Debug flags:"
+msgstr "Atkļūdošanas karogi:"
+
+#: tools/gdbmshell.c:1909
+msgid "none"
+msgstr "nav"
+
+#: tools/gdbmshell.c:1913
+msgid "compiled without debug support"
+msgstr "kompilēts bez atkļūdošanas atbalsta"
+
+#: tools/gdbmshell.c:1964
+#, c-format
+msgid "command failed with status %d"
+msgstr "komanda neizdevās ar statusu %d"
+
+#: tools/gdbmshell.c:1967
+#, c-format
+msgid "command terminated on signal %d"
+msgstr "komanda pārtraukta ar signālu %d"
+
+#. TRANSLATORS: %s is the stream name
+#: tools/gdbmshell.c:2037
+#, c-format
+msgid "input history is not available for %s input stream"
+msgstr "ievades vēsture nav pieejama ievades straumei %s"
+
+#: tools/gdbmshell.c:2125
+msgid "count (number of entries)"
+msgstr "skaits (ierakstu skaits)"
+
+#: tools/gdbmshell.c:2135 tools/gdbmshell.c:2163 tools/gdbmshell.c:2216
+#: tools/gdbmshell.c:2325
+msgid "KEY"
+msgstr "ATSLĒGA"
+
+#: tools/gdbmshell.c:2138
+msgid "delete a record"
+msgstr "dzēst ierakstu"
+
+#: tools/gdbmshell.c:2148 tools/gdbmshell.c:2176 tools/gdbmtool.c:93
+msgid "FILE"
+msgstr "FAILS"
+
+#: tools/gdbmshell.c:2153
+msgid "export"
+msgstr "eksportēt"
+
+#: tools/gdbmshell.c:2166
+msgid "fetch record"
+msgstr "izgūt ierakstu"
+
+#: tools/gdbmshell.c:2181
+msgid "import"
+msgstr "importēt"
+
+#: tools/gdbmshell.c:2193
+msgid "list"
+msgstr "saraksts"
+
+#: tools/gdbmshell.c:2203
+msgid "[KEY]"
+msgstr "[ATSLĒGA]"
+
+#: tools/gdbmshell.c:2206
+msgid "continue iteration: get next key and datum"
+msgstr "turpināt iterāciju: iegūt nākamo atslēgu un datus"
+
+#: tools/gdbmshell.c:2217
+msgid "DATA"
+msgstr "DATI"
+
+#: tools/gdbmshell.c:2220
+msgid "store"
+msgstr "saglabāt"
+
+#: tools/gdbmshell.c:2229
+msgid "begin iteration: get first key and datum"
+msgstr "sākt iterāciju: iegūt pirmo atslēgu un datus"
+
+#: tools/gdbmshell.c:2238
+msgid "reorganize"
+msgstr "reorganizēt"
+
+#: tools/gdbmshell.c:2257
+msgid "recover the database"
+msgstr "atkopt datubāzi"
+
+#: tools/gdbmshell.c:2266
+msgid "print avail list"
+msgstr "izvadīt pieejamo sarakstu (avail)"
+
+#: tools/gdbmshell.c:2276
+msgid "[NUMBER]"
+msgstr "[SKAITS]"
+
+#: tools/gdbmshell.c:2279
+msgid "print a bucket"
+msgstr "izvadīt spaini"
+
+#: tools/gdbmshell.c:2288
+msgid "print current bucket"
+msgstr "izvadīt pašreizējo spaini"
+
+#: tools/gdbmshell.c:2297
+msgid "print sibling bucket"
+msgstr "izvadīt blakusspaini"
+
+#: tools/gdbmshell.c:2306
+msgid "print hash directory"
+msgstr "izvadīt jaucējdirektoriju"
+
+#: tools/gdbmshell.c:2315
+msgid "print database file header"
+msgstr "izvadīt datubāzes faila galveni"
+
+#: tools/gdbmshell.c:2328
+msgid "hash value of key"
+msgstr "atslēgas jaucējvērtība"
+
+#: tools/gdbmshell.c:2336
+msgid "print the bucket cache"
+msgstr "izvadīt spaiņu kešatmiņu"
+
+#: tools/gdbmshell.c:2345
+msgid "print current program status"
+msgstr "izvadīt programmas pašreizējo statusu"
+
+#: tools/gdbmshell.c:2353
+msgid "Synchronize the database with disk copy"
+msgstr "Sinhronizēt datubāzi ar diska kopiju"
+
+#: tools/gdbmshell.c:2362
+msgid "Upgrade the database to extended format"
+msgstr "Jaunināt datubāzi uz paplašināto formātu"
+
+#: tools/gdbmshell.c:2371
+msgid "Downgrade the database to standard format"
+msgstr "Pazemināt datubāzi uz standarta formātu"
+
+#: tools/gdbmshell.c:2385
+msgid "analyze two database snapshots"
+msgstr "analizēt divus datubāzes momentuzņēmumus"
+
+#: tools/gdbmshell.c:2393
+msgid "print version of gdbm"
+msgstr "izvadīt gdbm versiju"
+
+#: tools/gdbmshell.c:2401
+msgid "print this help list"
+msgstr "izvadīt šo palīdzības sarakstu"
+
+#: tools/gdbmshell.c:2409
+msgid "quit the program"
+msgstr "iziet no programmas"
+
+#: tools/gdbmshell.c:2421
+msgid "set or list variables"
+msgstr "iestatīt vai uzskaitīt mainīgos"
+
+#: tools/gdbmshell.c:2432
+msgid "unset variables"
+msgstr "atiestatīt mainīgos"
+
+#: tools/gdbmshell.c:2444
+msgid "define datum structure"
+msgstr "definēt datu struktūru"
+
+#: tools/gdbmshell.c:2455
+msgid "source command script"
+msgstr "izpildīt komandu skriptu"
+
+#: tools/gdbmshell.c:2463
+msgid "close the database"
+msgstr "aizvērt datubāzi"
+
+#: tools/gdbmshell.c:2475
+msgid "open new database"
+msgstr "atvērt jaunu datubāzi"
+
+#: tools/gdbmshell.c:2484
+msgid "[FROM]"
+msgstr "[NO]"
+
+#: tools/gdbmshell.c:2485
+msgid "[COUNT]"
+msgstr "[SKAITS]"
+
+#: tools/gdbmshell.c:2488
+msgid "show input history"
+msgstr "rādīt ievades vēsturi"
+
+#: tools/gdbmshell.c:2497
+msgid "query/set debug level"
+msgstr "vaicāt/iestatīt atkļūdošanas līmeni"
+
+#: tools/gdbmshell.c:2516
+msgid "invoke the shell"
+msgstr "izsaukt čaulu"
+
+#: tools/gdbmshell.c:2528
+msgid "describe GDBM error code"
+msgstr "aprakstīt GDBM kļūdas kodu"
+
+#: tools/gdbmshell.c:2537 tools/gdbmshell.c:2538
+msgid "[BUCKET]"
+msgstr "[SPAINIS]"
+
+#: tools/gdbmshell.c:2541
+msgid "find colliding entries in buckets"
+msgstr "atrast sadurošos ierakstus spaiņos"
+
+#: tools/gdbmshell.c:2693
+msgid "Invalid command. Try ? for help."
+msgstr "Nederīga komanda. Palīdzībai mēģiniet ?."
+
+#: tools/gdbmshell.c:2694
+msgid "Unknown command"
+msgstr "Nezināma komanda"
+
+#: tools/gdbmshell.c:3009
+#, c-format
+msgid "cannot coerce %s to %s"
+msgstr "nevar piespiedu kārtā pārveidot %s par %s"
+
+#: tools/gdbmshell.c:3191
+#, c-format
+msgid "%s: not enough arguments"
+msgstr "%s: nepietiek argumentu"
+
+#: tools/gdbmshell.c:3199
+msgid "unexpected eof"
+msgstr "negaidītas faila beigas"
+
+#: tools/gdbmshell.c:3215
+#, c-format
+msgid "%s: too many arguments"
+msgstr "%s: pārāk daudz argumentu"
+
+#: tools/gdbmshell.c:3370
+#, c-format
+msgid ""
+"\n"
+"Welcome to the gdbm tool.  Type ? for help.\n"
+"\n"
+msgstr ""
+"\n"
+"Laipni lūdzam gdbm rīkā.  Palīdzībai ierakstiet ?.\n"
+"\n"
+
+#: tools/gdbmtool.c:48
+msgid "cannot find home directory"
+msgstr "nevar atrast mājas direktoriju"
+
+#: tools/gdbmtool.c:82
+msgid "examine and/or modify a GDBM database"
+msgstr "pārbaudīt un/vai mainīt GDBM datubāzi"
+
+#: tools/gdbmtool.c:83
+msgid "DBFILE [COMMAND [ARG ...]]"
+msgstr "DB_FAILS [KOMANDA [ARG ...]]"
+
+#: tools/gdbmtool.c:91 tools/gdbmtool.c:92
+msgid "SIZE"
+msgstr "IZMĒRS"
+
+#: tools/gdbmtool.c:91
+msgid "set block size"
+msgstr "iestatīt bloka izmēru"
+
+#: tools/gdbmtool.c:92
+msgid "set cache size"
+msgstr "iestatīt kešatmiņas izmēru"
+
+#: tools/gdbmtool.c:93
+msgid "read commands from FILE"
+msgstr "lasīt komandas no FAILA"
+
+#: tools/gdbmtool.c:95
+msgid "disable file locking"
+msgstr "atspējot failu bloķēšanu"
+
+#: tools/gdbmtool.c:96
+msgid "do not use mmap"
+msgstr "neizmantot mmap"
+
+#: tools/gdbmtool.c:97
+msgid "create database"
+msgstr "izveidot datubāzi"
+
+#: tools/gdbmtool.c:98
+msgid "do not read .gdbmtoolrc file"
+msgstr "nelasīt .gdbmtoolrc failu"
+
+#: tools/gdbmtool.c:99
+msgid "open database in read-only mode"
+msgstr "atvērt datubāzi tikai lasīšanas režīmā"
+
+#: tools/gdbmtool.c:100
+msgid "synchronize to disk after each write"
+msgstr "pēc katras rakstīšanas sinhronizēt ar disku"
+
+#: tools/gdbmtool.c:101
+msgid "don't print initial banner"
+msgstr "neizvadīt sākotnējo reklāmkarogu"
+
+#. TRANSLATORS: File Descriptor.
+#: tools/gdbmtool.c:104
+msgid "FD"
+msgstr "FD"
+
+#: tools/gdbmtool.c:105
+msgid "open database at the given file descriptor"
+msgstr "atvērt datubāzi pie norādītā faila deskriptora"
+
+#: tools/gdbmtool.c:106
+msgid "extended format (numsync)"
+msgstr "paplašinātais formāts (numsync)"
+
+#: tools/gdbmtool.c:108
+msgid "enable trace mode"
+msgstr "iespējot trasēšanas režīmu"
+
+#: tools/gdbmtool.c:109
+msgid "print timing after each command"
+msgstr "pēc katras komandas izvadīt laiku"
+
+#: tools/gdbmtool.c:111
+msgid "enable lexical analyzer traces"
+msgstr "iespējot leksiskā analizatora trasējumus"
+
+#: tools/gdbmtool.c:112
+msgid "enable grammar traces"
+msgstr "iespējot gramatikas trasējumus"
+
+#: tools/gdbmtool.c:149
+#, c-format
+msgid "invalid file descriptor: %s"
+msgstr "nederīgs faila deskriptors: %s"
+
+#: tools/gdbmtool.c:226
+#, c-format
+msgid "unknown option %s; try `%s -h' for more info"
+msgstr "nezināma opcija %s; plašākai informācijai mēģiniet `%s -h'"
+
+#: tools/gdbmtool.c:229
+#, c-format
+msgid "unknown option %c; try `%s -h' for more info"
+msgstr "nezināma opcija %c; plašākai informācijai mēģiniet `%s -h'"
+
+#: tools/gdbmtool.c:253
+msgid "--file and command cannot be used together"
+msgstr "--file un komandu nevar izmantot kopā"
+
+#: tools/gram.y:187
+#, c-format
+msgid "duplicate tag: %s"
+msgstr "dublēta birka: %s"
+
+#: tools/gram.y:269
+#, c-format
+msgid "expected \"key\" or \"content\", but found \"%s\""
+msgstr "gaidīts \"key\" vai \"content\", bet atrasts \"%s\""
+
+#: tools/gram.y:341 tools/gram.y:370 tools/gram.y:402
+#, c-format
+msgid "no such variable: %s"
+msgstr "nav šāda mainīgā: %s"
+
+#: tools/gram.y:345
+#, c-format
+msgid "%s is not a boolean variable"
+msgstr "%s nav Būla mainīgais"
+
+#: tools/gram.y:349
+#, c-format
+msgid "%s: setting is not allowed"
+msgstr "%s: iestatīšana nav atļauta"
+
+#: tools/gram.y:353
+msgid "can't set variable"
+msgstr "nevar iestatīt mainīgo"
+
+#: tools/gram.y:357 tools/gram.y:382
+#, c-format
+msgid "unexpected error setting %s: %d"
+msgstr "negaidīta kļūda, iestatot %s: %d"
+
+#: tools/gram.y:374
+#, c-format
+msgid "%s: bad variable type"
+msgstr "%s: slikts mainīgā tips"
+
+#: tools/gram.y:378
+#, c-format
+msgid "%s: value %s is not allowed"
+msgstr "%s: vērtība %s nav atļauta"
+
+#: tools/gram.y:406
+#, c-format
+msgid "%s: variable cannot be unset"
+msgstr "%s: mainīgo nevar atiestatīt"
+
+#: tools/input-file.c:60
+#, c-format
+msgid "cannot open `%s': %s"
+msgstr "nevar atvērt `%s': %s"
+
+#: tools/input-file.c:65
+#, c-format
+msgid "%s is not a regular file"
+msgstr "%s nav parasts fails"
+
+#: tools/input-file.c:72
+#, c-format
+msgid "cannot open %s for reading: %s"
+msgstr "nevar atvērt %s lasīšanai: %s"
+
+#: tools/lex.l:146
+msgid "recursive sourcing"
+msgstr "rekursīva iekļaušana"
+
+#: tools/lex.l:148
+#, c-format
+msgid "%s already sourced here"
+msgstr "%s šeit jau iekļauts"
+
+#: tools/lex.l:259 tools/lex.l:269
+msgid "invalid #line statement"
+msgstr "nederīgs #line priekšraksts"
+
+#: tools/lex.l:350
+msgid "malformed pipeline"
+msgstr "nepareizi veidots konveijers"
+
+#: tools/pagerfile.c:44
+#, c-format
+msgid "cannot run pager `%s': %s"
+msgstr "nevar palaist lapotāju `%s': %s"
+
+#: tools/pagerfile.c:215
+#, c-format
+msgid "cannot run command `%s': %s"
+msgstr "nevar palaist komandu `%s': %s"
+
+#: tools/parseopt.c:49
+msgid "give this help list"
+msgstr "parādīt šo palīdzības sarakstu"
+
+#: tools/parseopt.c:50
+msgid "print program version"
+msgstr "parādīt programmas versiju"
+
+#: tools/parseopt.c:51
+msgid "give a short usage message"
+msgstr "parādīt īsu lietošanas paziņojumu"
+
+#: tools/parseopt.c:289
+#, c-format
+msgid "error in ARGP_HELP_FMT: improper usage of [no-]%s\n"
+msgstr "kļūda ARGP_HELP_FMT: nepareizs [no-]%s lietojums\n"
+
+#: tools/parseopt.c:307
+#, c-format
+msgid "error in ARGP_HELP_FMT: bad value for %s"
+msgstr "kļūda ARGP_HELP_FMT: slikta %s vērtība"
+
+#: tools/parseopt.c:311
+#, c-format
+msgid " (near %s)"
+msgstr " (pie %s)"
+
+#: tools/parseopt.c:320
+#, c-format
+msgid "error in ARGP_HELP_FMT: %s value is out of range\n"
+msgstr "kļūda ARGP_HELP_FMT: %s vērtība ir ārpus diapazona\n"
+
+#: tools/parseopt.c:331
+#, c-format
+msgid "%s: ARGP_HELP_FMT parameter requires a value\n"
+msgstr "%s: ARGP_HELP_FMT parametram nepieciešama vērtība\n"
+
+#: tools/parseopt.c:340
+#, c-format
+msgid "%s: Unknown ARGP_HELP_FMT parameter\n"
+msgstr "%s: nezināms ARGP_HELP_FMT parametrs\n"
+
+#: tools/parseopt.c:367
+#, c-format
+msgid "ARGP_HELP_FMT: missing delimiter near %s\n"
+msgstr "ARGP_HELP_FMT: trūkst atdalītāja pie %s\n"
+
+#: tools/parseopt.c:487 tools/parseopt.c:565
+msgid "Usage:"
+msgstr "Lietošana:"
+
+#: tools/parseopt.c:489
+msgid "OPTION"
+msgstr "OPCIJA"
+
+#: tools/parseopt.c:510
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Obligātie vai izvēles argumenti garajām opcijām ir arī obligāti vai izvēles attiecīgajām īsajām opcijām."
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: tools/parseopt.c:523
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr "Ziņojiet par kļūdām uz %s.\n"
+
+#: tools/parseopt.c:526
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "%s mājaslapa: <%s>\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: tools/parseopt.c:667
+msgid "(C)"
+msgstr "(C)"
+
+#. TRANSLATORS: Please, don't translate 'y' and 'n'.
+#: tools/util.c:100
+msgid "Please, reply 'y' or 'n'"
+msgstr "Lūdzu, atbildiet 'y' vai 'n'"
+
+#: tools/var.c:795
+#, c-format
+msgid "unrecognized error code: %s"
+msgstr "neatpazīts kļūdas kods: %s"
