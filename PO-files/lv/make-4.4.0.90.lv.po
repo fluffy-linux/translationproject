@@ -1,0 +1,2422 @@
+# Latvian translation of make.
+# Copyright (C) 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the make package.
+# Rihards Priedītis <rprieditis@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: make 4.4.0.90\n"
+"Report-Msgid-Bugs-To: bug-make@gnu.org\n"
+"POT-Creation-Date: 2023-01-14 14:08-0500\n"
+"PO-Revision-Date: 2026-11-10 21:39+0200\n"
+"Last-Translator: Rihards Priedītis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <translation-team-lv@googlegroups.com>\n"
+"Language: lv\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==0 || (n%100>=11 && n%100<=19) ? 0 : n%10==1 && n%100!=11 ? 1 : 2);\n"
+"X-Generator: Poedit 3.10\n"
+
+#: src/ar.c:47
+#, c-format
+msgid "attempt to use unsupported feature: '%s'"
+msgstr "mēģinājums izmantot neatbalstītu iespēju: '%s'"
+
+#: src/ar.c:127
+#, c-format
+msgid "touch archive member is not available on VMS"
+msgstr "arhīva elementa touch nav pieejams VMS"
+
+#: src/ar.c:151
+#, c-format
+msgid "touch: Archive '%s' does not exist"
+msgstr "touch: arhīvs '%s' neeksistē"
+
+#: src/ar.c:154
+#, c-format
+msgid "touch: '%s' is not a valid archive"
+msgstr "touch: '%s' nav derīgs arhīvs"
+
+#: src/ar.c:161
+#, c-format
+msgid "touch: Member '%s' does not exist in '%s'"
+msgstr "touch: elements '%s' neeksistē arhīvā '%s'"
+
+#: src/ar.c:168
+#, c-format
+msgid "touch: Bad return code from ar_member_touch on '%s'"
+msgstr "touch: slikts ar_member_touch atgriešanas kods '%s'"
+
+#: src/arscan.c:130
+#, c-format
+msgid "lbr$set_module() failed to extract module info, status = %d"
+msgstr "lbr$set_module() neizdevās izgūt moduļa informāciju, statuss = %d"
+
+#: src/arscan.c:236
+#, c-format
+msgid "lbr$ini_control() failed with status = %d"
+msgstr "lbr$ini_control() neizdevās ar statusu = %d"
+
+#: src/arscan.c:261
+#, c-format
+msgid "unable to open library '%s' to lookup member status %d"
+msgstr "nevar atvērt bibliotēku '%s', lai uzmeklētu elementa statusu %d"
+
+#: src/arscan.c:402 src/arscan.c:406
+#, c-format
+msgid "Invalid %s for archive %s member %s"
+msgstr "Nederīgs %s arhīva %s elementam %s"
+
+#: src/arscan.c:995
+#, c-format
+msgid "Member '%s'%s: %ld bytes at %ld (%ld).\n"
+msgstr "Elements '%s'%s: %ld baiti pozīcijā %ld (%ld).\n"
+
+#: src/arscan.c:996
+msgid " (name might be truncated)"
+msgstr " (nosaukums var būt saīsināts)"
+
+#: src/arscan.c:999
+#, c-format
+msgid "  Date %s"
+msgstr "  Datums %s"
+
+#: src/arscan.c:1000
+#, c-format
+msgid "  uid = %d, gid = %d, mode = 0%o.\n"
+msgstr "  uid = %d, gid = %d, režīms = 0%o.\n"
+
+#: src/commands.c:379
+#, c-format
+msgid "Recipe has too many lines (limit %hu)"
+msgstr "Receptē ir pārāk daudz rindu (ierobežojums %hu)"
+
+#: src/commands.c:501
+msgid "*** Break.\n"
+msgstr "*** Pārtraukums.\n"
+
+#: src/commands.c:629
+#, c-format
+msgid "*** [%s] Archive member '%s' may be bogus; not deleted"
+msgstr "*** [%s] Arhīva elements '%s' var būt nepareizs; netiek dzēsts"
+
+#: src/commands.c:633
+#, c-format
+msgid "*** Archive member '%s' may be bogus; not deleted"
+msgstr "*** Arhīva elements '%s' var būt nepareizs; netiek dzēsts"
+
+#: src/commands.c:647
+#, c-format
+msgid "*** [%s] Deleting file '%s'"
+msgstr "*** [%s] Dzēš failu '%s'"
+
+#: src/commands.c:649
+#, c-format
+msgid "*** Deleting file '%s'"
+msgstr "*** Dzēš failu '%s'"
+
+#: src/commands.c:685
+msgid "#  recipe to execute"
+msgstr "#  izpildāmā recepte"
+
+#: src/commands.c:688
+msgid " (built-in):"
+msgstr " (iebūvēta):"
+
+#: src/commands.c:690
+#, c-format
+msgid " (from '%s', line %lu):\n"
+msgstr " (no '%s', rinda %lu):\n"
+
+#: src/dir.c:1108
+msgid ""
+"\n"
+"# Directories\n"
+msgstr ""
+"\n"
+"# Direktorijas\n"
+
+#: src/dir.c:1120
+#, c-format
+msgid "# %s: could not be stat'd.\n"
+msgstr "# %s: nevarēja izpildīt stat.\n"
+
+#: src/dir.c:1123
+#, c-format
+msgid "# %s (key %s, mtime %s): could not be opened.\n"
+msgstr "# %s (atslēga %s, mtime %s): nevarēja atvērt.\n"
+
+#: src/dir.c:1127
+#, c-format
+msgid "# %s (device %d, inode [%d,%d,%d]): could not be opened.\n"
+msgstr "# %s (ierīce %d, i-mezgls [%d,%d,%d]): nevarēja atvērt.\n"
+
+#: src/dir.c:1132
+#, c-format
+msgid "# %s (device %ld, inode %ld): could not be opened.\n"
+msgstr "# %s (ierīce %ld, i-mezgls %ld): nevarēja atvērt.\n"
+
+#: src/dir.c:1156
+#, c-format
+msgid "# %s (key %s, mtime %s): "
+msgstr "# %s (atslēga %s, mtime %s): "
+
+#: src/dir.c:1160
+#, c-format
+msgid "# %s (device %d, inode [%d,%d,%d]): "
+msgstr "# %s (ierīce %d, i-mezgls [%d,%d,%d]): "
+
+#: src/dir.c:1165
+#, c-format
+msgid "# %s (device %ld, inode %ld): "
+msgstr "# %s (ierīce %ld, i-mezgls %ld): "
+
+#: src/dir.c:1169 src/dir.c:1190
+msgid "No"
+msgstr "Nē"
+
+#: src/dir.c:1172 src/dir.c:1193
+msgid " files, "
+msgstr " faili, "
+
+#: src/dir.c:1174 src/dir.c:1195
+msgid "no"
+msgstr "nē"
+
+#: src/dir.c:1177
+msgid " impossibilities"
+msgstr " neiespējamības"
+
+#: src/dir.c:1181
+msgid " so far."
+msgstr " līdz šim."
+
+#: src/dir.c:1198
+#, c-format
+msgid " impossibilities in %lu directories.\n"
+msgstr " neiespējamības %lu direktorijās.\n"
+
+#: src/expand.c:113
+#, c-format
+msgid "%s:%lu: not recursively expanding %s to export to shell function\n"
+msgstr "%s:%lu: %s netiek rekursīvi izvērsts eksportēšanai uz čaulas funkciju\n"
+
+#: src/expand.c:149
+#, c-format
+msgid "Recursive variable '%s' references itself (eventually)"
+msgstr "Rekursīvais mainīgais '%s' (galu galā) atsaucas uz sevi"
+
+#: src/expand.c:295
+#, c-format
+msgid "unterminated variable reference"
+msgstr "nepabeigta mainīgā atsauce"
+
+#: src/file.c:269
+#, c-format
+msgid "Recipe was specified for file '%s' at %s:%lu,"
+msgstr "Failam '%s' recepte tika norādīta %s:%lu,"
+
+#: src/file.c:274
+#, c-format
+msgid "Recipe for file '%s' was found by implicit rule search,"
+msgstr "Recepte failam '%s' tika atrasta netiešo kārtulu meklēšanā,"
+
+#: src/file.c:278
+#, c-format
+msgid "but '%s' is now considered the same file as '%s'."
+msgstr "bet '%s' tagad tiek uzskatīts par to pašu failu, kas '%s'."
+
+#: src/file.c:281
+#, c-format
+msgid "Recipe for '%s' will be ignored in favor of the one for '%s'."
+msgstr "Recepte '%s' tiks ignorēta par labu receptei '%s'."
+
+#: src/file.c:301
+#, c-format
+msgid "can't rename single-colon '%s' to double-colon '%s'"
+msgstr "nevar pārdēvēt viena kola '%s' par divu kolu '%s'"
+
+#: src/file.c:307
+#, c-format
+msgid "can't rename double-colon '%s' to single-colon '%s'"
+msgstr "nevar pārdēvēt divu kolu '%s' par viena kola '%s'"
+
+#: src/file.c:404
+#, c-format
+msgid "*** Deleting intermediate file '%s'"
+msgstr "*** Dzēš starpfailu '%s'"
+
+#: src/file.c:408
+#, c-format
+msgid "Removing intermediate files...\n"
+msgstr "Noņem starpfailus...\n"
+
+#: src/file.c:822
+#, c-format
+msgid "%s cannot be both .NOTINTERMEDIATE and .INTERMEDIATE"
+msgstr "%s nevar būt gan .NOTINTERMEDIATE, gan .INTERMEDIATE"
+
+#: src/file.c:837
+#, c-format
+msgid "%s cannot be both .NOTINTERMEDIATE and .SECONDARY"
+msgstr "%s nevar būt gan .NOTINTERMEDIATE, gan .SECONDARY"
+
+#: src/file.c:847
+#, c-format
+msgid ".NOTINTERMEDIATE and .SECONDARY are mutually exclusive"
+msgstr ".NOTINTERMEDIATE un .SECONDARY ir savstarpēji izslēdzoši"
+
+#: src/file.c:939
+msgid "Current time"
+msgstr "Pašreizējais laiks"
+
+#: src/file.c:943
+#, c-format
+msgid "%s: Timestamp out of range; substituting %s"
+msgstr "%s: laikspiedols ārpus diapazona; aizstāj ar %s"
+
+#: src/file.c:1086
+msgid "# Not a target:"
+msgstr "# Nav mērķis:"
+
+#: src/file.c:1091
+msgid "#  Precious file (prerequisite of .PRECIOUS)."
+msgstr "#  Vērtīgs fails (.PRECIOUS priekšnoteikums)."
+
+#: src/file.c:1093
+msgid "#  Phony target (prerequisite of .PHONY)."
+msgstr "#  Fiktīvs mērķis (.PHONY priekšnoteikums)."
+
+#: src/file.c:1095
+msgid "#  Command line target."
+msgstr "#  Komandrindas mērķis."
+
+#: src/file.c:1097
+msgid "#  A default, MAKEFILES, or -include/sinclude makefile."
+msgstr "#  Noklusējuma, MAKEFILES vai -include/sinclude makefile."
+
+#: src/file.c:1099
+msgid "#  Builtin rule"
+msgstr "#  Iebūvēta kārtula"
+
+#: src/file.c:1101
+msgid "#  Implicit rule search has been done."
+msgstr "#  Netiešo kārtulu meklēšana ir veikta."
+
+#: src/file.c:1102
+msgid "#  Implicit rule search has not been done."
+msgstr "#  Netiešo kārtulu meklēšana nav veikta."
+
+#: src/file.c:1104
+#, c-format
+msgid "#  Implicit/static pattern stem: '%s'\n"
+msgstr "#  Netiešā/statiskā šablona celms: '%s'\n"
+
+#: src/file.c:1106
+msgid "#  File is an intermediate prerequisite."
+msgstr "#  Fails ir starpposma priekšnoteikums."
+
+#: src/file.c:1108
+msgid "#  File is a prerequisite of .NOTINTERMEDIATE."
+msgstr "#  Fails ir .NOTINTERMEDIATE priekšnoteikums."
+
+#: src/file.c:1110
+msgid "#  File is secondary (prerequisite of .SECONDARY)."
+msgstr "#  Fails ir sekundārs (.SECONDARY priekšnoteikums)."
+
+#: src/file.c:1114
+msgid "#  Also makes:"
+msgstr "#  Veido arī:"
+
+#: src/file.c:1120
+msgid "#  Modification time never checked."
+msgstr "#  Modificēšanas laiks nekad nav pārbaudīts."
+
+#: src/file.c:1122
+msgid "#  File does not exist."
+msgstr "#  Fails neeksistē."
+
+#: src/file.c:1124
+msgid "#  File is very old."
+msgstr "#  Fails ir ļoti vecs."
+
+#: src/file.c:1129
+#, c-format
+msgid "#  Last modified %s\n"
+msgstr "#  Pēdējoreiz modificēts %s\n"
+
+#: src/file.c:1132
+msgid "#  File has been updated."
+msgstr "#  Fails ir atjaunināts."
+
+#: src/file.c:1132
+msgid "#  File has not been updated."
+msgstr "#  Fails nav atjaunināts."
+
+#: src/file.c:1136
+msgid "#  Recipe currently running (THIS IS A BUG)."
+msgstr "#  Recepte pašlaik darbojas (TĀ IR KĻŪDA)."
+
+#: src/file.c:1139
+msgid "#  Dependencies recipe running (THIS IS A BUG)."
+msgstr "#  Atkarību recepte darbojas (TĀ IR KĻŪDA)."
+
+#: src/file.c:1148
+msgid "#  Successfully updated."
+msgstr "#  Veiksmīgi atjaunināts."
+
+#: src/file.c:1152
+msgid "#  Needs to be updated (-q is set)."
+msgstr "#  Jāatjaunina (iestatīts -q)."
+
+#: src/file.c:1155
+msgid "#  Failed to be updated."
+msgstr "#  Neizdevās atjaunināt."
+
+#: src/file.c:1160
+msgid "#  Invalid value in 'command_state' member!"
+msgstr "#  Nederīga vērtība loceklī 'command_state'!"
+
+#: src/file.c:1179
+msgid ""
+"\n"
+"# Files"
+msgstr ""
+"\n"
+"# Faili"
+
+#: src/file.c:1183
+msgid ""
+"\n"
+"# files hash-table stats:\n"
+"# "
+msgstr ""
+"\n"
+"# failu jaucējtabulas statistika:\n"
+"# "
+
+#: src/file.c:1193
+#, c-format
+msgid "%s: Field '%s' not cached: %s"
+msgstr "%s: lauks '%s' nav kešots: %s"
+
+#: src/function.c:779 src/function.c:1284
+#, c-format
+msgid "%s: empty value"
+msgstr "%s: tukša vērtība"
+
+#: src/function.c:784
+#, c-format
+msgid "%s: '%s' out of range"
+msgstr "%s: '%s' ārpus diapazona"
+
+#: src/function.c:800
+msgid "invalid first argument to 'word' function"
+msgstr "nederīgs funkcijas 'word' pirmais arguments"
+
+#: src/function.c:803
+#, c-format
+msgid "first argument to 'word' function must be greater than 0"
+msgstr "funkcijas 'word' pirmajam argumentam jābūt lielākam par 0"
+
+#: src/function.c:821
+msgid "invalid first argument to 'wordlist' function"
+msgstr "nederīgs funkcijas 'wordlist' pirmais arguments"
+
+#: src/function.c:822
+msgid "invalid second argument to 'wordlist' function"
+msgstr "nederīgs funkcijas 'wordlist' otrais arguments"
+
+#: src/function.c:1328
+msgid "non-numeric first argument to 'intcmp' function"
+msgstr "neskaitlisks funkcijas 'intcmp' pirmais arguments"
+
+#: src/function.c:1329
+msgid "non-numeric second argument to 'intcmp' function"
+msgstr "neskaitlisks funkcijas 'intcmp' otrais arguments"
+
+#: src/function.c:1684
+#, c-format
+msgid "windows32_openpipe: DuplicateHandle(In) failed (e=%lu)\n"
+msgstr "windows32_openpipe: DuplicateHandle(In) neizdevās (e=%lu)\n"
+
+#: src/function.c:1708
+#, c-format
+msgid "windows32_openpipe: DuplicateHandle(Err) failed (e=%lu)\n"
+msgstr "windows32_openpipe: DuplicateHandle(Err) neizdevās (e=%lu)\n"
+
+#: src/function.c:1715
+#, c-format
+msgid "CreatePipe() failed (e=%lu)\n"
+msgstr "CreatePipe() neizdevās (e=%lu)\n"
+
+#: src/function.c:1723
+#, c-format
+msgid "windows32_openpipe(): process_init_fd() failed\n"
+msgstr "windows32_openpipe(): process_init_fd() neizdevās\n"
+
+#: src/function.c:1983
+#, c-format
+msgid "Cleaning up temporary batch file %s\n"
+msgstr "Iztīra pagaidu pakešfailu %s\n"
+
+#: src/function.c:2348 src/function.c:2388
+#, c-format
+msgid "file: missing filename"
+msgstr "file: trūkst faila nosaukuma"
+
+#: src/function.c:2358 src/function.c:2408
+#, c-format
+msgid "open: %s: %s"
+msgstr "open: %s: %s"
+
+#: src/function.c:2371
+#, c-format
+msgid "write: %s: %s"
+msgstr "write: %s: %s"
+
+#: src/function.c:2374 src/function.c:2427
+#, c-format
+msgid "close: %s: %s"
+msgstr "close: %s: %s"
+
+#: src/function.c:2391
+#, c-format
+msgid "file: too many arguments"
+msgstr "file: pārāk daudz argumentu"
+
+#: src/function.c:2404
+#, c-format
+msgid "file: Failed to open '%s': %s\n"
+msgstr "file: neizdevās atvērt '%s': %s\n"
+
+#: src/function.c:2422
+#, c-format
+msgid "read: %s: %s"
+msgstr "read: %s: %s"
+
+#: src/function.c:2434
+#, c-format
+msgid "file: invalid file operation: %s"
+msgstr "file: nederīga faila darbība: %s"
+
+#: src/function.c:2552
+#, c-format
+msgid "insufficient number of arguments (%u) to function '%s'"
+msgstr "nepietiekams argumentu skaits (%u) funkcijai '%s'"
+
+#: src/function.c:2564
+#, c-format
+msgid "unimplemented on this platform: function '%s'"
+msgstr "šajā platformā nav realizēts: funkcija '%s'"
+
+#: src/function.c:2633
+#, c-format
+msgid "unterminated call to function '%s': missing '%c'"
+msgstr "nepabeigts funkcijas '%s' izsaukums: trūkst '%c'"
+
+#: src/function.c:2816
+#, c-format
+msgid "Empty function name"
+msgstr "Tukšs funkcijas nosaukums"
+
+#: src/function.c:2818
+#, c-format
+msgid "Invalid function name: %s"
+msgstr "Nederīgs funkcijas nosaukums: %s"
+
+#: src/function.c:2820
+#, c-format
+msgid "Function name too long: %s"
+msgstr "Funkcijas nosaukums ir pārāk garš: %s"
+
+#: src/function.c:2823
+#, c-format
+msgid "Invalid minimum argument count (%u) for function %s"
+msgstr "Nederīgs minimālais argumentu skaits (%u) funkcijai %s"
+
+#: src/function.c:2826
+#, c-format
+msgid "Invalid maximum argument count (%u) for function %s"
+msgstr "Nederīgs maksimālais argumentu skaits (%u) funkcijai %s"
+
+#: src/getopt.c:663
+#, c-format
+msgid "%s: option '%s' is ambiguous\n"
+msgstr "%s: opcija '%s' ir neviennozīmīga\n"
+
+#: src/getopt.c:688
+#, c-format
+msgid "%s: option '--%s' doesn't allow an argument\n"
+msgstr "%s: opcijai '--%s' nav atļauts arguments\n"
+
+#: src/getopt.c:693
+#, c-format
+msgid "%s: option '%c%s' doesn't allow an argument\n"
+msgstr "%s: opcijai '%c%s' nav atļauts arguments\n"
+
+#: src/getopt.c:710 src/getopt.c:883
+#, c-format
+msgid "%s: option '%s' requires an argument\n"
+msgstr "%s: opcijai '%s' nepieciešams arguments\n"
+
+#: src/getopt.c:739
+#, c-format
+msgid "%s: unrecognized option '--%s'\n"
+msgstr "%s: neatpazīta opcija '--%s'\n"
+
+#: src/getopt.c:743
+#, c-format
+msgid "%s: unrecognized option '%c%s'\n"
+msgstr "%s: neatpazīta opcija '%c%s'\n"
+
+#: src/getopt.c:769
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: neatļauta opcija -- %c\n"
+
+#: src/getopt.c:772
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: nederīga opcija -- %c\n"
+
+#: src/getopt.c:802 src/getopt.c:932
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: opcijai nepieciešams arguments -- %c\n"
+
+#: src/getopt.c:849
+#, c-format
+msgid "%s: option '-W %s' is ambiguous\n"
+msgstr "%s: opcija '-W %s' ir neviennozīmīga\n"
+
+#: src/getopt.c:867
+#, c-format
+msgid "%s: option '-W %s' doesn't allow an argument\n"
+msgstr "%s: opcijai '-W %s' nav atļauts arguments\n"
+
+#: src/guile.c:58
+#, c-format
+msgid "guile: Expanding '%s'\n"
+msgstr "guile: izvērš '%s'\n"
+
+#: src/guile.c:74
+#, c-format
+msgid "guile: Evaluating '%s'\n"
+msgstr "guile: novērtē '%s'\n"
+
+#: src/hash.c:50
+#, c-format
+msgid "can't allocate %lu bytes for hash table: memory exhausted"
+msgstr "nevar iedalīt %lu baitus jaucējtabulai: atmiņa izsmelta"
+
+#: src/hash.c:280
+#, c-format
+msgid "Load=%lu/%lu=%.0f%%, "
+msgstr "Noslodze=%lu/%lu=%.0f%%, "
+
+#: src/hash.c:282
+#, c-format
+msgid "Rehash=%u, "
+msgstr "Pārjaukšana=%u, "
+
+#: src/hash.c:283
+#, c-format
+msgid "Collisions=%lu/%lu=%.0f%%"
+msgstr "Kolīzijas=%lu/%lu=%.0f%%"
+
+#: src/implicit.c:41
+#, c-format
+msgid "Looking for an implicit rule for '%s'.\n"
+msgstr "Meklē netiešo kārtulu '%s'.\n"
+
+#: src/implicit.c:57
+#, c-format
+msgid "Looking for archive-member implicit rule for '%s'.\n"
+msgstr "Meklē arhīva elementa netiešo kārtulu '%s'.\n"
+
+#: src/implicit.c:61
+#, c-format
+msgid "No archive-member implicit rule found for '%s'.\n"
+msgstr "Nav atrasta arhīva elementa netiešā kārtula '%s'.\n"
+
+#: src/implicit.c:326
+#, c-format
+msgid "Avoiding implicit rule recursion for rule '%s'.\n"
+msgstr "Izvairās no netiešās kārtulas rekursijas kārtulai '%s'.\n"
+
+#: src/implicit.c:451
+#, c-format
+msgid "Trying harder.\n"
+msgstr "Mēģina rūpīgāk.\n"
+
+#: src/implicit.c:501
+#, c-format
+msgid "Trying pattern rule '%s' with stem '%.*s'.\n"
+msgstr "Mēģina šablona kārtulu '%s' ar celmu '%.*s'.\n"
+
+#: src/implicit.c:506
+#, c-format
+msgid "Stem too long: '%s%.*s'.\n"
+msgstr "Celms pārāk garš: '%s%.*s'.\n"
+
+#: src/implicit.c:768
+#, c-format
+msgid "Rejecting rule '%s' due to impossible rule prerequisite '%s'.\n"
+msgstr "Noraida kārtulu '%s' neiespējama kārtulas priekšnoteikuma '%s' dēļ.\n"
+
+#: src/implicit.c:770
+#, c-format
+msgid "Rejecting rule '%s' due to impossible implicit prerequisite '%s'.\n"
+msgstr "Noraida kārtulu '%s' neiespējama netiešā priekšnoteikuma '%s' dēļ.\n"
+
+#: src/implicit.c:787
+#, c-format
+msgid "Trying rule prerequisite '%s'.\n"
+msgstr "Mēģina kārtulas priekšnoteikumu '%s'.\n"
+
+#: src/implicit.c:788
+#, c-format
+msgid "Trying implicit prerequisite '%s'.\n"
+msgstr "Mēģina netiešo priekšnoteikumu '%s'.\n"
+
+#: src/implicit.c:827
+#, c-format
+msgid "'%s' ought to exist.\n"
+msgstr "'%s' vajadzētu eksistēt.\n"
+
+#: src/implicit.c:834
+#, c-format
+msgid "Found '%s'.\n"
+msgstr "Atrasts '%s'.\n"
+
+#: src/implicit.c:842
+#, c-format
+msgid "Using compatibility rule '%s' due to '%s'.\n"
+msgstr "Izmanto saderības kārtulu '%s' '%s' dēļ.\n"
+
+#: src/implicit.c:856
+#, c-format
+msgid "Prerequisite '%s' of rule '%s' does not qualify as ought to exist.\n"
+msgstr "Priekšnoteikums '%s' kārtulai '%s' neatbilst kā tāds, kam vajadzētu eksistēt.\n"
+
+#: src/implicit.c:870
+#, c-format
+msgid "Found prerequisite '%s' as VPATH '%s'.\n"
+msgstr "Priekšnoteikums '%s' atrasts kā VPATH '%s'.\n"
+
+#: src/implicit.c:885
+#, c-format
+msgid "Looking for a rule with explicit file '%s'.\n"
+msgstr "Meklē kārtulu ar tiešo failu '%s'.\n"
+
+#: src/implicit.c:886
+#, c-format
+msgid "Looking for a rule with intermediate file '%s'.\n"
+msgstr "Meklē kārtulu ar starpfailu '%s'.\n"
+
+#: src/implicit.c:927
+#, c-format
+msgid "Rejecting rule '%s' due to impossible prerequisite '%s'.\n"
+msgstr "Noraida kārtulu '%s' neiespējama priekšnoteikuma '%s' dēļ.\n"
+
+#: src/implicit.c:931
+#, c-format
+msgid "Not found '%s'.\n"
+msgstr "Nav atrasts '%s'.\n"
+
+#: src/implicit.c:1144
+#, c-format
+msgid "Found implicit rule '%s' for '%s'.\n"
+msgstr "Atrasta netiešā kārtula '%s' mērķim '%s'.\n"
+
+#: src/implicit.c:1151
+#, c-format
+msgid "Searching for a compatibility rule for '%s'.\n"
+msgstr "Meklē saderības kārtulu '%s'.\n"
+
+#: src/implicit.c:1157
+#, c-format
+msgid "No implicit rule found for '%s'.\n"
+msgstr "Nav atrasta netiešā kārtula '%s'.\n"
+
+#: src/job.c:377
+msgid "Cannot create a temporary file"
+msgstr "Nevar izveidot pagaidu failu"
+
+#: src/job.c:549
+msgid " (core dumped)"
+msgstr " (izveidota kodola izmete)"
+
+#: src/job.c:554
+msgid " (ignored)"
+msgstr " (ignorēts)"
+
+#: src/job.c:558 src/job.c:1896
+msgid "<builtin>"
+msgstr "<iebūvēts>"
+
+#: src/job.c:584
+#, c-format
+msgid "%s[%s: %s] Error %d%s%s"
+msgstr "%s[%s: %s] Kļūda %d%s%s"
+
+#: src/job.c:674
+#, c-format
+msgid "*** Waiting for unfinished jobs...."
+msgstr "*** Gaida nepabeigtos darbus...."
+
+#: src/job.c:716
+#, c-format
+msgid "Live child %p (%s) PID %s %s\n"
+msgstr "Dzīvs bērns %p (%s) PID %s %s\n"
+
+#: src/job.c:718 src/job.c:913 src/job.c:1081 src/job.c:1649
+#, c-format
+msgid " (remote)"
+msgstr " (attālināts)"
+
+#: src/job.c:911
+#, c-format
+msgid "Reaping winning child %p PID %s %s\n"
+msgstr "Savāc uzvarējušo bērnu %p PID %s %s\n"
+
+#: src/job.c:912
+#, c-format
+msgid "Reaping losing child %p PID %s %s\n"
+msgstr "Savāc zaudējušo bērnu %p PID %s %s\n"
+
+#: src/job.c:963
+#, c-format
+msgid "Cleaning up temp batch file %s\n"
+msgstr "Iztīra pagaidu pakešfailu %s\n"
+
+#: src/job.c:969
+#, c-format
+msgid "Cleaning up temp batch file %s failed (%d)\n"
+msgstr "Pagaidu pakešfaila %s iztīrīšana neizdevās (%d)\n"
+
+#: src/job.c:1080
+#, c-format
+msgid "Removing child %p PID %s%s from chain.\n"
+msgstr "Noņem bērnu %p PID %s%s no ķēdes.\n"
+
+#: src/job.c:1143
+#, c-format
+msgid "Released token for child %p (%s).\n"
+msgstr "Atbrīvots marķieris bērnam %p (%s).\n"
+
+#: src/job.c:1580 src/job.c:2533
+#, c-format
+msgid "process_easy() failed to launch process (e=%ld)\n"
+msgstr "process_easy() neizdevās palaist procesu (e=%ld)\n"
+
+#: src/job.c:1584 src/job.c:2537
+#, c-format
+msgid ""
+"\n"
+"Counted %d args in failed launch\n"
+msgstr ""
+"\n"
+"Neizdevušajā palaišanā saskaitīti %d argumenti\n"
+
+#: src/job.c:1647
+#, c-format
+msgid "Putting child %p (%s) PID %s%s on the chain.\n"
+msgstr "Ievieto bērnu %p (%s) PID %s%s ķēdē.\n"
+
+#: src/job.c:1880
+#, c-format
+msgid "Obtained token for child %p (%s).\n"
+msgstr "Iegūts marķieris bērnam %p (%s).\n"
+
+#: src/job.c:1905
+#, c-format
+msgid "%s: update target '%s' due to: target is .PHONY"
+msgstr "%s: atjaunina mērķi '%s', jo: mērķis ir .PHONY"
+
+#: src/job.c:1909
+#, c-format
+msgid "%s: update target '%s' due to: target does not exist"
+msgstr "%s: atjaunina mērķi '%s', jo: mērķis neeksistē"
+
+#: src/job.c:1916 src/job.c:1944
+#, c-format
+msgid "%s: update target '%s' due to: %s"
+msgstr "%s: atjaunina mērķi '%s', jo: %s"
+
+#: src/job.c:1932
+#, c-format
+msgid "%s: update target '%s' due to: unknown reasons"
+msgstr "%s: atjaunina mērķi '%s', jo: nezināmi iemesli"
+
+#: src/job.c:2140
+#, c-format
+msgid "cannot enforce load limits on this operating system"
+msgstr "šajā operētājsistēmā nevar ieviest noslodzes ierobežojumus"
+
+#: src/job.c:2142
+msgid "cannot enforce load limit: "
+msgstr "nevar ieviest noslodzes ierobežojumu: "
+
+#: src/job.c:2231
+#, c-format
+msgid "no more file handles: could not duplicate stdin"
+msgstr "vairāk failu turu nav: nevarēja dublēt stdin"
+
+#: src/job.c:2243
+#, c-format
+msgid "no more file handles: could not duplicate stdout"
+msgstr "vairāk failu turu nav: nevarēja dublēt stdout"
+
+#: src/job.c:2257
+#, c-format
+msgid "no more file handles: could not duplicate stderr"
+msgstr "vairāk failu turu nav: nevarēja dublēt stderr"
+
+#: src/job.c:2272
+#, c-format
+msgid "Could not restore stdin"
+msgstr "Nevarēja atjaunot stdin"
+
+#: src/job.c:2280
+#, c-format
+msgid "Could not restore stdout"
+msgstr "Nevarēja atjaunot stdout"
+
+#: src/job.c:2288
+#, c-format
+msgid "Could not restore stderr"
+msgstr "Nevarēja atjaunot stderr"
+
+#: src/job.c:2566
+#, c-format
+msgid "make reaped child pid %s, still waiting for pid %s\n"
+msgstr "make savāca bērnprocesu ar pid %s, joprojām gaida pid %s\n"
+
+#: src/job.c:2674
+#, c-format
+msgid "spawnvpe: environment space might be exhausted"
+msgstr "spawnvpe: iespējams, izsmelta vides vieta"
+
+#: src/job.c:2913
+#, c-format
+msgid "$SHELL changed (was '%s', now '%s')\n"
+msgstr "$SHELL mainīts (bija '%s', tagad '%s')\n"
+
+#: src/job.c:3356 src/job.c:3560
+#, c-format
+msgid "Creating temporary batch file %s\n"
+msgstr "Izveido pagaidu pakešfailu %s\n"
+
+#: src/job.c:3364
+#, c-format
+msgid ""
+"Batch file contents:\n"
+"\t@echo off\n"
+msgstr ""
+"Pakešfaila saturs:\n"
+"\t@echo off\n"
+
+#: src/job.c:3572
+#, c-format
+msgid ""
+"Batch file contents:%s\n"
+"\t%s\n"
+msgstr ""
+"Pakešfaila saturs:%s\n"
+"\t%s\n"
+
+#: src/job.c:3680
+#, c-format
+msgid "%s (line %d) Bad shell context (!unixy && !batch_mode_shell)\n"
+msgstr "%s (rinda %d) Slikts čaulas konteksts (!unixy && !batch_mode_shell)\n"
+
+#: src/load.c:60
+#, c-format
+msgid "Failed to open global symbol table: %s"
+msgstr "Neizdevās atvērt globālo simbolu tabulu: %s"
+
+#: src/load.c:93
+#, c-format
+msgid "Loaded shared object %s\n"
+msgstr "Ielādēts koplietojamais objekts %s\n"
+
+#: src/load.c:99
+#, c-format
+msgid "Loaded object %s is not declared to be GPL compatible"
+msgstr "Ielādētais objekts %s nav deklarēts kā GPL saderīgs"
+
+#: src/load.c:106
+#, c-format
+msgid "Failed to load symbol %s from %s: %s"
+msgstr "Neizdevās ielādēt simbolu %s no %s: %s"
+
+#: src/load.c:151
+#, c-format
+msgid "Empty symbol name for load: %s"
+msgstr "Tukšs simbola nosaukums ielādei: %s"
+
+#: src/load.c:206
+#, c-format
+msgid "Loading symbol %s from %s\n"
+msgstr "Ielādē simbolu %s no %s\n"
+
+#: src/load.c:232
+#, c-format
+msgid "Unloading shared object %s\n"
+msgstr "Izlādē koplietojamo objektu %s\n"
+
+#: src/load.c:251
+#, c-format
+msgid "The 'load' operation is not supported on this platform"
+msgstr "Darbība 'load' šajā platformā netiek atbalstīta"
+
+#: src/main.c:319
+msgid "Options:\n"
+msgstr "Opcijas:\n"
+
+#: src/main.c:320
+msgid "  -b, -m                      Ignored for compatibility.\n"
+msgstr "  -b, -m                      Ignorēts saderības dēļ.\n"
+
+#: src/main.c:322
+msgid "  -B, --always-make           Unconditionally make all targets.\n"
+msgstr "  -B, --always-make           Beznosacījumu veidot visus mērķus.\n"
+
+#: src/main.c:324
+msgid ""
+"  -C DIRECTORY, --directory=DIRECTORY\n"
+"                              Change to DIRECTORY before doing anything.\n"
+msgstr ""
+"  -C DIREKTORIJA, --directory=DIREKTORIJA\n"
+"                              Pirms jebkādām darbībām pāriet uz DIREKTORIJU.\n"
+
+#: src/main.c:327
+msgid "  -d                          Print lots of debugging information.\n"
+msgstr "  -d                          Izvadīt daudz atkļūdošanas informācijas.\n"
+
+#: src/main.c:329
+msgid "  --debug[=FLAGS]             Print various types of debugging information.\n"
+msgstr "  --debug[=FLAGS]             Izvadīt dažāda veida atkļūdošanas informāciju.\n"
+
+#: src/main.c:331
+msgid ""
+"  -e, --environment-overrides\n"
+"                              Environment variables override makefiles.\n"
+msgstr ""
+"  -e, --environment-overrides\n"
+"                              Vides mainīgie ignorē makefile.\n"
+
+#: src/main.c:334
+msgid "  -E STRING, --eval=STRING    Evaluate STRING as a makefile statement.\n"
+msgstr "  -E VIRKNE, --eval=VIRKNE    Novērtēt VIRKNI kā makefile priekšrakstu.\n"
+
+#: src/main.c:336
+msgid ""
+"  -f FILE, --file=FILE, --makefile=FILE\n"
+"                              Read FILE as a makefile.\n"
+msgstr ""
+"  -f FAILS, --file=FAILS, --makefile=FAILS\n"
+"                              Lasīt FAILU kā makefile.\n"
+
+#: src/main.c:339
+msgid "  -h, --help                  Print this message and exit.\n"
+msgstr "  -h, --help                  Izvadīt šo ziņojumu un iziet.\n"
+
+#: src/main.c:341
+msgid "  -i, --ignore-errors         Ignore errors from recipes.\n"
+msgstr "  -i, --ignore-errors         Ignorēt recepšu kļūdas.\n"
+
+#: src/main.c:343
+msgid ""
+"  -I DIRECTORY, --include-dir=DIRECTORY\n"
+"                              Search DIRECTORY for included makefiles.\n"
+msgstr ""
+"  -I DIREKTORIJA, --include-dir=DIREKTORIJA\n"
+"                              Meklēt iekļautos makefile DIREKTORIJĀ.\n"
+
+#: src/main.c:346
+msgid "  -j [N], --jobs[=N]          Allow N jobs at once; infinite jobs with no arg.\n"
+msgstr "  -j [N], --jobs[=N]          Atļaut vienlaikus N darbus; bez N — neierobežoti.\n"
+
+#: src/main.c:348
+msgid "  --jobserver-style=STYLE     Select the style of jobserver to use.\n"
+msgstr "  --jobserver-style=STILS     Izvēlēties izmantojamo darbu servera stilu.\n"
+
+#: src/main.c:350
+msgid "  -k, --keep-going            Keep going when some targets can't be made.\n"
+msgstr "  -k, --keep-going            Turpināt, ja dažus mērķus nevar izveidot.\n"
+
+#: src/main.c:352
+msgid ""
+"  -l [N], --load-average[=N], --max-load[=N]\n"
+"                              Don't start multiple jobs unless load is below N.\n"
+msgstr ""
+"  -l [N], --load-average[=N], --max-load[=N]\n"
+"                              Nesākt vairākus darbus, ja noslodze nav zem N.\n"
+
+#: src/main.c:355
+msgid "  -L, --check-symlink-times   Use the latest mtime between symlinks and target.\n"
+msgstr "  -L, --check-symlink-times   Izmantot jaunāko mtime no simb. saites un mērķa.\n"
+
+#: src/main.c:357
+msgid ""
+"  -n, --just-print, --dry-run, --recon\n"
+"                              Don't actually run any recipe; just print them.\n"
+msgstr ""
+"  -n, --just-print, --dry-run, --recon\n"
+"                              Faktiski nepalaist nevienu recepti; tikai izvadīt.\n"
+
+#: src/main.c:360
+msgid ""
+"  -o FILE, --old-file=FILE, --assume-old=FILE\n"
+"                              Consider FILE to be very old and don't remake it.\n"
+msgstr ""
+"  -o FAILS, --old-file=FAILS, --assume-old=FAILS\n"
+"                              Uzskatīt FAILU par ļoti vecu; neveidot no jauna.\n"
+
+#: src/main.c:363
+msgid ""
+"  -O[TYPE], --output-sync[=TYPE]\n"
+"                              Synchronize output of parallel jobs by TYPE.\n"
+msgstr ""
+"  -O[TIPS], --output-sync[=TIPS]\n"
+"                              Sinhronizēt paralēlo darbu izvadi pēc TIPA.\n"
+
+#: src/main.c:366
+msgid "  -p, --print-data-base       Print make's internal database.\n"
+msgstr "  -p, --print-data-base       Izvadīt make iekšējo datubāzi.\n"
+
+#: src/main.c:368
+msgid "  -q, --question              Run no recipe; exit status says if up to date.\n"
+msgstr "  -q, --question              Nepalaist receptes; izejas kods rāda, vai aktuāls.\n"
+
+#: src/main.c:370
+msgid "  -r, --no-builtin-rules      Disable the built-in implicit rules.\n"
+msgstr "  -r, --no-builtin-rules      Atspējot iebūvētās netiešās kārtulas.\n"
+
+#: src/main.c:372
+msgid "  -R, --no-builtin-variables  Disable the built-in variable settings.\n"
+msgstr "  -R, --no-builtin-variables  Atspējot iebūvētos mainīgo iestatījumus.\n"
+
+#: src/main.c:374
+msgid ""
+"  --shuffle[={SEED|random|reverse|none}]\n"
+"                              Perform shuffle of prerequisites and goals.\n"
+msgstr ""
+"  --shuffle[={SEED|random|reverse|none}]\n"
+"                              Sajaukt priekšnoteikumus un mērķus.\n"
+
+#: src/main.c:377
+msgid "  -s, --silent, --quiet       Don't echo recipes.\n"
+msgstr "  -s, --silent, --quiet       Neatbalsot receptes.\n"
+
+#: src/main.c:379
+msgid "  --no-silent                 Echo recipes (disable --silent mode).\n"
+msgstr "  --no-silent                 Atbalsot receptes (atspējot --silent režīmu).\n"
+
+#: src/main.c:381
+msgid ""
+"  -S, --no-keep-going, --stop\n"
+"                              Turns off -k.\n"
+msgstr ""
+"  -S, --no-keep-going, --stop\n"
+"                              Izslēdz -k.\n"
+
+#: src/main.c:384
+msgid "  -t, --touch                 Touch targets instead of remaking them.\n"
+msgstr "  -t, --touch                 Pieskarties mērķiem, nevis veidot tos no jauna.\n"
+
+#: src/main.c:386
+msgid "  --trace                     Print tracing information.\n"
+msgstr "  --trace                     Izvadīt trasēšanas informāciju.\n"
+
+#: src/main.c:388
+msgid "  -v, --version               Print the version number of make and exit.\n"
+msgstr "  -v, --version               Izvadīt make versijas numuru un iziet.\n"
+
+#: src/main.c:390
+msgid "  -w, --print-directory       Print the current directory.\n"
+msgstr "  -w, --print-directory       Izvadīt pašreizējo direktoriju.\n"
+
+#: src/main.c:392
+msgid "  --no-print-directory        Turn off -w, even if it was turned on implicitly.\n"
+msgstr "  --no-print-directory        Izslēgt -w, pat ja tas ieslēgts netieši.\n"
+
+#: src/main.c:394
+msgid ""
+"  -W FILE, --what-if=FILE, --new-file=FILE, --assume-new=FILE\n"
+"                              Consider FILE to be infinitely new.\n"
+msgstr ""
+"  -W FAILS, --what-if=FAILS, --new-file=FAILS, --assume-new=FAILS\n"
+"                              Uzskatīt FAILU par bezgalīgi jaunu.\n"
+
+#: src/main.c:397
+msgid "  --warn-undefined-variables  Warn when an undefined variable is referenced.\n"
+msgstr "  --warn-undefined-variables  Brīdināt, ja atsaucas uz nedefinētu mainīgo.\n"
+
+#: src/main.c:735 src/main.c:737
+#, c-format
+msgid "write error: stdout"
+msgstr "rakstīšanas kļūda: stdout"
+
+#: src/main.c:749
+#, c-format
+msgid "empty string invalid as file name"
+msgstr "tukša virkne nav derīga kā faila nosaukums"
+
+#: src/main.c:841
+#, c-format
+msgid "unknown debug level specification '%s'"
+msgstr "nezināma atkļūdošanas līmeņa specifikācija '%s'"
+
+#: src/main.c:881
+#, c-format
+msgid "unknown output-sync type '%s'"
+msgstr "nezināms output-sync tips '%s'"
+
+#: src/main.c:905
+#, c-format
+msgid "Usage: %s [options] [target] ...\n"
+msgstr "Lietošana: %s [opcijas] [mērķis] ...\n"
+
+#: src/main.c:911
+#, c-format
+msgid ""
+"\n"
+"This program built for %s\n"
+msgstr ""
+"\n"
+"Šī programma ir būvēta %s\n"
+
+#: src/main.c:913
+#, c-format
+msgid ""
+"\n"
+"This program built for %s (%s)\n"
+msgstr ""
+"\n"
+"Šī programma ir būvēta %s (%s)\n"
+
+#: src/main.c:916
+#, c-format
+msgid "Report bugs to <bug-make@gnu.org>\n"
+msgstr "Ziņojiet par kļūdām uz <bug-make@gnu.org>\n"
+
+#: src/main.c:947
+#, c-format
+msgid "%s: Interrupt/Exception caught (code = 0x%lx, addr = 0x%p)\n"
+msgstr "%s: notverts pārtraukums/izņēmums (kods = 0x%lx, adrese = 0x%p)\n"
+
+#: src/main.c:954
+#, c-format
+msgid ""
+"\n"
+"Unhandled exception filter called from program %s\n"
+"ExceptionCode = %lx\n"
+"ExceptionFlags = %lx\n"
+"ExceptionAddress = 0x%p\n"
+msgstr ""
+"\n"
+"Neapstrādātu izņēmumu filtrs izsaukts no programmas %s\n"
+"ExceptionCode = %lx\n"
+"ExceptionFlags = %lx\n"
+"ExceptionAddress = 0x%p\n"
+
+#: src/main.c:962
+#, c-format
+msgid "Access violation: write operation at address 0x%p\n"
+msgstr "Piekļuves pārkāpums: rakstīšanas darbība adresē 0x%p\n"
+
+#: src/main.c:963
+#, c-format
+msgid "Access violation: read operation at address 0x%p\n"
+msgstr "Piekļuves pārkāpums: lasīšanas darbība adresē 0x%p\n"
+
+#: src/main.c:1035 src/main.c:1049
+#, c-format
+msgid "find_and_set_shell() setting default_shell = %s\n"
+msgstr "find_and_set_shell() iestata default_shell = %s\n"
+
+#: src/main.c:1105
+#, c-format
+msgid "find_and_set_shell() path search set default_shell = %s\n"
+msgstr "find_and_set_shell() ceļa meklēšana iestatīja default_shell = %s\n"
+
+#: src/main.c:1158
+msgid "unlink (temporary file): "
+msgstr "unlink (pagaidu fails): "
+
+#: src/main.c:1848
+#, c-format
+msgid "warning: jobserver unavailable: using -j1.  Add '+' to parent make rule."
+msgstr "brīdinājums: darbu serveris nav pieejams: izmanto -j1.  Pievienojiet '+' vecāka make kārtulai."
+
+#: src/main.c:1856
+#, c-format
+msgid "warning: -j%d forced in submake: resetting jobserver mode."
+msgstr "brīdinājums: apakšmake piespiests -j%d: atiestata darbu servera režīmu."
+
+#: src/main.c:1945
+#, c-format
+msgid "Makefile from standard input specified twice"
+msgstr "Makefile no standarta ievades norādīts divreiz"
+
+#: src/main.c:1950
+#, c-format
+msgid "cannot store makefile from stdin to a temporary file"
+msgstr "nevar saglabāt makefile no stdin pagaidu failā"
+
+#: src/main.c:1958
+#, c-format
+msgid "fwrite: temporary file %s: %s"
+msgstr "fwrite: pagaidu fails %s: %s"
+
+#: src/main.c:2113
+#, c-format
+msgid "warning: -j%d forced in makefile: resetting jobserver mode."
+msgstr "brīdinājums: makefile piespiests -j%d: atiestata darbu servera režīmu."
+
+#: src/main.c:2209
+#, c-format
+msgid "Parallel jobs (-j) are not supported on this platform."
+msgstr "Paralēlie darbi (-j) šajā platformā netiek atbalstīti."
+
+#: src/main.c:2210
+#, c-format
+msgid "Resetting to single job (-j1) mode."
+msgstr "Atiestata uz viena darba (-j1) režīmu."
+
+#: src/main.c:2266
+#, c-format
+msgid "Using jobserver controller %s\n"
+msgstr "Izmanto darbu servera kontrolleri %s\n"
+
+#: src/main.c:2268
+#, c-format
+msgid "Using output-sync mutex %s\n"
+msgstr "Izmanto output-sync muteksu %s\n"
+
+#: src/main.c:2273
+#, c-format
+msgid "Symbolic links not supported: disabling -L."
+msgstr "Simboliskās saites netiek atbalstītas: atspējo -L."
+
+#: src/main.c:2345
+#, c-format
+msgid "Enabled shuffle mode: %s\n"
+msgstr "Iespējots sajaukšanas režīms: %s\n"
+
+#: src/main.c:2357
+#, c-format
+msgid "Updating makefiles....\n"
+msgstr "Atjaunina makefile....\n"
+
+#: src/main.c:2415
+#, c-format
+msgid "Makefile '%s' might loop; not remaking it.\n"
+msgstr "Makefile '%s' var cikloties; netiek veidots no jauna.\n"
+
+#: src/main.c:2461 src/main.c:2517 src/output.c:523
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: src/main.c:2494 src/read.c:964
+#, c-format
+msgid "%s: failed to load"
+msgstr "%s: neizdevās ielādēt"
+
+#: src/main.c:2546
+#, c-format
+msgid "Failed to remake makefile '%s'."
+msgstr "Neizdevās no jauna izveidot makefile '%s'."
+
+#: src/main.c:2566
+#, c-format
+msgid "Included makefile '%s' was not found."
+msgstr "Iekļautais makefile '%s' netika atrasts."
+
+#: src/main.c:2570
+#, c-format
+msgid "Makefile '%s' was not found"
+msgstr "Makefile '%s' netika atrasts"
+
+#: src/main.c:2718
+#, c-format
+msgid "Couldn't change back to original directory"
+msgstr "Nevarēja atgriezties sākotnējā direktorijā"
+
+#: src/main.c:2726
+#, c-format
+msgid "Re-executing[%u]:"
+msgstr "Atkārtoti izpilda[%u]:"
+
+#: src/main.c:2881
+#, c-format
+msgid ".DEFAULT_GOAL contains more than one target"
+msgstr ".DEFAULT_GOAL satur vairāk nekā vienu mērķi"
+
+#: src/main.c:2905
+#, c-format
+msgid "No targets"
+msgstr "Nav mērķu"
+
+#: src/main.c:2907
+#, c-format
+msgid "No targets specified and no makefile found"
+msgstr "Nav norādīti mērķi un nav atrasts makefile"
+
+#: src/main.c:2916
+#, c-format
+msgid "Updating goal targets....\n"
+msgstr "Atjaunina galamērķus....\n"
+
+#: src/main.c:2940
+#, c-format
+msgid "warning:  Clock skew detected.  Your build may be incomplete."
+msgstr "brīdinājums:  konstatēta pulksteņu nobīde.  Jūsu būvējums var būt nepilnīgs."
+
+#: src/main.c:3223
+#, c-format
+msgid "the '%s%s' option requires a non-empty string argument"
+msgstr "opcijai '%s%s' nepieciešams netukšas virknes arguments"
+
+#: src/main.c:3316
+#, c-format
+msgid "the '-%c' option requires a positive integer argument"
+msgstr "opcijai '-%c' nepieciešams pozitīva vesela skaitļa arguments"
+
+#: src/main.c:3722
+#, c-format
+msgid "%sBuilt for %s\n"
+msgstr "%sBūvēts %s\n"
+
+#: src/main.c:3724
+#, c-format
+msgid "%sBuilt for %s (%s)\n"
+msgstr "%sBūvēts %s (%s)\n"
+
+#: src/main.c:3735
+#, c-format
+msgid ""
+"%sLicense GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>\n"
+"%sThis is free software: you are free to change and redistribute it.\n"
+"%sThere is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"%sLicence GPLv3+: GNU GPL 3. vai jaunāka versija <https://gnu.org/licenses/gpl.html>\n"
+"%sŠī ir brīvā programmatūra: jūs drīkstat to mainīt un izplatīt.\n"
+"%sNav NEKĀDU GARANTIJU, ciktāl to pieļauj likums.\n"
+
+#: src/main.c:3752
+#, c-format
+msgid ""
+"\n"
+"# Make data base, printed on %s"
+msgstr ""
+"\n"
+"# Make datubāze, izdrukāta %s"
+
+#: src/main.c:3762
+#, c-format
+msgid ""
+"\n"
+"# Finished Make data base on %s\n"
+msgstr ""
+"\n"
+"# Make datubāze pabeigta %s\n"
+
+#: src/misc.c:601
+#, c-format
+msgid "%s value %s: %s"
+msgstr "%s vērtība %s: %s"
+
+#: src/misc.c:604
+#, c-format
+msgid "%s value %s: not a directory"
+msgstr "%s vērtība %s: nav direktorija"
+
+#: src/misc.c:612
+#, c-format
+msgid "using default temporary directory '%s'"
+msgstr "izmanto noklusējuma pagaidu direktoriju '%s'"
+
+#: src/misc.c:654
+#, c-format
+msgid "cannot generate temp path from %s: %s"
+msgstr "nevar ģenerēt pagaidu ceļu no %s: %s"
+
+#: src/misc.c:662
+#, c-format
+msgid "cannot generate temp name: %s"
+msgstr "nevar ģenerēt pagaidu nosaukumu: %s"
+
+#: src/misc.c:712
+#, c-format
+msgid "cannot create temporary file %s: %s"
+msgstr "nevar izveidot pagaidu failu %s: %s"
+
+#: src/misc.c:725
+#, c-format
+msgid "cannot unlink temporary file %s: %s"
+msgstr "nevar atsaistīt pagaidu failu %s: %s"
+
+#: src/misc.c:755
+#, c-format
+msgid "fdopen: temporary file %s: %s"
+msgstr "fdopen: pagaidu fails %s: %s"
+
+#: src/misc.c:772
+#, c-format
+msgid "fopen: temporary file %s: %s"
+msgstr "fopen: pagaidu fails %s: %s"
+
+#: src/output.c:95
+#, c-format
+msgid "%s: Entering an unknown directory\n"
+msgstr "%s: ieiet nezināmā direktorijā\n"
+
+#: src/output.c:97
+#, c-format
+msgid "%s: Leaving an unknown directory\n"
+msgstr "%s: iziet no nezināmas direktorijas\n"
+
+#: src/output.c:100
+#, c-format
+msgid "%s: Entering directory '%s'\n"
+msgstr "%s: ieiet direktorijā '%s'\n"
+
+#: src/output.c:102
+#, c-format
+msgid "%s: Leaving directory '%s'\n"
+msgstr "%s: iziet no direktorijas '%s'\n"
+
+#: src/output.c:106
+#, c-format
+msgid "%s[%u]: Entering an unknown directory\n"
+msgstr "%s[%u]: ieiet nezināmā direktorijā\n"
+
+#: src/output.c:108
+#, c-format
+msgid "%s[%u]: Leaving an unknown directory\n"
+msgstr "%s[%u]: iziet no nezināmas direktorijas\n"
+
+#: src/output.c:111
+#, c-format
+msgid "%s[%u]: Entering directory '%s'\n"
+msgstr "%s[%u]: ieiet direktorijā '%s'\n"
+
+#: src/output.c:113
+#, c-format
+msgid "%s[%u]: Leaving directory '%s'\n"
+msgstr "%s[%u]: iziet no direktorijas '%s'\n"
+
+#: src/output.c:252
+#, c-format
+msgid "cannot open output-sync lock file, suppressing output-sync."
+msgstr "nevar atvērt output-sync bloķēšanas failu; output-sync tiek apspiests."
+
+#: src/output.c:283
+#, c-format
+msgid "warning: Cannot acquire output lock, disabling output sync."
+msgstr "brīdinājums: nevar iegūt izvades bloķējumu; izvades sinhronizācija tiek atspējota."
+
+#: src/output.c:479
+msgid ".  Stop.\n"
+msgstr ".  Apstājas.\n"
+
+#: src/output.c:514
+#, c-format
+msgid "%s%s: %s"
+msgstr "%s%s: %s"
+
+#: src/posixos.c:177 src/posixos.c:182 src/posixos.c:241 src/posixos.c:249
+#, c-format
+msgid "cannot open jobserver %s: %s"
+msgstr "nevar atvērt darbu serveri %s: %s"
+
+#: src/posixos.c:193 src/w32/w32os.c:219
+#, c-format
+msgid "unknown jobserver auth style '%s'"
+msgstr "nezināms darbu servera autentifikācijas stils '%s'"
+
+#: src/posixos.c:197
+msgid "creating jobs pipe"
+msgstr "izveido darbu cauruļvadu"
+
+#: src/posixos.c:208 src/posixos.c:446
+msgid "duping jobs pipe"
+msgstr "dublē darbu cauruļvadu"
+
+#: src/posixos.c:214
+msgid "init jobserver pipe"
+msgstr "inicializē darbu servera cauruļvadu"
+
+#: src/posixos.c:273
+#, c-format
+msgid "invalid --jobserver-auth string '%s'"
+msgstr "nederīga --jobserver-auth virkne '%s'"
+
+#: src/posixos.c:375
+msgid "write jobserver"
+msgstr "raksta darbu serverī"
+
+#: src/posixos.c:495
+#, c-format
+msgid "job server shut down"
+msgstr "darbu serveris izslēgts"
+
+#: src/posixos.c:498
+msgid "pselect jobs pipe"
+msgstr "pselect darbu cauruļvadā"
+
+#: src/posixos.c:514 src/posixos.c:628
+msgid "read jobs pipe"
+msgstr "lasa darbu cauruļvadu"
+
+#: src/posixos.c:684
+#, c-format
+msgid "invalid --sync-mutex string '%s'"
+msgstr "nederīga --sync-mutex virkne '%s'"
+
+#: src/posixos.c:693
+#, c-format
+msgid "cannot open output sync mutex %s: %s"
+msgstr "nevar atvērt izvades sinhronizācijas muteksu %s: %s"
+
+#: src/posixos.c:867
+#, c-format
+msgid "Cannot open '%s' with O_TMPFILE: %s.\n"
+msgstr "Nevar atvērt '%s' ar O_TMPFILE: %s.\n"
+
+#: src/read.c:184
+#, c-format
+msgid "Reading makefiles...\n"
+msgstr "Lasa makefile...\n"
+
+#: src/read.c:322
+#, c-format
+msgid "Reading makefile '%s'"
+msgstr "Lasa makefile '%s'"
+
+#: src/read.c:324
+#, c-format
+msgid " (no default goal)"
+msgstr " (nav noklusējuma galamērķa)"
+
+#: src/read.c:326
+#, c-format
+msgid " (search path)"
+msgstr " (meklēšanas ceļš)"
+
+#: src/read.c:328
+#, c-format
+msgid " (don't care)"
+msgstr " (nav svarīgs)"
+
+#: src/read.c:330
+#, c-format
+msgid " (no ~ expansion)"
+msgstr " (bez ~ izvēršanas)"
+
+#: src/read.c:657
+#, c-format
+msgid "Skipping UTF-8 BOM in makefile '%s'\n"
+msgstr "Izlaiž UTF-8 BOM makefile '%s'\n"
+
+#: src/read.c:660
+#, c-format
+msgid "Skipping UTF-8 BOM in makefile buffer\n"
+msgstr "Izlaiž UTF-8 BOM makefile buferī\n"
+
+#: src/read.c:789
+#, c-format
+msgid "invalid syntax in conditional"
+msgstr "nederīga sintakse nosacījumā"
+
+#: src/read.c:996
+#, c-format
+msgid "recipe commences before first target"
+msgstr "recepte sākas pirms pirmā mērķa"
+
+#: src/read.c:1047
+#, c-format
+msgid "missing rule before recipe"
+msgstr "pirms receptes trūkst kārtulas"
+
+#: src/read.c:1147
+#, c-format
+msgid "missing separator (did you mean TAB instead of 8 spaces?)"
+msgstr "trūkst atdalītāja (vai domājāt TAB, nevis 8 atstarpes?)"
+
+#: src/read.c:1156
+#, c-format
+msgid "missing separator (ifeq/ifneq must be followed by whitespace)"
+msgstr "trūkst atdalītāja (pēc ifeq/ifneq jābūt atstarpei)"
+
+#: src/read.c:1159
+#, c-format
+msgid "missing separator"
+msgstr "trūkst atdalītāja"
+
+#: src/read.c:1303
+#, c-format
+msgid "missing target pattern"
+msgstr "trūkst mērķa šablona"
+
+#: src/read.c:1305
+#, c-format
+msgid "multiple target patterns"
+msgstr "vairāki mērķa šabloni"
+
+#: src/read.c:1309
+#, c-format
+msgid "target pattern contains no '%%'"
+msgstr "mērķa šablons nesatur '%%'"
+
+#: src/read.c:1352
+#, c-format
+msgid "missing 'endif'"
+msgstr "trūkst 'endif'"
+
+#: src/read.c:1391 src/read.c:1436 src/variable.c:1753
+#, c-format
+msgid "empty variable name"
+msgstr "tukšs mainīgā nosaukums"
+
+#: src/read.c:1426
+#, c-format
+msgid "extraneous text after 'define' directive"
+msgstr "lieks teksts pēc direktīvas 'define'"
+
+#: src/read.c:1451
+#, c-format
+msgid "missing 'endef', unterminated 'define'"
+msgstr "trūkst 'endef', nepabeigts 'define'"
+
+#: src/read.c:1479
+#, c-format
+msgid "extraneous text after 'endef' directive"
+msgstr "lieks teksts pēc direktīvas 'endef'"
+
+#: src/read.c:1551
+#, c-format
+msgid "extraneous text after '%s' directive"
+msgstr "lieks teksts pēc direktīvas '%s'"
+
+#: src/read.c:1552
+#, c-format
+msgid "extraneous '%s'"
+msgstr "lieks '%s'"
+
+#: src/read.c:1580
+#, c-format
+msgid "only one 'else' per conditional"
+msgstr "tikai viens 'else' katrā nosacījumā"
+
+#: src/read.c:1856
+#, c-format
+msgid "Malformed target-specific variable definition"
+msgstr "Nepareizi veidota mērķim specifiska mainīgā definīcija"
+
+#: src/read.c:1998
+#, c-format
+msgid ".WAIT should not have prerequisites"
+msgstr ".WAIT nedrīkst būt priekšnoteikumu"
+
+#: src/read.c:2004
+#, c-format
+msgid ".WAIT should not have commands"
+msgstr ".WAIT nedrīkst būt komandu"
+
+#: src/read.c:2042
+#, c-format
+msgid "prerequisites cannot be defined in recipes"
+msgstr "priekšnoteikumus nevar definēt receptēs"
+
+#: src/read.c:2060
+#, c-format
+msgid "grouped targets must provide a recipe"
+msgstr "grupētiem mērķiem jānodrošina recepte"
+
+#: src/read.c:2103
+#, c-format
+msgid "mixed implicit and static pattern rules"
+msgstr "sajauktas netiešās un statiskā šablona kārtulas"
+
+#: src/read.c:2126
+#, c-format
+msgid "mixed implicit and normal rules"
+msgstr "sajauktas netiešās un parastās kārtulas"
+
+#: src/read.c:2158
+#, c-format
+msgid "target '%s' doesn't match the target pattern"
+msgstr "mērķis '%s' neatbilst mērķa šablonam"
+
+#: src/read.c:2173 src/read.c:2224
+#, c-format
+msgid "target file '%s' has both : and :: entries"
+msgstr "mērķa failam '%s' ir gan :, gan :: ieraksti"
+
+#: src/read.c:2179
+#, c-format
+msgid "target '%s' given more than once in the same rule"
+msgstr "mērķis '%s' norādīts vairāk nekā vienu reizi vienā kārtulā"
+
+#: src/read.c:2189
+#, c-format
+msgid "warning: overriding recipe for target '%s'"
+msgstr "brīdinājums: aizstāj recepti mērķim '%s'"
+
+#: src/read.c:2192
+#, c-format
+msgid "warning: ignoring old recipe for target '%s'"
+msgstr "brīdinājums: ignorē veco recepti mērķim '%s'"
+
+#: src/read.c:2311
+#, c-format
+msgid "*** mixed implicit and normal rules: deprecated syntax"
+msgstr "*** sajauktas netiešās un parastās kārtulas: novecojusi sintakse"
+
+#: src/read.c:2328
+#, c-format
+msgid "warning: overriding group membership for target '%s'"
+msgstr "brīdinājums: aizstāj grupas dalību mērķim '%s'"
+
+#: src/read.c:2686
+#, c-format
+msgid "warning: NUL character seen; rest of line ignored"
+msgstr "brīdinājums: konstatēta NUL rakstzīme; pārējā rinda ignorēta"
+
+#: src/remake.c:97
+#, c-format
+msgid "warning: pattern recipe did not update peer target '%s'."
+msgstr "brīdinājums: šablona recepte neatjaunināja līdzās esošo mērķi '%s'."
+
+#: src/remake.c:254
+#, c-format
+msgid "Nothing to be done for '%s'."
+msgstr "'%s' nav ko darīt."
+
+#: src/remake.c:255
+#, c-format
+msgid "'%s' is up to date."
+msgstr "'%s' ir aktuāls."
+
+#: src/remake.c:350
+#, c-format
+msgid "Pruning file '%s'.\n"
+msgstr "Atmet failu '%s'.\n"
+
+#: src/remake.c:416
+#, c-format
+msgid "%sNo rule to make target '%s', needed by '%s'%s"
+msgstr "%sNav kārtulas, kā izveidot mērķi '%s', kas vajadzīgs '%s'%s"
+
+#: src/remake.c:426
+#, c-format
+msgid "%sNo rule to make target '%s'%s"
+msgstr "%sNav kārtulas, kā izveidot mērķi '%s'%s"
+
+#: src/remake.c:452
+#, c-format
+msgid "Considering target file '%s'.\n"
+msgstr "Apsver mērķa failu '%s'.\n"
+
+#: src/remake.c:459
+#, c-format
+msgid "Recently tried and failed to update file '%s'.\n"
+msgstr "Nesen mēģināts atjaunināt failu '%s', bet neizdevās.\n"
+
+#: src/remake.c:471
+#, c-format
+msgid "File '%s' was considered already.\n"
+msgstr "Fails '%s' jau ir apsvērts.\n"
+
+#: src/remake.c:481
+#, c-format
+msgid "Still updating file '%s'.\n"
+msgstr "Joprojām atjaunina failu '%s'.\n"
+
+#: src/remake.c:484
+#, c-format
+msgid "Finished updating file '%s'.\n"
+msgstr "Faila '%s' atjaunināšana pabeigta.\n"
+
+#: src/remake.c:513
+#, c-format
+msgid "File '%s' does not exist.\n"
+msgstr "Fails '%s' neeksistē.\n"
+
+#: src/remake.c:520
+#, c-format
+msgid "*** Warning: .LOW_RESOLUTION_TIME file '%s' has a high resolution time stamp"
+msgstr "*** Brīdinājums: .LOW_RESOLUTION_TIME failam '%s' ir augstas izšķirtspējas laikspiedols"
+
+#: src/remake.c:538
+#, c-format
+msgid "Grouped target peer '%s' of file '%s' does not exist.\n"
+msgstr "Grupētā mērķa biedrs '%s' failam '%s' neeksistē.\n"
+
+#: src/remake.c:558
+#, c-format
+msgid "Using default recipe for '%s'.\n"
+msgstr "Izmanto noklusējuma recepti '%s'.\n"
+
+#: src/remake.c:603 src/remake.c:1166
+#, c-format
+msgid "Circular %s <- %s dependency dropped."
+msgstr "Atmesta cikliskā atkarība %s <- %s."
+
+#: src/remake.c:737
+#, c-format
+msgid "Finished prerequisites of target file '%s'.\n"
+msgstr "Mērķa faila '%s' priekšnoteikumi pabeigti.\n"
+
+#: src/remake.c:743
+#, c-format
+msgid "The prerequisites of '%s' are being made.\n"
+msgstr "Tiek veidoti '%s' priekšnoteikumi.\n"
+
+#: src/remake.c:757
+#, c-format
+msgid "Giving up on target file '%s'.\n"
+msgstr "Atsakās no mērķa faila '%s'.\n"
+
+#: src/remake.c:762
+#, c-format
+msgid "Target '%s' not remade because of errors."
+msgstr "Mērķis '%s' kļūdu dēļ netika izveidots no jauna."
+
+#: src/remake.c:814
+#, c-format
+msgid "Prerequisite '%s' is order-only for target '%s'.\n"
+msgstr "Priekšnoteikums '%s' mērķim '%s' ir tikai secībai.\n"
+
+#: src/remake.c:819
+#, c-format
+msgid "Prerequisite '%s' of target '%s' does not exist.\n"
+msgstr "Priekšnoteikums '%s' mērķim '%s' neeksistē.\n"
+
+#: src/remake.c:824
+#, c-format
+msgid "Prerequisite '%s' is newer than target '%s'.\n"
+msgstr "Priekšnoteikums '%s' ir jaunāks par mērķi '%s'.\n"
+
+#: src/remake.c:827
+#, c-format
+msgid "Prerequisite '%s' is older than target '%s'.\n"
+msgstr "Priekšnoteikums '%s' ir vecāks par mērķi '%s'.\n"
+
+#: src/remake.c:845
+#, c-format
+msgid "Target '%s' is double-colon and has no prerequisites.\n"
+msgstr "Mērķis '%s' ir divu kolu mērķis un tam nav priekšnoteikumu.\n"
+
+#: src/remake.c:852
+#, c-format
+msgid "No recipe for '%s' and no prerequisites actually changed.\n"
+msgstr "'%s' nav receptes, un neviens priekšnoteikums faktiski nav mainījies.\n"
+
+#: src/remake.c:857
+#, c-format
+msgid "Making '%s' due to always-make flag.\n"
+msgstr "Veido '%s' karoga always-make dēļ.\n"
+
+#: src/remake.c:865
+#, c-format
+msgid "No need to remake target '%s'"
+msgstr "Mērķis '%s' nav jāveido no jauna"
+
+#: src/remake.c:867
+#, c-format
+msgid "; using VPATH name '%s'"
+msgstr "; izmanto VPATH nosaukumu '%s'"
+
+#: src/remake.c:892
+#, c-format
+msgid "Must remake target '%s'.\n"
+msgstr "Mērķis '%s' jāveido no jauna.\n"
+
+#: src/remake.c:898
+#, c-format
+msgid "  Ignoring VPATH name '%s'.\n"
+msgstr "  Ignorē VPATH nosaukumu '%s'.\n"
+
+#: src/remake.c:907
+#, c-format
+msgid "Recipe of '%s' is being run.\n"
+msgstr "Tiek palaista '%s' recepte.\n"
+
+#: src/remake.c:914
+#, c-format
+msgid "Failed to remake target file '%s'.\n"
+msgstr "Neizdevās no jauna izveidot mērķa failu '%s'.\n"
+
+#: src/remake.c:917
+#, c-format
+msgid "Successfully remade target file '%s'.\n"
+msgstr "Mērķa fails '%s' veiksmīgi izveidots no jauna.\n"
+
+#: src/remake.c:920
+#, c-format
+msgid "Target file '%s' needs to be remade under -q.\n"
+msgstr "Mērķa fails '%s' ar -q jāveido no jauna.\n"
+
+#: src/remake.c:1119
+#, c-format
+msgid "Using default commands for '%s'.\n"
+msgstr "Izmanto noklusējuma komandas '%s'.\n"
+
+#: src/remake.c:1502
+#, c-format
+msgid "Warning: File '%s' has modification time %s s in the future"
+msgstr "Brīdinājums: faila '%s' modificēšanas laiks ir %s s nākotnē"
+
+#: src/remake.c:1750
+#, c-format
+msgid ".LIBPATTERNS element '%s' is not a pattern"
+msgstr ".LIBPATTERNS elements '%s' nav šablons"
+
+#: src/remote-cstms.c:118
+#, c-format
+msgid "Customs won't export: %s\n"
+msgstr "Customs neeksportēs: %s\n"
+
+#: src/rule.c:357
+msgid "warning: ignoring prerequisites on suffix rule definition"
+msgstr "brīdinājums: sufiksa kārtulas definīcijā ignorē priekšnoteikumus"
+
+#: src/rule.c:592
+msgid ""
+"\n"
+"# Implicit Rules"
+msgstr ""
+"\n"
+"# Netiešās kārtulas"
+
+#: src/rule.c:607
+msgid ""
+"\n"
+"# No implicit rules."
+msgstr ""
+"\n"
+"# Nav netiešo kārtulu."
+
+#: src/rule.c:610
+#, c-format
+msgid ""
+"\n"
+"# %u implicit rules, %u (%.1f%%) terminal."
+msgstr ""
+"\n"
+"# %u netiešās kārtulas, %u (%.1f%%) gala."
+
+#: src/rule.c:619
+#, c-format
+msgid "BUG: num_pattern_rules is wrong!  %u != %u"
+msgstr "KĻŪDA: num_pattern_rules ir nepareizs!  %u != %u"
+
+#: src/shuffle.c:93
+#, c-format
+msgid "invalid shuffle mode: %s: '%s'"
+msgstr "nederīgs sajaukšanas režīms: %s: '%s'"
+
+#: src/signame.c:84
+msgid "unknown signal"
+msgstr "nezināms signāls"
+
+#: src/signame.c:92
+msgid "Hangup"
+msgstr "Savienojuma pārtraukums"
+
+#: src/signame.c:95
+msgid "Interrupt"
+msgstr "Pārtraukums"
+
+#: src/signame.c:98
+msgid "Quit"
+msgstr "Iziet"
+
+#: src/signame.c:101
+msgid "Illegal Instruction"
+msgstr "Neatļauta instrukcija"
+
+#: src/signame.c:104
+msgid "Trace/breakpoint trap"
+msgstr "Izsekošanas/pārtraukumpunkta slazds"
+
+#: src/signame.c:109
+msgid "Aborted"
+msgstr "Pārtraukts"
+
+#: src/signame.c:112
+msgid "IOT trap"
+msgstr "IOT slazds"
+
+#: src/signame.c:115
+msgid "EMT trap"
+msgstr "EMT slazds"
+
+#: src/signame.c:118
+msgid "Floating point exception"
+msgstr "Peldošā komata izņēmums"
+
+#: src/signame.c:121
+msgid "Killed"
+msgstr "Nobeigts"
+
+#: src/signame.c:124
+msgid "Bus error"
+msgstr "Kopnes kļūda"
+
+#: src/signame.c:127
+msgid "Segmentation fault"
+msgstr "Segmentācijas kļūda"
+
+#: src/signame.c:130
+msgid "Bad system call"
+msgstr "Nederīgs sistēmas izsaukums"
+
+#: src/signame.c:133
+msgid "Broken pipe"
+msgstr "Pārrauts cauruļvads"
+
+#: src/signame.c:136
+msgid "Alarm clock"
+msgstr "Modinātājs"
+
+#: src/signame.c:139
+msgid "Terminated"
+msgstr "Izbeigts"
+
+#: src/signame.c:142
+msgid "User defined signal 1"
+msgstr "Lietotāja definēts signāls 1"
+
+#: src/signame.c:145
+msgid "User defined signal 2"
+msgstr "Lietotāja definēts signāls 2"
+
+#: src/signame.c:150 src/signame.c:153
+msgid "Child exited"
+msgstr "Bērnprocess beidzis darbu"
+
+#: src/signame.c:156
+msgid "Power failure"
+msgstr "Barošanas atteice"
+
+#: src/signame.c:159
+msgid "Stopped"
+msgstr "Apturēts"
+
+#: src/signame.c:162
+msgid "Stopped (tty input)"
+msgstr "Apturēts (tty ievade)"
+
+#: src/signame.c:165
+msgid "Stopped (tty output)"
+msgstr "Apturēts (tty izvade)"
+
+#: src/signame.c:168
+msgid "Stopped (signal)"
+msgstr "Apturēts (signāls)"
+
+#: src/signame.c:171
+msgid "CPU time limit exceeded"
+msgstr "Pārsniegts CPU laika ierobežojums"
+
+#: src/signame.c:174
+msgid "File size limit exceeded"
+msgstr "Pārsniegts faila izmēra ierobežojums"
+
+#: src/signame.c:177
+msgid "Virtual timer expired"
+msgstr "Beidzies virtuālā taimera laiks"
+
+#: src/signame.c:180
+msgid "Profiling timer expired"
+msgstr "Beidzies profilēšanas taimera laiks"
+
+#: src/signame.c:186
+msgid "Window changed"
+msgstr "Logs mainīts"
+
+#: src/signame.c:189
+msgid "Continued"
+msgstr "Turpināts"
+
+#: src/signame.c:192
+msgid "Urgent I/O condition"
+msgstr "Steidzams ievades/izvades stāvoklis"
+
+#: src/signame.c:199 src/signame.c:208
+msgid "I/O possible"
+msgstr "Iespējama ievade/izvade"
+
+#: src/signame.c:202
+msgid "SIGWIND"
+msgstr "SIGWIND"
+
+#: src/signame.c:205
+msgid "SIGPHONE"
+msgstr "SIGPHONE"
+
+#: src/signame.c:211
+msgid "Resource lost"
+msgstr "Resurss zaudēts"
+
+#: src/signame.c:214
+msgid "Danger signal"
+msgstr "Briesmu signāls"
+
+#: src/signame.c:217
+msgid "Information request"
+msgstr "Informācijas pieprasījums"
+
+#: src/signame.c:220
+msgid "Floating point co-processor not available"
+msgstr "Peldošā komata kopprocesors nav pieejams"
+
+#: src/strcache.c:274
+#, c-format
+msgid ""
+"\n"
+"%s No strcache buffers\n"
+msgstr ""
+"\n"
+"%s Nav strcache buferu\n"
+
+#: src/strcache.c:304
+#, c-format
+msgid ""
+"\n"
+"%s strcache buffers: %lu (%lu) / strings = %lu / storage = %lu B / avg = %lu B\n"
+msgstr ""
+"\n"
+"%s strcache buferi: %lu (%lu) / virknes = %lu / krātuve = %lu B / vid. = %lu B\n"
+
+#: src/strcache.c:308
+#, c-format
+msgid "%s current buf: size = %hu B / used = %hu B / count = %hu / avg = %u B\n"
+msgstr "%s pašreizējais buferis: izmērs = %hu B / izmantots = %hu B / skaits = %hu / vid. = %u B\n"
+
+#: src/strcache.c:319
+#, c-format
+msgid "%s other used: total = %lu B / count = %lu / avg = %lu B\n"
+msgstr "%s cits izmantotais: kopā = %lu B / skaits = %lu / vid. = %lu B\n"
+
+#: src/strcache.c:322
+#, c-format
+msgid "%s other free: total = %lu B / max = %lu B / min = %lu B / avg = %hu B\n"
+msgstr "%s cits brīvais: kopā = %lu B / maks. = %lu B / min. = %lu B / vid. = %hu B\n"
+
+#: src/strcache.c:326
+#, c-format
+msgid ""
+"\n"
+"%s strcache performance: lookups = %lu / hit rate = %lu%%\n"
+msgstr ""
+"\n"
+"%s strcache veiktspēja: uzmeklējumi = %lu / trāpījumu biežums = %lu%%\n"
+
+#: src/strcache.c:328
+msgid ""
+"# hash-table stats:\n"
+"# "
+msgstr ""
+"# jaucējtabulas statistika:\n"
+"# "
+
+#: src/variable.c:1827
+#, c-format
+msgid "warning: undefined variable '%.*s'"
+msgstr "brīdinājums: nedefinēts mainīgais '%.*s'"
+
+#: src/variable.c:1844
+msgid "automatic"
+msgstr "automātisks"
+
+#: src/variable.c:1847
+msgid "default"
+msgstr "noklusējums"
+
+#: src/variable.c:1850
+msgid "environment"
+msgstr "vide"
+
+#: src/variable.c:1853
+msgid "makefile"
+msgstr "makefile"
+
+#: src/variable.c:1856
+msgid "environment under -e"
+msgstr "vide ar -e"
+
+#: src/variable.c:1859
+msgid "command line"
+msgstr "komandrinda"
+
+#: src/variable.c:1862
+msgid "'override' directive"
+msgstr "direktīva 'override'"
+
+#: src/variable.c:1872
+#, c-format
+msgid " (from '%s', line %lu)"
+msgstr " (no '%s', rinda %lu)"
+
+#: src/variable.c:1935
+msgid "# variable set hash-table stats:\n"
+msgstr "# mainīgo kopas jaucējtabulas statistika:\n"
+
+#: src/variable.c:1946
+msgid ""
+"\n"
+"# Variables\n"
+msgstr ""
+"\n"
+"# Mainīgie\n"
+
+#: src/variable.c:1950
+msgid ""
+"\n"
+"# Pattern-specific Variable Values"
+msgstr ""
+"\n"
+"# Šablonam specifiskās mainīgo vērtības"
+
+#: src/variable.c:1964
+msgid ""
+"\n"
+"# No pattern-specific variable values."
+msgstr ""
+"\n"
+"# Nav šablonam specifisku mainīgo vērtību."
+
+#: src/variable.c:1966
+#, c-format
+msgid ""
+"\n"
+"# %u pattern-specific variable values"
+msgstr ""
+"\n"
+"# %u šablonam specifiskas mainīgo vērtības"
+
+#: src/vmsfunctions.c:91
+#, c-format
+msgid "sys$search() failed with %d\n"
+msgstr "sys$search() neizdevās ar %d\n"
+
+#: src/vmsjobs.c:244
+#, c-format
+msgid "-warning, you may have to re-enable CTRL-Y handling from DCL.\n"
+msgstr "-brīdinājums, jums, iespējams, no DCL jāiespējo CTRL-Y apstrāde atkārtoti.\n"
+
+#: src/vmsjobs.c:681
+#, c-format
+msgid "BUILTIN CD %s\n"
+msgstr "IEBŪVĒTS CD %s\n"
+
+#: src/vmsjobs.c:1224
+#, c-format
+msgid "DCL: %s\n"
+msgstr "DCL: %s\n"
+
+#: src/vmsjobs.c:1281
+#, c-format
+msgid "Append output to %s\n"
+msgstr "Pievienot izvadi %s\n"
+
+#: src/vmsjobs.c:1306
+#, c-format
+msgid "Append %.*s and cleanup\n"
+msgstr "Pievienot %.*s un iztīrīt\n"
+
+#: src/vmsjobs.c:1319
+#, c-format
+msgid "Executing %s instead\n"
+msgstr "Tā vietā izpilda %s\n"
+
+#: src/vpath.c:582
+msgid ""
+"\n"
+"# VPATH Search Paths\n"
+msgstr ""
+"\n"
+"# VPATH meklēšanas ceļi\n"
+
+#: src/vpath.c:599
+msgid "# No 'vpath' search paths."
+msgstr "# Nav 'vpath' meklēšanas ceļu."
+
+#: src/vpath.c:601
+#, c-format
+msgid ""
+"\n"
+"# %u 'vpath' search paths.\n"
+msgstr ""
+"\n"
+"# %u 'vpath' meklēšanas ceļi.\n"
+
+#: src/vpath.c:604
+msgid ""
+"\n"
+"# No general ('VPATH' variable) search path."
+msgstr ""
+"\n"
+"# Nav vispārējā ('VPATH' mainīgā) meklēšanas ceļa."
+
+#: src/vpath.c:610
+msgid ""
+"\n"
+"# General ('VPATH' variable) search path:\n"
+"# "
+msgstr ""
+"\n"
+"# Vispārējais ('VPATH' mainīgā) meklēšanas ceļš:\n"
+"# "
+
+#: src/w32/w32os.c:224
+#, c-format
+msgid "jobserver slots limited to %d\n"
+msgstr "darbu servera sloti ierobežoti līdz %d\n"
+
+#: src/w32/w32os.c:240
+#, c-format
+msgid "creating jobserver semaphore: (Error %ld: %s)"
+msgstr "izveido darbu servera semaforu: (kļūda %ld: %s)"
+
+#: src/w32/w32os.c:259
+#, c-format
+msgid "unable to open jobserver semaphore '%s': (Error %ld: %s)"
+msgstr "nevar atvērt darbu servera semaforu '%s': (kļūda %ld: %s)"
+
+#: src/w32/w32os.c:264
+#, c-format
+msgid "Jobserver client (semaphore %s)\n"
+msgstr "Darbu servera klients (semafors %s)\n"
+
+#: src/w32/w32os.c:312
+#, c-format
+msgid "release jobserver semaphore: (Error %ld: %s)"
+msgstr "atbrīvot darbu servera semaforu: (kļūda %ld: %s)"
+
+#: src/w32/w32os.c:383
+#, c-format
+msgid "semaphore or child process wait: (Error %ld: %s)"
+msgstr "semafora vai bērnprocesa gaidīšana: (kļūda %ld: %s)"
+
+#: src/w32/w32os.c:451
+#, c-format
+msgid "cannot parse output sync mutex %s: %s"
+msgstr "nevar parsēt izvades sinhronizācijas muteksu %s: %s"
+
+#: src/w32/w32os.c:454
+#, c-format
+msgid "invalid output sync mutex: %s"
+msgstr "nederīgs izvades sinhronizācijas mutekss: %s"
